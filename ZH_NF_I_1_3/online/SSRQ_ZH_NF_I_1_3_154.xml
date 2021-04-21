@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_154</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4324771">StAZH B III 117 a, fol. 1v</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Entlohnung städtischer Amtleute durch den Baumeister</head><msContents><summary>Die beiden Werkmeister der Stadt sowie Wegmacher (Besetzer), Brunnenmacher und weitere Amtleute, die bisher das Fronfastengeld vom Säckelamt erhalten haben, sollen künftig durch den Baumeister ausbezahlt werden. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1533-01-22"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1543-01-01" to="1543-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Guex 1986, S. 106</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000490">Bauwesen</term><term ref="key004536">Finanzen</term><term ref="key000849">Handwerk</term><term ref="key000212">Löhne</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1v" facs="StAZH_B_III_117_a__fol__1_v_.tif
+"/>
+<head><lb/>Was ein buwmeister für ambt<lb break="no"/>luͤt umb ir jargelt zalen soll <abbr>etc</abbr></head>
+<p>
+<seg><lb/>Alls bißhar beid weͣrchmeister, ouch beseͣtzer, brunnenmacher<note>Zur städtischen Wasserversorgung vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_195">SSRQ ZH NF I/1/3, Nr. 195</ref></bibl>.</note>
+<lb/>unnd derglich amptluͤt uß unnser statt <orgName ref="org004912">seͣckelampt</orgName><note>Zum <orgName ref="org004912">Säckelamt</orgName> vgl. den Eid der Säckelmeister
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_002">SSRQ ZH NF I/1/3, Nr. 2</ref></bibl>).</note> umb ir
+<lb/>fronvasten geͣlt bezalt, weͣllen wir umb meͣrer komblig<lb break="no"/>keit
+willen, das hinfüro ein jeder, so unnser buwmeister
+<lb/>ist, die bemeͣlten amptlüt umb soͤllich fronvasten geͣlt
+<lb/>unnd besoldungen ußrichten unnd abfeͣrtigen soͤlle.</seg>
+<seg>Actum
+<lb/><origDate when="1533-01-22">mitwuchen vor <persName ref="per012717">Caroli</persName> anno <abbr>etc</abbr> xxxiij<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung geht auf das Jahr 1533 zurück und wurde 1543 in das zu diesem Zeitpunkt neu angelegte Baumeisterbuch eingetragen (vgl. dazu auch Eid und Ordnung des Baumeisters, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_183">SSRQ ZH NF I/1/3, Nr. 183</ref></bibl>). Ein sinngemäss übereinstimmender Beschluss, auf den sich der Eintrag beziehen dürfte, findet sich im Rats- und Richtbuch des Jahres 1533, jedoch unter leicht abweichendem Datum, nämlich 29. Januar 1533 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4339014">StAZH B VI 252, fol. 286r-v</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

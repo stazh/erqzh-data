@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_028_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435513">StAZH C I, Nr. 2470</idno></msIdentifier><head>Verkauf der Mühle in Greifensee an Hänsli Kunz</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden, dass Kueni von Stegen aus Oberuster, auch als Vormund der Kinder seines verstorbenen Bruders Ruedi von Stegen, die Mühle in Greifensee sowie die dazugehörigen Rechte, die Kueni, Ruedi und Konrad von Stegen gemäss einer wörtlich zitierten Urkunde vom 3. Mai 1435 als Erblehen der Stadt Zürich empfangen hatten, für 110 Pfund Zürcher Pfennig an Hänsli Kunz aus Schwerzenbach verkauft habe. Die Aussteller siegeln mit dem kleinen Stadtsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="40.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1443-07-06"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 6, Nr. 8964</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000119">Erbleihe</term><term ref="key004706">Konzession</term><term ref="key000047">Mühlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2470__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und raͧtt der statt <placeName ref="loc000065">Zuͤrich</placeName></orgName>, tuͦnd kunt aller menglichem mit disem brieff, das <persName ref="per013749">Cuͤni von Staͤgen</persName>
+von <placeName ref="loc008736">Oberustre</placeName> in namen und
+<lb/>an statt sin selbs und <persName ref="per013750">Ruͤdy von Staͤgen</persName> seligen, sines bruͦders, kinden, dero vogt er ist, eins rechten, stetten, ewigen koͧfs fuͤr sich, die <choice><abbr>jetzgenten</abbr><expan>jetzgenempten</expan></choice>
+kind und ir beider erben
+<lb/>verkoͧfft und zekoͧffend geben haͧt <persName ref="per013774">Henslin Cuͤntzin</persName> von <placeName ref="loc008652">Swertzenbach</placeName> und sinen erben die rechtung, so er und des egeseiten sines bruͦders kind gehept habend an
+<lb/>der mu̍ly und dem mu̍ly recht ze <placeName ref="loc008569">Griffensew</placeName> gelegen mit wasser, wasserflu̍ssen, zuͦgengen und vongengen, als sy die von u̍ns ze einem rechten erblehen enpfangen
+<lb/>hand naͧch usswisung des briefs, inen von u̍ns darumb versigelt geben, der hie naͧch von wort ze wort eigenlich geschriben staͧt:</seg>
+<gap source="SSRQ ZH NF II/3, Nr. 24"/>
+<seg><lb/>Und also ist der koͧff umb ir gerechtikeit der egeseiten mu̍ly beschechen umb <measure type="currency" unit="lb" quantity="110" origin="ZH">hundert und zechen pfund Zu̍richer pfennig</measure>, dero er von dem
+<choice><abbr>obgenten</abbr><expan>obgenempten</expan></choice>
+<persName ref="per013774">Henslin Cuͤntzin</persName>
+<lb/>gentzlich gewert und bezalt ist, haͧt die oͧch in sinen und des <choice><abbr>vorgenten</abbr><expan>vorgenempten</expan></choice> sines bruͦders seligen kinden guͦten nutz und fromen geben und bekert, des er offenlich vor u̍ns
+<lb/>verjach, und darumb so haͧt der obgeseit <persName ref="per013749">Cuͤni von Staͤgen</persName> an statt und in namen sin selbs und des egenempten <persName ref="per013750">Ruͤdy von Staͤgen</persName> seligen, sines bruͦders, kinden, dero vogt er ist,
+<lb/>jetz vor u̍ns mit guͦten tru̍wen gelopt und verheissen fu̍r sich, die <choice><abbr>jetzgenten</abbr><expan>jetzgenempten</expan></choice> kind und ir beider erben des obgeschribnen koͧfs umb die rechtung, so sy gehept hand an der
+<lb/><choice><abbr>obgenten</abbr><expan>obgenempten</expan></choice> mu̍ly und dem mu̍ly recht, naͧch usswisung des egeseiten briefs, rechter wer ze sind naͧch recht des
+<choice><abbr>vorgenten</abbr><expan>vorgenempten</expan></choice>
+<persName ref="per013774">Hensly Cuͤntzis</persName> und siner erben vor geistlichen und
+<lb/>weltlichen gerichten und mit namen an allen enden und stetten, wo, wenn und wie dik sy des jemer notdurfftig sind aͧn geverd.
+Sich haͧt oͧch der <choice><abbr>vorgent</abbr><expan>vorgenempt</expan></choice>
+<persName ref="per013749">Cuͤni von
+<lb/>Staͤgen</persName> jetz vor u̍ns in namen und an statt sin selbs und des <choice><abbr>obgenten</abbr><expan>obgenempten</expan></choice>
+<persName ref="per013750">Ruͤdy von Staͤgen</persName> seligen, sines bruͦders, kinden,
+dero vogt er ist, gentzlich entzigen alles rechten, vordrung
+<lb/>und anspraͧch, so er, die <choice><abbr>egenten</abbr><expan>egenempten</expan></choice> kind und ir beider erben naͧch ir rechtung der <choice><abbr>obgenten</abbr><expan>obgenempten</expan></choice> mu̍ly ze
+<placeName ref="loc008569">Griffensew</placeName>, naͧch des vorgeschribnen brieffs lut und sag, dehein wise
+<lb/>jemer me gehaben oder gewu̍nnen moͤchtind gen dem egenempten <persName ref="per013774">Henslin Cuͤntzin</persName> und sinen erben mit gerichten, geistlichen, weltlichen, aͧn gericht oder suss mit
+<lb/>deheinen andern sachen, listen, fu̍nden und geverden, in keinen weg, alles ungefarlich.</seg>
+<seg>Und zuͦ warem, vestem urku̍nd aller vorgeschribner ding, wan wir dis gesechen
+<lb/>und gehoͤrt hand, so haben wir u̍nser statt insigel das minder offenlich laͧssen henken an disen brieff, doch u̍ns, u̍nser gemeinen statt und allen u̍nsern naͧchkomen
+<lb/>an u̍nsern fryheiten, zinsen und rechtungen, so wir zuͦ und uff der <choice><abbr>obgenten</abbr><expan>obgenempten</expan></choice> mu̍ly hand, gentzlich unschedlich, der geben ist uff
+<origDate when="1443-07-06">samstag naͧch sant <persName ref="per000356">Uͦlrichs</persName> tag des
+<lb/>jaͧrs, als man zalt von der gebu̍rt Cristy viertzechen hundert viertzig und dru̍ jaͧre</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2470__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Ein alter mülibrief
+<lb/>umb die müli zuͦ
+<placeName ref="loc008569">Gryffen<lb break="no"/>see</placeName>, <origDate when="1443">1443</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Mühle hatten die Brüder <persName ref="per013749">Kueni</persName>, <persName ref="per013750">Ruedi</persName>
+und <persName ref="per013732">Konrad von Stegen</persName>
+acht Jahre zuvor übernommen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_024">SSRQ ZH NF II/3, Nr. 24</ref></bibl>).
+Das Original der damaligen Verleihungsurkunde ist nicht erhalten,
+wurde im vorliegenden Stück aber vollumfänglich inseriert.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

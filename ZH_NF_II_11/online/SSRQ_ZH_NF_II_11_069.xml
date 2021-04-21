@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_069</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1147799">StAZH C II 10, Nr. 552 a</idno></msIdentifier><head>Ordnung und Verbesserung betreffend die Güter auf dem Zürichberg und die neue Allmend</head><msContents><summary>Die beiden Räte der Stadt Zürich erstellen eine neue Ordnung betreffend die Güter auf dem Zürichberg und die neue Allmend sowie deren Verwaltung und Bewirtschaftung. Die Güter an Holz und Feld sind in drei Teile geteilt: Ein Teil wird der Stadt Zürich vorbehalten, ein zweiter Teil den beiden Wachten Fluntern und Hottingen aus Gnade zu einem allgemeinen Weidgang überlassen. (Der dritte Teil wird zu einem Meierhof gemacht und in diesem Stück nicht erwähnt). Auf den Beschrieb des Umfangs der städtischen Güter (1) folgen Angaben über die Anstellung eines Bannwarts auf dem Adlisberg und dessen Entschädigung (2,3), der Eid des Bannwarts (4), Angaben über Amtsübergabe und Entschädigung des Amtmanns (5), der Eid des Amtmanns (6) sowie Angaben zu Holzbann und Bussen wegen Holz- und Feldfrevels (7) sowie Viehschadens (8), die Erlaubnis, wertloses Holz zu hauen (9) und eine Bestimmung zum Einzug der Bussen (10). Auf den Beschrieb der Güter der beiden Wachten (11) folgt die Pflicht der </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Heft (8 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="16.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1545-07-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term>Amtsleute</term><term ref="key005361">Amtsübergabe</term><term ref="key000179">Eid</term><term ref="key000524">Holz</term><term ref="key000212">Löhne</term><term ref="key004022">Satzung</term><term ref="key005444">Tierhaltung</term><term ref="key000249">Wald</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="1" facs="StAZH_C_II_10__Nr__552_a__S__01_.tif"/>
+<div>
+<head>
+<lb/>Ordnung unnd verbeßerung deß <placeName ref="loc010892">Zürich<lb break="no"/>beͣrgs</placeName> 
+liggender guͤtteren, ouch der nüwen 
+<lb/>allgmeynd halb, wie unnd wellichermas<lb break="no"/>ßen 
+die nun hinfür verwaltten unnd be<lb break="no"/>worben 
+werden söllint, von mynen gnedigen 
+<lb/>herren, den <orgName ref="org004016">beyden räthen der statt <placeName ref="loc000065">Zürich</placeName></orgName>, 
+<lb/>gesetzt unnd reformiert,<!-- vgl. C II 10, Nr.&#160;529, Projektierte Einrichtung des Maierhofs auf dem
+Zürichberg, der Allmend sowie des Holzes und Felds der Stadt Zürich samt projektierter Revision
+der Ordnung über den Zürichberg von 1540 durch Ratsverordnete von ca. 1542. -->
+<origDate when="1545-07-08"> mittwuchs nach 
+<lb/>sanct <persName ref="per000356">Uͦlrichs</persName> tag anno <abbr>etc</abbr> 1545</origDate>
+</head>
+<seg n="1">
+<p>
+<lb/>Erstlich sinnd die guͤtter an holtz unnd feld und<lb break="no"/>erscheyden 
+unnd inn <num value="3">dryg</num> theyl getheylt, deͣren
+<lb/>eynen myne herren inen zuͦ gemeyner irer statt <lb/>selbs
+vorbehaltten
+<!-- Ein Teil wird zur städtischen Allmend geschlagen. Deshalb ist später die Rede vom Hard.-->
+unnd hernach verzeychnen laßen <lb/>haben. <lb/>Nemlich: </p>
+<p>
+<lb/>Eyn tannwald uff <choice><sic>dem dem</sic><corr>dem</corr></choice>
+<placeName ref="loc011559">Adlisperg</placeName>, ist 
+<lb/>zum myndsten <measure type="area" unit="Juchart" commodity="forest" quantity="24">xxiiij jucharten</measure>.
+</p>
+<p>
+<lb/>Item aber eyn holtz uff dem <placeName ref="loc011559">Adlisperg</placeName>, heyßt der 
+<lb/><app><lem><placeName ref="loc012614">Houw</placeName></lem><rdg wit="StAZH C II 10, Nr. 529"><placeName ref="loc012614">Wyger How</placeName></rdg></app>, ist aspi, tanni, eychi, eerlis unnd ann<lb break="no"/>derley 
+holtz, ist ouch by <measure type="area" unit="Juchart" commodity="forest" quantity="24">xxiiij juchartten</measure>.
+</p>
+<pb n="2" facs="StAZH_C_II_10__Nr__552_a__S__02_.tif"/>
+<p>
+<lb/>Item zwüschend vorgemeltem <placeName ref="loc012614">Wygerhouw</placeName> eyn 
+<lb/>weyd, ist vor zyten ouch eyn tannwald gsin, 
+<lb/>hatt yetzt aber vil junger teͣnnlinen unnd sol zuͦ 
+<lb/>eynem wald werden, ist ouch by <measure type="area" unit="Juchart" commodity="grassland" quantity="24">xxiiij juchartten</measure>.
+</p>
+<p>
+<lb/>Wyter eyn holtz, stoßt an <placeName ref="loc011559">Adlisperg</placeName>, heyßt der 
+<lb/><placeName ref="loc012594">Buͦchelsperg</placeName>, unnd dann eyn holtz daran, stoßt an 
+<lb/><placeName ref="loc012261">Dobelhoff</placeName>, <choice><sic>genenempt</sic><corr>genempt</corr></choice>
+<placeName ref="loc012093">inn Tachßlöcheren</placeName>, darinn 
+<lb/>stadt allerley holtz, eychen, buͦchis, tannen unnd 
+<lb/>aspiß, wirt zum wenigisten für <measure type="area" unit="Juchart" commodity="forest" quantity="24">xxiiij jucharten</measure>
+<lb/>geschetzt.
+</p>
+<p>
+<lb/>Item eyn jungs holtz, genant <placeName ref="loc012760">Sanct Liebenhouw</placeName>, 
+<lb/>lyt ob dem closter<note>Ehemaliger Konvent des Chorherrenstifts <orgName ref="org006252">St. Martin auf dem <placeName ref="loc010892">Zürichberg</placeName></orgName>.</note>, ist by <measure type="area" unit="Juchart" commodity="forest" quantity="20">xx jucharten</measure>, me <measure type="area" unit="Juchart" commodity="forest" quantity="3">iij 
+<lb/>jucharten holtz</measure> oben daran, sampt dem strich, den die 
+<lb/>verordneten <app><lem>vor</lem><rdg wit="StAZH C II 10, Nr. 529">von</rdg></app> der wißen ald weyd darzuͦ getheylt 
+<lb/>habend. Sölliches alleß stoßt oben an der <orgName ref="org008827">Straͤßler<lb break="no"/>en</orgName> 
+allmendt<!-- Ist damit die Allmend von Oberstrass gemeint? PS: Wahrscheinlich-->.
+</p>
+<p>
+<lb/>Item eyn weyd unnd höltzer, wirt genannt <placeName ref="loc012779">inn 
+<lb/>Wyden</placeName>, lyt unnder dem <orgName ref="org005088">Spitaler</orgName> holtz, ist ob <measure type="area" unit="Juchart" commodity="forest" quantity="20">zweyn<lb break="no"/>tzig 
+jucharten</measure>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" commodity="forest" quantity="8">viij jucharten holtz</measure> ungefaarlich eͣneth der 
+<lb/>straaß, wie söllichs vom nüwbruch ald infang 
+<lb/>gesünndert ist.
+</p>
+<pb n="3" facs="StAZH_C_II_10__Nr__552_a__S__03_.tif"/>
+<p>
+<lb/>Item eyn wißen by der <placeName ref="loc010439">Glatt</placeName>, ist <measure type="area" unit="Mannwerk" commodity="grassland" quantity="12">xij manwerch</measure>, 
+<lb/>darvon gitt man dem <orgName ref="org004352">Großenmünster</orgName>
+<date dur="R/P1Y">alle jar</date>
+<lb/><measureGrp><measure type="currency" unit="lb" quantity="1">i </measure>
+<measure type="currency" unit="ß" quantity="8">viij </measure></measureGrp> für den zeͣchenden. Sölliche wiß ist 
+<lb/>von eym amptman umb eynen zinns verlichen.
+</p>
+<p>
+<lb/>Die summ myner herren theyl ist an holtz unnd 
+<lb/>veld <measure type="area" unit="Juchart" quantity="163">j<hi rend="sup">c</hi> lxiij juchartten</measure>.
+</p></seg>
+<head type="subtitle">
+<lb/>Bestallung eynes banwarts
+</head>
+<p><seg n="2">
+<lb/>Zuͦ beschyrmung söllicher yetzgemelter höltzeren 
+<lb/>ist eyn banwart gesetzt, der soll sin sitz im <placeName ref="loc011559">Adli<lb break="no"/>sperg</placeName> 
+unnd darzuͦ <date dur="R/P1Y">deß jars</date> für sin belonung haben 
+<lb/><measure type="currency" unit="fl" quantity="20">zwenntzig guldin</measure>. Item es soll im ouch ingegeben 
+<lb/>werden eyn plätzli höwgweͣchs, darvon eyn kuͦg 
+<lb/>gewynnteren möge. Item eyn kölgaͤrttli unnd eyn 
+<lb/>hannffleͣnndli, ouch sovyl breͣnnholtz, als er zuͦ sy<lb break="no"/>ner 
+hußhalt nothurfftig ist, doch alleyn abholtz 
+<lb/>oder sunst schlechts abschetzigs holtz, wo im das der 
+<lb/>amptman (der hienach gemeldet wirt) zum en<lb break="no"/>schädlichisten 
+zoygen kan, dann hynnder dem<lb break="no"/>selben 
+unnd one sin vorwißen unnd erlouben soll 
+<lb/>er nüt nemmen noch anndern lüten gestatten zenemmen, 
+<lb/>weͣder inn schenngkungs noch annderer wyße inn 
+<lb/>keynen weͣg.<note>Dieser Artikel entspricht grösstenteils Artikel 18 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>); der Lohn von 20 Gulden und der Hälfte des Obstes wurde dort in einem eigenen Artikel geregelt (Art. 19). Allerdings sah die alte Ordnung zwei Bannwarte vor, einen auf dem <placeName ref="loc011559">Adlisberg</placeName> und einen auf dem <placeName ref="loc010892">Zürichberg</placeName>. Zur Einsparung von Kosten empfahlen die Verordneten im Entwurf, nur noch einen Bannwart zu beschäftigen und die Aufgaben des anderen ohne zusätzliche Belohnung dem Meier des neuen Meierhofs zu übertragen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 13-14</bibl>). Daher fehlt in der vorliegenden Ordnung auch jener Artikel der alten Ordnung, der sich mit der Bestellung der zwei Bannwarte befasste (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref>, Art. 16</bibl>).</note>
+</seg>
+</p>
+<pb n="4" facs="StAZH_C_II_10__Nr__552_a__S__04_.tif"/>
+<p><seg n="3"><lb/>Das opß, so allenthalben uff deß <placeName ref="loc010892">Zürichbergs</placeName> guͤtern 
+<lb/>wachßt (ußgenommen im meygerhof), soll der ammpt<lb break="no"/>man 
+unnd der banwart miteynannder teylen 
+<lb/>unnd yeder das halb nemmen.<note>Diese Bestimmung zum Obst war in der Ordnung von 1540 einerseits in den Bestimmungen zur Besoldung des Bannwarts enthalten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref>, Art. 19</bibl>), andererseits entspricht der Anspruch des Amtmanns Artikel 12 der Ordnung von 1540.</note>
+</seg></p>
+<head type="subtitle">
+<lb/>Deß banwarts eyd
+</head>
+<p><seg n="4">
+<lb/>Es soll der banwart schweeren, mynen gnedigen 
+<lb/>herren von <placeName ref="loc000065">Zürich</placeName> trüw unnd waarheyt zehalt<lb break="no"/>en, 
+ iren nutz zefürdern unnd schaden ze weͣnnden 
+<lb/>unnd fürneͣmmlich vorgenempte höltzer im <placeName ref="loc011559">Adli<lb break="no"/>sperg</placeName> 
+ fruͤg unnd spaat flyßig zeschirmen unnd 
+<lb/>zuͦvergoumen. Unnd wen er schadens halb dar inn 
+<lb/>fynndt oder ergryfft, den dem amptman unver<lb break="no"/>zogentlich 
+ zeleyden unnd anzegeben. Darneben 
+<lb/>ouch zuͦbesorgen, das die zün gegen hoͤltzeren inn 
+<lb/>eeren werdint gehalten unnd das der meyger, so 
+<lb/>den <placeName ref="loc010892">Zürichbergerhof</placeName> besitzt, deß <placeName ref="loc010892">Zürichbergs</placeName>
+<lb/>hoͤltzer sammentlich unnd sonnderlich inn schutz 
+<lb/>unnd schirm unnd derselben eygentlich unnd wol 
+<lb/>acht habe. Unnd ob derselb meyger das nit theͣtte, 
+<lb/>sonder daran farlaͤßig were, das glycher wyß 
+<lb/>dem amptman anzuͦzeygen, alß ouch der meyger 
+<lb/>hinwiderumb gegen im ouch thuͦn wirt. Unnd 
+<lb/>benanntlich soll er dem amptman inn allweͣg 
+<lb/>gehorsamm unnd gewaͤrttig sin unnd sunst ußer<pb n="5" facs="StAZH_C_II_10__Nr__552_a__S__05_.tif"/><lb break="no"/>thalb 
+erzelter gescheͣfften endheyner annderer 
+<lb/>dingen acht zehaben, sonnder inn disem allem 
+<lb/>sin beßts unnd wegsts thuͦn gethrüwlich unnd 
+ <lb/>ungefaarlich.<note>Dieser Artikel entspricht inhaltlich Artikel 17 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>), ist aber etwas wortreicher; ausserdem wurde die allgemeine Treue- und Gehorsamspflicht den gnädigen Herren gegenüber ergänzt. Neu ist die gegenseitige Kontrolle von Bannwart und Meier, welche im Entwurf noch einen eigenen Artikel ausmachte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 15</bibl>).</note>
+</seg></p>
+<head type="subtitle">
+<lb/>Deß amptmans bestallung, der zuͦ 
+<lb/>eynem schirmherren deß <placeName ref="loc010892">Zürich<lb break="no"/>bergs</placeName> 
+genommen unnd fürgsetzt wirt
+</head>
+<p><seg n="5">
+<lb/>So denne nemmend myne herren von unnd uß 
+<lb/>irem rath eynen amptman, der deß <placeName ref="loc000065">Zürich<lb break="no"/>bergs</placeName> 
+unnd deßelben höltzeren unnd guͤtteren 
+<lb/>pfleͣger unnd fürgsetzter sin soll. Alß yetzmals 
+<lb/>ist <abbr>m</abbr>
+<persName ref="per015647">Heinrich Wunnderlich</persName>, dem gyt man 
+<lb/><date dur="R/P1Y">jerlichs</date> zuͦ belonung <measure type="currency" unit="fl" quantity="10">zechen guldin</measure>, darzuͦ 
+<lb/>hat er den halben teyl opß, so allennthalben 
+<lb/>uff deß <placeName ref="loc010892">Zürichbergs</placeName> guͤttern wachßt inn der 
+<lb/>nüwen allgmeynd unnd sunst. Den annderen 
+<lb/>halben teyl nymmpt der banwart im <placeName ref="loc011559">Adlisperg</placeName>, 
+<lb/>wie obstat. Doch dem meyger unvergriffen, 
+<lb/>dann sy denselben (so wyt sich sin hof erstreckt) 
+<lb/>inn disem fal ruͤwig unnd ungeirrt laßen 
+<lb/>söllennt.<note>Dieser Artikel hat weder in der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>) noch im Entwurf (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>) eine Entsprechung. Artikel 12 der Ordnung von 1540 hält nur fest, dass der Amtmann Anspruch auf die Hälfte des Obstes vom Zürichberg habe.</note>
+</seg></p>
+<head type="subtitle">
+Vorgemelts amptmans eyd
+</head>
+<p><seg n="6"><lb/>Es soll der ammptman schweeren, sin beßten flyß 
+<lb/>nach vermögen an<add place="above">ze</add>keeren, damit deß <orgName ref="org006252">Zürich<pb n="6" facs="StAZH_C_II_10__Nr__552_a__S__06_.tif"/><lb break="no"/>bergs</orgName>,
+<orgName ref="org005088">Spittals</orgName>, <orgName ref="org004908">Frowenmünster</orgName> unnd <orgName ref="org002666">Öttenbacher</orgName>
+<lb/>höltzer, so an dem <placeName ref="loc010892">Zürichberg</placeName> liggend, vor 
+<lb/>schaden thrüwlich vergoumpt unnd verhuͤttet 
+<lb/>werdint unnd das er im selbs noch annder 
+<lb/>lüthen gar keyn holtz geben noch verschencken 
+<lb/>welle one erlouptnuß myner herren, eynes 
+<lb/>ersammen raths, unnd darneͣben sunst 
+<lb/>alles das zehanndlen unnd zethuͦn, das er 
+<lb/>gedennckt gemeyner statt nutz und eer 
+<lb/>zesyn.<note>Dieser Artikel entspricht Artikel 11 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>), ergänzt um den Zusatz zur Förderung des Nutzens der Stadt. Die Pflicht des Amtmanns, zwei 
+Zuchtstiere für die Allmend zu stellen, die in der Ordnung von 1540 in Artikel 13 festgehalten wurde, entfällt, da laut dem Entwurf sowohl <persName ref="per025217">Küderli</persName> auf dem <placeName ref="loc012261">Tobelhof</placeName> als auch der Meier auf dem neuen Meierhof einen Stier zu 
+halten hatten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 13</bibl>).</note></seg></p>
+<head type="subtitle">
+<lb/>Hernach volgt der ban, so uff die 
+<lb/>höltzer by eyner geltstraaff gesetzt ist</head>
+<seg n="7">
+<p>
+<lb/>Als dann unnsere herren <orgName ref="org002406">burgermeyster 
+<lb/>unnd räth der statt <placeName ref="loc000065">Zürich</placeName></orgName> inn ettlichen 
+<lb/>verganngnen jaren habent laßen verbyetten, 
+<lb/>das nyemandts deheynerley holtzes inn der 
+<lb/>kilchen zum <orgName ref="org004352">Großen</orgName> unnd <orgName ref="org004908">Frowenmünster</orgName>, 
+<lb/>deß <orgName ref="org006252">closters uff dem <placeName ref="loc010892">Zürichberg</placeName></orgName>, ouch <orgName ref="org005088">Spittals</orgName>
+<lb/>unnd iren verwandten höltzeren, es seyge uff 
+<lb/><placeName ref="loc012123">Gumleren</placeName>, am <placeName ref="loc012124">Hanngelweͣg</placeName>, am <placeName ref="loc010892">Zürichberg</placeName>, 
+<lb/>im <placeName ref="loc011559">Adlisperg</placeName>, zuͦ <placeName ref="loc009859">Schwamendingen</placeName>, <placeName ref="loc010356">Rieden</placeName>, 
+<lb/><placeName ref="loc009768">Hönngg</placeName> oder an annderen ennden gelegen, ab<lb break="no"/>howen, 
+hinfuͤren noch hinweg tragen söllte, 
+<lb/>by der buͦß daruff gesetzt.</p><p>
+<lb/>Allso ist an dieselben unnser herren gelannget, 
+<lb/>das söllichs bißhar aͤben schleͣchtlich gehalten syge, 
+<lb/>deßhalb die gemelten unnsere herren <orgName ref="org002406">burger<pb n="7" facs="StAZH_C_II_10__Nr__552_a__S__07_.tif"/><lb break="no"/>meyster 
+unnd räth</orgName> söllich gebott ernüwerent, 
+<lb/>allso <del>v</del> von wellichem das übersechen, nitt 
+<lb/>gehaltten unnd verleydet wirt, wellennt unn<lb break="no"/>sere 
+herren laßen straffen. Unnd nammlich 
+<lb/>von yeder eych, so allso abgehowen wirt, <measure type="currency" unit="lb" quantity="3">drü 
+<lb/>pfund</measure> zuͦ buͦß nemmen laßen. Item von eyner 
+<lb/>tannen <measureGrp><measure type="currency" unit="lb" quantity="1">eyn pfund</measure>
+<measure type="currency" unit="ß" quantity="5">fünf schilling</measure></measureGrp>. Item von 
+<lb/>eyner buͦch <measure type="currency" unit="lb" quantity="1">eyn pfund</measure>. Item von yeder reyff
+<lb break="no"/>stanngen, die syge haßlin, birchin, krießboümin, 
+<lb/>salwydin oder annderley holtzes, <measure type="currency" unit="ß" quantity="10">zechen schilling</measure>. 
+<lb/>Unnd demnach von annderem gemeynen kley<lb break="no"/>nen 
+unnd jungen holtz, das die gebursame je zuͦ 
+<lb/>zünen brucht, es sygent kernngertten, haßlen, 
+<lb/>wyßtörnn, schlechtörnn, wyden und derley 
+<lb/>holtzes, <measure type="currency" unit="ß" quantity="5">fünff schilling</measure>. Wer aber der stumpp, 
+<lb/>stock oder how merschädlich dann jetzgemelt 
+<lb/>ist, dann sol ouch eyner, der gefraͤffnet hatt, 
+<lb/>noch türer gebuͤßet werden unnd nach erkantt<lb break="no"/>nuß 
+der gebursame, so die höltzer verzinsent, 
+<lb/>den beschechnen schaden vergellten. Ouch sol 
+<lb/>nyemantz inn der gemelten <orgName ref="org006252">kilchen deß <placeName ref="loc010892">Zü<lb break="no"/>richbergs</placeName></orgName>,
+<orgName ref="org005088">Spittals</orgName> unnd dero verwanndten 
+<lb/>wellden, höltzeren unnd banne deheyn ge<lb break="no"/>howne 
+schytter, stickell, staglen oder sunst 
+<lb/>annders holtz uffmachen, hinfuͤren oder traͤgen. 
+<lb/>Dann wellicher söllichs theͣtte, den wurde 
+<lb/>man nach gestalt der sach zum höchsten nach 
+<lb/>billickeyt straaffen. Wytter sol nyemantz durch 
+<lb/>der gemellten stifften oder ir verwandten guͤtter 
+<pb n="8" facs="StAZH_C_II_10__Nr__552_a__S__08_.tif"/>
+<lb/>deheyns weͣgs gan oder ryten unnd deheynem 
+<lb/>sin embde, höw nach ops verwuͤsten, zergenngen, 
+<lb/>abbrechen noch hinweͣg tragen. Dann wer das 
+<lb/>darüber thuͦt, der ist ouch <measure type="currency" unit="ß" quantity="10">zechen schilling</measure> zuͦ 
+<lb/>buͦß verfallen. Unnd damit die welld, wisen, 
+<lb/>ägker, höltzer unnd guͤtter der gemelten <orgName ref="org006252">kilchen 
+<lb/><placeName ref="loc010892">Zürichbergs</placeName></orgName>, <orgName ref="org005088">Spittals</orgName>
+<placeName ref="loc000065">Zürich</placeName> unnd ir verwannd<lb break="no"/>ten 
+inn söllichem banne beschirmpt werdint, 
+<lb/>habent obgenante unnsere herren <orgName ref="org002406">burgermey<lb break="no"/>ster 
+unnd räth</orgName> nachgelaßen, das söllich buͦssen 
+<lb/>on alle gnad söllint ingezogen werden. Darnach 
+<lb/>wüß sich mengclich zuͦrichten unnd im selbs 
+<lb/>vor schaden ze sinde.
+</p>
+<p>
+<lb/>Wytter habennt sich unnsere herren erkennth, 
+<lb/>das wellicher ahornin, eschin, aspin oder 
+<lb/>erlin holtz abhowe, von eynem stumppen zuͦ 
+<lb/>buͦß sölle geben <measure type="currency" unit="lb" quantity="1">eyn pfund</measure>, glych wie von 
+<lb/>eyner buͦchen, als vorgeschriben stat.<note>Dieser Artikel entspricht einem undatierten Nachtrag zur Ordnung von 1540 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=348420">StArZH III.D.10., S. 21-23</ref></bibl>).</note>
+</p></seg>
+<head type="subtitle">
+<lb/>Buͦß von deß vechs weͣgen, ob das 
+<lb/>inn höltzeren ergriffen wurde</head>
+<p><seg n="8">
+<lb/>Item ob veͣch inn eyntweͣderem obbeschribner 
+<lb/>hoͤltzeren ergriffen wurde, deß gyt yedes houpt 
+<lb/><measure type="currency" unit="ß" quantity="10">zechen schilling</measure> zebuͦß. Es möchte aber der<lb break="no"/>maaßen 
+eyn schaden gethan haben, man wurde
+<pb n="9" facs="StAZH_C_II_10__Nr__552_a__S__09_.tif"/>
+<lb/>es by söllicher buͦß nit belyben laßen, sonnder 
+<lb/>den, deß das vech ist, nach größe deß schadenns 
+<lb/>höcher straaffen.<note>Dieser Artikel entspricht einem Nachtrag vom 2. Oktober 1542 zur Ordnung von 1540 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=348414">StArZH III.D.10., S. 17</ref></bibl>).</note></seg></p>
+<head type="subtitle">
+<lb/>Was unnd wellicherley holtzes 
+<lb/>zehowen nachgelaßen ist</head>
+<p><seg n="9">
+<lb/>Unnd wiewol alles holtz, krumbs unnd gerads, 
+<lb/>zehowen verbotten, so ist doch sydhar uff bitt 
+<lb/>der wachtgnoßen uß gnaden widerumb <del>ge-</del>
+<lb/>vergonnt unnd nachgelaßen, das man ruche 
+<lb/>dörnn unnd hutboüm alß holtz, so gar keynes 
+<lb/>weͣrds ist, zum zünen unnd annderer notthurfft 
+<lb/>wol howen möge. Doch das eyn yeder deß zuͦvor 
+<lb/>von dem ammtman erlouptnuß unnd in darumb 
+<lb/>begruͤßt habe, der soll im dann den banwartten 
+<lb/>zuͦgeben, das er luͦge, was er howe. Unnd one 
+<lb/>deßelben bysin soll endheyner nüt howen. 
+<lb/>Fräflete aber yemann des darüber, der gyt die 
+<lb/>buͦß on alle gnad, wie vom ban obgeschriben ist.<note>Dieser Artikel basiert einerseits auf dem Nachtrag vom 14. Juni 1542 zur Ordnung von 1540, der unten als Artikel 23 noch einmal aufgenommen wurde. 
+Andererseits wurde er von den Verordneten im Entwurf angelegt als Antwort auf die spezifische Nachfrage des Amtmanns, wie mit dem Schlagen von <orig>houtboum</orig> (wolliger Schneeball, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id4.htm#!page/41235/mode/2up">Bd. 4, Sp. 1238</ref></bibl>) 
+umgegangen werden soll (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 17</bibl>).<!-- Diese Gnade erteilt die Obrigkeit auch in späterer Zeit noch, vgl. StArZH III.D.3a, fol. 2r, Eintrag 1. (Abschrift des 18. Jh. Hier handelt es sich aber eher um die Abschrift eines Textes aus dem 16. Jh.)--></note></seg></p>
+<head type="subtitle">
+<lb/>Wie die buͦßen von unrichtigen 
+<lb/>lüthen ingezogen werden söllent</head>
+<p><seg n="10">
+<lb/>Item was buͦßen mit überthreͣttung <sic>das</sic> bans im 
+<lb/>holtz gefallen unnd sich yemmands deren sperren 
+<lb/>oder die nit richtigclich geben wurde, sölliche soll 
+<lb/>der ammptman mit botten durch eynen stattkneͣcht 
+<lb/>thryben unnd mitsampt dem costen vorderen unnd 
+<lb/>inzüchen laßen.<note>Dieser Artikel wurde auf Vorschlag der Verordneten neu in die Ordnung aufgenommen. Nicht übernommen wurde der Vorschlag, das Einziehen des Viehzinses für die Allmend nicht mehr durch den Amtmann, sondern durch je einen Verordneten der 
+Wachten <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010476">Hottingen</placeName> besorgen zu lassen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 15-16</bibl>).</note></seg></p>
+<pb n="10" facs="StAZH_C_II_10__Nr__552_a__S__10_.tif"/>
+<head>
+<lb/>Der annder teyl deß <placeName ref="loc010892">Zürichbergs</placeName> guͤttern, 
+<lb/>wie der h<subst><del rend="overwritten"><unclear>er</unclear>nach</del><add place="above">ienach</add></subst> von stuck ver<lb break="no"/>zeychnet 
+ worden ist, uff thrungenlich 
+<lb/>bitt beyder wachten <placeName ref="loc008707">Fluͦnttern</placeName> unnd 
+<lb/><placeName ref="loc010476">Hottingen</placeName> unnd annderer biderber lüthen 
+<lb/>darumb geseͣßen uß gnaden zuͦ eynem 
+<lb/>allgemeynen weydgang geordnet, doch 
+<lb/>ouch mit dingen unnd gedingen hernach 
+<lb/>begriffen.</head>
+<seg n="11">
+<p>
+<lb/>Item eyn wisen, by <measure type="area" unit="Mannwerk" quantity="20" commodity="grassland">xx manwerch</measure> groß, heyßt der 
+<lb/><placeName ref="loc011559">Adlisperg</placeName>, stoßt an <placeName ref="loc012756"><orgName ref="org005088">Spittaler</orgName> How</placeName> gegen dem closter. 
+</p>
+<p>
+<lb/>Item aber eyn wisen, genannt <placeName ref="loc012782">Wildmatt</placeName>, ist ouch bi 
+<lb/><measure type="area" unit="Mannwerk" quantity="20" commodity="grassland">xx manwerchen</measure>, me daran eyn agker, stoßt an die 
+<lb/>lanndtstraaß, ist <measure type="area" unit="Juchart" quantity="9" commodity="field">viiij jucharten</measure>, lyt oben an der 
+<lb/>wiß, genannt <placeName ref="loc012592">Bruͦderwiß</placeName>.
+</p>
+<p>
+<lb/>Item aber <measure type="area" unit="Juchart" quantity="8" commodity="grassland">acht jucharten</measure>, deßglychen eyn weyd, ist 
+<lb/>nach <measure type="area" unit="Juchart" quantity="6">vj jucharten</measure>, stoßt zuͦ eym theyl an die 
+<lb/>lanndtstraaß, annderthalb an den <placeName ref="loc012683">Linden Acher</placeName>
+<lb/>unnd zum dritten an <placeName ref="loc012779">Wyden</placeName><!-- Acher-->.
+</p>
+<p>
+<lb/>Item eynen acher, heyßt der <placeName ref="loc012713">Unnder Atzen Büchel</placeName>, by 
+<lb/><measure type="area" unit="Juchart" quantity="11" commodity="field">xj jucharten</measure> groß, stoßt eyner sydt an die lanndtstraaß, 
+<lb/>zur annderen an <persName ref="per025218">Zimmbermans</persName> guͤtter, zum dritten 
+<lb/>an <placeName ref="loc012259">Sußenberg</placeName> unnd zum vierdten an <placeName ref="loc012712">Oberen 
+<lb/>Atzenbüchel</placeName>.
+</p>
+<pb n="11" facs="StAZH_C_II_10__Nr__552_a__S__11_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="12">xij jucharten</measure>, stoßt ouch an <placeName ref="loc012259">Sußenberg</placeName> unnd 
+<lb/>oben an der zum <placeName ref="loc013738"><orgName ref="org004908">Frowenmünster</orgName> Holtz</placeName> unnd ann<lb break="no"/>dere 
+höltzer.
+</p>
+<p>
+<lb/>Item me <num value="1">j</num> wissen, an gedachten <measure type="area" unit="Juchart" quantity="12">xij jucharten</measure> gele<lb break="no"/>gen, 
+ist <measure type="area" unit="Mannwerk" quantity="5" commodity="grassland">v manwerch</measure>, stoßt an die lanndtstraaß.
+</p>
+<p>
+<lb/>Item eyn acher, genannt <placeName ref="loc012041">Breyti</placeName>, ist <measure type="area" unit="Juchart" quantity="14" commodity="field">xiiij jucharten</measure>,
+<lb/>stoßt an die lanndtstraaß unnd <placeName ref="loc012843">Wygerwiß</placeName> unnd 
+<lb/>oben an die <placeName ref="loc012090">Kalberweyd</placeName>. 
+</p>
+<p>
+<lb/>Also hat der weydgang der gemeynen allmendt 
+<lb/><app><lem>an allerley guͤtteren</lem><rdg wit="StAZH C II 10, Nr. 529"/></app> wyt und breyt <app><lem/><rdg wit="StAZH C II 10, Nr. 529">an acher,
+wissen und velden</rdg></app><note>Im Entwurf (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>) fehlte ursprünglich <orig>an allerley guͤtteren</orig>, dafür stand <orig>an acher,
+wissen und velden</orig> nach <orig>wyt und breyt</orig>. Dies wurde dann durch Streichung und Überschreiben korrigiert zu der Fassung, wie sie auch in der Ausfertigung steht.</note>
+<measure type="area" unit="Juchart" quantity="105">j<hi rend="sup">c</hi> v jucharten</measure>.</p>
+</seg>
+<p><seg n="12">
+<lb/>Wellicher nun uff dise allgmeynd fart, die nutzt unnd 
+<lb/>brucht, der soll ouch schuldig unnd verbunden sin, die 
+<lb/>greͣben, zün, brugken unnd annders, deßglychen 
+<lb/>stäg und weͣg uff derselben allgmeynd im inn 
+<lb/>sinem anteyl costens helffen zemachen unnd inn 
+<lb/>eer zeleggen, so digk unnd vyl der ammptman in deß 
+<lb/>manen unnd erfordern thuͦt. Dann wellicher sich 
+<lb/>hyerwider setzen unnd ungehorsamm erschynen wurde, 
+<lb/>demselben soll der weydganng deß eͣnnds on alle 
+<lb/>gnad abgeschlagen unnd verbotten sin.<note>Der Entwurf (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>) erwähnt hier, dass die Verordneten im Vergleich zum ersten Artikel 
+von <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl> den Teil mit <orig>ouch die benamsoten fünff huser ab der <placeName ref="loc010574">Oberen Stras</placeName></orig> weglassen und durch eine allgemeine Formulierung 
+ersetzen wollten. Ebenfalls fielen die Bemerkungen weg, dass die Allmende eine Gnade und kein Recht sei und dass <orgName ref="org002406">Bürgermeister und Rat</orgName> sich jederzeit Änderungen vorbehalten 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref>, Art. 2</bibl>).</note></seg></p>
+<pb n="12" facs="StAZH_C_II_10__Nr__552_a__S__12_.tif"/>
+<p><seg n="13">
+<note>Ein Artikel zur Einrichtung des Meierhofs und zu den Pflichten und Nutzungsrechten des Meiers, der im Entwurf (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>) an dieser Stelle vorgeschlagen wurde, wurde nicht aufgenommen. Stattdessen finden sich die Beschreibung der Güter des Meierhofs und die Rechte und Pflichten des Meiers in <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4315560">StAZH C II 10, Nr. 552, S. 3-9</ref></bibl>.</note>
+<lb/>Item es soll nyemands meer dann <num value="2.5">dritthalb</num> houpt, <lb/>das
+ist zwo kuͤ unnd eyn kalb, für den hirtten <lb/>schlachen. Unnd
+wo inn eynem hus meer dann <lb/>eyn eegemechtdt ist, die nun eyn
+rouch unnd also <lb/>miteynannder hußhabennt, denen wirt ouch
+nit <lb/>meer, dann ob es nun ein hußhalt were, <num value="2.5">dritthalb</num>
+<lb/>houpt zuͦgelaßen. Aber <persName ref="per025188">Marx
+Sprüngli</persName><!-- ob der verwandt ist mit dem Ulrich Sprüngli, der eine Weide auf dem Zürichberg um 60fl an meine gn. Herren verkauf hat am 12.02.1541 und sich dieses Recht daraus ergibt?-->
+mag fünff <lb/>kuͤg unnd zwey kalber uff dise allgmeynd
+schlachen <lb/>lut syner brieffen.<note>Dieser Artikel entspricht Artikel 3 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note></seg></p>
+<p><seg n="14">
+<lb/>Item der hirtt soll im keyn sugennds kalb 
+<lb/>fürtrhryben laßen, es syge dann <measure type="age" unit="year" quantity="1">jeͣrig</measure> unnd 
+<lb/>louffe mit der kuͦg, die es kalberet hat.<note>Dieser Artikel entspricht Artikel 4 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note>
+</seg></p>
+<head type="subtitle">
+Deß hirtten eyd</head>
+<p><seg n="15">
+<lb/>Item eyn hirtt soll schweeren, das vich, so im 
+<lb/>für wirt geschlagen, nit on hirtten zelaßen. Er 
+<lb/>soll ouch mit dem vich am <time period="morning">morgen</time> zuͦ <time when="06:00:00">seͣchßen</time>
+<lb/>uß unnd am <time period="evening">abennt</time> zuͦ <time when="18:00:00">sechßen</time> wider infaren, 
+<lb/>das weͣtter ire in dann. Deßglychen, was vichs 
+<lb/>zuͦ schaden gaat, soll er abtragen. Ob ouch eynich 
+<lb/>vich, so im fürgeschlagen wirt, durch sin ver<lb break="no"/>warloßen 
+verdurbe, das soll er bezalen. Ob aber 
+<lb/>vich inn der allgemeynd <time period="byNight">übernacht</time> belibe unnd 
+<lb/>das zuͦ schaden gienge, gaatt inn nütz an. Doch 
+<pb n="13" facs="StAZH_C_II_10__Nr__552_a__S__13_.tif"/>
+<lb/>soll nyemandts keyn vich by <time period="byNight">nacht</time> uff die all<lb break="no"/>gemeynd 
+schlachen noch daruff laßen, by der 
+<lb/>buͦß, deren sich unnser herren erkennend. Er 
+<lb/>soll ouch deheyn vich inn die allgemeynd 
+<lb/>nemmen dann kuͤyen unnd kelber, unnser herren 
+<lb/>burgermeyster und rath erloube im dann das. 
+<lb/>Es soll ouch deheynerley höwen noch mäygen unnd 
+<lb/>nützit uß der allgemeynd nemmen noch keyn recht 
+<lb/>haben, der amptman erloube im dann das. 
+<lb/>Unnd ob er yemandts seͣche oder hortte inn my<lb break="no"/>ner 
+herren weͣllden holtz howen, es were <time period="byDay">tags</time>
+<lb/>oder <time period="byNight">nachts</time> oder uff der allgemeynd mäygte, 
+<lb/>das soll er eynem ammptman anzeygen unnd 
+<lb/>leyden by dem eyd.<note>Der Entwurf (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>) empfiehlt, den Hirteneid zu übernehmen, aber die Pflicht, die Maulwurfshaufen zu 
+zerstossen, zu streichen. Dies, da im ersten Artikel schon festgehalten werde, wer sich um die Erhaltung der Allmend zu kümmern habe, und das nicht Aufgabe des Hirten sei. Im Übrigen entspricht dieser Abschnitt Artikel 5 der Ordnung von 1540 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note></seg></p>
+<p><seg n="16">
+<lb/>Item es ist ouch umb meerer glychheyt willen, 
+<lb/>damit sich nyemandts deheynes nachteyls be<lb break="no"/>klagen 
+möge, wol billich, das nyemanndts, 
+<lb/>wer der ald wo er joch inn ald ußertt der 
+<lb/>statt geseͣßen syge, vor unnd ee der hirtt 
+<lb/>am <time period="morning">morgen</time> den gatter uffthuͦt, deheyn vich 
+<lb/>inn die allgemeynd schlachen noch ouch dem<lb break="no"/>nach 
+widerumb daruß laßen sölle, es fare 
+<lb/>dann der hirtt zuͦ <time period="evening">abennd</time> mit der ganntzen 
+<lb/>heͣrd hinweͣg.<note>Dieser Artikel entspricht Artikel 6 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note>
+</seg></p>
+<p><seg n="17">
+<lb/>Item es ist ouch myner herren anseͣchen unnd 
+<lb/>meynung, das wellicher uff die allgemeynd 
+<lb/>uff dem <placeName ref="loc010892">Zürichberg</placeName> schlache, das derselbig sin 
+<pb n="14" facs="StAZH_C_II_10__Nr__552_a__S__14_.tif"/>
+<lb/>vich gar nit uff die allgemeynd im <placeName ref="loc012125">Hard</placeName> sölle 
+<lb/>schlachen. Deßglychen wellicher uff das <placeName ref="loc012125">Hard</placeName>
+<lb/>schlache, das derselbig nit uff den <placeName ref="loc010892">Zürichberg</placeName>
+<lb/>sölle schlachen.<note>Dieser Artikel entspricht Artikel 7 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note>
+</seg></p>
+<p><seg n="18">
+<lb/>Unnd wellicher söllich eyn oder meer der vor<lb break="no"/>geschribnen 
+artigklen überseͣche unnd nit hyeltte, den 
+<lb/>soll der hirtt dem ammptman leyden unnd der 
+<lb/>amptman in one verschonen umb <measure type="currency" unit="bz" quantity="10">zeͣchen batzen</measure><note>Eine konstante Höhe des Bussgeldes wurde von den Verordneten im Entwurf festgelegt, dort allerdings mit 1 Pfund 6 Schilling<!-- Was ungefähr dasselbe ist, wenn 1 Bz = 2.5 ß --> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref>, S. 12</bibl>). Laut der alten Ordnung wurden die Übertreter <orig>irem verdienen nach</orig> bestraft (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref>, Art. 8</bibl>).</note>
+<lb/>zestraaffen haben.</seg></p>
+<head type="subtitle"><lb/>Deß hirtten lon</head>
+<p><seg n="19">
+<lb/>Item eynem hirtten soll zuͦ lon werden von eynem 
+<lb/>houpt die erst wuchen, so er uff die allgemeynd 
+<lb/>fart, <measure type="currency" unit="Angster" quantity="2">zwen anngster</measure> unnd demnach <date dur="R/P1W">alle wuchen</date>
+<lb/><measure type="currency" unit="Angster" quantity="1">eyn anngster</measure>, unnd so eyn kuͦg zuͦ rynnder loufft, 
+<lb/>der wuchen <measure type="currency" unit="Angster" quantity="2">zwen anngster</measure>.<note>Dieser Artikel entspricht Artikel 9 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note></seg></p>
+<p><note>In der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>) folgte hier noch ein Artikel, der den Kreis der Nutzungsberechtigten explizit festhielt: Stadtbürger, <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010476">Hottingen</placeName> sowie fünf Häuser von <placeName ref="loc010574">Oberstrass</placeName>. Für die neue Fassung erachteten die Verordneten diesen Artikel für unnötig, wenn der erste Artikel nach ihrem Vorschlag abgeändert werde.</note></p>
+<head type="subtitle">Die rynndermyett</head>
+<p><seg n="20">
+<lb/>Item eyn kuͦg soll unnsern herren von der allge<lb break="no"/>meynd 
+ den ganntzen <date period="summer">summer</date> zuͦ zynnß geben 
+<lb/><measure type="currency" unit="ß" quantity="8">acht schilling</measure>. Gaat sy aber erst an zuͦ halbem 
+<lb/><date period="summer">summer</date> oder gaat sy ab uff <date when="--06-24" type="deadline">sanct <persName ref="per000049">Johanns</persName> tag</date>, 
+<lb/>so git man nit meer dann <measure type="currency" unit="ß" quantity="4">vier schilling</measure>.<note>Dieser Artikel entspricht Artikel 14 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note></seg></p>
+<pb n="15" facs="StAZH_C_II_10__Nr__552_a__S__15_.tif"/>
+<p><seg n="21">
+<lb/>Item eyn kalb git den ganntzen <date period="summer">summer</date>
+<measure type="currency" unit="ß" quantity="4">vier 
+<lb/>schilling</measure>. Gaat es ab uff <date when="--06-24" type="deadline"><persName ref="per000049">Johannis</persName></date>, so git 
+<lb/>man nit meer dann <measure type="currency" unit="ß" quantity="2">zwen schilling</measure>.<note>Dieser Artikel entspricht Artikel 15 der Ordnung von 1540 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>).</note></seg></p>
+<head><lb/>Hernach volgt, wie unnd wellicher <lb/>maaßen sich der
+<persName ref="per025217">Küderli</persName><note><persName ref="per025217">Hans Weber, genannt Küderli</persName>, Besitzer des
+Handlehens (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4315414">StAZH C II 10, Nr. 525</ref></bibl>).</note> von wegen
+<lb/>deß <placeName ref="loc012261">Tobelhofs</placeName><note>Beschreibung des <placeName ref="loc012261">Tobelhofes</placeName> des
+ehemaligen Klosters <orgName ref="org006252">St. Martin auf dem <placeName ref="loc010892">Zürichberg</placeName></orgName> vom <date when="1540-05-05">5. Mai
+1540</date> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4315414">StAZH C II 10, Nr. 525</ref></bibl>).</note> (so er zuͦ
+hanndtlech<lb break="no"/>en innhat) der allgmeynd
+halb
+<lb/>gebruchen unnd hallten soll.</head>
+<p><seg n="22">
+<lb/>Als geruͤrter <persName ref="per025217">Küderli</persName> vornacher inn der <placeName ref="loc010892">Zürichberg<lb break="no"/>ern</placeName> 
+höltzer ettwas gerechtigkeyt gehept unnd namm<lb break="no"/>lich 
+mit sinem vich dar in zuͦ weyd gefaren,
+habend <lb/>unnser herren uff sin pittlich ansynnen ime güttlich
+<lb/>zuͦgelaßen, das er uff die nüwgemacht allge<lb break="no"/>meynd 
+<num value="6">sechs</num> houpt vichs sampt eynem kalb, doch <lb/>das dheyn roß
+darunder syge, schlachen unnd wey<lb break="no"/>den müge unnd
+darnebend sich dheyner gfaaren <lb/>mit nutzung deß weydganngs
+gebruchen. Sonnders <lb/>sol er sin vich ouch für den hirtten
+schlachen unnd <lb/>vor unnd ee nit uff die allgemeynd tryben, unntz
+<lb/>der hirtt mit annderm vich zum gatter inhin fardt.
+<lb/>Dargegen ist heyter von unnsern herren erkennt <lb/>unnd
+wellend, das bestimpter <persName ref="per025217">Küderli</persName> dheyn ge<lb break="no"/>rechtigkeyt
+meer in deß <placeName ref="loc010892">Zürichbergs</placeName> höltzer, darinn <lb/>mit synem vych
+zeweydenn nit haben, dann er <lb/>deßelben genntzlich abstan unnd
+sich deß weyd<lb break="no"/>gangs uff der gemelten allgemeynd
+behelffen. <lb/>Unnd ob er darüber inn die höltzer fuͤre, so gyt er
+<pb n="16" facs="StAZH_C_II_10__Nr__552_a__S__16_.tif
+"/>
+<lb/>von jedtlichem houpt vichs <measureGrp><measure type="currency" unit="lb" quantity="1">ein pfund</measure> unnd <measure type="currency" unit="ß" quantity="5">fünff <lb/>schilling</measure></measureGrp>
+zuͦ rechter straaff unnd buͦß. Es sol <lb/>ouch vorbestimpter
+<persName ref="per025217">Küderli</persName> den allment zyns von <lb/>sinem vich, so er uff die allment
+also schlacht, <lb/>ußrichten inn allweͣg, wie andere, so dahin
+farend.<note>Dieser Artikel entspricht einem undatierten Nachtrag zur Ordnung von 1540 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=348411">StArZH III.D.10., S. 15-16</ref></bibl>).</note></seg></p>
+<p><seg n="23">
+<lb/>Mine herren hannd uff trungenlich bitt deren 
+<lb/>von <placeName ref="loc010476">Hottingen</placeName> unnd der wachtgnoßen<!-- Fluntern? --> darumb 
+<lb/>inen uß gnaden vergonnt unnd nachgelaßen, 
+<lb/>ruche dörnn zuͦ iren zünen unnd guͤteren uff 
+<lb/>dem <placeName ref="loc010892">Zürichberg</placeName> wie von alterhär zehowen, 
+<lb/>doch das sy von ye zuͦ zyten eynem amptman 
+<lb/>deß <placeName ref="loc010892">Zürichbergs</placeName> erlouptnus nemmen unnd in zuͦvor 
+<lb/>darumb bitten. Der soll inen dann den bann<lb break="no"/>warten 
+zuͦgeben, das er luͦge, was sy howind, unnd 
+<lb/>one deßelben bysin söllennt sy nüdt howen. Fräff<lb break="no"/>letend 
+sy dann darüber, so soll der amptman 
+<lb/>vermög deß buͤchlins<note><bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=348401">StArZH III.D.10</ref></bibl>; gemeint ist wohl der Bussenkatalog, dort auf S. 21-23, der auch oben, Artikel 7, eingeflossen ist.</note> die buͦßen von inen inzüchen.<note>Dieser Artikel entspricht einem Nachtrag vom 14. Juni 1542 zur Ordnung von 1540 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=348412">StArZH III.D.10., S. 16</ref></bibl>).</note></seg></p>
+<p><seg n="24">
+<lb/>Damit der <persName ref="per012637">Enngelhart</persName> unnd der, so uff deß 
+<lb/><placeName ref="loc012756"><orgName ref="org005088">Spittals</orgName> Hoffstatt</placeName> sitzt, der weyden (die man 
+<lb/>inen uff dem <placeName ref="loc010892">Zürichberg</placeName> zur allgemeynd 
+<lb/>ingeschlagen hat) ergetzt werdind, söllennt sy 
+<lb/>hinfür von den zweygen heupten, so sy uff die 
+<lb/>allgemeynd schlachend, keynen zyns zegeben 
+<lb/>schuldig, aber um das halb houpt nit gefrygt sin.<note>Dieser Artikel entspricht einem Nachtrag vom 2. Oktober 1542 zur Ordnung von 1540 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=348413">StArZH III.D.10., S. 17</ref></bibl>).</note></seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Aus Gnade wurde 1540 den Wachten <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010476">Hottingen</placeName> sowie fünf Häusern aus <placeName ref="loc010574">Oberstrass</placeName> erlaubt, zusammen mit den Stadtbürgern die Allmend, welche die Stadt für sich selbst 
+behalten hatte, zu nutzen. Dafür mussten sie die Allmend auf ihre Kosten instand halten und dem Bergherrn Leute stellen, wenn er sie benötigte. Jedoch betonten <orgName ref="org002406">Bürgermeister und Rat</orgName>, dass dies lediglich eine Gnade und kein Recht sei, weswegen sie sich Änderungen 
+oder gar die Aufhebung jederzeit vorbehielten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>). Noch 1672 wird unter Berufung auf ein nicht mehr vorhandenes <orig>byliggende[s] extract</orig>
+(vermutlich von <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>) sowie auf eine Erkenntnis der Rechenherren von 1650 (vermutlich <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24554">StArZH VI.HO.A.1.:14</ref></bibl>) der Gemeinde 
+<placeName ref="loc010816">Unterstrass</placeName> beschieden, dass die Nutzung der Allmende nur aus Gnade erlaubt sei (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=729353">StAZH A 149.1, Nr. 100</ref></bibl>).</p>
+<p>Die fünf Häuser aus <placeName ref="loc010574">Oberstrass</placeName> fuhren vermutlich schon seit 1543 nicht mehr auf diese Allmend: Am 9. April 1543 trat eine Delegation von <placeName ref="loc010574">Oberstrass</placeName> unter Führung von <persName ref="per006243">Heinrich Rahn</persName> 
+vor den <orgName ref="org001217">Rat</orgName>, da sie unzufrieden war mit der in der Ordnung von 1540 festgehaltenen Bestimmung, dass jeder nur zweieinhalb Stück Vieh auf die Allmende senden dürfe; auf den <placeName ref="loc012115">Geissberg</placeName> dürfe man führen, so viel man wolle. 
+Der <orgName ref="org001217">Rat</orgName> überliess es daraufhin den Nutzungsberechtigten, sich für eine der beiden Allmenden zu entscheiden, aber sie müssten ihre Entscheidung dem Amtmann mitteilen und dabei bleiben (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=348415">StArZH III.D.10., S. 18-19</ref></bibl>; 
+vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4315559">StAZH C II 10, Nr. 552, S. 1-3</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4316925">StAZH B II 1080, Teil 2, fol. 48r-v</ref></bibl>). <!-- stammt der 2. Teil zum Meierhof auch schon von dann? Es scheint, als würde der Auftrag dazu erst mit B V 8, fol. 176r-v erteilt, das auf den 4.7.1545 datiert ist.--> 
+Dagegen wandten sich <placeName ref="loc010476">Hottingen</placeName> und <placeName ref="loc008707">Fluntern</placeName> am 4. Juli 1545 an den <orgName ref="org001217">Rat</orgName> mit der Bitte, ihnen die Nutzung der Allmend weiterhin zu erlauben, da sie gehört hätten, dass der <orgName ref="org001217">Rat</orgName> 
+eine Änderung der Verhältnisse auf dem <placeName ref="loc010892">Zürichberg</placeName> erwäge und fürchteten, zukünftig nicht mehr zugelassen zu werden. Der <orgName ref="org001217">Rat</orgName> beauftragte daraufhin eine Delegation mit der Teilung der Güter, der Schaffung eines 
+Meierhofs auf dem <placeName ref="loc010892">Zürichberg</placeName> zur besseren Bewirtschaftung und der Überarbeitung der Allmendordnung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3347306">StAZH B V 8, fol. 176r-v</ref></bibl>). Bereits 1535 hatte der <orgName ref="org001217">Rat</orgName> 
+die Einrichtung von einem oder zwei Meierhöfen erwogen, um die Güter auf dem <placeName ref="loc010892">Zürichberg</placeName> besser zu bewirtschaften und Zinseinnahmen für die Stadt zu generieren, zumal diejenigen, welche die Allmend derzeit nutzten, keinen Zins 
+bezahlen und auch die Zäune und Gräben nicht instand halten würden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3347326">StAZH B V 8, fol. 84r</ref></bibl>). Diese Ratsdelegation nahm eine weitere Teilung vor: Der erste Teil von 163 Jucharten, hauptsächlich Wald, blieb der Stadt 
+vorbehalten und unterstand dem <orgName ref="org007955">Bergamt</orgName>. Der zweite Teil von 105 Jucharten wurde <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010476">Hottingen</placeName> (sowie einigen weiteren Berechtigten, z.B. <persName ref="per025217">Küderli</persName> 
+auf dem <placeName ref="loc012261">Tobelhof</placeName>) als Allmende übergeben. Der dritte Teil des Gutes auf dem <placeName ref="loc010892">Zürichberg</placeName> wurde zu einem Meierhof gemacht und verliehen. Zudem entwarfen die Ratsverordneten anhand der Ordnung von 1540 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_065">SSRQ ZH NF II/11, Nr. 65</ref></bibl>) eine neue Allmendordnung (vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312033">StAZH C II 10, Nr. 529</ref></bibl>). Die Beschreibung der ersten beiden Teile sowie die 
+neue Ordnung findet sich im vorliegenden Stück; der dritte Teil, die Beschreibung des Meierhofs sowie die näheren Bestimmungen dazu, die Rechte und Pflichten des Meiers finden sich zusammen mit einer Abschrift des Ratsentscheids, dass die Vertreter von 
+<placeName ref="loc010574">Oberstrass</placeName> auf die Allmend auf dem <placeName ref="loc012115">Geissberg</placeName> fahren dürfen, in <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4315560">StAZH C II 10, Nr. 552, S. 3-9</ref></bibl>.</p>
+<p>Einige Artikel wurden unverändert übernommen; verschiedene Nachträge, vor allem aus Ratserkenntnissen, die seit 1540 zu der alten Ordnung hinzugesetzt wurden, wurden in die neue Ordnung aufgenommen. Ganz neu sind vor allem die Beschreibungen der Anteile der Stadt und der Wachten, 
+die Bestimmungen zur Amtsübergabe des Amtmanns, zum Busseneinzug durch den Stadtknecht und die Präzisierung, dass die Wachtgenossen wertloses Holz wie <orig>hutboüm</orig> schlagen dürfen. Im Gegensatz zur alten Ordnung, die je einen Bannwart auf 
+dem <placeName ref="loc010892">Zürichberg</placeName> und auf dem <placeName ref="loc011559">Adlisberg</placeName> vorsah, gibt es mit der neuen Ordnung nur noch einen Bannwart auf dem <placeName ref="loc011559">Adlisberg</placeName>; die Pflichten des Bannwarts auf dem <placeName ref="loc010892">Zürichberg</placeName> 
+wurden zur Kosteneinsparung dem Inhaber des neuen Meierhofs auferlegt. Ebenso fällt die Pflicht des Amtmanns, zwei Zuchtstiere zu stellen, weg, da der Meier sowie der Inhaber des <placeName ref="loc012261">Tobelhofs</placeName> je einen Stier zu halten haben. Zudem wurden 
+die Artikel auch neu angeordnet und aufgeteilt, je nachdem, ob sie den Wald der Stadt oder die Allmend von <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010476">Hottingen</placeName> betreffen. Schliesslich nutzten die Verordneten auch die Gelegenheit für die 
+Verallgemeinerung und Vereinheitlichung der Ordnung: ein Abschnitt des ersten Artikels und der gesamte Artikel 10 der alten Ordnung, welche die Nutzungsberechtigten und damit die Adressaten der Ordnung explizit nannten, wurden weggelassen. Neu richtete sich die 
+Ordnung allgemein an jeden, der die Allmend nutzte. Die Artikel zu den Pflichten des Amtmannes und des Bannwarts enthalten erweiternde Passagen, dass sie Nutzen und Ehre der Stadt fördern und Schaden abwenden sollen oder – im Fall des Bannwarts – dass er direkt 
+der Obrigkeit Treue und Aufrichtigkeit zu schwören habe. Bei einer Busse, deren Höhe nach der alten Ordnung noch variabel war, setzten die Verordneten nun einen festgelegten Betrag ein.</p>
+<p>1569 wurde auf Beschwerde des Stiftsverwalters, des Spitalmeisters sowie des Oetenbacheramtmanns wegen der Schädigung ihrer Hölzer eine neue Holzordnung erarbeitet, bei der die Bussen für Holzfrevel, die Erlaubnis des Holzhauens und der Busseneinzug für die 
+Waldungen aller Klosterämter und des Stifts in <placeName ref="loc009859">Schwamendingen</placeName>, auf dem <placeName ref="loc010892">Zürich-</placeName> und auf dem <placeName ref="loc011559">Adlisberg</placeName> einheitlich geregelt wurden, um die Einhaltung der Regeln einfacher kontrollieren zu 
+können. Gleichzeitig wurden der Stiftsbannwart, der Bannwart auf dem <placeName ref="loc011559">Adlisberg</placeName>, der neue Bannwart, <persName ref="per025205">Uli Wüst</persName> vom Meierhof und die Familie <orgName ref="org008838">Küderli</orgName> vom <placeName ref="loc012261">Tobelhof</placeName> 
+verpflichtet, einen Eid auf diese Ordnung zu schwören und ihre Einhaltung zu überwachen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1114614">StAZH G I 4, Nr. 31</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1114617">Nr. 36</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1114619">Nr. 37</ref></bibl>; 
+vgl. auch die Holzordnung für die Hubeninhaber in <placeName ref="loc009859">Schwamendingen</placeName> von 1573, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl><!-- VI.SW.A.1.:1 -->).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

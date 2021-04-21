@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_142_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3595648">StAZH A 77.3, Nr. 16</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Fleischverkauf und Teuerung</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich erlassen angesichts der aktuellen Situation der Teuerung sowie um die Fleischversorgung der Bevölkerung in Stadt und Umland sicher zu stellen die folgende Ordnung: Die Metzger haben ihre Ware gemäss den Bestimmungen des Fleischrodels zu verkaufen und insbesondere Schwangeren und Kranken nichts vorzuenthalten. Der Höchstpreis für Zungen liegt bei zwei Batzen, für Euter bei einem Batzen. Es ist den Metzgern nicht erlaubt, ihre Kunden dazu zu verpflichten, beim Kauf von Fleisch zusätzlich noch Zunge dazu zu kaufen. Zuwiderhandelnde werden mit einer Busse von einer Mark Silber bestraft. Dies gilt neben den fehlbaren Metzgern auch für Kunden, die Fleisch zu höheren als in dieser Ordnung festgelegten Preisen erwerben. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1528-01-22"/></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Actensammlung, Nr. 1359 (nach anderer Überlieferung)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000346">Fleisch</term><term ref="key000793">Markt</term><term ref="key000882">Nahrungsmittel</term><term ref="key000781">Teuerung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<seg><lb/>Allsdann yetz ein guͦte zit, daher der gmein man in diser thüre under ande<damage agent="clipping"><supplied resp="msr">rem</supplied></damage>
+<lb/>des fleischs, deßglichenn der zungen und üterlinen halb, mergklichenn
+<lb/>beschwert gewessenn, also das biderben lüten nit mag fleisch werde<damage agent="clipping"><supplied resp="msr">n</supplied></damage>
+<lb/>zuͦ ir notuͦrfft, darzuͦ, so einer fleisch in das saltz will kouffen, das
+<lb/>er genoͤtiget wirt, ein züngen etwan umb <measure type="currency" unit="ß" quantity="10">zehen schilling</measure> und noch
+<lb/>dürer zum fleisch zuͦ neͣmen, söllichem vor zuͦ sind und ein ar<lb break="no"/>me
+<orgName ref="org001187">gmeind</orgName> inn der statt unnd darvor darinn zuͦ bedenken, habent
+<lb/>unnser herren <orgName ref="org002406">burgermeister, rat und der großrat, so man nemb<damage agent="clipping"><supplied resp="msr">t</supplied></damage>
+<lb/>die zweyhundert der statt <placeName ref="loc000065">Zürich</placeName></orgName>, sich erkennt unnd wellennt,
+<lb/>das hinfür die metzger nach lut des fleisch rodels<note>Für einen exemplarischen Fleischrodel vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_071">SSRQ ZH NF I/1/3, Nr. 71</ref></bibl>.</note> biderbenn
+<lb/>lüten zuͦ irs libs narrung fleisch inn das saltz und sunst gebint
+<lb/>unnd niemans, es sige kindtbeteren oder anderen dürfftigenn,
+<lb/>kranken mentschen nüdt versagint.</seg>
+<seg>Darzuͦ, das sy
+<lb/>dhein zungen thürer verkouffint dann umb <measure type="currency" unit="bz" quantity="2">ij batzenn</measure>
+<lb/>und ein uterli umb <measure type="currency" unit="bz" quantity="1">j batzenn</measure>, ouch niemans, rich noch arm,
+<lb/>nëtind oder inen zuͦ muͦtind, die züngen zum fleisch zuͦ ne<lb break="no"/>men,
+alles bi <measure type="currency" unit="M" quantity="1">einer march silbers</measure> bus, die unnser
+<lb/>herren, so offt das in einem oder mer stuken ubersechen wirt,
+<lb/>von den ungehorsamen on gnad in ziechen laßen <hi rend="underline">wellennt</hi>.</seg>
+<seg><lb/>Unnd namlich wellennt sy die, so die zungen und uterli
+<lb/>thürer dann, wie obstat, kouffint, glich als woll als die metzge<damage agent="clipping"><supplied resp="msr">r</supplied></damage>
+<lb/>umb <measure type="currency" unit="M" quantity="1">ein march silbers</measure> strafenn.</seg>
+<seg>Das weltenn
+<lb/>die genanten unnser herren uch <subst><del>und mengklichem</del><add place="above">als</add></subst> den iren
+<lb/>nit verhaltenn, sich darnach wüßen zuͦ richten.</seg>
+</p>
+<p>
+<lb/>Actum <origDate when="1528-01-22">mitwuchen nach <persName ref="per001916">Sebastiani</persName> anno <abbr>etc</abbr> xxviij</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<lb/>her <persName ref="per001584">Heinrich Walder</persName>, stathalter des burgermeisterthuͦmbs,
+<lb/><orgName ref="org001217">reͣt unnd burger</orgName>.
+</p>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><origDate when="1528">1528</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Erkandtnuß, daß die <choice><abbr>me</abbr><expan>meister</expan></choice> metzger mäniglich mit fleisch versehen 
+<lb/>sollen, tax der üterlinen und zungen, <origDate when="1528">1528</origDate>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Ordnung ist neben der vorliegenden Aufzeichnung noch in einem gleichzeitigen Sammelmandat gemeinsam mit weiteren Bestimmungen enthalten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3294049">StAZH A 42.3.2, S. 138-141</ref></bibl>). Die Situation der Teuerung, wie sie in den späten 1520er Jahren herrschte, bewegte die Obrigkeit zu verschiedenen Massnahmen, welche die Sicherstellung der Lebensmittelversorgung zum Ziel hatten. Besonderes Augenmerk widmete sie dabei den Mehl- und Brotpreisen (vgl. dazu die Ordnung der Bäcker des Jahres 1530, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_148">SSRQ ZH NF I/1/3, Nr. 148</ref></bibl>).</p>
+<p>Zu Fleischpreisen und dem <placeName ref="loc000065">Zürcher</placeName> Fleischmarkt vgl. die Ordnung für den Fleischverkauf des Jahres 1500
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_071">SSRQ ZH NF I/1/3, Nr. 71</ref></bibl>); allgemein zu den Metzgern vgl. deren Handwerksordnung aus den 1450er Jahren
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_003">SSRQ ZH NF I/1/3, Nr. 3</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

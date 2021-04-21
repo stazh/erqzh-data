@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_169</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1914503">StAZH B III 4, fol. 88r-92v</idno></msIdentifier><head>Eide für die jährlichen Schwörtage in den Obervogteien der Stadt Zürich sowie Verordnungen zur anschliessenden Verlesung</head><msContents><summary>Die Bewohner der Obervogteien sollen schwören, Bürgermeister, Kleinem und Grossem Rat der Stadt Zürich sowie ihrem Vogt Treu und Wahrheit zu halten, gehorsam zu sein, anzuzeigen, was der Stadt Schaden bringen könnte, Zerwürfnisse zu schlichten und niemanden vor fremde Gerichte zu ziehen, geistliche oder weltliche, ausser es wird vom Rat ausdrücklich erlaubt (1). Der Untervogt soll schwören, den Herren von Zürich Treu und Wahrheit zu halten, den Nutzen der Stadt zu fördern und Schaden abzuwenden, ihre Rechte zu schützen und alles dasjenige, was die Belange der Stadt betrifft, dem Obervogt anzuzeigen (2). Im Anschluss an die Eidleistung sollen den Untertanen die nachfolgend genannten Bestimmungen und Verbote verlesen werden. Diese betreffen das Vergraben von totem Vieh (3), die Bevogtung von Waisenkindern (4), die Verbote des Fluchens, Zutrinkens, des Tragens geschlitzter Hosen, des Spielens sowie der Jagd und des Vogelfangs ausserhalb der erlaubten Zeiten (5), die Verbote des Tanzens ausserhalb offener Hochzeiten und Kirchweihen, des Umwerfens beim Tanzen und des Tanzens mit offenen Kleidern sowie von Tanzveranstaltungen, die länger als einen Tag und eine Nacht dauern (6), den Obstfrevel (7), Schlaghändel und die Verletzung von Personen, die diese zu schlichten versuchen (8), das Verbot des Reislaufs (9), die Vernachlässigung der Pflicht zur Abgabe von Zeugenaussagen (10), die Verpflichtung zum Besitz von Harnisch und Waffen (11), Frieden abtrinken und Frieden bieten (12), die jährliche Verlesung der sie betreffenden Artikel des gedruckten Grossen Mandats gegenüber den Wirten (13), die Verpflichtung der Untertanen zur Mithilfe bei Festnahmen (14), die Beschränkung der Kosten für den Unterhalt Gefangener (15) sowie die Verpflichtung zur Klageerhebung bei Freveln innert zwei Monaten (16).</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author><filiation type="current">Einträge</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1539-01-01" to="1541-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key000179">Eid</term><term ref="key004380">Fluchen/Schwören</term><term ref="key000506">Friedbruch</term><term ref="key000595">Frieden bieten</term><term ref="key000334">Gefängnis</term><term ref="key000057">Gericht</term><term ref="key000869">Hochzeit</term><term ref="key005399">Hygiene</term><term ref="key000351">Jagd</term><term ref="key000789">Kirchweih</term><term ref="key000213">Kleidung</term><term ref="key003866">Landesherrschaft</term><term ref="key004414">Landwirtschaft</term><term ref="key000491">Mandat</term><term ref="key003439">Obstanbau</term><term ref="key004056">Reben</term><term ref="key004082">Solddienst</term><term ref="key000767">Spiel</term><term ref="key000768">Tanzen</term><term ref="key000036">Vogtei</term><term ref="key000997">Vormundschaft</term><term ref="key000902">Waffen</term><term ref="key005384">Waffenstillstand</term><term ref="key000311">Waisen</term><term ref="key003746">Weinbau</term><term ref="key000758">Wirtshaus</term><term ref="key000078">Zeugen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="88r" facs="StAZH_B_III_4__fol__88_r_.tif"/>
+<head><lb/>Der jareyd mitsampt den ord<lb break="no"/>nungen, die man <date dur="R/P1Y">järlich</date> den 
+<lb/>biderben lütten uff der landt<lb break="no"/>schafft inn den vogtyen, so man <lb/>uß der statt hinuß bevogtet,<note>Diese Formulierung bezieht sich auf die Obervogteien der Stadt <placeName ref="loc000065">Zürich</placeName>, da diese von Obervögten regiert wurden, die Mitglieder des <orgName ref="org004016">Kleinen Rates</orgName> waren und ihren Sitz in der Stadt hatten, im Unterschied zu den auf der Landschaft residierenden Landvögten (zu dieser Regelung vgl. die Ordnung für die Besetzung der Obervogteien, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_092">SSRQ ZH NF I/1/3, Nr. 92</ref></bibl> ).</note> vorlißt</head>
+<p><seg n="1">
+<lb/><hi rend="underline">Ir söllent schweren unnseren gnedigen</hi>
+<lb/>herren dem <orgName ref="org002406"><hi rend="underline">burgermeyster</hi>, den räthen unnd dem grossen
+<lb/>rath, genannt die zweyhundert, der statt <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi></orgName>, trüw
+<lb/>unnd warheyt zuͦhalten, inen, ouch irem gegenwürttigen
+<lb/>vogt an irer statt unnd inn irem nammen gewärttig 
+<lb/>unnd gehorsam zuͦsind. Unnd ob üwer dheyner ützit 
+<lb/>vernëme, das den vorgenannten unnsern gnedigen her<lb break="no"/>ren
+von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi>, irer gemeynen statt unnd gemeynem
+<lb/>irem lannde schaden oder geprësten bryngen möchte,
+<lb/>das inen unnd irem vogt fürzebryngen, zewarnen 
+<lb/>unnd zewennden, als feer üwer yettlichen sin lyb und
+<lb/>guͦt gelanngen mag. Unnd wo üwer eyner by dheyner 
+<lb/>zerwürffnuss ist, die sicht oder hört, ald darzuͦ kompt,
+<lb/>die zuͦstellen unntz an ein recht, alss feer er kan unnd
+<lb/>mag. Ob ouch üwer dheyner yeman den annderen gefaar<lb break="no"/>lich
+sëche umbziechen oder umbfuͤren, es were lüth oder 
+<lb/>guͦt, das uffzeheben, zuͦhanndthaben unnd zehefften zuͦ
+<lb/>dem rechten. Unnd ouch üwer dheyner den annderen,
+<lb/>er syg rych oder armm, mit dheynen frömbden gerichten,
+<lb/>geystlichen noch weltlichen, fürzuͦnemmen, umbzetryben,
+<lb/>noch zuͦbekümberen, umb dheyn sach, unnd üwer yett<lb break="no"/>licher
+von dem annderen das recht zuͦsuͦchen unnd zuͦ<lb break="no"/>nemmen
+an den ënnden unnd an den gerichten, da der an<lb break="no"/>sprächig 
+gesessen oder wohyn er gerichtszwingig ist
+<lb/>oder vor den obgenannten unnsern gnedigen herrenn
+<pb n="88v" facs="StAZH_B_III_4__fol__88_v_.tif"/>
+<lb/>von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi>, ob die die sach für sich nemind, üwer dheynem
+<lb/>werde dann von denselben unnseren herren annders 
+<lb/>oder wytter erloupt oder vergonnt, alles getrüwlich,
+<lb/>on arglist unnd ungefaarlich.</seg></p>
+<seg n="2"><head type="subtitle"><lb/>Deß unndervogts eyd, so er be<lb break="no"/>sunder schweeren soll</head>
+<p>
+<lb/>Es soll der <hi rend="underline">undervogt</hi> nach dem vorgethanen eyd aber
+<lb/>einen besunderen eyd schweeren, unnseren herren von
+<lb/><hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> unnd ir gemeynen statt trüw unnd warheyt 
+<lb/>zuͦhaltten, iren nutz zuͦfürderen unnd iren schaden
+<lb/>zuͦwennden, ouch inen ir gericht unnd rechtung
+<lb/>zuͦbehalten, als das von alterhar kommen ist, alss feer
+<lb/>er kan unnd mag unnd was im fürkompt, das 
+<lb/>unnseren herren von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> zuͦlangt, das einem <hi rend="underline">vogt</hi>
+<lb/>zuͦleyden unnd fürzuͦbringen, unnd unnseren herren 
+<lb/>von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> das bests und wegsts zethuͦnd, getrüwlich 
+<lb/>unnd ungefaarlich. 
+</p></seg>
+<p>
+<lb/><add place="inline" hand="hand17c">Obbeschribner eydt wirt einem nöuwen <lb/>undervogt uff folgende weis vorgelesen:
+<lb/>Ihr, der undervogt, sollend schweeren, unseren gnedigen herren von
+<lb/><placeName ref="loc000065">Zürich</placeName> und ihrer gemeinen statt tröüw und wahrheit zuhalten,
+<lb/>ihren nutzen zu fürderen und ihren schaden zu wenden, auch ihnen
+<lb/>ihr gricht und rechtung zu behalten, als das von alter har kommen
+<lb/>ist, als sehr ihr könnend und mögend. Und was euch fürkommt, dz
+<lb/>wolgedacht unseren gnedigen herren zulangt, das einem herrn obervogt
+<lb/>zu läiden und fürzubringen und ihnen, unseren gnedigen herren von 
+ <lb/><placeName ref="loc000065">Zürich</placeName>, das wegst und best zuthun, getrüwlich und unge<lb break="no"/>fahrlich.</add>
+</p>
+<pb n="89r" facs="StAZH_B_III_4__fol__89_r_.tif"/>
+<head type="subtitle"><lb/>Diß nachgeschriben alles soll <lb/>inen, nachdem und sy geschweer<lb/>end, vorgeleͣsen und inen by iren <lb/>geschwornen eyden zuͦhalten ge<lb break="no"/>botten werden</head>
+<p><seg n="3">
+<lb/>Ob üwer dheynem <hi rend="underline">vich stu̍rbe</hi>, das fürderlich begraben
+<lb/>zuͦlassen, damit annderem vich dheyn schad beschëchen
+<lb/>möge, by der buͦss <measure type="currency" unit="M" quantity="0.5">eins halben march silbers</measure>. 
+  </seg></p>
+<p>
+<seg n="4"><lb/>Item wie vormalen verkündt ist, kynnd, denen ir 
+<lb/>vatter unnd muͦtter abstërbind mit unnser vorge<lb break="no"/>nannten
+herren von <placeName ref="loc000065">Zürich</placeName> unnd irs vogts rath zuͦ<lb break="no"/>bevogten
+<lb/>unnd dann der vogt denselben unnseren
+<lb/>herren von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> unnd den fründen <date dur="R/P1Y">järlich</date> rechnung
+<lb/>zuͦgëben, das es daby aber belyben unnd bestan und 
+<lb/>dem also getrüwlich nachgangen werden soll.<note>Vgl. dazu auch die Ordnung der Stadt <placeName ref="loc000065">Zürich</placeName> für die Bestellung von Vögten für Witwen und Waisen,
+ <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_061">SSRQ ZH NF I/1/3, Nr. 61</ref></bibl>.</note></seg>
+</p>
+<pb n="89v" facs="StAZH_B_III_4__fol__89_v_.tif"/>
+<p>
+<seg n="5"><lb/>Unnd wiewol die vorgenannten unnser gnedig herren
+<lb/>von <hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> vormals das schweeren, zuͦtringken, zer<lb break="no"/>howen
+hosen, spilen unnd wildprät zuͦ schiessen unnd 
+<lb/>zejagen, ouch pirssen uff dem wasser, dessglychen
+<lb/>das voglen zuͦ schädlichen zytten verbotten haben, das 
+<lb/>es daby unnd namlich by allen unnd yeden iren uss<lb break="no"/>gangnen 
+<lb/><hi rend="underline">cristennlichen mandaten</hi> styff belyben unnd 
+<lb/>also gehalten werden soll, by der buͦß daruff gesetzt.<note>Vgl. dazu das Verbot geschlitzter Hosen sowie das Mandat betreffend Vogelfang und Jagd
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_110">SSRQ ZH NF I/1/3, Nr. 110</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_165">SSRQ ZH NF I/1/3, Nr. 165</ref></bibl>).</note></seg>
+</p>
+<p>
+<seg n="6"><lb/>Es soll ouch nyemandts <hi rend="underline">tanntzen</hi>, dann an offenen hochzyten
+<lb/>unnd kilchwychinen unnd <sic>nun</sic>
+<date dur="P1D">einen tag</date>, unnd zuͦ <time period="byNight">nacht</time>
+<lb/>gar nit, unnd darzuͦ, so man tanntzet, es sigent knaben
+<lb/>oder döchteren, frowen oder man, züchtigclichen tanntzen
+<lb/>unnd <hi rend="underline">nit einanderen umbwerffen</hi>. Dessglychen soll ouch
+<lb/>nyemandts inn blossem lyb tanntzen, uff hochzyt oder 
+<lb/>kilchwychinen ziechen, sunder sine kleyder vornnen zuͦ<lb break="no"/>han,
+by der <hi rend="underline">buͦss <measure type="currency" unit="ß" quantity="10">x </measure></hi>, so digk das beschicht.</seg>
+</p>
+<p>
+<seg n="7"><lb/>Es soll ouch nyemandts dem annderen inn sinen wisen,
+<lb/>gärttnen, räben noch guͤtteren wider sinen willen keyn
+<lb/>opss, truben noch annders nit nemmen noch verwuͤsten inn
+<lb/>dhein weg. Dann wer das übersicht, den wellen
+<lb/>unnsere herren straaffen, unnd eyns oder ener möchte
+<lb/>das der zyt unnd so gfaarlichen thuͦn, man wurd im 
+<lb/>das für ein diebstal rëchnen.</seg>
+</p>
+<pb n="90r" facs="StAZH_B_III_4__fol__90_r_.tif"/>
+<p>
+<seg n="8"><lb/>Wytter, so wüssend ir all, wenn ein <hi rend="underline">zerwürffnuss</hi> ist 
+<lb/>unnd lüth darzuͦ louffend, söllich zerwürffnuss zuͦstel<lb break="no"/>len,
+<lb/>alss es dann sin soll, das dann erst die parthygen
+<lb/>sich unwësenlich gegeneinanderen baarend, zugkend
+<lb/>unnd uff die houwend, so sy also zuͦfrieden stellen wellend, 
+<lb/>ettlich lamm oder sunst wund howend. Da wellen üch
+<lb/>unnser herren erscheynen, üch darnach haben zuͦrichten,
+<lb/>wellicher den annderen im scheyden wundet, das sy 
+<lb/>dann denselben herttenclich wellend straaffen unnd die
+<lb/>buͦssen von demselben ouch inzüchen, glych als were
+<lb/>er mit im inn zerwürffnuss kommen. Unnd sonnders 
+<lb/>soll ouch, wo söllich zerwürffnuss ist, ein yeder das under<lb break="no"/>stan 
+zuͦfriden zestellen unnd sin bestes darinn thuͦn
+<lb/>unnd wär das nit thätte, soll ouch darumb gestraafft 
+<lb/>werden.</seg>
+</p>
+<p>
+<seg n="9"><lb/>Es haben sich ouch unnser gnedig herren erkennth unnd
+<lb/>wöllen, das mengklich uff sy, alss die recht oberhannd,
+<lb/>warte unnd one iren willen inn dheyn frömbd, uss<lb break="no"/>lenndisch 
+reysen louffe. Dann wellicher ungehorsam
+<lb/>erschyndt, zuͦ desselben lyb unnd guͦt soll man gryffen
+<lb/>unnd sunderlich die hüser beschlyssen unnd alle die 
+<lb/>hab, so vorhannden sin mag, zuͦ iren hannden nemmen
+<lb/>unnd fürnemmlich, das ein yeder, wo er uffwiggler, gelt<lb break="no"/>ussgeber 
+oder sunst knecht wüsste, so hynlouffen wöltind,
+<lb/>schuldig sige, die den vögten zuͦleyden unnd anzuͦzoygen,
+<lb/>unnd wo die vögt nit glych vorhannden werind, das 
+<lb/>dann eyner guͦt, redlich gsellen zuͦ im nemmen möge
+  <pb n="90v" facs="StAZH_B_III_4__fol__90_v_.tif"/>
+<lb/>unnd gewalt habe, söllich ungehorsam lüth gefenngklich 
+<lb/>anzenemmen unnd minen herren zuͦ überantwurten, dar<lb break="no"/>nach
+<lb/>wüss sich ein yeder zuͦrichten.<note>Für die verschiedentlich erneuerten Reislaufverbote vgl.
+ <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_054">SSRQ ZH NF I/1/3, Nr. 54</ref></bibl>;
+ <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_126">SSRQ ZH NF I/1/3, Nr. 126</ref></bibl>.</note></seg>
+</p>
+<p>
+<seg n="10"><lb/>Es ist der eyde bisshar leyder ganntz ryng geachtet worden,
+<lb/>das unnsere herren höchlich beschwärt, unnd wellent
+<lb/>desshalb, wellichem kundtschafft zesagen ald anndere 
+<lb/>pott bim eyd angeleyt werdint, das der gehorsammlich
+<lb/>erschyne, dem pott unnd dem eyd gnuͦg thuͤge, dann 
+<lb/>wellicher das nit thuͦn, den wurdent sy herttigclich 
+<lb/>darumb straaffen.</seg>
+</p>
+<p>
+<seg n="11"><lb/>Unnd wie sy vor jaren umb meerer gewaarsammi wil<lb break="no"/>len
+gebotten haben, das sich mengklich mit harnascht 
+<lb/>unnd geweeren versëchen sölle, darby lassend sy es
+<lb/>nochmaln belyben, das dem gelëpt werde, dann 
+<lb/>sölte ettwar sümig erfunden, dem werdent sy on 
+<lb/>gnad die buͦss darumb abnemmen.</seg>
+</p>
+<pb n="91r" facs="StAZH_B_III_4__fol__91_r_.tif"/>
+<seg n="12"><p>
+<lb/>Unnsere herren verstand, dass ettlich den <hi rend="underline">friden</hi> uff die ge<lb break="no"/>fhaar
+gegeneinandern abtringkend, das sy glych an<lb break="no"/>gends 
+mitteinander unfuͦren unnd einander schädigen,
+<lb/>ouch damit der buͦss dess <hi rend="underline">fridbruchs</hi> enndtrynnen mögind.
+<lb/>Diewyl aber trug unnd gfhaar nyemandt schirmmen
+<lb/>soll, so lassend sy mengklich warnnen, das sich yeder<lb break="no"/>man
+söllicher gefhärden enndtzüche, dann so yemands 
+<lb/>den friden so gefarlicher wyse abtringken unnd daruff
+<lb/>mit worten ald wërgken unfuͦren und fräfflen wurde,
+<lb/>den werdent sy zum herttisten straaffen unnd es nit 
+<lb/>annders achten, dann ob sy noch inn friden mitteinander
+<lb/>gewësen unnd der friden nit abtrunngken were. 
+</p>
+<p>
+<lb/>Man soll nit nun alleyn frid mit blossen wortten hoyschen
+<lb/>ald byetten, sunder stattlich unnd tapferlich, wo man
+<lb/>yenan darzuͦ kommen mag, frid unnd stallung mit der
+<lb/>hannd nemmen, unnd die lüth by guͦtter zyt zuͦ friden
+<lb/>halten. Dann wo yeman, wie leyder bisshar beschëchen
+<lb/>ist, ettwar hierinn versumpt wurde, da wellent 
+<lb/>unnsere herren die sümigen herttigclich unnd dermaass
+<lb/>straaffen, als die, so iren eyd unnd eeren nit gnuͦg ge<lb break="no"/>than
+hand. 
+</p></seg>
+<p>
+<seg n="13"><lb/>Es soll eyn vogt verschaffen, das allen wirtten, sy sygint
+<lb/>nüw ald alt inn siner vogtyg gesëssen, die artigkel
+<pb n="91v" facs="StAZH_B_III_4__fol__91_v_.tif"/>
+<lb/>im grossen trugkten mandat<note>Gemeint ist das Grosse Mandat des Jahres 1530
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_009">SSRQ ZH NF I/1/11, Nr. 9</ref></bibl>).</note>, sovyl sy dieselben byndent, 
+<lb/><date dur="R/P1Y">järlich</date>, so man schweert, vorgelesen werdint unnd sy 
+<lb/>demmnach vermanen, denselben artigklen by iren vorge<lb break="no"/>schwornnen 
+eyden zuͦgelëben. </seg>
+</p>
+<p>
+<lb/>Hie hoͤrt man gewonlich uff.
+  </p>
+<p>
+<lb/><hi rend="underline">Dise nachbestimpten artigkel hat man ouch</hi>
+<lb/>ettwa inn eyd gesetzt, ein <date dur="P1Y">jar</date> brucht mans, das annder
+<lb/>nit, ye nach gstalt der zyten unnd löuffen. Es was ein 
+<lb/>söllichs articulieren zuͦ diser zyt, zwischen dem <date when="1530">1530</date>
+<lb/>unntz inn das <date when="1540">1540</date> unnd ettliche jar darnach, hette
+<lb/>man nit uffgehört, es werind diser buͤchern wol <num value="2">zwey</num>
+<lb/>voll worden. Sy sind alleyn darumb dahyn gesetzt,
+<lb/>ob mans ettwa wytter bruchen wölte, das man dest<lb break="no"/>mynder 
+dictierens dörffe. Es ist doch alle tag ein nüws.
+</p>
+<p>
+<seg n="14"><lb/>Wyter kompt unnseren herren klegt für, wie die under<lb break="no"/>thanen 
+den unndervögten unnd amptlüthen, so sy ettwar 
+<lb/>fenngklich annemmen wellind, nit als sy söllint beholffen
+<pb n="92r" facs="StAZH_B_III_4__fol__92_r_.tif"/>
+<lb/>sygint unnd nyemand angryffen wellind, der unnder<lb break="no"/>vogt
+gryffe dann zum ersten an, das aber von altem 
+<lb/>nit also harkommen, ouch unnseren herren unerlydenlich
+<lb/>ist. Desshalb wellend sy, das mengklich den ampt<lb break="no"/>lüthen
+inn disen fälen gehorsam unnd gewërttig syge
+<lb/>unnd als wol angryffe als die amptlüth unnd sich 
+<lb/>nyemand hynderstellig mache, dann ob jemand hynder<lb break="no"/>sich
+zusen unnd ungehorsam, zuͦ dem wurde man
+<lb/>glychergestalt gryffen unnd in gehorsam machen. </seg>
+</p>
+<p>
+<seg n="15"><lb/>Wie ouch untzhär uff die gefangenen ein unmässiger
+<lb/>cost getriben unnd biderblüth trëffenlich damit beschwärt
+<lb/>worden, ist unnser herren meynung, das hinfür söl<lb break="no"/>lichs 
+<lb/>abgestelt unnd zymmliche maass brucht werde.
+<lb/>Dann es möchte so ein gefaarlicher cost uffgetriben
+<lb/>werden, unnser herren wurdent in denen uffleggen, die 
+<lb/>in uffgetriben hetten. Darnach wüsse sich mengklich 
+<lb/>zegoumen.</seg>
+</p>
+<p>
+<seg n="16"><lb/>Es langt ouch mine herren an, das die fräfel nit clagt
+  <lb/>unnd damit der statt ire buͦssen verschleygkt unnd ver<lb break="no"/>halten
+  werdint. Deßhalb wellent sy mengklichen 
+<pb n="92v" facs="StAZH_B_III_4__fol__92_v_.tif
+"/>
+<lb/>gewarnnet han, so yemandt ützit fräfels ald gwalts 
+<lb/>zuͦgefuͤgt werde, das der söllichs nach der statt bruch 
+<lb/>innerthalb <date dur="P2M">zweyen monaten</date> clage unnd sin clag stel<lb break="no"/>le.
+Dann wo das nit beschechen, wurde man die
+<lb/>buͦss on alle gnad von beyden teylen nemmen, wie dann 
+<lb/>söllichs von altemhar kommen unnd der statt bruch ist.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Ähnliche Eide wie der in der vorliegenden Aufzeichnung festgelegte hatten die Untertanen jährlich in den Land- und Obervogteien der Stadt <placeName ref="loc000065">Zürich</placeName> zu leisten (für den Eid der Leute von <placeName ref="loc000348">Greifensee</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_025">SSRQ ZH NF II/3, Nr. 25</ref></bibl>). Die im vorliegenden Eid verwendete Formulierung, die Untertanen hätten der Stadt <orig>gewärttig unnd gehorsam</orig> zu sein, geht auf den Waldmannhandel des Jahres 1489 zurück, als die eidliche Verpflichtung zur Gehorsamkeit <orig>in allen sachen</orig> auf Verlangen der Bewohner der Landschaft gestrichen wurde (<bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 31</bibl>).</p>
+<p>Analog zum Vorgehen in der Stadt wurden auch auf der Landschaft im Anschluss an die Eidleistung besonders wichtige Bestimmungen und Verbote verlesen (für die Eidleistung in der Stadt vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_168">SSRQ ZH NF I/1/3, Nr. 168</ref></bibl>).</p>
+<p>Zu den Obervogteien der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_092">SSRQ ZH NF I/1/3, Nr. 92</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

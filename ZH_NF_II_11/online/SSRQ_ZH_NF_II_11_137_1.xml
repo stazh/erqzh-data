@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_137_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24185">StArZH VI.FL.A.2.:17</idno></msIdentifier><head>Entscheid des Grossen Rates, dass im Umkreis einer halben Stunde um die Stadt keine Bauten errichtet werden dürfen</head><msContents><summary>Die halbjährlich am Schwörtag verlesene Satzung, dass im Umkreis einer halben Stunde um die Stadt keine Bauten errichtet werden dürfen, wird bestätigt. Zudem sollen die Gemeinden keine Fremden mehr aufnehmen. Ausnahmen müssen vom Grossen Rat bewilligt werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Unterschreiber der Stadt Zürich</author><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="24.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1678-06-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000490">Bauwesen</term><term ref="key000325">Fremde</term><term ref="key000305">Grenze</term><term ref="key004393">Verbot</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<lb/>Uber die abgeleßene wyßung meiner <abbr>gn hhr</abbr> der
+<lb/>kleinen räthen betrefend daß bauwen der haüßeren
+<lb/>und stuben in den <placeName ref="loc010140">Vier Wachten</placeName> und nechst herumben,
+<lb/>ward in erdaurung der sachen beschaffenheit einhellig er<lb break="no"/>kendt:
+Es solle bey der jennigen satzung, so <date dur="R/P6M">alle halb jahr</date>
+<lb/>am schwehrtag offentlich verleßen wird, gäntzlich
+<lb/>verbleiben, und krafft derselben niemand befugt
+<lb/>sein, bey <time dur="PT30M">einer halben stund</time> wegs weder haüßer
+<lb/>nach stuben zebauwen. Wan aber ein extraordinari
+<lb/><add place="left margin">fahl</add> sich zutruge, solle derselbe für mein <abbr>gn hhr</abbr>
+<orgName ref="org001217">räth
+<lb/>und buͦrger</orgName> gewißen und ohne dero vorwüßen
+<lb/>nützit verwilliget; auch fürohin keine frömbde mehr,
+<lb/>damit die einheimbschen <add place="above">desto</add> beßer platz habind, von den
+<lb/>gemeinden angenommen werden.</p>
+<p>Actum den <origDate when="1678-06-13" calendar="Julian">13. junii anno 1678</origDate></p>
+<p><lb/><choice><abbr>Prntb</abbr><expan>Presentibus</expan></choice> herren <orgName ref="org002406">burgermeister <persName ref="per025982">Spöndli</persName>,
+<lb/>räth und burger</orgName></p>
+<p>Underschryber
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" hand="hand20c?" place="above"><lb/>Eine <time dur="PT30M">halbe stunde</time> um die stadt herum darf niemand <lb/>bauen. <date when="1678-06-13" calendar="Julian">1678, 13. Juni</date></ab></div>
+</body>
+<back>
+<div>
+<p>Das Verbot, ohne obrigkeitliche Erlaubnis im Umkreis der Stadt zu bauen, findet sich auch in der Hintersässenordnung von 1660 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_122">SSRQ ZH NF II/11, Nr. 122</ref>, Art. 6</bibl>). Am 20. April 
+1676 verwies eine Ratsdelegation im Konflikt um neu erbaute Häuser in <placeName ref="loc010476">Hottingen</placeName> darauf, dass eine halbe Stunde um die Stadt ohne ausdrückliche Erlaubnis keine Häuser gebaut werden dürften, auch nicht, wenn dies die Gemeinde erlaube 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=729358">StAZH A 149.1, Nr. 105</ref></bibl>). 1684 findet sich daher ein Bitt- und Empfehlungsschreiben von Professor <persName ref="per026083">Johann Kaspar Schweizer</persName><!-- http://www.hls-dhs-dss.ch/textes/d/D10844.php --> für <persName ref="per026082">Heinrich Arter</persName> 
+an den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> betreffend einen Hausbau in <placeName ref="loc010476">Hottingen</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=729579">StAZH A 149.1, Nr. 116</ref></bibl>).
+Der Umkreis von einer halben Stunde konnte auch für das Gewerbe gelten. So entschieden die <orgName ref="org005086">Zunftmeister</orgName> am 24. August 1615, dass Fremde oder Landleute in diesem Umkreis kein Hafner-Geschirr verkaufen dürfen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24569">StArZH VI.HO.A.1.:24, S. 4</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

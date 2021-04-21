@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_095_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917253">StAZH B III 6, fol. 101v</idno></msIdentifier><head>Eid der beiden Stadtschreiber der Stadt Zürich</head><msContents><summary>Die beiden Stadtschreiber, sowohl der Oberschreiber als auch der Unterschreiber, denen dieses Amt verliehen wird, sollen schwören, Bürgermeister und Rat zu Diensten zu sein, ihre Schreiberdienste der Stadt zur Verfügung zu stellen und damit ihren Nutzen und ihre Ehre zu fördern, Schaden abzuwenden, weder mit dem grossem noch dem kleinen Stadtsiegel etwas ohne Wissen von Bürgermeister und Rat zu besiegeln und zu verschweigen, woraus der Stadt Schaden entstehen könnte. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000383">Kanzlei</term><term ref="key000051">Schreiber</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="101v"/>
+<head><lb/><app><lem>Der stattschryber eyd
+<lb/>unnd ordnung</lem><rdg wit="StAZH B III 5, fol. 304r">Eyd der statt schryber</rdg><rdg wit="StAZH B II 4, Teil II, fol. 9r">Der eid, so die schriber swerend, <lb/>so sy ze schribern genomen werdent</rdg></app></head>
+<p><lb/><app><lem>Unnser stattschryber, das ist der ober- unnd underschryber, denen
+<lb/>unsere empter gelihen werdent, sollent schweren,</lem><rdg wit="StAZH B II 4, Teil II, fol. 9r">Item des ersten,</rdg></app> gmein <note>Im Weissen Buch wurde an dieser Stelle von späterer Hand ergänzt: <orig>und unpartheyscher</orig> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1920776">StAZH B III 5, fol. 304r</ref></bibl>).</note> schryber
+<lb/>zesind, <note>Im Weissen Buch wurde an dieser Stelle von späterer Hand ergänzt: <orig>das ist, alle und jede urthellen ynzuzeichnen <lb/>und ußhin zu geben, wie die selben einselig oder <lb/>mit mehrer, so imm ergehend und erkhannt werd<lb break="no"/>end, deßglychen</orig> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1920776">StAZH B III 5, fol. 304r</ref></bibl>).</note>
+<app><lem>einem</lem><rdg wit="StAZH B II 4, Teil II, fol. 9r">minem herren, dem</rdg></app>
+<orgName ref="org002406">burgermeister <app><lem/><rdg wit="StAZH B II 4, Teil II, fol. 9r">einem</rdg></app> unnd rat</orgName> zewarten, <app><lem/><rdg wit="StAZH B II 4, Teil II, fol. 9r">ein</rdg></app> gmeine statt
+<lb/>mit geschrifft zebesorgen unnd ußzerichten unnd darinn der statt 
+<lb/>nu̍tz unnd ere zefu̍rdren unnd <app><lem/><rdg wit="StAZH B II 4, Teil II, fol. 9r">iren</rdg></app> schaden zewenden, als fer sy das 
+<lb/>ir gewu̍ßne wyßd, unnd mit der statt großem noch kleinem insigel
+<lb/>nu̍dzit zebesiglen, on <app><lem/><rdg wit="StAZH B II 4, Teil II, fol. 9r">mines herren</rdg></app> eins bu̍rgermeisters oder eines <orgName ref="org004016">rats</orgName> wu̍ssen,
+<lb/>willen oder heissen unnd zuͦverschwigen, davon schad oder gebrest 
+<lb/>komen mag, es werde verpotten oder nit, alles ongevard.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung basiert auf einem Eid des späten 15. Jahrhunderts, der in den Stadtbüchern erstmals verschriftlicht wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928763">StAZH B II 4, Teil II, fol. 9r)</ref></bibl>. Anders als in der älteren Version werden hier Stadtschreiber und Unterschreiber gleichermassen als Schwörende genannt, die beiden hatten also denselben Eid zu leisten. Die Formel wurde mit kleineren Änderungen in die Satzungsbücher des 17. Jahrhunderts übertragen. Direkt im Anschluss an die vorliegende Aufzeichnung findet sich eine Ordnung für die Stadtschreiber, die im Wesentlichen eine Tarifliste für die Beurkundung verschiedener Rechtsgeschäfte darstellt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_096">SSRQ ZH NF I/1/3, Nr. 96</ref></bibl>). Analoge Ordnungen entstanden während des 16. Jahrhunderts auch für die Schreiber auf der Landschaft (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_177">SSRQ ZH NF I/1/3, Nr. 177</ref></bibl>).</p>
+<p>Die Leitung der <orgName ref="org005015">Kanzlei der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> lag seit dem Spätmittelalter bei Stadtschreiber und Unterschreiber. Beide wurden durch den <orgName ref="org004906">Grossen Rat</orgName> ernannt und konnten, wie in der vorliegenden Aufzeichnung, auch nebeneinander als Stadtschreiber bezeichnet werden. Ihnen stand je ein Substitut als Gehilfe zur Verfügung. Während der Frühen Neuzeit etablierte sich die Praxis, dass der Unterschreiber seinem Vorgesetzten im Amt folgte. Der Stadtschreiber nahm an den Sitzungen der <orgName ref="org004016">Räte</orgName> teil, durfte sich jedoch zu den laufenden Geschäften selbst nur äussern, wenn er vom Bürgermeister nach seiner Meinung gefragt wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_096">SSRQ ZH NF I/1/3, Nr. 96</ref></bibl>).</p>
+<p>Mit der Zunahme der Schriftlichkeit und der Territorialisierung von Herrschaft während des 15. Jahrhunderts kam den Stadtschreibern eine zunehmend wichtige Bedeutung für die Verwaltung zu. Zu ihren Aufgaben gehörte das Anlegen verschiedener Satzungsbücher, das Protokollieren der Ratssitzungen sowie das Abfassen von Missiven und die Beurkundung von Rechtsgeschäften in lateinischer und deutscher Sprache, aber auch die Archivierung zentraler Schriftstücke. Wichtige Impulse für die Etablierung einer solchen Kanzleipraxis gingen in <placeName ref="loc000065">Zürich</placeName> von Stadtschreiber <persName ref="per000740">Michael Stebler, genannt Graf</persName>, aus. Ein Universitätsstudium war nicht Bedingung für die Tätigkeit als Stadtschreiber und stellte in <placeName ref="loc000065">Zürich</placeName> – im Gegensatz etwa zu <placeName ref="loc000157">Bern</placeName> – sogar eher die Ausnahme dar. Der letzte auswärtige Stadtschreiber wurde im Jahr 1529 mit <persName ref="per012630">Werner Beyel</persName> ernannt, der zuvor im Dienst des Bischofs von <placeName ref="loc008438">Basel</placeName> gestanden hatte. Danach kamen ausschliesslich Angehörige <placeName ref="loc000065">Zürcher</placeName> Geschlechter in dieses Amt, wobei sich ausgeprägte Schreiberdynastien entwickelten.</p>
+<p>Zu den Stadtschreibern und der städtischen <orgName ref="org005015">Kanzlei</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 24-26</bibl>; zum Bildungshintergrund der Stadtschreiber in der spätmittelalterlichen <placeName ref="loc000153">Eidgenossenschaft</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Jucker 2002</ref></bibl>; zur Arbeitsteilung zwischen Stadt- und Landschreibern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sibler 1988</ref></bibl>; zu Stadtschreiber <persName ref="per000740">Michael Stebler</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2007</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

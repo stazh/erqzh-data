@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_049_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4325388">StAZH G I 102, fol. 8v</idno></msIdentifier><head>Nachträge zu den Rechten des Grossmünsterstifts in Schwamendingen</head><msContents><summary>Geregelt werden der Viehauftrieb, das Öffnen von Wiesen, Äckern und Wäldern sowie die Busse für das Aufbrechen von Grenzzäunen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Felix Fry, Stiftsverwalter des Grossmünsters (Randvermerke und zweiter Nachtrag)</author><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1533-05-28">Datierung des zweiten Nachtrags aufgrund der Amtszeit von Stiftsverwalter Fry</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key004017">Flurordnung</term><term ref="key000305">Grenze</term><term ref="key000048">Weiderecht</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="2v"/>
+<div><head><lb/><placeName ref="loc009859">Swabendingen</placeName></head></div>
+<div><p><gap source="SSRQ ZH NF II/11, Nr. 15"/><note>Die Artikel 1-51 stimmen grösstenteils mit jenen der älteren Fassung der Offnung überein (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref></bibl>). Die Abweichungen werden dort angegeben.</note></p></div>
+<pb n="8v"/>
+<div><p><seg n="52"><lb/>Es sol ǒch nieman ze <placeName ref="loc009859">Swamendingen</placeName> mer 
+<lb/>vaͤhes triben uff die weid denn als vil, 
+<lb/><app><lem>als</lem><rdg wit="StAZH G I 103, fol. 8r">und</rdg></app> sich gebu̍rt, von <measure type="area" quantity="1" unit="Hube">einer huͦb</measure>
+<num value="12">zwoͤlff</num>
+<lb/>hoͧbt. Doch was einer jǔnges vaͤhes zuhe 
+<lb/>von sinem vaͤhe, das noch nit <measure type="age" unit="year" quantity="1">jaͤrig</measure> waͤre, 
+<lb/>das sol in der <choice><abbr>obgenatn</abbr><expan>obgenanten</expan></choice> zal nit gerechnet 
+<lb/>werden.<add place="left margin" scribe="per011263" hand="later hand" type="sign"><!-- Schreiber ist Felix Fry --><lb/>Und ob einer
+sin <lb/>zal vechs nit het <lb/>uff die weid ze tri<lb break="no"/>ben, der sol sin zal nit mit froͤmb<lb break="no"/>dem oder andrem <lb/>vech ersetzen.</add><note>Den gleichen nachträglichen Einschub hat <persName ref="per011263">Fry</persName> auch in der von ihm geschriebenen <quote>Vorred von huͦben zuͦ <placeName ref="loc009859">Svamendingen</placeName></quote> im <placeName ref="loc009859">Schwamendinger</placeName> Urbar von 1533 angebracht (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2272072">StAZH G I 228, fol. 8r-9r</ref></bibl>), nicht aber im ebenfalls von seiner Hand stammenden Kelleramturbar von 1541, das die Vorrede ebenfalls enthält (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1170176">StAZH G I 139, fol. 34v</ref></bibl>).</note> Und wer das ûberfuͤre und <app><lem/><rdg wit="StAZH G I 103, fol. 8r">das</rdg></app> nit 
+<lb/>hielte, der sol ǒn gnâd von jeglichem tag 
+<lb/>vervallen sin <measure type="currency" quantity="1" unit="lb" origin="ZH">ein  pfening Zûricher mûntz</measure>
+<lb/>einem probst <num value="0.5">halben</num> und das ander <num value="0.5">halbteil</num>
+<lb/>an Sant Niclǎs cappell ze <placeName ref="loc009859">Swamendingen</placeName>.</seg></p>
+<p><seg n="53"><lb/>Ǒch ist ze wûssen, das alle guͤter, aͤcker, 
+<lb/>wisen, holtz und veld ze <placeName ref="loc009859">Swamendingen</placeName>
+<lb/>soͤllent sin uffgetaͤn zuͦ rechter zit (und 
+<lb/>zuͦ gewonlicher weid ussliggen) usgenomen 
+<lb/>die wiß, die man nempt die <placeName ref="loc012081">Bruͤlwise</placeName>, und 
+<lb/>das bûntlin dar an, das sind <num value="3">dru̍</num> wisbletzli, 
+<lb/>und ôch <num value="3">dru̍</num> wisbletzli an <placeName ref="loc012705">Oͤlembrunnen</placeName>, 
+<lb/>die alle ingeschlossen sin und innligen 
+<lb/>mugent.</seg></p>
+<p><seg n="54"><lb/>Item welher ǒch under den nachgebruren 
+<lb/>ein beschlossne zaͤlg uffbrichet oder ein 
+<lb/>efaden, der ist ǎne gnad vervallen 
+<lb/><measure type="currency" quantity="5" unit="ß">fu̍nf schilling haller</measure> und <app><lem/><rdg wit="StAZH G I 103, fol. 8r">sol</rdg></app> ǒch den schaden 
+<lb/>ablegen, ob deheiner davon <app><lem>beschechen 
+<lb/>were</lem><rdg wit="StAZH G I 103, fol. 8r">were beschechen</rdg></app>, denn sy soͤllent zuͦ den rechten tûrlin 
+<lb/>yn- und ußfaren.</seg></p>
+<p><add place="below" hand="other hand" scribe="per011263"><!-- Schreiber ist Felix Fry --><lb/><app><lem/><rdg wit="StAZH G I 103, fol. 8r">Item</rdg></app>Hinfûr soll man leßen des banholtzes
+halb ein gschrift, 
+<lb/>stât <app><lem>ze end dis buchs</lem><rdg wit="StAZH G I 103, fol. 8r">da hinden in disem buch</rdg></app>, fahent an: <quote>Wir, Johannes Mantss</quote>.</add><note>Mit dem Verweis betreffend das Bannholz ist <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_044">SSRQ ZH NF II/11, Nr. 44</ref></bibl> gemeint.</note>
+</p>
+</div>
+</body>
+<back>
+<div><p><lb/>Im Anschluss an die Abschrift der deutschen Offnung von <placeName ref="loc009859">Schwamendingen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref></bibl>) in den gesammelten Rechten des <orgName ref="org004352">Grossmünsterstifts</orgName> in seinen Höfen 
+wurden in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317294">StAZH G I 102</ref></bibl> von späterer Hand diese drei Artikel über die dörflichen Weiderechte hinzugefügt. In der Abschrift von <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317295">StAZH G I 103</ref></bibl> 
+stammen sie dagegen aus derselben Hand wie die Offnung. In der ersten Hälfte des 16. Jahrhunderts versah der Verwalter des <orgName ref="org004352">Grossmünsterstifts</orgName>
+<persName ref="per011263">Felix Fry</persName> diese Nachträge mit einer weiteren Ergänzung und einem Verweis auf eine andere Abschrift im selben Band 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_044">SSRQ ZH NF II/11, Nr. 44</ref></bibl>). Teuscher datiert die beiden Bände auf die Zeit um 1500 (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 317, Anm. 73</bibl>). 
+Aufgrund des Schriftbildes könnte die Anlage jedoch auch schon um die Mitte des 15. Jh. erfolgt sein.</p>
+<p>Sämtliche Zusätze in dieser Aufzeichnung gegenüber ihrer Vorlage (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref></bibl>) flossen als eigenständige Artikel in die erneuerte Offnung aus dem Jahr <date when="1533">1533</date> ein (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_057">SSRQ ZH NF II/11, Nr. 57</ref></bibl>).  
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_084_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1916659">StAZH B III 6, fol. 22v-24r</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend die Sitzungen des Kleinen Rats am Mittwoch</head><msContents><summary>Künftig sollen im Kleinen Rat am Mittwoch ausschliesslich innere Angelegenheiten der Stadt Zürich verhandelt werden. Der Bürgermeister hat an diesem Tag nur diejenigen vorzulassen, die sich damit befassen. Insbesondere sollen die Säckelmeister, Baumeister und andere Amtleute der Stadt ihre Geschäfte an diesem Tag dem Kleinen Rat vortragen. Ausgenommen von dieser Regelung ist der Fall des Eintreffens bedeutender Gesandtschaften oder Nachrichten, mit denen sich der Kleine Rat unverzüglich zu befassen hat.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000364">Rat</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="22v" facs="StAZH_B_III_6__fol__22_v_.tif"/>
+<head>
+<lb/>Wie man an der <date period="P4WD">mitwochen</date> der statt sachen
+<lb/>ußrichten, <app><lem>ouch</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">und alßdann</rdg></app> die amptlut erschinen <app><lem/><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">soͤllent</rdg></app> und solchs 
+<lb/>anbringen
+</head>
+<p>
+<lb/>Wir habent unns ouch erkennt unnd wellent, das hinfu̍r <date dur="R/P1W">all
+<lb/>wuchen</date> an der <date period="P4WD">mitwuch</date> allein gmeiner statt sachen <choice><sic>sllint</sic><corr>soͤllint</corr></choice>
+<lb/>gehandelt unnd ußgericht werden <app><lem>unnd das ein burger<lb break="no"/>meister</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v"/></app>
+uff die <date period="P4WD">mitwuch</date> niemas <app><lem>solle</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">werde</rdg></app> tag geben, <app><lem>annders dann</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">dann allein</rdg></app>
+<lb/>denen, so mit der statt sachen <app><lem>mu̍ssint</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v"/></app> umbgon, unnd die 
+<lb/>wollent einem <orgName ref="org004016">rat</orgName> anbringen, es wer dann sach, das groß,
+<lb/>not wendig botschaften oder brief komint, die sol man alßdann 
+<lb/>ouch ußrichten. Unnd sollen ouch alweg uff den <app><lem>selben tag</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">mitwuch</rdg></app>
+<pb n="24r" facs="StAZH_B_III_6__fol__24_r_.tif
+"/><note>Die Foliierung überspringt hier eine Zahl.</note>
+<lb/>insonderheit erschynen unnd zuͦgegen sin der statt seckler, buw<lb break="no"/>meister 
+unnd annder amptlu̍t <app><lem>der statt</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v"/></app>, unnd <app><lem>ir</lem><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">soͤlich der statt</rdg></app> sachen anbringen,
+<lb/>ouch ein yedes des <orgName ref="org004016">rats</orgName>, <app><lem/><rdg wit="StAZH B III 2, S. 340; StAZH B III 4, fol. 31v">der mag anbringen</rdg></app> was inn bedunnkt nott sin. <app><lem/><rdg wit="StAZH B III 4, fol. 31v">Unnd damit die genannten segkel- und buwmeyster der statt sachen dest <lb/>kommenlicher anbringen, fergen unnd fürderen mögint, söllent sy dess <orgName ref="org004016">cleinen rats</orgName> sin und nit von <lb/>den <orgName ref="org004906">burgeren</orgName> genommen werden.</rdg></app>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung ist Teil der Geschäftsordnung des <orgName ref="org004016">Kleinen Rats</orgName>, die an dieser Stelle erstmals verschriftlicht wurde (für weitere Bestandteile der Geschäftsordnung vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_086">SSRQ ZH NF I/1/3, Nr. 86</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_083">SSRQ ZH NF I/1/3, Nr. 83</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_085">SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>).</p>
+<p>Erste Hinweise für die Festlegung des Mittwochs als Verhandlungstag für innere Angelegenheiten der Stadt lassen sich auf das Jahr 1417 zurückverfolgen (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/2, S. 280-281, Nr. 71</bibl>). Die damalige Ordnung war jedoch lediglich auf ein Jahr befristet und für die Zwischenzeit fehlen Angaben betreffend deren weitere  Einhaltung. In der Ratsordnung des Jahres 1542 wird jedoch festgehalten, dass am Dienstag der <orgName ref="org004016">Kleine Rat</orgName> nicht zusammentreten sollte, wobei diejenigen Ratsmitglieder, denen zusätzliche Ämter und Aufgaben übertragen worden waren, diese vorzugsweise am Dienstag verrichten sollen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_182">SSRQ ZH NF I/1/3, Nr. 182</ref></bibl>). Am Mittwoch sollten die Amtsträger dann wiederum, wie in der vorliegenden Aufzeichnung beschrieben, ihre Geschäfte dem <orgName ref="org002406">Rat</orgName> vortragen.</p>
+<p>Detailliertere Bestimmungen für die Verteilung der Geschäfte des <orgName ref="org004016">Kleinen Rates</orgName> auf einzelne Wochentage sind erst aus dem 17. Jahrhundert überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1914537">StAZH B III 4, fol. 133r</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1920759">StAZH B III 5, fol. 104r</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1920758">StAZH B III 5, fol. 104r-150r</ref></bibl>).</p>
+<p>Für die Verhandlungen im <orgName ref="org004016">Kleinen Rat</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 19</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauswirth 1973</ref>, S. 132-148</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1941</ref>, S. 42-49</bibl>; allgemein zu den Geschäftsordnungen des <orgName ref="org002406">Rats</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sigg 1971</ref>, S. 121-123</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_051</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2297627">StAZH B V 3, fol. 123r-v</idno></msIdentifier><head>Bescheinigung ehelicher Geburt und guter Lebensführung für Heinrich Grossmann von Höngg</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden, dass Anna Niepin, Witwe von Jakob Grossmann von Höngg, eine schriftliche Bestätigung der ehelichen Geburt ihres Sohnes Heinrich Grossmann, der seine Wanderjahre als Handwerksgeselle absolvieren will, erbeten hat. Sie haben daraufhin Clewy Burri und Heinrich Notz als Zeugen vernommen, welche unter Eid bezeugt haben, dass Anna Niepin und Jakob Grossmann verheiratet waren, Heinrich Grossmann ehelich geboren wurde und er und seine Eltern über einen guten Leumund verfügen. Zudem seien weder Heinrich noch seine Eltern Leibeigene. Die Aussteller siegeln mit dem Sekretsiegel. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1521-09-16"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004054">Auswanderung</term><term ref="key001004">Bescheinigung</term><term ref="key000849">Handwerk</term><term ref="key005474">Leumund</term><term ref="key003820">Mannrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="123r"/>
+<head>Urkünd elicher puͤrtt </head>
+<p><add place="right margin"><date when="1521">1521</date></add>
+<seg><lb/>Wir, der <orgName ref="org002406">burgermeister unnd ratt der statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+<lb/>thund kund aller mengklichem mit disem brieff,
+<lb/>das für unns komen ist die unnser <persName ref="per023494">Anna Niepin</persName>,
+<lb/>wilund<!-- =weiland --> des unnsern <persName ref="per023496">Jacob Grosmans</persName> von <placeName ref="loc009768">Hönngg</placeName> eliche
+<lb/>hus frow, unnd eroffnett vor unns, wie das sy einen
+<lb/>elichen sun mit namen <persName ref="per024291">Heinrich Grosman</persName> habe, der ein
+<lb/>wanndlennder knab unnd hanndtwerchs xell sye unnd
+<lb/>sinem hanndtwerch nach in frömbde lannd zu züchenn
+<lb/>willenns sye. Unnd als dann der selb <persName ref="per024291">Heinrich Grosman</persName>
+<lb/>von wegen sins hanndtwercks brieffliches schins siner
+<lb/>elichen gepurthalp notturfftig, sye ir beger, die erbern,
+<lb/>unnser getrüwen, lieben <persName ref="per024290">Clewy Buri</persName> unnd <persName ref="per024292">Heinrichen
+<lb/>Notz</persName>, ouch beid von <placeName ref="loc009768">Hönngg</placeName>, darumb in kuntschafft
+<lb/>wyß zuverhören.</seg>
+<seg>Unnd also uff söllich, der genanten
+<lb/><persName ref="per023494">Anna Näppin</persName>, anvordern unnd begeren, so habenntt
+<lb/>wir die gemelten <num value="2">zwenn</num> vor unnserm gesessnen ratt
+<lb/>verhörtt, die dann by iren eyden, so sy hierumb sunderlich
+<lb/>liplich zu gott unnd den hellgen geschworen, ein muntlich
+<lb/>gesagt habennt, das inen wol ingedennckt unnd
+<lb/>wussent sye, das der genant <persName ref="per023496">Jacob Grosman</persName> sellig
+<lb/>unnd <persName ref="per023494">Anna Näpin</persName> elutt gewessen unnd mit
+<lb/>ein anndern zu <choice><sic>klchen</sic><corr>kilchen</corr></choice> unnd zu strassen ganngen
+<lb/>wie elütt unnd dem nach in söllichem elichem statt
+<lb/>den genanten <persName ref="per024291">Heinrich Großman</persName> bi unnd mit
+<lb/>ein anndern über komen unnd elich geporn haben
+<lb/>unnd das sy beide sich in söllichem elichem stannd,
+<lb/>als elütten gezimpt, wol unnd erlich gehalten. Unnd
+<lb/>sye ouch der genannt <persName ref="per024291">Heinrich Grosman</persName> ein junger
+<lb/>knab frannklich unnd erlich unnd mit gutttem
+<lb/>lümbden von <placeName ref="loc009768">Höng</placeName> gescheiden unnd hin weg gezogen. <pb n="123v"/>
+<lb/>Inen sye ouch nit wüssennt, habent ouch nie gehörtt
+<lb/>nach vernommen, das die genanten sin vatter unnd
+<lb/>muter unnd er einichen eignen oder nachjagenden<!-- eigentlich: nach jagenden -->
+<lb/>herren je gehept <abbr>etc</abbr>. Unnd ist daruff an
+<lb/>alle, die da deshalb dem genanten <persName ref="per024291">Heinrichen
+<lb/>Großman</persName> die kuntschafft zu <unclear>erzeigen</unclear> nott wirtt,
+<lb/>unnser ernnstlich pitt ir woͤllind in <unclear>für</unclear> bevolgen
+<lb/>haben unnd im das best thun, das wollennd wir
+<lb/>beschulden unnd verdiennen, wo es sich begybt.</seg>
+<seg><lb/>Datum unnd besigelt unnder unnser statt secrett
+<lb/>insygel offennlich hieran hanngend <origDate when="1521-09-16">mentags nach
+<lb/>des helgen crutzes tag anno <abbr>etc</abbr> xxi jar</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bei diesem Stück handelt es sich um den Entwurf eines Geburts- und Mannrechtbriefs. Diese waren weit verbreitet, da die eheliche Geburt nicht nur Voraussetzung war für die Aufnahme als Handwerksgeselle oder Zunftmitglied, 
+sondern auch für den Erwerb des Bürgerrechts. Wer emigrierte, benötigte eine solche Bestätigung seiner Heimatgemeinde. Typischerweise enthalten sie ein Leumundszeugnis, eine Aussage über die Leibeigenschaft und die 
+Bestätigung der ehelichen Geburt; zudem wurde die Ehelichkeit oft nicht lediglich bestätigt, sondern es wurden – wie im vorliegenden Entwurf – die Eltern namentlich genannt und deren Heirat und ehrbares Eheleben erwähnt.</p>
+<p>Zu Geburtsbriefen vgl. <bibl><ref target="/startseite/literaturverzeichnis">DRW 1914ff</ref>, <ref target="https://www.rzuser.uni-heidelberg.de/~cd2/drw/e/ge/burt/brie/geburtbrief.htm">Geburtsbrief</ref></bibl>; 
+<bibl><ref target="https://www.leo-bw.de/themenmodul/sudwestdeutsche-archivalienkunde">Südwestdeutsche Archivalienkunde</ref>, <ref target="https://www.leo-bw.de/themenmodul/sudwestdeutsche-archivalienkunde/archivaliengattungen/urkunden/mannrechtsbriefe-und-geburtsbriefe"> Geburtsbriefe, Mannrechtsbriefe (Stand: 07.03.2019)</ref></bibl>. 
+<!--Grossmann: wichtige Höngger Familie, vgl. Sibler 1998, S. 84-85.-->
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

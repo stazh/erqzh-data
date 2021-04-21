@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_004</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30146">StiASG Urk. GG2 T2</idno></msIdentifier><head>Verkauf der Herrschaft Greifensee an die Grafen von Toggenburg</head><msContents><summary>Die Freiherren Johann von Tengen, Walter von Altklingen, Albrecht von Bussnang und Lütold von Aarburg, die Ritter Egbrecht von Goldenberg, Gottfried von Hünenberg, Friedrich von Hinwil, Johann Giel von Liebenberg, der Kantor des Domstifts Konstanz, Johann Hofmeister von Frauenfeld, die Brüder Johann und Rudolf von Bonstetten, Peter von Ebersberg, Hermann von Landenberg-Werdegg, Ulrich von Aspermont der Ältere sowie die Zürcher Bürger Rudolf von Goldenberg und Johann von Seon beurkunden, dass Rudolf von Landenberg-Werdegg der Ältere mit Zustimmung und Rat von Bruno Brun, Propst des Zürcher Grossmünsters, und Johann Schultheiss von Greifensee die Burg Greifensee zusammen mit der Stadt, dem See, den Weihern und Gärten sowie sämtlichen zugehörigen Leuten, Abgaben, Gütern und Rechten an die drei Grafen Friedrich, Donat und Diethelm von Toggenburg verkauft habe. Der Kaufpreis von 7923 Gulden wurde Rudolf von Landenberg zur Tilgung seiner Schulden bei den Ausstellern ausbezahlt. Die Abgaben der Vogteien Maur, Uessikon, Schwerzenbach, Binz, Auslikon, Fällanden und Oberuster, des Widums in Winikon, der Mühlen in Niederuster, Volketswil und Greifensee, der Meierhöfe in Bertschikon und Fällanden, des Dinghofs Nossikon, der Fischfanggebiete im See sowie weiterer Güter in Rumlikon, Irgenhausen, Maur und Hegnau werden einzeln aufgezählt. Die Gerichte der Herrschaft umfassen das Meieramt und die Vogtei Fällanden, die Vogteien Maur, Binz, Niederuster, Wil, Oberuster, Werrikon, Nänikon, Hegnau, Schwerzenbach, Irgenhausen, Auslikon, Schalchen und Hutzikon, die Hälfte der Vogteien in Uessikon, Kirchuster und Freudwil sowie die Vogtleute in Dübendorf und sämtliche Eigenleute in den genannten Gebieten. All diese Güter sind freies Eigen, mit Ausnahme des Usterbachs, der ein Reichslehen ist, und des Meieramts Fällanden, das Lehen der Fraumünsterabtei in Zürich ist. Die Aussteller schwören, die Käufer und ihre Erben in all ihren Rechten vor geistlichen und weltlichen Gerichten zu schützen und auf deren schriftliches oder mündliches Aufgebot hin innerhalb von drei Monaten in Zürich, Winterthur oder Rapperswil zusammenzukommen, um Bürgschaft zu leisten. Die Aussteller, der Verkäufer sowie Bruno Brun und Johann Schultheiss von Greifensee siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="57.0"/><width unit="cm" quantity="84.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><persName>Johann von Tengen</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Walter von Altklingen</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName>Albrecht von Bussnang</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Lütold von Aarburg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="5" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><persName>Egbrecht von Goldenberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="6" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Gottfried von Hünenberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="7" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Friedrich von Hinwil</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="8" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName>Johann Giel von Liebenberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="9" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName>Johann Hofmeister von Frauenfeld</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="10" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName>Johann von Bonstetten</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="11" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><persName>Rudolf von Bonstetten</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="12" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName>Peter von Ebersberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="13" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName>Hermann von Landenberg-Werdegg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="14" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Ulrich von Aspermont</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="15" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Rudolf von Goldenberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="16" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Johann von Seon</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="17" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName>Rudolf von Landenberg-Werdegg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="18" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName>Bruno Brun</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="19" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName>Johann Schultheiss von Greifensee</persName></seal></sealDesc></physDesc><history><origin><origDate when="1369-11-28"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>ChSG, Bd. 8, Nr. 5198; UBSG, Bd. 4, Nr. 1669</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000499">Bürgschaft</term><term ref="key005072">Eigentum</term><term ref="key003737">Herrschaftsrechte</term><term ref="key000369">Kauf</term><term ref="key000441">Pfand</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StiASG_Urk__GG2_T2_r__Bild_1.jpg"/>
+<p><seg><lb/>Allen, die disen brief sehent oder hoͤrent lesen, ku̍nden wir, <persName role="issuer" ref="per010821">Johans von Tengen</persName>,
+<persName role="issuer" ref="per003266">Walther von der Alten Klingen</persName>,
+<persName role="issuer" ref="per013283">Albrecht von Bussnang</persName>, rittere,
+<persName role="issuer" ref="per010980">Lu̍tolt von Arburg</persName>, alle vier fry herren,
+<persName role="issuer" ref="per013396">Egbrecht von Goldenberg</persName>,
+<persName role="issuer" ref="per013515">Goͤtfrit von Hu̍naberg</persName>,
+<persName role="issuer" ref="per013505">Fridrich von Hu̍nwile</persName>,
+<persName role="issuer" ref="per013172">Johans der Giel</persName>, rittere,
+<persName role="issuer" ref="per013508">Johans Hofmeister</persName> von <placeName ref="loc000282">Froͧwenfeld</placeName>,
+senger der <orgName ref="org002902">stift des thuͦms
+<lb/>ze <placeName ref="loc006531">Costentz</placeName></orgName>,
+<persName role="issuer" ref="per013324">Johans</persName> und <persName role="issuer" ref="per011031">Ruͦdolf von Boͧnstetten</persName>, gebruͦdere,
+<persName role="issuer" ref="per011647">Peter von Ebersperg</persName>,
+<persName role="issuer" ref="per013522">Herman von Landenberg, genant von Werdegg</persName>,
+<persName role="issuer" ref="per010982">Uͦlrich von Aspermunt der elter</persName>,
+<persName role="issuer" ref="per013481">Ruͦdolf von Goldenberg</persName>
+und <persName role="issuer" ref="per013543">Johans von Seon</persName>, burger <placeName ref="loc000065">Zu̍rich</placeName>,
+und verjechen offenlich mit disem brief, das <persName ref="per013530">Ruͦdolf von Landenberg der elter, genant von Werdegg</persName>,
+<lb/>mit heissen und rât des erbern herren, hern <persName ref="per013330">Brun Brun</persName>, probst <placeName ref="loc007562">Zu̍rich</placeName>,
+und <persName ref="per013541">Johans Schultheissen</persName> von <placeName ref="loc008569">Griffense</placeName>
+die burg, die statt <placeName ref="loc008569">Griffense</placeName>, den se, die wyer, die boͧmgarten, die krutgarten und die hofreiti
+mit allen zuͦ gehoͤrden und dar zuͦ dis nachgeschriben lu̍t, gu̍lt und guͤter, vogteyen, gericht, twing
+<lb/>und baͤnne, und sint dis du̍ guͤter:</seg>
+<seg>des ersten die vogtey ze
+<placeName ref="loc008648">Mure</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="20">zwenzig mu̍t kernen</measure>,
+<measureGrp><measure type="currency" unit="lb" quantity="5" origin="ZH">fu̍nf pfunt</measure> und
+<measure type="currency" unit="ß" quantity="6" origin="ZH">sechs schilling pfenning</measure></measureGrp>;</seg>
+<seg>aber die vogtey ze
+<placeName ref="loc008790">Uͤsikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measureGrp><measure type="currency" unit="lb" quantity="3" origin="ZH">dru̍ pfunt</measure> und
+<measure type="currency" unit="ß" quantity="9" origin="ZH">nu̍n schilling pfenning</measure></measureGrp>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008652">Swerzenbach</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measureGrp><measure type="volume" commodity="spelt" unit="Mütt" quantity="3">dry mu̍t</measure> und
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="4">ein fiertel kernen</measure></measureGrp>
+und <measure type="currency" unit="lb" quantity="3" origin="ZH">dru̍ pfunt
+<lb/>pfenning</measure>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008789">Bintz</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" unit="Mütt" quantity="1" commodity="nuts">einen mu̍t nussen</measure>,
+<measureGrp><measure type="currency" unit="lb" quantity="2" origin="ZH">zwei pfunt</measure> und
+<measure type="currency" unit="ß" quantity="17" origin="ZH">sibenzechen schilling pfenning</measure></measureGrp>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008776">Auslikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="currency" unit="lb" quantity="1" origin="ZH">ein pfunt pfenning</measure>;</seg>
+<seg>aber der hof ze <placeName ref="loc008737">Nidren Ustre</placeName> und die andern guͤter, so dar zuͦ hoͤrent, geltent <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="20">zwenzig mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Malter" quantity="6">sechs malter habern</measure>, <measure type="volume" commodity="rye" unit="Mütt" quantity="1">einen
+<lb/>mu̍t roggen</measure>, <measure type="volume" commodity="pulses" unit="Mütt" quantity="7">siben mu̍t fastmuͤs</measure>, <num value="10">zechen</num> swin,
+dero jeklichs <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf schilling</measure> gelten sol, und <num value="1">ein</num> swin, das sol
+<measure type="currency" unit="ß" quantity="10" origin="ZH">zechen schilling</measure> gelten, da nimt
+man fu̍r <num value="3">dru̍</num> swin under den <num value="10">zechen</num> swinen
+<measure type="currency" unit="ß" quantity="35" origin="ZH">fu̍nf und drissig schilling pfenning</measure>;</seg>
+<seg>aber du̍ <persName ref="per013503">Hermannin</persName> und <persName ref="per013534"><choice><abbr>Cuͦnr</abbr><expan>Cuͦnrat</expan></choice> Oͤri</persName>
+gent von einem guͤtlin ze <placeName ref="loc006198">Ustre</placeName>
+<date dur="R/P1Y">jerlich</date>
+<lb/><measure type="volume" commodity="rye" unit="Mütt" quantity="1">ein mu̍t roggen</measure>;</seg>
+<seg>aber die mu̍li ze <placeName ref="loc008737">Nidren Ustre</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="6">sechs mu̍t kernen</measure>
+und <num value="1">ein</num> swin, sol <measure type="currency" unit="ß" quantity="10" origin="ZH">zechen schilling</measure> gelten;</seg>
+<seg>aber der hof, der des <persName ref="per013533">Muters</persName> was,
+gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="oat" unit="Malter" quantity="5">fu̍nf malter habern</measure>,
+<measure type="volume" commodity="pulses" unit="Viertel" quantity="6">sechs viertel vasmuͤs</measure>
+und <num value="2">zwei</num> swin, dero jetweders <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf schilling</measure> gelten sol;</seg>
+<seg>aber <measure type="volume" commodity="spelt" unit="Mütt" quantity="2">zwen mu̍t kernen geltes</measure>
+<lb/>von der widme ze <placeName ref="loc007634">Winikon</placeName> und
+<measure type="currency" unit="ß" quantity="10" origin="ZH">zechen schilling pfenning</measure> fu̍r <num value="1">ein</num> swin;</seg>
+<seg>aber des <persName ref="per013545"><choice><sic>Tunrherren</sic><corr>Turnherren</corr></choice></persName> guͦt ze <placeName ref="loc008816">Nenikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="2">zwen mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Mütt" quantity="2">zwen mu̍t habern</measure>,
+<measure type="volume" commodity="rye" unit="Mütt" quantity="2">zwen mu̍t roggen</measure> und <num value="30">drissig</num> eyer;</seg>
+<seg>aber <persName ref="per013553">Zu̍llis</persName> guͦt ze <placeName ref="loc008816">Nenikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="2">zwen mu̍t kernen</measure>,
+<measure type="volume" commodity="rye" unit="Mütt" quantity="2">zwen mu̍t roggen</measure>,
+<num value="1">ein</num> swin, das <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf schilling</measure>
+<lb/>gelten sol, und <num value="70">sibentzig</num> eyer;</seg>
+<seg>aber des <persName ref="per012786">Binders</persName> hof ze <placeName ref="loc008816">Nenikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="5">fu̍nf mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Malter" quantity="2">zwei malter habern</measure> und <num value="100">hundert</num> eyer;</seg>
+<seg>aber der meyer von <placeName ref="loc008814">Berscikon</placeName> git <date dur="R/P1Y">jerlich</date>
+<num value="2">zwei</num> swin ze vogtrecht,
+dero jetweders <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf schilling</measure> gelten sol;</seg>
+<seg>aber <persName ref="per013537"><choice><abbr>Cuͦnr</abbr><expan>Cuͦnrat</expan></choice> Scherer</persName> ze <placeName ref="loc008569">Griffense</placeName> git <date dur="R/P1Y">jerlich</date>
+von einem guͦt <measure type="volume" commodity="spelt" unit="Viertel" quantity="10">zechen viertel kernen</measure>;<note>Im Urbar von 1416
+werden <persName ref="per005679">Scherers</persName> Hofstatt und Acker getrennt aufgeführt, die Hofstatt mit 1 Viertel Kernen und der Acker mit 7 Viertel Kernen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).</note></seg>
+<seg><lb/>aber du̍ wis am bach ze <placeName ref="loc008651">Vellanden</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="1">einen mu̍t kernen</measure>;</seg>
+<seg>aber du̍ vogtey ze <placeName ref="loc008651">Vellanden</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="20">zwenzig mu̍t kernen</measure>,
+<measure type="currency" unit="lb" quantity="5" origin="ZH">fu̍nf pfunt pfenning</measure>;</seg>
+<seg>aber das meyerampt ze <placeName ref="loc008651">Fellanden</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="11">einlif mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Malter" quantity="2">zwei malter habern</measure>,
+<num value="2">zwei</num> swin, dero jetweders <measure type="currency" unit="ß" quantity="12" origin="ZH">zwelf schilling</measure> gelten sol,
+und <num value="100">hundert</num> eyer;</seg>
+<seg><lb/>aber <persName ref="per013521"><choice><abbr>Heinr</abbr><expan>Heinrich</expan></choice> Keller</persName>
+und der <persName ref="per013536">Schanolt</persName> gent <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="1">ein mu̍t kernen</measure> von einer hofstatt und von einem boͧmgarten;</seg>
+<seg>aber der <persName ref="per013554">Zu̍richer</persName> git <date dur="R/P1Y">jerlich</date> von einem guͦt <measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwei fiertel kernen</measure>,
+<num value="1">ein</num> swin, sol <measure type="currency" unit="ß" quantity="12" origin="ZH">zwelf schilling</measure> gelten, und <num value="100">hundert</num> eyer;</seg>
+<seg>aber der keller von <placeName ref="loc008651">Vellanden</placeName> git <date dur="R/P1Y">jerlich</date> von dem kelnhof ze
+<placeName ref="loc008651">Vellan<lb break="no"/>den</placeName>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwei viertel kernen</measure> ze wisung;</seg>
+<seg>aber <measureGrp><measure type="currency" unit="lb" quantity="1" origin="ZH">ein pfunt</measure>
+<measure type="currency" unit="ß" quantity="4" origin="ZH">vier schilling</measure>
+<measure type="currency" unit="d" quantity="4" origin="ZH">vier pfenning</measure></measureGrp> geltes ze wisung von <placeName ref="loc008651">Fellanden</placeName>;</seg>
+<seg>aber von einer hofstatt ze <placeName ref="loc008651">Fellanden</placeName>
+<measure type="currency" unit="ß" quantity="6" origin="ZH">sechs schilling pfenning</measure> geltes;</seg>
+<seg>aber die mu̍li ze <placeName ref="loc008651">Fellanden</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="2">zwen mu̍t kernen</measure>;</seg>
+<seg>aber des <persName ref="per013535">Risen</persName> boͧmgart gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="1">einen mu̍t
+<lb/>kernen</measure>;</seg>
+<seg>aber ze <placeName ref="loc008722">Tuͤblendorf</placeName> ein guͦt, das
+<persName ref="per013391">Johans Gasser</persName> buwet, gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="8">acht mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Viertel" quantity="10.5">einlifthalb viertel habern</measure>,
+<num value="1">ein</num> swin, das <measure type="currency" unit="ß" quantity="10" origin="ZH">zechen schilling</measure> gelten sol, und <num value="100">hundert</num> eyer;</seg>
+<seg>aber der dinghof ze <placeName ref="loc007625">Nossikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="41">ein und vierzig mu̍t kernen</measure>,
+<measureGrp><measure type="currency" unit="lb" quantity="18" origin="ZH">achtzechen pfunt</measure>,
+<measure type="currency" unit="ß" quantity="4" origin="ZH">vier schilling</measure> und <measure type="currency" unit="d" quantity="9" origin="ZH">nu̍n
+<lb/>pfenning</measure></measureGrp>;<note>Gemäss dem Urbar von 1416 sowie der Offnung von <placeName ref="loc007625">Nossikon</placeName>
+aus dem Jahr 1431 betrugen die Abgaben an den Vogt stattdessen 40 Mütt Kernen und 20 Pfund
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">Nr. 23</ref></bibl>).</note></seg>
+<seg>aber die vogtey ze <placeName ref="loc008736">Obren Ustre</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="6.5">sibenthalben mu̍t kernen</measure>,
+<measure type="currency" unit="ß" quantity="30" origin="ZH">drissig schilling pfenning</measure> und fu̍r <num value="1">ein</num>
+frischin <measure type="currency" unit="ß" quantity="6" origin="ZH">sechs schilling pfenning</measure>;</seg>
+<seg>aber der hof ze <placeName ref="loc008836">Rumlikon</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="10">zechen mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Malter" quantity="2">zwei malter habern</measure>,
+<num value="3">dru̍</num> swin,
+dero su̍lent zwei jetweders <measure type="currency" unit="ß" quantity="10" origin="ZH">zechen schilling</measure> gelten
+<lb/>und das dritt sol <measure type="currency" unit="ß" quantity="7" origin="ZH">siben schilling pfenning</measure> gelten;</seg>
+<seg>aber die <orgName ref="org000814">Stollen</orgName> alle gent <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwei fiertel kernen</measure> vom <placeName ref="loc008878">Oberholtz</placeName>;</seg>
+<seg>aber du̍ fecher in dem seͧw geltent <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwei fiertel kernen</measure>;</seg>
+<seg>aber du̍ mu̍li ze <placeName ref="loc008715">Volkenswile</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="3">dry mu̍t kernen</measure> und <num value="60">sechzig</num> eyer;</seg>
+<seg>aber ein guͦt ze <placeName ref="loc008877">Irgunhusen</placeName>, das
+<lb/>der <persName ref="per013351">Einwiler</persName> buwet, gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="1">ein mu̍t kernen</measure>,
+<measure type="volume" commodity="oat" unit="Mütt" quantity="6">sechs mu̍t habern</measure>,
+<measure type="currency" unit="ß" quantity="4" origin="ZH">vier schilling pfenning</measure>,
+<num value="2">zwei</num> swin, dero jetweders <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf schilling pfenning</measure> gelten sol,
+und <num value="60">sechzig</num> eyer;</seg>
+<seg>aber des <persName ref="per013500">Heiden</persName> schuͦppos ze <placeName ref="loc008877">Irgenhusen</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="1">ein fiertel kernen</measure>,
+<measure type="currency" unit="d" quantity="18" origin="ZH">achtzechen pfenning</measure>
+und <num value="1">ein</num> swin, das <measure type="currency" unit="ß" quantity="5" origin="ZH">fu̍nf
+<lb/>schilling</measure> gelten sol;</seg>
+<seg>aber <persName ref="per013498">Hasenbuͤl</persName> und sin wib gent <date dur="R/P1Y">jerlich</date> von des <persName ref="per013539">Scherers</persName> guͦt
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="2">zwen mu̍t kernen</measure>
+und ein <measure type="volume" commodity="oat" unit="Malter" quantity="1">malter habern</measure>;</seg>
+<seg>aber du̍ mu̍li ze <placeName ref="loc008569">Griffense</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="15">fu̍nfzechen mu̍t kernen</measure>;</seg>
+<seg>aber der <persName ref="per013552">Wiecher</persName> git <date dur="R/P1Y">jerlich</date> von einem guͦt
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="1">ein fiertel kernen</measure>
+und <measure type="volume" commodity="rye" unit="Mütt" quantity="1">einen mu̍t roggen</measure>;</seg>
+<seg>aber <measure type="currency" unit="lb" quantity="8" origin="ZH">acht pfunt
+<lb/>pfenning</measure> gend <date dur="R/P1Y">jerlich</date> die usschidling;</seg>
+<seg>aber der <persName ref="per013550">Willing</persName> git <date dur="R/P1Y">jerlich</date> von einer hofstatt
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwei fiertel kernen</measure>;</seg>
+<seg>aber ze <placeName ref="loc008648">Mure</placeName>
+<num value="300">dru̍hundert</num> albelen geltes;</seg>
+<seg>aber von den zu̍gen in <placeName ref="loc008841">Swartzen Ror</placeName>
+<num value="300">dru̍hundert</num> albelen geltes;</seg>
+<seg>aber <persName ref="per013532">Jegli Mu̍ri</persName> git von einer hofstatt <num value="50">fu̍nfzig</num> albelen geltes;</seg>
+<seg>aber <persName ref="per013551"><choice><abbr>Cuͦnr</abbr><expan>Cuͦnrat</expan></choice>
+Win<lb break="no"/>mans</persName> guͦt im <placeName ref="loc008834">Sellholtz</placeName> gilt
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="6">sechs fiertel kernen</measure>
+und <measure type="currency" unit="ß" quantity="8" origin="ZH">acht schilling pfenning</measure>, dis
+vorgenanten pfenning gu̍lt sint alles Zu̍richer mu̍ntz;</seg>
+<seg>aber <measure type="area" commodity="vineyard" unit="Juchart" quantity="4">vier juchert reben</measure> im <placeName ref="loc008834">Sellholz</placeName> am <placeName ref="loc000127">Zu̍richse</placeName>;</seg>
+<seg>aber <measure type="area" commodity="vineyard" unit="Juchart" quantity="3">dry juchert reben</measure> ze <placeName ref="loc008569">Griffense</placeName>;</seg>
+<seg>aber das <placeName ref="loc008843">Jungholtz</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="undefined" unit="Stuck" quantity="2">zwei stuk</measure>;</seg>
+<seg>aber <placeName ref="loc008879">Grafen Wis</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="undefined" unit="Stuck" quantity="8">acht stuk</measure>;</seg>
+<seg>aber
+<lb/>die <placeName ref="loc008880">Acht</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="undefined" unit="Stuck" quantity="3">dru̍ stuk</measure>,
+und des <persName ref="per013540">Schreyers</persName> guͦt ze <placeName ref="loc008815">Hegnoͧw</placeName> gilt <date dur="R/P1Y">jerlich</date>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="6" origin="ZH">sechs fiertel kernen</measure>,
+dis vorgenanten korn gu̍lt alles Zu̍rich messes wesen sol;</seg>
+<seg>und sind dis die vogteyen, gericht, twing und baͤnn:
+des ersten die vogtey und das meyerampt ze <placeName ref="loc008651">Fellanden</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008648">Mure</placeName>;</seg>
+<seg>aber die vogtey
+<lb/>ze <placeName ref="loc008789">Bintz</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008790">Uͤsikon</placeName> halb;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008737">Nidren Ustre</placeName>;</seg>
+<seg>aber die vogtey in dem <placeName ref="loc008840">Wil</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008735">Kilchustre</placeName> halb;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008736">Obren Ustre</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008817">Werikon</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008842">Froͤidwile</placeName> halb;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008816">Naͤnikon</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008815">Hegnoͧw</placeName>;</seg>
+<seg>aber die
+<lb/>vogtey ze <placeName ref="loc008652">Swerzenbach</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008877">Irgenhusen</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008776">Auslikon</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008837">Schalchen</placeName>;</seg>
+<seg>aber die vogtey ze <placeName ref="loc008835">Huttzikon</placeName>;</seg>
+<seg>aber die vogtlu̍t ze <placeName ref="loc008722">Tuͤblendorf</placeName>
+und dar zuͦ alle die eigenen lu̍t, die in den vorgenanten vogteyen, gerichten, twingen und baͤnnen und uf den hoͤfen und guͤteren,
+<lb/>die dar in gehoͤrent, gesessen sint, die her <persName ref="per013524">Hermans von Landenberg</persName>, ritters,
+pfaff <persName ref="per013525">Hermans von Landenberg</persName>, sines bruͦders,
+und <persName ref="per013531"><choice><abbr>Uͦlr</abbr><expan>Uͦlrich</expan></choice> von Landenbergs</persName>, ir vettern,
+aller dryer von <placeName ref="loc008719">Griffense</placeName>, eigen gewesen sint, ane alle geverd, mit hu̍sern,
+mit hofstetten, mit akern, mit wisen, mit holtz, mit veld, mit wune,
+<lb/>mit weid, mit wasen, mit zwyen, mit grund, mit grad, mit fischentzen, mit wasser, mit wasserru̍nsen, mit usgang, mit ingang, mit stegen, mit wegen
+und sunderlich mit aller rechtung, friheiten und ehafti, so zuͦ den vorgenanten guͦtern allen gemeinlich und zuͦ jeklichem besunder von recht
+<lb/>oder von gewonheit dar zuͦ und dar in gehoͤret und als si, die vorbenemten von <orgName ref="org002752">Landenberg von Griffense</orgName> und ir fordern,
+untz her gehept, bracht und genossen hant, ane alle geverd, ze u̍nser aller wegen den edlen, wolerbornen herren,
+graf <persName role="recipient" ref="per013548">Fridrich</persName>,
+graf <persName role="recipient" ref="per000328">Tonat</persName>
+und graf <persName role="recipient" ref="per013547">Diethelm
+<lb/>von Tokkenburg</persName>, allen drin gebruͦdern, umb
+<measure type="currency" unit="fl" quantity="7923" origin="Florenz">siben tusend guldin nu̍nhundert guldin und dry und zwenzig guldin alles guͦter und genger Florener</measure>
+recht und redlich eines rechten, redlichen koͧffes ze koͧffen geben hat, dero oͧch der obgenant
+<persName ref="per013530"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> von Landenberg</persName> von u̍nser wegen
+<lb/>und oͧch wir alle mit voller gewicht von inen gar und gentzlich bezalt und gewert syen, das
+oͧch alles an der vorgenanten von <orgName ref="org002752">Landenberg von Griffense</orgName> redlichen geltschuld komen ist,
+da hinder wir gestanden syen, und hat oͧch der vorbenemt <persName ref="per013530">Ruͦdolf von Landenberg</persName> und wir mit im
+<lb/>die egenanten herren von <orgName ref="org000144">Tokkenburg</orgName>
+gesetzet und setzen si mit disem brief in liblich nutzlich gewer der obgenanten burg,
+der statt, des seͧwes, der lu̍t, gu̍lt und guͤter, vogteyen, gericht, twing und baͤnn aller, als vorgeschriben stat.</seg>
+<seg>Und dar umb so haben wir alle gemeinlich und unverscheidenlich
+<lb/>fu̍r u̍ns und u̍nser erben, die wir vesteklich her zuͦ binden, mit guͦten tru̍wen glopt, das wir der vorgeschriben burg,
+der statt, des seͧwes und dar zuͦ aller der lu̍t, gu̍lt und guͤter, vogteyen, gericht, twing und baͤnn, die hie vor benemt sint, aller gemeinlich und iro jekliches besunder
+<lb/>recht weren sin su̍lent der vorgenanten herren von <orgName ref="org000144">Tokkenburg</orgName> aller dryer und ir erben, ob si enwerin, fu̍r ir ledig eigen
+und des bachs ze <placeName ref="loc006198">Ustre</placeName> halbes fu̍r lechen von dem heiligen rich
+und des meyer amptes ze <placeName ref="loc008651">Fellanden</placeName> fu̍r ir lechen von der aptey <placeName ref="loc000090">Zu̍rich</placeName>,<note>Gemäss den
+Bestätigungsurkunden des Schultheissen von <placeName ref="loc000849">Winterthur</placeName> und des Landrichters im <placeName ref="loc000777">Thurgau</placeName>
+hatte der <placeName ref="loc000065">Zürcher</placeName> Bürger <persName ref="per013354">Johannes Erishaupt</persName> diese beiden Lehen inne
+(<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30147">StiASG GG2 T3</ref></bibl> und
+<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30148">T4</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.3/charter">Bd. 8, Nr. 5199</ref> und
+<ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.4/charter">5200</ref></bibl>).</note>
+und umb den vorgeschriben koͧf vor geistlichen
+<lb/>und vor weltlichen gerichten und mit namen an allen stetten, wo und wenne ald wie dik si des notdu̍rftig sint, ane alle geverd,
+als lang untz das si ein gewer nach dem rechten schirmen mag.
+Und dar umb so haben wir alle gemeinlich und unverscheidenlich und u̍nser jeklicher besunder
+<lb/>fu̍r u̍ns und u̍nser erben mit guͦten tru̍wen glopt, were das den obgenanten herren von <orgName ref="org000144">Tokkenburg</orgName>
+oder iren erben, ob si enwerin, die vorgeschriben burg, die statt ze <placeName ref="loc008569">Griffense</placeName>,
+den se und dar zuͦ alle die lu̍t, gu̍lt und guͤter, vogteyen, gericht, twing und baͤnne, die hie vor benemt sint,
+gemein<lb break="no"/>lich oder deheines dar under besunder anspraͤchig hette oder noch anspraͤchig wurde mit dem rechten,
+es were mit geistlichen oder mit weltlichen gerichten, ald das si jeman anders fu̍rbas versetzet,
+haft oder in dehein wis verku̍mbert werin, da su̍lent wir si verstan und versprechen gen
+men<lb break="no"/>lichem und es inen unverzogenlich entrichen, ledig und los machen an allen den stetten,
+da si denne versetzet, haft, verku̍mbert oder in dekein wis anspraͤchig sint, als lang untz das si ein gewer mit dem rechten dabi schirm,
+als vorgeschriben stat, ane alle geverd.</seg>
+<seg>Es ist oͧch beredd, were,
+<lb/>das dar u̍ber die vorgenanten herren von <orgName ref="org000144">Tokkenburg</orgName> oder ir erben, ob si enwerin,
+die obgenant burg, die statt, den se und dar zuͦ alle die lu̍t, gu̍lt, und guͤter, vogteyen,
+gericht, twing und baͤnne, die hie vor benemt sint, gemeinlich oder deheines dar under sunderbar u̍ns, ob wir si
+<lb/>dar umb verstuͤndin, oder inen, ob wir si nicht verstuͤndin, jeman mit dem rechten an behuͤb, das su̍lent wir und u̍nser erben, ob wir enwerin,
+inen und ir erben, ob si enwerin, denne von dem oder von dien, die es inen oder u̍ns denne mit dem rechten anbehept hant, unverzogenlich und
+<lb/>ane alle sumung entrichen, ledig und los machen, ane allen iren schaden und ane alle geverd.
+Taͤtin wir des nu̍t, so haben wir alle gemeinlich und u̍nser jeklicher besunder mit guͦten tru̍wen glopt
+und des offenlich und willenklich uff den heiligen gesworn gelert eid mit uf erhabnen
+han<lb break="no"/>den und mit gelerten worten, wenne wir des ermant werden von den obgenanten
+herren von <orgName ref="org000144">Tokkenburg</orgName> allen gemeinlich oder von iro deheinem besunder oder von ir erben, ob si enwerin,
+mit botten oder mit briefen ze hus, ze hof oder under oͧgen, so su̍lent wir u̍ns alle nach der manung
+<lb/>in den nechsten <date dur="P3M">drin manoden</date> antwu̍rten
+gen <placeName ref="loc000065">Zu̍rich</placeName>,
+gen <placeName ref="loc000849">Wintertur</placeName>
+oder gen <placeName ref="loc000108">Rapreswile</placeName>,
+in weler der dryer stetten es u̍nser jeklichem aller fuͦglichest ist, doch also das die denne <placeName ref="loc000065">Zu̍rich</placeName> seshaft sint,
+sich antwu̍rten su̍lent gen <placeName ref="loc000849">Wintertur</placeName> oder gen <placeName ref="loc000108">Rapreswile</placeName>, in weder statt die denne
+<lb/>wellent, und die die denne ze <placeName ref="loc000849">Wintertur</placeName> seshaft sint,
+das sich die gen <placeName ref="loc000065">Zu̍rich</placeName> oder gen <placeName ref="loc000108">Rapreswile</placeName> antwu̍rten su̍lent, oͧch <supplied reason="omitted" resp="rhr">in</supplied> weder statt die denne wellent,
+und die, die ze <placeName ref="loc000108">Rapreswile</placeName> seshaft sint, sich antwu̍rten su̍lent gen
+<placeName ref="loc000065">Zu̍rich</placeName> oder gen <placeName ref="loc000849">Wintertur</placeName>, in weder statt die denne oͧch wellent.
+<lb/>Und sol oͧch denne da u̍nser jeklicher mit sin selbes lib in offenner wirt hu̍ser teglichu̍ und unverdingetu̍ mal leisten recht giselschaft also mit namen,
+das wir diser giselschaft nu̍tz und leistend sin su̍lent und u̍ns kein andru̍ sach noch giselschaft da vor weder teken noch schirmen
+<lb/>sol, als lang untz das inen das vorgenant guͦt, dar umb denne ze mal gemant ist, gar und gentzlich entrigen, ledig und los gemachet wirt, ane allen iren schaden.</seg>
+<seg>Were aber, das under u̍ns deheiner selber nu̍t leisten moͤcht oder enwoͤlt, der sol und mag <num value="2">zwen</num> knecht mit <num value="2">zwein</num>
+<lb/>pferiden fu̍r sich an sin statt legen ze leisten, dero jetweder als tu̍r kom, als u̍nser einer selber taͤte, und oͧch in dem vorgeschriben recht leisten,
+alle die wile und u̍nser keiner selber nu̍t leisten moͤcht oder enwoͤlt, ane alle geverd.
+Und wenne <date dur="P3M">dry manot</date> sich vergangen hant und hin sint, als
+<lb/>wir su̍lent anfachen leisten, so mu̍gent die egenanten herren von <orgName ref="org000144">Togkenburg</orgName> oder ir erben, ob si enwerin,
+ir helfer und diener u̍nser aller und u̍nser jekliches besunder und u̍nser erben, ob wir enwerin, lu̍t, gu̍lt und guͤter, ligendes und farndes, es sye lechen, pfant, erb oder eigen, mit gericht
+<lb/>und ane gericht noͤten, angriffen und pfenden und das u̍nser fu̍rbas dar umb versetzen und verkoͧffen, es sye in den stetten oder uff dem land,
+wo oder wa hin inen denne das aller fuͦglichest ist, als lang und als vil, untz das inen das vorgenant guͦt, das inen oder u̍ns je denne
+<lb/>mit dem rechten anbehept ist, gar und gentzlich entrigen, ledig und los gemachet wirt, ane allen iren schaden, und su̍lent doch dar umb dester minr nicht leisten.
+Und wie oder in welen weg si oder ir erben, ir helfer ald diener von der pfandung und des angriffes wegen ze
+scha<lb break="no"/>den koment, den selben schaden allen haben wir inen oͧch glopt abzelegen und uszerichten, und su̍lent oͧch umb den selben schaden
+haft sin und leisten,wenne wir dar umb ermant werden, als umb die vorgeschriben losung, ane alle geverd, und sol u̍ns noch u̍nser erben noch
+<lb/>u̍nser lu̍t, gu̍lt noch guͦt vor der pfandung und dem angrif nu̍t schirmen noch inen gen u̍ns schad sin kein stattrecht, burgrecht, landrecht, kein buntnu̍ss,
+kein friheit der stett noch des landes noch kein ander recht noch gericht, geistliches noch weltliches, noch
+<lb/>gemeinlich kein ander sach noch ding noch fu̍rzug, so jeman erdenken kan oder mag, nu oder hie nach in dekeine wise, des wir geniessen moͤchtin, ane alle geverd.
+Wir geben oͧch die<supplied reason="omitted" resp="rhr">n</supplied> vorbenemten herren von <orgName ref="org000144">Tokkenburg</orgName> und ir erben, ob si enwerin, vollen gewalt und recht, das si under
+<lb/>u̍ns allen oder u̍nsern erben, ob wir enwerin, <num value="1">einen</num> oder <num value="2">zwen</num> ald als mangen si wellent und welen si under u̍ns wellent,
+mu̍gent noͤten, angriffen, manen und tag geben in leistung der giselschaft, wie dik und wie lang si wellent, und sol inen doch das gen u̍ns, den andern weren, keinen
+<lb/>bresten, schaden noch sumseli bringen an irem brief noch an keinen ir rechten, won das wir, die andern weren alle, bi den eiden, so wir vor gesworn haben,
+nu̍tzit dester minr leisten noch ledig sin su̍lent, ane alle geverd.</seg>
+<seg>Were oͧch, das dien vorbenemten herren von <orgName ref="org000144">Tokkenburg</orgName> oder iren erben, ob
+<lb/>si enwerin, jeman die vorgeschriben burg, die statt, den se oder dehein lu̍t ald guͦt, so dar zuͦ hoͤrt, als vorbenemt sint,
+ald dehein ander ir lu̍t ald guͦt von des vorgeschriben koͧfs wegen aͧn recht abseiti, angriffe, beku̍mberti oder schadgeti mit roͧb oder mit brand ald mit
+<lb/>deheinen andern sachen, wenne wir dar umb gemant werdent von den obgenanten herren von <orgName ref="org000144">Tokkenburg</orgName>
+allen oder von iro deheinem besunder oder von ir erben, ob si enwerin, mit botten oder briefen ze hus, ze hof oder under oͧgen, so su̍lent wir dem oder dien, die inen denne abgeseit oder si
+an<lb break="no"/>griffen oder geschadget hant, unverzogenlich absagen, und su̍lent dar zuͦ wir und u̍nser erben, ob wir enwerin,
+den selben herren von <orgName ref="org000144">Tokkenburg</orgName> und iren erben, ob si enwerin,
+und iren helfern und dieneren mit u̍nser aller und mit u̍nser jekliches besunder festinen warten und inen mit
+<lb/>lib, mit lu̍ten und mit guͦt des besten dar zuͦ behulfen und beraten sin bi den eiden, so wir alle und u̍nser jeklicher besunder her umb gesworn hat,
+als lang untz uf die stund, das die vorgenanten herren von <orgName ref="org000144">Togkenburg</orgName> oder ir erben, ob si enwerin, ein gewer nach dem rechten da bi geschirmt
+<lb/>hat.</seg>
+<seg>Were aber, das inrent dem zil, e das si ein gewer da bi geschirmt het, von des vorgeschriben koͧfs wegen
+dien vorgenanten herren von <orgName ref="org000144">Togkenburg</orgName> oder iren erben, ob si enwerin,
+jeman an recht abseiti, angriffe oder schadgeti, als vorgeschriben stat, da su̍lent wir und u̍nser erben, ob wir
+<lb/><supplied reason="omitted" resp="rhr">en</supplied>werin, inen mit lib, mit lu̍ten
+und mit guͦt und mit allen sachen, als vorgeschriben stat, behulfen und berathen sin untz uf die stund, das si mit dem oder mit dien, die inen denne
+abgeseit, angriffen oder geschadget hant, mit den minnen oder mit dem rechten verricht werdent,
+<lb/>ane alle geverd.
+Und wie oder in welen weg wir oder u̍nser erben ze schaden koment von des absagens und der hilf wegen,
+so wir dien vorgenanten herren von <orgName ref="org000144">Togkenburg</orgName> und ir erben, ob si enwerin, tuͤyen,
+da su̍lent si u̍ns keinen schaden gebunden sin abzelegen, ane alle geverd.</seg>
+<seg>Wir, die
+vor<lb break="no"/>benemten weren alle, haben oͧch alle gemeinlich und u̍nser jeklicher besunder fu̍r u̍ns und u̍nser erben, die wir vesteklich her zuͦ binden,
+mit guͦten tru̍wen glopt und des offenlich liplich ze den heiligen gesworn gelert eid mit uferhabnen handen und mit gelerten worten, alles das, so
+<lb/>vor an disem brief verschriben stat, war und staͤtt ze halten und gentzlich ze leisten und ze volfuͤrren und da wider niemer ze tuͦnne noch schaffen gethan,
+weder mit raͤten noch mit getaͤten, heimlich noch offenlich noch mit enkeinen andern sachen, so jeman erdenken kan oder mag,
+<lb/>nu ald hie nach in deheine wise, das dien vorgenanten herren von <orgName ref="org000144">Togkenburg</orgName> oder iren erben, ob si enwerin,
+an disem koͧf keinen schaden, bresten oder sumseli bringen moͤcht, ane alle geverd.</seg>
+<seg>Und heru̍ber ze einem offenn urku̍nd, das dis alles nu und hie nach war sye und staͤt belibe, so
+<lb/>haben wir, die vorgenanten weren alle und u̍nser jeklicher besunder, sin eigen insigel offenlich gehenkt an disen brief.
+Ich, der obgenant <persName role="sigillant" ref="per013530"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> von Landenberg</persName>,
+vergich oͧch offenlich an disem brief, das ich disen koͧf mit heissen und rat des erbern herren,
+hern <persName ref="per013330">Brun Brun</persName>, probst <placeName ref="loc007562">Zu̍rich</placeName>, und
+<lb/><persName ref="per013541">Johans Schultheissen</persName> von <placeName ref="loc008569">Griffense</placeName> gethan han und das alles das war ist,
+das an disem brief von mir verschriben stat, und des ze urku̍nd so han ich min
+eigen insigel oͧch gehenkt an disen brief.
+Wir die egenanten <persName role="sigillant" ref="per013330">Brun Brun</persName>, probst,
+und <persName role="sigillant" ref="per013541">Johans Schultheiss</persName> von <placeName ref="loc008569">Griffense</placeName>
+<lb/>verjechen oͧch offenlich an disem brief, das dirr vorgeschriben koͧf mit u̍nserm heissen und rat, willen und gunst beschechen und volfuͤrt ist,
+und des ze urku̍nd, so hat unser jetweder sin eigen insigel oͧch gehenkt an disen brief.</seg>
+<seg>Dis beschach und wart dirr brief geben
+<lb/>ze <origPlace ref="loc000849">Wintertur</origPlace>, an der nechsten <origDate when="1369-11-28">mitwuchen vor sant <persName ref="per000303">Andres</persName>
+tag, do man zalt von gottes gebu̍rt dru̍zechen hundert und sechzig jar, dar nach in dem nu̍nden jare</origDate>.</seg></p>
+<pb facs="StiASG_Urk__GG2_T2_r__Bild_2.jpg"/><!-- rhr: pb hier eingefügt wegen Siegelabbildung -->
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013481">Goldenberg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013515">Hu̍naberg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013505">Hu̍nwile</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013172">Giel</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag">Senger</ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013324"><choice><abbr>Jo</abbr><expan>Johans</expan></choice> Boͧnstetten</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per011031"><choice><abbr>R</abbr><expan>Ruͦdolf</expan></choice> Boͧnstetten</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per011647">Ebersperg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013522">Werdegg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per010982">Aspermunt</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013481"><choice><abbr>R</abbr><expan>Ruͦdolf</expan></choice> Goldenberg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013543">Seen</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013530"><choice><abbr>R</abbr><expan>Ruͦdolf</expan></choice> Werdegg</persName></ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag">Probst</ab>
+</div>
+<div>
+<ab type="sigillant" place="parchment tag"><persName role="sigillant" ref="per013541">Schultheis</persName></ab>
+</div>
+<pb n="v" facs="StiASG_Urk__GG2_T2_v_.jpg"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><date when="1369">Anno 1369</date></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Herrschaft <placeName ref="loc000348">Greifensee</placeName> hatten die Herren von <orgName ref="org002752">Landenberg</orgName> im Jahr 1300 als Pfand erworben
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_001">SSRQ ZH NF II/3, Nr. 1</ref></bibl>).
+Ein Zweig der Familie wählte die Burg <placeName ref="loc008719">Greifensee</placeName> als Stammsitz und benannte sich fortan danach.
+Durch den Erwerb weiterer Pfänder, Burgen und Herrschaftsrechte stiegen die <orgName ref="org002752">Landenberger</orgName>
+von <placeName ref="loc008719">Greifensee</placeName> zum bedeutendsten Adelsgeschlecht der Region auf
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/020289">von Landenberg</ref></bibl>).
+<persName ref="per000348">Hermann IV. von Landenberg</persName>
+amtierte als Landvogt von <placeName ref="loc010985">Glarus</placeName>, im <placeName ref="loc000122">Aargau</placeName>,
+<placeName ref="loc000777">Thurgau</placeName>, <placeName ref="loc000140">Elsass</placeName> und <placeName ref="loc005908">Schwarzwald</placeName>
+sowie als Hofmeister und Landmarschall im Dienst der Herzöge von <orgName ref="org000088">Österreich</orgName>.
+In den 1340er Jahren liess er das Städtchen <placeName ref="loc008569">Greifensee</placeName> durch eine Mauer befestigen
+und stiftete die örtliche Kapelle mit ihrem einzigartigen dreieckigen Grundriss,
+die der Kirche <placeName ref="loc008647">Uster</placeName> unterstellt war.
+</p>
+<p>Nach <persName ref="per000348">Hermanns</persName> Tod sahen sich dessen Erben jedoch gezwungen,
+einen grossen Teil ihrer Besitztümer in der Region abzustossen
+(<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2001a</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2001b</ref></bibl>).
+Ab 1367 verkauften sie sukzessive den Kehlhof 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=344318">StAZH W I 1, Nr. 739</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=344319">Nr. 740</ref></bibl>;
+Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1852 und 1854</bibl>) sowie die obere
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=344707">StAZH H I 570, S. 69</ref></bibl>;
+Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1892</bibl>) und die
+niedere Mühle in <placeName ref="loc008722">Dübendorf</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=274530">StAZH C II 19, Nr. 14</ref></bibl>;
+Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1896</bibl>).
+Am 6. Mai 1369 übertrugen <persName ref="per013524">Hermann</persName>,
+<persName ref="per013525">Pfaff Hermann</persName> und <persName ref="per013531">Ulrich von Landenberg</persName>
+die Herrschaft <placeName ref="loc000348">Greifensee</placeName> zusammen mit <placeName ref="loc001005">Elgg</placeName>
+und <placeName ref="loc010357">Alt-Regensberg</placeName>
+an ihren Vetter <persName ref="per013530">Rudolf von Landenberg-Werdegg</persName> und seine Mitbürgen
+(Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CSGVIII/1369_V_06/charter">Bd. 8, Nr. 5173</ref></bibl>).
+Von diesen gelangte sie mit der vorliegenden Verkaufsurkunde an die Grafen von <orgName ref="org000144">Toggenburg</orgName>.
+<persName ref="per013530">Rudolf von Landenberg-Werdegg</persName> bestätigte den Verkauf wenige Tage später, am 3. Dezember 1369,
+vor dem Schultheissen von <placeName ref="loc000849">Winterthur</placeName> sowie vor dem Landrichter im <placeName ref="loc000777">Thurgau</placeName>
+(<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30147">StiASG GG2 T3</ref></bibl> und
+<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30148">T4</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.3/charter">Bd. 8, Nr. 5199</ref> und
+<ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.4/charter">5200</ref></bibl>).
+Vom Verkauf ausgenommen war der <placeName ref="loc008761">Laubishof</placeName> in <placeName ref="loc006198">Uster</placeName>, zu dem der Kirchensatz gehörte.
+Am 5. Dezember 1369 versprachen die Mitschuldner den Käufern, dass ihr Recht, die Pfründe der Kapelle <placeName ref="loc012459">Greifensee</placeName> zu verleihen,
+bei einem allfälligen Verkauf des <placeName ref="loc008761">Laubishofs</placeName> nicht beeinträchtigt würde
+(<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30149">StiASG GG2 T5</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T5/charter">Bd. 8, Nr. 5201</ref></bibl>).
+Gleichentags verzichteten sie zugunsten der Grafen von <orgName ref="org000144">Toggenburg</orgName> auf sämtliche Rechte,
+die sie von Freiherr <persName ref="per013504">Peter von Hewen</persName> an der Herrschaft <placeName ref="loc000348">Greifensee</placeName> erworben hatten
+und verpflichteten sich dazu, die <orgName ref="org002752">Landenberger</orgName> anzuhalten, den Verkauf innerhalb von 12 Tagen auszufertigen
+(<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30152">StiASG GG2 T7</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.7/charter">Bd. 8, Nr. 5202</ref></bibl>).
+Ausserdem erklärten sie sich in zwei weiteren Urkunden des gleichen Datums bereit,
+den <orgName ref="org000144">Toggenburgern</orgName> sämtliche Dokumente zum Verkauf bis zum 21. Dezember
+auf der Burg <placeName ref="loc008719">Greifensee</placeName> auszuhändigen,
+<persName ref="per011032">Ulrich von Bonstetten</persName> und <persName ref="per013543">Johann von Seon</persName> dazu zu bewegen, auf ihre Güter zu verzichten
+und die zur Herrschaft gehörenden Leute, die noch keinen Eid auf die neuen Herren geschworen haben, zur Huldigung zu veranlassen
+(<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30150">StiASG GG2 T6</ref></bibl> und
+<bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=30152">GG2 T8</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.6/charter">Bd. 8, Nr. 5203</ref> und
+<ref target="https://www.monasterium.net/mom/CH-StiASG/Urkunden/GG.2.T.8/charter">5204</ref></bibl>).
+Die Ausführlichkeit, mit dem dieser Verkauf dokumentiert wurde, lässt vermuten,
+dass längst nicht alle Beteiligten mit dem Vorgehen einverstanden waren,
+insbesondere die ursprünglichen Besitzer, die sich in <placeName ref="loc000348">Greifensee</placeName>
+ihr neues Machtzentrum aufgebaut hatten und sich auch weiterhin nach diesem benannten.
+Jedenfalls mussten sich die Geschwister <persName ref="per013524">Hermann</persName>, <persName ref="per013525">Pfaff Hermann</persName>,
+<persName ref="per013528">Rudolf</persName> und <persName ref="per013549">Elisabeth</persName>
+sowie ihr Vetter <persName ref="per013531">Ulrich von Landenberg</persName>
+noch 1375 verpflichten, die Herrschaft <placeName ref="loc000348">Greifensee</placeName> innerhalb eines Monats
+an die Grafen von <orgName ref="org000144">Toggenburg</orgName> zu übergeben
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_006">SSRQ ZH NF II/3, Nr. 6</ref></bibl>).
+</p>
+<p>Gegenüber der Verpfändungsurkunde von 1300, in welcher die zur Herrschaft gehörenden Gebiete nur grob umrissen wurden,
+bietet die vorliegende Verkaufsurkunde eine weitaus detailliertere, fast urbarartige Auflistung der Einkünfte und Güter.
+Daraus geht hervor, dass die <orgName ref="org002752">Landenberger</orgName> die Herrschaft erheblich ausgebaut hatten.
+Neu hinzugekommen waren die Vogteien <placeName ref="loc008789">Binz</placeName>,
+<placeName ref="loc008736">Oberuster</placeName> und <placeName ref="loc008840">Wil</placeName>,
+die halben Vogteien über <placeName ref="loc008790">Uessikon</placeName>, <placeName ref="loc008842">Freudwil</placeName> und <placeName ref="loc008735">Kirchuster</placeName>
+sowie der Bannschatz und das Widum in <placeName ref="loc007634">Winikon</placeName>.
+Die Rechte im <placeName ref="loc010890">Zürcher Oberland</placeName>, dem Herkunftsgebiet der <orgName ref="org002752">Landenberger</orgName>,
+wurden entweder verdichtet, wie im Raum <placeName ref="loc007474">Wetzikon</placeName>
+(<placeName ref="loc008776">Auslikon</placeName>, <placeName ref="loc008877">Irgenhausen</placeName>, <placeName ref="loc010650">Robenhausen</placeName>),
+oder neu hinzugefügt (<placeName ref="loc008835">Hutzikon</placeName>, <placeName ref="loc008836">Rumlikon</placeName>, <placeName ref="loc008837">Schalchen</placeName>).
+Hinzugekommen waren ausserdem Güter und Reben in <placeName ref="loc008834">Sellholz</placeName> am <placeName ref="loc000127">Zürichsee</placeName>,
+die 1405 zusammen mit weiteren Weinbergen verkauft wurden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_009">SSRQ ZH NF II/3, Nr. 9</ref></bibl>).
+</p>
+<p>Auch der innere Ausbau scheint unter den <orgName ref="org002752">Landenbergern</orgName> vorangeschritten zu sein,
+werden hier doch erstmals die Mühlen in <placeName ref="loc008569">Greifensee</placeName>, <placeName ref="loc008651">Fällanden</placeName>,
+<placeName ref="loc008737">Niederuster</placeName> und <placeName ref="loc008715">Volketswil</placeName> erwähnt.
+Ausdrücklich ausgenommen vom Verkauf war hingegen der <placeName ref="loc008761">Laubishof</placeName> in <placeName ref="loc006198">Uster</placeName>,
+zu dem die Pfarrkirche gehörte, wo die <orgName ref="org002752">Landenberger</orgName> ihre Familiengrablege eingerichtet hatten.
+Zumindest vorübergehend scheint der besagte Hof an die Herren von <orgName ref="org000928">Bonstetten</orgName> gelangt zu sein,
+die beim Verkauf der Herrschaft <placeName ref="loc000348">Greifensee</placeName> zu den Gläubigern der <orgName ref="org002752">Landenberger</orgName> gehörten
+und die selber auf der Burg <placeName ref="loc006924">Uster</placeName>, unmittelbar neben der Kirche, residierten.
+Bereits 1371 verkauften die Brüder <persName ref="per013324">Johann</persName> und <persName ref="per011031">Rudolf von Bonstetten</persName>
+den <placeName ref="loc008761">Laubishof</placeName> mit dem Kirchensatz aber wieder zurück an <persName ref="per013527">Margaretha von Landenberg</persName>,
+die Gattin von <persName ref="per013525">Pfaff Hermann</persName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=346391">StAZH C II 10, Nr. 132</ref></bibl>).
+</p>
+<p>Klarer definiert werden hier auch die Überschneidungen mit anderen Herrschaftsträgern.
+So handelte es sich beim <placeName ref="loc008848">Usterbach</placeName> um ein Reichslehen,
+während das Meieramt in <placeName ref="loc008651">Fällanden</placeName> von der Äbtissin des <orgName ref="org004908">Fraumünsters</orgName> verliehen wurde.
+In <placeName ref="loc008790">Uessikon</placeName> war die Vogtei geteilt
+zwischen <placeName ref="loc000348">Greifensee</placeName> und <placeName ref="loc000362">Grüningen</placeName>,
+in <placeName ref="loc008842">Freudwil</placeName> gehörten die drei südlichen Höfe zu <placeName ref="loc000348">Greifensee</placeName>
+und der nördliche Hof zu <placeName ref="loc000012">Kyburg</placeName>
+und in <placeName ref="loc008735">Kirchuster</placeName> besassen die Herren von <orgName ref="org000928">Bonstetten</orgName>
+als Inhaber der Burg <placeName ref="loc006924">Uster</placeName> die andere Hälfte der Vogtei
+(<bibl><ref target="/startseite/literaturverzeichnis">Baumeler 2010</ref>, S. 95-99</bibl>).
+</p>
+<p>Die hier aufgezählten Einkünfte und Rechte stimmen weitgehend überein mit den Angaben im Urbar von 1416;
+die auffälligsten Abweichungen werden in der Edition vermerkt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_141_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=293818">StArZH VI.HO.A.2.:39</idno></msIdentifier><head>Bestimmungen betreffend den Nachtlohn der Wächter am Hottingersteg</head><msContents><summary>Zunftmeister und Stadthauptmann Johann Jakob Gossweiler erinnert, dass der Beschluss seines Amtsvorgängers bezüglich der nächtlichen Öffnung des Hottingerstegs eingehalten werden soll: Die Gemeindegenossen von Hottingen und die Bewohner ringsum müssen die Wächter für die Öffnung des Stegs nach dem Ertönen der Bettglocken jährlich an Martini (11. November) mit zehn Gulden entschädigen. Wer sich nicht an der Abgabe beteiligt, dem soll der nächtliche Zutritt verwehrt sein.  Die Geschworenen von Hottingen sollen in Erfahrung bringen, wer sich sonst nachts des Stegs bedient, damit auch die Stadtbürger mit Gütern in diesem Gebiet und andere Wegbenutzer einen Beitrag entrichten. Zwischenzeitlich sollen die Wächter für diese den Steg erst beim Klang der Wach- und Torglocken öffnen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Wachtschreiber</author><filiation type="current">Abschrift (Doppelblatt)</filiation><filiation type="original"><origDate when="1686-10-16"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="36.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1701-01-01" to="1800-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000212">Löhne</term><term ref="key000875">Nacht</term><term ref="key000580">Wachdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<lb/>Aus befelch unsers allerseits <choice>
+<abbr>höchgeehr</abbr>
+<expan>höchgeehrten</expan>
+</choice> herren zunfft <choice>
+<abbr>mstr</abbr>
+<expan>meister</expan>
+</choice> und statt houbtman<!-- ahh: nachfolgend immer h-a-uptmann -->
+<lb/><persName ref="per026134"><choice>
+<abbr>Joh</abbr>
+<expan>Johann</expan>
+</choice> Jacob Goßweilers</persName> sollen alle diejenigen <orgName ref="org007829">gemeinds genoße zu
+<placeName ref="loc010476">Hottingen</placeName></orgName> und <lb/>daselbst herum geseßen, welche nach verleütung der bett
+gloggen<note>Die Bett- oder Nachtglocke ertönte um <time when="21:00:00">21 Uhr</time> und läutete die Nachtruhe
+ein (<bibl><ref target="/startseite/literaturverzeichnis">Sutter 2001</ref>, S. 181</bibl>).</note> diesers
+<lb/><placeName ref="loc012652">Hottinger Stegs</placeName> offnung begehrten, ernstlich erinneret sein, daß sie den vorigen
+<lb/>hochgeehrten herren statt haubtmann ergangner erkantnuß gemäß eintweder <lb/>den abwartenden wächteren die geordneten
+<measure type="currency" unit="fl" quantity="10">zehen gulden</measure> auf <date when="--11-11" type="deadline"><persName ref="per000141">Martini</persName></date>
+<lb/>geflißenlich erlegend und selbige zuhanden herren <choice>
+<abbr>haubt</abbr>
+<expan>haubtmann</expan>
+</choice> und wacht schreiber <lb/><persName ref="per026136">Holtzhalben</persName> stellen, oder wer an deßelben statt je und allwegen
+wachtschreiber <lb/>sein wird, damit er die under die bedienten deß genanten stegs orden<lb break="no"/>lich außtheilen
+möge. </p>
+<p>
+<lb/>Wann aber diesem oberkeitlichen befelch nicht gebuhrend nachgelebt <lb/>wurde, so soll den widerspenigen, und welche
+an diese <measure type="currency" quantity="10" unit="fl">zehen gulden</measure> nichts <lb/>geben wollen, nach verthönung
+der bett gloggen der außgang verspert <lb/>werden. Und wann sich einer gegen der wacht etwann zubezahlen unnütz <lb/>mit
+worten oder mit werken erzeigen thete, selbiger zur gebührenden <lb/>abstraffung <choice>
+<abbr>m</abbr>
+<expan>meinem</expan>
+</choice>
+<choice>
+<abbr>hochgee</abbr>
+<expan>hochgeehrten</expan>
+</choice> herren statt <choice>
+<abbr>haub</abbr>
+<expan>haubtmann</expan>
+</choice> zuüberbringen. </p>
+<p>
+<lb/>Der vogt und die <orgName ref="org007829">geschwornen zu <placeName ref="loc010476">Hottingen</placeName></orgName> sollen auch fleißiges auf<lb break="no"/>sehen haben auf die, so täglich dieseren weg brauchen, item auf die <lb/>burger, so in diesem bezirk güter
+haben und sich des <time period="byNight">nachts</time> dieses <lb/>wegs bedienen, auch auf diejenigen, so nur mithin zu
+auß- und einge<lb break="no"/>hend, damit ein jeder nach gestaltsamme der sach belegt werden <lb/>möge. Auf solchen fahl
+die abwartenden wächter befelchent <lb/>sind, wann obigem statt geschehen sein wird, der wacht- und thor<lb break="no"/>gloggen gebührend abzuwarten. </p>
+<p>
+<lb/>Den <origDate calendar="Julian" when="1686-10-16">16<hi rend="sup">ten</hi>
+<abbr><sic>8ter</sic></abbr>1686</origDate>.</p>
+<p><lb/>Wacht schreiber </p>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab place="verso" type="dorsal"><lb/>Abschrifft <lb/>deß kerzengelts bey dem <lb/><placeName ref="loc012652">Hottinger Stegs</placeName>
+<lb/>betreffende</ab>
+</div>
+</body>
+<back>
+<div><p>Die im 17. Jahrhundert erbauten städtischen Befestigungsanlagen trennten die Stadt <placeName ref="loc000065">Zürich</placeName> von den umliegenden Gemeinden. Da etwa zwischen <placeName ref="loc010476">Hottingen</placeName> und der Stadt keine direkte Verbindung mehr bestand, wurde <date when="1653">1653</date> die <placeName ref="loc012651">Hottingerpforte</placeName> errichtet. Der <placeName ref="loc012652">Hottingersteg</placeName>, der den Graben zwischen den Schanzen fortan überbrückte, diente ausschliesslich dem Fussverkehr (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24558">StArZH VI.HO.A.1.:17</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Brändli 2000</ref>, S. 143-144</bibl>). 
+</p></div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

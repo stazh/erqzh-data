@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_106</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928753">StAZH B II 353, fol. 30v-31r</idno></msIdentifier><head>Bewilligung zuhanden der Gemeinde Wiedikon, im von ihr gekauften Haus Gericht und Schule zu halten</head><msContents><summary>Bürgermeister Hans Heinrich Holzhalb, Rat und Bürger von Zürich erlauben der Gemeinde Wiedikon gemäss ihrer durch den Obervogt Peter Füssli vorgebrachten Bitte, im Haus, das sie Heinrich Keller abgekauft hat, Schule, Gericht und Gemeindeversammlungen zu halten.  Dem Begehren, dort auch Essen und Trinken auszugeben, wird unter der Auflage entsprochen, dass der einzustellende Stubenknecht nur an Gerichtstagen und bei Gemeindeversammlungen wirten darf. Bei Verstössen werden der Stubenknecht und seine Gäste von den Obervögten gebüsst.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="10.5"/><width unit="cm" quantity="33.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1620-12-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key000057">Gericht</term><term ref="key000795">Schulwesen</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1"><pb n="30v" type="original" facs="StAZH_B_II_353__fol__30_v_.tif"/>
+<div><head><lb/><origDate calendar="Julian" when="1620-12-18">Mentags, den 18. decembris</origDate>, 
+<lb/><choice><abbr>prnt</abbr><expan>presentibus</expan></choice> herr <orgName ref="org002406"><persName ref="per007120">Holtzhalb</persName> und beide 
+<lb/>reth</orgName></head>
+<p><lb/><gap reason="irrelevant"/></p><!-- ahh: Beim Rautezeichen mit schwarzer Tinte handelt sich nicht um einen Verweis. Diese Zeichen zeigen wohl das persönliche Interesse eines späteren Lesers. Deshalb nach Rücksprache mit PS ignoriert. -->
+<p><add place="left margin"><num value="2">ii</num>
+<choice><abbr>bk</abbr><expan>briefkopien</expan></choice></add><!-- ahh: Martin Leonhard hat auch keine andere Erklärung, als dass es die Anzahl der auszustellenden Briefkopien angibt. --></p>
+<p><seg><lb/>Als ein <orgName ref="org007942">gmeind <placeName ref="loc009863">Wiedicken</placeName></orgName> zuo <lb/>irer gmeind handen <persName ref="per025676">Heinrich<lb break="no"/>en
+Kellers</persName> daselbst behauß<lb break="no"/>ung erckouft, vorhabens, <lb/>sölliche zuͦ haltung irer
+gricht<lb break="no"/>en und der jugent angestelt<lb break="no"/>en schuͦl zebruchen. Item <lb/>wann sy von
+grichts ald <lb/>der gmeind sachen wëgen <lb/>by ein anderen syn muͤßend, <lb/>das sy inn söllicher behußung <lb/>den
+begehrenden umb bezalung <lb/>ouch essen unnd trincken <lb/>gëben mögind.</seg>
+<seg>Unnd <lb/>hiemit sölliches durch <abbr>m</abbr>
+<lb/><persName ref="per025675">Petern Fuͤßli</persName>, iren obervogt, <lb/>für <orgName ref="org002406">rath</orgName> gebracht worden <lb/>mit bit,
+man inen harinn will<lb break="no"/>fharen welte.</seg>
+<seg>Ward <pb n="31r" type="original" facs="StAZH_B_II_353__fol__31_r_.tif
+"/><lb/>erckendt, das beide obervögt <lb/>zuͦ <placeName ref="loc009863">Wiedicken</placeName> zum
+vordristen <lb/>von derselben gmeind umb <lb/>ir gmein guͦt rëchnung in<lb break="no"/>nemmen
+söllind. Und so es inn <lb/>größe beschaffen, wie fürge<lb break="no"/>gëben wirt, so wellend unß<lb break="no"/>er
+gnedig herren bewilliget <lb/>und zuͦgelaßen haben, das <lb/>die gedachten zuͦ <placeName ref="loc009863">Wiedicken</placeName> inn
+<lb/>diserm, des <persName ref="per025676">Kellers</persName> erckouft<lb break="no"/>en huß gricht unnd schuͦl <lb/>halten, darinn
+ein stuben<lb break="no"/>knëcht haben, denselben mit <lb/>wyn
+verleggen<!-- ahh: verlegen=versehen, unterhalten, vgl. Idiotikon https://www.idiotikon.ch/Register/faksimile.php?band=3&spalte=1188&hl=112234, Bedeutung 1d) -->
+unnd an <lb/>grichtßtagen wie ouch inn <lb/>der gmeind sachen alda wirt<lb break="no"/>en mögind.</seg>
+<seg>Wann <lb/>aber by inen dheine grichtlichen <lb/>handlungen sind oder der <lb/>gmeind gescheften halber nüt
+<lb/>zuͦverrichten ist, söllend sy <lb/>die, von <placeName ref="loc009863">Wiedicken</placeName>, unnd ire <lb/>stubenknëcht zewirten
+nit <lb/>gwalt
+haben, by der buͦß, <lb/>so den überfahrenden, das ist <lb/>so wol dem stubenknëcht <lb/>als ouch dem, der alda geäß<lb break="no"/>en und getruncken hete, <lb/>durch der bemelten von <placeName ref="loc009863">Wie<lb break="no"/>dicken</placeName>
+obervögt abgenommen <lb/>werden sölle.</seg></p>
+</div>
+</body>
+<back>
+<div><p>Die Gemeinden um die Stadt <placeName ref="loc000065">Zürich</placeName> verfügten unterschiedlich früh über ein Gemeindehaus. So hatte <placeName ref="loc010476">Hottingen</placeName> bereits im Jahr <date when="1598">1598</date> ein Gemeindehaus erworben (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24702">StArZH VI.HO.A.7.:220</ref></bibl>), dagegen wurde in <placeName ref="loc010875">Wipkingen</placeName> die Gemeindeversammlung zum Leidwesen des Inhabers des Kelnhofs noch <date when="1745">1745</date> in der dortigen Stube abgehalten (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25704">StArZH VI.WP.A.8.:79</ref></bibl>). Zur Gemeindeversammlung in <placeName ref="loc009863">Wiedikon</placeName> vgl. auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_158">SSRQ ZH NF II/11, Nr. 158</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

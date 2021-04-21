@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_051</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3773735">StAZH B VI 308, fol. 285v, Eintrag 1</idno></msIdentifier><head>Bestätigung des Testaments der Anna Mettenbuch durch den Rat der Stadt Zürich</head><msContents><summary>Der Rat der Stadt Zürich bewilligt die in dem Testament der Anna Mettenbuch enthaltenen Bestimmungen betreffend die begünstigten Personen und die zu vererbenden Sachwerte. Die Erblasserin trifft zudem Anordnungen im Hinblick auf ihre Bestattung im Frauenkloster St. Verena. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1491-06-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000079">Beginen und Begarden</term><term ref="key000238">Friedhof</term><term ref="key005395">Grabstätte</term><term ref="key000010">Kloster</term><term ref="key000635">Testament</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="285v"/>
+<div><p><seg><lb/>Item ich, <persName ref="per014227">Anna Mettenbuͦchin</persName>, han verschafft uff den vergu̍nstbrieff,<note>Der sogannte (Ver-)Gunstbrief war eine das Testament ergänzende letztwillige Verfügung, mittels welcher der Erblasser vor  dem städtischen <orgName ref="org002406">Rat</orgName> um Erlaubnis bat, über einen kleineren, nicht im Testament geregelten Teil seines Vermögens frei verfügen zu können (<bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 73-75</bibl>).</note> so ich 
+<lb/>vor von minen herren besigelt haͧb, <subst><del>ist ir soͤlich gemecht</del><add place="above">item</add></subst> mines bruͦders
+<lb/>seiligen kind, dem <persName ref="per014233">Ursuly</persName>, <measure type="currency" unit="lb" quantity="4">iiij </measure> und siner schwoͤster, der <del rend="strikethrough">hin</del>
+<persName ref="per014509">Hirtin</persName>,
+<lb/>die minder betstat, item dem <persName ref="per014232">Ruͦdolff</persName>, irs bruͦders sun, ein kuͦ, die beste
+<lb/>under <num value="3">dryen</num>, item aber irs bruͦders kind, dem <persName ref="per014229">Gretli</persName>, die besser betstat und 
+<lb/>wz darzuͦ gehoͤrdt, item dem <persName ref="per014231">Regaly</persName>, och irs bruͦders tochter, dz by siner
+<lb/>muͦter ist, die ysen graͧwen schuben. Item und den <orgName ref="org004925">bredyern</orgName> sol man
+<lb/>geben <measure type="currency" unit="lb" quantity="4">iiij </measure>, item hern <persName ref="per014235">Heinrich Mettenbuͦch</persName>
+<measure type="currency" unit="fl" quantity="1">ein </measure> umb ein
+<lb/>tu̍sgosten, item irem bichter, dem helffer, <measure type="currency" unit="fl" quantity="1">ein </measure> umb ein tu̍sgosten,
+<lb/>item dem <persName ref="per014511">Margely</persName> an <orgName ref="org002666">Oͤttenbach</orgName>, irs bruͦders tochter, <measure type="currency" unit="fl" quantity="1">ein </measure>, item
+<lb/>miner beͣsy <persName ref="per014225">Andresin</persName> ze <orgName ref="org004918">sant <persName ref="per000474">Frenen</persName> in der samlung</orgName> ein langen
+<lb/>mantel.</seg>
+<seg>Item so begeͣr ich nach minem tod by minen frowen 
+<lb/>ze <orgName ref="org004918">sant <persName ref="per000474">Frenen</persName> in der samlung</orgName> zeligen und dz sy mir myn 
+<lb/>begrept, sibent und drisgost<note>Die Zahlen bezeichnen die Gedächtnisfeiern, die sieben respektive dreissig Tage nach der Beerdigung stattfanden.</note> us richtind, mit messen und kertzen 
+<lb/>und was darzuͦ gehoͤrt, und sol man in geben <measure type="currency" unit="lb" quantity="10">x </measure>.</seg>
+<seg><lb/>Ist <del>is</del> ir soͤlich gemaͤcht verwilget uff <origDate when="1491-06-08">sant <persName ref="per000813">Medardus</persName> tag,
+<lb/>anno <abbr>etc</abbr> lxxxxj<hi rend="sup">o</hi></origDate>.</seg></p></div>
+<div><table>
+<row><cell/><cell><persName ref="per014236">Heinrich Kambly</persName><!-- Ratslisten, S. 250-252 --></cell></row>
+<row><cell><choice><abbr>pnt</abbr><expan>presentibus</expan></choice></cell><cell><persName ref="per014237">Heinrich Mantz</persName><!-- Ratslisten, S. 250-259 --></cell></row>
+<row><cell/><cell>et coram <orgName ref="org002406">consilio</orgName></cell></row>
+</table></div>
+</div>
+</body>
+<back>
+<div>
+<p>Das Testament der <persName ref="per014227">Anna Mettenbuch</persName> musste, wie seit dem Jahr 1424 sämtliche in der Stadt <placeName ref="loc000065">Zürich</placeName> getroffenen letztwilligen Verfügungen, dem <orgName ref="org002406">Rat</orgName> zur Genehmigung vorgelegt werden (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/2, S. 360, Nr. 176</bibl>). Hintergrund dieser Bestimmung war die Bemühung der städtischen Obrigkeit, das Vererben von Gütern, insbesondere von Immobilien, an die Kirche einzuschränken (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_007">SSRQ ZH NF I/1/3, Nr. 7</ref></bibl>). Der <orgName ref="org002406">Rat</orgName> stellte über genehmigte Testamente besiegelte Urkunden auf, die den Antragstellern ausgehändigt wurden. Die Konzepte sowie fallweise auch dazugehörende Notizen sind zusammen mit weiteren Dokumenten ab dem späten 14. Jahrhundert in den sogenannten Gemächtbüchern (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263256">StAZH B VI 304 - B VI 331</ref></bibl>) überliefert, aus denen auch die vorliegende Aufzeichnung stammt.</p>
+<p>Das von <persName ref="per014227">Anna Mettenbuch</persName> als Bestattungsort ausersehene Frauenkloster <orgName ref="org004918">St. Verena</orgName> hatte unter den städtischen Klöstern einen Sonderstatus inne: Hervorgegangen aus dem Kontext des mittelalterlichen Beginenquartiers in der Nachbarschaft des <orgName ref="org004925">Predigerklosters</orgName>, entwickelte es sich zu einem Frauenkonvent, der in enger Beziehung zum Orden der <orgName ref="org004150">Dominikaner</orgName> stand, jedoch zu keinem Zeitpunkt vollständig in diesen inkorporiert war. Passend dazu bedachte <persName ref="per014227">Anna Mettenbuch</persName> in ihrem Testament neben dem Kloster <orgName ref="org004918">St. Verena</orgName> auch den Konvent der <orgName ref="org004925">Dominikaner</orgName> ebenso wie eine Insassin des Dominikanerinnenklosters <orgName ref="org002666">Oetenbach</orgName>. Aufgrund der Formulierung des Testaments bleibt offen, ob der gewünschte Begräbnisplatz im Innern der um 1300 erbauten, der heiligen <persName ref="per000474">Verena</persName> geweihten Kirche oder auf dem dazu gehörenden Friedhof gelegen war (<bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 55</bibl>).</p>
+<p>Vgl. zum Frauenkloster <orgName ref="org004918">St. Verena</orgName>
+<bibl><ref target="/startseite/literaturverzeichnis">Helbling 2002a</ref></bibl>; zur Genehmigung von Testamenten durch den <orgName ref="org002406">Rat</orgName> sowie zu den Gemächtbüchern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bosshard 2006</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bosshard 1998</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 64-75</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

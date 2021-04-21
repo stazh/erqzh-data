@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_098_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204177">StAZH A 123.5, Nr. 120</idno></msIdentifier><head>Aufstellung über die Kostenverteilung für die Renovation der Steinbrücke über die Glatt zwischen Fällanden und Schwerzenbach</head><msContents><summary>Für jede Gemeinde der Herrschaft Greifensee, nämlich Greifensee, Nänikon, Niederuster und Wil, Oberuster, Nossikon, den zur Herrschaft gehörenden Teil der Gemeinde Freudwil, Hegnau, Schwerzenbach, Gfenn, Irgenhausen und Oberwil, Auslikon, Robenhausen und Robank, Maur, Fällanden, Uessikon, Aesch, Ebmatingen und Binz, Werrikon, Winikon und Gschwader, Schalchen, Hutzikon und Neubrunn, wird aufgelistet, wieviel sie an die Renovation der steinernen Glattbrücke zwischen Fällanden und Schwerzenbach bezahlt hat. Bei Ebmatingen wird notiert, dass die Leute, die nicht zur Herrschaft Greifensee gehören, sondern unter den Bürgermeister, nicht bezahlen wollen, weil sie bereits anderweitig belastet werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1661-10-01">Undatiert, Datierung aufgrund des Zusammenhangs mit StAZH A 123.5, Nr. 119, Nr. 124, Nr. 130 und Nr. 131</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004175">Ausgaben</term><term ref="key000490">Bauwesen</term><term ref="key000574">Rechnungswesen</term><term ref="key000188">Verkehrswege</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<head>
+<app><lem><lb/>Verzeichnuß, was allen dörfferen und
+gmeind<lb break="no"/>en inn der herrschafft <placeName ref="loc000348">Gryffensee</placeName> von wëgen
+<lb/>verbeßerung der steinenen bruggen zwüschent
+<placeName ref="loc008651">Fël<lb break="no"/>landen</placeName> und <placeName ref="loc008652">Schwertzenbach</placeName> zuͦbezahlen uferlegt worden</lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">Verzeichnuß
+der jehnigen dörfferen und gmeinden
+<lb/>eüwer <choice><abbr>gn</abbr><expan>gnädigen</expan></choice> herrschafft <placeName ref="loc000348">Gryffensee</placeName>, welche an den
+<lb/>buwcosten der steininen <placeName ref="loc010439">Glatt</placeName>bruggen zuͦbezahlen
+<lb/>angelegt worden</rdg></app>
+</head>
+<table>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="6">6 </measure>
+<measure type="currency" unit="ß" quantity="1">1 </measure>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp></cell><cell>zahlt die <orgName ref="org004883">gmeind <placeName ref="loc008569">Gryffensee</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="6">6 </measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp></cell><cell><app><lem>glychfahls</lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426"/></app> die <orgName ref="org004894">gmeind <placeName ref="loc008816">Nänicken</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="3">3 </measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp></cell><cell><placeName ref="loc008737">Nideruster</placeName> und <placeName ref="loc011250">Wyl</placeName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="11">11 </measure>
+<measure type="currency" unit="ß" quantity="6">6 </measure>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp></cell><cell>zahlt die <orgName ref="org004904">gmeind <app><lem><placeName ref="loc006198">Uster</placeName></lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426"><placeName ref="loc008735">Kilchuster</placeName></rdg></app></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="6">6 </measure>
+<measure type="currency" unit="ß" quantity="1">1 </measure>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp></cell><cell><orgName ref="org007126"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">die gmeind</rdg></app>
+<placeName ref="loc008736">Oberuster</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="3">3 </measure></cell><cell>die <orgName ref="org007129">gmeind <placeName ref="loc007625">Noßicken</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell><app><lem>die zuͦ <placeName ref="loc008842">Fröüdwyl</placeName>, so in die herr<lb break="no"/>schafft gehörend</lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">die <orgName ref="org007130">gmeind <placeName ref="loc008842">Fröüdwyl</placeName></orgName></rdg></app></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="5"> 5</measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp></cell><cell><app><lem>die</lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">zalt</rdg></app>
+<orgName ref="org004886">gmeind <placeName ref="loc008815">Hegnauw</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="2">2 </measure>
+<measure type="currency" unit="ß" quantity="6">6 </measure></measureGrp></cell><cell><orgName ref="org004901"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">die gmeind</rdg></app>
+<placeName ref="loc008652">Schwertzenbach</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="5">5 </measure></measureGrp></cell><cell><orgName ref="org004881"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">gmeind</rdg></app>
+<placeName ref="loc008751">Gfänn</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="5">5 </measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp></cell><cell><placeName ref="loc008877">Irgenhußen</placeName> und <placeName ref="loc010575">Oberwyl</placeName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="8">8 </measure></measureGrp></cell><cell><orgName ref="org007127"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">gmeind</rdg></app>
+<placeName ref="loc008776">Außlicken</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell><cell><placeName ref="loc010650">Rubenhußen</placeName> und <placeName ref="loc010649">Robanckh</placeName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="8">8 </measure>
+<measure type="currency" unit="ß" quantity="14">14 </measure></measureGrp></cell><cell>die <orgName ref="org004892">gmeind <placeName ref="loc008648">Muhr</placeName></orgName></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="8">8 </measure>
+<measure type="currency" unit="ß" quantity="14">14 </measure></measureGrp></cell><cell><orgName ref="org004879"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">die gmeind</rdg></app>
+<placeName ref="loc008651">Fällanden</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="3">3 </measure>
+<del><measure type="currency" unit="ß" quantity="10">10 </measure></del></cell><cell><orgName ref="org007128"><app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">glychfals gmeind</rdg></app>
+<placeName ref="loc008790">Üßicken</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="3"><subst><del>4</del><add place="left margin">3</add></subst> </measure></cell><cell><app><lem>zalt die</lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">ebenmeßig</rdg></app>
+<orgName ref="org004875">gmeind <placeName ref="loc008704">Ësch</placeName></orgName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="3">3 </measure></cell><cell><placeName ref="loc008884">Ebmatingen</placeName> und <placeName ref="loc008789">Bintz</placeName>
+<add place="left margin">Die under herren
+burger<lb break="no"/>meister gehörige welend
+<lb/>nüt zahlen, da sy aber
+<lb/>in andren herrschafft
+<lb/>uncösten auch begriffen.</add><note>Die Bemerkung,
+dass <placeName ref="loc008884">Ebmatingen</placeName> direkt dem Bürgermeister unterstehe und daher nichts bezahlen wolle, fehlt in der bereinigten Abschrift
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">StAZH A 123.5, Nr. 132</ref></bibl>).</note></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="15">15 </measure></measureGrp></cell><cell><placeName ref="loc008817">Wericken</placeName>, <placeName ref="loc007634">Winicken</placeName> und <placeName ref="loc008851">Gschwader</placeName></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="12">12 </measure></cell><cell><lb/>die <orgName ref="org007131">gmeind <placeName ref="loc008837">Schalcken</placeName>, <placeName ref="loc008835">Hutzicken</placeName>
+<lb/>und <app><lem><placeName ref="loc010560">Nüwbrunnen</placeName></lem><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426"><placeName ref="loc010560">Neüwbrunnen</placeName></rdg></app></orgName></cell></row>
+</table>
+<p><lb/>Summa <measureGrp><measure type="currency" unit="lb" quantity="96">96 </measure>
+<app><lem/><rdg wit="StAZH A 123.5, Nr. 132 https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426"><measure type="currency" unit="ß" quantity="10">10 </measure></rdg></app>
+<measure type="currency" unit="h" quantity="6">6 <choice><abbr>hr</abbr><expan>haller</expan></choice></measure></measureGrp><note>In
+der bereinigten Abschrift stimmt die Summe, wohingegen in der vorliegenden Version 10 Schilling fehlen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204426">StAZH A 123.5, Nr. 132</ref></bibl>).
+Das Begleitschreiben vom 10. Oktober 1661 spricht demgegenüber von Steuereinnahmen in der Höhe von 94 Schilling
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204179">StAZH A 123.5, Nr. 124</ref></bibl>).</note>
+</p>
+<pb n="v"/>
+</div>
+</body>
+<back>
+<div>
+<p>Ursprünglich führte ein hölzerner Steg zwischen <placeName ref="loc008651">Fällanden</placeName> und <placeName ref="loc008652">Schwerzenbach</placeName> über die
+<placeName ref="loc010439">Glatt</placeName>, der wiederholt erneuert werden musste. 1534 hatte der <orgName ref="org002406">Zürcher Rat</orgName> entschieden, dass allein die
+<orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName> für den Unterhalt zu sorgen hatte, während <placeName ref="loc008652">Schwerzenbach</placeName> von dieser Pflicht befreit
+war (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1098483">PGA Schwerzenbach I A 1</ref></bibl>). 1603 erteilte
+der Rat dem Baumeister den Auftrag zur Planung einer steinernen Brücke über die <placeName ref="loc010439">Glatt</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=931095">StAZH A 123.4, Nr. 10</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4292953">StAZH B III 117 a, fol. 110v</ref></bibl>). Damit einher
+ging die Bestimmung, dass fortan nicht mehr nur <placeName ref="loc008651">Fällanden</placeName>, sondern alle umliegenden Gemeinden, denen die Brücke ebenfalls
+zugute kommt, zum Bau beitragen sollen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=931094">StAZH A 123.4,
+Nr. 9</ref></bibl>). Erste Ausbesserungsarbeiten an der Steinbrücke mussten 1646 durchgeführt werden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1203509">StAZH A 123.4, Nr. 197</ref></bibl>). Eine grundlegende Renovation
+wurde 1660 nötig, da die Brückenbogen sich absenkten und einzustürzen drohten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204165">StAZH A 123.5, Nr. 108</ref></bibl> und <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204166">109</ref></bibl>). Wie 1603 bestimmt, sollten wiederum alle betroffenen
+Gemeinden an den Bau beisteuern, wogegen sich einige wehrten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204178">StAZH
+A 123.5, Nr. 121</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4293494">StAZH B II 508,
+S. 75</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4293495">StAZH B II 513,
+S. 52</ref></bibl>). Wie aus dem vorliegenden Stück hervorgeht, leisteten dann doch alle Gemeinden einen Beitrag. Am 10. Oktober 1661 schrieb der
+Vogt <persName ref="per014989">Hans Friedrich Keller</persName> dem Rat, dass die Amtsangehörigen der ihm anvertrauten Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+sowohl Fuhrdienst und Handarbeit als auch Steuern in der Höhe von 94 Pfund geleistet hätten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204179">StAZH A 123.5, Nr. 124</ref></bibl>). Die beigelegte Abrechnung wies
+nach Abzug der 94 Pfund indessen immer noch Ausgaben von 190 Pfund und 18 Schilling aus (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204176">StAZH A 123.5, Nr. 119</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4293496">StAZH B II 515, S. 104</ref></bibl>). Der Vogt klärte zwar ab, ob
+noch weitere Gemeinden aus der Grafschaft <placeName ref="loc000012">Kyburg</placeName> oder der Herrschaft <placeName ref="loc000362">Grüningen</placeName> zu Steuerleistungen
+beigezogen werden könnten; da diese die Brücke jedoch nicht regelmässig benutzten, erschien ihm dies nicht angebracht (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204181">StAZH A 123.5, Nr. 130</ref></bibl> und <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204182">Nr. 131</ref></bibl>). Widerwillig bezahlte der Rat den verbleibenden
+Betrag aus dem städtischen Bauamt, wies aber ausdrücklich darauf hin, dass solche Unkosten künftig nicht mehr auf ihn abzuwälzen seien (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4293497">StAZH B II 515, S. 118-119</ref></bibl>). Nichtsdestotrotz musste
+sich der nachfolgende Vogt von <placeName ref="loc000348">Greifensee</placeName>, <persName ref="per015033">Samuel Egli</persName>, bereits 1663 wieder an den Rat wenden, weil die
+Brücke erneut baufällig geworden war (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1204438">StAZH A 123.5,
+Nr. 146</ref></bibl>). </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

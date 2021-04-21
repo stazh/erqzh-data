@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_003</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=947732">ERKGA Fällanden I A 1</idno></msIdentifier><head>Bestätigung des Ablassbriefs für die Kapelle Fällanden</head><msContents><summary>Bischofselekt Nikolaus von Konstanz vidimiert und bestätigt den Ablassbrief, den fünf Bischöfe in Avignon im Jahr 1325 für die Kapelle in Fällanden ausgestellt haben. Der Aussteller siegelt.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="34.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="oval" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Bischofselekt Nikolaus von Konstanz</persName></seal></sealDesc></physDesc><history><origin><origDate when="1334-07-03"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH, Bd. 11, Nr. 4572</bibl></listBibl><listBibl><head>Regest</head><bibl>REC, Bd. 2, Nr. 4449 (unrichtig datiert auf 5. Juli)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003372">Ablass</term><term ref="key000015">Bischof</term><term ref="key000841">Feiertage</term><term ref="key000463">Weihe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="ERKGA_Fällanden_I_A_1__r_.tif"/>
+<p><seg><lb/><persName role="issuer" ref="per007138">Nicolaus</persName>, dei et apostolice sedis gratia electus et confirmatus <orgName ref="org000056">ecclesie <placeName ref="loc000923">Constantiensis</placeName></orgName>,
+universis christifidelibus presentes litteras intuentibus salutem cum noticia subscriptorum.
+<lb/>Universitati vestre presentibus declaramus, quod nos litteras venerabilium patrum episcoporum subscriptorum gratiam et indulgentiam continentes sub veris eorum sigillis et stilo, non
+<lb/>abolitas, non cancellatas nec in aliqua sui parte viciatas recepimus, vidimus et legimus in hec verba:</seg>
+<gap source="SSRQ ZH NF II/3, Nr. 2"/>
+<seg>Et quia capellam in <placeName ref="loc008651">Vellanden</placeName> predictam, nostre dyocesis,
+<lb/>favore prosequimur speciali, omnibus et singulis indulgentiis et gratiis eidem capelle per prefatos episcopos traditis et <del>cons</del> concessis auctoritate nostra ordinaria
+<lb/>consensum nostrum expressum atque voluntatem, in quantum possumus, in nomine domini presentibus adhibemus. In quorum testimonium sigillum nostrum episcopale presentibus
+<lb/>duximus appendendum.</seg>
+<seg>Datum <origPlace ref="loc000849">Wintertur</origPlace><note>Zu <placeName ref="loc000849">Winterthur</placeName> als Ausstellungsort
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bihrer 2004</ref>, S. 127-134</bibl>.</note>,
+<origDate when="1334-07-03">anno domini millesimo ccc<hi rend="sup">o</hi> tricesimo quarto, v nonas <choice><sic>indictione</sic><corr>julii</corr></choice><note>Gemeint ist vermutlich Juli oder allenfalls Juni,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4572, Anm. 2</bibl>.
+Im Sommer 1334 hielt sich der Bischofselekt jedenfalls verschiedentlich in der Ostschweiz auf,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">REC</ref>, Bd. 2, Nr. 4439-4449</bibl>.</note>, indictione secunda.</origDate></seg></p>
+<pb n="v" facs="ERKGA_Fällanden_I_A_1__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><lb/><origDate when="1334">1334</origDate>
+<choice><abbr>resp</abbr><expan>respective</expan></choice>
+<origDate when="1325">1325</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Bestätigung durch den Bischof von <placeName ref="loc000923">Konstanz</placeName> erfolgte zu einer Zeit,
+als dessen Wahl zwischen einer papstreuen und einer kaisertreuen Partei umstritten war.
+Der hier handelnde Bischofselekt <persName ref="per007138">Nikolaus von Frauenfeld</persName>
+war Parteigänger der Herzöge von <orgName ref="org000088">Österreich</orgName> und des Papstes
+im Kampf gegen <persName ref="per004932">Ludwig den Bayern</persName>
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/045121">Nikolaus von Frauenfeld</ref></bibl>).
+Da er sich zeitweilig in <placeName ref="loc000849">Winterthur</placeName> aufhielt
+(<bibl><ref target="/startseite/literaturverzeichnis">Bihrer 2004</ref>, S. 127-134</bibl>),
+erwies sich die Gelegenheit als günstig, die im Ablassbrief geforderte Zustimmung des örtlichen Bischofs einzuholen.
+Dass man sich dabei an den papsttreuen Vertreter wandte, könnte zugleich darauf hindeuten,
+dass sich das <orgName ref="org004352">Grossmünster</orgName>
+in dieser Hinsicht gegen den städtischen Rat stellte, der sich an den Kaiser hielt,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dörner 1996</ref>, S. 188-189</bibl>.
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

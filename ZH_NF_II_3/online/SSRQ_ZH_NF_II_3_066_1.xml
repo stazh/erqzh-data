@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_066_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250758">StAZH C I, Nr. 2475</idno></msIdentifier><head>Urteil über die Leistung von Leibsteuern und Hühnern von Eigenleuten an das Schloss Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen dem Vogt von Greifensee, Bilgeri Leemann, sowie mehreren Leibeigenen des Schlosses über die zu leistenden Leibsteuern und Hühner. Ruedi Wetzstein aus Rumlikon, Jakob Bollinger aus Neubrunn und Jakob Bagli aus Pfäffikon klagen im Namen ihrer Mitstreiter, welche als Leibeigene des Schlosses Greifensee die jährliche Leibsteuer entrichten, dass Hans Ott und Hans Krebs aus Schalchen, Heini Büchli aus Zell und Moritz Gubler aus Gündisau sich weigern, diese Abgaben zu entrichten und sie in den vergangenen zwei bis drei Jahren nicht geleistet haben. Es wird bestimmt, dass alle Leute, die in den Steuerrödeln von 1537, 1540 und 1543 verzeichnet sind, diese Abgaben leisten müssen. Neue Leibeigene werden in den Steuerrodel eingetragen. Alle fünf Jahre sollen die Steuern angelegt, der Steuerrodel erneuert und je ein Exemplar dem Vogt und den Leibeigenen ausgehändigt werden. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="34.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1545-01-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000471">Schriftlichkeit</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2475__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">bûrgermeister unnd râth der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd kûnd menngklichem mit disem brief, als der ersamm,
+<lb/>wyß, unnser gethrüwer lieber bûrger unnd vogt zuͦ <placeName ref="loc000348">Gryfensee</placeName>
+<persName ref="per012737">Bilgeri Leman</persName> mit bystannd <persName ref="per014779">Rüdi Wetzsteins</persName> von <placeName ref="loc008836">Rüm<lb break="no"/>licken</placeName>, <persName ref="per014829">Jacoben Bollingers</persName> von <placeName ref="loc010560">Nübrûnen</placeName> unnd <persName ref="per014467">Jaboben Bâglis</persName> von <placeName ref="loc008729">Pfeffickon</placeName>, innamen iro unnd irer mithafften,
+<lb/>so an ein hûs <placeName ref="loc008719">Gryfensee</placeName> von eigenschafft wegen <date dur="R/P1Y">järlich</date> die lybstür zuͦ geben schuldig sind, sich ab den unnsern
+<lb/><persName ref="per014778">Hanns Otten</persName> unnd <persName ref="per014777">Hanns Krepsen</persName> von <placeName ref="loc008837">Schalcken</placeName>, <persName ref="per014834">Heini Büchli</persName> von <placeName ref="loc008717">Zell</placeName> unnd <persName ref="per014838">Maritzen Gûbler</persName> von <placeName ref="loc008725">Gûndißow</placeName>
+<lb/>erklagten, das die selben sich widerten, sölliche lybstür unnd die huͤner an ein schloss <placeName ref="loc008719">Gryfensee</placeName> fürer zuͦ
+<lb/>geben unnd die inn den nechsten zwey oder dryg jaren nie ußgericht hettind, mit gerichtlichem anrüffen, wir
+<lb/>welten sy dahin wysen, das sy söllichs fürer als bißhar abfertgen sölten. Unnd aber <persName ref="per014778">Hanns Ott</persName> unnd sin an<lb break="no"/>hennger vermeinten, wie wol sy ettwas gegeben, so werind sy doch uss allerley ertzelten ursachen wyter nit schuldig,
+<lb/>sonnders guͦter hoffnûng, gethaner anklag ledig erkennt zuͦ werden.</seg>
+<seg>Unnd nachdem wir sy beydersydts gnuͦg<lb break="no"/>samklich vermerckt, deßglych die, so die stüren unnd huͤner vil jaren har ingetzogen, sampt den rödlen, im <origDate when="1537">siben<lb break="no"/>unnddryssigisten</origDate>, ouch <origDate when="1540">viertzigisten</origDate> unnd <origDate when="1543">drüunndviertzigisten jaren</origDate> der mindern zal gemacht unnd ernüwert,<note>Die hier genannten Steuerrödel scheinen nicht mehr vorhanden zu sein.</note>
+<lb/>verhördt, habent wir unns mit urteyl zuͦ recht erkennt unnd gesprochen, das alle die, so inn jetzgemelten
+<lb/>rödlen mit nammen geschriben stannd, es sigen frowen oder man, unnd die stüren unnd huͤner betzalt hannd,
+<lb/>söllend söllichs fürer on intrag <date dur="R/P1Y">järlich</date> an ein huß <placeName ref="loc008719">Gryfensee</placeName> geben unnd ußrichten, unnd ob ettlich nüw, so nit
+<lb/>darinn begriffen unnd die stüren unnd huͤner schuldig, die söllend angenntz ingeschriben, ouch hinfüro allwegen
+<lb/>zuͦ <date dur="R/P5Y">fünff jaren</date> die stüren angelegt, der rodel ernüwert unnd jedem theyl, namlich je zuͦ zyten unnserm vogt
+<lb/>zuͦ <placeName ref="loc000348">Gryfensee</placeName> einer, unnd den eignen lüthen der annder, gegeben werden, damit inn künfftigem dest minder
+<lb/>span unnd stoͤss daruß erwachssen mogind.</seg>
+<seg>Alles innkrafft dis brieffs, daran wir des zuͦ urkund unnser
+<lb/>statt <placeName ref="loc000065">Zürich</placeName> secret innsigel uff bemelts unnsers amptmans unnd siner mithafften beger offennlich haben
+<lb/>lassen henncken, <origDate when="1545-01-12">menntags den zwölfften tag janûari nach der gepurt Cristi getzalt fünffzechenhundert
+<lb/>viertzig unnd fünff jare</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2475__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Welliche lybstüren unnd
+<lb/>hüner an ein huͦß <placeName ref="loc008719">Gryffen<lb break="no"/>see</placeName> zegeben schuͦldig,
+<lb/><origDate when="1545">1545</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingroßiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Am gleichen Datum fällte der <orgName ref="org002406">Zürcher Rat</orgName> auch ein Urteil
+über die Abgabe der Vogtgarben an den Untervogt der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_067">SSRQ ZH NF II/3, Nr. 67</ref></bibl>).</p>
+<p>Entgegen der gängigen Forschungsmeinung blieben leibeigene Verhältnisse im <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName> auch nach der Reformation bestehen –
+nicht nur für die Leibeigenen auswärtiger Herrschaften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_067">SSRQ ZH NF II/3, Nr. 78</ref></bibl>),
+sondern auch für jene des Schlosses <placeName ref="loc008719">Greifensee</placeName>,
+denen 1584 immerhin freigestellt wurde, sich aus der Leibeigenschaft loszukaufen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_067">SSRQ ZH NF II/3, Nr. 88</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

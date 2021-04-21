@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+ Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_005</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=272447">StAZH C I, Nr. 3080</idno></msIdentifier><head>Verleihung des Meieramts in Wiedikon durch Kaiser Karl IV. an Götz II. Mülner von Zürich</head><msContents><summary>Kaiser Karl IV. beurkundet, dass er auf Bitte des Eberhard Mülner von Zürich dessen Vetter Götz II. Mülner von Zürich das Meieramt in Wiedikon verleiht, das dieser Eberhard und seinen Brüdern abgekauft hat. Der Kaiser bestätigt Götz Mülner und seinen Erben den Kauf der Vogtei mit all ihren Rechten und Gewohnheiten und überträgt sie, diesmal auf Bitte des Götz, an dessen Ehefrau Margareta als Pfand für 100 Mark Silber.  Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.5"/><width unit="cm" quantity="33.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Kaiser Karl IV.</persName></seal></sealDesc></physDesc><history><origin><origDate when="1362-03-14"/><origPlace>Nürnberg</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>MGH Const, Bd. 14/1, Nr. 59</bibl></listBibl><listBibl><head>Regest</head><bibl>RI VIII/1 (Datenbank)</bibl><bibl>URStAZH, Bd. 1, Nr. 1495</bibl><bibl>RI VIII/1, Nr. 3838</bibl><bibl>Meyer von Knonau, Urkunden, Nr. 138</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key000022">Lehen</term><term ref="key000037">Meierhof</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3080__r_.tif"/>
+<p>
+<seg>
+<lb/>Wir, <persName role="issuer" ref="per002585">Karl</persName>, von gotes gnaden <placeName ref="loc000076">Roͤmischer</placeName> keyser, zu allen zeiten merer des <orgName ref="org004134">reiches</orgName> und kuͤnig zu <placeName ref="loc006386">Beheim</placeName>, bekennen und tuͤn kunt offenleich <lb/>mit disem brief allen den, die in sehen oder hoͤren lesen, daz fuͤr uns komen und gestanden ist der edel <persName ref="per023605">Eberhart Muͤller</persName> von <placeName ref="loc000065">Czuͤrch</placeName>, <lb/>unser lieber getrewer, und hat uns von seinen und seiner bruder wegen fuͤrgelegt, daz sie mit wolbedachtem muͤte und rate irer fruͤnde <lb/>recht und redlich verkouffet haben dem edlen <persName ref="per023606">Goͤczen Muͤller</persName> von <placeName ref="loc000065">Czuͤrch</placeName>, irem vettern, daz meyerampt zu <placeName ref="loc009863">Weydicon</placeName> mit allen seinen <lb/>czugehorungen, nuͤczen und gewonheiten, das von uns und dem heiligen <orgName ref="org004134">reich</orgName> ze lehen ruͤret, und haben uns diemuͤtichlichen gebeten, <lb/>daz wir daz vorgenant meyrampt zu <placeName ref="loc009863">Weydikon</placeName> geruͤchten<!-- https://lemma-db.ssrq-sds-fds.ch//edit/edit-lemma.xq?id=lem007711 ahh: geruechen: 2. gewähren, getatten, vgl. Idiotikon, Bd. 6, Sp. 196f http://digital.idiotikon.ch/idtkn/id6.htm#!page/60195/mode/2up-->, dem <choice>
+<abbr>egenan</abbr>
+<expan>egenanten</expan>
+</choice>
+<persName ref="per023606">Goͤczen</persName> und seinen erben zu leihen zu allen rechten und <lb/>gewonheiten, als sie daz vormals gehabt und besezzen haben.</seg>
+<seg>Des haben wir angesehen, des <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice>
+<persName ref="per023605">Eberhartes</persName> bete und haben <lb/>daz <choice>
+<abbr>egenan</abbr>
+<expan>egenante</expan>
+</choice> meyrampt mit allen seinen zugehorungen und gewonheiten dem <choice>
+<abbr>obgenan</abbr>
+<expan>obgenanten</expan>
+</choice>
+<persName ref="per023606">Goͤczen</persName> und seinen erben und nachko<lb break="no"/>men vorlihen und vorleihen in ouch daz mit disem briefe mit wolbedachtem muͤte und mit rechter wizzen zu allen dem <lb/>rechte und gewonheiten, als ez die <choice>
+<abbr>vorgenan</abbr>
+<expan>vorgenanten</expan>
+</choice>
+<persName ref="per023605">Eberhart</persName> und seine bruͤder besezzen haben, und bestetigen den <choice>
+<abbr>vorgenante</abbr>
+<expan>vorgenanten</expan>
+</choice>
+<lb/><persName ref="per023606">Goͤczen</persName> und seine erben dorzu von besundern gnaden und keiserlicher mechte volkomenheit.</seg>
+<seg>Dornach hat uns der <choice>
+<abbr>obgen</abbr>
+<expan>obgenante</expan>
+</choice>
+<persName ref="per023606">Goͤcze</persName>
+<lb/>diemuͤticlich gebeten, daz wir geruͤchten, daz <choice>
+<abbr>obgenan</abbr>
+<expan>obgenante</expan>
+</choice> meyrampt mit allen seinen nuͤczen und gewonheiten zuverleihen zu eynem <lb/>rechten pfande der ersamen <persName ref="per023604">Margareten</persName><note>Margaretha von Hallwyl (<bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 56</bibl>).</note>, seiner elichen wirtinne, fuͤr <measure type="currency" origin="ZH" unit="M" quantity="100">hundert mark silbers Czürcher gewichtes</measure>. Des haben <lb/>wir aber angesehen desselben <persName ref="per023606">Göczen</persName> bete und haben vorlehen und vorleihen ouch mit disem brief der <choice>
+<abbr>egen</abbr>
+<expan>egenanten</expan>
+</choice>
+<persName ref="per023604">Margareten</persName>
+<lb/>daz <choice>
+<abbr>obgenan</abbr>
+<expan>obgenante</expan>
+</choice> meyrampt mit allen seinen zuͤgehorungen und gewonheiten zu einem rechten pfande. Und meynen u<damage agent="hole"><supplied>n</supplied></damage>d <lb/>wollen sie dobey behalden uncz an die zeit, daz ir die <choice>
+<abbr>vorgenan</abbr>
+<expan>vorgenanten</expan>
+</choice>
+<measure quantity="100" unit="M" type="currency">hundert mark silbers</measure> gancz und gar bezalet werden, <lb/>unschedlich uns, dem heiligen <orgName ref="org004134">reiche</orgName>, und ouch andern leuten an iren rechten.</seg>
+<seg>Mit urkund dicz briefes, versigelt mit unserm <lb/>keiserlichen insigel, der geben ist zu <origPlace ref="loc008629">Nuͤremberg</origPlace>, <origDate when="1362-03-14">nach Cristus geburt dreuczehenhundert jar, dornach in dem czwey und <lb/>sechczigisten jar am montag nach dem suntag, als man singet <foreign xml:lang="la"><quote>Reminiscere</quote></foreign></origDate>, unserer <orgName ref="org004134">reiche</orgName> in dem sechcz<damage agent="restoration"><supplied resp="ahh">ehenden</supplied></damage> und des <lb/>keisertuͤms in dem sybenden jare.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica">
+<choice>
+<abbr>Corrca</abbr>
+<expan>Correcta</expan>
+</choice>
+<choice>
+<abbr>p</abbr>
+<expan>per</expan>
+</choice>
+<choice>
+<abbr>eudm</abbr>
+<expan>eundem</expan>
+</choice>
+<note>Zum Korrekturvermerk vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gutjahr 1906</ref>, S. 230-231</bibl> (mit abweichender Lesung <q>correctura</q>).</note>
+</ab>
+</div>
+<div>
+<ab type="chancery notation" place="right plica"><lb/><choice>
+<abbr>P</abbr>
+<expan>Per</expan>
+</choice>
+<choice>
+<abbr>d</abbr>
+<expan>dominum</expan>
+</choice>
+<choice><abbr>mgrm</abbr>
+<expan>magistrum</expan></choice> curie <lb/><choice>
+<abbr>decan</abbr>
+<expan>decanum</expan>
+</choice>
+<choice>
+<abbr>Glogovien</abbr>
+<expan>Glogoviensem</expan>
+</choice><note>Dekan <persName ref="per023603">Johann von Glogau</persName>, zu seiner Person vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gutjahr 1906</ref>, S. 241</bibl>.</note></ab>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3080__v_.tif
+"/>
+<div>
+<ab type="archiving reference" place="verso">
+<choice>
+<abbr>R<hi>m</hi></abbr><expan>Registratum</expan></choice>
+<note>Zum Registraturvermerk vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rader 1999</ref>, S. 511</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gutjahr 1906</ref>, S. 129</bibl>.</note>
+<persName ref="per023608">Johannes <choice><abbr>Tribovien</abbr><expan>Triboviensis</expan></choice></persName><note>Böhmisch oder mährisch <placeName ref="loc012762">Tribau</placeName> (<placeName ref="loc012762">Trübau</placeName>, <placeName ref="loc012762">Triebau</placeName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">
+Schmidt 1898</ref>, S. 36, Anm. 3</bibl>); <bibl><ref target="/startseite/literaturverzeichnis">Gutjahr 1906</ref>, S. 228</bibl> liest <orig>Triboniensis</orig>.</note>
+</ab>
+</div>
+<div><ab type="dorsal" place="verso" hand="hand15c"><lb/>Umb <placeName ref="loc009863">Wiedikon</placeName> vo rich</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand16c"><lb/>Lehenbrieff <persName ref="per023606">Gotz Müllner</persName> 1362</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab></div>
+</body>
+<back>
+<div>
+<p>
+<placeName ref="loc009863">Wiedikon</placeName> erscheint <date when="1259">1259</date> als Reichslehen der Freiherren von <orgName ref="org006901">Eschenbach-Schnabelburg</orgName>, die damit die Zürcher Ritterfamilie <orgName ref="org004102">Mülner</orgName> belehnen. Während die Verleihung des Meieramts an <persName ref="per021320">Gottfried I.</persName>
+<date when="1324">1324</date> noch durch <persName ref="per023607">Heinrich von Schwarzenberg(-Eschenbach)</persName> erfolgte, belehnt der Kaiser in der vorliegenden Urkunde <persName ref="per023606">Gottfried II. Mülner</persName> unmittelbar mit dem Amt (<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 45-46</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 41, 56</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA V</ref>, S. 47, 408</bibl>).</p>
+</div>
+<div>
+<p>Nach dem Erlöschen der männlichen Linie durch den Tod <persName ref="per023478">Gottfrieds III.</persName> in der Schlacht bei <placeName ref="loc001540">Sempach</placeName> veräusserten dessen Schwestern <persName ref="per023477">Anna</persName> und <persName ref="per023479">Verena Mülner</persName> am <date when="1387-06-22">22. Juni 1387</date> Burgstall, Bauhof, Schweighof und Berg in <placeName ref="loc012104">Friesenberg</placeName> in <placeName ref="loc009863">Wiedikon</placeName> an <persName ref="per023602">Johannes Aeppli</persName> und dessen Frau <persName ref="per023601">Adelheid</persName>  (<bibl>ZBZ Ms S 1, Nr. 99</bibl>). Das Niedergericht verblieb dagegen bei den <orgName ref="org004102">Mülner</orgName>; im Jahr <date when="1404">1404</date> ist es in den Händen der <persName ref="per023477">Anna Manesse(-Mülner)</persName> nachzuweisen (vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365931">StAZH C II 11, Nr. 602</ref></bibl>). Kurz darauf hielten das niedere Gericht andere Zürcher Bürger (<date when="1406">1406</date>
+<orgName ref="org002308">Glenter</orgName>, <date when="1430">1430</date>
+<orgName ref="org000377">Schwend</orgName>) inne; am <date when="1491-11-29">29. November 1491</date> verkaufte es <persName ref="per023505">Hans Schwend der Jüngere</persName> schliesslich an die Stadt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_040">SSRQ ZH NF II/11, Nr. 40</ref></bibl>), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 63-68</bibl>.</p>
+</div>
+<div>
+<p>Für das Jahr <date when="1389">1389</date> lässt sich erstmals ein städtischer Vogt als Gerichtsvorsitzender in <placeName ref="loc009863">Wiedikon</placeName> belegen (vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=357043">StAZH C III 1, Nr. 21</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 3, Nr. 3366</bibl>). Gemäss Largiadèr handelte es sich dabei um das hohe Gericht über <placeName ref="loc009863">Wiedikon</placeName>, da dieses Teil der Reichsvogtei Zürich war. Weiter geht Largiadèr davon aus, die Stadt <placeName ref="loc000065">Zürich</placeName> habe das Hochgericht über <placeName ref="loc009863">Wiedikon</placeName> usurpiert, als das Amt des Reichsvogts vakant war. Die Stadt setzte zunächst einen eigenen Amtmann ein; erst im Jahr <date when="1415">1415</date> wurde das hohe Gericht der Reichsvogtei übertragen, die seit <date when="1400">1400</date> im Besitz der Stadt war. Ab <date when="1496">1496</date> bildete <placeName ref="loc009863">Wiedikon</placeName> eine eigene, vom Reichsvogt losgelöste Obervogtei, welche beide Gerichte beinhaltete (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D3132.php">Wiedikon</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 64-66</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 44-46</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

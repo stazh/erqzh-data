@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_139_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24264">StArZH VI.HG.A.3.:18</idno></msIdentifier><head>Verkauf eines Viertels des kleinen Zehntens von Höngg an die Gemeindegenossen von Höngg</head><msContents><summary>Die Pfleger, der Verwalter und das Kapitel des Grossmünsterstifts beurkunden, dass sie die Quart des kleinen Zehntens den Gemeindegenossen von Höngg auf Vermittlung von Bürgermeister Hans Heinrich Escher um 300 Pfund verkaufen, nachdem es wiederholt zu Streitigkeiten zwischen dem Stiftshofmeier und den Gemeindegenossen beim Einzug des Zehntanteils gekommen ist. Die Beschaffenheit des besagten Zehntviertels ist im Urbar von 1644 in einer neuen Beschreibung erläutert worden. Die Gemeindegenossen sind von künftigen Forderungen des Stifts frei und ledig.  Die Pfleger siegeln mit dem Siegel des Stiftspflegeramts. Die Stiftspfleger und das Kapitel des Grossmünsters werden namentlich genannt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Rudolf Müller, Stiftsschreiber</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="19.0"/><width unit="cm" quantity="63.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax in a box" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Stiftspfleger des Grossmünsters</persName></seal></sealDesc></physDesc><history><origin><origDate when="1682-07-06"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key000369">Kauf</term><term ref="key000390">Loskauf</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, endtsbenanten verordneten pfläger sampt dem verwalter und gantzem <orgName ref="org004352">capitul der <choice><abbr>lobl</abbr><expan>loblichen</expan></choice> stifft zu dem <placeName ref="loc007562">Großen Münster</placeName></orgName> in der statt <placeName ref="loc000065">Zürich</placeName>, bekennend und thund khundt
+<lb/>offenbahr allermengklichem hiemit, daß, nachdem die zythar zwüschent unserem hoffmëyer zu <placeName ref="loc009768">Höngg</placeName> und etlichen <choice><abbr>gemeindtsg</abbr><expan>gmeindsgnossen</expan></choice> alda, welliche die quart deß kleinen zeendens ab gewüssen specificierten stuckhen unserer stifft zu entrichten
+<lb/>schuldig sind, wegen inzug desselben villerlei strytigkeiten und misshellung sich zugetragen, wie umb khunfftiger <app><lem>besorgender mehrer uneinigkheit und hingegen pflantzung</lem><rdg wit="StAZH G I 7, Nr. 193, S. 1"/></app> mehrer einigkheit willen gedachten unseren vierten theil deß kleinen-<lb/>zeendens
+ zu <placeName ref="loc009768">Höngg</placeName>, wie sollicher in der <date when="1644">anno 1644</date> ernüwerten beschrybung und urbario<note>Es handelt sich vermutlich um die Beschreibung des in den Stiftsmeierhof gehörenden kleinen Zehntens von <placeName ref="loc009768">Höngg</placeName>, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121567">StAZH G I 6, Nr. 131</ref></bibl>.</note> von stuckh zu stuckh erlütert worden, uff hochansehenlich vermittlung<!-- in Nr.&#160;193 ein anderes Wort gestrichen --> herren burgermeister <persName ref="per007664">Hanß Heinrich Eschers</persName> einer ehrsammen gmeind <placeName ref="loc009768">Höngg</placeName> zekauffen
+<lb/>gegeben umb <measure type="currency" unit="lb" quantity="300" origin="ZH">drühundert pfundt guter der statt Zürich müntz und währung</measure>.</seg>
+<seg>Wann nun wir umb bemelte summ allso bahr ußgericht und bezalt worden <add place="above">sind</add><!-- in Nr.&#160;193 kein "sind" -->, so sagend wir bemelte gmeind <placeName ref="loc009768">Höngg</placeName> deßhalben gentzlich quitt, frey und ledig,
+<lb/>also und dergestalten, daß ein gmeind <placeName ref="loc009768">Höngg</placeName> nun hinfür bemelte quart deß kleinen-zeendens rüwig inhaben und besitzen möge von unß und auch mennigklich von unsertwegen ohn verhinderet, da wir dann unß für unß und unsere
+<lb/>nachkhommende an der stifft aller rechtsamme und ansprach hieran gentzlich wolend entzihen und begeren haben.</seg>
+<seg>Und deßen zu wahren urkhundt und gezügnuß habent wir mehrbemelter gmeind <placeName ref="loc009768">Höngg</placeName> diseren brieff, mit unser stifft
+<lb/>gemeinem pflagerampts ynsigel verwahrt, zustellen laßen, den <origDate when="1682-07-06">6<hi rend="sup">ten</hi> julii im jahr nach der gebuhrt Christi, <app><lem>unsers lieben herren und heilandts</lem><rdg wit="StAZH G I 7, Nr. 193, S. 1"/></app>, gezellt sechszehen hundert achtzig und zwey jahr</origDate>. Unser, der pflägeren, nammen
+<lb/>sind: <persName ref="per026081">Hanß Heinrich Wüst</persName> und <persName ref="per026110">Melchior Hoffmeister</persName>, beid zunfftmeister und deß <orgName ref="org004016">kleinen raths</orgName>, <persName ref="per026127">Felix Zimmerman</persName> und <persName ref="per026113">Rudolff <unclear>Köllikher</unclear></persName>, beid deß <orgName ref="org004906">grossen raths</orgName>. Und unser, deß capituls, nammen sind: <persName ref="per012638">Hanß Heinrich Erni</persName>, pfahrer zum <placeName ref="loc007562">Großen
+<lb/>Münster</placeName>, <persName ref="per026125">Rudolff Wirth</persName>, verwalter der stifft, <persName ref="per026121">Hanß Caspar Schwyzer</persName>, professor linguæ græcæ, <persName ref="per026114">Hanß Heinrich Lavater</persName>, <choice><abbr>med</abbr><expan>medicinæ</expan></choice> doctor und professor physices, <persName ref="per026107">Hanß Heinrich Heidegger</persName>, doctor und professor <choice><abbr>s s<hi rend="sup">æ</hi></abbr><expan>sanctissimae</expan></choice> theologiæ<!-- in Nr.&#160;193 kein "doctor und professor", sondern etwas eingefügt (wahrscheinlich dr.) und "prof." am ende -->, <persName ref="per026115">Johann Lavater</persName>, <choice><abbr>prof</abbr><expan>professor</expan></choice>
+<app><lem>philosophiæ</lem><rdg wit="StAZH G I 7, Nr. 193, S. 2"><choice><abbr>lib</abbr><expan>liberalium</expan></choice> artium</rdg></app>,
+<lb/><persName ref="per026117">Johanes Müller</persName>, <choice><abbr>profess</abbr><expan>professor</expan></choice>
+<choice><abbr>s s<hi rend="sup">æ</hi></abbr><expan>sanctissimae</expan></choice> theologiæ, <persName ref="per026090">Hanß Ulrich Bulot</persName>, archidiacon, <persName ref="per026126">Hanß Conradt Wirth</persName>, archidiacon, <persName ref="per026123">Hanß Jacob Ulrich</persName>, pfahrer zu den <placeName ref="loc011709">Predigern</placeName>, <persName ref="per026089">Bodmer</persName>, cammerer, und <persName ref="per026112">Hanß Jacob Koller</persName>, großkäller.</seg>
+</p>
+</div>
+<div><signed>
+<lb/><persName ref="per026116">Hanß Rudolff Müller</persName>,
+<lb/>stifftschryber, <app><lem><choice><abbr>sst</abbr><expan>scripsit</expan></choice></lem><rdg wit="StAZH G I 7, Nr. 193, S.2"/></app>
+</signed></div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso"><lb/>Cohr herren kleinnen zeheten <lb/>halber</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Zehntrechte in <placeName ref="loc009768">Höngg</placeName> waren zwischen dem <orgName ref="org004352">Grossmünster</orgName> und dem <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> aufgeteilt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_059">SSRQ ZH NF II/11, Nr. 59</ref></bibl>). Seit dem 16. Jahrhundert wurde der Einzug des kleinen Zehntens allgemein schwieriger 
+und konfliktreicher, weil die Nutzungsformen der Güter sich wandelten und oft umstritten war, unter welchen Bedingungen von welchen Gütern welcher Zehnten geschuldet wurde (<bibl><ref target="/startseite/literaturverzeichnis">Köppel 1991</ref>, S. 383-387, 411-412</bibl>;
+für <placeName ref="loc010356">Albisrieden</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_074">SSRQ ZH NF II/11, Nr. 74</ref></bibl>). In <placeName ref="loc009768">Höngg</placeName> wurde beispielsweise am Maiengericht von 1641 ein Streit um den 
+kleinen Zehnten von einer Wiese verhandelt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl>). Mit der vorliegenden Urkunde verkaufte das <orgName ref="org004352">Grossmünster</orgName> seinen Anteil am 
+Kleinzehnten der <orgName ref="org007827">Gemeinde <placeName ref="loc009768">Höngg</placeName></orgName>. Die Rechte am grossen Zehnten blieben hingegen sowohl für <orgName ref="org000030">Wettingen</orgName> als auch für das <orgName ref="org004352">Grossmünster</orgName> bestehen und wurden erst 
+im 19. Jahrhundert im Zug der Aufhebung der Feudallasten abgelöst (<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S. 263-267</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

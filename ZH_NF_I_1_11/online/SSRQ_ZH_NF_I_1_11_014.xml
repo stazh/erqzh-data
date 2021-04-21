@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_014</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928899">StAZH III AAb 1.1, Nr. 49</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Schiessveranstaltungen auf der Landschaft</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich erlassen ein umfassendes Mandat für das Schützenwesen in ihrem Herrschaftsgebiet. Dies geschieht vor dem Hintergrund, dass die älteren Ordnungen bisher nur mangelhaft eingehalten wurden. Das Mandat regelt die Finanzierung von Schützenpreisen seitens der Obrigkeit, die Erstellung von Teilnehmerlisten der Schiessübungen durch die Schützenmeister, die Beglaubigung der Listen durch die Vögte sowie die Ausgabe der Schützenpreise durch die Säckelmeister der Stadt Zürich (1); die zulässige Beschaffenheit und die Ausmasse der Schusswaffen sowie die Bestrafung des Einsatzes vorschriftswidriger Waffen (2); die Verpflichtung der Schützen zum Besitz eines eigenen Gewehres, mit Sonderbestimmungen für Familien mit zwei oder mehr noch im elterlichen Haushalt wohnenden Söhnen (3); die alljährliche Verlesung des vorliegenden Mandats anlässlich des ersten Schiesstags im Frühling, Wahl und Gelöbnis der Schützenmeister, Dreierherren und Zeiger sowie die Rechnungslegung des Schützenmeisters gegenüber dem Ober- oder Untervogt im Herbst (4); den jährlichen Beginn der Schiessveranstaltungen am ersten Sonntag des Monats April, die Beschaffenheit der Zielscheiben und die Schussdistanz sowie Tageszeit und Ablauf der Schiessübungen einschliesslich der Unterweisung neuer Schützen (5); die Mindestanzahl der teilnehmenden Schützen bei Preisschiessen sowie die Bedingungen zur Erlangung der Schützenpreise (6); die Entrichtung von Teilnahmegebühren, die Sanktionierung von Betrugsversuchen sowie die Wertung von abgelenkten Schüssen (7); die Durchführung des Stechens bei zwei oder mehr punktgleichen Schützen, die Gleichstellung von Stadtbürgern und Landbewohnern bei der Verteilung der Preise sowie die Wertung von auswärtigen Gästen (8); den Umgang mit Schützenpreisen, die von Hochzeitsgesellschaften gestellt werden (9); die Beendigung der Schiessveranstaltungen um 5 Uhr abends (10); die Überprüfung der Waffen bei jeder Schiessveranstaltung (11); die Sanktionierung von Schlaghändeln, Beleidigungen und weiteren Verstössen (12).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 7 Bl.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="18.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1601-01-05"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 824, Nr. 574</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key004380">Fluchen/Schwören</term><term ref="key005387">Gebühren</term><term ref="key003401">Geschenke</term><term ref="key000869">Hochzeit</term><term ref="key003016">Militär</term><term ref="key003490">Schützenwesen</term><term ref="key000036">Vogtei</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" facs="StAZH_III_AAb_1_1__Nr__49__fol__1_r_.tif"/>
+<head type="title"><lb/>Ordnungen unnd ansehen <lb/>Unserer Gnedigen Herren <orgName ref="org002406">Burgermeister / <lb/>klein und grossen Raͤthen der Statt <placeName ref="loc000065">Zürych</placeName></orgName>. Wie unnd <lb/>wellicher gstalt allenthalben uff Irer Landschafft / <lb/>umb Ir unserer Gnedigen Herren Gaaben <lb/>mit der Büchß geschossen. Und wie es <lb/>uff den Zillstatten zuͦgahn und ge<lb break="no"/>halten werden soͤlle. Uß den <lb/>alten und nüwen Ord<lb break="no"/>nungen kurtz zesa<lb break="no"/>men gezogen </head>
+<p><figure type="copper engraving"/>
+<lb/><date when="1601" calendar="Julian">M. DC. I.</date></p>
+<pb n="1v" facs="StAZH_III_AAb_1_1__Nr__49__fol__1_v_.tif"/>
+<pb n="2r" facs="StAZH_III_AAb_1_1__Nr__49__fol__2_r_.tif"/>
+<p>
+<lb/>Als Unser Gnedig Herren von
+ <lb/><placeName ref="loc000065">Zürych</placeName> angelanget / Daß die Ordnun<lb break="no"/>gen
+ so sy nun etliche Jar har / zuͦ abstellung
+ <lb/>allerley yngerißner mißbrüchen / under den
+ <lb/>Büchssenschützen uff Irer Landtschafft ge<lb break="no"/>machet /
+ von etlichen nit / wie es aber Ir unse<lb break="no"/>rer
+ gnedigen Herren meinung und gefallen
+ <lb/>gsyn / verstanden / und uff etlichen Zillstatten
+ <lb/>eben schlaͤchtlich gehalten / unnd also der groß kosten / den unser gne<lb break="no"/>dig
+ Herren bißhar mit ußgaͤbung der Gaaben und in ander waͤg / zuͦ
+ <lb/>pflantzung der Schützen / anwaͤndend / an etlichen orten übel ange<lb break="no"/>legt /
+ und unordenlich geschossen werde. Sind wolgemelt unser gne<lb break="no"/>dig
+ Herren verursachet worden / alle Ire vorgemachten Ordnungen
+ <lb/>besichtigen zelassen / unnd nach eigentlicher erwaͤgung gestaltsame der
+ <lb/>sachen und zyt / und sonderlich was gemeinem Vatterland zuͦ nutz und
+ <lb/>guͦtem dienen moͤge / Ouch umb ufnung unnd mehrung willen der
+ <lb/>Schützen / damit sy im fal der not dest stattlicher gerüst / verfaßt und
+ <lb/>versaͤhen sygind. Haben bemelt unser gnedig Herren ein allgmeine
+ <lb/>durgehnde Ordnung gemacht / unnd woͤllend daß die allenthalben
+ <lb/>von den Iren styff gehalten / dero gelaͤbt unnd nachkommen werden
+ <lb/>sölle. Und wyßt die selbig von einem Artickel zuͦ dem andern also:
+</p>
+<p><seg n="1">
+<lb/>Fürs Erst / Damit die Schützen uff unserer gnedigen Herren
+ <lb/>Landtschafft / unserer Herren freygaͤbig und guͦtwillig gemuͤt saͤhind
+ <lb/>und gspürind / und mengklich zum schiessen dest mehr lusts / liebe und
+ <lb/>begird überkomme / So woͤllend Sy uß sonderen gnaden inen all<lb break="no"/>wegen
+ <date dur="R/P1Y">Jaͤrlich</date> uff <num value="20">zwentzig</num> Schützen <measure type="undefined" unit="Stuck" quantity="3">drü stuck</measure> Barchet / Item uff
+ <lb/><num value="30">dryssig</num>
+<measure type="undefined" unit="Stuck" quantity="4">viere</measure>: Deß glychen uff <num value="40">viertzig</num> Schützen <measure type="undefined" unit="Stuck" quantity="5">fünff stuck</measure> Barchet
+ <lb/>tuͤcher / unnd also uß unnd uß / so vil uff einer jeden Zillstatt / so unser
+ <lb/>gnedig Herren geordnet und bewilliget / Schützen syn werdend / wie
+ <lb/>von alter und bißhar / luth nachvolgender Ordnung / zuͦverschiessen
+ <lb/>zuͦstellen lassen:</seg>
+<seg>Doch mit dem heitern geding / daß ein jeder Schü<lb break="no"/>tzenmeister
+ uff unserer gnedigen Herren Landtschafft / zuͦ fürkhom<lb break="no"/>mung
+ allerley gfahren und mißthruwens / by sinem Eyd alle <date dur="R/P1WD">Sonn</date> /
+ <lb/>Schießtag / die Schützen welliche umb unserer gnedigen Herren
+ <lb/>Gaab schüssend / unnd zevorderist den so bemelter unserer gnedigen
+ <lb/>Herren Gaab gewunnen / und volgents ouch die anderen all von
+ <pb n="2v" facs="StAZH_III_AAb_1_1__Nr__49__fol__2_v_.tif"/>
+<lb/>nammen zuͦ nammen / flyssig und eigentlich inn ein Rodel ufzeichnen.
+ <lb/>Demnach zuͦ ußgang schiessens / gemelten Schützenrodel sinem O<lb break="no"/>bervogt
+ zuͦstellen / unnd inne bitten / denselben zeunderschryben / und
+ <lb/>so der Schützenrodel ordenlich gestelt / und vom Obervogt under<lb break="no"/>schriben
+ ist /</seg>
+<seg>Dannenthin ein Schützenmeister / ald wellichem sonst
+ <lb/>das jedes mals bevolhen wirt / zuͦ der zyt als bißhar im Jar brüchig
+ <lb/>gwesen / by unserer gnedigen Herren Seckelmeister / die Barchet tuͤ<lb break="no"/>cher
+ reichen / soͤmlichen Schützenrodel dem Herren Seckelmeister zuͦ
+ <lb/>vorderist überliferen: Ist dann derselbig vom Obervogt underschri<lb break="no"/>ben /
+ so soll und wirt ein Herr Seckelmeister nit nun die Barchet tuͤ<lb break="no"/>cher
+ nach der ordnung geben / sonder auch den Schützenmeister umb
+ <lb/>das geordnet Bulfergaͤlt / ja denen so uff die gewonlichen Schieß<lb break="no"/>tag
+ umb unserer gnedigen Herren Gaab nach diser gestelten Ord<lb break="no"/>nung
+ geschossen habent / unnd uff dieselb Zillstatt gehoͤrent / abferti<lb break="no"/>gen:
+ So aber der Schützenrodel / nit als vorgemelt underschriben
+ <lb/>were / dem selben wirt man weder die Barchettuͤcher / noch das Bul<lb break="no"/>fergaͤlt
+ geben / so lang biß das der Schützenrodel vom Obervogt
+ <lb/>underschriben ist.</seg>
+</p>
+<seg n="2"><p>
+<lb/>Zum Andern / Soll ein jedes Ror oder Reyßbüchs ohn den
+ <lb/>Schafft / nit lenger dann <measure type="length" unit="Schuh" quantity="4">vier Weckschuͦ</measure> / und die kürtzisten nit min<lb break="no"/>der
+ dann <measure type="length" unit="Schuh" quantity="2.5">dritthalben Werckschuͦ</measure> lang syn: Doch wann etwan un<lb break="no"/>gefahrlich
+ ein Ror umb <measure type="length" unit="Zoll" quantity="0.5">ein halben Zoll</measure> lenger dann <measure type="length" unit="Schuh" quantity="4">vier Werckschuͦ</measure>
+<lb/>were / einer damit nit gfahret werden / So soll auch ein jedes Ror
+ <lb/>das Absehen dem Zündloch glych staan haben.
+</p>
+<p>
+<lb/>Deßglychen soͤllend ouch alle Ror nit scherpffer dann mit dem
+ <lb/>graden zug mit dem schmirgel gezogen / und weder der gerissen / ge<lb break="no"/>strupt /
+ noch krumb zug nit mehr gebrucht werden. Wellicher aber
+ <lb/>darwider handlete / unnd inn einse Büchß soͤllicher verbottner zug
+ <lb/>funden wurde / der soll unseren gnedigen Herren <measure type="currency" unit="fl" quantity="25">fünff unnd zwen<lb break="no"/>tzig
+ Guldin</measure> zebuͦß / und der Gesellschafft allen sinen Schießzüg ver<lb break="no"/>fallen syn.
+</p>
+<p>
+<lb/>So und wann aber einer einen Büchsenschmid den krumben louff
+ <lb/>suber uß einem Büchsenror thuͦn / unnd den graden zug darynzühen
+ <lb/>geheissen / unnd aber der Büchsenschmid sölliches nit geflissen gethan
+ <lb/>hette / unnd der ander dardurch zuͦ straaff unnd kosten keme / So sol
+ <pb n="3r" facs="StAZH_III_AAb_1_1__Nr__49__fol__3_r_.tif"/>
+<lb/>demselbigen sin Recht und ansprach an den Büchssenschmid darum<lb break="no"/>be
+ vorbehalten syn.
+     </p>
+<p>
+<lb/>Glycher gstalt soͤllend auch nit nun die Büchssenschmid / sonder
+<lb/>ouch alle andere so den krumben Louff ald gerißnen Zug also verbott<lb break="no"/>ner
+wyß in die Büchssen machen wurdint / ein jeder ouch <measure type="currency" unit="fl" quantity="25">fünff unnd
+<lb/>zwentzig Guldin</measure> unseren gnedigen Herren zuͦ straaff verfallen syn / so
+<lb/>vil und dick man soͤlliches hinder einem findt.
+     </p>
+<p>
+<lb/>Es soll ein jeder Schütz sinen Schafft dermassen gerüst haben /
+ <lb/>daß er den Ladstaͤcken daruff staͤcken haben koͤnne / Deßglychen den
+ <lb/>Schafft nit so lang oder also machen lassen / daß er denselben im
+ <lb/>schiessen ansetzen muͤsse ald khoͤnne.
+</p>
+<p>
+<lb/>Es söllend ouch alle Schützen ire schloß an iren Büchssen mit ge<lb break="no"/>spaltnen
+ Hanen oder Schnapperen / die sich durch den trückel in die
+ <lb/>pfannen ald tigel zühind / unnd darzuͦ man den zündstrick oder führ<lb break="no"/>seyl
+ bruche / ohn allen vorteil haben.
+</p>
+<p>
+<lb/>Woveer unnd aber ein Schütz mit einer Büchß so ein zwifach
+ <lb/>schloß / das sich staͤchen liesse / hette / schiesen / und zum abtrucken das
+ <lb/>züngli bruchen woͤlte / das mag ein jeder wol thuͦn / doch das nach
+ <lb/>dem abtrucken soͤllicher Schnapper widerumb für sich selbs hinder<lb break="no"/>sich
+ uff sin statt / als namlich nit minder dann <measure type="length" unit="Zoll" quantity="2">zween zoll</measure> wyt vom ti<lb break="no"/>gel
+ schnelle und falle.
+</p>
+<p>
+<lb/>Deßglychen wann ein Schütz ein Büchß mit einem führschloß
+ <lb/>hette / sol demselben erloubt syn / daß er das fürschloß bruchen / unnd
+ <lb/>darmit schiessen moͤge / doch dergstalt / Das einer by und nebent dem
+ <lb/>führschloß an siner Büchß auch einen gespaltnen Hanen oder Schnap<lb break="no"/>per /
+ der glycher gstalt von im selbs widerumb hindersich schnelle /
+ <lb/>haben soͤlle / Darzuͦ einen zündstrick / aber ohne brand / ouch by ime
+ <lb/>tragen / den er / wann er das führschloß nit bruchen koͤndte / mit eines
+ <lb/>Schützenmeisters erlouben wol anzünden moͤgen / unnd als dann
+ <lb/>uff den anderen weg gerüstet / mit dem Hanen und Führseyl schies<lb break="no"/>sen
+ khoͤnne.
+</p></seg>
+<seg n="3"><p>
+<lb/>Es oll auch ein jeder Schütz so umb unserer gnedigen Herren
+ <pb n="3v" facs="StAZH_III_AAb_1_1__Nr__49__fol__3_v_.tif"/>
+<lb/>Gaab nach diser Ordnung schiessen will / sin eigne Büchß und dhei<lb break="no"/>ne
+ gmein haben / Ouch mit derselbigen bemelten unseren gnedigen
+ <lb/>Herren uff Ir erforderen / zuͦ schimpff und ernst gespannen stahn / im
+ <lb/>werde dann ein ander Wehr zetragen erloubt.
+</p>
+<p>
+<lb/>Jedoch wo ein Vatter in siner Hußhaltung <num value="2">zween</num> / <num value="3">dryg</num> oder
+ <lb/>mehr Soͤhn / und aber eben ein Zillbüchß hette / und dieselbigen Soͤhn
+ <lb/>mit ime dem Vatter noch unvertheilt Hussetind / sol inen zuͦgelassen
+ <lb/>syn / daß sy uff die gwonlichen Schießtag / gmeinlich mit einer Zill<lb break="no"/>büchß /
+ nach diser Ordnung schiessen moͤgind / Doch mit dem anhang /
+ <lb/>daß ein jeder derselben / nebent diser irer gmeinen Zillbüchß / sin eigne
+ <lb/>Reyßbüchß ouch haben.
+</p></seg>
+<seg n="4"><p>
+<lb/>Ferner so soll gmeinen Schützen / Jungen und Alten / uff jeder Zill<lb break="no"/>statt
+ uff unserer gnedigen Herren Landtschafft / allwegen im <date period="spring">Fruͤ<lb break="no"/>ling</date>
+ ehe das schiessen angadt / disere Ordnungen allerdingen vorge<lb break="no"/>lesen
+ werden / Dannenthin sy die Schützen gmeinlich / kheine ußgenom<lb break="no"/>men /
+ inn by syn eines Ober ald Undervogts / einen Schützenmeister
+ <lb/>und <num value="3">dryg</num> Mann zuͦ ime / deßglychen einen Zeiger nemmen unnd er<lb break="no"/>wellen /
+ Da dann bemelte / der Schützenmeister unnd die Dryger / ge<lb break="no"/>dachtem
+ Ober ald Undervogt / an Eydtsstatt anloben / unnd gmei<lb break="no"/>nen
+ Schießgsellen ir thrüw geben / dise vor und nachgeschribne stuck
+ <lb/>wahr unnd stedt zuͦhalten und zevolfuͤhren / an einem als an dem an<lb break="no"/>dern /
+ nach irem vermoͤgen / ohn alle geverd. Und wann das Schies<lb break="no"/>sen
+ zuͦ Herbst ußgadt / so soll dann der Schützenmeister unnd die
+ <lb/>Dryger dem Ober ald Undervogt und gemeinen Schießgsellen rech<lb break="no"/>nung
+ zegeben schuldig syn.
+</p>
+<p>
+<lb/>Deßglychen soll ouch ein jeder erwelter Zeiger dem Schützenmei<lb break="no"/>ster
+ vor gmeinen Schießgsellen anloben / uff jedem gewonlichen
+ <lb/>Schieß <date period="P1WD">Sonntag</date> als andern Schießtagen / der schyben und schützen
+ <lb/>flyssig acht zehaben unnd zewarten / unnd im zeigen khein gfahr ze<lb break="no"/>bruchen.
+</p></seg>
+<seg n="5"><p>
+<lb/>Nach soͤllichem soll als dann das Schiessen <date dur="R/P1Y">Jaͤrlich</date> an jeder Zill<lb break="no"/>statt
+ uff unserer gnedigen Herren Landtschafft / ungefahr uff den er<lb break="no"/>sten
+ <date period="P1WD">Sonntag</date> im <date when="--04">Aprellen</date> angahn / unnd volgender gstalt gebrucht
+ <lb/> werden.
+</p><pb n="4r" facs="StAZH_III_AAb_1_1__Nr__49__fol__4_r_.tif"/>
+<p>
+<lb/>Namblich / Daß ein jeder Schütz / zevor und ehe er anfacht schies<lb break="no"/>sen /
+ bey verlierung deß schutzes / den Toppel leggen / unnd soll nach
+ <lb/>dem es <time when="16:00:00">viere</time> geschlagen / kheinem der Toppel mehr abgenommen
+ <lb/>werden.
+</p>
+<p>
+<lb/>Uß söllichem Toppel soll als dann zuͦvorderst der uncosten
+ <lb/>nach zimlichkeit bezalt / und dann uß dem übrigen Gaaben gemacht
+ <lb/>werden. Da umb söllichen uncosten / jeder Schützenmeister / sampt
+ <lb/>den Drygen / rechnung zegeben schuldig syn soͤllen / so es die nothurfft
+ <lb/>erforderet.
+</p>
+<p>
+<lb/>Demnach so soll alle <date period="P1WD">Sonntag</date> oder gewonlichen Schießtag /
+ <lb/>umb <measure type="length" unit="Elle" quantity="4">vier ellen</measure> Barchet / <num value="3">dryg</num> schütz Inn und durch ein fryg schwaͤ<lb break="no"/>bende
+ schyben / die <measure quantity="2" type="length" unit="Finger">zween zwerch finger</measure> dick / unnd <measure type="length" unit="Schuh" quantity="4.5">funffthalb werck<lb break="no"/>schuͦ</measure>
+ breit syn / ouch <measure type="length" unit="Elle" quantity="2">zwo elnbogen</measure><!-- srr: dasselbe wie Ellen? PS: ok--> och ob dem herd hangend / ge<lb break="no"/>schossen
+ werden / Es were dann sach / das einen lysten / nagel oder
+ <lb/>est doran verhinderten / unnd soll der stand zuͦ soͤllichem schiessen nit
+ <lb/>minder dann <measure type="area" unit="Schritt" quantity="200">zweyhundert zimlicher schritt</measure> wyt von der schyben
+ <lb/>syn.
+</p>
+<p>
+<lb/>So soll man ouch die schyben erst nach der Kinderpredig / unnd
+ <lb/><time notBefore="12:00:00">vor den zwoͤlffen</time> nit uf hencken / jedoch das dieselbig <time notAfter="13:00:00">vor dem es eins</time>
+<lb/>schlacht hange.
+</p>
+<p>
+<lb/>Unnd wellicher also / es syge an <date period="P1WD">Sonntag</date> ald andern gewonli<lb break="no"/>chen
+ Schießtagen / mit einem gespaltnen Hanen oder Schnapper /
+ <lb/>ald mit einem führschloß (darby dann auch ein gespaltner Hanen
+ <lb/>ald Schnapper / als vorstadt / syn soll) schiessen will / der soll allein
+ <lb/>den ersten schutz im Schützenhuß nach siner glegenheit laden / vol<lb break="no"/>gents
+ denselben / wie ouch die anderen schütz all / aber ungewüscht /
+ <lb/>einanderen nach thuͦn / unnd weder in das Schützenhuß noch an<lb break="no"/>derschwo
+ hin zum trunck ald anderen sachen / nit khommen noch
+ <lb/>abtraͤtten / er habe dann sine schütz allein anderen nach vollbracht /
+ <lb/>unnd syge aller dingen fertig worden / unnd der so den Schnap<lb break="no"/>perhanen
+ hatt / soll sin Zündstrick ungeloͤscht haben und behalten biß
+ <lb/>er sine schütz wie jetzt gehoͤrt / all gethan hatt.
+</p><pb n="4v" facs="StAZH_III_AAb_1_1__Nr__49__fol__4_v_.tif"/>
+<p>
+<lb/>Er soll auch die ladung an der flaͤschen oder horn / ald sonst wie
+ <lb/>die uff die Büchß dienet / haben / Also das er nit erst uß dem horn inn
+ <lb/>die ladung / unnd volgents das bulffer in die Büchß schütten muͤsse /
+ <lb/>sonder inn dem allem dermassen gefasset syn / als es die nothurfft zur
+ <lb/>Reyß unnd dem ernst erforderet / und er im fal der noth sich derselben
+ <lb/>gebruchen soll und will.
+ <lb/>
+</p>
+<p>
+<lb/>Deßglychen soll ein jeder Schütz den stein von fryger hand mit
+ <lb/>dem Ladstaͤcken uff das bulfer stossen / und sonst mit dem selben gar
+ <lb/>nienen anstossen / oder einiche hilff mit anstellung der Büchß bru<lb break="no"/>chen.
+</p>
+<p>
+<lb/>Item es soll dheiner dem anderen sein Büchß fürleggen / sonder
+ <lb/>sich ein jeder der Ordnung beflyssen / Doch daß ein Schützenmeister
+ <lb/>gwalt haben / syn Büchß fürzeleggen / unnd einem der ehehaffte not<lb break="no"/>wendige
+ gschaͤfft ußzerichten hette / ouch fürzeleggen erlouben / wie
+ <lb/>von alter har brüchig gewesen / So aber einer / wann das schiessen
+ <lb/>an Ime ist / nit da were / moͤge der nechst uff Inn / deßglychen so er un<lb break="no"/>derzwüschent
+ nit keme / der ander unnd dritt / so lang biß er kompt /
+ <lb/>schiessen / Unnd wellicher über das unnd ohn erlouben sein Büchß
+ <lb/>fürleite / der soͤlle <measure type="currency" unit="ß" quantity="2">zween Schilling</measure> zuͦ buͦß verfallen syn / unnd
+ <lb/>ihme khein schutz mehr geschuben werden / biß er die buͦß bezalt
+ <lb/>hatt.
+</p>
+<p>
+<lb/>Es soll auch ein jeder Schütz ohne einiche vortheilige an ald uf<lb break="no"/>legung
+ oder ansetzung der Büchß / sonder mit fryg schwaͤbendem
+ <lb/>arm schiessen / Unnd wellichem syn Büchß zum <num value="3">dritten</num> mal verseit /
+ <lb/>oder einer zum <num value="3">dritten</num> mal absatzte / der soll seinen schutz verloren
+ <lb/>haben.
+</p>
+<p>
+<lb/>Woveer unnd aber ein Junger / der darvor nie zum Zill geschos<lb break="no"/>sen /
+ uff einer Zillstatt schiessen woͤlte / und Ime im stand oder sonst
+ <lb/>hilff manglete / demselben mag man wol <num value="1">ein</num> mal oder <num value="3">drü</num> zehilff kom<lb break="no"/>men /
+ Also daß man einen soͤllichen neüwen Schützen / ein <date period="P1WD">Sonntag</date>
+<lb/>ald <num value="4">vier</num> nit gfahren soͤlle.
+</p>
+<p>
+<lb/>Unnd uff wedern waͤg / es syge mit dem Schnapper ald Führ<pb n="5r" facs="StAZH_III_AAb_1_1__Nr__49__fol__5_r_.tif"/><lb break="no"/>schloß
+ einer schießt / so soll er sein lang syten Wehr an der syten hangen
+ <lb/>haben / und also sine schütz thuͦn.
+</p>
+<p>
+<lb/>Wann ouch der stand ler ist / so soll ein Schützenmeister oder Dry<lb break="no"/>ger
+ den andern / demnach den <num value="3">dritten</num> schutz heissen anfahen / Und wel<lb break="no"/>licher
+ sich dann versumpt / der sol den schutz verloren haben / es wur<lb break="no"/>de
+ dann einem erloubt.
+</p></seg>
+<seg n="6"><p>
+<lb/>Item es soͤllend allwegen weniger nit dann <num value="10">zehn</num> / unnd minder
+ <lb/>nit / umb unserer gnedigen Herren Gaab schiessen / und were der Schü<lb break="no"/>tzenmeister
+ oder Dryger keiner da / So soͤllen unnd moͤgen die gmei<lb break="no"/>nen
+ Schießgsellen einen under Inen erkiesen / der sy bedunckt nütz syn /
+ <lb/>ohne geverd / Der soll dann alle ding versehen uff den tag als ob ein
+ <lb/>Schützenmeister oder der Dryger darby were / und soll Ime darinn
+ <lb/>getruwt werden / Wo das übersehen wurde / so soll der Barchet wi<lb break="no"/>der
+ gmeinen Gsellen werden und verfallen syn.
+</p>
+<p>
+<lb/>Es soll ouch khein Schütz an <date dur="P1D">einem tag</date> mehr nit dann uff einer
+ <lb/>Zillstatt schiessen / by verlierung der Gaab.
+</p>
+<p>
+<lb/>Wellicher einen schutz Inn oder durch die schyben troffen hat / der
+ <lb/>soll den von stundan dem Schryber angeben / Dann wo einer dar<lb break="no"/>über
+ noch einen schutz thete / soll Ime der vorgehnd nit mehr gelten
+ <lb/>noch geschriben werden.
+</p>
+<p>
+<lb/>Und wellicher unserer gnedigen Herren Gaab gewünnt / der soll
+ <lb/>uff das minst desselben <date period="summer">Sommers</date> uff derselben Zillstatt <num value="4">vier</num> gwon<lb break="no"/>lich
+ Schießtag geschossen haben / sonst man ime die Gaab zegeben nit
+ <lb/>schuldig syn.
+</p>
+<p>
+<lb/>Es soll ouch kheiner uff einem gewonlichen Schießtag / nach dem
+ <lb/>man die schyben zum gmeinen schiessen ufgehenckt hatt / einen versuͦch
+ <lb/>schutz zethuͦn nit gwalt haben.
+</p></seg>
+<seg n="7"><p>
+<lb/>Und ob etliche junge Gesellen / umb vermelter unserer gnedigen
+ <lb/>Herren Gaab zeschiessen / unnd aber zuͦvermydung kostens / nit inn
+ <pb n="5v" facs="StAZH_III_AAb_1_1__Nr__49__fol__5_v_.tif"/>
+<lb/>die Abentürten zesitzen gesinnet weren / daß einem jeden dasselbig
+ <lb/>fryg zuͦgelassen syn / Also daß er umb die Gaaben / so er den gebü<lb break="no"/>renden
+ Toppel gelegt / nach luth diser Ordnung schiessen moͤge / un<lb break="no"/>angesehen
+ ob er in der Abentürten syn woͤlle oder nit. Doch wellicher
+ <lb/>nit zeeren woͤlte / daß derselbig <measure type="currency" unit="h" quantity="4">vier haller</measure> an den uncosten so mit
+ <lb/>dem Zeiger / schyben unnd sonst ufgadt / uff jedem Schießtag geben
+ <lb/>soͤlle.
+</p>
+<p>
+<lb/>Wellicher einicherley faltsch bruchte / der uff grossen freyen Schies<lb break="no"/>seten
+ verbotten ist / der soll <measure type="currency" unit="ß" quantity="3">dryg Schilling</measure> zuͦ buͦß geben / und darzuͦ
+ <lb/>sin Schießzüg den Gsellen uff ir gnad verfallen syn.
+</p>
+<p>
+<lb/>Es sol auch ein jeder so desselben Jars nie uff der Zillstatt geschos<lb break="no"/>sen
+ hat / den Gastschilling geben / darnach ist Ime umb unserer gnedi<lb break="no"/>gen
+ Herren Gaab nach diser Ordnung / zeschiessen erloubt.
+</p>
+<p>
+<lb/>Alle die Inn und durch die schyben schiessent / als vorgemelt ist /
+ <lb/>hept jeder ein schutz / Es were dann das einer in seinem abschiessen
+ <lb/>schuͤrpfte / oder ützit beruͤrte / damit die kugel gehindert wurd / unnd
+ <lb/>ohne geverd in die schyben gieng. Unnd wenn <num value="2">zween</num> erbar Mann
+ <lb/>das sehend und sagend / so soll derselb schutz im nit gerechnet werden.
+ <lb/>Es sol auch ein jeder der ein schurpffschutz gesicht / den melden / unnd
+ <lb/>zeigen by siner thrüw / Wo das nit beschehe / unnd sich das wahrlich
+ <lb/>erfunde / So sol der selbig so dick ers verschwygt / <measure type="currency" unit="ß" quantity="1">ein Schilling</measure> ze<lb break="no"/>buͦß
+ geben / ohne gnad.
+</p></seg>
+<seg n="8"><p>
+<lb/>Wenn ouch <num value="2">zween</num> / <num value="3">dryg</num> / oder mehr / glych vil schütz habend / so
+ <lb/>soͤllent dann die selben einen stichschutz thuͦn / mit ein anderen / unnd
+ <lb/>je dem nechsten deß nagels daran die schyben hanget / das best gege<lb break="no"/>ben werden.
+</p>
+<p>
+<lb/>Wann ouch Gsellen mit ein andern zestich schützen khommen / so soͤl<lb break="no"/>lent
+ der vorgemelten Dryger einer / mit einem von den gmeinen Schü<lb break="no"/>tzen
+ zuͦ der schyben gaan / und die schütz schryben und zeichnen / und dem
+ <lb/>nechsten das best geben getrüwlich unnd ungfahrlich. Es were dann
+ <lb/>das es ir einen oder mehr antreffe / oder daß sy etwas zuͦversehen hetten /
+<pb n="6r" facs="StAZH_III_AAb_1_1__Nr__49__fol__6_r_.tif"/>
+<lb/>so moͤgen sy ander an ir statt darzuͦ geben / die das verrichtind / den<lb break="no"/>selben
+ soll darumb gegloubt werden / by der erstgemelten Buͦß: Es
+ <lb/>soll auch dheiner hinuß zuͦ dem Zeiger gaan / er syge dann ein Dryger /
+ <lb/>oder es syge ime von Inen erloubt / ouch by der Buͦß.</p>
+<p>
+<lb/>Und diewyl man die Schützen ab der Landtschafft / so die uff un<lb break="no"/>serer
+ gnedigen Herren Zillstatt khommend / mit den Gaaben wie Bur<lb break="no"/>ger
+ haltet / So woͤllent bemelt unser gnedig Herren / wann ire Bur<lb break="no"/>ger
+ daussen uff der Landtschafft schiessend / daß sy nit für Gest / son<lb break="no"/>ders
+ aller wyß unnd maaß / wie die usseren allhie uff der Zillstatt
+ <lb/>am <placeName ref="loc011719">Platz</placeName><note>Zu Schützenhaus und Schiessanlage am <placeName ref="loc011719">Platz</placeName> vgl.
+  <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 77-85</bibl>.</note> im schiessen und gwünnen geacht / und also ein theil wie der
+ <lb/>ander gehalten werden.
+ </p>
+<p><lb/>Glycher gstalt soͤllent auch die uff der Landtschafft / wo sy uff iren
+ <lb/>Zillstatten zuͦsamen khommen / einandern im schiessen und gwünnen /
+ <lb/>wie gegen inen uff vermelter unserer gnedigen Herren Zillstatt ge<lb break="no"/>brucht
+ wirt / halten / und einandern nit als Gest achten.
+</p>
+<p>
+<lb/>Und ob ein Gast umb das Wambist schusse / und mehr schütz tre<lb break="no"/>fe
+ dann ein heimbscher / so mag er den Schürletz fryg gewünnen. Ob
+ <lb/>er aber mit andern darumb zestich keme / so mag einer der den Schür<lb break="no"/>letz
+ vorgewunnen / dem Gast denselben abstaͤchen / ob er darzuͦ kompt /
+ <lb/>und soll dann das Schürtletztuͦch widerumb gmeinen Schießgsellen
+ <lb/>werden / und soll man ime <measure type="currency" unit="ß" quantity="5">fünff Schilling</measure> uß der Büchß geben. Fuͦg<lb break="no"/>te
+ sich aber daß der heimbschen einer so den Schürletz vor gewun<lb break="no"/>nen /
+ mehr schütz hette dann der Gast unnd sonst die meisten / so soll
+ <lb/>dann der Gast und die anderen so glych vil schütz habend / mit einan<lb break="no"/>deren
+ staͤchen / und schüßt der Gast neher dann die anderen / so soll der
+ <lb/>mit den mehren schützen den Gsellen den Schürletz gewünnen als ob
+ <lb/>stadt. Schusse aber diser einen so mit dem Gast staͤchend / neher dann
+ <lb/>der Gast / so soll derselb den Schürletz gewünnen / ob er denselben vor
+ <lb/>nit gewunnen hatt.
+</p>
+<p>
+<lb/>Unnd wellicher den Schürletz gewünnt / der soll den nechsten
+ <lb/><date period="P1WD">Sonntag</date> daruf nit schiessen / Es were dann daß ein Gast schusse /
+ <lb/>so moͤcht er schiessen / doch kheinem heimbschen schaden / An dem
+ <lb/>anderen <date period="P1WD">Sonntag</date> mag er wol wider schiessen / aber den Schür<lb break="no"/>letz
+ volgendts an siner Zillstatt desselben <date dur="P1Y">Jars</date> nit mehr gwün<pb n="6v" facs="StAZH_III_AAb_1_1__Nr__49__fol__6_v_.tif"/><lb break="no"/>nen /
+ Unnd das darumb / daß ander Gsellen die lernent unnd nit vil
+ <lb/>koͤnnent / auch darzuͦ kommen moͤgind.
+</p>
+<p>
+<lb/>Hieby aber ist luther abgestrickt / daß sy die Schützen fürhin nit
+ <lb/>mehr gwalt haben soͤllind / uß soͤllichen unserer gnedigen Herren
+ <lb/>Gaaben ald Barchet tuͤcheren fryge Gaaben zemachen: Es were
+ <lb/>dann sach / daß die jhenigen so umb die Gaab zestich kemind / der
+ <lb/>Staͤchschyben zum dritten mal feltind / ald es den froͤmbden abste<lb break="no"/>chend /
+ als dann erst soͤlliche Gaab gmeinen Schützen zeverschiessen
+ <lb/>fryg genennt werden.
+</p></seg>
+<seg n="9"><p>
+<lb/>Wo aber innert dem zirck einer Zillstatt / ein Hochzyt were / unnd
+ <lb/>gmeine Schießgsellen sich mit einanderen vereinbareten / nebent den
+ <lb/>inen verehrten Gaaben / unserer gnedigen Herren Gaab / an demsel<lb break="no"/>ben
+ ort / alda die Hochzyt ist / ouch zeverschiessen / soll inen dasselbig
+ <lb/>zuͦgelassen syn / Doch soͤllend sy <date dur="P1D">eins tags</date> an: und ußschiessen / Und
+ <lb/>in soͤllichem fal / wann sy also <num value="2">zwo</num> / namblich unserer gnedigen Her<lb break="no"/>ren /
+ und ein verehrte Gaab mit einanderen zeverschiessen habent. So
+ <lb/>soll der jenig so der nechst oder vorderist ist / und in beide Gaaben ge<lb break="no"/>toplet
+ hatt / d’wal und gwalt haben / unserer gnedigen Herren / oder
+ <lb/>die verehret Gaab zenemmen / wann er bemelter unserer gnedigen Her<lb break="no"/>ren
+ Gaab darvor nit gewunnen hatt.
+</p></seg>
+<seg n="10"><p>
+<lb/>Item so soll man <time when="17:00:00">abents umb fünff uhren</time> absaͤnden / Glych wie es
+ <lb/>uff der Zillstatt der Statt <placeName ref="loc000065">Zürych</placeName> ouch also gebrucht wirt.
+</p></seg>
+<head n="11" type="subtitle"><lb/>Prob der Büchssen</head>
+<p>
+<lb/>Wiewol uff etlichen Zillstatten bißhar die Ror / wann man die
+ <lb/>ußgeschlagen / allein bym oug beschouwet / unnd probiert worden /
+ <lb/>Diewyl man aber den krumben / gerißnen unnd gestrubten Zug so
+ <lb/>rein unnd gfahrlich in die Ror ziehen kan / also daß man soͤllichen
+ <lb/>Zug bym oug nit so eigentlich als es aber die nothurfft erforderet / se<lb break="no"/>hen
+ koͤnnen / So soll man fürhin uff allen Zillstatten uff unserer
+ <pb n="7r" facs="StAZH_III_AAb_1_1__Nr__49__fol__7_r_.tif"/>
+<lb/>gnedigen Herren Landtschafft / fürhin die Ror mit dem Probstaͤcken
+ <lb/>probieren. Wie es dann uff der Zillstatt der Statt <placeName ref="loc000065">Zürych</placeName> auch also
+ <lb/>gebrucht wirt.
+</p>
+<p>
+<lb/>Es soll ouch ein jeder Schütz so unserer gnedigen Herren Gaab
+ <lb/>gewunnen / nit ab der Zillstatt gaan / noch sin Büchß hinweg tragen /
+ <lb/>er habe dann zevor dieselbig den jhenigen so darzuͦ verordnet / zebe<lb break="no"/>schouwen
+ und probieren geben / Und wellicher das nit thuͦn wurde /
+ <lb/>der soll sin gewunnene Gaab verwürckt haben.
+</p>
+<p>
+<lb/>Und zuͦ söllichem probieren soͤllend <num value="2">zween</num> uß den Schützen / und
+ <lb/>einer von den vorgemelten Drygen / zuͤ der zyt das man einen Schü<lb break="no"/>tzenmeister
+ unnd die Dryger nimpt / verordnet werden / welliche die
+ <lb/>Büchsen obgehoͤrter gstalt beschouwen und probieren soͤllind.
+</p>
+<head n="12" type="subtitle"><lb/>Straaffen über allerley unzuch<lb break="no"/>ten / unfuͦgen und derglychen</head>
+<p>
+<lb/>Welliche mit einanderen stoͤssig wurden / Unnd über das man sy
+ <lb/>by der buͦß hiesse schwygen / soͤlliches übersehen und ungehorsam syn /
+ <lb/>deren jeder so darwider gehandlet / soll <measure type="currency" unit="ß" quantity="1">ein Schilling</measure> zebuͦß geben /
+ <lb/>so dick das beschicht.
+</p>
+<p>
+<lb/>Wellicher ouch an der Zillstatt / und besonders so Wyn und Brot
+ <lb/>da ist / vor den Gsellen mit Koppen oder Furtzen / ald anderer unver<lb break="no"/>nunfft /
+ unfuͦg tribe / der soll offt das beschicht / die Buͦß verfallen
+ <lb/>syn / ohn gnad.
+</p>
+<p>
+<lb/>Wer den andern hiesse liegen / der soll so dick und vil das beschicht /
+ <lb/><measure type="currency" unit="ß" quantity="1">ein Schilling</measure> zebuͦß geben.
+</p>
+<p>
+<lb/>Deßglych so einer ungewonlich schwuͤr thete / daß derselb so offt
+ <lb/>es beschicht / <measure type="currency" unit="ß" quantity="1">ein Schilling</measure> zebuͦß gaͤben / oder / nach luth unserer gne<lb break="no"/>digen
+ Herren Mandaten den Herd küssen.
+</p><pb n="7v" facs="StAZH_III_AAb_1_1__Nr__49__fol__7_v_.tif
+"/>
+<p>
+<lb/>Wellicher ouch zuͦ einem schlacht / er traͤffe in ald nit / der sol einem
+ <lb/>Obervogt angezeigt werden / damit derselb ine nach deß Ampts oder
+ <lb/>Dorffs bruch und Recht straffen moͤge.
+</p>
+<p>
+<lb/>Glycher gstalt so einer ein Taͤgen oder Büchß erzuckte / der soll ein<lb break="no"/>nem
+ Obervogt angezeigt / und nach gstalt der sachen gestrafft wer<lb break="no"/>den.
+</p>
+<p>
+<lb/>Und wellicher der hievor beschribnen bestimpten buͦssen / eine oder
+ <lb/>mehr verfalt / der sol sinen Schießzüg hinder die Gsellen leggen / biß
+ <lb/>er die Buͦß gantz bezalt hatt / oder der Schützenmeister sol es ime an
+ <lb/>dem geordneten Bulfergaͤlt abziehen.
+</p>
+<p>
+<lb/>Es soll ouch ein Schützenmeister nützit besonders anfahen noch
+ <lb/>anheben / als einiche besondere Ordnung machen / dann mit der Dry<lb break="no"/>gern /
+ oder aber gemeiner Gsellen wüssen unnd willen: Doch daß sy
+ <lb/>diser hievor geschribnen Ordnungen nützit zewider zemachen gwalt
+ <lb/>haben.
+</p>
+<p>
+<lb/>Disere hievor beschribnen Ordnungen / soͤllend wahr unnd staͤht
+ <lb/>gehalten werden / an einem als an dem andern / ohne geverd. Doch
+ <lb/>mehr wolgemelten unseren gnedigen Herren von <placeName ref="loc000065">Zürych</placeName> / deßgly<lb break="no"/>chen
+ Irer Statt / und Landts Rechten ohn schaͤdlich: Unnd hiemit
+ <lb/>Inen vorbehalten / disere unnd andere Ordnungen / allwegen nach
+ <lb/>gstalt der sachen / zyten und loͤuffen / Und ye nach dem sy findend / guͦt
+ <lb/>und thuͦnlich syn / nach irem gfallen zeenderen und zuͦverbesseren.
+</p>
+<p><lb/>Actum den <origDate when="1601-01-05" calendar="Julian">fünfften tag Jenners / Anno M. DC. I.</origDate></p>
+</div>
+</body>
+<back>
+<div>
+<p>Für das vorliegende Mandat hat sich ein Entwurf (inklusive Anordnung der Drucklegung) erhalten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4625081">StAZH A 39.2, Nr. 12</ref></bibl>). 
+ In der zweiten Hälfte des 16. Jahrhundert 
+ bemühte sich die <placeName ref="loc000065">Zürcher</placeName> Obrigkeit verstärkt um die Förderung des Schützenwesens in ihrem Gebiet. Dies geschah vor dem Hintergrund der steigenden Bedeutung der Feuerwaffen für die Kriegsführung. 
+In diesem Zusammenhang entstanden mehrere handschriftliche Schützenordnungen für Stadt und Landschaft, die Angaben betreffend Beschaffenheit der Gewehre, Durchführung der Schiessübungen sowie die obrigkeitlich finanzierten 
+Schützenpreise (Hosen, Barchenttücher und Wämser) enthielten (vgl. exemplarisch <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4625077">StAZH A 39.1, Nr. 113</ref></bibl>). Die Mitteilung der Ordnung des Jahres 1585 
+ an die Landvögte enthält zudem eine Auflistung sämtlicher Schiessplätze auf der 
+ Landschaft (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4625079">StAZH A 39.1, Nr. 114</ref></bibl>).</p>
+<p>Zu einschneidenden Umstellungen im <placeName ref="loc000065">Zürcher</placeName> Wehrwesen kam es in der Zeit des Dreissigjährigen Kriegs durch die Aufgabe der überkommenen Truppeneinteilung, die sich an den mittelalterlichen 
+Herrschaftsstrukturen orientiert hatte, zugunsten eines von territorial-strategischen Gesichtspunkten bestimmten Systems mit der Einrichtung von insgesamt zehn über das gesamte <placeName ref="loc000066">zürcherische</placeName> Herrschaftsgebiet 
+ verteilten Militärquartieren (<bibl><ref target="/startseite/literaturverzeichnis">Sigg 1996</ref>, S. 351</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Peter 1907</ref>, S. 31-81</bibl>). Diese neuen Waffenplätze 
+ wurden ergänzt durch den Ausbau des Systems der Hochwachten, das im Notfall eine beschleunigte Alarmierung erlaubte.</p>
+<p>Impulse für die Entwicklung einer neuen Militärstrategie kamen in dieser Zeit aus der Kartographie und der Ingenieurskunst, wovon namentlich die Karten <persName ref="per013456">Hans Conrad Gygers</persName> zeugen (vgl. dazu exemplarisch 
+ <persName ref="per013456">Gygers</persName> Karte der Hochwachten und Militärquartiere im <placeName ref="loc000066">Zürcher</placeName> Gebiet, <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=736123">StAZH PLAN O 113</ref></bibl>). 
+ Auf den Militärquartieren waren sogenannte Trüllmeister für die Musterung der Wehrpflichtigen sowie die 
+ Schiessübungen zuständig (vgl. die Instruktion für die Trüllmeister des Jahres 1770, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_065">SSRQ ZH NF I/1/11, Nr. 65</ref></bibl>, 
+ sowie die Schützenordnung für die Landmiliz des Jahres 1797, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_103">SSRQ ZH NF I/1/11, Nr. 103</ref></bibl>). 
+Illustrativ für die Mobilisierung der Landbevölkerung und das System der Militärquartiere und Hochwachten ist das anlässlich der in <placeName ref="loc006593">Europa</placeName> herrschenden Kriegslage 1743 erlassene Mandat betreffend Verhalten der 
+Freikompanien des Landpiquets (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_056">SSRQ ZH NF I/1/11, Nr. 56</ref></bibl>). Die Exerzier- und Zugordnungen des 17. und 18. Jahrhunderts zeugen vom 
+ Einfluss der <placeName ref="loc007055">niederländischen</placeName> und <placeName ref="loc000281">französischen</placeName> Kriegstechnik 
+ auf das <placeName ref="loc000065">zürcherische</placeName> Wehrwesen (vgl. die Zug- und Wachtordnung des Jahres 1706, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_036">SSRQ ZH NF I/1/11, Nr. 36</ref></bibl>, 
+ sowie <bibl><ref target="/startseite/literaturverzeichnis">Sigg 1996</ref>, S. 352-354; 358-361</bibl>).</p>
+<p>Zum vorliegenden Mandat vgl. <bibl><ref target="/startseite/literaturverzeichnis">Peter 1907</ref>, S. 9</bibl>; zu <persName ref="per013456">Gyger</persName> 
+ vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/022020/2008-02-18/">Hans Conrad Gyger</ref></bibl>; allgemein zum frühneuzeitlichen 
+ Wehrwesen <placeName ref="loc000065">Zürichs</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Sigg 1996</ref>, S. 350-363</bibl>; 
+ <bibl><ref target="/startseite/literaturverzeichnis">Peter 1907</ref></bibl>.  
+ 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

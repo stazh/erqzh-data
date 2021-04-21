@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_007_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365732">StAZH C I, Nr. 2466</idno></msIdentifier><head>Verpfändung der Herrschaft Greifensee an die Stadt Zürich</head><msContents><summary>Graf Friedrich von Toggenburg, Herr über das Prättigau und Davos, schuldet dem Bürgermeister und Rat der Stadt Zürich 6000 Gulden, für die er jährlich einen Zins von 400 Gulden bezahlen soll. Aus diesem Grund versetzt er ihnen Stadt und Burg Greifensee mitsamt dem See und allen Leuten, Gütern, Rechten und Einkünften, wie sie von seinem verstorbenen Vetter Donat als freies Eigen auf ihn übergegangen sind. Um den Zins zu decken, kann Zürich sämtliche Einkünfte der Herrschaft einziehen. Sollten diese nicht ausreichen, wird der Fehlbetrag zum Kapital geschlagen. Für die Burghut können die Zürcher Bussen und Fallabgaben einziehen. Für allfällige Baukosten dürfen sie jährlich bis zu 20 Gulden auf die Pfandsumme schlagen. Der Graf kann das Pfand wieder auslösen, solange sein Burgrecht mit der Stadt Zürich währt, danach fällt es als Eigengut an Zürich. Solange er das Pfand nicht auslöst, darf er auch die Stadt Uznach sowie die Burg Grinau niemandem ausser den Zürchern oder ihren Eidgenossen übertragen. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="28.5"/><width unit="cm" quantity="64.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="7.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Friedrich von Toggenburg</persName></seal></sealDesc></physDesc><history><origin><origDate when="1402-10-25"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 4598</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000441">Pfand</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2466__r_.tif"/>
+<p><seg><lb/>Wir, graff <persName role="issuer" ref="per000327">Fridrich von Togkenburg</persName>, her in <placeName ref="loc000192">Brettengoͤw</placeName> und ze <placeName ref="loc000771">Thafaus</placeName>
+<abbr>etc</abbr>, tuͦn kunt allen, die disen brief sechent oder hoͤrent lesen, das wir von rechter und redlicher schuld wegen schuldig syen und gelten su̍llen dien erbern, bescheiden, unsern guͦten
+<lb/>fru̍nden und lieben burgern, dem <orgName ref="org002406">burgermeister, dien raͤten und burgern gemeinlich der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> guͦter und geber und vollen swerer an gold und an gewicht, die si u̍ns durch fru̍ntschafft verlichen hant, und oͧch dasselb gelt alles in u̍nsern redlichen nutz kommen
+<lb/>ist und wir da mit u̍nser verdorbenlichen schaden fu̍rkomen haben, des wir offenlich verjehen, von dem selben hoͧptguͦt der <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> wir und u̍nser erben und nachkomen dien <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> und iren nachkomen <date dur="R/P1Y">jerlich</date> uff <date type="deadline" when="--11-11">sant <persName ref="per000141">Martis</persName> tag</date>
+<measure type="currency" quantity="400" unit="fl">vier hundert guldin</measure> guͦter und geber an
+<lb/>gold und an gewicht aͧn alles verziehen richten und weren su̍llen. Und das die selben von <placeName ref="loc000065">Zu̍rich</placeName> der vorgeseiten <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> hoͧptguͦtes und der zinsen, so da von vallen werdent, und alles kosten und schaden, so dar uf gat, als hie nach ist bescheiden, dester sicher syen, so haben
+<lb/>wir dien <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> burgern <placeName ref="loc000065">Zu̍rich</placeName> mit guͦter vorbetrachtung und nach rat unser herren und fru̍nden ze einem rechten, redlichen und werenden pfand geben, versetzet und ingeantwu̍rt ane abslahen der nu̍tzen, die man ab dem hoͧptguͦt nu̍t rechnen sol, unser vesty, statt
+<lb/>und burg <placeName ref="loc000348">Griffense</placeName>, das alles u̍nser fry eigen ist, mit dem se, der da bi gelegen ist, mit lu̍t und guͦt, mit allen nu̍tzen, stu̍ren, diensten, zinsen, gerichten, twingen und baͤnnen, kleinen und grossen, mit allen guͤtern und gu̍lten, mit reben, mit hu̍sern, schu̍ren, mit hofstetten,
+<lb/>mit aͤkern, mit wisen, mit holtz, mit veld, mit wunn, mit weid, mit steg, mit weg, mit wasser, mit wasserru̍nsen, mit vischentzen, mit wyern, mit buͦssen, mit einungen, mit vaͤllen und gelaͤsen, mit aller fryheit, ehafti, wirden und eren und mit allem recht, so dar zuͦ gehoͤrt und
+<lb/>in dehein wise dar zuͦ gehoͤren mag, als u̍nser vetter selig und wir das zuͦ der selben vesty genossen und her bracht haben nach dien stuken, als hie nach ist bescheiden.</seg>
+<seg>Des ersten, das die <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> die vorgeseiten vesty und statt <placeName ref="loc000348">Griffense</placeName> mit aller ir zuͦgehoͤrung,
+<lb/>als vor ist bescheiden, unwuͦstlich nach pfandes recht innhaben und niessen, besetzen und entsetzen su̍llent und mugent nach irem willen, von u̍ns, von u̍nsern erben und von menlichem von u̍nser wegen gentzlich unbeku̍mbert, all die wile, so wir oder u̍nser erben das von inen umb das vor<lb break="no"/>geseit hoͧptguͦt, umb zinse und umb kosten, so dar uf gat und geslagen wirt, nicht erlediget noch erloͤset haben, oͧch nach dien gedingen, als hie nach bescheiden ist. Und was von stu̍ren, von zinsen oder von allen andern nu̍tzen, so von dien guͤtern vallent, so zuͦ der <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> vesty gehoͤrent, wir
+<lb/>bezalt moͤchten werden, von was sachen wegen sich das gefuͦgte, was dann dar an uss stuͤnde, das su̍llen wir und u̍nser erben dien <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName>
+<date dur="R/P1Y">jerlich</date> unverzogenlich abtragen und usrichten ane widerred. Taͤten wir das nicht, so su̍llent und mugent die <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> den selben
+<lb/>abgang <date dur="R/P1Y">jerlich</date> uff die <choice><abbr>vorgen</abbr><expan>vorgenant</expan></choice> vesty, uff das pfand unnd uff die <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> hoͧptguͦtes rechnen und slahen und dar uff haben ze gelicher wise als das <choice><abbr>vorgen</abbr><expan>vorgenant</expan></choice> hoͧptguͦt.</seg>
+<seg>Da bi sol man wissen, das all buͦssen, vaͤll, gelaͤs, dienst und einung dien <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> sunderlichen
+<lb/>volgen und beliben su̍llent an den kosten, den si ze burghuͦt ze <placeName ref="loc008719">Griffense</placeName> haben muͦssent und su̍llent, oͧch die selben stuk an die <choice><abbr>vorgen</abbr><expan>vorgenant</expan></choice>
+<measure type="currency" quantity="400" unit="fl">vierhundert guldin</measure> zinsen noch an dem hoͧbtguͦt nicht abgerechnet noch abgeslagen werden.</seg>
+<seg>Es mugent oͧch die obgenanten von <placeName ref="loc000065">Zu̍rich</placeName> an der vorgenanten
+<lb/>vesty und an der statt <placeName ref="loc008719">Griffense</placeName> alle jar untz an <measure type="currency" quantity="20" unit="fl">zwentzig guldin</measure> buwen, ob si das notdurftig dunket, und den selben kosten mugent sie alle mal uff das vorgeseit pfand ze hoͧptguͦt slahen und uff dem pfand haben. Wolten aber si fu̍rbz dasselbs u̍ber <measure type="currency" quantity="20" unit="fl">zwentzig guldin</measure> buwen, das
+<lb/>su̍llent sie u̍ns oder u̍nsern erben kunt tuͦn. Woͤlten wir dann dar zuͦ nicht komen, so mugent si dann wol fu̍rbz u̍ber die <measure type="currency" quantity="20" unit="fl">zwentzig guldin</measure> uff u̍nsern schaden buwen, als si dunket, das der obgenanten vesty und statt <placeName ref="loc000348">Griffense</placeName> und inen notdurftig sy von u̍ns und u̍nsern erben unbeku̍mbert,
+<lb/>und den selben kosten su̍llent und mugent si oͧch uff das egenant pfand slahen und ze hoͧptguͦt rechnen, ob wir oder u̍nser erben den selben kosten nicht usrichtin noch ableitin.</seg>
+<seg>Wir haben oͧch fu̍r u̍ns und u̍nser erben gelopt und verheissen bi u̍nsern tru̍wen und eren dien obgenanten von <placeName ref="loc000065">Zu̍rich</placeName>
+<lb/>die egenant burg und statt ze <placeName ref="loc000348">Griffense</placeName> und alles das, so bi u̍nsers vettern seligen oder bi u̍nsern ziten dar zuͦ gehoͤret hat oder noch dar zuͦ gehoͤret, wie das alles geheissen oder genempt ist, unverzogenlich ze ledigen, ze loͤsen und ze <choice><sic>entrihen</sic><corr>entrihten</corr></choice> an allen den stetten, do u̍nser vetter
+<lb/>selig, wir oder jeman ze u̍nser wegen die selben vesty, burg und statt, lu̍t, gu̍lt oder guͦt versetzt, verkoͧfft oder in dehein wise verku̍mbert hatten an all widerred.</seg>
+<seg>Wir haben oͧch u̍ns selber und u̍nsern erben in disen sachen eigenlich verdinget und vorbehept, das wir die vorgeschriben vesty
+<lb/>und statt <placeName ref="loc000348">Griffense</placeName>, den se und all ander lu̍t, gu̍lt oder guͤter, so dar zuͦ gehoͤrt, als das alles vorbenempt ist, von dien <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> und von allen iren nachkomen in der jarzal u̍nsers burgrechtes,<note xml:id="Anm_1">Das Burgrecht des Grafen <persName ref="per000327">Friedrich VII. von Toggenburg</persName> mit der Stadt <placeName ref="loc000065">Zürich</placeName> wurde am <date when="1400-09-20">20. September 1400</date> bis zum nächsten Georgstag (<date when="1401-04-23">23. April 1401</date>) und anschliessend für weitere 18 Jahre abgeschlossen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356376">StAZH C I, Nr. 661</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 3, Nr. 4383</bibl>). Es wurde am <date when="1405-06-01">1. Juni 1405</date> nochmals um 18 Jahre (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365807">StAZH C I, Nr. 662</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBSG</ref>, Bd. 4, Nr. 2338</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4, Nr. 5008</bibl>) und schliesslich am <date when="1416-03-26">26. März 1416</date> bis zum Tod des Grafen verlängert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=392793">StAZH C I, Nr. 663</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 5, Nr. 6081</bibl>).</note> so wir mit dien selben von <placeName ref="loc000065">Zu̍rich</placeName> haben, wider loͤsen mugen, weliches
+<lb/>tages oder weliches jares wir wellen, oͧch mit <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> guͦter und geber und vollenswerer an gold und an gewicht und mit den kosten, ob deheiner von zinsen oder von buwes wegen uff das <choice><abbr>obgen</abbr><expan>obgenant</expan></choice> pfand geslagen und zuͦ den <measure type="currency" quantity="6000" unit="fl">sechs tusent guldin</measure> gerechnet
+<lb/>wer, und mit dien versaͤssnen zinsen, der sich dann in dem jar der loͤsung erloͧffen hat, und su̍llen oͧch wir und u̍nser erben der von <placeName ref="loc000065">Zu̍rich</placeName> amptlu̍ten, die si dar zuͦ schikent, worten geloͧben, was si bi iren eiden sprechent, das der zinsen und des kosten von dien bu̍wen sy die uff dz
+<lb/>hoͧptguͦt geslagen und gerechnet sint an all ander bewisung.</seg>
+<seg>Wer aber, das wir, u̍nser erben oder u̍nser nachkomen die vorgeschriben losung nicht taͤten innret der jarzal des vorgeseiten u̍nsers burgrechtes, so su̍llent u̍ns die <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> dannenhin enkeiner losung
+<lb/>gebunden sin ze tuͦn und su̍llent die selben von <placeName ref="loc000065">Zu̍rich</placeName> die vorgeschriben vesty und statt <placeName ref="loc000348">Griffense</placeName> und alles das, so dar zuͦ gehoͤrt, als vor ist bescheiden, fu̍r ir eigenlich guͦt haben und niessen, besetzen und entsetzen, wie es inen fuͦgklich ist, von u̍ns, von u̍nsern erben und nachkomen
+<lb/>und von menlichem von u̍nser wegen gentzlich unbeku̍mbert, und haben oͧch fu̍r u̍ns, fu̍r u̍nser erben und nachkomen mit guͦten tru̍wen gelopt und verheissen, die <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> noch ir nachkomen nach der verzikung, als vorgeschriben ist, an der vorgeschriben vesty noch
+<lb/>an der statt <placeName ref="loc000348">Griffense</placeName>, an dem se daselbs noch an keinen andern lu̍ten, gu̍lten, gerichten und guͤtern, so dar zuͦ gehoͤrt, als vor ist bescheiden, niemer mer ze beku̍mbern, anzesprechen, anzegriffen noch ze sinnen mit gerichten, geistlichen noch weltlichen, noch ane gericht, mit
+<lb/>worten noch mit werchen noch mit deheinen andern sachen, so jeman in dehein wise erdenken kan oder mag an all argelist.</seg>
+<seg>Wir haben oͧch fu̍r u̍ns und u̍nser erben mit guͦten tru̍wen gelopt, das wir u̍nser vesty und statt ze <placeName ref="loc000801">Utznach</placeName> und unser vesty <placeName ref="loc008773">Grinoͧw</placeName> gen nieman
+<lb/>versetzen, verkoͧffen noch verpfenden su̍llen, dann gen dien von <placeName ref="loc000065">Zu̍rich</placeName> oder gen iren <orgName ref="org000531">eidgnossen</orgName>, all die wile, so wir <placeName ref="loc000348">Griffense</placeName>, burg und statt, von den <choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> nicht erlediget noch erloͤset haben. Losten aber wir die selben vesty und statt <placeName ref="loc000348">Griffense</placeName> innret der jarzal u̍nsers
+<lb/>burgrechtes <placeName ref="loc000065">Zu̍rich</placeName>, so sol es umb <placeName ref="loc000801">Utznach</placeName> und umb <placeName ref="loc008773">Grinoͧw</placeName> bestan in aller der wise und masse, als der brief u̍nsers burgrechtes wiset, so wir mit dien von <placeName ref="loc000065">Zu̍rich</placeName> haben.<note>Zum Burgrecht des Grafen von <persName ref="per000327">Toggenburg</persName> mit der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. <ref target="#Anm_1">Anm. 1</ref>.</note> Verzikte sich aber die losung umb <placeName ref="loc000348">Griffense</placeName>, als vorgeschriben ist, so sol es aber umb <placeName ref="loc000801">Utznach</placeName>
+<lb/>und umb <placeName ref="loc008773">Grinoͧw</placeName> bestan, als u̍nser brief umb u̍nser burgrecht mit dien von <placeName ref="loc000065">Zu̍rich</placeName> wiset. Wir und u̍nser erben mugen aber nu und hie nach mit u̍nser march und mit u̍nsern guͤtern, die gen <placeName ref="loc000801">Utznach</placeName> und gen <placeName ref="loc008773">Grinoͧw</placeName> gehoͤrent, wandlen und tuͦn mit verkoͧffen und
+<lb/>mit versetzen, was u̍ns dann dunket, das u̍ns fuͦgklich sy ane geverde.</seg>
+<seg>Wir, der <choice><abbr>obgen</abbr><expan>obgenant</expan></choice> graff <persName role="sigillant" ref="per000327">Fridrich von Togkenburg</persName>, haben oͧch fu̍r u̍ns und fu̍r all u̍nser erben und nachkomen mit guͦten tru̍wen gelopt und des offenlich ze den heilgen gesworn, alles das, so an disem
+<lb/>brief geschriben stat, war und staͤt ze halten und da wider niemer ze tuͦn noch schaffen getan in dehein wise an all argelist. Her u̍ber ze einem offennen, vesten urku̍nd, das dis vorgeschriben alles war und staͤt belib, so haben wir u̍nser insigel offenlich gehenkt
+<lb/>an disen brief, der geben ist an dem <origDate when="1402-10-25">fu̍nf und zwentzigisten tag des andern herbstmanodes, do man zalt von Cristus geburt vierzehen hundert jar, dar nach in dem andern jare</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2466__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Pfandbrief</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Als uns der von <persName ref="per000327">Togenburg</persName>
+<lb/><placeName ref="loc000348">Grifensew</placeName> burg und statt <sic>versetz</sic>
+<lb/>haut.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1402">1402</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Herrschaft <placeName ref="loc000348">Greifensee</placeName> hatten die Grafen von <orgName ref="org000144">Toggenburg</orgName>
+1369 für 7923 Gulden von den Herren von <orgName ref="org002752">Landenberg</orgName> gekauft
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_004">SSRQ ZH NF II/3, Nr. 4</ref></bibl>).
+Trotzdem dauerte es wohl noch mehrere Jahre, bis Greifensee effektiv in den Besitz der <orgName ref="org000144">Toggenburger</orgName> überging
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_006">SSRQ ZH NF II/3, Nr. 6</ref></bibl>).
+</p>
+<p>Schon vor der Verpfändung der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+hatte Graf <persName ref="per000327">Friedrich von Toggenburg</persName> im Jahr 1400
+mit der Stadt <placeName ref="loc000065">Zürich</placeName> ein Burgrecht abgeschlossen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356376">StAZH C I, Nr. 661</ref></bibl>).
+Das Burgrecht, mit welchem der Graf versprach, den städtischen Truppen seine Schlösser, Burgen, Städte und Dörfer offen zu halten, wurde 1405 erneuert
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365807">StAZH C I, Nr. 662</ref></bibl>).
+</p>
+<p>Im gleichen Jahr erlaubte <persName ref="per000327">Friedrich von Toggenburg</persName> der Stadt,
+einige zur Herrschaft gehörende, aber abseits gelegene Rebberge in <placeName ref="loc008726">Herrliberg</placeName>,
+<placeName ref="loc008883">Goldbach</placeName>, <placeName ref="loc008707">Fluntern</placeName>
+und an er <placeName ref="loc008759">Spanweid</placeName> für insgesamt 540 Gulden zu verkaufen,
+weswegen die Pfandsumme von 6000 Gulden auf 5460 Gulden reduziert wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_009">SSRQ ZH NF II/3, Nr. 9</ref></bibl>).
+Am 21. November 1414 wurde der Wert des Pfandes jedoch auf 7219 Pfund erhöht,
+weil die Stadt <placeName ref="loc000065">Zürich</placeName> gegenüber dem <persName ref="per000327">Toggenburger</persName> geltend machte,
+dass die Herrschaft nicht genügend Ertrag abwarf, um die vereinbarten Zinsen zu bezahlen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_010">SSRQ ZH NF II/3, Nr. 10</ref></bibl>).
+Aus der erhaltenen Abrechnung über die Jahre 1415 bis 1418 geht hervor,
+dass die Einnahmen wegen schwankender Getreidepreise fast immer niedriger ausfielen
+als der 1414 festgelegte Zins von 264 Gulden, sodass sich die Schulden des Grafen weiter anhäuften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_014">SSRQ ZH NF II/3, Nr. 14</ref></bibl>).
+In der Folge wurde das Pfand nicht wieder ausgelöst, sodass <placeName ref="loc000348">Greifensee</placeName>
+dauerhaft unter <orgName ref="org002406">Zürcher Herrschaft</orgName> verblieb.
+</p>
+<p>Nachdem <placeName ref="loc000065">Zürich</placeName> in <placeName ref="loc000348">Greifensee</placeName> an die Macht gekommen war,
+entsandte es ab 1402 einen Vogt, der wie seine Vorgänger im Schloss residierte und dort Gerichtstage abhielt.
+Auf diese Weise entstand die erste äussere, von einem obrigkeitlichen Vertreter vor Ort verwaltete Vogtei der Stadt <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_008">SSRQ ZH NF II/3, Nr. 8</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_012">Nr. 12</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_013">Nr. 13</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

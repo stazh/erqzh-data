@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_010_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365734">StAZH C I, Nr. 2468</idno></msIdentifier><head>Erhöhung der Pfandsumme für die Herrschaft Greifensee</head><msContents><summary>Graf Friedrich von Toggenburg, Herr über das Prättigau und Davos, bestätigt, dass er der Stadt Zürich vor einiger Zeit für 6000 Gulden die Burg Greifensee mit Leuten, Gütern und allem Zubehör verpfändet hat, wie es in der darüber ausgestellten Urkunde steht. Den dafür anfallenden Zins von 400 Gulden hat Zürich mehrere Jahre lang entrichtet, nun aber auf 264 Gulden reduziert, weil die Einkünfte von Greifensee nicht mehr abwerfen. Sollten sie noch weniger einbringen, gestattet der Graf der Stadt, das Fehlende auf die Pfandsumme zu schlagen. Das Gleiche gilt für allfällige Unterhaltskosten. Die Amtleute und der Säckelmeister von Zürich haben zusammen mit den Toggenburger Amtleuten, dem Ammann Rudolf Weingartner und dem Wirt Rudolf Brunner, eine Abrechnung erstellt, gemäss welcher der Stadt bislang Unkosten von 1219 Gulden entstanden sind. Die Pfandsumme wird daher um diesen Betrag erhöht. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.0"/><width unit="cm" quantity="41.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Friedrich von Toggenburg</persName></seal></sealDesc></physDesc><history><origin><origDate when="1414-11-21"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 5977</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000441">Pfand</term><term ref="key000157">Steuern</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2468__r_.tif"/>
+<p><seg><lb/>Wir, grâf <persName role="issuer" ref="per000327">Fridrich von Toggenburg</persName>, herr im <placeName ref="loc000192">Brettengoͤw</placeName> und uff <placeName ref="loc000771">Thafaus</placeName>
+<abbr>etc</abbr>, tuͦn kunt allen den, die disen brief sechent oder hoͤrent lesen, als wir vor ziten u̍nser
+<lb/>vesty, statt und burg <placeName ref="loc000348">Griffense</placeName> mit lu̍t, mit guͦt und mit aller zuͦgehoͤrung <abbr>etc</abbr> dien fromen, wisen, dem <orgName ref="org002406">burgermeister, dien raͤten und burgern der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>
+<lb/>versetzet und ingeben haben umb <measure type="currency" unit="fl" quantity="6000">sechs tusent guldin</measure> hoͧptguͦtz, da von die selben von <placeName ref="loc000065">Zu̍rich</placeName> bi <measure type="currency" unit="fl" quantity="400">vier hundert guldin</measure> etwe manig jar ze zins geben muͦsten,
+<lb/>und aber nu die selben von <placeName ref="loc000065">Zu̍rich</placeName> das <choice><abbr>egen</abbr><expan>egenant</expan></choice> guͦt in soͤlicher mass bestelt hand, das si nicht als vil zinses nu fu̍rbas hin da von gebent, und hat sich
+<lb/>die sach nach allen dingen also gehandelt, das si noch von dem <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> guͦt <date dur="R/P1Y">jerlich</date>
+<measure type="currency" unit="fl" quantity="264">zwey hundert und vier und sechtzig guldin</measure> ze zins gebent, den
+<lb/>selben zins aber wir inen wider umb su̍llent geben und haben inen den gelopt uszerichten.</seg>
+<seg>Und dar umb, dz die <choice><abbr>vorges</abbr><expan>vorgeseiten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> der egenanten
+<lb/><measure type="currency" unit="fl" quantity="264">zwey hundert und vier und sechtzig guldin</measure> zinses von u̍ns und u̍nsern erben dester sicherer syen, so haben wir inen gunnen und erloupt, dz si an
+<lb/>die selben <measure type="currency" unit="fl" quantity="264">zwey hundert sechtzig und vier guldin</measure> zinses <date dur="R/P1Y">jerlich</date> innemen und inzu̍chen su̍llen und mugen all stu̍r, nu̍tz, zins und gu̍lt, so von den
+<lb/>guͤtern, so gen <placeName ref="loc000348">Griffense</placeName> gehoͤrent, vallend dar umb, dz si dester bas die egeschriben <measure type="currency" unit="fl" quantity="264">zwey hundert und vier und sechtzig guldin</measure> gerichten <choice><abbr>muge</abbr><expan>mugent</expan></choice>
+<lb/>aͧn all widerred. Gebreste aber dien <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> deheines jares an dien <choice><abbr>vorges</abbr><expan>vorgeseiten</expan></choice> nu̍tzen, das die <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+<measure type="currency" unit="fl" quantity="264">zwey hundert und vier und sechtzig
+<lb/>guldin</measure> zinses nicht da von gerichted noch abgetragen moͤchten werden, den selben abgang, wie vil des ist und sich von jar ze jar gezu̍chet, su̍llent
+<lb/>und mugent die <choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> uff dz <choice><abbr>vorgeschr</abbr><expan>vorgeschriben</expan></choice> hoͧptguͦt die <measure type="currency" unit="fl" quantity="6000">sechs tusent guldin</measure> uff die <choice><abbr>vorgen</abbr><expan>vorgenante</expan></choice> vesty, burg und statt und uff dz
+<lb/>pfand mit aller zuͦgehoͤrt nach wisung ir pfandbriefs, den sie von u̍ns hand, schlachen und dar uff haben aͧn widerred.</seg>
+<seg>Dar zuͦ sol man sunder<lb break="no"/>lich wissen und ist eigenlich beredt und verdinget worden uff die zit, als wir den <choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> das <choice><abbr>obges</abbr><expan>obgeseite</expan></choice> pfand ingaben, also was die
+<lb/>selben von <placeName ref="loc000065">Zu̍rich</placeName> an der <choice><abbr>egen</abbr><expan>egenanten</expan></choice> vesty und statt alle jar verbuwend, des sye lu̍tzel oder vil, den selben costen und zerung, was sich nach marchzal
+<lb/>von jar ze jar und nach rechnung vindet, sullent si ouch uff die <choice><abbr>vorgen</abbr><expan>vorgenante</expan></choice> vesty und statt und uff dz pfand schlachen und dar uff haben
+<lb/>nach wisung des <choice><abbr>egen</abbr><expan>egenanten</expan></choice> briefs, den si von u̍ns hand.</seg>
+<seg>Und nach dem und dis sach beredt ist worden und vor ist bescheiden, so habend die
+<lb/><choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> ir amptlu̍t und ir statt sekler fu̍r u̍ns bracht, das es sich mit rechter reitung erfunden hat, da ouch u̍nser amtlu̍t,
+<lb/>namlich <persName ref="per010031">Ruͦdolf Wingarter</persName>, unser amman, und <persName ref="per013336">Ruͦdolf Brunner</persName>, unser wirt, von unsers heissens wegen under ougen und bi der rechnung gewesen
+<lb/>sint, das von des abganges wegen, als die nu̍tz, so gen <placeName ref="loc000348">Griffense</placeName> gehoͤrent, untz her und untz uff dis zit, als diser brief geben ist, von jar
+<lb/>ze jar sider dem tag, als wir den von <placeName ref="loc000065">Zu̍rich</placeName> dz <choice><abbr>egen</abbr><expan>egenante</expan></choice> pfand versetzet und ingeben haben, minder gulten hand, dann dz man die <choice><abbr>egen</abbr><expan>egenanten</expan></choice>
+<measure type="currency" unit="fl" quantity="264">zwey
+<lb/>hundert und vier und sechtzig guldin</measure> gerichten moͤchte, und dz ouch dar zuͦ sidmalen untz uff dis zit dar uff von buwens wegen vil
+<lb/>costen geloͤffen ist, das sich alles mit enander, als dz ze samen gerechnet und geslagen ist, an einer summ gezu̍chet <measure type="currency" unit="fl" quantity="1219">zwelff hundert guldin und
+<lb/>nu̍ntzechen guldin</measure> guͦter und geber an gold und an gewicht, die wir den <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> bi der rechnung schuldig beliben.</seg>
+<seg>Soll man wissen,
+<lb/>dz u̍ns der selben rechnung, so die <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> und ir amptlu̍t getan hand, da bi wir u̍nser amptlu̍t ouch haben gehept, als vor ist
+<lb/>bescheiden, wol benuͤget und loben ouch bi guͦten tru̍wen, die selben rechnung fu̍r u̍ns und u̍nser erben war und staͤt ze halten. Und dar
+<lb/>umb so schlachen und setzen wir dien <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> die selben <measure type="currency" unit="fl" quantity="1219">zwelf hundert und nu̍ntzechen guldin</measure> zuͦ den <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+<measure type="currency" unit="fl" quantity="6000">sechs tusent
+<lb/>guldin</measure> uff die <choice><abbr>vorgen</abbr><expan>vorgenante</expan></choice> vesty, statt und burg <placeName ref="loc000348">Griffense</placeName>, dz si die ouch dar uff haben und nutzen sullent in aller wise und mass, als
+<lb/>wir inen die <choice><abbr>jetzgen</abbr><expan>jetzgenanten</expan></choice>
+<measure type="currency" unit="fl" quantity="6000">sechs tusent guldin</measure> hoͧptguͦtz zuͦ einem rechten werenden pfand uff die <choice><abbr>vorges</abbr><expan>vorgeseite</expan></choice> vesty, statt und burg ge<lb break="no"/>slagen und gesetzt haben aͧn all geverd.</seg>
+<seg>Und her u̍ber zu einem offenn, waren und vesten urku̍nd aller <choice><abbr>vorgeschr</abbr><expan>vorgeschribenen</expan></choice> dingen, so haben
+<lb/>wir, vorgenanter graf <persName role="sigillant" ref="per000327">Fridrich</persName>, u̍nser insigel offenlich gehenkt an disen brief, der geben ist an dem <origDate when="1414-11-21">nechsten mitwuchen vor sant <persName ref="per000793">Catherinan</persName> tag,
+<lb/>do man zalt von gottes gebu̍rt viertzechenhundert jar, dar nach in dem viertzechenden jare</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2468__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Des von <persName ref="per000327">Toggenburg</persName> rechnung brief<add place="below" hand="later hand"><lb/>von <placeName ref="loc000348">Griffensew</placeName> wegen, da er uns
+<lb/>zuͦ den vj<hi rend="sup">m</hi> guldin noch xij<hi rend="sup">c</hi> xviiij guldin
+<lb/>schlacht</add>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c">
+<lb/>
+<origDate when="1414">1414</origDate>
+</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Graf <persName ref="per000327">Friedrich von Toggenburg</persName> hatte die Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+im Jahr 1402 an die Stadt <placeName ref="loc000065">Zürich</placeName> verpfändet
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_007">SSRQ ZH NF II/3, Nr. 7</ref></bibl>).
+Mit der Erhöhung der Pfandsumme wurde es für den Grafen schwieriger, sein Pfand wieder einzulösen,
+sodass <placeName ref="loc000348">Greifensee</placeName> dauerhaft im Besitz der Stadt <placeName ref="loc000065">Zürich</placeName> verblieb.
+Für die folgenden Jahre 1415 bis 1418 wurde 1419 eine Abrechnung erstellt,
+aus der hervorgeht, dass sich die Schulden des Grafen auf das Pfand <placeName ref="loc000348">Greifensee</placeName> weiter anhäuften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_014">SSRQ ZH NF II/3, Nr. 14</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

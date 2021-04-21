@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_073_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250885">StAZH C I, Nr. 2491</idno></msIdentifier><head>Urteil über die Abgabe von Fasnachtshühnern aus dem Dorf Hegnau</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen dem Vogt von Greifensee, Konrad Escher, sowie Heini Hegnauer genannt Böni aus Hegnau, dass letzterer, da er seit fünf Jahren nicht mehr wie seine Vorfahren auf der Hofstatt des Burgstalls in Hegnau wohnt, sondern ein Haus im Dorf erworben hat, wie jeder andere Bewohner von Hegnau dem Vogt jährlich ein Fasnachtshuhn abzuliefern und sich mit ihm wegen der verfallenen Fasnachtshühner zu vergleichen hat, wenn er nicht innerhalb von sechs Wochen den Beweis erbringt, dass er davon befreit sei. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1553-05-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<p>
+<pb n="1" facs="StAZH_C_I__Nr__2491__S__1_.tif"/>
+<seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thund
+<lb/>khunt mengklichem mit disem brieff, das sich spann
+<lb/>gehalten hatt zwüschent dem ersamen, wysen, unnserem
+be<lb break="no"/>sonders getrüwen, lieben burger unnd vogt zu <placeName ref="loc000348">Gryfensee</placeName>,
+<persName ref="per002057">Cun<lb break="no"/>raten Escher</persName>, eins unnd dem unnsern <persName ref="per013924">Heini Hegnower genant
+<lb/>Böni</persName> von <placeName ref="loc008815">Hegnow</placeName> annderstheils, von wëgen das
+<lb/>unnser vogt zu <placeName ref="loc000348">Gryfensee</placeName> vermeint, diewyl gemëlter
+<lb/><persName ref="per013924">Heini Hegnower</persName> nit mer uff der hofstatt des burgstals zu
+<lb/><placeName ref="loc008815">Hegnow</placeName> als syne vorderen gesëßen, sonder eyn behußung
+<lb/>im dorf zu <placeName ref="loc008815">Hegnow</placeName> erkoufft unnd daselbs wonhaft, das er
+<lb/>im dann wie eyn annderer, der zu <placeName ref="loc008815">Hegnow</placeName> seßhafft wer,
+<lb/>von unnser herschafft <placeName ref="loc000348">Gryfensee</placeName> wëgen <date dur="R/P1Y">jerlich</date>
+<num value="1">ein</num> vaßnacht
+<lb/>hun zegëben, unnd ouch mit namen ime umb die, so er
+inn<lb break="no"/>dert <date dur="P5Y">fünff jaren</date> verfallen, abtrag zethund pflichtig syn
+<lb/>sölte.</seg>
+<seg>Unnd aber genanter <persName ref="per013924">Heini Hegnower</persName>
+dar<lb break="no"/>gëgen zu anntwort fürgewenndt, das syne vorderen
+<lb/>unnsern vögten zu <placeName ref="loc000348">Gryfensee</placeName> nie dheine vaßnacht hüner
+<lb/>gegëben unnd wiewol er vor <date dur="P5Y">fünff jaren</date>, nachdem er
+<lb/>sich zu <placeName ref="loc008815">Hegnow</placeName> im dorf gesetzt, darumb angefordert
+<lb/>worden, hette er sich des domalen ouch gewidert, unnd sich
+<lb/>syner vorderen harkomens beholffen, darby man inn ouch
+<lb/>belyben laßen. Deßhalben er verhofte, das er fürer
+dar<lb break="no"/>by bestan unnd diser ansprach von uns ledig erkhënnt
+<lb/>werden sölte.</seg>
+<seg>Unnd als wir sy, die parthygen, inn
+<lb/>sömlichem irem spann inn den unnd vil mer worten,
+<lb/>alle zumelden unnot, nach aller notdurft verhört,
+hab<lb break="no"/>ent wir uns nach beschechnem rëchtsatz daruf zu rëcht
+<lb/>erkhennt unnd erkhennen inn krafft diß brieffs:
+Die<lb break="no"/>wyl <persName ref="per013924">Heini Hegnower</persName>, wie er selbs bekanntlich, nit mer
+<lb/>uff der hofstatt des burgstals zu <placeName ref="loc008815">Hegnow</placeName> wie syne
+vor<lb break="no"/>dern geseßen, sonder eyn behußung daßelbs im dorf
+er<lb break="no"/>koufft, ouch sich dahin gesetzt, unnd dann eyn jede
+huß<lb break="no"/>hofstatt zu <placeName ref="loc008815">Hegnow</placeName> uns von wëgen unnser herschafft
+<placeName ref="loc000348">Gryf<lb break="no"/>ensee</placeName>
+<date dur="R/P1Y">jerlich</date>
+<num value="1">eyn</num> vaßnacht hun zegëben schuldig, das es
+<lb/>dann by demselben fürer als bißhar belyben und <persName ref="per013924">Heini
+<lb/>Hegnower</persName> uß krafft unnd vermög sömlicher frygheit
+<lb/>und alten gerechtigkeit unnsern vögten zu <placeName ref="loc000348">Gryfensee</placeName>
+<lb/>hinfüro <date dur="R/P1Y">jerlich</date>
+<num value="1">eyn</num> vaßnacht hun wie eyn annderer
+<lb/>zu <placeName ref="loc008815">Hegnow</placeName> zegëben pflichtig syn unnd sich ouch mit
+ob<lb break="no"/>vermëltem unnserem jetzigen vogt umb die verfalnen
+<pb n="2" facs="StAZH_C_I__Nr__2491__S__2_.tif"/>
+<lb/>vaßnacht hüner vertragen und vereinbaren, er welle
+<lb/>oder möge dann des zum rechten gnug inn <date dur="P6W">drig viertzechen
+<lb/>tagen</date> bewysen unnd darbringen, das er des gefrigt und 
+<lb/>ledig sige, sölle darnach aber beschechen, das recht und die 
+<lb/>billigkeit ervordert.</seg>
+<seg>Inn krafft diß brieffs mit unser
+<lb/>statt <placeName ref="loc000065">Zürich</placeName> ufgetrucktem secret insigel verwart,
+<origDate when="1553-05-13">sambß<lb break="no"/>tags den drytzechenden meigens nach der gepurt Christi
+<lb/>gezalt fünffzechenhundert fünfftzig unnd drü jar</origDate>.</seg></p>
+<pb n="3" facs="StAZH_C_I__Nr__2491__S__3_.tif"/>
+</div>
+<pb n="4" facs="StAZH_C_I__Nr__2491__S__4_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Das <persName ref="per013924">Heini Hegnower genant Böni</persName>
+<lb/>ouch <date dur="R/P1Y">jerlich</date>
+<num value="1">ein</num> vaßnacht hun wie
+<lb/>ein annderer zu <placeName ref="loc008815">Hegnow</placeName> einem
+<lb/>vogt zͦ <placeName ref="loc000348">Gryffensee</placeName> zu gebenn
+<lb/>schuldig sin, <origDate when="1553">1553</origDate>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c">Ingrossiert.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Ein niederadliges Geschlecht von <orgName ref="org002514">Hegnau</orgName> lässt sich ab dem 13. Jahrhundert nachweisen
+(<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4345</bibl>, mit Anm. 1).
+Zumindest sporadisch lässt sich nachweisen, dass Mitglieder dieser Familie in <placeName ref="loc008815">Hegnau</placeName> Gericht hielten und Urkunden ausstellten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365813">StAZH C I, Nr. 771</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=392989">C II 19, Nr. 39</ref></bibl>),
+und noch kurz vor der Reformation forderten die Brüder <persName ref="per013925">Jakob</persName> und <persName ref="per013926">Kleinhans Hegnauer</persName>
+von örtlichen Bauern die Entrichtung der Vogtsteuer
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=696144">StAZH A 123.1, Nr. 84 b</ref></bibl>).
+Dies verhinderte indessen nicht, dass <persName ref="per013924">Heini Hegnauer</persName> 
+gemäss dem hier edierten Urteil selber entsprechende Abgaben entrichten musste.
+Während er selber offenbar seine adlige Herkunft geltend zu machen versuchte, vertrat die Obrigkeit die Ansicht,
+dass die Aufgabe des Stammsitzes mit dem Verlust der Adelsprivilegien einhergehe.
+Interessanterweise wurde ab der Mitte des 16. Jahrhunderts die Sage kolportiert,
+dass ein Herzog von <placeName ref="loc000589">Österreich</placeName> beim Ritt von <placeName ref="loc000108">Rapperswil</placeName>
+nach <placeName ref="loc000849">Winterthur</placeName> einst einem stattlichen Bauern bei der
+Feldarbeit begegnet und von seinem Gefolge darüber unterrichtet worden sei,
+dass es sich um den <orig>Freiherrn</orig> von <orgName ref="org002514">Hegnau</orgName> handle
+(<bibl><ref target="/startseite/literaturverzeichnis">Bluntschli 1742</ref>, S. 204</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Frei 1993</ref>, S. 19</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

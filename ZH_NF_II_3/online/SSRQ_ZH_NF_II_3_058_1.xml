@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_058_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3568599">StAZH A 95.1, Nr. 6.4</idno></msIdentifier><head>Beschwerdeartikel der Leute aus der Herrschaft Greifensee</head><msContents><summary>Die Amtsleute aus der Herrschaft Greifensee haben eine Gemeindeversammlung veranstaltet, wo die Antwort der Zürcher Obrigkeit auf die Beschwerden der Grafschaft Kyburg und des Amts Grüningen vorgelesen wurde. In 29 Artikeln halten sie fest, welche obrigkeitlichen Regelungen sie als unzumutbar oder rechtswidrig empfinden. Unter Berufung auf die Bibel verlangen sie gleiche Rechte sowie die Aufhebung von Abgaben und Frondiensten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Heft (6 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1525-05-07"/></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Actensammlung, Nr. 710</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000446">Abzug</term><term ref="key003285">Ämteranfragen</term><term ref="key000184">Bussen</term><term ref="key000479">Dienstpflicht</term><term ref="key000597">Erbrecht</term><term ref="key000183">Fall</term><term ref="key000536">Fischerei</term><term ref="key000983">Handel</term><term ref="key003389">Inhaftierung</term><term ref="key000351">Jagd</term><term ref="key000022">Lehen</term><term ref="key000084">Leibeigenschaft</term><term ref="key000047">Mühlen</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000193">Pfründen</term><term ref="key000157">Steuern</term><term ref="key000668">Unruhen</term><term ref="key000555">Wahlen</term><term ref="key005458">Werbung</term><term ref="key000049">Zehnten</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_95_1__Nr__6_4__S__01_.tif"/>
+<head><lb/>Artickel, so die in der herschafft <placeName ref="loc000348">Griffensee</placeName>
+<lb/>habent angebracht</head>
+<p><lb/>Strengen, frommen, vesten, fu̍rsichtigen, wisen
+<orgName ref="org002406">bu̍rger<lb break="no"/>meister und raͤtt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, getru̍we, <app><lem>gnedig</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app>
+<lb/>lieb herren. Unnser, der <app><lem>tru̍wen, lieben</lem><rdg wit="StAZH A 95.1, Nr. 6.5">u̍wern, getru̍wen</rdg></app> ampt lu̍t,
+<lb/>gehorsamy zuͦ <placeName ref="loc000348">Griffensee</placeName> syge u̍ch <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">nach</rdg></app> gott zuͦ aller zit
+<lb/>bereit <abbr>etc</abbr>. Alß dann unsere lieben nachpu̍ren,
+<lb/>landt und ampt lu̍t der graffschafft <placeName ref="loc000012">Kiburg</placeName>,
+<lb/>des ampts <placeName ref="loc000362">Gruͤnigen</placeName> und anderschwo har in
+<lb/>u̍weren gebieten, har <choice><sic>lanende</sic><corr>langende</corr></choice> an u̍ch von etwas
+<lb/>beschwaͤrden, mit hilff und rat u̍werr ab inen
+<lb/>zuͦ vermeinende zuͦ laden. Uff dz u̍wer
+ge<lb break="no"/>schrifftlich geben antwu̍rt und erloubung, so
+<lb/>vor unns, den ampt lu̍ten <del>eigenlich geh</del> zuͦ
+<lb/><placeName ref="loc000348">Griffensee</placeName>, eigenlich gehoͤrt, habent wir
+<lb/>ein erlich, erber gemeind gehept zuͦ
+<placeName ref="loc008569">Griffen<lb break="no"/>see</placeName> und <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">da</rdg></app> einmuͤtig unnser beschwaͤrden, so wir
+<lb/>vermeinend unbillich uff unns getragen
+<lb/>und erlitten haben, geartickelliert unnd
+<lb/>die gschrifftlich angenommen und entlich u̍ch
+<lb/>in willen fu̍r ze halten, wie her nach volgt.
+</p></div>
+<div n="1"><p><lb/>Deß ersten ist unnser, der amp<add place="above">t</add>lu̍ten, vermeinen,
+<lb/>by dem goͤttlichen wort deß helgen ewangelio
+<lb/>zuͦ bliben und bistan nach goͤttlicher gnad, so
+<lb/>verr unns mu̍glich ist, wie ir, unnser herren,
+<lb/>erfordert habent. Und also unnser will, ein
+<pb n="2" facs="StAZH_A_95_1__Nr__6_4__S__02_.tif"/>
+<lb/>ander bruͤderlich lieb zuͦ haben, und was
+<lb/>einer gern habe, dem anderen in gnaden
+<lb/>mit ze teilen, und was er nit gern hab,
+<lb/>die anderen deß zuͦ u̍ber haben. Und <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">des</rdg></app> sind
+<lb/>wir erbu̍ttig: Wo wir irtend in
+nach<lb break="no"/>volgenden articklen, <app><lem>dz wir unns woͤllint</lem><rdg wit="StAZH A 95.1, Nr. 6.5">woͤllent wir unns</rdg></app>
+<lb/>durch dz goͤtlich wort berichten lassen. Fundent
+<lb/>aber wir dardurch mer gnad und fryheit,
+<lb/><app><lem>unns hier vor zuͦ behalten</lem><rdg wit="StAZH A 95.1, Nr. 6.5">woͤllint wir unns hier vor zuͦ behalten</rdg></app>.
+</p></div>
+<div n="2"><p><lb/>Zuͦ dem anderen ist unnser, der amptlu̍ten,
+<lb/>vermeinen, durch dz goͤtlich wort bricht sin,
+<lb/>dz nieman keinen eignen hals heren haben
+<lb/>noch gedulden soͤl. Nammlichen soͤllint wir
+<lb/>christen alle kinder gottes genent werden und
+<lb/>also keinen heren weder vaßnacht huͤner,
+<lb/>tagwan, laͤß, faͤl noch gantz <app><lem>nit</lem><rdg wit="StAZH A 95.1, Nr. 6.5">nu̍ts</rdg></app> dar von
+<lb/>zuͦ geben schuldig sin, dann es ungoͤtlich
+<lb/>und nit bruͤderlich sy, wann wib oder man
+<lb/>sterb, mit vil kleiner kind hinder im
+ver<lb break="no"/>lassenn, dz die herren zuͦ farind, inen kleider,
+<lb/>kuͤ oder ross zuͦ nemmen und sy in armuͦt
+<lb/>zuͦ richten bru̍chint.<note>Die Abgabe von Fasnachtshühnern an den Vogt wird beispielsweise geregelt in
+den Offnungen von <placeName ref="loc007625">Nossikon</placeName> 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>)
+und <placeName ref="loc008651">Fällanden</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_035">SSRQ ZH NF II/3, Nr. 35</ref></bibl>).
+Bereits im Waldmannhandel 1489 war die Abgabe von Fasnachtshühnern bestätigt worden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_038">SSRQ ZH NF II/3, Nr. 38</ref></bibl>).
+</note>
+</p></div>
+<pb n="3" facs="StAZH_A_95_1__Nr__6_4__S__03_.tif"/>
+<div n="3"><p><lb/>Deß drytten ist unnser, der amptlu̍ten, vermeinen,
+<lb/>dz alle ru̍nenden wasser fryg soͤllint sin, <del>oder</del>
+<lb/>ouch der fogel im lufft, dz gwild im wald
+<lb/>und der fisch im wag, und also nieman keinen
+<lb/>zwing noch gwild bann haben, angesehen
+<lb/>bruͤderliche liebe, und das got, wie obgemelt,
+<lb/>zuͦ nutz der menschen, glich den armen,
+gwal<lb break="no"/>tigen und richen, geschaffen hat, und da
+<lb/><app><lem>niemant</lem><rdg wit="StAZH A 95.1, Nr. 6.5">niemas</rdg></app> uß gesunderet.
+</p></div>
+<div n="4"><p><lb/>Zum fierden ist unnßer, der amptlu̍tenn,
+<lb/>vermeinen, das es ouch goͤtlich, billich und
+<lb/>recht sy, dz jederman in unserem ampt der
+<lb/>lantschafft schinen, werben, feil haben, koüffen
+<lb/>und verkouffen soͤll und moͤg und sich also
+<lb/>mit eren erneren, wo und wie er moͤg, alß
+<lb/>mit tuͦch, stahel, yßen, saltz oder anderem, glich
+<lb/>wie vor in angedingten stetten beschaͤhen, ouch
+<lb/>angesehen, den armen nach <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">dem</rdg></app> goͤtlichem wort
+<lb/>hilff billich soll beschaͤhen.
+</p></div>
+<div n="5"><p><lb/><app><lem>Zum</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Des</rdg></app> fu̍nfften ist unnßer, der amptlu̍ten,
+vermei<lb break="no"/>nen, das doch das ungoͤtlich, unrecht und u̍bel
+<lb/>getan syg, das man in der statt und uff dem
+<lb/>land ein anderen so schwaͤrlich beladen mit
+<pb n="4" facs="StAZH_A_95_1__Nr__6_4__S__04_.tif"/>
+<lb/><app><lem>dem</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app> wuͦcher zinß alß kernen, win, haber unnd
+<lb/>Rinsch gold, in hoffnung, daß das selb zuͦ nutz
+<lb/>der armen abgestellt soͤll werden und einen
+<lb/>zimmlichen zinß, von <measure type="currency" unit="lb" quantity="1">einem pfund</measure> ein <measure type="currency" unit="ß" quantity="1">schilling</measure>,
+<lb/>ze nemenn, wie wol es ouch nit goͤtlich syg,
+<lb/>doch zuͦ nutz der armen angesehen zuͦ
+be<lb break="no"/>schehen zuͦ lassenn.
+</p></div>
+<div n="6"><p><lb/><app><lem>Deß</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Zum</rdg></app> sechßten ist unnßer, der amptlu̍tten,
+ver<lb break="no"/>meinen, dz nieman kein mannlehen guͤter
+<lb/>von keinem herren empfahen soͤll, unnd sy
+<lb/>also gwalt haben, ob dz nit in einer gesatzten
+<lb/>zit beschaͤch, im die zuͦ nemenn, alß aber
+vor<lb break="no"/>malen beschehen ist.
+</p></div>
+<div n="7"><p><lb/>Deß sibenden ist unnser, der amptlu̍ten,
+ver<lb break="no"/>meinen, das keiner, der vogtbare guͤter hab
+<lb/>und sich verendere mit verkouffen oder hinweg
+<lb/>zu̍hen, keinen dritten pfenning ze gebenn
+<lb/>schuldig syg nach geben soͤll.<note>Die Abgabe des Dritten Pfennigs wird beispielsweise geregelt in
+der Offnung von <placeName ref="loc007625">Nossikon</placeName> 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>).
+Beim Verkauf von <placeName ref="loc007625">Nossikon</placeName> an die Stadt im Jahr 1544 wurde diese Einkunft nochmals bestätigt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_065">SSRQ ZH NF II/3, Nr. 65</ref></bibl>).</note>
+</p></div>
+<div n="8"><p><lb/>Zum achtenden ist unnser, der amptlu̍ten,
+ver<lb break="no"/>meinen, dz alle kleine zehenden hinfu̍r
+<lb/>ab gan soͤllent und sy nit me ze geben schuldig
+<lb/>sygint nach gebenn woͤllint, dann win, korn
+<lb/>und haber, sy wurdint dann witer durch dz
+<lb/>wort gots bericht, dz si inn nit geben <app><lem>soͤtind</lem><rdg wit="StAZH A 95.1, Nr. 6.5">soͤltint</rdg></app>.<note>Bereits 1523
+hatten sich die Leute von <placeName ref="loc008651">Fällanden</placeName> und weiteren Gemeinden vor dem <orgName ref="org002406">Zürcher Rat</orgName> darüber beschwert,
+dass sie dem <orgName ref="org004352">Grossmünster</orgName> den Zehnten bezahlen mussten, und dessen Abschaffung gefordert
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=698114">StAZH A 123.1, Nr. 87</ref></bibl>).
+Der Rat schützte das Stift jedoch in seinen Rechten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4159666">StAZH B VI 249, fol. 44r</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 368</bibl>).
+Immerhin kam der Rat der <orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName> entgegen, indem er bestimmte,
+dass das <orgName ref="org004352">Grossmünster</orgName> die Hälfte der Zehnteinnahmen für die Entlöhnung des Priesters verwenden solle
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_057">SSRQ ZH NF II/3, Nr. 57</ref></bibl>).</note>
+</p></div>
+<pb n="5" facs="StAZH_A_95_1__Nr__6_4__S__05_.tif"/>
+<div n="9"><p><lb/>Deß nu̍ndten ist unnser, der amptlu̍tten,
+ver<lb break="no"/>meinen, dz nieman kein vogt kernen merr
+<lb/>ze fuͤren schuldig syg noch fuͤren, der es nit
+<lb/>zuͦ zinß geltenn soͤll, dann es ouch ein grosse
+<lb/>beschwaͤrd der armen syg unnd si ungoͤtlich
+<lb/>bedunke.<note>Die Abgabe von Vogtkernen wird geregelt im Herrschaftsurbar von 1416
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).</note>
+</p></div>
+<div n="10"><p><lb/>Zum <app><lem>x</lem><rdg wit="StAZH A 95.1, Nr. 6.5">zehenden</rdg></app> ist unnser, der amptlu̍ten,
+vermei<lb break="no"/>nen, dz wir und unnsere nach kommen in
+<lb/>unnser herren stat <placeName ref="loc000065">Zu̍rich</placeName> und in unserem
+<lb/>ampt <placeName ref="loc000348">Griffensee</placeName> verkouffint oder kouffint,
+<lb/>farint oder ritint, uß oder in, kein zoll me
+<lb/>ze geben schuldig sygind, nach keiner, so uß
+<lb/>der <placeName ref="loc000153">Eidgnoschafft</placeName> durch miner heren
+lant<lb break="no"/>schafft fart, dann es ouch ein beschwaͤrt der
+<lb/>armen syg.<note>Mehrere Gemeinden aus der Umgebung der Stadt <placeName ref="loc000065">Zürich</placeName> vertraten die Ansicht,
+von Zöllen und weiteren Abgaben befreit zu sein.
+Die Leute von <placeName ref="loc008648">Maur</placeName> beriefen sich sogar in ihrer Offnung auf diese Freiheit
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_063">SSRQ ZH NF II/3, Nr. 63</ref>, Art. 24</bibl>),
+die ihnen sowie den Bewohnern von <placeName ref="loc008884">Ebmatingen</placeName>, <placeName ref="loc008789">Binz</placeName> und <placeName ref="loc008704">Aesch</placeName> 1601 bestätigt wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_089">SSRQ ZH NF II/3, Nr. 89</ref></bibl>).
+Den Leuten von <placeName ref="loc008651">Fällanden</placeName> wurde das gleiche Recht indessen 1581 verweigert
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_087">SSRQ ZH NF II/3, Nr. 87</ref></bibl>).
+</note>
+</p></div>
+<div n="11"><p><lb/><app><lem>Zum xj</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Des einlyfften</rdg></app> ist unnser, der amptlu̍ten,
+vermei<lb break="no"/>nen, dz nieman zuͦ geben schuldig syg
+<lb/>faßnacht huͤner keinem herren, wie ob gemeldt,
+<lb/>ouch weder roubstu̍r noch holtz gelt, wie
+<lb/>aber vor beschaͤhen, denn si es nit zimmlich
+<lb/>bedu̍nck, die wil die roubstu̍r ein ungnad
+<lb/>und nit ein verschriben recht sy in den roͤdlen.<note>Die hier aufgeführten Abgaben an den Vogt erscheinen auch im Herrschaftsurbar von 1416
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>)
+sowie in den Offnungen von <placeName ref="loc008651">Fällanden</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_035">SSRQ ZH NF II/3, Nr. 35</ref></bibl>)
+und <placeName ref="loc008648">Maur</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_063">SSRQ ZH NF II/3, Nr. 63</ref></bibl>).
+Auch dort werden sie als <orig>ungnad und nit ein recht</orig> bezeichnet;
+die Leute zitierten somit wörtlich aus den genannten Rödeln.
+Die Verwendung des Begriffs Raubsteuer – ursprünglich auf Raub im Sinn von Bodenerträgen bezogen –,
+gab dieser Abgabe schon für Zeitgenossen einen Anstrich der Unrechtmässigkeit
+(<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id11.htm#!page/111339/mode/2up">Bd. 11, Sp. 1342-1344</ref></bibl>).
+Vom Holzgeld konnten sich die Gemeinden der Herrschaft <placeName ref="loc000348">Greifensee</placeName> 1604 loskaufen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_090">SSRQ ZH NF II/3, Nr. 90</ref></bibl>),
+die übrigen Steuern wurden noch bis zum Ende des Ancien Régime und teilweise darüber hinaus eingezogen,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schweizer 1883</ref>, S. 159-160</bibl>.</note>
+</p></div>
+<pb n="6" facs="StAZH_A_95_1__Nr__6_4__S__06_.tif"/>
+<div n="12"><p><lb/>Zum <app><lem>xij</lem><rdg wit="StAZH A 95.1, Nr. 6.5">zwoͤlfften</rdg></app> ist unnser, der amptlu̍ten, vermeinen:
+<lb/>Wo <num value="2">zwen</num> einen fraͤfen begangind, dz si buͦß
+<lb/>wirdig erkent moͤchtend werden, das man
+<lb/>denn zuͦ mal den fraͤfen innert den <num value="4">fier</num>
+<lb/>wenden moͤge verrichten und die herren
+<lb/>da nu̍t zuͦ erwarten nach ze straffen habint.
+</p></div>
+<div n="13"><p><lb/>Des dryzehenden ist unnser, der amptlu̍ten,
+<lb/>vermeinen: Wo ein grichts herr jemantz
+<lb/>fu̍r nëm umb buͦssen und dz nit moͤcht
+be<lb break="no"/>zu̍gen, dz er dem selben sin grichts schilling
+<lb/>und den kosten abtrag, ouch den richteren
+<lb/>den grichts schilling zuͦ geben schuldig syg,
+<lb/>wie die anderen, so dz recht bruchend.
+</p></div>
+<div n="14"><p><lb/>Zum <app><lem>xiiij</lem><rdg wit="StAZH A 95.1, Nr. 6.5">viertzehenden</rdg></app> ist unnser, der amptlu̍ten,
+ver<lb break="no"/>meinen: Wz an jarzit oder anderen gstifften
+<lb/>geben syg, das dar bracht moͤcht werden,
+<lb/><app><lem>soͤte</lem><rdg wit="StAZH A 95.1, Nr. 6.5">soͤlte</rdg></app> inen wider werden.
+</p></div>
+<div n="15"><p><lb/>Deß xv ist unnser, der amptlu̍ten, vermeinen,
+<lb/>dz sy kein zwing mu̍ly mer haben woͤllint,
+<lb/>dann sy es gantz ungoͤtlich bedu̍nck.<note>1435 war festgelegt worden,
+dass die Leute aus <placeName ref="loc008569">Greifensee</placeName> und Umgebung
+nirgends anders als in der Mühle <placeName ref="loc008569">Greifensee</placeName> verarbeiten lassen durften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_024">SSRQ ZH NF II/3, Nr. 24</ref></bibl>).
+1545 konnten sich die Gemeinden <placeName ref="loc008652">Schwerzenbach</placeName>, <placeName ref="loc008815">Hegnau</placeName>,
+<placeName ref="loc008816">Nänikon</placeName> und <placeName ref="loc008817">Werrikon</placeName> von dieser Pflicht loskaufen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1101326">ZGA Nänikon I A 4</ref></bibl>).</note>
+</p></div>
+<pb n="7" facs="StAZH_A_95_1__Nr__6_4__S__07_.tif"/>
+<div n="16"><p><lb/><app><lem>Zum</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Des</rdg></app> xvj ist ein ampt beschwaͤrt <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">mit dem</rdg></app>, dz sy
+<lb/>muͤssent die vogt garben geben, in hoffnung,
+<lb/>dz selbig ab zetuͦn.<note>Die Pflicht zur Abgabe der Vogtgarben wurde 1545 bestätigt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_067">SSRQ ZH NF II/3, Nr. 67</ref></bibl>).</note>
+</p></div>
+<div n="17"><p><lb/>Zum xvij ist unnser, <app><lem>der amptlu̍ten,</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app>
+ver<lb break="no"/>meinen, dz wir das vogt hoͤw hand muͤssen
+<lb/>gen, ouch nu̍mmen schuldig sin zuͦ geben, ouch
+<lb/>dz wir habent einem vogt <del>d</del> muͤssen die <placeName ref="loc008879">Graffen
+<lb/>Wiß</placeName>
+<app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">zemeyen</rdg></app>, in guͦter hoffnung, dz selbig nu̍mmen
+<lb/>schuldig zuͦ sin, dann es ouch ein groß
+beschwer<lb break="no"/>nus ist.<note>Die Pflicht zur Abgabe von Heu und von Tagesleistungen für das Mähen
+der <placeName ref="loc008879">Grafenwiese</placeName> wurde zusammen mit anderen Abgaben zuhanden des Vogts 1551 bestätigt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_069">SSRQ ZH NF II/3, Nr. 69</ref></bibl>).</note>
+</p></div>
+<div n="18"><p><lb/><app><lem>Deß</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Zum</rdg></app> xviij ist unnser <app><lem>amptlu̍ten</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app> vermeinen,
+<lb/>dz <app><lem>sy</lem><rdg wit="StAZH A 95.1, Nr. 6.5">wir</rdg></app> kein holtz me an die mu̍ly zuͦ <placeName ref="loc008569">Griffensee</placeName>
+<lb/>wellint geben, dann sy es ouch nit billich
+<lb/>bedunck.<note>1435 war festgelegt worden,
+dass die Leute aus <placeName ref="loc008569">Greifensee</placeName> und Umgebung
+der Mühle <placeName ref="loc008569">Greifensee</placeName> Holz für Ausbesserungsarbeiten und Wasserleitungen liefern mussten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_024">SSRQ ZH NF II/3, Nr. 24</ref></bibl>).
+Diese Pflicht war vom <orgName ref="org002406">Zürcher Rat</orgName> noch 1507 und 1528 erneut bestätigt worden
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3980068">StAZH B II 40, S. 16</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3980129">S. 20-21</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=660968">StAZH B III 65, fol. 78r-v</ref></bibl>).</note>
+</p></div>
+<div n="19"><p><lb/>Zum xviiij ist der amptlu̍t vermeinen,
+<lb/>das keiner gfaͤncklich soͤll angenomenn
+<lb/>werden noch getu̍rnet, der es zuͦ vertroͤsten
+<lb/>hab, die wil es nit das malefitzium antreͤff.
+</p></div>
+<div n="20"><p><lb/>Zum xx ist unnser, der amptlu̍ten, vermeinen,
+<lb/>dz wir einen pfarrer in <app><lem>irem kilchsperg</lem><rdg wit="StAZH A 95.1, Nr. 6.5">in yedem kilchspel</rdg></app> zuͦ
+<lb/>setzen und zuͦ entsetzen habent, wo er nu̍t dz
+<lb/>wort gotes verku̍ndet oder <app><lem>unbu̍rlichen</lem><rdg wit="StAZH A 95.1, Nr. 6.5">ungepu̍rlichen</rdg></app> handlen
+<lb/>ist.
+</p></div>
+<pb n="8" facs="StAZH_A_95_1__Nr__6_4__S__08_.tif"/>
+<div n="21"><p><lb/>Zum xxj ist unnser vermeinen, dz man cloͤster,
+<lb/>gots hu̍ser, kilchen und pfruͦnden an eim ort
+<lb/>soͤlle behalten und nit hin weg fuͤren, sunder
+<lb/>an den nutz der armen ze wenden gebruchen.
+</p></div>
+<div n="22"><p><lb/>Zum xxij ist unnser vermeinen, dz man
+<lb/>keinen nideren grichtz herren soͤll haben, ouch
+<lb/>denen nu̍tz ze tuͦn schuldig sin.
+</p></div>
+<div n="23"><p><lb/>Zum xxiij ist unnser, der amptlu̍ten,
+vermei<lb break="no"/>nen, dz in unnser herren statt niemant soͤlle
+<lb/>verbotten nach an den rat geschriben werden,
+<lb/>der gehorsam und pfand ze geben hat.
+</p></div>
+<div n="24"><p><lb/>Zum xxiiij ist unnser vermeinen, das
+<lb/>kein wib mer zuͦ buͦß geben soͤll den <measure type="currency" unit="h" quantity="18">xviij
+<lb/><abbr>hr</abbr></measure>, wie von alter har.
+</p></div>
+<div n="25"><p><lb/>Zum xxv ist unnser amptlu̍t begeͣr: Wenn
+<lb/>unnser herren unns einen vogt gebint, dz
+<lb/>er ußhin und inhin far ane unnßer kosten
+<lb/>und schaden.<note>Dieser Artikel richtet sich wohl gegen die 1484 festgehaltene Bestimmung,
+dass die Leute aus <placeName ref="loc008648">Maur</placeName> und <placeName ref="loc008651">Fällanden</placeName>
+den Vögten beim Einzug und Auszug im Schloss <placeName ref="loc008719">Greifensee</placeName> helfen mussten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_037">SSRQ ZH NF II/3, Nr. 37</ref></bibl>).</note>
+</p></div>
+<div n="26"><p><lb/>Zum xxvj ist unnser <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">der amptlu̍ten</rdg></app> vermeinen: Wenn
+<lb/>eim ein wib sterb, das denn ze mal nit ir
+<lb/>kind oder naͤchsten erben <del>j</del> zuͦ farind, von
+<pb n="9" facs="StAZH_A_95_1__Nr__6_4__S__09_.tif"/>
+<lb/>iren das guͦt ze erben, sonder soͤlle der man sin
+<lb/>leben lang das bruchen und niessen, on schaden
+<lb/>deß houpt guͦtz, es wer denn sach, dz er dess
+not<lb break="no"/>wendig wer, moͤcht er <measure type="currency" unit="ß" quantity="5">fu̍nf schilling</measure> in das
+<lb/>houpt guͦt all tag verzeren. Dargegen soͤlle
+<lb/>sy den drytten teil farender hab erben unnd
+<lb/>einen winckel in dem huß, die wil sy sich
+<lb/>nu̍t verendery, wie von alter har gewëßen.<note>Diese Bestimmungen finden sich
+tatsächlich im Erbrecht der Herrschaft <placeName ref="loc000348">Greifensee</placeName>,
+das allerdings erst im Jahr 1691 schriftlich festgehalten wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_102">SSRQ ZH NF II/3, Nr. 102</ref></bibl>).
+Zuvor hatten sich die Herrschaftsangehörigen darauf berufen,
+dass ihre Rechte die gleichen seien wie jene der Bürger von <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691334">StAZH A 123.1, Nr. 32</ref></bibl>).</note>
+</p></div>
+<div n="27"><p><lb/>Zum xxvij ist unnser <app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5">amptlu̍ten</rdg></app> vermeinen, daß man
+<lb/>froͤmbden win moͤge kouffen allenthalb und
+<lb/>den in das land fuͤren on zol und umb gelt,
+<lb/>einer trinck inn selbs oder schenck inn uß.<note>Neben Zöllen bot auch das Ungeld wiederholt Anlass zu Beschwerden;
+insbesondere die Leute aus <placeName ref="loc008651">Fällanden</placeName> waren der Meinung,
+dass die Äbtissin sie vor dem Ungeld schützen müsse
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=695841">StAZH B II 43, S. 39</ref></bibl>).</note>
+</p></div>
+<div n="28"><p><lb/><app><lem/><rdg wit="StAZH A 95.1, Nr. 6.5"><add type="sign" place="next page">Zuͦ dem xxviij ist unser, der amtlu̍tenn,
+ver<lb break="no"/>meinen, das unser herren uß ir statt ein fryge
+<lb/>statt machent, wie von alterhar gewesen, jederman
+<lb/>laßent in und uß ziechen, zuͦkouffen unnd verkouffenn.</add></rdg></app>
+Zum xxviij ist unnser vermeynen: So der
+<lb/>gmein man <del>v</del> schaden empfach von riff,
+<lb/>hagel und ungewitter, soͤll imm an dem zinß
+<lb/>nach gelassen werden nach zimmlichen
+<lb/>dingen, on beschwert.
+</p></div>
+<div n="29"><p><lb/><app><lem>Zum xxviiij ist der amptlu̍ten vermeinen</lem><rdg wit="StAZH A 95.1, Nr. 6.5">Zum letsten ist unser vermeinung</rdg></app>:
+<lb/>Sidt mal unnser herren pott, <app><lem>satzung unnd
+<lb/>ordnung</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app> ist, das man keim herren soͤlle zuͦ
+<lb/>zu̍hen zuͦ kriegen, das sy groß uff saͤhen habint,
+<lb/>das soͤlich uf weiblung nit geschaͤch, fu̍rnemmlich
+<pb n="10" facs="StAZH_A_95_1__Nr__6_4__S__10_.tif"/>
+<lb/>uß der statt, die unns die unnseren uff weiblint,
+<lb/>hinfuͤrint, umb lib, leben und buͦssen bringint.
+</p></div>
+<div><p><app><lem><lb/>Uff das, gnedig, lieb herren, bitend wir u̍wer gnad,
+<lb/>strengkeit und wißheit alß u̍were armen
+ge<lb break="no"/>horsamen nach got flißklich zum aller
+hoͤch<lb break="no"/>stenn, das ir unns nach gnaden ansaͤhenn
+<lb/>wellint, wie dann der allmechtig got unns
+<lb/>ouch gnedig ist, unnd unns also nach lassen
+<lb/>nach dem wort gots, so vil u̍weren unnd
+<lb/>ouch unseren selen zuͦ guͦtem reichen mag
+<lb/>und anderen aͤmpteren nach gelassen wirt,
+<lb/>stat unns als u̍weren gehorsamen nach
+<lb/>got tru̍lich umb u̍wer gnaden zuͦ verdienen.
+<lb/>Ouch vermanend wir u̍ch des, das wir
+<lb/>einer statt <placeName ref="loc000065">Zu̍rich</placeName> insonnder tru̍w unnd
+<lb/>gehorsame gethan habent, als wir, ob got
+<lb/>wil, nach fu̍r baß gern und billich thuͦn
+<lb/>soͤllent und wellent. Geben uff <origDate when="1525-05-07">sontag
+<lb/>naͤchst nach des heligen cru̍tz tags anno
+<abbr>etc</abbr> xxv</origDate>.</lem><rdg wit="StAZH A 95.1, Nr. 6.5"/></app>
+</p></div>
+<pb n="11" facs="StAZH_A_95_1__Nr__6_4__S__11_.tif"/>
+<pb n="12" facs="StAZH_A_95_1__Nr__6_4__S__12_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><origDate when="1525">152<subst><del>6</del><add place="overwritten">5</add></subst></origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Der landtleüthen aus der herrschafft <placeName ref="loc000348">Gryffensee</placeName> vermeinte
+<lb/>beschwehrds-puncten und ungebührliches begehren,
+<origDate when="1525-05-07">152<subst><del>6</del><add place="below" hand="other hand">5</add></subst>
+<add place="inline"><choice><abbr>sonnt</abbr><expan>sonntag</expan></choice>
+<choice><abbr>n</abbr><expan>nach</expan></choice>
+<choice><abbr>cruc</abbr><expan>crucis</expan></choice></add></origDate></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Im Zug der Reformation war es auf der <placeName ref="loc000066">Zürcher Landschaft</placeName> wie auch andernorts im süddeutschen Raum zu Unruhen gekommen.
+Im März 1525 publizierten Vertreter der Bauernschaft in der schwäbischen Stadt <placeName ref="loc006978">Memmingen</placeName>
+ein Pamphlet mit ihren Forderungen, den sogenannten Zwölf Artikeln.
+In der Herrschaft <placeName ref="loc000362">Grüningen</placeName> stürmten Bauern im April das Kloster <placeName ref="loc008350">Rüti</placeName>.
+Ein Ausschuss von 60 Personen hielt sodann die Beschwerden der Bauern in 27 Artikeln fest
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3568324">StAZH A 95.1, Nr. 6.2</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 702</bibl>).
+Wenige Tage später entstanden entsprechende Beschwerdeschriften auch in der Grafschaft <placeName ref="loc000012">Kyburg</placeName>
+sowie in den Herrschaften <placeName ref="loc009832">Eglisau</placeName>, <placeName ref="loc008749">Andelfingen</placeName>,
+<placeName ref="loc009831">Bülach</placeName>, <placeName ref="loc008730">Rümlang</placeName>, <placeName ref="loc009842">Neuamt</placeName>,
+<placeName ref="loc007729">Regensberg</placeName> und <placeName ref="loc000348">Greifensee</placeName>.
+Die Forderungen der Bauern aus den verschiedenen Herrschaftsgebieten sind inhaltlich ähnlich, jedoch abweichend strukturiert und formuliert.
+Stärker als in den anderen Beschwerdeschriften legitimierten die Leute aus <placeName ref="loc000348">Greifensee</placeName> ihre Artikel mit dem Gotteswort.
+Manche Punkte erinnern an die Zwölf Artikel von <placeName ref="loc006978">Memmingen</placeName>,
+etwa die Abschaffung von Leibeigenschaft und Fallabgaben sowie die freie Pfarrerwahl und der Zugriff auf Wild, Vögel und Fische.
+Andere waren stärker auf lokale Verhältnisse ausgerichtet, wie die Bestimmungen bezüglich Zwingmühle und Holzlieferungen.
+In vielen Punkten klingen die Auseinandersetzungen des Waldmannhandels wieder an,
+die damals von den <orgName ref="org000531">eidgenössischen Orten</orgName> geschlichtet worden waren
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_038">SSRQ ZH NF II/3, Nr. 38</ref></bibl>).
+Der <orgName ref="org002406">Zürcher Rat</orgName> sowie <persName ref="per003919">Huldrych Zwingli</persName> schlugen in der Folge zwar einen besänftigenden Ton an,
+lehnten die bäuerlichen Forderungen aber praktisch vollständig ab.
+Erst nach der Niederlage in der Schlacht bei <placeName ref="loc000451">Kappel</placeName> wurden 1532
+mit dem sogenannten Kappelerbrief die Rechte der Landschaft dauerhaft geregelt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_151">SSRQ ZH NF I/1/3, Nr. 151</ref></bibl>).
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2018a</ref>, S. 92-94</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kamber 2010</ref>, S. 391-395</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Dietrich 1985</ref>, S. 226-241</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/016525">Bauernkrieg (1525)</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

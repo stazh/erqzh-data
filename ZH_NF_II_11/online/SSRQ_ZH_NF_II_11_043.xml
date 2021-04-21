@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_043</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3540671">StAZH B II 26, S. 68</idno></msIdentifier><head>Entscheid von Bürgermeister und beiden Räten von Zürich betreffend die Entrichtung der Weinumsatzsteuer in Hottingen</head><msContents><summary>Nachdem Bürgermeister und beide Räte von Zürich verschiedene Zeugen angehört haben, entscheiden sie, dass die Leute von Hottingen bei Festmählern, Hochzeitsfeierlichkeiten und an der Fasnacht, wenn sie gesellig zusammensitzen, mit dem alten Mass ausschenken dürfen. Zudem sind sie bei diesen Gelegenheiten von der Weinumsatzsteuer (Ungeld) befreit.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="12.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1495-08-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003261">Kundschaft</term><term ref="key000468">Rechtsgewohnheit</term><term ref="key000157">Steuern</term><term ref="key000129">Wein</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="68"/>
+<head><lb/>Uff <origDate when="1495-08-08">sambstag vor <persName ref="per000268">Laurenty</persName></origDate>
+<choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<lb/>her <persName ref="per004700">Swennd</persName>, ritter, <orgName ref="org002406">burgermeister, <lb/>und beyd rǎtt</orgName></head>
+<p><lb/>Als die von <placeName ref="loc010476">Hottingen</placeName> uff vorußgangen <lb/>urteil von des unngellts wegen<note>Vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3540677">StAZH B II 26, S. 63,
+Eintrag 3</ref></bibl>.</note> ettlich <lb/>personen zuͦ zu̍gen fu̍r gestellt und <lb/>verhoͤren <choice>
+<sic>lǎß</sic>
+<corr>lǎßen</corr>
+</choice>, haben min herren dǎruff <lb/>erkennt, das die selben von
+<placeName ref="loc010476">Hottingen</placeName>
+<lb/>irs fu̍rbringens so vil geniessen, das <lb/>sy von <placeName ref="loc010476">Hottingen</placeName> ungevǎrlich uff schencki<lb break="no"/>nen<!-- ahh: Kann Weinausschank, aber auch (wie wohl hier eher gemeint) ein Festmahl sein: Grimm: http://woerterbuchnetz.de/DWB/?sigle=DWB&mode=Vernetzung&lemid=GS06828#XGS06828 (Bedeutung 2 und 3); Schänki: https://www.idiotikon.ch/Register/faksimile.php?band=8&spalte=956&hl=180546 -->,
+hochziten
+und zuͦ <date type="floating holiday">vaßnacht</date>, ob <lb/>sy ein gesellschafft miteinanndern haben<note>In diesen
+geselligen Zusammenkünften der Hottinger sieht <bibl><ref target="/startseite/literaturverzeichnis">Brändli
+2000</ref>, S. 13-14</bibl>, einen ersten Hinweis auf Gemeindebildung.</note>, <lb/>das allt meß schenncken
+mogen und <lb/>nit schuldig sin soͤllen, das win ungelt <lb/>zuͦ den selben ziten dǎvon zuͦ geben. </p>
+</div>
+</body>
+<back>
+<div><p>Seit einem Beschluss vom <date when="1403-02-20">20. Februar 1403</date> mussten nicht nur die Stadtbewohner von Zürich, sondern auch die Bewohner
+in den Herrschaftsgebieten der Stadt oder in den Händen von <placeName ref="loc000065">Zürcher</placeName> Bürgern die
+Weinumsatzsteuer (Ungeld) bezahlen. Gleichzeitig sollte das in der Stadt <placeName ref="loc000065">Zürich</placeName> verwendete
+Weinmass auch auf dem Land eingeführt werden (<bibl>StAZH B II 2, fol. 107r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 353-354,
+Nr. 189</bibl>). Obwohl die Leute von <placeName ref="loc010476">Hottingen</placeName> am <date when="1495-07-21">21. Juli
+1495</date> als Bewohner des Gebiets innerhalb der Stadtkreuze und gemäss dem Steuerrodel die Pflicht zur Bezahlung
+der Weinumsatzsteuer nicht
+abstreiten, verweigern sie diese mit der Begründung, die
+Weinumsatzsteuer noch nie
+bezahlt zu haben, was die aufgebotenen Zeugen offenbar bestätigen können (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3540677">StAZH B II 26, S. 63, Eintrag
+3</ref></bibl>).</p>
+<p>Zum Konflikt war es wohl  gekommen, weil <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> kurze Zeit vorher, am <date when="1495-07-18">18. Juli</date>, angewiesen hatten, die Weinmasse in der Stadt und auf dem Herrschaftsgebiet zu eichen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244282">StAZH B II 26, S. 62</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1566 f</bibl>).</p></div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

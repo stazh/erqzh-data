@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_159</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1920055">StAZH B III 6, fol. 206v-207r</idno></msIdentifier><head>Eid des Obmanns der aufgehobenen Klöster und Stifte in Stadt und Landschaft Zürich</head><msContents><summary>Der Obmann der Klosterämter soll Bürgermeister sowie Kleinem und Grossem Rat der Stadt Zürich Treue schwören, sie nach seinem Vermögen vor Schaden schützen und alle der Stadt zustehenden Einkünfte, namentlich aus Nutzungsrechten (Leibgedingen) und Pfründen, deren Inhaber verstorben sind sowie aus den unter Patronatsrecht stehenden Pfründen, von den Schaffnern, Amtleuten und übrigen Verwaltern der Klöster und Stifte einnehmen. Dies gilt auch für Überschüsse der Klöster, die durch den jeweiligen Amtmann einzuziehen und dem Obmann zu übergeben sind (1). Der Obmann hat die Aufsicht über die Geschäfte der Pfleger und Amtleute der Klöster auszuüben und, sofern sie unnötige Ausgaben tätigen, ihnen dies zu verbieten. Bei Missachtung seiner Weisungen soll er dies den Rechenherren anzeigen (2). Der Obmann ist bevollmächtigt, die Urbare, Verzeichnisse und Rechnungsbücher der Klöster zu konsultieren, um die Tätigkeit der Amtleute zu überprüfen (3). Der Obmann soll Nutzen und Ehre der Stadt Zürich fördern und in wichtigen Angelegenheiten bei Bedarf an die Rechenherren gelangen (4).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1533-07-30">Datierung aufgrund von StAZH B III 6 (fol. 207 r-v)</origDate></origin></history><additional><listBibl><head>Teiledition</head><bibl>Sigg 1971, S. 126-127</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term><term ref="key004009">Kirchengut</term><term ref="key000010">Kloster</term><term ref="key000818">Leibgeding</term><term ref="key000193">Pfründe</term><term ref="key000574">Rechnungswesen</term><term ref="key000658">Reformation</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="206v"/>
+<head>Deß obmans eyde</head>
+<p><seg n="1"><lb/>Es soll der gemeyn obmann unnd innemmer schweeren, unnsern herren 
+<lb/><orgName ref="org002406">burgermeyster, cleyn unnd grossenn raͤthenn der statt <placeName ref="loc000065">Züͤrich</placeName></orgName> truͤw
+<lb/>unnd waarheyt ze leysten, sy vor schadenn zuͦ verhuͤten, soferr er 
+<lb/>kan oder mag, <hi rend="underline" hand="later hand">aller</hi> der gestifftenn pfruͦnden unnd closter gu̍tere, <add place="left margin" hand="later hand" type="sign">so inn seyn ambt ge<lb break="no"/>hoͤrend,</add>
+<lb/><hi rend="underline" hand="later hand">so ye zuͦ zytenn gefallen unnd ledig werdent, als lybdinger unnd
+<lb/>pfru̍nnder, so abgant, deßglych die pfruͦnden, so <foreign xml:lang="la">ius patronatus</foreign> sind</hi>,
+<lb/>von den schaffnern, amptluͤten unnd <add place="left margin" hand="later hand" type="sign">annderenn</add>
+<hi rend="underline" hand="later hand">verwaltern derselben</hi> inzuͦ<lb break="no"/>nemmen
+unnd fürnemmlich ouch alle fürstennde closter
+<lb/>guͤter, was eyn amptman ye mag embaͤren, zuͦhannden zenemmen,
+<lb/>mit der bescheydennheyt, das eyn amptmann sollichen fürschutz 
+<lb/>inzuͦziechenn unnd dem obmann zuͦ uͤberanndtwurten schuldig 
+<lb/>sin.</seg>
+<seg n="2">Er soll unnd mag ouch zun zyten, so es in von noͤdten zesind
+<lb/>beduͤchte, zuͦ den <hi rend="underline" hand="later hand">pflegern unnd</hi> amptluͤtenn keeren, mit ernst uff
+<lb/>die hußhaltungen <add place="left margin" hand="later hand" type="sign">und amptsverwalt<lb break="no"/>ungen</add>, ob die recht unnd ordenlich volnstregkt werdint,
+<lb/>luͦgen unnd uffsechen. Und soferr eynner ald meer nit gepür<lb break="no"/>lich
+unnd wol hußhieltind unnd eyn uncostenn, so billich erspart,
+<lb/>uffschribint, den unnd dieselbenn alßdann guͤtlich eynost 
+<lb/>annderst zewarnnen, irs fuͤrnemmens abzestand. Und 
+<lb/>wo es nit verfachenn welte ald in das fuͤr sich selbs nodtwen<lb break="no"/>dig
+anseche, sollichenn manngel unnd alles das jhenig, wie
+<lb/>es im begegnet, den verordneten <orgName ref="org004911">rechenherren</orgName> anzuͦzeygenn.</seg>
+<seg n="3"><lb/>Damit ouch er aller amptluͤten hußhaltenns 
+<lb/>thuͦn unnd lasses dest bessern bericht mog empfachen, soll 
+<lb/>er, wenn er will, sich inn den urbarn, roͤdlen, registern
+<lb/>unnd rechennbuͤchern eyns yeden closters mit thruͤwen
+<lb/>zum geflissnostenn umbsechenn, ime ouch eyn yeder ampt<lb break="no"/>mann,
+wenn es an in erfordert wirt, solliche ebemelte buͤcher
+<lb/>unnd gewarsame alle one eynich fuͤrwort ald widerred zuͦ<lb break="no"/>hannden stellen.</seg>
+<seg n="4">Und inn summa soll er nach allem 
+<lb/>sinem vermoͤgen gemeynner statt <placeName ref="loc000065">Zuͤrich</placeName> lob, nutz und eere
+<lb/>fuͤrdern unnd darinn sin aller bests unnd waͤgsts thuͦn und 
+<pb n="207r"/>
+<lb/>ob im etwas begegnete, so im zuͦ schwer sin woͤlte, sollichs den
+<lb/>geordneten <orgName ref="org004911">rechennherren</orgName> fuͤrbringen, fuͤrter darinne nach
+<lb/>nodturfft unnd gstaltsame der dingen wuͤssen zehandlen,
+ <lb/>alles getrüwlich unnd ungefaarlich.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Eid entstand anlässlich der Schaffung des <orgName ref="org004977">Obmannamts</orgName> für die aufgehobenen Klöster (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_158">SSRQ ZH NF I/1/3, Nr. 158</ref></bibl>).</p>
+<p>Der Eid zeichnet sich insbesondere dadurch aus, dass er detailliert auf die einzelnen Einkünfte eingeht, die der Obmann bei den Verwaltern der klösterlichen Güter einzutreiben verpflichtet war. Hervorgehoben werden dabei namentlich die Überschüsse aus der Klosterverwaltung: Diese wurden meist in Form von Getreide und Wein abgeliefert, worauf sie der Obmann zu versilbern hatte. Ein Teil gelangte auch als Naturallohn direkt an einen definierten Kreis städtischer Amtleute (<bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 60</bibl>).</p>
+<p>Eine wesentliche Aufgabe des Obmanns bestand in der Aufsicht über die Wirtschaftsführung der klösterlichen Amtleute und Schaffner. Für diese wurde im Zuge der Schaffung des <orgName ref="org004977">Obmannamts</orgName> ebenfalls ein einheitlicher Eid formuliert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_160">SSRQ ZH NF I/1/3, Nr. 160</ref></bibl>). Aus diesem ergibt sich auch die Datierung der vorliegenden Aufzeichnung.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

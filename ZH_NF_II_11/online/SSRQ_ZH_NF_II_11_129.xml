@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_129</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131023">StAZH A 99.5, Nr. 136</idno></msIdentifier><head>Weisung an die Rechenherren zur Prüfung des Begehrens der Gemeinde Unterstrass um Anpassung ihres Einzugsbriefs</head><msContents><summary>Der Rat der Stadt Zürich weist die durch Abgeordnete der Gemeinde Unterstrass vorgebrachte Bitte um Erhöhung des Einzugsgeldes und die Klärung respektive Bestätigung anderer Artikel des Einzugsbriefs zur Prüfung an die verordneten Rechenherren. Diese haben dem Rat einen Vorschlag zur Bestätigung zu unterbreiten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Stadtschreiber von Zürich</author><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1671-06-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004132">Einzug</term><term ref="key003918">Petition</term><term ref="key005400">Weisung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_99_5__Nr__136__r_.tif"/>
+<p>
+<lb/>Der <orgName ref="org007938">gmeind an der <placeName ref="loc010816">Underen Straaß</placeName></orgName>
+<lb/>durch ihre abgeordnete gethanes under<lb break="no"/>theniges pitten und begëhren umb <lb/>versterckung ihres ynzugs<note>Die beiden älteren Einzugsbriefe der <orgName ref="org007938">Gemeinde <placeName ref="loc010816">Unterstrass</placeName></orgName> datieren vom <date when="1593-06-02" calendar="Julian">2. Juni 1593</date> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=930825">StAZH W I 1, Nr. 2457</ref></bibl>) und vom <date when="1621-03-05" calendar="Julian">5. März 1621</date> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131021">StAZH A 99.5, Nr. 134</ref></bibl>). Unter dem jüngeren Datum sind auch Einzugsbriefe für die drei anderen Wachten der Obervogtei überliefert (Original nur für <placeName ref="loc010574">Oberstrass</placeName> erhalten); inhaltlich stimmen diese vier überein (<placeName ref="loc010574">Oberstrass</placeName>: <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24755">StArZH VI.OS.A.2.:6</ref></bibl>; <placeName ref="loc008707">Fluntern</placeName>: <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1130176">StAZH A 99.2, Nr. 121</ref></bibl>; <placeName ref="loc010476">Hottingen</placeName>: <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1130427">StAZH A 99.2, Nr. 286</ref></bibl>). Ob der Vorstoss zur Erneuerung des Einzugsbriefes damals von allen vier Wachten gemeinsam ausging, lässt sich nicht klären. Ein älterer Einzugsbrief für Unterstrass aus dem Jahre 1563, auf den die Gemeinde in ihrem Gesuch von 1593 um Anpassung des Einzugsgeldes verweist, ist dagegen nicht überliefert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131018">StAZH A 99.5, Nr. 131</ref></bibl>).</note> und be<lb break="no"/>stimmung, wann ein vatter mit söhnen, <lb/>verehlichet oder ledigs standts, zuͦ ihnen <lb/>zuge, was er für einen derselben <lb/>bezahlen, auch bestedtigung ihrer <lb/>harkommenen gwohnheit, daß in ihren <lb/>haltenden gemeinden ein huß hoff<lb break="no"/>statt nur ein stimm haben solle <abbr>etc</abbr>, ist <lb/>ledigklich für myn <abbr>gn h</abbr>, die ver<lb break="no"/>ordneten <orgName ref="org004911">rechen herren</orgName>, gewißen zur <lb/>berathschlagung, von dennen eß <lb/>widerumb für myn <abbr>gn h</abbr>, einen <lb/>ehrsammen <orgName ref="org004016">rath</orgName>, zur confirmation ge<lb break="no"/>bracht werden soll.<note>Sowohl der Ratschlag der Rechenherren (<bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_130">SSRQ ZH NF II/11, Nr. 130</ref></bibl>) als auch der Einzugsbrief (<bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_131">SSRQ ZH NF II/11, Nr. 131</ref></bibl>) sind überliefert.</note>
+</p>
+<p>
+<lb/>Actum montags, den <origDate when="1671-06-19" calendar="Julian">19<hi rend="sup">ten</hi> juny anno 1671</origDate>, 
+<lb/>coram <orgName ref="org004016">senatu</orgName>.<note>Ein knapper Eintrag gleichen Datums über die Weisung des Geschäftes an die Rechenherren befindet sich auch im Stadtschreibermanual (<bibl>StAZH B II 552, S. 128</bibl>).</note></p>
+<p><lb/>Stattschryber <choice>
+<abbr>ßt</abbr>
+<expan>scripsit</expan>
+</choice>.
+</p>
+<pb n="v" facs="StAZH_A_99_5__Nr__136__v_.tif
+"/>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

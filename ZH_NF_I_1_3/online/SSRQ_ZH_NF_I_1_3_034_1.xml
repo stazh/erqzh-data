@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_034_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3732310">StAZH A 43.1.2, Nr. 2, S. 35</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Besetzung des Stadtgerichts</head><msContents><summary>Da bisher am Stadtgericht Mangel an Fürsprechern geherrscht hat, wird das Folgende beschlossen: Künftig hat der jeweils amtierende Rat 8 Fürsprecher einzusetzen, wovon nicht mehr als zwei zum ersten Mal dieses Amt ausüben dürfen. Die Gewählten müssen über Verstand, Vernunft und Bescheidenheit verfügen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1489-05-25">Datierung aufgrund der Schreiberhand sowie des Inhalts</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="35" facs="StAZH_A_43_1_2__Nr__2__S__35_.tif"/>
+<head><lb/>Wie das <orgName ref="org005052">gericht</orgName> besetzt
+<lb/>werden sol</head>
+<p><lb/>Als bishar groser mangel und gebreͣst an den fu̍rspreͣchen des 
+<lb/><orgName ref="org005052">gerichtz</orgName> gewesen ist, etlicher fu̍rspreͣchen jugend, och ettlicher
+<lb/>fu̍rspreͣchen versummnu̍ss<note>Um das unerlaubte Fernbleiben von den Gerichtsverhandlungen einzuschränken, wurden verschiedentlich Bussenordnungen erlassen (vgl. etwa <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4260796">StAZH B III 53, fol. 22r</ref></bibl>).</note> halb, das sy zuͦ ziten nit als ver<lb break="no"/>samelt 
+gewesen sind, als aber die nottuͦrfft das erfordert,
+<lb/>harumb haben wir uns erkent, das der fu̍rspreͣchen <num value="8">acht</num>
+<lb/>sin soͤllen und under die selben u̍ber <num value="2">zwen</num> jung nit genommen
+<lb/>werden, sunder das der <orgName ref="org004016">raͧt</orgName>, so dann gewalt haͧt, lu̍t da hin
+<lb/>setzen und ordnen soͤlle, die witz, vernunfft und bescheidenheit 
+<lb/>haben und mit denen das <orgName ref="org005052">gericht</orgName> und biderblu̍t versorgt
+<lb/>syen. 
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung wurde im Anhang zum Vierten Geschworenen Brief des Jahres 1489 erstmals verschriftlicht und stammt von demselben Schreiber wie dieser. Ihre Entstehung dürfte deshalb ebenfalls ins Jahr 1489 fallen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 102</bibl>). Es existieren eine weitere Fassung aus dem selben Zeitraum sowie zwei spätere Abschriften in Satzungsbüchern des 16. Jahrhunderts, welche die Ordnung unverändert übernahmen. Im Satzungsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> findet sich zudem eine erweiterte Ordnung, welche genauere Angaben zu Wahl und Zuständigkeit der Fürsprecher enthält (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_068">SSRQ ZH NF I/1/3, Nr. 68</ref></bibl>).</p>
+<p>Seit dem Jahr 1419 war das <orgName ref="org005052">Stadtgericht</orgName> mit sechs durch den <orgName ref="org004016">Kleinen Rat </orgName> gewählten, nebenamtlich tätigen Fürsprechern besetzt gewesen. Die in der vorliegenden Ordnung festgesetzte Zahl von acht hatte bis ins Jahr 1667 Bestand (mit einer kurzlebigen Erhöhung auf zwölf während der Jahre 1556-1557). 1668 wurde die Erhöhung auf zehn Stellen beschlossen, von 1715 bis 1798 waren schliesslich jeweils zwölf Fürsprecher im Amt. Die Fürsprecher führten vor Gericht insofern eine Doppelfunktion aus, als sie neben der Tätigkeit als Richter auch als Anwälte der beteiligten Parteien auftreten konnten. Die Listen der gewählten Fürsprecher am Stadtgericht sind seit 1376 in den Rats- und Richtbüchern überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263254">StAZH B VI 190 - B VI 279 a</ref></bibl>), ab 1722 sind sie auch im jährlich publizierten Regimentskalender zu finden.</p>
+<p>Für den Eid der Fürsprecher vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_136">SSRQ ZH NF I/1/3, Nr. 136</ref></bibl>; zu Anzahl und Zuständigkeit der Fürsprecher am <orgName ref="org005052">Stadtgericht</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 29-31; 100-110</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

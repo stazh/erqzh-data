@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_120</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1548145">StAZH A 126, Nr. 117</idno></msIdentifier><head>Kundschaft betreffend den Gemeindebeschluss in Höngg, dem neuen Obervogt wegen ausstehender Soldzahlung nicht zu huldigen</head><msContents><summary>Die Nachgänger Scheuchzer und Werdmüller zum Kindli befragen alt Sihlherr Horner, Hans Jakob Manz, Wirt zum Affenwagen, Ludwig Kramer und Hans Frey, wo und von wem sie gehört hätten, dass die Gemeinde Höngg an einer Versammlung beschlossen habe, dem neu gewählten Obervogt Hans Konrad Grebel nicht zu huldigen, solange ihre ausstehenden Soldforderungen nicht beglichen seien. Manz, Kramer und Frey werden am darauffolgenden Mittwoch ein zweites Mal befragt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1657-08-22" to="1657-08-26">22. August 1657 (Bericht); 26. August (Ratsentscheid) Im Dokument steht irrtümlich 21. August und 24. August; Datierung aufgrund der Einträge in den Ratsmanualen korrigiert.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000215">Huldigung</term><term ref="key003261">Kundschaft</term><term ref="key000212">Löhne</term><term ref="key001001">Ungehorsam</term><term ref="key004098">Versammlung</term><term ref="key000036">Vogtei</term><term ref="key001101">Wehrdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_126__Nr__117__S__1_.tif"/>
+<head>
+<lb/><origDate when="1657-08-21" calendar="Julian">Sambstags,<note>Der 21. August 1657 war eigentlich ein Freitag, nicht ein Samstag.</note> den 21<hi rend="sup">ten</hi>
+<choice><abbr>augst</abbr><expan>august</expan></choice>, anno 1657</origDate>,
+<lb/><abbr>hr</abbr> rathsherr <persName ref="per025981">Schüchzer</persName> und
+<lb/><abbr>hr</abbr>
+<choice><abbr>zunfftmr</abbr><expan>zunfftmeister</expan></choice>
+<persName ref="per025574">Werdtmüller zum
+<lb/>Kindli</persName></head>
+<p>
+<lb/>Obstehende <choice><abbr>h</abbr><expan>herren</expan></choice> nachgengëre habend nach vollgende per<lb break="no"/>sohnen
+für sich bescheiden, von den sëlbigen zu vernämmen,
+<lb/>wo und von wem sy gehört, daß ein ehrsami gmeind
+<lb/>zu <placeName ref="loc009768">Höngg</placeName> ein gmeind gehalten und darinen erkändt,
+<lb/>daß sy dem nöüw erwelten <add place="left margin" type="sign">obervogt gen <placeName ref="loc009768">Höng</placeName></add>, <choice><abbr>jr</abbr><expan>junker</expan></choice>
+<choice><abbr>zunfftmr</abbr><expan>zunfftmeister</expan></choice> und <choice><abbr>landtv</abbr><expan>landtvogt</expan></choice>
+<lb/><persName ref="per025976">Grebel</persName>, bis so lang sy umb ihren kriegs costen zuͦ
+<lb/>friden gstelt seigind, nit huͦldigen wöllind. Und nach dem
+<lb/>sy inen ernstlich zu gesprochen, die warheit zu endteken,
+<lb/>habend sy <choice><sic>vollende</sic><corr>vollgende</corr></choice> andtwort von sich geben. Und
+<lb/>erstlich sagt:</p>
+<p><lb/>Alt sillherr <persName ref="per025751">Horrner</persName>, nach dem verschiner tagen die
+<lb/>wirt wëgen deß umb gëlts uf dem <placeName ref="loc008754">Rathuͦs</placeName> vor den
+<lb/><abbr>hn</abbr> umbgëlteren erschinen, habe sich syn sohn <persName ref="per026552">Heinrich</persName>,
+<lb/>näbet dem wirt zuͦm <placeName ref="loc012557">Affenwagen</placeName>, auch alda ynge<lb break="no"/>stelt,
+und under anderen gesprechen<!-- mng: ch sieht oft nur aus wie h. Ich habe ch gesetzt, wo es sinnvoller war. --> sage der wirt zuͦm
+<lb/><placeName ref="loc012557">Affenwagen</placeName> zuͦ gehörtes zügen sohn, die <orgName ref="org008788">Höngger</orgName>
+<lb/>habind ein gmeind gehalten und erkëndt, dem nöüwen
+<lb/>obervogt nit zehuͦldigen, biß sy umb ihren soldt be<lb break="no"/>zalt
+seigind, mit vermälden eintwäders habe er sölliches
+<lb/><abbr>h</abbr>
+<choice><abbr>zuͦnfftmr</abbr><expan>zuͦnfftmeister</expan></choice>
+<persName ref="per025980">Nötzli</persName> schon gesagt oder daß ers im er<lb break="no"/>offnen
+wolle, und alß der sohn heimkommen, habe er,
+<lb/>züg, ime solliches niemandem zesagen verboten.
+<lb/>Nach dem aber züg verschiner tagen vor dem korn
+<lb/>huͦs sich by dem huͦßmeister <persName ref="per025558"><unclear>Knöüwl</unclear></persName>, in by syn
+<lb/><abbr>h</abbr>
+<subst><del><choice><abbr>zuͦnfftmr</abbr><expan>zuͦnfftmeister</expan></choice></del><add place="left margin" type="sign" hand="hand18c">landtvogts</add></subst>
+<persName ref="per025982">Spöndlis</persName> befuͦnden, habe haubtman
+<lb/><persName ref="per025558"><unclear>Knöüwl</unclear></persName> gesagt, goldtschmidt <persName ref="per025984">Werder</persName> habe nit ein
+<lb/>guͦtes schryben von synem thochterman ußm <placeName ref="loc000777">Thuͦrgäw</placeName>
+<lb/>ëmpfangen, habe ine, <persName ref="per025984">Werder</persName>, auch vermanet, sëlbiges
+<lb/>by der oberkeit abzelegen, er aber habs nit thuͦn wöl<damage agent="clipping"><supplied resp="mng">len</supplied></damage>.
+<lb/>Unlang herrnach ersähe züg den gsellen wirt von
+<lb/><placeName ref="loc009768">Höngg</placeName>, dene er gefraget, ob sy ein gmeind verschin<damage agent="clipping"><supplied resp="mng">en</supplied></damage>
+<lb/>sontag gehalten habind <add place="left margin" type="sign">und ob es nüt <unclear>un<lb break="no"/>gradts</unclear> abgëben</add>. Darüber der gsellen wirt
+<lb/>geandtwortet, ja, sy habind uß befelch unser <abbr>g h</abbr>
+<lb/>die compagneien, und die, so noh nie gedient, ergentzt
+<lb/>und yngeschriben, mit vermälden, warumb züg inne
+<lb/>befrage, er aber hab widerumb gesagt nienenrum.</p>
+<pb n="2" facs="StAZH_A_126__Nr__117__S__2_.tif"/>
+<p><lb/><persName ref="per025979">Hanß Jacob Mantz</persName>, wirt zum <placeName ref="loc012557">Affenwagen</placeName>, berichtet,
+<lb/>eß habe ine <abbr>mr</abbr>
+<persName ref="per025977">Luͦdwig Kramer</persName>, der grämpler, vor
+<lb/>synem laden zuͦ sich berüefft und gefraget, ob ime syn
+<lb/>gfater, <abbr>mr</abbr>
+<persName ref="per025975">Hanß Frey</persName>, der pfister, nüt gesagt, die
+<lb/><orgName ref="org008788">Höngger</orgName> sollind ein gmeind gehalten und darinen
+<lb/>erkändt, daß sy nit huldigen <add place="left margin" type="sign">oder obedieren</add> wöllind, biß man sy
+<lb/>umb den kriegs costen betzalt habe. Und dises habe
+<lb/>ein schuͦmacher von <placeName ref="loc009768">Höngg</placeName> gedachtem <abbr>mr</abbr>
+<persName ref="per025975">Hanß
+<lb/>Freyen</persName> gesagt.</p>
+<p><lb/><abbr>Mr</abbr>
+<persName ref="per025977">Luͦdwig Kramer</persName> sagt, er habe nie nüt von
+<lb/>der gantzen gmeind geredt, sonder daß uß befelch
+<lb/>unserer <abbr>g h</abbr> ein gmeind zuͦsammen berüefft worden,
+<lb/><add place="left margin">damit</add> die, so noch nie gedienet, under haubtlüth ynge<lb break="no"/>schriben,
+und die, so ermanglind, anderwerts wider<lb break="no"/>umb
+ergentzt werdind. In währender gmeindhalt<lb break="no"/>ung
+aber solle geredt worden syn, sy wöllind gern
+<lb/>mit unseren <abbr>g h</abbr> züchen, ja wan man sy auch umb
+<lb/>den alten sold bezahle. Dises aber habe er von mehr
+<lb/>gehörtem synem nachpuren <abbr>mr</abbr>
+<persName ref="per025975">Hanß Freyen</persName>.</p>
+<p><lb/><abbr>Mr</abbr>
+<persName ref="per025975">Hanß Frey</persName>, der pfister, mäldet, eß habe der
+<lb/>schuͦmacher zu <placeName ref="loc009768">Höng</placeName> (gschlëchts halber seige er synes
+<lb/>vermeines ein <persName ref="per021918">Flachmüller</persName>, ob dem see abhin)
+<lb/>mit sampt syner frauͦwen erst spat uf den <time period="evening">abendt</time>
+<lb/>by ime ein stotzen mit wyn getrunkhen, <subst><del rend="underline">er habe</del><add place="left margin">welcher</add></subst>
+<lb/>synem bruͦder oder schwâger, so zuͦ ime zu dorff
+<lb/>kommen, daß gleit bis hie har gëben, die ursach aber,
+<lb/>daß er noh so spath in der statt seige, die wyl sy
+<lb/>uß befehlch unser <abbr>g h</abbr> ein gmeind gehalten, darinen
+<lb/>er umb <unclear>12</unclear> auch nach gsyn seige, in welicher man auch
+<lb/>die compagneien wideruͦmb ergëntzt, und die, so mann<lb break="no"/>bahr,
+aber noh nie gedienet, yngeschriben. Da seygind
+<lb/>zwahr etliche willig gsyn, etliche aber habind uf den
+<lb/>sold geschrouwen, mit vermälden, wan man inen
+<lb/>den sold gëbe, seigend sy wol zefriden, wo aber nit,
+<lb/>werde eß noh allerlëy murrens abgëben. Eß seye
+<pb n="3" facs="StAZH_A_126__Nr__117__S__3_.tif"/>
+<lb/>aber weder der huͦldigung, vill weniger deß nöüw
+<lb/>erwelten obervogts bim wenigisten nit gedacht worden.
+<lb/>Eß habe <choice><abbr>wachtmr</abbr><expan>wachtmeister</expan></choice>
+<persName ref="per025983">Suter</persName>, der tägenschmidt, unlangst auch
+<lb/>einen Höngger gefraget, ob eß etwas an der gmeind
+<lb/>der glychen geret worden seige mit dem sold, habe er
+<lb/>geandtwortet, ja, eß seige ettwas antzogen worden. Enden
+<lb/>damit all ihre ußsagen.</p>
+<head type="subtitle"><lb/><origDate when="1657-08-24" calendar="Julian">Mittwuchs, den 24 <choice><abbr>augst</abbr><expan>august</expan></choice></origDate><note>Der 24. August 1657 war nach dem julianischen Kalender ein Montag. Die Einträge in den Ratsmanualen zeigen, dass die entsprechenden Beschlüsse im Rat tatsächlich am Samstag, 22. August, und am Mittwoch, 26. August, gefasst wurden. Der Schreiber hat sich also an die Wochentage erinnert, aber sich in den dazugehörigen Daten geirrt.</note></head>
+<p><lb/>Habend yngangs ehrengemälte <choice><abbr>hr</abbr><expan>herren</expan></choice> zu eigendtlicher
+<lb/>erkundigung, wer daß jënige, daß man dem nöüw
+<lb/>erwelten <choice><abbr>jr</abbr><expan>junker</expan></choice> obervogt <persName ref="per025976">Grebel</persName> zu <placeName ref="loc009768">Höngg</placeName>, biß so lang sy um
+<lb/>ihren kriegs costen nit befridiget seigind, nit huldigen
+<lb/>wollind, uf die bahn gebracht und ersinet habe, vorgedachte
+<lb/>3 persohnen wideruͦmb für sich berüefft, und einen jetlichen
+<lb/>by synen buͦrgerlichen pflichten die warheit an zu zeigen
+<lb/>vermanet. Warüber dan vollgende andtwort erfolget:</p>
+<p><lb/><persName ref="per025979">Hanß Jacob Mantz</persName>, wirt zum <placeName ref="loc012557">Affenwagen</placeName>, sagt, daß er
+<lb/>von <abbr>mr</abbr>
+<persName ref="per025977">Luͦdwig Krammer</persName>, synem nachpuͦren, gehört, daß
+<lb/>die <orgName ref="org008788">Höngger</orgName> nit mehr obedieren oder gehorsamen wöllind,
+<lb/>berüeffe sich deßwägen uff <abbr>h</abbr>
+<choice><abbr>zunfftmr</abbr><expan>zunfftmeister</expan></choice>
+<persName ref="per025980">Nötzli</persName>, der solches
+<lb/>eben so wol von gedachtem <abbr>mr</abbr>
+<persName ref="per025977">Kramer</persName> gehört habe.
+<lb/>Aber daß etwas von dem <choice><abbr>jr</abbr><expan>junker</expan></choice> obervogt geredt worden, seye
+<lb/>ime gantz nit in wüßen. Er sëlbsten habe auͦch weder gëgen
+<lb/>dem jungen <placeName ref="loc012835">Ochsen</placeName> wirt noch jemand anderem von ehren<lb break="no"/>gedachtem
+<choice><abbr>jr</abbr><expan>junker</expan></choice> obervogt nie kein mäldung gethan, dan
+<lb/>ime <add place="left margin" type="sign">dazuͦmahl</add> nit bewußt, daß <choice><abbr>jr</abbr><expan>junker</expan></choice>
+<choice><abbr>stallhr</abbr><expan>stallherr</expan></choice>
+<persName ref="per025976">Grebel</persName> obervogt naher
+<lb/><placeName ref="loc009768">Höngg</placeName> worden seige.</p>
+<p><lb/><abbr>Mr</abbr>
+<persName ref="per025977">Luͦdwig Kramer</persName> mäldet, daß er niemahlen zu dem
+<lb/>wirt zuͦm <placeName ref="loc012557">Affenwagen</placeName> noh anderen von der <orgName ref="org008788">Hönggeren</orgName>
+<lb/>wëgen geredt, daß sy nit gehorsamen wollind, wüße auch
+<lb/>nit, waß daß wort obedieren bedüthe, berüeffe sich auch
+<lb/>glychsfahls uff ehren gedahten <abbr>h</abbr>
+<choice><abbr>zunfftmr</abbr><expan>zunfftmeister</expan></choice>
+<persName ref="per025980">Nötzli</persName>.</p>
+<p><lb/><abbr>Mr</abbr>
+<persName ref="per025975">Hanß Frey</persName> blybt allenklich by syner gethanen uß<lb break="no"/>sag.
+</p>
+</div>
+<pb n="4" facs="StAZH_A_126__Nr__117__S__4_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso"><lb/>Bericht,
+<lb/>ein ehrsammi gemeind <placeName ref="loc009768">Höngg</placeName>
+<lb/>beträffend
+<lb/><add hand="hand18c" place="inline">huldigung <choice><abbr>jr</abbr><expan>junker</expan></choice> obervogt <persName ref="per025976">Grebel</persName>.</add>
+<lb/>Hierüber ist erkhendt, die beide verordneten <choice><abbr>h</abbr><expan>herren</expan></choice>
+<lb/>sollend den 9 hierinn vermeldeten burgeren
+<lb/>die nothdurfft nachmalen fürhalten, iren
+<lb/>eigentlichen bericht vernemmen und ihnen zusprechen,
+<lb/>inn derglychen reden fürhin <unclear>gewahrsammer</unclear> ze
+<lb/>fahren.<note>Dieser hier wiedergegebene Ratsbeschluss findet sich im Ratsmanual des Baptistalrats des Unterschreibers von 1657 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4322905">StAZH B II 499, S. 54-55</ref></bibl>).</note>
+<lb/>Actum <origDate when="1657-08-26" calendar="Julian">mitwuchs, den 26sten <choice><abbr>aug</abbr><expan>august</expan></choice>
+<add place="above">1657</add></origDate>, <choice><abbr>prnt</abbr><expan>presentibus</expan></choice>
+<lb/>her <orgName ref="org002406"><persName ref="per002294">Rahn</persName>, <choice><abbr>statth</abbr><expan>statthalter</expan></choice>, und beid reth</orgName>.
+</ab>
+</div>
+<div>
+<ab place="verso" type="dorsal" hand="hand18c"><lb/>Ußagen etlicher burgeren alhier, woher sie wüßend, daß die <orgName ref="org008788">Höngger</orgName>
+<lb/>in einer gehaltenen gemeind erkennt, daß sie dem neüwen obervogt
+<lb/>nit huldigen wollind, bis man ihnen ihren außstehenden kriegssold
+<lb/>bezahlt, <date when="1657">1657</date>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Der Antritt einer Herrschaft war üblicherweise mit einer Huldigung verbunden, der Anerkennung der Herrschaft und Entgegennahme eines Treueeides durch die Untertanen. Auch den Obervögten wurde bei ihrem Amtsantritt gehuldigt. Die Verweigerung einer solchen 
+Huldigung konnte von den Untertanen zum Protest genutzt werden, um Ansprüchen oder Beschwerden Nachdruck zu verleihen oder auch um Partei zu ergreifen in den Konflikten verschiedener Herren um dieselben Herrschaftsrechte.</p>
+<p>Im vorliegenden Fall forderte die Gemeinde <orgName ref="org007827">Höngg</orgName> die Auszahlung von Sold aus dem Ersten Villmergerkrieg, den <placeName ref="loc000065">Zürich</placeName> zusammen mit <placeName ref="loc000157">Bern</placeName> und <placeName ref="loc000701">Schaffhausen</placeName> im Jahr zuvor verloren 
+hatte und der die Stadt bereits eine enorme Summe Geld gekostet hatte. Eine Verweigerung der Huldigung hätte die Legitimität der Herrschaft in einem öffentlichen und symbolischen Akt in Frage gestellt. Der Rat liess daher die Angelegenheit untersuchen, sobald Gerüchte 
+aufkamen, dass eine Verweigerung geplant war (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322901">StAZH B II 498, S. 29</ref></bibl>). Die Ratsverordneten vernahmen diverse Zeugen, deren Aussagen im 
+vorliegenden Bericht rapportiert werden. Schliesslich scheint die Obrigkeit es dabei belassen zu haben, den neun identifizierbaren Bürgern von <placeName ref="loc009768">Höngg</placeName> nahezulegen, in Zukunft vorsichtiger zu sein mit solchen unguten Reden. 
+Gleichzeitig hielt der Rat jedoch fest, dass eine Besoldung der Miliz <orig>in solchen daß gemeine liebe vatterlandt betreffenden sachen</orig> nicht vorkomme und für die Stadtkasse auch gar nicht erschwinglich sei, auch wenn einige etwas anderes behaupteten 
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322905">StAZH B II 499, S. 54-55</ref></bibl>). Dass die Huldigung schliesslich wie geplant stattfand, zeigt die Abrechnung über die dabei entstandenen Kosten 
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322311">StAZH A 126, Nr. 119</ref></bibl>).
+</p><p>Zur Huldigung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Holenstein 1991</ref>, zur Huldigungverweigerung besonders S. 385-432</bibl>; zu den entstehenden Kosten bei einer Huldigung <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_102">SSRQ ZH NF II/11, Nr. 102</ref></bibl><!--A 154, Nr.&#160;31-->; 
+zum Ersten Villmergerkrieg <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D8910.php">Villmergerkrieg, Erster</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sigg 1996</ref>, S. 343-345</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

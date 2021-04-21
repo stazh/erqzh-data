@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil:
+Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+                <respStmt>
+                    <persName>Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-07-01"/>
+                <date type="print" when="2021-07-01"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_II_3_002</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4066373"
+                            >ERKGA Fällanden I A 1 (Insert)</idno>
+                    </msIdentifier>
+                    <head>Ablassbrief von fünf Bischöfen für die Kapelle Fällanden</head>
+                    <msContents>
+                        <summary>Die in Avignon versammelten Bischöfe Gregorius von Belluno-Feltre, Chrysogonus von Šibenik, Matthäus von Beirut, Venutus von Catanzaro und Stephanus von Brač erteilen allen, welche die Kapelle in Fällanden am Festtag ihres Patrons Johannes des Täufers (24. Juni), an den Herrenfesten zu Weihnachten, Ostern, Himmelfahrt, Pfingsten und Fronleichnam, an den Kreuzfesten, an allen Marienfesten sowie an den Festtagen der Evangelisten Peter und Paul (29. Juni) und allen weiteren Aposteln, des Erzengels Michael (29. September), der Heiligen Stefan (26. Dezember), Laurentius (10. August), Georg (23. April), Martin (11. November), Nikolaus (6. Dezember), Augustinus (28. August), Hieronymus (30. September), Maria Magdalena (22. Juli), Katharina (25. November), Margaretha (15. Juli), Agatha (5. Februar), Gertrud (17. März) und Barbara (4. Dezember), der elftausend Jungfrauen (21. Oktober) sowie zu Allerheiligen (1. November) und Allerseelen (2. November), an allen Sonntagen, im Advent oder während der Fastenzeit besuchen, dort dem Gottesdienst, Vigilien oder Bestattungen beiwohnen, den Sakramenten zu den Kranken folgen, beim Läuten der Abendglocke knieend dreimal das Ave Maria sprechen, auf dem Friedhof für die Seelen der dort Bestatteten beten oder mit Spenden zum Kirchenbau, zur Beleuchtung und zum Schmuck beitragen, einen Ablass von 40 Tagen auf ihre Sünden, wenn der zuständige Diözesanbischof zustimmt. Die Aussteller siegeln.</summary>
+                        <msItem>
+                            <textLang>Latein</textLang>
+                            <filiation type="original">
+                                <origDate when="1325-05-20"/><origPlace>Avignon</origPlace>
+                                <idno></idno>
+                            </filiation>
+                            <filiation type="current">Abschrift (Insert)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="27.0"/>
+                                        <width unit="cm" quantity="34.0"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="2.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1334-07-03"/></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl>UBZH, Bd. 10, Nr. 3978</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003372">Ablass</term>
+                    <term ref="key000015">Bischof</term>
+                    <term ref="key000841">Feiertage</term>
+                    <term ref="key000463">Weihe</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="ERKGA_Fällanden_I_A_1__r_.tif"/>
+                        <p>
+                            <gap source="SSRQ ZH NF II/3, Nr. 3"/>
+                        </p>
+                        <p>
+                            <seg><lb/>Universis sancte matris ecclesie filiis, ad quos presentes
+<lb/>littere pervenerint, nos miseracione divina <persName
+                                    ref="per013247">Gregorius</persName>
+                                <placeName ref="loc008766"
+                                        >Feltrensis et
+Beluensis</placeName><note><placeName
+                                        ref="loc008766">Belluno-Feltre</placeName> in <placeName
+                                        ref="loc008756"
+                                    >Venetien</placeName>.</note> episcopus, <persName
+                                    ref="per013243">Crisogonus</persName>
+                                <placeName ref="loc008767">Zibenicensis</placeName><note><placeName
+                                        ref="loc008767">Šibenik</placeName> in <placeName
+                                        ref="loc000226"
+                                    >Dalmatien</placeName>.</note> episcopus,
+<persName
+                                    ref="per013244">Mathias</persName>
+                                <placeName ref="loc008764"
+                                            >Bencensis</placeName><note>Gemeint ist
+vermutlich eher <orig><placeName
+                                            ref="loc008764"
+                                        >Beritensis</placeName></orig> für <placeName
+                                        ref="loc008764">Beirut</placeName> als <orig><placeName
+                                            ref="loc008765"
+                                        >Belicensis</placeName></orig> für
+<placeName
+                                        ref="loc008765">Belley</placeName> in <placeName
+                                        ref="loc005628"
+                                            >Burgund</placeName>, wie vermutet wird in
+<bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >UBZH</ref>, Bd. 10, Nr. 3978, Anm. 3</bibl>.<!-- rhr: Für Belley ist in dieser Zeit kein Bischof dieses Namens belegt; für Beirut hingegen 1325 Matthäus. --></note>
+episcopus, <persName
+                                    ref="per013248">Venutus</persName>
+                                <placeName ref="loc008772">Catacensis</placeName><note><placeName
+                                        ref="loc008772">Catanzaro</placeName> in <placeName
+                                        ref="loc008755">Kalabrien</placeName>.</note>
+                                <lb/>episcopus et <persName ref="per013249">Stephanus</persName>
+                                <placeName ref="loc008769"
+                                        >Braciensis</placeName><note>Vermutlich
+eher <placeName
+                                        ref="loc008769">Brač</placeName> in <placeName
+                                        ref="loc000226">Dalmatien</placeName> als <orig><placeName
+                                            ref="loc008770"
+                                        >Brechinensis</placeName></orig> für
+<placeName
+                                        ref="loc008770">Brechin</placeName> in <placeName
+                                        ref="loc008757"
+                                            >Schottland</placeName>, wie vermutet wird in
+<bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >UBZH</ref>, Bd. 10, Nr. 3978, Anm. 5</bibl>.<!-- rhr: Für Brechin ist in dieser Zeit kein Bischof dieses Namens belegt; für Brač hingegen 1323-1326 Stjepan I. --></note>
+episcopus salutem in domino sempiternam. Pia mater ecclesia de
+animarum salute solicita devocionem fidelium per quedam munera
+spiritualia, re<lb
+                                    break="no"
+                                    />missiones videlicet et indulgentias,
+invitare consuevit ad debitum famulatus honorem deo et sacris edibus
+inpendendum, ut quanto crebrius et devo<lb
+                                    break="no"/>cius illuc
+<choice>
+                                    <sic>confluis</sic>
+                                    <corr>confluit</corr>
+                                </choice>
+populus christianus assiduis salvatoris gratiam precibus inplorando,
+tanto delictorum suorum veniam et gloriam regni celestis consequi
+merea<lb
+                                    break="no"
+                                    />tur eternam. Cupientes igitur, ut capella
+beati <persName
+                                    ref="per000049">Johannis Baptiste</persName> in
+<placeName
+                                    ref="loc008651">Vellanden</placeName>, <orgName ref="org000056"
+                                        ><placeName ref="loc000923"
+                                    >Constanciensis</placeName> dyocesis</orgName>, congruis
+honoribus frequentetur et a christifidelibus iugiter veneretur,
+<lb/>omnibus vere penitentibus et confessis, qui ad eandem capellam
+in <date
+                                    type="deadline" when="--04-24"
+                                        >festo nativitatis et
+decollacionis beati <persName
+                                        ref="per000049"
+                                    >Johannis
+Baptiste</persName></date> et in aliis festivitatibus
+infrascriptis, videlicet <lb/><date
+                                    type="deadline_holiday" when="--12-25"
+                                        >nativitatis domini nostri <persName ref="per000353"
+                                        >Jesu Christi</persName></date>, <date
+                                    type="deadline_holiday" when="--01-01"
+                                    >circumcisionis</date>,
+<date type="deadline_holiday"
+                                    when="--01-06">epiphanye</date>,
+<date
+                                    type="deadline_floating holiday">parasceves</date>, <date
+                                    type="deadline_floating holiday"
+                                    >resurrectionis domini</date> et
+<date
+                                    type="deadline_floating holiday"
+                                    >ascensionis</date>
+eiusdem, <date
+                                    type="deadline_floating holiday">penthecostes</date>,
+<date
+                                    type="deadline_floating holiday">corporis <persName
+                                        ref="per000353">Christi</persName></date>, <date
+                                    type="deadline_holiday" when="--05-03">invencionis</date>
+                                <lb/>et <date type="deadline_holiday" when="--09-14"
+                                    >exaltacionis
+sancte crucis</date>, in omnibus et singulis festis beate
+<persName
+                                    ref="per000169">Marie</persName> virginis et beatorum
+<date
+                                    type="deadline" when="--06-29"><orgName ref="org001652"
+                                            ><persName ref="per000438">Petri</persName> et <persName
+                                            ref="per000351"
+                                    >Pauli</persName></orgName></date>
+apostolorum et <orgName
+                                    ref="org005009"
+                                    >omnium sanctorum apostolorum
+et evangelistarum</orgName>, <lb/>sancti <date
+                                    type="deadline" when="--09-29"><persName ref="per000390"
+                                        >Michaelis</persName></date> archangeli et beatorum <date
+                                    type="deadline" when="--12-26"><persName ref="per013249"
+                                        >Stephani</persName></date>, <date type="deadline"
+                                    when="--08-10"><persName ref="per000268"
+                                    >Laurencii</persName></date>, <date type="deadline"
+                                    when="--04-23"><persName ref="per000270"
+                                    >Georgii</persName></date> martirum et sanctorum <date
+                                    type="deadline" when="--11-11"><persName ref="per000141"
+                                        >Martini</persName></date>, <date type="deadline"
+                                    when="--12-06"><persName ref="per001536"
+                                    >Nicolai</persName></date>, <date type="deadline" when="--08-28"
+                                        ><persName ref="per012629"
+                                    >Augustini</persName></date> et
+<date type="deadline"
+                                    when="--09-30"><persName ref="per012713"
+                                    >Jeronimi</persName></date> confessorum, beatarum <date
+                                    type="deadline" when="--07-22"><persName ref="per000947">Ma<lb
+                                            break="no"/>rie Magdalene</persName></date>, <date
+                                    type="deadline" when="--11-25"><persName ref="per000793"
+                                        >Katherine</persName></date>, <date type="deadline"
+                                    when="--07-15"><persName ref="per000365"
+                                    >Margarete</persName></date>, <date type="deadline"
+                                    when="--02-05"><persName ref="per000324"
+                                    >Agathe</persName></date>, <date type="deadline" when="--03-17"
+                                        ><persName ref="per003674"
+                                    >Gerdrudis</persName></date>,
+<date type="deadline"
+                                    when="--12-04"><persName ref="per000970"
+                                    >Barbare</persName></date> et <date type="deadline"
+                                    when="--10-21"><orgName ref="org005010"
+                                        >undecim milium
+virginum</orgName></date>, in <date
+                                    type="deadline_holiday" when="--11-01"
+                                    >commemoracione omnium sanctorum</date> et <date
+                                    type="deadline_holiday" when="--11-02"
+                                        >animarum</date> et
+<lb/>in dedicacione predicte capelle<note>Die Kapelle war am <date
+                                        when="1317-09-20"
+                                        >20. September 1317</date> geweiht worden;
+die Kirchweihe wurde jeweils am <date
+                                        period="P1WD">Sonntag</date> nach <date type="deadline"
+                                        when="--06-24"
+                                            >Johannistag (24. Juni)</date> gefeiert, vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Leonhard
+2002</ref>, S. 61</bibl>.</note> et per octavas dictarum
+festivitatum octavas habentium singulisque diebus dominicis adventus
+domini et quadragesime causa <lb/>devocionis, oracionis aut
+peregrinacionis accesserint, seu missis, predicacionibus, matutinis,
+vesperis aut aliis quibuscumque divinis officiis, vigiliis aut
+<lb/>sepulturis mortuorum, ibidem interfuerint, aut corpus <persName
+                                    ref="per000353"
+                                    >Christi</persName> vel oleum sacrum, dum
+infirmis portentur, secuti fuerint, vel in serotina pulsatione
+flexis <lb/>genibus secundum modum <orgName
+                                    ref="org005019">curie
+<placeName ref="loc000076"
+                                        >Romane</placeName></orgName> ter
+Ave Maria dixerint, sive cimiterium eiusdem ecclesie pro animabus
+corporum inibi iacentium exorando circumierint, <lb/>necnon qui ad
+fabricam, luminaria, ornamenta aut quevis dicte capelle necessaria
+manus porrexerint adiutrices vel in eorum testamentis aut extra
+<lb/>aurum, argentum, vestimenta aut aliqua alia caritativa subsidia
+donaverint, legaverint eidem capelle aut donari vel legari
+procuraverint, quocienscumque, <lb/>quandocumque et ubicumque
+premissa vel aliquid premissorum devote fecerint, de omnipotentis
+dei misericordia et beatorum <orgName
+                                    ref="org001652"><persName ref="per000438"
+                                        >Petri</persName> et <persName ref="per000351"
+                                        >Pauli</persName></orgName>,
+apostolorum eius, auctoritate confisi, singuli <lb/>nostrum <date
+                                    dur="P40D"
+                                    >quadraginta dies</date> indulgentiarum de injunctis eis
+penitenciis misericorditer in domino relaxamus, dummodo dyocesani
+voluntas ad id acces<lb
+                                    break="no"/>serit et consensus.</seg>
+                            <seg>In cuius rei testimonium presentes litteras sigillorum nostrorum
+iussimus appensione muniri. Datum <origPlace
+                                    ref="loc010229">Avinnone</origPlace>, <origDate
+                                    when="1325-05-20">xx<hi rend="sup"
+                                        >a</hi>
+die mensis maii anno <lb/>domini m<hi rend="sup"
+                                        >o</hi> ccc<hi rend="sup"
+                                        >o</hi> vicesimo quinto
+et pontificis sanctissimi patris domini <persName
+                                        ref="per012256">Johannis</persName> pape xxij<hi rend="sup"
+                                        >di</hi> anno nono.</origDate></seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das Original dieses Ablassbriefes ist nicht erhalten, doch wird sein
+Wortlaut in der Bestätigung des Bischofs <persName
+                                ref="per007138">Nikolaus</persName> von <placeName ref="loc000923"
+                                >Konstanz</placeName>
+vollumfänglich wiedergegeben (<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_II_3_003"
+                                    >SSRQ ZH NF II/3, Nr. 3</ref></bibl>).
+Inhaltlich stimmt er fast wörtlich mit vielen
+anderen Sammelindulgenzen überein, die im 14. Jahrhundert in Avignon
+ausgestellt wurden, vgl. beispielsweise
+<bibl><ref
+                                    target="/startseite/literaturverzeichnis">ChSG</ref>, <ref
+                                    target="https://www.monasterium.net/mom/CSGVI/1333_V_20/charter"
+                                    >Bd. 6, Nr. 3513</ref>, <ref
+                                    target="https://www.monasterium.net/mom/CSGVI/1336_VIII_19/charter"
+                                    >Nr. 3627</ref>, <ref
+                                    target="https://www.monasterium.net/mom/CSGVII/1350_I_25/charter"
+                                    >Bd. 7, Nr. 4161</ref>, <ref
+                                    target="https://www.monasterium.net/mom/CSGVII/1350_III_25/charter"
+                                    >Nr. 4169</ref>, <ref
+                                    target="https://www.monasterium.net/mom/CSGVII/1361_IV_04/charter"
+                                    >Nr. 4733</ref> und <ref
+                                    target="https://www.monasterium.net/mom/CSGVIII/1362_XII_10/charter"
+                                    >Bd. 8, Nr. 4840</ref></bibl>. </p>
+                        <p>Die Kapelle in <placeName ref="loc008651"
+                                >Fällanden</placeName> war erst
+wenige Jahre zuvor geweiht worden, gemäss einem Eintrag im Jahrzeitbuch
+des <orgName
+                                ref="org004352">Grossmünsters</orgName> im Jahr 1317
+(<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >UBZH</ref>, Bd. 9, Nr. 3499</bibl>). Dass sie als eine der ersten
+auf der <placeName
+                                ref="loc000066"
+                                >Zürcher Landschaft</placeName> zu
+einem Ablass kam, dürfte sie dem Umstand zu verdanken haben, dass sie
+direkt vom Leutpriester des <orgName
+                                ref="org004352"
+                                    >Grossmünsters</orgName> betreut wurde, vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Leonhard 2002</ref>,
+S. 61-63</bibl>. </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

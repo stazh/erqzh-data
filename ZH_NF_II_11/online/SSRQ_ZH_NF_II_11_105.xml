@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_105</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3270376">StAZH B II 331, S. 2</idno></msIdentifier><head>Zusammenlegung der Obervogteien Schwamendingen und Rieden-Dietlikon-Dübendorf</head><msContents><summary>Bürgermeister Rahn und beide Räte von Zürich entscheiden, dass die beiden Obervogteien Schwamendingen und Rieden-Dietlikon-Dübendorf eine Obervogtei bilden sollen, um künftig Kosten, namentlich bei der Huldigung, zu sparen und der Obrigkeit mehr Busseneinnahmen zu sichern. An der nächsten der jährlich an Johannis stattfindenden Verleihung der inneren Vogteien soll nur ein Obervogt mit der Verwaltung dieser Orte betraut werden.  Der Zusammenschluss anerbietet sich, weil das Amt des Obervogts von Rieden und Dietlikon gerade unbesetzt ist. Zudem hat der Obervogt von Schwamendingen von denen von Dübendorf bereits vor der Zusammenlegung die Huldigung, die Kirchenrechnung und die halben Fasnachtshühner entgegengenommen, obwohl Dübendorf eigentlich der Gebotsgewalt des Obervogts von Rieden und Dietlikon unterstand.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="12.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1615-01-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003208">Amt</term><term ref="key000179">Eid</term><term ref="key000215">Huldigung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="2" type="original" facs="StAZH_B_II_331__S__2_.tif
+"/>
+<div>
+<head>
+<lb/><origDate calendar="Julian" when="1615-01-09">Mentags, den 9 ten januarii</origDate>, <choice>
+<abbr>prnt</abbr>
+<expan>presentibus</expan>
+</choice>
+<lb/>herr <orgName ref="org002406"><persName ref="per002294">Rahn</persName> unnd beide reth</orgName>
+</head>
+<div><p>
+<lb/>Diewyl die obervögt zuͦ <placeName ref="loc009859">Schwamen<lb break="no"/>dingen</placeName> bißhero von denen zuͦ <placeName ref="loc008722">Duͤben<lb break="no"/>dorff</placeName> nit <choice>
+<sic>nun</sic>
+<corr>nur</corr>
+</choice><!-- PS: würde ich korrigieren. --> den gwonlichen eid <lb/>und huldigung, sonnder auch die kilchen<lb break="no"/>rechnungen unnd die halben faß<lb break="no"/>nacht huͤner ingenommen unnd emp<lb break="no"/>fangen, da aber sy, die <placeName ref="loc009859">Schwamen<lb break="no"/>dinger</placeName> obervögt, daselbst zuͦ <placeName ref="loc008722">Duͤben<lb break="no"/>dorff</placeName> khein gebot noch verbot sonst <lb/>nit zethuͦnd, sonnders daßelbig <lb/>dorff bißhar mit gebot unnd ver<lb break="no"/>botten unnd annderen rechtsamminen <lb/>zuͦ der vogty <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc010407">Dietlicken</placeName>
+<lb/>an der <placeName ref="loc010439">Glatt</placeName> gehörig gsyn, unnd nun <lb/>aber durch verenderung der da<lb break="no"/>selbst zuͦ <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc010407">Dietlicken </placeName> geweß<lb break="no"/>nen obervögten dieselbig vogty led<lb break="no"/>ig worden, dergstalt, das jetzt <lb/>khein obervogt alda ist, unnd also <lb/>dißmaln gelegenheit, hier innen <lb/>enderung zethuͦnd, und die beide <lb/>vogtyen zuͦsammen zestoßen, damit <lb/>der zwyfache costen, so bißhar mit <lb/>dem eid innemmen unnd annderm <lb/>deßwegen ufgangen, erspart werd<lb break="no"/>en, unnd der oberkeit an den freff<lb break="no"/>len und buͦßen, wenn dieselben <lb/>durch die underthonen eben den <lb/>jhenigen obervögten, gegen den<lb break="no"/>en sy mit eidtspflicht verbunden, <lb/>geleidet werden muͤßent, desto <lb/>minder verschynen<!-- ahh: verloren gehen, verschwinden, vgl. Idiotikon, Bd. 8, Sp. 826, Bedeutung 2c: https://www.idiotikon.ch/Register/faksimile.php?band=8&spalte=824&hl=113013 --> möge.</p></div>
+<div><p>Ward <lb/>erkhent, das die beid vogtyen, <lb/>nammlich <placeName ref="loc009859">Schwamendingen</placeName> unnd <lb/>dann <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc010407">Dietlicken</placeName>, dar<lb break="no"/>under (wie gemeldet) <placeName ref="loc008722">Duͤbendorff</placeName>
+<lb/>auch begriffen, zuͦsammen gezogen <lb/>und fürhin nur ein vogty heißen <lb/>unnd syn, also das <date type="deadline" when="1615-06-24">uff khünfftigen <lb/><persName role="saint" ref="per000049">Johanni</persName></date> unnd dann fürohin, wenn <lb/>man <date dur="R/P1Y">jerlich</date> die inneren vogtyen <lb/>verlycht, allwegen an dißere <lb/>beide ort nur ein vogt genommen <lb/>und gesetzt, unnd als ein vogty <lb/>verwalten werden sölle. </p></div>
+</div>
+</body>
+<back>
+<div>
+<p>In der Obervogtei <placeName ref="loc009859">Schwamendingen</placeName> waren neben dem gleichnamigen Ort auch <placeName ref="loc010598">Oerlikon</placeName>, <placeName ref="loc010666">Seebach</placeName> und <placeName ref="loc012717">Oberhausen</placeName> sowie zeitweise <placeName ref="loc012173">Opfikon</placeName> vereint. Als Teil des Amtes <placeName ref="loc008727">Kloten</placeName> zur Grafschaft <placeName ref="loc000012">Kyburg</placeName> gehörend, gelangte das Gebiet <date when="1424">1424</date> zunächst als Pfand, <date when="1452">1452</date> gänzlich an die Stadt <placeName ref="loc000065">Zürich</placeName>. Im gleichen Zug fielen auch <placeName ref="loc010407">Dietlikon</placeName>, <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc008722">Dübendorf</placeName> vorerst ebenfalls nur hochgerichtlich <placeName ref="loc000065">Zürich</placeName> zu. Während für <placeName ref="loc009859">Schwamendingen</placeName> bereits <date when="1428">1428</date> ein Obervogt nachzuweisen ist, bildeten <placeName ref="loc010407">Dietlikon</placeName>, <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc008722">Dübendorf</placeName> erst seit <date when="1489">1489</date> eine Obervogtei, die dann aber bereits die niederen Gerichte einschloss (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D42.php">Dietlikon</ref>; <ref target="http://www.hls-dhs-dss.ch/textes/d/D3124.php">Rieden</ref></bibl>; <ref target="http://www.hls-dhs-dss.ch/textes/d/D7928.php">Schwamendingen (Vogtei)</ref>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 70-72, 85-86</bibl>). Die Niedergerichtsbarkeit der zur Obervogtei <placeName ref="loc009859">Schwamendingen</placeName> gehörigen Orte kam dagegen erst mit der Reformation in städtische Hand (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>).</p>
+<p>Hochgerichtlich verblieben  <placeName ref="loc010356">Rieden</placeName> und <placeName ref="loc010407">Dietlikon</placeName> auch nach dem Zusammenschluss der beiden Obervogteien beim Landvogt von <placeName ref="loc000012">Kyburg</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_135">SSRQ ZH NF II/11, Nr. 135</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>
+<?oxy_options track_changes="on"?>

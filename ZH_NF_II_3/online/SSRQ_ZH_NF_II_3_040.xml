@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_040</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1236054">StAZH B II 19, S. 20</idno></msIdentifier><head>Entscheid über die Zugehörigkeit von Eigenleuten der Herrschaft Greifensee in Wildberg und der Grafschaft Kyburg in Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich entscheiden, dass die Leute in Wildberg zur Grafschaft Kyburg gehören, auch wenn sie gleichzeitig Leibeigene des Hauses Greifensee sind. Wer hingegen innerhalb der niederen Gerichte der Herrschaft Greifensee sitzt, soll keine Abgaben an Kyburg liefern müssen. Davon ausgenommen sind diejenigen Leute, die dem Haus Kyburg gehören.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="11.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1491-02-02"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000305">Grenze</term><term ref="key000084">Leibeigenschaft</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="20"/>
+<head><lb/>Uff <origDate when="1491-02-02">mittwuchen vigilia purificationis <persName ref="per000169">Marie</persName></origDate>
+<lb/>praesentibus herr <persName ref="per013786">Braͤnwald</persName>, <orgName ref="org002406">burgermeister,
+<lb/>und beyd raͤtt</orgName></head>
+<p><lb/>Zwu̍schen den voͤgten zuͦ <placeName ref="loc000348">Gryffensee</placeName> und
+<lb/>zuͦ <placeName ref="loc000012">Kyburg</placeName> ist erkennt, diewyl die hochen
+<lb/>und nyderrnn gericht zuͦ <placeName ref="loc008734">Wylberg</placeName> an
+<lb/>das hus <placeName ref="loc009860">Kyburg</placeName> gehoͤren, das dann die,
+<lb/>so in den selben gerichten gesessen sind,
+<lb/>an das hus <placeName ref="loc009860">Kyburg</placeName> mit reysen,<del><unclear cert="high">stu̍r</unclear></del> bru̍chen,
+<lb/>vaßnachthuͤnern und anndern diensten
+<lb/>gehoͤren und daͧhin dienen soͤllen, unge<lb break="no"/>hindert des, ob joch deren ettlich mit der
+<lb/>libeigenschafft an das hus <placeName ref="loc008719">Gryffensee</placeName> ge<lb break="no"/>hoͤren, doch dem hus <placeName ref="loc008719">Gryffensee</placeName> an der
+<lb/>libstu̍r, so die selben eignen lu̍t soͤllen aͧn schaden.
+<lb/>Welich aber in der herrschafft <placeName ref="loc000348">Gryffensee</placeName>
+<lb/>nydern gerichten sytzen, die soͤllen nit
+<lb/>schuldig sin, bruch und huͤner gon <placeName ref="loc000012">Kyburg</placeName>
+<lb/>zuͦ geben, ußgenommen die, so an das hus
+<lb/><placeName ref="loc009860">Kyburg</placeName> gehoͤren, die soͤllen nitdesterminder
+<lb/>bruch und huͤner gon <placeName ref="loc000012">Kyburg</placeName> geben, unge<lb break="no"/>hindert, das sy in der herrschafft <placeName ref="loc000348">Gryffensee</placeName>
+<lb/>oder anndern nidern gerichten sitzen.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Regelung wurde getroffen, nachdem der <orgName ref="org002406">Zürcher Rat</orgName> am <date when="1491-01-22">22. Januar 1491</date> erfahren hatte,
+<orig>das die von <placeName ref="loc000348">Gryffensee</placeName> ein gemeind gehebt und geraͧtschlaget haben, das sy nit gestatten wellen,
+das die graͧffschafft <placeName ref="loc000012">Kyburg</placeName> in die herrschafft <placeName ref="loc000348">Gryffensee</placeName> lanngte, und wellen es ee selb unnderstan zuͦ weren</orig>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2649981">StAZH B II 19, S. 16</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

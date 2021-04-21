@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_023_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=433968">StAZH C I, Nr. 2561</idno></msIdentifier><head>Offnung von Nossikon</head><msContents><summary>Vor offenem Gericht erneuern und beschwören alle anwesenden Hausgenossen die Rechte der Dingstatt Nossikon. Geregelt werden unter anderem die Abhaltung der Gerichtstage im Mai und Herbst (1), die freie Herkunft des Richters, des Weibels und der sieben Beisitzer (3-5), die Entschädigung des Weibels (2), die Abgaben an den Vogt von Greifensee (6), den Weiterzug umstrittener Urteile nach Greifensee (7, 13), die Reihenfolge der Behandlung von Klagen (12), der Verkauf und die Fertigung von Gütern der Dingstatt (8, 15), der Abzug (9, 10), das Zugrecht (11) sowie die Besiegelung von Urkunden durch den Vogt (16). Speziell hervorgehoben wird, dass der Weibel bei den Gerichtstagen intakte Schuhe tragen soll, da die Hofjünger sonst nicht erscheinen müssen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Rodel (aus zwei Stücken zusammengenäht)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="116.0"/><width unit="cm" quantity="30.0"/></dimensions></extent><condition>Starke Beschädigung am oberen linken Rand (mit Textverlust)</condition></supportDesc></objectDesc></physDesc><history><origin><origDate when="1431-10-22"/></origin></history><additional><listBibl><head>Edition</head><bibl>Grimm, Weisthümer, Bd. 1, S. 24-27 (unvollständig und teilweise modernisiert, nach der Abschrift in StAZH B III 65)</bibl></listBibl><listBibl><head>Regest</head><bibl>URStAZH, Bd. 6, Nr. 7406</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key005072">Eigentum</term><term ref="key005387">Gebühren</term><term ref="key003037">Gerichtsverfahren</term><term ref="key000827">Geschworene</term><term ref="key000012">Offnung</term><term ref="key000103">Richter</term><term ref="key003021">Termin</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2561__r_.tif"/>
+<head><lb/><damage agent="hole"><gap unit="cm" quantity="7"/></damage>
+<placeName ref="loc007625">Nossicon</placeName> rechtungen, harkomen <damage agent="faded ink"><unclear>und gewonheit als hernach</unclear></damage>
+<lb/><damage agent="hole"><gap unit="cm" quantity="7"/></damage></head>
+<seg n="1"><p><lb/><damage agent="hole"><gap unit="cm" quantity="7"/></damage>
+<damage agent="faded ink"><unclear>ist</unclear></damage> oder waͤr <placeName ref="loc000348">Griffense</placeName> inn haͤt, <date dur="R/P1Y">jerlich</date>
+<num value="2">zwey</num> gericht haben sol <damage agent="faded ink"><unclear>in</unclear></damage>
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage>
+<damage agent="faded ink"><unclear>dingstat</unclear></damage> ze <placeName ref="loc007625">Nossicon</placeName>, eines ze <date type="deadline" when="--05">meyen</date> und das ander ze <date type="deadline" when="--09">herpst</date> und sol
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage> einen fryen richter. Waͤr aber, daz si den fryen richter also nit han
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage>
+<damage agent="faded ink"><unclear>der</unclear></damage> denn ze mal vogt ist daselbs ze <placeName ref="loc000348">Griffense</placeName> mit der husgenossen und
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage> andern richter setzen, der ze glicher wis und in dem rechten <damage agent="faded ink"><unclear>ze</unclear></damage>
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage>
+<damage agent="faded ink"><unclear>ein</unclear></damage> frye waͤr.<note>Als Richter lassen sich 1393 <persName ref="per013328">Konrad Branower</persName>
+und 1400 <persName ref="per013902">Ulrich Ammann</persName> nachweisen, welche dieses Amt als Ammänner der Grafen von <orgName ref="org000144">Toggenburg</orgName> wahrnahmen.
+Nach dem Übergang an die Stadt <placeName ref="loc000065">Zürich</placeName> übten die Weibel oder Untervögte von <placeName ref="loc000348">Greifensee</placeName> diese Funktion aus, mitunter auch der Landvogt selber
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 65, mit Anm. 6</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 425, Anm. 1</bibl>).</note> Und wenn ein vogt die gericht also haben wil, so
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage> gerichtz weibel die gericht verku̍nden vor dem tag, als er <damage agent="faded ink"><unclear>den</unclear></damage>
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage>
+<date dur="P14D"><damage agent="faded ink"><unclear>vier</unclear></damage>zehen tagen</date> und under <date dur="P3W">drig wochen</date>. Und sol och dez gerichtz w<damage agent="hole"><supplied resp="rhr">eib</supplied></damage>el
+<lb/><damage agent="hole"><gap unit="cm" quantity="5"/></damage> verku̍ndet, ein rechter frig sin, und sol allen den, die in die dingstat
+ge<lb break="no"/><damage agent="hole"><gap unit="cm" quantity="5"/></damage> dingstat guͤter <measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure> wit und breit inn hand, das gericht also
+ver<lb break="no"/><damage agent="hole"><gap unit="cm" quantity="5"/></damage>
+<damage agent="faded ink"><unclear>ze</unclear></damage> hof oder under ougen. Und sol ôch der jetzgenant weibel vor gericht
+<lb/><damage agent="hole"><gap unit="cm" quantity="2"/></damage>
+<damage agent="faded ink"><unclear>rechtungen</unclear></damage> offnen. Und sol ôch derselb weibel, so er das gericht verku̍ndt,
+<lb/><damage agent="hole"><gap unit="cm" quantity="2"/></damage> beschuͤcht sin, daz er ob den vaͤdern siner schuͦhen keinen blaͤtz haben sol.<note>Geflickte Schuhe galten gemäss Kläui als äusserliches Zeichen der Unfreiheit
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 65, mit Anm. 7</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 425, mit Anm. 2</bibl>).</note>
+<lb/><damage agent="hole"><supplied resp="rhr">Waͤr</supplied></damage>
+<damage agent="faded ink"><unclear>aber</unclear></damage>, das er dez u̍berseit wurde, das er nit also beschuͤcht waͤr gesin, so mugent
+<lb/><damage agent="hole"><supplied resp="rhr">die hof</supplied></damage>junger ze dem gericht komen oder nit, weders sy denn wellen.<note>Die gleiche Bestimmung findet sich auch in der Offnung von <placeName ref="loc010923">Stäfa</placeName> aus dem Jahr 1491
+(<bibl><ref target="/startseite/literaturverzeichnis">Grimm, Weisthümer</ref>, Bd. 1, S. 45</bibl>).
+Vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 65, mit Anm. 7</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 426, Anm. 1</bibl>.</note> Und waͤr, das einer
+<lb/><damage agent="hole"><gap unit="cm" quantity="2"/></damage>
+<damage agent="faded ink"><unclear>ze</unclear></damage> dem gericht also kaͤmint, darumb hand die ein herr oder vogt nit
+ze<lb break="no"/><damage agent="hole"><gap unit="cm" quantity="2"/></damage>. Ist aber, das der weibel das gericht mit soͤlichem zit, daz <add place="above">ist</add> ob <date dur="P14D">xiiij</date>
+<lb/><damage agent="hole"><supplied resp="rhr">tagen und</supplied></damage>
+<damage agent="faded ink"><unclear>under</unclear></damage>
+<date dur="P3W">drig wochen</date>, verku̍ndet und also beschuͤcht ist, waͤr der denn ist, der
+<lb/><damage agent="hole"><gap unit="cm" quantity="1"/></damage> guͤter <measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure> wit und breit inn hât und das gebott u̍bersicht und nit ze
+<lb/>dem gericht also kumpt, den oder die hât ein herrschaft oder vogt ze strâffenn <choice><sic>und</sic><corr>umb</corr></choice>
+<lb/><measure quantity="3" unit="ß" origin="ZH" type="currency">dry schilling phenning Zu̍richer werschaft</measure>, es waͤr denn, das einer redlich sach<damage agent="faded ink"><unclear>en</unclear></damage> erzellen
+<lb/>moͤcht, die in billich hie vor schirmen soͤlten nach der hofjunger erkantnu̍sse, denn soͤlt
+<lb/>einer aber ungestrâft beliben und soͤlt daz nit bessern, alles ân geverd und argenlist.</p>
+</seg>
+<seg n="2"><p><lb/>Item einem weibel, der das gericht gebu̍tet, der sol die <placeName ref="loc010824">Weibel Wisen</placeName> von soͤlicher dienst
+<lb/>wegen inn haben, nutzen, niessen.</p>
+</seg>
+<seg n="3"><p><lb/>Es sind och guͤter, die in die <choice><abbr>dikgen</abbr><expan>dikgenant</expan></choice> dingstat gehoͤrent, dieselben guͤter soͤllent setzen <num value="7">siben</num>
+<lb/>frig stuͦlsaͤssen ze der gerechten hand des richters. Dieselben fryen <choice><sic>stuͦssaͤssen</sic><corr>stuͦlsaͤssen</corr></choice> soͤllent och als
+<lb/>wis und als witzig sin, das si wol umb eigen und umb erb erteillen koͤnnent, jedermann
+<lb/>nach siner notdurft, als denn fu̍r sy brâcht wirt, nieman ze lieb noch ze leid.</p>
+</seg>
+<seg n="4"><p><lb/>Waͤr aber, das deheiner under inen einen stuͦlsaͤssen nit gehaben moͤcht und das redlich
+<lb/>fu̍r braͤcht und <unclear>uszugte</unclear> soͤlich sachen, die in billich schirmen soͤltent nach der richter und
+<lb/>husgenossen erkantnu̍sse, oder ein stuͦlsaͤss einem verheissen hett, und daru̍ber nit kam ze
+<lb/>dem gericht, dieselben soͤllent ungestrâft beliben, doch so ferr das der richter denn ze mal
+<lb/>einen stuͦlsaͤssen setzen sol uff dez guͦtz schaden, ân geverd.</p>
+</seg>
+<seg n="5"><p><lb/>Waͤr och, das under den stuͦlsaͤssen deheiner waͤr belu̍mdet oder noch belu̍mdet wurd oder suss in
+<lb/>zwivel waͤr, das er nit frig waͤr, so mag ein jeklicher hofjunger, dem das ze willen stât, einen soͤlichen
+<lb/>wol maͤlden und den heissen ufstân und vernichten so lang und als vil, bis das sich ein soͤlicher
+<lb/>besetzt, das er frig sige, als ôch vorziten ein besigelter brief herumb mit gericht und urtal
+<lb/>geben ist und den ein vogt ze der husgenossen handen inn hât.<note>Die Urkunde, die hier erwähnt wird, scheint nicht mehr zu existieren.</note> Und einer, der einen also heist
+<lb/>ufstan, sol hiemit nit gefraͤfelt hân. Und waͤr, das sich einer also, der ze gericht fu̍r einen
+<lb/>stuͦlsaͤssen gesaͤssen waͤr, fu̍r einen fryen nicht besetzen moͤcht, denselben mag ein herr oder vogt
+<lb/>darumb strâffen, und ist vervallen <measure quantity="18" unit="lb" type="currency">achtzehen phund phenning</measure> der <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice> werschaft an der herren
+<lb/>und vogtes gnad. Derselben summ geltz gehoͤrrent zwen teil den herren und der dritt teil
+<lb/>den hofjungern.</p>
+</seg>
+<seg n="6"><p><lb/>Die vorgeschriben husgenossen und hofjunger, die soͤllent ôch <date dur="R/P1Y">jerlich</date> einer herrschaft oder <add place="above">einem</add> vogt
+<lb/>ze <placeName ref="loc000348">Griffense</placeName> geben <measure type="volume" unit="Mütt" quantity="40" commodity="spelt">viertzig mu̍t kernen</measure>
+und <measure quantity="20" unit="lb" origin="ZH" type="currency">zwentzig phund phenning</measure> der <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> werschaft<note>Diese Angabe stimmt überein mit dem Urbar von 1416
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).
+Die Verkaufsurkunde von 1369 nennt stattdessen 41 Mütt Kernen sowie 18 Pfund, 4 Schilling und 9 Pfennig
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_004">SSRQ ZH NF II/3, Nr. 4</ref></bibl>).
+Vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 64, mit Anm. 4</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 429, mit Anm. 1</bibl>.</note>
+<lb/>und jekliche husroͤichi ein fasnacht huͦn,<note>Die Abgabe eines Fasnachtshuhns galt gemäss Kläui als Zeichen des freien Standes
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 67</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 428, mit Anm. 1</bibl>).</note> und soͤllent einer herrschaft hiemit von der selben
+<lb/>dingstatt wegen gedienot hân, und hat inen ôch ein herrschaft von der dingstat guͤter
+<lb/>wegen nit mer an ze muͦten. Und hierumb sol nu̍ ein herrschaft die hofjunger all und
+<lb/>jeklichen besunder schirmen, tekken und hanthaben vor allermenklichem, als ferr im
+<lb/>lib und guͦt gelangen mag, ân all geverd. Und sol ein herrschaft geben einem weibel
+<lb/><measure type="volume" unit="Viertel" quantity="6" origin="ZH" commodity="spelt">sechs fiertal kernen Zu̍richer maͤsses</measure> von den jetzgeschribnen zinsen.</p>
+</seg>
+<seg n="7"><p><lb/>Man sol ôch fu̍rbasser wissen, das in der vorgeschriben dingstatt nieman urtal spraͤchen
+<lb/>noch erteilen sol denn die <num value="7">siben</num> fryen stuͦlsaͤssen, und wz die erteilent und sich
+einhellen<lb break="no"/>klichen erkennent, ez sy umb eigen oder erb, von soͤlicher guͤter wegen, die in die dingstat
+<lb/>gehoͤrrent, dasselb sol also bestân, handvesti, kraft und macht haben, nu̍ und hernach.
+<lb/>Waͤr aber, das die urtaln under den stuͦlsaͤssen stoͤssig wurden, so sol ein richter ander fryen
+<lb/>uswendig dem stuͦl fragen, und die urteiln, die denn gesprochen werdent, soͤllent gân
+<lb/>und komen gen <placeName ref="loc008569">Griffense</placeName> in den <placeName ref="loc010763">Rosgarten</placeName>,<note>Der
+<placeName ref="loc010763">Rosengarten</placeName> befand sich an der äusseren Schlossmauer
+(<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH III</ref>, S. 494</bibl>);
+offenbar diente er auch als Gerichtsstätte. An anderer Stelle wird diese als <placeName ref="loc010725">Burghalde</placeName> bezeichnet
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=357234">StAZH H I 570, S. 121</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=357234">StAZH W I 1, Nr. 58</ref></bibl>).
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 426</bibl>, geht demgegenüber davon aus,
+dass die Formulierung zum Ausdruck bringen soll, <quote>dass der Entscheid ausschliesslich Sache des Herrn und nicht eines Gerichts war,
+aber öffentlich im Freien erfolgen musste</quote>.<!-- rhr: Dass diese Interpretation nicht zutrifft, zeigt schon die Nennung in Artikel 13, gemäss welcher die Appellation ebenfalls in den Rosgarten erfolgt. --></note>
+und die sol ein herr da entscheiden und
+<lb/>die gerecht geben urtal widerumb ze dem nechsten gericht an mi<damage agent="ink blot">tt</damage>el senden in die
+<lb/>dingstatt fu̍r die stuͦlsaͤssen. Und sol denn aber darnach beschehen, was recht ist.</p>
+</seg>
+<pb n="v" facs="StAZH_C_I__Nr__2561__v_.tif"/>
+<seg n="8"><p><lb/>Ist ôch, das ein husgenoss der guͤter, so in die dingstat gehoͤrent, minder oder mer verkouffen woͤlt,
+<lb/>des ôch ein jeklicher wol macht hât. Derselb, so denn verkôffen wil, der sol die guͤter von erst
+<lb/>veil bieten dem nechsten geteilid. Wil aber der nit kôffen, so sol <add place="above">er</add> die bieten den husgenossen.
+<lb/>Woͤlten denn dero ôch deheiner kôffen, denn sol man die veilbieten einem herren ze <placeName ref="loc000348">Griffense</placeName>.
+<lb/>Und dero jeklichem sol er die guͤter <measure quantity="5" unit="ß" origin="ZH" type="currency">fu̍nf schilling phenning</measure> der <choice><abbr>obgeßen</abbr><expan>obgeschriben</expan></choice> werschaft neher geben,
+<lb/>denn einem froͤmden. Wil aber der <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> deheiner kôffen, so mag man die veilbieten in die
+wit<lb break="no"/>reiti und geben dem, der im aller meist git, von menklichem ungesumpt, und die guͤter, die also
+<lb/>verkouft werdent dem, der die guͤter kôft hât, <add place="above">sol noch mag</add> dannenhin nieman abzu̍hen noch entwerren.
+<lb/>Beschaͤch aber, dz einer die guͤter nit veil butte in vorgeschribner wise, so moͤcht je der nechst
+<lb/>einem froͤmden die guͤter abzu̍hen mit dem rechten und den kôff bezaln und <measure quantity="5" unit="ß" origin="ZH" type="currency">fu̍nf schilling
+<lb/>phenning</measure> minder geben, alz denn <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice> ist, denn der summ ist, als der ungenoss gekôft hât.</p>
+</seg>
+<seg n="9"><p><lb/>Waͤr nu der ist, der dieselben guͤter verkoft und hin git, derselb mag dasselb gelt essen,
+ver<lb break="no"/>trinken, verzerren durch sines libes notdurft, lust oder muͦtwillen, wie er wil, mit geding:
+<lb/>Ist, <choice><sic>das er dz er</sic><corr>das er</corr></choice> das gelt also verzert in den gerichten, so denn gen <placeName ref="loc000348">Griffense</placeName> oder in die
+ding<lb break="no"/>statt gehoͤrrent, in den hu̍sern, uff dem vaͤld oder hinder einem zun, der git keinen dritten
+<lb/>phenning. Wil er aber das gelt usser den gerichten oder der dingstat in andri gericht zu̍hen, so sol
+<lb/>er den dritten phenning hie lâssen einem herren, er hab joch die guͤter ze kouffen geben dem
+<lb/>nechsten geteilid, einem husgenossen, dem herren oder einem ungenossen, doch also ist das ein
+<lb/>genosser, der guͤter kôft, so sol ein herr dester gnediger sin an dem dritten phenning <abbr>etc</abbr>.</p>
+</seg>
+<seg n="10"><p><lb/>Ouch sol man wissen, was der u̍bersewschen guͤter ist, wo die gelegen oder wie si genempt sind,
+<lb/>waͤr die kôft oder verkôft, der git deheinen dritten phenning, er niess dz gelt in der gerichten oder
+<lb/>usswendig den gerichten.</p>
+</seg>
+<seg n="11"><p><lb/>Waͤr och der ist, der der guͤter kouft und die inn hât <date dur="P3Y">drig <date period="fall">lôbrisinen</date></date> vor einem landsaͤssen und
+<lb/><date dur="P9Y">nu̍n <date period="fall">lôbrisinen</date></date> vor einem, der nit in lands ist, unversprochen mit dem rechten, den sol dannenhin
+<lb/>ein gewer und gericht da by schirmen und tekken und dar an habent sin, nu̍ und hernach.</p>
+</seg>
+<seg n="12"><p><lb/>Wenn nu̍ soͤliche offnung, als <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice> stât, durch den weibel mit worten oder in geschrift
+geoff<lb break="no"/>net wirt, so sol ein richter das gericht bannen an <measure quantity="3" unit="ß" origin="ZH" type="currency">drig schilling phenning</measure>, das nieman den andern
+<lb/>sume mit sinen worten, er soͤll denn urtal spraͤchen oder wider spraͤchen. Und denn sol man den frowen
+<lb/>von erst richten, ob si gerichtz begerend und notdurftig <add place="above">sind</add>, darnach den gesten, ob deheiner da ist,
+<lb/>und darnach den husgenossen. Doch also begert ein gast gerichtz ze einem husgenossen, so
+<lb/>sol er das gericht von einem richter kôffen umb <measure quantity="5" unit="ß" origin="ZH" type="currency">fu̍nf schilling phenning</measure> und vertroͤsten, was im
+<lb/>gericht und urtal git, das er nu und hernach da by beliben well. Woͤlt aber der gast dz nit tuͦn,
+<lb/>so sol man im nit richten, und sol sich der gast nit klagen, dz man im nit richten woͤlt <abbr>etc</abbr>.</p>
+</seg>
+<seg n="13"><p><lb/>Ist och, das urteiln stoͤssig und gezogen werdent in den vorgeschriben <placeName ref="loc010763">Rosgarten</placeName>, als <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice>
+<lb/>ist, die urteiln soͤllent gevertiget werden durch der stuͦlsaͤssen <num value="3">drig</num> oder mer. Die selben mugent
+<lb/>die vertgen mit mund oder in geschrift, und den ist och ze gelôben. Und waͤr soͤlicher vertgung
+<lb/>bedarfe, der sol darumb den stuͦlsaͤssen lonen und miet<note><bibl><ref target="/startseite/literaturverzeichnis">Grimm, Weisthümer</ref>, Bd. 1, S. 26</bibl>,
+liest irrtümlich <quote><orig>nuet</orig></quote>.</note> geben, als denn bescheidenlich ist <abbr>etc</abbr>.</p>
+</seg>
+<seg n="14"><p><lb/>Waͤr ôch, das der husgenossen einer oder mer einer schlechten vertgung bedoͤrft, welher denn je weibel
+<lb/>ist und dez gerichtz offnung tuͦt, der sol ein soͤliche schlechti offnung tuͦn, ist er ein frig, und ist man
+<lb/>im fu̍rbasser nicht phlichtig darumb ze geben. Bedarf aber einer sust eines fu̍rsprechen von
+<lb/>ander klag wegen, so sol man einem fu̍rsprechen als lieb darumb tuͦn. Doch ob einer unbescheiden
+<lb/>lon naͤmen woͤlt oder vorderte, das denn beidteil dem richter umb den lon getru̍wen sond ze
+ent<lb break="no"/>scheiden, ân geverd.</p>
+</seg>
+<seg n="15"><p><lb/>Alle die guͤter, die in die <choice><abbr>vorgen</abbr><expan>vorgenant</expan></choice> dingstatt gehoͤrrent, sol noch mag nieman vertgen vor
+de<lb break="no"/>heinen gerichten denn in der vorgeschriben dingstat. Beschaͤch es aber daru̍ber, so sol es weder
+<lb/>kraft noch macht haben, doch so mag einer dem andern wol vertgen in dem <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice>
+<placeName ref="loc010763">Rosgarten</placeName>
+<lb/>bis in die nechsten dingstat.</p>
+</seg>
+<seg n="16"><p><lb/>Was och gericht und urtal in der <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice> dingstat geben hât, waͤr da dez gerichtz brief begert,
+<lb/>dem sol man die geben, ob si im erteilt werdent, und sol ein herr oder vogt die besigeln, doch
+<lb/>also, das im <num value="2">zwen</num> stuͦlsaͤssen und der richter des briefes gichtig syen. Umb das insigel sol man
+<lb/>geben einem vogt das bescheidenlich, ân all geverd.</p>
+</seg>
+<seg><p><lb/>Dis <choice><abbr>vorgeßen</abbr><expan>vorgeschriben</expan></choice> rechtungen der <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+dingstatt sind ernu̍wrot und verhoͤrt in der <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+<lb/>dingstat vor offenem gericht in gegenwu̍rtikeit aller husgenossen, die do zegegen wârent, die
+<lb/>och alle <choice><abbr>vorgeßnen</abbr><expan>vorgeschribnen</expan></choice> recht, stuk und artikel seiten und der och gichtig wârent, und seitent
+<lb/>och by iren eiden, das si anders nit wistint. Und geschach an dem <origDate when="1431-10-22">nechsten mentag vor <orgName ref="org001531">sant
+<lb/><persName ref="per001498">Symons</persName> und sant <persName ref="per001499">Judas</persName></orgName> tag, der helgen zwelfbotten,
+anno domini m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> xxxj<hi rend="sup">o</hi></origDate>.</p>
+</seg>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Rodel war bereits um die Mitte des 16. Jahrhunderts so stark beschädigt,
+dass man den ersten Artikel kaum mehr lesen konnte und diesen daher bei der Übernahme in die
+Sammlung der Rechtsverhältnisse in den Vogteien um 1550 stillschweigend beiseite liess
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=660582">StAZH B III 65, fol. 104r</ref></bibl>).
+1560 liess Landvogt <persName ref="per013903">Konrad Kambli</persName> die Offnung im Auftrag
+der Hofgenossen durch den <orgName ref="org002406">Zürcher Rat</orgName> neu abschreiben,
+wobei man die fehlenden Stellen ergänzte und anschliessend von den Hausgenossen bestätigen liess.
+Diese frei ergänzte Fassung wurde schliesslich in das Zinsurbar von <placeName ref="loc000348">Greifensee</placeName> eingetragen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_079">SSRQ ZH NF II/3, Nr. 79</ref></bibl>).
+</p>
+<p>Aus der Offnung sowie weiteren Quellen geht hervor, dass in <placeName ref="loc007625">Nossikon</placeName> und Umgebung Bauern ansässig waren,
+die als frei galten und ihr eigenes Gericht abhielten, vor dem vor allem Gütertransaktionen vollzogen wurden
+(<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 40</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 64-68</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 423-438</bibl>).
+Die Abhaltung dieses Freigerichts ist vor allem für die Wende vom 14. zum 15. Jahrhundert belegt,
+zunächst unter dem Vorsitz eines Vertreters der Grafen von <orgName ref="org000144">Toggenburg</orgName>,
+später geleitet durch den jeweiligen Landvogt oder Untervogt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=357232">StAZH H I 570, S. 105</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=357235">S. 125</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393396">S. 225</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1093843">ERKGA Uster I A 1</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=366199">StAZH C II 19, Nr. 29</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=366203">Nr. 33</ref></bibl>).
+Ab dem späteren 15. Jahrhunderts scheint das Gericht jedoch nicht mehr regelmässig getagt zu haben,
+was den Vogt von <placeName ref="loc000012">Kyburg</placeName> im Jahr 1503 dazu bewog,
+von einem verstorbenen Hofjünger Fallabgaben zu verlangen.
+Der <orgName ref="org002406">Zürcher Rat</orgName> untersuchte darauf die Offnung und beschloss,
+dass das Gericht weiterhin so abgehalten werden solle, wie es die Offnung vorschreibt
+und dass die zugehörigen Freien weder der Grafschaft <placeName ref="loc000012">Kyburg</placeName>
+noch den Herrschaften <placeName ref="loc000348">Greifensee</placeName> oder <placeName ref="loc000362">Grüningen</placeName> abgabepflichtig seien
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4241379">StAZH B V 2, fol. 121v</ref></bibl>).
+1510 gelangten die Freien der Dingstatt <placeName ref="loc007625">Nossikon</placeName> erneut an den Rat,
+weil sie sich vom Vogt von <placeName ref="loc000348">Greifensee</placeName> in ihren Rechten bedrängt fühlten.
+Der Rat bestätigte erneut, dass die Offnung gültig bleiben solle
+und <persName ref="per013285">Bertschi Bachofner</persName> die <placeName ref="loc010824">Weibelwiese</placeName> nutzen dürfe,
+wenn er nach <placeName ref="loc007625">Nossikon</placeName> zieht, wie er es angeboten hat
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_051">SSRQ ZH NF II/3, Nr. 51</ref></bibl>).
+Fünf Jahre später bestimmte der Rat, dass <persName ref="per013285">Bachofner</persName> seine Einküfte für die Amtsausübung nur erhalte,
+wenn er das Gericht in <placeName ref="loc007625">Nossikon</placeName> mit sieben freien Stuhlsässen abhalte, wie es die Offnung vorschreibe.
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_054">SSRQ ZH NF II/3, Nr. 54</ref></bibl>).
+</p>
+<p>Die seit 1542 erhaltenen Jahresrechnungen der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+enthalten anfänglich noch Auslagen für die Abhaltung des Maiengerichts in <placeName ref="loc007625">Nossikon</placeName>,
+doch fehlt dieser Betrag ab 1554
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324252">StAZH F III 12</ref></bibl>).
+Offenbar wurde es aber trotzdem gelegentlich abgehalten,
+wie nicht zuletzt die oben erwähnte Neufassung der Offnung aus dem Jahr 1560 belegt.
+Im Jahr 1623 verlangte die Familie <orgName ref="org001143">Hager</orgName> aus <placeName ref="loc008816">Nänikon</placeName>,
+dass der Verkauf ihres Hauses vor dem Freigericht vollzogen würde.
+Wie der Vogt von <placeName ref="loc000348">Greifensee</placeName>, <persName ref="per005641">Johannes Keller</persName>,
+dem <orgName ref="org002406">Zürcher Rat</orgName> schrieb, war das Gericht seit rund zehn Jahren nicht mehr abgehalten worden,
+weil die Einberufung für die Betroffenen mit erheblichen Kosten verbunden war.
+Er führte sodann die in seinem Urbar eingetragene Offnung an und bat den Rat darum, das alte Herkommen zu respektieren,
+weil sich die Hofjünger sonst zu Recht weigern könnten, dem Vogt ihre Zinsen zu bezahlen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=938847">StAZH A 123.4, Nr. 92</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=938850">Nr. 94</ref></bibl>).
+Der Rat wies den Vogt daraufhin an, das Gericht an der üblichen Stelle durchzuführen,
+erlaubte für den Fall, dass die Prozessgegner das Urteil nicht akzeptierten,
+jedoch ausdrücklich die Appellation über <placeName ref="loc000348">Greifensee</placeName> nach <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4242384">StAZH B II 365, S. 56</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 3:
+Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_001_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3737536">StAZH B III 2, S. 353-355</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Ausrichtung von Witwen sowie Erläuterung betreffend Erbrecht von Schwiegertöchtern</head><msContents><summary>Bürgermeister und Rat regeln die Auszahlung nachfolgend genannter Erbteile an Ehefrauen, deren Männer verstorben sind: die Aussteuer, die sie in Form von Fahrhabe in die Ehe eingebracht haben (1); die vom Ehemann erhaltene Morgengabe (2; 3); das Eherecht sowie ein Drittel des gemeinsamen Vermögens, sofern sie ihre Erbschaft anzutreten wünschen (4); die Aussteuer, die in Form von liegenden Gütern in die Ehe eingebracht wurde (5); die Anteile von Ehefrauen, deren Männer verstorben sind, am Gut ihrer Schwiegereltern (6). </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation><filiation type="original"><origDate from="1446-01-19" to="1468-01-09"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1498-01-01" to="1522-12-31"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Ott, Rechtsquellen, Teil 1, S. 95, Nr. 258 (Dipl. Nr. 168)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+</p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003398">Aussteuer</term><term ref="key000597">Erbrecht</term><term ref="key000112">Morgengabe</term><term ref="key001043">Verwandtschaft</term><term ref="key000074">Witwen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="353"/>
+<head><lb/>Wie froͧwen naͧch unnser statt reͣcht <lb/>ußgericht weͣrden soͤllen</head>
+<p><lb/>Wir, der <orgName ref="org002406">burgermeister und die raͤt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, haben unns ge<lb break="no"/>einbart und
+bekenndt, wie fu̍rbaßhin die froͧwen, so in unnser statt, <lb/>ouch in unnsern gerichten und
+gebietten, zuͦ der heyligen ee kommend <lb/>und die ir man u̍berleͣben, ußgericht weͣrden
+soͤllen umb ir morgen<lb break="no"/>gaͧb, ir heimstu̍r, ir eerecht und iren dritteil, als
+hienaͧch geschriben <lb/>staͧt.</p>
+<p>
+<seg n="1"><lb/>Des ersten, weliche tochter oder wytwe zuͦ der heyligen ee kompt, <lb/>mit
+geding, was die tochter oder frow irem mann, mit dem sy zuͦ <lb/>der ee kompt, varends guͦts
+zuͦ heimstu̍r zuͦ bringet, das soͤlichs <lb/>liggen soͤlle an eygen und erb, naͧch unnser
+statt reͣcht. Weͣnn <lb/>da der mann vor der frowen abstirbt, so sol die frow der genannten
+<lb/>ir heimstu̍r, als vyl si im an farennder hab zuͦbracht haͧt und <lb/>das bedinget ist,
+als ob staͧt, vor uss, vor allen dingen, uß des manns <lb/>farenden guͦt oder uß dem
+lygenden, ob des farennden nit sovil <lb/>weͣre, uß gericht weͣrden.</seg>
+</p>
+<p>
+<seg n="2"><lb/>Item daͧrnaͧch, was oder wie vil iro deͣnn ir man zuͦ morgengaͧb <lb/>geben,
+daͧrumb sy brief oder kunndtschaft, oder ob sy weͣder brieff <lb/>oder kundtschaft haͧt, was
+sy denn by irem eyd behalt, das iro <lb/>von irem mann zuͦ morgengaͧb geben syg, dieselb ir
+morgengaͧb <lb/>sol iro ußgericht weͣrden uß ir mans guͦt, mit soͤlichem unnder<lb break="no"/>scheyd, haͧt der mann sovil ligends guͦts, so sol sy mit ligendem guͦt ir
+<lb/>morgengab ußgericht weͣrden, haͧt er des nit sovil, so sol sy ußgericht <lb/>weͣrden
+mit farendem guͦt umb ir morgengaͧb. Hat ouch ein frow <lb/>by irem aberstorbnnen mann
+eliche kind, so sol man iro die morgengaͧb <lb/>setzen und daͧvon zinß geben, das ist
+daͧrumb, das die morgengaͧb der <lb/>selben kinden verfanngen guͦt ist. Und ob ein muͦtter
+vor den kinden <lb/>abgiennge, das dann die kind wu̍ßtind, wo sy die morgengab fundind.
+<lb/>Haͧt sy aber nit eliche kind by dem selben irem mann, ald das die kind <lb/>alle vor
+der muͦtter abgonnd, so sol die morgengaͧb der muͦtter eygen <lb/>guͦtt sin.</seg>
+</p>
+<pb n="354"/>
+<p>
+<handShift/>
+<seg n="3"><lb/>Gat ouch ein frow vor irem man ab, so ist die morgengaͧb des manns libding,
+<lb/>als das von alter harkommen ist. Ein morgengaͧb valt och von einem ge<lb break="no"/>schwistergit an das annder, das ein vatter sine kind darinne nit erbt, als in <lb/>annderm
+guͦt, untz das der vatter die kind alle u̍berlebt.</seg>
+</p>
+<p>
+<seg n="4"><lb/>Darnach sol iro ußgericht werden ir ee recht und demnach ir dritteil, ob sy
+<lb/>dartzuͦ stan wyl.</seg>
+</p>
+<p>
+<seg n="5"><lb/>Wo ouch ein tochter oder frow einem man ligennd guͦt zuͦ bringt, da sol ouch
+<lb/>die frow mit demselben ligenden guͦt, ob das vor hannden ist, usgewist werden. <lb/>Ob
+es aber verkoufft und ze varender hab<del rend="rubbing">e</del> kommen und doch der frowen
+bedingt <lb/>waͤre, das sy ir ligennt guͦt hett laͧssen verkouffen, das iro das ligen soͤlt
+<lb/>an eigen und erb, nach unnser statt recht, und das kuͤntlich wuͤrde, so sol <lb/>der
+frowen das mit ligendem guͦt erwidret und ußgericht werden, ob das <lb/>da ist. Were aber
+das nit da, so sol ir das ußgericht werden von dem var<lb break="no"/>enden guͦt, ob des so
+vil da ist, och vor ir erecht und dritten teil. Soͤlich heimstu̍r <lb/>sol ouch der frowen
+von dem varenden guͦt, ob des sovil ist, ouch vor ir erecht <lb/>und drittenteil usgericht
+werden. Ob aber an varenndem nit sovil da were, <lb/>so sol sy darumb mit irs manns ligenden
+guͤter usgericht werden.</seg>
+</p>
+<p>
+<seg><lb/>Und ist dis beschechen uff <origDate when="1446-01-19">mittwochen nach sannt
+  <persName ref="per001805">Hylaryen</persName> tag anno <lb/>domini m cccc xlvj<hi rend="sup">to</hi></origDate>.</seg>
+</p>
+<p>
+<seg n="6"><lb/>Wo ouch ein man von todes wegen abgat und ein elich wibe hinder im laͧsset
+<lb/>und hat er su̍n, die ouch elich wiber habennt und sind die ouch vor den <lb/>mannen,
+dem vatter, nach abganngen, das denn des vatters wybe <lb/>des ersten mit dem dritteil und
+anndrem nach diser ordnung sag <lb/>usgericht werden sol. Und wenn das beschicht, das denn
+das guͦt, so der <pb n="355"/>
+<lb/>vatter daru̍ber gelassen haͧt, under sine kind glich geteilt werden sol. Und <lb/>wil
+denn des sunns wib zuͦ dem drittenteile in irs manns guͦt staͧn, das <lb/>sy das denn wol
+tuͦn und den darinne nach wysung <del>ouch</del> diser ordnung <lb/>nemen mag. Und sy
+stannde also zuͦ dem drittenteile oder nit, so sol doch ira die <lb/>betstatt, daruff sy
+beide gelegen sind, gevolgen und werden.</seg>
+</p>
+<p>
+<seg><lb/>Und dis lu̍ttrung ist geben und beschëchen uff <origDate when="1468-01-09">sambstag
+ nach der heiligen <lb/>dryer ku̍ng tag anno domini m cccc lx octavo</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Es handelt sich bei der vorliegenden Aufzeichnung um die erste erhaltene Abschrift zweier
+Ordnungen aus der Mitte des 15. Jahrhundert. Sie wurde um das Jahr 1498 in den Anhang zum
+Fünften Geschworenen Brief eingetragen, gemeinsam mit weiteren zentralen Eiden und Ordnungen.
+In den frühen 1520er Jahren fügte eine andere Hand unmittelbar davor verschiedene
+Bestimmungen betreffend Teilnahme an den Ratssitzungen ein (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3737517">StAZH B III 2, S.
+ 352</ref></bibl>). Im Zusammenhang mit diesem Vorgang wurden vermutlich einige Seiten
+entfernt und andere ergänzt, wodurch der erste Teil der vorliegenden Ordnung noch einmal neu
+abgeschrieben werden musste. Dies erklärt den Handwechsel mitten im Stück.</p>
+<p>Der Erbanteil des sogenannten Eherechts wurde im Kontext einer ausführlichen Erläuterung
+zum Erbrecht von Eheleuten näher umschrieben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_193">SSRQ ZH NF I/1/3, Nr. 193</ref></bibl>);
+allgemein zum Erbrecht vgl. auch die grundlegende, auf das Jahr 1419 zurückgehende Ordnung
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_133">SSRQ ZH NF I/1/3, Nr.
+133</ref></bibl>). </p>
+<p>Zur Datierung der Aufzeichnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 353</bibl>; zum Erbrecht von Witwen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 227-230</bibl>;
+ <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 47-56</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

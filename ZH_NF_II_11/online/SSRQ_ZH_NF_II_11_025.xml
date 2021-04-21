@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_025</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=531960">StArZH III.F.1., S. 705-714</idno></msIdentifier><head>Kauf des kleinen und grossen Zehnten in Oberhausen durch das Siechenhaus St. Jakob an der Sihl</head><msContents><summary>Heinrich Obrist, Bürger von Zürich, verkauft dem Siechenhaus St. Jakob an der Sihl den grossen und kleinen Zehnten in Oberhausen mitsamt der Scheune und aller Zugehörde zum Preis von 716 Rheinischen Gulden. Dies alles ist Pfand der Freiherren von Klingen, davon gehen die Quart an das Domkapitel von Konstanz, sechs Viertel Kernen an das Kloster Wettingen und sechs Mütt Kernen an das Siechenhaus. Der Aussteller Rudolf Schultheiss unterm Schopf, Schultheiss der Stadt Zürich, siegelt unter Anwesenheit namentlich genannter Zeugen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1438-03-14"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1801-01-01" to="1900-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key000441">Pfand</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="705"/>
+<p>
+<seg><lb/>Ich, <persName role="issuer" ref="per024160">Rudolf Schultheiß unterem Schopf</persName>, schult<lb break="no"/>heiß
+der stat <placeName ref="loc000065">Zürrich</placeName>,<!-- sic --> thun kund menglichem
+<lb/>mit diesem brief, das für mich kommen ist
+<lb/>an der stat, da ich <placeName ref="loc000065">Zürrich</placeName> offenlich ze
+<lb/>gerricht saß, der fromm bescheiden
+<lb/><persName ref="per024156">Heinrich Obrest</persName>, burger <placeName ref="loc000065">Zürrich</placeName>, und <choice><sic>offen <pb n="706"/>
+<lb/>offenbart</sic><corr>offenbart</corr></choice> vor mir in gericht durch seinen
+<lb/>fürsprechen, wie das er mit wohlbedachtem
+<lb/>muth durch seins nutzens und frommen willen
+<lb/>seinen zehenden zu <placeName ref="loc012717">Oberhausen</placeName> bey der
+<lb/><placeName ref="loc010439">Glatt</placeName> gelegen mit der schür, großen und
+<lb/>kleinen zechenden, mit allem dem, so dar<lb break="no"/>zu
+gehört, nüzit ausgenommen, verkauft und dem
+<lb/>erbern bescheiden <persName ref="per024162">Rudolf Zayen</persName>, burger <placeName ref="loc000065">Zürrich</placeName>,
+<lb/>als einem pfleger der armen sonder siechen lütten
+<lb/>des <orgName ref="org005000">hauses zu Sant <persName ref="per000208">Jacob</persName>, <placeName ref="loc000065">Zürrich</placeName></orgName> vor der min<lb break="no"/>der
+statt an der <placeName ref="loc010518">Sil</placeName> gelegen, zu deßelben hauses
+<lb/>der armen leüthen daselbs und aller ir nach<lb break="no"/>kommen
+handen, umb <measure type="currency" unit="fl" origin="Rh" quantity="716">siebenhundert und
+<lb/>sechszehen guldin, alles Rhynscher</measure>
+<lb/>guter <pb n="707"/>
+<lb/>und gemeiner an gold und an gewicht,
+<lb/>für ein recht werend pfand nicht abzenießen
+<lb/>von den edlen <orgName ref="org000104">fryen herren von Klingen</orgName>
+<lb/>und dafür, das auf dem obgenanten zechenden
+<lb/>von denen <orgName ref="org000104">von Klingen</orgName> ein pfand schilling ge<lb break="no"/>schlagen
+wäre und darauf stande, nach sach
+<lb/>der briefen darüber geben, recht und
+<lb/>redlichen ze kauffen geben hetten, und were
+<lb/>auch der vorgenantten guldin aller von dem 
+<lb/>egenantten <persName ref="per024162">Rudolf Zayen</persName>, als einem pfleger
+<lb/>der obgenantten armen leüthen, ganzlich ge<lb break="no"/>wert
+und bezalt, hette die in seinen guten
+<lb/>nuz geben und bekert, als er das offenlich
+<lb/>vor mir und dem gericht verjach.</seg>
+<seg>Und darumb <pb n="708"/>
+<lb/>so wölte er dem obgenantten <persName ref="per024162">Rudolf Zayen</persName>, als
+<lb/>einem pfleger der obgenanen armen leüthen
+<lb/>des <orgName ref="org005000">hauses zu Sant <persName ref="per000208">Jacob</persName></orgName>, zu der selben ar<lb break="no"/>men
+leüthen des hauses und aller ihr nach<lb break="no"/>kommen
+handen den egenanten zechenden zu
+<lb/><placeName ref="loc012717">Oberhausen</placeName>, mit der schür und mit allem dem
+<lb/>recht, so darzu gehört, vert<choice><sic>e</sic><corr>i</corr></choice>gen und zu ihren
+<lb/>handen bringen, daß sie daran habend we<lb break="no"/>rend,
+und ließ an recht durch seinen für<lb break="no"/>sprechen, 
+wie er das thun solt, das es kraft
+<lb/>haben möcht, fragt ich urteil umb
+<lb/>und ward nach meiner frag von erbern
+<lb/>leüthen an einhelliger urtheil ertheilt,
+<lb/>sid das der obgenant <persName ref="per024156">Heinrich Obrest</persName> hie <pb n="709"/>
+<lb/>vor einem freyen gericht stunde und der vor<lb break="no"/>genant 
+zechend mit allen dem recht, so dar<lb break="no"/>zu
+gehört, sein recht redlich werend pfand
+<lb/>were von den obgenanten <orgName ref="org000104">herren von Klingen</orgName>.
+<lb/>Wo dann der obgenannt <persName ref="per024156">Heinrich Obrest</persName>
+<lb/>für mich in das fry gericht dar stund und
+<lb/>den obgenannten zehenden mit der schür
+<lb/>und mit allem dem recht, so darzu gehört,
+<lb/>dem obgenannten <persName ref="per024162">Rudolf Zayen</persName> als einem
+<lb/>pfleger der vorbenempten armen leüthen
+<lb/>zu der selben armen leüthen und des <orgName ref="org005000">hau<lb break="no"/>ses
+zu Sant <persName ref="per000208">Jacob</persName></orgName> handen an mein
+<lb/>hand und des gerichs staab aufgebe,
+<lb/>sich des für ein recht werend pfand von <pb n="710"/>
+<lb/>den obgenanten <orgName ref="org000104">herren von Klingen</orgName> nicht ab
+<lb/>ze nießen genzlich entziege, und <unclear>lobte</unclear>
+<lb/>wer<!-- oder war? PS: nein: wer ist korrekt = Bürge --> ze sinde, das er das wol thun möcht.</seg>
+<seg><lb/>Und das auch es dann damit nun und hienach
+<lb/>wohl kraft und macht haben möcht
+<lb/>und sölt, da das erteilt ward, da stund
+<lb/>der obgenannt <persName ref="per024156">Heinrich Obrest</persName> für mich in
+<lb/>das fry gericht dar und gab da dem ege<lb break="no"/>nanten
+<persName ref="per024162">Rudolf Zayen</persName>, als einem pfleger
+<lb/>der obgenanten armen leüthen des <orgName ref="org005000">hau<lb break="no"/>ses
+zu Sant <persName ref="per000208">Jacob</persName></orgName>, zu des selben ar<lb break="no"/>men
+leüthen des hauses und aller
+<lb/>ir nachkommen handen und gewalt
+<lb/>den obgenanten zechenden mit der schür <pb n="711"/>
+<lb/>und mit allem dem recht, so darzu gehört,
+<lb/>an mein hand und des gerichts stab für
+<lb/>ein recht werend pfand ledklich und
+<lb/>los auf, als gericht und urtheil gab
+<lb/>und entzech sich darauf an mein hand und
+<lb/>des gerichts stab für sich und alle seine
+<lb/>erben alles des rechten, forderung und
+<lb/>ansprach, so er oder sein erben nach dem
+<lb/>obgenanten zechenden mit der schür
+<lb/>und mit allem dem recht, so darzu gehört,
+<lb/>dehein wise jemmer gewinnen oder gehaben
+<lb/>möchtent gen den obgenannen armen leüthen
+<lb/>des <orgName ref="org005000">hauses zu Sant <persName ref="per000208">Jacob</persName></orgName> und gen allen
+<lb/>ihren nachkommen deßelben hauses, mit
+<lb/>geistlichen oder mit weltlichen gerichten, 
+<lb/>an gericht oder sust mit deheinen anderen
+<lb/>sachen, listen, funden und geferden <pb n="712"/>
+<lb/>in dehein wise ungefahrlich.</seg>
+<seg>Der obge<lb break="no"/>nant
+<persName ref="per024156">Heinrich Obrest</persName> hat auch jezt vor mir
+<lb/>in gericht an mein hand und des gerichts
+<lb/>stab bey seinen guten trüwen gelobt
+<lb/>und versprochen, des vielgenanten zechen<lb break="no"/>den
+mit der schür und mit allem dem
+<lb/>recht, so darzu gehört, rechter wer ze sinde
+<lb/>nach recht der vielgenannten armen leüten
+<lb/>des <orgName ref="org005000">hauses zu Sant <persName ref="per000208">Jacob</persName></orgName> und aller
+<lb/>ir nachkommen, für ein recht redlich werend
+<lb/>pfand von den obgenantten <orgName ref="org000104">herren von 
+<lb/>Klingen</orgName> nicht abzenießen, umb den vor<lb break="no"/>geschrieben
+kauff, und auch dafür, das auf
+<lb/>dem obgenanten zechenden darab noch daraus
+<lb/>nit mer gaht noch staht denn dem capitel
+<lb/>der <orgName ref="org002902">stift zu <placeName ref="loc000008">Constanz</placeName></orgName> quart, dem <orgName ref="org000030">gots<lb break="no"/>haus
+zu <placeName ref="loc000074">Wettingen</placeName></orgName>
+<measure type="volume" unit="Viertel" commodity="spelt" quantity="6">sechs viertel kernen</measure>
+<pb n="713"/>
+<lb/><unclear>rüten</unclear> zechend, den obgenannten armmen leüthen
+<lb/>an der <placeName ref="loc010519">Sihl</placeName>
+<measure type="volume" commodity="spelt" unit="Mütt" quantity="6">sechs müt kernen</measure> ewiges gelts,
+<lb/>so sie vor darauf gehabt hand,<note>Diese sechs Mütt Kernen hatte das <orgName ref="org005000">Siechenhaus St. <persName ref="per000208">Jakob</persName></orgName> 1433 erworben (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=532038">StArZH III.F.7., S. 265-266</ref></bibl>).</note> vor geistlichen
+<lb/>und vor weltlichen gerichten, und mit nammen
+<lb/>an allen den stetten, wo, wenn ald wie dik
+<lb/>sie das jemmer nothdürftig sint an gefer<lb break="no"/>de.</seg>
+<seg>Und da dieß vor mir in gericht beschach, 
+<lb/>do ließ der obgenant <persName ref="per024162">Rudolf Zay</persName>, als ein
+<lb/>pfleger der obgenannten armen leüthen, an
+<lb/>recht, ob dies alles beschechen und volführt
+<lb/>were, das es nun und hin nach da bey be<lb break="no"/>leiben, 
+gut kraft und macht haben und
+<lb/>ob das gericht dan vielgenannten armen
+<lb/>leüthen des <orgName ref="org005000">hauses zu Sant <persName ref="per000208">Jacob</persName></orgName> ha<lb break="no"/>rumb
+sein brief geben und hie bey schir<lb break="no"/>men
+sölt.</seg>
+<seg>Das wart ihnen alles nach meiner <pb n="714"/>
+<lb/>frag von erbern leüthen an ein helliger
+<lb/>urtheil ertheilt, unnd des zu wahrem
+<lb/>festen urkund, so hab ich mein insiegel
+<lb/>von des gerichts wegen, als urtheil gab,
+<lb/>offenlich gehenkt an diesen brief, der
+<lb/>geben ist auf <origDate when="1438-03-14">freytag nach sant <persName ref="per000373">Gregorien</persName>
+<lb/>tag in der fasten, da mann zalt von der ge<lb break="no"/>burth
+Christi vierzechen hundert dreyßig
+ <lb/>und acht jahre</origDate>.</seg>
+<seg>Hiebey warennt <persName ref="per024149">Paulus
+ <lb/>Göldli</persName>, <persName ref="per024152">Claus Chun</persName>, <persName ref="per024154">Peter Müller</persName>, <persName ref="per024147">Hans
+ <lb/>Armbruster</persName>, <persName ref="per024155">Hans Nitfurer</persName>, <persName ref="per024151">Hans Kilchmann</persName>,
+ <lb/><persName ref="per024159">Heinrich Schiterberg</persName> und ander erber leüthe.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>1433 hatte das Siechenhaus <orgName ref="org005000">St. <persName ref="per000208">Jakob</persName> an der <placeName ref="loc010518">Sihl</placeName></orgName> aus dem <placeName ref="loc012717">Oberhauser</placeName> Zehnten bereits zwei Mütt Kernen um 40 Gulden von <persName ref="per024150">Anna Grimmenstein</persName> und vier Mütt Kernen um 80 Gulden von 
+<persName ref="per024156">Hans Heinrich Obrist</persName> erworben (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=532038">StArZH III.F.7., S. 265-266</ref></bibl>). Mit dem vorliegenden Zehntkauf, der nur als Abschrift in einem Kopialbuch von <orgName ref="org005000">St. Jakob</orgName> aus dem 
+19. Jahrhundert<!-- stimmt das? oder schon 17. Jh.? PS: auf keinen Fall 17. Jh. eher 19. --> überliefert ist, gelangte das Siechenhaus in den Besitz des grossen und kleinen Zehnten von <placeName ref="loc012717">Oberhausen</placeName>, abzüglich der Teile, welche dem <orgName ref="org002902">Domkapitel von <placeName ref="loc000008">Konstanz</placeName></orgName> 
+und dem <orgName ref="org000030">Kloster Wettingen</orgName> zustanden. Zum Zehnten gehörte auch der Besitz einer Zehntscheune. Deren Lage geriet allerdings später in Vergessenheit: Am 7. Juni 1723 wurde Obmann <persName ref="per024153">Meier</persName> ausgesandt, um vor Ort 
+den Standort der Zehntscheune oder zumindest den Platz, auf dem sie gestanden hatte, zu erfragen. Er hatte jedoch keinen Erfolg, da keiner der Befragten sich an den Standort erinnern konnte (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=531962">StArZH III.F.7., S. 261-263</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

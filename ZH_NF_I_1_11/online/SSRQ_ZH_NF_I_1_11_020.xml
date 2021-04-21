@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-04-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_11_020</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3546552"
+       >StAZH III AAb 1.3, Nr. 32</idno>
+     </msIdentifier>
+     <head>Münzmandat der Stadt Zürich</head>
+     <msContents>
+      <summary>Bürgermeister und Rat der Stadt Zürich erlassen aufgrund der Teuerung ein erneuertes Münzmandat. Festgelegt wird zunächst der Kurs von goldenen und silbernen Münzsorten. Es wird ausserdem vor den untergewichtigen, beschnittenen oder schlechten Münzsorten gewarnt. Danach folgt eine Aufzählung einiger verrufenen Münzsorten. Verboten ist des Weiteren das eigennützige Überbewerten von Münzen (Aufwechsel), wobei eine bestimmte Gebühr fürs Geldwechseln (Aufwechsel) toleriert wird. Nicht erlaubt ist hingegen die Verwendung von abweichenden Wechselkursen sowie der Einsatz von Münzen mit normwidrigem Feingewicht. Bei Nichteinhaltung der Bestimmungen kann die Obrigkeit das verbotene Geld konfiszieren und für ungültig erklären sowie die schuldige Person an Leib, Ehre oder Gut strafen.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Einblattdruck</filiation>
+       <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Johann Jakob Bodmer?)</publisher></docImprint>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="38.0"/>
+          <width unit="cm" quantity="30.5"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1638-05-12"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Nachweis</head>
+       <bibl>Schott-Volm, Repertorium, S. 869, Nr. 876</bibl>
+       <bibl>Geigy 1896, S. 49, Nr. 6</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005413">Münzwesen</term>
+     <term ref="key001071">Wucher</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="r" facs="StAZH_III_AAb_1_3__Nr__32__r_.tif"/>
+      <p><lb/>Diewyl unser gnedig Herren <orgName ref="org002406"
+         >Burgermeister und Raht der Statt
+ <lb/><placeName ref="loc000065"
+        >Zürich</placeName></orgName> / in mißfallen bedurlich sehen muͤssend / was massen der by ungefahr <date
+        dur="P2Y"
+        >zweyen jahren</date> /
+ <lb/>mit etlich ubrigen ihren getreüwen lieben alten <orgName
+        ref="org000531">Eidgnossen</orgName> / welche des Müntzwesens halber mit densel<lb
+        break="no"/>bigen
+ bißharo die meheste glychheit gehebt / in der Statt <placeName
+        ref="loc000126">Zug</placeName> berahtschlagte / und hernacher offentlich pub<lb break="no"
+         />licierte
+ Müntz-tax<note>Das Münzmandat vom 24. bis 25. Oktober 1636 wurde zwar von verschiedenen <orgName
+         ref="org000531">eidgenössischen</orgName> Orten, unter anderem <placeName ref="loc000215"
+         >Zug</placeName> und <placeName ref="loc000066"
+          >Zürich</placeName>, herausgegeben, eine Veröffentlichung in Zug ist allerdings nicht nachgewiesen (<bibl><ref
+          target="/startseite/literaturverzeichnis"
+        >Körner et al. 2001</ref></bibl><!-- nochmals überprüfen, ob Kurztitel korrekt gebildet wurde (22.8.17) -->, S. 439).</note> / von froͤmbden und heimschen / in schlechter obacht gehalten / und die so hoch schaͤdliche
+ <lb/>steigerung und uffwechßlung der guten Gold- und Silbersorten / auch ynfuͤhrung der kleinen hand müntzen /
+ <lb/>und anderer unwaͤhrschaffter sorten / von tag zu tag in massen fürbrechen wil / daß wo fern harinnen nit
+ <lb/>gebürendes ynsehen beschehen / hardurch alles / wessen der mensch nohtwendig geleben muͦß / umb so vil mehr
+ <lb/>verthürt und uffgetriben werden muͤßte: Sind dieselbigen Oberkeitlicher pflicht / und zuͦ den ihrigen tra<lb
+        break="no"
+        />gender
+ sorgfalt halber / unumbgaͤnglich verursachet worden / oblutende hievor gemachte Müntz <hi
+        rend="font change"
+        >Valvation</hi>,
+ <lb/>hardurch widerumb zu erneüweren / und ist hieruff deroselben ernstlicher befelch / meinung und gebott / daß es by selbigem Tax nochma<lb
+        break="no"
+         />len
+ gaͤntzlich verblyben / und das Gelt nun fuͤrbaß ze Statt und Land / von jemandem hoͤher ußgegeben ald yngenommen werden
+ <lb/>solle / Dann:<note>Im <orgName
+         ref="org000531"
+         >eidgenössischen</orgName> Abschied vom Juni 1638 wurden die Kurswerte für die meisten hier aufgeführten Sorten festgelegt. Auffallend ist, dass <placeName
+         ref="loc000066"
+          >Zürich</placeName> bei der Mehrzahl der Sorten einen leicht höheren Kurswert festlegte (<bibl><ref
+          target="/startseite/literaturverzeichnis">EA</ref>, <ref
+          target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1284899"
+          >Bd. 5/2, Nr. 860a</ref></bibl>).</note></p>
+      <table><head><lb/>Die Guldinen Sorten</head>
+       <row>
+        <cell>Ducaten und Zeckin / umb</cell>
+        <cell><measure type="currency" unit="fl" quantity="3"
+          >iij guldin</measure> / da allwegen <measure quantity="15" unit="bz" type="currency"
+          >15 guͦt batzen</measure> / oder <measure type="currency" unit="xr" quantity="60"
+          >60 Crützer</measure>
+         <lb/>für <measure quantity="1" unit="fl" type="currency"
+         >ein guldin</measure> gerechnet werden.</cell>
+        <cell/>
+       </row>
+       <row>
+        <cell>Sonnen Cronen</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="2"
+           >ij guldin</measure> / und <measure quantity="48" unit="xr" type="currency"
+           >xxxxviij Crützer</measure></measureGrp>.<add place="right margin" hand="hand17c"
+            ><measureGrp><measure type="currency" unit="fl" quantity="2">2 </measure>
+           <measure quantity="32" unit="ß" type="currency">32 </measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Goldguldin</cell>
+        <cell><measure type="currency" unit="fl" quantity="2">ij guldin</measure>.</cell>
+        <cell/>
+       </row>
+       <row>
+        <cell>Dopplet <placeName ref="loc001008">Spannisch</placeName> Cronen</cell>
+        <cell><measureGrp><measure quantity="5" unit="fl" type="currency"
+           >v guldin</measure> / und <measure type="currency" unit="xr" quantity="36"
+           >xxxvj Crützer</measure></measureGrp>.<add place="right margin" hand="hand17c"
+            ><measureGrp><measure quantity="5" unit="fl" type="currency">5 </measure>
+           <measure type="currency" unit="ß" quantity="24">24 </measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Dopplet <placeName ref="loc000438">Italiaͤnisch</placeName> oder <placeName
+          ref="loc010826">Welsch</placeName> Cronen</cell>
+        <cell><measureGrp><measure quantity="5" unit="fl" type="currency"
+           >v guldin</measure> / und <measure type="currency" unit="xr" quantity="24"
+           >xxiiij Crützer</measure></measureGrp>.<add place="right margin" hand="hand17c"
+            ><measureGrp><measure quantity="5" unit="fl" type="currency">5 </measure>
+           <measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp></add></cell>
+       </row>
+      </table>
+      <table><head>Die Silbernen Sorten</head>
+       <row>
+        <cell>Rychsthaler und Real</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="1">j guldin</measure>
+          <measure type="currency" unit="xr" quantity="33">xxxiij Crützer</measure> und <measure
+           type="currency" unit="h" quantity="6">vj haller</measure></measureGrp>: oder <measure
+          quantity="25" unit="bz" type="currency" origin="ZH">25 Züricher batzen</measure>.<add
+          place="right margin" hand="hand17c"><measureGrp><measure type="currency" unit="fl"
+            quantity="1">1 </measure>
+           <measure type="currency" unit="ß" quantity="22">22 </measure>
+           <measure type="currency" unit="h" quantity="6">6 ħ</measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Guldinthaler</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="1"
+           >j guldin</measure> / und <measure type="currency" unit="xr" quantity="24"
+           >xxiiij Crützer</measure></measureGrp>.<add hand="hand17c" place="right margin"
+            ><measureGrp><measure type="currency" unit="fl" quantity="1">1 </measure>
+           <measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Philipsthaler oder Toͤlpel</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="1"
+           >j guldin</measure> / und <measure type="currency" unit="xr" quantity="40"
+           >xxxx Crützer</measure></measureGrp>.<add place="right margin" hand="hand17c"
+            ><measureGrp><measure type="currency" unit="fl" quantity="1">1 </measure>
+           <measure type="currency" unit="ß" quantity="26">26 </measure>
+             <measure type="currency" unit="h" quantity="8">8 ħ</measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Silber Cronen</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="1"
+           >j guldin</measure> / und <measure type="currency" unit="xr" quantity="52"
+           >lij Crützer</measure></measureGrp>.<add hand="hand17c" place="right margin"
+            ><measureGrp><measure type="currency" unit="fl" quantity="1">1 </measure>
+           <measure type="currency" unit="ß" quantity="34">34 </measure>
+             <measure type="currency" unit="h" quantity="8">8 ħ</measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell><placeName ref="loc001009">Genueser</placeName> Silber Duplon</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="2"
+           >ij guldin</measure> / und <measure type="currency" unit="xr" quantity="12"
+           >xij Crützer</measure></measureGrp>.<add place="right margin" hand="hand17c"
+            ><measureGrp><measure type="currency" unit="fl" quantity="2">2 </measure>
+           <measure type="currency" unit="ß" quantity="8">8 </measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Justiner</cell>
+        <cell><measureGrp><measure type="currency" unit="fl" quantity="1"
+           >j guldin</measure> / und <measure type="currency" unit="xr" quantity="46"
+           >xxxxvj Crützer</measure></measureGrp>.<add hand="hand17c" place="right margin"
+            ><measureGrp><measure type="currency" unit="fl" quantity="1">1 </measure>
+           <measure type="currency" unit="ß" quantity="30">30 </measure>
+             <measure type="currency" unit="h" quantity="8">8 ħ</measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Crütz Dickpfenning</cell>
+        <cell><measure type="currency" unit="xr" quantity="32">xxxij Crützer</measure>.<add
+          place="right margin" hand="hand17c"><measureGrp><measure type="currency" unit="ß"
+            quantity="31">31 </measure>
+           <measure type="currency" unit="h" quantity="4">4 ħ</measure></measureGrp></add></cell>
+       </row>
+       <row>
+        <cell>Alt <placeName ref="loc000281">Frantzoͤsisch</placeName> Dickpfenning</cell>
+        <cell><measure type="currency" unit="xr" quantity="30">xxx Crützer</measure>.<add
+          hand="hand17c" place="right margin"><measure type="currency" unit="ß" quantity="20"
+           >20 </measure></add></cell>
+       </row>
+       <row>
+        <cell><placeName ref="loc000153">Eidgnoͤssisch</placeName> Dickpfenning</cell>
+        <cell><measure type="currency" unit="xr" quantity="24">xxiiij Crützer</measure>.</cell>
+        <cell/>
+       </row>
+       <row>
+        <cell><placeName ref="loc001060">Freyburger</placeName> und <placeName ref="loc000738"
+          >Solothurner</placeName> nüw gantz batzen <lb/>welche sidert Anno <date when="1630"
+          >1630</date> geschlagen</cell>
+        <cell><measure type="currency" unit="xr" quantity="3">iij Crützer</measure>.</cell>
+        <cell/>
+       </row>
+      </table>
+      <p>
+       <lb/>Die <placeName ref="loc000157"
+         >Berner</placeName> batzen / so bißhero für gantz genommen worden / sollen f̈ürbaß auch allein für halbe batzen / alß die eben denselben werth
+ <lb/>halten / genommen und ußgegeben werden. <note>Während die <orgName
+         ref="org000531"
+         >eidgenössischen</orgName> Orte den Batzen infolge der Kipper- und Wipperzeit nach 1622 zur Hälfte abwerteten, legte die Stadt <placeName
+         ref="loc000157"
+          >Bern</placeName> dem Batzen einen Zwangskurs auf, welcher erst 1653 aufgehoben wurde (<bibl><ref
+          target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+          target="http://www.hls-dhs-dss.ch/textes/d/D47970.php">Geld</ref></bibl>).</note>
+      </p>
+      <p><lb/>Und sol diser jetz benamsete Tax allein uff die Gold- und grobe Silbersorten / so ihr bestimt gewicht und schrot haben / verstan<lb
+        break="no"
+       />den
+werden: die anderen ungewichtigen / beschnitnen und schlechten gattungen aber hierinnen nit gemeint / sonders mengklicher vor
+<lb/>dem ynnemmen und ußgeben derselben nachrichtlich verwahrnet syn.</p>
+      <p><lb/>Demnach sollend zur verhuͤtung allerley mehrer beschwerd und betrugs / luth jüngsten anschlags / uß dem Land nochmalen gaͤntzlich
+ <lb/>verruͤfft und verbotten syn: die <placeName
+        ref="loc000007">Churer</placeName> / <placeName ref="loc006707"
+        >Haldensteiner</placeName> und <placeName ref="loc010416"
+        >Eichstaͤtter</placeName> zehen Crützer wertigen / sampt den <placeName ref="loc000008"
+        >Costantzer</placeName> halben Dicken: deß<lb break="no"
+        />glychen
+auch alle ubrige Müntzen / so in den <orgName ref="org005092"
+         >13 Orten der <placeName ref="loc000153"
+        >Eidgnoschafft</placeName></orgName> nit geschlagen es seyen gantze oder halbe Plappert / Behmsch /
+ <lb/>gantz und halbe baͤtzlin / Crützer / Vierer / und was derglychen ußlaͤndischer Müntz / die schon mehrmalen verbotten worden ist: ußgenom<lb
+        break="no"/>men
+die <placeName ref="loc000008"
+        >Costantzer</placeName> und Leopoldischen Zechner: Item die <placeName ref="loc000022"
+        >Straßburger</placeName> / <placeName ref="loc010461"
+        >Hanawer</placeName> / und andere im <placeName ref="loc000672"
+       >Reych</placeName> gepraͤgte halbe Dickpfenning /
+<lb/>welliche man (alldiewyl derselben keine nüwe mehr gemachet werden) fürbaß wol ynnemmen und ußgeben mag.</p>
+      <p><lb/>Hieby aber solle das vortheilig / eigennützige uffwechßlen und verschicken der groben Gold- und Silbersorten an andere ort / wohin
+ <lb/>es joch seyge / und ynfuͤhrung hingegen ins Land der Müntzen / nochmalen gaͤntzlich allerdingen abgestrickt / und mit nammen auch uß<lb
+        break="no"
+        />truckenlich
+ verbotten syn / daß nun fürbaß jemands mehr / froͤmbd noch heimsch / uff einiche <hi
+        rend="font change"
+        >species</hi> Gold- oder Silbersorten / weder wenig
+ <lb/>noch vil uffwechsels geben oder nemmen / und die hoͤher / alß diser jetz gemachte Tax ußwyßt und vermag / uff- oder an sich wechßlen / sondern
+ <lb/>dafern ehrliche Kauff- und Handelsleuth der glychen Sorten zu unvermydenlicher fortfuͤhrung ihrer gewerben und handthierungen / je
+ <lb/>mangelbar / solches nach Kauffmans gebruch und rechten / mit uffgebung etwann <num
+        value="1">einse</num> / <num value="2">zweyen</num> ald <num value="3"
+        >dreyen</num> uffs <num value="100"
+          >hundert</num> mit gebuͤrender
+ <lb/>bescheidenheit / wie von alters herkommen / fürbaß auch wol beschehen moͤge / und ihnen solches der gestalten unabgeschlagen syn.<note>Im eidgenössischen Abschied vom Juni 1638 wird hingegen nur ein Aufwechselbetrag von 1 bis 1,5 Prozent toleriert (<bibl><ref
+          target="/startseite/literaturverzeichnis">EA</ref>, <ref
+          target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1284899"
+          >Bd. 5/2, Nr. 860a</ref></bibl>).</note></p>
+      <p>
+       <lb/>Da fern sich auch erfinden / daß an einem ald anderem ort nüwe Dickpfenning / die nit waͤhrschafft / und dem <placeName
+        ref="loc000153"
+       >Eidgnoͤssischen</placeName> halt
+ <lb/>und schrot nit gemeß sind / von nüwem gemüntzet und ins Land gebracht wurden / haben Sy unser gnedig Herren ihnen vorbehalten /
+ <lb/>solche auch zu verruͤffen.</p>
+      <p>
+       <lb/>Alles by <hi rend="font change"
+        >confiscation</hi> und verwürckung des Gelts / darvon dem angeber / der doch auch nit vermaͤret werden / der <num
+        value="0.33">dritte theil</num> zugehoͤ<lb break="no"
+        />ren
+ und werden sol / deßglychen noch mehrer willkurlicher straff / an Lyb / Ehr oder Gut / so man gegen den jenigen / je nach gestalt der sachen /
+ <lb/>fuͤrnemmen wird / welliche wider vorstehende Ordnung und Ansehen zu handlen understahn theten: Massen dann vor wolernannt unser
+ <lb/>gnedig Herren / durch etlich ihre hierzuͦ von nüwem verordneten geliebten Mitraͤht / uff diß alles geflissene uffsicht halten lassen / und ha<lb
+        break="no"
+       />rinnen
+ ohne einich ansehen der person / Oberkeitlich erforderenden ernsts verfahren werdend / darnach sich dann mengklicher zu richten /
+ <lb/>und ihme selbs vor straff und schaden zu syn wuͤssen wird.
+</p>
+      <p><lb/>Actum <origDate when="1638-05-12" calendar="Julian"
+        >Sambstags den 12. tag Maij / Anno 1638</origDate>.</p>
+      <p><lb/><orgName ref="org005015">Cantzley <placeName ref="loc000065"
+        >Zürich</placeName></orgName>.</p>
+      <pb n="v" facs="StAZH_III_AAb_1_3__Nr__32__v_.tif
+"/>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Im Jahre 1425 verlieh König <persName ref="per000712"
+        >Sigismund</persName> der Stadt <placeName ref="loc000065"
+        >Zürich</placeName> das Münzprivileg, wobei sich schon im 14. Jahrhundert Prägungen von Zürcher Münzpächtern nachweisen lassen. Seit dem Spätmittelalter kam es aufgrund des intensiveren Handels und des vermehrten Einsatzes von Geld als Zahlungsmittel zu einem grösseren Münzumlauf auf <placeName
+        ref="loc000153"
+        >eidgenössischem</placeName> Gebiet. Zudem bildete sich ein dreistufiges System heraus: Während die überregional zirkulierenden Gold- und Silbersorten (grobe Sorten) relativ stabile, liquide und beliebte Geldeinheiten waren, erwiesen sich die kleinen silbernen Sorten (Handmünzen, Scheidemünzen) als instabiler und weniger liquide. Schliesslich gab es noch Rechnungswährungen, die lediglich zur Umrechnung dienten und bei denen die Münzen nicht ausgeprägt wurden. In <placeName
+        ref="loc000065"
+       >Zürich</placeName> gab es je nach Gebrauch unterschiedliche Rechnungswährungen: Rechnungen der Verwaltung sowie kleinere Bussen erfolgten mit der Pfundrechnung, im Handel und unter Kaufleuten hingegen wurde die Guldenrechnung verwendet und bei hohen Strafen war jeweils die Mark Silber angegeben.</p>
+      <p>Bis ins 19. Jahrhundert hing der Wert der Münzen von ihrem Edelmetallgehalt (Feingehalt) ab. Aufgrund der mechanischen Abnützung der Münzen sowie Münzverfälschungen (beispielsweise durch die sogenannten Kipper und Wipper, welche Münzen mit hohem Feingehalt an den Rändern beschnitten) sank das Feingewicht kontinuierlich. Die untergewichtigen Münzen wurden infolge ihres Wertverlustes aus dem Verkehr gezogen (Münzverruf). Da dadurch neue Münzen hergestellt werden mussten und dies eine finanzielle Mehrbelastung für den Münzherrn darstellte, setzte er das Feingewicht der neu geprägten Münzen oftmals herab. Eine Minderung des Feingewichts der kleinen Münzen (Münzverschlechterung) bewirkte aber gleichzeitig, dass sich der Kurs der groben Sorten aufwertete. Ausserdem führte eine Herabsetzung des Feingewichts dazu, dass das sogenannte gute Geld (Münzen mit hohem Edelmetallgehalt) eher gehortet und nicht für den Zahlungsverkehr eingesetzt wurde. Im Sinne des Greshamschen Gesetzes verdrängte das <q>schlechte</q> somit das <q>gute</q> Geld. Hinzu kam, dass die Münzabwertung oft dazu führte, dass das <q>schlechte</q> Geld in ein anderes Währungsterritorium gebracht wurde, wo aufgrund des bestehenden Paritätswertes nun damit mehr gutes<q/> Geld der anderen Währung erworben werden konnte (Münzarbitragen). Der Mechanismus der Münzverschlechterung führte zudem im Laufe der Frühen Neuzeit zu einer kontinuierlichen Teuerung (Inflation), wobei der Höhepunkt während der Kipper- und Wipperzeit um 1620 war (vgl. das Zürcher Münzmandat von 1622, <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928957"
+         >StAZH III AAb 1.2, Nr. 22</ref></bibl>). In der zweiten Hälfte des 17. Jahrhunderts und im 18. Jahrhundert kam es zu einer Stabilisierung und nur noch zu schwachen Geldentwertungen. Dies hing damit zusammen, dass diejenigen eidgenössischen Orte, welche Münzherren waren, sich häufig an Münzkonferenzen trafen, um währungspolitische Massnahmen zu diskutieren und die schlechten Fremdwährungen zu bekämpfen (vgl. das von <placeName
+        ref="loc000065">Zürich</placeName> neu gedruckte <placeName ref="loc000126"
+        >Zuger</placeName> Münzmandat von 1768, <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_11_062"
+       >SSRQ ZH NF I/1/11, Nr. 62</ref></bibl>). Ausserdem führte die verbesserte Qualität in der Münzherstellung zu weniger starken Abnützungserscheinungen sowie dazu, dass Münzfälschungen schwieriger zu bewerkstelligen waren.</p>
+      <p>Im vorliegenden Mandat finden sich des Weiteren Kurswerte von fremden groben Sorten zum zürcherischen Währungssystem. Um die Umrechnung zu erleichtern, wurden bei den meisten Wechselkursen im vorliegenden Mandat handschriftlich weitere Währungseinheiten ergänzt. Grundsätzlich lässt sich sagen, dass sich die Kurse der groben Silber- und Goldsorten im Laufe des 17. und 18. Jahrhunderts nur wenig veränderten und in Bezug auf ihr Feingewicht relativ stabil blieben. Die obrigkeitliche Taxierung der groben Sorten richtete sich nicht nach den Feingewichtgehalten der kleinen Sorten, sondern nach den geltenden Gold- und Silberpreisen sowie den lokalen Verarbeitungskosten. Somit hatte jede Kurssteigerung der groben Sorten die Wertverminderung der kleineren Sorten zur Folge. Da die kleinen Sorten hauptsächlich für geringere Beträge im Alltag verwendet wurden, bedeutete die Wertverminderung eine Senkung der Kaufkraft (Inflation).</p>
+      <p>Die festgesetzten Kurse wurden im täglichen Zahlungsverkehr oftmals nicht genau eingehalten, weswegen die Obrigkeit in den Münzmandaten wiederholt das übermässige Überbewerten (Aufwechsel) verbot. Insbesondere bei den groben Sorten wurde häufig Aufwechsel betrieben, was wiederum zur Abwertung der kleinen Sorten führte. Der Aufwechsel war jedoch für den Zahlungsverkehr oft nötig, da es aufgrund deren Stabilität eine grosse Nachfrage nach groben Sorten gab, welche jedoch infolge des kleinen Gold- und Silbervorkommens in beschränktem Angebot vorhanden waren. Zudem wurden grobe Sorten meist im Handel und bei grösseren Beträgen verwendet, weswegen diejenigen Personen, die grobe Sorten benötigten, deren Aufwechsel (Agio) in Kauf nehmen mussten. In der Regel erlaubten die Obrigkeiten einen bestimmten Aufwechselbetrag, wie dies auch im vorliegenden Mandat zu sehen ist (<bibl><ref
+         target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+         target="http://www.hls-dhs-dss.ch/textes/d/D47970.php">Geld</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+         target="http://www.hls-dhs-dss.ch/textes/d/D13659.php"
+         >Währungsbewertung</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+         >Körner et al. 2001</ref>, S. 441-463</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Furrer 1995</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Zäch/Kaenel 1986</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Hürlimann 1966</ref></bibl>).
+</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

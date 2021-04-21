@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_163</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24292">StArZH VI.HG.A.4.:54</idno></msIdentifier><head>Urteil der Obervögte wegen Beleidigung der Gemeinde Höngg</head><msContents><summary>Caspar Rieder und sein Sohn Johannes haben anlässlich eines Konflikts mit der Gemeinde Höngg um das Zugrecht der Gemeinde gegenüber einem Haus, das Rieder an Felix Bereuter verkauft hat, die ganze Gemeinde eine Lumpen-, Schelmen- und Diebesgemeinde genannt. Zur Wiedergutmachung dieser Beleidigung müssen Rieder und sein Sohn den Untervogt von Höngg im Gemeindehaus in Anwesenheit der Gemeindevorgesetzten und des Stillstands um Verzeihung bitten sowie eine Busse von 15 Pfund an die Obrigkeit und 2 Pfund an den Stadtknecht bezahlen. Aus Gnade wird von einer Gefängnis- oder Körperstrafe abgesehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1763-05-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key000946">Ehre</term><term ref="key000285">Ehrverletzung</term><term ref="key004966">Gemeinde</term><term ref="key000057">Gericht</term><term ref="key004428">Liegenschaft</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p>
+<seg><lb/>In vorgefallener injurien streitigkeit entzwüschent <choice><abbr>e e</abbr><expan>einer ehrsamen</expan></choice>
+<lb/>gemeind <orgName ref="org007827">Höngg</orgName> an einer, danne <persName ref="per026451">Caspar Rieder</persName> von daselbsten
+<lb/>an dem anderen theil, da untervogt nammens <choice><abbr>e</abbr><expan>einer</expan></choice> ganzen ehrsamen
+<lb/>gemeind klagend vorbringt, wie daß bemelter <persName ref="per026451">Caspar Rieder</persName>
+<lb/>sich wegen gehaltener zusammenkonfft, betrefend daß zugrecht
+<lb/>zu seinem unterem <date when="1762-07-07">7<hi rend="sup">ten</hi> julii verstrichenen jahrs</date> an <persName ref="per026445">Felix
+<lb/>Berreüther</persName> verkaufften haußes, sich so wohl als sein sohn <persName ref="per026452">Johannes
+<lb/>Rieder</persName> im reden zimlicher maaßen vergangen und <choice><abbr>e</abbr><expan>eine</expan></choice> ganzen
+<lb/>ehrsame gemeind eine lumpen, schölmmen, diebs gemeind 
+<lb/>gescholten, worüber sich jedermäneglich beschwert und satisfaction
+<lb/>begehrt.</seg>
+<seg>Als ward nach angehörten außagen <del>nach</del> von
+<lb/><choice><abbr>sekelmstr</abbr><expan>sekelmeister</expan></choice>
+<persName ref="per026449">Ulrich Meyer</persName> und <persName ref="per026450">Heinrich Nözli</persName> aus der
+<lb/><placeName ref="loc012769">Vorderen Weid</placeName>, welche ihne, <persName ref="per026452">Johannes Rieder</persName>, wegen
+<lb/>seinen ohnerlaubt höchst schand- ald straffbahren reden über<lb break="no"/>wisen,
+erkant, daß die scheltungen sollen <choice><abbr>oberkeit</abbr><expan>oberkeitlich</expan></choice>
+<lb/>aufgehebt seyn, der <persName ref="per026451">Caspar Rieder</persName> und sein sohn <persName ref="per026452">Johannes
+<lb/>Rieder</persName> den untervogt <persName ref="per026403">Heinrich Appenzeller</persName> in beysein
+<lb/>samtlicher vorgesezten und stilland in dem gemeind<lb break="no"/>hauß
+nammens der gemeind auf eine reüende und
+<lb/>anständige arth um verzeihung biten und sich fürohin
+<lb/>bescheidenlicher und vernünfftiger auffüehren. Des <placeName ref="loc000067">Öttenbachs</placeName>
+<lb/>und züchtigung an der stud solten sy vor distmahl
+<lb/>aus besonderen gnaden entlaßen seyn, jedanoch <pb n="2"/>
+<lb/><measure type="currency" unit="lb" quantity="15">15 </measure>
+<choice><abbr>oberkeit</abbr><expan>oberkeitliche</expan></choice> buͦeß nebst <measure type="currency" unit="lb" quantity="2">2 </measure> dem stattknecht bezahlen
+<lb/>und gleich vorigem<note>Der Konflikt um das Zugrecht der Gemeinde wurde am selben Tag beigelegt (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24293">StArZH VI.HG.A.4.:55</ref></bibl>); der entsprechende Eintrag steht im Urteilprotokoll der Obervögte unmittelbar vor dem Eintrag zum vorliegenden Fall (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332658">StAZH B VII 16.6, S. 72-74</ref></bibl>).</note> eine außgemachte sach heisen und
+<lb/>seyn</seg>.</p>
+<p>
+<lb/>Actum <origDate when="1763-05-26">donnerstag, den 26ten maii anno 1763</origDate>,
+<lb/><choice><abbr>praestbs</abbr><expan>praesentibus</expan></choice>
+<lb/><abbr>mnhghh</abbr> herr rathsherr <choice><abbr>u</abbr><expan>und</expan></choice> kirchenpfleger <persName ref="per026446">Escher</persName>,
+<lb/><abbr>mnhghh</abbr> rathsherr und alt amtman <persName ref="per026448">Leu</persName></p>
+<p>
+<lb/>Canzley <placeName ref="loc009768">Höngg</placeName>
+</p>
+<pb n="3"/><pb n="4"/>
+</div>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Urthelspruch:
+<lb/>Entzwüschent <choice><abbr>e e</abbr><expan>einer ehrsamen</expan></choice> gemeind
+<lb/><orgName ref="org007827">Höngg</orgName> an einem, danne wacht<lb break="no"/>meister
+<persName ref="per026451">Caspar Rieder</persName> von daselbsten
+<lb/>an dem anderen theil.
+<lb/>Sub <origDate when="1763-05-26">26ten maii
+<lb/>anno 1763</origDate>.<note>Hierbei handelt es sich um den Verweis auf den Eintrag im Urteilprotokoll der Obervögte von <placeName ref="loc009768">Höngg</placeName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332660">StAZH B VII 16.6, S. 74</ref></bibl>).</note>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Ehre spielte im Mittelalter und in der Frühen Neuzeit eine zentrale Rolle für die Stellung des Individuums in der Gesellschaft. Entsprechend schwer wogen Ehrverletzungen; viele Gerichtsverfahren betrafen hauptsächlich oder teilweise Ehrkonflikte 
+(<bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 125-134</bibl>). Ehre kam aber nicht nur Einzelpersonen, sondern auch ganzen Gruppen zu, etwa die Standesehre oder die Ehre einer Berufsgruppe. Im vorliegenden Fall war die Ehre der
+ganzen <orgName ref="org007827">Gemeinde <placeName ref="loc009768">Höngg</placeName></orgName> dadurch verletzt worden, dass <persName ref="per026451">Caspar Rieder</persName> sie als Lumpen-, Schelmen- und Diebesgemeinde bezeichnet hatte – äusserst ehrenrührige Vorwürfe. 
+Zur Wiederherstellung der Ehre musste <persName ref="per026451">Rieder</persName> neben der Bezahlung einer Busse auch öffentlich vor den Amtsträgern der Gemeinde als deren Vertreter um Verzeihung bitten.</p><p>
+Vorausgegangen war ein Konflikt um den Verkauf des Hauses von <persName ref="per026451">Rieder</persName> an <persName ref="per026445">Felix Bereuter</persName> von <placeName ref="loc008709">Illnau</placeName>, also einen Auswärtigen. Bereits am 24. September 1762 hatte die <orgName ref="org007827">Gemeinde 
+<placeName ref="loc009768">Höngg</placeName></orgName> vor den Obervögten dagegen geklagt, zumal der Verkauf ohne Kenntnis der Obervögte geschehen sei. Die Obervögte folgten jedoch der Argumentation <persName ref="per026451">Rieders</persName>, nach allgemeinem Landrecht dürfe er sein Haus 
+einem anderen Landesangehörigen verkaufen, und erklärten den Verkauf für gültig (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332631">StAZH B VII 16.6, S. 48-49</ref></bibl>). Am 5. November 1762 versuchte <persName ref="per026447">Konrad Knechtli</persName>, 
+ein Nachbar des neuen Hauses von <persName ref="per026451">Caspar Rieder</persName>, ein Zugrecht für dieses Haus geltend zu machen, also das Recht, gegen Erstattung des Kaufpreises an die Stelle des Käufers zu treten. Die Obervögte traten aber nicht darauf ein, weil die 
+dafür gültige Frist von sechs Wochen und drei Tagen bereits verstrichen war (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332649">StAZH B VII 16.6, S. 50-51</ref></bibl>). Mehr Erfolg hatte die Klage der <orgName ref="org007827">Gemeinde <placeName ref="loc009768">Höngg</placeName></orgName>, welche am selben Tag das 
+Zugrecht auf das an <persName ref="per026445">Felix Bereuter</persName> verkaufte Haus beanspruchte: Die Obervögte entschieden, dass der Verkauf erst mit dem Urteil vom 24. September rechtskräftig geworden sei und die Frist somit noch laufe 
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332653">StAZH B VII 16.6, S. 51-54</ref></bibl>). Am 26. Mai 1763 wurde nicht nur die im Lauf des Konflikts geäusserte Beleidigung der Gemeinde geahndet, sondern auch der Verkaufsstreit endgültig entschieden. 
+Die Gemeinde forderte von <persName ref="per026451">Rieder</persName> Ersatz für den Schaden, den sein Verhalten und seine und <persName ref="per026445">Bereuters</persName> Klagen der Gemeinde eingebracht hatten. Weil <persName ref="per026451">Rieder</persName> zudem einen Artikel des 
+Einzugsbriefs von 1644 verletzt hatte, forderte die Gemeinde auch die Bezahlung des Einzugs. Der Artikel besagte, dass, wer sein Haus einem Fremden verkaufe, so lange kein Gemeindsgenosse mehr sei, bis er wieder eine Liegenschaft in der Gemeinde gekauft 
+und das Einzugsgeld von 60 Pfund erneut bezahlt habe (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24261">StArZH VI.HG.A.3.:15</ref></bibl>; Edition des entsprechenden Artikels: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_67">Nr. 22, S. 67-68</ref></bibl>). 
+<persName ref="per026451">Rieder</persName> konterte jedoch, dass er sich bereits vor dem Verkauf ein neues Haus gekauft habe und daher keinen Einzug schuldig sei. Die Obervögte räumten ein, dass <persName ref="per026451">Rieders</persName> Interpretation der Sachlage problematisch sei. Sie verurteilten ihn jedoch nur zur Zahlung 
+von 40 Pfund an die Gemeinde; damit sollten beide Forderungen abgegolten und <orig>vor ein und alle mahl ausgemacht</orig> sein (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24293">StArZH VI.HG:A.4.:55</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4332658">StAZH B VII 16.6, S. 72-74</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

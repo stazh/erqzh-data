@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_118</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744498">StAZH A 154, Nr. 51</idno></msIdentifier><head>Begehren der Gemeinde Wiedikon an die Rechenherren um Übergabe der Lehmgrube am Albis</head><msContents><summary>Die Gemeinde Wiedikon beantragt, die alte Lehmgrube am Albis aufschütten und als Weide nutzen zu dürfen. Der Entscheid wird wegen Abwesenheit von Bauherr Berger zunächst vertagt. Am 4. September entscheiden die Rechenherren, der Gemeinde Wiedikon nicht nur die beantragte, mit Marksteinen gekennzeichnete Lehmgrube, sondern auch eine weitere, derzeit noch nicht ganz ausgebeutete Grube zur Nutzung als Weide zu überlassen. Die Nutzung wird ihr auf zwanzig Jahre ohne Zins bewilligt, unter der Bedingung, dass die Gemeinde Wiedikon den Zürcher Rat oder seinen Zieglern eine neue Lehmgrube zu einem angemessenen Preis überlässt, wenn diese keine Lehmgrube mehr besitzen. Nach Ablauf der zwanzig Jahre soll die alte Lehmgrube an die Stadt zurückfallen und vom Rat verkauft oder um einen Grundzins verliehen werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1645-09-02" to="1645-09-04">02.09.1645 (Petition), 04.09.1645 (Entscheid)</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term>Allmend</term><term ref="key000297">Bewilligung</term><term ref="key004966">Gemeinde</term><term ref="key000687">Gewerbe</term><term ref="key004706">Konzession</term><term ref="key003918">Petition</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_154__Nr__51__r_.tif"/>
+<p>
+<lb/>Der laim gruben halber am <placeName ref="loc010355">Albis</placeName> unwith von <placeName ref="loc009863">Wiedicken</placeName>
+<lb/>hat herr mayor <persName ref="per025970">Werdmüller</persName> im namen der <orgName ref="org007942">gmeindt
+<lb/><placeName ref="loc009863">Wiedicken</placeName></orgName> ein anzug gethan, dz man ihro, bemelter
+<lb/>gmeindt, denselben platz wölle übergeben, so
+<lb/>wöllindt sy den verschütten und ebnen und ein offne
+<lb/>weidt daruß machen <abbr>etc</abbr>.</p>
+<p><lb/>Disere sach ist auch, weilen herr bauwherr <persName ref="per025779">Berger</persName><!-- Hans Berger, Bauherr ab 1639, vgl. StAZH X 112, fol. 248r -->
+<lb/>auch vorhanden sein muß, darüber desswegen bericht
+<lb/>geben <unclear>kan</unclear>, ingestelt. <date when="1645-09-02" calendar="Julian">Zinstag, den 2. herbstmonath
+<lb/>anno 1645.</date></p>
+<p><seg><lb/>Es ist auch vor meinen gnedigen herren, den rächenherren, erschy<lb break="no"/>nen
+vogt und seckellmeister von <placeName ref="loc009863">loc009863</placeName>, als abgeordnete
+<lb/>gemelter gmeind, und habendt instendig angehalten und gebätten, 
+<lb/>man wolte innen den platz der laimb gruben, so unwith von
+<lb/>bemeltem <placeName ref="loc009863">Wiedicken</placeName> gelegen und mein gnedig herren vor langer
+<lb/>zeith an sy erkaufft und aber dißmallen ußgenuzet, uff
+<lb/>ein bestimbte zeith werden lassen, so wöllindt sy dieselben
+<lb/>gruben verschütten und den ganzen platz verebnen und ein offne
+<lb/>weidt machen <abbr>etc</abbr>.</seg>
+<seg>Als habendt hieruff mein <abbr>g hrn</abbr> nit
+<lb/>allein disern platz, wellicher mit ordenlichen marchsteinen
+<lb/>ußgmarchet, sonder auch den andern platz, so auch laimb grub,
+<lb/>und aber nit gar ußgnutzet und vom bauwherr <persName ref="per025780">Meister</persName>
+<lb/><unclear><choice><abbr>sen</abbr><expan>seligen</expan></choice></unclear> anno <date when="1605">1605</date> zu meiner <abbr>g</abbr> herren handen erkaufft
+<lb/>worden, den söllindt sy auch, wann derselbig ußgnuzet,
+<lb/>zuverbessern und zuverschütten schuldig sein, und wöllendt
+<lb/>solliche <num value="2">zwen</num> platz, so nechst by einandern, sy, mein <abbr>g</abbr> herren,
+<lb/>innen rächt uß gnaden uff <date dur="P20Y">zwanzig jahr</date> ohne einichen
+<lb/>zins verwilligen und übergeben, mit dem geding, wenn
+<lb/>sy, mein <abbr>g</abbr> herren, oder<!-- Kürzung --> ihre ziegler kein platz, da laimb syn solte,
+<lb/>mehr hettendt, so sölle ein <orgName ref="org007942">gmeindt <placeName ref="loc009863">Wiediken</placeName></orgName> schuldig sein,
+<lb/>besagten mein <abbr>g</abbr> herren oder<!-- Kürzung --> ihren zieglern ein kömlichen platz
+<lb/>umb einen lydenlichen priß zezeigen und werden lassen,
+<lb/>und wann disere bestimbte zyth verflossen, mögendt
+<lb/>mein <abbr>g</abbr> herren disere plätz wideromb zu ihren handen
+<lb/>nemmen und diselben umb einen gewissen grundt zins
+<lb/>verlyhen oder<!-- Kürzung --> aber gar wideromb verkauffen.</seg></p>
+<p><lb/><origDate when="1645-09-04" calendar="Julian">Donstag, 4. herbstmonath, anno 1645</origDate></p>
+<pb n="v" facs="StAZH_A_154__Nr__51__v_.tif
+"/>
+<div><ab type="dorsal" place="verso">Laimbgrub betreffend</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/>Der <orgName ref="org007942">gemeind <placeName ref="loc009863">Wiedicken</placeName></orgName> begehren, mann die leim-gruben am <placeName ref="loc010355">Albis</placeName> ihnen übergeben <lb/>wollte, damit sie den platz verschütten und ein offene weid daraus machen <lb/>könnind, <date when="1645">1645</date></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand17c">Den <date when="1645-09-04">4ten 7bris 1645</date></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p> Das Ziegeleihandwerk war in <placeName ref="loc009863">Wiedikon</placeName> ein bedeutender Wirtschaftszweig. Auf dem Gemeindegebiet befanden sich mehrere Lehmgruben und Ziegeleien. Anfangs wurden die Lehmvorkommen nur bis zu einer Tiefe von drei bis vier Metern  ausgebeutet
+und danach wieder aufgeschüttet und für die Landwirtschaft genutzt. Erst mit den mechanischen Ziegelbrennereien, welche mehr Rohmaterial benötigten, entstanden tiefere Lehmgruben. Zur Ziegelei in <placeName ref="loc009863">Wiedikon</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Etter 1977</ref></bibl>, zu den Lehmgruben besonders S. 81-82.</p>
+<p>Am 3. Juni 1663, nachdem die Frist von zwanzig Jahren beinahe verstrichen war, erwarb die <orgName ref="org007942">Gemeinde <placeName ref="loc009863">Wiedikon</placeName></orgName> die Lehmgrube, indem sie ihre Weiderechte im <placeName ref="loc012114">Geerenhölzli</placeName> gegen den Besitz der Lehmgrube eintauschte 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=339629">StAZH C III 4, Nr. 21</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=747380">StAZH A 154, Nr. 63</ref></bibl>). 
+<!-- laut Bärtschi, Industriekultur 1994, S. 195 war Wiedikon "einst" (wann?) der bedeutendste Ziegeleistandort des Kantons. Letzte Lehmgruben in Wiedikon erst in den 1960/70er Jahren zugeschüttet, Vgl. Diss Bärtschi.  -->
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

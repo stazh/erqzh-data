@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_068</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=727893">StAZH A 149.1, Nr. 35</idno></msIdentifier><head>Gemeindeordnung von Hottingen</head><msContents><summary>Da einige Leute der Wacht Hottingen trotz Aufgebots den Gemeindeversammlungen fernbleiben, was die gehorsamen Gemeindegenossen verärgert, hat die Gemeindeversammlung eine Gemeindeordnung ausgearbeitet. Diese legt sie nun Bürgermeister und Rat zur Prüfung und Bestätigung vor. Die Ordnung regelt folgende Punkte: Gebot der Teilnahme an der Gemeindeversammlung unter Bussandrohung (1); Einzug der Abgaben zuhanden der Gemeinde und Rechnungführung durch die Vereider (Vierer?) sowie Entlöhnung derselben (2); Entlöhnung der Gemeindevertreter bei Gerichtsfällen vor dem Rat oder dem (Stadt-)Gericht (3); Einzug der Schulden gegenüber der Gemeinde (4); Festsetzung der Einzugsgelder (5). Ein datierter Nachtrag hält die Bestätigung der Ordnung fest.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1543-06-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key004132">Einzug</term><term ref="key004966">Gemeinde</term><term ref="key000057">Gericht</term><term ref="key000212">Löhne</term><term ref="key000574">Rechnungswesen</term><term ref="key004022">Satzung</term><term ref="key000058">Schulden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<p>
+<pb n="1"/>
+<seg><lb/>Alls sich etwa unnder der <orgName ref="org007829">gmeyn der wacht ze <placeName ref="loc010476">Hottingen</placeName></orgName>
+<lb/>ettliche unwillen unnd spän erhept, deßwägen, das ir ettliche
+<lb/>inn der genannten wacht, wann glych inen an eyn <choice><sic>gmey</sic><corr>gmeyn</corr></choice> zegan gebot<lb break="no"/>ten 
+und verkündt worden, gar nit erschinen und deßhalb dann die
+<lb/>ghorsamen personen ab söllichem irem ußblyben auch unwillig worden, 
+<lb/>habennt deßhalb die genannten gmeynnds personen eyn annder 
+<lb/>gmeyn zehaben angsëchen unnd sich an der selben unndereynannder 
+<lb/>mitt meerer hannd uff hindersich bringen<!-- auf hinter sich bringen: unter Vorbehalt der
+Berichterstattung an die auftraggebende Behörde zur endültigen
+Beschlussfassung, vgl. Idiotikon Bd. 5, Sp. 731.--> und besteten unnserer gnedigen 
+<lb/>herren <orgName ref="org002406">burgermeyster unnd raͤten der statt <placeName ref="loc000065">Zürich</placeName></orgName> erluͤteret:</seg>
+<lb/><seg n="1">Das wann nuͦnhinfür eynem, so inn <placeName ref="loc010476">Hottinger</placeName> march <choice><sic>geßen</sic><corr>gseßen</corr></choice>, gebotten 
+<lb/>oder an eyn gmeyn zekomen verkünnt werde, das der selbig ghor<lb break="no"/>samclich
+erschynen. Wo aber er das überseche, das dann er unverzogenlich
+<lb/>(wer joch der were) der gmeyn zuͦ iren hannden <measure type="currency" unit="ß" quantity="1">einen schilling</measure>  ze  
+<lb/>bûͦß zegeben verfallen sin unnd in da nützit schirmmen solle, es
+<lb/>wurde sich dann (das gott lanng wennden welle) herren not zuͦtragen
+<lb/>oder das sunnst lybsnöt, todsnöt, mitt leechen herren oder derglychen 
+<lb/>zerëchnen haben alld sunst gut erhafft ursachen, die er dann anzeygen 
+<lb/>könnte, abwennden wurden.</seg></p>
+<p><seg n="2">
+<lb/>Demnach inn obgemellter gmeyn angsechen unnd mitt meerer hand
+<lb/>eyns worden, das hinfür die <subst><del>zween nuͤwen vierer</del><add place="above" hand="other hand">vereider</add></subst>, so dann je zuͦ zyten erwelt 
+<lb/>und an ir ampt gstannden sind, die ußstaanden der wacht zuͦgehörigen 
+<lb/>schulden unnd restanntzen, es were von zinsen, zechenden, rëb, wyngelt, 
+<lb/>von wacht kouffen oder annders, innert oder ußerthalb irer wachtmarchen, 
+<lb/>deß selbigen jars <date from="--06-24" to="--06-24">von sannct <persName ref="per000049">Johanns</persName> tag bis über eyn jar</date> verfallen, 
+<lb/>unverzogennlich, wie sy mögennd, inzüchen unnd daran niemans verschonen 
+<lb/>söllennt, das beschäche dann durch stattknecht oder unndervogt. Dann 
+<lb/>wo da etwas in beytwinnckel gstellt<!-- in den Beitwinkel stellen: hinausschieben, bei Seite stellen, vgl. Idiotikon Bd.16, Sp. 692. -->, sunnst versumpt oder an jichtiger 
+<lb/>schuld von den selben <num value="2">zweygen</num> nachgelaßen, wurde inen eyn gmein 
+<lb/>an iren lon nützit zegeben schuldig wellen syn, es were dann sach, das sy ge<lb break="no"/>berliche 
+ursachen anzeygen unnd fürwennden könntind. Zuͦ dem sy 
+<lb/>ire rechnungen uffschryben unnd vermög gemellter unnserer gnedigen 
+<lb/>herren urtheyl, so inn schrifft verfaßt <unclear><add place="above" hand="other hand">bezalet</add></unclear> worden, rechnung gebenn söllen. 
+<lb/>Deßglychen auch, da nüt uß der gmeyn seckel verzeert werden, dann allein 
+<lb/>die zinns und zechennden rödel zeschryben abgeferttiget, ouch annder pflichtigen 
+<lb/>schulden bezallt werden, unnd denen <subst><del>zween nüwen viereren</del><add place="above" hand="other hand">vereider</add></subst> vom gantzen
+<lb/><subst><del>ynzüchen</del><add place="left margin" hand="other hand">jedem <choice><abbr>v</abbr><expan>vereider</expan></choice> uß geben</add></subst> von zins unnd zechennden nit meer dann <measure type="currency" unit="fl" quantity="0.5">eynen halben guldin</measure>
+<lb/>ze lon gegeben unnd von diserm der wacht gëllt ußgericht werdenn soͤlle <abbr>etc</abbr>.
+</seg></p>
+<pb n="2"/>
+<p>
+<seg n="3"><lb/>So aber eyn wacht etwas vor unnsern gnedigen herren den rëten
+<lb/>oder vor dem gricht zehanndlen unnd <num value="2">zwen</num> man, minder oder meer,
+<lb/>disen hanndel an genannten orten ze uͦben, mitt meerer hannd <subst><del>z</del><add place="overwritten">d</add></subst>arzuͦ erwelt 
+<lb/>und ußgschoßen hetten, sölle der selben jedem eins tags <measure type="currency" unit="ß" quantity="4">vier schilling</measure> uß 
+<lb/>gmeynem sëckel geben und ußgricht werden. Wurde aber gemëllter irer 
+<lb/>wacht unnd gmeyn sunst etwas annders notwenndig und anglagen sin 
+<lb/>und einer darzuͦ mitt meerer hannd erwellt wurde, das der das sellbig ane 
+<lb/>der gmeyn costen thuͦn söllte.</seg>
+</p>
+<p>
+<seg n="4"><lb/>Wyter habennt sy inn der gmeyn mitt meerer hannd angsechen unnd uff 
+<lb/>gfallen genannter unnserer <abbr>g</abbr> herren geordnet: Welicher
+<lb/>inn irer wacht seßhafft unnd inen zuͦhannden eyner gmeyn etwas zethuͦn 
+<lb/>schuldig were oder wurde, das betreffe sich dann wenig oder vil, das der 
+<lb/>das selbig<!--wurde hier etwas korrigiert oder das g vergrössert? PS: würde ich so lassen--> fürderlich ane der gmeyn costen und schaden ußrichten soͤlle. 
+<lb/>Wo aber eyner söllichs nit bezahlen welte, alls dann sölltind obgenanten 
+<lb/><num value="2">zween</num> nüwen vierer, wer dann die werinnd, söllichs mitt stattknechten
+<lb/><hi rend="underline">oder unndervögten ynzüchen</hi>, je nach dem dann inen söllichs von
+<lb/>eynem <hi rend="underline">herren burgermeyster, obervogt</hi> alld anndrer oberhannd
+<lb/>erlaupt und zuͦgelaßen wurde. Unnd was dann vom selben ynzüchen,
+<lb/>das bescheche mitt den stattknechten oder mitt dem undervogt, costens 
+<lb/>ufferlauffen, das der uff den schuldner unnd nit uff die gmeyn oder wacht 
+<lb/>wachßen und gan söllte. Ouch so menng gebott von dem undervogt an<lb break="no"/>geleyt
+wurde, das der selb schuldner im an verzug, ane der gmein costen 
+<lb/>von jedem gepot <measure type="currency" unit="h" quantity="4">vier haller</measure> ußrichten und geben sol, damit sich 
+<lb/>eyn jeder destbas zegoumen wüße.</seg>
+</p>
+<p><seg n="5">
+<lb/>Unnd so dann fürs letst unnd fürnemmist eyn zyt har mengclichem vor
+<lb/>geschwebt unnd offenbar worden vil gfhaarlicher zyten und seltzamer
+<lb/>loüffen, so dann jetz vorhannden, das deßhalb inn söllichen wachten dest<lb break="no"/>bas
+hus zehallten nit unnütz, damitt sy iren, der wacht, zugehörigen 
+<lb/>(so sich krieg ald anndre nöt zuͦtruginnd, darvor gott syn welle)
+<lb/>denocht destbas zehelffen hettind und ouch wie anndre wachten uff<lb break="no"/>kommen
+möchten, habennd deßhalb die selbigen der gmeyn zuͦghörigen
+<lb/>inn <placeName ref="loc010476">Hottingen</placeName>, uff hinndersich brinngen <add place="above" type="sign">an</add> meer gemellter unsere gnedigen
+<lb/>herren angsechen und gesetzt: Welicher hinfür unnder sy 
+<lb/>züche, der allda eygen unnd eerb innert irer march kouffe, das der selb 
+<lb/>der gmein oder wacht <measure type="currency" unit="lb" quantity="3">drü pfunnd</measure> ze ynzug geben. Welicher aber uff 
+<lb/>eyn leechen zuge, der sollte inen <measure type="currency" unit="lb" quantity="2">zwey pfund</measure>, unnd eyner, der nüt hette, 
+<pb n="3"/>
+<lb/>dann sich deß teglichen tagwans zuerneeren und under sy zuge, solte
+<lb/>inen ze ynzug <measure type="currency" unit="bz" quantity="10">zëchen batzen</measure> gëben, unnd deren jedes, es were dann
+<lb/>von eygen, von leechen oder von eim tagnower, vor und ee sy iren rauch
+<lb/>inn den hüsern hetten, ligen und bezallt werden sölte. Ob aber eyn
+<lb/>söllicher tagnouwer sich ab disem ynzug zuͦbeclagen vermeynnte,
+<lb/>der sölte inen <date type="deadline_floating holiday" dur="R/P3M">ze allen fronvasten</date><!-- dur="R/P3M" Ok für Fronfasten? PS: Ok--> das fronvasten gellt, welichs sich
+<lb/>jede fronvast <measure type="currency" unit="ß" quantity="4">vier schilling</measure> thrifft, ußrichten. Dem selben aber 
+<lb/>welltinnd sy, so kriegs oder annder nöt ynfielinnd, von der gmeyn büchs 
+<lb/>nützit zehelffen schuldig nach verbunnden sin. Unnd
+<lb/>wie wol vornaacher etwa unnder inen geprucht worden, das man
+<lb/>etwa eynem meer dann dem anndren (je nach dem und ers vormocht) 
+<lb/><add place="left margin" type="sign">ze ynzug</add> abgenommen, habennt doch sy sollichs (damit sich niemans clagen möge)
+<lb/>zuͦ glychem fal, wie obstat, zuͦnemmen verordnet, allein der meynung
+<lb/>und uß dem grunnd, der wacht, so wyt es gelanngen möcht, in nöten
+<lb/>mitt behilfflich zesyn. Ob sy kriegs nöt, türe oder annder derglychen
+<lb/>anstieße, das sy dest minder gellt uffnemmen und biderb lüt bekümbern
+<lb/>müßten, unnd ouch, wie obstat, neben anndern wachten begruͦnen,<!--  sich körperlich, geistig oder finanziell erholen, vgl. Idiotikon Bd. 2, Sp. 755.-->
+<lb/>uffkomen unnd ire ordnungen behallten möchten.</seg>
+<seg>Ungezwyfelter
+<lb/>hoffnung (die wyl hier inn beschribne stuck alle, ußgnommen der artickel
+<lb/>mitt dem ynzug, allso allweg gehallten und gebrucht, unnd aber jetz
+<lb/>sich ettlich widerspennig unnd unghorsam sind und dem ze widerfechten
+<lb/>vermeynennt) vor und vil gemelte unnsere gnedigen herren
+<lb/>sy darinnen vätterlich bedenncken und diß artickel all (die sy achtend
+<lb/>niemans ze schwer nach unzimlich syn) zuͦ bestetten, denen crafft ze<lb break="no"/>gebenn 
+unnd die zuͦverwilligen, dermaßen sy hinfür nach lut
+<lb/>der sëlben dest dapfarer zehanndlen und denen nachzekommen wüßinnt.</seg>
+</p>
+</div>
+<div>
+<p>
+<add hand="other hand" place="below">
+<lb/>Bewilget, doch vorbehalten eigen und lehen hofstatten
+<lb/>und den man myndern und meeren mag, ob etwar
+<lb/>inred hete. Deßglich, das dheiner angenommen <lb/>werde, er zeige
+dann syn urkunde und manrecht.
+<lb/>Actum <date when="1543-06-11">mentag nach Medardi
+<choice><sic>ano</sic><corr>anno</corr></choice>
+<abbr>etc</abbr>
+43</date>.</add></p></div>
+<div><ab type="dorsal" place="verso"><placeName ref="loc010476">Hottingen</placeName>. <date when="1543">1543</date></ab></div>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Abstrâfung deren, so in dem gemeind halten zu <placeName ref="loc010476">Hottingen</placeName> ausbleiben; einzeühung selbiger 
+<lb/>gemeind <date dur="R/P1Y">jährliche</date> gefählen; besoldung der abgeordneten; abstattung des ynzug<lb break="no"/>gelltes. <date when="1543">1543</date>.
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Wie der Nachtrag festhält, bestätigte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> den vorliegenden Entwurf grösstenteils am 11. Juni 1543, ausgenommen die Bestimmungen zum Einzug.
+Zu diesen erliess er am selben Tag einen Einzugsbrief, der teilweise andere Beträge und Regelungen als die von <placeName ref="loc010476">Hottingen</placeName> vorgeschlagenen enthielt: Neue Zuzüger haben drei Pfund zu bezahlen, Tauner ohne Eigentum, die das Gemeindegut 
+nicht in Anspruch nehmen wollen, entrichten dagegen nur ein Pfund und fünf Schilling. Sollte ein Tauner diese Gebühr nicht bezahlen wollen, schulde er der Wacht zuhanden des Gemeindeguts zu allen vier Fronfasten vier Schilling, dürfe dabei aber keine Ansprüche 
+auf die Gemeindekasse erheben, sollte er je in Not geraten. Fremde werden unter Vorbehalt des Vorweisens ihres Mannrechtsbriefs und Abschiedsbriefs angenommen, vorausgesetzt ihre Aufnahme gereicht weder der Stadt noch der Wacht <placeName ref="loc010476">Hottingen</placeName> zum Nachteil. 
+Wer dagegen auf seine eigenen Güter in <placeName ref="loc010476">Hottingen</placeName> zieht oder als Lehensmann darauf bestellt wird, ist von jeglicher Einzugsgebühr befreit (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3345624">StAZH B V 6, fol. 494v</ref></bibl>). 
+1582 wurde der Einzug für die Gemeinden um die Stadt einheitlich geregelt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_097">SSRQ ZH NF II/11, Nr. 97</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

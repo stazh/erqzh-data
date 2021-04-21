@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_070_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250862">StAZH C I, Nr. 2478</idno></msIdentifier><head>Urteil in einem Streit über die Besiegelung von Mannrechtsbriefen in der Gerichtsherrschaft Maur</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen dem Vogt von Greifensee, Hans Jakob Meiss, sowie Heinrich Aeppli, dass letzterer als Gerichtsherr von Maur keine Kompetenz habe, Mannrechtsbriefe und andere Urkunden zu besiegeln. Alle betreffenden Dokumente müssen rechtsgültig durch den Vogt oder seinen Statthalter besiegelt werden. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.0"/><width unit="cm" quantity="36.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.5"/></dimensions></extent><condition>Löcher in Faltung</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1552-05-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000038">Gerichtsherrschaft</term><term ref="key003820">Mannrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2478__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd khundt meͣngklichem mit disem brief, demnach der unser <persName ref="per012757">Heynrich
+<lb/>Äppli</persName> von <placeName ref="loc008648">Mur</placeName> vermeynen wellen, das im die besiglung der mannreͣchten unnd anderer brieffen, so zu <placeName ref="loc008648">Mur</placeName> ufgericht werden, vermög
+<lb/>syner gerichten, reͣchten und altem herkomen, so er zu <placeName ref="loc008648">Mur</placeName> hette, zustan und er sömlich brief zubesiglen gut fug, ouch gwalt, und inn unser
+<lb/>vogt zu <placeName ref="loc000348">Gryfensee</placeName> daran (wie er zethund fürgenomen) ungesumpt und unverhindert laßen solte; und aber der from, vest, unnser
+ge<lb break="no"/>trüwer, lieber burger unnd vogt zu <placeName ref="loc000348">Gryfennsee</placeName>, <persName ref="per013921">Hanns Jacob Meyß</persName>, dargegen fürgewënndt, das gemëlter <persName ref="per012757">Äppli</persName> zu <placeName ref="loc008648">Mur</placeName> nit wytere
+rëcht<lb break="no"/>same dann von <measure type="currency" unit="ß" quantity="3">drygen</measure> biß uff die <measure type="currency" unit="ß" quantity="9">nün schilling</measure> zugepieten habe, welliches syns bedunckens sich nach niendert dahin erstrecken, das im die
+<lb/>besiglung der manrechten unnd anderer brieffen darumb zugehörig syn, dann alle brief unnd besonders die mannrecht allenthalben
+<lb/>vor den rëchten oberkeiten ufgericht unnd mitnammen inn denselbigen gemeldet unnd geoffenbaret werde, wellichermaßenn einer
+<lb/>erporenn, ouch wie er sich gehalten unnd ob er mit lypeigenschafft verhaft oder nit. Darumb er verhoffte, das alle besiglung zu <placeName ref="loc008648">Mur</placeName>,
+<lb/>so mit reͣcht erkhennt, ime als von unnser herschafft <placeName ref="loc000348">Gryfensee</placeName> weͣgen zethund unnd zuͦverfertigen zustan unnd <persName ref="per012757">Eppli</persName> sins
+vor<lb break="no"/>habenns abgewyßt werdenn sölte.</seg>
+<seg>Unnd als wir sy, die parthygen, beydersidts inn sömlichem irem anliggen unnd
+be<lb break="no"/>schwernußen sampt des <persName ref="per012757">Äpplis</persName> gwarsammen, damit er syn fürneͣmen zubehalten vermeynnt, nach aller notdurft verhort
+<lb/>unnd aber darinn niendert verstan noch finden könen, das er zu keyner besiglung, so vor rëcht gevertiget werden, eyniche gereͣchtigkeit,
+<lb/>habennt wir unns daruf erkheͣnnt unnd wellennt, das <persName ref="per012757">Heinrich Eppli</persName> obvermeͣlts synes vorhabenns abstan, unnd was
+<lb/>fürohin zu <placeName ref="loc008648">Mur</placeName> zubesiglenn, es sigen mannreͣcht oder annder brief, die söllen alleynn von unnseren vögten zu <placeName ref="loc000348">Gryfennsee</placeName>
+<lb/>ald iren geordnetten statthaltern von oberkeits weͣgenn besiglet werden. Doch sölle disere unnsere bekanntnus gedachtem
+<lb/><persName ref="per012757">Eppli</persName> sonnst inn all annder wëg ann synen brieffen, siglenn unnd gereͣchtigkeiten unvergriffen unnd unscheͣdlich heyßenn unnd
+<lb/>syn.</seg>
+<seg>Inn krafft diß briefs, daran wir des zu urkhund unnser statt <placeName ref="loc000065">Zürich</placeName> secret insigel offenlich heͣngken laßen, <origDate when="1552-05-11">mitwuchs
+<lb/>den einlifftenn tag meygens nach der gepurt Christi gezalt fünffzechenhundert fünnfftzig unnd zwei jar</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2478__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Umb die besiglung der mannrechten
+<lb/>unnd annderer briefen, so zuͦ <placeName ref="loc008648">Mur</placeName>
+<lb/>geverttiget werden, <origDate when="1552">1552</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Zwischen dem Vogt von <placeName ref="loc000348">Greifensee</placeName> und der Familie <orgName ref="org004085">Aeppli</orgName> als Inhaberin
+der Gerichtsherrschaft <placeName ref="loc008648">Maur</placeName> war es bereits zuvor zu Kompetenzstreitigkeiten gekommen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_068">SSRQ ZH NF II/3, Nr. 68</ref></bibl>;
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Aeppli 1979</ref>, S. 97-98</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 131-132, S. 179-182</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

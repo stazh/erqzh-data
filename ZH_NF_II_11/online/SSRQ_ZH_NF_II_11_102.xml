@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_102</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744185">StAZH A 154, Nr. 31</idno></msIdentifier><head>Kosten der Huldigung in der Obervogtei Altstetten und in der Obervogtei Wiedikon und Albisrieden</head><msContents><summary>Aufgeführt werden unter anderem die Kosten für das Huldigungsmahl im Wirtshaus von Altstetten sowie der Reitlohn für die Stadtbewohner; die Kosten werden zwischen den Vögten von Altstetten und jenen von Wiedikon und Albisrieden verteilt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1601-09-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000215">Huldigung</term><term ref="key000574">Rechnungswesen</term><term ref="key004098">Versammlung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<lb/>Als die herren vogt zuͦ <placeName ref="loc009828">Altstetten</placeName>, <placeName ref="loc009863">Wiedicken</placeName> und <placeName ref="loc010356">Rieden</placeName>
+<lb/>uff sontag, den <date when="1601-09-13" calendar="Julian">13tden <choice><abbr>septemb</abbr><expan>september<!-- oder septembers? septembris? PS september ok; Bitte heweils Kalender angeben --></expan></choice> 1601</date>, den eyd inge<lb break="no"/>nommen,
+sind zuͦ <placeName ref="loc009828">Altsteten</placeName> zum imbiß gsyn:</p>
+<table>
+<row>
+<cell>12 personen uß der statt</cell><cell/><cell/>
+</row>
+<row>
+<cell><placeName ref="loc009828">Altstetter</placeName></cell><cell>16</cell><cell>Summa 62 personen, </cell>
+</row>
+<row>
+<cell><placeName ref="loc010356">Rieder</placeName></cell><cell>12</cell><cell>thuͦt, 8 mal per <measure type="currency" unit="ß" quantity="18">18 </measure> und </cell>
+</row>
+<row>
+<cell><placeName ref="loc010352">Esch</placeName><note><placeName ref="loc010352">Aesch</placeName><!-- Aesch bei Birmensdorf --> bildete zusammen mit <placeName ref="loc009828">Altstetten</placeName> eine Obervogtei. Die Verwaltung erfolgte nicht durch einen eigenen Vogt, sondern wurde der Reichsvogtei angegliedert (<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 45</bibl>).</note></cell><cell>12</cell><cell>54 mal per <measure type="currency" unit="ß" quantity="16">16 </measure>, an gelt </cell>
+</row>
+<row>
+<cell><placeName ref="loc009863">Wiedikommer</placeName></cell><cell>10</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="50">50 </measure>
+<measure type="currency" unit="ß" quantity="8">8 </measure></measureGrp>.</cell>
+</row>
+<row>
+<cell>Morgenbrot</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="4">4 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>Abenthrunck</cell><cell><measure type="currency" unit="lb" quantity="9">9 </measure></cell>
+</row>
+<row>
+<cell>Haber und hoͤw</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="6">6 </measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>Summa, so dem würt zuͦ <placeName ref="loc009828">Altsteten</placeName> ghört</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="67">67 </measure>
+<measure type="currency" unit="ß" quantity="2">2 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>Letzi inn kuchi unnd stal</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp></cell><cell>Zalt ich</cell>
+</row>
+<row>
+<cell>Gygeren</cell><cell><measure type="currency" unit="ß" quantity="5">5 </measure></cell><cell/>
+</row>
+</table>
+<head type="subtitle">Ryt- unnd roßlohn</head>
+<table>
+<row>
+<cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell><choice><abbr>seckelm</abbr><expan>seckelmeister</expan></choice>
+<persName ref="per002116">Escher</persName>, ryt- und roßlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell>synem diener</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell><choice><abbr>seckelm</abbr><expan>seckelmeister</expan></choice>
+<persName ref="per002005">Kambli</persName>, rytlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell><persName ref="per025667">Felix Nägeli</persName>, ryt- und roßlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell>stattschryber, rytlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell><persName ref="per025668">Uͦli Stöckli</persName>, ryt- und roßlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell>obman <persName ref="per007203">Raanen</persName>, rytlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell><persName ref="per025665">Hartman</persName></cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell><abbr>m</abbr>
+<persName ref="per025670"><choice><abbr>Ludw</abbr><expan>Ludwig</expan></choice> Vögeli</persName>, rytlohn</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell><persName ref="per025671">Welti</persName></cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell>schryber <persName ref="per025555">Schüchtzer</persName><note>Gemeint sein könnten hier sowohl <persName ref="per025555">Rudolf Scheuchzer</persName> als auch <persName ref="per025554">Jakob Scheuchzer</persName>, da beide zeitgleich Schreiber waren.</note>, ryt- und roß<lb break="no"/>lohn</cell>
+</row>
+</table>
+<p>
+<lb/>Summa alles, wie obstaht,
+<lb/><measureGrp><measure type="currency" unit="lb" quantity="76">lxxvj </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp>
+</p>
+<head type="subtitle">Disere summ von ein anderen gesönderet bringt</head>
+<table>
+<row>
+<cell>den vögten zuͦ <placeName ref="loc009828">Altstetten</placeName></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="47">xxxxvij </measure>
+<measure type="currency" unit="ß" quantity="10">x </measure></measureGrp></cell>
+</row>
+<row>
+<cell>vögten zuͦ <placeName ref="loc009863">Wiedicken</placeName> unnd <lb/><placeName ref="loc010356">Rieden</placeName></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="32">xxxij </measure>
+<measure type="currency" unit="ß" quantity="17">xvij </measure></measureGrp></cell>
+</row>
+</table>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso"><lb/><placeName ref="loc009828">Altsteten</placeName> und <placeName ref="loc009863">Wiedicken</placeName> eyd
+<lb/>innemmen anno <origDate when="1601">1601</origDate>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Einnahme eines gemeinsamen Mahls als gemeinschaftsstiftender Akt tritt in vielen Zusammenhängen auf, etwa bei Hochzeiten und Beerdigungen, aber auch als konstitutives Element von Zünften und Gesellschaften. Auch für die Anerkennung und Bestätigung 
+von Herrschaftsbeziehungen war gemeinsames Essen und Trinken sehr wichtig: den Abschluss der grundherrlichen Maiengerichte bildete jeweils ein Imbiss oder Abendtrunk (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_101">SSRQ ZH NF II/11, Nr. 101</ref></bibl>). 
+Die Huldigungen der Obervögte waren ebenfalls mit einem Mahl oder Abendtrunk verbunden. Die Kosten wurden von der Stadt übernommen und mussten daher nachher den Säckelmeistern gemeldet werden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322310">StAZH B VI 246, fol. 320v</ref></bibl>). 
+Für das 17. Jahrhundert sind einige dieser Abrechnungen aus den Obervogteien <placeName ref="loc009865">Wollishofen</placeName>/<placeName ref="loc010425">Enge</placeName> und <placeName ref="loc009863">Wiedikon</placeName>/<placeName ref="loc010356">Albisrieden</placeName> sowie mindestens ein Beispiel 
+aus <placeName ref="loc009768">Höngg</placeName> überliefert. (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=686045">StAZH A 120, Nr. 29</ref></bibl>; 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686050">Nr. 34</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686051">Nr. 35</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686052">Nr. 36</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686259">Nr. 37</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=686940">Nr. 49</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686941">Nr. 50</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=687493">Nr. 58</ref></bibl>; 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=744187">StAZH A 154, Nr. 33</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744188">Nr. 34</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744487">Nr. 40</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744489">Nr. 42</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744490">Nr. 43</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744493">Nr. 46</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=744497">Nr. 50</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=747386">Nr. 69</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=755148">Nr. 83</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=755149">Nr. 84</ref></bibl>;
+<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322311">StAZH A 126, Nr. 119</ref></bibl>).</p>
+<p>Im ersten Drittel des 17. Jahrhunderts wurden offenbar die Huldigungen der Vogtei <placeName ref="loc009828">Altstetten</placeName> und 
+<placeName ref="loc010352">Aesch</placeName> zusammen mit jenen der Obervogtei <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc010356">Albisrieden</placeName> abgehalten, die Kosten jedoch aufgeteilt, so wie im vorliegenden Stück; spätere Abrechnungen nennen nur noch 
+die Obervogtei <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc010356">Albisrieden</placeName>. Hingegen befinden sich die Abrechnungen der Huldigungen für die Obervogteien <placeName ref="loc009865">Wollishofen</placeName> und <placeName ref="loc010875">Wipkingen</placeName> 
+zwischen 1637 und 1639 zwar auf demselben Zettel, fanden aber zu unterschiedlichen Zeiten statt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=686045">StAZH A 120, Nr. 29</ref></bibl>).</p>
+<p>Zu den Huldigungsmählern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Holenstein 1991</ref>, S. 472-478</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HRG (2. Aufl.)</ref>, Art. Mahl und Trunk, Bd. 3, Sp. 1153-1155</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

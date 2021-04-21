@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_008</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1399583">StAZH B II 2, fol. 111r</idno></msIdentifier><head>Bestimmungen über die Besoldung des Vogts von Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erläutern, wie mit Heinrich Biberli als Vogt von Greifensee abgerechnet wurde und legen fest, wie die Amtsinhaber künftig zu entlöhnen sind. Sämtliche Bussen und weiteren Einnahmen muss der Vogt der Stadt abliefern. Behalten darf er die Weiherfische, wofür er den Fischern Kernen geben muss, sowie Hühner und Eier. Ausserdem darf er den Obstgarten bei der Burg nutzen. Die Äcker, die er bebaut hat und die mit dreieinhalb Mütt Kernen veranschlagt sind, werden ihm von seinem Lohn von 50 Pfund abgezogen. Darin eingeschlossen ist auch die Entlöhnung von drei Knechten auf der Burg. Wenn ein künftiger Vogt weniger als drei Knechte beschäftigt, soll ihm dies entsprechend von den 50 Pfund abgezogen werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1404-07-04"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 1/2, S. 361, Nr. 201</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000184">Bussen</term><term ref="key000536">Fischerei</term><term ref="key000212">Löhne</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="111r"/>
+<head>
+<lb/>Umb den vogtlon ze <placeName ref="loc000348">Griffense</placeName>
+</head>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und die raͤt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, tuͦn menlichen
+<lb/>ze wissen, als <persName ref="per010909">Heinrich Biberli</persName> dz nechst vergangen jar ze <placeName ref="loc000348">Griffense</placeName><note><placeName ref="loc000065">Zürich</placeName>
+hatte Burg und Herrschaft <placeName ref="loc000348">Greifensee</placeName> am <date when="1402-10-25">25. Oktober 1402</date> von Graf <persName ref="per000327">Friedrich von Toggenburg</persName> gekauft
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_007">SSRQ ZH NF II/3, Nr. 7</ref></bibl>).</note> von
+<lb/><orgName ref="org002406">u̍nser und der zweyhundert des grossen rates</orgName> heissens wegen vogt
+<lb/>gesin ist und darumb wir im <measure quantity="50" unit="lb" type="currency">fu̍nfzig pfunt pfenning</measure> ze lon geben
+<lb/>haben, doch also, dz er alle buͦssen, so ze <placeName ref="loc000348">Griffense</placeName> und in dien gerichten,
+<lb/>die darzuͦ gehoͤrent, gefallent und alle ander nu̍tz u̍ns geben und
+<lb/>verrechnot haͧt, usse gelassen die wyer fisch, die sint im beliben, und haͧt
+<lb/>oͧch er den kernen, so man dien vischern davon git, oͧch geben. Und den
+<lb/>boͧngarten bi der vesty haͧt er oͧch genutzet. Huͤnr und eyer sint
+<lb/>im oͧch beliben, und etwz akern hatte er gesaͤyet, die gewonlich
+<lb/><measure type="volume" quantity="3.5" unit="Mütt" commodity="spelt">vierdhalb mu̍t kernen</measure> geltent, haben wir im an dien <measure quantity="50" unit="lb" type="currency">fu̍nfzig pfunt
+<lb/>pfenning</measure> abgeslagen. Es haͧt oͧch der <persName ref="per010909">Biberli</persName> in der vesty drye
+<lb/>knecht in sinem kosten gehept und herumb syen wir einhellklich
+<lb/>uͤbereinkomen, dz man keinem vogt, der von u̍nsern wegen ze
+<lb/><placeName ref="loc000348">Griffense</placeName> hinnanhin vogt ist, <date dur="R/P1Y">jerlich</date> nit mer geben so, dann <measure type="currency" quantity="50" unit="lb">fu̍nfzig
+<lb/>pfunt pfenning</measure> und dz oͧch jeklicher vogt u̍ns und u̍nser gemeinen
+<lb/>statt alle nu̍tz und buͦssen, so ze <placeName ref="loc000348">Griffense</placeName> und in dien vogtyen,
+<lb/>so darzuͦ gehoͤrent, gefallent, sol geben und verrechnen und nu̍t
+<lb/>ussgelassen, dann als vor bescheiden ist. Welcher vogt aber minder
+<lb/>knecht hette dann drye, dz sol man im abslachen an dien <measure type="currency" quantity="50" unit="lb">fu̍nfzig
+<lb/>pfunden</measure> nach marchzal ungefarlich.</seg> <seg><foreign xml:lang="la">Actum <origDate when="1404-07-04">iiij die julii anno <abbr>etc</abbr>
+<lb/><choice><abbr>quadringenmo</abbr><expan>quadringentesimo</expan></choice> quarto</origDate></foreign>.</seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Wie aus dem vorliegenden Beschluss hervorgeht, hatte der Rat schon kurz nach dem Erwerb des Pfandes
+einen Vogt nach <placeName ref="loc000348">Greifensee</placeName> entsandt,
+der wie zuvor die adligen Besitzer der Herrschaft oder ihre Vertreter im Schloss wohnte.
+Auf diese Weise entstand die erste äussere, von einem obrigkeitlichen Vertreter
+vor Ort verwaltete Vogtei der Stadt <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 86-94</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 28-29</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis"> Weibel 1996</ref>, S. 37-43</bibl>).
+</p>
+<p>Der hier erwähnte Vogt <persName ref="per010909">Heinrich Biberli</persName>
+war wohl der erste Vertreter der <orgName ref="org002406">Zürcher Obrigkeit</orgName> in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216, 313</bibl>).
+Er erscheint in dieser Funktion erstmals anlässlich des Maiengerichts von <placeName ref="loc007625">Nossikon</placeName> im Jahr 1403
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1093843">ERKGA Uster I A 1</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

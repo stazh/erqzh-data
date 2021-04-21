@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_085</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=735862">StAZH A 123.3, Nr. 53</idno></msIdentifier><head>Kundschaft und Weisung in einem Streit vor dem Gericht in Uster wegen Verleumdung mit dem Vorwurf der Hexerei</head><msContents><summary>Untervogt Ueli Feusi von Uster beurkundet im Auftrag des Obervogts Hans Balthasar Meiss einen Streit vor dem Gericht in Uster zwischen David Eggstein und seiner Ehefrau Sabina Wolf einerseits sowie Hans Ulrich Berchtold und dem Scherer Kaspar Weber aus Uster andererseits, weil letztere verbreitet hätten, es gebe drei Hexen im Dorf, nämlich die genannte Sabina Wolf, die Bierwässerin und Adelheid Keller. Darüber wird bei verschiedenen Personen Kundschaft eingeholt. Die Zeugen sagen aus, dass sie die Vorwürfe gehört und teilweise zu entkräften versucht hätten. Unter anderem habe Berchtold die Klauen einer kranken Kuh ins Feuer geworfen und behauptet, der darauf erfolgte Knall belege, dass Sabina Wolf die Kuh verhext habe. Die befragten Frauen sagen aus, dass Sabina Wolf Adelheid Keller beschuldigt habe, sie verhext und gelähmt zu haben. David Eggstein entgegnet, dass seine Frau dies vielleicht in ihrer Krankheit gesagt habe, als sie nicht wusste, was sie redet. Nach Verhörung der Kundschaft sagen Eggstein und seine Ehefrau, dass daraus hervorgehe, dass Berchtold und der Scherer sie tatsächlich als Hexe verschrien hätten. Weil dies ihr Leben, ihre Ehre sowie ihr Hab und Gut bedrohe, verlangen sie, dass die beiden ihre Worte zurücknehmen und sie nach Amtsrecht und Brauch für ihre Kosten entschädigen. Berchtold und der Scherer erwidern, dass sie zu ihren Aussagen vor dem Junker in Greifensee und vor dem Zürcher Rat stehen: Sabina Wolf habe die Kuh des Scherers verhext, die beiden Frauen hätten sich gegenseitig gelähmt und es gebe drei Hexen im Dorf, nämlich Sabina Wolf, die Bierwässerin und Adelheid Keller. Die Richter entscheiden einhellig, dass es sich um eine hochgerichtliche Angelegenheit handelt, weswegen sie den Fall an das Zürcher Ratsgericht verweisen. Junker Hans Balthasar Meiss siegelt. Nachtrag von anderer Hand: Am 18. November 1573 urteilt das Zürcher Ratsgericht, dass die Äusserungen über Sabina Wolf aufgehoben werden, weil Berchtold und der Scherer sie nicht belegen können. Weil die beiden mehr gesagt haben, als sie verantworten können, werden sie in Gefangenschaft gelegt. Sie müssen für alle Kosten aufkommen, und Berchtold muss Sabina Wolf entschädigen. Weil er die Klauen einer Kuh im Namen des Teufels ins Feuer geworfen und dabei ungöttliche Worte gesprochen hat, wird er zusätzlich mit zwei Mark gebüsst und angehalten, solche Praktiken fortan zu unterlassen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Heft (10 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="absent"><persName role="sigillant">Hans Balthasar Meiss</persName></seal></sealDesc></physDesc><history><origin><origDate from="1573-11-02" to="1573-11-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000946">Ehre</term><term ref="key000285">Ehrverletzung</term><term ref="key000945">Hexerei</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key003261">Kundschaft</term><term ref="key005411">Medizinische Versorgung</term><term ref="key003043">Nachbarschaft</term><term ref="key000292">Verleumdung</term><term ref="key005400">Weisung</term><term ref="key004865">Zauberei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head place="verso" type="title"><lb/>Wyssunng für unnsser gnedig herren
+<lb/>unnd oberen, <orgName ref="org002406">burgermeyster unnd
+<lb/>raath der statt <placeName ref="loc000065">Zürrich</placeName></orgName></head>
+<pb n="1"/>
+<pb n="2"/>
+<p><seg><lb/>Ich, <persName ref="per011041">Uͦlly Feussy</persName>, unndervogt zuͦ <placeName ref="loc006198">Uster</placeName>,
+<lb/>bekhänn mich offennlich mit dissem brief,
+<lb/>das ich uf hütt synn dattum zuͦ <placeName ref="loc006198">Uster</placeName> an
+<lb/>gewonnlicher gricht statt ein offen, verbannen
+<lb/>gricht gehaltenn unnd besässenn hab an statt
+<lb/>und in nammen der edlenn, frommen, eerren
+<lb/>vesten, fürsichtigenn, eersammen unnd wyssen,
+<lb/>eynnäs <orgName ref="org002406">burgermeysters unnd raath der
+<lb/>statt <placeName ref="loc000065">Zürrich</placeName></orgName>, und von sonnders
+<lb/>bevelch unnd heyssenns des edlen, vestenn
+<lb/>junckherr <persName ref="per011048">Hannß Balthissarn Meyß</persName>, burger
+<lb/>der ob genampten statt <placeName ref="loc000065">Zürrich</placeName>, vogt der
+<lb/>herrschafft <placeName ref="loc000348">Gryffennsee</placeName>, aller mynner gnedigen
+<lb/>unnd günstigen, liebenn herren.</seg>
+<seg>Unnd
+<lb/>khamendt für mich unnd das offen, verbanen
+<lb/>gricht mit iren zuͦ rächt erloupten fürsprächen
+<lb/>der <persName ref="per011034">Daͧvit Eggsteyn</persName> unnd syn eeliche husfrouw
+<lb/><persName ref="per011035">Sabyna Wolfyn</persName> an ein unnd mit inen
+<lb/>hie zuͦ gägenn <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName> mit
+<lb/>sampt sym bystand unnd <persName ref="per013358">Caspar Wäber</persName>,
+<lb/>der schärer, anderem teyl, ouch alle von <placeName ref="loc006198">Uster</placeName>.
+<lb/>Unnd lies <persName ref="per011034">Daͧvit Eggstein</persName> unnd syn eeliche
+<lb/>husfrouw in rächt eroffnnen unnd dartuͦn,
+<lb/>wie das innen fürkhommen, das ettwas redenn
+<lb/>über sy us gangendt, namblich vom <persName ref="per011037">Hanns Uͦrich
+<lb/>Berchtoldt</persName> unnd <persName ref="per013358">Caspar Schärer</persName><!-- rhr: Caspar Weber, der Scherer. -->, das es söttendt
+<lb/><num value="3">dry</num> hätzgen im dorff syn, namblich sy die ein,
+<lb/>die <persName ref="per013937">Bir Wässeri</persName> die ander unnd die <persName ref="per011045">Adelheyd
+<lb/>Källeri</persName> die drit.</seg>
+<seg>Unnd uf die sälbigen reden
+<lb/><persName ref="per011034">Daͧvit Eggstein</persName> unnd synn eeliche husfrouw
+<pb n="3"/>
+<lb/>gen <placeName ref="loc008569">Gryffennsee</placeName> keert zuͦ dem junckherr
+<lb/>unnd vogt unnd im die sachenn also an
+<lb/>zeigt, ouch hiebin in umb rat bättenn, do er
+<lb/>inen zum bscheyd unnd antwort gäben, sy mögent
+<lb/>wol disse pärsonen, von dennen die reden usgangen,
+<lb/>zuͦ <placeName ref="loc006198">Uster</placeName> mit rächt an nämmen. Dassälbig sy taͧn
+<lb/>unnd ir huß raͧth unnd farrende hab versetzt,
+<lb/>daͧmit sy könnendt die sach mit rächt anfaͧchen,
+<lb/>unnd stannde uf denn hüttigen tag hie vor
+<lb/>dem rächten unnd wel die frouw gar
+<lb/>unnd ganntz nüt syn unnd vermein, sig
+<lb/>ouch guͦter hoffnung, daß <persName ref="per011037">Hanns Uͦrich
+<lb/>Berchtoldt</persName>, der <persName ref="per013358">Caspar Schärer</persName> die wort, die
+<lb/>sy grett, ab irenn tuͦgennt oder aber die zuͦ
+<lb/>iren bringent, wie rächt sig, dann sy wel ir
+<lb/>hab unnd guͦt, eer, lyb unnd laͤbenn daran
+<lb/>setzen, das sy die frouw nüt sig noch syn wel.</seg>
+</p>
+<p><lb/>Unnd haruf <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName> mit
+<lb/>sampt sym bystannd sich verantworten lassen,
+<lb/>er kön nüt ab synn, er hab vilicht ettwas
+<lb/>worten grett, sy habennt aber in darzuͦ
+<lb/>verursachet, dann die <persName ref="per011035">Saby</persName> unnd die
+<persName ref="per011045">Adel<lb break="no"/>heyd Källery</persName> habennt ein anderen sälbs
+<lb/>ghätzgät unnd ouch von ein anderen
+<lb/>grett, sy heygent ein anderen erlämpt, unnd
+<lb/>zuͦ dem die <persName ref="per011045">Adelheyd Källery</persName> zum <persName ref="per013358">Caspar
+<lb/>Schärer</persName> khommen unnd zuͦ im grett, die
+<lb/><persName ref="per011035">Saby</persName> hab sy an eim arm erlämpt unnd
+<lb/>in päten, er söl iren daran hälfen, do <persName ref="per013358">Caspar
+<pb n="4"/>
+<lb/>Schärer</persName> zuͦ irenn grett: <q>Die <persName ref="per011035">Saby</persName> seit, du habist
+<lb/>sy erlämpt.</q> Heygennt sy ein anderen erlämpt,
+<lb/>so söllendt sy ein anderen widerrumb
+<lb/>hälfen. Unnd die wyl die <persName ref="per011035">Saby</persName> unnd
+<lb/>die <persName ref="per011045">Källery</persName> sälbs ein annderen an gäbenn
+<lb/>und ein anderen erlämpt unnd sömbliche
+<lb/>redenn jaͧr unnd tag von inen us gangen,
+<lb/>das man wol wüß, so sig er guͦtter hoffnung
+<lb/>unnd vermein, das si die sälbigen redenn
+<lb/>ab innen tuͦgent. Unnd wan dassälbig
+<lb/>beschäch, so wel er dan der <persName ref="per011035">Sabynen</persName> ouch
+<lb/>antwort gäben umb die wort, die er grett
+<lb/>hab.
+</p>
+<p><lb/>Unnd harruf <persName ref="per013358">Caspar Schärrer</persName> sich
+verant<lb break="no"/>wortenn lassen, er kön nüt ab syn, die wort,
+<lb/>die er grett, derrenn sig er noch uf den hütigen
+<lb/>tag gichtig unnd kanntlich. Die <persName ref="per011045">Adelheyd
+<lb/>Källery</persName> sig sälbs zuͦ im in syn huß khommen
+<lb/>unnd zuͦ im gsagt, die <persName ref="per011035">Saby</persName> hab sy an eim
+<lb/>arm erlämpt, unnd in päten, er söl iren
+<lb/>daran hälfen. Do er zuͦ iren gsprochen: <q>Man
+<lb/>seit, du habist die <persName ref="per011035">Saby</persName> erlämpt. Hännd ir
+<lb/>ein anderen erlämpt, so ganng und hälfent
+<lb/>ein anderen wider unnd lönd mich
+<lb/>unghyt. Gang und pit sy, dassy dir wider hälf.
+<lb/>Du weyst wol, wie du sy päten saͧt, so muͦs sy dir
+<lb/>widerrumb hälfen.</q> Unnd zuͦ dem der
+<lb/><persName ref="per011034">Daͧvit Eggstein</persName> und syn frouw sälbs grett,
+<lb/>die <persName ref="per011045">Källery</persName> hab sy erlämpt. Unnd wo der
+<pb n="5"/>
+<lb/><persName ref="per011034">Daͧvid Eggstein</persName> unnd syn husfrouw dessin
+<lb/>nüt gichtig unnd kanntlich, das si grett,
+<lb/>die <persName ref="per011045">Källery</persName> hab sy erlämpt unnd iren
+<lb/>ein bagen streich gäbenn, so begär er, harumb
+<lb/>biderb lüt zuͦ verhörren lassenn, das dem also
+<lb/>sig.
+</p>
+<p><lb/>Unnd harruf <persName ref="per011034">Daͧvit Eggstein</persName> unnd syn
+<lb/>eeliche husfrouw sich abermaͧls
+ver<lb break="no"/>antwortenn lassen, wie der <persName ref="per013358">Caspar
+<lb/>Schärrer</persName> khomme, sy söttenndt sälbs grett
+<lb/>haben, die <persName ref="per011045">Källeri</persName> hab sy erlämpt und iren
+<lb/>ein bagen streich gäben. Das sig gar nüt
+<lb/>unnd sig ouch der worten nüt gichtig noch
+<lb/>kanntlich, dan sy habennt die <persName ref="per011045">Källeri</persName> gar
+<lb/>nüt darfür unnd wüssendt ouch nüt
+<lb/>dann liebs unnd guͦtz von iren, unnd
+<lb/>es werd sich ouch durch kein biderman
+<lb/>nüt erfinden, das si nüt von der <persName ref="per011045">Källeren</persName>
+<lb/>gret habennt, dan sy wüssent nüt von iren
+<lb/>unnd habent sy ouch nüt darfür. Doch
+<lb/>sy möcht vilicht wol ettwas worten grett
+<lb/>han in irer kranckheit, wie dan got, der
+<lb/>almächtig, sy an grifen mit dem touben
+<lb/>haupt wee, unnd so sy ettwas grett,
+<lb/>so sig es iren gar nüt darvon zwüssenn
+<lb/>und die in einer touben wys grett. Aber
+<lb/>es sig iren nüt zwüssen, das si gar und gantz
+<lb/>nüt gret hab, dann si wüs nüt, unnd
+<lb/>wie wol der <persName ref="per011034">Davit Eggstein</persName> sälbs ettwas
+<pb n="6"/>
+<lb/>worten von synner frouwen grett, sy hab
+<lb/>aber die in einer touben wys grett.
+</p>
+<p><lb/>Unnd harruf <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName>
+<lb/>sich abermal verantworten lassen, wo der
+<lb/><persName ref="per013358">Caspar Schärer</persName> der worten nüt gichtig noch
+<lb/>kantlich sig, das er grett, die <persName ref="per011045">Källery</persName> sig zuͦ
+<lb/>im in syn hus khommen unnd zuͦ im gret,
+<lb/>die <persName ref="per011035">Saby</persName> hab sy an eim arm erlämpt,
+<lb/>do <persName ref="per013358">Caspar Schärer</persName> zuͦ iren gsprochen: <q>Die <persName ref="per011035">Saby</persName>
+<lb/>seit, du habist sy erlämpt.</q> Unnd heigent sy
+<lb/>ein anderen erlämpt, so söllenntz ein anderen
+<lb/>widerrumb hälfen. So begär er harumb
+<lb/>biderb lüt zuͦ verhörrenn lassen.
+</p>
+<head type="subtitle"><lb/>Unnd harruf innen die khondtschaft mit rächt
+<lb/>erkhännt unnd sagtenndt harrumb by
+<lb/>ir geschwornen eyden, wie inen mit urtel
+<lb/>und rächt erkhännt ward:
+</head>
+<p><lb/>So sagt <persName ref="per011042">Diethalm Guͦyer</persName><!-- rhr: vermutlich der Müller, vgl. unten. -->, das im wol zwüssen
+<lb/>sig, das er, der <persName ref="per013358">Caspar Schärer</persName> unnd der
+<lb/><persName ref="per011053">Batt Schryber</persName><note>Vermutlich <persName ref="per011053">Batt Ruland</persName>,
+dessen Familie das Amt des Landschreibers seit 1529 ausübte und der selber von 1578 bis 1612 als Schreiber amtierte
+(<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1990</ref>, S. 57</bibl>).</note>
+<measure type="weight" unit="Quentli" quantity="1" commodity="wine">ein gwertli wyn</measure> in des <persName ref="per011038">Broners</persName>
+<lb/>hus truncken, do der <persName ref="per013358">Caspar Schärer</persName> zuͦ inen
+<lb/>gsprochen: <q>Wo hettendt ir gmeint, das wir
+<lb/>sömbliche bössi wyber im dorf hettenndt?</q>
+<pb n="7"/>
+<lb/>Der <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName> habe heytter
+<lb/>grett, es sigennt <num value="3">dri</num> hätzgen im dorff, die
+<lb/><persName ref="per011035">Saby</persName> die ein unnd die <persName ref="per013937">Bir Wässeri</persName> die ander
+<lb/>unnd die <persName ref="per011045">Källeri</persName> die dritt. Unnd der <persName ref="per011037">Hanns
+<lb/>Uͦrich Berchtoldt</persName> hab zuͦ im grett, er wel
+<lb/>im die, so im synn kuͦ verhätzgät, unnder die
+<lb/>ougen stellen, so er des begär. Do hab er grett:
+<lb/><q>Nei, ich wurd so zornig, das ich iren den kopf
+<lb/>sälbs ab hüw.</q> Unnd do <persName ref="per011037">Hanns Uͦrich
+<lb/>Berchtoldt</persName> im synner kuͦ widerumb ghulfen,
+<lb/>do hab er grett: <q>Ich wil jetz die klöwli ins
+<lb/>für werfen, unnd so die <persName ref="per011035">Saby</persName> dir
+<lb/>dyn kuͦ verhätzgät, so werdennt sy knellen
+<lb/>und braschlen.</q> Unnd do ers in das für
+<lb/>gworfen, do habennt sy knelt unnd braschlet,
+<lb/>das er nüt anderst gmeint, dan das hus
+<lb/>wel nider fallen. Unnd noch dem sy <measure type="volume" unit="Mass" quantity="1" commodity="wine">ein
+<lb/>maͧs wyn</measure> mit ein anderen truncken, do
+<lb/>hab <persName ref="per011037">Hanns Uͦrich Berchtoldt</persName> grett: <q><persName ref="per013358">Caspar</persName>,
+<lb/>ich wil noch eyns tuͦ und wil ein wort
+<lb/>reden unnd luͦg du zum feister us, so
+<lb/>wirt die <persName ref="per011035">Saby</persName> ouch zuͦ irem feister us
+<lb/>luͦgen.</q> Das sig beschächen. Do er us hin gluͦgt,
+<lb/>do hab die <persName ref="per011035">Saby</persName> ouch zuͦ irem feister us gluͦgt
+<lb/>unnd im hie mit ein blick gäben und das
+<lb/>feister widerrumb roß zuͦ gschlagen. Unnd
+<lb/>was <persName ref="per011037">Hanns Uͦrich</persName> im gsagt, das hab er
+<lb/>alwägen gwërt. Unnd zuͦ dem, so hab
+<lb/><persName ref="per013358">Caspar Schärer</persName> wytter gret, die <persName ref="per011045">Adelheid
+<lb/>Källeri</persName> sig zuͦ im in syn hus khommen unnd
+<lb/>zuͦ im gret, die <persName ref="per011035">Saby</persName> hab si an eim arm
+<pb n="8"/>
+<lb/>erlämpt, er söl iren widerumb darrann
+<lb/>hälfen. Do er gsagt: <q>Nei, ich hilf dir nüt. Hatt
+<lb/>sy dich erlämpt, so gang und heys dir wider
+<lb/>hälfen.</q>
+</p>
+<p><lb/>So sagt <persName ref="per011038">Hannß Bronner</persName>, das im wol zwüsen,
+<lb/>das der <persName ref="per013358">Caspar Schärer</persName> unnd der <persName ref="per011037">Hanns
+<lb/>Wys</persName> in syn hus khommen, do der <persName ref="per013358">Caspar
+<lb/>Schärer</persName> grett: <q>Es ist mir <time period="byNight">nächt</time> schier übel gangen.</q>
+<lb/>Do sy gsagt: <q>Wie?</q> Do er gsprochen: <q>Mir ist min
+<lb/>kuͦ verhatzgät worden, das sy glägen unnd
+<lb/>lam gsyn unnd gar kein tropfen milch
+<lb/>nüt mee wellen gäben.</q> Do hab <persName ref="per011037">Hannß Uͦrich
+<lb/>Berchtoldt</persName> iren widerrumb ghulfen unnd
+<lb/>gret, die <persName ref="per011035">Saby</persName> habs taͧn, unnd es sigennt
+<lb/><num value="3">dri</num> hätzgen im dorff, namblich die <persName ref="per011035">Saby</persName>,
+<lb/>die <persName ref="per013937">Bir Wässeri</persName> unnd die <persName ref="per011045">Källeri</persName>. Unnd
+<lb/>noch dem, so hab <persName ref="per013358">Caspar Schärer</persName> grett, die
+<lb/><persName ref="per011045">Källeri</persName> sig zuͦ im khommen und zuͦ im
+<lb/>gret, die <persName ref="per011035">Saby</persName> hab sy an eim arm erlämpt
+<lb/>und in päten, er söl iren wider daran
+<lb/>hälfen. Do er zuͦ iren gsprochen: <q>Nei, ich hilf
+<lb/>dir nüt. Hatt sy dich erlämpt, so ganng und
+<lb/>heys dir wider hälfen. Pit sy, du weyst wol,
+<lb/>wiet sy päten saͧt.</q>
+</p>
+<p><lb/>So sagt <persName ref="per011036">Hanns Wys</persName>, das im wol zwüssenn,
+<lb/>das er ungefarlich vor <date dur="P14D">vierzächen tagenn</date>
+<lb/>mit dem herren <persName ref="per004426">von Sags</persName> das dorff
+<lb/>nider gangen, unnd do er in des <persName ref="per013358">Caspar
+<lb/>Schärers</persName> hus khommen, do der <persName ref="per013358">Caspar Schärrer</persName>
+<pb n="9"/>
+<lb/>unnd der <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName> wellen
+<lb/>zmorgen ässen unnd ettwas wortenn
+<lb/>mit ein anderen grett, do er sy gfragt: <q>Was
+<lb/>hannd ir?</q>, oder <q><persName ref="per011037">Hanns Uͦrich</persName>, was duͦst taͧ?</q>
+<lb/>Do der <persName ref="per013358">Caspar Schärer</persName> grett: <q>Es ist mir <time period="byNight">nächt</time>
+<lb/>min kuͦ verhatzgät worden unnd hatt
+<lb/>mir der <persName ref="per011037">Hannß Uͦrich</persName> iren widerrumb
+<lb/>ghulfen.</q> Do er grett: <q>Das ist an got wol nüt.</q>
+<lb/>Do <persName ref="per013358">Caspar Schärer</persName> grett: <q>Jaͧ, es ist, unnd
+<lb/>ich han so hüpsch naͧchpuren.</q> Do der <persName ref="per011037">Hanns
+<lb/>Uͦrich Berchtoldt</persName> grett: <q>Jaͧ, wir hannd fil
+<lb/>bössi wyber im dorff, unnd namblich <num value="3">dri</num>
+<lb/>hätzgen: die <persName ref="per011035">Saby</persName>, <persName ref="per013937">Bir Wässeri</persName> unnd die
+<lb/><persName ref="per011045">Källeri</persName>. Unnd die <persName ref="per011035">Saby</persName> hatt dem <persName ref="per013358">Caspar
+<lb/>Schärer</persName> den schaden zuͦ gfuͦgt unnd im
+<lb/>syn kuͦ verhätzgät.</q> Do <persName ref="per013358">Caspar Schärer</persName> grett:
+<lb/><q>Jaͧ, ich gloub, es sig also.</q> Dan die <persName ref="per011045">Källerin</persName> sig
+<lb/>zuͦ im in syn hus khommen unnd grett, die
+<lb/><persName ref="per011035">Saby</persName> hab sy an eim arm erlämpt. Do er zuͦ
+<lb/>iren grett: <q>Die <persName ref="per011035">Saby</persName> seit, du habist sy erlämpt.
+<lb/>Hand ir ein anderen erlämpt, so machent
+<lb/>ein anderen wider gsund.</q> Unnd noch
+<lb/>dem er in des <persName ref="per011038">Bronners</persName> hus khommen,
+<lb/>do der <persName ref="per013358">Caspar Schärer</persName> unnd <persName ref="per011042">Diethalm
+<lb/>Müller</persName> darin gsyn unnd der <persName ref="per013358">Caspar
+<lb/>Schärer</persName> aber von den wyberen grett unnd hön
+<lb/>gsyn, do er in gstoupt, er söls lassen syn. Do er
+<lb/>gret: <q>Ich wils dem obervogt an zeigen, oder
+<lb/>was raͧtennt ir mir?</q> Do der <persName ref="per011042">Diethalm
+<lb/>Müller</persName> gret: Jaͧ, er sols an zeigen, dan wan
+<lb/>man sömbliche wyber im dorff heig, so sol mans
+<lb/>tanen tuͦn, daͧ hin sy ghörent. Unnd ouch
+<pb n="10"/>
+<lb/>der <persName ref="per011042">Diethalm</persName> grett, er wel gaͧn unnd das dem
+<lb/>vogt <persName ref="per011041">Feussi</persName> sälbs an zeigen, daͧ mit ers dem
+<lb/>obervogt anzeig.
+</p>
+<p><lb/>So sagt herr richter<!-- rhr: Untervogt Ueli Feusi. -->, das im wol zwüssenn sig,
+<lb/>das die <persName ref="per011045">Adelheyd Källerin</persName> an eim <time period="morning">morgen
+<lb/>fruͤ</time> zuͦ im in sin hus khommen unnd sich
+<lb/>gar übel an dem rächtenn arm ghan,
+<lb/>als ob sy lam daran sig, unnd zuͦ im
+<lb/>gret, sy sig bim <persName ref="per013358">Caspar Schärer</persName> gsyn, er sött
+<lb/>iren darran hälfen. Do er zuͦ iren grett:
+<lb/><q>Du weyst wol, von wembs du hast. Gang, heis
+<lb/>dir widerumb hälfen. Du weyst wol, wie du
+<lb/>sy päten saͧt, so muͦs sy dir widerumb hälfen.</q>
+<lb/>Do sy grett, sy sig an eim <time period="morning">morgen fruͤ</time> über
+<lb/>die <placeName ref="loc010804">Schmiten Brug</placeName> gangen, do sig die <persName ref="per011035">Saby</persName>
+<lb/>under ir hustür gstanden, unnd sy hab
+<lb/>ettwas wellen mit iren reden, aber die <persName ref="per011035">Saby</persName>
+<lb/>hab die tür vor iren zuͦ gschlagen unnd
+<lb/>eeb sy zuͦ des knächt <persName ref="per011036">Hannsen</persName> hus kaͧm, so hab
+<lb/>iren der rächt arm so wee taͧn, das sy in
+<lb/>nüt meer zum mul mögen bringen. Do hab
+<lb/>sy in umb raͧth bäten, wie sy im tuͦn sölt.
+<lb/>Do hab er zuͦ iren gret: <q>Ich weys nüt, aber der
+<lb/>jud zuͦ <placeName ref="loc000108">Rapperschwyl</placeName> hat myner schwöster
+<lb/>an irem bein widerumb ghulfen.</q> Do sy zuͦ
+<lb/>im gret, sy wel ouch zuͦ im ufen. Er wüs
+<lb/>aber nüt, ob sy zuͦ im ufen gangen oder nüt.
+</p>
+<pb n="11"/>
+<p><lb/>So sagt <persName ref="per011036">Hannß Schnyder</persName>, das im wol zwüssen,
+<lb/>das er vor des schwaͧger <persName ref="per011044">Marti Gyrenn</persName> hus
+<lb/>gsässenn, do hab des <persName ref="per011044">Martis</persName>
+<persName ref="per011043">Tys</persName> den <persName ref="per011034">Daͧvit
+<lb/>Eggstein</persName> gfraͧgt, wie es umb synn frouw stande.
+<lb/>Do der <persName ref="per011034">Daͧvit Eggstein</persName> grett, die <persName ref="per011045">Adelheyd
+<lb/>Källeri</persName> hab synner frouwen ein bagen streich
+<lb/>gäbenn, das er fürcht, er muͦs sy ir läptung
+<lb/>also kranck habenn.
+</p>
+<p><lb/>So sagt <persName ref="per011040">Hannß Büntzli</persName>, dass im wol zwüssen,
+<lb/>es hab sich begäbenn, das er unnd der <persName ref="per011036">Hanns
+<lb/>Schnyder</persName> vor des <persName ref="per011044">Marti Gyrenn</persName> hus gsässenn,
+<lb/>do des <persName ref="per011044">Martis</persName>
+<persName ref="per011044">Tyß</persName> denn <persName ref="per011034">Daͧvit Eggstein</persName> gfraͧgt,
+<lb/>wie es umb syn frouw stannd. Do der <persName ref="per011034">Daͧvit
+<lb/>Eggstein</persName> grett: <q>Nüt, sy lyt dört unnd ist lam.
+<lb/>Die <persName ref="per011045">Hadelheyd Källery</persName> hatt iren ein bagen
+<lb/>streich gäbenn, das ich fürcht, es werd iren
+<lb/>ir läbenn lanng vergaͧnn.</q>
+</p>
+<head type="subtitle"><lb/>Unnd harrumb sagtennt
+<lb/>disse wybs pärsonnen by ir
+gloüp<lb break="no"/>lichenn trüwenn:
+</head>
+<p><lb/>So sagt <persName ref="per011039">Elsy Bruner</persName>, das irenn wol zwüssen,
+<lb/>sy hab die <persName ref="per011035">Saby</persName> gsuͦcht in irer krannckheit
+<lb/>wie ein noch pur den anderen, do die <persName ref="per011035">Saby</persName>
+<lb/>zuͦ iren grett, ob sy die hätzgt nienen gsächenn
+<lb/>hab. Do sy gsagt: <q>Bhuͤt unns got, welle hätzgt?</q> Do
+<lb/>sy grett: <q>Die <persName ref="per011045">Adelheyd Källeri</persName>, die hat mir ein
+<lb/>bagen streich gäbenn, das ich lam bin.</q>
+</p>
+<pb n="12"/>
+<p><lb/>So sagt <persName ref="per011049">Eefa Pfafhusserynn</persName>, das irenn
+<lb/>wol zwüssenn, das si die <persName ref="per011035">Saby</persName> gsuͦcht in irer
+<lb/>krannckheit, do die <persName ref="per011035">Saby</persName> vor irem hus an
+<lb/>der gas gsässenn, do sy zuͦ irenn grett: <q><persName ref="per011035">Saby</persName>,
+<lb/>ich dännck es stannd wol umb dich.</q> Do sy grett:
+<lb/><q>Nei, es staͧtt nüt wol umb mich, ich bin lam.
+<lb/>Die lütter hätzgt hatt mich erlämpt.</q> Do sy gsagt:
+<lb/><q>Wer hat dich erlämpt?</q> Do si gret: <q>Die <persName ref="per011045">Adelheid
+<lb/>Källeri</persName> hat mich erlämpt.</q> Do sy zuͦ iren grett:
+<lb/><q>Nei, sy hatt das nüt taͧn, dan es mag kein mänsch
+<lb/>dem anderen nüt tuͦn.</q> Do die <persName ref="per011035">Saby</persName> grett:
+<lb/><q>Sy hatts taͧn, unnd ich wil dir sagen, wie
+<lb/>wir uneyns worden sinnd.</q> Die <persName ref="per011045">Källeri</persName> hatt
+<lb/>der <persName ref="per011046">Adelheyd Hottinger</persName> ein lyn lachen gäbenn,
+<lb/>sy söls iren an bouwelen vertuschen. Do die
+<persName ref="per011046">Adel<lb break="no"/>heid Hottinger</persName> iren<!-- rhr: der Sabi, daher nicht mehr direkte Rede (<q>). --> das gäben, sy köns bas
+ver<lb break="no"/>tuschen dan sy. Do sy gen <placeName ref="loc000065">Zürich</placeName> gangen unnd
+<lb/>das wellen vertuschen unnd aber das niemmen
+<lb/>gwellen, do sy sonst der <persName ref="per011046">Hottingeren</persName> bouwelen
+<lb/>khauft unnd das ly lachen wider heym treit.
+<lb/>Unnd do die <persName ref="per011045">Källeri</persName> zuͦ iren kommen und das
+<lb/>wider wellen habenn, do sy uneyns wordenn.
+<lb/><q>Do hat sy mich erlämpt, das ich suber lam bin.</q>
+</p>
+<p><lb/>So sagt <persName ref="per011047">Adelheyd Lur</persName>, dassy zuͦ der <persName ref="per011035">Sabynen</persName>
+<lb/>in ir hus ganngen unnd gluͦgt, wie es
+<lb/>umb sy stannd, do die <persName ref="per011035">Saby</persName> im huß umb hin
+<lb/>gangen unnd zuͦ iren gsagt: <q>Die <persName ref="per011045">Adelheid
+<lb/>Källeri</persName> hat mich verhätzgät.</q> Do sy zuͦ iren grett:
+<lb/><q>Sy hatt das an got wol nüt taͧn.</q> Do der <persName ref="per011034">Daͧvit
+<lb/>Eggstein</persName> ouch grett: <q>Jaͧ, sy hats taͧn.</q>
+</p>
+<pb n="13"/>
+<p><lb/>Unnd harruf der junckherr unnd vogt<!-- rhr: Balthasar Meiss. -->
+<lb/>durch denn unndervogt disse vor genampte
+<lb/>khundtschaft wyber lassenn fraͧgenn, ob die
+<lb/><persName ref="per011035">Saby</persName> am touben houpt wee glägen sig, do sy
+<lb/>sömbliche wort grett hab. Uff sömblichs die
+<lb/>khundtschaft wyber grett, sy habennt kein
+<lb/>toub houpt wee an der <persName ref="per011035">Sabynen</persName> könen gsächen
+<lb/>noch gspürenn.
+</p>
+<p><lb/>Unnd harruf <persName ref="per011034">Daͧvit Eggstein</persName> unnd syn
+<lb/>eelliche husfrouw sich aber maͧl verantwurten
+<lb/>lassenn, man habe an der khondtschafft gar
+<lb/>wol verstannden, das <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName>
+<lb/>unnd der <persName ref="per013358">Caspar Schärer</persName> heytter grett: Jaͧ,
+<lb/>es sigennt <num value="3">dri</num> hätzgenn im dorff: sy, die
+<lb/><persName ref="per013937">Bir Wässeri</persName> unnd die <persName ref="per011045">Källeri</persName>. Unnd
+namb<lb break="no"/>lich sy, die <persName ref="per011035">Saby</persName>, habe dem <persName ref="per013358">Caspar Schärer</persName> syn
+<lb/>kuͦ verhatzgät. Unnd die wyl nun sy
+<lb/>sömbliche wort grett, die sigenndt irenn zuͦ
+<lb/>schwer, beruͤrendt unnd träffendt ouch ir eer,
+<lb/>lyb, hab unnd guͦt an, unnd darrumb,
+<lb/>so stannde sy uf den hüttigen tag hie vor
+<lb/>dem rächtenn unnd vermein, sig ouch
+<lb/>guͦter hoffnung, das <persName ref="per011037">Hanns Uͦrich Berchtoldt</persName>
+<lb/>unnd <persName ref="per013358">Caspar Schärer</persName> die wort, die sy grett,
+<lb/>ab irenn tuͤgenndt unnd darzuͦ ir
+er<lb break="no"/>litnen costenn unnd schadenn ab tragenndt
+<lb/>oder aber die wort, die sy grett, zuͦ irenn
+<lb/>bringenndt, wie rächt sig ouch noch des ampts
+<lb/>bruch und rächt, dann sy wel sömbliche frouw
+<lb/>gar unnd gantz nüt syn unnd wel ir eer,
+<pb n="14"/>
+<lb/>lyb, hab unnd guͦt, was sy hatt, daran setzenn,
+<lb/>das si die frouw nüt sig noch syn welle,
+ver<lb break="no"/>mein ouch, das söl rächt synn unnd werden.
+</p>
+<p><lb/>Unnd harruf <persName ref="per011037">Hannß Uͦrich Berchtoldt</persName>
+<lb/>mit sampt sym bystannd sich aber maͧl
+<lb/>verantworten lassenn, die wort, die er vor
+<lb/>dem vester junckherr zuͦ <placeName ref="loc008569">Gryffennsee</placeName>, ouch
+<lb/>vor unnsern gnedigenn herrenn von <placeName ref="loc000065">Zürich</placeName>
+<lb/>grett heyg, derenn sig er noch uf den hütigenn
+<lb/>tag gichtig unnd kanntlich, unnd habe die
+<lb/><persName ref="per011035">Saby</persName> dem <persName ref="per013358">Caspar Schärer</persName> den schaden mit
+<lb/>synner kuͦ zuͦ gfuͤgt unnd im die
+ver<lb break="no"/>hätzgät. Unnd zuͦ dem, so sigennt noch <num value="2">zwe</num>
+<lb/>hätzgen im dorff, namblich die <persName ref="per013937">Pir Wässeri</persName>
+<lb/>unnd die <persName ref="per011045">Källeri</persName>. Sy habennt aber
+<lb/>in darzuͦ verursachet, dann man an der
+<lb/>khondtschaft gar wol verstanden, das sömblicher
+<lb/>reden jaͧr unnd tag umb hin gangen unnd
+<lb/>sy sälbs ein anderen verhätzgät unnd
+er<lb break="no"/>lämpt. Dann hettennt sy ein anderen nüt sälbs
+<lb/>angäbenn, so het er villicht ouch meer gschwigen,
+<lb/>doch es vilicht gnuͦg unnd von gott syn sölle
+<lb/>daͧ mit unnd die waͧrheit an tag komme,
+<lb/>unnd vermein die wort, die er grett hab, die
+<lb/>hab er gnuͦgsam erwissenn, wie manns
+<lb/>dann an der khonndtschaft gar wol
+ver<lb break="no"/>stannden hab.
+</p>
+<pb n="15"/>
+<p><lb/>Unnd harruf <persName ref="per013358">Caspar Schärrer</persName> sich aber
+<lb/>maͧl veranntworten lassenn, man habe
+<lb/>an der kondtschaft gar wol verstannden,
+<lb/>das die <persName ref="per011035">Saby</persName> unnd die <persName ref="per011045">Källeri</persName> grett,
+<lb/>sy habennt ein anderen erlämpt, unnd
+<lb/>die redenn al von innen sälbs äntsprungen.
+<lb/>Unnd darumb, so sig er guͦter hofnung, die
+<lb/>wort, die er gret hab, die söllenndt im an
+<lb/>synnen eerrenn, ouch lyb, hab unnd guͦt,
+<lb/>gar unnd ganntz nüt schaden, die wyl er
+<lb/>die wort, die er grett, gnuͦgsam erwissen
+<lb/>unnd darbraͧcht heig, unnd vermein
+<lb/>ouch, der <persName ref="per011034">Daͧvit Eggstein</persName> unnd syn husfrouw
+<lb/>söllennt im syn erlitnen costenn unnd
+<lb/>schaden, wie im der daruf ergangen,
+ab<lb break="no"/>tragen unnd bezallen unnd vermein,
+<lb/>das söl rächt syn unnd werden.
+</p>
+<p><lb/>Unnd hiemit es von allenn partyenn
+<lb/>hinn dann zuͦ rächt gsetzt unnd noch
+<lb/>sag, klag unnd anntwort, ouch
+verhör<lb break="no"/>rung der khonndtschaft mit fil meer wort,
+<lb/>nüt not, alles hie zuͦ mälden, so ward
+<lb/>noch min, des richters, gehapter umbfrag
+<lb/>mit ein helliger urttel zuͦ rächt erkhännt
+<lb/>unnd gsprochen, die wyl der hanndel
+mallen<lb break="no"/>fitzschis, so wyssenns sys mit allem anhang
+<lb/>für unnser gnedig, günstig, lieb herren unnd
+<pb n="16"/>
+<lb/>oberenn, <orgName ref="org002406">burgermeister unnd raath der statt
+<lb/><placeName ref="loc000065">Zürrich</placeName></orgName>, derrenn wyßheit söllich sachenn im
+<lb/>bestenn erkhännenn unnd urteylen kan unnd
+<lb/>der des zuͦ urkhundt uf myn, des richters,
+<lb/>pitte mit urttel als vonn des grichtz wägen
+<lb/>mit des vorgenampten edlen, vesten
+junk<lb break="no"/>herr <persName ref="per011048">Hannß Balthissarn Meyß</persName>, burger
+<lb/><placeName ref="loc000065">Zürich</placeName>, vogt der herrschaft <placeName ref="loc000348">Gryffennsee</placeName>,
+uf<lb break="no"/>getrucktem insigel versiglat, doch vor
+er<lb break="no"/>nampten unnsern gnedigen herren von <placeName ref="loc000065">Zürich</placeName>
+<lb/>unnd ir herrschaft <placeName ref="loc000348">Gryffennsee</placeName> an aller
+<lb/>rächtung, friheit unnd zuͦ gehörrung,
+<lb/>ouch ime, dem vogt unnd dem gricht,
+<lb/>iren eerbenn, anne schadenn. <seg>Gäbenn
+<origDate when="1573-11-02">men<lb break="no"/>tags, den ij winter maͧnat, anno im
+<lb/>lxxiij jar</origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+<p><add place="below" hand="other hand"><lb/>Als <persName ref="per011037">Hanns Ulrich Berchtold</persName> uff befragen hin zu <persName ref="per011035">Sabyna
+<lb/>Wolffin</persName> nützit uneerlichs brinngen wellen noch
+<lb/>mogen, sonnders der gnaden begert, habennt
+<lb/>myn herren die reden ufgehept, ouch den <persName ref="per011037">Berchtolden</persName>
+<lb/>unnd <persName ref="per013358">Caspar Schärer</persName>, umb das sy mer geredt, weder sy
+<lb/>aber zuverantwurten wüssind, inn gefanngenhafft
+<lb/>legen lassen unnd volgenntz uff verhorung irer antwurten
+<lb/>sich erkennt, das ir jeder syn costen, so mit ime daruf ganngen,
+<lb/>erlegen, dartzu <persName ref="per011037">Berchtold</persName> ir, <persName ref="per011035">Sabyna Wolffin</persName>, allen iren
+<lb/>costen unnd schaden abtragen, unnd umb das er sy unbillicher
+<lb/>wyss ein hexen geschulten, dessglychen har unnd klauwen
+<lb/>von einer ku inn das fhür geworffen inn des tüffels
+<lb/>namen unnd alßo ungottliche wort gebrucht, <measure type="currency" unit="M" quantity="2">zwey march
+<lb/>silbrs</measure> zu buß erlegen unnd für hin sollicher künsten
+<lb/>unnd artznens müssig gon unnd davon abston solle.
+<seg><lb/>Actum den <origDate when="1573-11-18">18<hi rend="sup">den</hi> wintermonats anno 73</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr
+<lb/><persName ref="per002004">Kambli</persName> unnd <orgName ref="org002406">beid reth</orgName>.</seg>
+</add></p>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1573">1573</origDate>
+</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><del hand="later hand">Mißverständtung wegen</del> schält-handlung zwüschen <persName ref="per011035">Sabina Wolffin</persName> und
+<lb/><persName ref="per013358">Caspar Wäber</persName> von <placeName ref="loc006198">Uster</placeName>, <origDate when="1573">1573</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Zu einem ersten, vergleichbaren Fall war es in <placeName ref="loc006198">Uster</placeName> bereits 1520 gekommen.
+Damals hatte <persName ref="per013935">Felix Kremer</persName> über <persName ref="per013936">Anna Lurin</persName> verbreitet,
+sie sei eine Hexe und Diebin, weil sie seine Kuh krank gemacht habe.
+Und auch er griff auf ein magisches Ritual zurück, um diesen Vorwurf zu belegen,
+indem er die Milch seiner kranken Kuh mit einer Haselrute schlug,
+bis die Person erschien, welche die Kuh angeblich verhext hatte.
+Damals urteilte das Gericht, dass <persName ref="per013936">Lurin</persName> keine Wiedergutmachung erhalte,
+weil sie sich nie von den Vorwürfen distanziert habe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=696049">StAZH A 123.1, Nr. 77</ref></bibl>).
+</p>
+<p>Die hier zusammen mit anderen Frauen genannte <persName ref="per011045">Adelheid Keller</persName>
+war bereits zwei Jahre zuvor von Leuten aus der Nachbarschaft mit Hexereivorwürfen konfrontiert worden.
+Im September 1571 wurde sie ins Gefängnis gelegt und gefoltert, bestritt jedoch die ihr vorgeworfenen Taten vehement,
+sodass man sie mit der Aufforderung, sich künftig ruhig zu verhalten, aus der Gefangenschaft entliess.
+Wie aus den Verhörprotokollen hervorgeht, stammte sie aus ärmlichen Verhältnissen;
+sie und ihre unehelichen Kinder lebten von Almosen und teilweise wohl auch von kleineren Diebstählen bei eben jenen Nachbarn,
+die schliesslich behaupteten, dass sie ihrem Vieh oder ihnen selber eine Krankheit angehext habe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4689667">StAZH A 27.15.11, Nr. 36</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4639851">StAZH A 27.16.1, Nr. 1</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4640278">StAZH A 27.16.2, Nr. 11</ref></bibl>).
+</p>
+<p>Der vorliegende Fall beleuchtet die Dynamik,
+mit der sich kleinere Auseinandersetzungen im Dorf gefährlich hochschaukeln konnten.
+Ausgangspunkt für den vorliegenden Konflikt scheint ein Streit unter Nachbarinnen über den Verkauf von Tuch gewesen zu sein.
+In der Folge beschuldigten sich beide Frauen gegenseitig, für ihre Krankheiten verantwortlich zu sein,
+wobei zumindest eine der Angeschuldigten im Nachhinein geltend zu machen versuchte,
+dass ihre Krankheit ihre Sinne getrübt und sie deshalb Dinge gesagt haben könnte, die nicht so gemeint waren.
+Während die Frauen im Dorf eher zur Besonnenheit mahnten und die Hexereivorwürfe in Abrede stellten,
+waren es vor allem männliche Akteure um <persName ref="per011037">Hans Ulrich Berchtold</persName>
+und den Scherer <persName ref="per013358">Kaspar Weber</persName>,
+die das Gerede über die angeblichen Hexen aufgriffen und verbreiteten.
+Wie andere Vertreter seines Gewerbes war der Scherer offenbar als Arzt oder Heilpraktiker tätig,
+der von erkrankten Personen wie <persName ref="per011045">Adelheid Keller</persName>
+ihres erlahmten Gliedes wegen um Rat aufgesucht wurde.
+<persName ref="per011037">Hans Ulrich Berchtold</persName> scheint sich seinerseits nicht nur als Tierheiler,
+den man zur Behandlung kranker Kühe beizog, betätigt zu haben,
+sondern auch als eine Art Zauberer oder Wahrsager,
+der in geselliger Runde allerlei magische Rituale vorführte
+und damit die Hexereivorwürfe belegen zu können meinte.
+Ironischerweise geriet er wegen seiner Praktiken schliesslich selber ins Visier der Obrigeit.
+Am 14. November 1573 informierte der <placeName ref="loc006198">Ustermer</placeName> Pfarrer
+<persName ref="per026707">Ezechiel Ramp</persName>
+den obersten Kirchenvorsteher <persName ref="per012634">Heinrich Bullinger</persName> über den Fall.
+Seiner Meinung nach breite sich in <placeName ref="loc006198">Uster</placeName> der Unglaube aus,
+weil die Leute einem Teufelsbeschwörer hinterherlaufen,
+der kranke Kühe heile, indem er deren Haar und Klauen im Namen des Teufels ins Feuer werfe.
+Statt das ihnen widerfahrene Unheil als Strafe Gottes zu akzeptieren,
+würden die Leute <q>böse Weiber</q> dafür verantwortlich machen.
+Da niemand auf seine Predigten und die ausgesprochenen Verbote hören wolle,
+bat er <persName ref="per012634">Bullinger</persName> dafür zu sorgen,
+dass der Teufelsbeschwörer bestraft werde, um gegen derlei Praktiken ein Exempel zu statuieren
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4646222">StAZH A 27.16.8, Nr. 36</ref></bibl>).
+Tatsächlich wurde <persName ref="per011037">Berchtold</persName> kurz darauf festgenommen und verhört,
+mit einer Busse von zwei Mark Silber bestraft und aufgefordert, künftig solche verboteten Künste zu unterlassen.
+Ausserdem musste er für die Prozesskosten aufkommen und <persName ref="per011035">Sabina Wolf</persName> entschädigen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4646286">StAZH A 27.16.10, Nr. 6</ref></bibl>).
+Dies brachte ihn allerdings nicht davon ab, weiterhin als Tierheiler aufzutreten
+und dabei wiederum Anschuldigungen gegen <q>böse Weiber</q> auszusprechen.
+So gerieten im Oktober 1588 erneut drei Frauen aus <placeName ref="loc008569">Greifensee</placeName>
+unter Hexereiverdacht, nachdem <persName ref="per011037">Berchtold</persName> verbreitet hatte,
+dass sie mehrere Kinder und Tiere krank gemacht hätten.
+Die drei Frauen wurden festgenommen und verhört, schliesslich jedoch wieder freigelassen,
+weil sie die Vorwürfe standhaft abstritten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4691335">StAZH A 27.22.7, Nr. 3</ref>
+und <ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4691311">Nr. 19</ref></bibl>).
+<!-- rhr: Am 7. August 1583 wurde ausserdem Hans Bede aus Uster gebüsst, weil er einem Teufelsbeschwörer nachgelaufen war (A 27.20.13, Nr. 19). --></p>
+<p>Nicht für alle beschuldigten Frauen gingen derartige Hexereivorwürfe jedoch so glimpflich aus,
+wie der Fall von <persName ref="per013934">Elsbetha Bünzli</persName> aus <placeName ref="loc007625">Nossikon</placeName> belegt.
+Als einzige Frau aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+wurde sie 1656 vom <orgName ref="org002406">Zürcher Rat</orgName>
+nach wochenlanger Folter als Hexe zum Tod verurteilt, enthauptet und verbrannt
+(<bibl><ref target="/startseite/literaturverzeichnis">Sigg, Hexenmorde</ref>, S. 155-189</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Sigg, Hexenprozesse</ref>, S. 9, 12, 186-190, 255</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

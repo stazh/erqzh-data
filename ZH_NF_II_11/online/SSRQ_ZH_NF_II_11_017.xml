@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+ Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_017</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365827">StAZH C II 1, Nr. 457 c</idno></msIdentifier><head>Belehnung der Propstei Zürich mit mehreren Dörfern und Höfen und der dortigen Hochgerichtsbarkeit</head><msContents><summary>König Ruprecht verleiht Magister Konrad Elie von Laufen, Propst von Zürich, den Hof in Fluntern und die Dörfer Albisrieden, Ruslikon, Meilen, Rufers (Kilchberg bzw. Adliswil) und Schwamendingen mit allem Zubehör und der hohen Gerichtsbarkeit als Reichslehen. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="17.0"/><width unit="cm" quantity="34.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">König Ruprecht</persName></seal></sealDesc></physDesc><history><origin><origDate when="1404-01-09"/><origPlace>Heidelberg</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 4790; RI X/2, Nr. 3325 (hier mit abweichendem Tagesdatum 8. Januar)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_1__Nr__457_c__r_.tif"/>
+<p><seg><lb/>Wir, <persName role="issuer" ref="per004999">Ruprecht</persName>, von gots gnaden <placeName ref="loc000076">Romischer</placeName> kuͦnig, tzu allen zijten merer des
+  <orgName ref="org004134">richs</orgName>, bekennen und du̍n kunt offenbare <lb/>mit diesem briefe allen den, die yn sehent oder
+  horent lesen, das fur uns kommen ist der ersame, unser lieber getruͤwer, meister <lb/><persName ref="per013352">Cunrad Elye</persName>
+  von <placeName ref="loc008827">Lauffen</placeName>, lerer ingeistlichen rechten, probst zuͤ <placeName ref="loc000065">Zuͤrich</placeName>, und bate
+  uns, das wir yme diese nachschrieben <lb/>guter, mit namen den hoff tzuͤ <placeName ref="loc008707">Fluͤntern</placeName> und die dorffere<note>In der Bestätigung der Besitzungen in lateinischer Sprache ist lediglich die Rede von <quote><foreign xml:lang="la">villas</foreign></quote> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365826">StAZH C II 1, Nr. 457 b</ref></bibl>)</note>
+<placeName ref="loc010356">Rieden</placeName>, <placeName ref="loc008713">Rußlikon</placeName>, <placeName ref="loc000509">Meylan</placeName>,
+  <placeName ref="loc012237">Rufers</placeName> und <placeName ref="loc009859">Swabendingen</placeName> mit <lb/>allen iren zuͤgehoruͦngen und
+  indenselben dorffern stocke und galgen und den ban uber das bluͦt, die von uns und <lb/>dem heiligen
+  <orgName ref="org004134">riche</orgName> zulehen ruͤrent, zuverlyhen gnediclich geruͤchten.<note>Das
+<orgName ref="org004352">Grossmünstertift</orgName> hatte gemäss seinem Hofrecht in <placeName ref="loc009859">Schwamendingen</placeName> nur die Niedergerichtsbarkeit inne (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>,
+Art. 1</bibl>).
+Betreffend die Ansprüche des Stifts in <placeName ref="loc009859">Schwamendingen</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 364-365</bibl>.</note> Des haben wir
+  angesehen desselben meister <persName ref="per013352">Cuͦnrats</persName>
+<lb/>redeliche bete und soliche dienste und truͤwe, als er uns und dem <orgName ref="org004134">riche</orgName> inkunfftigen tzijten
+  tuͦn sol und mag, und haben <lb/>yme daruͤmbe geluhen und lijhen yme auch incrafft diß briefs und Romischer
+  kuniglicher mechte die <choice>
+<abbr>egent</abbr>
+<expan>egenanten</expan>
+</choice> guͤte <lb/>mit allen rechten, nuͤtzen und zugehoruͦngen, als er und sin furfaren die biß her gehabt und
+  beseßen hant, was wir <lb/>yme von rechte daran lijhen sollen und moͤgen, unschedelich doch uns, dem heiligen
+  <orgName ref="org004134">riche</orgName> und eime iglichen an sinen <lb/>rechten. Und hat der <choice>
+<abbr>egen</abbr>
+<expan>egenant</expan>
+</choice> meister <persName ref="per013352">Cunrad Elye</persName> uns als eyme Romischen kuͤnige daruber hulduͦnge getann mit
+  <lb/>glubden und eyden, als gewonlich und billiche ist, eyme Romischen kunige und dem <orgName ref="org004134">riche</orgName> davon
+  zutunde.</seg>
+<seg> Orkund <lb/>diß briefes, versiegelt mit unser kuniglichen
+  majestat ingesiegel, der geben ist tzuͤ <origPlace ref="loc000397">Heidelberg</origPlace>
+<origDate when="1404-01-09">off den mitwoch, <lb/> nach dem heiligen tzwolfften tag, <foreign xml:lang="la"><choice>
+<abbr>ephia dni</abbr>
+<expan>epiphania domini</expan>
+</choice></foreign> tzu latin, indem jare, als mann zalte nach <persName ref="per000353">Cristi</persName> geburte
+vierzehen<lb break="no"/>huͤndert und viere jare, unsers richs indem vierden jare</origDate>. </seg></p>
+<div>
+<ab type="chancery notation" place="right plica" xml:lang="la"><lb/>Ad mandatum <choice><abbr>dni</abbr><expan>domini</expan></choice> regis <lb/><persName ref="per023970">Ulricus de Albeck</persName><note><persName ref="per023970">Ulrich von Albeck</persName>, nachgewiesen bei <bibl><ref target="/startseite/literaturverzeichnis">Moraw 1969</ref>, S. 485-488</bibl>.</note>
+<choice><abbr>dector</abbr><expan>decretorum</expan></choice> doctor 
+</ab>
+</div>
+<pb n="v" facs="StAZH_C_II_1__Nr__457_c__v_.tif
+"/>
+<div>
+<ab type="archiving reference" place="verso" xml:lang="la">
+<choice>
+<abbr>R</abbr>
+<expan>Registrata</expan>
+</choice>
+<persName ref="per023971">Bertholdus Duͤrlach</persName>
+<note><persName ref="per023971">Berthold Wachter von Durlach</persName>, 
+ nachgewiesen bei <bibl><ref target="/startseite/literaturverzeichnis">Moraw 1969</ref>, S. 516</bibl>.</note>
+</ab>
+</div>
+<div><ab type="dorsal" place="verso" hand="hand16c">1404</ab></div>
+</div>
+</body>
+<back>
+<div><p>Auf Bitte des Propsts <persName ref="per013352">Konrad Elie</persName> bestätigte König <persName ref="per004999">Ruprecht</persName> nur zwei Tage nach der Verleihung, am <date when="1404-01-11">11. Januar 1404</date>, <orgName ref="org004352">Propst und Kapitel des Grossmünsterstifts</orgName> generell die Rechte und Privilegien, welche bereits seine Amtsvorgänger erteilt hatten. Neben den Besitzungen des Stifts in Form von Rechten, Lehen und Gütern, insbesondere
+  dem Hof in <placeName ref="loc008707">Fluntern</placeName>, den Villenhöfen in <placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc008713">Rüschlikon</placeName>, <placeName ref="loc012237">Rufers</placeName>, <placeName ref="loc009841">Meilen</placeName> und
+  <placeName ref="loc009859">Schwamendingen</placeName> mit allem Zubehör, nennt er noch die Kirche in <placeName ref="loc012091">Cham</placeName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365826">StAZH C II 1, Nr. 457
+b</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4, Nr. 4797</bibl>). Für die frühere Zeit vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_006">SSRQ ZH NF II/11, Nr. 6</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_022_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1851552">StAZH A 85, Nr. 3, S. 6-10</idno>
+</msIdentifier>
+<head>Nachträge zur Fischereinung von Greifensee</head>
+<msContents>
+<summary>Neu geregelt werden unter anderem die Belieferung des städtischen Marktes (17-18), die Anzahl erlaubter Netze und Fangkörbe
+(19-22), der Fang von Schwalen (21) und Brachsen (22-23, 31-32), der Verkauf von fest installierten Fangvorrichtungen, den sogenannten
+Fachen (24), die Verteilung der Garne sowie die Aufnahme von Einheimischen und Fremden als Teilhaber (25), die Lieferung von Fischen in die
+Dörfer (26), Schonfristen und Ausnahmen für den Fischfang vor Fastentagen (27) sowie die Verwendung der Hechtschnur (28). Vorgesehen wäre
+von der Obrigkeit, dass es im Städtchen Greifensee zwei Garne gibt. Da eines davon jedoch nicht besetzt ist, wird es der Familie Schanold
+von Uessikon zugestanden (29). Ehefrauen, Töchter oder Mägde der Fischer dürfen nur dann allein auf den See fahren, wenn sie zuvor beim Vogt
+gelobt haben, die Einung einzuhalten (30). Verstösst eine Frau gegen die Einung, so muss ihr Meister für sie die Busse zahlen (31). Netze,
+die nicht den Abmachungen entsprechen, soll der Vogt verbrennen (31).</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Zeitgenössische Abschrift</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="31.5"/>
+<width unit="cm" quantity="21.5"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate from="1431-05-08" to="1519-07-06"/></origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000536">Fischerei</term>
+<term ref="key000793">Markt</term>
+<term ref="key004022">Satzung</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" type="original" facs="StAZH_A_85__Nr__3__S__01_.tif"/>
+<pb n="2" type="original" facs="StAZH_A_85__Nr__3__S__02_.tif"/>
+<pb n="3" type="original" facs="StAZH_A_85__Nr__3__S__03_.tif"/>
+<pb n="4" type="original" facs="StAZH_A_85__Nr__3__S__04_.tif"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 17"/></p>
+<pb n="5" type="original" facs="StAZH_A_85__Nr__3__S__05_.tif"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 19"/></p>
+<pb n="6" type="original" facs="StAZH_A_85__Nr__3__S__06_.tif"/>
+<seg n="17"><handShift scribe="2"/><p><lb/>Doch so ist den weidlu̍ten gegonnen, die hecht moͤgen in die wyer <lb/>ze behalten, darzuͦ wenn
+sy <num value="6">sechs</num> kratten brachßnen faͧhent oder <lb/>darunder, so soͤllent sy die samentlich harin schicken uf den nechsten
+<lb/>maͤrckt. Wenn sy aber merklich oder vil daru̍ber fiengen, so mogen <lb/>sy die behalten, doch das sy <del rend="blackened"><gap
+reason="illegible" unit="character" quantity="3"/></del> zuͦ jedem markt, morgens und <lb/>aͧbends, zem minsten <num value="6">sechs</num>
+oder <num value="6">acht</num> kratten harin schicken, je <lb/>nach dem und sy gefangen haben, oder als sy von minen herren, <lb/>eim
+<orgName ref="org002406">burgermeister und raut der stat <placeName ref="loc000066">Zu̍rich</placeName></orgName>, ald irem vogt
+<lb/>geheissen werden.</p>
+</seg>
+<seg n="18"><p><lb/>Desglich mogend die weidlu̍t wol visch, so sy <measure quantity="1" unit="ß" type="currency">einer</measure>, <measure
+type="currency" unit="ß" quantity="2">zweyer</measure>, <measure type="currency" unit="ß" quantity="3">dryer</measure>
+<lb/>oder <measure type="currency" unit="ß" quantity="5">fu̍nf schiling</measure> wert visch fahend, zesamen sammnen. Doch <lb/>wenn sy
+sovil fischen zuͦ sammen gesammnend, die <measure quantity="10" unit="ß" type="currency">x  ₰</measure> gelten <lb/>mugend, so soͤllent sy
+die harin uf den nechsten merckt senden <lb/>und fuͤrer bi iren eiden nit behalten.<note>Bei diesem Artikel handelt es sich um eine
+Paraphrasierung des Beschlusses vom <origDate when="1431-05-08">8. Mai 1431</origDate> (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_020">SSRQ ZH NF II/3, Nr. 20</ref></bibl>).</note></p>
+</seg>
+<pb n="7" type="original" facs="StAZH_A_85__Nr__3__S__07_.tif"/>
+<seg n="19"><handShift scribe="1"/><p><lb/>Es sol fuͤrbashin nieman mer dann zwen gewerb in dem <placeName ref="loc008718"
+>Griffense</placeName> haben, unnd <lb/>welicher ein <num value="1/2">halb</num> garn haut, der sol nit mer dann <num value="12"
+>zwoͤlff</num> netzen von zug setzen. <lb/>Welicher aber ein <num value="1/4">vierteil</num> eins garns haͧt, der sol nit mer dann <num
+value="20">zweintzig</num> netzen <lb/>setzen. Und welicher ein gantzer berer ist, der mag <num value="12">zwoͤlff</num> netzen dartzuͦ
+setzen, <lb/>doch das <del rend="overwritten">k</del>ein gantzer berer u̍ber <num value="60">sechtzig</num> beren nit setzen sol. Aber umb
+die halben <lb/>berer, dero sol einer <num value="18">achtzechen</num> netzen setzen von zug und och nit mer. Unnd <lb/>welich<del
+rend="rubbing">e</del> zwen gewaͤrb einer fuͤrnimbt, so sol er doch von dem dritten lausen, und <lb/>sol och jeglicher, der soͤlich gewerb
+triben wil, allwegend ze <date type="deadline_floating holiday">vasnacht</date> sagen, welich <lb/>zwen gewerb er das ku̍nfftig jaͧr triben
+welle. Und weliche zwen gewerb einer <lb/>denn also fuͤrnimpt, die sol er das jaͧr uss unverendert triben on allen intrag, <lb/>als sich die
+weidlu̍t des einhellenklich geeinbart hand.</p>
+</seg>
+<seg n="20"><handShift scribe="2"/><p><lb/>Welicher nit faͤcher noch garn haͧt, der mag netzen von zug haben, <lb/>wie vil er wil, doch sol
+einer nit mer dann <num value="32">xxxij</num> netzen setzen <lb/>zuͦ maͧl in den se, und suss kein ander netzen bruchen noch setzen
+<lb/>dann die selben <num value="32">xxxij</num> netzen, so lang sy weͣrend. Ob im aber <lb/>etlich an soͤlicher zal abgond, so mag er ander
+an der selben stat <lb/>nemmen, doch das er nit me dann die gemelten zal bruhe <lb/>und kein netz enger sige dann das bru̍tly, so daru̍ber
+gegeben ist, <lb/>und das och ein jeglicher netzer sine netz des tags einest setzen und <lb/>die morndys am morgen heben moͤge und nit wyter
+noch me.</p>
+</seg>
+<seg n="21"><p><lb/>Desglich so moͤgind ouch die andern netzer zuͦ den schwaͧlen je zuͦ <lb/>siner zit ouch setzen, wie dz von alter har
+komen ist. <app>
+<lem/>
+<rdg wit="StAZH A 85, Nr. 7, S. 7">Aber die netzen soͤllennt nit enger <lb/>sin dann das recht britli, so <del>desglich</del> deshalb
+<lb/>geordnet und gemacht ist, langt und <unclear>begrifen</unclear>.</rdg>
+</app></p>
+</seg>
+<pb n="8" type="original" facs="StAZH_A_85__Nr__3__S__08_.tif"/>
+<seg n="22"><handShift scribe="1"/><p><lb/>Doch so mag jeglicher weidman witter brachsmen netzen haben, als vil er wil.</p>
+</seg>
+<seg n="23"><p><lb/>Es mugent die vischer in dem <placeName ref="loc008718">Greiffense</placeName> zuͦ der brachsmen ziechen ob der fluͦ mit
+<lb/>engen und witten garnen inmaͧsen, als das von alter harkomen ist. Aber under der <lb/>fluͦ soͤllent sy nit zuͦ der brachsmen werffen,
+weder uff dem schwaͤb noch zuͦ der <lb/>ruͦten dann mit den wytten garnen, die sy machen soͤllen naͧch des brieffs <lb/>sag, den <persName
+ref="per013298">Ruͤdy Bitziner</persName> selig besigelt haͧt.<note><persName ref="per013298">Rudolf Bitziner</persName> amtierte von 1411
+bis zu seinem Tod im Jahr 1416 als Vogt in <placeName ref="loc000348">Greifensee</placeName> (<bibl><ref
+target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216</bibl>). Die hier erwähnte Urkunde scheint nicht erhalten zu
+sein.</note>
+<add place="below" hand="other hand">Und doch sol das wyt garn zuͦ <lb/>dheinen andern fischen niemer gezogen werden dann zuͦ der brachsmen,
+<lb/>zum schweͣb noch sust.</add></p>
+</seg>
+<seg n="24"><p><lb/>Welicher oͧch vaͤcher in dem <placeName ref="loc008718">Griffense</placeName> haͧt, die inn von sinem vaͤtterlichen erb
+oder in <lb/>koͧffs wise ankomen sind, woͤlte die der nit fuͤr einen gewerb nutzen, so mag er die <lb/>verkoͧffen oder verlichen umb zins
+unnd suss zwen ander gewerb haben und nit mer. <lb/>Doch welcher die vaͤcher koͧffte oder umb zins empfienge und die bruchen woͤlt, der
+<lb/>sol dartzuͦ nit mer dann einen gewerb haben. <lb/><add place="below" hand="other hand">Und als etlich bishar understanden haben, ir
+netz und die selben gwerb damit zuͦ verkofen, ist <lb/>angesehen, welher soͤlhs hinfu̍r taͤte, dz dann der selb von soͤlichem sinem gwerb
+entsetzt und <lb/>abgestelt sin soͤlle, es werde im dann von minen herren witer naͧchgelaͧsen und erloͧpt.</add></p>
+</seg>
+<seg n="25"><p><lb/>Es sol <del rend="overwritten"><unclear>sich</unclear></del> oͧch jegklicher weidman uff <placeName ref="loc008718"
+>Griffense</placeName> an einem <num value="1/2">halben</num> garn lausen benuͤgen <lb/>unnd nit mer haben. Waͤre aber, das einer zuͦ dem
+andern halbteil nit wol gemeinder <lb/>moͤcht finden, so mag einer das garn mit knechten ziechen, untz er ein gemeinder <lb/>vindet. Unnd
+wenn einer von diser gegne kunt und begert eines, der ein gantz <lb/>garn hette, gemeinder zewerden, dem sol es von jeglichem gestattet
+werden, doch das <lb/>sy nit gebunden soͤllent sin, den schwaͧben von dem <placeName ref="loc000096">Bodense</placeName> semlichs zestatten,
+wonn <lb/>sy allweg vil nu̍wer fu̍nden erdenkent, die dem se gar schaͤdlich sind.</p>
+</seg>
+<seg n="26"><handShift scribe="2"/><p><lb/>Es mag oͧch ein jeglich garn <supplied source="StAZH C I, Nr. 2503, S. 11">des tags</supplied>,
+so man landzu̍g tuͦt, <date dur="R/P1W">der wochen einest</date>, <lb/>und nit mer, einen maͤrckt kratten mit vischen in die doͤrfer
+<lb/>senden, <del><unclear cert="high">es segin hu̍rling oder ander fisch</unclear></del> und sol die andern <lb/>lausen loͧffen.</p>
+</seg>
+<pb n="9" type="original" facs="StAZH_A_85__Nr__3__S__09_.tif"/>
+<seg n="27"><handShift scribe="1"/><p><lb/>Es sol och kein weidman von <date type="deadline_floating holiday">ostern</date> hin untz ze
+<date when="--11-11" type="deadline">sant <persName ref="per000141">Martins</persName> tag</date> an dem <date period="P3WD">zinstag</date>
+<lb/>ze sê varren mit keinem zu̍g, es waͤre dann, das es an dem <date period="P3WD">zinstag</date> ein gebanner <lb/>vast tag were, dann mag
+einer wol ze se varen mit sinem gezu̍g. Doch mag einer <lb/>sin zu̍g am <date period="P3WD">zinstag</date> setzen, das er inn an der <date
+period="P4WD">mitwochen</date> buͤre, aber sy mugen zuͦ <lb/>den brachsmen ziechen, wenn inen das eben ist, mit den garnen, als
+vorstautt.</p>
+</seg>
+<seg n="28"><p><del hand="later hand"><lb/>Es sol oͧch nieman kein hechtschnuͤr in dem <placeName ref="loc008718">Griffense</placeName>
+legen noch setzen, untz an unser <lb/>herren von <placeName ref="loc000065">Zu̍rich</placeName> erloben.</del></p>
+</seg>
+<seg n="29"><p><lb/>Als zwey garn ze <placeName ref="loc008569">Griffense</placeName> in dem staͤtly naͧch miner herren bekantnu̍ss sin
+soͤltend und <lb/>aber nun eins da ist, habend min herren den <orgName ref="org004899">Schanolten</orgName> zuͦ <placeName ref="loc008790"
+>Uͤsikon</placeName> gegunnen unnd <lb/>erlobt, ein garn zuͦ machen unnd das zuͦ <placeName ref="loc008790">Uͤsikon</placeName> ze haben,
+mit dem underscheid, <lb/>ob min herren deheinost beduͤchte, das garn nu̍tzer ze <placeName ref="loc008569">Griffense</placeName> zesinde,
+das sy denn <lb/>das garn widerumb gen <placeName ref="loc008569">Griffense</placeName> ordnen mugend unnd darinne tuͦn, was sy <lb/>je
+nu̍tz unnd guͤt bedunkt.</p>
+</seg>
+<seg n="30"><handShift scribe="2"/><p><lb/>Es sol och kein weidman sin frowen, tochter oder jungfrowen uf den <lb/>se allein schicken, sy
+haben dann vor einem vogt zuͦ <placeName ref="loc000348">Grifense</placeName> bi <lb/>tru̍w an eidstat gelopt, den eynung zuͦ halten. Und
+wer es dawider <lb/>taͤte, der git den eynung. Ob och ein frow also zuͦ se fart, sy <lb/>habe gelopt oder nit, verschult die dheinen eynung,
+den git <lb/>ir meister, dem sy zuͦ gehoͤrt.</p>
+</seg>
+<pb n="10" type="original" facs="StAZH_A_85__Nr__3__S__10_.tif"/>
+<seg n="31"><p><lb/>Item wie der eynung wiset, das die weidlu̍t zuͦ sagen soͤllen, was gewerbs <lb/>jeglicher triben welle, dz er das also
+das zit tuͤge, und nieman dheinerley <lb/>netzen sol, denn netzen von zug der alten, daruff der eynung gesetzt <lb/>ist, und die in der
+wyte, lenge und hoͤhe sigend, als sy von alter har <lb/>gewesen sind und och also gesetzt werdint, als von alter har beschehen <lb/>ist, und
+suss die andern netzen nit gebrucht werden. Wol brachsmen <lb/>netzen mugend sy och naͧch wisung des eynungs setzen. Und wer <lb/>daru̍ber
+ander netzen setzt, wo die dem vogt werden mogent, sol er <lb/>die brennen und die weidlu̍t einandern darumb leiden. Und sol der <lb/>vogt
+den eynung inziechen und ein bru̍tly geben, wie wyt die ob<lb break="no"/>genannten netzen sin soͤllent, und nit enger. <app>
+<lem/>
+<rdg wit="StAZH A 85, Nr. 7, S. 14">Es sol oûch kein netzer mer noch witer haben <lb/>dann <num value="1200">xij<hi rend="sup">c</hi></num>
+stuͦdlen und <num value="40">viertzig</num> reiße hoch <lb/>uber das pritli, so wievor lût gegeben, <add place="below" type="sign"
+>gebretten</add> und an<lb break="no"/>gezeigt wirt.</rdg>
+</app></p>
+</seg>
+<seg n="32"><p><lb/>Item das mess u̍ber die brachsmen sol sin <measure type="length" unit="Vierling" quantity="1.5">anderthalben
+vierling</measure> lang. <lb/>Und ob die netzer brachsmen fiengend in den netzen, so dz obgenant <lb/>mess nit hettend, moͤgend sy die wol
+mit irem gesind essen, aber <lb/>sy soͤllend die suss nit verkoffen oder jemand anderm geben.</p>
+</seg>
+<pb n="11" type="original" facs="StAZH_A_85__Nr__3__S__11_.tif"/>
+<pb n="12" type="original" facs="StAZH_A_85__Nr__3__S__12_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Gryfensee. <lb/>Dis ist der nu̍w vischeynung, <lb/>so jetz gesworen sol werden,
+<lb/><origDate when="1428">1428</origDate>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Gryffensee</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Nüw gestellte fischer einung für die fischer im <placeName ref="loc008718"
+>Gryffensee</placeName>, so selbige <lb/>schweren müßen, <origDate when="1428">1428</origDate>.</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Abschrift der Fischereinung enthält einige kleinere Änderungen gegenüber dem Original, nämlich in den Artikeln 1, 9 und
+16 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>). Von dort wurden auch die Nachträge
+übernommen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref></bibl>), allerdings ergänzt um weitere
+Bestimmungen (Artikel 17, 18 und 21). Ein zweiter Schreiber fügte sodann an freien Stellen weitere Regelungen hinzu, insbesondere zu den
+Artikeln 20, 23 und 24 sowie in paraphrasierter Form den Beschluss vom <date when="1431-05-08">8. Mai 1431</date> (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_020">SSRQ ZH NF II/3, Nr. 20</ref></bibl>). Die vorliegenden Nachträge müssen also zwischen diesem
+Datum und der Neufassung der Fischereinung vom <date when="1519-07-06">6. Juli 1519</date> zustande gekommen sein, weil dort alle hier
+versammelten Regelungen von der Anlagehand übernommen wurden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_056">SSRQ ZH NF II/3, Nr.
+56</ref></bibl>). Möglicherweise handelt es sich bei der vorliegenden Fassung also um einen Entwurf, jedenfalls aber um die Grundlage für
+die erneuerte Einung von 1519.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

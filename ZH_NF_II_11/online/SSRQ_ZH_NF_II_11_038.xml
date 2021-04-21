@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_038</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=739033">StAZH A 154, Nr. 2</idno></msIdentifier><head>Kundschaft betreffend das Recht der Vogeljagd in Wiedikon</head><msContents><summary>Sechs Männer auf dem Gebiet von Wiedikon und der Wacht Dreikönige äussern sich gegenüber zwei Ratsabgeordneten der Stadt Zürich betreffend das Recht der Vogeljagd in Wiedikon, wobei mehrere ihre Erinnerungen 40 Jahre zurück verorten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross (?)</author><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1490-01-06"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000351">Jagd</term><term ref="key000335">Nutzungsrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="1" facs="StAZH_A_154__Nr__2__S__1_.tif"/>
+<div><head><lb/>Der von <placeName ref="loc009863">Wiedikon</placeName> kuntschaft von voglens wegen</head>
+<p><lb/><persName ref="per024240">Fritschi Bru̍ll</persName>
+<choice>
+<abbr>d</abbr>
+<expan>dicit</expan>
+</choice>, er gedenck, das vor den <date when="1450"><num value="40">xl</num> jaͧren</date> die <orgName ref="org000349">Keller</orgName>
+zuͦ <placeName ref="loc009863">Wiedikon</placeName>
+<lb/>und <placeName ref="loc010356">Rieden</placeName>, dero <num value="5">fu̍nf</num> gebru̍der weͣren, die weyd zuͦ
+<placeName ref="loc009863">Wiedikon</placeName> umb <measure type="currency" quantity="5" unit="lb">v <lb/> </measure> zinses
+empfangen hetten von <orgName ref="org007942">gemeinen dorfflu̍ten zuͦ <placeName ref="loc009863">Wiedikon</placeName></orgName>. Die <lb/>selben
+<orgName ref="org000349">Keller</orgName> hetten och soͤliche vogelweyd inn mit foglen und haͤren <lb/>legen<note>Einrichtung für den
+Vogelfang mit Schlingen aus Pferdehaar (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/21515/mode/2up">Bd. 2, Sp. 1517</ref></bibl>).</note>,
+on intrag mengklichs.</p>
+<p><lb/><persName ref="per024238">Cuͦnrat Bynder</persName> seit, er sye des vogts knecht gsin zuͦ <placeName ref="loc009863">Wiedikon</placeName> vor den 
+<lb/><date when="1450"><num value="40">xl</num> jaͧren</date> und hetten der selben zit die <orgName ref="org000349">Keller</orgName> die vogelweyd zuͦ 
+<lb/><placeName ref="loc009863">Wiedikon</placeName> von gemeynen dorflu̍ten umb einen zins enpfangen, 
+<lb/>namlich <date dur="R/P1Y">des jaͧrs</date> umb <measure type="currency" quantity="5" unit="lb">v </measure>, und taͤte inen niemands kein intrag 
+<lb/>da mit voglen noch haͤren legen, und hetten soͤliche weid allein 
+<lb/>inn mit <persName ref="per024247">Wernlyn Seiler</persName>.</p>
+<p><lb/><persName ref="per024243">Ruͤdy Keller</persName> seyt, er hab einen vetter gehept, genant <persName ref="per024242">Hanns Keller</persName>, der
+<lb/>hett <placeName ref="loc012085">Brunnow</placeName> inn umb einen zins, also das er den von <placeName ref="loc009863">Wiedikon</placeName>
+<lb/><date dur="R/P1Y">jerlichs</date>
+<measure type="currency" quantity="30" unit="ß">xxx </measure> geͣbe, der vogloti da und leyte haͤren, das weͣre <lb/>vor
+miner herren alten
+kriegen<note>Alter
+Zürichkrieg (1436-50).</note>
+</p>
+<pb n="2" facs="StAZH_A_154__Nr__2__S__2_.tif"/>
+<pb n="3" facs="StAZH_A_154__Nr__2__S__3_.tif"/>
+<head><lb/>Dero von den <placeName ref="loc012095">Heiligen Dri Ku̍ng</placeName> kuntschaft von voglens wegen</head>
+<p><lb/><persName ref="per024245">Hanns Kloter</persName> von
+<placeName ref="loc012648">Honren</placeName><note><placeName ref="loc012648">Honrain</placeName> in <placeName ref="loc009865">Wollishofen</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Meier/Winkler 1993</ref>, S. 24</bibl>; zu den verschiedenen Schreibweisen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Siegrist 1995</ref>, S. 50</bibl>).</note> seyt, sine
+naͧchpuren und oͧch die von <lb/><placeName ref="loc009863">Wiedikon</placeName> syen vor vil jaͧren myt einandern in spennen gsin von
+<lb/>des foglen<unclear cert="high">s</unclear> wegen bi den
+ziten, als min herr <subst><del rend="strikethrough">Schwartzmurer</del><add place="above">von Chaͧm</add></subst> selig
+<lb/>burgermeister weͣre,<note><persName ref="per011990">Jakob Schwarzmurer</persName>, 1439-1440 und 1442-1475 Bürgermeister von <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Ratslisten</ref>, S. 196, 200-233</bibl>); <persName ref="per000743">Rudolf von Cham</persName>, 1453-1468 Bürgermeister von Zürich (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Ratslisten</ref>, S. 211</bibl>).</note> und kemynd darumb fu̍r min herren. Da habind <lb/>sine naͧchpuren vor minen herren den von
+<placeName ref="loc009863">Wiedikon</placeName> zum andern <lb/>maͧl mit recht anbehalten, das sy och da foglen <del rend="strikethrough">und haͤren legen</del>
+<lb/>moͤchten <add place="above">mit garnen</add>. Und weͣrend och dabi und mit, als inen die antwurt <lb/>wurde, herr
+<persName ref="per000940">Heinrich Schwend</persName> und der lang <persName ref="per024226">Schwend</persName> selig, och der <lb/>alt
+<persName ref="per024248">Wetzel</persName>, und sige das einost gsin bi den <origDate when="1450"><num value="40">xl</num> jaͧren</origDate>.
+Und zum <lb/>letsten, als sy vor minen herren sigen gsin, das sye bi den <origDate when="1470"><num value="20">xx</num>
+jaͧren</origDate>, <lb/>und doch sye im die jaͧrzal nit als eigenlich wissen.</p>
+<p><add place="left margin">secher</add><note>Gegenpartei (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id7.htm#!page/70123/mode/2up">Bd. 7, Sp. 126</ref></bibl>).</note><!-- sächer: https://www.ssrq-sds-fds.ch/lemma-db-edit/views/view-lemma.xq?id=lem002063-->
+<lb/><persName ref="per024239">Hensly Bog</persName> von den <placeName ref="loc012095">Heilgen Dry Ku̍ngen</placeName> seit, im sye wissend, das 
+<lb/>sine naͧchpuren mit den von <placeName ref="loc009863">Wiedikon</placeName> zum andern mal vor 
+<lb/>minen herren gwesen syen vor jaͧren und sich min herren 
+<lb/>erkanten, das die selben sine naͧchpuren voglen moͤchten.</p>
+<p><add place="left margin">secher</add>
+<lb/><persName ref="per024241">Uͤly Habersaͧt</persName> von <placeName ref="loc012648">Honren</placeName>
+<choice><abbr>d</abbr><expan>dicit</expan></choice> wie <persName ref="per024239">Bog</persName>, und das sine naͧchpuren 
+<lb/>sid dem krieg<note>Vgl. Anm. oben.</note> da gefoglot heben.</p>
+<p><lb/><choice><abbr>Pnt</abbr><expan>Presentibus</expan></choice>
+<abbr>m</abbr>
+<!-- ahh: Peter -->Wolf, <abbr>m</abbr> von Kuͦnsen, actum der <origDate when="1490-01-06">heilgen dri ku̍ng tag 1490</origDate>.<note>Die beiden waren am <date when="1490-01-04">4. Januar 1490</date> von <persName ref="per004700">Konrad Schwend</persName> als Statthalter des Bürgermeisters und beiden <orgName ref="org001217">Räten</orgName> mit dem Einholen einer Kundschaft betreffend den Vogelfang betraut worden (<bibl>StAZH B II 17, S. 3</bibl>).</note></p>
+<pb n="4" facs="StAZH_A_154__Nr__2__S__4_.tif
+"/>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/>Kundtschafft wegen denen von <placeName ref="loc009863">Wiedicken</placeName> voglens<lb break="no"/>grechtigkeit</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Am <date when="1490-01-07">7. Januar 1490</date> fällten <orgName ref="org002406">Bürgermeister <persName ref="per013786">Felix Brennwald</persName> und beide Räte von <placeName ref="loc000065">Zürich</placeName></orgName> auf der Grundlage der Kundschaft den Entscheid, dass die Bewohner auf dem Gebiet der <placeName ref="loc012095">Heiligen Dreikönige</placeName> in der Vogelweide von <placeName ref="loc009863">Wiedikon</placeName> mit Garn Vogelfang betreiben dürfen, ohne jedoch befugt zu sein, Stangen (zum Spannen der Netze für den Vogelfang, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id10.htm#!page/101667/mode/2up">Bd. 10, Sp. 1668</ref></bibl>) zu hauen. Ausserdem müssen sie Zäune und Gräben unbeschädigt lassen (<bibl>StAZH B II 17, S. 5</bibl>).</p>
+<p>Der Vogelfang mittels Garn und Leimruten wird bereits in Verordnungen der Zürcher Stadtbücher von <date when="1335">1335</date> und von zu <date from="1500" to="1525">Beginn des 15. Jahrhunderts</date> erwähnt (<bibl>StAZH B II 1, fol. 35v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/1, S. 146, Nr. 310</bibl>; <bibl>StAZH B II 2, fol. 104r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, Nr. 185, S. 349-350</bibl>). Weitere Quellen zur Vogeljagd respektive zum Vogelschutz in <placeName ref="loc000065">Zürich</placeName> sind aufgeführt bei <bibl><ref target="/startseite/literaturverzeichnis">Bretscher 1910</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

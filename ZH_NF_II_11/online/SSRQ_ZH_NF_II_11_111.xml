@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_111</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=686043">StAZH A 120, Nr. 26</idno></msIdentifier><head>Dreiervorschlag für die Besetzung der Untervogtstelle in Enge und Wollishofen</head><msContents><summary>Nach dem Tod des amtierenden Untervogts Baag schlagen die Gemeinden Enge und Wollishofen auf Geheiss der Obervögte drei Kandidaten als dessen Nachfolger vor. Neben Felix Landolt, Gemeindegenosse von Enge, der die Gesamtheit der Stimmen auf sich vereint, stehen der Säckelmeister Jörg Köchli von Wollishofen und Rudolf Hausheer, Sohn des verstorbenen Untervogts Hausheer von Wollishofen, zur Wahl.  Ein Nachtrag hält fest, dass Landolt am 15. Januar 1634 vom Rat zum Untervogt von Enge und Wollishofen bestimmt worden ist.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1634-01-15">Vor dem 15. Januar 1634 (Datierung aufgrund des Vermerks über die erfolgte Wahl)</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key000036">Vogtei</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_120__Nr__26__S__1_.tif"/>
+<p>
+<seg>
+<lb/>Nach dem unßere gnedig heren, die ober, <lb/>ußen geschickt in ein <choice>
+<sic>gmeidt</sic>
+<corr>gmeindt</corr>
+</choice>
+<placeName ref="loc010425">Ëngi</placeName> und <lb/><placeName ref="loc009865">Wolißhoffen</placeName>, daß wir söllen an undervogt <lb/>
+<persName ref="per025698">Bagen</persName><note><persName ref="per025698">Rudolf Baag</persName> aus <placeName ref="loc010425">Enge</placeName>, Untervogt der Obervogtei <placeName ref="loc009865">Wollishofen</placeName>, erwähnt 1611-1634 (<bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 169</bibl>).</note> sëligen statt ander dri nëmenn, <lb/>daß wir <choice><sic>meient</sic><corr>meinent</corr></choice>, die einer vogthey 
+<lb/>vorstanden.</seg>
+<seg>Erstlich wartt genamßet<note>Zur Ernennung der Kandidaten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 210-211.</bibl></note>
+<lb/><persName ref="per025704">Felix Landoltt</persName>
+<add place="left margin" hand="other hand">Diser wards, den <origDate when="1634-01-15">15<hi rend="sup">n</hi> januarii anno 1634.</origDate></add><note>Der Gemeindegenosse von <placeName ref="loc010425">Enge</placeName> hatte das Amt, wie für Untervögte üblich, bis zu seinem Tod im Jahre 1658 inne (<bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 169</bibl>).</note>, der ist von einer vogthey
+<lb/>ein heligklich daß mer worden<note>Die erreichte Stimmenzahl der einzelnen Kandidaten wurde auf einigen Akten zum Dreiervorschlag ebenfalls angemerkt, vgl. etwa <bibl>StAZH A 149.2, Nr. 19</bibl> und <bibl>StAZH A 149.2, Nr. 148</bibl>.</note>, zuͦ einem <lb/>undervogt zuͦ nëmen. Demnach <persName ref="per025702">Jörg <lb/>Köchli</persName>, seckelmeister der <orgName ref="org007948">gmeindt <lb/><placeName ref="loc009865">Wolisshoffen</placeName></orgName>, demnach <persName ref="per025701">Ruͦdolff <lb/>Hußher</persName>, undervogt <persName ref="per025699">Hußheren</persName> sëligen<note><persName ref="per025699">Heinrich Hausheer</persName> von <placeName ref="loc009865">Wollishofen</placeName>, erwähnt als Untervogt von 1600-1605 (<bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 169</bibl>).</note> sonn.</seg>
+<seg><lb/>Der gott wele syn heligen sägen dor<lb break="no"/>zuͦ sänden.</seg>
+</p>
+<pb n="2" facs="StAZH_A_120__Nr__26__S__2_.tif"/>
+<pb n="3" facs="StAZH_A_120__Nr__26__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_120__Nr__26__S__4_.tif
+"/>
+<div>
+<ab place="verso" type="dorsal"><lb/>Fürschlag  uff die under<lb break="no"/>vogtey <placeName ref="loc010425">Engi</placeName> unnd <placeName ref="loc009865">Woliß<lb break="no"/>hofen</placeName><note>Der Dorsualvermerk stammt von gleicher
+Hand wie der Randvermerk über den gewählten Kandidaten.</note>
+</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Neubesetzung der Stelle des Untervogtes, des höchsten Dorfbeamten, erfolgte in der Regel nach Ableben des Amtsinhabers, während Absetzung oder Rücktritt die Ausnahme darstellten (<bibl><ref target="/startseite/literaturverzeichnis">Brändli 2000</ref>, S. 17</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 197</bibl>). Nach der Wahl eines «Dreiers» (dreier Kandidaten für das zu besetzende Amt) durch die Gemeindeversammlung bestimmte der <orgName ref="org002406">Rat von <placeName ref="loc000065">Zürich</placeName></orgName> auf Vorschlag des amtierenden Obervogtes den neuen Untervogt. An einigen Orten erfolgte die Wahl für den Dreiervorschlag durch offenes Handmehr, andernorts geheim durch Flüstern in das Ohr eines vereidigten Gemeindebeamten. In <placeName ref="loc010425">Enge</placeName> war der letztgenannte Modus zumindest für die Wahl von Geschworenen und anderen nicht näher bezeichneten Gemeindebeamten Ende des 16. Jahrhunderts üblich (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_092">SSRQ ZH NF II/11, Nr. 92</ref></bibl>). Meistens berücksichtigen der Obervogt und der Rat den Kandidaten, der an der Gemeindeversammlung die meisten Stimmen auf sich vereinte, wie dies auch im vorliegenden Beispiel der Fall war (<bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 57</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 203-208</bibl>).</p>
+<p>Zu den vielfältigen Aufgaben eines Untervogts und seiner Stellung zwischen Dorfgemeinschaft und Obrigkeit vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 196-197</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Zangger 1995</ref>, S. 418</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Eichholzer 1924</ref>, S. 206-208, 211-213</bibl>.</p>
+<p>Gemäss Ratsentscheid vom <date when="1778-04-15">15. April 1778</date> sollte auch die Bestellung des Kirchenpflegers von <placeName ref="loc010425">Enge</placeName> auf der Grundlage eines Dreiervorschlags und nicht mehr direkt durch die Obervögte erfolgen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3340871">StAZH B II 980, S. 143-144</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_166</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3743039">StAZH H I 607, fol. 63r</idno></msIdentifier><head>Testamentarische Vergabung des Chorherrn Stefan Meier an das Siechenhaus an der Spanweid</head><msContents><summary>Stefan Meier, Chorherr am Fraumünster, überschreibt 26 Pfund jährlichen Zins aus dem Weinungeld der Stadt Zürich den Aussätzigen im Siechenhaus an der Spanweid, wobei nach seinem Tod der dortige Kaplan jeden Samstag 10 Schilling aus dem Weinungeld beziehen, davon einen Schilling sich selbst zu Lohn nehmen und aus den restlichen neun Schilling den Aussätzigen Fleisch, Fisch oder was ihnen gefällig ist, kaufen lassen soll. Des Weiteren sind dem Kaplan vier Mal im Jahr je zwei Schilling auszubezahlen und für den Betrag von acht Schilling einzukaufen, was die Aussätzigen wünschen (1). Weiter hat Stefan Meier den Aussätzigen im Siechenhaus an der Spanweid vier Jucharten Reben einschliesslich den Erträgen aus Haus, Hoftstatt, Holz und Heu geschenkt. Aus den Erträgen dieser Schenkung soll der Pfleger vier Mal den Aussätzigen je eine Quart Wein austeilen (2).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1538-01-01" to="1538-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key005386">Frömmigkeit</term><term ref="key000143">Kapelle</term><term ref="key005402">Kirchengebäude</term><term ref="key000150">Jahrzeit</term><term ref="key005411">Medizinische Versorgung</term><term ref="key000658">Reformation</term><term ref="key003956">Seuchen</term><term ref="key003944">Siechenhaus</term><term ref="key000192">Stiftung</term><term ref="key000635">Testament</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="63r"/>
+<head><lb/>Ordnunng unnd gmächtt dennen armen <lb/>kinden, gethan von her <persName ref="per015356">Steffan Mey<lb break="no"/>er</persName>, chorher zum <placeName ref="loc000090">Frowenmünster</placeName></head>
+<p>
+<lb/>Item her <persName ref="per015356">Steffan Meyer</persName>, chorherr zum <placeName ref="loc000090">Fro<lb break="no"/>wenmünster</placeName>,
+hatt geordnett und gesetzt
+<lb/><measure type="currency" unit="lb" quantity="26">zwentzig unnd sechs pfund</measure> geltz uff derr
+<lb/>statt win ungelt der statt <placeName ref="loc000065">Zu̍rich</placeName> den armmen
+<lb/>sondersiechen lu̍ten an der <placeName ref="loc008759">Spannweyd</placeName>, also
+<lb/>dz nach sinem tod der capplan da selbs
+<lb/>an der <placeName ref="loc008759">Spanweyd</placeName>
+<date period="P7WD">all samstag</date> am win un<lb break="no"/>gelt
+vordren unnd inziechen sol <measure type="currency" unit="ß" quantity="10">zechen 
+<lb/>₰</measure>, da von nemmen im selbs zlon <measure type="currency" unit="ß" quantity="1">j </measure> unnd umb
+<lb/>die u̍berigen <measure type="currency" unit="ß" quantity="9">nu̍n schilling</measure> durch der son<lb break="no"/>dersiechen
+botten kouffen vysch oder fleysch
+<lb/>oder was denen siechen aller gevellist ist
+<lb/>unnd dz erberlich under sy teylen, so ver
+<lb/>es gelangen mag. Item man sol geben <measure type="currency" unit="ß" quantity="2">ij </measure>
+<lb/>dem capplan <date dur="R/P3M">viermal im jarr</date> unnd umb
+<lb/><measure type="currency" unit="ß" quantity="8">viij </measure> ouch kouffen <date dur="R/P3M">viermal im jar</date>, was
+<lb/>sy wennd.
+</p>
+<p>
+<lb/>Item der vorgenant her <persName ref="per015356">Steffan Meyer</persName> hatt
+<lb/>denen kinden geben zuͦ einem widem <measure type="area" unit="Juchart" quantity="4" commodity="vineyard">vierr
+<lb/>juchartt reben</measure>, huß, hofstatt, holtz, höw<lb break="no"/>wächs
+mitt aller zuͦ gehörde, darum sol
+<lb/>ein pfleger geben <measure type="volume" unit="Quart" quantity="1" commodity="wine">ein quertli wins</measure> eim jeden
+<lb/>armen hus kind <date dur="R/P3M">viermal im jar</date>, zuͦ sampt
+<lb/>dez win, der einem sust wirdtt von der pfruͦnd.
+<seg><lb/>Actum <origDate when="1495">m cccc lxxxxv jar</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Es handelt sich bei dem Eintrag um die überarbeitete Version einer Jahrzeitstiftung aus dem um das Jahr 1490 entstandenen Jahrzeitbuch des <orgName ref="org004913">Siechenhauses an der <placeName ref="loc008759">Spanweid</placeName></orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_057">SSRQ ZH NF I/1/3, Nr. 57</ref></bibl>). Im Zuge der Neuanlegung des Buches 1539 wurden auch die älteren Einträge übernommen, um die daraus folgenden Besitzansprüche des Siechenhauses sicherzustellen. Dabei erfolgte jedoch eine Umarbeitung im reformatorischen Sinn. Wie aus dem vorliegenden Eintrag ersichtlich wird, ging damit die Weglassung aller Hinweise auf den Zweck der Stiftung, das Seelenheil des Stifters zu erhalten, einher. Ebenfalls getilgt wurden die Fronfasten als diejenigen kirchliche Festtage, an welche die Abhaltung der Jahrzeitmessen gebunden war. Auf diese Weise wandelte sich die  ursprüngliche Jahrzeitstiftung zur einer rein wohltätig ausgerichteten testamentarischen Vergabung.</p>
+<p>Das Buch wurde bis in die zweite Hälfte des 16. Jahrhunderts weitergeführt und dokumentiert auf diese Weise die anhaltend intensive Stiftungstätigkeit <placeName ref="loc000065">Zürcher</placeName> Bürger gegenüber dem Siechenhaus. Ein prominentes Beispiel dafür ist die Schenkung <persName ref="per012634">Heinrich Bullingers</persName> und seiner Ehefrau <persName ref="per014202">Anna Adlischwyler</persName> aus dem Jahr 1557 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_192">SSRQ ZH NF I/1/3, Nr. 192</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

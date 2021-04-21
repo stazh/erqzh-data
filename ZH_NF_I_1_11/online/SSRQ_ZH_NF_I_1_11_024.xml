@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_024</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3548739">StAZH III AAb 1.4, Nr. 47</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Passkontrollen der Soldaten bei den Stadttoren</head><msContents><summary>Bürgermeister und Räte der Stadt Zürich verordnen, dass kein Soldat ohne Passschein durch die Stadttore eingelassen werden darf. Soldaten ohne einen solchen Schein müssen vom Wachtpersonal zum Rathaus gebracht werden, wo sie zur Rede gestellt werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="25.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1656-02-04"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 892, Nr. 1030</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key001004">Bescheinigung</term><term ref="key005440">Stadttore</term><term ref="key000580">Wachdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_4__Nr__47__r_.tif"/>
+<p>
+<seg>
+<lb/>Us erkantnuß und befelch / auch by
+ <lb/>hoher straaff und ungnad / myner Gnaͤdig Herren / sol
+ <lb/>von den Wachten vor den Thoren niemands mehr / uß eim ald anderen
+ <lb/>Laͤger oder Quartier / dahin jeder gehoͤrt / ohne authentische Paßporten
+ <lb/>von der Generalitet / oder dem bestellten Commandanten des Orts / da<lb break="no"/>her
+ einer komt / eyn- noch durchgelassen / sonder vilmehr ein soͤlicher von der
+ <lb/>Wacht / alsobald verwahrlich angenommen / und uf das <placeName ref="loc008754">Rahthuß</placeName> ge<lb break="no"/>fuͤhrt
+ werden / damit man ihne / umb syne allharokunft und verlassung
+ <lb/>syner Companey / von Oberkeits wegen / gebuͤrend zured stellen koͤnne.</seg>
+ <seg><lb/>Gegeben <origDate when="1656-02-04" calendar="Julian">Montags / den 4. Hornung / eintusend / sechshundert / fuͤnf<lb break="no"/>tzig
+  und sechs Jahre</origDate>. <choice><abbr><hi rend="font change">Praesentib</hi></abbr><expan>Praesentibus</expan></choice>. Herr Burgermeister <persName ref="per011116">Rahn</persName>: und <orgName ref="org002406">beyde
+ <lb/>Raͤht</orgName>.</seg></p>
+<p><orgName ref="org005015">Cantzley <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_4__Nr__47__v_.tif"/>
+<div><ab type="dorsal" place="verso above right" hand="hand17c"><lb/>Patente <lb/>im krieg <date when="1636-02-04" calendar="Julian">1636 <lb/>vom 4. februar</date>.<note>Hier handelt es sich um einen Schreibfehler. Es müsste 1656 und nicht 1636 stehen.</note></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Dieses kurze Mandat wurde während des Ersten Villmergerkrieges, eine militärische Auseinandersetzung zwischen den reformierten Orten <placeName ref="loc000066">Zürich</placeName>, <placeName ref="loc000464">Bern</placeName> und <placeName ref="loc000702">Schaffhausen</placeName> sowie den katholischen Orten <placeName ref="loc000972">Luzern</placeName>, <placeName ref="loc000796">Uri</placeName>, <placeName ref="loc000730">Schwyz</placeName>, <placeName ref="loc000568">Unterwalden</placeName> und <placeName ref="loc000215">Zug</placeName>, erlassen. Auslöser für den Krieg waren die Ablehnung eines neuen <orgName ref="org000531">eidgenössischen</orgName> Bundes durch die katholischen Orte sowie die Aufnahme mehrerer reformierter Flüchtlinge aus <placeName ref="loc010508">Arth</placeName> in <placeName ref="loc000065">Zürich</placeName>. Am 6. Januar 1656 erfolgte die Kriegserklärung von <placeName ref="loc000066">Zürich</placeName> und <placeName ref="loc000464">Bern</placeName>. Kurz danach besetzte <placeName ref="loc000066">Zürich</placeName> Teile des <placeName ref="loc000777">Thurgaus</placeName> und belagerte die Stadt <placeName ref="loc000108">Rapperswil</placeName>. Bereits am 24. Januar 1656 erfolgte die entscheidende Schlacht bei <placeName ref="loc000954">Villmergen</placeName>, wo <placeName ref="loc000464">Berner</placeName> Truppen den <placeName ref="loc000972">Luzerner</placeName> und <placeName ref="loc000215">Zuger</placeName> Truppen unterlagen. <placeName ref="loc000066">Zürich</placeName> musste nach einem Sturmangriff die Belagerung <placeName ref="loc000108">Rapperswils</placeName> am 3. Februar abbrechen. Im Anschluss daran kam es zu Friedensverhandlungen, die in den Dritten Landfrieden vom 7. März 1656 mündeten (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D8910.php">Villmergerkrieg, Erster</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

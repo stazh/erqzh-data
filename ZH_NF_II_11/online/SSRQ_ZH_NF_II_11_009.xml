@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_009</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200911">StAZH G I 140, fol. 78r-79r</idno></msIdentifier><head>Rechte und Pflichten des Kustos des Grossmünsterstifts in Oberhausen und Stettbach sowie der Eigenleute</head><msContents><summary></summary><msItem><textLang>Latein</textLang><filiation type="current">Abschrift (Grundtext)</filiation><filiation type="original"><origDate when="1370-05-04"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="43.0"/><width unit="cm" quantity="29.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1541-01-01" to="1541-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000307">Allmende</term><term ref="key000184">Bussen</term><term ref="key000061">Ehegenossame</term><term ref="key000183">Fall</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000012">Offnung</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000335">Nutzungsrecht</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="78r" facs="StAZH_G_I_140__fol__78_r_.tif"/>
+<head>Rotulus conventionum inter custodem et villanos</head>
+<p>
+<lb/>In nomine domini amen. Sciendum est, quod <date when="1370-05-04">anno nativitatis eiusdem 1370 die quarta mensis mai</date> qui fuit annus
+<lb/>proximus electionis mei <persName ref="per023950">Wernheri de Rinach</persName> thesaurarii et canonici <orgName ref="org004352">ecclesię prepositure Thuricensis</orgName>
+<lb/><orgName ref="org000056">Constantiensis diocesis</orgName>, ego <persName ref="per023950">Wernherus</persName> thesaurarius in villa <placeName ref="loc012717">Oberhusen</placeName> habui placita generalia, nun<lb break="no"/>cupata
+meientaͤding, et tunc iuxta consuetudines hactenus per thesaurarium ecclesie suprascripte
+<lb/>observatas ex affirmatione villanorum ibidem existentium, morantium et convocatorum ad
+<lb/>mei <persName ref="per023950">Wernheri</persName> inquisitionem et investigationem et villanorum predictorum in iure respon<lb break="no"/>sionem
+et confessionem reperta sunt iura et onera ac iurisdictio thesaurarii hominum
+<lb/>ville et curiarum ibidem morantium et existentium in modo, qui subinfertur.</p>
+<p>
+<seg n="1"><lb/>Et primo tunc fuit ibidem iuridice probatum, quod in <placeName ref="loc012717">Oberhusen</placeName> iurisdictio temporalis in
+<lb/>omnibus causis civilibus pertinet ad thesaurarium ecclesie prepositure prefatę et cum districtu eiusdem villę
+<lb/>a rivulo nuncupato der <placeName ref="loc010666">Sebach</placeName> usque infra pontem nuncupatum die <placeName ref="loc012119">Glattbrugg</placeName> ad longi<lb break="no"/>tudinem
+et latitudinem, longitudinis trium virorum aut quod unus vir tribus vicibus cum ambobus <pb n="78v" facs="StAZH_G_I_140__fol__78_v_.tif"/>
+<lb/><choice><sic>cum ambobus</sic><corr/></choice> brachiis extentis posset mensurare, in vulgari <measure type="area" unit="Klafter" quantity="3">drier klafter</measure> lang. Et ubi illa longi<lb break="no"/>tudo
+et latitudo terre infra pontem prefatum situate esset clausa vel obstructa per sepes, ostiola, fossatum
+<lb/>seu quovis alio modo, illa debent aperiri villanis de <placeName ref="loc012717">Oberhusen</placeName> quandocumque et quocienscumque voluerint et eis
+<lb/>necessarium videbitur per homines ad quos latitudo seu longitudo eiusdem terre dinoscitur pertinere; et ubi non ape<lb break="no"/>rirentur,
+extunc villani in <placeName ref="loc012717">Oberhusen</placeName> possunt aperire sine contradictione quorumcunque.</seg></p>
+<p><seg n="2"><lb/>Item omnia parva iudicia et omnes questiones civiles ibidem pertinent ad thesaurarium ecclesie supradicte exceptis
+<lb/>causis criminalibus, in vulgari nuncupatis tüp und frefen.</seg></p>
+<p>
+<seg n="3"><lb/>Item si quando villani eiusdem ville <placeName ref="loc012717">Oberhusen</placeName> citati fuerint coram iudice seu officiali <orgName ref="org002902">curię Constantiensis</orgName>
+<lb/>ratione debitorum et huius citationis intimaverint thesaurario supradicto, ipse thesaurarius cum ipsis coram iudice
+<lb/>seu officiali supradicto debet comparere et allegare forum et offerre debet se velle facere iusticiam querelantibus
+<lb/>et etiam ipsis iusticiam facere debet; sed ubi isti citati huius citationis thesaurario non intimarent, extunc per se debent
+<lb/>comparere et se defendere.</seg></p>
+<p>
+<seg n="4"><lb/>Item <date dur="R/P1Y">omni anno</date> thesaurarius supradictus debet habere placita generalia tempore <date period="summer">estivali</date> et <date period="winter">hiemali</date>, in vulgari nuncupata
+<lb/><date when="--05">meien</date>taͤding und <date period="fall">herpst</date>taͤding. Et cum thesaurarius huiusmodi placita per se vel alium vult habere, debet 
+<lb/>facere citari vel vocari per suum officialem omnes, quorum interest, et specialiter omnes, qui aliqua bona possident
+<lb/>a thesaurario supradicto. Et ista placita tempore <date period="summer">estivali</date> debet habere <date when="--05-01">prima die mensis mai</date>, seu <date period="fall">autumni</date>, et tunc omnes
+<lb/>habentes bona immobilia in longitudine vel latitudine <measure type="length" unit="Fuss" quantity="7">septem pedum</measure> si vocati fuerint dicta die
+<lb/>primam diem huiusmodi placiti precedentem, tenentur comparere in illa die placiti coram thesaurario supradicto
+<lb/>seu tunc pro ipso presidenti. Et quicumque illa die non comparuerit, condemnatus est ad mulctam <measure type="currency" unit="ß" quantity="3">trium solidorum</measure>
+<lb/>usualium, alias ad vadia, in vulgari nuncupata einung, et ubi non vocaret eos vel aliquem ex eis,
+<lb/>non vocati ad nullam iusticiam protunc thesaurario sunt obligati vel astricti.</seg></p>
+<p>
+<seg n="5"><lb/>Item mollitor aput pontem nuncupatum <placeName ref="loc012119">Glattbrugg</placeName> nulla pecora vel greges habere debet nisi
+<lb/>dumtaxat unum canem et unam cattam.</seg></p>
+<p>
+<seg n="6"><lb/>Item thesaurarius debet defendere villanos in <placeName ref="loc012717">Oberhusen</placeName> et pro eis intercedere, ne compellantur
+<lb/>solvere yminos<!-- Immi; in der dt. Fassung: ymi --> et gabellas, in vulgari nuncupatas ungelt, in opido <placeName ref="loc000065">Thuricensi</placeName>.</seg></p>
+<p>
+<seg n="7"><lb/>Item ubi, quotiens et quando villani in <placeName ref="loc012717">Oberhusen</placeName> inter se ordinant, imponunt seu faciunt vadia
+<lb/>seu mulctas, in vulgari einung nuncupatas, propter faciendas sepes seu fossata ad defendendum
+<lb/>segetes, agros vel prata vel ad metendum frumenta vel ad reserandum fenum vel in casibus similibus,
+<lb/>in his casibus tercius denarius illarum mulctarum pertinet thesaurario. Sed in casu, ubi villani prefati
+<lb/>propter potentiam et resistentiam illorum qui huiusmodi mulctarum penas inciderint duas alias por<lb break="no"/>tiones
+ipsarum mulctarum ipsos concernentes non possent conquirere, thesaurarius, antequam terciam
+<lb/>partem sicut premittitur ipsum concernentem exigat aut recipiat, debet auxilium prestare pro posse
+<lb/>et ipsis villanis cooperari ut due partes ipsos concernentes similiter ipsis solvantur sicut ipsi thesaurario.</seg></p>
+<p>
+<seg n="8"><lb/>Item itinera et actus de mensibus <date when="--05">mai</date> et <date period="fall">autumni</date>, nuncupata in vulgari evaden, cum
+<lb/>mulctis seu vadiis, vulgariter nuncupatur einung, pertinent soli thesaurario.</seg></p>
+<p>
+<seg n="9"><lb/>Item thesaurarius <date when="--05-01">prima die mensis mai</date>
+<date dur="R/P1Y">cuiuslibet anni</date> debet habere iudicium et tunc debet iudicare et iusticiam
+<lb/>facere omnibus indifferenter super iuribus et proprietatibus et hereditariis, super viis, semitis et itineribus
+<lb/>publicis et per totum annum potest et debet iudicare super debitis.</seg></p>
+<p>
+<seg n="10"><lb/>Item villani de <placeName ref="loc012717">Oberhusen</placeName> vinum in quo sunt thesaurario obligati, quod est in summa <measure type="volume" quantity="2.5" unit="Viertel" commodity="wine">quinque dimi<lb break="no"/>dium
+quartale</measure> vel plus vel minus, debet esse optimum vinum quod <placeName ref="loc000065">Turegi</placeName> venditur preter unum, debent
+<lb/>thesaurario solvere <date when="--12-26" type="deadline">in festo beati Stephani prothomartiris</date>. Et eadem die thesaurarius debet dare predictis villanis
+<lb/>vinum solventibus unum prandium et ad bibendum in eodem prandio de vino quod solvunt.</seg></p>
+<p>
+<seg n="11"><lb/>Item quicumque possidet bona thesaurarię<!-- e caudata --> in longitudine vel latitudine <measure type="length" unit="Fuss" quantity="7">septem pedum</measure>, si ille moritur,
+<lb/>sui heredes tenentur solvere unum mortuarium, in vulgari nuncupatum ein val, videlicet
+<lb/>melius caput de pecoribus que habuit vel melius vestimentum aut melius panzerium uno dumtaxat
+<lb/>excepto, nisi forsan heredes vel amice componerent ad gratiam thesaurarii se afferendo cum effectu.
+<lb/>Et senior heres solvere debet huiusmodi mortuarium, nisi forsan bona heredum sint divisa, et illo
+<lb/>casu quilibet heredum debet ad gratiam thesaurarii concordare cum ipso cum quolibet teneatur ad solvendum huiusmodi <pb n="79r" facs="StAZH_G_I_140__fol__79_r_.tif
+"/>
+<lb/>mortuarium. Sed ubi una mulier succedit, nullum solvit mortuarium.</seg></p>
+<p>
+<seg n="12"><lb/>Item villani in <placeName ref="loc012717">Oberhusen</placeName> habent ius piscandi in fluvio nuncupato die <placeName ref="loc010439">Glatt</placeName> undique in districtu eiusdem
+<lb/>thesaurarii per circulum anni, quantum ipsi indigant ad comedendum, non tamen ad vendendum, sed in <date type="floating holiday"><choice><abbr>xl<hi rend="sup">a</hi></abbr><expan>quadragesima</expan></choice></date> possunt in eodem
+<lb/>fluvio piscari ad vescendum et vendendum et alias in quemcumque modum voluerint aut ipsis utile videbitur.</seg></p>
+<p>
+<seg n="13"><lb/>Item villani prefati habent unam piscinam, in vulgari nuncupatam ein langwat, in rivulo nuncupato
+<lb/>der <placeName ref="loc013727">Ebach</placeName>, et ibidem piscari possunt quando et quotiens voluerint ad vescendum et ad vendendum prout ipsis
+<lb/>placuerit et per nullum debent impediri. Et ubi reperirent alios extraneos ibidem piscantes, illos debent
+<lb/>et possunt prohibere, et ubi ad huiusmodi prohibitionem essent minus potentes, thesaurarius ad prohibendum premissa
+<lb/>suum adiutorium ipsis tenetur impartiri et ipsos defendere.</seg></p>
+<p>
+<seg n="14"><lb/>Item quicumque homines sunt residentes in villa <placeName ref="loc012717">Obrenhusen</placeName> sive sint homines proprii monasteriorum loci
+<lb/><orgName ref="org000577">Heremitarum</orgName>, <orgName ref="org000360">Augie Maioris</orgName>, <orgName ref="org000581">Sancti Galli</orgName>, <orgName ref="org004352">Sanctorum Felicis et Regulę</orgName>, exceptis hominibus qui habent ibidem possessiones
+<lb/>conductas, in vulgari nuncupatas verlehent lüte, illi habent paritatem inter se, in vulgari ein
+<lb/>gnosschaft, et ad invicem sine cuiuscumque contradictione possunt matrimonialiter coniungi et sibi ad invicem 
+<lb/>in bonis per ipsos in ipsorum morte derelictis succedunt. Et si nullum habent consanguineum in propinquo
+<lb/>gradu, extunc non advocatus in <placeName ref="loc000012">Kiburg</placeName> sed vicinus eorum vicinior in prefata villa <placeName ref="loc012717">Obernhusen</placeName> residens 
+<lb/>vel continuam moram trahens in dictis bonis per ipsos derelictis ut et tanquam heres vicinior succedit,
+<lb/>succedere potest et debet.</seg></p>
+<p>
+<seg n="15"><lb/>Item omnes illi homines de quibus premittitur, quotquot sunt in villa <placeName ref="loc012717">Obernhusen</placeName> prefata sicut premittitur residenciam
+<lb/>aut moram continuam trahentes, possunt, quando et quotienscumque volunt, residenciam in prefata villa deserere
+<lb/>et ab ea recedere et ad residendum seu moram continuam trahendum ad alia loca, ubicumque voluerint, se
+<lb/>transferre libere sine cuiuscumque contradictione. Et si volunt residere in opido <placeName ref="loc000065">Thuricensi</placeName>, extunc statim
+<lb/>cum intrando dictum opidum venerint ad petram magnam, in vulgari nuncupatam der <placeName ref="loc013729">Groß Fluͦ</placeName>,
+<lb/>et illam precesserint ipsamque posttergaverint in nullo plus ob<del>g</del>ligati sunt vel astricti advocato
+<lb/>in <placeName ref="loc000065">Kiburg</placeName> ad serviendum vel obediendum, nisi forte <unclear>cum</unclear><!-- Lateinfachstelle: oder unum? Syntax? --> ipsorum recedentium vel recedentis recessum
+<lb/>recedens in aliquam penam vel mulctam seu emendam inciderit advocato supradicto solvendam
+<lb/>ad satisfaciendum de pena, mulcta seu emenda supradicta, advocatus in <placeName ref="loc000065">Kiburg</placeName> eundem recedentem
+<lb/>potest arrestare, capere seu detinere donec predicto advocato per recedentem vel recedentes prefatos fuerit
+<lb/>satisfactum aut cum ipso amicabiliter concordatum.</seg></p>
+<p>
+<seg n="16"><lb/>Item fossatum, dictum vulgariter der egrab, omni tempore debet patere omnibus et semper esse apertum in eum eventum
+<lb/>ubi venirent inundationes aquarum, quod illa fossata defendunt transeuntes, ipsorum pecora et vecturas
+<lb/>eorum. In casu autem ubi possidentes et habentes fossatum supradictum ipsum fossatum non haberent
+<lb/>apertum, emendare debent et emendam facere thesaurario, villanis eiusdem ville ac aliis, ad quos
+<lb/>pertinet, secundum consuetudinem ville et districtus in <placeName ref="loc012717">Oberhusen</placeName>.</seg></p>
+<p>
+<seg n="17"><lb/>Item quandocumque thesaurarius supradictus habere vult placita generalia de mensibus <date when="--05">mai</date> et <date period="fall">autumni</date>
+<lb/>quemcumque villanum ville <placeName ref="loc012717">Obernhusen</placeName> apprehens in oppido <placeName ref="loc000065">Thuricensi</placeName>, illi villano precipere potest
+<lb/>ut preintimet omnibus, quorum interest, terminum et dictum placitorum predictorum.</seg></p>
+<p>
+<seg n="18"><lb/>Item similiter potest omnibus villanis supradictis et ipsorum singulis precipere ut visitent custodias, in vulgari
+<lb/>nuncupatas efaden, sepium, hostiolarum et fossatum circa tempus <date period="summer">estivale</date> et <date period="fall">autumnale</date>, et <choice><sic>de</sic><corr>dent</corr></choice>
+<lb/>visitationum relationem et quicumque ipsorum ad mandatum prefati thesaurarii recusaret hoc facere,
+<lb/>debet et tenetur solvere mulctam <measure type="currency" unit="ß" quantity="3">trium solidorum</measure> thesaurario supradicto.</seg></p>
+<p>
+<seg n="19"><lb/>Item nullus vicinorum ville seu villanorum in <placeName ref="loc012717">Obrenhusen</placeName> debent pecora sua ducere ad pascua
+<lb/>seu almendas ville in <placeName ref="loc012717">Obrenhusen</placeName> nisi de villanorum in <placeName ref="loc012717">Oberhusen</placeName> consensu expresso processerit.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>
+Diese lateinische Fassung der Offnung von <placeName ref="loc012717">Oberhausen</placeName> ist nur als Abschrift im Kelleramtsurbar des <orgName ref="org004352">Grossmünsters</orgName> überliefert,
+eine originale Ausfertigung ist nicht erhalten. Die vorliegende lateinische Fassung bildet die Vorlage der deutschen Version von <date when="1393">1393</date>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_012">SSRQ ZH NF II/11, Nr. 12</ref></bibl>).
+Die deutsche Version ist kürzer gehalten und enthält keine Invocatio. Die lateinische Version weist 19 Artikel auf, die deutsche Fassung 20 Artikel,
+deren Reihenfolge ab Artikel 6 beinahe dieselbe ist, abgesehen von Artikel 4 der lateinischen Version, der in der deutschen Version als Artikel 14 eingeschoben wurde.
+Der erste Artikel der deutschen Fassung hat keine direkte Entsprechung in der lateinischen Fassung.
+In dieser älteren Version nennt sich zu Beginn <persName ref="per023950">Werner von Rinach</persName> als Thesaurar,
+in der jüngeren <persName ref="per023963">Diethelm von Görwihl</persName>. Die Tatsache, dass diese lateinische Version nicht wie bei den Höfen in anderen Dörfern in den Statutenbüchern enthalten ist,
+lässt vermuten, dass diese Rechte erst nach <date when="1346">1346</date>, vielleicht tatsächlich erst unter <persName ref="per023950">Werner von Rinach</persName> verschriftlicht wurden.<!-- Fand etwa eine Auseinandersetzung mit Kyburg statt, dessen Vögte das Hochgericht innehatten? -->
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

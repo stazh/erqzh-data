@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_093</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917231">StAZH B III 6, fol. 88r-v</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Abgabe von Fasnachtshühnern</head><msContents><summary>Die Landvögte von Kyburg, Grüningen, Greifensee, Andelfingen, Regensberg, Eglisau, Freiamt und Maschwanden haben jährlich zur Fasnacht der Konstaffel und den Zünften eine festgelegte Anzahl Hühner zu entrichten. Dasselbe gilt für die Vögte der gemeinen Herrschaften von Baden, Thurgau, Sargans (Oberland), Rheintal, der Freien Ämter (Aargau) sowie den Hauptmann von St. Gallen, sofern ein Vertreter Zürichs eines dieser Ämter übernimmt. Unabhängig von dieser Ordnung sind Fasnachtshühner auch den Bürgermeistern, Räten und den Schreibern der Stadt Zürich zu entrichten. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000664">Gemeine Herrschaften</term><term ref="key003866">Landesherrschaft</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="88r"/>
+<head>
+<lb/>Wie die voͤgt <date dur="R/P1Y">jerlich</date> uff <date type="floating holiday">vaßnacht</date>
+<lb/>der <orgName ref="org004959">Constaffel und zunften</orgName>, och <orgName ref="org004906">burgern</orgName>,
+<lb/><orgName ref="org004016">rath</orgName> und schrybern hu̍nr sollent geben
+</head>
+<p>
+<lb/>Wir habent ouch geordnet unnd gesetzt unnd wollent, das <date dur="R/P1Y">jerlichs</date>
+<lb/>uff <date type="floating holiday">vaßnacht</date>
+<orgName ref="org004959">Constafel unnd zu̍nften</orgName> yeder hu̍ner gebint, wie 
+<lb/>hernach volgt. Namlich der vogt von</p>
+</div>
+<div>
+<table>
+<row><cell><placeName ref="loc000012">Kyburg</placeName></cell>
+<cell><num value="8">viij</num></cell></row>
+<row><cell><placeName ref="loc000362">Gruningen</placeName></cell>
+<cell><num value="5">v</num></cell></row>
+<row><cell><placeName ref="loc000348">Grifense</placeName></cell>
+<cell><num value="4">iiij</num></cell></row>
+<row><cell><placeName ref="loc008749">Andelfingen</placeName></cell>
+<cell><num value="2">ij</num></cell></row>
+<row><cell><placeName ref="loc007729">Regenßberg</placeName></cell>
+<cell><num value="2">ij</num></cell></row>
+<row><cell><placeName ref="loc009832">Eglisow</placeName></cell>
+<cell><num value="5">v</num></cell></row>
+<row><cell><placeName ref="loc010516">Fryampt</placeName></cell>
+<cell><num value="5">v</num><note>Die Anzahl zu entrichtender Hühner ist für das <placeName ref="loc010516">Freiamt</placeName> und <placeName ref="loc010531">Maschwanden</placeName> gemeinsam aufgeführt. Unklar bleibt deshalb, ob in diesem Fall je fünf oder gemeinsam fünf Hühner zu entrichten waren.</note></cell></row>
+<row><cell><placeName ref="loc010531">Maschwanden</placeName></cell>
+<cell><num value="5">v</num></cell></row>
+</table>
+</div>
+<pb n="88v"/>
+<div>
+<p>
+<lb/>Unnd sust umb all ander vogtyen, so wir fur unns selbs zuͦbevogten
+<lb/>habent, sol es gehalten werden unnd beston, wie von alterhar, der zuͦver<lb break="no"/>sicht
+derselben vogten werde sich ein yeder halten nach gstalt unnd 
+<lb/>geleheit der sachen.
+</p>
+<p>
+<lb/>Aber was vogtyen wir mit andern unnsern <orgName ref="org000531">eidgnoßen</orgName>, als 
+<lb/><placeName ref="loc000446">Baden</placeName>, <placeName ref="loc000777">Turgow</placeName>, <placeName ref="loc000120">Oberland</placeName><note>Für die verschiedenen historischen Bezeichnungen für das <placeName ref="loc000120">Sarganserland</placeName> vgl. <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1348">SSRQ SG III/2, S. 1348</ref></bibl>.</note>, <placeName ref="loc000648">Rintal</placeName> unnd im <placeName ref="loc000122">Ergow</placeName>, habent zuͦbesetzen,
+<lb/>wenn dann derselben lihung an unns kumpt unnd einer von uns 
+<lb/>dahin geordnet wirt, sol derselben vogten ein yeder der <orgName ref="org004958">Constafel</orgName>
+<lb/>unnd yeder zunft <date dur="R/P1Y">jerlichs</date> uff <date type="floating holiday">vaßnacht</date> huner geben, wie hernach
+<lb/>statt. Namlich der von
+</p>
+</div>
+<div>
+<table>
+<row><cell><placeName ref="loc000446">Baden</placeName></cell>
+<cell><num value="4">iiij</num></cell></row>
+<row><cell><placeName ref="loc000120">Oberland</placeName></cell>
+<cell><num value="4">iiij</num></cell></row>
+<row><cell><placeName ref="loc000648">Rintal</placeName></cell>
+<cell><num value="4">iiij</num></cell></row>
+<row><cell><placeName ref="loc000777">Thurgow</placeName></cell>
+<cell><num value="5">v</num></cell></row>
+<row><cell><placeName ref="loc000122">Ergow</placeName></cell>
+<cell><num value="5">v</num></cell></row>
+<row><cell>hoptman zuͦ <placeName ref="loc000082">Sandt Gallen</placeName></cell>
+<cell><num value="6">vj</num></cell></row>
+</table>
+</div>
+<div>
+<p>
+<lb/>Unnd soͤllent on abgebrochen diser ordnung nu̍tzit destminder
+<lb/>unnsern burgermeistern, re̍ten unnd schrybern <date dur="R/P1Y">jerlichs</date> uff
+<lb/><date type="floating holiday">vaßnacht</date> von solichen unnsern vogten ouch hu̍ner gegeben werden,
+<lb/>als das bißhar gebrucht ist. 
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Abgabe von Hühnern wurde schon früh für das gesamte Herrschaftsgebiet der Stadt <placeName ref="loc000065">Zürich</placeName> verbindlich gemacht, wobei die Fasnacht sowie ortsabhängig auch der Herbst als Termine ausschlaggebend waren (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480058">StAZH A 43.1.1, Nr. 8</ref></bibl>). Die Stadt hatte diese Praxis an den meisten Orten bereits von den adligen Herrschaftsträgern übernommen, deren Nachfolge sie antrat. Dies gilt auch für die Verpflichtung der Untertanen zum Leisten eines alljährlichen Eides sowie zum Transport des Hausrats beim Wechsel der Landvögte. Hatten zuvor mehrere einzelne Regelungen die genaue Anzahl der abzuliefernden Hühner für die verschiedenen Teile der Landschaft festgelegt, wurden die diesbezüglichen Angaben im Zuge einer umfassenden Reform der Vogteiverwaltung während der 1550er Jahre zentral verschriftlicht (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943767">StAZH A 94.1, Nr. 10</ref></bibl>).</p>
+<p>Die Landvögte hatten ihrerseits gegenüber der städtischen Obrigkeit und den <orgName ref="org005085">Zünften</orgName> zu verschiedenen Gelegenheiten Abgaben zu entrichten. Dazu gehörten Gastmähler und Geschenke im Zusammenhang mit Wahl und Amtsantritt des neuen Landvogts sowie die alljährlich zu entrichtenden Fasnachtshühner, deren Abgabe in der vorliegenden Ordnung geregelt wird. Hinsichtlich der Anzahl der geforderten Hühner wurde der Umstand berücksichtigt, dass die verschiedenen Landvogteien für ihre Vögte sehr unterschiedlich hohe Erträge abwarfen. Der dabei angewendete Verteilschlüssel geht auf einen durch <orgName ref="org001217">Kleinen und Grossen Rat</orgName> im Jahr 1502 verabschiedeten Ratschlag zurück (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3675608">StAZH A 73.1.1, Nr. 5</ref></bibl>).</p>
+<p>Zur Bedeutung der Fasnachtshühner für die Herrschaftsinszenierung auf der <placeName ref="loc000065">zürcherischen</placeName> Landschaft vgl. <bibl><ref target="/startseite/literaturverzeichnis">Eugster 1995b</ref>, S. 324</bibl>; zu den verschiedenen Abgaben und der Einkommensstruktur der Landvögte vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 37-43</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 50-65</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

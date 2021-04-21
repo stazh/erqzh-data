@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_006</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3610216">StAZH A 77.12, Nr. 2</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend die Qualität des in Stadt und Landschaft verkauften Tuches</head><msContents><summary>Es wird festgelegt, dass weder graues oder schwarzes Tuch noch raues Wolltuch hergestellt werden darf, das nicht sechs Bünde und 900 Fäden aufweist sowie in Breite, Länge und Gewicht den Bestimmungen der alten Ordnung entspricht. Auch hinsichtlich Beschau und Verkauf des Tuches ist die alte Ordnung einzuhalten. Diese Vorgaben zählen für die in Zürich hergestellten Textilien ebenso wie für die von Einheimischen und Fremden in Stadt und Landschaft eingeführten und verkauften. Zuwiderhandelnde werden mit einer Busse in der Höhe des Werts des gehandelten Tuches bestraft. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad von Cham, Stadtschreiber von Zürich</author><filiation type="current">Aufzeichnung (Einzelblatt), ursprünglich fol. 140 in StAZH B VI 225</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1466-01-01" to="1466-12-31">Datierung aufgrund der ursprünglichen Überlieferung</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>QZWG, Bd. 2, Nr. 1189</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000983">Handel</term><term ref="key000849">Handwerk</term><term ref="key000213">Kleidung</term><term ref="key003022">Textilien</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<lb/>Item das dehein tuͦch gemacht werde, graw,
+<lb/>swartz <add place="above">noch</add> hotzen, es hette denn <num value="6">sechs</num> bu̍nd, dz
+<lb/>wurdent <num value="900">nu̍n hundert</num> vaͤden und die 
+<lb/>breitty und lengy hettent und nach 
+<lb/>march zal das gewaͤge, als die alt ordnung 
+<lb/>dz begrift.<note>Die ältesten Vorgaben zur Tuchherstellung gehen auf den Richtebrief zurück, vgl. namentlich
+<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_185">S. 185</ref></bibl>.</note></p>
+<p><lb/>Und das och die besechen und verkoͧft 
+<lb/>wurdint nach der obgenanten ordnung 
+<lb/>sag.</p>
+<p><lb/>Und das bessre und nit swechre tuͦch 
+<lb/>in unßer statt von menglichem 
+<lb/>gemacht wurdint und dehein swechre 
+<lb/>nieman in unßer statt <add place="above">und unsere gerichtt und ge<damage agent="faded ink"><supplied resp="msr">biet</supplied></damage></add>, heimsch noch
+<lb/>froͤmde, fuͦrtint noch die dar inn verkoftint.
+<lb/>Und von wem das daruͤber beschech,
+<lb/>das der unßer statt so vil ze buͦss gebe,
+<lb/>als die tuͤcher gelten moͤchtent, die 
+<lb/>er dar in gefuͤrt hette.</p>
+<pb n="2"/>
+<p>
+<gap reason="irrelevant"/><note>Die auf der Rückseite befindlichen Einträge stehen nicht im Zusammenhang mit der vorliegenden Ordnung.</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung befindet sich auf einer aus dem Rats- und Richtbuch des Jahres 1466-1467 herausgetrennten Seite und lässt sich auf dieser Grundlage datieren
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263920">StAZH B VI 225</ref></bibl>).</p>
+<p>Zu den in der Stadt <placeName ref="loc000065">Zürich</placeName> verkauften Tuchen vgl. auch die Ordnung für die Jahrmärkte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_069">SSRQ ZH NF I/1/3, Nr. 69</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_100</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4339120">StAZH B V 34, fol. 109r</idno></msIdentifier><head>Ratserkenntnis wegen den Mählern an den Maiengerichten in Höngg</head><msContents><summary>Wegen der hohen damit verbundenen Kosten wurden die Maien- und Herbstgerichte teilweise nicht mehr abgehalten. Die Leute von Höngg haben wie letztes Jahr bei den Obervögten beantragt, das Maiengericht wieder abzuhalten. Die Obervögte hatten das Begehren letztes Jahr abgewiesen und wollen es auch dieses Jahr nicht abhalten. Sie gelangen an Bürgermeister und Rat von Zürich, wie sie sich verhalten sollen. Der Rat entscheidet, dass die Obervögte und das Grossmünsterstift das Maiengericht dieses Jahr wieder wie von alters her abhalten sollen. Sie sollen aber für niemanden, der nicht in offizieller Funktion teilnimmt, die Kosten übernehmen. Wenn weitere Landleute oder Stadtbürger teilnehmen wollen, sollen diese das selbst bezahlen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1592-05-27"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004175">Ausgaben</term><term ref="key000057">Gericht</term><term ref="key005364">Geselligkeit</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="109r" facs="StAZH_B_V_34__fol__109_r_.tif"/>
+<head><lb/><date when="1592">1592</date>
+<lb/>Bekhandtnussen</head>
+<p>
+<seg><lb/>Als <subst><del>die jar</del><add place="above">inn nechst</add></subst> verschinnen jar har hin und wider inn
+<lb/>miner gnedigen herren grichten und gebieten
+<lb/>die <add place="left margin" type="sign">haltung der</add>
+<date when="--05">meyen</date>- und <date period="fall">herpst</date> grichten von wegen dess darmit
+<lb/>grossen uflouffenden <add place="above" type="sign">unnötigen</add> costens <del>zehallten</del> ingstelt worden,
+<lb/><subst><add place="left margin">wons nit</add><del>es syge denn</del></subst> an einem ald dem andern ort sonder<lb break="no"/>lichen 
+notwendig. Unnd <subst><del rend="underline">jetzdann die herren ober<lb break="no"/>vögt
+zuͦ <placeName ref="loc009768">Höngg</placeName>, uff an sy beschechens vilfaltigs nachhin<!-- nachher (Idiotikon XIII, Sp. 41 --></del><add place="left margin"><lb/>nun die von <placeName ref="loc009768">Höngg</placeName>
+<!-- <del>jetzd</del> PS: del nicht in Kommentar. mng: Wird sonst zu kompliziert, kann im Portal nicht dargestellt werden-->
+<lb/>by iren herren obervögten
+<lb/>jetzdann abermaln (wie
+<lb/>fernd<!-- vor einem Jahr, letzes Jahr (Idiotikon I, Sp. 1019 --> auch, da es inen abge<lb break="no"/>schlagen) ernstlich nachge<lb break="no"/></add></subst>
+w<subst><add place="overwritten">o</add><del>e</del></subst>rben, <del>hürigs jars</del> das meyengricht daselbsten
+<lb/>nach altem bruch uss allerley eehafften ursachen <add place="left margin" type="sign">als mit dem besatzung
+<lb/>deß grichts und anderer
+<lb/>dingen wegen</add> ze<lb break="no"/>hallten.
+Sy aber dasselbig für sich selbs nit thuͦn
+<lb/>wellen, sonnders <del>darumb</del> von mynen gnedigen
+<lb/>herren bscheids begërt, wie sy sich deß orts halten
+<lb/><del>söllint</del>.</seg>
+<seg>Habent daruf wolgenannt myn <abbr>gn</abbr>
+<lb/>herren <add place="above" type="sign">inen</add>, den beiden obervögten zuͦ <placeName ref="loc009768">Höngg</placeName>, <del>bevelch
+<lb/>und</del> gwallt geben, das sy mitt sambt den herren
+<lb/>deß <orgName ref="org004352">gstiffts zum Grossenmünster</orgName>
+<add place="above" type="sign">alhie</add>, wie von alterhar
+<lb/>brüchig, das <date when="--05">meyen</date> gricht zuͦ <placeName ref="loc009768">Höngg</placeName> hürigs jars<!-- heissen die Gänsefüsschen, dass 'hürigs jars' nach vorne, hinter 'brüchig' verschoben werden sollten? PS:Nein, würde ich so stehen lassen bzw. ignorieren -->
+<lb/>hallten mögend, doch mit dem heitern anhang,
+<lb/>das sy <add place="above">für</add> niemmanden, <del>es sygen glych burger oder anderen</del>
+<lb/>weder <subst><del rend="blackened">den</del><add place="above">so</add></subst><!-- stimmt das? --> von rechts wegen zum meyengricht gehört<del>end</del>,
+<lb/>die ürten bezalen unnd dheine andere, es sygen glych
+<lb/>burger oder landtlüth, so <add place="above" type="sign">für sich selbs</add> darzuͦ kommen möchten, zegast
+<lb/>haben söllint. Ob es aber einer thuͦn wellte, solle
+<lb/>das uss synem eignen seckel beschechen und mynen
+<lb/>herren nit zuͦgerechnet werden.</seg></p>
+<p>
+<lb/>Actum <origDate when="1592-05-27" calendar="Julian">sambstags, den 27 <hi rend="sup">ten</hi> maii anno <abbr>etc</abbr> 92</origDate>. <choice><abbr>Prt</abbr><expan>Presentibus</expan></choice>
+<lb/>herr <orgName ref="org002406">burgermeister <persName ref="per010582">Tomman</persName> unnd beid reth</orgName>.  
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Verpflegung der Teilnehmer an den Maiengerichten und ähnlichen Gemeindeversammlungen war sehr kostspielig. Mit dem Argument der Kosteneinsparung wurden deshalb immer wieder Massnahmen getroffen. Am 23. Mai 1538 einigten sich das 
+<orgName ref="org004352">Grossmünsterstift</orgName> und die Obervögte von <placeName ref="loc009768">Höngg</placeName> auf eine Kostenteilung (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=602600">StAZH G I 103, fol. 31r</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">Nr. 7, S. 26-27</ref></bibl>). 1578 erwog das <orgName ref="org004352">Grossmünster</orgName>, 
+wegen der hohen Kosten gleich den ganzen Meierhof zu verkaufen, was ihm vom <orgName ref="org002406">Rat</orgName> jedoch untersagt wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1119936">StAZH G I 6, Nr. 27, fol. 5r-v</ref></bibl>; 
+Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">S. 26, Anm. 3</ref></bibl>). Am 4. Mai 1582 verordneten das <orgName ref="org004352">Stift</orgName> 
+und die Obervögte unter anderem, dass der Butterkonsum auf den Gegenwert von 25 Pfund beschränkt werden soll und nur die Richter zu Gast gehalten werden sollen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121663">StAZH G I 29, S. 1058-1061</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">S. 26-27, Anm. 3</ref></bibl>).</p>
+<p>Auch für andere Anlässe wurden Versuche zur Kostenreduktion unternommen. Zwischen 1530 und 1540 entschieden <orgName ref="org002406">Bürgermeister und Rat</orgName>, dass bei der Huldigung der Obervögte wieder nur die Kosten für den Pfarrer, die Untervögte, 
+Weibel, Richter und Ehegaumer sowie für zwei bis drei <orig>uss den alten</orig> und gegebenenfalls aus geschäftlichen Gründen anwesende städtische Bürger übernommen werden sollten, nachdem in letzter Zeit verschiedentlich die halben oder sogar die ganzen 
+Kosten aller Teilnehmer übernommen worden waren (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1174436">StAZH A 42.2.4, Nr. 39</ref></bibl>; Edition: <bibl><ref target="startseite/literaturverzeichnis">Zürcher Kirchenordnungen</ref>, Bd. 1, Nr. 80, S. 187-188</bibl>). 
+Ab 1645 verzichtete die Gemeinde <placeName ref="loc010425">Enge</placeName> aus Kostengründen auf das <orig>sanct <persName ref="per000208">Jacobs</persName> pott</orig> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_117">SSRQ ZH NF II/11, Nr. 117</ref></bibl>).</p>
+<p>Zu Kostenaufstellungen an solchen Anlässen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_101">SSRQ ZH NF II/11, Nr. 101</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_102">SSRQ ZH NF II/11, Nr. 102</ref></bibl><!-- Huldigung -->; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_113">SSRQ ZH NF II/11, Nr. 113</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

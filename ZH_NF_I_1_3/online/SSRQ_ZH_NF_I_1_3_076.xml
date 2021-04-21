@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_076</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1174135">StAZH A 42.2.2, Nr. 5</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend nächtliche Ruhestörung und Schliessung der Stadttore</head><msContents><summary>Bürgermeister sowie Kleiner und Grosser Rat der Stadt Zürich verbieten verschiedene Verstösse gegen die öffentliche Ordnung während der Nacht und kündigen an, Zuwiderhandelnde zu betrafen. Weiter ordnen sie angesichts der gegenwärtig unsicheren Zeit an, alle Stadttore sowie das Wassertor in der Limmat (Grendel) um neun Uhr abends zu schliessen und um vier Uhr morgens wieder zu öffnen. Die Inhaber von Torschlüsseln sollen während der Nacht ohne Bewilligung der dazu verordneten Ratsherren niemanden aus der Stadt lassen, wohl aber sind sie befugt, in dieser Zeit ein bis zwei Personen, die sie kennen, einzulassen. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1510-01-01" to="1520-12-31">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000875">Nacht</term><term ref="key004065">Polizei</term><term ref="key005440">Stadttore</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_42_2_2__Nr__5__r_.tif"/>
+<p><lb/>Als yetz <time period="byNight">nachts</time> vil geschreygs, muͦtwillens, unzucht unnd 
+<lb/>unweßens wirt gebrucht, darab unsere herren ein merck<lb break="no"/>lich mißfallen habent, und beduret sy, das man nit me 
+<lb/>zucht und bescheidenheit wil bruchen, und hand sich 
+<lb/>uff das unsere herren, der <orgName ref="org002406">burgermeister, reͣt und der 
+<lb/>groß rat, die man nempt die zweyhundert, der statt <placeName ref="loc000065">
+<lb/>Zürich</placeName></orgName>, erkent, das sy hyemit mengklichen wöllint 
+<lb/>gewarnet haben, damit ein yeder <time period="byNight">nachts</time> sölich geschreyg 
+<lb/>unruͦw, muͦtwillen, unzucht und unweßen underwegen 
+<lb/>laß und sich darvor goüme, dann <add place="left margin">sy wöllent</add> daruff lassen 
+<lb/>acht haben und die, so ungehorsam erfunden werdent, 
+<lb/>straffen und buͦssen, das sy wolltind, sy werint ge<lb break="no"/>horsam geweßen.</p>
+<p><lb/>Witer so habent die bemellten unser herren angesehen 
+<lb/>und verordnet by disen sorgklichen und seltzsamen 
+<lb/>loüffen, das man der statt thor und dürli deßglich 
+<lb/>den <placeName ref="loc010456">Grendel</placeName><note>Wassertor in der <placeName ref="loc000075">Limmat</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 110-112</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/20755/mode/2up">Bd. 2, Sp. 757</ref></bibl>).</note>
+an den schwyren<note>Aus Pfählen bestehende Befestigung am Übergang vom <placeName ref="loc000127">Zürichsee</placeName> zur <placeName ref="loc000075">Limmat</placeName>; wichtige städtische Zollstelle (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 96</bibl>).</note> an dem <time period="evening">abent</time> sol be<lb break="no"/>schließen diser zit, so es <time when="21:00:00">nu̍ni</time> schlecht und 
+am <lb/><time period="morning">morgen</time> die wider uff thuͦn, so es <time when="04:00:00">vieri</time> schlecht.
+<lb/>Und söllent ouch die, so die schlu̍ssel habent, niemans
+<lb/>ußlassen on erlouben und heissen deren, so unsere 
+<lb/>herren uß irem <orgName ref="org004016">rat</orgName> darzuͦ hand verordnet, aber 
+<lb/>wol mu̍gent sy <num value="1">einen</num> oder <num value="2">zwen</num> ungevarlich
+<lb/>sampt oder sonders inlassen, und doch die, so sy 
+<lb/>inlassent, rechtvertigen, dz sy wu̍ssint, wer sy syent 
+<lb/>und wo mit einer umbgang.</p>
+<p><lb/>Sölichs verku̍ndent unser herren u̍ch allen, das ein 
+ <lb/> yedes sich darnach wu̍ß ze richten und inen 
+ <lb/>gehorsam ze sind.
+</p>
+<pb n="v" facs="StAZH_A_42_2_2__Nr__5__v_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>Die während des Spätmittelalters in <placeName ref="loc000065">Zürich</placeName> erlassenen, die Nacht betreffenden Verordnungen standen im Zusammenhang mit Regelungen
+zur Organisation der Stadtwache sowie im Kontext feuerpolizeilicher Massnahmen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1158760">StAZH A 42.1.3, Nr. 1</ref></bibl>; <bibl>
+<ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/2, S. 326-327, Nr. 123</bibl>).
+Der vorliegende Erlass fällt demgegenüber in einen Zeitraum, welcher den Anfang einer gegenüber dem Spätmittelalter deutlich erhöhten Regulierungsdichte in Bezug auf die Nacht markiert, 
+während dessen die Obrigkeit eine Vielzahl nächtlicher Verhaltensformen einzuschränken versuchte (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 83; 125-129</bibl>). 
+Eine Ordnung aus der Zeit um 1500 untersagte Schreien und Singen 
+als nächtliche Ruhestörung und schrieb ein solches Verhalten insbesondere (männlichen) Jugendlichen zu 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1172955">StAZH A 42.2.1, Nr. 1</ref></bibl>).
+Spätere Mandate thematisierten verbotene nächtliche Handlungen im Kontext weiter gefasster Bestimmungen gegen einen als anstössig angesehen Lebenswandel, zu dem auch Kleiderluxus und Tanzen gezählt wurden 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1174177">StAZH A 42.2.4, Nr. 20</ref></bibl>).
+</p>
+<p>Die vorliegende Verordnung gehört überdies zu den frühesten <placeName ref="loc000065">Zürcher</placeName> Rechtsquellen, die sich mit der nächtlichen Schliessung der Stadttore befassen und diesbezüglich genaue Uhrzeiten festlegt.  
+Wichtiger als diese waren für das Betreten und Verlassen der Stadt jedoch bis weit ins 18. Jahrhundert hinein Auf- und Untergang der Sonne. Während bestimmter Übergangszeiten liessen sich die Tore gegen Entrichtung einer Abgabe (dem sogenannten Torschilling) auch unabhängig vom Tageslicht passieren
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=923270">StAZH A 43.2, Nr. 2</ref></bibl>). Die in dem vorliegenden Erlass genannten Uhrzeiten dürften damit den Zeitpunkt der definitiven Schliessung (beziehungsweise Öffnung) der Tore markieren (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 188</bibl>).
+Die zahlreichen, vom Bedürfnis nach Kontrolle über die nächtliche Stadt geprägten Mandate des 16. und 17. Jahrhunderts scheinen von begrenzter Wirkung gewesen zu sein, wie Mitteilungen über unbesetzte, offene oder durch Unbefugte geöffnete Stadttore belegen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3711476">StAZH A 81.1, Nr. 23</ref></bibl>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 162-164</bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

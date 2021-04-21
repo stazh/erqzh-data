@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_116</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4304068">StAZH B VII 14.20, S. 51-52</idno></msIdentifier><head>Protokoll der ersten Urversammlung der Gemeinde Greifensee</head><msContents><summary>Wie an der Kantonsversammlung in Zürich beschlossen, veranstaltet der Volksrepräsentant Jakob Pfenninger um 8 Uhr morgens die erste Urversammlung der Gemeinde Greifensee im Gemeindehaus und erläutert den Anwesenden den Entwurf für eine helvetische Staatsverfassung. Der provisorische Landschreiber, Hans Rudolf Hirzel, verliest daraufhin das im Pfarrhaus liegende Taufbuch, aus dem hervorgeht, dass es in der Gemeinde Greifensee 86 stimmfähige Bürger gibt. Die anwesenden 67 Bürger nehmen die neue Verfassung einstimmig an. Für die Wahl eines Wahlmanns wird die Urversammlung in die Kirche verlegt. Gewählt wird der Volksrepräsentant Jakob Pfenninger. Sodann werden weitere provisorische Munizipalbeamte gewählt, nämlich je ein Verwalter für das Gemeindegut, das Kirchengut und das Armengut, ein Ehegaumer und als Gemeindevorsteher die ehemaligen Bürgermeister Pfister und Meier.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Landschreiber Hans Rudolf Hirzel</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1798-03-29"/><origPlace>Gemeindehaus Greifensee</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004966">Gemeinde</term><term ref="key005471">Revolution</term><term ref="key005349">Stimmrecht</term><term ref="key004098">Versammlung</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="51"/>
+<head><lb/>Verhandlungen der ersten urversamlung zu <placeName ref="loc008569">Greifensee</placeName></head>
+<p><lb/>Infolge des von der hohen <orgName ref="org005018"><hi rend="font change">cantons</hi>-versamlung in <placeName ref="loc000065">Zürich</placeName></orgName> ergangenen befehls
+<lb/>ließ der bürger volks <hi rend="font change">repræsentant</hi>
+<persName ref="per013373">Pfeninger</persName> von hier unter heütigem dato die erste
+<lb/>urversamlung von der <orgName ref="org004883">gemeind <placeName ref="loc008569">Greifensee</placeName></orgName> besamlen, welche sich <time period="morning">morgens</time> um <time dur="08:00:00">8 Uhr</time>
+<lb/>in allhiesigem schul- und gemeindhaus einfand, wo ermelter bürger volks
+<hi rend="font change">reprasen<lb break="no"/>tant</hi>
+<persName ref="per013373">Pfeninger</persName> in einer schiklichen und paßenden rede der versamelten gemeinde
+<lb/>den haubtendzwek der verhandlungen anzeigte und die dermahlige lage unsers
+vater<lb break="no"/>landes rüksichtlich auf die annahme oder verwerfung des von <choice><abbr>lob</abbr><expan>loblicher</expan></choice>
+<hi rend="font change">cantons</hi>
+<lb/>versamlung dem <hi rend="font change">souverainen</hi> volk vorgelegten entwurfes einer allgemeinen
+<lb/><placeName ref="loc008548">Helvetischen</placeName> staatsverfasung schilderte, worauf durch endsunterzeichneten
+<lb/>provisorischen landschreiber die nammen sowohl der an- als abwesenden wahl- und
+<lb/>stimenfähigen bürger hiesiger urversamlung <choice><abbr>lt</abbr><expan>laut</expan></choice>
+<hi rend="font change">extract</hi> des in hiesigem
+<lb/>pfarrhaus ligenden taufbuchs verlesen worden, woraus sich gezeigt, daß 86 stimen
+<lb/>fähige bürger in der <orgName ref="org004883">gemeind <placeName ref="loc008569">Greifensee</placeName></orgName> sich befinden.
+</p>
+<p><lb/>Nach diesem wurde der entwurf der <placeName ref="loc008548">Helvetischen</placeName> staatsverfasung und die
+<lb/>von <choice><abbr>lob</abbr><expan>loblicher</expan></choice>
+<orgName ref="org005018"><hi rend="font change">cantons</hi> versamlung in <placeName ref="loc000065">Zürich</placeName></orgName> selbiger an alle gemeinden der stadt
+<lb/>und landschafft <placeName ref="loc000066">Zürich</placeName> beygefügte beylage und erlaüterung darüber
+<lb/>der urversamlung vorgelesen. Und nachdeme der volks <hi rend="font change">repræsentant</hi>
+<lb/><persName ref="per013373">Pfeninger</persName> abermahlen der gemeinde die nöthigen bemerkungen
+<lb/>über das vorgelesene gemacht, wurde eine umfrage wegen annahmung
+<lb/>oder verwerffung der <hi rend="font change">constitution</hi> gehalten und einstimmig die neue
+<lb/><hi rend="font change">constitution</hi> angenohmen.
+</p>
+<p><lb/>Hernach wurde das von der <choice><abbr>h</abbr><expan>hohen</expan></choice>
+<hi rend="font change">cantons</hi> versamlung übersannte reglement
+<lb/>für die urversamlungen und die versamlung der wahlmäner des <orgName ref="org005018"><hi rend="font change">cantons</hi>
+<placeName ref="loc000066">Zürich</placeName></orgName>
+<lb/>verlesen und die anwesenden stimfähigen bürger gezelt, welche sich auf 67 beloffen.
+</p>
+<p><lb/>Hierauf begab sich die urversamlung in die kirche, wo dem volks
+<hi rend="font change">repræ<lb break="no"/>sentant</hi> zu der vorzunemenden erwählung eines wahlmans, welcher
+<lb/>sich <date when="1798-04-01">sontags, den 1. aprill</date>, <time period="morning">morgens</time> um <time dur="08:00:00">8 Uhr</time> in der <placeName ref="loc010769">St. Peters Kirch</placeName> in <placeName ref="loc000065">Zürich</placeName>
+<lb/>einfinden solle, beygeordnet wurden:
+</p>
+<table>
+<row><cell>bürger</cell><cell><persName ref="per015133">Maag</persName>, <choice><abbr>chyr</abbr><expan>chyrurg</expan></choice></cell></row>
+<row><cell>"</cell><cell><persName ref="per015132">Denzler</persName>, schloßer</cell></row>
+</table>
+<pb n="52"/>
+<p><lb/>Die stelle bemelten wahlmans fiel mit mehrheit der stimen auf den
+<lb/><hi rend="font change">burger volks-repræsentant <persName ref="per013373">Pfeninger</persName></hi>.
+</p>
+<p><lb/>Endlichen wurden nach habender vorschrifft die <hi rend="font change">municipal</hi> beamtete für
+<lb/>hiesige gemeind erwählt und fiele die wahl:
+</p>
+<p><lb/>1. Zum <choice><abbr>provis</abbr><expan>provisorischen</expan></choice> verwalter der gemeind guths mit <choice><abbr>mehrh</abbr><expan>mehrheit</expan></choice> der stimen auf den
+<lb/><choice><abbr>b</abbr><expan>bürger</expan></choice>
+<persName ref="per015139">Walder</persName>, gewesnen <choice><abbr>sekelmstr</abbr><expan>sekelmeister</expan></choice>.
+</p>
+<p><lb/>2. Zum <choice><abbr>provis</abbr><expan>provisorischen</expan></choice>
+<choice><abbr>verw</abbr><expan>verwalter</expan></choice> des kirchenguths einmüthig auf den bürger <persName ref="per015129">Pfister</persName>,
+<lb/>gewesnen kirchenpfleger.
+</p>
+<p><lb/>3. Zum <choice><abbr>provis</abbr><expan>provisorischen</expan></choice>
+<choice><abbr>verw</abbr><expan>verwalter</expan></choice> des armen guths auf den <choice><abbr>br</abbr><expan>bürger</expan></choice>
+<persName ref="per015136">Pfister</persName>, färber.
+</p>
+<p><lb/>4. Zum <choice><abbr>provis</abbr><expan>provisorischen</expan></choice> ehegaumer mit <choice><abbr>mehrh</abbr><expan>mehrheit</expan></choice> der stimen <choice><abbr>b</abbr><expan>bürger</expan></choice>
+<persName ref="per015122">Dänzler</persName>, gewesnen
+<lb/>ehgaumer.
+</p>
+<p><lb/>5. Zu provisorischen vorgesezten oder <hi rend="font change">munizipal beamtete</hi>
+<lb/>einmüthig auf:
+</p>
+<table>
+<row><cell><choice><abbr>br</abbr><expan>bürger</expan></choice></cell><cell><persName ref="per015137">Pfister</persName>
+<unclear>&amp;</unclear></cell><cell/></row>
+<row><cell>"</cell><cell><persName ref="per015135">Meyer</persName></cell><cell>gewesne burgermeistere<!-- rhr: Bürgermeister hier wohl im Sinn von Gemeindevorsteher. --></cell></row>
+</table>
+<p><lb/>Actum <origDate when="1798-03-29">donerstag, den 29. mertz 1798</origDate>.
+</p>
+</div>
+<signed><lb/><persName ref="per014966"><choice><abbr>H</abbr><expan>Hans</expan></choice> Hirzel</persName>,
+<lb/>provisorischer landschreiber zu <placeName ref="loc008569">Greifensee</placeName><note><persName ref="per014966">Hans Rudolf Hirzel</persName>
+bekleidete das Amt des Landschreibers seit 1755
+und übte es auch in der Revolutionszeit bis zu seinem Selbstmord im Jahr 1802 weiter aus
+(<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1990</ref>, S. 59</bibl>).</note>
+</signed>
+</body>
+<back>
+<div>
+<p>Nachdem der <orgName ref="org002406">Zürcher Rat</orgName> am 13. März 1798 zurückgetreten war,
+übernahm die Landes- und nachmalige Kantonsversammlung die Regierungsverantwortung
+(<bibl><ref target="/startseite/literaturverzeichnis">Ulrich 1996</ref>, S. 498-499</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/007381">Zürich (Kanton)</ref></bibl>).
+Dieses Gremium beriet den Entwurf einer helvetischen Einheitsverfassung ab dem 21. März und legte am 24. März fest,
+dass alle Gemeinden im Kanton <placeName ref="loc000066">Zürich</placeName> über deren Annahme oder Ablehnung abstimmen
+und sodann Munizipalbeamtete für die Verwaltung der Gemeindegüter sowie einen Vertreter für die Kantonsversammlung wählen sollten.
+In einem Reglement über die Organisation der Urgemeinden wurde bestimmt,
+dass dieser erste grosse Abstimmungs- und Wahltag am kommenden Donnerstag, 29. März, stattfinden sollte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=306857">StAZH K I 56 b</ref>, S. 53-57</bibl>).
+</p>
+<p>Wie in <placeName ref="loc008569">Greifensee</placeName> stimmten auch die übrigen Gemeinden
+der neuen Verfassung einstimmig oder mit grosser Mehrheit zu. Gleichzeitig bewahrten sie eine gewisse Kontinuität,
+indem viele der nun gewählten Volksvertreter und Beamten bereits im Ancien Régime ein Amt ausgeübt hatten
+(<bibl><ref target="/startseite/literaturverzeichnis">Weber 1971</ref>, S. 26-30</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Vogel 1845</ref>, S. 578</bibl>):
+Das Gemeindevermögen wurde weiter von den gleichen Personen wie bisher verwaltet,
+und auch der Ehegaumer blieb derselbe.
+Als Gerichtsvorsteher hatte die Gemeinde zuvor bereits den ehemaligen Landvogt
+<persName ref="per010908">Andreas Schmid</persName> gewählt,
+der dieses Amt bis dahin als Vertreter der Obrigkeit innegehabt hatte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_115">SSRQ ZH NF II/3, Nr. 115</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

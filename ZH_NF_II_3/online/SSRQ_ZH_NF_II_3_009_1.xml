@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_009_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365733">StAZH C I, Nr. 2467</idno></msIdentifier><head>Erlaubnis zum Verkauf von Reben mit Reduktion der Pfandsumme auf die Herrschaft Greifensee</head><msContents><summary>Graf Friedrich von Toggenburg, Herr über das Prättigau und Davos, bestätigt, dass er der Stadt Zürich für 6000 Gulden die Burg Greifensee mit Leuten, Gütern und allem Zubehör verpfändet hat, wie es in der darüber ausgestellten Urkunde steht. Nun erlaubt er der Stadt, die zum Pfand gehörigen Rebberge, die viel Aufwand erfordern, zu verkaufen. Es handelt sich um vier Juchart Reben in Goldbach im Wert von 320 Gulden und 4 Plappart, weitere vier Juchart Reben und ein Gut in Herrliberg namens Sellholz im Wert von 150 Gulden, ein Juchart Reben an der Spanweid bei Zürich, die Klaus Trübli bestellt, im Wert von 58 Gulden sowie eine kleine Juchart Ackerland mit Reben in Fluntern im Wert von 12 Gulden. Die genannte Pfandsumme verringert sich daher um den Betrag von 540 Gulden und 4 Plappart. Dementsprechend reduzieren sich auch die Zinsen, die der Graf und seine Erben zu zahlen haben. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="16.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Friedrich von Toggenburg</persName></seal></sealDesc></physDesc><history><origin><origDate when="1405-08-13"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 5036</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key000441">Pfand</term><term ref="key004056">Reben</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2467__r_.tif"/>
+<p><seg><lb/>Wir, graͧf <persName role="issuer" ref="per000327">Fridrich von Toggenburg</persName>, herr in <placeName ref="loc000192">Brettengoͤw</placeName> und uff <placeName ref="loc000771">Thafaus</placeName>
+<abbr>etc</abbr>, bekennen und tuͦn kunt offenlich mit disem
+<lb/>brief, als wir u̍nser vesty <placeName ref="loc000348">Griffense</placeName> mit lu̍t und guͦt und mit aller ir zuͦgehoͤrung umb <measure type="currency" unit="fl" quantity="6000">sechs tusent guldin</measure>
+<lb/>hoͧptguͦtes und umb die zinse, so da von vallent, versetzet haben dien fromen, wisen, dem <orgName ref="org002406">burgermeister und dem rat der
+<lb/>statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, als der pfandbrief wol wiset, der dar u̍ber geben und versigelt ist, zuͦ der selben vesty dise nachgeschriben
+<lb/>reben gehorten, von dien u̍ns aber fu̍rbracht ist, das u̍ber die selben reben so vil kosten und schaden gangen sye, dz wir
+<lb/>merklichen gebresten dar inn bekennen. Und dar umb so haben wir fu̍r u̍ns und u̍nser erben dien <choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> gunnen
+<lb/>und erloͧbet und geben inen vollen gewalt, die vorgeseiten reben ze verkoͧffen, und also hant die selben von <placeName ref="loc000065">Zu̍rich</placeName> von
+<lb/>u̍nsers heissens und erloͧbens wegen die selben reben verkoͧffet.</seg>
+<seg>Des ersten hant si verkoͧft <measure type="area" unit="Juchart" quantity="4" commodity="vineyard">vier juchert reben</measure> minder
+<lb/>oder mer ze <placeName ref="loc008883">Goltpach</placeName> gelegen, die selben reben die <orgName ref="org000778">Lochman</orgName> buwent, umb <measureGrp><measure type="currency" unit="fl" quantity="320">dru̍hundert und zwentzig guldin</measure> und
+<lb/>umb <measure type="currency" unit="plp" quantity="4">vier plaphart</measure></measureGrp>. Aber die <measure type="area" unit="Juchart" quantity="4" commodity="vineyard">vier juchert reben</measure> und dz guͦt ze <placeName ref="loc008726">Herdiberg</placeName> gelegen, dz man nempt im <placeName ref="loc008834">Selholtz</placeName>,
+<lb/>umb <measure type="currency" unit="fl" quantity="150">anderhalb hundert guldin</measure>. Aber <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchert reben</measure> an der <placeName ref="loc008759">Spanweid</placeName> bi <placeName ref="loc000065">Zu̍rich</placeName> gelegen, die <persName ref="per013737">Claus Tru̍bli</persName> buwet,
+<lb/>umb <measure type="currency" unit="fl" quantity="58">fu̍nfzig und acht guldin</measure>, und <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein klein juchert akers mit reben</measure> ze <placeName ref="loc008707">Fluͦntron</placeName> gelegen umb <measure type="currency" unit="fl" quantity="12">umb zwelf guldin</measure>, der
+<lb/>sum u̍ber al wirdet von dien guͤtern allen <measureGrp><measure type="currency" unit="fl" quantity="540">fu̍nfhundert und viertzig guldin</measure> und <measure type="currency" unit="plp" quantity="4">vier plaphart</measure></measureGrp>, das selb gelt
+<lb/>u̍ns und u̍nsern erben abgan sol an der sumā der vorgeschriben <measure type="currency" unit="fl" quantity="6000">sechs tusent guldin</measure> und ensullen oͧch wir noch
+<lb/>u̍nser erben von dien vorgeschriben <measure type="currency" unit="fl" quantity="540">fu̍nfhundert und vierzig guldin</measure> fu̍rbas hin enkein zinse geben.</seg>
+<seg>Und dar<lb break="no"/>umb so haben wir fu̍r u̍ns und fu̍r u̍nser erben und nachkomen mit guͦten tru̍wen gelopt dz verkoͧffen, so die
+<lb/><choice><abbr>egen</abbr><expan>egenanten</expan></choice> von <placeName ref="loc000065">Zu̍rich</placeName> von der vorgeseiten guͤter wegen getan hant, nu und hie nach war und staͤt ze halten und da wider
+<lb/>niemer ze tuͦn noch schaffen getan mit gericht noch aͧne gericht noch mit deheinen sachen aͧne all arglist.</seg>
+<seg>Her
+<lb/>u̍ber ze einem offenn, waren urku̍nd aller vorgeschribner ding, so haben wir u̍nser insigel offenlich gehenkt an
+<lb/>disen brief, der geben ist an dem <origDate when="1405-08-13">nechsten donstag vor u̍nser froͧwen tag ze mitten oͧgsten, do man zalt
+<lb/>von Cristus gebu̍rt vierzechenhundert jar, dar nach in dem fu̍nften jare</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2467__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Des <add place="above" type="sign">von</add>
+<persName ref="per000327">Togkenburg</persName> brief umb die reben
+<lb/>und guͤter, die man im verkoͧft haͤt</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c">
+<lb/>
+<origDate when="1405">1405</origDate>
+</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Mit dem Verkauf der hier genannten Rebberge begann die Stadt <placeName ref="loc000065">Zürich</placeName>,
+die 1402 als Pfand erworbene Herrschaft <placeName ref="loc000348">Greifensee</placeName> zu arrondieren
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_007">SSRQ ZH NF II/3, Nr. 7</ref></bibl>).
+Am 21. November 1414 wurde die Pfandsumme jedoch wieder erhöht,
+weil die Herrschaft nicht genügend Ertrag abwarf, um die vereinbarten Zinsen zu bezahlen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_010">SSRQ ZH NF II/3, Nr. 10</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

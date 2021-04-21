@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_168</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1914370">StAZH B III 4, fol. 64r-68v</idno></msIdentifier><head>Verbote zur jährlichen Verlesung vor der versammelten Gemeinde anlässlich des Schwörtags der Stadt Zürich</head><msContents><summary>Festgelegt werden die Verbote, die jährlich vor versammelter Stadtgemeinde anlässlich der Eidleistung gegenüber dem Bürgermeister zu verlesen sind. Diese betreffen Gotteslästerung, Zutrinken, Tragen kurzer Kleidung, Auslaugen von Asche ausserhalb der dafür bestimmten Orte, Verwenden von ungedeckten Lichtern in Ställen, nächtliches Schreien und Singen, Verschmutzen von Brunnen, eigenmächtiges Einbehalten städtischer Waffen und Werkzeuge sowie von Feuerleitern und Feuereimern, Jagen von Enten und anderen Vögeln auf dem Zürichsee, der Limmat, der Sihl, der Glatt und anderen Gewässern im Umkreis von einer Meile um die Stadt, Straftaten von Knaben mit dem Degen, straffälliges Verhalten vor Gericht, Haltung von Pferden, Kühen und anderem Vieh im Stadtgraben oder an einem anderen Ort ausserhalb der eigenen Güter oder der Allmend, Ausgabe von Essen, Getränken, Geld oder geldwerten Dingen auf Kredit durch Wirte, Stubenknechte, Tuchleute, Kaufleute, Krämer und andere Gewerbetreibende an noch bei ihren Eltern wohnhafte Kinder und an bevogtete Personen ohne Zustimmung von deren Väter oder Vögten, Feiltragen von Waren durch andere Personen als die öffentlichen Feilträger, Reislauf; Tragen geschlitzter Hosen, Spielen, Verkauf verschiedener Waren am Sonntag, Vernachlässigung der Pflicht zur Abgabe von Zeugenaussagen, Tanzen ausserhalb offener Hochzeiten und Kirchweihen sowie Tanzveranstaltungen, die länger als einen Tag dauern, Trommeln, Vernachlässigung der Verpflichtung zum Frieden bieten, Maskentragen sowie weiteres Brauchtum an Neujahr und Fasnacht sowie Beschränkung des Tanzens an der Fasnacht auf den Tag des Hühneressens.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1539-01-01" to="1541-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000591">Anzeigepflicht</term><term ref="key000482">Blasphemie</term><term ref="key005368">Brandschutz</term><term ref="key000184">Bussen</term><term ref="key000179">Eid</term><term ref="key005363">Ess- und Trinksitten</term><term ref="key000867">Fasnacht</term><term ref="key000841">Feiertage</term><term ref="key000506">Friedbruch</term><term ref="key000595">Frieden bieten</term><term ref="key000057">Gericht</term><term ref="key000715">Gewässer</term><term ref="key000869">Hochzeit</term><term ref="key005399">Hygiene</term><term ref="key000789">Kirchweih</term><term ref="key000351">Jagd</term><term ref="key000213">Kleidung</term><term ref="key000793">Markt</term><term ref="key000875">Nacht</term><term ref="key000264">Pferde</term><term ref="key000058">Schulden</term><term ref="key004082">Solddienst</term><term ref="key000767">Spiel</term><term ref="key000768">Tanzen</term><term ref="key000298">Vieh</term><term ref="key000997">Vormundschaft</term><term ref="key000902">Waffen</term><term ref="key000716">Wasserführung</term><term ref="key004138">Zutrinken</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="64r" facs="StAZH_B_III_4__fol__64_r_.tif"/>
+<head><lb/>Verbott, so man der <orgName ref="org001187">ge<lb break="no"/>meynd</orgName>
+<date dur="R/P1Y">jaͤrlich</date> verkündt, <lb/>als man eynem burger<lb break="no"/>meyster schweert</head>
+<p>
+<lb/>Unsere herren <orgName ref="org002406"><hi rend="underline">burgermeyster</hi> unnd räth</orgName> gebiet<lb break="no"/>tend,
+damit unns <hi rend="underline">gott, der allmëchtig</hi>, glügk,
+<lb/>gnad unnd heyl verlyche, das sich ein yeder, es
+<lb/>syge frow unnd man, jung oder alt, huͤtte vor gottes,
+<lb/>siner würdigen muͦtter unnd lieben heyligen lest<lb break="no"/>erung,
+schëllten unnd schweeren, dann wellicher
+<lb/>das übersicht, er thuͤge es uss böser angenommener
+<lb/>gewonheyt oder bedachtlich, denselben wöllend
+<lb/>unnsere herren straaffen unnd <measure type="currency" unit="ß" quantity="5"><hi rend="underline">v </hi></measure> zuͦ buͦss unnd
+<lb/>straaff, on alle gnad, inzüchen lassen, so digk das
+<lb/>beschicht. Unnd einer möchte sich so grösslich
+<lb/>unnd gröblich überfaaren, sy wurdent in darumb
+<lb/>straaffen an eer, lyb unnd lëben, wie es sy bedungkt
+<lb/>wirdig unnd nott sin.
+</p>
+<p>
+<lb/>Aber gebiettend unnsere herren, das nyemandts
+<lb/><hi rend="underline">zuͦtringken</hi> noch es dem annderen bringen sölle,
+<lb/>wëder mit namlichen wortten: <q>Ich bring dirs</q>,
+<pb n="64v" facs="StAZH_B_III_4__fol__64_v_.tif"/>
+<lb/>noch sunst mit wyngken, stupfen, mupfen oder
+<lb/>anndren worten, wërgken, wysen noch gebärden,
+<lb/>deheyns wëgs, by <measure type="currency" unit="M" quantity="1">einer <hi rend="underline">march silber</hi></measure> buͦss. Und
+<lb/>soll ein yeder den anndren leyden eynem obristen
+<lb/>stattknëcht unnd wellicher es sicht unnd nit
+<lb/>leydet, soll zwifache buͦss, das ist <measure type="currency" unit="M" quantity="2"><hi rend="underline">ij march</hi></measure>, gëben.
+</p>
+<p>
+<lb/>Es soll ouch umb guͦtter mans zucht unnd eerbar<lb break="no"/>keyt
+willen nyemandts so <hi rend="underline">kurtze kleyder</hi> tragen,
+<lb/>er gange an kilchwyche, hochzyt, schenngki oder
+<lb/>tänntz, er syge daheym oder an der frömbde, dann
+<lb/>die in hynden unnd vornnen wol bedegkind, dar<lb break="no"/>zuͦ
+soll ouch ein yeder sinen manntel unnd rogk
+<lb/>vornnen zuͦthuͦon, das im sin scham wol bedegkt
+<lb/>syge, by der <hi rend="underline">buͦss <measure type="currency" unit="ß" quantity="10">x </measure></hi>.
+</p>
+<p>
+<lb/>Die gemelten unnsere herren gebiettend ouch, das
+<lb/>nyemandts inn den hüsern noch vor den hüsern
+<lb/>seechte, annders dann by den rechten seecht dolenn,
+<lb/>unnd das ouch nyemandts <time period="byNight">nachts</time> mit liechtern
+<lb/>on lattërnnen inn die stäl gang, by der <hi rend="underline">buͦss <measure type="currency" unit="ß" quantity="10">x </measure></hi>.
+<lb/>Unnd es möchte von söllichem söllicher schad
+<lb/>kommen, unnser herren wurdent es by diser buͦss nit
+<lb/>belyben lassen. Darzuͦ soll ouch nyemanndts <time period="byNight">nachts</time>
+<pb n="65r" facs="StAZH_B_III_4__fol__65_r_.tif"/>
+<lb/><hi rend="underline">nach <time when="21:00:00">bëttenzyt</time><note>Die Nachtglocke, welche die Nachtruhe und Sperrstunde der Trink- und Zunftstuben ankündete, läutete um 21 Uhr (<bibl><ref target="/startseite/literaturverzeichnis">Sutter 2001</ref>, S. 181</bibl>).</note> sumberen</hi>, ouch weder schrygen noch
+<lb/>synngen, by gemelter buͦss.
+</p>
+<p>
+<lb/>Es soll ouch yederman die <hi rend="underline">brunnentrög</hi> inn eeren
+<lb/>unnd suber halten und nützit wuͤsts darin stossen,
+<lb/>ouch nyemandts darinn baden, <hi rend="underline">by <measure type="currency" unit="ß" quantity="5">v </measure></hi>.
+</p>
+<p>
+<lb/>Wer miner herren vierteyl<!-- tke: vierteilbüchs -->, stannden büchssen, arm<lb break="no"/>brust,
+bigkel, schuflen, segk oder anndern züg hat,
+<lb/>der soll söllichs miner herren amptlütten unver<lb break="no"/>zogennlich
+antwurten, dann hynder wellichem
+<lb/>das funden wurde (als man dann das will lassen
+<lb/>suͦchen), dem wellend es unnser herren für ein dieb<lb break="no"/>stal
+achten unnd dem getragks nachgan.
+</p>
+<p>
+<lb/><hi rend="underline">Die füyrleyttren</hi> unnd <hi rend="underline">füyreymer</hi> soll yederman
+<lb/>unverëndret an iren stetten plyben lassen.<note>Für das Vorgehen im Brandfall vgl. die Feuerordnung der Stadt <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_043">SSRQ ZH NF I/1/3, Nr. 43</ref></bibl>).</note> Unnd
+<lb/>ob yemandts füyrleyttren zuͦ siner notturfft endtleech<lb break="no"/>nete,
+der soll die von stund an wider an ir statt
+<pb n="65v" facs="StAZH_B_III_4__fol__65_v_.tif"/>
+<lb/>thuͦn. Unnd wer das nit thätte, den wurde
+<lb/>man straaffen, umb <measure type="currency" unit="ß" quantity="5"><hi rend="underline">5 </hi></measure>.
+</p>
+<p>
+<lb/>Unnsere herren wöllend unnd verbiettend ouch, das
+<lb/>nyemandts uff dem <placeName ref="loc000127">See</placeName>, uff der <placeName ref="loc000075">Lyndtmag</placeName>, uff der
+<lb/><placeName ref="loc010518">Sil</placeName>, uff der <placeName ref="loc010439">Glatt</placeName> unnd gar uff dheynen anndern
+<lb/>wassern innert <measure type="length" unit="Meile" quantity="1">einer myl</measure> nach von der statt zuͦ
+<lb/>dem <hi rend="underline">endtvogel</hi> noch anndren voglenn noch ouch gar
+<lb/>inn iren gerichten unnd gebietten annderm gewild
+<lb/>mit der büchs sölle schiessen. Unnd wer das
+<lb/>darüber thuͦt, den wöllen sy straaffen umb <measure type="currency" unit="M" quantity="1">ein
+<lb/>march silber</measure>.<note>Vgl. dazu das Mandat der Stadt <placeName ref="loc000065">Zürich</placeName> betreffend Vogelfang und Jagd
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_165">SSRQ ZH NF I/1/3, Nr. 165</ref></bibl>).</note>
+</p>
+<p>
+<lb/>Die jungen knaben, die tägen tragend, wo dëro
+<lb/>einer eynichen fräfel begaat, es syg mit zugken,
+<lb/>schlachen, stëchen oder howen, wellend unnsere
+<lb/>herren buͤssen unnd straaffen, als die, so mannbar
+<lb/>unnd erwachssen sind.
+</p>
+<pb n="66r" facs="StAZH_B_III_4__fol__66_r_.tif"/>
+<p>
+<lb/>Wenn parthygen mitteinandren für <orgName ref="org004016">rath</orgName> oder gericht
+<lb/>kommend unnd mitteinandren das recht bruchend,
+<lb/>wer da mit dem anndern fräfelt oder unfuͤget mit
+<lb/>wortten oder wërgken, den wöllend min herrenn
+<lb/>straaffen unnd buͤssen, als die, so mitteinandren inn
+<lb/>frid unnd stallung stand. Darumb soll ein yeder
+<lb/>gewarnnet unnd im selbs vor schaden sin.
+</p>
+<p>
+<lb/>Es soll ouch nyeman weder <hi rend="underline">ross, kuͤg</hi> noch annder vich
+<lb/>uff noch inn der statt graben schlachen, noch sunst
+<lb/>an den straassen unnd wëgen, an den hegen unnd
+<lb/>zünen lassen umbgan, sonnders ein yeder das inn
+<lb/>sinen eygnen guͤttern oder uff der allmend haben,
+<lb/>damit davon nyemands dheyn schad beschech. Und
+<lb/>wer das übersicht, der git <hi rend="underline">von yedem houpt <measure type="currency" unit="ß" quantity="10">x </measure></hi> zuͦ
+<lb/>buͦss unnd soll söllich buͦss den stattknëchten ge<lb break="no"/>hören
+unnd sy die in züchen. Unnd wo sy das
+<lb/>nit thuͦnd, wöllend min herren die buͦss von den
+<lb/>stattknëchten inzüchen unnd nemmen.
+</p>
+<p>
+<lb/>Unnd umb obbemelt artigkel all unnd yettlichs, soll
+<lb/>yederman den anndern leyden. Unnd wellicher
+<lb/>das übersëch unnd nit thät, den wellend unnsere
+<lb/>herren straaffen, wo sy dess mögend innen werden,
+<lb/>by der buͦss, wie das verbotten ist, nach dem unnd sy
+<lb/>dungkt.
+</p>
+<pb n="66v" facs="StAZH_B_III_4__fol__66_v_.tif"/>
+<p>
+<lb/>Unnser herren <orgName ref="org002406"><hi rend="underline">burgermeister</hi> unnd rath</orgName> der statt
+<lb/><hi rend="underline"><placeName ref="loc000065">Zürich</placeName></hi> verkündent unnd thuͦnd mengklich warnen,
+<lb/>das nyemandts, wer der syge, wirt, stubenknëcht,
+<lb/>thuͦchlüth, koufflüth, krämer oder annder, was ge<lb break="no"/>wërbs
+oder wäsens joch die sind, knaben oder töcht<lb break="no"/>ern,
+so by iren vatter und muͦtter wonend, dess<lb break="no"/>glychen
+vogtbaren lüthen, sy sygend jung oder alt,
+<lb/>ouch knaben, frowen oder töchteren, on gunst, wüssen
+<lb/>oder willen ir vättern oder vögten zuͦessen, tringken,
+<lb/>gelt oder gelts wërt fürsetzen, lychen oder sunst eynich<lb break="no"/>erley,
+wie joch das sin mag, nützit ussgenommen, dings
+<lb/>uff beytt, uff borg, zil oder tag unnd sonnders uff
+<lb/>vatters oder muͦtter tod unnd abganng geben sölle.
+<lb/>Dann wo das beschicht, söllen dieselben kynd ir vat<lb break="no"/>ter
+unnd muͦtter, dessglychen die vogtbaren lüth, so
+<lb/>also uffgenommen uff borg oder beytt koufft, geëssen
+<lb/>oder trungken habend, dheyn bezalung schuldig sin.
+<lb/>Es wöllend ouch die genannten unnser herren den<lb break="no"/>selben
+ussgëbern söllicher sachen halb dheyn recht er<lb break="no"/>gan
+lassen noch haben. Unnd zuͦdem wöllend unser
+<lb/>herren die innsonders straaffen, so uff vatter oder
+<lb/>muͦtter tod inn obgemelter gestalt borgen, wo man
+<lb/>dëren innen werden mag.
+</p>
+<p>
+<lb/>Darby verbyetten ouch unnser herren, das nyemandts,
+<lb/>frowen oder man, heymlich oder verborgenlich, eynich<lb break="no"/>erley
+guͦts oder plunders veyl tragen oder verkouffen,
+<lb/>sunders was man verkouffen welle, das soͤlle man
+<lb/>den offennlichen <hi rend="underline">feyltragern</hi> gëben unnd überanntwurten.
+<pb n="67r" facs="StAZH_B_III_4__fol__67_r_.tif"/>
+<lb/>Unnd wer darwider hanndlet oder thuͦt, dieselben
+<lb/>wellend unnser herren straaffen unnd buͤssen.
+</p>
+<p>
+<lb/>Es ist ouch ernnstlich angesëchen, das man der obge<lb break="no"/>melten
+personen, denen man also schuldig wirt, dheyne
+<lb/>für <orgName ref="org004016">rath</orgName> kommen lassen unnd wellicher miner her<lb break="no"/>ren
+darwider im <orgName ref="org004016">rath</orgName> anzuche, hanndlet oder redte,
+<lb/>der soll <hi rend="underline">umb <measure type="currency" unit="ß" quantity="5">5 </measure></hi> gestraafft werden.
+</p>
+<p>
+<lb/>Unnd wie unnsere herren vormaln das <hi rend="underline">reysslouffen</hi> by
+<lb/>lyb, eer und guͦt verpotten,<note>Für die verschiedentlich erneuerten Reislaufverbote vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_054">SSRQ ZH NF I/1/3, Nr. 54</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_126">SSRQ ZH NF I/1/3, Nr. 126</ref></bibl>.</note> dessglych die <hi rend="underline">zerhownen
+ <lb/>hosen</hi>,<note>Vgl. dazu das Verbot des Tragens geschlitzter Hosen und langer Hosenlätze für Stadt und Landschaft <placeName ref="loc000065">Zürich</placeName>
+  (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_110">SSRQ ZH NF I/1/3, Nr. 110</ref></bibl>).</note> das <hi rend="underline">spilen</hi> unnd anndere laster im trugk und
+<lb/>sunst schrifftlich durch offne gebott ussgan lassen
+<lb/>unnd abgestelt, darby lassend sy es nochmaln styff
+<lb/>belyben.
+</p>
+<p>
+<lb/>Unnd alss dann vornacher guͦtter meynung verbotten,
+<lb/>milch, krudt, eyger, kryesin unnd anndere frücht am
+<lb/><date period="P1WD">sonntag</date> feyl zehaben, da ist unnserer herren ernstliche
+<pb n="67v" facs="StAZH_B_III_4__fol__67_v_.tif"/>
+<lb/>meynung unnd wellend, das nyemand söllicher dingen
+<lb/>meer hërin trage oder am <date period="P1WD">sonntag</date> feyl habe, dann
+<lb/>wer das übersëche, dem werdent die knëcht sölliche
+<lb/>frucht nemmen unnd inn <placeName ref="loc010962">spittal</placeName> tragen, dess soll
+<lb/>yedermann gewarnnet sin.
+</p>
+<p>
+<lb/>Wellichem kuntschafft zesagen ald annder pott für
+<lb/>unnsere herren bym eyd angeleyt werdent, der soll
+<lb/>söllichen eyde unnd gebott leysten unnd gehorsammlich
+<lb/>erschynen, damit unnsere herren nit ettwa vergëben<lb break="no"/>lich
+gehelget unnd die parthygen an iren rechten ge<lb break="no"/>sumpt
+werdint, dann wellicher sölliche gebott über<lb break="no"/>sëchen
+unnd dem eyd nit gnuͦg thuͦn wurde, den wer<lb break="no"/>dent
+unnsere herren dermass straaffen, das er sëchen
+<lb/>muͦss, das sy den eyd schirmen unnd styff gehalten haben
+<lb/>wellend.
+</p>
+<p>
+<lb/>Es soll gar nyemandts <hi rend="underline">tanntzen</hi> dann an offnen hochzytten
+<lb/>unnd kilchwychinen unnd doch alleyn <time dur="P1D">ein tag</time> unnd
+<lb/><time period="byNight">nachts</time> gar nit unnd darzuͦ, so man tanntzet, züchtengclich
+<lb/>tanntzen unnd nit einanderen umbwërffen, <hi rend="underline">by <measure type="currency" unit="ß" quantity="10">10 </measure></hi> buͦss.
+<lb/>Unnd söllend die stattknëcht, so man tanntzet, daruff
+<lb/>acht haben unnd die buͦss inzüchen, die inen, umb
+<lb/>das sy dest geflissner sygind, halb soll werden. Unnd
+<pb n="68r" facs="StAZH_B_III_4__fol__68_r_.tif"/>
+<lb/>söllend sy ouch die spillüth, so sy das <hi rend="underline">umbwërffen</hi> sëchend,
+<lb/>heyssen uffhören zetanntz machen oder sy die buͦss uss<lb break="no"/>richten.
+Unnd wo sy, die spillüth, das nit thättind
+<lb/>angends, soll man sy gefengklich annemmen unnd ge<lb break="no"/>horsam
+machen.
+</p>
+<p>
+<lb/>Es soll ouch nyemandts sumberen nach <time when="21:00:00">bëttenzyt</time>,
+<lb/>by obgemelter buͦss.
+</p>
+<p>
+<lb/>Es ist bisshar mit dem scheyden unnd fridbietten lieder<lb break="no"/>lich
+unnd unwäsennlich zuͦgangen, also das die, so
+<lb/>frid von den lüthen genommen, alleyn frid mit worten
+<lb/>gebotten unnd nit mit der hannd frid unnd stallung
+<lb/>genommen, dardurch aber vil schaden unnd gefhaaren
+<lb/>entstanden unnd die lüth einanderen übel geschënndt
+<lb/>unnd ettwa gar versumpt unnd entlypt worden. Söl<lb break="no"/>lichs
+zuͦfürkommen lassend unnsere herren mengk<lb break="no"/>lichem
+sagen unnd gepietten, wellicher frid nemme,
+<lb/>das er nit nun alleyn mit schlëchten wortten, sonder
+<lb/>mit unnd by der hannd frid unnd stallung nemme unnd
+<lb/>die zerwürffnussen bests sins vermögens zuͦfriden
+<lb/>stelle. Dann ob yemand harinn sümig wurde, den
+<lb/>werdent sy darumb straaffen, als eynen, der sinem eyd
+<lb/>nit gnuͦg gethan hat.
+</p>
+<pb n="68v" facs="StAZH_B_III_4__fol__68_v_.tif
+"/>
+<p>
+<lb/>Unnsere herren wellend, das nyemandts dem andern
+<lb/>yetz uff das <hi rend="underline"><date when="--01-01">nüw jar</date> sölle singen</hi>, ouch nyemandts dem
+<lb/>anndern an sinem huͦss unnd gädmern wëder klopfen
+<lb/>noch bochsslen, ouch nyemandts den anndern fachen
+<lb/>noch beschütten sölle, <hi rend="underline">by <measure type="currency" unit="ß" quantity="10">x </measure></hi> buͦss verbotten. Ouch daby
+<lb/>gehept haben, das sich nyemand zuͦ künfftiger <date type="floating holiday">vas<lb break="no"/>nacht</date>,
+wäder vor noch nach, mit dheynerley schämen,
+<lb/>larfen, böggen ald annderen anntlitten, narren ald
+<lb/>annderen angenommenen kleydern, verändere als ver<lb break="no"/>stelle,
+ouch dheynerley bögkenwërch, vasnacht noch
+<lb/>anndere gouggelspil trybe, inn was gstalt unnd
+<lb/>schyns das yemer angericht ald zuͦwëgen bracht werden
+<lb/>möchte, wäder <time period="byDay">tags</time> noch <time period="byNight">nachts</time>, heymlich noch offenlich,
+<lb/>sunder sich yedermann ruͦwen unnd cristennlicher,
+<lb/>burgerlicher stille unnd eerbarkeyt flysse. Dann
+<lb/>wellicher das übersëchen wurde, es syge man ald frow<lb break="no"/>en,
+jung oder alt, der soll angends gefängklich ange<lb break="no"/>nommen,
+in <placeName ref="loc008635">Wellenberg</placeName> geleyt unnd nit wider daruss
+<lb/>gelassen werden, er habe dann zuͦvor, so digk das be<lb break="no"/>schicht,
+<measure type="currency" unit="M" quantity="1">ein march</measure> silbers zuͦ rechter buͦss bar bezalt.
+<lb/>Es möchte sich ouch yemand so unverschammpt, grob unnd
+<lb/>verachtlich hierinn halten, man wurde in rüher straaf<lb break="no"/>fen,
+nachdemm unnsere herren gedächtind ein verdient han.
+</p>
+<p>
+<lb/>Es soll ouch by <measureGrp><measure type="currency" unit="lb" quantity="1">eym pfund</measure> unnd <measure type="currency" unit="ß" quantity="5"><hi rend="underline">v </hi></measure></measureGrp> buͦss gar nyemandts
+<lb/>diss zuͦkünfftig <date type="floating holiday">vasnacht</date> tanntzen, dann alleyn uff den
+<lb/>tag, so man die huͤner isst, unnd <time period="byNight">nachts</time> gar nit.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Eidleistungen der <orgName ref="org001187">Bürgergemeinde</orgName> fanden halbjährlich im <placeName ref="loc007562">Grossmünster</placeName> an den Johannestagen im Sommer und im Winter statt. Bei dieser Gelegenheit wurden jeweils verschiedene Mandate und Verbote verlesen. Dabei handelte es sich in den meisten Fällen um bereits zuvor in eigenständiger Form einmal oder mehrfach erlassene Bestimmungen. Während die vorliegende ausführliche Zusammenstellung von Verboten nur einmal jährlich, also bei jeder zweiten Eidleistung verlesen werden sollte, war eine kleinere Anzahl von Bestimmungen ausdrücklich zur Verlesung an jedem Schwörtag vorgesehen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1914259">StAZH B III 4, fol. 21r-23v</ref></bibl>). Die in der vorliegenden Zusammenstellung vorhandene Formulierung <orig>yetz uff das nüw jar</orig> deutet darauf hin, dass sie am Johannestag im Winter jeweils Ende Dezember Verwendung fand. Die Auswahl der bei der Eidleistung zu verlesenden Verbote trafen im Vorfeld die Mitglieder des <orgName ref="org004016">Kleinen Rats</orgName>, die Verlesung selbst wurde durch den Unterschreiber vorgenommen (zum genauen Ablauf des Schwörtags vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl> sowie <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 20-26</bibl>). Es existieren neben der vorliegenden Aufzeichnung verschiedene weitere Zusammenstellungen von Verboten, die als Grundlage für die Auswahl verwendet wurden. Am umfangreichsten war dabei das sogenannte Verbotbuch der Stadt <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293631">StAZH A 42.3.1</ref></bibl>).</p>
+<p>Zum Eid des Bürgermeisters und der <orgName ref="org001187">Bürgergemeinde</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_028">SSRQ ZH NF I/1/3, Nr. 28</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

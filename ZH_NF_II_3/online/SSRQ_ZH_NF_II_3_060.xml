@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_060</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946899">PGA Greifensee I A 7</idno></msIdentifier><head>Einzugsbrief des Städtchens Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlauben dem Städtchen Greifensee, künftig von Neuzuzügern aus dem Zürcher Herrschaftsgebiet ein Einzugsgeld von 5 Pfund sowie von Auswärtigen eine Einzugsgeld von 10 Pfund zu verlangen. Wer hingegen auf seine eigene Hofstatt zieht oder diese als Lehen bebaut, muss nichts bezahlen. Die Einnahmen müssen zum Nutzen des Städtchens angelegt werden. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.0"/><width unit="cm" quantity="45.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Sekretsiegel der Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1531-03-13"/></origin></history><additional><listBibl><head>Regest</head><bibl>Sigg 2006, S. 218</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key004132">Einzug</term><term ref="key005387">Gebühr</term><term ref="key000335">Nutzungsrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="PGA_Greifensee_I_A_7__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeyster unnd ratt der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd kund mencklichem mitt disem brieff, das die unnsern im stettli
+<lb/><placeName ref="loc008569">Gryffensee</placeName> ir bottschafft vor unns gehept und erscheintt habentt, wie sy je lenger je mer mitt frömbden bysässen unnd inzûglingen
+<lb/>beschwertt unnd ubersetzt wurdintt, mitt pitt unnd anrûffen, sy wie annder unser biderwlütt mitt einem gebûrlichen inzug gellt
+<lb/>zuͦversachen. Allso habentt wir angesächen sollich ir <damage agent="faded ink"><supplied resp="rhr">pitt</supplied></damage> unnd die nach gestallt ir sachen zimlich geachtott unnd inen
+ver<lb break="no"/>günst unnd bewillgt, das einyeder, so uss unnser oberkeytt gerichten unnd gebietten zuͦ inen zûchen unnd by inen hußhâblich
+<lb/>sin, ouch trib, tratt, wunn und weyd nutzen unnd bruchen wil, inen zuͦvor sol ußrichten und geben <measure type="currency" unit="lb" quantity="5" origin="ZH">fûnff pfund</measure> unnd
+<lb/>einer usserthalb unnser herrlickeytt gerichten unnd gebietten <measure type="currency" unit="lb" quantity="10" origin="ZH">zechen pfund, alles Züricher pfenning</measure>, die ouch zuͦ irs stettlis
+<lb/>nutz behallten unnd angelegt unnd sunst annderer gestallt nitt verthan werden, unnd doch ouch mitt der vorbehalltung unnd
+<lb/>den gedingen, das die, so uff ir eygen hoffstetten unnd gûtter dahin ziechentt oder die inn lechenswyß buwentt, inen nûtzitt
+<lb/>zuͦgeben schulldig sin söllentt, sonnders sy dieselbenn fryg unnd unbeschwertt uffziechen lassen, alles ane arglist und
+ongevar<lb break="no"/>lich.</seg>
+<seg>Unnd des zuͦ urkund habenn wir den bemellten den unnsern im stettli <placeName ref="loc008569">Gryffensee</placeName> uff ir emmßig pitt, disenn
+<lb/>brieff lassen mitt unnser statt anhangendem secrett insigell besiglen unnd geben <origDate when="1531-03-13">mentags nach dem sonntag
+<lb/>oculi nach der geburtt Cristi gezallt fünffzechenhundertt dryssig unnd ein jar</origDate>.</seg></p>
+<pb n="v" facs="PGA_Greifensee_I_A_7__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Inzug dero zuͦ
+<lb/><placeName ref="loc008569">Gryffenseew</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1531">153<subst><del>0</del><add place="overwritten" hand="later hand">1</add></subst></origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Von 1465 bis 1530 verdoppelte sich die Bevölkerung auf der <placeName ref="loc000066">Zürcher Landschaft</placeName>, und bis 1585 stieg sie auf das Dreifache.
+Damit einher ging eine Verknappung der Ressourcen, sodass es vermehrt zu Konflikten über die Nutzung von Weideland und Wald kam.
+Mittels der Erhebung einer Gebühr, dem sogenannten Einzugsgeld, sollte der Zuzug von Ausswärtigen beschränkt werden.
+Ab dem 16. Jahrhundertert erlangten die meisten Gemeinden im <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName> einen Einzugsbrief,
+der sie zur Erhebung entsprechender Gebühren berechtigte. 
+Deren Höhe korrelierte mit der Grösse des vorhandenen Gemeindelandes; kleinere Gemeinden durften einen weniger hohen Betrag erheben als grössere.
+Ausserdem variierten die Gebühren je nachdem, ob jemand aus dem <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName>,
+aus der <placeName ref="loc000153">Eidgenossenschaft</placeName> oder aus dem Ausland stammte
+(<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 2001</ref>, S. 83, S. 89-90</bibl>).
+Der vorliegende Einzugsbrief aus dem Jahr 1531 ist einer der ältesten aus dem Gebiet der Herrschaft <placeName ref="loc000348">Greifensee</placeName>.
+Bereits 1529 hatte sich die <orgName ref="org004888">Gemeinde <placeName ref="loc008735">Kirchuster</placeName></orgName> um einen Einzugsbrief bemüht
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1101235">ZGA Kirchuster I A 3</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615410">StAZH A 99.5, Nr. 144</ref></bibl>).
+1539 folgte <placeName ref="loc008651">Fällanden</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=944523">PGA Fällanden I A 5</ref></bibl>),
+1546 <placeName ref="loc008648">Maur</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1093853">ERKGA Maur I A 9</ref></bibl>),
+1571 <placeName ref="loc008816">Nänikon</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1101330">ZGA Nänikon I A 8</ref></bibl>),
+1584 <placeName ref="loc008877">Irgenhausen</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615290">StAZH A 99.4, Nr. 151</ref></bibl>),
+1586 <placeName ref="loc008776">Auslikon</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615212">StAZH A 99.4, Nr. 146</ref></bibl>)
+und <placeName ref="loc008652">Schwerzenbach</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1098542">PGA Schwerzenbach I A 3</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615313">StAZH A 99.5, Nr. 21</ref></bibl>),
+1589 <placeName ref="loc008815">Hegnau</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1153394">ZGA Hegnau I A 11</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615428">StAZH A 99.5, Nr. 203-205</ref></bibl>)
+und 1592 <placeName ref="loc008835">Hutzikon</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615401">StAZH A 99.5, Nr. 119</ref></bibl>).
+</p>
+<p>Gelegentlich wurden die Einzugsbriefe erneuert und an veränderte ökonomische Gegebenheiten angepasst.
+So erhielt das Städtchen <placeName ref="loc008569">Greifensee</placeName> 1593 einen neuen Einzugsbrief,
+mit dem das Einzugsgeld für Leute aus dem <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName> von 5 auf 10 Pfund
+sowie für solche aus der <placeName ref="loc000153">Eidgenossenschaft</placeName> von 10 auf 30 Pfund erhöht wurde
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946908">PGA Greifensee I A 16</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=613858">StAZH A 99.2, Nr. 164-166</ref></bibl>).
+Eine erneute Einschätzung wurde 1664 vorgenommen, indem der <orgName ref="org002406">Zürcher Rat</orgName> bestimmte,
+dass jeder Neuzuzüger 25 Gulden und für seine Nachkommen 200 Gulden zu bezahlen habe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946916">PGA Greifensee I A 24</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=947152">StAZH C III 8, Nr. 29</ref></bibl>).
+</p>
+<p>Einen Einblick in die Handhabung des Einzugs bietet ein Konflikt aus dem Jahr 1567 zwischen der <orgName ref="org004904">Gemeinde <placeName ref="loc006198">Uster</placeName></orgName>
+und dem Vogt von <placeName ref="loc000348">Greifensee</placeName>, <persName ref="per006935">Hans Jakob Rordorf</persName>:
+Wie dieser dem Rat mitteilte, hatte <persName ref="per011036">Hans Wyss</persName> aus <placeName ref="loc008815">Hegnau</placeName>
+ein Haus in <placeName ref="loc008735">Kirchuster</placeName> gekauft und wolle nun dorthin ziehen, doch werde ihm dies verweigert,
+weil die Gemeindeversammlung beschlossen habe, keine Zuzüger mehr aufzunehmen und das Einzugsgeld von 5 Pfund zu erhöhen,
+damit das Dorf nicht weiter <orig>übersetzt</orig> werde.
+Als der Vogt der versammelten Gemeinde erläutert habe, dass sie das Einzugsgeld nicht eigenmächtig anheben dürfen,
+sei ihm geantwortet worden, dass die Entscheide der Gemeindeversammlung unumstösslich seien und der Vogt diesbezüglich nichts zu sagen habe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=730730">StAZH A 123.3, Nr. 3</ref></bibl>).
+Bereits am folgenden Tag wurde der Fall vom <orgName ref="org002406">Zürcher Rat</orgName> behandelt und festgelegt,
+dass sich <persName ref="per011036">Wyss</persName> gegen die Bezahlung des üblichen Einzugsgeldes von 5 Pfund am Gemeindeland beteiligen dürfe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4283014">StAZH B II 139, S. 38-39</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

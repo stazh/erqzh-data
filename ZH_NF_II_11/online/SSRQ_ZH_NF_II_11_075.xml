@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_075</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3349694">StAZH B V 8, fol. 288r</idno></msIdentifier><head>Entscheid des Zürcher Rats betreffend die kranke Bleulerin von Oberstrass</head><msContents><summary>Nachdem die Bleulerin von Oberstrass gewisse Zeit im Blatternhaus am Oetenbach verarztet und gepflegt worden ist, ohne dass sich ihr Zustand gebessert hätte, wird entschieden, die Frau solle mit ihren Verwandten bei den Spitalpflegern vorstellig werden, um im Spital als Pfründnerin aufgenommen zu werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1556-10-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term>Krankheit</term><term ref="key000193">Pfründe</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="288r"/>
+<p>
+<seg><lb/>Nachdem die <persName ref="per019556">Blüwlerin</persName> ab der <placeName ref="loc010574">Obrenstraß</placeName> ettwas zyts an 
+<lb/><placeName ref="loc000067">Öttenbach</placeName> im blatterhuß enthalten unnd geartznet worden
+<lb/>unnd aber die artzny an ire nit mer verfanngt, dann das
+<lb/>sy für unnd für ellennd unnd krannck unnd deßhalb
+<lb/>von nöten were, sy inn <orgName ref="org005088">spittal</orgName> zenemmen, habenn
+<lb/>sich min herren <del><unclear>daruf</unclear></del> erkant, das <del>fu</del> sy <add place="left margin" type="sign">mitsampt iren fründen</add> für die <choice><abbr>hr</abbr><expan>herren</expan></choice>
+<lb/>pfleger im spittal keren unnd sich mit den selben
+<lb/>umb ein pfrund verglychen unnd die pflager sy auch inn
+<lb/>gnaden bedennken söllind.</seg>
+<seg>Actum mentags, den <origDate when="1556-10-12">12. octobris
+<lb/>anno <abbr>etc</abbr> lvj</origDate>, <choice><abbr>prt</abbr><expan>presentibus</expan></choice> her <orgName ref="org002406">burgermeyster <persName ref="per001922">Lafater</persName>, statthalter
+<lb/>unnd beyd reth</orgName>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Nach der Reformation wurde das <orgName ref="org002666">Dominikanerinnenkloster <placeName ref="loc000067">Oetenbach</placeName></orgName> säkularisiert und umgenutzt. Unter anderem wurde bereits 1496 darin das Blatternhaus eingerichtet, eine Krankenstation zur Behandlung von Syphilis und 
+teilweise anderen Krankheiten. Es war allerdings nur zur Behandlung von heilbaren Kranken gedacht. Unheilbar Kranke wurden an andere Institutionen, in erster Linie das <orgName ref="org004913">Siechenhaus an der <placeName ref="loc008759">Spanweid</placeName></orgName>, verwiesen.</p>
+<p>Dem <orgName ref="org005088">Spital</orgName> waren im Zug der Reformation die Güter und Einkünfte verschiedener geistlicher Institutionen übergeben worden. Insbesondere konnte das <orgName ref="org005088">Spital</orgName> die Gebäude des nahe gelegenen <orgName ref="org004925">Predigerklosters</orgName> 
+sowie jene von <orgName ref="org004918">St. Verena an der <placeName ref="loc010394">Brunngasse</placeName></orgName> übernehmen, um die chronischen Platzprobleme zu mindern. Im Lauf des 16. Jahrhunderts wurde das Spital auch für die Bewohner der Landschaft geöffnet. Im Gegensatz 
+zu den Stadtbewohnern, die unentgeltlich aufgenommen wurden, mussten die Bewohner der Landschaft beziehungsweise ihre Verwandten oder ihre Gemeinde ein Tischgeld oder einen jährlichen Zins bezahlen.<!-- Wehrli 1934, S.&#160;15; KdS ZH NA III.I, S. 300 --></p>
+<p>Zu <placeName ref="loc000067">Oetenbach</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D12993.php">Oetenbach</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Halter 1956</ref></bibl>; 
+<bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1934a</ref>, S. 30-33</bibl>; zum <orgName ref="org005088">Spital</orgName>
+<bibl><ref target="/startseite/literaturverzeichnis">Milt 1951</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1951</ref></bibl>; 
+<bibl><ref target="/startseite/literaturverzeichnis">Wyder-Leemann 1952</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1934a</ref>, S. 7-21</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA III.I</ref>, S. 288-324</bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_143">SSRQ ZH NF I/1/3, Nr. 143</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

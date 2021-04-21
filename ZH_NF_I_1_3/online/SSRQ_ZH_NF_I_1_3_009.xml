@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_009</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4248582">StAZH B VI 228, fol. 173r</idno></msIdentifier><head>Erläuterung zum Urteil des Konstanzer Offizialgerichts betreffend die Klage der Anna Kramer auf Anerkennung ihrer Ehe mit Heinrich Halbeisen</head><msContents><summary>In der Eheklage zwischen Anna Kramer von Baden und Heinrich Halbeisen von Zürich sind beide Parteien vor das Gericht des Offizials in Konstanz gelangt und haben sich eidlich vor Gott und den Heiligen verpflichtet die Wahrheit darüber auszusagen, was zwischen ihnen beiden vorgefallen ist. Die von der zuerst befragten Anna Kramer vorgebrachte Aussage wurde daraufhin durch Heinrich Halbeisen bei seinem geschworenen Eid bestritten. Durch den Offizial aufgefordert, ihre Aussage zu belegen, präsentierte Anna Kramer dem Gericht neun Zeugen geistlichen und weltlichen Standes, die ihre Aussage hinreichend bekräftigten. Auf dieser Grundlage hat der Offizial durch sein Urteil Heinrich Halbeisen der Anna Kramer als rechtmässigen Ehemann zuerkannt und ihn wegen seiner Falschaussage mit zwei Pfund Pfennig Konstanzer Münze gebüsst, zu entrichten an den dortigen Kirchenbau. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="25.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1472-01-01" to="1472-12-31">Datierung aufgrund des vorangehenden Eintrages</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Matter-Bacon 2016, S. 48, Anm. 181</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000863">Ehe</term><term ref="key004629">Geistliches Gericht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="173r"/>
+<p><seg><lb/>In der elichen sach vor ziten ufferstanden zwu̍schent <persName ref="per014585">Annen
+<lb/>Kromerinnen</persName> von <placeName ref="loc000020">Baden</placeName> an eim und <persName ref="per014582">Heinrichen Halbysen</persName> von
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> am andern teilen, sind beid jetzgenanten partyen 
+<lb/>zuͦ <placeName ref="loc000008">Costentz</placeName> vor dem official derselben sach halb in das recht 
+<lb/>getraͤtten und <add place="above">hand</add> daselbs vor ime liblich zuͦ gott und den heiligen 
+<lb/>gelert eid gesworn <del>hand</del>, ein warheit zuͦ sagen, wie sich die 
+<lb/>sachen zwu̍schent inen beiden verloffen habent mit worten
+<lb/>oder werken, nach dem und sy gott dem almechtigen an dem 
+<lb/>jungsten tag darumb antwurten und ir sel und ere behalten 
+<lb/>wellten.</seg>
+<seg>Und als nach soͤlichem die egenant <persName ref="per014585">Anna Kromerin</persName>
+<lb/>verhoͤrt ist und ir sachen muntlich by irem geswornen eide
+<lb/>furgeben hat und die selb ir sag in geschrifft gesetzt, so ist
+<lb/>der egeseit <persName ref="per014582">Heinrich Halbysen</persName> uff ira fu̍rbringen und sag 
+<lb/>oͧch verhoͤrt und haͧt geantwurt und geredt in massen, das 
+<lb/>er by sinem geswornen eide logembar gewesen ist, deß so dann 
+<lb/>die genant <persName ref="per014585">Anna Kromerin</persName> der e halb geredt und fu̍rbracht hatt.</seg>
+<seg><lb/>Desshalb der genant herr official sich im rechten erkant,
+<lb/>das die genant <persName ref="per014585">Anna Kramerin</persName> ir sag, red und fu̍rbringen,
+<lb/>als dann der genant <persName ref="per014582">Heinrich Halbysen</persName> deß, als obstat, by
+<lb/>sinem eide gelognet hatt, wysen und kuntlich machen
+<lb/>soͤlte.</seg>
+<seg>Uff das, so haͧt die selb <persName ref="per014585">Anna Kramerin</persName> mit <num value="9">nu̍n</num>
+<lb/>zugen, geistlichen und weltlichen personen, die all by 
+<lb/>iren geswornen eiden darumb ges<damage agent="faded ink"><supplied resp="msr">eit</supplied></damage> hand ir sag, red 
+<lb/>und fu̍rbringen, als dem <persName ref="per014582">Heinrich Halbysen</persName> die by sinem
+<lb/>geswornen eide gelognet hatt, recht und zum rechten
+<lb/>gnuͦgsamlich gewyst und kuntlich gemacht, also und 
+<lb/>in maͧssen, das der obgenant herr official den egeseiten 
+<lb/><persName ref="per014582">Heinrichen Halbysen</persName> der genanten <persName ref="per014585">Annen Kramerinen</persName>
+<lb/>mit urteil zuͦ gericht hat als iren elichen man. Und 
+<lb/>haͧt oͧch von sachen wegen, die den genanten herren official 
+<lb/>darzuͦ bewegt hand, den selben <persName ref="per014582">Heinrichen Halbysen</persName> mit 
+<lb/>urteil gestrafft und gebuͦsset umb <measure type="currency" unit="lb" quantity="2" origin="Konstanz">zwey pfunt pfenig
+<lb/><placeName ref="loc000008">Costentzer</placeName> mu̍ntz</measure><!-- vgl. Schwarz, Münzgeschichte und Schweizerdeutsches Wörterbuch, 1993, S. 168 --> an den buw der kilchen ze <placeName ref="loc000008">Costentz</placeName> zuͦ geben.</seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung gibt einen Einblick in das Verfahren vor dem bischöflichen <orgName ref="org004978">Offizialgericht</orgName> in <placeName ref="loc000008">Konstanz</placeName>. Sie entstand im Rahmen eines Nachgangs wegen der Ehrverletzungsklage des <persName ref="per014582">Heinrich Halbeisen</persName> gegen seinen Zunftbruder <persName ref="per014586">Heinrich Zimberisen</persName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4248641">StAZH B VI 228, fol. 172 r-v</ref></bibl>). Der Beklagte hatte <persName ref="per014582">Halbeisen</persName> als meineidig bezeichnet und war darauf vom <placeName ref="loc000065">Zürcher</placeName>
+<orgName ref="org004982">Ratsgericht</orgName> aufgefordert worden, seine Aussage zu belegen. Im Rahmen der Untersuchungen ergab sich, dass <persName ref="per014582">Halbeisen</persName> tatsächlich vor dem <orgName ref="org004978">Offizialgericht</orgName> eine Falschaussage unter Eid getätigt hatte, weshalb die Klage gegen <persName ref="per014586">Zimberisen</persName> fallen gelassen wurde.</p>
+<p>Bis zur Reformation war das <orgName ref="org004978">geistliche Gericht des <placeName ref="loc000923">Konstanzer</placeName> Offizials</orgName> die wichtigste Anlaufstelle für Zürcherinnen und Zürcher in Ehesachen. Das Feld der Ehegerichtsbarkeit war ausdrücklich ausgenommen von dem im Bürgereid verankerten Verbot, fremde Gerichte anzurufen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>).</p>
+<p>Die vorliegende Aufzeichnung steht zudem beispielhaft für die häufig vor dem <orgName ref="org004978">Offizialgericht</orgName> verhandelten Eheansprachen, also Klagen auf Anerkennung von Ehen infolge eines umstrittenen Eheversprechens. Nach kanonischem Recht genügte das gegenseitige verbindliche Versprechen von Mann und Frau, um das Sakrament der Ehe zu stiften. Diese Formlosigkeit der Eheschliessung bot jedoch Raum für Rechtshändel, da sie im Nachhinein von einer der involvierten Parteien oder deren Familien bezweifelt oder abgestritten werden konnte. In diesem Fall blieb, sofern eine aussergerichtliche Einigung nicht möglich war, nur eine Klage auf Anerkennung der Ehe vor dem geistlichen Gericht. Wie die vorliegende Aufzeichnung zeigt, spielten die Aussagen von Zeugen, bei denen es sich in vielen Fällen um Verwandte, Bekannte oder Nachbarn gehandelt haben dürfte, eine entscheidende Rolle für das Urteil des Offizials. Um zu verhindern, dass solche Verfahren ohne ausreichende Grundlage eingeleitet wurden, verhängte der <placeName ref="loc000065">Zürcher </placeName>
+<orgName ref="org002406">Rat</orgName> gegenüber unterlegenen Klägerinnen und Klägern eine Busse von 10 Pfund (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_056">SSRQ ZH NF I/1/3, Nr. 56</ref></bibl>). Im Zuge der Reformation ging in <placeName ref="loc000065">Zürich</placeName> die Zuständigkeit für Ehesachen an das neu geschaffene <orgName ref="org004927">Ehegericht </orgName> über (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_001">SSRQ ZH NF I/1/11, Nr. 1</ref></bibl>).</p>
+<p>Zur Thematik der Eheansprachen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 45-49; 61-68</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 171-174</bibl>; zum kanonischen Eherecht vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 37-42</bibl>; zum <orgName ref="org004978">Offizialgericht</orgName> sowie allgemein zum Verhältnis zwischen geistlicher und weltlicher Ehegerichtsbarkeit im vorreformatorischen <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1936</ref>, S. 20-29</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Köhler 1932</ref>, S. 6-27</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_084_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498255">StAZH H I 64, Teil II, fol. 1r-6v</idno></msIdentifier><head>Weidgangsordnung für die Allmend im Kreuel</head><msContents><summary>Aufgrund vieler Unklarheiten und Missbräuche wird eine Ordnung erstellt, die den Weidgang von Vieh, Pferden und Schweinen im Kreuel regelt. Weideberechtigt sind neben den Bürgern der Stadt Zürich auch die Angehörigen der Gemeinde Wiedikon. Über die Einhaltung der Ordnung hat der alt Obervogt von Wiedikon, Hans Ziegler, und dessen Nachfolger zu sorgen. Ihm obliegt auch der Einzug der Bussen zuhanden der Stadt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1566-05-11"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="16.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1671-01-01" to="1671-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term>Allmend</term><term ref="key000184">Bussen</term><term ref="key000325">Fremde</term><term ref="key000596">Hirten</term><term>Krankheit</term><term ref="key000264">Pferde</term><term ref="key004022">Satzung</term><term ref="key004301">Schadenersatz</term><term ref="key005444">Tierhaltung</term><term ref="key000298">Vieh</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" type="original" facs="StAZH_H_I_64__Teil_II__fol__1_r_.tif"/>
+<head type="title"><lb/>Ordnung über den
+<lb/>weidgang uff dem <placeName ref="loc012667">Kreüwell</placeName></head>
+<p>
+<lb/>Als bißhar von wegen des weidgangs
+<lb/><app><lem>auff dem</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">im</rdg></app>
+<placeName ref="loc012667">Kreüwel</placeName>, so gmeinen burgeren in der
+<lb/>statt <placeName ref="loc000065">Zürich</placeName> und denen in der <orgName ref="org007942">gmein zu <placeName ref="loc009863">Wiedickon</placeName></orgName>
+<lb/>zugehörig, allerley unordnungen eingerißen,
+<lb/>also das dieselb weid durch wenig eigen nützig leüth
+<lb/>gar mißbrucht und dardurch dermaßen zu nüten
+<lb/>gricht, das andere weidgnößigen deß wenig ge<lb break="no"/>freüwt 
+worden, habend unsere <abbr>gn hr</abbr>
+<orgName ref="org002406">burger<lb break="no"/>meister
+und räthe der statt <placeName ref="loc000065">Zürich</placeName></orgName> folgende
+<lb/>ordnungen und artickel<app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">stellen laßen</rdg></app>, damit ein jeder, der
+<lb/>grechtigkeit hat, solchs weidgangs desterbas ge<lb break="no"/>nießen
+möchte, <app><lem>stellen laßen,</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> und wöllen, das den
+<lb/>selben von meniglichem steiff und stëdt gelebt und
+<lb/>nochgangen und von jedem <abbr>hr</abbr>, dem sy auff
+<lb/>soliche <hi rend="font change">artickel</hi> acht und sorg zehaben befelchen,
+<lb/>ernstlich gehand habt und die bußen von den ohn<lb break="no"/>gehorsammen
+eingezogen werden.</p>
+<pb n="1v" type="original" facs="StAZH_H_I_64__Teil_II__fol__1_v_.tif"/>
+<head type="subtitle"><lb/>Es soll niemand weder <time period="byDay">tags</time> noch <time period="byNight">nachts</time>
+<lb/>keine kühe noch kälber auff dem <placeName ref="loc012667">Kreüel</placeName>
+<lb/>zweid gahn laßen</head>
+<p>
+<lb/>Und namlich fürs erst ist ihr ernstliche meinung,
+<lb/>das gar niemandts, weder burger noch die von
+<lb/><placeName ref="loc009863">Wiedickon</placeName>, wer joch die seigind, weder kühe, kalber
+<lb/>noch ander rinderhafft veich <time period="byDay">tags</time> noch <time period="byNight">nachts</time> auff
+<lb/>dem <placeName ref="loc012667">Kreüel</placeName> ald auff dem <placeName ref="loc011719">Platz</placeName><!-- der "Platz" ist das Gebiet hinter dem Schützenhaus, wo heute Platzspitz und HB-Gelände liegen, vgl. KDM ZH NA I, S. 78. Der Kreuel ist gleich angrenzend, vgl. Wild-Karte auf maps.zh.ch--> zu weid gahn
+<lb/>laßen sollend, <app><lem>sonder</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">und</rdg></app> ein jeder, fürnemlich aber die, 
+<lb/>so an die <placeName ref="loc010518">Sill</placeName> geseßen, deßgleichen die metzger ald
+<lb/>andere burger, so weid recht auff der allment, das
+<lb/><placeName ref="loc012125">Hard</placeName> genant, haben, ihr veich, so vil für den hirten hört,
+<lb/>für denselben gahn und benandtlich <app><lem>das</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">dasselbe</rdg></app> am <time period="morning">mor<lb break="no"/>gen</time>
+nit früher außlaßen, dann wann der hirt
+<lb/>mit dem anderen veich auß auf die gwonlich
+<lb/>allment fahrt, und <time period="evening">abentz</time>, so der hirt mit dem selben
+<lb/>einfart, dasselb ihr veich instälen oder in ihren
+<lb/>eignen wißen ald güteren halten und sich der
+<lb/>ordnung über die alment und das <placeName ref="loc012125">Hard</placeName> gmachet
+<lb/>fleißen, und welicher solches übersehe, das derselb
+<lb/>um <measure type="currency" unit="M" quantity="0.5">ein halb march silber</measure>
+<app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">solle</rdg></app> gestrafft werden.</p>
+<pb n="2r" type="original" facs="StAZH_H_I_64__Teil_II__fol__2_r_.tif"/>
+<head type="subtitle"><lb/>Keine hängst sollen auff den <placeName ref="loc012667">Kreüwel</placeName>
+<lb/>noch in die stroffelweiden geschlagen werden</head>
+<p>
+<lb/>Und wiewol ein jeder burger, deßgleichen die
+<lb/>von <placeName ref="loc009863">Wiedickon</placeName>, gwalt haben, ihre roß auf den
+<lb/><placeName ref="loc012667">Kreüel</placeName>, deßgleichen die stroffel <del rend="underline">zelgen</del> weiden, so
+<lb/>die zelgen <app><lem>allerdingen</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> lähr sind, zu weidgang
+<lb/>zlaßen, so sollen doch weder burger noch die von
+<lb/><placeName ref="loc009863">Wiedickon</placeName> gar kein hängst weder auff den
+<lb/><placeName ref="loc012667">Kreüel</placeName> noch in die stroffel weiden schlahen ald
+<lb/>zu weid gahn laßen, damit niemand an seinen
+<lb/>roßen kein schad widerfahre, by <measure type="currency" unit="M" quantity="0.5">einer halben
+<lb/>march silber</measure>
+<app><lem>straaff</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">buß</rdg></app>.</p>
+<head type="subtitle"><lb/>Das keine presthafften roß weder
+<lb/>auff den <placeName ref="loc012667">Kreüel</placeName> noch in die stroffelweiden
+<lb/>zweid glaßen <app><lem>sollen werden</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">werden sollen</rdg></app></head>
+<p>
+<lb/>Deßgleichen <app><lem>gar</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">daß</rdg></app> niemand, wer der joch seige,
+<lb/>kein prësthafft roß, so hauptmüedig oder die 
+<lb/>den wurm ald den ohngenandten<!-- eine Viehkrankheit, vgl. Ung(e)nannt b) alpha) 4), Idiotikon IV, Sp. 748--> oder alt offen
+<lb/>schäden ald erblich presten hetten, darvon 
+<pb n="2v" type="original" facs="StAZH_H_I_64__Teil_II__fol__2_v_.tif"/><!-- Reklamanten hier und nachfolgend stillschweigend weggelassen -->
+<lb/>schaden entstahn möchte, <app><lem>oder</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> auch kein stuten
+<lb/>ald anderley vychs, was es joch seige, das der<lb break="no"/>gleichen
+schäden hette, auf den <placeName ref="loc012667">Kreüel</placeName>, die stroffel
+<lb/>weid und insonderheit auf die allment schlagen
+<lb/>solle, dann welicher solches übersehen <app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">wurde</rdg></app>, dem solle
+<lb/><measure type="currency" unit="M" quantity="1">ein march silbers</measure>
+<app><lem>ohne gnad zu buß</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">zu buß ohne gnad</rdg></app> abgenommen
+<lb/>werden.</p>
+<head type="subtitle"><lb/>Keine frömbden sollen ire roß
+<lb/>auff den <placeName ref="loc012667">Kreüel</placeName> zschlagen gwalt haben</head>
+<p>
+<lb/>Und dieweil nun, wie hie oben <app><lem>gnugsam</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> er<lb break="no"/>leüteret,
+solcher weidgang allein gmeiner
+<lb/>burgeren in der statt <placeName ref="loc000065">Zürich</placeName> und dero von
+<lb/><placeName ref="loc009863">Wiedickon</placeName> ist, so sollen weder hinderseßen noch
+<lb/>die frömbden krämer ald andere, die nit burgor
+<lb/>sind, weder roß auf den <placeName ref="loc012667">Kreüel</placeName> noch in die
+<lb/>stroffel weiden, auch weder kühe noch kelber
+<lb/>auf die allment schlagen, by der <app><lem>buß</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">straff</rdg></app>
+<measure type="currency" unit="M" quantity="0.5">eines
+<lb/>halben march silbers</measure>.</p>
+<head type="subtitle"><lb/>Wo mann die trybschwein<!-- einige Monate altes schwein, das nicht mehr getragen werden muss, vgl. Idiotikon IX, Sp. 1904 bzw. VII, Sp. 1509 (Tribsuw) --> weiden <lb/>solle</head>
+<p><lb/>Und als heimsche und frömbde metzger
+<pb n="3r" type="original" facs="StAZH_H_I_64__Teil_II__fol__3_r_.tif"/>
+<lb/>und andere burger, so schwein treiben, biß har
+<lb/>mit den schweinen auf den <placeName ref="loc012667">Kreüel</placeName> und auf den
+<lb/><placeName ref="loc011719">Platz</placeName> gefahren, durch welche dann der waßen
+<lb/>und boden dermaßen zergraben und <app><lem>zer<lb break="no"/>mült</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">zerweüelet</rdg></app><!-- stimmt das? in III.E.3: zerwüelet. W sieht aber anders aus, vgl. z.B. oben "schwein". PS: Lesung korrekt, hier ist ein rdg sicher angezeigt -->
+worden, das mëniglicher deßelben an
+<lb/>der weid entgelten müßen; so solle dasselb
+<lb/>hiemit frey gemeinlich abgestelt und verbotten
+<lb/>sein, dergestalt, das hinfür weder metzger noch
+<lb/>andere burger ald frömbde schwein treiber, so sy mit
+<lb/>den schweinen alhar kommen, mit denselben weder
+<lb/>auf den <placeName ref="loc012667">Kreüel</placeName> noch auf den <placeName ref="loc011719">Platz</placeName> zu weid fahren,
+<lb/>sonder mit denselben zwüschent beiden silbrugken,
+<lb/>oberthalb der landtstraß gegen dem großen looß<lb break="no"/>laden<!-- Fallbrett an einer Schleuse, vgl. Idiotikon, Bd. 3, Sp. 1068. Allerdings  in den Stücken zum Sandwerfen als Ortsbezeichnung. -->
+aufhin oder ennerthalb der deckten <placeName ref="loc010742">Silbrug</placeName>,
+<lb/>oberthalb der landtstraß by der <placeName ref="loc012789">Ziegelhütten</placeName> und
+<lb/>derselben enden blyben und ihre schwein sonst
+<lb/>nienen anderstwohin zu weid laßen, und wel<lb break="no"/>licher
+über dise ordnung, dieselben schwein auf den 
+<lb/><placeName ref="loc012667">Kreüwel</placeName> oder zu beiden seiten unterhalb der
+<lb/><placeName ref="loc010742">Silbruggen</placeName> gahn und weiden ließe, jedesmahl
+<lb/>um <measure type="currency" unit="M" quantity="1">ein march silber</measure> ohne gnad gestrafft werden<app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">solle</rdg></app>.</p>
+<pb n="3v" type="original" facs="StAZH_H_I_64__Teil_II__fol__3_v_.tif"/>
+<head type="subtitle"><lb/>Welcher massen der <orgName ref="org007942">gmeind zu <placeName ref="loc009863">Wiedickon</placeName></orgName>
+<lb/>schwynhirt zu weid und in die <placeName ref="loc010518">Sill</placeName>, auch
+<lb/>wider daraus fahren solle</head>
+<p><lb/>Es soll auch der <orgName ref="org007942">gmeind zu <placeName ref="loc009863">Wiedickon</placeName></orgName> schweinhirt
+<lb/>(damit kein schad von ihrer herd auf dem <placeName ref="loc012667">Kreüel</placeName>
+<lb/>beschehe), so die <placeName ref="loc012736">Oberzelg</placeName> brach ist, mit den schweinen
+<lb/>den nechsten auß dem dorff auf die brach fahren.
+<lb/>Und so er dieselben <time period="byDay">undertagen</time> trëncken und
+<lb/>baden will, dieselben den nechsten durch die <placeName ref="loc012643">Hol<lb break="no"/>gaß</placeName>
+oder <placeName ref="loc012616">Heerweg</placeName> in die <placeName ref="loc010518">Sill</placeName> und auß der <placeName ref="loc010518">Sihl</placeName>
+<lb/>wider durch gemelte gaß auf die brach treiben.
+<lb/>Wann aber das under <placeName ref="loc012247">Silfeld</placeName> braach und die
+<lb/><placeName ref="loc012736">Oberzelg</placeName> hafft<!-- geschlossen, eingehegt, umzäunt (von Grundstücken), vgl. Idiotikon II, Sp. 1057. --> ist, soll er den nechsten auß dem
+<lb/>dorff durch die <placeName ref="loc012778">Weerdgaß</placeName> strackts zum gatter
+<lb/>ein in die zelg und, <app><lem>sovern</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">wann</rdg></app> er die schwein baden
+<lb/>oder trencken wolte, zum selben gatter auß und
+<lb/>in die <placeName ref="loc010518">Sihl</placeName>, demnoch auß der <placeName ref="loc010518">Sihl</placeName> wider durch den
+<lb/>gatter auf die braach fahren. So aber der byfang
+<lb/>oben in der zelg und das under theil braach ist,
+<lb/>er den nechsten von der <placeName ref="loc012778">Werdgaß</placeName> in die <placeName ref="loc012643">Holgaß</placeName>,
+<lb/>und dann auf die brach oder <app><lem>in die</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app>
+<placeName ref="loc010518">Sihl</placeName> fahren,
+<lb/>und sich auf dem <placeName ref="loc012667">Kreüel</placeName> gar nit saumen.
+<pb n="4r" type="original" facs="StAZH_H_I_64__Teil_II__fol__4_r_.tif"/>
+<lb/>Und ob der hirt das übersehe, solle die <orgName ref="org007942">gmeind
+<lb/><placeName ref="loc009863">Wiedickon</placeName></orgName> jedesmahls um <measure type="currency" unit="M" quantity="1">ein march silber</measure> ge<lb break="no"/>strafft 
+werden, und mögen sy das wider vom 
+<lb/>hirten einziehen.</p>
+<head type="subtitle">Um die schaaff und geißen</head>
+<p><lb/>Hiernebent sollen die metzger und burgor
+<lb/>auß der statt <placeName ref="loc000065">Zürich</placeName> furer wie bishar fug, rëcht
+<lb/>und gerechtigkeit haben, mit ihren schaaffen ald
+<lb/>geißen auf den <placeName ref="loc011719">Platz</placeName>, <app><lem>auf den</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">ald</rdg></app>
+<placeName ref="loc012667">Kreüel</placeName>
+<app><lem>ald in</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">oder</rdg></app> die
+<lb/>stroffel weiden und auch auf das gmeinwerch
+<lb/>bim hochgricht<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_143">SSRQ ZH NF II/11, Nr. 143</ref></bibl>.<!-- Link auf Versetzung des Wasenwinkels --></note>, unangesehen, das dasselb getheilt
+<lb/>ist, noch <app><lem>ihrer nothurfft und ihrem gfallen</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">ihrem gefallen und nothurfft</rdg></app> zu
+<lb/>weid zufahren.</p>
+<head type="subtitle"><lb/>Das niemand den kuͤhe bouw auf <lb/>leßen solle</head>
+<p><lb/>Nochdem auch etlich eigen nützig leüth <subst><add place="overwritten">b</add><del>s</del></subst>ißhar
+<lb/>etwann den kuhe bou ab dem <placeName ref="loc011719">Platz</placeName> und ab
+<lb/>dem <placeName ref="loc012667">Kreüel</placeName> treit und gführt, das aber der
+<pb n="4r" type="original" facs="StAZH_H_I_64__Teil_II__fol__4_v_.tif"/>
+<lb/>allment schedlich, so solle dasselb hiemit auch ver<lb break="no"/>botten
+sein, also das hinfür gar niemand mehr
+<lb/>solchen und dergleichen bou außerthalb dem <placeName ref="loc010644">Renn<lb break="no"/>wegerthor</placeName>
+und der <placeName ref="loc010737">Kleinen Statt</placeName><!-- Die kleine oder mindere Stadt ist die Altstadt links der Limmat -->, weder ab dem
+<lb/><placeName ref="loc011719">Platz</placeName> noch ab dem <placeName ref="loc012667">Kreüel</placeName> ald ab anderen orthen
+<lb/>weder tragen noch führen, und welicher soliches
+<lb/>übersicht, es seigind gleich manns <app><lem>ald</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">oder</rdg></app> weibs per<lb break="no"/>sohnen,
+sollen, so dick das zuschulden komt, jedes
+<lb/>um <measureGrp><measure type="currency" unit="lb" quantity="1">ein pfundt</measure>
+<measure type="currency" unit="ß" quantity="5">fünff schilling</measure></measureGrp> gestrafft werden.<note>Mist war als Dünger begehrt, in der Stadt aber eher knapp. Vgl. dazu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_132">SSRQ ZH NF II/11, Nr. 132</ref></bibl>.</note></p>
+<head type="subtitle"><lb/>Wer die schärrhaüffen auff dem
+<lb/><placeName ref="loc012667">Kreüel</placeName> braachen soll<note>Das Brechen (Zerschlagen und Zerstreuen) der Scherhaufen (Maulwurfshügel) war eine regelmässige Frühjahrsarbeit.<!--  (Idiotikon II, Sp. 1048f)--></note></head>
+<p><lb/>Sodanne, diewil <persName ref="per025251">Steffan Kümeli</persName>, der metz<lb break="no"/>ger,
+und ein jeder inhaber seines guts nebent dem
+<lb/><placeName ref="loc012667">Kreüel</placeName> glëgen, pflichtig und schuldig ist, die schärr<lb break="no"/>haüffen
+auf dem <placeName ref="loc012667">Kreüel</placeName>
+<date dur="R/P1Y">jedes jahrs einmahl</date>,
+<lb/>zu <date period="spring">freülings</date> zeit, bis zur steinenen brugk brachen
+<lb/>laßen, solle demselben by <measure type="currency" unit="M" quantity="1">einem march silber</measure> ge<lb break="no"/>botten
+werden, dasselb <date dur="R/P1Y">jedes jahrs</date> zu rechter ge<lb break="no"/>bührlicher
+zeit außzurichten, damit kein klag komme,
+<lb/>und so dick er oder ein ander inhaber <app><lem>sollichs</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">diß</rdg></app> guts das
+<lb/>über sehen, alweg um <measure type="currency" unit="M" quantity="1">ein march silber</measure> gestrafft
+<lb/>werden.</p>
+<pb n="5r" type="original" facs="StAZH_H_I_64__Teil_II__fol__5_r_.tif"/>
+<head type="subtitle"><lb/>Erleüterung, wie die von <placeName ref="loc009863">Wiedickon</placeName> in die
+<lb/>kornzelg zu weid fahren mögind</head>
+<p><lb/>Und als die von <placeName ref="loc009863">Wiedickon</placeName> auß krafft ihrer er<lb break="no"/>langten
+brieff und siglen vermeint, das sy mit 
+<lb/>ihrem zugveich in die korn und haber zelgen, ob<lb break="no"/>gleich
+dieselben noch nit gar lähr und die frücht da<lb break="no"/>selbs
+allerdingen abgeschnitten und darauß
+<lb/>werind, auf die stroffel weid fahren möchten, und
+<lb/>aber etliche burger alhier, so derselben enden güter
+<lb/>haben, sich deßelben beschwert und angezeigt, das
+<lb/>ihnen und anderen leüthen das <app><lem>ihr</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">ihrige</rdg></app> dardurch (von
+<lb/>wegen das übel gehütet) geschendt und undertriben<!-- beschädigt, verdorben, vgl. Idiotikon XIV, Sp. 129. -->
+<lb/>werde, habent vorgemelt <abbr>un gn hr</abbr> dise er<lb break="no"/>leüterung
+darüber gethan und wöllen, das die
+<lb/>von <placeName ref="loc009863">Wiedickon</placeName> weder mit ihrem zug- noch anderem
+<lb/>veich gar nit auf die kornzelgen zu weid fahren
+<lb/>sollen, bis die allenklich abgeschnitten und die
+<lb/>zeenden und die anderen garben darab geführt
+<lb/>sind, damit niemand vom veich kein schaden
+<lb/>an seinen früchten beschehe. Doch so ist ihnen von
+<lb/><placeName ref="loc009863">Wiedickon</placeName>, inansehung obangeregter ihrer brieff
+<lb/>und siglen, von genannten <abbr>un gn hr</abbr> dise
+<pb n="5v" type="original" facs="StAZH_H_I_64__Teil_II__fol__5_v_.tif"/>
+<lb/>gerechtigkeit vor anderen weidgnoßen zugelaßen,
+<lb/>namlichen, das sy mit ihrem zug- <app><lem>und</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> aber sonst
+<lb/>keinem anderen veich, so bald die kornzelgen erst
+<lb/>gehörter maaßen <date dur="R/P1Y">jerlich</date> allerdingen und gar le<lb break="no"/>dig
+worden, <date dur="P6D">sechs tag</date>, die nechsten noch einanderen
+<lb/>kommenden, nutzen und allein weiden mögind.
+<lb/>Aber noch verscheinung solcher <date dur="P6D">sechs tagen</date> sollend
+<lb/>die zelgen und stroffel weiden aufgethan und
+<lb/>ihnen und meniglichem, der weidrecht hat, erlaubt
+<lb/>sein, mit seinem veich und roßen, auch schaffen und
+<lb/>geißen <abbr>etc</abbr> dar ein zu weid zefahren und dieselbig
+<lb/>zenutzen noch ihrer glegenheit.</p>
+<head type="subtitle">Belangen das weiden in der haberzelg</head>
+<p><lb/>So vil dann die haberzelg belanget, sollen und
+<lb/>mögen die von <placeName ref="loc009863">Wiedickon</placeName> ihr zug veich auff die
+<lb/>acher in der haberzelg, so abgeschnitten sind, sy habind
+<lb/>joch roggen oder anders getreit, <time period="byDay">tags</time> wol zu weid
+<lb/>gahn laßen und ihre hüter darbey haben, damit
+<lb/>niemants kein schad beschehe, doch das sy dasselbig
+<lb/>ihr zug veich <time period="evening">abents</time> zu <time>bätt zeit</time><note>Gemeint ist vermutlich die Betglocke, die abends in der Dämmerung läutete, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 158, Anm. 670</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sutter 2001</ref></bibl>.</note><!-- Auszeichnen? Bezieht sich vermutlich auf die Betglocke, die abends in der Dämmerung läutete, vgl. Casanova 2007, S. 185, Anm. 670. PS: Ja, klar, aber ohne Wert lassen, da die Betglocke je nach Jahreszeit nicht zur selben Zeit läutete. Evtl. note mit Hinweis auf Sutter 2001?--> widerum auß der
+<lb/>zelg treibind und ihr geschworner weibel auf sehen
+<lb/>darauff und benantlich sorg haben, das die zelgen, so
+<pb n="6r" type="original" facs="StAZH_H_I_64__Teil_II__fol__6_r_.tif"/>
+<lb/>sy in eß<!-- vgl. Esch II, Idiotikon --> ligen, beschloßen und das veich zu <time>bätt
+<lb/>zeit</time> auß den zelgen seigind, mit der heiteren war<lb break="no"/>nung,
+welchem von solichem veich <time period="byDay">tags</time> oder <time period="byNight">nachts</time>
+<lb/>an oder in dem seinen schaden zugefügt wurde, daß
+<lb/>der, dem das veich, so den schaden gethan, zughört,
+<lb/>denselben schaden <app><lem>schuldig sein abzetragen</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">abzetragen schuldig syn solle</rdg></app>; und
+<lb/>aber die geschwornen von <placeName ref="loc009863">Wiedickon</placeName> dem besche<lb break="no"/>digten,
+so er das begärt, den schaden nit allein und
+<lb/>für sich selbs schetzen, sonder dieselb schatzung jeder<lb break="no"/>zeit
+in beysein ihres obervogts ald des <abbr>hr</abbr>, so über
+<lb/>dise ordnungen zuhalten erwehlt wird, beschehen.
+<lb/>Welcher auch sein zugveich <time period="evening">abents</time> zu <time>bättzeiten</time>
+<lb/>nit auß der haber zelg thette, der solle ihnen, <abbr>un
+<lb/>gn hr</abbr>, angezeigt werden und wöllen sy denselben
+<lb/>jederzeit noch gstaltsamme der sachen zestraffen ihnen
+<lb/>vorbehalten haben.</p>
+<head type="subtitle"><lb/>Wer auff vorgeschribne ordnungen acht
+<lb/>haben solle</head>
+<p><lb/>Und dieweil nun alle <app><lem>dise</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> vorgeschribne ordnun<lb break="no"/>gen
+und artickel dem gmeinen nutzen zufür<lb break="no"/>derung
+und gutem, damit menigklich des
+<pb n="6v" type="original" facs="StAZH_H_I_64__Teil_II__fol__6_v_.tif"/>
+<lb/>weidgangs desterbas genießen möge, angesehen
+<lb/>und geordnet, ist vilgemelten <abbr>un gn hr</abbr> ernstlich<lb break="no"/>er
+befelch, will und meinung, das der fromm und
+<lb/>weiß, ihr getreüer lieber mittrath meister <persName ref="per009729">Hanß
+<lb/>Ziegler</persName>, alt obervogt zu <placeName ref="loc009863">Wiedickon</placeName>, <app><lem>dem das von ihnen
+<lb/>diser zeit befelchen</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">dem sie daß dißer zeit befehlend</rdg></app>, und ein jeder, dem solichs noch imme
+<lb/>in befelch geben werde, auf solichs alles ihr fleisige späch
+<lb/>und aufsehen haben, und wer joch diser articklen einen
+<lb/>oder mehr übersehen, den und dieselben <app><lem>darum</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app> ver<lb break="no"/>mög
+vorgeschribner ordnung <app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">darum</rdg></app> straffen und die bußen
+<lb/>zu gmeiner statt handen einziehen, und gemelter
+<lb/>meister <persName ref="per009729">Hanß Ziegler</persName> und seine nochkommen, denen
+<lb/>solichs befohlen wird, hierin mit allem fleiß und ernst
+<lb/>handlen, damit disen articklen von meniglichem
+<lb/>steiff und steht <app><lem/><rdg wit="StArZH III.E.3, Teil 2, S. 1-12">noch</rdg></app> gelebt und nochkommen werde, wie sy
+<lb/>sich dann des zu ihnen und seinen nochkommenden
+<lb/>versehen und in gnaden erkennen wollen.</p>
+<p><lb/><app><lem>Actum <origDate when="1566-05-11">sambstags, den xi tag meien 1566</origDate>.</lem><rdg wit="StArZH III.E.3, Teil 2, S. 1-12"/></app>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Nutzung der Allmend auf dem <placeName ref="loc012667">Kreuel</placeName> teilte sich die <orgName ref="org007942">Gemeinde <placeName ref="loc009863">Wiedikon</placeName></orgName> mit den Stadtbürgern, besonders den Metzgern (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_019">SSRQ ZH NF II/11, Nr. 19</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_021">SSRQ ZH NF II/11, Nr. 21</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_073">SSRQ ZH NF II/11, Nr. 73</ref></bibl>). Die vorliegende Weidgangsordnung für den <placeName ref="loc012667">Kreuel</placeName> findet sich im 
+Kreuelbüchlein, welches in drei Abschriften als jeweils zweiter Teil zusammen mit dem Hardbüchlein überliefert ist, das den ersten Teil der jeweiligen Handschriften bildet. Zwei Abschriften stammen von 1671, wovon eine im Bestand des <orgName ref="org005088"><placeName ref="loc000065">Zürcher</placeName> Spitals</orgName> 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498257">StAZH H I 64, Teil II</ref></bibl>), die andere im <orgName ref="org007819">Hardamt</orgName> überliefert ist (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=440867">StArZH III.E.3.</ref>, Teil 2</bibl>). 
+Die Edition folgt der Abschrift aus dem Spitalarchiv, da die Ordnung dort datiert ist, im Unterschied zur Version aus dem <orgName ref="org007819">Hardamt</orgName>. Eine weitere Abschrift aus dem <orgName ref="org007819">Hardamt</orgName>, die erst 1764 angelegt wurde, wurde hier nicht berücksichtigt 
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=542287">StArZH III.E.5., S. 73-93</ref></bibl>). Die auf die Ordnung folgenden Seiten enthalten diverse Nachträge aus dem ersten Drittel des 17. Jahrhunderts, die vom <orgName ref="org002406">Rat</orgName> erlassen wurden und die Nutzung 
+des <placeName ref="loc012667">Kreuels</placeName> betreffen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498254">StAZH H I 64, Teil II, fol. 6v-7r</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=597055">fol. 7r-v</ref></bibl>; 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498258">fol. 7v-8v</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498259">fol. 9r-10v</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498286">fol. 10v-11v</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

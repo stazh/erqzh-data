@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_081_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=495026">StArZH III.B.48.</idno></msIdentifier><head>Holzordnung von Aesch bei Maur</head><msContents><summary>Da die Rechenherren der Stadt Zürich festgestellt haben, dass die Gemeinde
+Aesch am Greifensee unsorgfältig mit ihrem Fronwald umgeht, legen sie mit
+Zustimmung der Gemeinde eine neue Ordnung fest. Demnach besitzen lediglich
+fünf Höfe ein Nutzungsrecht am Fronwald (1). Wird einer dieser Höfe verkauft, geht
+das Nutzungsrecht an den neuen Besitzer über, der das Holz jedoch nur innerhalb
+der Gemeinde verwenden und es nicht verkaufen darf (2-3). Im Winter darf
+lediglich im Rappentobel Holz für den Eigengebrauch geschlagen werden (4).
+Wenn das Rappenholz aufgebraucht ist, muss das Schlagen von Brennholz und
+Bauholz an anderen Orten von den Zinsherren bewilligt werden (5-6). Der Wald
+muss stets eingezäunt sein (7). Für Holzfrevel sowie die Beschädigung der Zäune
+werden Bussentarife festgelegt (8). Jeder Bewohner der Gemeinde muss im
+Turnus eine Woche lang Aufsicht über den Wald ausüben (9-10). Da die Gemeinde
+neben den Bussen jährlich einen Zins von 24 Pfund erhält, soll sie einen
+Säckelmeister bestimmen, der diese Einnahmen verwaltet (11).</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Keller, Rechenschreiber der Stadt Zürich</author><filiation type="current">Aufzeichnung, Heft (6 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1567-01-14"/></origin></history><additional><listBibl><head>Edition</head><bibl>SSRQ ZH AF I/1, V Nr. 1</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key004966">Gemeinde</term><term ref="key000461">Gemeiner Nutzen</term><term ref="key000524">Holz</term><term ref="key000335">Nutzungsrecht</term><term ref="key004022">Satzung</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="3"/>
+<head><lb/>Der <orgName ref="org004875">gmeind zuͦ <placeName ref="loc008704">Äsch</placeName></orgName>
+<lb/>holtzordnung.</head>
+<div><p><lb/>Als <subst><del rend="underline">mynen herrenn, den <orgName ref="org004911">rächenherenn</orgName>,</del><add place="above" hand="other hand"><unclear>unsern</unclear>
+<orgName ref="org002406"><choice><abbr>h b u r d s Z</abbr><expan>herren burgermeister unnd rath der statt Zürich</expan></choice></orgName></add></subst>
+<lb/>clegt fürkommenn unnd <add place="left margin" hand="other hand" type="sign">durch ire verordneten</add> selbs funnden unnd gsächen <add place="right margin" hand="other hand">worden</add>,
+<lb/>wellichermassenn die <orgName ref="org004875">gmeind zuͦ <placeName ref="loc008704">Äsch</placeName></orgName> am
+<placeName ref="loc008718">Gryffenn<lb break="no"/>see</placeName> inn irem fronwald hanndlind, wie sy denselbenn
+<lb/>wüstinnd unnd das holtz umb ein gerinng gelt
+dar<lb break="no"/>uß verkouffinnd, unnd das inn kurtzem der
+<lb/>wald gar verwüst werdenn möchte,
+hab<lb break="no"/>ennt sy daran ein beduren unnd mißfallen
+em<lb break="no"/>pfanngen. Unnd nachdem sy der gmeind daselbs
+<lb/>brieff, sigel unnd gwarsaminen, so sy hier umb by
+<lb/>hannden, eigenntlich verhört, ist
+dar<lb break="no"/>uff mit iren, der gmeind, bewilligenn, zuͦ fürderunng
+<lb/>des gmeinen nutzes unnd ir aller, ouch irer
+<lb/>nachkommen wolfart, volgennde ordnung unnd
+<lb/>holtzban zehalltenn gestellt.
+</p></div>
+<div n="1"><p><lb/>Nammlich zum erstenn: Sidmaln der <orgName ref="org004875">gmeind
+<lb/><placeName ref="loc008704">Äsch</placeName></orgName> erlanngte urtheil brieff heiter vermögennd
+<lb/>unnd zuͦgäbend, das alleyn <num value="5">fünff</num> höf zuͦ <placeName ref="loc008704">Äsch</placeName>
+<pb n="4"/>
+<lb/>heißen unnd syn, die grëchtigkeyt im fronwald
+<lb/>zuͦ höfen habenn, so sölle es nachmaln by demselben,
+<lb/>unnd was dieselbenn brieff sonnst der
+tagnöüw<lb break="no"/>ern unnd gladi rychenn<!-- rhr: Personenname (Claudius) oder "Glodi" = Tölpel, Narr bzw. Taglöhner (Idiotikon, Bd. 2, Sp. 604 und 607)? --> halb vermögend,
+gënntz<lb break="no"/>lich blybenn unnd demselben gläpt werdenn.
+</p></div>
+<div n="2"><p><lb/>Zum anndernn: Wann nun hinfür ein huß
+<lb/>unnd hofstatt im dorff zuͦ <placeName ref="loc008704">Äsch</placeName> glëgenn (die
+<lb/>grëchtigkeyt im fronwald hette) verkoufft wurde,
+<lb/>unnd einer, der im dorff wonnëte unnd dieselb hofstatt
+<lb/>besitzenn wellte, die kouffte, das im die darzuͦ
+dienn<lb break="no"/>end <add place="above" type="sign">holtz</add> grechtigkeyt belybenn. So aber einer, der
+uß<lb break="no"/>erthalb dem dorff (wo joch das syn möchte) gsäßen
+<lb/>were, ein söllich huß ald hofstatt kouffte unnd
+<lb/>dannënthin vermeinen wellte, das holtz, so zur
+<lb/>sëlben hofstatt diennte, ußert das dorff an synenn
+<lb/>nutz zuͦverwännden, das dasselb hiemit
+mënngk<lb break="no"/>lichem frig abbekännth syn unnd keinem (wer
+<lb/>joch der were) vergunndt nach zuͦglassen werdenn,
+<lb/>einich holtz ußert das dorff <placeName ref="loc008704">Äsch</placeName> an anndere orth
+<lb/>oder gmeindenn zefüren, sonnder das holtz
+<lb/>im dorff uff der hofstatt unnd in dem hus,
+<lb/>dahin die grëchtigkeyt hört, gebrucht unnd 
+ver<lb break="no"/>bränndt werdenn sölle.
+</p></div>
+<div n="3"><p><lb/>Zum drittenn: Das weder die gmeind gmeinlich
+<lb/>nach ouch sonnderbare personenn gwallt nach fuͦg
+<lb/>habenn, einich holtz weder zimber nach anndern
+<lb/>lüthenn zekouffen zegëben, wie dann der
+ur<lb break="no"/>theil brieff, im <date when="1541">ein unnd viertzigistenn jar</date>
+<lb/>ußganngen, dasselb ouch verbütet.<note>Die hier erwähnte Urkunde aus dem Jahr 1541 ist nicht überliefert.</note>
+ Unnd
+<pb n="5"/>
+<lb/>so dasselb übersächenn wurde, söllen alßdann
+<lb/>unnser gnedig herrenn oder ir vogt zuͦ
+<placeName ref="loc000348">Gryffenn<lb break="no"/>see</placeName> gwallt habenn, die unnghorsammen nach der
+<lb/>gepür unnd irem verdiennen ze straffenn.
+</p></div>
+<div n="4"><p><lb/>Zum vierdenn: Nachdem sy, die gmeind, yetz
+<lb/>ein zythar die winnterhöüw an orth unnd
+ennd<lb break="no"/>en, da es gar schädlich, ußgëbenn, unnd so sy also
+für<lb break="no"/>faren sölltenn, dasselb dem fronwald ein
+träff<lb break="no"/>ennlicher abbruch brechte, so söllenn sy
+desselb<lb break="no"/>en gënntzlich abstan unnd nun hinfür solliche
+winnt<lb break="no"/>erhöüw dahinnden im <placeName ref="loc010641">Rappenntobel</placeName> (alls
+<lb/>lanng das werenn mag) ußgëben, unnd ob sy aber
+<lb/>von unnglëgenheit wëgenn der zyt oder annderer
+<lb/>sachenn an anndern orthen darzuͦ ußgëben müßtind,
+<lb/>das sy dasselb an unnschädlichisten orthenn, wie sy
+<lb/>dann das im wald gar wol hannd unnd finndend,
+<lb/>ußgëbenn unnd dem buwholtz, sovil yeman
+<lb/>muglich, verschonnen unnd dheinner für sich sëlbs
+<lb/>nützit howenn, sonnder die höüw mit der gmeind,
+<lb/>inmassenn obgelüthert stat, ußgëbenn und dasselb
+<lb/>vermög der brieffenn ußtheilen unnd einem yedenn
+<lb/>nit mer, dann ime zuͦ synem hußbruch gebürt
+<lb/>unnd er nothurfftig ist, gebenn unnd zuͦtheillen, unnd
+<lb/>ob etlichem inn einem söllichen how etwann ungfar
+<lb/>ein buwholtz wurde, soll er dasselb, so ers nit selbs
+<lb/>zuͦ synem hus ald schürenn zuͦ buwen, schinndlen
+<lb/>oder stegkenn bruchen wellte, allein einem inn
+<lb/>der gmeind unnd deheinem ußerthalb zuͦ
+ver<lb break="no"/>kouffenn nach zuͦ verschënngken gwallt habenn,
+<lb/>unnd ouch das gezeiget holtz fürderlich unnd bis
+<lb/>zuͦ ußgänndem <date type="deadline" when="--02-28">hornung</date> uß dem wald
+heim<lb break="no"/>fertigenn, damit der junng faßel dest bas wider
+<lb/>uffkommen möge. Dann wellicher das holtz,
+<lb/>so ime zum winnterhow gëbenn wurde, wie
+vor<lb break="no"/>stat, nit uß dem holtz thäte, sonnder lënnger dann
+<lb/>inn <date type="deadline" when="--02-28">hornung</date> ligen ließe, so sölle die gmeinnd
+<lb/>alß dann fürderlich dasselb holtz uß dem wald
+<pb n="6"/>
+<lb/>füren lassenn unnd zuͦ der gmeind hannden
+<lb/>zum nutzlichisten verkouffenn unnd dann
+dem<lb break="no"/>selbenn dennzemal dhein holtz für das künfftig
+<lb/>jar mer gëben werdenn, sonnder er sich sonnst
+<lb/>umb holtz versächenn unnd doch inn disem weder
+<lb/>von der gmeind nach sonderbaren personenn
+<lb/>dhein gfaar gebrucht werdenn oder unnser
+<lb/>herrenn straff erwartenn.
+</p></div>
+<div n="5"><p><lb/>Zum fünfftenn: Unnd wann das gemelt
+<placeName ref="loc010641">Rapp<lb break="no"/>ëntobel</placeName> unnd sonnst im wald das brënnholtz,
+<lb/>da sy das wol unnschädlich finnden, ußgehowen wurde,
+<lb/>unnd man nüw höüw suͦchenn unnd ordnen müßte,
+<lb/>das alßdann dieselbenn nüwenn höüw allwägenn
+<lb/>mit erlouptnus unnd bewilligenn, ouch inn bysin
+<lb/>der zinnßherrenn zum unnschädlichisten ußganngen
+<lb/>unnd hier inn yederzyt nach gstallt des waldts
+<lb/>zum nutzlichistenn ghanndlet werdenn.
+</p></div>
+<div n="6"><p><lb/>Zum sächstenn: Wellicher aber buwholtzes zuͦ
+<lb/>synem hus, schürenn oder anndern büwenn
+<lb/>nothurfftig were, der sölle synem zinnßherren
+<lb/>das antzeigenn, der selb dann mit ime hinuß
+<lb/>kerenn, die nothurfft des buws besächenn und
+<lb/>dann demselbenn inn bysin des zinnßherrenn
+<lb/>unnd mit synem erloubenn holtz, sovil er zum
+<lb/>buw nothurfftig ist unnd nit wyter, gegëbenn
+<lb/>unnd zeiget unnd ouch alles holtz, so ußgäbenn wirt,
+<lb/>von grotzenn unnd estenn suber ufgmacht
+<pb n="7"/>
+<lb/>unnd uß dem wald gethan werdenn.
+</p></div>
+<div n="7"><p><lb/>Zum sibennden: Das ouch fürnemmlich der ganntz
+<lb/>wald unnd die nüwenn höüw fürhin allwëgenn,
+<lb/>wie bißhar, ingeschlagen blybenn unnd <date dur="R/P1Y">alle jar</date>
+<lb/>zuͦ <date period="spring">ußtagenn</date> gsächen unnd versorget werdenn,
+<lb/>das die hëg unnd zün der massenn inn eerenn
+<lb/>sygenn, das dheinn vech daryn kommenn möge.
+</p></div>
+<div n="8"><p><lb/>Zum achtenn: Damit nun hinfür weder von
+<lb/>frömbdenn nach heimschen personenn
+dester<lb break="no"/>mynnder schadens im wald beschächenn, sölle der
+<lb/>einung unnd holtzbann dergstallt syn, nammlich:</p>
+<table>
+<row>
+<cell>Von einer eichenn</cell>
+<cell><measure type="currency" unit="lb" quantity="5">v </measure></cell>
+</row>
+<row>
+<cell>Von einer tannen</cell>
+<cell><measure type="currency" unit="lb" quantity="3">iij </measure></cell>
+</row>
+<row>
+<cell>Von einer buͦchenn, aspenn,
+<lb/>ahornnën, eschenn oder erlen,
+<lb/>von jedem stumppenn</cell>
+<cell><measure type="currency" unit="lb" quantity="1">j </measure></cell>
+</row>
+<pb n="8"/>
+<row>
+<cell>Von einer reiffstanngen, sy sige haßlinn,
+<lb/>birchinn, krießböümin, sallwydinn unnd
+<lb/>annderm gmeinen holtz, von jedem
+stumpp<lb break="no"/>en</cell>
+<cell><measure type="currency" unit="ß" quantity="10">x </measure>
+</cell>
+</row>
+</table>
+<p>
+<lb/>Unnd derselbenn yeder nütdestermynnder
+<lb/>das abghowenn holtz, so er das hinweg hette,
+be<lb break="no"/>zallenn oder, so es inn dem wald begriffenn,
+<lb/>dasselbig ligenn lassen unnd der gmeind den
+<lb/>schadenn abtragen unnd vergälltenn. Wellicher
+<lb/>ouch der gmeinnd unnd inseßen zünung inn
+<lb/>holtz oder vëld uffbricht, die zunn stägkenn unnd
+<lb/>serlenn nimpt oder hinweg treit, wenig oder
+<lb/>vil, der soll, so offt er ergriffenn oder offennbar
+<lb/>wurde, <measure type="currency" unit="lb" quantity="1">ein pfunnd</measure> zuͦ straff unnd buͦß
+ver<lb break="no"/>fallen syn. Wo ouch ein roß, küg oder kalber
+<lb/>inn den ingeschlagnenn höüwen ald dem wald
+<lb/>ergriffen wurdenn, da soll der, deß das houpt
+<lb/>vech ist, er sitze inn der gmeinnd oder nit,
+<lb/>von jedem houpt <measure type="currency" unit="ß" quantity="10">zëchenn schillinng</measure> zuͦ buͦß gëben.
+<lb/>Unnd ob einer one erlouptnus tannen
+<lb/>stügken, est abhowenn oder schneitlenn wurde,
+<lb/>der sölle vonn yeder tannen <measureGrp><measure type="currency" unit="lb" quantity="1">ein pfunnd</measure>
+<lb/>unnd <measure type="currency" unit="ß" quantity="5">fünff schillinng</measure></measureGrp> zuͦ buͦß zegëben schuldig syn.
+</p></div>
+<div n="9"><p><lb/>Zum nündten: Damit ouch disem allem
+<lb/>dester styffer gelëpt unnd nachganngen werde,
+<lb/>söllennd alle, die inn der gmeind gsäßenn
+<lb/>sinnd, by irenn eyden schuldig und verbunden
+<lb/>syn ufzesächenn unnd zuͦ verhüten, das nieman
+<pb n="9"/>
+<lb/>inn gemeltem wald schadenn thüge. Unnd wellicher
+<lb/>ergriffenn wurde, der syge frömbd oder heimsch,
+<lb/>der sölle vonn dem, der inn also funnden hat,
+<lb/>by synem eyd inn den nechstenn <date dur="P8D">acht tagen</date> einem
+<lb/>herrenn vogt zuͦ <placeName ref="loc000348">Gryffennsee</placeName> geleidet unnd der
+<lb/>vogt mit sampt den geschwornnën zuͦ <placeName ref="loc008704">Äsch</placeName> die
+ver<lb break="no"/>fallnënn buͦßenn intzüchen unnd darinn nieman
+<lb/>verschonnen, unnd also dieselben buͦßenn halb unnßern gnedigen
+<lb/>herrenn von <placeName ref="loc000065">Zürich</placeName> unnd halb der <orgName ref="org004875">gmeinnd
+<lb/><placeName ref="loc008704">Äsch</placeName></orgName> zuͦgehörig syn.
+</p></div>
+<div n="10" resp="rhr"><p><lb/>Sy söllennd ouch söllichs goumenn deß walds
+<lb/>inn der kere laßenn umbgan, unnd ein jeder
+<lb/>allwäg <date dur="P1W">ein wuchenn</date> zuͦ hütenn schuldig syn, unnd
+<lb/>also einner alls lanng alls der annder sorg
+<lb/>habenn. Wann ouch einer, an dem glych die kere
+<lb/>des goumens nit were, einenn seche schadenn thuͦn,
+<lb/>das derselb den nütdestermynnder, wie obstat,
+<lb/>leidenn unnd die buͦßenn von demselben
+inzog<lb break="no"/>en werdenn. Es soll ouch ein jeder, an dem die
+<lb/>kere ist, by synenn thrüwen alle werchtag inn wald
+<lb/>gan unnd aber nit zuͦ gwüssenn stunden, sonnder
+<lb/>einist früg, annderst spat, ouch nit allwëg ein straß
+<lb/>synen ganng nemmen, sonnder dasselb abwächßlenn,
+<lb/>damit er destermynnder ußgespächt werdenn
+<lb/>möchte. Was aber sonnst die innhaber
+<lb/>der höfenn zur zünung oder buwgschir
+no<lb break="no"/>thurfftig, das inenn dasselb inn zimligkeyt, wie
+<lb/>wyt jeder hof grëchtigkeyt hat, zum aller
+unn<lb break="no"/>schädlichistenn zehowenn zuͦglassenn syn, doch
+<lb/>das sy vom selbenn ouch nüt verkouffenn
+<lb/>nach verschänngken söllenn.
+</p></div>
+<pb n="10"/>
+<div n="11" resp="rhr"><p><lb/>Unnd zum letztenn: Alls sy, die gmeind, <date dur="P1Y">jerlich</date>
+<lb/>inn die <measure type="currency" unit="lb" quantity="24">xxiiij pfunnd</measure> zinns inzenemmenn hat
+<lb/>unnd dann von disenn buͦßen ouch etwas fallenn
+<lb/>wirt, söllenn sy von inenn ein segkelmeyster
+<lb/>verordnenn, der sölliche zinns unnd die buͦßenn,
+<lb/>so der gmeind hörennd, intzüche unnd innemme,
+<lb/>unnd dasselb alles an der gmeind nutz verwënndt
+<lb/>unnd davonn gar nüt unnützlich verthan werde,
+<lb/>doch wie die rütinnen unnd güter yetzmaln
+<lb/>verlichenn, also sölle es blybenn, biß die jar uß sinnd,
+<lb/>aber demnach söllen sy aber zum nutzlichistenn
+<lb/>verlichen werdenn.
+</p></div>
+<p><lb/>Unnd ob disenn artigklenn allen sölle ein jeder
+<lb/>myner herrenn vogt der herschafft <placeName ref="loc000348">Gryffennsee</placeName>,
+<lb/>ouch die geschwornënn unnd annder von der <orgName ref="org004875">gmeind
+<lb/>zuͦ <placeName ref="loc008704">Äsch</placeName></orgName> ernnstlich haltenn, die buͦßen flyssig leiden,
+<lb/>unnd intzüchenn, ouch zur gmeind guͦt
+<lb/>sorg habenn. Das alles wirt inenn und irenn
+<lb/>nachkommenn zuͦ nutz, wolfart unnd guͦtem
+<lb/>reichenn unnd gelanngenn.
+</p>
+<p><lb/>Actum <origDate when="1567-01-14">zinnstags, den 14. tag jenner anno 1567</origDate>.
+</p></div>
+<div>
+<signed><lb/><persName ref="per001949">Hanns Keller</persName>, rächenschryber
+<lb/>der statt <placeName ref="loc000065">Zürich</placeName>, <choice><abbr>sst</abbr><expan>scripsit</expan></choice>.</signed>
+</div>
+<pb n="11"/>
+<pb n="12"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Der <orgName ref="org004875">gmeind zuͦ <placeName ref="loc008704">Äsch</placeName></orgName> am
+<lb/><placeName ref="loc008718">Gryffensee</placeName> holtzordnunng</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits drei Jahre zuvor war es zwischen einigen Bewohnern von <placeName ref="loc008704">Aesch</placeName> zu Streit über die Frage gekommen,
+ob eine bestimmte Hofstatt den Wald mitnutzen darf oder nicht
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=726792">StAZH A 123.2, Nr. 191</ref></bibl>).
+Möglicherweise bot dieser Konflikt den Ausgangspunkt dafür,
+dass die Waldnutzung mit der vorliegenden Holzordnung verbindlich geregelt wurde,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weisz et al. 1983</ref>, S. 148</bibl>.
+</p>
+<p>Parallel dazu wurde die Waldnutzung auch in weiteren Gemeinden in der Herrschaft <placeName ref="loc000348">Greifensee</placeName> geregelt,
+beispielsweise in <placeName ref="loc008816">Nänikon</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_077">SSRQ ZH NF II/3, Nr. 77</ref></bibl>).
+Ebenso wurden auch in anderen <placeName ref="loc000066">Zürcher Herrschaftsgebieten</placeName>
+entsprechende Holzordnungen erstellt, beispielsweise 1573 in <placeName ref="loc009865">Wollishofen</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_088">SSRQ ZH NF II/11, Nr. 88</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

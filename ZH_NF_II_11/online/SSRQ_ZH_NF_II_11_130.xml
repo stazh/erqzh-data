@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_130</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131024">StAZH A 99.5, Nr. 137</idno></msIdentifier><head>Ratschlag der Rechenherren betreffend die Anpassung des Einzugsbriefs für die Gemeinde Unterstrass</head><msContents><summary>In Anwesenheit des Bürgermeisters Grebel unterbreiten die verordneten Rechenherren ihren Vorschlag betreffend die Anpassung und Bestätigung des Einzugsbriefs der Gemeinde Unterstrass. Sie empfehlen die Erhöhung der Einzugsgebühren an die Gemeinde und den Obervogt, die je nach territorialer Herkunft der Zuzüger weiterhin unterschiedlich hoch ausfallen. Stammt ein Anwärter von ausserhalb der Eidgenossenschaft, hat die Gemeinde ausserdem keine Entscheidungsbefugnis zur Aufnahme, sondern muss Rücksprache mit dem Obervogt halten. Fällt der Entscheid des Obervogts zugunsten einer Aufnahme aus, soll sich die Gemeinde mit dem Fremden über die Höhe des Einzugsgeldes einigen; der gleiche Betrag steht dann auch dem Obervogt zu Handen der Stadt als Schirmgeld zu. Über das Einzugsgeld für Söhne von Gemeindegenossen und die Handhabung bei Verkauf oder Teilung von Häusern sollen jedoch die Ratsherren befinden. Die übrigen Bestimmungen des bestehenden Einzugsbriefes sollen im erneuerten Brief ebenfalls festgehalten werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1671-07-25"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004132">Einzug</term><term ref="key004966">Gemeinde</term><term ref="key004392">Gutachten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="r" facs="StAZH_A_99_5__Nr__137__r_.tif"/>
+<div>
+<p>
+<lb/>Uff der <orgName ref="org007938">gmeind an der <placeName ref="loc010816">Underen Straß</placeName></orgName> bitliches anhalten <lb/><choice>
+<sic>unnb</sic>
+<corr>umb</corr>
+</choice> sterkerung ihres ynzug brieffs ist selbiger uff ratification <lb/>eines wohlweyßen raths inn ansächung ihres fürträffenlichen <lb/>gmeind werchs volgender gestalten versterckeret worden, nammlichen: </p>
+<p>
+<seg n="1.1">
+<lb/>Daß einer, so uß unßeren graffschafften, herrschafften, landen, gerichten <lb/>unnd gebiethen
+ist, an statt der <measure type="currency" unit="fl" quantity="25">25 </measure>, so vor dißerem
+geben <lb/>worden, inn köunfftig <measure type="currency" unit="fl" quantity="40">40 </measure>
+unnd jewyligem obervogt zu handen <lb/>eüwer, unnßer <abbr>g hr</abbr>, für den ynsitz an statt der
+<measure type="currency" unit="fl" quantity="5">5 </measure>
+<measure type="currency" unit="fl" quantity="10">10 </measure>.</seg>
+<seg n="1.2"><lb/>Wann aber eüwer, <abbr>u g hr</abbr>, burger einer by ihro, der gmeind, <lb/>ein
+hoffstatt, behußung ald güeter kauffte, der solle ihro wie vor <lb/>altem har mehr niht alls
+<measure type="currency" unit="fl" quantity="8">8 </measure> zu ynzug geben unnd ihmme sontsten
+<lb/><add place="inline">nüt</add> wyters <app>
+<lem>zugsuht</lem>
+<rdg wit="StAZH A 99.5, Nr. 139">zugsucht</rdg>
+</app><!--  ahh: jemanden wegen etwas belangen, vgl. Idiotikon Bd. 7, Sp. 231. https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007742-->
+werden.</seg>
+</p>
+<p>
+<seg n="2">
+<lb/>Wellcher aber frömbd, ußerthalb den selben unßeren herlichkeiten <lb/>härkommbt unnd doch inn der <placeName ref="loc000153">Eydtgnoßschafft</placeName> erbohren ist, derselben <lb/>jeder sölle ihro, der <orgName ref="org007938">gmeind an der <placeName ref="loc010816">Underenn Straß</placeName></orgName>, an statt der <lb/><measure type="currency" unit="fl" quantity="50">50 </measure>
+<measure type="currency" unit="fl" quantity="70">70 </measure> unnd eüwer, <abbr>u g hr</abbr>, vogt daselbsten <lb/>zu eüwerenn handen zu schutz unnd schirm gelt deß neüwen ynsitzes <lb/>auch sovil zu bezahlen haben.</seg>
+</p>
+<p>
+<seg n="3">
+<lb/>Wann dann ein frömbder, ußerthalb der <placeName ref="loc000153">Eydtgnoßschafft</placeName> gebohren, <lb/>vorgemelter gestalt zu ihnen zu züchen begerte, sollend sy der <lb/>selben gar keinen, sonderlichen der den <app>
+<lem>landt werchen</lem>
+<rdg wit="StAZH A 99.5, Nr. 139">hand werchen</rdg>
+</app><note>Ein Ratsbeschluss vom <date when="1602-04-19" calendar="Julian">19. April 1602</date> untersagte den Gemeinden um die Stadt, ohne Einwilligung des Rats Handwerker als Gemeindegenossen oder Hintersässen anzunehmen (Exemplar für die <orgName ref="org007938">Gemeinde <placeName ref="loc010816">Unterstrass</placeName></orgName>: <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25212">StArZH VI.US.A.2.:6</ref></bibl>; ein kürzerer Eintrag befindet sich auch im Stadtschreibermanual: <bibl>StAZH B II 279, S. 17</bibl>).</note> inn der <lb/>statt schaden möchte, für sich selbsten anzenemmene befügt syn, ohne <lb/>unnßer gnedigen herren ald ihres vogts an der <placeName ref="loc010816">Underen Straß</placeName>
+<lb/>erlaubtnuß unnd wyllen. Unnd so ihnen vergont wird, einen <lb/>sollchen frömbden an zenemmen unnd sy den guttwillig annemmen <lb/>wöllend, mögend sy mit selbigem über kommen, so hoch, alls sy wöllend <lb/>unnd ihnen möglich syn wird, glych wollen aber nit under <measure type="currency" unit="fl" quantity="70">70 </measure>, <lb/>wie etwann beschechen <choice>
+<sic>unnb</sic>
+<corr>umb</corr>
+</choice> lieben manns willen. Unnd sovil dann <lb/>deren einer ihnen zu ynzug gelt bezalt, sovill auch solle er <abbr>ewr</abbr>, 
+<lb/><abbr>u g hr</abbr>, vogt an der <placeName ref="loc010816">Underen Straß</placeName> zu eüweren handen ze <lb/><choice>
+<sic>schirn</sic>
+<corr>schirm</corr>
+</choice> gelt geben unnd bezahlen.</seg>
+</p>
+<p>
+<seg n="4">
+<pb n="v" facs="StAZH_A_99_5__Nr__137__v_.tif"/>
+<lb/>Ob aber ein vatter, der einen oder mehr verehelichter söhnen <lb/>hete, die annoch by ihme, dem vatter, in einer huß haltung werind, <lb/>sich einkauffte, obe er, der vatter, daßelbige mit dem einfalten <lb/>ynzuggelt für sich selbsten allein thun ald für jeden seinen, so schon ver<lb break="no"/>ehelichten sohne, wellcher nur etwas geringe zyt by dem vatter <lb/>verblybt unnd dann selbs eignen rauch zu führen anhebt, besonders <lb/>auch den völligen ynzug entrichten, oder, als die <orgName ref="org007862">gmeind <placeName ref="loc010647">Riespach</placeName></orgName>
+<lb/>es in übung hat, für jeden derselben söhnen allein <measure type="currency" unit="fl" quantity="5">5 </measure> erlegen 
+<lb/>sölle.<note>Der Einzugsbrief von <placeName ref="loc010647">Riesbach</placeName> datiert vom <date when="1654-09-16" calendar="Julian">16. September 1654</date> und sieht vor, dass Väter, die einen Einzug bezahlt haben und unverheiratete Söhne mit sich führen, für jeden Sohn ein Einzugsgeld von <measure type="currency" quantity="5" unit="fl">5 Gulden</measure> entrichten (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24866">StArZH VI.RB.A.2.:8</ref></bibl>).</note> Item unnd wie es gemeint sein sölle der jenigen söhnen <lb/>halben, so zwahren nocht niht verehelichet, doch aber mannbar sind und <lb/>niht unlang hernaher sich verehelichen thund, unnd denen, die minder<lb break="no"/>jehrig unnd noch nit mannbar, deß glichen.</seg>
+<seg n="5">Unnd obe es sich auch <lb/>künftigklich, als bevor schon auch geschechen ist, begebt, daß einer sein <lb/>erkaufftes mehr nit als etwan <time dur="P4Y">4</time>, <time dur="P5Y">5</time> ald <time dur="P6Y">6 jahr</time> behielte unnd dann <lb/>daß selbige <choice>
+<sic>widerunb</sic>
+<corr>widerumb</corr>
+</choice> verkauffte unnd, nach deme er also nützit <lb/>mehr hete, doch in der gmeind zu niht geringer dero beschwerd ver<lb break="no"/>bliben wölte; obe niht ein <choice>
+<sic>solliher</sic>
+<corr>sollicher</corr>
+</choice> von so gethânen genntzlichen ver<lb break="no"/>kauffs wegen hienit auch sölle verwürckt unnd verkaufft haben <lb/>sein genoßnes gmeind- unnd burgrecht unnd allso uß der <lb/>gmeind zu züchen pflichtig sein.<note>Der bisherige Einzugsbrief sah in diesem Falle folgende Handhabung vor: Gemeindegenossen, die sich aufgrund eines Unglücks oder eines schlechten Lebenswandels gezwungen sahen, ihr Haus zu verkaufen, waren weiterhin befugt, in der Gemeinde zu bleiben, wenn sie <orig>platz und herrberg findent</orig>. Von einem Verweis aus der Gemeinde wurde zwar explizit abgesehen, diese Personen sollten damit aber <orig>ir grëchtigkeit inn holtz und veld, wunn und weid verwürckt</orig> haben und <orig>an der gmeind weder zuͦmehren noch zuͦminderen haben, so lang biß sy widerumb inn der gmeind eigen und erb erkouffend ald überkommend und das inzuggelt von nüwem bezalend</orig> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131021">StAZH A 99.5, Nr. 134</ref>, S. 2</bibl>).</note></seg>
+<seg n="6">So denne unnd waß die, so et<lb break="no"/>wann <choice>
+<sic>ihn</sic>
+<corr>in</corr>
+</choice> ihren behußung mehr ald ein stuben bauwen, huß lüth an<lb break="no"/>nemmen unnd dann uß einer behußung zwo hauß hoffstatten machend, <lb/>söllend zu bezahlen haben ganntzen oder halben ynzug, überlaßend <lb/>wir ewer, <abbr>u g hr</abbr>, wohl wyßer erkandtnuß.</seg>
+</p>
+<p><lb/>Waß dann über dißere artickel jetziger form der ynzug<lb break="no"/>brieffen weiters an hangen thutt unnd <choice><sic>ihn</sic><corr>in</corr></choice> ihrem alten ynzug<lb break="no"/>brieff begriffen sind, solle hie mit ermelte gmeind in ihren ynzug<lb break="no"/>brieff auch gesetzt werden.
+</p>
+<p><lb/>Waß nun euw, <abbr>u g hr</abbr>, hierüber gefallen wirt, setzend wir <lb/>zu dero wohl wyßen bedenkhen unnd beschließ heim.<!-- ahh: heimsetzen: überlassen, vgl. Idiotikon Bd. 7, Sp. 1690 ; PS: https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007114-->
+</p>
+<p><lb/>Actum <origDate when="1671-07-25" calendar="Julian">zinstags, den 25ten julli anno 1671</origDate>, presentibus herr 
+<lb/>burgermeister <persName ref="per025976">Grebel</persName>
+<!--  ahh: Hans Konrad Grebel (1615-1674), ab 1669 Bürgermeister der Stadt Zürich--> unnd geordnete <choice><abbr>rächenhr</abbr><expan>rächenherren</expan></choice>.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die abgestuften Beträge der bisherigen Einzugsgelder entsprechen jenen des Einzugsbriefs vom <date when="1621-03-05" calendar="Julian">5. März 1621</date> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1131021">StAZH A 99.5, Nr. 134</ref></bibl>; vgl. hierzu auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_129">SSRQ ZH NF II/11, Nr. 129</ref>, Anm. 1</bibl>). Als Neuerung bringen die Rechenherren die Festsetzung eines Mindestbetrags für fremde Zuzüger aus nicht eidgenössischem Gebiet vor. Die erneuerte Einzugsordnung wurde bereits am <date when="1671-08-09" calendar="Julian">9. August 1671</date> festgeschrieben; betreffend das geringe Einzugsgeld für Zürcher Bürger mit Hausbesitz in <placeName ref="loc010816">Unterstrass</placeName> kam es im darauffolgenden Jahr zu einem erneuten Ratsbeschluss (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_131">SSRQ ZH NF II/11, Nr. 131</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

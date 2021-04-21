@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_124</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3744916">StAZH B VI 248, fol. 225r</idno></msIdentifier><head>Einsetzung eines Ratsausschusses zu Begutachtung und Veräusserung der in den drei Klöstern der Stadt Zürich vorhandenen Kirchenzierden</head><msContents><summary>Alt Bürgermeister Heinrich Walder, Kleiner und Grosser Rat der Stadt Zürich setzen einen Ausschuss ein unter Beteiligung von Meister Rudolf Binder, Meister Peter Meier, Hans Schneeberger und Stefan Zeller. Die Verordneten sollen die Kleinodien, Messgewänder, Chorhemden und Altartücher begutachten, die in den drei Klöstern der Stadt gefunden worden sind. Perlen und Edelsteine sind durch Sachverständige zu schätzen und zu verkaufen. Was von den Textilien nicht veräussert werden kann, soll an Bedürftige verteilt werden. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Kaspar Frey, Stadtschreiber von Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1525-01-09"/></origin></history><additional><listBibl><head>Regest</head><bibl>Egli, Actensammlung, Nr. 614</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key004009">Kirchengut</term><term ref="key000213">Kleidung</term><term ref="key000010">Kloster</term><term ref="key000658">Reformation</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="225r"/>
+<p><date when="1525-01-09">Mentag nach epiphanie</date>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<abbr>h</abbr>
+<!-- Heinrich --><persName ref="per001584">Walder</persName>,
+<lb/>alt <choice><abbr>burg</abbr><expan>burgermeister</expan></choice>, <orgName ref="org001217">clein und groß raͤtt</orgName></p>
+<p>
+<seg><lb/><abbr>M</abbr>
+<persName ref="per013614">Binder</persName>,
+<lb/><abbr>m</abbr>
+<persName ref="per014701">Peter Meyer</persName>,
+<lb/><persName ref="per013590">Hanß Schneberger</persName>,
+<lb/><persName ref="per014723">Steffan Zeller</persName>,
+<lb/>soͤllent ersuͦchen die meß<lb break="no"/>gwand, 
+alben, alterthuͤcher
+<lb/>und andere cleinot, so in den 
+<lb/><num value="3">dryen</num> cloͤster erfunden sind.<note>Zu Einschmelzung und Verkauf der <placeName ref="loc000065">Zürcher</placeName> Kirchenschätze vgl. <bibl><ref target="/startseite/literaturverzeichnis">Jezler 2018</ref>, S. 47</bibl>.</note>
+<lb/>Und in sonders die berly <del>ab</del>
+<lb/>und edel gstein die verstendigen besichtigen und schetzen
+<lb/>lassen, darmit soͤllichß verkoͧfft und man wisse, waß
+<lb/>die an gelt ertragen moͤgen.</seg>
+<seg>Wyter soͤllent sy gwalt 
+<lb/>haben der andern meßgwanden halb, so <subst><del>nit</del><add place="above">nit</add></subst>
+<unclear>seiden</unclear> und
+<lb/>zuͦ verkoffen sind, armen luͤten mit zuͦ teilen, deßglych 
+<lb/>die alpen, und daß nit verderben und von schaben gfressen 
+<lb/>werd.</seg>
+</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

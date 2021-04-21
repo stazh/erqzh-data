@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_148</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1926872">StAZH A 77.2, Nr. 28</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Bäcker</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich erlassen aufgrund von Klagen der Bäcker sowie angesichts der aktuellen Situation der Teuerung eine neue Bäckerordnung. Damit die Bäcker weiterhin ihr Auskommen finden können, reduzieren sie dabei die Menge an Brot, die aus einem Mütt Kernen gebacken werden muss. Im Folgenden werden die Brotgewichte für die Fochenzer und die Feiler festgelegt (1; 2). Weiter wird bestimmt, dass die Fochenzer in ihren Häusern eigene Waagen, die zuvor kontrolliert worden sind, aufzustellen haben und das Brot den Kunden nicht ungewogen hinausgeben dürfen. Bei Brot mit nicht korrektem Gewicht oder mangelhafter Qualität sind die Käufer befugt, den Ersatz der Ware zu verlangen oder die Brotbeschauer zu benachrichtigen. Fehlbare sind mit einer Busse in der Höhe von einem Pfund und fünf Schillingen zu bestrafen (3). Fochenzer und Feiler dürfen nur Brot verkaufen, das zuvor durch die Brotbeschauer begutachtet worden ist. Nicht den Vorgaben entsprechende Brote werden zerschnitten (4). Eine Änderung der Brotgewichte bleibt vorbehalten (5). Den Fochenzern ist verboten, aus demselben Mehl hellere und dünklere Brotsorten zu backen (6). Die neue Ordnung soll allen Bäckern der Stadt zugeschickt und ihre Einhaltung bei dem Eid geboten werden (7).  Spätere Anmerkung von derselben Hand: Schilderung der Versorgungsschwierigkeiten und Teuerung zur Zeit des Erlasses der Bäckerordnung.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author><filiation type="current">Aufzeichnung (2 Doppelblätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1530-10-05"/></origin></history><additional><listBibl><head>Edition</head><bibl>QZZG, Bd. 1, Nr. 274</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000350">Getreide</term><term ref="key000369">Kauf</term><term ref="key000793">Markt</term><term ref="key000882">Nahrungsmittel</term><term ref="key000781">Teuerung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_A_77_2__Nr__28__S__1_.tif"/>
+<p>
+<lb/>Alßdann wir, <orgName ref="org002406">burgermeyster, clein unnd gross raͤth der
+<lb/>statt <placeName ref="loc000065">Zürich</placeName></orgName>, uff beschwaͤrung und clag gemeyner meyster der
+<lb/>pfysteren ab unnserer jüngst gesetzter ordnung<note>Zu dieser kurz vor dem Jahr 1530 erlassenen Ordnung vgl. <bibl><ref target="https://zbcollections.ch/home/#/content/c7b55e4014ae4596bde22d1f9e12d7af">ZBZ ZA We</ref> 47, S. 221-229</bibl> sowie <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 278</bibl>.</note> dess vogketzer
+<lb/>unnd veyler brot gewychts umb erdürung willen ursach sollich<damage agent="restoration"><supplied>er</supplied></damage>
+<lb/>irer beschwaͤrung unnd damit sich nyemants billicher wyß zuͦ
+<lb/>beclagen hab, unns allerley künde und gelegenheyt beider der <orgName ref="org004920">pfisteren</orgName>,
+<lb/>vogketzer unnd veyleren, welcher maß eyn zymlich, erlydennlich
+<lb/>satzung zuͦ meererm uffennthalt unnd uffnung gemeyns nutzes
+<lb/>mit inen, das sy dannocht ouch by dem iren belyben unnd mit
+<lb/>eeren hußhalltenn moͤgint, zuͦtraͤffenn sig mit allem fliss und
+<lb/>ernnst malen, bachen, waͤgen, maͤssen, teylen unnd rechnen, mit
+<lb/>hilff unnd inn allweg bywesen <num value="2">zweyer</num> irer verordneten meystern,
+<lb/>nach aller nodturfft unnd gnuͦgsam erkundiget, erlernnt unnd
+<lb/>erfaren, ouch inn sollichem der vorgethanen glycher maß
+<lb/>beschechner erdürung alle ding vast glichling erfunden. Damit
+<lb/>sich aber die <orgName ref="org004920">pfister</orgName> so hochlich zuͦ beschwaͤren dess minder ursach, haben
+<lb/>wir das naͤhermals bestimpt gewicht, so von <measure type="volume" unit="Mütt" quantity="1">eym müt</measure> zegebenn
+<lb/>gehören solle, ettwas geringert unnd daruff unns eyner
+<lb/>ordnung unnd satzung, wie es mit gemelten <orgName ref="org004920">pfistern</orgName> hynfür
+<lb/>unntz uff wyther unnser ennderung gehallten unnd was eyn
+<lb/>biderw mann von inen zewarttenn hab vergwisst werd, vereynt
+<lb/>unnd beschloßenn, das wir inen unverbrochen hynfür zehallten
+<lb/>by desshalb gethanen ir eyden gebotten habenn wellenn. <add place="left margin" hand="later hand"><lb/><origDate when="1530">1530</origDate>.
+<lb/>Des was zuͦ diser zyt
+<lb/>gar eyn grosse türung
+<lb/>im land, da seyt der
+<lb/><orgName ref="org004975">müller</orgName> wider den
+<lb/><orgName ref="org004920">pfister</orgName> unnd der <orgName ref="org004920">pfister</orgName>
+<lb/>wider den <orgName ref="org004975">müller</orgName>, het
+<lb/>yedermann gern vil
+<lb/>brot unnd maͤl gehan
+<lb/>uss wenig kernnen,
+<lb/>ward ettwa maniger
+<lb/>bidermann verseit und
+<lb/>gestrafft, got weißt
+<lb/>wol wie. Unnd wäret
+<lb/>dise ordnung ein vesper
+<lb/>unnd eyn fyrabend. O,
+<lb/>du frommes <placeName ref="loc000065">Zürich</placeName>, hütt
+<lb/>dich allweg vor nüwerungen,
+<lb/>du hast keyn faal darzuͦ.
+<lb/>So sind dine innwoner zu
+<lb/>nahe gefründet unnd all<lb break="no"/>weg
+eyns unstaͤtten synnes.
+<lb/>Wie tür es gsin syge
+<lb/>han ich armer <persName ref="per012630">Bygel</persName>
+<lb/>mit minen kynden wol
+<lb/>empfunden.
+</add></p>
+<seg n="1"><head n="1" type="title">Der vogketzeren halb</head>
+<p>
+<lb/>Erstlich, das die vogketzer von <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">eynem gantzen müt kerrnnen</measure>,
+<lb/>es syge zechne, zweintzge, dryßge oder viertzge brott nunhynfür
+<lb/><measure type="currency" unit="lb" quantity="90">nüntzig pfund</measure>, trifft sich <measure type="volume" unit="Mütt" quantity="0.5" commodity="spelt">eynem halben müt</measure>
+<measure type="currency" unit="lb" quantity="45">fünff und viertzig</measure>,
+<lb/><measure type="volume" unit="Mütt" quantity="0.25" commodity="spelt">eynem vierteyl</measure>
+<measure type="currency" unit="lb" quantity="23.5">dritthalb unnd zweinitzig</measure> unnd <measure type="volume" unit="Mütt" quantity="0.125" commodity="spelt">eynem halbenn
+<lb/>vierteyl</measure>
+<measure type="currency" unit="lb" quantity="11">eilff pfund</measure> unnd <measure type="volume" unit="Vierling" quantity="1" commodity="bread">ein vierling brots</measure> unnd von eynem
+<lb/>eintzigen jederley brot, wie hernach volgt, zuͦgebenn schuldig
+<pb n="2" facs="StAZH_A_77_2__Nr__28__S__2_.tif"/>
+<lb/>unnd das überig, so am müt uber die <measure type="currency" unit="lb" quantity="90">nüntzig pfund</measure>
+<lb/>für schü<subst><del>tz</del><add place="overwritten">ß</add></subst>t, es syge vil oder wenig, dem voggetzer für sin arbeyt,
+<lb/>holtz, saltz, für unnd belonung belyben, doch inen ir alter lon,
+<lb/>als von <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">eym müt</measure>
+<measure type="currency" unit="ß" quantity="1">ein schiling</measure>, zu sampt dem grüsch,
+<lb/>hiemit nit benommen sin. Unnd solle der vogketzer hynfür an
+<lb/>eyntzigen brotten nach der gewicht waͤrschafft gen, wie hernach
+<lb/>volgt:
+</p>
+<p>
+<lb/>Ein zechni brott <measureGrp><measure type="weight" unit="Pfund" quantity="2">ij <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure></measureGrp>,
+<lb/>ein zweintzgi brott <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="0.5">ɉ <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure></measureGrp>,
+<lb/>ein dryßgi brott <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure></measureGrp>,
+<lb/>ein viertzgi brott <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="2">ij lot</measure>
+<measure type="weight" unit="Quentli" quantity="1">j quintli</measure></measureGrp>.
+</p>
+<p>
+<lb/>Wir wellennt ouch nit abgestrickt, sunder hiemit
+<lb/>menngklichem nachgelassenn unnd vergonnt habenn,
+<lb/>wenn ein burger inn sinem huß nit bachen oder dem
+<lb/>vogketzer nit inschüttenn wellte, das der wol, soferr er
+<lb/>es an dem <orgName ref="org004920">pfister</orgName> gehabenn, umb ein zymlichen lon inn
+<lb/>dess <orgName ref="org004920">pfisters</orgName> hus zuͦ bachenn geben, der <orgName ref="org004920">pfister</orgName> es im ouch
+<lb/>bachenn mag, unverhynndert unnd on intrag siner meystern
+<lb/>der <orgName ref="org004920">pfistern</orgName> oder gemeyner irer zunfft, also, das sy eynem
+<lb/>sollichs zuͦweeren oder in darumb zuͦ straffenn nit gewalt
+<lb/>noch macht haben sollenn.
+</p></seg>
+<seg n="2"><head n="2" type="title"><lb/>Der veylerenn halb</head>
+<p>
+<lb/>Nachvolgends betraͤffend die veyler, diewyl den selben, deßhalb
+<lb/>das sy das vorbrott wie von alltemhar gebenn sollennt unnd
+<lb/>sunst inn annder weg mer dann den vogketzern abgatt,
+<lb/>deßglychenn ouch das maͤl ettwas reyner büttlen unnd das
+<lb/>brott uff den kouff wisser bachenn muͤssend, so sollennd die
+<lb/>selben nu̍t meer dann <measure type="weight" unit="Pfund" quantity="80" commodity="bread">achtzig pfund brott</measure> vom <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">müt</measure>, es
+<pb n="3" facs="StAZH_A_77_2__Nr__28__S__3_.tif"/>
+<lb/>syge <measure type="currency" unit="ß" quantity="1">schilling</measure>, <measure type="currency" unit="xr" quantity="1">crützer</measure> oder <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs, zebachenn schuldig,
+<lb/>doch nach ußteylung diser <measure type="weight" unit="Pfund" quantity="80" commodity="bread">achzig pfunden</measure> inn yederley brot nach
+<lb/>bestimpte gewichts waͤrschafft zugebenn gebunden sin, nemmlich
+<lb/>yetz alle diewyl der kernnen <measure type="currency" unit="lb" quantity="6">sechs pfund</measure> gellts giltet, ann
+</p>
+<p>
+<lb/>einem <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigen brot <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lot</measure></measureGrp>,
+<lb/>einem <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigen brot <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="7">vij lot</measure></measureGrp>,
+<lb/>einem <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigen brot <measure type="weight" unit="Lot" quantity="8">viij lot</measure>.
+</p>
+<p>
+<lb/>Unnd alßdann, ob gott will, der kernnen nit für unnd für <measure type="currency" unit="lb" quantity="6">sechs
+<lb/>pfund</measure> geltenn, so dann die bezalung oder das gelt am kernnen
+<lb/>ringer, pillich das brott am gewicht schwaͤrer wirt, so
+<lb/>habenn wir alle gelt, inn denen der kernnen bis uff das aller
+<lb/>ringest gon mag, was yedes brott der selben zyt wegen soll, alles
+<lb/>flissig unnd ordennlich ußgeteylt unnd loufft sich inn nachbe<lb break="no"/>schrybner maß:
+</p>
+<head type="subtitle"><lb/>Nammlich, wann <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">eyn müt kernnen</measure>
+<lb/><measure type="currency" unit="lb" quantity="5.5">vɉ <abbr>lib</abbr></measure> giltet, sollent die brot wegenn</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="8">viij lot</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">i <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="8">viij lot</measure>
+<measure type="weight" unit="Quentli" quantity="1">j quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Lot" quantity="8">viij lot</measure>
+<measure type="weight" unit="Quentli" quantity="2.5">iiɉ quintli</measure></measureGrp>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="5">v <abbr>lib</abbr></measure> gilltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="1">j lot</measure>
+<measure type="weight" unit="Quentli" quantity="3">iij quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="1">j lot</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="0.5">ɉ lot</measure></measureGrp>.
+</p><pb n="4" facs="StAZH_A_77_2__Nr__28__S__4_.tif"/>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="4.5">ꝟ <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="5">v lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lot</measure>
+<measure type="weight" unit="Quentli" quantity="1">j quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="1">j lot</measure>
+<measure type="weight" unit="Quentli" quantity="2.5">iiɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Lot" quantity="5">v lot</measure>
+<measure type="weight" unit="Quentli" quantity="1">j quintli</measure></measureGrp>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="4">iiij <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lot</measure>
+</measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measure type="weight" unit="Lot" quantity="6">vj lot</measure>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="3.5"> iiiɉ <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="5">v lot</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ quentli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="4">iiij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Lot" quantity="6">vj lot</measure>
+<measure type="weight" unit="Quentli" quantity="3">iij quintli</measure></measureGrp>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="3">iij <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="ß" quantity="1">schilling</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="5">v lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="7">vij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measure type="weight" unit="Lot" quantity="8">viij lot</measure>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="2.5">iiɉ <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="2">ij lot</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="1">j lot</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ quintli</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Quentli" quantity="2">ij quintli</measure></measureGrp>.
+</p><pb n="5" facs="StAZH_A_77_2__Nr__28__S__5_.tif"/>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure> gilltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lot</measure></measureGrp>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="ß" quantity="30">xxx </measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="1">j lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="5">v lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="7">vij lot</measure></measureGrp>.
+</p>
+<head type="subtitle"><lb/>So er <measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure> giltet</head>
+<p>
+<lb/>ein <measure type="currency" unit="xr" quantity="1">crützer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="2">ij <abbr>lib</abbr></measure>
+<measure type="weight" unit="Vierling" quantity="2">ij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Vierer" quantity="1">vierer</measure> waͤrttigs <measureGrp><measure type="weight" unit="Pfund" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="weight" unit="Lot" quantity="12">xij lot</measure></measureGrp>,
+<lb/>ein <measure type="currency" unit="Angster" quantity="1">angster</measure> waͤrttigs <measureGrp><measure type="weight" unit="Vierling" quantity="2">ij <choice><abbr>flig</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lot</measure></measureGrp>.
+</p></seg>
+<p><seg n="3">
+<lb/>Es sollennt ouch die vogketzer ire eygene, doch geschwornne
+<lb/>unnd gefaͤchtete wagenn inn irenn hüseren habenn unnd den
+<lb/>kunden oder anndern, so brot von inen kouffend, das brott
+<lb/>waͤrschafftig und nach obbestimpter maß gewichtig by der wag
+<lb/>unnd gewicht unnd nit ungewaͤgen hynuss geben. Wo aber
+<lb/>sy eynem kunden das bestimpt gewicht an eynem oder meer brott
+<lb/>nit gebenn oder villicht daͤngg, ungehanndelt und unwaͤr<lb break="no"/>schafftig
+brott, das nit nach eeren unnd nutz gebachen were,
+<lb/>schickenn wurden, so soll der kund macht habenn, dem vogketzer
+<lb/>sollich ungewichtig oder unwaͤrschafftig brott wider zeschickenn
+<lb/>unnd ersetzung dess manngels oder waͤrschafft von im
+<lb/>zeforderen, die er im ouch ungewidert erstattenn soll.
+<lb/>Wo aber der vogketzer darüber den kunden wytter mit sollichem
+<pb n="6" facs="StAZH_A_77_2__Nr__28__S__6_.tif"/>
+<lb/>ungewichtigenn, unwaͤrschafftigenn brott beladenn oder
+<lb/>sich ersatzung beclagtenn manngels widern unnd also
+<lb/>den kunden oder koüffer zuͦ meerer clag verursachenn,
+<lb/>dermaß das sollichs den brottschoweren fu̍rkommen wurde,
+<lb/>denen man ouch sollichs wol anzoygenn mag, alßdann der
+<lb/>selb vogketzer umb <measureGrp><measure type="currency" unit="lb" quantity="1">ein pfund</measure>
+<measure type="currency" unit="ß" quantity="5">fünff schilling</measure></measureGrp> gestrafft,
+<lb/>die ouch fürderlich von im zuͦ rechter buͦss unnd straff
+<lb/>bar bezallt unnd on ablaͤßlich inzogenn werdenn sollent.
+<lb/>Der vogketzer moͤchte sich ouch so ungebürlich halltenn, das
+<lb/>der kund sinen kernnen, so er im uffgeschütt, widerumb
+<lb/>erforderen, so soll er im den on widerred heruß zugeben
+<lb/>schuldig sin.</seg>
+</p>
+<seg n="4"><p>
+<lb/>Unnd damit soͤllichem styff gelept unnd nachkommen werde,
+<lb/>so sollennt die vogketzer unnd veyler ouch keyn brot verkouffenn
+<lb/>noch irenn kunden geben, dasselbig syge dann zuͦvor durch die
+<lb/>brottschower lut irer ordnung<note>Für die Ordnung der Brotbeschauer vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_017">SSRQ ZH NF I/1/3, Nr. 17</ref></bibl></note> besechenn, ouch für gewichtig
+<lb/>unnd waͤrschafft erkennth. Sy sollennt sych ouch mit dem
+<lb/>bachen dermaß fürderen, das sy <time period="morning">morgens</time> by guͦtter zyt ge<lb break="no"/>bachenn
+habint, damit unnsere brottschower, so sy
+<lb/>herumb gand, an der schow nit gesumpt werdint und 
+<lb/>ouch hierinn kein gefar trybenn, dann es moͤchte eyner sin
+<lb/>bachenn so gefarlich unnd so wyth inn tag hynin verziechen,
+<lb/>das im sin brott dess <time period="byDay">tags</time> nit beschowt, sunder das veyl zuͦ<lb break="no"/>habenn
+unnd zuͦverkouffenn verpottenn wurde, dess welle
+<lb/>ein yeder hiemit gewarnnet sin.
+</p>
+<p>
+<lb/>Wellicher <orgName ref="org004920">pfister</orgName> aber brott bachenn, das sin bestimpt gewicht
+<lb/>nit uff im tragen oder unwaͤrschafftig sin, sunders inn
+<lb/>eyner beckh <num value="2">zwey</num>, <num value="3">drü</num> oder meer brott ungefarlich funden,
+<lb/>die zuͦ rings unnd liecht oder sunst daͤngg und ungehandelt
+<lb/>unütz erfunden wurdenn, sollennt die schaͤtzer soͤllichs
+<pb n="7" facs="StAZH_A_77_2__Nr__28__S__7_.tif"/>
+<lb/>abschetzenn, die selbig beckh gar zerhowenn unnd der <orgName ref="org004920">pfister</orgName>
+<lb/>dasselb brot weder den kunden noch inn kouffs wyß nit hyngeben,
+<lb/>sunder es selbs behalltenn, darzuͦ, so offt unnd dick das beschicht,
+<lb/>der selb <orgName ref="org004920">pfister</orgName>
+<measureGrp><measure type="currency" unit="lb" quantity="1">ein pfund</measure> unnd <measure type="currency" unit="ß" quantity="5">fünff schilling</measure></measureGrp> verfallenn sin
+<lb/>unnd zuͦ buͦss ussrichtenn soͤlle.
+</p></seg>
+<p>
+<seg n="5"><lb/>Wir behalltennd unns ouch vor, nun schier nach <date when="--11-11">sant <persName ref="per000141">Martins</persName>
+<lb/>tag</date> oder umb <date type="holiday" when="--12-25">wienecht</date>, so der kernnen ettwas erdiget oder wenn
+<lb/>unns das sunst im <date dur="P1Y">jar</date> gefalt, ein anndere brob zemachenn
+<lb/>unnd dann das obbestimpt gewicht zuͦminderen oder zuͦmeeren,
+<lb/>nach dem unnd wir yeder zyt befynnden koͤnnden, was der kernnen
+<lb/>nach zymlicher maß ertragen mag, unnd unns gemeyner unser
+<lb/>statt nutz, eer unnd fuͦg beduncken, dann wir hiemit obangezogen
+<lb/>anzal dess gewichts nit bestaͤttet habenn wellennt.</seg>
+</p>
+<p>
+<seg n="6"><lb/>Darzuͦ wellennt wir, das die vogkentzer nit wie bisshar das reyner
+<lb/>maͤl usszyechenn unnd erst uss dem überigen rüchers, sunder
+<lb/>hynfür eynerley, das ist glyches brott wie das der büttell erstlich
+<lb/>gydt, durch uß bachenn unnd eynem wie dem anndern gliches
+<lb/>brott gebenn unnd also wissers unnd rüchers brott von eynerley
+<lb/>maͤls zebachen inenn hiemit abgeschlagenn und verbotten sin soll.</seg>
+</p>
+<p>
+<seg n="7"><lb/>Unnd damit soͤllich ordnung dess styffer gehalltenn unnd sich
+<lb/>nyemans dess ussziechenn moͤg, so wellenn wir allenn <orgName ref="org004920">pfistern</orgName>
+<lb/>inn unnser statt, vogketzern unnd veylern, die unnder dem
+<lb/>eyd, so sy umb die jüngste, yetz geaͤnnderte ordnung gethan, zuͦgestellt
+<lb/>unnd deren one alles inbraͤchen zuͦgelebenn inn crafft desselben
+<lb/>eyds gepottenn habenn.</seg>
+</p>
+<p>
+<lb/>Actum dess naͤchstenn <origDate when="1530-10-05">mittwuchs nach sanct <persName ref="per000390">Michels</persName> tag anno
+<lb/><abbr>etc</abbr> xv<hi rend="sup">c</hi> xxx<hi rend="sup">o</hi></origDate>.
+</p><pb n="8" facs="StAZH_A_77_2__Nr__28__S__8_.tif
+"/>
+<div><ab type="dorsal" place="verso"><lb/><orgName ref="org004920">Pfister</orgName> ordnung</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Vogetzer, feiller und <lb/>brodt-schauer <lb/>ordnung, <origDate when="1590">1530</origDate></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><date when="1590">1590</date></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Am 26. Februar 1530 setzte der <orgName ref="org002406">Rat</orgName> eine Kommission zur Erstellung einer neuen Ordnung für die Brotbeschauer ein (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263949">StAZH B VI 251</ref>, fol. 77r</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1649</bibl>). Hintergrund dieser Massnahme war eine gravierende Teuerung und die in diesem Zusammenhang gestiegenen Getreidepreise. Bereits im vorangehenden Herbst war ein gedrucktes Mandat mit verschiedenen Massnahmen gegen die Teuerung erlassen worden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_007">SSRQ ZH NF I/1/11, Nr. 7</ref></bibl>). Aus der Arbeit der Kommission ging ein Ratschlag zur Brotversorgung (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263949">StAZH A 77.2, Nr. 21</ref></bibl>) sowie die vorliegende Bäckerordnung hervor, die durch eine Ordnung für die <orgName ref="org004975">Müller</orgName> ergänzt wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3586712">StAZH A 77.1, Nr. 14</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 266</bibl>). Daneben suchte der <orgName ref="org002406">Rat</orgName> auch durch gerichtliche Untersuchungen gegen illegalen Mehl- und Getreidehandel die Teuerung unter seine Kontrolle zu bringen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3591305">StAZH A 77.2, Nr. 27</ref></bibl>).</p>
+<p>Die 1530 erlassenen Ordnungen stehen am Anfang einer veränderten Brot- und Mehlpreispolitik des <orgName ref="org002406">Rates</orgName> im 16. Jahrhundert, welche sich durch eine verstärkte Kontrolle der Tätigkeit der <orgName ref="org004975">Müller</orgName> und <orgName ref="org004920">Bäcker</orgName> auszeichnete, wodurch die Versorgungssicherheit der Stadtbevölkerung gewährleistet werden sollte. Der Vergleich der in der vorliegenden Ordnung vermerkten Gewichtswerte mit denjenigen der Bäckerordnungen seit dem Jahr 1416 zeigt zudem, dass die Brotgewichte während des 15. Jahrhunderts kontinuierlich gesenkt worden waren, um den Verdienst der <orgName ref="org004920">Bäcker</orgName> zu steigern (vgl. dazu die Ordnung von 1416: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/1, S. 49-51, Nr. 74</bibl> sowie diejenige von 1439: <bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 139</bibl>). Nach 1530 nahm der <orgName ref="org002406">Rat</orgName> hingegen keine wesentlichen Reduktionen des Mindestgewichts mehr vor und die in der vorliegenden Ordnung vermerkten Vorgaben blieben im Wesentlichen bis 1798 in Kraft.</p>
+<p>Die Bäckerordnung wurde von Stadtschreiber <persName ref="per012630">Beyel</persName> in das Schwarze Buch übertragen und in den Jahren 1593 und 1770 erneuert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1915506">StAZH B III 4, fol. 180r-184v</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1915511">StAZH B III 4, fol. 193v-195r</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4320840">StAZH A 77.2, Nr. 144</ref></bibl>). Dass die Brotpreise dennoch auch weiterhin umkämpft blieben, äusserte sich namentlich an den Klagen der <orgName ref="org004920">Bäcker</orgName>, die sich bereits im Jahr 1544 unzufrieden mit den obrigkeitlichen Gewichtsvorgaben zeigten und (erfolglos) auf eine Anpassung drangen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3591339">StAZH A 77.2, Nr. 32</ref></bibl>).</p>
+<p>Zur vorliegenden Ordnung im Kontext der obrigkeitlichen Brot- und Mehlpreispolitik vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 271-299</bibl>; für den Zunftbrief der <orgName ref="org005075">Zunft zum Weggen</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_044">SSRQ ZH NF I/1/3, Nr. 44</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

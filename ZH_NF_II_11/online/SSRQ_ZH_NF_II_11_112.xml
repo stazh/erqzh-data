@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_112</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293643">StAZH B II 420, S. 5-6</idno></msIdentifier><head>Eingliederung von Wipkingen in die Obervogtei der Vier Wachten</head><msContents><summary>Weil Wipkingen finanziell nicht in der Lage ist, einen eigenen Obervogt zu tragen, entscheiden Bürgermeister und beide Räte von Zürich, Wipkingen zu den Vier Wachten zu schlagen und unter die Verwaltung der dortigen Obervögte zu stellen. Die Rechte von Wipkingen bleiben bestehen, und der Stadt soll durch den Wechsel in Bezug auf die Abzuggelder kein Nachteil entstehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="12.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1637-07-15"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key004536">Finanzen</term><term ref="key000204">Verwaltung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="5" type="original" facs="StAZH_B_II_420__S__5_.tif"/>
+<div>
+<head><lb/><origDate when="1637-07-15" calendar="Julian">Sambßtags, den 15. <hi rend="sup">dag</hi>
+julii</origDate>, <choice>
+<abbr>prnt</abbr>
+<expan>presentibus</expan>
+</choice>
+<lb/>herr <orgName ref="org002406"><persName ref="per002358">Hirtzel</persName>, räth und burger</orgName></head>
+<p>
+<gap reason="irrelevant"/>
+</p>
+<p><lb/>Diewyl die vogtey <placeName ref="loc010875">Wipkingen</placeName> so <lb/>gering, daß sy eigne vögt nit
+<lb/>ertragen mög, und man ver<lb break="no"/>nimbt, daß sy lieber zuͦ den
+<lb/><placeName ref="loc010140">Vier
+Wachten</placeName><!-- ahh an PS: Als Ort tagen? PS: Ja, ich würde es als Ort tagen und durchwegs gross schreiben.-->
+begehrint gestoß<lb break="no"/>en zuͦ werden weder zuͦ <lb/><placeName ref="loc009768">Höngg</placeName>, ward von
+mynen <abbr>g h</abbr>
+<lb/>für dißmaln, und so lang es ihn<lb break="no"/>en wirt gefallen mögen, er<lb break="no"/>khendt, daß gedachte vogtey <lb/><placeName ref="loc009768">Wipkhingen</placeName> fürohin under der
+<lb/>verwaltung der obervögten er<lb break="no"/>melter wachten begriffen <lb/>syn mit der
+erlüterung, daß <lb/>sy nüt destoweniger ihre <lb/>eignen brüch und rechtsammen <lb/>behalten und
+sonderlich dise <lb/>verenderung gemeiner statt <pb n="6" type="original" facs="StAZH_B_II_420__S__6_.tif
+"/><lb/>der abzügen halber,
+von einer <lb/>vogtey zuͦ der anderen, khein <lb/>nachtheil bringen sölle. </p>
+</div>
+</body>
+<back>
+<div>
+<p>Als am <date when="1635-07-09" calendar="Julian">9. Juli 1635</date> die Wahl eines neuen Obervogts für <placeName ref="loc010875">Wipkingen</placeName> anstand, befanden einige Ratsherren, das Amt sei nicht mehr zu besetzen, sondern <placeName ref="loc010875">Wipkingen</placeName> stattdessen der Obervogtei <placeName ref="loc009768">Höngg</placeName> anzugliedern, worauf das Geschäft an den <orgName ref="org004016">Kleinen Rat</orgName> gewiesen wurde (<bibl>StAZH B II 412, S. 5</bibl>). Am <date when="1635-08-12" calendar="Julian">12. August 1635</date> bestimmten beide <orgName ref="org007944">Räte</orgName> mit dem Verweis auf altes Herkommen, <placeName ref="loc010875">Wipkingen</placeName> trotz der geringen Grösse und der hohen anfallenden Kosten als eigenständige Obervogtei bestehen zu lassen, und diese vorerst nicht zur Obervogtei <placeName ref="loc009768">Höngg</placeName> oder der <placeName ref="loc010140">Vier Wachten</placeName> zu schlagen. Zunächst sollte aber kein neuer Obervogt als Ersatz für den nunmehr mit dem <placeName ref="loc009842">Neuamt</placeName><!-- ahh: Wie die Vier Wachten, vgl. oben. PS: als Ort auszeichnen --> betrauten <persName ref="per011113">Hans Konrad Heidegger</persName> bestimmt werden. Es wurde stattdessen entschieden, dass der stillstehende Obervogt <persName ref="per025705">Kaspar Gossweiler</persName> das Amt ohne Mitvogt innehaben sollte (<bibl>StAZH B II 412, S. 11-12</bibl>). So findet sich ein Eintrag, der <persName ref="per011113">Heidegger</persName> als Obervogt von <placeName ref="loc010875">Wipkingen</placeName> nennt, letztmals für das Jahr 1633, nachdem <persName ref="per011113">Heidegger</persName> und <persName ref="per025705">Gossweiler</persName> gemäss Rats- und Richtebuch das Amt mehrere Jahre alternierend bekleidet hatten. Von 1634 bis 1636 erscheint <persName ref="per025705">Gossweiler</persName> als alleiniger Amtsinhaber (<bibl>StAZH B VI 269, S. 61, 146, 229, 317</bibl>). <date when="1635">1635</date> und im Folgejahr erläutern Einträge zudem, dass die <orgName ref="org004016">Räte</orgName> alljährlich über den Status <placeName ref="loc010875">Wipkingens</placeName> zu befinden hätten (<bibl>StAZH B VI 269, S. 229, 317</bibl>). Mit dem vorliegenden Ratsbeschluss erfolgte schliesslich der Entscheid und bei der Bestellung der Obervögte im selben Jahr wurde <placeName ref="loc010875">Wipkingen</placeName> erstmals unter der Obervogtei <placeName ref="loc010140">Vier Wachten</placeName> aufgeführt (<bibl>StAZH B VI 269, S. 410</bibl>).</p>
+<p>Mit der Abschaffung der Gerichtstage auf dem <placeName ref="loc013381">Kelnhof Wipkingen</placeName> und der
+Unterstellung der <orgName ref="org007945">Wipkinger</orgName> unter das <placeName ref="loc000065">Zürcher</placeName> Stadtgericht war <date when="1586">1586</date> bereits eine Neuordnung der Gerichtsverhältnisse erfolgt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_099">SSRQ ZH NF II/11, Nr. 99</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

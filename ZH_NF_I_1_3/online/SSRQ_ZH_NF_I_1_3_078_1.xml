@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_078_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3737867">StAZH B III 2, S. 356, Eintrag 1</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Haftung von Ehefrauen bei Schuldforderungen an den Ehemann bei gemeinsam betriebenem Gewerbe</head><msContents><summary>Bürgermeister und Räte ordnen an, dass im Fall einer Betreibung gegen einen verheirateten Mann, im Zuge derer nicht alle Gläubiger aus dem Gut des Schuldners befriedigt werden können, seine Ehefrau mit ihrem zugebrachten Gut, ihrer Morgengabe sowie ererbtem oder auf anderer Weise empfangenem Gut für die Schulden ihres Ehemanns mithaften muss, sofern die Eheleute zuvor gemeinsam ein Gewerbe oder Handwerk betrieben haben. Sofern die Ehefrau jedoch nicht in geschäftlicher Verbindung mit ihrem Mann gestanden hat, bleiben die ihr zustehenden Vermögensanteile von der Betreibung gänzlich unberührt. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1512-07-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000863">Ehe</term><term ref="key000597">Erbrecht</term><term ref="key004367">Konkurs</term><term ref="key000058">Schulden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="356"/>
+<head><lb/>Welliche frow zebangk unnd zegaden mit <lb/>iren eeman stat, die bezalt fuͤr in</head>
+<p>
+<seg><lb/><app><lem>Uff <origDate when="1512-07-12">sannt <persName ref="per000365">Margrethen</persName> aͧbent anno domini m<hi rend="sup">o</hi> v<hi rend="sup">c</hi> xij</origDate> habent sich min
+<lb/>herren <orgName ref="org002406">burgermeister und raͤt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName></lem><rdg wit="StAZH B III 54, fol. 51r">Wir haben unns ouch</rdg></app>
+<del hand="other hand" rend="blackened">einhellencklich</del> erkennt
+<lb/>und fu̍rbaß dem nachzekomen uff gesetzt und geordnot, wann es sich
+<lb/>hinfu̍r begebe, das ein uffal der schuldfordrer uff einen burger <add place="above"><placeName ref="loc000065">Zu̍rich</placeName></add> kaͤme
+<lb/>und die schuldforderer <del>nit</del> von des selben burgers, uff den der uffal bescheche,
+<lb/>eigenem guͦt <add type="sign" place="above">nit</add> bezalt und vernuͤgt werden moͤchten, haͧt dann der selb
+<lb/>burger ein efrowen, die mit inn zuͦ banck oder gaden in gwu̍n oder
+<lb/>gwerb, welicherley handtierung und gwerbs sich joch der selb <add type="sign" place="above"><del>burger</del></add> gebrucht haͧt,
+<lb/>gestanden ist, so sol ouch der selb siner efrowen guͦt allencklich, es sig
+<lb/>ir zugebracht guͦt, ir morgengab, <del>oder</del> ererbt oder sunst u̍berkommen guͦt,
+<lb/>in dem gantz nu̍tz ußgenommen, umb soͤlich irs mans schulden behaft
+<lb/>und verfangen sin und sy im also darmit und daruß helffen bezalen
+<lb/>biß an das underhembd, so sy a<subst><del>m</del><add place="overwritten">n</add></subst>
+<add place="above">irem</add> lib treit.</seg>
+<seg>Aber wann ein uffal
+<lb/>uff einen burger kaͤme und er ein efrowen hette, die nit mit im zuͦ banck
+<lb/>und gaden <app><lem>in</lem><rdg wit="StAZH B III 54, fol. 51r"/></app> gwu̍n und gwerb <app><lem><abbr>etc</abbr></lem><rdg wit="StAZH B III 54, fol. 51r"/></app> gestanden were, so sol ir dis obgeschriben
+<lb/>erkantnuß an irem zuͦgebrachten guͦt, ir morgengab oder anderm irem
+<lb/>zuͦgehoͤrigen guͦt gantz und gar unvergriffenlich und unschedlich sin
+<lb/>und sy darumb, wie bißhar der bruch gewesen ist, usgericht werden.<note>Die Ehefrau konnte in diesem Fall die ihr zustehenden Vermögensanteile zurückfordern, wie wenn ihr Ehemann gestorben wäre. Dies geht aus der Verordnung betreffend Vorrang von Ehefrauen in Konkursen hervor (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_063">SSRQ ZH NF I/1/3, Nr. 63</ref></bibl>).</note></seg>
+<app><lem/><rdg wit="StAZH B III 4, fol. 41v; StAZH B III 54, fol. 51r">Unnd ob eyn man ettwas verschlahen ald <lb/>verbuͤßenn oder sunst ettwas mit fraͤfel, on der 
+<lb/>froͧwen schuld, verwürgken wurde, das soll sy zuͦbe<lb break="no"/>zalen ouch nit schuldig sin. Erlüttert uf <origDate when="1542-11-11">sanct 
+<lb/><persName ref="per000141">Martins</persName> tag 1542</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr <!-- Johannes --><persName ref="per001933">Hab</persName>, raͤth unnd 
+<lb/>burger.</rdg></app>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung präzisiert einen Ratsbeschluss des Jahres 1443, in dem bereits festgelegt worden war, dass eine verheiratete Frau für Schulden ihres Mannes nur dann mithaftete, wenn sie mit ihm in einer geschäftlichen Beziehung gestanden war und die Schulden mit ihrer Zustimmung eingegangen worden waren (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/1, S. 95-96, Nr. 94</bibl>). Die vorliegende Präzisierung besteht darin, dass die betroffenen Vermögensanteile der Ehefrau (namentlich zugebrachtes Gut und Morgengabe) explizit benannt werden. Im Jahr 1550 erliess der Rat eine weitere Bestimmung, wonach Frauen, die für die Schulden ihres Ehemanns bereits gehaftet hatten, jedoch nicht alle Forderungen hatten erfüllen können, im Fall einer späteren Erbschaft nicht weiter belangt werden sollten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1914354">StAZH B III 4, fol. 41v-42r</ref></bibl>). Klärungsbedarf gab es in der Rechtspraxis zudem hinsichtlich der Frage, wie die durch die Eheleute betriebene geschäftliche Beziehung (in der vorliegenden Ordnung allgemein umschrieben als <orig>gwu̍n und gwerb</orig>) näher definiert werden sollte. Zu diesem Zweck wurden zu Beginn des 17. Jahrhunderts verschiedene erläuternde Beschlüsse gefasst (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 55-56</bibl>).</p>
+<p>Zum Schuldenmachen durch Eheleute sowie zur wichtigen Rolle von Frauen beim Eintreiben und Begleichen von Schulden vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 204-211</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

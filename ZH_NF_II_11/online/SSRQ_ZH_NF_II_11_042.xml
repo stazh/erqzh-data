@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_042</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3482597">StAZH B II 26, S. 3</idno></msIdentifier><head>Erkenntnis von Bürgermeister und beiden Räten von Zürich betreffend die Bewilligung von Amtsröcken für die Untervögte der Vier Wachten</head><msContents><summary>Bürgermeister Röist und beide Räte von Zürich beratschlagen über die vorgebrachte Bitte, den Untervögten von Fluntern, Hottingen, Oberstrass und Unterstrass und künftig auch von anderen Orten einen Rock zu bewilligen.  Man ist sich in der Sache uneins: Da bereits den Untervögten am Zürichsee Röcke gewährt worden seien, solle dies auch für die Untervögte in nächster Nähe zur Stadt geschehen.  Als Gegenargument wird vorgebracht, dass es zu viele Kosten verursache, da die Bitte um Röcke dann auch von anderen Untervögten käme. Deshalb solle den Untervögten der Vier Wachten für dieses Mal eine abschlägige Antwort erteilt werden. Nichtsdestotrotz sollen die Untervögte bei der nächsten Vergabe von Röcken mit der Bitte vorstellig werden, damit der Rat erneut darüber befinde.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="12.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1494-12-30"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005359">Amtskleidung</term><term ref="key004175">Ausgaben</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1"><pb n="3" type="original" facs="StAZH_B_II_26__S__3_.tif
+"/>
+<div><head><lb/>Uff <origDate when="1494-12-29" calendar="natal">zinstag nǎch der kindlin tag</origDate>, 
+<lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr <persName ref="per001546">Röist</persName>, <orgName ref="org002406">burgermeister, 
+<lb/>und beyd raͤtt</orgName></head>
+<p><lb/><gap reason="irrelevant"/></p>
+<p><lb/>An min herren ist brǎcht, das die 
+<lb/>unndervoͤgt zuͦ <placeName ref="loc008707">Fluͦntern</placeName>, <placeName ref="loc010476">Hottingen</placeName>, 
+<lb/><placeName ref="loc010574">Ober-</placeName> und <placeName ref="loc010816">Unnderstrǎß</placeName> und villicht 
+<lb/>demnǎch, ob denen gelingt, annder 
+<lb/>ouch, min herren umb roͤck bitten 
+<lb/>wellen. Und ist dǎruff ein frǎg 
+<lb/>gehebt, ob man sy hoͤren welle 
+<lb/>oder nit.</p>
+<p><lb/>Uff das hǎt einer <choice>
+<abbr>erk</abbr>
+<expan>erkent</expan>
+</choice>, diewyl min <lb/>herren annderrnn von der voͤgten <lb/>am <placeName ref="loc000127">Zu̍richsee</placeName>
+ouch roͤck geben haben, <lb/>das vornǎcher nit beschechen sye, <lb/>so beduncke inn, das man die
+obge<lb break="no"/>nannten vier ouch bitten lǎß, so sy <lb/>doch unnser statt aller nechst ge<lb break="no"/>sessen, und was sich begebe, dienst<lb break="no"/>bar syen.</p>
+<p><delSpan rend="crossout" hand="later hand" spanTo="#del1"/><!-- ahh an PS: Obwohl die Streichung wohl unmittelbar als Zeichen für einen Entscheid zugunsten der ersten Stellungnahme erfolgt ist, möchte ich den Text nicht in der Anmerkung verschwinden lassen, weshalb ich hier "later hand" wähle. Künftigt sollte dies ja dann im Haupttext erscheinen. -PS: Korrekt so.--><lb/>So
+hǎt der annder <choice>
+<abbr>erk</abbr>
+<expan>erkent</expan>
+</choice>, wo man <lb/>denen unndervoͤgten yetz roͤck geben, <lb/>so werden die anndern all ouch <lb/>kommen, und erwachse
+dǎruß ein <lb/>grosser kost uff gemeine statt. <lb/>Und woͤlte wol, das die am <placeName ref="loc000127">Zu̍rich<lb break="no"/>see</placeName> abgewysd weren, aber wie <lb/>dem so welle<del rend="strikethrough">n</del> er die obgemelten
+<lb/>vier yetz abwisen und inen lǎß <lb/>sagen, min herren wellen uff diß <lb/>mal sich benuͤgen, das sy den voͤgten
+<lb/>am <placeName ref="loc000127">see</placeName> geben haben. Aber wenn <lb/>min herren hernǎch roͤck geben, <lb/>so mogen sy dann
+kommen und ver<lb break="no"/>sǔchen, ob min herren ir bitt hǒren <lb/>wellen, was dann min herren <lb/>beduncke, das
+gescheche.<anchor xml:id="del1"/><note>Bereits am <date when="1495-02-07">7. Februar 1495</date> bewilligten
+<orgName ref="org002406">Bürgermeister <persName ref="per001546">Röist</persName> und beide Räte von <placeName ref="loc000065">Zürich</placeName></orgName> die
+Herausgabge von Röcken an die Untervögte zahlreicher anderer Orte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3482630">StAZH B II 26,
+S. 14</ref></bibl>). Da bei dieser Gelegenheit die <placeName ref="loc010140">Vier Wachten</placeName> ungenannt bleiben und
+diese zweite Stellungnahme gestrichen wurde, ist anzunehmen, dass die Räte dem Wunsch der Bittsteller schliesslich
+entsprochen hatten.</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Amtskleidung für Untervögte im <placeName ref="loc000065">Zürcher</placeName> Herrschaftsgebiet wurde bis zum Ende des Ancien Régimes beibehalten. Seit <date when="1674">1674</date> sind «Mantelbücher» überliefert, welche die dafür bestimmten Stoffe und ausgeteilten Gelder aufführen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=318645">StAZH F I 103</ref></bibl>; <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=318647">StAZH F I 105</ref>; <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 214-217</bibl>). Eine farbige Darstellung der schräggeteilten blau-weissen Untervogtskleidung aus einem <placeName ref="loc000849">Winterthurer</placeName> Wappenbuch des frühen 16. Jahrhundert findet sich bei <bibl><ref target="/startseite/literaturverzeichnis">Zangger 1995</ref>, S. 418</bibl>. Beschrieben wird die Amtstracht in <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1897</ref>, S. 158-159</bibl>.</p>
+<p>Zum Amt des Untervogts vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_111">SSRQ ZH NF II/11, Nr. 111</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_092">SSRQ ZH NF II/11, Nr. 92</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

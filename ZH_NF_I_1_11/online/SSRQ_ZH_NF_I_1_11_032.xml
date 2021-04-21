@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_032</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550612">StAZH III AAb 1.6, Nr. 16</idno></msIdentifier><head>Fischmarktordnung</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlassen aufgrund des vorherrschenden Fischfürkaufs eine Fischmarktordnung. Verordnet wird, dass alle Fische aus dem Zürichsee nur während der erlaubten Zeiten gefangen und einzig auf dem zürcherischen Fischmarkt verkauft werden dürfen. Damit die Fischer von ihrer Tätigkeit leben können, werden die Fischpreise, bis sich die Zeiten bessern, erhöht. Zuletzt werden alle entsprechenden Amtleute ermahnt, die Einhaltung der Ordnung zu überwachen und Zuwiderhandlungen zu bestrafen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Heinrich Bodmer der Jüngere?)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="40.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1693-09-30"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 926, Nr. 1252</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key000792">Fürkauf</term><term ref="key000793">Markt</term><term ref="key000764">Preise</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_6__Nr__16__r_.tif"/>
+<p>
+<seg><lb/>Wir <orgName ref="org002406">Burgermeister und Rahte der Statt
+ <lb/><placeName ref="loc000065">Zuͤrich</placeName></orgName>: Entbieten hiemit allen Unseren Angehoͤrigen Anwohneren des <placeName ref="loc000127">Zuͤrich-Sees</placeName> /
+ <lb/>Unseren guͤnstigen Gruß und geneigten Willen / auch darbey zuvernemmen; Demnach Wir zu Unserem nicht gerin<lb break="no"/>gen
+ mißfallen von geraumer zeitharo verspuͤren muͤssen / wie daß von unverschamten eigennuͤtzigen fuͤrkaͤufferen / die
+ <lb/>in Unserem See gefangne Fisch aufgekauft / den Unseren ohngebuͤrend entzogen / und zu ihrem entpfindlichen nachtheil /
+ <lb/>sonderlich von dergleichen so Bottenweis hin und her wandlen / an froͤmde Ort getragen und verkauft werden: haben
+ <lb/>derhalben disem / zuwider Unserer Fischmarkts-Ordnung ohngeschohen-eingeschlichnen fuͤrkauff den weg abzuschnei<lb break="no"/>den
+ eine ohnentbehrliche nohtdurft seyn befunden;</seg>
+<seg>Und ist deßwegen Unser ernstliche Befehl / daß ohne underscheid
+ <lb/>alle Fisch / zu rechter zeit gefangen / zum verkauff auf Unseren <placeName ref="loc008753">Fischmarkt</placeName> gebracht und sonst an keinem anderen ort ver<lb break="no"/>kauft /
+ vilweniger aussert Unsere Bottmaͤssigkeit vertragen und die uͤbertrettere mit hierunten bedeut-ohnverschonter
+ <lb/>abstraffung angesehen werden;</seg>
+<seg>Damit aber auch Unsere Angehoͤrige Fischere / bey diesen klemmen Zeiten ihr stück
+ <lb/>Brot erstreiten und gewuͤnnen moͤgen / so haben Wir den Fisch-Tax dahin erhoͤcheret / daß namlich <measure type="weight" quantity="1" unit="Pfund" commodity="fish">ein Pfund von leben<lb break="no"/>digen
+ Foͤhrenen<!-- Forellen --></measure> um <measure type="currency" unit="ß" quantity="10">zehen Schilling</measure> und <measure type="weight" unit="Pfund" quantity="1" commodity="fish">ein Pfund von todtnen Foͤhrenen</measure> um <measure type="currency" unit="ß" quantity="8">acht Schilling</measure> / auch das <measure type="weight" unit="Pfund" quantity="1" commodity="fish">Pfund al<lb break="no"/>ler
+ uͤbrigen Fischen</measure> / <measure type="currency" unit="ß" quantity="1">ein Schilling</measure> hoͤcher / als der bisharige Tax vermoͤgen / bezahlt / solche preises erhoͤcherung aber nur
+ <lb/>bis auf von Gottes Guͤte erwartend-bessere Zeiten beobachtet und dannzumahlen widerum abgesezt werden solle:
+ <lb/>Versehen Uns also hierauf zu allen und jeden Unseren Angehoͤrigen Fischeren / Fischfuͤhreren und anderen / daß in be<lb break="no"/>trachtung
+ dieser Gnad und ihrer schuldigen pflicht / sie nun fuͤrohin die fangende Fisch auf Unseren <placeName ref="loc008753">Fischmarkt</placeName> zuver<lb break="no"/>kauffen
+ bringen werden;</seg>
+<seg>zu dem end Wir dann so wol Unsere hierzu verordnete Mit-Raͤhte / ingleichem die See-Land-<lb/>Ober-und
+ Undervoͤgte / samt ihren Nachgesezten Beambteten darauf eine erfoderend-beflissene aufsicht zutragen und
+ <lb/>durch exemplarische abbuͤssung / je nach verdienen mit hinwegnemmung der Fischen / Gefangenschaft / stillstellung
+ <lb/>des Fischens und Geltstraff / diesere befelchliche Ordnung gebuͤhrend zuhandhaben; Als auch jedern Angehoͤrigen
+ <lb/>durch die hierin erstattende gehorsamme sich selbsten vor ungnad / straff und schaden zuvergaumen / wolmeinlich er<lb break="no"/>inneren
+  thun.</seg>
+<seg>Geben <origDate when="1693-09-30" calendar="Julian">Samstags den Dreyssigisten Tag Herbstmonats / von der Gnadenreichen Geburth Chri<lb break="no"/>sti
+ unsers Erloͤsers gezellet / Eintausent / Sechshundert / Neunzig und Drey Jahre</origDate>.</seg></p>
+<p><lb/><orgName ref="org005015">Cantzley der Statt <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_6__Nr__16__v_.tif
+"/>
+<div><ab type="dorsal" place="verso above right"><lb/>Fischverkauff ordnung <lb/><date when="1693" calendar="Julian">1693</date></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Die erste Fischmarktordnung der Stadt <placeName ref="loc000065">Zürich</placeName> geht auf das Jahr 1359 zurück und nennt bereits ausdrücklich die Marktpflicht für den Verkauf der Fische (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/1, S. 193-194, Nr. 388</bibl>). Zunächst wurde der Fischverkauf durch die Fischer selbst durchgeführt, im Laufe des 15. Jahrhunderts übernahmen Fischverkäufer zunehmend diese Aufgabe (vgl. beispielsweise die Ordnung der Fischverkäufer von ca. 1515-1518: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_089">SSRQ ZH NF I/1/3, Nr. 89</ref></bibl>). Im 17. Jahrhundert gab es insgesamt sechs obrigkeitlich verordnete Fischverkäufer, die jeweils einen Fischführer beschäftigten. In der Fischerordnung von 1710 werden neben den sechs Fischführern auch ein Schwebefischführer genannt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293386">StAZH III AAb 1.7, Nr. 76</ref></bibl>). Der Fischführer kaufte Fische von einheimischen und fremden Fischern (beispielsweise aus <placeName ref="loc000730">Schwyz</placeName>) und transportierte sie mit dem Schiff bis zum <placeName ref="loc000065">Zürcher</placeName>
+<placeName ref="loc008753">Fischmarkt</placeName>.</p>
+<p>Auf dem <placeName ref="loc008753">Fischmarkt</placeName> mussten seit dem 14. Jahrhundert zwei Fischführer die Aufsicht ausüben. Gegen Ende des 17. Jahrhunderts wurden zu Aufsichtszwecken zusätzlich noch zwei Ratsherren eingesetzt, die im 18. Jahrhundert als Mitglieder der <orgName ref="org005096">Fischmarktskommission</orgName> genannt werden. Die Aufseher mussten die obrigkeitlichen Bestimmungen bezüglich erlaubten Fischarten und Fischgrössen sowie die Marktzeiten beaufsichtigen. Seit der Reformation waren die Verkaufstage auf den Montag, Mittwoch, Freitag und Samstag gelegt. In den Fischerordnungen von 1710 und 1776 waren die Markttage zwar noch dieselben, aber die Marktzeiten wurden mit Ausnahme des Freitags jeweils auf die Nachmittage eingeschränkt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293386">StAZH III AAb 1.7, Nr. 76</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_076">SSRQ ZH NF I/1/11, Nr. 76</ref></bibl>).</p>
+<p>Am 18. September 1693 wurden mehrere Ratsherren aufgefordert, die bestehende Fischmarktordnung, wobei es sich wahrscheinlich um die Ordnung von 1689 handelt, durchzugehen (vgl. den Hinweis im Weissen Register, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=340945">StAZH KAT 34</ref>, S. 501</bibl>). Zudem mussten sie einen Ratschlag zur Verbesserung der Ordnung abfassen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244902">StAZH B II 643</ref>, S. 111-112</bibl>). Bereits am 30. September wurde die vorliegende Fischmarktordnung gedruckt.</p>
+<p>Zur Fischerei in <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>; <ref target="http://www.hls-dhs-dss.ch/textes/d/D13943.php">Fischerei</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Helbling 1919</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Heuscher 1908</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Wyss 1796</ref>, S. 329-330</bibl>. 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

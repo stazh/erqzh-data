@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_115</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4303962">StAZH B VII 14.20, S. 46</idno></msIdentifier><head>Wahl von zwei Wahlmännern für das Gericht der ehemaligen Landvogtei Greifensee</head><msContents><summary>Volksrepräsentant Jakob Pfenninger teilt der Gemeinde Greifensee mit, dass der Zürcher Rat als provisorische Regierung zurückgetreten sei und die Gerichtsstellen auf dem Land aufgelöst habe. Da die Landesversammlung die Wiederbesetzung dieser Stellen in die Hände des souveränen Volks lege, solle nun jede Gemeinde zwei Wahlmänner als Vorsteher und Richter wählen. Die Gemeinde Greifensee wählt aus den acht vorgeschlagenen Personen den ehemaligen Landvogt Andreas Schmid sowie Hartmann Schwerzenbach.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Landschreiber Hans Rudolf Hirzel</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1798-03-20"/><origPlace>Gemeindehaus Greifensee</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004966">Gemeinde</term><term ref="key000057">Gericht</term><term ref="key005471">Revolution</term><term ref="key005349">Stimmrecht</term><term ref="key004098">Versammlung</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="46"/>
+<p><lb/>Da der würdige volks <hi rend="font change">repræsentant</hi>, bürger <persName ref="per013373">Jacob Pfeninger</persName> von
+<lb/><placeName ref="loc008569">Greifensee</placeName>, der gemeinde angezeigt, daß, da die ehmahlige
+<lb/><hi rend="font change">provisorische</hi> regierung in <placeName ref="loc000065">Zürich</placeName> ihren gänzlichen gwalt in den
+<lb/><unclear>hof</unclear> der hohen landesversamlung abgelegt und die
+gerichts<lb break="no"/>stellen auf dem land ebenfalls aufgelöst und die widerbesezung
+<lb/>derselben von ermelter hoher landsversamlung in die hände
+<lb/>des <hi rend="font change">souverainen</hi> volks gelegt worden seye, von jeder gemeinde
+<lb/>2 wahlmäner erwählt werden sollen, aus derer mitte dan ein
+<lb/>vorsteher und richter gesezt und erwählt werden <unclear>werde</unclear>,
+<lb/>so wurden aus befehl der hohen landsversamlung von der
+<orgName ref="org004883">ge<lb break="no"/>meinde <placeName ref="loc008569">Greifensee</placeName></orgName> allerforderst zu wahlmänneren genamset:
+</p>
+<table>
+<row><cell>bürger</cell><cell>alt landvogt <persName ref="per010908">Schmid</persName></cell></row>
+<row><cell>"</cell><cell>alt amtsrichter <persName ref="per015125">Maag</persName></cell></row>
+<row><cell>"</cell><cell>trüllmeister <persName ref="per015127">Pfister</persName></cell></row>
+<row><cell>"</cell><cell>alt amtsrichter <persName ref="per015126">Meyer</persName>, müller</cell></row>
+<row><cell>"</cell><cell>kirchenpfleger <persName ref="per015129">Sallomon Pfister</persName></cell></row>
+<row><cell>"</cell><cell><persName ref="per015131">Johanes Wolfensperger</persName></cell></row>
+<row><cell>"</cell><cell><persName ref="per015130">Hartman Schwerzenbach</persName></cell></row>
+<row><cell>"</cell><cell>ehegaummer <persName ref="per015122">Dänzler</persName></cell></row>
+</table>
+<p><lb/>Aus welchen 8 bürgeren nachher von der <orgName ref="org004883">gemeindt <placeName ref="loc008569">Greifensee</placeName></orgName>
+<lb/>mit mehrheit der stimen zu wirklichen wahlmäneren erwählt worden:
+</p>
+<table>
+<row><cell>bürger</cell><cell>alt landvogt <persName ref="per010908">Schmid</persName></cell></row>
+<row><cell>"</cell><cell><persName ref="per015130">Hartman Schwerzenbach</persName></cell></row>
+</table>
+<p><lb/>Geben im gemeindhauß <origPlace ref="loc008569">Greifensee</origPlace>,
+<lb/><origDate when="1798-03-20"><subst><del>mitwochs</del><add place="below">dienstags</add></subst>, den <subst><del rend="blackened">21</del><add place="above">20</add></subst>. merz 1798</origDate>.
+</p>
+</div>
+<signed><lb/>Bürger <persName ref="per014966"><choice><abbr>J R</abbr><expan>Johann Rudolf</expan></choice> Hirzel</persName>,
+<lb/>provisorischer landschreiber zu <placeName ref="loc008569">Greifensee</placeName><note><persName ref="per014966">Hans Rudolf Hirzel</persName>
+bekleidete das Amt des Landschreibers seit 1755
+und übte es auch in der Revolutionszeit bis zu seinem Selbstmord im Jahr 1802 weiter aus
+(<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1990</ref>, S. 59</bibl>).</note>
+</signed>
+</body>
+<back>
+<div>
+<p>Spätestens seit dem Stäfnerhandel 1794/1795 waren revolutionäre Tendenzen auch auf der <placeName ref="loc000066">Zürcher Landschaft</placeName> erkennbar
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/017215">Stäfnerhandel</ref></bibl>).
+Noch im Januar 1798 rief der Landvogt von <placeName ref="loc000348">Greifensee</placeName> dazu auf,
+gegenüber der Verbreitung aufrührerischer Druckschriften wachsam zu sein
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_114">SSRQ ZH NF II/3, Nr. 114</ref></bibl>).
+Wenige Wochen später brach das Ancien Régime zusammen
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/017216">Französische Revolution</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/017217">Helvetische Revolution</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/009797">Helvetische Republik</ref></bibl>).
+Alarmiert vom Heranrücken der <placeName ref="loc000281">französischen</placeName> Truppen sowie von Revolten
+auf der <placeName ref="loc009696">Basler Landschaft</placeName> und in der <placeName ref="loc008997">Waadt</placeName>,
+verkündete der <orgName ref="org002406">Zürcher Rat</orgName> am 5. Februar 1798 die Rechtsgleichheit aller Einwohner von Stadt und Land.
+Parallel dazu wurde mit der sogenannten Landeskommission eine verfassungsgebende Versammlung geschaffen,
+in welcher die Stadt zu einem Viertel und die Landschaft zu drei Vierteln vertreten sein sollte
+(<bibl><ref target="/startseite/literaturverzeichnis">Ulrich 1996</ref>, S. 498</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/007381">Zürich (Kanton)</ref></bibl>).
+Nach weiterem Druck seitens der Landbevölkerung trat der bisherige Rat am 13. März 1798 zurück
+und übertrug die Regierungsverantwortung auf die Landesversammlung, die ab dem 15. März im <placeName ref="loc008754">Zürcher Rathaus</placeName> tagte
+(<bibl><ref target="/startseite/literaturverzeichnis">Weber 1971</ref>, S. 16-25</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Vogel 1845</ref>, S. 570-577</bibl>).
+</p>
+<p>Um Sicherheit, Recht und Ordnung in dieser Übergangsphase
+gewährleisten zu können, legte die Landesversammlung am 17. März fest, 
+dass jede Kirchgemeinde aus ihrer Mitte zwei Wahlmänner bestimmt, welche die Gerichtsstellen besetzen sollen.
+Dabei wurde den Gemeinden ausdrücklich freigestellt, den bisherigen Landvogt als Gerichtsvorsteher zu behalten
+oder ihn durch denjenigen Wahlmann zu ersetzen, der das grösste Vertrauen in der Bevölkerung genoss
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=306857">StAZH K I 56 b</ref>, S. 26-27</bibl>).
+Die <orgName ref="org004883">Gemeinde <placeName ref="loc008569">Greifensee</placeName></orgName> vollzog diese Wahl am 20. März.
+Tatsächlich wählte sie neben <persName ref="per015130">Hartmann Schwerzenbach</persName>
+auch den ehemaligen Landvogt <persName ref="per010908">Andreas Schmid</persName>,
+was zeigt, dass es nicht zu einem radikalen Bruch mit den Vertretern der alten Herrschaft kam.
+</p>
+<p>Eine gewisse Kontinuität lässt sich auch bei der Buchführung feststellen,
+indem der ehemalige Landschreiber <persName ref="per014966">Hans Rudolf Hirzel</persName>
+weiterhin die Schreibarbeit ausführte und dafür das gleiche Buch verwendete,
+in das zuvor noch der Landvogt seine Missiven eingetragen hatte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_114">SSRQ ZH NF II/3, Nr. 114</ref></bibl>).
+Zugleich tragen die neuen Protokolle unverkennbar die Züge der neuen Zeit,
+indem die erwähnten Personen nicht mehr mit einer Flut von ehrerbietigen Anreden und Titeln,
+sondern alle gleichwertig als <q>Bürger</q> angesprochen werden.
+</p>
+<p>Auf Geheiss der Landesversammlung, die sich unterdessen in Kantonsversammlung umbenannt hatte,
+wählte die <orgName ref="org004883">Gemeinde <placeName ref="loc008569">Greifensee</placeName></orgName>
+an ihrer ersten Urversammlung am 29. März weitere Munizipalbeamtete für die Verwaltung der Gemeindegüter
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_116">SSRQ ZH NF II/3, Nr. 116</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

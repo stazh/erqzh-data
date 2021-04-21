@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_180_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168974">StAZH A 42.1.6, Nr. 3</idno></msIdentifier><head>Verordnung betreffend die Anlage des Friedhofes zu Predigern und dessen Abgrenzung gegenüber dem Friedhof zum Grossmünster</head><msContents><summary>Es wird die Anlegung eines neuen Friedhofs im Garten des ehemaligen Predigerklosters verordnet, da aufgrund der Seuchenzüge der vergangenen Jahre der Friedhof beim Grossmünster dermassen überbelegt ist, dass die sterblichen Überreste der Verstorbenen nicht mehr richtig verwesen können und sich schädliche Dünste ausbreiten. Der neue Friedhof soll mit geeigneten Aus- und Eingängen versehen und zu gegebenem Zeitpunkt durch eine Mauer eingefasst werden. Das Gebiet, innerhalb dessen die Toten auf dem neuen Predigerkirchhof begraben werden sollen, wird folgendermassen umrissen: In der Wacht Niederdorf bis zur Eselgasse (heute Metzgergasse), von dort bis zur Elendenherberge und die Steingasse (heute Spiegelgasse) entlang bis zum Haus des Bürgermeisters Diethelm Röist und hinaus zum Neumarkttor. Ausserhalb der Stadtmauer reicht das Gebiet vom Haus zur Krone die Zürichberger Strasse entlang auf den Zürichberg hinauf sowie nach Wipkingen. Ausserhalb davon müssen die Toten, die in den Begräbnisbereich der Stadt gehören, weiterhin beim Grossmünster bestattet werden. Da in der Kleinen Stadt noch kein Platzmangel besteht, bleiben die dortigen Friedhöfe vorerst unverändert, unter Vorbehalt späterer Massnahmen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1541-01-01" to="1541-12-31">Datierung aufgrund des Inhalts</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000238">Friedhof</term><term ref="key005395">Grabstätte</term><term ref="key003956">Seuchen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_A_42_1_6__Nr__3__r_.tif"/>
+<p>
+<app><lem/><rdg wit="StAZH B III 7, fol. 34r">Die nüw begreptnus zun <lb/><placeName ref="loc010635">Predigern</placeName></rdg></app>
+<lb/><seg>Uß thrüwer fürsorg, so unnsere gnëdigen herren unnd
+<lb/>obern von oberkeyths wëgen zu irer biderben <orgName ref="org001187">gmeynd</orgName>
+<add type="sign" place="right margin">tragen</add>, ha<lb break="no"/>bennt
+sy durch ire verordneten rathsanwält der plätzen
+<lb/>unnd begrepnissen halb (so gott wyter über unns gebyeten
+<lb/>wurde) flyssige erkhundigung thuͦn lassen unnd sovyl
+<lb/>berichts funden, das inn den nechsten jaren durch vergaande
+<lb/>thödli der kilchhof zum <placeName ref="loc007562">Großem Münster</placeName> dermaß über<lb break="no"/>schlagen
+unnd durchgraben worden, das gar wenig
+<lb/>platzes meer vorhannden. Dann so der herr mit syner
+<lb/>gewaltigen hannd fürfaren, das dann der vergrepniß<lb break="no"/>en
+halb grosser mangel wurde unnd deßhalb gar guͦt<lb break="no"/>er
+meynung zu ersetzung sollichs manngels unnd
+<lb/>unvermydenlicher not halb, diewyl die gruͦben,
+<lb/>wenn so gar vyl cörpel zuͦsamen geleyt werdennt
+<lb/>unnd nit nach nothurfft verweßen mögennd, vil bößes
+<lb/>geschmackts unnd zun zyten vyl vergiff<damage agent="ink blot"><supplied resp="msr">tet</supplied></damage>er, schaͤdlicher
+<lb/>tünsten brynngend, eynen platz oder begrepnis <del>zu</del> inn
+<lb/>der <placeName ref="loc010635">Prediger<add type="sign" place="above">garten</add></placeName> ußganngen unnd verordnet, das man
+<lb/>den yetz angends mit gepürennden in- unnd ußgänngen
+<lb/>versorgen unnd zu gelegner zyt mit eyner muren
+<lb/>eerlich infaßen wirt.</seg>
+<seg>Da wellennd sy unnd ist ir
+<lb/>geheyß, will unnd meynung, was inn den beyden
+<lb/>wachten inn <placeName ref="loc009854">Niderdorff</placeName> nunhinfür stirpt, von
+<lb/><placeName ref="loc009854">Niderdorff</placeName>
+<app><lem>durch</lem><rdg wit="StAZH B III 7, fol. 34r"/></app> uff här biß an das <placeName ref="loc010532">Eselgëßli</placeName> unnd
+<lb/>das <placeName ref="loc010532">Eselgëßli</placeName> uff by der <placeName ref="loc010417">Ellënnden Herrberg</placeName> durch<lb break="no"/>hin
+unnd die <placeName ref="loc010450">Steyngassen</placeName> nider für myns herr <persName ref="per012669">Roisten</persName><!-- Diethelm (1541 Bürgermeister) -->
+<lb/>huß uß hin biß zum <placeName ref="loc010525">Nüwmerkter Thor</placeName> unnd zum thor
+<lb/>hynuß zur <placeName ref="loc012832">Cronen</placeName>, biß an die <placeName ref="loc010893">Zürichberger Straß</placeName>
+<lb/>unnd derselben straaß richtigs nach uff biß uff den
+<lb/><placeName ref="loc010892">Zürichberg</placeName>. Was innert dißem kreyß nidtsich
+<lb/>gegen <placeName ref="loc009854">Niderdorff</placeName> sicht ald haldet, das man die
+<lb/>selben fürer nitmeer zum <placeName ref="loc007562">Münster</placeName>, sonnder all
+<lb/>uff obgemelten geordneten platz zun <placeName ref="loc010635">Predigern</placeName> vergrab<lb break="no"/>en
+unnd sy deßglychen die von <placeName ref="loc010875">Wypgingen</placeName> da<lb break="no"/>selbshin 
+zur begrepniß gehören.</seg>
+<seg>Was aber ob den
+ <pb n="2" facs="StAZH_A_42_1_6__Nr__3__v_.tif
+"/>
+<lb/>yetzernempten zylen unnd marchen ist unnd hiehar
+<lb/>zur begreptniß gehört, es syge inn oder usserthalb
+<lb/>der statt, das soll wie von alter här alles zum
+<lb/><placeName ref="loc007562">Münster</placeName> vergraben unnd hinfür also von menngklich<lb break="no"/>em
+gehalten unnd by vermydung gedachter unnser
+<lb/>herren straaff durch nyemannd überfaren werden.
+<lb/>Darumb sy es ouch üch allen hie offentlich
+<lb/>zewissen thun lassennd, das sich des wiße
+<lb/>mengklich zehalten.</seg>
+<seg>Unnd so aber inn der <placeName ref="loc010737">Cleynen
+<lb/>Statt</placeName> noch nit sonnderer mangel, lassennd sy
+<lb/>deßhalb die selben by iren alten begrepnißen be<lb break="no"/>lyben,
+allweg mit vorbehalt zu wytterer nottdurfft
+<lb/>zeordnen, das sy gedengkend loblich, nützlich unnd
+<lb/>guͦt sin.</seg>
+<seg>Gott welle unns damit syn gnad barm<lb break="no"/>hertzigklich mitteylen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Anlegung des neuen Friedhofs bei der <placeName ref="loc010606">Predigerkirche</placeName> lässt sich aufgrund eines Eintrags in den Rats- und Richtbüchern auf das Jahr 1541 datieren (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4296124">StAZH B VI 256, fol. 49r-v</ref></bibl>). In diesem werden die Anstellung eines neuen Totengräbers sowie praktische Vorkehrungen bei der Anlegung des Gräberfeldes geregelt. Bereits am 12. Oktober wurde das <placeName ref="loc010962">Spital</placeName> angewiesen, seine Toten nicht mehr zum <placeName ref="loc007562">Grossmünster</placeName> zu bringen, sondern auf dem <placeName ref="loc010635">Predigerkirchhof</placeName> zu bestatten, wobei zu diesem Zeitpunkt die Arbeiten für dessen Neuanlegung noch nicht abgeschlossen gewesen sein dürften (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302626">StAZH H II 23.3, Nr. 1</ref></bibl>). Der neue Friedhof einschliesslich der in der vorliegenden Ordnung erwähnten Mauer und Zugangstore ist im Murerplan von 1576 zu erkennen. Aus diesem wird auch ersichtlich, dass der kleinere mittelalterliche Kirchhof der <orgName ref="org004150">Dominikaner</orgName> im Zuge der Reformation zum Werkhof des <placeName ref="loc010962">Spitals</placeName> umfunktioniert worden war.</p>
+<p>Das in der vorliegenden Ordnung erwähnte Gutachten der Ratsverordneten ist ebenfalls überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3773623">StAZH B II 1080, Teil II, fol. 201r-202r</ref></bibl>). Die Verordneten besprachen angesichts der grossen Anzahl von Pesttoten eine Reihe von Vorschlägen zur Erweiterung oder Neuanlage von Friedhöfen, wobei auch Standorte ausserhalb der Stadtmauern erwogen wurden. Der <orgName ref="org002406">Rat</orgName> entschied sich jedoch letztlich für eine Lösung innerhalb der Stadt. Zur Anlage eigentlicher Notfriedhöfe vor den Stadtmauern kam es erst im Pestjahr 1611. Dabei handelte es sich um <placeName ref="loc010768">St. Leonhard </placeName> vor dem <placeName ref="loc010563">Niederdorftor</placeName> und den Krautgarten vor dem <placeName ref="loc010530">Lindentor</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 60</bibl>).</p>
+<p>Zur Neuanlage des Predigerkirchhofes vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA III.I</ref>, S. 317</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 60</bibl>; allgemein zum Begräbniswesen im vormodernen <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref></bibl>; zum <placeName ref="loc007562">Grossmünster</placeName> als Bestattungsort vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_067">SSRQ ZH NF I/1/3, Nr. 67</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

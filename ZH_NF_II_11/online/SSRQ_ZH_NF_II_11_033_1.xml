@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_033_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1172405">StAZH G I 102, fol. 34r</idno></msIdentifier><head>Eid der Leute von Fluntern, Albisrieden, Rüschlikon, Rengg, Schwamendingen und Nöschikon</head><msContents><summary></summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Nachtrag)</filiation><filiation type="original"><origDate from="1479-01-01" to="1500-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Nach 1479 aufgrund des vorhergehenden Eintrags von gleicher Hand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="34r" facs="StAZH_G_I_102__fol__34_r_.tif
+"/>
+<div><head><lb/>Der andern aller ge<lb break="no"/>richten eide, nam<subst><del>ch</del><add place="overwritten">l</add></subst>ich 
+<lb/><placeName ref="loc008707">Fluͦntern</placeName>, <placeName ref="loc010356">Rieden</placeName>, <placeName ref="loc008713">Ruͤschlikon</placeName>, 
+<lb/><placeName ref="loc012745">Rengk</placeName>, <placeName ref="loc009859">Swamendingen</placeName>
+<lb/>und <placeName ref="loc012142">Nǒschikon</placeName>. Soͤlich eide 
+<lb/>werdent ye zuͦ <date dur="R/P10Y">zechen jaren</date>
+<lb/>gesworn und ernu̍wert.</head>
+<p><lb/>Ir sollent sweren miner herren, eins <orgName ref="org004352">bropsts <lb/>und cappittels des wirdigen gotzhus zuͦ <lb/>der bropstye
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, nutz und ere, iren <lb/>frommen zuͦ fu̍rdern und iren schaden nach
+<lb/>u̍werm vermoͤgen zuͦwenden, och dem <lb/>gerichte und den gepotten eins bropsts, <lb/>sins stathalters oder des vogtz
+gehor<lb break="no"/>sam und gewerttig zuͦ sin und den rodel <lb/>mit allen sinen begryffungen, wie denn <lb/>das von
+alterhêr komen ist, zuͦhalten <lb/>tru̍wlich und
+aneallgeverd.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Dieser Aufzeichnung geht die von gleicher Hand erstellte Abschrift des Eids der Leute von <placeName ref="loc009768">Höngg</placeName> voraus, der von <date when="1479">1479</date> datiert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_032">SSRQ ZH NF II/11, Nr. 32</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

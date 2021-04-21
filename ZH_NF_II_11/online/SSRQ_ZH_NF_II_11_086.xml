@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_086</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283427">StArZH III.B.38., fol. 36r-37r</idno></msIdentifier><head>Erlass eines neuen Offnungsartikels betreffend das Holz in Seebach auf Ersuchen der Bauernschaft</head><msContents><summary>Die Bauernschaft von Seebach hat sich wiederholt beim Zürcher Rat beschwert, dass sie den zahlreichen Taunern jährlich ein Fuder Holz abzugeben hätte und dass ihre Zäune in den Wäldern und um ihre Güter beschädigt würden. Sie müssten die Zäune nach jedem Winter neu machen, was ihre Holzreserven angreife. Der Rat bekundet sein Missfallen an der Situation, verzichtet aus Gnade jedoch darauf, die Holzbussen zu erhöhen, obwohl er das Recht dazu hätte. Weil der Kelnhofer, der als Bannwart dafür zuständig wäre, nicht alle Hölzer und Felder überwachen kann, entscheidet der Rat, dass künftig alle Bewohner von Seebach sämtliche Delikte an Holz und Zäunen dem Kelnhofer zu melden haben. Der Kelnhofer soll diese Fälle dem Fraumünsterammann melden, der die Bussen einziehen soll. Niklaus Köchli, Ratsmitglied und Verwalter des Obmannamts, wird beauftragt, den Ratsentscheid der Gemeinde Seebach zu übermitteln und zu veranlassen, dass er in die Offnung aufgenommen und jährlich am Maiengericht vorgelesen wird.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1570-12-13"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="24.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1601-01-01" to="1700-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000591">Anzeigepflicht</term><term ref="key000524">Holz</term><term ref="key003752">Kelnhof</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="36r"/>
+<p><seg>
+<lb/>Nachdem myne gnedigenn herrenn von der <orgName ref="org007931">gepursame
+<lb/>zuͦ Seebach</orgName>, so die buwhöf dasëlbst innhabennd, meermalen
+<lb/>angelanngt, das inen nit allein unträglich, das sy einem
+<lb/>jedenn tagnouwer (deren äben vil by inen werinnd) <date dur="R/P1Y">alle
+<lb/>jar</date>
+<measure type="volume" unit="Fuder" commodity="wood" quantity="1">ein fuͦder holltz</measure> gebenn müssten, sonnder inen das,
+<lb/>das inen durch den ganntzenn <date period="winter">winter</date> die zün unnd zun<lb break="no"/>stäckenn,
+so sy allwägenn <date period="spring">ze usstagenn</date><!-- Wird im Tooltip nicht angezeigt, Problem ist gemeldet. --> inn hölltzern zuͦ
+<lb/>schirm der jungen höüwenn, dessglychenn umb ire
+<lb/>gmeinen ynfänng unnd gütter machtinnd, zerbrochenn
+<lb/>unnd hinwäg gethragenn wurdenn, ganntz beschwerlich
+<lb/>unnd unerlydennlich were, uss der ursach, das sy all<lb break="no"/>wëgenn
+nach ussganng dess <date period="winter">winters</date> söllich zün wider
+<lb/>machen, zuͦ wellichem sy ein grosse zal holltzes abhouwen
+<lb/>unnd bruchenn, unnd darmit ire gmeinenn hölltzer
+<lb/>(derenn doch sy nach der vile dess volcks vast wennig hetten)
+<lb/>übel geschennden unnd verwüstenn müssten, wellichs
+<lb/>inn kurtzenn zythenn inen unnd den tagnouwern zuͦ
+<lb/>grossem mangel unnd schadenn reichen wurde. Habennt
+<lb/>sy, myne gnedigenn herrenn, daran ein besonnder miß<lb break="no"/>fallenn
+empfanngen unnd wol fuͦg geheptt, ein grössere
+<lb/>buͦss, dann aber die offnung vermag, daruf zesetzenn,
+<lb/>doch uss gnaadenn habennt sy es zur jetzigenn zyt by
+<lb/>der selbenn buͦss, wie die sëlb hievor inn einem sonnder<lb break="no"/>barenn
+artigkel begriffenn, blybenn lassenn.</seg>
+<seg>Unnd
+<lb/>aber hierinen von ir aller gmeinen nutzes unnd nothurfft
+<lb/>wëgen dise enndrung unnd vebesserung gethan, diewyl
+<lb/>dem këllhofer (als der bannwart unnd verhütter der <pb n="36v"/>
+<lb/>hölltzern) nit muglich ist, an allen ortenn inn holltz
+<lb/>unnd fäld die gmeind vor schadenn zuͦvergoummen, so söllind
+<lb/>hinfür sy alle inn der gmeind zuͦ <placeName ref="loc010666">Seebach</placeName>, namlich
+<lb/>die mannss personen by iren eydenn unnd die wybs
+<lb/>personnen by iren wybplichenn thrüwenn, schuldig
+<lb/>unnd verbunden syn, wo sy gsëchinnd oder sonnst grund<lb break="no"/>tlich
+gwaar unnd innen wurdind, das einer oder eine
+<lb/>inn grünnem stänndem holltz oder an zünen, es were
+<lb/>inn holltz oder fäld, inn gmeinen oder eignen güttern,
+<lb/>freflete, unnd daselbst abhüwe ald zerbreche unnd hin<lb break="no"/>wäg
+thrüge, das verbottenn unnd einer dess nit befügt
+<lb/>were, das sëlbig myner herren kellhofer anzetzeigen
+<lb/>unnd zeleydenn, wellicher dann by synem geschwor<lb break="no"/>nen
+eydt dassëlbig einem aman zum <orgName ref="org004908">Frouwenmünst<lb break="no"/>er</orgName>
+antzeigenn, der dann die strafenn unnd buͦssenn on
+<lb/>verschonen ynntzüchenn soll. Es möchte ouch durch das 
+<lb/>zerbrëchenn unnd hinwäg trägenn der zünen schadenn
+<lb/>beschëchenn, dess were dann wennig oder vil, myne her<lb break="no"/>ren
+wurdinnd inen dess abthrags halb dess beschechnen
+<lb/>schadenns ir hannd offenn behalltenn, am sälbenn end
+<lb/>wyther zehanndlen, allwägenn nach gstallt unnd glägen<lb break="no"/>heyt 
+der sachenn.</seg>
+<seg>Damit unnd aber die ganntz
+<lb/>gmeind gewarnet unnd darnebenn berichtet wurdind
+<lb/>dess unwillenns, so gedacht myn herren ab diser unmaß
+<lb/>empfanngen, dessglychenn was darüber ir ansëchenn
+<lb/>unnd meinung syge, habennt sy das sëlb der ganntzenn
+<lb/>vollkommnen gmeind von manns personen, dessglychen <pb n="37r"/>
+<lb/>den wittwenn, so für sich sëlbs huss hannd, unnd anndern
+<lb/>frouwenn, die villicht ire mann nit anheimsch hattennd,
+<lb/>durch den frommen, wysenn, iren innsonders gethrüwen,
+<lb/>liebenn mitrath unnd verwallter dess obman ampts,
+<lb/>meister <persName ref="per025252">Niclaus Köchlin</persName>, eroffnen unnd darby antzeigenn
+<lb/>lassenn, ir wyter guͦt bedunckenn syn, das söllichs ouch
+<lb/>inn die offnung vertzeichnet unnd inen <date dur="R/P1Y">jerlich</date> am
+<lb/>meigengricht vorglësenn werde.</seg>
+<seg>Das alles hatt inen
+<lb/>ein gmeind alls ein fruchtbars unnd nothwënndigs
+<lb/>ansëchenn sëlbs ouch gfallenn lassenn unnd angnommen.
+<lb/>Ist beschëchenn <origDate when="1570-12-13">mittwuchs, denn 13. decembris anno <abbr>etc</abbr>
+<lb/>1570</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Ratsentscheid folgt in der Abschrift von <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283423">StArZH III.B.38.</ref></bibl> als Ergänzung auf die Holz- und Flurordnung von <placeName ref="loc010666">Seebach</placeName> in der 
+Fassung vom 7. März 1556 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283426">StArZH III.B.38., fol. 30r-35v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Winkler 1925</ref>, Beilage Nr. 3</bibl>).
+Dort war der Kelnhofer als Bannwart eingesetzt worden. Vgl. auch die ältere Fassung der Holz- und Flurordnung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_046">SSRQ ZH NF II/11, Nr. 46</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

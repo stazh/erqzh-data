@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_111</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1841420">StAZH C III 8, Nr. 148</idno></msIdentifier><head>Entscheid des Rechenrats betreffend Lohnerhöhung des Seeknechts von Greifensee</head><msContents><summary>Der Zürcher Rechenrat teilt dem Landvogt von Greifensee, Hans Georg Bürkli, mit, dass er auf Anfrage des Seeknechts beschlossen habe, dessen Lohn von 13 auf 16 Pfund zu erhöhen, damit dieser seinen Pflichten, der Überwachung des Greifensees und des Usterbachs, umso gewissenhafter nachkomme.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Rechenschreiber der Stadt Zürich</author><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="38.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1761-04-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000536">Fischerei</term><term ref="key000715">Gewässer</term><term ref="key000212">Löhne</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><lb/>Dem see knecht zu <placeName ref="loc008569">Greyffensee</placeName> ist auf sein
+dee<lb break="no"/>mütiges anhalten hin sein aus <measure type="currency" unit="lb" quantity="13">13 lb</measure>
+<add place="above">gelds</add> bestehende
+<lb/>belohnung der meinung um <measure type="currency" unit="lb" quantity="3">3 lb</measure> gnädig vermehrt
+<lb/>und also auf <measure type="currency" unit="lb" quantity="16">16 lb</measure> gesezt worden, daß er seinen
+<lb/>pflichten, so wol über beobachtung des
+<placeName ref="loc008718">Greiffen<lb break="no"/>sees</placeName> als aber des <placeName ref="loc008848">Uster Bachs</placeName> mit vermehrter
+<lb/>aufmerksamkeit nachkomme und in kein weg an
+<lb/>selbiger etwas versaume oder vernachläßige.</p>
+<p><lb/>Actum <origDate when="1761-04-14">dienstags, den 14<hi rend="sup">ten</hi>
+<choice><abbr>apr</abbr><expan>april</expan></choice> 1761</origDate>,
+<lb/>coram <orgName ref="org004911">rechen raht</orgName>.</p>
+<p><lb/><orgName ref="org004911">Rechenschreibers cantzley</orgName>.</p>
+<pb n="v"/>
+<div>
+<ab type="address" place="verso"><lb/>Herren <choice><abbr>landt</abbr><expan>landtvogt</expan></choice>
+<persName ref="per014956">Bürkli</persName><note><persName ref="per014956">Hans Georg Bürkli</persName>
+amtierte von 1760 bis 1766 als Vogt in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 112</bibl>).</note>
+<lb/>zu <placeName ref="loc000348">Gryffensee</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Belohnung des seeknechts
+<lb/>de anno <origDate when="1761">1761</origDate>.</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Das Amt des Seeknechts wurde 1650 geschaffen, um die Einhaltung der Fischereinung zu kontrollieren und fehlbare Fischer beim Vogt anzuzeigen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_097">SSRQ ZH NF II/3, Nr. 97</ref></bibl>).
+Als Seeknechte amtierten stets Mitglieder der Familie <orgName ref="org004877">Brauch</orgName> aus <placeName ref="loc008569">Greifensee</placeName>;
+zum Zeitpunkt der vorliegenden Aufzeichnung übte <persName ref="per014898">Melchior Brauch</persName> dieses Amt aus,
+der 1768 vor Gericht stand, weil er die Fischer dazu aufgefordert hatte, ihn trotz Verbot mit Fischen zu beliefern
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1841351">StAZH C III 8, Nr. 81</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_056_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1534001">StAZH A 85, Nr. 7</idno>
+</msIdentifier>
+<head>Erneuerte Einung der Fischer vom Greifensee sowie weitere Bestimmungen über die Fischerei</head>
+<msContents>
+<summary>Vor dem Bürgermeister und Rat der Stadt Zürich wird der Eid, den die Fischer vom Greifensee jährlich schwören sollen, erneuert und
+um weitere Bestimmungen ergänzt. Weil verschiedene Weidleute sich beklagt haben, dass die Garne zu eng geknüpft seien, wird bestimmt, dass
+keines enger als das vorgegebene Brettli sein dürfe (33). Der Vogt von Greifensee solle seiner Aufsichtspflicht nachkommen und alle büssen,
+die gegen diese Regelungen verstossen (34).</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Aufzeichnung, Heft (8 Blätter)</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="31.5"/>
+<width unit="cm" quantity="22.0"/>
+</dimensions></extent>
+<condition>Restauriert</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate when="1519-07-06"/></origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000179">Eid</term>
+<term ref="key000536">Fischerei</term>
+<term ref="key004022">Satzung</term>
+<term ref="key005446">Umweltschutz</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head><lb/>An <origDate when="1519-07-06">mittwûchen nach sannt <persName ref="per000356">Ûlrichs</persName> tag, im <lb/>fuͦnff
+zechennhunderten unnd nün zechenden <lb/>jar</origDate>, sind vor minen herren <orgName ref="org002406">burgermeister <lb/>unnd rat der stat
+<placeName ref="loc000065">Zurich</placeName></orgName> dis hernach volgend <lb/>stuck innschrifft genomen, so die vischer <lb/>im
+<placeName ref="loc008718">Griffennse</placeName>
+<date dur="R/P1Y">jerlich</date> schweren soͤllent zuͦ halten.<note>Obwohl der nachfolgende Text grösstenteils mit der Fischereinung von
+1428 übereinstimmt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>), wurde deren Einleitung hier
+angepasst, indem man das Datum durch das aktuelle ersetzte und hinzufügte, dass diese Bestimmungen durch Bürgermeister und Rat erlassen
+worden seien. </note></head>
+<pb n="1-7"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 17"/></p>
+<pb n="7-9"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 19"/></p>
+<pb n="9-15"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 22"/></p>
+<pb n="15"/>
+<seg n="33"><p><lb/>Und alls etlich weidlût sich klagent, das <lb/>der geren an den garnen zuͦ eng gebretten <lb/>sig, da sol hinfûr keiner
+ennger und <lb/>anders breͣten, dann über das britli, so deß<lb break="no"/>halb angezeigt und gegeben ist.</p>
+</seg>
+<seg n="34"><p><lb/>Und sol ein vogt von <placeName ref="loc000348">Griffennse</placeName> ein getrûw, <lb/>vlissig uffsehen haben,
+<del>wo</del> und all die, so <lb/>hierwider thuͦnd, <unclear>merken</unclear>, und die buͦssen, <lb/>so si insoͤllichem verfallennt,
+gestracks <lb/>und on gnad von inen inzuͦchen. <lb/>Dann thaͤte das ein vogt nit, und minen <lb/>herren von im fuͦrkem, wûrde er gestrafft
+<lb/>in massen, das er welte, er hete das thon, <lb/>so im von minen herren bevolhen ist.</p>
+</seg>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Neufassung der Fischereinung basiert auf der Redaktion in <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=762382">StAZH A 85, Nr. 3</ref></bibl>, da alle dortigen Nachträge übernommen
+wurden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_022">SSRQ ZH NF II/3, Nr. 22</ref></bibl>). Indessen wurden nun sämtliche Hinweise
+auf frühere Verfahren eliminiert, indem man das Datum der ersten Fassung (<origDate when="1428-04-06">6. April 1428</origDate>) sowie des
+Beschlusses vom <origDate when="1431-05-02">2. Mai 1431</origDate> beiseite liess, wodurch die verschiedenen Nachträge als Text aus einem
+Guss erscheinen. Als Handelnde treten hier nicht mehr die Fischer in Erscheinung, sondern <orgName ref="org002406">Bürgermeister und Rat von
+<placeName ref="loc000065">Zürich</placeName></orgName>. Die genossenschaftlich organisierte Einung mutierte dadurch zur obrigkeitlichen
+Satzung.</p>
+<p>Im Vorfeld dieser Neufassung hatte der Rat wiederholt gemahnt, dass man mit den Fischbeständen im <placeName ref="loc008718"
+>Greifensee</placeName> und in der <placeName ref="loc010439">Glatt</placeName> sorgfältiger umzugehen habe (<bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919093">StAZH A 85, Nr. 5</ref></bibl>), und entsprechende Regelungen erlassen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919930">StAZH A 85, Nr. 8</ref></bibl> und <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919931">9</ref></bibl>). Ebenfalls in Zusammenhang mit der vorliegenden
+Neufassung äusserten die verschiedene Gruppen von Fischern – die Garner, Berer und Netzer – ihre unterschiedlichen Anliegen (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_055">SSRQ ZH NF II/3, Nr. 55</ref></bibl>). </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_100_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1916592">StAZH B III 6, fol. 164r-167v</idno></msIdentifier><head>Blutgerichtsordnung der Stadt Zürich, Teil 2</head><msContents><summary>Die Ordnung regelt die Verlesung des Geständnisses des Angeklagten sowie des durch das Malefizgericht gefällten Urteils. Es werden die Urteilsformeln für folgende Bestrafungen einzeln geregelt: Schlagen mit Ruten; Ohren Abschneiden; Schwemmen; Einmauern; Ausstechen der Augen; Abschneiden der Zunge und der Schwurfinger; öffentliche Abbitte des Delinquenten auf den Kanzeln von Grossmünster und Sankt Peter; Ertränken; Enthaupten; Henken; Henken und Verbrennen; Rädern; Rädern, Henken und Verbrennen; Pfählen; Lebendig Begraben. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Schauberg, Zürcherische Rechtsquellen, Nr. 33, S. 374-391</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Ott, Rechtsquellen, Teil 1, S. 111, Nr. 429 (Dipl. Nr. 1232)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000482">Blasphemie</term><term ref="key000590">Delinquenz</term><term ref="key000291">Diebstahl</term><term ref="key003369">Folter</term><term ref="key000506">Friedbruch</term><term ref="key000057">Gericht</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000957">Meineid</term><term ref="key000954">Mord</term><term ref="key004677">Richtstätte</term><term ref="key000604">Todesstrafe</term><term ref="key001047">Wallfahrt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="164r" facs="StAZH_B_III_6__fol__164_r_.tif"/>
+<head><lb/>So man u̍ber das bluͦtt hatt gericht, <lb/>wie man die vergicht unnd urtel <lb/>sol leßenn</head>
+<p>
+<lb/>N von N, der da gegenwu̍rtig statt, hatt verjaͤchenn, dis nach<lb break="no"/>geschribenn
+hab er verstoln oder einenn gemurdt <abbr>etc</abbr>.
+</p>
+<head type="subtitle"><lb/>Von ruͦten ussschlachen</head>
+<p>
+<lb/>Umb sollich diebstal, u̍bel unnd misstuͦn ist von dem ge<lb break="no"/>nanten
+N nach gnadenn unnd also gericht, das er dem
+<lb/>nachrichter befolchenn werdenn, der im alle sine kleider
+<lb/>bis an das niderkleid abziechenn unnd sine hend hinder sich
+<lb/>bindenn unnd inn an ein seyl naͤmmenn unnd mit guͦten
+<lb/>birchinen ruͦten anfachen schlachenn unnd inn all gmechlich
+<lb/>bis fu̍r das thor in <placeName ref="loc009854">Niderdorff</placeName><note>Zum <placeName ref="loc010563">Niederdorftor</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 102-103</bibl>.</note> fuͤren unnd da zwuschent
+<lb/>die ruͦten nit sparenn unnd dann genanter N ein
+<lb/>urfechdt schweren, in unnser statt <placeName ref="loc000065">Zu̍rich</placeName> noch dero gericht
+<lb/>noch gepiet niemer mer zekommen. Unnd sol damit
+<lb/>dem gericht unnd raͤchtenn gebuͤst habenn.
+</p><p>
+<lb/>Unnd ob yemas, wer der wer, sollich straff aͤfferti oder andoty
+<lb/>mit wortenn ald werckenn, heimlich oder offennlich, ald
+<lb/>das schuͤffy gethan werdenn, das der unnd die selbenn in
+<lb/>den schulden sin soͤllent, darinn der genampt N yetz gegen<lb break="no"/>wu̍rtig statt.
+</p>
+<head type="subtitle"><lb/>Von ruͦten usschlachenn</head>
+<p>
+<lb/>Umb sollich diebstal unnd missthuͦn ist von dem genanten N
+<lb/>nach gnadenn, in ansechung siner jugent, also gericht, das
+<lb/>er dem nachrichter befolchenn werdenn, der im sine kleider
+<lb/>biss uff sin weichs ussziechenn, sine hend bindenn unnd
+<lb/>inn demnach von dem <placeName ref="loc008753">Fischmerckt</placeName><note>Zum <placeName ref="loc008753">Fischmarkt</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 43</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA III.II</ref>, S. 64</bibl>.</note> die strass hinuss mit
+<lb/>ruͦtenn fu̍r das thor in <placeName ref="loc009854">Niderdorff</placeName> schlachenn. Unnd das
+<lb/>dann der genampt N ein urfechdt schwerenn soͤlle, in
+<pb n="164v" facs="StAZH_B_III_6__fol__164_v_.tif"/>
+<lb/>unnser statt <placeName ref="loc000065">Zu̍rich</placeName> noch dero gemeine gericht unnd gepiet niemer
+<lb/>mer zekomenn. Und das er damit dem gericht ge<lb break="no"/>buͤst habe.
+</p><p>
+<lb/>Unnd ob jemand, wer der were, der sollichs aͤfferty oder andoty
+<lb/>mit worten oder werchenn, <abbr>etc</abbr>. 
+</p>
+<head type="subtitle"><lb/>Umb orenn abschnidenn</head>
+<p>
+<lb/>Umb sollich diebstal ist von dem genantenn N nach gnaden
+<lb/>unnd also gericht, inn dem nachrichter zuͦbefelchenn,
+<lb/>der inn in das hallßysen<note>Das Halseisen erfüllte die Funktion eines Prangers, wobei die Verurteilten mittels eines eisernen Ringes, der um den Hals gelegt wurde, festgekettet waren. Es befand sich auf dem <placeName ref="loc008753">Fischmarkt</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 43</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA III.II</ref>, S. 64</bibl>). Bis zur Reformation verfügte ausserdem das <orgName ref="org004352">Grossmünster</orgName> über ein eigenes Halseisen zur Bestrafung von Delinquenten, die seiner Gerichtsherrschaft unterstanden. Zu dessen Lage vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 188</bibl>.</note> stellenn unnd darinn <time dur="PT2H">zwo stund</time>
+<lb/>stan lassenn unnd demnach daruss naͤmmenn und im
+<lb/>sine beide oren abschnidenn. Ouch er, genanter N, ein
+<lb/>urfechdt thuͦon unnd darinn schweren sol, u̍ber <placeName ref="loc008199">Rhin</placeName>
+<measure type="length" quantity="4" unit="Meile">vier
+<lb/>mil</measure> wegs unnd in die <placeName ref="loc000153">Eidtgnoschafft</placeName> niemer mer ze<lb break="no"/>kommenn.
+Unnd umb soͤllichs damit dem gericht
+<lb/>unnd raͤchtenn gebuͤst habenn.
+</p>
+<head type="subtitle"><lb/>Umb schwemmenn</head>
+<p>
+<lb/>Umb sollichenn schantlichenn, lasterlichenn lug unnd
+<lb/>gros u̍bell ist von dem genanten N nach gnad unnd
+<lb/>also gericht, das er dem nachrichter befolchenn werdenn,
+<lb/>der inn in das halßysenn stellenn unnd <time dur="PT2H">zwo stund</time> darinn
+<lb/>lassenn ston unnd demnach daruss naͤmmen unnd
+<lb/>by dem <placeName ref="loc010447">Ru̍denn</placeName><!-- Haus zum Rüden --> nebent ein schiff in das wasser legenn
+<lb/>unnd da dannenn in dem wasser bis in <placeName ref="loc009854">Niderdorff</placeName> zuͦ
+<lb/>der undern badstubenn an das land schwemmen unnd
+<lb/>demnach uff ein urfecht ledig gelassen unnd och 
+<lb/>in dem selben urfechdt schweren, <measure type="length" unit="Meile" quantity="4">vier mil</measure> u̍ber den
+<lb/><placeName ref="loc001088">Gothart</placeName> unnd nit mer haru̍ber. Unnd sol damit
+<lb/>der genant N dem gericht unnd raͤchtenn gebuͤst
+<lb/>habenn.
+</p><p>
+<lb/>Umb ob jemas, wer der were, <abbr>etc</abbr>.
+</p>
+<pb n="165r" facs="StAZH_B_III_6__fol__165_r_.tif"/>
+<head type="subtitle"><lb/>Umb vermurenn<note>Belege für die praktische Anwendung dieser Strafe sind sehr selten. In den Rats- und Richtbüchern findet sich ein einziger Fall aus dem Jahr 1487, bei dem eine der Hexerei beschuldigte Frau eingemauert wurde. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wettstein 1958</ref>, S. 129</bibl>.</note></head>
+<p>
+<lb/>Umb sollich u̍bell unnd misstuͦn ist von dem genantenn N
+<lb/>inbetrachtung allerley ursachen nach gnaden und also
+<lb/>gericht, das N unnd N, unser stattbuwmeister, unnd N, unser
+<lb/>ratsfru̍nd, an fuͦgklichenn endenn, so inen gefalt, den genanten
+<lb/>N vermuren lassenn soͤllint. Also, das inn son noch mon le<lb break="no"/>bendig
+niemer mer beschyne unnd dhein gesicht in noch uss
+<lb/>habenn, dann obenn ein loͤchly, da der dunst etwaͧs von
+<lb/>im gon unnd man im das essenn hinin gebenn mug unnd
+<lb/>sust niemas mit <app><lem>ir</lem><rdg wit="StAZH B III 5, fol. 540v"/></app> zuͦ red kommen unnd des <date dur="R/P1D">tags</date> ein mal
+<lb/>zuͦ essenn gebenn unnd er also darinn ligenn unnd
+<lb/>blibenn, biss er erstorbenn ist. Unnd dann dem
+<lb/>nachrichter sinenn lib befolchenn werdenn, der den hinuss
+<lb/>uff das <placeName ref="loc010517">Gryen by der Syl</placeName><note>Es handelte sich dabei um Schotterbänke der <placeName ref="loc010519">Wilden Sihl</placeName> in der Nähe der heutigen <placeName ref="loc010742">Sihlbrücke</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 43</bibl>).</note> fuͤren unnd da verbrennenn,
+<lb/>das fleisch unnd gebein zuͦ eschen werd. Unnd das damit
+<lb/>der genampt N dem gericht unnd raͤchtenn sol gebuͤsst
+<lb/>habenn.
+</p>
+<head type="subtitle"><lb/>Umb ougen ußstechenn</head>
+<p>
+<lb/>Umb sollich u̍bell unnd misstuͦn ist von dem genanten N
+<lb/>gericht, das er dem nachrichter befolchenn werden, der
+<lb/>inn bindenn unnd hinuss in die houptgruͦben<note>Die Hinrichtungsstätte, auch als <orig>wallstatt</orig> bezeichnet, befand sich bei der heutigen Verzweigung von <placeName ref="loc010367">Badenerstrasse</placeName> und <placeName ref="loc010360">Ankerstrasse</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 42-43</bibl>).</note> fuͤren unnd
+<lb/>im da sine beide ougenn uss sinem houpt stechenn unnd inn
+<lb/>erblendenn unnd inn demnach wider entbindenn unnd
+<lb/>schweren lassenn einen eyd, <measure type="length" unit="Meile" quantity="5">funff myl</measure> wegs von unnser statt
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> unnd niemer mer naͤher darzuͦ zekommen. Und
+<lb/>sol damit dem gericht unnd raͤchtenn gebuͤst habenn.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+<pb n="165v" facs="StAZH_B_III_6__fol__165_v_.tif"/>
+<head type="subtitle"><lb/>Umb zungenn unnd finger abhowen</head>
+<p>
+<lb/>Umb sollichenn meineyd unnd u̍bersechenn des geschwornen
+<lb/>urfechds ist von dem genanten <add place="above">N</add> gericht, das er dem nach<lb break="no"/>richter
+befolchenn werden, der im by dem stock die <num value="2">zwen</num>
+<lb/>finger, so er uffgehept, da er sollichenn eyd gethan, und sin
+<lb/>zungenn, damit er sollichen eyd geschworn hatt, abhowenn.
+<lb/>Unnd sol damit der genampt N dem gericht unnd
+<lb/>raͤchtenn gebuͤst habenn.
+</p>
+<head type="subtitle"><lb/>Uff die cantzlenn zestellen</head>
+<p>
+<lb/>Von sollicher wortenn waͤgen ist von dem genanten N
+<lb/>uff pitt siner fru̍ndenn unnd nach gnaden also gericht,
+<lb/>das uff yetz <date period="P1WD">sontag</date> nechstku̍nfftig <num value="2">zwen</num> unser stattknecht
+<lb/>inn uss gefencknuss naͤmmen unnd inn an beid cantzlen
+<lb/>zuͦ dem <placeName ref="loc007562">Mu̍nster</placeName> unnd zuͦ <placeName ref="loc010769">Sannt Petter</placeName> am <time period="morning">morgenn</time>
+<lb/>vor der bredy stellenn unnd er redenn soͤll, er habe
+<lb/>wider gots ere etwas schantlicher wortenn gerett, darumb
+<lb/>er mencklichen pitt, gott fu̍r inn zuͦbitten, das er im
+<lb/>sin su̍nd vergeb <app><lem><hi rend="underline">unnd demnach in <date dur="P8D">acht tagenn</date> gan <placeName ref="loc000085">Ein<lb break="no"/>sidlenn</placeName><note>Die Verhängung von Busswallfahrten als Strafe war in der spätmittelalterlichen <placeName ref="loc000153">Eidgenossenschaft</placeName> an verschiedenen Orten gebräuchlich, ausserhalb davon jedoch nur in den <placeName ref="loc007055">Niederlanden</placeName> als fester Bestandteil der Rechtsordnung belegt. In <placeName ref="loc000065">Zürich</placeName> war während des späten 15. und frühen 16. Jahrhunderts <placeName ref="loc000085">Einsiedeln</placeName> mit Abstand des häufigste Ziel von Busswallfahrten. Die Verpflichtung zur dortigen Beichte wurde vornehmlich bei leichteren Vergehen verhängt, wobei es sich in allen Fällen um reduzierte Strafen aufgrund von Gnadengesuchen der Verurteilten oder ihrer Angehörigen handelte. Zu den in Frage kommenden Delikten gehörten neben dem in der vorliegenden Ordnung erwähnten Fluchen auch unerlaubter Solddienst sowie Inzest. Die Verurteilten hatten nach ihrer Rückkehr dem <orgName ref="org002406">Rat</orgName> eine Bescheinigung über die absolvierte Beichte vorzulegen, wobei zu diesem Zweck in <placeName ref="loc000085">Einsiedeln</placeName> auch gedruckte Formulare in Gebrauch waren. Beispiele solcher gedruckter Bescheinigungen sind aus dem Jahr 1521 von Teilnehmern des sogenannten Piacenzerzugs erhalten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301249">StAZH A 209.2, Nr. 84 a-d</ref></bibl>). Zu den Busswallfahrten vgl.  <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2007d</ref>, S. 330-333</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Morf 1969</ref>, S. 183</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1942</ref>, S. 78</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1941</ref>, S. 57; 152-153</bibl>; speziell zu den <placeName ref="loc000085">Einsiedler</placeName> Beichtbescheinigungen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2007d</ref>, S. 291-292.</bibl></note>
+gan, das bichtenn unnd buͤssen unnd des urkund
+<lb/>bringenn.</hi></lem><rdg wit="StAZH B III 5, fol. 541r"/></app> Unnd darzuͦ sol er hinfuͤr in dhein urtenn
+<lb/>gan, biss uff miner herren gnad unnd sol ouch schweren
+<lb/>ein urfechdt, sollichs nit zuͦrechen.
+</p>
+<head type="subtitle"><lb/>Von ertrencken</head>
+<p>
+<lb/>Umb sollich diebstal, u̍bell unnd misstuͦn ist von dem
+<lb/>genanten N also gericht, inn dem nachrichter zuͦbe<lb break="no"/>felchenn,
+der im sin hend bindenn unnd inn in einem
+<lb/>schiff zuͦ dem <placeName ref="loc010565">Nidern Hu̍ttly</placeName><note>Zum <placeName ref="loc010565">Niederen Hüttli</placeName>, das auch unter dem Namen <placeName ref="loc010565">Fischerhüttli </placeName> bekannt war, vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 43</bibl>. Von dort aus wurde im Januar 1527 der prominente Täufer <persName ref="per014995">Felix Manz </persName> ertränkt. Sein Todesurteil folgt dem hier wiedergegebenen Formular (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_139">SSRQ ZH NF I/1/3, Nr. 139</ref></bibl>).</note> fuͤren unnd uff das hu̍ttli
+<lb/>setzen und im die hend also gebunndenn u̍ber die knu̍
+<pb n="166r" facs="StAZH_B_III_6__fol__166_r_.tif"/>
+<lb/>abstreiffenn unnd ein knebell <del>d</del> zwu̍schenn den armen
+<lb/>unnd den schencklenn durchhin stossenn unnd <app><lem>sy</lem><rdg wit="StAZH B III 5, fol. 541r">inn</rdg></app> allso
+<lb/>gebundenn in das wasser werffenn unnd in dem wasser
+<lb/>sterbenn unnd verderben lassenn. Unnd er damit
+<lb/>dem gericht unnd raͤchten gebuͤßdt habenn soͤll.
+</p>
+<head type="subtitle"><lb/>Umb schwuͤr unnd gotslestrung</head>
+<p>
+<lb/>Als uff N, der da gegenwu̍rtig statt, mit geschwornenn
+<lb/>eydenn von erbernn lu̍tenn kuntlich wordenn, das er
+<lb/>dis nachgeschribenn schwuͤr gethan hab, namlich: <app><lem><q>Das dich
+<lb/>gots</q></lem><rdg wit="StAZH B III 5, fol. 541v"/></app>
+<abbr>etc</abbr>, ist von dem selbenn N umb sollich boͤss uncri<lb break="no"/>stenlich
+schwuͤr unnd gotslestrung also gericht.
+</p>
+<head type="subtitle"><lb/>Umb enthoptenn</head>
+<p>
+<lb/>Umb sollich u̍bell unnd missthuͦn ist von dem genanten <app><lem/><rdg wit="StAZH B III 5, fol. 542r">N</rdg></app>
+<lb/>also gericht, das er dem nachrichter befolchenn werden,
+<lb/>der im sin hend bindenn unnd inn hinuss in die <app><lem/><rdg wit="StAZH B III 5, fol. 542r">gwonlich</rdg></app> wallstatt
+<lb/>fu̍renn unnd im daselbs mit einem schwert sin houpt
+<lb/>von sinem lib schlachenn, das zwu̍schenn sinem coͤrpell
+<lb/>unnd houpt ein wagenrad gan mug. Unnd das er
+<lb/>damit dem gericht <app><lem/><rdg wit="StAZH B III 5, fol. 542r">und rechten</rdg></app> gebuͤst habenn sol.
+</p>
+<head type="subtitle"><lb/>Umb fridbruch</head>
+<p>
+<lb/>Als N von N, der da gegenwu̍rtig statt, N von N by nacht
+<lb/>unnd nebell schantlich, lasterlich unnd mortlich vom lebenn
+<lb/>zum tod gepracht unnd zerhowen hatt, alles u̍ber unnd
+<lb/>wider geschwornen friden, darinn sy gegeneinandernn
+<lb/>gestanden sind, wie sich das durch geschworne kuntschafft
+<lb/>unnd sin eigenn vergicht erfunden hatt, ist umb
+<lb/>sollich gros u̍bell unnd missthuͦn, wiewol von im
+<lb/>mit dem rad, als zuͦ einem moͤrder gericht moͤcht worden
+<lb/>sin, nach gnaden unnd also gericht, wie <app><lem>enthopten</lem><rdg wit="StAZH B III 5, fol. 542r">hirob dess enthouptens halber, <abbr>etc</abbr>.</rdg></app>.</p>
+<pb n="166v" facs="StAZH_B_III_6__fol__166_v_.tif"/>
+<head type="subtitle"><lb/>Umb henckenn</head>
+<p>
+<lb/>Umb sollich diebstall, u̍bell unnd missthuͦn ist von dem <choice><abbr>gnt</abbr><expan>genanten</expan></choice> N
+<lb/>gericht also, das er dem nachrichter befolchenn werden,
+<lb/>der im sin hend hindersich binden, ouch im sine ougenn
+<lb/>verbindenn unnd inn hinuss zuͦ dem galgen<note>Der Galgen befand sich auf dem heutigen Gelände des städtischen Freibads <placeName ref="loc010528">Letzigraben</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Brunner et al. 2008</ref>, S. 71-72</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 41-42</bibl>).</note> fuͤrenn
+<lb/>unnd inn an den galgenn henckenn unnd an dem galgen
+<lb/>unnd in dem lufft sterbenn unnd verderbenn lassenn.
+<lb/>Unnd er damit dem gericht gebuͤst habenn soͤlle.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+<head type="subtitle"><lb/>Umb hencken unnd verbrennen</head>
+<p>
+<lb/>Umb sollich diebstall, ketzery, gros u̍bell unnd missthuͦn
+<lb/>ist von dem genanten N also gericht, inn dem nachrichter
+<lb/>zuͦbefelchenn, der im sin hend hindersich uff sinenn
+<lb/>ruggen ouch sine ougenn verbindenn unnd inn hinuss
+<lb/>zuͦ der <placeName ref="loc010518">Syl</placeName> uff das <placeName ref="loc010517">Gryen</placeName> fuͤrenn, daselbs uff ein hurd
+<lb/>setzenn unnd an <del>ened</del> ein stud bindenn, ouch einen
+<lb/>galgenn an die stud machenn unnd im einen strick an
+<lb/>sinenn halss leggen unnd inn an den galgen henckenn
+<lb/>unnd also uff der hurd an der stud unnd an dem galgen
+<lb/>verbrennenn soͤlle, das sin fleisch unnd gebein zuͦ
+<lb/>eschenn werde. Unnd er damit dem gericht unnd
+<lb/>raͤchtenn gebuͤst habenn.<note>Das Verbrennen (normalerweise ohne vorheriges Hängen) war die gängige Hinrichtungsform von Frauen, die wegen Hexerei verurteilt worden waren. Die hier wiedergegebene Urteilsformel findet sich daher am Ende zahlreicher Hexenprozesse, vgl. dazu das Todesurteil gegen <persName ref="per014339">Verena Diener</persName> von <placeName ref="loc008729">Pfäffikon</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_129">SSRQ ZH NF I/1/3, Nr. 129</ref></bibl>). Wegen Homosexualität verurteilte Angeklagte wurden ebenfalls am häufigsten verbrannt. Bei insgesamt zwölf dokumentierten Fällen zwischen 1400 und 1600 wurde neun Mal der Tod durch Verbrennen verhängt, zwei Mal durch Enthaupten und nur einmal durch Hängen (<bibl><ref target="/startseite/literaturverzeichnis">Puff 2003</ref>, S. 183-189</bibl>). Das Urteil im prominenten Fall des 1482 wegen Homosexualität mit dem Feuertod bestraften <placeName ref="loc000140">elsässischen</placeName> Adligen <persName ref="per015010">Richard Puller von Hohenburg</persName> entspricht ebenfalls der in der vorliegenden Ordnung genannten Formel (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301739">StAZH B VI 239, fol. 234 r-v</ref></bibl>).</note>
+</p>
+<head type="subtitle"><lb/>Umb radprechenn</head>
+<p>
+<lb/>Umb sollich gros mord, u̍bell unnd misstuͦn ist von dem ge<lb break="no"/>namptenn
+<add place="above">N</add> also gericht, inn dem nachrichter zuͦbefelchen,
+<lb/>der inn bindenn, sine fuͤss zuͦsamen stricken unnd inn
+<lb/>uff ein brett ru̍gglingenn legenn, sin fuͤss einem ross
+<lb/>an den schwantz bindenn und inn mit dem ross hinuss
+<lb/>uff die waldstatt schleipffen unnd im daselbs sin arm
+<lb/>vor unnd hinder der elbogenn, <app><lem>ob</lem><rdg wit="StAZH B III 5, fol. 543r">ouch</rdg></app> sine beyn, ob unnd nidt
+<pb n="167r" facs="StAZH_B_III_6__fol__167_r_.tif"/>
+<lb/>den knuyenn, unnd darnach sinenn ruggenn mit einem rad
+<lb/>zerstossenn unnd zerbrechenn unnd <del>er</del> inn dannathin
+<lb/>in das rad flechtenn unnd das rad an ein stang stossenn
+<lb/>unnd inn also in den lu̍fft uffrichtenn unnd in dem rad
+<lb/>unnd lu̍fft lassenn sterben unnd verderbenn. Unnd er
+<lb/>damit dem gericht unnd raͤchtenn gebuͤst habenn sol.
+</p>
+<head type="subtitle"><lb/>Umb radprechen, henckenn <lb/>und brennenn</head>
+<p>
+<lb/>Umb sollich gros moͤrdery, ketzery, diebstal, u̍bell unnd miß<lb break="no"/>thuͤn
+ist von dem genanten N also gericht, inn dem
+<lb/>nachrichter zuͦbefelchenn, der im sin hend bindenn, sine ougen
+<lb/>verbindenn, sine fuͤss zuͦsamen strickenn unnd inn rugg<lb break="no"/>lingenn 
+uff einenn ladenn leggenn, ouch sin fuͤss eim
+<lb/>ross an den schwantz bindenn unnd inn uff dem ladenn
+<lb/>mit dem ross hinuss zuͦ der <placeName ref="loc010518">Sylen</placeName> uff das <placeName ref="loc010517">Gryen</placeName> fuͤrenn
+<lb/>unnd schleipffen unnd im daselbs sin arm vor unnd
+<lb/>hinder der elnbogenn, ouch sin bein ob unnd nidt dem
+<lb/>knu̍ unnd demnach sinem ruggenn mit einem
+<lb/>rad zerstossenn unnd zerbrechenn unnd inn dannanthin
+<lb/>in das rad flechtenn unnd inn uff dem rad an einenn
+<lb/>galgenn henckenn unnd darnach mit dem rad unnd
+<lb/>dem galgenn in das fu̍r stellenn unnd inn uff dem rad
+<lb/>unnd am galgenn verbrennenn, also, das sin fleisch
+<lb/><app><lem>unnd</lem><rdg wit="StAZH B III 5, 543v">zuͦ</rdg></app> gebein <app><lem>zuͦ</lem><rdg wit="StAZH B III 5, fol. 543v">und</rdg></app> eschenn werde. Unnd das er
+<lb/>damit dem gericht unnd raͤchtenn gebuͤst habenn soͤlle.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+<head type="subtitle"><lb/>Umb ketzery</head>
+<p>
+<lb/>Umb sollich ketzery, gros u̍bell unnd missthun ist von dem
+<lb/>genanten N gericht, das er dem nachrichter befolchen
+<lb/>werden, der im sin hend bindenn unnd inn hinuss <del>uff</del>
+<lb/><add place="left margin">an</add> die <placeName ref="loc010518">Syl</placeName> uff das <placeName ref="loc010517">Gryen</placeName> fuͤrenn unnd inn daselbs uff
+<pb n="167v" facs="StAZH_B_III_6__fol__167_v_.tif
+"/>
+<lb/>ein hurd setzenn unnd an ein stud bindenn unnd inn uff
+<lb/>der hurd unnd an der stud brennenn, das sin fleisch unnd
+<lb/>gebein zuͦ eschenn werde. Unnd das er damit dem
+<lb/>gericht unnd raͤchtenn gebuͤst habenn sol.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+<head type="subtitle"><lb/>Umb pfaͤlenn</head>
+<p>
+<lb/>Umb sollichenn notzog, u̍bell unnd misstuͦn ist von dem
+<lb/>genanten N gericht, das er dem nachrichter befolchenn
+<lb/>werdenn, der im sin hend bindenn unnd hinuss zuͦ
+<lb/>der waldstatt fuͤren unnd im dann sin fuͤss ouch
+<lb/>bindenn unnd inn an den ruggen leggen unnd einen
+<lb/>eichinen pfal durch sinen lib schlachenn unnd allso
+<lb/>gebundenn und an dem pfal lassenn sterbenn unnd
+<lb/>verderben. Unnd sol damit der genampt N dem
+<lb/>gericht unnd raͤchten gebuͤst habenn.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+<head type="subtitle"><lb/>Umb lebendig vergraben</head>
+<p>
+<lb/>Umb sollich gros mord, u̍bell unnd misstuͦn ist von der genanten N
+<lb/>also gericht, das sy<note>Der Text wechselt hier in die weibliche Form, da das Lebendig Begraben fast ausschliesslich für Frauen angewendet wurde (<bibl><ref target="/startseite/literaturverzeichnis">Wettstein 1958</ref>, S. 128</bibl>).</note> dem nachrichter befolchen werden,
+<lb/>der iro ir hend binden unnd si hinuss an die waldstatt
+<lb/>fuͤrenn unnd daselbs ein grab machenn unnd si lebendig
+<lb/>darin und ein bu̍rdy thoͤrn under sy unnd eine uff si
+<lb/>legenn unnd si damit vergrabenn unnd also
+<lb/>in dem grab zwu̍schent den doͤrnen lassenn sterbenn
+<lb/>unnd verderben, ouch da blibenn. Und sol die
+<lb/>genant N damit dem gericht unnd raͤchtenn gebuͤst haben.
+</p><p>
+<lb/>Unnd ob jemas <abbr>etc</abbr>.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bei der vorliegenden Ordnung handelt es sich um einen Anhang zur Blutgerichtsordnung, die im Satzungsbuch von 1515-1518 erstmals ausführlich verschriftlicht wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_099">SSRQ ZH NF I/1/3, Nr. 99</ref></bibl>). Die hier aufgelisteten Urteilsformulare, die im Anschluss an den Prozess öffentlich verlesen wurden, lassen sich in den meisten Fällen bereits in den Rats- und Richtbüchern des 15. Jahrhunderts nachweisen. Eine gekürzte Version findet sich im Satzungsbuch des <persName ref="per014997">Heinrich Mathis</persName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3804841">StAZH B III 10, fol. 56v-58v</ref></bibl>), vollständig wurde die vorliegende Ordnung in das Weisse Buch von 1604 übernommen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1920835">StAZH B III 5, fol. 539r-544r</ref></bibl>). </p>
+<p>Für die Zeit bis 1798 lassen sich in <placeName ref="loc000065">Zürich</placeName> insgesamt 1424 Todesurteile nachweisen, wobei unter den verhängten Hinrichtungsarten die Enthauptung klar den grössten Anteil stellt, mit einigem Abstand gefolgt vom Erhängen. Für Frauen war bis Ende des 15. Jahrhunderts die gebräuchlichste Hinrichtungsart das Ertränken, wobei sich bereits im 16. Jahrhundert das Enthaupten auch für Frauen als häufigste Hinrichtungsart durchsetzte. Mit der Nennung diverser Örtlichkeiten und Einrichtungen wie dem Halseisen sowie der verschiedenen Hinrichtungsstätten bietet die vorliegende Ordnung wichtige Einblicke in die vormoderne <placeName ref="loc000065">Zürcher</placeName> Rechtstopographie.</p>
+<p>Allgemein zur Todesstrafe im vormodernen <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Steinfels/Meyer 2018</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 384-386</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Haerle 1993</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Wettstein 1958</ref></bibl>; zur Anzahl der Todesurteile und zur Häufigkeit der Hinrichtungsarten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wettstein 1958</ref>, S. 120-133</bibl>; zur Herausbildung der Urteilsformulare in den Rats- und Richtbüchern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Krusche 2017</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

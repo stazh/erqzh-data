@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_134</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25685">StArZH VI.WP.A.7.:60</idno></msIdentifier><head>Gemeinderecht für ausserhalb der Gemeinde Wipkingen wohnende Gemeindegenossen</head><msContents><summary>Im Streit zwischen der Gemeinde Wipkingen und ihren auswärts wohnenden Gemeindegenossen Jagli Hotz sowie Jörg und Jakob Schubinger entscheiden die Obervögte Bertschinger und Werdmüller, dass Letztere die ihnen auferlegte Steuer von zwei Batzen entrichten müssen, wenn sie das Gemeinderecht behalten möchten. Dagegen soll die Gemeinde den Stiftswein auch unter den Auswärtigen verteilen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Rudolf Hess, Landschreiber</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1675-02-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key004966">Gemeinde</term><term ref="key000157">Steuern</term><term ref="key004098">Versammlung</term><term ref="key000036">Vogtei</term><term ref="key000129">Wein</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p>
+<seg><lb/>Auf die klag fendrich <persName ref="per024947">Heinrich Notzen</persName> und schulmeister
+<lb/><persName ref="per026064">Burkharten</persName>, der geschwornen und ausschüssen einer
+<lb/>ehrsammen <orgName ref="org007945">gmeind Wipkingen</orgName>, wider <persName ref="per026069">Jagli Hotz</persName>, <orgName ref="org000535"><persName ref="per026074">Jörg</persName>
+<lb/>und <persName ref="per026073">Jacob</persName> die Schubingern</orgName>, die sich ausert der gmeind
+<lb/>aufhaltind und die <measure type="currency" unit="bz" quantity="2">zween batzen</measure> steühr, so mein <abbr>gnd</abbr>
+<lb/>herren, die rechenherren, den jenigen, so ausert der 
+<lb/>gmeind wohnen, einer ehrsammen gmeind <date dur="R/P1Y">jehrlich</date>
+<lb/>zu entrichten auferlegt, jetz etlich jahr verwei<lb break="no"/>gert
+zu geben, mit bitt, disse widerspennigen dahin
+<lb/>zuhalten, dass sie gleich andern, so auch gmeindtsgnossig
+<lb/>und anderwehrts sitzen und die obiges <date dur="R/P1Y">jehrlich</date> gern
+<lb/>und willig entrichten, in gleichen schranken zuhalten <abbr>etc</abbr>.</seg>
+<seg><lb/>Darauf aber <orgName ref="org000535">die Schubingern</orgName> und <persName ref="per026069">Hotz</persName> geantwortet,
+<lb/>dass wan die, so in der gmeind sitzen, disse <measure type="currency" unit="bz" quantity="2">zween batzen</measure>
+<lb/><date dur="R/P1Y">jehrlich</date> erlegind, seyen sie urbittig, selbige auch ab<lb break="no"/>zustatten,
+man solle sie auch wie gmeindtsgnossen
+<lb/>ansehen <abbr>etc</abbr>.</seg>
+<seg>Hierauff ward nach anhörung der
+<lb/>jenigen erkantnus, so mein gnedig herren, die
+<lb/>rechenherren, den <date when="1660-02-21" calendar="Julian">21. <choice><abbr>febr</abbr><expan>februar</expan></choice> 1660</date> gegeben,<note><bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25678">StArZH VI.WP.A.7.:52</ref></bibl></note> auch speci<lb break="no"/>ficierlicher
+erscheinung, daß andere ihre gmeinds<lb break="no"/>gnossen,
+nammlich <persName ref="per026075">Hanß Weber</persName>, so zu <placeName ref="loc012754">Seen</placeName>, <persName ref="per026072">Rudi Lou<lb break="no"/>bi</persName>,
+<persName ref="per026066">Hans Doman</persName>, so ausert der gmeind sitzen,
+<lb/>dise steühr fleyssig erlegt haben, erkent:</seg>
+<seg n="1">Es sollen
+<lb/><persName ref="per026069">Jagli Hotz</persName>, <orgName ref="org000535"><persName ref="per026074">Jörg</persName> und <persName ref="per026073">Jacob</persName> die Schubingern</orgName> nach laut
+<lb/>und auf weysung vorangezogner erkantnus
+<lb/>die <measure type="currency" unit="bz" quantity="2">zween batzen</measure> der gmeind <date dur="R/P1Y">jehrlich</date> zustellen,
+<lb/>widrigen fahls sie vermög der erkantnus ihr dorf<lb break="no"/>recht
+verwirckt haben und für keine gmeindts<lb break="no"/>gnossen
+mehr gehalten sein. Wo sie aber ghorsammen,
+<lb/>soll ihnen ordenlich in die gmeind gesagt werden.</seg>
+<seg n="2"><lb/>Item es solle der wein, so ein ehrwürdig <orgName ref="org004352">stifft</orgName> bey
+<lb/>guten jahren <choice><abbr>d</abbr><expan>der</expan></choice> gmeind gibt, gleich getheilt und den
+<lb/>uswohnern die ürten darin nit gesteigert, im an<lb break="no"/>dern
+wein aber, so andere gmeindtsgnossen und
+<lb/>die uswohner nit zusammen steührend, soll den us<pb n="2"/><lb break="no"/>wohnern
+was billich und recht ist auferlegt und
+<lb/>nachgezogen werden.</seg></p>
+<p>
+<lb/>Actum <origDate when="1675-02-19" calendar="Julian">freytags, den 19. februarii anno 1675</origDate>,
+<lb/><choice><abbr>prnt</abbr><expan>presentibus</expan></choice> herr zunftmeister <persName ref="per026047">Bertschinger</persName> und
+<lb/>herr bauherr <persName ref="per026076">Werdmüllern</persName>, der enden
+<lb/>ordenlichen obervögten.
+</p>
+</div>
+<div><signed>
+<lb/>Landtschreiber <persName ref="per026067">Hess</persName>
+<choice><abbr>mpr</abbr><expan>manu propria</expan></choice><!-- manu propria? vgl. Sibler, Zinsschreiber, ZTB 108, 1988, Abb. 6. PS: manu propria! --><!-- Hans Rudolf Hess (1646-1712) war von 1667 bis 1683 Landschreiber der Obervogtei Vierwachten, danach wurde er Landvogt. Vgl. die Landschreiberlisten von Sibler (Db 21.2) -->
+</signed></div>
+<div><ab type="dorsal" place="verso"><lb/>Urtel von denen, die <choice><sic>ußend
+<lb/>ußend</sic><corr>ußend</corr></choice> der gemeind
+<lb/>wonende</ab></div>
+</body>
+<back>
+<div>
+<p>Am im Text erwähnten 21. Februar 1660 hatte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> entschieden, dass <persName ref="per026071">Hans Heinrich Laubi</persName>, der das Lehen im <placeName ref="loc012129">Heslibach</placeName> innehatte, das Gemeinderecht in 
+<placeName ref="loc010875">Wipkingen</placeName> nicht verwirkt habe, obwohl er die Profosensteuer nicht entrichtet hatte (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25678">StArZH VI.WP.A.7.:52</ref></bibl>). Am 17. April 1667 urteilten die
+Obervögte, dass <orgName ref="org007619"><persName ref="per026068">Heinrich</persName> und <persName ref="per026069">Jakob</persName> Hotz</orgName> ihr Gemeinderecht in <placeName ref="loc010875">Wipkingen</placeName> trotz ihrer Niederlassung im <placeName ref="loc012125">Hard</placeName> zwar nicht verwirkt hätten, 
+sie dürften jedoch während ihrer Abwesenheit die Gemeindenutzungen nicht beanspruchen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25679">StArZH VI.WP.A.7.:54</ref></bibl>).
+1689 kam es erneut zum Konflikt um die Rechte und Pflichten der auswärtigen Gemeindegenossen, in dem die Obervögte erläutern mussten, wer das Hühnergeld und wer die Stubenhitz zu entrichten schuldig war (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_142">SSRQ ZH NF II/11, Nr. 142</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

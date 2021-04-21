@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_010</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3790481">StAZH A 88.1, Nr. 18, fol. 1r-v</idno></msIdentifier><head>Lehensmandat der Stadt Zürich</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich geben bekannt, dass sie bereits vor geraumer Zeit adlige und andere Inhaber von Lehen in ihren Grafschaften und Herrschaften dazu aufgefordert haben, sich ihre Rechte von der Stadt verleihen zu lassen. Da dem von zahlreichen Personen nicht Folge geleistet worden ist, beauftragen die Herren von Zürich den Untervogt von Kyburg mit der erneuten Verkündung des Gebots und behalten sich bei weiterer Nichtbefolgung vor, nach Ablauf der Frist eines Monats die entsprechenden Lehen einzuziehen und anderweitig zu verleihen. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad von Cham, Stadtschreiber von Zürich</author><filiation type="current">Entwurf (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1474-09-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003737">Herrschaftsrechte</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_88_1__Nr__18__fol__1_r_.tif"/>
+<p>
+<lb/><seg>Wir der <orgName role="issuer" ref="org002406">burgermeister, raͤtt und die
+<lb/>burger gemeinlich der statt <placeName ref="loc000065">Zu̍rch</placeName></orgName>
+<lb/>verku̍ndent und thuͦnd kunt aller 
+<lb/>menglichem ze wissent mit
+<lb/>disem unserm offen, versigelten
+<lb/>brieff:</seg>
+<seg>Als wir menglichem,
+<lb/>er sye edel oder <add place="above">anders</add> gestalt ald
+<lb/>wesens, verku̍nden und geschriftlichen 
+<lb/>und menklich ze wissen getan
+<lb/>habent, in mer zittes und 
+<lb/>fuͦges, das die notdurft gehoͤschet
+<lb/>hat, unsere lehen, die wir von 
+<lb/>unser herschaften und graf<lb break="no"/>schafften
+wegen ze lihen 
+<lb/>habent, von uns und denen,
+ <lb/><subst><del>wie</del><add place="above">den</add></subst> dz <subst><del>von uns</del><add place="above">von uns</add></subst> in bevelhnusse 
+<lb/>geben <del>han</del> ist, ze entphachent, und
+<lb/>dz noch <del>ett</del> von ettlichen edeln 
+<lb/>und anders statth nit beschechen
+<lb/>ist, dz wir da unßerm lieben
+<lb/>und getru̍wen undervogt in
+<lb/>unßer graffschaft <placeName ref="loc000012">Kiburg</placeName> bevolhen
+<lb/>und im by dem eide, so er unns 
+<lb/>gesworen hat, gebotten haben,
+<lb/>dz ze beschechent <subst><del>noch ze</del><add place="above">noch</add></subst>
+<pb n="2" facs="StAZH_A_88_1__Nr__18__fol__1_v_.tif
+"/>
+<lb/>in <date dur="P1M">einem manet</date> an unßer statt ze
+<lb/>verku̍ndent, und von wem dz 
+<lb/>in dem zitte nit getan wird,
+<lb/>in was stattes oder wesens der
+<lb/>wer, dz wir dem nach unsere 
+<lb/>lehen lihen, oder die fu̍r heim<lb break="no"/>gevallne 
+lehen haben woͤltent,
+<lb/>wie wir meintent, dz nach
+<lb/>lehens recht wol tuͦn mechtent,
+<lb/>und dz sich des ein jeklicher von
+<lb/>uns wol versechen und sich 
+<lb/>des halten moͤchte, und dz vor
+<lb/>uns anders von jemem mer 
+<lb/>hinfür umbzu̍chen lassen
+<lb/>welllint, als bisher beschechen
+<lb/>ist, des willens sint wir 
+<lb/>in deheinem weg.</seg>
+<seg><unclear>Beschechen</unclear> mit
+<lb/>urkund dis unßers offenen briefes,
+<lb/>dar in wir unßer statt secrett
+<lb/>insigel offenlich henken laßen habent
+<lb/>und der geben ist <hi rend="font change">uff <origDate when="1474-09-13">zinstag nach <persName ref="per001805">Hilari</persName>
+<lb/>anno <abbr>etc</abbr> lxx quarto</origDate>.</hi></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Mit dem Erwerb ihres Herrschaftsgebietes während des Spätmittelalters erlangte die Stadt <placeName ref="loc000065">Zürich</placeName> eine Vielzahl heterogener Einkünfte aus Gerichts-, Steuer- und Nutzungsrechten, 
+die sie genauso wie ihre Rechtsvorgänger nur zu einem geringen Teil direkt verwaltete, sondern oftmals direkt an Dritte weiterverlieh. Zur Verwaltung dieses komplexen Systems delegierter Rechte 
+verfügte die Stadt lange Zeit über keine eigenen Aufschreibesysteme, sondern stützte sich im Wesentlichen auf das von den <orgName ref="org000088">Habsburgern</orgName> übernommene Schriftgut.
+Erst im Verlaufe der 70er und 80er Jahre des 15. Jahrhunderts entwickelten sich auch im städtischen Bereich vermehrt eigene Kanzleipraktiken des Verschriftlichens, Sammelns und Ordnens von Rechtsverhältnissen, 
+womit eine effizientere Verwaltung und damit auch Intensivierung von Herrschaft angestrebt wurde.</p>
+<p>Das vorliegende, nur als Enturf erhaltene Mandat stellt einer der ersten Versuche dar, die Verwaltung der Lehen zu zentralisieren und deren Inhaber vermehrt an den <orgName ref="org002406">Rat</orgName> der Stadt zu binden.
+Einige Jahre später wurde erstmals die Anlegung eines umfangreichen Urbars an die Hand genommen, 
+in welchem die Einkünfte und Rechte in den <placeName ref="loc000066">Zürcher</placeName> Landvogteien verzeichnet waren 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=290206">StAZH F II a 272</ref></bibl>). 
+Die Verwaltung der Einkünfte auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft blieb jedoch längerfristig eine Herausforderung für die Obrigkeit, wie in späteren Jahrhunderten erlassene 
+Lehensmandate belegen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3790476">StAZH A 88.1, Nr. 18</ref></bibl>). Eine wichtige Neuerung bedeutete in dieser Hinsicht die Schaffung des
+<orgName ref="org004911">Rechenrats</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_098">SSRQ ZH NF I/1/3, Nr. 98</ref></bibl>).
+In demselben Zeitraum suchte der <orgName ref="org002406">Rat</orgName> auch über die zahlreichen Gerichtsherrschaften im <placeName ref="loc000065">Zürcher</placeName> Herrschaftsbereich eine verstärkte Kontrolle zu erlangen 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_023">SSRQ ZH NF I/1/3, Nr. 23</ref></bibl>).</p>
+<p>Zum Lehensmandat und zu den Territorialisierungsprozessen auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2003</ref>, S. 79</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Eugster 1995b</ref>, S. 317-322</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 41-42</bibl>.
+Allgemein zur Verschriftlichung von Herrschaftsrechten und der Entwicklung städtischer Kanzleipraktiken während des Spätmittelalters vgl.
+ <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2007</ref>, S. 278-304</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

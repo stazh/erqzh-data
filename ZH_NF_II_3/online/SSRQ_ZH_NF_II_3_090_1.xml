@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_090_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=932307">StAZH A 123.4, Nr. 21</idno></msIdentifier><head>Bestimmungen über den Auskauf des Holzgeldes der Gemeinden in der Herrschaft Greifensee</head><msContents><summary>Die Gemeinden Uster, Oberuster, Niederuster, Werrikon, Winikon, Nänikon, Schwerzenbach, Gfenn, Irgenhausen, Auslikon, Robenhausen, Hegnau, Hutzikon, Neubrunn, Schalchen, Freudwil sowie der Hof der Familie Pfister in Greifensee waren bis anhin verpflichtet, den Vogt in Greifensee mit Brennholz versorgen oder ihm stattdessen 18 Pfund zu bezahlen. Da sich nun fast alle Leute über diese Abgabe beschweren, ermächtigen Bürgermeister und Rat der Stadt Zürich die Ratsherren und Säckelmeister Hans Escher und Hans Kambli sowie den alten Vogt Hans Heinrich Schönau und den jetzigen Vogt Hans Heinrich Meier, den Auskauf des Holzgeldes vorzubereiten. Es wird bestimmt, dass sich die Gemeinden um 200 Gulden oder mit einem jährlichen Zins von 10 Gulden auf Lichtmess (2. Februar) loskaufen können. Den jährlichen Zins zieht der Vogt ein. Wenn stattdessen aber dem Säckelamt der volle Betrag von 200 Gulden bezahlt wird, soll der Vogt dafür in der Amtsrechnung unter den Ausgaben jährlich 10 Gulden aufführen. Der Termin für die Lieferung der Fasnachtshühner wird vom Vogt künftig in der Woche nach Neujahr bekannt gegeben. Diese Bestimmungen sollen zur besseren Kenntnis ins Urbar der Herrschaft Greifensee eingetragen werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1604-04-10" to="1604-09-17">Ausgestellt in Greifensee am 10. April 1604 und bestätigt durch den Zürcher Rat am 17. September 1604</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000479">Dienstpflicht</term><term ref="key000524">Holz</term><term ref="key000390">Loskauf</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head><add hand="other hand" place="above"><lb/>Ußkauff dess holtzgëlts</add></head>
+<p><seg><lb/>Als vor jaren die gmeinden inn der herrschafft
+<lb/><placeName ref="loc000348">Gryffensee</placeName>, nammlich die von <placeName ref="loc006198">Uster</placeName>, <placeName ref="loc008736">Oberuster</placeName>,
+<lb/><placeName ref="loc008737">Nideruster</placeName>, <placeName ref="loc008817">Wericken</placeName> unnd <placeName ref="loc007634">Wynicken</placeName>, <placeName ref="loc008816">Naͤnicken</placeName>,
+<lb/><placeName ref="loc008652">Schwertzenbach</placeName>, <placeName ref="loc008751">im Gfaͤnn</placeName>, <placeName ref="loc008877">Irgenhusen</placeName>,
+<placeName ref="loc008776">Auß<lb break="no"/>licken</placeName>, <placeName ref="loc010650">Rubenhusen</placeName>, <placeName ref="loc008815">Hegnouw</placeName>, <placeName ref="loc008835">Hutzikon</placeName>,
+<lb/><add place="left margin"><placeName ref="loc010560">Nübrunnen</placeName>, <placeName ref="loc008837">Schalcken</placeName>,</add>
+<placeName ref="loc008842">Froüdwyl</placeName> unnd der <orgName ref="org000325">Pfisteren</orgName> uffem <placeName ref="loc008818">Hof</placeName> zuͦ
+<lb/><placeName ref="loc008569">Gryffensee</placeName>, einem vogt daselbst zuͦ <placeName ref="loc000348">Gryffensee</placeName>
+<lb/>allwegen das braͤnnholtz ufzemachen unnd zum
+<lb/>schloss zeführen schuldig gewesen, aber darnach
+<lb/>umb fürgefallner unkommlichkeit willen
+<lb/>die obermelten gmeinden umb und für
+<lb/>sölliche schuldige pflicht einem vogt <date dur="R/P1Y">jerlichen</date>
+<lb/><measure type="currency" unit="lb" quantity="18">xviij </measure> gelts bezalt, welches sy, die gmeinden,
+<lb/><date dur="R/P1Y">jerlichen</date> zesammen gestürt unnd nun die
+<lb/>anlag solliches holtzgelts (dartzuͦ aber anderer
+<lb/>uncosten auch kommen) je lenger je hoͤcher
+<lb/>worden, inmassen <del>sich</del> schier menigklich inn
+<lb/>den gedachten gmeinden sich dessen
+be<lb break="no"/>schwerdt unnd unnser gnedig herren
+<orgName ref="org002406">burger<lb break="no"/>meister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>
+<del>der st</del>
+<lb/><add place="left margin">durch abgeordnete gsandten</add> gantz underthenig gebaͤtten zuͦbewilligen,
+<lb/>das sy söllich <date dur="R/P1Y">jerlich</date> holtzgelt abloͤßen lassen,
+<lb/>unnd was sy darfür bezalen söllint, inen
+<lb/>gnedigklich uferlegen wellint <abbr>etc</abbr>.</seg>
+<seg>Wann
+<lb/>dann wolgenannt unnser gnedig herren
+<lb/>allen den iren vor unnotwendigem costen
+<lb/>zesyn unnd, was müglich, zuͦersparen
+ge<lb break="no"/>neigt sind, so habent sy die gedachten
+<lb/>gmeinden irer bitt mit gnaden gewaͤrt
+<lb/>unnd daruf iren lieben mittraͤthen, jungkherr
+<lb/><persName ref="per002116">Hannsen Escher</persName> unnd herrn <persName ref="per002005">Hannsen Kambli</persName>,
+<pb n="2"/>
+<lb/>beiden seckelmeisteren, deßglychen jungkherr
+<lb/><persName ref="per013953">Hans Heinrichen von Schönouw</persName>, alter vogt
+<lb/>von <placeName ref="loc000348">Gryffensee</placeName>, bevelch unnd gwalt gëben,
+<lb/>das sy sambt meister <persName ref="per013951">Hans Heinrichen Meyer</persName>,
+<lb/>jetziger zyt vogt zuͦ <placeName ref="loc000348">Gryffensee</placeName>, nach
+eig<lb break="no"/>entlicher erkhundigung, wie es disers
+holtz<lb break="no"/>gelts halber beschaffen unnd was demselben
+<lb/>anhangen moͤchte, mit der <subst><del>obernempten</del><add place="above">vorgedachten</add></subst>
+<lb/>gmeinden anwaͤlten <add place="left margin" type="sign">darumben</add>
+<del>ze</del> überkommen unnd
+<lb/>einen ußkauff treffen mögind.</seg>
+<seg>Also unnd
+<lb/>disem nach ist solches volgender gstalt
+be<lb break="no"/>schechen, nammlichen das sy, die
+ober<lb break="no"/>nempten gmeinden, anstatt unnd für diss
+<lb/><date dur="R/P1Y">jerlich</date> holtzgelt gëben söllint <measure type="currency" unit="fl" quantity="200" origin="ZH">zwey hundert
+<lb/>guldin der statt <placeName ref="loc000065">Zürich</placeName> werung</measure>, welliche
+<lb/><add place="left margin">summa</add> gelts sy bar bezalen oder <date dur="R/P1Y">jerlichen</date> uff
+<lb/><date type="deadline" when="--02-02">liechtmes</date> mit <measure type="currency" unit="fl" quantity="10">zechen guldinen</measure> verzinsen
+<lb/>unnd uff guͦte gwüsse underpfand der einen
+<lb/>ald andern gmeind oder einer sonderbaren
+<lb/>person setzen unnd versicheren moͤgend,
+<lb/>darmit dann diß holtzgelt allerdingen
+<lb/>abgeloͤßt unnd sy, die gmeinden, darfür
+<lb/>nützit <subst><del>mehr</del><add place="above">wyters</add></subst> schuldig syn, sonder ein vogt
+<lb/>zuͦ <placeName ref="loc000348">Gryffensee</placeName> die <measure type="currency" unit="fl" quantity="10">zechen guldin</measure>
+<date dur="R/P1Y">jerlichs</date>
+<lb/>zinses inzenemmen<note><orig>Inzenemmen</orig> wurde durch Unterstreichung gestrichen
+und sodann mit Einfügungszeichen am Rand ersetzt durch
+<orig>im innemmen und dargegen <lb/>im ußgeben <date dur="R/P1Y">jerlichen</date>
+<lb/><measure type="currency" unit="lb" quantity="18">xviij </measure> zuͦverrechnen</orig>;
+diese Korrektur wurde zusammen mit der Unterstreichung in einem weiteren Redaktionsschritt durchgestrichen und der ursprüngliche Wortlaut
+durch die Bemerkung <orig>gilt</orig> wieder in den Text aufgenommen.</note> haben oder, so die
+<lb/><measure type="currency" unit="fl" quantity="200">zwey hundert guldin</measure> haubtguͦts inn der
+<lb/>statt <placeName ref="loc000065">Zürich</placeName>
+<orgName ref="org004912">seckelampt</orgName> erlegt und bezalt
+<lb/>werdent, ein vogt <del>daruf</del> darfür inn
+<lb/>syner ambts rechnung <date dur="R/P1Y">jerlich</date>
+<measure type="currency" unit="fl" quantity="10">zechen guldin</measure><note><orig>Zechen guldin</orig> wurde durch Unterstreichung gestrichen
+und sodann mit Einfügungszeichen am Rand ersetzt durch
+<orig><measure type="currency" unit="lb" quantity="18">xviij </measure></orig>;
+diese Korrektur wurde zusammen mit der Unterstreichung in einem weiteren Redaktionsschritt durchgestrichen und der ursprüngliche Wortlaut
+durch die Bemerkung <orig>gilt</orig> wieder in den Text aufgenommen.</note>
+<lb/>inn das ußgëben schryben.</seg>
+</p>
+<p><lb/>Was <add place="above" type="sign">costens</add> aber sontsten, es syge mit beschauwen der
+<pb n="3"/>
+<lb/>harnast unnd gwehren, item die reyßrödel
+<lb/>zuͦersetzen, ouch ein nüw fendli zemachen
+<lb/>unnd inn ander derglychen weg, uff ein gantz
+<lb/>ambt <placeName ref="loc000348">Gryffensee</placeName> zuͦ jeden zyten gaan möchte,
+<lb/>söllent die vorgenannten gmeinden (wie
+<lb/>sy dann das zethuͦn selbs urbietig und guͦtwillig
+<lb/>sind) allwegen iren gebürenden theil
+ze<lb break="no"/>stüren schuldig syn, da doch fürhin sollicher
+<lb/>costen, damit der desto minder gross wurde,
+<lb/>nit mehr uff das gantz ampt abgetheilt
+<lb/>werden, sonnder ein jede gmeind denselben
+<lb/>für sich selbs abrichten khöndte. Unnd im
+<lb/>fal sollicher obgemelter dingen halber an
+<lb/>einem ald dem andern ort summnuß unnd
+<lb/>mangel were, das der obervogt zur sach
+<lb/>zethuͦn verursachet wurde, söllent die
+<lb/>summseligen denselben deß obervogts costen
+<lb/>ohne der andern gmeinden schaden <del>zuͦ</del> bezalen.
+</p>
+<p><lb/>Unnd als bißhar inn der anlag deß holtzgelts
+<lb/>andere sachen ouch verrichtet unnd mit
+<lb/>den undervoͤgten unnd weyblen eigentlich
+<lb/>abgeredt und bescheiden worden, uff wellichen
+<lb/>tag sy dem obervogt die faßnacht huͤner
+<lb/>bringen söllen, dasselbig aber by jetzt
+ge<lb break="no"/>machter enderung nit mehr geschechen khan,
+<lb/>so ist hiemit angesehen, das fürhin <subst><del>ein</del><add place="left margin">alle und</add></subst>
+<lb/>jede<del>r</del> undervoͤgt unnd weybel inn der herrschaft
+<lb/><placeName ref="loc000348">Gryffensee</placeName> allwegen inn der wuchen nach dem
+<lb/><date when="--01-01">nüwen jar</date> zuͦ<del>m</del> einem obervogt inn dz
+<lb/>schloss <placeName ref="loc008719">Gryffensee</placeName> kommen unnd daselbsten
+<lb/>bscheid empfachen, uff welchen tag sy die
+<lb/>faßnacht huͤner <add place="above">zuͦhin</add> bringen söllint.
+</p>
+<pb n="4"/>
+<p><lb/>Unnd damit man diser dingen inns khünfftig
+<lb/>einen bericht habe, soll es vorerzelter
+<lb/>massen inn deß schlosses <placeName ref="loc008719">Gryffensee</placeName> urbar
+<lb/>unnd buͦch ingeschriben werden.<note>Tatsächlich findet sich eine Abschrift als Nachtrag 
+in dem als Urbar bezeichneten Kopialbuch der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=932307">StAZH F II a 176, S. 193-195</ref></bibl>).</note>
+</p>
+<p><lb/>Actum zuͦ <origPlace ref="loc008569">Gryffensee</origPlace>, <date when="1604-09-10" calendar="Julian">zinstags, den 10<hi rend="sup">ten</hi>
+<lb/>aprellens, anno 1604</date>.
+</p>
+<p><lb/>Unnd <del>soll</del> nachdem sollicher ußkouff und
+abhand<lb break="no"/>lung wider für wolgenannt unnser gnedig
+<lb/>herren, einen ersammen <orgName ref="org002406">rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+<lb/>gebracht, ist diss alles, inmassen hieob
+<subst><del>ge<lb break="no"/>schriben</del><add place="left margin"><lb/>verzeichnet</add></subst> stadt, gentzlichen bestetiget unnd
+<lb/>inn dises buͦch zuͦ einem bricht diser dingen
+<lb/>geschriben worden.
+</p>
+<p><lb/>Actum <date when="1604-09-17" calendar="Julian">mentags, den 17<hi rend="sup">ten</hi> septembris, anno 1604</date>,
+<lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr <orgName ref="org002406">burgermeister <persName ref="per002156">Großman</persName> und beid reth</orgName>.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits 1525 hatten sich die Leute aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+bei der Obrigkeit über das sogenannte Holzgeld, also die Pflicht,
+den Vogt mit Holz zu versorgen beziehungsweise ihn stattdessen mit einem Geldbetrag zu entschädigen, beschwert,
+weil sie diese und weitere Abgaben als unrechtmässig empfanden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_058">SSRQ ZH NF II/3, Nr. 58</ref>, Art. 11</bibl>).
+1551 führte der Vogt das Holzgeld von 9 Gulden (18 Pfund) unter den Einnahmen
+des Schlosses <placeName ref="loc008719">Greifensee</placeName> auf
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_069">SSRQ ZH NF II/3, Nr. 69</ref>, Art. 3</bibl>).
+</p>
+<p>Erst 1604, als sich eine Abordnung aus dem Amt <placeName ref="loc008719">Greifensee</placeName>
+beim <orgName ref="org002406">Zürcher Rat</orgName> erneut über das Holzgeld beschwerte, hatte das Anliegen Erfolg.
+Am 5. März 1604 erteilte der Rat den beiden Säckelmeistern sowie dem ehemaligen
+und dem jetzigen Vogt von <placeName ref="loc000348">Greifensee</placeName> den Auftrag,
+den Auskauf des Holzgelds um 200 Gulden in die Wege zu leiten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4263833">StAZH B II 287, S. 20-21</ref></bibl>).
+Mit dem vorliegenden Stück definierten die Säckelmeister und Vögte am 10. April
+die Bedingungen für die Ablösung, die am 17. September vom Rat bestätigt wurden.
+Die gleiche Delegation kümmerte sich übrigens parallel dazu auch noch darum,
+die Rechte der Gerichtsherrschaft <placeName ref="loc000348">Maur</placeName> schriftlich festzuhalten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_091">SSRQ ZH NF II/3, Nr. 91</ref></bibl>).
+Gemäss einer heute nur noch abschriftlich erhaltenen Urkunde vom 11. November 1604
+kam es in der Folge tatsächlich zur Ablösung mit einem jährlichen Zins von 10 Pfund,
+der auf Gütern von <persName ref="per013955">Hans Keller</persName>
+aus <placeName ref="loc008837">Schalchen</placeName> lag
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=251337">StAZH C I, Nr. 2486</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_138</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4531222">StAZH B II 590, S. 128-129</idno></msIdentifier><head>Ratsentscheid im Konflikt zwischen dem Schmied von Höngg und dem Schlosser von Altstetten</head><msContents><summary>Im Konflikt zwischen Salomon Peyer, dem Schmied von Höngg, und Jakob Burkhard, dem Schlosser von Altstetten, über die Befugnis der beiden zum Schmieden verschiedener Produkte entscheiden Bürgermeister und Rat der Stadt Zürich, dass das Schmieden von Waffen allein dem Schmied zustehe. Er darf auch Beschläge und Behenke und ähnliche grobe Schlosserprodukte, die mit dem Hammer auf dem Feuer gemacht werden, herstellen. Schlösser, Schlüssel und andere Arbeiten, wozu die kleine Feile verwendet wird, solle der Schmied jedoch dem Schlosser überlassen. Der Schlosser darf zudem keine Mühleisen herstellen oder sonstige Hufschmiedearbeit ausführen. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="11.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1680-12-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000849">Handwerk</term><term ref="key004706">Konzession</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="128"/>
+<head><lb/><origDate when="1680-12-13" calendar="Julian">Montags, den 13<hi rend="sup">ten</hi> decembris</origDate>,
+<lb/><choice><abbr>prnts</abbr><expan>presentibus</expan></choice> herr <orgName ref="org002406">burgermeister <persName ref="per002359">Hirtzel</persName><!-- Hans Caspar Hirzel, https://hls-dhs-dss.ch/de/articles/018077/2014-04-03/ --> und
+<lb/>beid räthe</orgName>
+</head>
+<p><seg><lb/>In der handtwerks spännigkeit entzwüschent
+<lb/><abbr>mr</abbr>
+<persName ref="per026085">Salomon Päyer</persName>, dem schmid zu <placeName ref="loc009768">Höngg</placeName>,
+<lb/>in beistand <abbr>mr</abbr>
+<persName ref="per026084">Jacob Burkharten</persName>, des schmids
+<lb/>zu <placeName ref="loc009828">Altstetten</placeName>, eins, danne <abbr>mr</abbr>
+<persName ref="per026087">Rudolf Schmid</persName>,
+<lb/>dem schlosser daselbst, anders theils, anbe<lb break="no"/>treffent,
+obe ermeldter nöüwer schlosser be<lb break="no"/>füegt
+seyn solle, nebent seiner schlosser-arbeit
+<lb/>auch waaffen zu schmiden? Und obe der <pb n="129"/>
+<lb/>huͤfschmid auch die gröbere schlosser-ar<lb break="no"/>beit
+machen möge? Auch was sonsten dem
+<lb/>einen und anderen handtwerk für arbeit
+<lb/>gebühren solle, haben mein <abbr>gn</abbr> herren nach
+<lb/>anhörung klag, antwort und des in glei<lb break="no"/>chem
+fahl <date when="1675-03-15" calendar="Julian">montags, den 15. martii 1675</date>
+<lb/>ußgefellten urtheil<note>Am 15. März 1675 wurde eine weitgehend identische Regelung zwischen den Schmieden, Schlossern sowie Büchsenmachern und Büchsenschmieden in <placeName ref="loc011158">Rifferswil</placeName> und <placeName ref="loc011159">Mettmenstetten</placeName> in der Vogtei <placeName ref="loc000468">Knonau</placeName> erlassen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244827">StAZH B II 569</ref>, S. 99-100</bibl>).</note> einhellig erkhendt:</seg>
+<seg><lb/>Bevorderst solle sonderlich in ansehung, daß
+<lb/>ein schmid zu <placeName ref="loc009768">Höngg</placeName> seine meiste arbeit
+<lb/>bei dem räb- und veldwerk<!-- Reben und Feldarbeit --> suchen muß,
+<lb/>das schmiden aller waaffen dem hufschmid
+<lb/>allein zu dienen und der schlosser sich desselben
+<lb/>gäntzlich müessigen, zemahlen also der schmid
+<lb/>bei seiner ehhaffte geschützt und geschirmt
+<lb/>bleiben. Demnach solle er, der schmid,
+<lb/>nach altem gebrauch und harkommen auf der
+<lb/>landtschafft befüegt seyn, beschläg, behänk
+<lb/>und andere grobe schlosser-arbeit, welche
+<lb/>auf dem feür mit dem hammer gemachet
+<lb/>wirt und beiden hantwerken gemein
+<lb/>ist, zu machen.</seg>
+<seg>Was aber die schlüssel,
+<lb/>schloss und andere arbeit, darzu die kleine
+<lb/>fylen gebraucht wirt, betrifft, solle der
+<lb/>hufschmid sich derselben müessigen und sie
+<lb/>dem schlosser ohne eintrag<!-- ohne Einwand, vgl. Idiotikon XIV, Sp. 418 --> überlassen.
+<lb/>Diser arbeit solle sich der schlosser allein
+<lb/>behelffen und nebent enthaltung des
+<lb/>waffen schmidens weder mülli-ysen<!-- Mühleisen -->
+<lb/>noch andere arbeit, so dem hufschmid<lb break="no"/>hantwerk
+anhanget, zu schmiden haben.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Eine Schmiede war eine Ehafte, also ein obrigkeitlich konzessionspflichtiger Betrieb (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D13731.php">Ehaften</ref></bibl>). Am 12. März 1623 schützte der <orgName ref="org002406">Zürcher Rat</orgName> in einem Urteil die ehaften Schmieden von <placeName ref="loc009768">Höngg</placeName> und <placeName ref="loc000836">Weiningen</placeName> und verbot <persName ref="per026086">Heinrich Schmid</persName> von <placeName ref="loc012596">Engstringen</placeName>, eine neue Schmiede einzurichten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4531820">StAZH B II 363, S. 38-39</ref></bibl>). Am 21. Mai 1701 wies der <orgName ref="org002406">Rat</orgName> nach einer Klage der <orgName ref="org004991">Meister des Schlosserhandwerks</orgName> und Vertretern der <orgName ref="org007827">Gemeinde <placeName ref="loc009768">Höngg</placeName></orgName>
+<persName ref="per026088">Wilhelm Schneider</persName> aus <placeName ref="loc012276">Westfalen</placeName> ab, der sich in <placeName ref="loc009768">Höngg</placeName> als Schlosser hatte niederlassen wollen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4531820">StAZH B II 673, S. 47-148</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

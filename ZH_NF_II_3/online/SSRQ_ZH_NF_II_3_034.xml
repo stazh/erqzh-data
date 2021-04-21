@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_034</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://www.e-manuscripta.ch/zuz/content/pageview/1130209">ZBZ Ms C 1, fol. 47r</idno></msIdentifier><head>Bestätigung des neu angelegten Jahrzeitbuchs der Kirche Uster</head><msContents><summary>Der kaiserliche Notar Johannes Kaltschmid beurkundet, dass es zwischen Abt Ulrich und Konvent des Klosters Rüti als Verleihern der Kirche Uster, dem dortigen Leutpriester Niklaus Grüter sowie den Kirchgenossen zu Streit um ausstehende Jahrzeiten und Spenden zuhanden des Sigrists gekommen sei. Bürgermeister und Rat der Stadt Zürich haben darum die Ratsherren Oswald Schmid, Heinrich Röist, Jörg von Kappel und Ulrich Widmer beauftragt, den Streit zu schlichten. Die Schiedleute haben den beiden Parteien vorgeschrieben, das alte Jahrzeitbuch zu untersuchen und alle noch gültigen Jahrzeiten in ein neues Buch zu übertragen. Im Beisein des Konventherrn Andres Wiler als Stellvertreter des Klosters Rüti, des Kirchherrn Felix Kaltschmid und der Kirchmeier als Vertreter der Kirchgenossen werden die beiden Bücher zum Vergleich dem Notar in Uster, im Haus des Kaplans Konrad Grüter, vorgelegt, der die Richtigkeit des neuen Buchs und der darin eingetragenen Urkunden unter Nennung von Zeugen, Konrad Grüter, Bürgermeister Heinrich Röist und Johannes Schmid, Vogt von Grüningen, mit seinem Notarzeichen bestätigt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Kaltschmid, Notar (Schuler 1976, Nr. 345)</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="47.0"/><width unit="cm" quantity="34.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1473-07-27"/><origPlace>Uster</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000150">Jahrzeit</term><term ref="key000217">Jahrzeitbuch</term><term ref="key000471">Schriftlichkeit</term><term ref="key000192">Stiftung</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="47r" type="original" facs="ZBZ_Ms_C_1__fol__47_r_.jpg"/>
+<p><figure type="drawing"/><note>Abbgebildet ist das sprechende Wappen der Familie <orgName ref="org004884">Grüter</orgName> (in Rot steigende, silberne Pflugschar).
+Dieses bezieht sich auf den im Text genannten Leutpriester <persName ref="per013488">Niklaus Grüter</persName> sowie den Kaplan <persName ref="per013813">Konrad Grüter</persName>,
+in dessen Stube die hier beurkundete Beglaubigung stattfand.</note>
+<seg><lb/>Ich, <persName role="issuer" ref="per013815">Johanns Kaltschmid</persName>, offner gesworner von keiserlichem gewalt und der erwirdigen herren
+<lb/><orgName ref="org004352">probsts und capitels deß gotzhuß sant <orgName ref="org004873"><persName ref="per012644">Felix</persName> und sant <persName ref="per000143">Reglen</persName></orgName> der probstye <placeName ref="loc007562">Zu̍rich</placeName></orgName> notarius und schriber,
+<lb/>tuͦn kunt allermenglichem, so diße ding notdurfftig zewu̍ssen sind, als dann vor ettwas ziten
+<lb/>spenn und irrung gewesen sind zwu̍schent den erwirdigen geistlichen herren, her <orgName ref="org004897"><persName ref="per013818">Uͦlrichen</persName>, abbt,
+<lb/>und gemeinem convent deß gotzhuß zuͦ <placeName ref="loc008350">Ru̍ti</placeName></orgName>, als kilchenlihern der lutpriestrye zuͦ <placeName ref="loc006198">Ustre</placeName> und wilent
+<lb/>hern <persName ref="per013488">Niclausen Gru̍ter</persName>, der zite lu̍tpriester daselbs, an eim und gemeinen kilchgnoͧssen deß kilchspels
+<lb/>zuͦ <placeName ref="loc006198">Ustre</placeName>, harlangent von den usstenden jarziten und spenden, oͧch der nutzungen wegen, so einem
+<lb/>sigristen daselbs zuͦgehoͤrrent <abbr>etc</abbr>, am andren teilen und die <choice><abbr>jetzgenatn</abbr><expan>jetzgenanten</expan></choice> partyen der selben spenn fu̍r
+<lb/>die fu̍rsichtigen, wisen herren <orgName ref="org002406">burgermeister und raͧte der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> komen sind und dieselben
+<lb/>herren burgermeister und raͤte die wisen <persName ref="per013370">Oswalden Schmid</persName>, <persName ref="per001546">Heinrichen Roͤsten</persName>, <persName ref="per013816">Jergen von Cappel</persName>
+<lb/>und <persName ref="per013819">Uͦlrichen Widmer</persName>, burgere und deß <orgName ref="org002406">raͧts <placeName ref="loc000065">Zu̍rich</placeName></orgName>, zuͦ soͤlichen spennen geschiben, gegeben und
+<lb/>inen empfolhen haben, sy der selben spenn zuͦ richten und zuͦ entscheiden.</seg>
+<seg>Und als dann die <choice><abbr>jetzgenatn</abbr><expan>jetzgenanten</expan></choice>
+<lb/>schidlu̍t die egeseiten partyen verricht und entscheiden und undern anderm in der selben richtung
+<lb/>und entscheidung ein spruch getaͧn hand, das fu̍rderlich ein nu̍w jartzitbuͦch gemacht werden
+<lb/>soͤlle, und was in dem jetzigen alten jartzitbuͦch gichtiger jartziten und gu̍lten geschriben staͧnd und
+<lb/>oͧch hinfu̍r gegeben werdent, das die in das nu̍w jartzitbuͦch soͤllent geschriben werden, als dann
+<lb/>soͤlichs und anders der spruch und richtung brieff mit der obgeschribnen schidlu̍ten insigelen besiglet,
+<lb/>deß oͧch ein abgeschrifft, hienach in disem buͦch geschriben staͧt, eigenlich ußwiset und innhalt.<note>Abschriften der beiden hier erwähnten Schiedsgerichtsentscheide von 1454 und 1469
+finden sich tatsächlich im Anhang des Buchs auf fol. 56v und fol. 57v.</note>
+<lb/>Und wan nun nach soͤlichem die <choice><abbr>genatn</abbr><expan>genanten</expan></choice> partyen diß nu̍w jartzitbuͦch haben schaffen schriben und
+<lb/>es, wie obstaͧt, nach ir ordnung ordenlich geschriben ist, so habent an der statt und uff dem tag,
+<lb/>als hienach geschriben staͧt, die ersamen und geistlich her <persName ref="per013820">Andres Wiler</persName>, conventherr zuͦ <placeName ref="loc008350">Ru̍ti</placeName>, in namen
+<lb/>und emphelhens wegen der <choice><abbr>obgenatn</abbr><expan>obgenanten</expan></choice> herren <orgName ref="org004897">abbts und convents</orgName>, oͧch her <persName ref="per013814">Felixen Kaltschmid</persName>, kilcherr, und
+<lb/>die kilchmeyer in namen gemeiner kilchgnoͧssen ze <placeName ref="loc006198">Ustre</placeName> das alt und oͧch diß nu̍w jartzit buͤcher fu̍r
+<lb/>mich, <choice><abbr>obgenatn</abbr><expan>obgenanten</expan></choice> offnen notarien, geleit und mich erfordret und gebetten, die selben jarzitbuͤcher eins
+<lb/>gegen dem andren ze verhoͤrrend, und ob sy glichlich nach deß obgemaͤlten spruchs innhalt und
+<lb/>nach ordnung der egeseiten partyen geschriben stuͦndint, inen dann deß ein gezu̍gnu̍ß mit miner geschrifft
+<lb/>mich hierunder zuͦschriben und mit minen gewonlichen zeichen und namen zuͦ bezeichnen geben welte.</seg>
+<seg><lb/>Und wan nun mich, <choice><abbr>obgenatn</abbr><expan>obgenanten</expan></choice> notarien, soͤlich erfordrung und bitt zimlich sin bedunckt, so han
+<lb/>ich mit wuͤssen und bywesenlicher <choice><sic>gegenwu̍tikeit</sic><corr>gegenwu̍rtikeit</corr></choice> der <choice><abbr>obgenatn</abbr><expan>obgenanten</expan></choice> herren, her <persName ref="per013820">Andressen Wiler</persName>, her
+<lb/><persName ref="per013814">Felixen Kaltschmids</persName>, kilchherrens, und oͧch der kilchmeyern der obgeseiten kilchen das alt und diß
+<lb/>nu̍w jartzitbuͤcher gegen enander verhoͤrt, die nun glichlich der gichtigen zinsen halb nach
+ord<lb break="no"/>nung der obgemelten partyen, oͧch vil brieffen, abgeschrifften und andrer geschrifften, als dann die
+<lb/>gemeͣlten her <persName ref="per013820">Andres Wiler</persName>, her <persName ref="per013814">Felixen Kaltschmid</persName> und die kilchmeyer deß bekantlich warend,
+<lb/>geschriben staͧnd, harumb so han ich, obgeschribner offner notarius, mich mit miner eignen
+<lb/>handgeschrifft undergeschriben und diß mit minen gewonlichen zeichen und namen bezeichnet
+<lb/>zuͦ gloͧbnu̍ß und zu̍gsamme diser vorgeschribnen dingen, als obstaͧt, erfordret und erbetten.</seg>
+<seg><damage agent="faded ink"><unclear>Und</unclear></damage> ist
+<lb/>diß beschehen zuͦ <placeName ref="loc006198">Ustre</placeName> in deß ersamen her <persName ref="per013813">Cuͦnratt Gru̍ters</persName> huß, caplaͧns daselbs, uff den <origDate when="1473-07-27">siben
+<lb/>und zwentzigosten tag hoͤwmanodts in dem jare, als man zalt von der gepurt <damage agent="faded ink"><unclear>Cristi</unclear></damage> tusent
+<lb/>vierhundert sibentzig und dru̍ jare</origDate>, hie by und mit sind gesin der obgenant her <persName role="testis" ref="per013813">Cuͦnratt Gru̍ter</persName>
+<lb/>und die fu̍rsichtigen und wisen <persName role="testis" ref="per001546">Heinrich Roͤst</persName>, burgermeister der statt <placeName ref="loc000065">Zu̍rich</placeName>, <persName role="testis" ref="per013817">Johanns Schmid</persName>,
+<lb/>vogt zu <placeName ref="loc000362">Gruͤningen</placeName>, und ander erber lu̍te hie zuͦ beruͤfft und gebetten.</seg>
+</p></div>
+<div><signed><figure type="notarial sign"/> <lb/><persName ref="per013815">Johanns
+<lb/>Kaltschmid</persName>
+<lb/>Ich, <choice><sic>obgenater</sic><corr>obgenanter</corr></choice> offner notarius, hab oͧch die hienach geschribnen abgeschrifften gegen ir rechten versigelten
+<lb/>hoptbriefen collacioniert, gelesen und gehoͤrt, die selben abgeschrifften nun all glichlich als die hoptbrieff
+<lb/>sagend, harumb so han ich die selben abgeschrifften mit minem namen undergeschriben, als dann hienach
+<lb/>geschriben staͧt.
+</signed></div>
+<div>
+<ab type="dorsal" place="right margin" hand="later hand"><origDate when="1473-07-27">27 July 1473</origDate>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Kirche <placeName ref="loc008647">Uster</placeName> war 1438 dem <orgName ref="org004897">Kloster <placeName ref="loc008350">Rüti</placeName></orgName> inkorporiert worden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_026">SSRQ ZH NF II/3, Nr. 26</ref></bibl>).
+Bereits 1454 war es über die Führung des Jahrzeitbuchs zu Streit gekommen, bei dem die Anlage eines neuen, bereinigten Jahrzeitbuchs verlangt wurde.
+Es bedurfte jedoch eines zweiten Schiedsgerichtsentscheids, bis diese Aufgabe im Jahr 1469 angegangen wurde
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100909">ERKGA Uster I A 4</ref></bibl>).
+Wie aus der vorliegenden Bestätigung hervorgeht, dauerte es indessen weitere vier Jahre bis zur Fertigstellung des neuen Buchs,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 95-98, S. 96-98</bibl>.
+Mit seinen bunt illustrierten Wappen der Stifterinnen und Stifter stellt das Jahrzeitbuch von <placeName ref="loc006198">Uster</placeName> eines der schönsten Exemplare seiner Gattung dar
+(<bibl><ref target="/startseite/literaturverzeichnis">Hugener 2014</ref>, S. 83, S. 91, S. 104-105 und S. 382</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

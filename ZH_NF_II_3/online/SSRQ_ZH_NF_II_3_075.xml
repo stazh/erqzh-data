@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_075</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=716418">StAZH A 123.2, Nr. 98</idno></msIdentifier><head>Zollordnung von Uster</head><msContents><summary>Aufgeführt werden Zolltarife für Salz, Tuch, Kaufmannsgut, Stahl, Reis, Butter, Zwillich, Elsässer, Breisgauer und andere fremde Weine, für Zürcher Wein, Getreide, Käse, Dörrobst und Hausrat. Nachtrag von anderer Hand: Bestimmungen über den Zoll auf ausgeführten Wein und aufgekauften Zwillich sowie das Anzeigen von Zuwiderhandlungen durch die Zöllner an die Obervögte.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Rodel (Einzelblatt, mit angenähtem Nachtrag von anderer Hand)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="62.0"/><width unit="cm" quantity="12.5"/></dimensions></extent><condition>Abnutzung am oberen Rand</condition></supportDesc></objectDesc></physDesc><history><origin><origDate from="1555-01-01" to="1555-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000884">Ausfuhr</term><term ref="key000179">Eid</term><term ref="key004353">Einfuhr</term><term ref="key000350">Getreide</term><term ref="key000629">Salz</term><term ref="key000983">Warenverkehr</term><term ref="key000129">Wein</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_123_2__Nr__98__r_.tif"/>
+<head>
+<lb/>Ordnung, wie der zoll hinfüro zuͦ
+<lb/><placeName ref="loc006198">Uster</placeName> erforderet unnd ingetzogen
+<lb/>werden unnd ein zoller das zethuͦnd
+<lb/>schweeren solle, ernüwert <origDate when="1555">anno
+<lb/>1555</origDate>
+</head>
+<p><lb/>Item von <measure type="volume" unit="Fass" quantity="1" commodity="salt">einem vasß mit saltz</measure>: <measure type="currency" unit="ß" quantity="4">vier
+<lb/>schilling</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Fass" quantity="0.5" commodity="salt">einem halben vasß mit saltz</measure>:
+<lb/><measure type="currency" unit="ß" quantity="2">zwen schilling</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Scheibe" quantity="1" commodity="salt">einer kleinen schyben</measure>: <measure type="currency" unit="h" quantity="8">acht
+<lb/>haller</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Sack" quantity="1" commodity="salt">einem sackh mit saltz</measure>: <measure type="currency" unit="h" quantity="4">vier
+<lb/>haller</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Saum" quantity="1" commodity="drapery">einem soum tuͦch</measure>: <measureGrp><measure type="currency" unit="ß" quantity="2">zwen schilling</measure>
+<lb/>unnd <measure type="currency" unit="h" quantity="8">acht haller</measure></measureGrp>.</p>
+<p><lb/>Item von <measure type="volume" unit="Saum" quantity="1" commodity="merchandise">einem soum kouffmans guͦt</measure>:
+<lb/><measureGrp><measure type="currency" unit="ß" quantity="2">zwen schilling</measure> unnd <measure type="currency" unit="h" quantity="8">acht haller</measure></measureGrp>.</p>
+<p><lb/>Item von <measure commodity="steel" quantity="1" type="volume" unit="Saum">einem soum stahel</measure>: <measure type="currency" unit="ß" quantity="1">ein schilling</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Saum" quantity="1" commodity="rice">einem soum ryß</measure>: <measure type="currency" unit="ß" quantity="1">ein schilling</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Saum" quantity="1" commodity="butter">einem soum ancken</measure>: <measure type="currency" unit="xr" quantity="2">zwen crützer</measure>.</p>
+<p><lb/>Item von <measure type="undefined" unit="Stuck" quantity="1" commodity="denim">einem stuckh zwilchen</measure>: <measure type="currency" unit="h" quantity="4">vier
+<lb/>haller</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Eimer" quantity="1" commodity="wine" origin="Elsass">einem eimer Elsaͤsser</measure>, <measure type="volume" unit="Eimer" quantity="1" commodity="wine" origin="Breisgau">Bryß<lb break="no"/>gower</measure> unnd <measure type="volume" unit="Eimer" quantity="1" commodity="wine">annderm froͤmbdem win</measure>,
+<lb/>usserthalb unnser herren gericht und ge<lb break="no"/>piet gewachsen: <measureGrp><measure type="currency" unit="ß" quantity="1">ein schilling</measure> und <measure type="currency" unit="h" quantity="4">vier haller</measure></measureGrp>.</p>
+<p><lb/>Item von <measure type="volume" unit="Eimer" quantity="1" commodity="wine" origin="ZH">einem eimer Zürich win</measure>, inn
+<lb/>unnser herren gepiet gewachsen: <measure type="currency" unit="h" quantity="4">vier 
+<lb/>haller</measure>.</p>
+<p><lb/>Item <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">von einem mütt kernnen</measure>: <measure type="currency" unit="h" quantity="4">vier
+<lb/>haller</measure>.</p>
+<p><lb/>Item von <measure type="volume" unit="Malter" quantity="1" commodity="oat">einem malter haber</measure>: ouch
+<lb/><measure type="currency" unit="h" quantity="4">vier haller</measure>.</p>
+<p><lb/>Item von einem keß: <measure type="currency" unit="h" quantity="2">zwen haller</measure>.</p>
+<p><add place="interlinear" hand="other hand" type="sign"><lb/>Item von <measure type="volume" quantity="1" unit="Fass" commodity="dried fruit">einem vasß mit thürrem
+<lb/>opß</measure>: <measure type="currency" unit="ß" quantity="4">vier schilling</measure>.</add><note>In der obrigkeitlichen Verfügung, die als Grundlage für die vorliegende Zollordnung diente
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2586112">StAZH A 59 m, Nr. 7</ref></bibl>), kommt diese Passage nicht vor;
+in der Neufassung der Zollordnung von <origDate when="1609">1609</origDate> wurde sie hingegen an der entsprechenden Stelle eingefügt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2588415">StAZH A 59 m, Nr. 8</ref></bibl>).</note></p>
+<p><lb/>Item, so etwas hußraths unnd hußplun<lb break="no"/>ders an die frömbde durch gfürt wurde, 
+<lb/>von einem karren: <measure type="currency" unit="bz" quantity="1">ein batzen</measure>.</p>
+<p><lb/>Von einem wagen: <measure type="currency" unit="bz" quantity="2" origin="ZH">zwen batzen</measure>, alles
+<lb/> der statt <placeName ref="loc000065">Zürich</placeName> müntz unnd werung.</p>
+<p><lb/>Ob aber ettwas hußraths hin unnd wider
+<lb/>inn unnser herren gepiet durch gefürt
+<lb/>wurde, von demselben soll ein zoller
+<lb/>nützit hoüschen noch erforderen.</p>
+<p><lb/>Und was über obgemelte stuckh hin
+<lb/>witers durchgiennge, von denselbenn
+<lb/>soll ein zoller nemen je nach gestalt unnd
+<lb/>gelegennheitt der sach, wellichs
+<lb/>zuͦ siner bescheidennheit gesetzt ist.
+</p>
+<pb n="v" facs="StAZH_A_123_2__Nr__98__v_.tif"/>
+<p><handShift/><seg><lb/>Zuͦfürkomung allerlei gfharen, so mit dem
+<lb/>zollen brucht wirt, ist unnser gnedigenn
+<lb/>herren will unnd meinung, das ire zoller
+<lb/>uff die söümer, so wyn an die frömbde
+<lb/>usßert ir, unnser herren, lanndschafft
+<lb/>füren, flyssig acht habind unnd den zoll
+<lb/>ordennlich inzüchind.</seg>
+<seg>Deßglychen wo sy
+zwylch<lb break="no"/>en köüffler wüssind, das sy inen anzeigen
+<lb/>söllen, unnser herren will und meinunng
+<lb/>syge, das sy den zoll von aller zwylchenn,
+<lb/>so sy uff pfragen kouffen, gflisßenn
+uß<lb break="no"/>richtind unnd gebind unangsechen, das
+<lb/>sy dieselb schon nit durch die zoll pletz fürind, 
+<lb/>dann sy je den zoll, so bald sy die kouffend,
+<lb/>schuldig sygenn, mit dem vorwarnnen,
+<lb/>wo sy das nit thuͦn, das sy by iren eyden
+<lb/>sy dem obervogt leidenn und anzeigenn
+<lb/>muͦsßenn, der dann dermasß mit straf
+<lb/>gegen inen hanndlen werde, das sy sechind
+<lb/>unrecht gethan habenn, unnd also sy, die
+<lb/>zoller, by ir amt eyden schuldig syen,
+<lb/>hieruf acht zuͦhabenn unnd die schuldigen
+<lb/>den obervögtenn anzuͦzeigenn unnd
+<lb/>zuͦleidenn.</seg>
+</p>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Dem zollner zu <placeName ref="loc006198">Uster</placeName> eidt und ordnung, <origDate when="1555">1555</origDate></ab>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc006198">Uster</placeName> war vermutlich gleichzeitig wie in <placeName ref="loc010426">Fehraltorf</placeName> und <placeName ref="loc007474">Wetzikon</placeName> eine Zollstelle eingerichtet worden, um den Verkehr
+von <placeName ref="loc000108">Rapperswil</placeName> durch das <placeName ref="loc010440">Glatttal</placeName> und <placeName ref="loc011735">Kempttal</placeName> nach <placeName ref="loc000849">Winterthur</placeName> und <placeName ref="loc000701">Schaffhausen</placeName> zu kontrollieren,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schnyder 1938</ref>, S. 156-157, S. 185, Nr. 24</bibl>.
+Die Einkünfte der Zollstellen auf der Landschaft finden sich verzeichnet in den Rechnungen des <orgName ref="org004912">Säckelamts</orgName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324410">StAZH F III 32</ref></bibl>).</p>
+<p>1533 beschwerten sich die Herrschaftsleute von <placeName ref="loc000362">Grüningen</placeName> darüber, dass sie Zoll zahlen müssen für Waren, die sie gar nicht durch <placeName ref="loc006198">Uster</placeName> führen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2586105">StAZH A 59 m, Nr. 2</ref></bibl>).
+Dies wurde dem <placeName ref="loc006198">Ustermer</placeName> Zöllner zunächst noch untersagt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2597185">StAZH B IV 5, fol. 50r</ref></bibl>),
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 164-165</bibl>.</p>
+<p>Als 1554 erneut Klagen über die drei genannten Zollstationen eingingen, sollten die <orgName ref="org004911">Rechenherren</orgName> sich des Problems annehmen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2586104">StAZH A 59 m, Nr. 3</ref></bibl>).
+Am <date when="1555-11-26">26. November 1555</date> stellten sie eine neue Zollordnung auf, die für alle drei genannten Stationen gelten sollte.
+Wie es darin heisst, sollte jedem Posten ein entsprechender Pergamentrodel ausgehändigt werden.
+In dieser Form ist allerdings nur das vorliegende Exemplar aus <placeName ref="loc006198">Uster</placeName> überliefert, während von <placeName ref="loc010426">Fehraltorf</placeName> lediglich eine gleich lautende Abschrift in einem Papierheft vorliegt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=348457">StAZH C III 14, Nr. 8</ref></bibl>).
+Aus <placeName ref="loc007474">Wetzikon</placeName> ist eine vermutlich ältere, jedenfalls kürzere Fassung des Zollrodels erhalten, nach eigenen Angaben <orig>abgeschriben ab dem zuͦ <placeName ref="loc006198">Uster</placeName></orig>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2585940">StAZH A 59 m, Nr. 1</ref></bibl>).</p>
+<p>Die erneuerte Zollordnung von <origDate when="1609">1609</origDate> stimmt mit der vorliegenden Fassung inhaltlich vollständig überein
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2588415">StAZH A 59 m, Nr. 8</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

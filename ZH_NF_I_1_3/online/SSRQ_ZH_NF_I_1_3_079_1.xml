@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_079_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=908768">StAZH A 43.1.4, Nr. 25</idno></msIdentifier><head>Rechtsauskunft an das Stadtgericht betreffend Rechtsbeistandschaften für Frauen in Schuldverpflichtungen</head><msContents><summary>Auf Ersuchen der Richter am Stadtgericht geben Kleiner und Grosser Rat der Stadt Zürich folgende Rechtsauskunft: Ehefrauen sind befugt, mit Wissen ihrer Ehemänner Schuldverpflichtungen für Essen, Trinken, Haushaltsgegenstände, Kleider und Schmuck einzugehen. Um rechtsverbindliche Geschäfte über grössere Beträge zu tätigen sowie um ihr Gut zu verpfänden oder zu verschreiben, müssen sie sich mit Bewilligung ihres Mannes bevogten lassen. Vorbehalten sind die Beschränkung der durch die Ehefrau getätigten Ausgaben auf 15 Pfennig sowie die Satzung betreffend gemeinsamer Gewerbetätigkeit der Eheleute.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1515-11-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000863">Ehe</term><term ref="key000057">Gericht</term><term ref="key000058">Schulden</term><term ref="key000997">Vormundschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p><app><lem/><rdg wit="StAZH B III 53, fol. 17r">Frowen, so für ir emannen umb <lb/> schulden versprechen</rdg><rdg wit="StAZH B III 54, fol. 54r">Wie ein froͧw mitt oder on iren <lb/>vogt für iren man versprëchen <lb/>mag</rdg></app>
+<seg><lb/>Als dann die richter am <orgName ref="org005052">stattgericht</orgName> lu̍terung hand begert, wie sy sich
+<lb/><del>mit</del> soͤllint hallten gegen denen frowen, die <del>fu̍r ir eman versprechent</del>
+<lb/>mit gunst und willen irer emannen <add place="above">versprechent</add> umb <del>die</del> schulden, so die selben,
+<lb/>ire eman, biderlu̍ten schuldig syent, ob die selben frowen soͤllint bevoͤg<lb break="no"/>tet
+sin oder nit. Uff das habent <app><lem>sich <app><lem>min herren</lem><rdg wit="StAZH B III 53, fol. 17r"/></app>
+<orgName ref="org001217">raͤt und burger</orgName>
+<lb/>erlu̍tert und</lem><rdg wit="StAZH B III 54, fol. 54r">wir unns</rdg></app> erkennt:</seg>
+<seg>Wo frowen mit gunst und wu̍ssen irer e<lb break="no"/>mannen
+<add place="left margin" type="sign">fryg und unge<lb break="no"/>trungen</add> fu̍r dieselben, ire eman, versprechint und verheissint, umb
+<lb/>louffent schulden, die sich von essens, trinckens und irs hußhaltens,
+<lb/><add place="left margin">ouch kleider und <lb/>kleineter</add> wegen begebent und ufflouffint, das es by soͤlichem geheyß bliben und
+<lb/>die frowen von irer emannen wegen bezalung thuͦn und witer
+<lb/>nit bevoͤgtet sin soͤllint.</seg>
+<seg>Wo aber ein frow fu̍r iren eman ver<lb break="no"/>heysse
+umb ein andere schuld, die sye groß oder klein, und darumb
+<lb/>das ir verpfenden, versetzen oder verschryben <add place="above">woͤlle</add>, die soͤlle sich mit gunst
+<lb/>irs <app><lem>mans</lem><rdg wit="StAZH B III 53, fol. 17r; StAZH B III 54, fol. 54r">emans</rdg></app> lassen rechtlich bevoͤgten und <del>sust soͤlle</del> das mit irem
+<lb/>recht gegebnen vogt thuͦn, sunst soͤlle soͤlicher ir geheyß in dem fal
+<lb/>kein chrafft haben.</seg>
+<seg>Und dis lu̍trung und erkantnus solle
+<lb/>on abbru̍chig sin der satzung, dz ein frow hinder irem eman nit
+<lb/>me dann <measure type="currency" unit="d" quantity="18">xviij <app><lem>₰</lem><rdg wit="StAZH B III 53, fol. 17r; StAZH B III 54, fol. 54r">haller</rdg></app></measure>
+<del>habe</del> hat gwalt hinweg zegeben, deßglich der
+<lb/>satzung, so da ist der frowen halb, so mit iren emannen zuͦ
+<lb/>gwyn und gwerb sitzent.<note>Bei gemeinsam betriebenen Gewerbe besassen Ehefrauen erweiterte Kompetenzen zum eigenständigen Eingehen von Schuldverpflichtungen. Für die in der vorliegenden Aufzeichnung erwähnte diesbezügliche Satzung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/1, S. 95-96, Nr. 94</bibl>. Vgl. zusätzlich auch die Ordnung betreffend Haftung von Ehefrauen bei Schuldforderungen an den Ehemann bei gemeinsam betriebenem Gewerbe
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_078">SSRQ ZH NF I/1/3, Nr. 78</ref></bibl>).</note></seg>
+<seg>Actum <origDate when="1515-11-21">mitwuch vor <persName ref="per000793">Katherine</persName>
+<lb/>anno <abbr>etc</abbr> xv</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> her <choice><abbr>burg</abbr><expan>burgermeister</expan></choice>
+<persName ref="per013559">Roͤist</persName> und <orgName ref="org001217">reͣt und burger</orgName>.</seg>
+</p>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Erkandtnuß, ob ein frauw für ihren mann um schulden versprechen möge, <origDate when="1515">1515</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><origDate when="1515">1515</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Eine der wichtigsten Kompetenzen des <orgName ref="org005052">Stadtgerichts</orgName> bestand in der Behandlung von Schuldangelegenheiten (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>,
+S. 156-158; 179-181</bibl>). Als übergeordnete Weisungsinstanz fungierte der <orgName ref="org004016">Kleine Rat</orgName>, der auf Ersuchen der Richter am <orgName ref="org005052">Stadtgericht</orgName> auch Rechtsauskünfte erteilte. Die vorliegende Auskunft, für die zusätzlich der <orgName ref="org004906">Grosse Rat</orgName> beigezogen wurde, regelt einen zentralen Aspekt des ehelichen Güterrechts, insofern sie die Kompetenz von Ehefrauen zum eigenständigen Eingehen von Schuldverpflichtungen näher umreisst. Aufgrund ihrer hohen Bedeutung wurde sie auch in die Gerichtsbücher von 1527 und 1553 übertragen, wobei sich in Letzterem Zusätze von späterer Hand finden.</p>
+<p>Zur vorliegenden Satzung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S. 221</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Malamud/Sutter 1999</ref>, S. 90-91</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 56</bibl> (mit irrtümlichlicher Datierung der vorliegenden Aufzeichnung auf das Jahr 1512); allgemein zum Schuldenmachen durch Eheleute vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 204-211</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

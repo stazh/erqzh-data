@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_132_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3722738">StAZH B III 53, fol. 1r-2r</idno></msIdentifier><head>Ordnung des Betreibungsverfahrens der Stadt Zürich</head><msContents><summary>Die Ordnung regelt das Verfahren bei Geldschulden mit den folgenden Verfahrensschritten: Eröffnung des Verfahrens durch den Gläubiger vor dem Ratsschreiber; Orientierung des Schuldners über das gegen ihn eröffnete Verfahren; Möglichkeit zur Einsprache des Schuldners gegen Entrichtung von einem Haller; Orientierung des Gläubigers über die Antwort des Schuldners; Möglichkeit, das Verfahren vor das Stadtgericht zu ziehen; Vorgehen bei Ausbleiben einer der beiden Parteien vor Gericht; Eintrag des Schuldners in das Verlustbuch; Einzug der Schulden durch die Eingewinner bei Nichtbegleichung durch den Schuldner; Senkung der geschuldeten Summe im Rahmen des Gerichtsverfahrens; Orientierung der Fürsprecher des Stadtgerichts durch den Ratsschreiber über die Höhe der durch den Gläubiger eingeklagten Summe; Vorgehen im Falle einer Teilabzahlung der Schuld durch den Schuldner; Definition der Bedingungen für die Einstellung des Betreibungsverfahrens: Betreibung um eine zu hohe Summe; zu früh eingeleiteter Einzug der Schulden; Nichtannahme geeigneter Pfänder durch den Gläubiger.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1527-01-01" to="1527-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term><term ref="key000441">Pfand</term><term ref="key000027">Pfändung</term><term ref="key000058">Schulden</term><term ref="key000412">Versteigerung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r"/>
+<p><lb/>Actum <origDate when="1527">anno <abbr>etc</abbr> xxvii</origDate></p>
+<head><lb/><app><lem>Item wie hernach geschriben statt, sind die ordnungen unnd 
+<lb/>satzungen der <orgName ref="org005052">statt gericht</orgName> mitt dem fu̍rgebietten unnd
+<lb/>allen andren hanndlungen unnd besonnders, worumb ein 
+<lb/>person der andern fu̍rgebietten moͤge oder nitt.</lem><rdg wit="StAZH B III 54, fol. 70r">Wie man umb gëlt schulden <lb/>an <orgName ref="org004016">rath</orgName> schryben soll unnd <lb/>für <orgName ref="org005052">gericht</orgName> gebieten mag</rdg></app></head>
+<p><lb/><del hand="later hand"><app><lem>Item des ersten</lem><rdg wit="StAZH B III 54, fol. 70r"/></app></del> umb all geltschulden sol der kleger den schuldner 
+<lb/>an <orgName ref="org004016">ratt</orgName> schriben. Unnd sol der rattschriber<note>Ein detaillierter Bericht über die Aufgaben des Ratsschreibers ist von der Hand <persName ref="per014238">Hans Aspers</persName> überliefert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_104">SSRQ ZH NF I/1/3, Nr. 104</ref></bibl>).</note> dem schuldner sagen,
+<lb/>von wes wegen unnd umb wie vil er in an <orgName ref="org004016">raͧtt</orgName> schribe unnd 
+<lb/>den schuldner daruff fragen, ob er dem kleger der schuld gichtig 
+<lb/>sin woͤlle. Unnd so der schuldner nitt gichtig sin wil, sol er dem 
+<lb/>rattschriber <measure type="currency" unit="h" quantity="1">ein haller</measure> geben der ungichtung (den selben <measure type="currency" unit="h" quantity="1">haller</measure>
+<lb/>der raͧttschriber erfordern sol). Gibt aber der schuldner
+<lb/>den <measure type="currency" unit="h" quantity="1">haller</measure> nitt, so belipt es by dem rattschriben, bys uff die 
+<lb/>zitt der verlurst. Gipt aber der schuldner dem rattschriber 
+<lb/>den <measure type="currency" unit="h" quantity="1">haller</measure> der ungichtigung, so soll dann der rattschriber 
+<lb/>zuͦ dem cleger gan unnd im soͤllichs sagen, so mag dann 
+<lb/>der kleger dem schuldner fu̍r <orgName ref="org005052">gericht</orgName> bietten lassen. Kompt 
+<lb/>dann der schuldner gegen dem kleger nitt uff den ersten 
+<lb/>tag, so im fu̍rgebotten wirtt, so sol dann der schuldner nach 
+<lb/>eroffnung der summ sollicher schuld verfeltt unnd uff das 
+<lb/>verlurst buͦch erkenntt werden. Kompt aber der schuldner
+<lb/>gegen dem kleger unnd wirtt umb die summ mitt recht gichtig
+<lb/>gemacht, so sol er denn ouch uff das verlurst buͦch erkenntt werden.
+<lb/>Unnd sol der rattschriber <hi rend="underline" hand="later hand"><app><lem>zuͦ dem stattschriber gan unnd</lem><rdg wit="StAZH B III 54, fol. 70r"/></app></hi>
+<pb n="1v"/>
+<lb/>den schuldner in das verlurst buͦch schriben lassen unnd so 
+<lb/>die ingewu̍nner ingewu̍nnend, das im dann ouch 
+<lb/>ingewunnen werde. 
+</p>
+<p><lb/>Wellich personen aber die summen, darumb sy an <orgName ref="org004016">raͧtt</orgName> ge<lb break="no"/>schriben
+werdent, mitt dem rechten mindrent, die soͤllent
+<lb/>des sover geniessen, das inen nitt von stund an sol 
+<lb/>ingewunnen werden, dann umb wie vil sy gichtig ge<lb break="no"/>macht 
+werdent, darumb mag man sy widerumb an <orgName ref="org004016">ratt</orgName>
+<lb/>schriben und wenn sich die zitt verloufft, inen verlieren und 
+<lb/>ingewu̍nnen.</p>
+<p><lb/>Unnd damitt das die fu̍rsprechen der sumenn, darumb
+<lb/>die lu̍tt an <orgName ref="org004016">ratt</orgName> geschriben sind, unnderwisd werdint,
+<lb/>das sy die lu̍tt dester fu̍rderlicher usgerichten moͤgind,
+<lb/>unnd darinn nitt des raͧttschribers wartten muͤssind,
+<lb/>so sol der rattschriber <date dur="R/P1D">all tag</date> an dem <orgName ref="org005052">gericht</orgName> wartten 
+<lb/>und wer sin summen, darumb an den <orgName ref="org004016">ratt</orgName> geschriben
+<lb/>ist, behept unnd bezu̍cht, die anschriben <app><lem>unnd die dem 
+<lb/>stattschriber darnach angeben, als obstatt</lem><rdg wit="StAZH B III 54, fol. 70v"/></app>. Unnd sollent 
+<lb/>allwegen die summen offennlich vor den fu̍rsprechen erzeltt 
+<lb/>unnd geoffnett werden.</p>
+<p><lb/>Unnd so es sich begebe, das ein person der andern hett lassen
+<lb/>fu̍r bietten unnd der kleger nitt erschint, so sol dann das 
+<lb/>gebott ab sin. <add place="inline" hand="later hand">unnd nu̍tz, dem der <gap quantity="6" unit="cm" reason="illegible"/></add></p>
+<pb n="2r"/>
+<p><del hand="later hand"><lb/>Es ist ouch verschinerer jaren von einem <orgName ref="org002406">burgermeister, raͧtt und 
+<lb/>dem grossen raͧtt, genant die zweyhundertt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, erkenntt,
+<lb/>wellicher den andern an <orgName ref="org004016">ratt</orgName> schriben lassett unnd darnach 
+<lb/>ettwas geltz vor der verlurst an sin schuld nimpt, der selb sol 
+<lb/>dannathin sin recht von nu̍wem anfachen, so er daruff gegangen 
+<lb/>ist.</del><add place="below" hand="later hand">Am 30 blat.</add><note>An dieser Stelle wird von späterer Hand auf eine Rechtsauskunft des <orgName ref="org002406">Rates</orgName> gegenüber dem <orgName ref="org005052">Stadtgericht</orgName> verwiesen, welche die in der vorliegenden Aufzeichnung enthaltene Bestimmung modifiziert. Sie regelt den Fall, dass seitens des Schuldners eine Teilabzahlung seiner Verpflichtung geleistet wurde. In diesem Fall blieben gemäss der späteren Rechtsauskunft für den Rest der geschuldeten Summe die Ansprüche des Gläubigers unverändert bestehen und er musste kein neues Betreibungsverfahren eröffnen. Die Bestimmung wurde in der neuen Form auch in die zweite Rezension des Gerichtsbuchs übernommen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3724342">StAZH B III 53, fol. 30v</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4279628">StAZH B III 54, fol. 71r</ref></bibl>).</note></p>
+<head type="subtitle"><lb/><app><lem>So sind dis die <num value="3">dru̍</num> stuck, darumb man sich nach 
+<lb/>dem verlieren gerichtz entschlachen mag</lem><rdg wit="StAZH B III 54, fol. 72r">Umd welliche <num value="3">drü</num> stuck man <lb/>sich <orgName ref="org005052">gerichts</orgName> nach dem verlie<lb break="no"/>ren entschlahen mag</rdg></app></head>
+<p><lb/>Item, wer dem andern umb mer verlure, dann er in an den <orgName ref="org004016">ratt</orgName>
+<lb/>geschriben hett, darumb mag sich der, dem es beschicht, gerichtz
+<lb/>entschlachen.</p>
+<p><lb/>Item wellicher ouch dem andren zuͦ fruͤ verlure,<note>Der Zeitraum zwischen Eröffnung des Betreibungsverfahrens und Einleitung der Pfändung im Falle des Nichtbegleichens der Schulden wird in der Ordnung von 1493 auf einen bis drei Monate festgelegt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_113">SSRQ ZH NF I/1/3, Nr. 113</ref></bibl>).</note> darumb mag 
+<lb/>man sich ouch dem gerichtz entschlachen.</p>
+<p><lb/>Item wellicher ouch dem andren verlure unnd sich pfanden, die der 
+<lb/>summ wertt werind, widrotte und die nitt nemen woͤltte,
+<lb/>darumb mag man sich ouch gerichtz entschlachen.</p>
+<p><lb/>Item unnd wellicher dem andern in den <num value="3">dryg</num> stucken einem 
+<lb/>obgelitt mitt dem rechten, so sol der ander das verlurst geltt 
+<lb/>und die <measure type="currency" unit="ß" quantity="10">zechen schilling</measure> gerichtz entschlachen geben unnd 
+<lb/>denn den selben widerumb an den <orgName ref="org004016">ratt</orgName> schriben, verlieren 
+<lb/>unnd ingewu̍nnen, als vor statt.<note>An dieser Stelle folgt in der zweiten Rezension des Gerichtsbuchs ein späterer Zusatz aus dem Jahr 1561 betreffend die unerlaubte Ausweitung der Einstellungsgründe auf andere Gerichtsverfahren als die Schuldbetreibung sowie das Vorgehen bei gegenseitigen Schuldforderungen zwischen Gläubiger und Schuldner (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4279628">StAZH B III 54, fol. 72r-v</ref></bibl>).</note></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung ergänzt eine ausführlichere das Betreibungsverfahren bei Geldschulden betreffende Satzung aus dem Jahr 1493 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_113">SSRQ ZH NF I/1/3, Nr. 113</ref></bibl>). Die wesentlichste Neuerung gegenüber Letzterer stellt die Nennung der drei Bedingungen dar, unter denen die Einstellung des Verfahrens möglich war.</p>
+<p>Zu den verschiedenen Formen des <placeName ref="loc000065">Zürcher</placeName> Betreibungsverfahrens vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud/Sutter 1999</ref></bibl>.
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

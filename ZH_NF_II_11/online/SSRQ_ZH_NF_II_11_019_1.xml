@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_019_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3264920">StAZH B II 4, Teil I, fol. 4r-5r</idno></msIdentifier><head>Verordnung über die Allmende im Sihlfeld</head><msContents><summary>Bürgermeister und beide Räte von Zürich haben je zehn Kleinräte und Grossräte bestimmt, um auf dem Sihlfeld einen Augenschein zu nehmen, nachdem die Klage eingegangen war, die dortigen Leute würden Allmendland einzäunen, sodass weder die Stadtbürger noch die Leute vor der Stadt ihr Vieh weiden können, wie es von alters her Gebrauch sei.  Bürgermeister und Räte von Zürich bestätigen die Erkenntnisse der Ratsabgeordneten betreffend die Nutzung der Allmende, die diese in Form einer Ordnung festgehalten haben. Die Ordnung regelt die Nutzung in den Bereichen des oberen Werds (1) - das Lehen der Dorfleute von Wipkingen ist -, der Zelg im Sihlfeld (2), der Bürgerallmende im Kreuel (3), des Guts des Klosters Oetenbach (4) und des eingezäunten Allmendlandes am Sihlufer (5). Ausserdem werden die Beseitigung eines Faches in der Sihl und das Zurücksetzen einer Einzäunung bestimmt (6-7). Zum Schluss wird festgehalten, dass die Bauernschaft von Wiedikon für den Bau und Unterhalt von Flusswehren zum</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1410-01-01" to="1410-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 2/2, S. 243-246, Nr. 20 (fehlender Hinweis auf die Erschliessung des Tagesdatums 19. Juli)</bibl></listBibl><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 5627 (auf der Grundlage des Entwurfs)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000162">Bauernschaft</term><term ref="key004017">Flurordnung</term><term ref="key000715">Gewässer</term><term ref="key004022">Satzung</term><term ref="key005444">Tierhaltung</term><term ref="key000048">Weiderecht</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="4r" type="original" facs="StAZH_B_II_4__Teil_I__fol__4_r_.tif"/>
+<div><head><lb/>Umb <placeName ref="loc012247">Silfeld</placeName></head></div>
+<div><p><lb/>Wir,
+der <orgName role="issuer" ref="org002406">burgermeister, die raͤt, die zunftmeister und
+der gross rât, die zwey <choice>
+<abbr>hundt</abbr>
+<expan>hundert</expan>
+</choice>, der statt <placeName ref="loc000065"><choice>
+<abbr>Zu̍r</abbr>
+<expan>Zu̍rich</expan>
+</choice></placeName></orgName>, tuͦn kunt <lb/>menlichem: Als
+etlich u̍nser burger und ander erber lu̍t u̍ns mit klag etwe dik
+fu̍rbracht hant, das <lb/>man almenden uff dem
+<placeName ref="loc012247">Silveld</placeName> bi der <placeName ref="loc000075">Lindmag</placeName>
+und bi der <placeName ref="loc010518">Sil</placeName> uff und ab
+ingevangen und inge<lb break="no"/>zu̍net habe,
+das weder burger uss der statt noch ander lu̍t vor der statt ir vich da
+nicht geweiden <lb/>konden noch mochten, als aber das von alter her
+komen und gewesen ist, des schikten wir <num value="20">zwentzig</num>
+bider<unclear>b</unclear>
+<lb/>man, <num value="10">zechen</num> von den <orgName ref="org004016">raͤten</orgName>
+und <num value="10">zechen</num> von dem <orgName ref="org004906">grossen rât</orgName>,
+uff das <placeName ref="loc012247">Silfeld</placeName>, den gebresten ze <lb/>besechen,
+und gaben ouch dien vollen gewalt, was si in den sachen taͤtten oder
+hiessen tuͦn, es were <lb/>mit uftuͦn oder mit uslassen, und si dar inn
+besser duͤchte getan dann vermitten,
+das es ouch bi der <lb/>selben ir erkantnu̍sse, nu und hernach eweklich
+wâr und staͤt
+<choice><abbr>unwandelb</abbr><expan>unwandelbar</expan></choice> beliben sol. Und sint dise <lb/><choice>
+<abbr>nachgeschr</abbr>
+<expan>nachgeschribnen</expan>
+</choice> stuk ir erkantnu̍sse, so si von diser sach wegen getan
+hant.<note>Der Entwurf von anderer Hand enthält lediglich die
+gleichlautenden, durch die Ratsverordneten festgehaltenen
+Bestimmungen, nicht aber diesen einleitenden Abschnitt über die
+Umstände, die zur Ordnung geführt haben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365773">StAZH C I, Nr. 3062</ref></bibl>; Regest:
+<bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4, Nr. 5627</bibl>).</note>
+</p></div>
+<div n="1">
+<p><figure type="sign"/><note>Dieser Artikel der Ordnung wurde zu späterer Zeit am linken Rand mit einem Stern markiert, da ein Eintrag vom <date when="1416-02-14">14. Februar 1416</date> betreffend die Verleihung des <placeName ref="loc012572">Oberen Werds</placeName> an <persName ref="per023975">Hermann Schürmann</persName> und <persName ref="per023973">Hans Job</persName>, ebenfalls mit einem Stern versehen, auf diese Bestimmung verweist (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3273745">StAZH B II 4, Teil I, fol. 3v, Eintrag 1</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref></bibl>, Bd. 2, S. 241, Nr. 18). Der wenige Jahre später erfolgten Verleihung an <persName ref="per023975">Hermann Schürmann</persName> und dessen Erben ist zudem zu entnehmen, dass sowohl das <placeName ref="loc010827">Werd</placeName> als auch <orig>der giess in dem egenanten werd ein almend sin sol</orig>, wenn das angrenzende Feld brach liege (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3273746">StAZH B II 4, Teil I, fol. 3v, Eintrag 2</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref></bibl>, Bd. 2, S. 241, Nr. 19).</note>
+<lb/>Des ersten ist <orgName ref="org007945">gemeinen dorflu̍ten ze <placeName ref="loc010875">Wipchingen</placeName></orgName> der ober werd, den man nempt das <placeName ref="loc012572">Bartzisand</placeName>, enpfolchen
+<lb/>und verlichen mit dem geding, das si und ir nachkomen den <choice><abbr>vorgeß</abbr><expan>vorgeßeiten</expan></choice> werd und die wuͦr da
+<lb/>bi mit schu̍ppfen<!-- ahh: (schräg in den Fluss gestelltes) Wehr, vgl. Idiotikon, Bd. 8, Sp. 1078 --> und allen sachen in guͦten eren haben, das kein schad da von nieman beschehen.
+<lb/>Und wenn die zelg uff dem <placeName ref="loc012247">Silveld</placeName>, die an den <choice><abbr>egn</abbr><expan>egenanten</expan></choice> werd stosset, in brach lit, so sol der
+<lb/>selb werd desselben jares ein gemeine almend sin, als dik das ze schulden kunt. Wenn<del rend="blackened">e</del> ouch
+<lb/>die <choice><abbr>obgn</abbr><expan>obgenante</expan></choice> zelg in ess lid<!-- ahh: eine angebaute Zelge, Gegenteil von brach, vgl. Idiotikon, Esch II: https://digital.idiotikon.ch/idtkn/id1.htm#!page/10567/mode/2up  --> und mit korn oder mit haber in beslossen ist, so sol der <choice><abbr>egn</abbr><expan>egenant</expan></choice> werd
+<lb/>ouch beslossen sin, und wenn das korn oder haber abgesnitten wirt und man die stroffel weid
+<lb/>uftuͦd, so sol man ouch den <choice><abbr>egen</abbr><expan>egenanten</expan></choice> werd uftuͦn und offenn haben, und mag dann der von
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> hirt und ander lu̍t mit ir vich dar in varn weiden als uff die <choice><abbr>egn</abbr><expan>egenant</expan></choice> zelg.
+</p></div>
+<div n="2"><p>
+<lb/>Ouch ist gesetzet, was guͦtes, welicher ley das ist, uff der zelg an dem <placeName ref="loc012247">Silveld</placeName> oder in den infengen,
+<lb/>so uff der selben zelg sint, geseyet wirt, wenn dann das selb guͦt abgesnitten wirt, so sol
+<lb/>dann die selb zelg und die <choice><abbr>egen</abbr><expan>egenanten</expan></choice> inveng ufgetan werden, das der von <placeName ref="loc000065">Zu̍rich</placeName> hirt und ander
+<lb/>lu̍t mit ir vech in die stroffel weid gevarn mugen. Wer ouch, das uff die <choice><abbr>egen</abbr><expan>egenant</expan></choice> zelg oder in
+<lb/>die <choice><abbr>obgn</abbr><expan>obgenanten</expan></choice> infeng deheines jares, so die zelg in brach ligen sol, deheiner ley guͦtz geseyet wurd,
+<lb/>als bald dann das selb guͦt abgeschnitten wirt, so sol aber jederman sin inveng uftuͦn, das man in die 
+<lb/>stroffel weid varn muge, als vor ist bescheiden. In disem stuk ist usgelassen, hât jeman dehein
+<lb/>wisen uff der <choice><abbr>obgn</abbr><expan>obgenanten</expan></choice> zaͤlg ligend, die selben wisen mag jederman die sinen zu̍nen, friden und
+<lb/>in eren haben, als im fuͦgklich ist.
+</p></div>
+<div n="3"><p>
+<lb/>Dann ist ouch gesetzt umb die almende bi <placeName ref="loc012666">Krewels
+Furt</placeName><note><placeName ref="loc010518">Sihl</placeName>übergang oberhalb
+des Zusammenflusses mit der <placeName ref="loc000075">Limmat</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH
+NA V</ref></bibl>, S. 71).</note>, das ouch die selb
+almend beliben und <lb/>gehalten sol werden in aller der wise und mâsse,
+als das uff der statt buͦch, dem alten, <lb/>verschriben
+stad,<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3270274">StAZH B II 1, fol. 1r, Eintrag
+2</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher
+Stadtbücher</ref></bibl>, Bd. 1/1, S. 3,
+Nr. 2.</note> das wiset also: <quote>Man schribet
+<orgName ref="org001217">allen raͤten</orgName>, das her <persName ref="per016431">Ruͦdolf der
+<lb/>ju̍nger <app>
+<lem>Mu̍ller</lem>
+<rdg wit="StAZH B II 1, fol. 1r, Eintrag 2"><persName ref="per016431">Mu̍lner</persName></rdg><rdg wit="StAZH C I, Nr. 3062"><persName ref="per016431">Mu̍ller</persName></rdg></app></persName>
+und die <orgName ref="org002666">frôwen an
+<placeName ref="loc000067">Oͤtenbach</placeName></orgName><note>Ehemaliges
+Dominikanerinnenkloster der Stadt
+<placeName ref="loc000065">Zürich</placeName>.</note> ein almend hatten
+ingevangen bi <placeName ref="loc012666">Kraͤwelsfurt</placeName>. <lb/>Dar zuͦ kam
+der <orgName ref="org004016">vastenrât</orgName> und ander lu̍t, die si dar zuͦ
+besanten, den ouch kunt dar umb <lb/>was und ouch zuͦ den heilgen
+dar umb swuͦren, das es gehorte ze der burger almende. Waͤr,
+<lb/>das jemer wider in gevachet, das ein <orgName ref="org004016">rât</orgName>, so
+dann sitzet, von dem <measure type="currency" quantity="1" unit="M">ein
+march</measure> neme bi dem eide <lb/>und es aber wider <app>
+<lem>uftuͦn</lem>
+<rdg wit="StAZH B II 1, fol. 1r, Eintrag 2; StAZH C I, Nr. 3062">uflasse</rdg></app>.</quote><note>Im Entwurf wurde für das Zitat aus dem
+Stadtbuch zunächst Platz ausgespart und im Anschluss mit anderer
+Tinte ergänzt. Dieser Artikel wurde Ende des 18. Jahrhunderts in
+eine Zusammenstellung von Auszügen betreffend den
+<placeName ref="loc012125">Hard</placeName> aufgenommen (<bibl>StArZH
+III.E.156.2., S. 1-3</bibl>).</note>
+</p></div>
+<pb n="4v" facs="StAZH_B_II_4__Teil_I__fol__4_v_.tif"/>
+<div n="4"><p>
+<lb/>So ist denn von der <orgName ref="org002666">frôwen an <placeName ref="loc000067">Oͤtenbach</placeName></orgName> guͦtz wegen, das vor ziten <persName ref="per023974">Uͦlrich Oͤchems</persName> und dar nach
+<lb/><persName ref="per023976">Berchtold Stukis</persName> seligen gewesen ist, geordnet und gesetzt, das das selb guͦt nicht verrer
+<lb/>gen der <placeName ref="loc000075">Lindmag</placeName> noch gen der <placeName ref="loc010518">Sil</placeName> gan sol noch ingevangen werden, dann als die alten hâg
+<lb/>und zu̍nen von alter gestanden sint. Und sol man ouch von dem selben guͦt von den selben alten
+<lb/>zu̍nen ushin nicht mer dann <measure type="length" quantity="20" unit="Schuh">zwentzig schuͦ</measure> lang schu̍ppfen, dem <choice><abbr>egen</abbr><expan>egenanten</expan></choice> guͦt ze helff.
+</p></div>
+<div n="5"><p>
+<lb/>Und als der almend von <placeName ref="loc012737">Oͤtenbacher Guͦt</placeName> her uff untz an die <placeName ref="loc010742">Silbrugg</placeName> etwe vil ingevangen und
+<lb/>ze buw geleit und gesaͤget ist, her umb ist ouch gesetzt, als bald da die lu̍t den bluͦmen,
+<lb/>der jetz uff den guͤtern stad, abgeschniden<app><lem/><rdg wit="StAZH C I, Nr. 3062">wirt</rdg></app>, so sol man da nidnan bi der <choice><abbr>vorgn</abbr><expan>vorgenanten</expan></choice>
+<placeName ref="loc000067">Oͤtenbacher</placeName> altem
+<lb/>zun anvachen zu̍nen und jederman vor sinem guͦt zu̍nen durch uff untz an die <placeName ref="loc010742">Silbrugg</placeName>. 
+<lb/>Und sol man die selben zu̍n setzen, machen und haben an den stetten und in der mâsse, als die
+<lb/><choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> guͤter <date from="1401" to="1410">vor dien nechsten vergangen zechen jaren</date> ungevarlich in gezu̍net waren. Und
+<lb/>sol ouch ein karren oder ein wagen weg zwu̍schent den <choice><abbr>vorgn</abbr><expan>vorgenanten</expan></choice> guͤtern und zu̍nen durch nider
+<lb/>gan, das jederman zuͦ sinen guͤtern untz uff die almend nider bi <placeName ref="loc012666">Krewelsfurt</placeName> wandlen muge.
+</p></div>
+<div n="6"><p>
+<lb/>Dann ist gesetzt, das man das vach in der <placeName ref="loc010518">Sil</placeName> zwu̍schent <orgName ref="org002666">Oͤtenbacher</orgName> und des <persName ref="per021910">Bamsers</persName> guͦt unverzo<lb break="no"/>genlich dannen brechen sol und das man da fu̍rbas kein vach mer <app><lem>sol machen</lem><rdg wit="StAZH C I, Nr. 3062">machen sol</rdg></app>.
+</p></div>
+<div n="7"><p>
+<lb/>Es ist ouch geordnet und gesetzet, das die <orgName ref="org000395">Stukinen</orgName><note>Im Jahr <date when="1429">1429</date> ist ein <persName ref="per023977">Hans Stucki</persName> als ehemaliger Eigentümer der Werde in der <placeName ref="loc010518">Sihl</placeName> genannt, der diese dem verschuldeten <persName ref="per023972">Härti</persName> verkauft hat (<bibl>StAZH B II 4, Teil II, fol. 2r-2v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, Nr. 5, S. 126-127</bibl>).</note> in dem werd den ussresten zun zwu̍schent
+<lb/>der <placeName ref="loc010518">Sil</placeName> und dem <choice><abbr>egn</abbr><expan>egenanten</expan></choice> werd setzen su̍llen an die stett und in der mâsse, als derselb zun
+<lb/><date from="1401" to="1410">vor den nechsten vergangen zechen jaren</date> ungefarlich stuͦnd. Und sond ouch die <orgName ref="org000395">Stukinen</orgName> dis
+<lb/>unverzogenlich tuͦn, als bald der bluͦm ab dem aker kunt, der jetz dar uff stâd.
+</p></div>
+<div n="8"><p>
+<lb/>Und als ze erfu̍rchten ist, das die <placeName ref="loc010518">Sil</placeName> durch <placeName ref="loc009863">Wiedikomer</placeName> almend werde brechen, da von grosser gebrest
+<lb/>kaͤme, das ze fu̍rkomen, dar umb ist geordnet und gesetzet, das die gebursami gemeinlich
+<lb/>ze <placeName ref="loc009863">Wiedikon</placeName> in irem costen obnan bi dem wilden wuͦr anvachen su̍llen schu̍ppfen ze machen
+<lb/>und vor dem almend nider schu̍ppfen untz obnan an das ort der <orgName ref="org000395">Stukinen</orgName> werd. Und su̍llent aber
+<lb/>inen die <orgName ref="org000395">Stukinen</orgName> von des werds wegen ze hilff je den vierden schragen<!-- ahh: Schragen: Stützbock für einen improvisierten Steg, vgl. Idiotikon, Bd. 9, Sp. (1591-)1592: https://www.idiotikon.ch/Register/faksimile.php?band=9&spalte=1591&hl=185585 --> an den schu̍ppfen in
+<lb/>irem costen machen, doch also, das die von <placeName ref="loc009863">Wiedikon</placeName> dien <orgName ref="org000395">Stukinen</orgName> gunnen su̍llent, so vil holtzes
+<lb/>in ir hoͤltzern ze hoͧwen, als si dann zuͦ den vierden schragen und schu̍ppfen notdu̍rftig sint,
+<lb/>und su̍llent also in dem <choice><abbr>egn</abbr><expan>egenanten</expan></choice> zil so vil schu̍ppfen machen in der hoͤche und in der lenge, als
+<lb/>notdurftig ist, ungevarlich. Woͤlt aber deheiner von <placeName ref="loc009863">Wiedikon</placeName> der gebursami in der sach nicht
+<lb/>hilfflich sin, der mag sin lechen ufgeben und dannen ziechen. Wer aber, das jeman, wer der were,
+<lb/>dehein guͦt ze <placeName ref="loc009863">Wiedikon</placeName> oder da umb buwte, der sol der <choice><abbr>egn</abbr><expan>egenanten</expan></choice> gebursami ze <placeName ref="loc009863">Wiedikon</placeName> her
+<lb/>inne ze hilff komen, als sich dann ein <orgName ref="org004016">rât</orgName> dar umb erkennet, und sol ouch das schu̍ppfen
+<lb/>machen unverzogenlich beschechen.<!-- ev. späterer Verweis auf VI.EN.LB.A.3.:19 -->
+</p></div>
+<pb n="5r" facs="StAZH_B_II_4__Teil_I__fol__5_r_.tif
+"/>
+<div n="9"><p>
+<lb/>Und wer diser vorgeschribnen stuken deheines nicht staͤt halt, der jeklicher git <measure type="currency" quantity="1" unit="M" commodity="silver">ein march silbers</measure> ze buͦß.
+
+<seg><lb/>Item <origDate when="1410">anno <choice><abbr>dni</abbr><expan>domini</expan></choice> m<hi rend="sup">o</hi> cccc<hi rend="sup">mo</hi> decimo</origDate>.</seg>
+</p></div>
+<div><p>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Verwandte Bestimmungen enthalten auch die Offnung von <placeName ref="loc009863">Wiedikon</placeName> und die Rechte des <orgName ref="org004908">Fraumünsters</orgName> in <placeName ref="loc010875">Wipkingen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_021">SSRQ ZH NF II/11, Nr. 21</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_036">SSRQ ZH NF II/11, Nr. 36</ref></bibl>). Regelungsbedarf im Bereich der Allmende in <placeName ref="loc009863">Wiedikon</placeName> bestand auch in späterer Zeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_073">SSRQ ZH NF II/11, Nr. 73</ref></bibl>).<!-- ahh: später ev. Verweis auf StAZH PLAN B 701, B II 363: 1623.03.10 --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_125_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1130097">StAZH G I 7, Nr. 118</idno></msIdentifier><head>Bericht betreffend den Schwamendinger Wald und dessen Nutzung sowie Eid, Pflichten, Wahl und Lohn des Weibels</head><msContents><summary>Geregelt werden unter anderem die Abgabe von Brenn- und Bauholz an die Huber von Schwamendingen, die Schätzung und Verteilung des Holzes im Winter, das Vorkaufsrecht des Grossmünsterstifts sowie des Zieglers und des Schmieds auf von den Hubern nicht benötigtes Holz, die Pflichten des Weibels oder Försters, das Vorgehen bei der Bestätigung oder Amtsenthebung des Weibels und die Besoldung des Weibels.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Heft (4 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1671-01-21">Datierung aufgrund der Bestätigung; Tagesdatum weicht vom Entwurf ab</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz, UB Schwamendingen, Teil 1, Sp. 301-304, Nr. 221</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000591">Anzeigepflicht</term><term ref="key000748">Augenschein</term><term ref="key000700">Beaufsichtigung</term><term ref="key004799">Bestechung</term><term ref="key000179">Eid</term><term ref="key000524">Holz</term><term ref="key000212">Löhne</term><term ref="key004022">Satzung</term><term ref="key000249">Wald</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_G_I_7__Nr__118__S__1_.tif"/>
+<head>
+<lb/>Kurtzer außzug
+<lb/>und bericht von
+<lb/>dem <placeName ref="loc008714">Schwamendinger</placeName> wald und deßëlben or<lb break="no"/>denlichen
+gebrauch, <app><lem>auß befelch meiner herren zuͦ<lb break="no"/>sammen
+gezogen und von den herren pflëgeren und
+<lb/><orgName ref="org004352">capitel der stifft</orgName> guͦt geheißen und bestetiget,
+<lb/>den <origDate when="1671-01-21" calendar="Julian">21ten januarii
+<lb/>anno 1671</origDate></lem><rdg wit="StAZH G I 7, Nr. 117"/></app>
+</head>
+<p>
+<lb/>Es höret der <placeName ref="loc008714">Schwamendinger</placeName> wald lauth
+<lb/>der vergaabung keyser <persName ref="per012717">Carle deß Großen</persName> von dem jahr
+<lb/>Christi <date when="0810">810</date> allein zuͦ den herren der <orgName ref="org004352">stifft bey dem Großen<lb break="no"/>münster</orgName>
+<placeName ref="loc000065">Zürich</placeName>. Es sind auch alle die freyheiten, so gedachte
+<lb/>herren der stifft an disem wald jemahlen gehabt, außert
+<lb/>der hochheit und dem malefitz (so sie selbs der hochen lan<lb break="no"/>des
+oberkeit übergeben), nach angestelter glaubens refor<lb break="no"/>mation
+ihnen von einer ehrsammen oberkeit zum offtermahl
+<lb/>confirmiert und bestettiget worden. In ansehen aber der
+<lb/>vilen zinsen, zehenden und anderen pflichten, mit denen die
+<lb/>huͦberen zuͦ <placeName ref="loc009859">Schwamendingen</placeName> den herren der stifft verbun<lb break="no"/>den,
+last man ihnen von gedachtem wald zuͦkommen bränn<lb break="no"/>holtz
+eine zimmliche nothdurfft und das bauwholtz zuͦ ihren
+<lb/>wohnheüseren, schüren und stälen, jedoch mit volgendem
+<lb/>vorbehalt:</p>
+<p>
+<seg n="I"><lb/>Das <date dur="R/P1Y">alle jahr</date> nach dem <date period="fall">herbst</date>, wann mann ihnen den
+<lb/>winterhauw wil außtheilen, derselbige zuͦvor von dem
+<lb/>bestelten weibel, deßgleichen dem källhoffer und ettlich
+<lb/>anderen der gmeind (under denen sy <date dur="R/P1Y">alle jahr</date> sollen um<lb break="no"/>wächslen),
+wie wyth er sich erstrecken solle, besichtiget, her<lb break="no"/>nach
+von einem verwalter und dem bauwherren der stifft,
+<pb n="2" facs="StAZH_G_I_7__Nr__118__S__2_.tif"/>
+<lb/>auch dem großkeller, und wen man mehr von mein herren
+<lb/>der stifft darzuͦ ziehen wil, <unclear>beschetzt</unclear> und ordenlich außge<lb break="no"/>theilt
+werde. Da ein yeder bey dem, was ihmme gezeiget, ver<lb break="no"/>bleiben,
+außert dem bezirck deß winterhauws nit hauwen, <app><lem/><rdg wit="StAZH G I 7, Nr. 117">auch</rdg></app>
+<lb/>was ihmme zuͦgekennet, bey zeyten fellen und <date type="deadline" notAfter="--04-01">vor dem eyn<lb break="no"/>gang
+deß aprellens</date> wegnemmen, in dem wegführen kein jung
+<lb/>holtz damit umfellen und mit zühen. Auch was zuͦverbeßerung
+<lb/>deß <app><lem>hauß<del>raths</del></lem><rdg wit="StAZH G I 7, Nr. 117">husraths</rdg></app>, der stälen und tächeren, deß pflug und wa<lb break="no"/>gengeschirs,
+deßgleychen zu räbstecken und der zünung, tugen<lb break="no"/>lich
+von gedachtem ihmme zuͦgetheiltem holtz nebendt sich le<lb break="no"/>gen 
+soll, damit nit mit sonderbarem außgeben deß holtzes
+<lb/>für disere stücke, <app><lem>mein</lem><rdg wit="StAZH G I 7, Nr. 117">unser</rdg></app> herren beschwerth werdind.</seg></p>
+<p>
+<lb/><num value="2">II.</num><!-- Römische Ziffern hier als num auszeichnen oder nicht? PS: ok --> Was sie dann über den nothwendigen hauß<del>rath</del> und feld<lb break="no"/><subst><del>bauw</del><add place="overwritten">bruch</add></subst>
+von dem ertheilten holtz können entperen, sollen <add place="above">sy</add> das<lb break="no"/>selbige
+bevorderst meynen herren der stifft umb einen ley<lb break="no"/>denlichen
+preyß anbieten, und was die selbigen ihnen nit
+<lb/>abnemmend, dem ziegler und dem schmid umb einen <app><lem>zimmlich</lem><rdg wit="StAZH G I 7, Nr. 117"/></app>
+<lb/>billichen preyß antragen <del>sollen</del>. Was aber auch dieselbi<lb break="no"/>gen
+ihnen nit abnemmen, mögend sie anderstwo <app><lem/><rdg wit="StAZH G I 7, Nr. 119">im dorff</rdg></app> nach belie<lb break="no"/>ben
+verkauffen.</p>
+<p>
+<lb/>Wer aber <app><lem>diß wolmeinend ansehen nit achten wurde</lem><rdg wit="StAZH G I 7, Nr. 117">wider dis wolmeinlich ansehen handeln würde</rdg></app>, der 
+<lb/>sol lauth der <placeName ref="loc009859">Schwamendinger</placeName> offnung gestrafft werden.<note>Gemeint ist wohl nicht die Offnung von <placeName ref="loc009859">Schwamendingen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_049">SRQ ZH NF II/11, Nr. 49</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_057">SRQ ZH NF II/11, Nr. 57</ref></bibl>), sondern die Holzordnung von 1573, die in Artikel 1 entsprechende Bestimmungen zum Fällen des Holzes vor Anfang April und zum Vorkaufsrecht des Stifts, des Zieglers und des Schmieds enthält und die verschiedene Bussen für Holzfrevel auflistet (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl>).</note></p>
+<p><lb/><num value="3">III.</num> Nach dem das holtz von dem winterhauw weggenommen,
+<lb/>sol derselbige platz in dem wald wol verzühnt und eyn<lb break="no"/>gemacht
+werden, damit man widerumb zu einem jungen
+<lb/>aufwachß komme.</p>
+<p>
+<lb/><num value="4">IV.</num> Ebenmeßig sollen alle die jungen hauw, die in dem wald
+<lb/>sind, mit zühnen wol verwahrt und fleyßig vergaumt wer<lb break="no"/>den,
+damit weder das vych darrin komme nach von boß<lb break="no"/>willigen
+leüthen der junge aufwachß geschendt werde.</p>
+<p>
+<lb/><num value="5">V.</num> Damit auch das holtz mit einanderen widerumb aufwachsen
+<lb/>könne, soll man nit yetz da, dann dort holtz außgeben,
+<lb/>sonder so wol mit dem winterhauw alß mit anderem<!--weggelassen: holtz (Kustode) -->
+<pb n="3" facs="StAZH_G_I_7__Nr__118__S__3_.tif"/>
+<lb/>holtz, so mein herren je zun zeyten außgeben wollen, die
+<lb/>ordnung beobachten, daß das holtz ein anderen noch genommen,
+<lb/>mit ein ander wider umgezühnet und zuͦgleych ein neüwer auf<lb break="no"/>wachß
+gepflantzet werden könne, es seye dann sach, daß mein
+<lb/>herren bey fürfallendem nothfahl etwan an einem anderen
+<lb/>ort holtz fellen zelaßen verursacht werdend.</p>
+<p>
+<lb/><num value="6">VI.</num> Zuͦ dem vorrath deß bauwholtzes, wie daßelbige dißmahl
+<lb/>sich befindet in dem <placeName ref="loc012239">Sack</placeName>, in dem <placeName ref="loc012040">Brand</placeName> und gegen dem
+<lb/><placeName ref="loc010892">Zürichberg</placeName>, soll man guͦt sorg haben, daß an selbigen orten
+<lb/>nit gehauwen, sonder alles auf den nothfahl unversehrt
+<lb/>behalten werde.</p>
+<p>
+<lb/><num value="7">VII.</num> Wo alte, unütze schmättereychen<!-- vermutlich Trauben- bzw. Wintereichen, vgl. Idiotikon --> außert den jungen hauwen
+<lb/>ohne großen schaden deß übrigen holtzes könten abgehau<lb break="no"/>wen
+werden, kan man dieselbigen den färweren oder
+<lb/>anderen umb gelt verkauffen, damit an derselbigen
+<lb/>statt widerumb jung holtz aufwachsen könne.</p>
+<p>
+<lb/><num value="8">VIII.</num> Die jenigen, so ihre huͦben zuͦ <placeName ref="loc009859">Schwamendingen</placeName> verkaufft
+<lb/>oder sonsten daselbst zuͦ hauß sind, ist man kein holtz auß
+<lb/>dem wald zuͦgeben schuldig, sonder sie sollen von den je<lb break="no"/>nigen,
+hinder denen sie zuͦ hauß sitzen, mit holtz versehen
+<lb/>werden.</p>
+<p>
+<lb/>In übrigen stucken, was so wol die aufsicht deß walds
+<lb/>alß die abstraaffung der fräflen betrifft, last <del>es</del> man
+<lb/>es bey der in anno <date when="1573">1573</date> uffgerichten und von unse<lb break="no"/>ren
+<abbr>gn hr</abbr> bestätigten holtzoffnung (deren innhalt
+<lb/><date dur="R/P1Y">alle jahr</date>, so man den winterhauw außtheilt, verlesen
+<lb/>wird) bewenden.<note>Gemeint ist <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl>.</note></p>
+<pb n="4" facs="StAZH_G_I_7__Nr__118__S__4_.tif"/>
+<head><!-- G I 7, Nr.&#160;115 und Nr.&#160;116 sind nur Teilabschriften (oder Entwürfe? Was war zuerst?), die nur den Eid des Weibels oder Försters enthalten -->
+<lb/>Deß weibels oder forsters
+<lb/>zuͦ <placeName ref="loc009859">Schwamendingen</placeName> eid, <app><lem>auff ein
+<lb/>neüwes ubersehen und von den herren
+<lb/>pflëgeren und <orgName ref="org004352">capitul der stifft</orgName> con<lb break="no"/>firmiert
+und bestetiget, den <origDate when="1671-01-21" calendar="Julian">21. <choice><abbr>jan</abbr><expan>januarii</expan></choice>
+<lb/>anno 1671</origDate></lem>
+<rdg wit="StAZH G I 7, Nr. 115">revidiert und von meinen gnädigen herren<!-- stillschweigend aufgelöst -->
+<lb/>der stifft und pflegeren bestetiget
+<lb/><date when="1671-01-20" calendar="Julian">20. januarii 1671</date></rdg>
+<rdg wit="StAZH G I 7, Nr. 116">den <date when="1671-01-20" calendar="Julian">20. januarii 1671</date> revidiert
+<lb/>und von den <abbr>hr</abbr> pflegeren bestetiget</rdg></app>
+</head>
+<p>
+<lb/>Es sol der weibel oder forster zuͦ <placeName ref="loc009859">Schwamendingen</placeName>
+<lb/>schweeren, der <orgName ref="org004352">stifft bey dem Großenmünster</orgName>
+<placeName ref="loc000065">Zürich</placeName>
+<lb/>treüw und warheit zehalten und den <placeName ref="loc008714">Schwamendinger</placeName> wald
+<lb/>und was der stifft daselbst zuͦhörig ist, wol zuͦvergaumen,
+<lb/>auch die sandten,<!-- Bedeutung? PS: evtl. gesandete Wege --> gätter, fürten und ehefaden treüwlich <app><lem>zuͦ<lb break="no"/>vergaumen
+und</lem><rdg wit="StAZH G I 7, Nr. 115; StAZH G I 7, Nr. 116; StAZH G I 7, Nr. 117"/></app> zuͦbesehen, und im holtz und feld seyn bestes
+<lb/>und wegstes zethuͦn, auch alle die, so wider die aufgesetzte
+<lb/>ordnungen im holtz <app><lem>und</lem><rdg wit="StAZH G I 7, Nr. 116">oder</rdg></app> sonst etwas handlen werdind, der
+<lb/>stifft und den pflegeren zeleiden und darinnen niemand vor<lb break="no"/>zehaben
+noch zuͦverschonen, auch bey dem, was bey außgëben
+<lb/>deß holtzes von meinen herren erlaubt <app><lem>und</lem><rdg wit="StAZH G I 7, Nr. 117">oder</rdg></app> befohlen wird,
+<lb/>einfaltig zuͦverbleyben, an keinen schädlichen orten, da es
+<lb/>mehr umschlagen möchte, vorsetzlich holtz fellen laßen und
+<lb/>von niemanden, der holtz von mein herren begert, kein mieth
+<lb/>zenemmen.</p>
+<p>
+<lb/>Es sol ein weibel mit denen, so ihme zuͦgegeben werdend,
+<lb/>die faden beschauwen und die bösen leiden. Und sollen die
+<lb/>summerfaden gräch seyn an dem <date type="deadline" when="--04-30">mey abend</date>,<!-- Meiabend: Vorabend des 1. Mai, vgl. Idiotikon I, Sp. 37. --> und die herbst
+<lb/>faden an <date type="deadline" when="--11-10">sant <persName ref="per000141">Martins</persName> abend</date>. Und welcher diser ordnung
+<lb/>nit nachgaht, den sol der weibel leiden, damit er in ge<lb break="no"/>bürende
+straff gezogen werde.</p>
+<p>
+<lb/>Von <date type="deadline" when="--05-01">angehenden meyen</date> an biß <date type="deadline">nach der ernd</date> sol der wei<lb break="no"/>bel
+<date dur="R/P1D">alle tag</date> am <time period="morning">morgen</time> früh außgahn, und sol gahn<!-- weggelassen: durch (Kustode) -->
+<pb n="5" facs="StAZH_G_I_7__Nr__118__S__5_.tif"/>
+<lb/>durch holtz und <app><lem/><rdg wit="StAZH G I 7, Nr. 115; StAZH G I 7, Nr. 116; StAZH G I 7, Nr. 117">durch</rdg></app> feld zuͦ <placeName ref="loc008714">Schwamendingen</placeName> und sol schauwen,
+<lb/>ob yemands kein schaden geschehen wäre. Denselben schaden
+<lb/>sol er angehnds den jennigen <app><lem>verkünden, so er widerfahren</lem><rdg wit="StAZH G I 7, Nr. 115; StAZH G I 7, Nr. 116; StAZH G I 7, Nr. 117">so er widerfahren, verkünden</rdg></app>.
+<lb/>Die höltzer sol er durch das gantze jahr <app><lem/><rdg wit="StAZH G I 7, Nr. 116"><add place="left margin"><lb/>von dem frühen <lb/><time period="morning">morgen</time> an, bis uff <lb/>den <time period="evening">abend</time></add></rdg></app> verhütten, ohne
+<lb/>gefährd, damit kein schaden bescheche und niemand darinn
+<lb/>fräfle.</p>
+<p>
+<lb/>Und damit er der zeyt deß <time period="noon">mittag</time> eßens halber nit könte
+<lb/>außgangen werden, sol er diser zeyt halben abwechslen
+<lb/>und mit hin zuͦ in der zeyt, da andere zuͦ <time period="noon">mittag</time> eßend, in
+<lb/>dem holtz verbleiben. Sol auch <date dur="R/P1D">alle tag</date> biß zuͦ <time period="afternoon">vesper</time>
+<lb/>zeit daselbst verharren und das holtz vergaumen, daß
+<lb/>dem selbigen kein schaden geschehe.</p>
+<p>
+<lb/>Für seinen eignen haußbrauch sol er kein holtz nemmen nach
+<lb/>durch andere imme zuͦtragen oder zuͦführen laßen, sonder sich
+<lb/>deßen vernügen, was mein herren imme zuͦ seinem lohn <date dur="R/P1Y">jähr<lb break="no"/>lich</date>
+zuͦ kommen laßen.</p>
+<p>
+<lb/>Und sol <app><lem/><rdg wit="StAZH G I 7, Nr. 115; StAZH G I 7, Nr. 116; StAZH G I 7, Nr. 117">also</rdg></app> deß walds aufnemmen suͦchen und den schaden so
+<lb/>vil in seinem vermögen wenden, alles getreüwlich und
+<lb/>ohne gefahr.</p>
+<head>
+<lb/>Fehrnere erinnerung
+<lb/>an den weibel<note>Dieser Abschnitt mit Bestimmungen zur Besetzung des Weibelamts steht im Entwurf (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1128070">StAZH G I 7, Nr. 117</ref></bibl>) erst nach den Angaben zur Besoldung.</note>
+</head>
+<p>
+<lb/>Umb den weibel dienst sol der weibel <date dur="R/P1Y">alle jahr</date> also
+<lb/>bald nach dem <date when="--01-01">neüwen jahr</date> bei mein herren der stifft
+<lb/>und pflegeren widerumb anhalten. Da man dann eine
+<lb/>umbfrag umb ihn sol haben, und wann er sein ampt
+<lb/>in treüwen erstattet, mag man ihnne widerumb bestä<lb break="no"/>tigen.
+Wo er aber <app><lem>sym</lem><rdg wit="StAZH G I 7, Nr. 117">syner</rdg></app> pflicht nit nachgienge, sondern
+<lb/>seinen eid überseche und deßen gnuͦgsam überzeüget
+<pb n="6" facs="StAZH_G_I_7__Nr__118__S__6_.tif"/>
+<lb/>wurde, sol er von stund an seines diensts entsetzt und
+<lb/>ein anderer an sein statt erwehlt werden, und sol er von
+<lb/>dem eynkommen nützit mehr zuͦbeziehen haben.<note>Das war beispielsweise 1570 der Fall, als der Weibel <persName ref="per024607">Felix Meyer</persName> des Amtes enthoben wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1236247">StAZH G I 22, fol. 260r</ref></bibl>).</note></p>
+<p>
+<lb/>Wann nammhaffte fräfel in dem <app><lem>holtz</lem><rdg wit="StAZH G I 7, Nr. 117">wald</rdg></app> begangen wurden,
+<lb/>sol der weibel daßelbige nit laßen anstahn, biß man
+<lb/>einen buͦßen tag haltet, sonder <date dur="R/P1M">alle monath</date> und so offt
+<lb/>es von nöthen einen verwalter deßen berichten, damit
+<lb/>eintweders er selbs die fräfler für sich bescheiden oder
+<lb/>dieselbige von mynen herren der stifft und pflegeren
+<lb/>ze gebürender straff gezogen werden mögind.</p>
+<head>
+<lb/>Deß weibel zuͦ <placeName ref="loc009859">Schwamen<lb break="no"/>dingen</placeName>
+<date dur="R/P1Y">jährliche</date> besoldung
+<lb/>ist, wie folgt
+</head>
+<p>
+<lb/>An <measure type="volume" unit="Mütt" commodity="spelt" quantity="4">kernen: 4 <choice><abbr>mtt</abbr><expan>mütt</expan></choice></measure> auß dem <orgName ref="org007835">keller-ampt</orgName>,
+<lb/><measureGrp><measure type="volume" unit="Mütt" commodity="spelt" quantity="1">1 <choice><abbr>mtt</abbr><expan>mütt</expan></choice></measure>
+<measure type="volume" unit="Viertel" commodity="spelt" quantity="2">2 <choice><abbr>vrt</abbr><expan>viertel</expan></choice></measure></measureGrp> auß dem <orgName ref="org007935">studenten ampt</orgName>.</p>
+<p><lb/>An gelt <measure type="currency" unit="lb" quantity="30">30 </measure> von dem holtzgelt.</p>
+<p>
+<lb/>Ferner gibt im <date dur="R/P1Y">alle jahr</date> auf die ernd ein yeder huͦber
+<lb/>zuͦ <placeName ref="loc009859">Schwamendingen</placeName>
+<num value="1">j</num> korngarb und <num value="1">j</num> haber garb
+<lb/>und zuͦ <date type="deadline_holiday" when="--12-25">wienächten</date>
+<num value="1">j</num> brott.</p>
+<p>
+<lb/>Der kellhoffer gibt ihm auf die ernd <num value="24">24</num> korngarben
+<lb/>und <num value="12">12</num> haber garben, und <date dur="R/P1Y">alle jahr</date> ein guͦt <measure type="volume" commodity="hay" quantity="1" unit="Fuder">fuͦder höüw</measure>.</p>
+<p><lb/>Zuͦ guͦten <date period="fall">herbsten</date> mag ihmme von mein herren werden
+<lb/><measure type="volume" unit="Eimer" commodity="wine" quantity="1">j eimer wyn</measure>.</p>
+<p>
+<lb/>Höüw mag er <date dur="R/P1Y">jährlich</date> ohngefahr auß der <placeName ref="loc012677">Lauchwis</placeName> und
+<lb/>der schwöster baumgarten, deßgleichen auß dem <placeName ref="loc012127">Hasen<lb break="no"/>winckel</placeName>
+und dem <placeName ref="loc012230">Rieth</placeName> bezühen <measure type="volume" unit="Fuder" commodity="hay" quantity="10">10 fuͦder</measure>.</p>
+<pb n="7" facs="StAZH_G_I_7__Nr__118__S__7_.tif"/>
+<p>
+<lb/>Wyter sol man ihm von jeder huͦb geben <measure type="undefined" commodity="hay" quantity="1" unit="Schoch">einen schochen<!-- Haufen, vgl. Idiotikon VIII, Sp. 112ff. -->
+<lb/>häüw</measure>.</p>
+<p>
+<lb/>Wann man den winterhauw <date dur="R/P1Y">alle jahr</date> ustheilt, solle dar<lb break="no"/>von
+dem weibel für seine besoldung sonderbar folgen
+<lb/><measure type="volume" unit="Klafter" commodity="wood" quantity="4">4 klaffter gemein brännholtz</measure>.</p>
+<p>
+<lb/>Hingegen muͦß er <date dur="R/P1Y">jährlich</date> von der <placeName ref="loc012677">Lauchwis</placeName> und der schwö<lb break="no"/>ster
+baumgarten in die <orgName ref="org004352">propstey</orgName> verzinsen <measure type="currency" unit="lb" quantity="12">12 </measure>.
+</p>
+<pb n="8" facs="StAZH_G_I_7__Nr__118__S__8_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>Neben dem Entwurf (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1128070">StAZH G I 7, Nr. 117</ref></bibl>), der die <orig>fehrnere erinnerung an den weibel</orig> erst nach den Bestimmungen zur Besoldung aufführt, bestehen 
+separate Teilabschriften des Eides des Weibels oder Försters ohne die Abschnitte zur Besetzung des Weibelamts und zur Besoldung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1127522">StAZH G I 7, Nr. 115</ref></bibl> und 
+<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1130073">Nr. 116</ref></bibl>) sowie der acht Artikel zur Holznutzung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1513673">StAZH G I 7, Nr. 119</ref></bibl>). 
+<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1128074">StAZH G I 7, Nr. 121</ref></bibl> stimmt inhaltlich mit der vorliegenden Fassung überein, ist aber mehr Paraphrase als Abschrift und enthält zusätzlich einen Abschnitt zu den 
+Anfängen der Mark <placeName ref="loc009859">Schwamendingen</placeName> und ihrer Schenkung an das <orgName ref="org004352">Grossmünster</orgName> durch den legendären Stifter <persName ref="per026024">Picho</persName>. Eine weitere, spätere Abschrift des Weibeleides und der Besoldungsbestimmungen enthält 
+Vermerke über Änderungen von gleicher Hand; ein Randvermerk nennt 1775 für zumindest eine der Änderungen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1128073">StAZH G I 7, Nr. 122</ref></bibl>).</p>
+<p>Die hier erwähnte ältere Holzoffnung war am 10. Oktober 1573 nach diversen Konflikten von drei Ratsverordneten erlassen worden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl>). Ein älterer Eid des Weibels
+oder Försters von <placeName ref="loc009859">Schwamendingen</placeName>, dem auch schon Bestimmungen zur Besoldung beigegeben waren, entstand zwischen 1570 und 1592 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1366029">StAZH G I 4, Nr. 47</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 143, Sp. 153-154</bibl>). Zum Weibel von <placeName ref="loc009859">Schwamendingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_079">SSRQ ZH NF II/11, Nr. 79</ref></bibl>;
+zu <placeName ref="loc009768">Höngg</placeName>
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_096">SSRQ ZH NF II/11, Nr. 96</ref></bibl>. Im selben Jahr wie die vorliegenden Nutzungsbestimmungen für den Wald in <placeName ref="loc009859">Schwamendingen</placeName> 
+erliessen <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> auch eine Holzordnung für den <placeName ref="loc012136">Käferberg</placeName>, nachdem sich andere Nutzungsberechtigte über ihre Benachteiligung durch die Holzgenossen von 
+<placeName ref="loc010875">Wipkingen</placeName> beklagt hatten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_128">SSRQ ZH NF II/11, Nr. 128</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_078</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=717243">StAZH A 123.2, Nr. 121</idno></msIdentifier><head>Schreiben des Vogts von Greifensee über die Abhaltung eines Schwörtags der Eigenleute des Klosters St. Gallen</head><msContents><summary>Der Vogt von Greifensee, Konrad Escher, schreibt an Bürgermeister und Rat der Stadt Zürich, dass am 28. Mai der Hofammann des Abts von St. Gallen samt einem Diener vor ihm in Greifensee erschienen sei und kundgetan habe, dass sein Herr einen Schwörtag mit allen Eigenleuten von St. Gallen und St. Johann in der Grafschaft Kyburg sowie in den Herrschaften Grüningen und Greifensee durchführen wolle, um ihnen ihre Pflichten vorzulesen. Der Vogt solle daher einen Tag bestimmen, diesen Termin verkünden und alle an einen geeigneten Platz im Amt Greifensee versammeln lassen. Ausserdem stellt er die Frage, ob die Eigenleute begehren sich abzukaufen. Da solches lange nicht getan worden sei, habe er den Ammann mit freundlichen Worten abgefertigt, um die Meinung der Obrigkeit einzuholen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Escher, Vogt von Greifensee</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="absent"><persName role="sigillant">Konrad Escher</persName></seal></sealDesc></physDesc><history><origin><origDate when="1557-05-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000215">Huldigung</term><term ref="key000179">Eid</term><term ref="key000084">Leibeigenschaft</term><term ref="key003021">Termin</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p><seg><lb/>Gestraͤngen, frommen, eren vesten, fürsichtigen,
+<lb/>ersamen und wysen, gnaͤdigen ir, mine herren,
+<lb/>min ganz underdaͤnig, wylig dienst und
+<lb/>früntlicher gruͦz syge üwer gnad und
+<lb/>wysheytt ale zitt zevor.</seg>
+<seg>Uff den <date when="--05-28">28 des
+<lb/>monettz meygen</date> ist zuͦ <placeName ref="loc008569">Gryfensee</placeName> by mir
+<lb/>alhie erschinen des herren apz von <placeName ref="loc000083">Santt
+<lb/>Gallen</placeName> hoff ammen sampt einem diener,
+<lb/>zeygt mir erstlich an synes gnaͤdigen
+<lb/>herren günstygen und gnaͤdigen wylens,
+<lb/>ouch alles guͦeten, soͤmlichs und keins
+<lb/>andern soͤlle ich mich gegen sinen gnaden
+<lb/>versaͤchen. Dem nach so syge synes gnaͤdigen
+<lb/>herren wyl und meynung, alle die
+<lb/>eygnen lütt, so das <orgName ref="org000581">goz hus <placeName ref="loc000083">Santt Gal</placeName></orgName>,
+<lb/>ouch <placeName ref="loc006111">Santt Johann</placeName>, habe in üwer, miner
+<lb/>gnaͤdigen herren, grafschaft <placeName ref="loc000012">Kyburg</placeName>, ouch
+<lb/>in der herrschaft <placeName ref="loc000362">Gruͤningen</placeName> und
+<placeName ref="loc000348">Gryfen<lb break="no"/>see</placeName>, wyderumb zuͦ beschryben, des glichen
+<lb/>inen vor zuͦ laͤsen, was sy dem goz
+<lb/>hus schuldig sygend, ouch den dass selpig
+<lb/>sy lassen zuͦ schwerren zehalten. Des
+<lb/>halp werre sines gnaͤdigen herren begaͤr
+<lb/>an mich, ich welte im einen dag
+<lb/>ernamsen und allen dennen lassen verkünden
+<lb/>und gebietten, an eynen gelaͤgnen blaz
+<lb/>im ampt <placeName ref="loc000348">Gryfensee</placeName> zuͦ kommen. Er achte
+<pb n="2"/>
+<lb/>ouch soͤmlichs ime zuͦ bewyligen, darzuͦ err
+<lb/>den raͤcht habe, waͤrdentt ir, min gnaͤdig
+<lb/>herren, kein m<subst><del>a</del><add place="overwritten">y</add></subst>sfal dragen, sonder ein
+<lb/>gefallen. Er achte ouch sin gnaͤdiger herr,
+<lb/>ob sy die eygnen lütt begaͤren wurdentt,
+<lb/>sy lassen abzekoufen.</seg>
+<seg>Die wyl dan soͤmlichs
+<lb/>lang nie gebrucht ist worden und ich
+<lb/>nitt mag wüssen, wie ers mitt den
+byderp<lb break="no"/>en lütten im ampt wurde bruchen und
+<lb/>an die hand naͤmen, so hab ich inn mitt
+<lb/>guͦtten, früntlichen worden abgefertigett,
+<lb/>mitt anzeygung, soͤlichs üch, min <choice><abbr>g</abbr><expan>gnaͤdig</expan></choice>
+<lb/>herren, zuͦ verstaͤndigen, versaͤche mich des
+<lb/>gaͤnzlich üwer gnad und wysheytt, werde
+<lb/>sinem gnaͤdigen herren mitt antwurtt
+<lb/>begegnen, da ich acht, sin gnaͤdiger
+<lb/>herr zefryden, pytten hie mitt üwer gnad und
+<lb/>wysheytt umb bescheydt, wess ich mich soͤlle
+<lb/>halten, wyl mich hie mitt üwer gnad und
+<lb/>wysheytt alle zitt in gnaden befolhen
+<lb/>haben.</seg>
+<seg>Datum <origDate when="1557-05-31">den letsten mey 1557 jar</origDate>.</seg>
+</p>
+<div>
+<signed><lb/>Üwer gnad und wysheytt wyliger
+<lb/><persName ref="per002057">Cuͦnratt Aͤscher</persName>, vogt zuͦ <placeName ref="loc000348">Gryfensee</placeName></signed>
+</div>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="address" place="verso"><lb/>Denn gestraͤnngen, frommen, eren vesten,
+<lb/>fürsychtigen, ersamen und wysen
+<lb/>herren <orgName ref="org002406">burgermeyster und ratt
+<lb/>der statt <placeName ref="loc000065">Zürich</placeName></orgName>, sinen günstigen,
+<lb/>gnaͤdigen und lieben herren</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1557-05-30"><add place="inline" hand="hand18c">Den 30<hi rend="sup">ten</hi> maii</add> 1557</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Der godteshaüsern <placeName ref="loc000083">St. Gallen</placeName> und <placeName ref="loc006111">St. Johann</placeName> in der herrschafft <placeName ref="loc000348">Gryffensee</placeName> habende
+lib<lb break="no"/>eigen leüthe, <origDate when="1557">1557</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>In der Herrschaft <placeName ref="loc000348">Greifensee</placeName> gab es
+neben den Leibeigenen des Schlosses <placeName ref="loc008719">Greifensee</placeName>
+auch Eigenleute der Klöster <placeName ref="loc010429">Fischingen</placeName>,
+<placeName ref="loc000083">St. Gallen</placeName>
+und <placeName ref="loc006111">St. Johann im Thurtal</placeName>
+sowie der Inhaber der Burg <placeName ref="loc006924">Uster</placeName>.
+Nach der Reformation förderte die <orgName ref="org002406">Zürcher Obrigkeit</orgName>
+mehr oder weniger aktiv, dass sich Leibeigene von ihren Herren loskaufen konnten.
+Nichtsdestotrotz wachte sie selber peinlich genau darüber,
+dass sich ihre eigenen Leibeigenen des Schlosses <placeName ref="loc008719">Greifensee</placeName>
+nicht einfach ihren Pflichten entziehen konnten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_088">SSRQ ZH NF II/3, Nr. 88</ref></bibl>).
+</p>
+<p>Der vorliegende Austausch mit <placeName ref="loc000083">St. Gallen</placeName>
+und <placeName ref="loc006111">St. Johann</placeName> hatte zur Folge,
+dass diese beiden Klöster 1562 mit der Stadt <placeName ref="loc000065">Zürich</placeName> vereinbarten,
+wie sich alle ihre im <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName>
+sesshaften Gotteshausleute von der Leibeigenschaft loskaufen können
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250984">StAZH C I, Nr. 1919</ref></bibl>).
+Praktisch gleichzeitig machte sich 1561 auch der Freiherr <persName ref="per004426">Ulrich Philipp von Sax-Hohensax</persName>
+als neuer Inhaber der Burg <placeName ref="loc006924">Uster</placeName> daran,
+seine Eigenleute in <placeName ref="loc008735">Kirchuster</placeName>,
+<placeName ref="loc008736">Oberuster</placeName>, <placeName ref="loc008737">Niederuster</placeName>,
+<placeName ref="loc008846">Riedikon</placeName>, <placeName ref="loc008817">Werrikon</placeName>,
+<placeName ref="loc008648">Maur</placeName>, <placeName ref="loc008792">Guldenen</placeName>
+und anderswo zu dokumentieren
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=726619">StAZH A 123.2, Nr. 163-168</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=726643">Nr. 169</ref></bibl>).
+Diese Herrschaftsintensivierung hatte zur Folge,
+dass sich die Leibeigenen 1563 beim <orgName ref="org002406">Zürcher Rat</orgName>
+über ihren neuen Herrn beschwerten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=726790">StAZH A 123.2, Nr. 189</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=726791">Nr. 190</ref></bibl>).
+1579 liess sich sein Sohn, <persName ref="per004678">Johann Christoph von Sax-Hohensax</persName>,
+seine Rechte über die Eigenleute und auf deren Abgaben nochmals bestätigen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=736863">StAZH A 123.3, Nr. 98</ref></bibl>).
+Leibherrschaftliche Ansprüche blieben somit also weit über die Reformation bestehen.
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

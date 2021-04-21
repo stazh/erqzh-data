@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_106</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1159183">StAZH A 42.1.10, Nr. 3</idno></msIdentifier><head>Verbot der Stadt Zürich bezüglich Tragens eines Dolchs neben einer weiteren Waffe</head><msContents><summary>Bürgermeister und Kleiner Rat der Stadt Zürich verkünden, dass künftig in der Stadt und ihrem Herrschaftsgebiet niemand mehr einen Dolch zusätzlich zu einer weiteren Waffe tragen darf. Das Mitführen eines Dolchs ist nur dann erlaubt, wenn auf andere Waffen verzichtet wird. Zuwiderhandelnde werden mit der Busse von einer Mark Silber bestraft. Ausgenommen sind Reisende ausserhalb des Zürcher Herrschaftsgebiets sowie Personen, die in den Krieg ziehen. Wirte haben dieses Verbot ihren Gästen mitzuteilen, für die es ebenfalls gilt, bei der erwähnten Busse. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1518-10-20"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 756, Nr. 64</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000325">Fremde</term><term ref="key000506">Friedbruch</term><term ref="key000902">Waffen</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_42_1_10__Nr__3__r_.tif"/>
+<p>
+<seg><lb/>Unser heren <orgName ref="org002406">burgermeister unnd rat der stat <placeName ref="loc000065">Zürich</placeName></orgName> verkündent
+<lb/>den iren alenthalben, das furhin in ir stat, gericht unnd gepieten, das
+<lb/>niemas soͤlle keinen tolchen zuͦ andrem gewere an im tragen
+<lb/>in keinen weg. Welcher aber je well ein tolchen an im haben, der
+<lb/>soͤlle den selben alein, on all ander were, tragen, bi der buͦss <measure type="currency" unit="M" quantity="1" commodity="silver">einer march
+<lb/>silbers</measure>, on gnad, so offt das daruber beschicht.</seg>
+<seg>Es were dann, das einer
+<lb/>ussert unnser heren gericht und gepieten oder in krieg wolt wandlen,
+<lb/>der selb mog als dann tolchen unnd ander gwere, so vil er wil, mit
+<lb/>im durch fuͤren. Unnd somlichs soll ein jeder wirt sinem gast,
+<lb/>der sich in der gestalt bi angezeigter buͦss ouch also halten, erschinen
+<lb/>unnd s<damage agent="hole"><supplied resp="msr">a</supplied></damage>gen, deshalb wusse sich mengklich vor schaden zeverhuͤten.</seg>
+<seg><lb/>Actum <origDate when="1518-10-20">mitwuchen nach <choice><sic>sat</sic><corr>sanct</corr></choice>
+<persName ref="per000455">Gallen</persName> tag anno xviij</origDate>.</seg>
+</p>
+<pb n="v" facs="StAZH_A_42_1_10__Nr__3__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso"><lb/><origDate when="1518">1518</origDate></ab>
+</div>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

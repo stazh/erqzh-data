@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_043</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=887372">StAZH B II 29, S. 40</idno></msIdentifier><head>Entscheid über die hochgerichtliche Zugehörigkeit der Herrschaft Greifensee</head><msContents><summary>Bürgermeister Heinrich Röist und beide Räte der Stadt Zürich beurkunden einen Streit zwischen den Leuten aus den Herrschaften Greifensee und Grüningen über die gerichtliche Zugehörigkeit. Die Grüninger bringen vor, dass jene Leute aus Greifensee, die innerhalb der Marchen der hohen Gerichte von Grüningen sitzen, den dortigen Landtagen gehorsam sein müssten. Demgegenüber wird entschieden, dass die Leute aus der Herrschaft Greifensee nicht zu den Landtagen nach Grüningen gehen müssen, sondern nach altem Herkommen bei der Stadt Zürich bleiben sollen, da sie als Bürger der Stadt Zürich gelten und die hohen Gerichte zu Zürich gehören.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="11.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1498-05-16"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000305">Grenze</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="40" facs="StAZH_B_II_29__S__40_.tif"/>
+<head><lb/>Uff <origDate when="1498-05-16">mitwoch nâch <persName ref="per004136">Pangracy</persName></origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr
+<lb/><persName ref="per013559">Roͤist</persName>
+<orgName ref="org002406">burgermeister und beyd raͤt</orgName>
+</head>
+<p><gap reason="irrelevant"/><!-- rhr: Nach der Datumsangabe folgt ein Traktandum, das mit dem nachfolgenden Geschäft betreffend Greifensee nichts zu tun hat und hier daher weggelassen wird. -->
+</p>
+<p><lb/>Zwu̍schen den us der herschaft <placeName ref="loc000362">Gruͤningen</placeName>
+<lb/>eins und anders teils den us der herschaft
+<lb/><placeName ref="loc000348">Grifense</placeName> von deswegen, als die von <placeName ref="loc000362">Gruͤningen</placeName>
+<lb/>meinten, dz die genanten von <placeName ref="loc000348">Grifense</placeName>, so
+<lb/>indert den marchen der herschaft <placeName ref="loc000362">Gruͤningen</placeName>
+<lb/>hohen gerichten saͤsen, zuͦ landtagen gen
+<lb/><placeName ref="loc000360">Gruͤningen</placeName> gehorsamm sin soͤlten, ist erkent,
+<lb/>die wil die us der herschaft <placeName ref="loc000348">Griffense</placeName>
+<lb/>burger in der stat <placeName ref="loc000065">Zu̍rich</placeName> weren und da
+<lb/>fu̍r gehalten wurden, och die hohen gericht
+<lb/>der herschaft <placeName ref="loc000348">Grifense</placeName> zuͦ der stat <placeName ref="loc000065">Zu̍rich</placeName>
+<lb/>gehorten und gehoͤren soͤlten, des dann
+<lb/>die selben von <placeName ref="loc000348">Grifense</placeName> soͤlicher ansprâch
+<lb/>ledig und sy nit schuldig sin soͤlten, zuͦ
+<lb/>landtagen gen <placeName ref="loc000360">Gruͤningen</placeName> ze gond, sondern
+<lb/>sy also bi der stat <placeName ref="loc000065">Zu̍rich</placeName> bliben und thuͦn,
+<lb/>wie dz von altem harkomen und braͧcht ist.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Mit diesem Entscheid wurde die Gerichtszugehörigkeit in der gesamten Herrschaft <placeName ref="loc000348">Greifensee</placeName> vereinheitlicht
+(<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 35</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 82, mit Abb. S. 63</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 119</bibl>).
+Auf Wunsch der Leute von <placeName ref="loc000348">Greifensee</placeName> wurde über dieses Urteil am gleichen Datum auch noch eine förmliche Urkunde ausgestellt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_044">SSRQ ZH NF II/3, Nr. 44</ref></bibl>).
+Bereits früher war es zu Auseinandersetzungen gekommen über die Frage,
+ob Leute aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName> an den Gerichtstagen in <placeName ref="loc000360">Grüningen</placeName> teilnehmen müssen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_033">SSRQ ZH NF II/3, Nr. 33</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

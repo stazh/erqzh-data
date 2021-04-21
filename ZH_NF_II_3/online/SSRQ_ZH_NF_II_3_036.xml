@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_036</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=528718">StArZH III.B.1., fol. 99r</idno></msIdentifier><head>Bestimmungen über die Besetzung des Bruderhauses am Wassberg bei Maur</head><msContents><summary>Das Bruderhaus am Wassberg bei Maur, in der Nähe von Ebmatingen gelegen, soll nicht von Leuten aus der Nachbarschaft besetzt werden. Wer darin wohnt, muss das Haus durch die Äbtissin des Fraumünsters als Lehen empfangen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.5"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1481-01-01" to="1481-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003648">Geistlichkeit</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="99r" type="original"/>
+<p><lb/>Ze wu̍ssen, dz in den kilchgang und parochii ze <placeName ref="loc008648">Mure</placeName> amm <placeName ref="loc008718">Griffensee</placeName>
+<lb/>gehoͤrt ein <orgName ref="org005016">bruͦderhuß, genant imm <placeName ref="loc010821">Wasserberg</placeName></orgName>, lit unferr von
+<lb/><placeName ref="loc008884">Egmatingen</placeName>, dz selb bruͦderhuß ist laͤchen von einem <orgName ref="org004908">gotzhuß ze Frowenmu̍nster</orgName>
+<lb/>und sol nit besetzt werden durch kein nachburen oder umsaͤssen noch durch
+<lb/>keinen gwalt aͧn sunder gwalt, erloͧbung, heissen und schaffen einer aͤptissin
+<lb/>zuͦ <orgName ref="org004908">Frowenmu̍nster</orgName>, sol oͧch dar inn nieman wonen, es sy imm denn von einer
+<lb/>aͤptiss<subst><del>e</del><add place="overwritten">i</add></subst>nen hand und mund gelichen.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Das <orgName ref="org005016">Bruderhaus am <placeName ref="loc010821">Wassberg</placeName></orgName> oder <placeName ref="loc010821">Wasserberg</placeName> oberhalb von <placeName ref="loc008648">Maur</placeName>
+wird anlässlich der Verleihung an Bruder <persName ref="per013482">Heinrich Gössikon</persName> im Jahr 1419 erstmals erwähnt 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_015">SSRQ ZH NF II/3, Nr. 15</ref></bibl>).
+Spätestens mit der Reformation wurde es aufgehoben und fortan als Hof sowie phasenweise als Gaststätte betrieben,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Nüscheler 1864-1873</ref>, S. 340-341</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

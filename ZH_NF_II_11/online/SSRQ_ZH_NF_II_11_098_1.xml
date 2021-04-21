@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_098_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25553">StArZH VI.WO.A.2.:6a</idno></msIdentifier><head>Schiedsurteil zweier Ratsabgeordneter in einem Konflikt um Wegnutzung zwischen Leimbach und Wollishofen</head><msContents><summary>Anton Oeri, Baumeister, und Kaspar Meyer, Obervogt von Wollishofen, beide Ratsabgeordnete der Stadt Zürich, fällen nach einem Augenschein einen Schiedsspruch im Konflikt um Wegnutzung zwischen den Gemeinden Oberleimbach, Unterleimbach und Wollishofen.  Sie entscheiden, dass die Leute von Leimbach den Weg über die Wollishofener Allmende in der Brunau nur als Kirchweg und Marktweg benutzen dürfen. Im Übrigen sollen sie den Weg über den Butzen benützen. Nötige Unterhaltsarbeiten dieses Weges sollen die Leimbacher melden, die darauf von den Anstössern in Wollishofen mit der Hilfe von vier Männern aus der Gemeinde Oberleimbach und Unterleimbach geleistet werden. Die Besoldung der vier hat durch die eigene Gemeinde zu erfolgen.  Sollten die von Leimbach die Wollishofer Allmende zu nicht erlaubten Gelegenheiten als Verkehrsweg verwenden, werden Bussen gemäss den Bestimmungen der Wollishofer Offnung und eines Urteils, die bei dieser Gelegenheit bestätigt werden, verhängt. Für den Unterhalt des Wegs muss lediglich die Gemeinde Wollishofen aufkommen.  Die Aussteller siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift (Doppelblatt)</filiation><filiation type="original"><origDate when="1585-07-03"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1601-01-01" to="1700-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000335">Nutzungsrecht</term><term ref="key000012">Offnung</term><term ref="key001117">Schiedsspruch</term><term ref="key000188">Verkehrswege</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1"><pb n="1"/>
+<div>
+<p><seg><lb/>Wir, nachbenemte <persName role="issuer" ref="per025660">Anthoni Öri</persName>, buwmeister, <lb/>und <persName role="issuer" ref="per025659">Caspar Meyer</persName>, der zeit vögt<note>Als amtierender Obervogt von <placeName ref="loc009865">Wollishofen</placeName> ist im Jahr <date when="1585">1585</date>
+<persName ref="per025658">Georg Grebel</persName> aufgeführt (<bibl>StAZH B VI 263, fol. 172r</bibl>); <persName ref="per025659">Meyer</persName>
+war stillstehender Obervogt (<bibl>StAZH B VI 263, fol. 124r, 172r, 216r</bibl>).</note> zu <placeName ref="loc009865">Wollis<lb break="no"/>hoffen</placeName> und daselbs
+umb und all beid des <orgName ref="org004016">rahts
+der <lb/>stat <placeName ref="loc000065">Zürich</placeName></orgName>, bekennend offentlich und thund kundt <lb/>männigklichem mit
+diserem brieff, nachdemme sich vor <lb/>den edlen, vesten, frommen, fürsichtigen, weysen <lb/>herren
+<orgName ref="org002406">burgermeister und raht der stat <placeName ref="loc000065">Zürich</placeName></orgName>, unseren <lb/>gnädigen herren,
+span und zwytracht zugetragen <lb/>zwüschent den ehrsammen und bescheidnen beider <orgName ref="org007845">gmein<lb break="no"/>den
+<placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName></orgName> eins, sodanne der
+<orgName ref="org007948">gmeind <lb/><placeName ref="loc009865">Wollishoffen</placeName></orgName> verordneten gsandten anders theils
+<lb/>vonwegen eines wägs, der von
+<placeName ref="loc012706">Ober</placeName> und <placeName ref="loc012272">Nider Leim<lb break="no"/>bach</placeName>durch die allment in der <placeName ref="loc012085">Brunauw</placeName> über derren <lb/>von <placeName ref="loc009865">Wollishoffen</placeName> güter
+gaht, welchen wäg die von 
+<lb/><placeName ref="loc012706">Ober-</placeName> und
+<placeName ref="loc012272">Nider-Leimbach</placeName> mit karren und anderem <lb/>bruchtind, das aber nit syn,
+sonder sich mit karren, <lb/>wägen und anderen dingen des wägs, so ein <orgName ref="org007948">gmeind
+<lb/><placeName ref="loc009865">Wollishoffen</placeName></orgName> ihnen, denen von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider Leim<lb break="no"/>bach</placeName>,
+über das feld, genant der <placeName ref="loc012088">Buzen</placeName>, gezeiget, setigen <lb/>lasen
+solten.Darauff
+wolgemelt unser gnädig herren <lb/>nach verhörung schrifftlichen und mundtlichen darthuns <lb/>uns beyd geordnet mit
+dem befelch, das wir auff den <lb/>span und augenschein kehren, maas und ohnmaas be<lb break="no"/>sichtigen und dann
+understahn solten, zwüschent allen <lb/>theilen fründtlichen zuhandlen.</seg>
+<seg>Wann nun wir <lb/>diserem uns aufferlegten befelch stat zuthun hüt dato <lb/>gehn <placeName ref="loc009865">Wollishoffen</placeName>
+kommen, einen undergang gehalten <lb/>und alle gelegenheit, so viel uns gezeiget worden, <lb/>nach noht durfft
+besichtiget, habend wir nach beyder <lb/>partheyen übergeben und vertrauwen uns mit<lb break="no"/>einanderen
+underredt, folgenden fründtlichen <lb/>spruchs verglichen und sprechend in der gütlichkeit <lb/>also:</seg>
+<seg>Dieweil die von
+<placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName> auff
+<lb/><placeName ref="loc009865">Wollishoffen</placeName> zu zween wäg, benantlich den einen <lb/>über den
+<placeName ref="loc012088">Buzen</placeName>, so ein <date period="summer">summer</date> und <date period="winter">winter</date>
+wäg und <lb/>dennen von <placeName ref="loc012271">Leimbach</placeName> nie abgeschlagen nach verboten <lb/>worden, der ander aber
+über die <placeName ref="loc012788">Wollishoffer Allment</placeName>
+<lb/>in der <placeName ref="loc012085">Brunauw</placeName> allein ein kilchwäg und mercktgang, <lb/>so solle ein <orgName ref="org007845">gmeind
+<placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider Leimbach</placeName></orgName> angezognen <pb n="2"/><lb/>wäg über den <placeName ref="loc012088">Buzen</placeName> mit karren, wagen und andrem, <lb/>so ihnen
+nothwendig ist, nit minder dan die von <placeName ref="loc009865">Wollis<lb break="no"/>hoffen</placeName> zu bruchen gwalt haben,
+doch dergestalt, ob sach <lb/>were, das sollicher wäg in abgang kämme, also mann <lb/>den widerum beseren und in ehr
+legen müßte, das <lb/>dannenthin die von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName> den
+mangel <lb/>der stras dennen zu <placeName ref="loc009865">Wollishoffen</placeName> anzeigen und erstlichen <lb/>die, so mit ihren
+güteren daran anstösig sind, und fol<lb break="no"/>gends ein <orgName ref="org007948">gmeind
+<placeName ref="loc009865">Wollishoffen</placeName></orgName> sambt <num value="4">vier</num> mannen, so <lb/>ein <orgName ref="org007845">gmeind
+<placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName></orgName> ihnnen jederzeit <lb/>und so
+offt es noht sein wird zu hilff zuschicken, sollichen <lb/>wäg widerum erbeseren und zurüsten, inmasen mann <lb/>den
+gefahren, ryten und gahn möge, und ein <orgName ref="org007845">gmeind <lb/><placeName ref="loc012706">Ober-</placeName> und
+<placeName ref="loc012272">Nider-Leimbach</placeName></orgName> ihre verordneten <num value="4">vier</num> mann, <lb/>all die
+weil sie also an ihrem werch sind, in ihrem eignen <lb/>kosten und ohne derren von <placeName ref="loc009865">Wollishoffen</placeName>
+schaden erhalten <lb/>und besolden.</seg>
+<seg>So viel dan den anderen wäg durch <lb/>die <placeName ref="loc012788">Wollishoffer-allment</placeName> in der
+<placeName ref="loc012085">Brunauw</placeName> betrifft, be<lb break="no"/>findt sich, das solches kein offne freye stras,
+dardurch <lb/>mann fahren, ryten und karren solle, sonder nur ein <lb/>kilchwäg und mercktgang, sich auch vor jahren
+ein <orgName ref="org007845">gmeind <lb/><placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName></orgName> solliches
+wägs luth brieff <lb/>und siglen, von wol gemelten unseren gnädigen herren <lb/>ausgangen, entzigen und verzigen,
+jedoch ein <orgName ref="org007948">gmeind <lb/><placeName ref="loc009865">Wollishoffen</placeName></orgName> auff unser anhalten um pflanzung guter
+<lb/>nachburschafft wägen einer <orgName ref="org007845">gmeind <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider Leim<lb break="no"/>bach</placeName></orgName> bestimbten wäg widerum
+zugelasen auff die maas, <lb/>das die denselben allein zu kilch und merckt gahn und <lb/>bruchen und sonst darüber
+weder mit rosen, kühen <lb/>nach anderem veich, desgleichen mit karren, wägen, <lb/>pflug nach anderem gschirr, wie
+das nammen haben möchte, <lb/>fahren bey der bues, in einem articul in derren von
+<lb/><placeName ref="loc009865">Wollishoffen</placeName> offnung rodel<note>Zu den Bussbestimmungen vgl. die Offnung von
+<placeName ref="loc009865">Wollishofen</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_054">SSRQ ZH NF II/11, Nr. 54</ref></bibl>).</note> be<del rend="blackened"><unclear>e</unclear></del>griffen bestimbt, welcher <lb/>articul und <space unit="cm" quantity="3.5"/>
+<supplied source="StAZH A 120, Nr. 15 (Entwurf)">urtheilbrief</supplied><note>Da der Schreiber der Abschrift hier eine
+Lücke gelassen hat, ist es denkbar, dass seine Vorlage an dieser Stelle unlesbar geworden
+war.</note> mit allem inhalt nachmahlen in <lb/>kräfften bleiben, doch diseren kilchwäg und merckt<lb break="no"/>gang ein
+<orgName ref="org007948">gmeind <placeName ref="loc009865">Wollishoffen</placeName></orgName> jederzeit in ehren haben, <lb/>ohne deren von
+<placeName ref="loc012271">Leimbach</placeName> costen und beschwehrd.</seg>
+<seg>Wie <lb/>nun wir ihnen diseren unseren spruch eröffnet, sind <pb n="3"/><lb/>sie desen ganz wol benügig und zufriden
+gewesen, den <lb/>von uns zu danck und gefallen auff und angenommen und <lb/>darauff an unser, der schidmänneren, händ
+globt und ver<lb break="no"/>sprochen, demselbigen vestenklich zu geleben und stat zu<lb break="no"/>thun, alle gefahr
+hindan gesezt.</seg>
+<seg>Und des zu wahrem <lb/>urkund, so haben wir unsere eignen insigel <app>
+<lem><abbr>etc</abbr></lem>
+<rdg wit="StAZH A 120, Nr. 15 (Entwurf)">, doch unns und unnseren erben anne schaden, offenntlich gehenngk an
+diseren brief, der</rdg>
+</app>, <lb/>geben<app>
+<lem/>
+<rdg wit="StAZH A 120, Nr. 15 (Entwurf)">ist, sambstags</rdg>
+</app>, den <origDate when="1585-07-03">3. heüwmonat anno 1585</origDate>.</seg></p>
+<div><ab type="dorsal" place="verso"><lb/>Copia <lb/>eines pergamentenen <lb/>brieffs <choice><abbr>betr</abbr><expan>betreffend</expan></choice> die beyde <lb/>wäg über die <placeName ref="loc012788">Wollishoffer-<lb break="no"/>allment</placeName> und den <placeName ref="loc012088">Buzen</placeName> genant, de anno <date when="1585">1585</date></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>In der ersten Hälfte des 16. Jahrhunderts ist es zwischen den Gemeinden <placeName ref="loc009865">Wollishofen</placeName> und <placeName ref="loc012271">Leimbach</placeName> immer wieder zu Konflikten betreffend die Wegnutzung gekommen. Verschiedene daraus resultierende Regelungen sind als datierte Artikel in die Offnung von <placeName ref="loc009865">Wollishofen</placeName> eingeflossen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_054">SSRQ ZH NF II/11, Nr. 54</ref>, Art. 25-29</bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25584">StArZH VI.WO.C.4., S. 61-63</ref></bibl>). Noch <date when="1725">1725</date> gibt der Weg über die <placeName ref="loc012085">Brunau</placeName> Anlass zu Streitigkeiten (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25600">StArZH VI.WO.C.4., S. 155-159</ref></bibl>).  
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>
+<?oxy_options track_changes="on"?>

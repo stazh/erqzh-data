@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_046_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=693962">PGA Fällanden I A 2</idno></msIdentifier><head>Urteil zur Regelung des Fährdienstes auf dem Greifensee</head><msContents><summary>Untervogt Jakob Egli von Greifensee beurkundet im Auftrag von Obervogt Oswald Schmid einen Streit zwischen den Leuten von Fällanden sowie Jakob Aeppli im Rohr. Vor längerer Zeit sei es Ruedi Meier gestattet worden, im Rohr zu wohnen und dort zwei Kühe, ein Pferd sowie zwei Schweine im Stall zu halten. Als Gegenleistung sollte er eine Eiche (Fähre) unterhalten und diese für den Auf- und Abzug der Vögte in Greifensee sowie für Überfahrten am Schwörtag zur Verfügung stellen. Von alters her sei es üblich gewesen, dass die Leute aus Fällanden die Fähre benutzen durften, um nach Greifensee zu gelangen. Demgegenüber bringen Jakob und Heinrich Aeppli durch ihren Fürsprech vor, dass sie durchaus bereit seien, die Fähre zu betreiben, aber nicht nur auf eigene Kosten. Das Gericht beschliesst, dass die Aeppli die Fähre weiterhin wie bisher betreiben müssen, dass es ihnen aber gestattet sein soll, dafür ein Entgeld entgegenzunehmen, wenn ihnen ein solches versprochen worden sei. Obervogt Oswald Schmid siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="25.5"/><width unit="cm" quantity="35.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Oswald Schmid</persName></seal></sealDesc></physDesc><history><origin><origDate when="1504-02-14"/></origin></history><additional><listBibl><head>Regest</head><bibl>Sigg 2006, S. 216; Wüthrich 1997, S. 19</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000479">Dienstpflicht</term><term ref="key000703">Fähre</term><term ref="key000704">Schifffahrt</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="PGA_Fällanden_I_A_2__r_.tif"/>
+<p><seg><lb/>Ich, <persName role="issuer" ref="per012733">Jacob Egly</persName>, undervogt zuͦ <placeName ref="loc000348">Gryffense</placeName>, tuͦn kund aller <choice><sic>mengchchem</sic><corr>menglichem</corr></choice> mit dißem brieff, das ich uff hu̍t sin daͧtum an statt und innamen der
+<lb/>strenngen, fromen, vesten, fu̍rsichtigen und wysen <orgName ref="org002406">burgermeisters und raͤten der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> und von sunder befelch des ersamen und
+<lb/>fromen <persName ref="per012736">Oschwalden Schmitz</persName>, burger <placeName ref="loc000065">Zu̍rich</placeName>, obervogt zuͦ <placeName ref="loc000348">Gryffense</placeName>, aller miner gnedigen, lieben herren alda zuͦ <placeName ref="loc008569">Gryffense</placeName> offenlich zuͦ
+<lb/>gericht saß und fu̍r mich in gericht komen ist der gemelt <persName ref="per012736">Oschwald Schmid</persName>, obervogt zuͦ <placeName ref="loc000348">Gryffense</placeName>, und mit im gemein
+<lb/>insaͤssen von <placeName ref="loc008651">Fellanden</placeName> an eim und ließen inen durch iren erlopten fu̍rsprech vor mir in recht tragen die meinung wyder
+<lb/><persName ref="per012731">Jacob Aͤplin</persName> uß dem <placeName ref="loc008780">Ror</placeName>, irn wyderteil, wie dz vor langen zytten dem <persName ref="per012735">Ruͤdy Meyger</persName>, do zuͦmaͧl im <placeName ref="loc008780">Ror</placeName> seßhafft gewaͤßen, von
+<lb/>inen von <placeName ref="loc008651">Fellanden</placeName> vergu̍nst und verwyllgott worden, inn dz <placeName ref="loc008780">Ror</placeName> zuͦ husen mit soͤllichem geding, dz der selb <persName ref="per012735">Ruͤdy Meyger</persName>
+<lb/>und all sin nachkomen, so alda im <placeName ref="loc008780">Ror</placeName> sesshafft waͤrind, zwo kuͤ und ein roß haben moͤchten und zwey schwin und die im
+<lb/>stal haben, und im des darumb verwillgott, dz er und wie ob all sin nachkomen, so daselbs im <placeName ref="loc008780">Ror</placeName> hußhablich saͤssindt, ein eich
+<lb/>da habint, die da warti, wann ein vogt zue <placeName ref="loc000348">Gryffense</placeName>, so da vogt worden waͤri, woͤlti uff zu̍chen und der ander abzuche, das
+<lb/>dann die im <placeName ref="loc008780">Ror</placeName> die selben voͤgt mit dem iren mit egenanter eich u̍ber den see umbhin und anhin, och sy, die voͤgt, und waͤr inen
+<lb/>zuͦ hoͤrti so dick, dz not waͤr, darmit u̍ber den se anhin und umbhin fuͤren. Des glich, wann fu̍r ußgieng oder dz man eim
+<lb/>vogt schweren muͤst, das man dann also zuͦ lieb und zeleid lu̍t und guͦt och darmit und darinn fuͤrti und fuͤren soͤlt,
+<lb/>darumb och sy von <placeName ref="loc008651">Fellanden</placeName> diß behusung in dz <placeName ref="loc008780">Ror</placeName> verwillgot hettintt, dann sy von <placeName ref="loc008651">Fellanden</placeName> und anderer, die waͤrindt, die ein vogt
+<lb/>von <placeName ref="loc000348">Griffense</placeName>, er zuge uff oder ab, fuͤren muͤsten, das dann die selben im <placeName ref="loc008780">Ror</placeName> soͤllichs von irtwaͤgen taͤtten.</seg>
+<seg>Und wann aber <persName ref="per012731">Jacob</persName>, och
+<lb/><persName ref="per012731">Heinrich Aͤplin</persName> im <placeName ref="loc008780">Ror</placeName>, sich des wydertintt und die eich versenckt, begerttintt sy, dz die genanten zwey <orgName ref="org004085">Aͤply</orgName> mit recht gewyst,
+<lb/>dz sy soͤlich eich hinfu̍r aber also da warten habint und soͤlich fuͤrung darmit von irtwaͤgen taͤtten, in irem costen u̍ber
+<lb/>den see, umbhin und anhin, wie dz von irn vordern an sy komen und sy, och ir vordern, dz gebrucht habint, hoften, soͤllichs billich
+<lb/>sin. Die im <placeName ref="loc008780">Ror</placeName> habint och dz far und anders, dz zuͦ der eich hoͤrti, dasselbig inen deswaͤgen och darzuͦ nach gelaͧsen worden syg.
+<lb/>Wytter waͤri von alter har gebrucht, so sy von <placeName ref="loc008651">Fellanden</placeName> zwen, dryg oder mer gen <placeName ref="loc008569">Gryffense</placeName> jemant zelieb oder zeleid woͤlten, so solten die
+<lb/>im <placeName ref="loc008780">Ror</placeName> inen die eich lichen, dz sy darmit u̍berfaren koͤnden.</seg>
+<seg>Darzuͦ inen die genanten <persName ref="per012731">Jacob</persName> und <persName ref="per012728">Heinrich</persName> die <orgName ref="org004085">Aͤply</orgName> durch irn
+<lb/>fu̍rsprech reden ließen, sy waͤrind nit vast darwyder, dann sy und ir vorfaren hettintt die eich vor ettwas zytt also da gehept und
+<lb/>darmit gefuͤrt. Sy vermeintintt aber nit, dz sy soͤllich eich also allein in irm kosten da zehaben schuldig waͤren oder dz sy soͤllich
+<lb/>fuͤren hinfu̍r darmit wytter in irm kosten tuͦn muͤsten, man gaͤby dann inen etwas daran. Und alldwyl man inen nu̍tz daran
+<lb/>taͤtt oder gebe, so vermeintin sy, dz nit mer zetuͦnd schuldig zesind.</seg>
+<seg>Daruf die von <placeName ref="loc008651">Fellanden</placeName> glich wievor und deß mer reden
+<lb/>ließen, die im <placeName ref="loc008780">Ror</placeName> muͤsten dz in irm kosten tuͦn, und waͤrind sy inen daran nu̍tz zetuͦnd schuldig, hetti aber inen etwer daran
+<lb/>zegeben verheißen oder gaͤbe inen neywer daran, moͤchten sy wol lyden, sover sy die eich mit der fuͤrung da habindt, wie obge<lb break="no"/>hoͤrt ist.</seg>
+<seg>Und darmit, dz beid teil zuͦ recht gesetzt, also nach red und wyderred ist nach miner fraͧg mit einhelliger urteil zuͦ recht
+<lb/>erkennt, dz die genanten zwey <orgName ref="org004085">Aͤply</orgName> die eich hinfu̍r aber alda im <placeName ref="loc008780">Ror</placeName> warten habindt und darmit fuͤrint und vertigindt,
+<lb/>wie dz von alter harkomen und sy dz och gebrucht habent. Und wu̍ssindt sy jemant, der inen etwas daran verheissen oder
+<lb/>zegeben schuldig sye, zuͦ den selbn sol den im <placeName ref="loc008780">Ror</placeName> ir recht vorbehalten sin.</seg>
+<seg>Des begerten inen die von <placeName ref="loc008651">Fellanden</placeName> urtelbrieff
+<lb/>vom gricht, so inen erkennt ist. Zuͦ urku̍nd hat gemelter <persName role="sigillant" ref="per012736">Oschwald Schmid</persName>, obervogt, sin insigel mit urtel von grichtz und
+<lb/>min, des richters, pyt waͤgen, doch gemelten minen herren der herrschaft <placeName ref="loc000348">Gryffense</placeName> an aller oberkeit und zuͦgehord, och im <supplied resp="rhr">und</supplied>
+<lb/>sinen erben on schaden, offenlich an dißen gehenckt, geben an <origDate when="1504-02-14">sant <persName ref="per000323">Vallentins</persName> tag von Kristi gebu̍rt fu̍nfftzechen<lb break="no"/>hundert und im vierden jaͧr</origDate>.</seg></p>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/>Per <persName ref="per012732">Beter Bachoffner</persName>
+<lb/><persName ref="per012734">Johannem Gul</persName></ab>
+</div>
+<pb n="v" facs="PGA_Fällanden_I_A_2__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Der <orgName ref="org004879">gemeind zu
+<lb/><placeName ref="loc008651">Fellanden</placeName></orgName>
+<lb/>urtel umb die eich im <placeName ref="loc008780">Ror</placeName><add place="below" hand="hand18c">Rohr</add></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1504">1504</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Urtheil des
+unter<lb break="no"/>vogts <choice><abbr>z</abbr><expan>zu</expan></choice>
+<placeName ref="loc008569">Greifensee</placeName>
+<choice><abbr>betr</abbr><expan>betreffend</expan></choice> servitut
+<lb/>des besitzers im <placeName ref="loc008780">Rohr</placeName> zur see-überfahrt</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits um 1450 hatte der <orgName ref="org002406">Zürcher Rat</orgName> bestimmt,
+dass <persName ref="per012735">Ruedi Meier</persName> sich im <placeName ref="loc008780">Rohr</placeName>
+bei <placeName ref="loc008651">Fällanden</placeName> niederlassen dürfe,
+wenn er im Gegenzug ein Schiff für 30 Mann unterhalte und für den Vogt unentgeltlich Fährdienst leiste 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>).</p>
+<p>Dem vorliegenden Urteil vorausgegangen war eine Auseinandersetzung zwischen der Familie <orgName ref="org004085">Aeppli</orgName>
+im <placeName ref="loc008780">Rohr</placeName> und den Leuten von <placeName ref="loc008651">Fällanden</placeName>
+um das Weg- und Fahrrecht zu den Gütern in <placeName ref="loc008798">Stuolen</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_045">SSRQ ZH NF II/3, Nr. 45</ref></bibl>).
+Nur wenige Jahre später kam es wegen des Fährdienstes erneut zum Streit.
+Am <origDate when="1507-03-02">2. März 1507</origDate> beschloss der Rat, 
+dass die <orgName ref="org004085">Aeppli</orgName> die Fähre weiterhin betreiben oder innert Monatsfrist aus dem <placeName ref="loc008780">Rohr</placeName> wegziehen müssen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_047">SSRQ ZH NF II/3, Nr. 47</ref></bibl>).
+Zum Hof im <placeName ref="loc008780">Rohr</placeName> und zum dortigen Fährbetrieb vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 70-76</bibl>;
+ihm folgend <bibl><ref target="/startseite/literaturverzeichnis">Wüthrich 1997</ref>, S. 6-7</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

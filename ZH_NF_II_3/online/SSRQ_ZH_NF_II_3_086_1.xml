@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_086_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637271">StAZH C III 8, Nr. 31, S. 1-33</idno>
+</msIdentifier>
+<head>Erneuerung der Fischereinung von Greifensee</head>
+<msContents>
+<summary>Zusammen mit den Anwälten der Weidleute vom Greifensee erstellen und beglaubigen Säckelmeister Konrad Escher, Hans Wilpert Zoller,
+Hans Waser, Hans Escher und Konrad Denzler, die alten und neuen Seevögte und zugleich Ratsherren der Stadt Zürich, sowie Unterschreiber
+Gerold Escher und Hans Balthasar Meiss, derzeit Vogt von Greifensee, die neue Fischereinung.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Aufzeichnung, Band (50 Blätter)</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="20.5"/>
+<width unit="cm" quantity="16.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate when="1574-04-23"/></origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000536">Fischerei</term>
+<term ref="key000715">Gewässer</term>
+<term ref="key004022">Satzung</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="I"/>
+<head><lb/>Ernüwerung dess visch<lb break="no"/>eynungs, ouch gemachten <lb/>ordnungen über den <placeName ref="loc008718">Gryff<lb
+break="no"/>ensee</placeName>, so die weidlüth unnd <lb/>vischer daselbs <date dur="R/P1Y">jerlich</date> schweer<lb break="no"/>en söllen
+zehallten. Actum <lb/>den <origDate when="1574-04-23">23.ten aprilis dess <lb/>1574. jars</origDate>. </head>
+<p><lb/>Söllicher eynung ward mit sampt den an<lb break="no"/>wällten der weydlüthen deß <placeName ref="loc008718">Gryffensees</placeName>
+durch <lb/>herren <persName ref="per002057">Cuͦnrathen Ëscher</persName>, seckelmeister, <choice>
+<abbr>j</abbr>
+<expan>junker</expan>
+</choice>
+<persName ref="per014999">Hanns <lb/>Willperten Zoller</persName>, <choice>
+<abbr>m</abbr>
+<expan>meister</expan>
+</choice>
+<persName ref="per014993">Hansen Waser</persName>, <choice>
+<abbr>j</abbr>
+<expan>junker</expan>
+</choice>
+<persName ref="per002116">Hansen Ëscher</persName>
+<lb/>und <choice>
+<abbr>m</abbr>
+<expan>meister</expan>
+</choice>
+<persName ref="per014985">Cuͦnrathen Tënntzler</persName>, allt und nüw seevögt, <lb/>ouch all deß <orgName ref="org002406">raths der statt
+<placeName ref="loc000065">Zürich</placeName></orgName>, und <persName ref="per013359">Gerolden <lb/>Ëscher</persName>, understattschryber
+dasëlbs, deßglychenn <lb/><choice>
+<abbr>j</abbr>
+<expan>junker</expan>
+</choice>
+<persName ref="per011048">Hanns Ballthasszar Meysenn</persName>, der zyth vogt zuͦ <lb/><placeName ref="loc000348">Gryffennsee</placeName>,
+uff gefallenn unnserer <lb/>gnedigen herren gestellt unnd uff obver<lb break="no"/>mällten tag von unnseren gnedigen <lb/>herren, einem
+ersamen <orgName ref="org002406">rath <lb/>der statt <placeName ref="loc000065">Zürich</placeName></orgName>, <lb/>bestettiget.</p>
+<add place="bottom" hand="hand17c"><p><lb/>Dißer fischeinu̍ng ward mit sambt den an<lb break="no"/>wälten der weydleüthen deß <placeName
+ref="loc008718">Gryffensees</placeName>
+<lb/>du̍rch herren <persName ref="per006243">Johann Heinrich Rahn</persName>, seckhel<lb break="no"/>meister, <choice>
+<abbr>h</abbr>
+<expan>herr</expan>
+</choice>
+<persName ref="per014986">Johann Georg Heß</persName>, <choice>
+<abbr>h</abbr>
+<expan>herr</expan>
+</choice>
+<persName ref="per014998">Heinrich <lb/>Werdmüller</persName>, alt und nöüw seevögt, <choice>
+<abbr>h</abbr>
+<expan>herr</expan>
+</choice> amman <lb/><persName ref="per013942">Spöndli</persName> und <choice>
+<abbr>h</abbr>
+<expan>herr</expan>
+</choice> vogt <persName ref="per014989">Keller</persName>, deß <orgName ref="org002406">raths der <lb/>statt <placeName ref="loc000065"
+>Zürich</placeName></orgName>, in gegenwart <choice>
+<abbr>h</abbr>
+<expan>herr</expan>
+</choice>
+<persName ref="per013381">Johann Heinrich <lb/>Eschers</persName>, dißmahligen vogts <unclear>zue</unclear>
+<placeName ref="loc000348">Gryffensee</placeName>, <pb n="II"/><lb/>uß oberkeitlichem befelch von puncten <lb/>zu puncten durchgangen und
+uff dero <lb/>abgelegten schrifft und mundtlicher bericht, <lb/>daß darinnen nützit zuenderen noch zu<lb break="no"/>verbeßeren, von mynen <choice>
+<abbr>g h</abbr>
+<expan>gnedigen herren</expan>
+</choice>, einem <lb/>ehrsammen <orgName ref="org002406">rath</orgName>, einhellig bestättiget <lb/>und erkendt, daß der selbe füro
+khünfftig <lb/>in allen puncten und artikheln gebührend <lb/>beobachtet und dennen in all wyß und <lb/>wäg by uffgesetzter, ohnnachläßlicher
+<lb/>buͦß nachkommen und statt gethan werden <lb/>solle.</p>
+<p><lb/>Actum montags, den <origDate when="1674-11-16" calendar="Julian">16<hi rend="sup">ten</hi> november <lb/>anno 1674</origDate>,
+<lb/>coram <orgName ref="org002406">senatu</orgName>.</p>
+<p><lb/>Stattschryber.</p>
+</add>
+<pb n="1" type="original"/>
+<p><lb/>Unnser gnedig herrenn, <lb/><orgName ref="org002406">burgermeyster unnd rath der statt <lb/><placeName ref="loc000065"
+>Zürich</placeName></orgName>, habennt zuͦ schirm deß <lb/><placeName ref="loc008718">Gryffennsees</placeName>, ouch zuͦ wolstannd deß
+<lb/>gmeinen nutzes, darzuͦ den vischeren <lb/>unnd iren nachkommen zuͦ guͦttem inn <lb/>etlichen verganngnen jaren unnd jetzt
+<lb/>abermaalen mit der weydlüthen am <lb/><placeName ref="loc008718">Gryffennsee</placeName> bysyn volgenden einung <lb/>unnd ordnung
+gesetzt unnd von mënck<lb break="no"/>lichem zehallten angesëchenn, wie das <lb/>von einem an das annder hienach begriff<lb break=" no"/>en
+wirt.</p>
+<p><lb/>Deß ersten ist von den weydtlüthenn <lb/>deß <placeName ref="loc008718">Gryffennsees</placeName> von alltem har inn <lb/>gschrifft
+gäbenn unnd angetzeigt word<lb break="no"/>en: Wellicher hienach geschribner <lb/>stucken eins, so by dem einnung verbotten <lb/>ist,
+überfüre unnd nit stedt hiellte, der<lb break="no"/>sëlben ein jetlicher soll dem vogt zuͦ <placeName ref="loc000348">Gryff<lb break="no"
+/>ensee</placeName> von des huses wägen verfallenn <lb/>syn unnd ouch gäben <measure type="currency" unit="ß" quantity="12">zwölff
+schillinng <pb n="2" type="original"/><lb/>pfënning</measure> unnd den weydtlüthen ouch <lb/><measure type="currency" unit="ß" quantity="12"
+>zwölff schillinng pfëning</measure>, unnd wie<lb break="no"/>vil inn einem schiff uff dem see sind, <lb/>die sëlbiger stucken dheins
+brëchenndt, <lb/>da soll ein jetlicher, so inn dem schiff <lb/>ist, dem vogt zuͦ <placeName ref="loc000348">Gryffennsee</placeName>
+<measure type="currency" unit="ß" quantity="12">zwölff <lb/>schillinng pfënning</measure> unnd den weydt<lb break="no"/>lüthen ouch <measure
+type="currency" unit="ß" quantity="12">zwölff schillinng pfënn<lb break="no"/>ing</measure> gäbenn. Wo aber unnder inn<lb break="no"/>en
+dheiner wer, der da spreche, man soll <lb/>das nit thuͦn, man bricht den einung, <lb/>unnd er ouch dann das zethuͦnd nit <lb/>hulffe, damit
+soll der sëlb der buͦß <lb/>dem vogt unnd den weydlüthen zegäb<lb break="no"/>en ledig syn, unnd soll aber das dann <lb/>dem vogt by synem
+eydt leiden. Unnd <lb/>wellicher ouch diser stucken dheins, so <lb/>hienach vermëldet unnd bim einung <lb/>abgestrickt werdennt, brichet
+unnd <lb/>darwider thuͦtt unnd das dem vogt <lb/>unnd den weydlüthen buͦßt, der <lb/>soll denocht syn eydt nit gebrochenn <lb/>haben
+<sic>nach</sic> darumb nit meyneydt <lb/>syn.<note>Inhaltlich entspricht diese Bestimmung dem 14. Artikel der alten Fischereinung
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>).</note>
+<pb n="3" type="original"/><lb/>Was aber für höchere buͦssen dann obge<lb break="no"/>mëllter einung ist, uff etliche hienach
+<lb/>verschribne stuck von unnseren herren <lb/>gesetzt unnd bestimpt sinnd, die <lb/>soll ein vogt zuͦ <placeName ref="loc000348"
+>Gryffennsee</placeName> fürer <lb/>als bißhar zuͦ unnserer herren hannden <lb/>allein inziechenn.</p>
+<p><gap source="SSRQ ZH NF II/3, Nr. 17"/></p>
+<pb n="31" type="original"/>
+<head><add place="next page" hand="other hand"><lb/>Daß ein <lb/>fogt flisig <lb/>uff sächen <lb/>habe.</add></head>
+<p><lb/>Unnd zuͦ styffer hanndthabunng deß <pb n="32" type="original"/><lb/>alles ist unnserer herren ernstlicher <lb/>will, bevelch unnd
+meynung, das <lb/>ein vogt zuͦ <placeName ref="loc000348">Gryffennsee</placeName> uff vorge<lb break="no"/>schribne artigkel zuͦ jeder zyt
+mit <lb/>allen thrüwen ufsëchenns habe, <lb/>das denen von mëncklichem gläpt <lb/>unnd nachkommen, unnd wer darwider <lb/>hanndlet unnd
+hieran brüchig erfund<lb break="no"/>en wirt, die straaff unnd buͦß uff <lb/>jede sach benampset, one alles verschon<lb break="no"/>en unnd
+nachlaß gestrax inzüche. <lb/>Das wellennt unnser herren gënntz<lb break="no"/>lichen von ime gehept haben oder, <lb/>wo er varleßig were,
+zuͦ ungnaaden <lb/>gägen ime ufnëmmen, welliches <lb/><date dur="R/P1Y">jerlichen</date>, so die weydtlüth disen <lb/>einung schweerend, ime
+unnder <lb/>ougen gmeiner weydlüthen mit <lb/>allem erntst unndersagt werdenn <lb/>soll, damit er unnd die weydtlüth <lb/>unnserer herren
+willens sich zuͦ be<lb break="no"/>flyßen wüssinnd.</p>
+<pb n="33" type="original"/>
+<p><handShift/><lb/>Inn disem allem behaltend unnser <lb/>herren inen selbs heiter bevor, all<lb break="no"/>wegen nach glegenheit der zyt
+und <lb/>loüffen, ouch irem guͦt beduncken <lb/>und gfallen enderung zethuͦn, un<lb break="no"/>verhinderet mengcklichs.</p>
+<p><gap reason="irrelevant"/><note>Auf den nachfolgenden Seiten wurden diverse weitere Regelungen eingetragen, welche das Fangen von Fischen
+und Krebsen auf dem <placeName ref="loc008718">Greifensee</placeName> sowie im <placeName ref="loc008848">Usterbach</placeName> betreffen,
+nämlich das Verbot des Schilfmähens vom <date when="1569-03-28">28. März 1569</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637377">S. 33-34</ref>), das Verbot von Schnüren mit mehreren Haken, den
+sogenannten Hegenen, vom <date when="1607-03-21" calendar="Julian">21. März 1607</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637378">S. 35-37</ref>), Bestimmungen betreffend Fischerei im <placeName
+ref="loc008848">Usterbach</placeName> vom <date when="1559-06-24">24. Juni 1559</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637480">S. 45-48</ref>), Bestimmungen für das Fangen von Fischen und Krebsen
+im <placeName ref="loc008848">Usterbach</placeName> vom <date when="1569-09-01">1. September 1569</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637485">S. 49-53</ref>), das Urteil in einem Streit über das Fischen in den
+Gräben am <placeName ref="loc008718">Greifensee</placeName> vom <date when="1569-12-14">14. Dezember 1569</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637486">S. 55-63</ref>), ein Entscheid über das Ziehen der Setzgarne im
+<placeName ref="loc008848">Usterbach</placeName> vom <date when="1580-01-06">6. Januar 1580</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637488">S. 65-67</ref>), das Urteil in einem Streit um die Fischereirechte im
+<placeName ref="loc008848">Usterbach</placeName> vom <date when="1606-08-02" calendar="Julian">2. August 1606</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637489">S. 69-71</ref>), ein Entscheid betreffend Nutzung des Schilfs am
+<placeName ref="loc008718">Greifensee</placeName> vom <date when="1621-04-02" calendar="Julian">2. April 1621</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637490">S. 79-80</ref>), das zugrunde liegende Urteil in einem Streit über die
+Ufernutzung des <placeName ref="loc008718">Greifensees</placeName> vom <date when="1615-01-18" calendar="Julian">18. Januar 1615</date>
+(<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637519">S. 80-83</ref>), ein Entscheid über das Schneiden von
+Streumaterial im <placeName ref="loc008718">Greifensee</placeName> vom <date when="1729-12-13">13. Dezember 1729</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637520">S. 84</ref>) sowie der Eid des Seeknechts vom <date when="1650-04-15"
+>15. April 1650</date> (<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637521">S. 85-88</ref>; Edition: <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_097">SSRQ ZH NF II/3, Nr. 97</ref></bibl>).</note></p>
+<div>
+<ab type="dorsal" place="cover" hand="hand18c"><lb/>Fischeinung von Greifensee</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Mit der vorliegenden Erneuerung der Fischereinung wurde der obrigkeitliche Zugriff gegenüber der ursprünglichen Fassung von 1428
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>) noch einmal verstärkt. Waren es damals die
+Fischer selbst gewesen, welche die Einung aufgesetzt hatten, so geschah dies nun auf Geheiss von <orgName ref="org002406">Bürgermeister und
+Rat der Stadt <placeName ref="loc000065">Zürich</placeName></orgName>. In einem Nachtrag, der zu weiteren Abschriften von Bestimmungen
+betreffend Fischerei überleitet, behält sich der Rat ausdrücklich vor, die Regelungen nach eigenem Gutdünken zu ändern.</p>
+<p>Inhaltlich stützt sich diese neue Version grösstenteils auf die Vorlage vom <date when="1519-07-06">6. Juli 1519</date> in <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1534001">StAZH A 85, Nr. 7</ref></bibl> (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_056">SSRQ ZH NF II/3, Nr. 56</ref></bibl>). Allerdings erhielten die Artikel teilweise eine neue
+Reihenfolge und verschiedene Präzisierungen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Zimmermann 1990</ref>, S.
+9</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_116</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24779">StArZH VI.OS.A.4.:24a</idno></msIdentifier><head>Ordnung für die Hochwacht auf dem Geissberg</head><msContents><summary>Geregelt werden unter anderem die Verantwortlichkeit der Gemeinden und der Wachtmeister für den Zustand der Hochwachten, die Anzahl der Besatzung, die Zeiten und die Durchführung der Wache sowie die Wachablösung. Für die Hochwacht auf dem Geissberg sind die Gemeinden Oberstrass, Unterstrass, Wipkingen, Höngg, Schwamendingen, Oerlikon, Seebach, Oberhausen, Opfikon, Wallisellen, Dietlikon und Rieden verantwortlich.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="21.0"/></dimensions></extent><condition>Wasserflecken</condition></supportDesc></objectDesc></physDesc><history><origin><origDate from="1644-01-01" to="1644-12-31">Undatiert; Datierung auf 1685 aufgrund Archivvermerk (20. Jh.), um 1644 aufgrund StArZH VI.HO.A.1.:13.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key004022">Satzung</term><term ref="key000580">Wachdienst</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<head>Ordnung</head>
+<p>
+<lb/>Für hernachbeschribne gmeinden, wellichen  die
+<lb/>uff dem <placeName ref="loc012115">Geißberg</placeName> wol meinlich angesëchne hochwacht
+<lb/>fürohin der kehre nach so <time period="byDay">tags</time>, so <time period="byNight">nachts</time> zuͦbestellen
+<lb/>unnd zuͦversëchen obligen thuͦt, waß namlich dieselben 
+<lb/>dasëlbsten zuͦgewahren unnd zuͦverrichten.</p>
+<p>
+<lb/>Erstlich sollend die vorgesetzten der gmeinden mithin zuͦ schouwen,
+<lb/>daß die wachthütten unnd waß darinen ist ungeschännt
+<lb/>unnd unversehrt blybe.</p>
+<p>
+<lb/>Soll ein jede gmeind uß innen sëlbß erwellen einen
+<lb/>verständigen tugenlichen mann, wellichem die wacht
+<lb/>und waß imme sonntst bevolchen wirt zuͦverthruwen
+<lb/>syge, zuͦ einem wachtmeister.</p>
+<p>
+<lb/>Die wacht soll uf dißmal bestahn uff <num value="4">4</num> mannen,
+<lb/>nammlich dem wachtmeister unnd <num value="3">3</num> mannen, die schilt<lb break="no"/>wacht
+standind.</p>
+<p>
+<lb/>Soll die wacht <time period="morning">morgens</time> und <time period="evening">abents</time> umb <time when="06:00:00">6 uhren</time>
+<lb/>uß- unnd angahn.</p>
+<p>
+<lb/>Soll der wachtmeister der wacht flyßig abwarten,
+<lb/>so lanng eß an synner gmeind zewachen ist, und soll
+<lb/>die by sich habenden <num value="3">drey</num> mannen darzuͦ halten, daß
+<lb/>sy <time dur="R/PT1H">alle stund</time> einannderen uff der schiltwacht ablößind
+<lb/>unnd flyßig umb sich schouwind unnd achtung gäbind
+<lb/>uff die führzeichen, auch daß sy an der hütten unnd
+<lb/>waß daran unnd darinen nützit verwahrloßind.</p>
+<p>
+<lb/>Dass die wächter dem wachtmeister gehorsamm sygind,
+<lb/>flyßig <time dur="R/PT1H">alle stund</time> einannderen uff der schiltwacht
+<lb/>ablößind, auch von der wacht nit wychind, biß daß
+<lb/>sy abgelößt werden.</p><pb n="2"/>
+<p>
+<lb/>Daß uff der wacht kein findthätlichkeit<!-- Feindseligkeit, vgl. Idiotikon XIII, Sp. 2045 --> gëgen einanderen
+<lb/>nit gebrucht werde, weder mit worten nach wercken.</p>
+<p>
+<lb/>Eß soll der abgëhnde wachtmeister dem nechst uff inn
+<lb/>volgenden wachtmeister die wacht <date dur="P1D">ein tag</date> zuvor, ehe er
+<lb/>ufzüchen soll, ankünden, unnd wann mann inn ablößt,
+<lb/>so soll er dem, der ablößt, übergëben den schlüßel,
+<lb/>die hütten unnd waß daran unnd darinnen ist,
+<lb/>alleß unversehrt. So aber inn syner wëhrenden wacht
+<lb/>von den synigen were etwaß verbrochen oder ver<lb break="no"/>wahrloßet
+worden, so soll eß dann diesëlbige
+<lb/>gmeind widerumb verbeßeren laßen, und den
+<lb/>darumb ersuͦchen, der eß gethan hat.</p>
+<p>
+<lb/>Soll der wachtmeister, der ablößt, sich beflyßen,
+<lb/>uff obgedachte stund abzelößen unnd wol inn obacht
+<lb/>nëmmen, waß mann imme übergibt, daß eß unversehrt
+<lb/>syge. Wo aber etwaren etwaß mangel were, soll
+<lb/>er eß an gebürenden orten anzeigen, unnd wo er eß
+<lb/>verschwyget unnd nit anze<damage agent="crack"><unclear>igte</unclear></damage>, so muß er eß
+<lb/>inn synem costen wider machen laßen.</p>
+<p>
+<lb/>Unnd sind diß die uff dem <placeName ref="loc012115">Geißberg</placeName> zewachen
+<lb/>verordnete gmeinden inn irer ordnung:</p>
+<p>
+<seg><lb/><placeName ref="loc010574">Oberstraß</placeName></seg>
+<seg><lb/><placeName ref="loc010816">Understraß</placeName></seg>
+<seg><lb/><placeName ref="loc010875">Wipchinngen</placeName></seg>
+<seg><lb/><placeName ref="loc009768">Hönng</placeName></seg>
+<seg><lb/><placeName ref="loc008714">Schwammendingen</placeName>, <placeName ref="loc010598">Örlicken</placeName>, <placeName ref="loc010666">Seebach</placeName>, <placeName ref="loc012717">Obernhußen</placeName></seg>
+<seg><lb/><placeName ref="loc012173">Opficken</placeName></seg>
+<seg><lb/><placeName ref="loc012275">Wallißellen</placeName></seg>
+<seg><lb/><placeName ref="loc010407">Dietlicken</placeName>, <placeName ref="loc010356">Rieden</placeName></seg>
+</p>
+<pb n="3"/><pb n="4"/>
+</div>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Ordnung
+<lb/>für die hochtwacht uffm
+<lb/><placeName ref="loc012115">Geißberg</placeName>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Das System der Hochwachten, hochgelegenen Alarmposten zur Übermittlung von Feuersignalen, war in <placeName ref="loc000157">Bern</placeName> seit der Mitte des 15., in der <placeName ref="loc005751">Innerschweiz</placeName> seit dem 16. Jahrhundert in Gebrauch. In <placeName ref="loc000065">Zürich</placeName> erfolgte 
+die Einrichtung wohl in den 1620er Jahren, nachdem Stadtingenieur <persName ref="per025776">Johannes Haller</persName> in seinem Defensional von 1620 dies vorgeschlagen hatte (vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254708">StAZH B III 301</ref></bibl>; 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=586933">StAZH PLAN G 19</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Peter 1907</ref>, S. 25</bibl>).</p>
+<p>Ein mit Bleistift angebrachter Archivvermerk des 20. Jahrhunderts datiert die vorliegende Ordnung vorsichtig auf ca. 1685 unter Verweis auf Vogels Memorabilia Tigurina. In der Überarbeitung von 1845 findet sich dort unter dem Stichwort <orig>Hochwachten</orig> 
+die Angabe, dass 1684 die Hochwachten inspiziert, den Wachtmeistern übergeben und deren Rechte und Pflichten festgelegt wurden (<bibl><ref target="/startseite/literaturverzeichnis">Vogel 1845</ref>, S. 296-297</bibl>, 
+Digitalisat: <bibl><ref target="http://doi.org/10.3931/e-rara-26753">ETH-Bibliothek Zürich Rar 6616: 2</ref></bibl>). Wahrscheinlicher ist jedoch, dass die Ordnung gleichzeitig mit der auf 1644 datierten Ordnung für die Hochwacht auf dem <placeName ref="loc010892">Zürichberg</placeName> 
+entstanden ist, deren Wortlaut mit dieser identisch ist (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24553">StArZH VI.HO.A.1.:13</ref></bibl>). Die beiden Ordnungen unterscheiden sich lediglich in der Liste der zur Wacht verordneten 
+Gemeinden; für den <placeName ref="loc010892">Zürichberg</placeName> betrifft das <placeName ref="loc010647">Riesbach</placeName>, <placeName ref="loc010889">Zollikon</placeName>, <placeName ref="loc012277">Zumikon</placeName>, <placeName ref="loc010472">Hirslanden</placeName>, <placeName ref="loc010878">Witikon</placeName>, 
+<placeName ref="loc010476">Hottingen</placeName>, <placeName ref="loc008722">Dübendorf</placeName>, <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010866">Wangen</placeName>, <placeName ref="loc012087">Brüttisellen</placeName> und <placeName ref="loc012029">Baltenswil</placeName>.</p>
+<p>Eine detailliertere Ordnung für die Hochwacht auf dem <placeName ref="loc010892">Zürichberg</placeName> von 1665 bietet <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24182">StArZH VI.FL.A.2.:14</ref></bibl>. Vgl zu den Hochwachten 
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D8621.php">Hochwachten</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Peter 1907</ref>, besonders S. 44-65</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

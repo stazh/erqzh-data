@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_175</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24207">StArZH VI.FL.A.3.:33</idno></msIdentifier><head>Wachtordnung für die Gemeinde Fluntern</head><msContents><summary>Die Wachtkommission hat die Gemeinden ermahnt, das Mandat über den Wachdienst besser zu befolgen. Die Gemeinde Fluntern sieht die Hauptursache für die schlechte Versehung des Wachdienstes darin, dass die Wache neben dem ordentlichen Gemeindewächter der Reihe nach von den Gemeindemitgliedern versehen werden muss. Daher hat sie an der Gemeindeversammlung beschlossen, einen zweiten ständigen Wächter anzustellen, dem jeder, der das Wachtgeld schuldet, den gleichen Betrag wie dem ordentlichen Wächter zu bezahlen habe. Zusätzlich werden Vorschriften darüber erlassen, welcher Wächter wann zu wachen hat und wo sie sich bei ihren Wachgängen zu melden haben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (?) (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1778-01-01" to="1778-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term>Lohn</term><term ref="key000875">Nacht</term><term ref="key004022">Satzung</term><term ref="key000580">Wachdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p>
+<lb/>Nach deme eine lobliche wacht comission durch eine circular
+<lb/>erkantnus alles hohen ernstes anbefohlen, das das hochober<lb break="no"/>keitliche
+mandat wegen denen dorffwachten<note>Vermutlich handelt es sich um das 1771 erlassene (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3292945">StAZH III AAb 1.13, Nr. 86</ref></bibl>) und 1775 nachgedruckte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3578382">StAZH III AAb 1.14, Nr. 59</ref></bibl>) Mandat der Stadt <placeName ref="loc000065">Zürich</placeName> betreffend Dorfwachen auf der Landschaft und Ausweisung von Bettlern und fahrenden Leuten.</note> neüerdingen
+<lb/>offentlich widerum solle verlesen werden, anbey samtliche
+<lb/>vorgesetzte jedesen orts sehr ernstlich insinuviert, angestalten
+<lb/>zu machen, das solches hochoberkeitliche mandat beser und
+<lb/>volkomener, als bis dahin geschehen, möchte gehalten werden.</p>
+<p><lb/>Derowegen hat ein ehrsame <orgName ref="org007813">gmeind <placeName ref="loc008707">Fluntern</placeName></orgName> bey anlas ihres
+<lb/>neüjahrs bott überhaubt <choice><abbr>u</abbr><expan>und</expan></choice> vast jederman geklagt, das das
+<lb/>die gröste ursach seye, das die beywacht oder nebentwacht so
+<lb/>schlechter dingen ihre schuldigkeit thüehind, weillen solche bis
+<lb/>dahin von haus zu haus <date dur="R/P1D">alle tag</date> abgeändert, ein jeder denkt,
+<lb/>es <add place="above">ist</add> nur heüt an mir, morgen ist an einem anderen, heüt kombt
+<lb/>ein junger, morgen ein alter <choice><abbr>u</abbr><expan>und</expan></choice> die, wo nicht selbs komen, schiken
+<lb/>mehren theils alte, schwache männer – so das weder des <time period="byDay">tags</time>, geschwei<lb break="no"/>gen
+des <time period="byNight">nachts</time> die wacht erforderlicher masen bestelt seye.
+<lb/>Umb diser klag abzuhelffen und darmit das bedeütete <choice><abbr>hochober<lb break="no"/>keitl</abbr><expan>hochoberkeitliche</expan></choice>
+mandat gehorsamer befolget werde, hat gedachte unsere
+<lb/>gmeind eyn müetig auf- und angenommen, das man nebst
+<lb/>dem ordinari gmeindwächter, statt der <date dur="R/P1D">alle tag</date> abwechslender
+<lb/>beywacht, ein beständiger fruetiger<!-- Idiotikon I, Sp. 1340 "munter, froh, frisch, lebhaft, rüstig, wacker, tapfer, furchtlos, rasch, entschlossen" --> man wolle bestellen, der
+<lb/>so woll des <time period="byDay">tags</time> als <time period="byNight">nachts</time> nebst dem ordinari wächter die
+<lb/>wacht versehen müese, welcher dan auch gleich wie der ordinari
+<lb/>wächter von denen, die das wacht gelt schuldig, von jedem alle <date dur="R/P3M">fron<lb break="no"/>fasten</date>
+<measure type="currency" unit="ß" quantity="5">5 </measure> für seine belohnung zu <unclear>bezüchen</unclear><!-- stimmt ü? PS: es könnte auch 'bezeichen', was weniger Sinn macht, heissen. Lassen --> haben solle.
+<lb/>Und darmit disere wacht bey <time period="byDay">tag</time> und <time period="byNight">nacht</time> ohn unter brochen
+<lb/>alle stunden fortdaure, haben die vorgesetzten denen beiden 
+<lb/>wächteren die vorschrifft gemachet, wie sie die wacht versehen
+<lb/>müesen.</p><pb n="2"/>
+<p>
+<lb/>1. Der <choice><abbr>ordin</abbr><expan>ordinari</expan></choice> gemeindwächter solle <date period="summer">somerszeit</date>
+<time period="morning">morgen</time>
+<unclear>spästest</unclear>
+<lb/>umb <time when="06:00:00">6 uhr</time> auf dem haubtposten <add place="left margin">auf der <placeName ref="loc012738">Blatten</placeName></add> seyn und sich bey dem unter<lb break="no"/>vogt
+melden, auf disem posten bleiben bis umb <time when="11:00:00">11 uhr</time>, hernach
+<lb/>ein rast <time dur="1H">stund</time> haben, umb <time when="12:00:00">12 uhr</time> solle er widerum auf dem 
+<lb/>haubtposten seyn bis <time period="evening">abends</time> umb <time when="19:00:00">7 uhr</time>, wo er sich widerum
+<lb/>bey dem untervogt melden solle. Umb <time when="21:00:00">9 uhr</time> soll sein nachtwacht
+<lb/>angehen bis umb <time when="01:00:00">1 uhr</time>, in welcher zeit er patrulieren <choice><abbr>u</abbr><expan>und</expan></choice>
+<time dur="R/PT1H">alle
+<lb/>stund</time> rüeffen soll, auch ein mal bey <choice><abbr>gschw</abbr><expan>geschworenem</expan></choice>
+<persName ref="per026511"><choice><abbr>Rinderkn</abbr><expan>Rinderknecht</expan></choice></persName> im <placeName ref="loc012130">Hinterberg</placeName>
+<lb/><choice><abbr>u</abbr><expan>und</expan></choice> bey <choice><abbr>sekelmst<hi rend="sup">r</hi></abbr><expan>sekelmeister</expan></choice>
+<persName ref="per026459">Siber</persName> im <placeName ref="loc012842">Vorderberg</placeName> sich melden, umb <time when="01:00:00">1 uhr</time> aber
+<lb/>bey dem untervogt, allwo alsdan der ander wächter zu gleicher
+<lb/>zeit ihme ablösen soll.</p>
+<p>
+<lb/>2. Der ander wächter soll <time period="morning">morgen</time> umb <time when="07:00:00">7 uhr</time> auf dem haubt<lb break="no"/>posten
+seyn <choice><abbr>u</abbr><expan>und</expan></choice> sich auch bey untervogt melden, wo er dan bis
+<lb/>umb <time when="12:00:00">12 uhr</time> wacht haben solle, in zwischent in der gemeind
+<lb/>herumb patrulieren <choice><abbr>u</abbr><expan>und</expan></choice> wo er frömbde burst oder bettler an<lb break="no"/>trifft
+auf den haubtposten bringen <choice><abbr>u</abbr><expan>und</expan></choice> solche alsdan fortführen.
+<lb/>Umb <time when="13:00:00">1 uhr</time> soll er sich widerum auf dem haubtposten melden
+<lb/><choice><abbr>u</abbr><expan>und</expan></choice> die wacht haben bis <time period="evening">abends</time> umb <time when="20:00:00">8 uhr</time>
+<choice><abbr>u</abbr><expan>und</expan></choice> wie vor mittag
+<lb/>in der gmeind patrulieren. <time period="morning">Morgen</time> umb <time when="01:00:00">1 uhr</time> soll sein nacht
+<lb/>wacht angehen, wo er sich bey untervogt melden <choice><abbr>u</abbr><expan>und</expan></choice> den anderen
+<lb/>ablösen soll, <choice><abbr>u</abbr><expan>und</expan></choice> soll gleich wie der vormitnacht <time dur="R/PT1H">alle stund</time>
+<lb/>rüeffen <choice><abbr>u</abbr><expan>und</expan></choice> an gedachten <add place="above"><choice><abbr>unt</abbr><expan>untervogt</expan></choice></add> sich melden bis umb <time when="05:00:00">5 uhr</time>.
+</p>
+</div>
+<div><ab type="dorsal" place="verso">
+<lb/>Ordnung der wacht
+<lb/><date when="1778">1778</date>
+</ab></div>
+</body>
+<back>
+<div>
+<p>In der Wachtordnung für <placeName ref="loc008707">Fluntern</placeName> von 1605 hatte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> noch lediglich zwei Verantwortliche der Gemeinde für die Abhaltung der Wache benannt und eine Busse darauf gesetzt, 
+wenn ein Wachtgenosse seinen Dienst nicht versehe (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_104">SSRQ ZH NF II/11, Nr. 104</ref></bibl>). Ausführlicher wird ein Bericht über die Abhaltung der Nachtwachen in <placeName ref="loc010865">Stadelhofen</placeName> 
+und den <placeName ref="loc010140">Vier Wachten</placeName> von 1651, worin eine Ratsdelegation nach Anhörung der Art und Weise, wie die Wacht bisher abgehalten wurde, Bestimmungen erlässt, wie diese in Zukunft zu handhaben sei. Zuvor hatten die beiden Gemeindegenossen, 
+die jeweils mit Wachen an der Reihe waren, in einem Teil der befragten Gemeinden einen halben Tag und eine halbe Nacht Wache gehalten, in den anderen Gemeinden einen ganzen Tag und eine ganze Nacht. Neu sollten alle jeweils die halbe Nacht wachen und dann 
+abgelöst werden; beibehalten wurde das System, wonach alle mündigen Mitglieder der Gemeinde die Wache im Turnus zu versehen hatten und dass sie sich jeweils während des Wachgangs an drei bis vier genau definierten Orten zu melden hatten 
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=729011">StAZH A 149.1, Nr. 82</ref></bibl>). Letztere Bestimmung findet sich auch in der vorliegenden Ordnung; <placeName ref="loc012738">Platte</placeName>, <placeName ref="loc012842">Vorderberg</placeName> 
+und <placeName ref="loc012130">Hinterberg</placeName> waren die drei Siedlungsschwerpunkte der (bis ins 19. Jahrhundert Streusiedlung bleibenden) Gemeinde <placeName ref="loc008707">Fluntern</placeName> (vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA V</ref>, S. 194</bibl>).
+Die Anordnungen zu den Zeiten der Wache sind jedoch erheblich detaillierter. Zudem gab es zu dieser Zeit einen ständigen Gemeindewächter, nur seine Begleitung musste von den Gemeindegenossen sichergestellt werden. Mit der vorliegenden Ordnung wurde 
+auch das abgeschafft und stattdessen ein zweiter ständiger Wächter berufen.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

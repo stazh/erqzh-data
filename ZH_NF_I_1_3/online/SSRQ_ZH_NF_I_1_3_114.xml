@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_114</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=619408">StAZH E I 3.2, Nr. 8</idno></msIdentifier><head>Ernennung von Huldrych Zwingli zum Chorherrn am Grossmünster</head><msContents><summary>Huldrych Zwingli, Leutpriester am Grossmünster, wird anstelle des freiwillig zurückgetretenen Heinrich Engelhard nach Verlesung der Stiftssatzungen und Leistung des Eides zum Chorherrn ernannt, mit Kaspar Manz und Johannes Murer als Zeugen und Georg Heggetzi als Kustos. Johannes Widmer, kaiserlicher Notar und geschworener Schreiber des Grossmünsters, beglaubigt das Instrument mit seinem Notarzeichen.</summary><msItem><textLang>Latein</textLang><author role="scribe">Johannes Widmer, Notar</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="17.0"/><width unit="cm" quantity="38.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1521-04-29"/></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Analecta Reformatoria, Bd. 1, S. 22-24, Nr. 12</bibl></listBibl><listBibl><head>Regest</head><bibl>Egli, Actensammlung, Nr. 164 b</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key003648">Geistlichkeit</term><term ref="key004009">Kirchengut</term><term ref="key000637">Pfarrei</term><term ref="key000193">Pfründe</term><term ref="key000658">Reformation</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_E_I_3_2__Nr__8__r_.tif"/>
+<p><lb/><seg>In nomine domini, amen.</seg>
+<seg><origDate when="1521-04-29">Anno a nativitate domini eiusdem millesimo quingentesimo vigesimo primo, indicione nona, die vero lune penultima mensis apprilis</origDate>, <time when="08:00:00">hora octa<lb break="no"/>va</time> vel circa ante meridiem, pontificatus sanctissimi in <persName ref="per000353">Christo</persName> patris et domini nostri domini <persName ref="per012279">Leonis</persName> divina providentia pape <date dur="P19Y">decimi anno nono</date>, <origPlace ref="loc000065">Thuregi</origPlace> in stuba capitulari <placeName ref="loc007562">ecclesie sanctorum martirum <persName ref="per012644">Felicis</persName> et <persName ref="per000143">Regule</persName></placeName><!-- Grossmünster -->, <orgName ref="org004352">prepositure <placeName ref="loc000065">Thuricensis</placeName></orgName>,
+<lb/><placeName ref="loc000923">Constantiensis diocesis</placeName>, provincie <placeName ref="loc005800">Maguntinensis</placeName><!-- Mainz -->, inque mei notarii publici testiumque infrascriptorum presencia, personaliter constituti egregii nobiles venerabiles et circumspecti viri domini <orgName ref="org004352">prepositus et canonici capitulares
+<lb/>dicte prepositure <placeName ref="loc000065">Thuricensis</placeName></orgName><!-- Propst und Kapitel des Grossmünsterstifts --> capitulariter congregati et convocati, capitulumque facientes et representantes ex una et venerabilis vir, dominus <persName ref="per003919">Udalricus Zwingli</persName> artium liberalium magister et occupans plebanatum dicte ecclesie 
+<lb/>prepositure ex alia partibus.</seg>
+<seg>Qui quidem dominus magister <persName ref="per003919">Udalricus Zwingli</persName> dictis dominis, <orgName ref="org004352">preposito et <sic>capituli</sic></orgName>, humiliter supplicavit, ut sibi canonicatum et prebendam in dicta ipsorum ecclesia, ad presens per liberam resignacionem 
+<lb/>per egregium virum, dominum <persName ref="per012637">Heinricum Engelhart</persName><note><persName ref="per012637">Heinrich Engelhard</persName> war seit 1496  Leutpriester am <placeName ref="loc000090">Fraumünster</placeName> und hatte am selben Ort eine Pfründe als Chorherr inne (<bibl><ref target="/startseite/literaturverzeichnis">Meyer 1986</ref>, S. 281, Nr. 311</bibl>).</note>, decretorum doctorem, canonicum et plebanum abbacie <placeName ref="loc000065">Thuricensis</placeName> et canonicatum ac prebendam prefatos in nostra ecclesia auctoritate legitima habentem, in manibus
+<lb/>dictorum dominorum <orgName ref="org004352">prepositi et capituli prepositure <placeName ref="loc000065">Thuricensis</placeName></orgName> factam vacantem, pure propter deum conferre dignarentur.</seg>
+<seg>Dicti itaque domini <orgName ref="org004352">prepositus et capitulum</orgName>, deliberacione matura prehabita sibi domino <persName ref="per003919">Udalrico 
+<lb/>Zwingli</persName> dictos canonicatum et prebendam, sic per liberam resignacionem ut supra vacantes, cum plenitudine iuris canonici ac omnibus iuribus et pertinenciis suis omnibus, quibus melioribus modis iure
+<lb/>et effectu potuerunt, in dei nomine et pure propter deum contulerunt et assignaverunt et eum ad eosdem canonicatum et prebendam, quo supra admiserunt in eorumque confratrem et concanonicum receperunt et
+<lb/>acceptarunt, prestitoque per eundem dominum magistrum <persName ref="per003919">Udalricum Zwingli</persName> de statuto, quod incipit: Hii sunt articuli <abbr>etc</abbr>, sibi de verbo ad verbum per me notarium perlecto, necnon aliis statutis ac consuetudini<lb break="no"/>bus
+memorate ecclesie prepositure <placeName ref="loc000065">Thuricensis</placeName> observandis, ad sancta dei ewangelia tactis per eum scripturis sacrosanctis, solenniter iuramento dictus dominus prepositus, ad quem institucio canoni<lb break="no"/>corum
+spectare dinoscitur, dicto domino <persName ref="per003919">Udalrico Zwingli</persName> mox locum in capitulo et deinde venerabilis et circumspectus vir dominus <persName ref="per014936">Georgius Heggitzi</persName>, custos et senior canonicus prepositure prenominate,
+<lb/>nomine dicti domini prepositi eidem domino <persName ref="per003919">Udalrico Zwingli</persName> ducto in chorum stallum in eodem cum plenitudine iuris canonici dedit et assignavit, ut sic eundem dominum <persName ref="per003919">Udalricum</persName> in corporalem, realem et
+<lb/>actualem possessionem vel quasi dictorum canonicatus et prebende mittendo, ponendo, inducendo, et in canonicatus et prebende fructibus et redditibus, proventibus, iuribus et obvencionibus universis,
+<lb/>quantum in eis <choice><sic>fuit</sic><corr resp="msr">fuerit</corr></choice>, faciendo, sybi, domino <persName ref="per003919">Udalrico Zwingli</persName>, sic instituto intregre responderi, adhibitis solemnitatibus et cautelis debitis et consuetis. Super quibus omnibus et singulis
+<lb/>premissis dictus dominus magister <persName ref="per003919">Udalricus Zwingli</persName> sibi per me notarium publicum infra scriptum sibi peciit, tot quot opus foret publicum vel publica instrumentum vel instrumenta fieri,
+<lb/>presentibus tunc ibidem honorabilibus viris, dominis <persName ref="per014996">Casparo Mantz</persName> et <persName ref="per015374">Johanne Murer</persName>, presbiteris capellanis dicte ecclesie prepositure <placeName ref="loc000065">Thuricensis</placeName> ad premissa vocatis specialiter et rogatis.</seg></p>
+<p><lb/>Ego, <persName ref="per015636">Johannes Widmer</persName>, presbiter <placeName ref="loc000923">Constanciensis diocesis</placeName>, capellanus <placeName ref="loc007562">ecclesie sanctorum martirum <persName ref="per012644">Felicis</persName> et <persName ref="per000143">Regule</persName></placeName>, prepositure <placeName ref="loc000065">Thuricensis</placeName>, publicus 
+<lb/>sacra imperiali auctoritate notarius et egregiorum nobilium et circumspectorum venerabiliumque dominorum canonicorum <orgName ref="org004352">prepositi et capituli 
+<lb/>dicte prepositure</orgName> scriba iuratus. Quia supplicacioni, assignacioni, admissioni, recepcioni, acceptacioni, iuracion,  institu<lb break="no"/>cioni,
+installacioni omnibusque et singulis aliis premissis, dum sic ut premittitur fierent et agerentur, una cum pre<lb break="no"/>nominatis 
+testibus presens interfui eaque sic fieri vidi et audivi. Idcirco hoc presens publicum instrumentum desuper confeci 
+<lb/>manuque mea propria scripsi et subscripsi sigilloque et nomine meis consuetis et propriis signavi in fidem, robur et testimonium
+<lb/>omnium suprascriptorum rogatus ad hec, iussus et specialiter vocatus.</p></div>
+<div><signed><figure type="notarial sign"/>
+<lb/><persName ref="per015636">Johannis Widmer</persName>, presbiteri de <placeName ref="loc000065">Thurego</placeName>,
+ <lb/>auctoritate imperiali notarii publici.</signed>
+<pb n="v" facs="StAZH_E_I_3_2__Nr__8__v_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per003919">Huldrych Zwingli</persName> verliess Ende des Jahres 1518 seine Stelle als Leutpriester des Klosters <placeName ref="loc000085">Einsiedeln</placeName> und übernahm im darauffolgenden Januar dieselbe Funktion am <placeName ref="loc007562">Grossmünster</placeName>. Für seine rund zwei Jahre später erfolgte Wahl als Chorherr zeichneten, wie sich der vorliegenden Urkunde entnehmen lässt, <orgName ref="org004352">Propst und Kapitel</orgName> verantwortlich. Diesen stand es zu, die in den geraden Monaten freiwerdenden Pfründen zu vergeben, während in den ungeraden der <orgName ref="org002406">Rat der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> zum Zug kam (für diese auf Papst <persName ref="per003932">Sixtus IV.</persName> zurückgehende Regelung vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_011">SSRQ ZH NF I/1/3, Nr. 11</ref></bibl>). Mit der Erlangung der Pfründe gelang dem in <placeName ref="loc000065">Zürich</placeName> noch verhältnismässig neuen <persName ref="per003919">Zwingli</persName> eine Verbesserung seiner gesellschaftlichen Stellung und nicht zuletzt auch eine weitere finanzielle Absicherung. Im Jahr darauf folgte seine Heirat mit <persName ref="per015395">Anna Reinhart</persName> sowie mit dem Fastenstreit eine erste öffentliche Auseinandersetzung um Fragen der reformatorischen Lehre (vgl. dazu das Mandat betreffend Fleischverbot in der Fastenzeit,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_119">SSRQ ZH NF I/1/3, Nr. 119</ref></bibl>).</p>
+<p>Das <orgName ref="org004352">Grossmünsterstift</orgName> vermochte seine Selbstständigkeit auch durch die Reformation hindurch zu erhalten, wobei <persName ref="per003919">Zwingli</persName> an dessen Neuausrichtung als Lehranstalt für die dem neuen Glauben verpflichtete Pfarrerschaft wesentlich beteiligt war. Diese besondere Stellung des <orgName ref="org004352">Stifts</orgName> schlug sich bereits in der im Jahr 1523 gedruckten Stiftsordnung nieder (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_117">SSRQ ZH NF I/1/3, Nr. 117</ref></bibl>) und wurde durch <persName ref="per003919">Zwinglis</persName> Nachfolger <persName ref="per012634">Heinrich Bullinger</persName> weitergeführt (vgl. dazu den Vortrag <persName ref="per012634">Bullingers</persName> gegen die Aufhebung der Selbstständigkeit des <orgName ref="org004352">Stifts</orgName>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_152">SSRQ ZH NF I/1/3, Nr. 152</ref></bibl>).
+</p>
+<p>Die auf der Versoseite vorhandene ehemalige Signatur verweist darauf, dass die Urkunde zwischenzeitlich in einen Sammelband zusammen mit verschiedenen Briefen, Aktenstücken und Abhandlungen theologischen Inhalts eingebunden war (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324866">StAZH E II 340</ref></bibl>).</p>
+<p>Zur Verleihung der Chorherrenpfründe an <persName ref="per003919">Zwingli</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gäbler 2004</ref>, S. 50-51</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Potter 1976</ref>, S. 73</bibl>; zu <persName ref="per003919">Zwingli</persName> als Chorherr vgl. <bibl><ref target="/startseite/literaturverzeichnis">Meyer 1986</ref>, S. 510-511, Nr. 1019</bibl>; zu Notar <persName ref="per015636">Johannes Widmer</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schuler 1987</ref>, S. 507, Nr. 1499</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_081</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1916605">StAZH B III 6, fol. 2v-3r</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend jährliche Prozession auf den Lindenhof</head><msContents><summary>Es wurde einstimmig beschlossen, dass man zum Heil der Stadt Zürich sowie Gott und den Stadtheiligen Felix, Regula und Exuperantius zu Lob und Ehre alljährlich am Mittwoch nach Pfingsten zu Fronfasten in einer Prozession auf den Lindenhof ziehen und dort Messe halten soll, wie von alters her. Die Prozession kann je nach Wetter auch an einem anderen Tag stattfinden. Zu diesem Anlass soll den drei in der Stadt ansässigen Orden je ein Pfund geschenkt werden, während derjenige, der an diesem Tag predigt, zwei Pfund als Geschenk erhält. Darüber hinaus hat sich die Mehrheit des Rats dafür ausgesprochen, den städtischen Bedürftigen an diesem Tag eine Spende und das Almosen auszugeben, der Muttergottes und den Heiligen zu Ehre, damit sie die Stadt Zürich beschützen. Hinsichtlich des früheren Streits um die Reihenfolge der Geistlichkeit innerhalb der Prozession wird beschlossen, dass man an der seinerzeit mit Äbtissin Fides von Klingen geschlossenen Vereinbarung festhalte, wonach die Äbtissin mit ihren Chorherren und Nonnen hinter der Propstei mit den Reliquien der Stadtheiligen gehen soll, wenn man auf den Lindenhof zieht. Wenn man nach der Messe wieder vom Lindenhof herunterzieht, soll die Äbtissin mit dem Fraumünsterstift vorangehen bis zur Niederen Brücke, wo sich der Zug teilt und alle Heiltümer wieder zu ihrem jeweiligen Kloster zurückkehren.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key000841">Feiertage</term><term ref="key003648">Geistlichkeit</term><term ref="key005398">Heiligenverehrung</term><term ref="key003732">Orden</term><term ref="key003450">Prozession</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="2v"/>
+<head><lb/>Wie man <date dur="R/P1Y">alle jar</date> uff die <date type="floating holiday">pfingst mitwuch</date> die seli<lb break="no"/>gen
+marterer uff den <placeName ref="loc010549">Hof</placeName><!-- Lindenhof --> tragen, alda meß halten und predigen sol</head>
+<p><lb/>Fürer, so sind wir einhelleglich u̍berkomen unnd habint geordnet
+<lb/>unnd gesetzt, durch unnser statt <placeName ref="loc000065">Zu̍rich</placeName> heils unnd glu̍cks willen
+<lb/>unnd gott, den hochgelobten heligen sandt <persName ref="per012644">Felix</persName>, sant <persName ref="per000143">Regelen</persName> und
+<lb/>sandt <persName ref="per014191">Exuperancien</persName>, die die heiligen engel inn unnser statt be<lb break="no"/>graben
+haben, ze lob unnd zeeren, das man <date dur="R/P1Y">jerlich</date> an der <date type="floating holiday">mitwuchen
+<lb/>inn der fronfasten ze pfingsten</date>, oder wa das wetters halb nit sin
+<lb/>mag, furderlichen uff einen anderen tag, so das wetters halb sin
+<lb/>mag, dieselben unnser heligen sol tragen uff den <placeName ref="loc010549">Hoff</placeName>, mit einer
+<lb/>schonen unnd loblichen procession aller priesterschafft inn der statt
+<lb/><placeName ref="loc000065">Zu̍rich</placeName>, geistlichen unnd weltlichen. Unnd sol man des <time period="byDay">tags</time> ein schon
+<lb/>ampt under der bu̍rger zellt, von den vorgenanten unsern heligen
+<lb/>haben, mit meß singen unnd predigen, als von alterhar sidt und 
+<lb/>gewon gewesen ist. Unnd sol man dartzuͦ desselben tags in
+<lb/>vorgenanten hochgelobten unnserer seligen martererere allen
+<lb/>oͤrden, nemlich jedem orden <measure type="currency" unit="lb" quantity="1">ein pfund</measure> unnd dem, der brediget,
+<lb/><measure type="currency" unit="lb" quantity="2">zwey pfund</measure>.</p>
+<p><lb/>Dartzuͦ sol man durch guͦts wetters willen gemeinlich des landes
+<lb/>unnd durch glu̍ck unnd heils willen gmeiner unnser statt darnach 
+<lb/>allen du̍rfftigen unnd armen lu̍ten in unnser statt <placeName ref="loc000065">Zu̍rich</placeName> ein
+<lb/>spend geben unnd das almusen geben, als den meren teyl unnsers
+<lb/><orgName ref="org004016">rates</orgName> du̍ncket, das es armen lu̍ten nottu̍rfftig syg, got, unnser
+<lb/>lieben frowen und unsern lieben heligen zelob unnd zeeren,
+<lb/>das sy den flecken unnd die hofstat diser stat beschirmint unnd 
+<lb/>behuͤtind vor allen sachen, so schedlich unnd gebrestlich sin mochten.</p>
+<p><lb/>Unnd als vor zitten span gewesen ist inn der procession, also das
+<lb/>unnser frow, die abtissin, mit iren frowen unnd herren etwa welt
+<lb/>vorgan, etwa nachgon, und man desselben spans mit wilant 
+<lb/>frow <persName ref="per015548">Fidei von Klingen</persName>, domals aͧbtissin, ist uberkomen, das ein
+<lb/>abtissin mit iren frowen und herren uff den <placeName ref="loc010549">Hoff</placeName> unnd ouch wider
+<lb/>herab soͤlle nachgan den serchen unnd dem heiltumb, so zur 
+<lb/><orgName ref="org004352">bropsty</orgName> gehert, so man uff den <placeName ref="loc010549">Hoff</placeName> gat, unnd wenn man wider 
+<lb/>herab gat, das sy sollent vorgan untz an die <placeName ref="loc010760">Nidern Brugg</placeName> und 
+<pb n="3r"/>
+<lb/>da warten unnd wie die andern serch komint, sich teylen unnd 
+<lb/>yeweder sërch gon zuͦ dem gotzhuß, dahin sy gehoͤrent, setzent,
+<lb/>ordnent, erkennent unnd woͤllendt wir, das es by solcher ver<lb break="no"/>komnis
+unnd ordnung, wie jetzgemelt ist, gentzlich blib unnd 
+<lb/>hinfu̍ro ouch also werde gehalten, wie dann das bißhar ouch also 
+<lb/>ist gehalten unnd beschehen. 
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung lässt sich der Hand des Schreibers des Satzungsbuches der Stadt <placeName ref="loc000065">Zürich</placeName> zuordnen, das in den Jahren 1515 bis 1518 zusammengestellt wurde. Sie basiert auf einer älteren Ordnung aus dem Richtebrief (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_147">S. 147-148</ref></bibl>). <persName ref="per011033">Gerold Edlibach</persName>, der die Prozession anlässlich ihrer Aufhebung im Zug der Reformation ausführlich beschreibt, weist darauf hin, dass neben der Geistlichkeit auch die <orgName ref="org005085">Zünfte</orgName> eine prominente Rolle beim Zug auf den <placeName ref="loc010549">Lindenhof</placeName> einnahmen (<bibl><ref target="/startseite/literaturverzeichnis">Edlibach, Aufzeichnungen</ref>, S. 53-54</bibl>).</p>
+<p>Zur Prozession vgl. <bibl><ref target="/startseite/literaturverzeichnis">Barraud/Jezler 1995</ref>, S. 134-137</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 41</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Eugster 1995a</ref>, S. 228-229</bibl>; allgemein zur Geschichte des <placeName ref="loc010549">Lindenhofs</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 27-30</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

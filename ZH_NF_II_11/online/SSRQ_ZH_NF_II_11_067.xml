@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_067</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14204">StArZH I.A.670.</idno></msIdentifier><head>Gütliche Feststellung von mit einem Zins belasteten Liegenschaften in Wipkingen durch die Stiftspfleger</head><msContents><summary>Die Pfleger der beiden Stifte in der Stadt Zürich beurkunden, dass Hans Kolb, Amtmann der Fraumünsterabtei, und Hans Holzhalb, Bürger der Stadt Zürich, vor ihnen erschienen sind, weil Holzhalb die mit einem dem Fraumünter geschuldeten Zins von 4 Mütt 8 Immi Dinkel und 5 Schilling 5 Pfennig belasteten Liegenschaften angeblich nicht nennen kann und Kolb diese in Urbaren und Urkunden nicht gefunden hat. Auf Bitte der Stiftspfleger benennt Holzhalb die Liegenschaften in einem gütlichen Verfahren; gleichzeitig werden sie im neu erstellten Urbar verzeichnet. Sollten nachträglich anders lautende Urbare oder Urkunden auftauchen, verlieren diese ihre Rechtskraft und das neue Urbar bleibt verbindlich. Es werden zwei gleichlautende Urkunden ausgestellt und mit dem Siegel der Stiftspfleger besiegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="25.5"/><width unit="cm" quantity="39.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stiftspfleger</persName></seal></sealDesc></physDesc><history><origin><origDate when="1543-04-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003308">Archiv</term><term ref="key005369">Buchführung</term><term ref="key000441">Pfand</term><term ref="key000471">Schriftlichkeit</term><term ref="key000122">Urbar</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, die verordnettenn pflaͤger beider gestifftenn inn der statt <placeName ref="loc000065">Zürich</placeName>, thuͦnd kundt offennbar allermenngklichem mit disem brieff, das
+<lb/>uff hüt, dato diß brieffs, vor unns erschinen sind der ersam <persName ref="per025212">Hanns Kolb</persName>, der zit amptman zu der <orgName ref="org004908">apty <placeName ref="loc000065">Zürich</placeName></orgName>, eins teils, unnd der ersam <persName ref="per025210">Hans
+<lb/>Holtzhalb</persName>, burger <placeName ref="loc000065">Zürich</placeName>, am annderen teil, und offnet der genanntt <persName ref="per025212">Hans Kolb</persName>, wie das gemelter <persName ref="per025210">Hanns Holtzhalb</persName> ab ettlichen sinen guͤtteren zuͦ <placeName ref="loc010875">Wyp<lb break="no"/>chingenn</placeName>
+gelegenn dem <orgName ref="org004908">gotzhus zu der apty <placeName ref="loc000065">Zürich</placeName></orgName>
+<measureGrp><measure type="volume" commodity="spelt" quantity="4" unit="Mütt">vier müt</measure>
+<measure type="volume" commodity="spelt" unit="Immi" quantity="8">acht imi kernnen</measure></measureGrp>, <measureGrp><measure type="currency" quantity="5" unit="ß">fünff schilling</measure> und <measure type="currency" unit="d" quantity="5">fünff pfening</measure></measureGrp><!-- oder pfennig? PS: OK --> grund unnd bodenn zins gebe
+<lb/>unnd aber die guͤtter, darab es gannge, nit wisse, noch ouch er, <persName ref="per025212">Hanns Kolb</persName>, die inn keinen urbaren oder brieffenn finden koͤnne, das er dann vonn
+<lb/>bitte wegenn umb den zins underpfannd anzeige unnd insetze.</seg>
+<seg>Dargegenn genanntter <persName ref="per025210">Hanns Holtzhalb</persName> fürgewenndt, wann er jetz under<lb break="no"/>pfannd
+insatzte unnd über kurtz oder lanng mer oder minder ald annder guͤtter, dann aber er jetz anzeigte, inn allten urbaren oder brieffenn funden
+<lb/>moͤchte werdenn, das er dann sollichs nit wol thuͦn moͤge, derhalb man in unangesucht lassen, so er doch dess zins halb nit ab sige. Damit man
+<lb/>aber ein lutter wissenns, worab doch sollicher grund zins gannge, so hatt er, <persName ref="per025210">Hanns Holtzhalb</persName>, von unnser fründtlichen bitte willen, so wir an in
+<lb/>gethan, uss fründtschafft unns nachfolgennde gütter angebenn:</seg>
+<seg>Erstlich, so git gemelter <persName ref="per025210">Hanns Holtzhalb</persName>
+<measure type="volume" commodity="spelt" unit="Viertel" quantity="3">drü vierttell kernnenn</measure> von hus, trotten,
+<lb/>ouch hoffstattenn mit sampt dem boumgartten, ist <measure type="area" commodity="land" unit="Mannmad" quantity="0.5">einhalb <sic>mannwad</sic></measure><!-- Wirklich mannwad? sic? PS: ja, sic setzen. vgl. Mannwerch, Idiotikon XV, Sp. 1226-1227; Mannmad, Idiotikon IV, Sp. 73-74-->, stoßt an <placeName ref="loc012650">Hönngger Strass</placeName>, annderthalb an <persName ref="per025213">Hanns Meysen</persName> seligen kinden 
+<lb/>boumgarttenn, und zum dritten an <persName ref="per025207">Heini Diettschis</persName> acker.</seg>
+<seg>Me git er <measure type="volume" commodity="spelt" unit="Viertel" quantity="3">drü vierttell kernnenn</measure> von <measure type="area" quantity="1.5" unit="Juchart" commodity="vineyard">annderthalb juchart rebenn</measure> genannt <placeName ref="loc012699">Nüwbruch</placeName>,
+<lb/>stosst einhalb an kelnhof, annderthalb an <placeName ref="loc012132">Hönnggerbach</placeName>.</seg>
+<seg>Me git er <measure type="volume" commodity="spelt" unit="Viertel" quantity="1.5">annderthalb vierttel kernenn</measure> von <measure type="area" commodity="vineyard" unit="Juchart" quantity="1">einer juchart rebenn</measure> genant <placeName ref="loc012795">Ougst Nussboum</placeName>,
+<lb/>stosst einhalb an <placeName ref="loc012132">Hönngerbach</placeName>, annderthalb an die strass unnd zum dritten an der <orgName ref="org005088">Spittaler</orgName> rebenn.</seg>
+<seg>Me git er <measure type="volume" commodity="spelt" unit="Viertel" quantity="3">drü viertell kernnenn</measure> von <measure type="area" quantity="1.5" unit="Juchart" commodity="vineyard">andert<lb break="no"/>halb
+juchart rebenn</measure> genant <placeName ref="loc012122">Gruͦnacher</placeName>, stosst einhalb an vogt <persName ref="per001922">Lafatters</persName> wisenn, annderthalb an die <placeName ref="loc012735">Oberwisenn</placeName> und zum drittenn an dess <persName ref="per025214">Trinck<lb break="no"/>lers</persName>
+guͦt.</seg>
+<seg>Me git er <measure type="volume" commodity="spelt" unit="Viertel" quantity="2">zwey vierttell kernnenn</measure> von <measure type="area" commodity="vineyard" unit="Juchart" quantity="0.5">einer halben juchart rebenn</measure> mit sampt dem wisslin, stosst an <placeName ref="loc012132">Hoͤnggerbach</placeName>, annderthalb an des
+<lb/>lutters<!-- ist das ein Name? Luter oder Luterer ist auch der Name der Gutedel-Rebe bzw. des daraus gewonnenen Weissweins, vgl. Idiotikon, Bd. 3, Sp. 1513. PS: würde es klein schreiben--> rebenn unnd zum dritten an der <orgName ref="org005088">Spittaler</orgName> rebenn.</seg>
+<seg>Me git er <measure type="volume" commodity="spelt" unit="Viertel" quantity="1.5">annderthalb vierttell kernennn</measure> von <measure type="area" quantity="0.5" unit="Mannmad" commodity="grassland">einem halben mannwad hoͤwgewaͤchs</measure>
+<lb/>genannt <placeName ref="loc012265">Thur Wiß</placeName>, stosst ze zwey sittenn an dess kelnhofs guͦt.</seg>
+<seg>Me git er <measureGrp><measure quantity="1" type="volume" unit="Viertel" commodity="spelt">ein vierttell</measure> unnd <measure type="volume" commodity="spelt" unit="Immi" quantity="8">acht imi kernenn</measure></measureGrp> von <measure type="area" commodity="grassland" unit="Mannmad" quantity="1">einem mannwad hoͤwgewaͤchs</measure>
+<choice><abbr>gnt</abbr><expan>genannt</expan></choice>
+<lb/><placeName ref="loc012591">Brechelbart</placeName>, stosst einhalb an vogt <persName ref="per001922">Lafatters</persName> wisenn, annderthalb an <orgName ref="org002666">Öttembacher</orgName> rebenn unnd zum dritten an des kelnhofs guͦt.</seg>
+<seg>Me git er
+<lb/><measure type="volume" commodity="spelt" unit="Viertel" quantity="0.5">ein halb vierttel kernenn</measure> von <measure type="area" commodity="field" unit="Juchart" quantity="1">einer juchartten acker</measure> am <placeName ref="loc012260">Teschler</placeName> gelegenn, stosst an <persName ref="per025215">Felix Waͤbers</persName> acher, annderthalb an <persName ref="per025216">Jacob Waͤbers</persName> acher.</seg>
+<seg>Me git
+<lb/>er <measure type="volume" commodity="spelt" unit="Viertel" quantity="0.5">ein halb vierttell kernenn</measure> von <measure type="area" commodity="field" unit="Juchart" quantity="1">einer juchartten acker</measure> inn der <placeName ref="loc012041">Breitti</placeName>, stosst an dess kelnhofs guͦt, annderthalb an die strass.</seg>
+<seg>Me git er <measureGrp><measure type="currency" unit="ß" quantity="5">fünff schil<lb break="no"/>ling</measure>
+und <measure type="currency" unit="d" quantity="5">fünff pfening</measure></measureGrp> von zweyenn wisenn, die ein genannt <placeName ref="loc012083">Brügglen</placeName>, die annder <placeName ref="loc012257">Stockwisenn</placeName>, unnd ist die <placeName ref="loc012083">Brügglen</placeName>
+<measure type="area" commodity="grassland" unit="Mannmad" quantity="0.5">ein halb mannwad</measure>,
+<lb/>stosst an kelnhof, annderthalb an die <placeName ref="loc012257">Stockwisenn</placeName>, unnd ist die <placeName ref="loc012257">Stockwisenn</placeName>
+<measure type="area" commodity="grassland" unit="Mannmad" quantity="1">ein mannwad</measure>, stosst an kelnof, annderthalb an der <orgName ref="org005088">Spittaler</orgName> wisenn.</seg>
+<seg><lb/>Welliche guͤtter sind ouch inn den nüwgemachten urbar von wortt zu wort, wie sy hier inn verzeichnet, verschribenn wordenn,<note>Gemeint ist der Eintrag im Haupturbar des <orgName ref="org004934">Fraumünsteramts</orgName> (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=549993">StArZH III.B.36.</ref>, fol. 196v-197r</bibl>).</note> doch mit der
+<lb/>bescheidennheit, so es sich uber kurtz oder lanng zu tragenn, das annder brieff oder urbar funden, welliche aber annderst, es were dess zinses oder guͤtteren
+<lb/>halb, usswisenn wurdenn, das alssdann dieselbenn urbar oder brieff hin, tod, ab, crafftlos heissenn unnd sin, unnd by dem nüwgemachtenn
+<lb/>urbar unnd uffgerichtenn brieffenn gentzlich inn ewigkeyt staͤtt belibenn soͤlle.</seg>
+<seg>Inn crafft diser <num value="2">zweyer</num> brieffenn glichling luttennt gemacht,
+<lb/>deren wir <persName role="recipient" ref="per025212">Hanns Kolben</persName>, als zu hannden der apty, unnd <persName role="recipient" ref="per025210">Hanns Holtzhalbenn</persName> uff ir beider bitt mit unnserem eignen insigell, doch unseren
+<lb/>gnedigen herrenn von <placeName ref="loc000065">Zürich</placeName> an ir vogty, ouch unns unnd aller unser erben sonst one schadenn, verwarenn unnd gebenn lassenn hand, <origDate when="1543-04-10">uff
+<lb/>zinsstag nach misericordia, nach der gepurt Cristi gezellt tusennt fünffhundert viertzig unnd drü jar</origDate>.</seg>
+<seg>Unnser, der pfleger, nammen sind
+<lb/><persName ref="per011263">Felix Fry</persName>, bropst, doctor <persName ref="per012637">Heinrich Enngelhart</persName>, <persName ref="per014721">Heinrich Truͤb</persName>, <persName ref="per025209">Felix Grossman</persName>, <persName ref="per025208">Annderes Vischer</persName>, <persName ref="per025211">Hans Jaͤgkli</persName> und <persName ref="per025212">Hans Kolb</persName>, der zit amptmann
+<lb/>zu der <orgName ref="org004908">apty dess gotzhus Frowennmünster <placeName ref="loc000065">Zürich</placeName></orgName>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Brieff umb ettliche guͤtter zu <placeName ref="loc010875">Wipchingen</placeName> glegen,
+<lb/>von wellichen <persName ref="per025210">Hans Holtzhalb</persName>
+<date dur="R/P1Y">järlichs</date> grund
+<lb/>zins git <measureGrp><measure type="volume" commodity="spelt" unit="Mütt" quantity="4">iiij <choice><abbr>m<hi rend="sup">t</hi></abbr><expan>müt</expan></choice></measure>
+<measure type="volume" commodity="spelt" unit="Immi" quantity="8">viij imi <choice><abbr>k</abbr><expan>kernen</expan></choice></measure></measureGrp>
+<measureGrp><measure type="currency" unit="ß" quantity="5">v </measure>
+<measure type="currency" unit="d" quantity="5">v ₰</measure></measureGrp>.
+</ab>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

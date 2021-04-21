@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_070</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3785136">StAZH A 69.1, Nr. 10</idno></msIdentifier><head>Einstellung von Ludwig Gsell von Basel und Ulrich Trinkler von Zürich als Münzmeister der Stadt Zürich sowie Festlegung ihrer Aufgaben</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich ernennen Ludwig Gsell von Basel und Ulrich Trinkler von Zürich zu Münzmeistern, wobei sich die beiden dazu verpflichten, ihr Amt für die nächsten drei Jahre ohne Unterbruch im Dienst der Stadt auszuüben. Im Folgenden werden die Bedingungen festgelegt für das Ausprägen von Dickplapparten und Rollenbatzen nach dem Vorbild der Berner und Solothurner Münzen sowie von Angstern und Hallern. Weiter wird die Einsetzung zweier Ratsverordneter beschlossen, welche die Entrichtung des Schlagschatzes überwachen sollen. Zur Kontrolle der Qualität der Münze ist ein zusätzlicher Sachverständiger beizuziehen. Die Ratsvorordneten sowie der Sachverständige sind durch die beiden Münzmeister für ihre Tätigkeiten zu entlohnen. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.0"/><width unit="cm" quantity="30.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1500-02-03"/></origin></history><additional><listBibl><head>Edition</head><bibl>QZWG, Bd. 2, Nr. 1643</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000212">Löhne</term><term ref="key005413">Münzwesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_69_1__Nr__10__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName ref="org002406">burgermeister, raͧt und der gross raͧt, so man nempt die zweyhundert, der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, bekennen offennlich und thuͦn
+<lb/>kund allermengklich mit disem brieff, das wir mit guͦtter, sinlicher vorbetrachtung zuͦ unsern mu̍ntzmeistern genommen
+<lb/>und bestellt haben die ersammen <persName ref="per014547">Ludwig Gsellen</persName>, den mu̍ntzmeister von <placeName ref="loc000161">Basel</placeName>, und unnsern lieben burger <persName ref="per015527">Uͦlrichen
+<lb/>Trinckler</persName>, also mit den gedingen und dingen, wie das hienaͧch von einem an das annder geschriben statt, namlich
+<lb/>das sy beid in gemein unser mu̍ntzmeister sin und <date dur="P3Y">dru̍ jar</date> die nechsten an ein anndern komende die naͧch
+<lb/>unsern und iren eren versehen und in soͤlichen <date dur="P3Y">dry jaren</date> davon nit kommen noch geenndert werden soͤllen.</seg>
+<lb/><seg>Sy soͤllen ouch <measure type="currency" unit="Dicken" quantity="3">dickblaphartt dry</measure><!-- Dickplappart = Dicken. Vgl. Benedikt Zäch: Vom Plappart- zum Batzenstandard. Zur frühen Halbbatzenprägung im Bodenseegebiet --> fu̍r <measure type="currency" unit="fl" quantity="1" origin="Rh">ein Rinschen guldin</measure>, ouch <measure type="currency" unit="bz" quantity="15">rallabatzen fu̍nffzechen</measure> fu̍r <measure type="currency" unit="fl" quantity="1" origin="Rh">ein Rinschen guldin</measure>
+<lb/>mu̍ntzen und schlahen, in dem korn und dermaͧs als <placeName ref="loc000157">Berner</placeName> und <placeName ref="loc000157">Soloturner</placeName> dickblaphart und rallabatzen sind,
+<lb/>und namlich das <measure type="currency" unit="Dicken" quantity="24.5">fu̍nffthalber und zwentzig tickblaphart</measure> besonnder uff <measure type="currency" unit="M" quantity="1">ein march</measure>, desglich <measure type="currency" unit="bz" quantity="72">sibentzig und
+<lb/>zwen rallabatzen</measure> besonnder uff <measure type="currency" unit="M" quantity="1">ein march</measure> gangint.</seg>
+<seg>Dagegen soͤllen die selben unser mu̍ntzmeister dann unns
+<lb/>von der finen march silber zuͦ schlegschatz<note>Der Schlagschatz bezeichnet den Gewinn, welche der Münzherr aus dem Prägen der Münzen erzielte. Für Haller und Angster sieht der vorliegende Vertrag keinen Schlagschatz vor, da mit der Ausprägung dieser geringwertigen Münzsorten kaum Gewinn zu machen war (<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 1966</ref>, S. 74</bibl>).</note> geben <measure type="currency" unit="Böhmischer Groschen" quantity="2">zwen behemsch</measure><!-- tke: (Groschen: Behemsch/Böhmischer Groschen: Spätmittelalter: Münze im Wert von ca. 30 Pfennigen) (Wiki) -->. Ob aber wir angster oder haller machen und
+<lb/>mu̍ntzen lasen weltent, davon soͤllen sy unns keinen schlegschatz zegeben schuldig sin. Und was mu̍ntz wir
+<lb/>am ersten wellen mu̍ntzen laͧsen, zuͦ der selben soͤllen wir in unserm kosten die ersten par isen geben, aber was mu̍ntz
+<lb/>wir demnaͧch mu̍ntzen lasen, das soͤllen die selben unser mu̍ntzmeister die isen in irem kosten datuͦn und machen lasen
+<lb/>und wir inen nit wyter verpflicht sin.</seg>
+<seg>Wir soͤllen ouch von unserm <orgName ref="org004016">raͧtt</orgName>
+<num value="2">zwen</num> erber man verordnen, die by
+<lb/>dem uffziehen sigint und die marchen uffzeichnind und hinder den selben sol ouch nu̍tz uszogen werden, damit
+<lb/>wir destbas wissen, was unns vom schlegschatz zuͦgehoͤr. Der selben <num value="2">zweyen</num> jedem soͤllen ouch die genanten unnser
+<lb/>mu̍ntzmeister <date dur="R/P1Y">jerlich</date> fu̍r iren lon usrichten <measure type="currency" unit="fl" quantity="5">fu̍nff guldin</measure>. Darzuͦ sol einer, so sich uff das silber korn verstatt, von
+<lb/>uns geordnet werden, der die mu̍ntz versuͦche, umb das die mu̍ntz am korn gerecht und kein betrug daby sige.
+<lb/>Dem selben soͤllen unser mu̍ntzmeister zuͦ geben schuldig sin, ob er eignen zu̍g darzuͦ haͧt, <measure type="currency" unit="ß" quantity="5">fu̍nff schilling</measure>, ob er
+<lb/>aber nit eignen zu̍g hette und unser mu̍ntzmeister im den lihen muͤsden, sind sy im nit wyter zuͦ geben schuldig,
+<lb/>dann <measure type="currency" unit="ß" quantity="3">dry schilling</measure>, alles oͧn argenlist und ungefarlich.</seg>
+<seg>Und des zuͦ urkund besigelt mit unnser statt
+<lb/>secrett insigel, hieran offennlich gehangen an <origDate when="1500-02-03">sant <persName ref="per014188">Blasius</persName> tag naͧch Cristi gepurt gezelt fu̍nffzechen<lb break="no"/>hunndert jare</origDate>.</seg>
+</p>
+<pb n="v" facs="StAZH_A_69_1__Nr__10__v_.tif
+"/>
+<div><ab place="verso" type="dorsal" hand="later hand"><lb/><origDate when="1500">1500</origDate></ab></div>
+<div><ab place="verso" type="dorsal" hand="later hand"><lb/>Mit was geding <persName ref="per014547">Ludwig Gsell</persName> von <placeName ref="loc000161">Basel</placeName> und <lb/><persName ref="per015527">Uͤlrich Trinckler</persName> zuͦ alhießigen müntz-meisteren <lb/>angenohmen worden, <origDate when="1500">1500</origDate></ab></div>
+<div><ab place="verso" type="dorsal" hand="hand18c"><lb/>Münzwesen</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Das Münzrecht der Stadt <placeName ref="loc000065">Zürich</placeName> geht auf ein Privileg König <persName ref="per000712">Sigismunds</persName> des Jahres 1425 zurück
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393422">StAZH C I, Nr. 228</ref></bibl>). Zuvor hatte allein die Äbtissin der <orgName ref="org004908">Fraumünsterabtei</orgName> dieses Recht innegehabt, das sie jedoch bereits mehrfach zeitlich befristet unter Vermittlung des <orgName ref="org002406">Rates</orgName> an einzelne Stadtbürger verpachtet hatte (vgl. etwa die Verleihung des Jahres 1364 durch Äbtissin <persName ref="per015557">Beatrix von Wolhusen</persName>, <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=12606">StArZH I.A.190</ref></bibl>). Seit dem Privileg von 1425 verfügten Stadt und Äbtissin beide über das Recht Münzen zu schlagen, bis es im Zuge der Reformation im Jahr 1524 alleinig an den <orgName ref="org002406">Rat</orgName> überging (vgl. dazu die Übergabeerklärung von Äbtissin <persName ref="per015554">Katharina von Zimmern</persName>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_121">SSRQ ZH NF I/1/3, Nr. 121</ref></bibl>).</p>
+<p>Zu Münzmeister <persName ref="per014547">Ludwig Gsell</persName> und dem vorliegenden Vertrag vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 1966</ref>, S. 76-77</bibl>; für die späteren Münzmandate der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. exemplarisch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_020">SSRQ ZH NF I/1/11, Nr. 20</ref></bibl>; allgemein zur <placeName ref="loc000065">Zürcher</placeName> Münzgeschichte vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 1966</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

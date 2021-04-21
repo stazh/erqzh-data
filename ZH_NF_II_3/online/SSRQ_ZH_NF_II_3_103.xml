@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_103</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254357">StAZH B III 37</idno></msIdentifier><head>Eid und Ordnung des Landvogts von Greifensee</head><msContents><summary>Bei seiner Amtseinsetzung soll der neue Landvogt schwören, das Schloss Greifensee getreu zuhanden der Stadt Zürich zu verwalten, die Rechte und Freiheiten der Vogtei zu wahren, die Einkünfte aus Nutzungsrechten, Zinsen, Zehnten, Fall und Lass unverzüglich einzuziehen und jährlich darüber Rechnung abzulegen, ein gerechter und unbestechlicher Richter zu sein und ohne Erlaubnis nicht länger als drei Nächte von seiner Residenz fernzubleiben. Aus den Wäldern der Vogtei soll er nur möglichst wenig Holz verwenden und dafür sorgen, dass die Bannwarte jeden Holzfrevel bestrafen. Nach der Abnahme des Eides soll dem neuen Landvogt die nachstehende Ordnung vorgelesen werden. Diese regelt unter anderem das Beachten der Flurordnung, das Bezahlen von Restanzen, das Ausführen von Bauarbeiten, das Stellen von Bürgen, die Rechnungsführung, die Spesenvergütung sowie die Verleihung der Zehnten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Band (11 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1701-01-01" to="1800-12-31">Undatiert, Verweis auf Ratsbeschluss von 1695 (fol. 9r), Nachtrag zu 1785 (fol. 8v)</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003208">Amt</term><term ref="key000207">Amtsführung</term><term ref="key000499">Bürgschaft</term><term ref="key000179">Eid</term><term ref="key004536">Finanzen</term><term ref="key004017">Flurordnung</term><term ref="key000057">Gericht</term><term ref="key000524">Holz</term><term ref="key000574">Rechnungswesen</term><term ref="key005432">Residenzpflicht</term><term ref="key000058">Schulden</term><term ref="key005388">Spesen</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" facs="StAZH_B_III_37__fol__1_r_.tif"/>
+<head type="title"><lb/>Eydt
+<lb/>und ordnung
+<lb/>der herrschafft
+<lb/><placeName ref="loc000348">Greiffensee</placeName></head>
+<pb n="1v" facs="StAZH_B_III_37__fol__1_v_.tif"/>
+<pb n="2r" facs="StAZH_B_III_37__fol__2_r_.tif"/>
+<head type="subtitle"><lb/>Eydt
+<lb/>eines landtvogts zu
+<lb/><placeName ref="loc000348">Greiffensee</placeName></head>
+<p><lb/>Ihr, herr landtvogt, sollet schweeren,
+<lb/>daß schloß zu <placeName ref="loc008719">Greiffensee</placeName> getreülich zu
+<lb/>der statt <placeName ref="loc000065">Zürich</placeName> handen innzuhaben, zubesorgen
+<lb/>und zuversehen, und sonderlich in tach und
+<lb/>gemach<!-- rhr: "tach und gemach" vgl. https://www.rzuser.uni-heidelberg.de/~cd2/drw/e/ge/mach/gemach.htm --> in guten ehren zuhalten, der vogtey
+<lb/>rechtsammenen und freyheiten zubehalten, alß
+<lb/>fehrn ihr mögen, der selben zinß, zehenden,
+<lb/>neügrüth, fähl und gläß samt allen
+an<lb break="no"/>deren nutzungen gefließenlich und ohn
+ver<lb break="no"/>zogenlich einzuziehen und, ihr habind sie
+<pb n="2v" facs="StAZH_B_III_37__fol__2_v_.tif"/>
+<lb/>eingenohmmen oder nit, <date dur="R/P1Y">jährlich</date> in die
+rech<lb break="no"/>nung zubringen, die bußen getreülich
+zu<lb break="no"/>verrechnen und ohnverweilt einzuziehen,
+<lb/>keine an zehrung oder sonst in ander wäg
+<lb/>zuverstoßen oder zuverwenden, über das
+<lb/>alles in dennen in eüerer vogtey
+vorfallen<lb break="no"/>den streitigkeiten ein gleicher gemeiner
+<lb/>richter zu seyn, dem armen wie dem reichen
+<lb/>und dem reichen wie dem armen, auch dem
+<lb/>frömbden wie dem heimschen, niemand zu
+<lb/>lieb nach zu leid, und darum kein mieth
+<lb/>zu nehmmen, von dem schloß über <date dur="P3D">3 nächt</date>
+<lb/>ohne erlaubnuß nit außzubleiben und
+ge<lb break="no"/>meldter vogtey wie auch gemeiner statt
+<lb/>nutzen zu förderen und den schaden zu
+<lb/>wenden, nach bestem eüwerem
+vermö<lb break="no"/>gen.
+</p>
+<p><lb/>Deßgleichen sollen ihr der vogtey güter
+<lb/>in wesentlichen baüwen und ehren halten
+<pb n="3r" facs="StAZH_B_III_37__fol__3_r_.tif"/>
+<lb/>und haben, in der vogtey höltzeren und
+<lb/>waldungen kein ander holtz dan zu eüerer
+<lb/>zimlicher nothdurfft hauwen und brännen,
+<lb/>und daß ihr zu erbauwung und erhaltung
+<lb/>der schloß-gebaüwen und güeteren vonöthen
+<lb/>zum nutz und ohnschädlichsten hauwen, ohne
+<lb/>vorwüßen und bewilligen der <choice><abbr>hrn</abbr><expan>herren</expan></choice>
+<orgName ref="org004911">rechen <choice><abbr>hrn</abbr><expan>herren</expan></choice></orgName>
+<lb/>darauß niemandem, von wem ihr joch darum
+<lb/>angesprochen wurden, gar nützid verschenken,
+<lb/>verkauffen ald selbsten zueignen und an eürem
+<lb/>nutzen verwenden und brauchen, sondren
+<lb/>eüch allein des holtzens, wie obsteht, vernügen
+<lb/>laßen, damit eüch von anderen leüthen
+<lb/>desto wenniger schaden widerfahre. So sollen
+<lb/>ihr bey eüeren bannwarten verschaffen und
+<lb/>ihnen mit allem ernst einbinden, daß sie
+<lb/>zu der herrschafft höltzeren sehen und die,
+<lb/>so schaden thun, bey ihren eyden angeben
+<lb/>und leiden, damit ihr die nach gebühr
+straf<lb break="no"/>fen, die bußen einziehen und <choice><abbr>mn gn hrn</abbr><expan>meinen gnädigen herren</expan></choice>
+<pb n="3v" facs="StAZH_B_III_37__fol__3_v_.tif"/>
+<lb/>verrechnen könnend und also in solchem allem
+<lb/>ihr nach eüerem geschwohrnen eydt mit
+<lb/>allen treüen handlen werden, als sie,
+<lb/><choice><abbr>mn gn hrn</abbr><expan>meine gnädigen herren</expan></choice>, sich deßen zu eüch versehen,
+<lb/>alles getreülich und ohngefahrlich.
+</p>
+<pb n="4r" facs="StAZH_B_III_37__fol__4_r_.tif"/>
+<pb n="4v" facs="StAZH_B_III_37__fol__4_v_.tif"/>
+</div>
+<div>
+<pb n="5r" facs="StAZH_B_III_37__fol__5_r_.tif"/>
+<head type="subtitle"><lb/>Ordnung
+<lb/>eines landtvogts zu
+<lb/><placeName ref="loc000348">Greiffensee</placeName></head>
+<head type="subtitle"><lb/>Nach geschwornem eydt
+<lb/>ihme vorzulesen</head>
+<p><seg n="1"><lb/>Um mehrerer gleichheit willen,
+da<lb break="no"/>mit einem jeden wie dem anderen geschehe,
+<lb/>ist verordnet, daß hinfüro ein jeder
+abgehen<lb break="no"/>der landtvogt die kornzelg und güter, so von
+<lb/>rechter gewohnheit wegen dem jahrgang
+<lb/>nach zubauen sind, wohl ansäyen und nutzen
+<lb/>möge, aber die, so in der braͧch ligen,
+deß<lb break="no"/>gleichen die hanffpündten und haberzelg,
+<pb n="5v" facs="StAZH_B_III_37__fol__5_v_.tif"/>
+<lb/>soll er ohnbeworben auf seinen nachfahren
+<lb/>warten laßen, darzu auch kein wießen
+auf<lb break="no"/>brechen, sondern, ob er zu der gewohnnlichen
+<lb/>kornzelg deßselben jahrs nützid zu bauwen
+<lb/>hätte, die abtretten und weiter keinerley
+<lb/>säyen.<note>Dieser Artikel entspricht einem Ratsentscheid aus dem Jahr 1543,
+welcher der allgemeinen Ordnung für die Landvögte nachträglich hinzugefügt wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>).</note>
+</seg></p>
+<p><seg n="2"><lb/>Zufolg der alten ordnungen und der
+er<lb break="no"/>neüwerten <orgName ref="org002406">räth und burger</orgName> erkantnuß
+<lb/>soll ein landtvogt das bey seiner abgelegten
+<lb/>rechnung schuldig verbliebene gelt dem <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+<lb/>amts-sekelmeister ohnverweilt einliefferen
+<lb/>und auch dann derselbe <date dur="R/P1Y">jeden jahrs</date>, wann
+<lb/>man den vögten rechnung ablißt, auf anziehen
+<lb/>eines <choice><abbr>hrn</abbr><expan>herrn</expan></choice> burgermeisters, ob demme statt
+<lb/>geschehen, berichten.
+</seg></p>
+<p><seg n="3"><lb/>Sonderheitlichen solle der neüwe vogt den
+<lb/><choice><abbr>hrn</abbr><expan>herren</expan></choice>
+<orgName ref="org004911">rechen räthen</orgName> oder dennen bey der
+über<lb break="no"/>gaab sich einfindenden herren bey seinem
+<pb n="6r" facs="StAZH_B_III_37__fol__6_r_.tif"/>
+<lb/>eydt anzeigen, ob der alte landtvogt ihme
+<lb/>die restantz, und was er ime zustellen
+<lb/>sollen, zu seinem vernügen eingeantwortet
+<lb/>habe und hierinnen nützid verhalten oder
+<lb/>einiche gefahr brauchen, und so an der
+be<lb break="no"/>zahlung einicher mangel, soll man den bürgen
+<lb/>das angehends vermelden, damit sie sich
+fol<lb break="no"/>gends, so ihnen die bezahlung auferlegt wurde,
+<lb/>desto minder zubeklagen habind.
+</seg></p>
+<p><seg n="4"><lb/>Ein landtvogt zu <placeName ref="loc000348">Greiffensee</placeName> soll weder an
+<lb/>dem schloß, scheür <abbr>etc</abbr>
+<abbr>etc</abbr> nach anderen
+zuge<lb break="no"/>hörigen gebaüwen keinen ehrhafften bauw,
+<lb/>er seye klein oder groß, vor sich selbst nit
+<lb/>vornehmmen nach machen, sonder, wann etwas
+<lb/>dergleichen vorfallt, dasselbig schrifftlichen oder
+<lb/>mundtlich an die <choice><abbr>hrn</abbr><expan>herren</expan></choice>
+<orgName ref="org004911">rechen räthe</orgName> langen laßen,
+<lb/>die dann, was hierinnen zuthun oder zulaßen,
+<lb/>ihme erforderlichen befehl ertheilen werden.
+<lb/>Handlete aber einer hierwider, so wird ihme
+<pb n="6v" facs="StAZH_B_III_37__fol__6_v_.tif"/>
+<lb/>das bey seiner rechnung nit gut geheißen,
+<lb/>sondern durchgestrichen und heim gegeben
+wer<lb break="no"/>den, und hat hierinnen niemand unter den
+<lb/><choice><abbr>hrn</abbr><expan>herren</expan></choice> räthen, nach <orgName ref="org004911">rechen herren</orgName> nach auch ein
+<lb/><choice><abbr>hr</abbr><expan>herr</expan></choice> sekelmeister, für sich selbst einem
+landt<lb break="no"/>vogt etwas zuerlauben oder zubewilligen
+<lb/>einicher gewalt.
+</seg></p>
+<p><seg n="5"><lb/>Was ein jeder landtvogt in gärten und
+<lb/>sonsten um lusts willen in ächeren, wiesen
+<lb/>und sonsten, da er die güter nutzet, mit
+ver<lb break="no"/>beßerung vornimt, das soll er in seinem
+<lb/>kosten thun und gegen <choice><abbr>mn gn hrn</abbr><expan>meine gnädigen herren</expan></choice>
+<lb/>deßnahen nützid verrechnen.
+</seg></p>
+<p><seg n="6"><lb/>Es soll kein landtvogt aufziehen, er habe dan
+<lb/>zuvor einem ehrsammen rath seine tröster
+<lb/>dargestelt und gegeben. Und so ein tröster
+<lb/>abgehet, soll derselbe innert <date dur="P14D">14 tagen</date> mit
+<lb/>einem anderen ersetzt werden.
+</seg></p>
+<pb n="7r" facs="StAZH_B_III_37__fol__7_r_.tif"/>
+<p><seg n="7"><lb/>Es sollen vor das könfftige einem landtvogt
+<lb/>zu <placeName ref="loc000348">Greiffensee</placeName> einiche zeit seiner verwaltung
+<lb/>aufgelauffene restanntzen, es seye von zinßen,
+<lb/>gülten oder anderen gefällen, gar nicht
+<lb/>abgenohmmen werden, sondern pflichtig seyn,
+<lb/>die mit allem eyfer und ernst einzuziehen
+<lb/>und <choice><abbr>mn gn hrn</abbr><expan>meinen gnädigen herren</expan></choice> zu verrechnen.
+</seg></p>
+<p><seg n="8"><lb/>Wann aber hagel, landsbrästen <abbr>etc</abbr>
+<abbr>etc</abbr>
+(dar<lb break="no"/>vor uns gott genädig behüte) entstuhnden
+<lb/>ald dermaͧßen armuth verhanden, daß nit
+<lb/>möglich wäre zu zahlen, als dann solle ein <choice><abbr>hr</abbr><expan>herr</expan></choice>
+<lb/>landtvogt die <choice><abbr>hrn</abbr><expan>herren</expan></choice>
+<orgName ref="org004911">rechen räthe</orgName> deßen
+berich<lb break="no"/>ten und von den selben rath und befehl
+ein<lb break="no"/>hollen, in der außgetrukten meinung
+gleich<lb break="no"/>wohlen, daß wann ein landtvogt den zinßleüthen
+<lb/>biß auf daß nächst darauf folgende jahr mit
+<lb/>dem einzug verschohnen müßte, daß er jedoch
+<lb/>hernacher ihme solchen außstand mit dem
+<lb/>neüw verfallenden zugleich einzuziehen best
+<pb n="7v" facs="StAZH_B_III_37__fol__7_v_.tif"/>
+<lb/>möglich angelegen seyn laßen oder auf
+sei<lb break="no"/>ne wennigste versaumnuß zuerwarten habe,
+<lb/>daß mann solche restanntzen ihme oder seinen
+<lb/>bürgen bey der letsten rechnung heimkennen
+<lb/>und die bahre bezahlung darvor auferlege.
+</seg></p>
+<p><seg n="9"><lb/>Ein landtvogt soll in seinem eignen kosten
+<lb/>zwey rechnungen machen, darvon die einte,
+<lb/>darinnen die jährlichen zinß <hi rend="font change">specificiert</hi> seyn
+<lb/>sollen, der <orgName ref="org004911">rechen cantzley</orgName> nach dero ablegung
+<lb/>überlaßen und darbey sich in maͧßen befleißen,
+<lb/>daß er die nit nur auf die bestimmende zeit
+<lb/>ohnfehlbar ablegen, sondern auch die allwegen
+<lb/><date dur="P4W">4 wochen</date> bevor in die <orgName ref="org004911">rechen cantzley</orgName> zu
+noth<lb break="no"/>wendiger umhin sendung und durchgehung
+über<lb break="no"/>senden könne.
+</seg></p>
+<p><seg n="10"><lb/>So vil den futer haber betrifft, soll ein
+landt<lb break="no"/>vogt keinen anderen verrechnen, dan denjennigen,
+<lb/>so <choice><abbr>mr gn hrn</abbr><expan>meiner gnädigen herren</expan></choice> geschäfften halb verbraucht
+<pb n="8r" facs="StAZH_B_III_37__fol__8_r_.tif"/>
+<lb/>wird. Aber von diejennigen, so in ihren selbst
+<lb/>eignen geschäfften an das eint und andre ohrt
+<lb/>reisen und den einkehr bey ihme nehmmend,
+<lb/>darvon soll nützid verrechnet werden.
+</seg></p>
+<p><seg n="11"><lb/>Zu verhütung aller ohnlauterkeit sind in
+<lb/>den rechnungen die bey den <date dur="R/P1Y">jährlichen</date> zinßen
+<lb/>vorfallende verminder- und vermehrungen
+<lb/>fleißig zubemerken, und die mit den
+<hi rend="font change"><foreign xml:lang="la">debito<lb break="no"/>ribus</foreign></hi> habende umkösten nit <choice><abbr>mn gn hrn</abbr><expan>meinen gnädigen herren</expan></choice>,
+<lb/>sondern den schuldneren anzuschreiben.
+</seg></p>
+<p><seg n="12"><lb/>Es soll ein landtvogt von sich selbsten und
+<lb/>ohnbefraget kein saamen-korn nach haber
+<lb/>ald anderen vorsatz thun, vil wenniger einiche
+<lb/>schulden oder anleihungen machen, weilen solche
+<lb/>ihme solchen fahls ledig heimgegeben und nit
+<lb/>angenohmmen werden wurden.
+</seg></p>
+<p><seg n="13"><lb/>Ein landtvogt soll mit zehrung und gasthalten
+<pb n="8v" facs="StAZH_B_III_37__fol__8_v_.tif"/>
+<lb/>an den gerichtstagen auf das allerzimlichest
+<lb/>verfahren und handlen und darinnen der
+<lb/>alten braüchen sich fürnehmlich befleißen,
+<lb/>auch die mißbraüch nach und nach mit fugen
+<lb/>abstellen und verbeßeren <abbr>etc</abbr>, jedoch aber
+<lb/>zu erspahrung ohnnöthiger umkösten das
+<lb/>herbst-gericht zu <placeName ref="loc008648">Maur</placeName> und das
+meyen<lb break="no"/>gericht zu <placeName ref="loc008735">Kilch-Uster</placeName> in das schloß ziehen.
+</seg></p>
+<p><seg n="14"><lb/>Wann fürohin ein vogt rechnung gibt, soll er
+<lb/><del hand="later hand">allein</del> mit dem <add place="above" type="sign" hand="later hand">schreiber und</add> untervogt anhero kommen <del hand="later hand">und
+<lb/>den schreiber zu hauß laßen</del>
+<add place="left margin" hand="later hand">in folge rath und
+bur<lb break="no"/>gern erkantnus
+<choice><abbr>d d</abbr><expan>de dato</expan></choice>
+<lb/><date when="1785-06-16">16. juni 1785</date></add>,
+auch sie <del hand="later hand" rend="blackened">beyd</del>
+<lb/>allhier kein gast zu ihnen laden anderst
+<lb/>dann über ihren eignen sekel und ohn <choice><abbr>mnr
+<lb/>gn hrn</abbr><expan>meiner gnädigen herren</expan></choice> schaden, anbey bey demme, daß einem
+<lb/>landtvogt von jedem ritt in die statt <measure type="currency" unit="lb" quantity="1">1 </measure>
+be<lb break="no"/>stimt,<note>Diese Angabe entspricht der zu Beginn des 16. Jahrhunderts festgelegten Spesenregelung
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>).</note>
+und über das für allen umkosten an
+<lb/>seinem rechnungs tag verordnet und <measure type="currency" unit="lb" quantity="12">12 </measure>, ist
+<lb/>bleiben.
+</seg></p>
+<pb n="9r" facs="StAZH_B_III_37__fol__9_r_.tif"/>
+<p><seg n="15"><lb/>Bey der in anno <date when="1695">1695</date> ergangenen erkantnuß,
+<lb/>krafft welcher dennen auf die zehend verleihung
+<lb/>nacher <placeName ref="loc006198">Uster</placeName> kommenden herren nach
+ohnver<lb break="no"/>denklichem gebrauch überlaßen worden, einem
+<lb/>landtvogt zu <placeName ref="loc000348">Greiffensee</placeName> den zehenden
+offent<lb break="no"/>lich nach der gemachten schatzung zu verleihen,
+<lb/>hat es sein bewenden.
+</seg></p>
+<p><seg n="16"><lb/>Wie nicht wenniger bey dem jennigen, was
+<lb/>einem landtvogt für die <hi rend="font change">admodiation</hi> der
+<lb/>hinzu gekaufften zehenden auferlegt worden.
+</seg></p>
+<p><seg n="17"><lb/>Gleich ein <choice><abbr>hr</abbr><expan>herr</expan></choice> landtvogt gefließne achtung
+zu<lb break="no"/>geben hat, daß weder der vogtey höltzer, güter oder
+<lb/>zehend marchen, wan die etwan zergehen wurden,
+<lb/>ohn aufgerichtet verbleiben, also hat er auch sich
+<lb/>sonderheitlich angelegen seyn zu laßen, daß die
+<lb/>fischer zu <placeName ref="loc008569">Greiffensee</placeName> die ihnen gemachte einnung
+<lb/>genau beobachten und die abzustatten habende
+<lb/><date dur="R/P1Y">jährliche</date> schuldigkeiten gewüß abführen.
+</seg></p>
+<pb n="9v" facs="StAZH_B_III_37__fol__9_v_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Eid basiert auf einer Formulierung aus den 1430er Jahren,
+die für den Landvogt von <placeName ref="loc000012">Kyburg</placeName> bestimmt gewesen war, jedoch auch für die Landvögte von
+<placeName ref="loc000362">Grüningen</placeName>, <placeName ref="loc007729">Regensberg</placeName> und <placeName ref="loc000348">Greifensee</placeName> verwendet wurde
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928765">StAZH B II 4, Teil II, fol. 9v</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 153-154, Nr. 44</bibl>).
+Daraus entwickelte sich im 16. Jahrhundert eine allgemeine Formel für alle äusseren Vogteien
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>
+und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_191">Nr. 191</ref></bibl>).
+</p>
+<p>Seit dem 16. Jahrhundert war dem Eid für die Landvögte eine Ordnung beigefügt, worin vor allem die Spesen geregelt waren
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>
+und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_191">Nr. 191</ref></bibl>).
+Eine leicht erweiterte Fassung davon wurde um 1555 in das Kopialbuch der Herrschaft <placeName ref="loc000348">Greifensee</placeName> eingetragen 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=672693">StAZH F II a 176, S. 109-113</ref></bibl>).
+Im 17. Jahrhundert wurden zahlreiche weitere Bestimmungen in die allgemeine Ordnung für die Landvögte aufgenommen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1914505">StAZH B III 4, fol. 70r-73v</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1920761">StAZH B III 5, fol. 287r-292v</ref></bibl>).
+Grösstenteils finden sich diese auch in der vorliegenden Fassung für die Herrschaft <placeName ref="loc000348">Greifensee</placeName>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

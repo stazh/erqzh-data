@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_109</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=947359">PGA Greifensee II A 4</idno></msIdentifier><head>Entscheid in einem Streit über den Karpfenfang im Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden einen Streit zwischen den Fischern vom Greifensee, Jakob Aeppli, Wilhelm Meier und Hans Zollinger aus Fällanden und Korad Wüst aus Greifensee, sowie dem Amtsrichter Heinrich Denzler, Säckelmeister und Feuerwehrhauptmann Rudolf Pfenninger aus Greifensee und dem Dorfmeier Hans Ochsner aus Schwerzenbach als Abgeordneten ihrer Gemeinden betreffend das Fangen von Karpfen. Weil die Gemeindegenossen bei Überschwemmungen auf den überschwemmten Wiesen die Karpfen fangen, die zum Laichen in die Gräben schwimmen, schädigen sie die gewerbemässigen Fischer, die sich auf ihre Fischenzen sowie auf Urteile von 1549, 1711, 1730 und 1742 berufen. Demgegenüber bringen die Vertreter der Gemeinden Greifensee und Schwerzenbach vor, dass sich die Fischereirechte nicht auf ihr Gemeindeland erstrecken und der Fischfang eine gewisse Kompensation darstelle für den Schaden, den sie bei Überschwemmungen erleiden. Das Gericht urteilt, dass die Fischer in ihren verbrieften Rechten geschützt sein sollen. Wenn bei Überschwemmungen aber Karpfen auf die Felder schwimmen, so dürfen sie von zufällig anwesenden Gemeindegenossen ohne Fischereiwerkzeug zum eigenen Verzehr gefangen werden. Im Übrigen soll die Fischereinung in allen Punkten befolgt werden. Insbesondere darf das Schilf von den Fischern nicht geschnitten werden. Zuwiderhandlungen sollen durch Säckelmeister Bernhard Werdmüller untersucht und von den Landvögten bestraft werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Unterschreiber der Stadt Zürich</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1749-05-07"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key000715">Gewässer</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="PGA_Greifensee_II_A_4__S__1_.tif"/>
+<p><seg><lb/>In der vor etwas zeit durch eine weisung von <placeName ref="loc000348">Greiffensee</placeName> an <choice><abbr>mngnhr</abbr><expan>meine gnädigen herren</expan></choice>
+gewach<lb break="no"/>senen streitigkeit entzwüschent <persName ref="per012779">Jacob Äppli</persName>, <persName ref="per015098">Willhelm Meyer</persName> und <persName ref="per015105">Hans
+<lb/>Zollinger</persName> von <placeName ref="loc008651">Fällanden</placeName>, desgleichen <persName ref="per015104">Conrad Wüest</persName> von <placeName ref="loc008569">Greiffensee</placeName> als
+<lb/><choice><abbr>samt</abbr><expan>samtlichen</expan></choice> dermahligen fischeren in dem <placeName ref="loc008718">Greiffensee</placeName> an dem einten, dann
+<lb/>amtsrichter <persName ref="per015096">Heinrich Denzler</persName> und sekelmeister und feürhaubtmann
+<lb/><persName ref="per018499">Rudolff Pfenninger</persName> von mehrbemeldtem <placeName ref="loc008569">Greiffensee</placeName>, so auch dorffmeyer
+<lb/><persName ref="per015089">Hans Ochsner</persName> von <placeName ref="loc008652">Schwerzenbach</placeName> im nammen und als abgeordneten 
+bey<lb break="no"/>der dorthigen ehrsammen gemeinden an dem anderen theil, in ansehung des
+<lb/>karpfenfangs bey aufgehendem und auf die daran stoßende
+gemeind-<lb/>werk und güter hinauslauffendem see-waßer obwaltend.</seg>
+<seg>Da
+er<lb break="no"/>stere darüber, daß die <orgName ref="org004883">gemeinds-genoßen von <placeName ref="loc008569">Greiffensee</placeName></orgName> und
+<orgName ref="org004901"><placeName ref="loc008652">Schwer<lb break="no"/>zenbach</placeName></orgName> sich deße anmaaßen und ihnen öffters, wann die karpfen aus
+<lb/>der tieffe des sees gegen dem land in die böschen und gräben, um den
+<lb/>leich darin abzustoßen, steigen, vor denen garnen deren in großer
+<lb/>anzahl wegfangen thügind, sich ernstlich beschwehrt und solches als
+<lb/>ihrem habenden fisch<subst><del>er</del><add place="overwritten">ezen-</add></subst>recht in krafft unterschidenlicher brieffen,
+erkant<lb break="no"/>nußen und urthlen von annis <date when="1549">1549</date>,<note>Gemeint ist das Urteil vom 9. April 1549
+betreffend Fanganlagen in den Uferzonen des Greifensees
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946903">PGA Greifensee I A 11</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919932">StAZH A 85, Nr. 10</ref></bibl>).</note>
+<date when="1711">1711</date>,<note>Gemeint ist vielleicht der Entscheid vom 1. Oktober 1711, der im Gutachten vom 8. April 1749 zitiert wird
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1934146">StAZH A 123.7, Nr. 206</ref></bibl>).</note>
+<date when="1730">1730</date><note>Gemeint ist vermutlich der Entscheid vom 13. Dezember 1729,
+wonach den Weidgenossen für das laufende Jahr gestattet wurde, das Schilf bis zum Wasserspiegel abzuschneiden
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3637520">StAZH C III 8, Nr. 31, S. 84</ref></bibl>).</note>
+und <date when="1742">1742</date><note>Ein Urteil bezüglich Fischerei von 1742 konnte nicht ausfindig gemacht werden.</note> entgegen
+<lb/>zuseyn vorgestellt, mithin um <choice><abbr>hochoberk</abbr><expan>hochoberkeitliche</expan></choice> bestäthigung diserer ihrer
+<lb/>schrifftlichen gewahrsammen deemüthig gebetten.</seg>
+<seg>Die abgeordnete
+<lb/>beyder ehrsammen gemeinden <orgName ref="org004883"><placeName ref="loc008569">Greiffensee</placeName></orgName> und <orgName ref="org004901"><placeName ref="loc008652">Schwerzenbach</placeName></orgName> aber
+<lb/>wider sothanen vortrag eingewendet, daß einerseiths denen
+fi<lb break="no"/>scheren kein fischezen-recht auf ihrem gemeind-werk und güteren,
+<lb/>sondern nur in dem see zukomme, und anderseiths ihnen, wann der
+<lb/>see austretten und ihnen an ihrem waid-gang und güteren
+<lb/>schaden zufüegen thüge, verhoffentlich aller billichkeit nach zu deße
+<lb/>etwelchem ersatz und trost karpfen daselbst zufangen erlaubt
+<lb/>seye und von <choice><abbr>mngnhr</abbr><expan>meinen gnädigen herren</expan></choice> um so da mehr, als sie sich harunter
+<lb/>auf die bißharige üebung und den innhalt einer anno <date when="1711">1711</date> in ganz
+<lb/>gleichem fahl ergangenen raths-erkantnuß<note>Das Gutachten vom 8. April 1749 
+zitiert einen Entscheid vom 1. Oktober 1711, wonach es zufällig anwesenden Gemeindegenossen gestattet war, bei Überschwemmungen Karpfen auf ihren Feldern zu fangen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1934146">StAZH A 123.7, Nr. 206</ref></bibl>).</note> grundtlich stüzen
+kön<lb break="no"/>nind, <choice><abbr>hochoberk</abbr><expan>hochoberkeitlich</expan></choice> weiterhin werde zugestanden werden <abbr>etc</abbr>.</seg>
+<seg>Haben
+<lb/>hochermeldt <choice><abbr>mngnhr</abbr><expan>meine gnädigen herren</expan></choice> nach anhörung, wie eines solch
+wider<lb break="no"/>mahligen <hi rend="font change"><foreign xml:lang="la">contradictorii</foreign></hi> von denen partheyen, also auch eines
+<lb/>ausführlichen schrifft- und mundtlichen berichts, welchen die zu des
+<lb/>geschäffts näherer untersuchung eigens nidergesezt gewesene
+<lb/>ehren-<hi rend="font change">commission</hi> von ihrem harinfähligen verrichten abgestattet,<note>Die Kommission
+war am 27. Januar 1749 mit der Untersuchung des Streits beauftragt worden und legte ihr Gutachten am 8. April vor, vgl. Kommentar.</note>
+<lb/>in reifflicher erwegung der sachen eigentlicher bewandtnuß
+ein<lb break="no"/>hellig erkennt und gesprochen, daß die fischere in dem <placeName ref="loc008718">Greiffensee</placeName>
+<pb n="2" facs="PGA_Greifensee_II_A_4__S__2_.tif"/>
+<lb/>bey ihrem habenden fischezen-recht forthin geschüzt verbleiben und derer
+<lb/>selben <hi rend="font change">obspecificirter</hi> maaßen vormahls erhaltene harinfählige brieff,
+<lb/>erkantnußen und urthlen neüerdingen <choice><abbr>hochoberk</abbr><expan>hochoberkeitlich</expan></choice> bekräfftiget und
+<lb/>bestäthiget seyn sollind, in dem verstand und mit der erlaütherung jedoch,
+<lb/>daß, wann das waßer in dem <placeName ref="loc008718">Greiffensee</placeName> aufgehet und ein
+gemeinds-<lb/>genoß von <placeName ref="loc008569">Greiffensee</placeName> und <placeName ref="loc008652">Schwerzenbach</placeName> zu der zeit, da die karpfen
+<lb/>an das land kommen, auf dem feld wäre oder es im vorbeygang
+gewah<lb break="no"/>ren wurde, ein solcher dannzumahlen für sich, sein mähli dadurch
+zu<lb break="no"/>verbeßeren, deren aber ohne fischer-<hi rend="font change">instrument</hi> wol fangen mögen,
+<lb/>keineswegshin hingegen solches auf mehrschatz hin zuthun befüegt
+<lb/>seyn solle.</seg>
+<seg>Wobey die fehrnere <choice><abbr>hochoberk</abbr><expan>hochoberkeitliche</expan></choice> willensmeinung ist, daß
+<lb/>der fisch-einung<note>Zur Fischereinung des <placeName ref="loc008718">Greifensees</placeName> vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_056">SSRQ ZH NF II/3, Nr. 56</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_086">SSRQ ZH NF II/3, Nr. 86</ref></bibl>; zu der seit 1738 geltenden Fischerordnung vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_107">SSRQ ZH NF II/3, Nr. 107</ref></bibl></note>
+zu mehrgedachtem <placeName ref="loc008718">Greiffensee</placeName> in allen stuken
+<lb/>und <hi rend="font change">articuln</hi> gebührend nachgelebt, sonderheitlich aber auch das
+<lb/>rohr-abhauen (außert was, wie es die ordnung vermag, bey
+gefrohr<lb break="no"/>nem see über das eys hinauslangt) von denen fischeren gänzlich
+<lb/>unterlaßen, und weilen daß dergleichen erst kürzlich geschehen seye,
+<lb/>geklagt worden, von herren sekelmeister <persName ref="per015101">Werdmüller</persName> bey
+vor<lb break="no"/>stehender seiner dahin reise der sache nachgefraget und
+allen<lb break="no"/>fahls die fehlbahre zu gehöriger verantworthung und straff gezogen,
+<lb/>desgleichen auch der übrigen <hi rend="font change">articuln</hi> halber denen fischeren im nammen
+<lb/><choice><abbr>mngnhr</abbr><expan>meiner gnädigen herren</expan></choice> eine ernstliche folg-leistungs <hi rend="font change">intimation</hi> gethan
+<lb/>werden und dannethin denen jederweiligen <choice><abbr>hr</abbr><expan>herren</expan></choice> landvögten zu
+<lb/><placeName ref="loc000348">Greiffensee</placeName> harauf ein sorgfältig-geflißenes aufsehen zuhaben
+<lb/>und die übertrettere mit empfindtlichem straff-ernst anzusehen,
+<lb/>die pflichtige obligenheit auf ein neües gegeben seyn, zumahlen
+<lb/>deßnahen dem jezigen <choice><abbr>hr</abbr><expan>herren</expan></choice> landvogten daselbst von
+gegenwär<lb break="no"/>thiger erkantnuß nachrichtliche <hi rend="font change">communication</hi> beschehen solle.</seg>
+</p>
+<p><lb/>Actum <origDate when="1749-05-07">mittwochs, den 7. maii 1749</origDate>,
+<lb/>coram <orgName ref="org002406">senatu</orgName>.
+</p>
+</div>
+<div>
+<signed><lb/>Unterschreiber</signed>
+</div>
+<pb n="3" facs="PGA_Greifensee_II_A_4__S__3_.tif"/>
+<pb n="4" facs="PGA_Greifensee_II_A_4__S__4_.tif"/>
+<div>
+<ab type="dorsal" place="verso"><lb/>Urdell wegen des
+<lb/><unclear>karfen</unclear> fangs,
+<lb/><origDate when="1749">1749</origDate></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Um die Uferzone als Grenzgebiet zwischen Land und Wasser war es zwischen den Fischern vom <placeName ref="loc008718">Greifensee</placeName>
+und den anstossenden Gemeinden wiederholt zu Auseinandersetzungen gekommen, worauf auch im vorliegenden Stück hingewiesen wird.
+So hatten sich die Bürger von <placeName ref="loc008569">Greifensee</placeName> bereits 1549 beklagt,
+dass der Fischer <persName ref="per014798">Klein-Erhard Meier</persName> aus <placeName ref="loc008651">Fällanden</placeName> mit seinen Fanganlagen die Uferzone verwüste.
+Das Gericht urteilte, dass <persName ref="per014798">Meier</persName> seine Verbauungen behalten dürfe
+und das Abschneiden von Schilfrohr vom Schiff aus weiterhin gestattet sein solle
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946903">PGA Greifensee I A 11</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919932">StAZH A 85, Nr. 10</ref></bibl>).
+Der Konflikt brach 1569 erneut aus, als <persName ref="per014798">Klaus Pfister</persName> in seiner Wiese am See einen neuen Graben anlegte, um darin zu fischen.
+Der <orgName ref="org002406">Zürcher Rat</orgName> legte fest, dass sämtliche neu erstellten Gräben zugeschüttet werden müssen,
+während die älteren Anlagen von <persName ref="per014798">Erhard Meier</persName> weiter bestehen bleiben durften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_083">SSRQ ZH NF II/3, Nr. 83</ref></bibl>).
+</p>
+<p>Auf das Urteil von 1549 und weitere, teilweise nicht überlieferte Entscheide von 1711, 1729/1730 und 1742
+beriefen sich die Fischer, als es 1749 erneut zu Konflikten zwischen ihnen sowie den Gemeindegenossen
+von <placeName ref="loc008569">Greifensee</placeName> und <placeName ref="loc008652">Schwerzenbach</placeName> kam.
+Der <orgName ref="org002406">Zürcher Rat</orgName> beauftragte am 27. Januar 1749 eine Kommission, den Streit zu untersuchen und darüber ein Gutachten zu erstellen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4284671">StAZH B II 864, S. 26-27</ref></bibl>),
+worüber der Vogt von <placeName ref="loc000348">Greifensee</placeName> mit Schreiben vom 29. Januar 1749 informiert wurde
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1934147">StAZH A 123.7, Nr. 207</ref></bibl>).
+Das Gutachten wurde am 8. April 1749 erstellt, nachdem die beiden Parteien ihre Argumente vorgebracht hatten.
+Daraus geht hervor, dass die Fischer ihren Schaden auf rund 100 Pfund bezifferten
+und sich die Gemeindegenossen auf einen Entscheid vom 1. Oktober 1711 stützen konnten, das im Wortlaut zitiert wird
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1934146">StAZH A 123.7, Nr. 206</ref></bibl>).
+Beim vorliegenden Dokument handelt es sich um die Bestätigung zuhanden der <orgName ref="org004883">Gemeinde <placeName ref="loc008569">Greifensee</placeName></orgName>;
+zugleich wurde der Entscheid in vollem Wortlaut auch im Ratsmanuale des Unterschreibers festgehalten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4284674">StAZH B II 864, S. 153-156</ref></bibl>).
+</p>
+<p>Der vorliegende Entscheid wurde seinerseits als Präzedenzfall herbeigezogen, als der <placeName ref="loc008718">Greifensee</placeName> 1906 erneut über die Ufer trat.
+Denn als der damalige Fischereiaufseher 24 Bauern aus <placeName ref="loc008569">Greifensee</placeName> und <placeName ref="loc008652">Schwerzenbach</placeName> anzeigte,
+weil sie auf ihren Feldern Karpfen gefangen hatten, beriefen sich die Bauern auf das Urteil von 1749.
+Die zuständige Finanzdirektion stützte den Entscheid des Ancien Régime;
+weil demgemäss jedoch lediglich der Fang von Karpfen für den Eigengebrauch erlaubt war,
+wurden jene sieben Bauern, welche die gefangenen Fische verkauft hatten, trotzdem gebüsst.
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 43-44</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Frei 2004</ref>, S. 31-32</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Zimmermann 1990</ref>, S. 10-11</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

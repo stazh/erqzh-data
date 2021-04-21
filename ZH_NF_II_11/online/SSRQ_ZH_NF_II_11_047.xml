@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_047</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=680229">StAZH G I 103, fol. 30v</idno></msIdentifier><head>Eid des Weibels</head><msContents><summary>Der Weibel hat dem Propst des Grossmünsters oder seinem Stellvertreter und seinem Vogt Gehorsam zu schwören und dem Gericht zu Diensten zu sein. Er soll im Gebiet des Hochgerichts des Propsts diejenigen, die man ihm anzeigt, gefangen setzen und dorthin überstellen, wo man es ihm gebietet. Wenn jemand zum Tod verurteilt wurde, muss der Weibel den Henker auf eigene Kosten bestellen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Nachtrag)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1501-01-01" to="1600-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="30v"/>
+<head>
+<lb/>Des weibels eid
+</head>
+<p>
+<lb/>Du wirst sweren einem probst, sinem statthalter,
+<lb/>ob er nit anheimsch were, und sinem vogte, iren
+<lb/>gebotten gehorsam, ouch den gerichten mit
+<lb/>furbietten gewertig zu sinde. Und ob man 
+<lb/>dir yemant, es were man oder frowen, in mines
+<lb/>herren probsts hochen gerichten ze fachen gebuͦtte,
+<lb/>das in einem geheim und ungewarnet ze tuͦnd
+<lb/>und die oder den, so duͦ gefangen hettist, an die
+<lb/>ende, so man dich hiesse, antwurten. Und ob
+<lb/>yemand, so den tod verschuͤldt hettent, gefangen
+<lb/>und er mit urteil und recht verteilt wurde,
+<lb/>den hengker oder nachrichter in dinem kosten,
+<lb/>one eines <orgName ref="org004352">probstes und capittels</orgName> kosten und
+<lb/>schaden, bestellen, damit dem rechten, was 
+<lb/>tods das were, gnuͦg bescheche.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317294">StAZH G I 102</ref></bibl> und <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317295">103</ref></bibl> wurden die Rechte des <orgName ref="org004352">Grossmünsters</orgName> (Stiftsoffnungen) in den wichtigsten Besitzungen des Stifts gesammelt. 
+Die beiden Bücher unterscheiden sich nur darin, dass in G I 103 die Offnung von <placeName ref="loc009841">Meilen</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=679969">StAZH G I 102, fol. 11v–16r</ref></bibl>) fehlt, dafür aber auf die Eide der Leute von 
+<placeName ref="loc009768">Höngg</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_032">SSRQ ZH NF II/11, Nr. 32</ref></bibl>) und der anderen Gerichte <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010356">Albisrieden</placeName>, 
+<placeName ref="loc008713">Rüschlikon</placeName>, <placeName ref="loc012745">Rengg</placeName>, <placeName ref="loc009859">Schwamendingen</placeName> und <placeName ref="loc012142">Nöschikon</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_033">SSRQ ZH NF II/11, Nr. 33</ref></bibl>)
+noch der Eid des Weibels folgt sowie vier Nachträge zu Beschlüssen des Maiengerichts oder Ratserkenntnissen.</p>
+<p>Weibel nahmen innerhalb der Gemeinden und Herrschaften unterschiedliche Aufgaben als Gerichtsdiener, Boten und Aufseher wahr (vgl. dazu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_096">SSRQ ZH NF II/11, Nr. 96</ref></bibl>). 
+In diesem Eid werden vor allem polizeiliche Funktionen betont und durch die Verpflichtung, den Henker auf eigene Kosten zu bestellen, auch die Blutgerichtsbarkeit des Stifts hervorgehoben, während es in späteren Weibeleiden 
+etwa aus <placeName ref="loc009768">Höngg</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_096">SSRQ ZH NF II/11, Nr. 96</ref></bibl>) oder <placeName ref="loc009859">Schwamendingen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_057">SSRQ ZH NF II/11, Nr. 57</ref>, Art. 19</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_125">SSRQ ZH NF II/11, Nr. 125</ref></bibl>) vor allem um die Aufgaben als Forst- und Bannwart geht. 
+Dies könnte darauf hinweisen, dass es sich hier nicht um den allgemeinen Eid der verschiedenen Dorfweibel, sondern um den Eid des Inhabers der Weibelhube in <placeName ref="loc008707">Fluntern</placeName> handelt, der für das Henkeramt des Stifts zuständig war; 
+vgl. die Offnung von <placeName ref="loc008707">Fluntern</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_024">SSRQ ZH NF II/11, Nr. 24</ref></bibl>), die Verleihung der Weibelhube (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_020">SSRQ ZH NF II/11, Nr. 20</ref></bibl>) sowie <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref></bibl>. 
+Allerdings schworen auch die Weibel in den Gemeinden dem Propst einen Eid: Mit dem Übergang der Rechte des <orgName ref="org004352">Grossmünsters</orgName> an die Stadt 1526 wird bestimmt, dass Hofmeier, Weibel und Richter des Gerichts zu <placeName ref="loc009768">Höngg</placeName> 
+ihren jährlichen Eid zukünftig dem Obervogt statt dem Propst schwören sollen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>). 
+<!--Aus dem Kommentar zu A 97.4, Nr.&#160;10 (S. 18-27): Bemerkung zur Datierung des Bandes G I 102/103: Er muss von nach 1427/36 stammen aufgrund der Nennung von Felix Manesse im Amt des Bürgermeisters in der Offnung von Höngg. Nicht angepasst an neue Begebenheiten wurde jedoch bspw., dass Zürich und nicht Kyburg im Besitz der Hochgerichtsbarkeit von Schwamendingen war ab 1424. Dies ändert allerdings auch Felix Fry nicht, der im 16. Jh. Vermerke, etwa über die Ablösung der Vogtsteuer in Schwamendingen anbringt. Lässt das Schriftbild die Zeit besser eingrenzen? <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S.&#160;317, Anm.&#160;73</bibl> datiert das Heft auf das erste Drittel des 15. Jh. -->
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

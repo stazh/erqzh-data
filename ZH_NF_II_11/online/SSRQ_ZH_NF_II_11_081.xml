@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_081</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1234697">StAZH G I 22, fol. 104v-105v</idno></msIdentifier><head>Beschluss im Streit zwischen den Stiftspflegern und den Leuten von Schwamendingen um Rechtsbefugnisse</head><msContents><summary>Die Leute von Schwamendingen haben die Rechte des Grossmünsterstifts in Schwamendingen bezüglich des Weibels, der Weide und des Waldes in Frage gestellt. Das Stift habe sich jedoch aus Gnade bisher sehr grosszügig gezeigt mit der Ausgabe von Holz und Streue sowie auf Bussen, Fallabgaben und Ehrschatz verzichtet. Die Pfleger entscheiden, sich in Zukunft strikt an die Offnung zu halten, Bussen und Fallabgaben wieder einzuziehen und den Leuten von Schwamendingen kein zusätzliches Holz über die in der Offnung festgehaltenen Ansprüche hinaus zu genehmigen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="13.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1562-11-20"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz, UB Schwamendingen, Teil 1, Sp. 103-104, Nr. 107</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key000274">Ehrschatz</term><term>Erblehen</term><term ref="key000183">Fall</term><term ref="key004966">Gemeinde</term><term ref="key000827">Geschworene</term><term ref="key000524">Holz</term><term ref="key005403">Kompetenz</term><term ref="key000012">Offnung</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="104v"/>
+<head>
+<lb/>Erkantnuß deren von
+<lb/><placeName ref="loc009859">Schwamendingen</placeName>
+<lb/>halben
+</head><pb n="105r"/>
+<p>
+<seg><lb/>Uff den <origDate when="1562-11-20">20. novembris im
+<lb/>1562 jar</origDate> habend sich ouch die
+<lb/>herren pfläger mit gmeinem
+<lb/><orgName ref="org004016">radt</orgName> erkent, sid und die
+<lb/>von <placeName ref="loc009859">Schwamendingen</placeName> so un<lb break="no"/>früntlicher 
+und ungepürlicher
+<lb/>wys ein gstifft vor unseren
+<lb/>gnädigen herren, einem eer<lb break="no"/>sammen
+<orgName ref="org004016">radt</orgName>, hievor am <date when="1562-07-15">15.
+<lb/>julii dises 62 jars</date><note>An diesem Datum war über die Erlaubnis des <orgName ref="org004352">Stifts</orgName> an den Ziegler, mehr Vieh auf die Allmende zu treiben und über die Verpfändung der Allmend um 100 Gulden durch die <orgName ref="org007874">Gemeinde Schwamendingen</orgName> entschieden worden, vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100352">StAZH G I 3, Nr. 97</ref></bibl> bzw. <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25033">StArZH VI.SW.A.1.:16</ref></bibl></note> fürge<lb break="no"/>nommen
+und ein gstifft und
+<lb/>die herren pfläger mit unbe<lb break="no"/>fuͤgten
+gründen understan<lb break="no"/>den 
+zezwingen und inen ire
+<lb/>rechte, alte fryheit und gwalt<lb break="no"/>samme
+under dem schyn dess
+<lb/>rechten understanden, uss den
+<lb/>händen zenemmen und an sich
+<lb/>unbefuͤgter wys zuͦbringen,
+<lb/>also das sy weder dess wei<lb break="no"/>bels
+noch der weid und dess
+<lb/>holtzes so vil gwalts haben
+<lb/>söltind, das sy dem wei<lb break="no"/>bel
+und dem ziegler fuͦg het<lb break="no"/>tind,
+uff ire weiden etliche
+<lb/>houpt vech zuͦ erlouben und
+<lb/>gan zelaßen.</seg>
+<seg>Und man aber inen
+<lb/>bishar lange zyt so vil
+<lb/>gnaden gethan und bewisen
+<lb/>mit holtz usgäben, verkouffen
+<lb/>und verschencken, und mit
+<lb/>der ströwe ab den gmeinen
+<lb/>wisen, die zuͦ iren huͦben nit
+<lb/>beschriben und derhalben inen
+<lb/>nit gelihen noch hörend, gält
+<lb/>dorab zuͦ erlösen und an
+<lb/>iren nutz zuͦ verwenden; dess
+<lb/>glichen von den buͦßen inen
+<lb/>vil guͦts willens gelaßen,
+<lb/>das aber inen von keinem
+<lb/>rechten nie gehört, und
+<lb/>mit den huͦbfälen und
+<lb/>eerschätz sölich mitlyden
+<lb/>mit inen gehaben, das man
+<lb/>inen deren stucken, die sy
+<lb/>aber lut dess rotenbuͦchs<!-- Welches ist das? Es kann sich wohl kaum um das Kopialbuch der Stadt handeln (B I 276 - 277). --><note>Dieses Buch wird auch in einem Nachtrag zur Offnung von <placeName ref="loc009859">Schwamendingen</placeName> genannt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>, Art. 7</bibl>). Es scheint sich um eine Sammlung von Rechten des <orgName ref="org004352">Stifts</orgName> in <placeName ref="loc008714">Schwamendingen</placeName> gehandelt zu haben, die jedoch nicht überliefert ist. In dem als «Rotes Buch» bekannten Kopialbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1428 finden sich keine Einträge zu <placeName ref="loc009859">Schwamendingen</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=243486">StAZH B I 276 - B I 277</ref></bibl>).</note>
+<lb/>und der offnungen zuͦbeza<lb break="no"/>len
+schuldig sind, uß gnaden
+<lb/>lang nie nüt gehoüschet noch
+<lb/>abgenommen. Dagegen aber 
+<lb/>sy also unpürlich mit dem <pb n="105v"/>
+<lb/>holtz umgangind und sölichen
+<lb/>hochmuͦt und fräfel tribind
+<lb/>und minen herren gar kein guͦt
+<lb/>wort gäbind von wegen, das
+<lb/>kein danck in inen sige,
+<lb/>so sölle ein gstift fürhin,
+<lb/>diewyl sy guͦte besiglete ur<lb break="no"/>tel
+und vertrags brief von
+<lb/>unseren gnädigen herren wi<lb break="no"/>der
+sy erlanget habind,
+<lb/>inen kein holtz mee weder
+<lb/>schäncken noch zuͦverkouffen
+<lb/>gäben und inn alweg nach
+<lb/>der rechtsamme der offnung
+<lb/>aller articlen geläben, und
+<lb/>die fäl und eerschätz, so
+<lb/>bishar ein zyt uß gnaden
+<lb/>underlaßen, fürhin, so die
+<lb/>selbigen gefallend, inziehen,
+<lb/>die holtzbuͦßen und fräfel
+<lb/>lut der offnung und miner
+<lb/>herren urteil und vertrags brie<lb break="no"/>fen
+zuͦ iren handen nemmen,
+<lb/>das ab- und windfellig holtz,
+<lb/>so je wurde, durch iren keln<lb break="no"/>hofer
+und weibel verkouffen
+<lb/>laßen, und sich irer drye<lb break="no"/>ren<note>Gemeint sind die drei Geschworenen.</note>
+nüt mer beladen, die<lb break="no"/>wyl
+sy nieman uber das
+<lb/>unser, sonder uber ire zün,
+<lb/>straßen und andere stuck, so
+<lb/>iren erblähen zuͦhörind, zese<lb break="no"/>tzen
+habind, das ouch die<lb break="no"/>selben
+fürhin inn dem holtz
+<lb/><del>welre</del> weder schaltten noch
+<lb/>waltten söllind, und
+<lb/>also die pfläger inen jeder<lb break="no"/>zyt
+thuͦn und gäben söllind,
+<lb/>was man inen lut der offnung
+<lb/>zethuͦn und zegäben schuldig ist,
+<lb/>und dagegen fürhin von
+<lb/>inen vorderen und in zühen,
+<lb/>was sy hinwider lut der off<lb break="no"/>nung
+schuldig sigind. Und wo
+<lb/>sy sich desse widrigen wur<lb break="no"/>dent,
+sölle ein gstift unser
+<lb/>gnedig herren, als die uns
+<lb/>schon lut unser alten fryheit
+<lb/>und der offnung gnuͦg besicheret,
+<lb/>jeder zyt anruͤffen und schirm
+<lb/>by den selbigen suͦchen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Um die Nutzung von Wald und Weide in <placeName ref="loc009859">Schwamendingen</placeName> kam es immer wieder zu Konflikten zwischen dem <orgName ref="org004352">Grossmünster</orgName> und den Hubern von <placeName ref="loc009859">Schwamendingen</placeName>. Das <orgName ref="org004352">Grossmünster</orgName> 
+war der Ansicht, dass es frei darüber verfügen könne, da alles Eigentum des <orgName ref="org004352">Stifts</orgName> sei und die Huber nur auf gewissen Nutzungsrechte ein Anrecht hätten, aber keine eigentliche Allmende der Gemeinde vorhanden sei. Die Huber wiederum fürchteten um ihren Anteil an Holz und Weide, 
+wenn das Stift gewissen Personen zusätzliche Nutzungsrechte einräume. Vorausgegangen war ein Streit um die Besetzung des Weibel- und des Hirtenamts, das bisher in Personalunion ausgeübt worden war. Er endete damit, dass der Weibel wie bisher vom Stift berufen wurde, das Hirtenamt aber neu von den 
+Hubern besetzt werden durfte. Um die Einkunftseinbussen, die ihr Weibel dadurch erlitt, zu kompensieren, erlaubte ihm das <orgName ref="org004352">Stift</orgName>, zusätzliche Stück Vieh auf die Weide zu treiben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_079">SSRQ ZH NF II/11, Nr. 79</ref></bibl>). 
+Auch der Ziegler in <placeName ref="loc009859">Schwamendingen</placeName> durfte ein zusätzliches Tier zur Weide führen (zum Ziegler in <placeName ref="loc009859">Schwamendingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_082">SSRQ ZH NF II/11, Nr. 82</ref></bibl>). Dagegen klagten die <orgName ref="org007874">Schwamendinger</orgName> vor dem <orgName ref="org002406">Rat</orgName>, 
+worauf das <orgName ref="org004352">Grossmünster</orgName> seinerseits wegen der unerlaubten Verpfändung der Allmende um 100 Gulden klagte. Der <orgName ref="org002406">Rat</orgName> entschied am 15. Juli 1562 (worauf im vorliegenden Entscheid auch Bezug genommen wird), dass das <orgName ref="org004352">Grossmünster</orgName> 
+berechtigt sei, den Weidgang des Zieglers zu erweitern<!-- erhöhen? verbessern? --> und dass die 100 Gulden wieder ausgelöst werden müssten; für die Untersuchung der übrigen Streitpunkte wurden vier Ratsmitglieder delegiert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100352">StAZH G I 3, Nr. 97</ref></bibl>; 
+<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25033">StArZH VI.SW.A.1.:16</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 103, Sp. 93-94</bibl>). Am 22. September 1562 bestätigte diese Delegation das Recht 
+des <orgName ref="org004352">Stifts</orgName>, auch den Weibel mehr Tiere zur Weide bringen zu lassen. Ausserdem ermahnte sie die Huber von <placeName ref="loc009859">Schwamendingen</placeName>, sich des Holzes wegen an die Offnung zu halten und nur mit Erlaubnis des <orgName ref="org004352">Stifts</orgName> 
+Wald, Wiesen und Weiden zu nutzen, da diese Eigentum des <orgName ref="org004352">Grossmünsters</orgName> seien (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1105817">StAZH G I 3, Nr. 120, S. 3-10</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25034">StArZH VI.SW.A.1.:17</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 105, Sp. 96-100</bibl>).</p>
+<p>Unter Verweis auf den vorliegenden Entscheid wurden bis mindestens 1566 wieder Fallabgaben eingezogen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1102721">StAZH G I 3, Nr. 105</ref></bibl>). Die Konflikte waren mit den genannten Entscheiden nicht beigelegt, weshalb 
+am 10. Oktober 1573 drei Ratsabgeordnete eine neue Holzordnung erliessen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

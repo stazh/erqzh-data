@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_071_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=277790">StAZH C II 1, Nr. 955</idno></msIdentifier><head>Übergabe der Kollatur der Kirche Fällanden an die Stadt Zürich</head><msContents><summary>Die Gemeinde des Dorfes Fällanden, die vor Jahren gemäss einem gütlichen Vertrag von der Propstei Zürich die Kollatur ihrer Kirche übernommen und Hans Weber als Priester gewählt hat, tritt dieses Recht der Stadt Zürich ab, da es nicht möglich sei, aus ihrer kleinen Pfründe den alten Priester und seinen Nachfolger zugleich zu erhalten und die Kosten für die Ausbesserung des Pfrundhauses zu tragen. Aus diesem Grund übergeben die Fällander die Pfrundlehenschaft eines Prädikanten samt aller Gerechtigkeit und der genannten Urkunde an den Zürcher Rat. Dafür übernimmt der Rat den Unterhalt des alten Priesters und als neuer Lehensherr der Pfründe die Ausbesserung des Pfrundhauses, wobei aber die Gemeinde das gesamte Baumaterial zu liefern hat. Für die Gemeinde Fällanden siegelt Junker Hans Jakob Meiss, Obervogt von Greifensee.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.5"/><width unit="cm" quantity="48.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="8.0"/></dimensions></extent><condition>Wasserfleck (mit Textverlust)</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Hans Jakob Meiss</persName></seal></sealDesc></physDesc><history><origin><origDate when="1552-06-05"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key000032">Patronat</term><term ref="key000301">Pfarrer</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_1__Nr__955__r_.tif"/>
+<p><seg><lb/>Wir, die <orgName role="issuer" ref="org004879">ganntz gmeynde gmeinlich des dorffs zu <placeName ref="loc008651">Fellandenn</placeName></orgName>, inn der herschafft <placeName ref="loc000348">Gryffensee</placeName> geleͣgen, bekheͣnnent unnd thund khuͦndt meͣngklichem mit disem brieff, demnach
+<lb/>unsere vorderen unnd wir bißhar lange zyt und jar fuͤg und gwalt gehept, eynen priester, so dick sich das begeben, anzenemen und zu bestellen, und mit dem zuͦ verkomen, by uns mit
+<lb/>hußlicher wonung zesitzen und uns als eyn vicari und helffer eynes lüpriesters zu der <orgName ref="org004352">probsty <placeName ref="loc007562">Zürich</placeName></orgName> zuͦ versechen <abbr>etc</abbr>, alles nach inhalt und vermög eynes gütlichen vertragbriefs<note>Gemeint ist der Vergleich,
+den die <orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName> und das <orgName ref="org004352">Grossmünster</orgName> im Streit um den Neurodungszehnten und die freie Priesterwahl 1492 eingegangen waren
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_042">SSRQ ZH NF II/3, Nr. 42</ref></bibl>).</note>
+<lb/>zwüschen hern <orgName ref="org004352">probst und cappittel der probsty <placeName ref="loc007562">Zürich</placeName></orgName> und uns, der gmeinde, ufgericht, by wellichem vertrag ouch wir untzhar mengklichs halb unverhindert beliben, und mit
+<lb/>namen her <persName ref="per013922">Hannsen Weber</persName> letstlich zu eynem priester angenomen und erwelt, wellicher nume so lange zyt und jar by uns gewesen, das er uns mit verkündung des heiligen
+<lb/>evangelii sines alters und unvermu̍gligkeit halb zuͦversprechen nit mer togenlich noch geschickt, darumb wir dann die edlen, fromen, eerenvesten, fürsichtigen, ersamen und
+<lb/>wysen hern <orgName ref="org002406">burgermeister und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, unser gnedig herren, mermalen gantz underthenig und früntlich angesuͤcht und gepeͣtten, uns harinne behulffen und beraten zesyn, und
+<lb/>zuͦverschaffen, das wir mit eynem anderen predicanten versechen wuͦrden.</seg>
+<seg>Das daruf die jetzgemelten unser gnedig herren uns geantwort, diewyl uns die lehenschafft des eͣnnds,
+<lb/>wie oben gemeͣldet, zuge<damage agent="water spot"><unclear cert="high">horig</unclear></damage>, ouch wir gedachten herren <persName ref="per013922">Hannsen Weͣber</persName> uff syn statt und alter geprucht, weren wir one zwyfel und nach aller billigkeit schuͦldig, denselbenn et<lb break="no"/>wellicher gstalt zu verseͣchen und im ein zimliche hanndtreichung zethuͦnd. Und so daßeͣlbig von uns bescheche und wir dann eynes anderen predicanten inn unserem costen begeͣren
+<lb/>wurden, welten sy uns <damage agent="water spot"><unclear>zu seͣlben</unclear></damage> zuͦverheͣlffen gutwillig syn.</seg>
+<seg>Unnd wann nu wir wol wußent und ouch nutzit annders gedeͣncken könen, dann das wir herrn <persName ref="per013922">Hannsen
+<lb/>Weͣber</persName> etwas hilff zethuͦnd und darzu das pfrundhuß, so diser zyt ganntz böß und buwloß, widerumb zuerbeßeren schuldig, und aber sömlichs inn unserem vermögen keins
+<lb/>weͣgs, sonder vermelte pfrund so kleins inkomens ist, das sich ein predicannt sonst kümerlich daruff erhalten und betragen mag, so habent wir uns daruf mit den obgenant<lb break="no"/>en unsern gnedigen hern <orgName ref="org002406">burgermeister und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName> also vereynt und sich dieseͣlbigen des ouch uff unser früntlich pitt begeͣben:</seg>
+<seg>Namlich das sy verschaffen,
+<lb/>das gerürter her <persName ref="per013922">Hanns Weͣber</persName>
+<damage agent="water spot"><unclear cert="high">one</unclear></damage> unsern nachteil mit zimlicher narrung biß uff synen abgang enthalten unnd dann dargeͣgen obvermeͣlte lehenschafft eynes predicant<lb break="no"/>en zu <placeName ref="loc008651">Fellanden</placeName> sampt <damage agent="water spot"><unclear cert="high">allen</unclear></damage> anderen rechten und gerechtigkeiten, so unsere vorderen und wir bißhar darzu und daran gehept, hinfüro inen, unsern gnedigen herren von
+<lb/><placeName ref="loc000065">Zürich</placeName>, zustan und sy die füren und eynem predicanten nach irem willen und gfallen zuͦ versechen gwalt haben, von uns und unsern nachkomen unverhindert und un<lb break="no"/>geirt inn allweg.</seg>
+<seg>Unnd so sich fuͤgen, das sy, unser gnedig herren, als nume recht lehenherren vermelter pfrundhuß zebuwen willens, wann und zu wellicher zyt joch das
+<lb/>syn wurde, so sollen wir und unser nachkomen schuldig und verpunden syn, inen zum seͣlbigen buw, so dick das beschicht und an uns ervordert wirt, uß unser gmeind
+<lb/>holtz darzu ze geben und mit namen daßelbig, ouch laden, kalch, sannd, ziegelstein und anders, was man zu dem buw notdurftig sin wirt, inn unserem costen und one
+<lb/>ir, unserer herren, ouch der <damage agent="water spot"><unclear>p</unclear></damage>frunde ald derseͣlben besitzere schaden, uff die hofstatt zu der pfruͦnd behußung zu füren und zefertigen. Was costens aber ferer mit söllichem
+<lb/>buw ufgat, <damage agent="water spot"><unclear>da</unclear></damage> söllen unser herren verschaffen, das daßelbig von anderen ordten und eenden, wo es sy jederzyt gut syn bedunckt, erleit und bezalt werde, one unser ald
+<lb/>unseren nachkomen endt<damage agent="water spot"><unclear>gelt</unclear></damage>ung.</seg>
+<seg>Unnd hieruf so verzichent wir uns für uns und alle unser nachkomen obgerürter pfrund zu <placeName ref="loc008651">Fellannden</placeName> lehenschafft, des<lb break="no"/>glych allen anderer rechten und gerechtigkeiten, so wir (vermög obgedachts vertragsbriefs) den <choice><sic>wir</sic><corr></corr></choice> gemeͣlten unsern gnedigen herren von <placeName ref="loc000065">Zürich</placeName>, dergestalt, das er
+<lb/>inen hinfür wysen und <damage agent="water spot"><unclear>dienen</unclear></damage> sölle, hienebent zugestelt und überantwort, untzhar darzu und daran gehept, oder fürohin darzu und daran gehaben, gwünenn,
+<lb/>oder überkomen <damage agent="water spot"><unclear>köndten ald möchten</unclear></damage>, inn oder ußwenndig dem rëchten, inn dhein wyß, beloben und verspreͣchen ouch für uns und alle unser nachkomen by unsern
+<lb/>guͤtten trüwen an rechter geschworner eyds statt, disen brief mit synem begriff war und unzerbrochenlich zehalten und darwider niemer nichts zereden, zethuͦnd
+<lb/>noch schaffen gethan werde <damage agent="water spot"><unclear cert="high">inn</unclear></damage> dheinen weg, alles tru̍wlich, erbarlich und ungefarlich.</seg>
+<seg>Unnd des alles zu warem, offem urkhundt habent wir, die <orgName ref="org004879">gmeind
+<lb/>zu <placeName ref="loc008651">Fellanden</placeName></orgName>, den fromen, vesten junckher <persName role="sigillant" ref="per013921">Hanns Jacob Meisen</persName>, burger und der zyt unserer gnedigen herren von <placeName ref="loc000065">Zürich</placeName> vogt zu <placeName ref="loc000348">Gryffensee</placeName>, unseren günstigen, lieben
+<lb/>jungkherren, durch unsere volmechtigen anwelt und gsanndten mit flyß und ernst erpitten laßen, das er syn eigen insigel für uns all gmeinlich unnd unser
+<lb/>nachkomen offenlich ge<damage agent="water spot"><unclear cert="high">hengkt</unclear></damage> hatt an disen brieff, doch genanten unsern gnedigen herren von <placeName ref="loc000065">Zürich</placeName> an allen iren frigheiten, rechten und gerechtigkeiten, deßglychen
+<lb/>im und synen erben one schaden und unvergriffen, der geben ist den <origDate when="1552-06-05">fünfften tag brachmonat nach der gepurt Christi gezalt fünffzechenhundert fünfftzig unnd
+<lb/>zwei jar</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_II_1__Nr__955__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><placeName ref="loc008651">Vellander</placeName> übergâb ir rechtung an der lechung der pfruͦnd lut vorderigs vertrags,
+<lb/>den sy unsern herren burgermeister und <add place="above">rat</add> u<unclear cert="high">s</unclear>hin und übergeben hant, anno domini <origDate>1552</origDate>,
+<lb/>und von der pfruͦnd huß buw <abbr>etc</abbr>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Copiert fol. 127.</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Kapelle in <placeName ref="loc008651">Fällanden</placeName> war als Filiale dem <orgName ref="org004352">Grossmünster</orgName> unterstellt.
+Die Gemeinde hatte allerdings 1492 das Recht erhalten, ihren Priester selber zu wählen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_042">SSRQ ZH NF II/3, Nr. 42</ref></bibl>).
+Die Finanzierung der Stelle gestaltete sich für die Gemeinde jedoch als so schwierig, dass ihr der <orgName ref="org004911">Rechenrat</orgName>
+am <origDate when="1552-05-31">31. Mai 1552</origDate> den Ratschlag erteilte, die Kollatur an den Rat abzutreten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3281240">StAZH E I 30.41, Nr. 1</ref></bibl>).
+Trotzdem blieb der Gemeinde das Pfarrwahlrecht in eingeschränkter Form erhalten, indem sie vor einer Neubesetzung jeweils einen Dreiervorschlag einreichen durfte
+(<bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2002</ref>, S. 68, S. 72</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

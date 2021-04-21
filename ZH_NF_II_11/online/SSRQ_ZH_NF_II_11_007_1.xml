@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_007_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273808">StAZH C II 1, Nr. 344</idno></msIdentifier><head>Entscheid des Gerichts in Höngg betreffend die Getreideabgaben ab den aufgeteilten Grundstücken an das Grossmünsterstift</head><msContents><summary>Berchtold Frank, Chorherr des Grossmünsterstifts von Zürich, beklagt sich vor dem Gericht in Höngg darüber, dass die Chorherren ihre Abgaben in Höngg nicht einziehen können, da sie aufgrund der Aufteilung der Grundstücke keine Übersicht mehr hätten, wer ihnen diese schulde. Auf Antrag Heinrichs, des Meiers auf dem Hof Ennetwies in Höngg, beschliesst das Gericht, dass die Abgaben von den Ehehofstätten zu erstatten seien und deren Inhaber in der Lage sein müssen anzuzeigen, von welchen Grundstücken den Chorherren die Abgaben zu leisten sind. Die Zeugen sind namentlich aufgeführt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="11.0"/><width unit="cm" quantity="25.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Wachs</persName></seal></sealDesc></physDesc><history><origin><origDate when="1364-07-07"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 1, Nr. 1632</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_1__Nr__344__r_.tif"/>
+<p><seg><lb/>Als her <persName ref="per023612">Berchtolt Frank</persName>, chorherre ze der <orgName ref="org004352">probstey
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, gen <placeName ref="loc009768">Hoͤng</placeName> kam fu̍rgericht von siner <lb/>cinsen
+und frecht<note>Höngg musste insgesamt vier Frechten für den Unterhalt der <orgName ref="org004352">Chorherren des
+Grossmünsters</orgName> abliefern (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>,
+S. 78</bibl>). Frechten sind Getreideabgaben von Gütern an die Grundherrschaft, besonders geistliche Stifte (<bibl><ref>Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id1.htm#!page/11271/mode/2up">Bd. 1, Sp. 1272</ref></bibl>).</note>
+wegen und oͧch von ander siner herren wegen ze der vorgenempten <orgName ref="org004352">probstey</orgName>
+<lb/>und sprach, du̍ guͤter ze <placeName ref="loc009768">Hoͤng</placeName> werent als
+witnans
+zerteilt, das er und sin herren ze dem <orgName ref="org004352">gotzhus <lb/>und probstey <placeName ref="loc000065">Zu̍rich</placeName></orgName> ir
+cinse nit wol nach ku̍ndent chomen noch vinden, und lies da an recht, <lb/>wie er und sin herren umb ir cinse werben
+soͤltent.</seg>
+<seg>Da ward rechtz umb gefraͧget uf den eit, do <lb/>erteilt<!-- ahh: erteilen: Urteil sprechen, vgl. lem006108  -->
+<persName role="issuer" ref="per023627">Heinrich</persName>, meijer Ennentwis,<note>Der Meierhof <placeName ref="loc012100">Ennetwies</placeName>
+gehörte zu dieser Zeit bereits dem <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> (vgl. Kommentar zu
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_008">SSRQ ZH NF II/11, Nr. 8</ref></bibl>). <bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>,
+S. 239</bibl>, hat die Namen der Meier auf dem Hof <placeName ref="loc012100">Ennetwies</placeName>
+zusammengetragen.</note> von <placeName ref="loc009768">Hoͤng</placeName>, das in recht dunkti uf sinen eit, das man si wider
+<lb/>kaͤme<!-- ahh: widerkommen =  Bedeutung 2: wieder erstattet werden, vgl. Bd. 3, Sp. 282: https://www.idiotikon.ch/Register/faksimile.php?band=3&spalte=282&hl=210002  -->
+uf die ehofstette und das die
+wistind, wa si ir
+cins und frecht fundent und was in da ge<lb break="no"/>breiste, da soͤltent aber sis usrichten, die uf den
+ehofstetten saͤssent und hettend.<note>Gemäss der Einleitung zur Abschrift in <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1516434">StAZH G I 99,
+fol. 22v, Eintrag 1</ref></bibl> fällt das Anzeigen und Weiterleiten der Abgaben der verschiedenen
+Güter an die Chorherren unmissverständlich in die Zuständigkeit der jeweiligen Inhaber der Ehehofstätten.</note>
+Und geviel oͧch das <lb/>mit urteil und gericht.</seg>
+<seg>Hie bi ze gegen warent <persName role="testis" ref="per023620">Cuͤni Kylcher</persName>, der des selben tages richter was, meijer
+<lb/><persName role="testis" ref="per023616">Ruͤdi im Hof</persName><note>Für die Namen der Hofmeier auf dem Meierhof des
+<orgName ref="org004352">Grossmünsters</orgName> in <placeName ref="loc009768">Höngg</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sibler 2001</ref>, S. 36-44</bibl>.</note>, <persName role="testis" ref="per023649">Johans Wisse</persName>, <persName role="testis" ref="per023651">Walther Wesi</persName>, <persName role="testis" ref="per023631">Ruͤdi Schiltknecht</persName> der elter, meijer <persName role="testis" ref="per023591">Cuͤni Steffan</persName>, <persName role="testis" ref="per023634">Ruͦdolf</persName>
+<lb/>und <persName role="testis" ref="per023632">Claus Snuͤrlin</persName>, gebruͦder, <persName role="testis" ref="per023646">Ruͦdolf
+Stoͧb</persName> von <placeName ref="loc008707">Fluͦntren</placeName> und ander erber lu̍t genuͦg.</seg>
+<seg>Geben <origDate when="1364-07-07">an <lb/>dem nechsten sunnentag nach sant Uͦlrichs tag, do man zalt von gottes
+gebu̍rt dru̍zehenhundert <lb/>jar, dar nach in dem vier und seczigosten jare</origDate>.<note>Aufgrund des
+schlechten Erhaltungszustands des Siegels und der fehlenden Corroboratio lässt sich der Siegler nicht mit
+Bestimmtheit
+ermitteln. Vermutlich siegelte <persName ref="per023620">Kilcher</persName>.<!-- ahh : auch in der Siegelsammlung des StAZH wird das Siegel nicht identifiziert.--></note></seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_II_1__Nr__344__v_.tif
+"/>
+<div><ab type="dorsal" place="verso" hand="hand14c"><lb/>Wie die ehofstettan ze <placeName ref="loc009768">Hoͤng</placeName>
+<lb/>die zins und frechan zoͤgen 
+<lb/>sont</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand14c"><lb/><choice><abbr>R</abbr><expan>Registrata</expan></choice>
+<unclear>N</unclear><note>Verweis auf den Kopialband StAZH G I 96, fol. 208r, Eintrag 2, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_002">SSRQ ZH NF II/11, Nr. 2</ref>, Anm. 11</bibl>.</note></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/>Anno <date when="1364">1364</date></ab></div>
+</body>
+<back>
+<div><p>Das Urteil wurde <date when="1469">1469</date> bestätigt, als sich mehrere <orgName ref="org004352">Choherren des Grossmünsterstifts</orgName> erneut über die
+Einbussen bei den zu ihren Pfründen gehörenden Frecht- und Zinseinnahmen beklagten. Es wurde ausserdem bemängelt, dass die
+Hubeninhaber Kaufgeschäfte und Erbteilungen von Gütern ohne Mitwissen der Lehenherren, also ohne Fertigung, getätigt
+hatten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1446673">StAZH C II 1,
+Nr. 682</ref></bibl>; <bibl>StAZH G I 99, fol. 22v, Eintrag 3</bibl>). Bereits <date when="1409">1409</date> war es diesbezüglich zur Klage eines Chorherren gegen die Inhaber der Ehehaften gekommen
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365842">StAZH C II 1,
+Nr. 470</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4,
+Nr. 5563</bibl>).</p>
+<p>In späterer Zeit musste gemäss Amtsordnung der Hofmeier die Übersicht über die geteilten und verkauften Güter in <placeName ref="loc009768">Höngg</placeName> sowie deren Abgaben zugunsten des <orgName ref="org004352">Grossmünsterstifts</orgName> behalten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=604627">StAZH G I 5, Nr. 35, fol. 13v-15v</ref></bibl>; Edition: <bibl><ref target="startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_39">Nr. 10, S. 39-40</ref></bibl>).</p>
+<p>Problematisch gestaltete sich auch der Einzug des Zehnten, bei dem es zu klären galt, welche Grundstücke den Zehnten an den Meierhof des <orgName ref="org004352">Grossmünsterstifts</orgName> in <placeName ref="loc009768">Höngg</placeName> und welche ihn an die Kirche <placeName ref="loc009768">Höngg</placeName>, deren Patronat beim <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> lag, entrichten mussten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273807">StAZH C II 1, Nr. 343</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1643</bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

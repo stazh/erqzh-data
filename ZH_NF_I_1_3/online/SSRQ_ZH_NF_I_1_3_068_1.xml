@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_068_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917277">StAZH B III 6, fol. 120v, Eintrag 1</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Besetzung des Stadtgerichts</head><msContents><summary>Es wird verordnet, dass jeder neue Rat am Johannestag zu Weihnachten und zur Sonnenwende acht geeignete Fürsprecher wählen soll, die während des folgenden halben Jahrs die beiden Gerichte, nämlich das Vogtgericht und das Schultheissengericht, besetzen, und über die ihnen vorgelegten Sachen, soweit sie an das jeweilige Gericht gehören, urteilen. Will einer der Fürsprecher dies nicht tun, soll ihn der Rat dazu anhalten, das Amt noch bis zum Ablauf der halbjährigen Amtszeit auszuüben. Nach Ablauf des halben Jahres sollen vier Fürsprecher im Amt bleiben und vier neue Fürsprecher dazu gewählt werden, insgesamt aber nicht mehr als zwei junge, die die Gerichtspraxis erst erlernen. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation><filiation type="original"><origDate from="1500-01-01" to="1500-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term><term ref="key000304">Rechtsbeistand</term><term ref="key000103">Richter</term><term ref="key000028">Schultheiss</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="120v"/>
+<head><lb/>Wie das <orgName ref="org005052">gericht</orgName> sol
+<lb/>besetzt werdenn</head>
+<p><seg><lb/>Wir <app><lem/><rdg wit="StAZH B III 54, fol. 1r">der <orgName ref="org002406">burgermeister, die räth unnd der groß <lb/>rath, so man nëmpt die zweyhundert der statt <placeName ref="loc000065">Zürich</placeName></orgName></rdg></app> habent <app><lem/><rdg wit="StAZH B III 54, fol. 1r">umb nutz unnd notturfft willen der burgeren und gesten, <lb/>armer unnd rycher</rdg></app> unns ouch <app><lem>erkennt, geordnet unnd gesetzt</lem><rdg wit="StAZH B III 54, fol. 1r">geordnet unnd wellent</rdg></app>, <app><lem>umb nu̍tz,
+<lb/>nodturft willen der burger unnd gesten, armer unnd richer,
+<lb/>unnd wollend</lem><rdg wit="StAZH B III 54, fol. 1r"/></app>, das ein jeglicher angeender unnd nu̍wer <choice><sic>a</sic><corr resp="msr"><orgName ref="org004016">rat</orgName></corr></choice> ze 
+<lb/><date when="--12-27" type="holiday">wienechten</date> unnd ze <date when="--06-24">singichten</date>, das ist zuͦ beiden sanndt <persName ref="per000049">Johanns</persName>
+<lb/>tag, by iren eyden erwellint unnd nemint <num value="8">acht</num> man, die witz,
+<lb/>vernunft unnd bescheidenheit habint zuͦ fursprechen, die dasselb 
+<lb/><date dur="P6M">halb jar</date> umb, als der <orgName ref="org004016">rat</orgName> gewalt hat, an unnsere beide gricht gangint,
+<lb/>das ist, an das <orgName ref="org005053">vogt gricht</orgName><note>Präsidierte nicht der Schultheiss, sondern einer der Obervögte das <orgName ref="org005052">Stadtgericht</orgName>, wurde es als <orgName ref="org005053">Vogtgericht</orgName> oder <orgName ref="org005053">Stangengericht</orgName> bezeichnet. Es übte die Niedergerichtsherrschaft über <placeName ref="loc010598">Oerlikon</placeName>, <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010666">Seebach</placeName> und <placeName ref="loc010768">St. Leonhard</placeName> aus, seit der <orgName ref="org004016">Rat</orgName> im Zuge der Reformation die Gerichtsrechte an diesen Orten von <orgName ref="org004352">Grossmünster</orgName> und <orgName ref="org004908">Fraumünster</orgName> übernommen hatte (<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 16</bibl>).</note> unnd an des <orgName ref="org005052">schu̍lteßen gricht</orgName> unnd da 
+<lb/>biderbenluten ir red thu̍yent, <choice><sic>nit</sic><corr resp="msr">mit</corr></choice> guͦten truͦwen unnd umb die sachen,
+<lb/>so fu̍r sy koment unnd an soliche <orgName ref="org005052">gricht</orgName> gehorrent, urteyl sprechent,
+<lb/>als sy ir ere und eyd wyßd. Unnd ob der <num value="8">achten</num> einer das nit thuͦn 
+<lb/>wollt, sol inn ein <orgName ref="org004016">rat</orgName> wyßen, das er es das <date dur="P6M">halb jar</date> uß thuye.<note>Aufgrund der Nebenberuflichkeit und der mit dem Amt verbundenen Arbeitsbelastung blieben offenbar Fürsprecher den Gerichtsverhandlungen verschiedentlich fern. Ein ähnlicher Passus findet sich bereits in einer Gerichtsordnung des 14. Jahrhunderts (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 232, Nr. 24</bibl>). Zudem waren Bussen für unerlaubtes Fernbleiben vorgesehen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4260796">StAZH B III 53, fol. 22r</ref></bibl>).</note></seg>
+<seg>Unnd 
+<lb/>sollent alweg, so das <date dur="P6M">halb jar</date> harumb kompt unnd man die <orgName ref="org005052">gricht</orgName>
+<lb/>besitze, <num value="4">vier</num> der alten bliben unnd <num value="4">vier</num> nu̍w genomen werden
+<lb/>unnd doch under inen allen nit uber <num value="2">zwen</num> jung <app><lem>genomen</lem><rdg wit="StAZH B III 54, fol. 1r">erwelt</rdg></app> werden,
+<lb/>die da lernint, damit das <orgName ref="org005052">gricht</orgName> unnd biderblu̍t destbass mu̍gint 
+<lb/>versorgt sin.</seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung ist eine erweiterte Version der Ordnung zur Besetzung des <orgName ref="org005052">Stadtgerichts</orgName>, die im Anhang des 4. Geschworenen Briefes erstmals verschriftlicht worden ist (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_034">SSRQ ZH NF I/1/3, Nr. 34</ref></bibl>). Die Entstehung der Erweiterung dürfte deshalb bereits im späten 15. oder frühen 16. Jahrhundert anzusetzen sein, die vorliegende Aufzeichnung stellt deren früheste erhaltene Fassung dar (vgl. zur Datierung <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 104</bibl>). Sie wurde zudem als erster Eintrag in das Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553 übertragen.</p>
+<p>Aus den in den Rats- und Richtbüchern überlieferten Listen der gewählten Fürsprecher lässt sich ablesen, dass sich bereits während des 15. Jahrhunderts die Praxis einer periodischen Teilerneuerung der Fürsprecher herausbildete (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263254">StAZH B VI 190 - B VI 279 a</ref></bibl>). Danach wurden in den halbjährlich sich abwechselnden Gremien zwei bis drei Fürsprecher während längerer Zeit jeweils wiedergewählt, während die anderen Stellen teils an Personen gingen, die dieses Amt früher schon einmal bekleidet hatten, teils durch Neulinge in Anspruch genommen wurden. Die vorliegende Ordnung verschriftlicht somit eine bereits zuvor existierende Praxis.</p>
+<p>Für den Eid der Fürsprecher vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_034">SSRQ ZH NF I/1/3, Nr. 34</ref></bibl>; zu Anzahl und Wahlmodalitäten der Fürsprecher vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 100-110</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

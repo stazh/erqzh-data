@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_016</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1432084">StAZH B II 4, Teil I, fol. 49r</idno></msIdentifier><head>Einsetzung eines neuen Vogts in Greifensee</head><msContents><summary>Heinrich Aeppli schwört, sich gewissenhaft um die Herrschaft Greifensee zu kümmern sowie Gülten, Zinsen und Bussen vollumfänglich den zürcherischen Amtsleuten abzugeben. Als Bürge stellt sich sein Schwager, Heinrich Hagnauer zum Kindli, zur Verfügung. Die Amtszeit beginnt an der alten Fasnacht. Zu diesem Termin soll der bisherige Vogt Johannes von Isnach abziehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1421-01-30"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 2/2, S. 329, Nr. 126</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005361">Amtsübergabe</term><term ref="key000179">Eid</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="49r"/>
+<head>
+<lb/><placeName ref="loc000348">Griffense</placeName>
+<persName ref="per012777">Eppli</persName>
+<add place="inline" hand="other hand">wie er dz hus ze <placeName ref="loc008719">Griffensew</placeName> versorgen sol</add>
+</head>
+<p><lb/><origDate when="1421-01-30">Anno domini m cccc<hi rend="sup">o</hi> xxj<hi rend="sup">o</hi>, an dem nechsten donrstag vor der pfaffenvasnacht</origDate>, hât
+<lb/><persName ref="per012777">Heinrich Eppli</persName> vor unsern herren gesworn, als sy inn ze einem vogt gen <placeName ref="loc000348">Griffense</placeName> genommen
+<lb/>hand, <add place="left margin" type="sign">dis nechst kûnftig jar</add> dz selb hus ze besorgen, ze verhuͤten und ze vergoͧmen, und die gûlt, <add place="above">zins</add> und nûtz,
+<lb/>so darzuͦ gehoͤrent, und ouch die buͦssen getrûwlichen inzezûhen und dz alles
+<lb/>der statt amptlûten ze antwûrten, und dar inne sin bestes ze tuͦnd ungevarlichen
+<lb/><abbr>etc</abbr>. Darzuͦ so hât <persName ref="per013496">Heinrich Hagnoͧwer ze dem <placeName ref="loc010728">Kindlin</placeName></persName>, sin swager, mit im ûnsern herren
+<lb/>fûr die <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> nûtz, zins und gûlt, die er dann inzûhen sol, versprochen, und <add place="above">ist</add> dar umb
+<lb/>gûlt und bûrg worden. Und vahet dz jar an uff die <date type="deadline_floating holiday">alten vasnacht</date><note>Die alte Fasnacht
+war 1418 als Termin für den jeweiligen Amtswechsel der Landvögte in <placeName ref="loc000348">Greifensee</placeName> festgelegt worden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_013">SSRQ ZH NF II/3, Nr. 13</ref></bibl>).</note> nechst
+<lb/>kûnftig, so sol <persName ref="per012777">Eppli</persName> dar zûhen, und <persName ref="per013895">der von Isnach</persName> dânnen. <foreign xml:lang="la">Actum ut supra</foreign>.</p>
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per012777">Heinrich Aeppli</persName> amtierte von 1421 bis 1422 als Vogt in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216</bibl>).
+Kurz darauf erwarb er die Gerichtsherrschaft <placeName ref="loc008648">Maur</placeName>,
+die bis 1652 im Besitz seiner Familie blieb
+(<bibl><ref target="/startseite/literaturverzeichnis">Aeppli 1979</ref>, S. 91-92</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 320-321</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

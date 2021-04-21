@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_153_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24084">StArZH VI.EN.LB.A.3.:20</idno></msIdentifier><head>Verbot des Fleischverkaufs ausser Haus durch den Sternenwirt in Enge aufgrund der fehlenden Metzgerkonzession</head><msContents><summary>Bürgermeister und Rat von Zürich entscheiden im Streit zwischen Sternenwirt Johann Landolt, mit Beistand von Untervogt Conrad Asper, Säckelmeister Heinrich Landolt und übrigen Gemeindevorgesetzten von Enge, einerseits und sieben namentlich genannten Zürcher Metzgermeistern, Vertretern des Metzgerhandwerks, andererseits, dass, weil das Wirtshaus zum Sternen keine Metzggerechtigkeit besitze, der Wirt nicht befugt sei, Fleisch ausser Haus zu verkaufen. Für Gemeindeversammlungen und Hochzeiten, an Neujahr, am Maitag und an Martini ist es ihm jedoch erlaubt, sowohl Gross- als auch Kleinvieh zu schlachten und zu verbrauchen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="47.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1732-02-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key004706">Konzession</term><term>Metzgerei</term><term ref="key000882">Nahrungsmittel</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<head><app><lem/><rdg wit="ZBZ Ms V 79, S. 9-10">Raths-erkanntnuß betreffende den sternenwirth in <placeName ref="loc010425">Engi</placeName>, laut deren er keines von seinem mezgenden fleisch außert das haus verkaufen darf, wohl aber auf alle gemeindszusammenkunften, hochzeiten, neu-jahrs-, may- und martinstag schwer- und schmalvich mezgen und brauchen könne</rdg></app></head>
+<p>
+<seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, urkunden hiemit offentlich,
+<lb/>demmenach krafft einer von unseren geliebten miträthen und ober-vögten zu <placeName ref="loc009865">Wollißhoffen</placeName> und in der <placeName ref="loc010425">Engi</placeName> außgefertigeten weisung<note>Vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=691537">StAZH A 120, Nr. 69</ref></bibl></note> in
+<lb/>heütig unserer raths versammlung streitig gegen einanderen erschinen, unser liebe getreüwe angehörige <persName ref="per026384">Johannes Landolt</persName>, der wirth bey dem <placeName ref="loc010777">Sternen</placeName> in
+<lb/><placeName ref="loc010425">Engi</placeName>, in beystand undtervogt <persName ref="per026379">Conradt Aspers</persName> von <placeName ref="loc009865">Wollißhofen</placeName>, sekelmeister <persName ref="per026383">Heinrich Landolten</persName> und übrigen vorgesetzten einer ehrsammen gemeind daselbsten
+<lb/>an einem, sodanne unsere mehreren raths verwandte, die ehrsammen und weisen rittmeister <persName ref="per026382">Hanß Heinrich Kilchsperger</persName>, haubtman <persName ref="per026385">Hanß Heinrich
+<lb/>Meister</persName> und haubtman <persName ref="per026389">Hanß Heinrich Ulrich</persName>, deßgleichen unser getreüwe liebe burger, zunfftscheiber <persName ref="per026380">Hanß Jacob Brunner</persName>, haubtman <persName ref="per026387">Hanß Heinrich
+<lb/>Steinbrüchel</persName>, <persName ref="per026386">Hanß Jacob Rosenstok</persName> und haubtman <persName ref="per026388">Hanß Caspar Steinfelß</persName>, nammens und von wegen eines ehrsammen <orgName ref="org004974">handtwerks der metzgeren</orgName><!--  Zünfte aufgeteilt in Meisterschaften/Handwerksinnungen, vgl. Kantonsgeschichte ZH Bd 2, S. 310. --> allhier
+<lb/>an dem anderen theil, betreffend, ob ein jeweiliger wirth bey dem <placeName ref="loc010777">Sternen</placeName> klein und großes viech für sein wirthshauß zu metzgen befüegt seye oder
+<lb/>nicht, deßen klägern beglaubt sind, antwortern hingegen das widertheil vermeinen, und beyde theile sie bey ihren freyheiten und alten uebungen zu
+<lb/>schützen und zu schirmen gebetten.</seg>
+<seg>Daß wir nach angehörter klag und antworth, red und widerred, in erdaurung der sachen bewandtnuß einhellig er<lb break="no"/>kennt,
+weilen in dem wirthshauß zu dem <placeName ref="loc010777">Sternen</placeName> keine metzg-gerechtigkeit, daß deßwegen einem jeweiligen wirth daselbsten keines von seinem
+<lb/>metzgenden fleisch außert das hauß zu verkauffen erlaubt, jedennoch ihme auf alle gemeinds zusammen-konfften, hochzeiten, <date when="--01-01">neüw jahrs</date>, <date when="--05-01">meyen-</date>
+<lb/>und <date when="--11-11"><persName ref="per000141">Martin</persName>stag</date> schwer und schmal viech zu metzgen und zu verbrauchen gestattet, übrigens aber ein ehrsammes <orgName ref="org004974">handtwerkh der metzgeren</orgName> bey
+<lb/>ihren habenden rechten und guten gewohnheiten bestens geschützt und geschirmt und die dem wirth auferlegte buß oberkeitlich aufgehebt seyn solle.</seg><seg>
+<lb/>Alles in krafft gegenwerthigen brieffs, so geben und mit unserem einsigel bekräfftiget, <origDate when="1732-02-09">samstags, den neündten tag hornungs, <app><lem>nach der geburth Christi,
+<lb/>unsers heillandts, gezellet ein taußend siben hundert dreyßig und zwey jahre</lem><rdg wit="ZBZ Ms V 79, S. 9-10">1732</rdg></app></origDate>.</seg>
+</p>
+<pb n="v"/>
+</div>
+</body>
+<back>
+<div>
+<p>Tavernen verfügten über das Privileg, Fremde zu beherbergen und warme Speisen aufzutragen. Die <orgName ref="org007810">Gemeinde <placeName ref="loc010425">Enge</placeName></orgName> konnte als Gemeinde- und Gesellenhaus 1632 das Wirtshaus zum <placeName ref="loc010777">Sternen</placeName> erwerben, das über eine solche 
+Tavernengerechtigkeit verfügte (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24164">StArZH VI.EN.LB.C.4., fol. 29v-31v</ref></bibl>). Anders als in <placeName ref="loc010816">Unterstrass</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_156">SSRQ ZH NF II/11, Nr. 156</ref></bibl>)
+oder <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_165">SSRQ ZH NF II/11, Nr. 165</ref></bibl>) gab es daher in <placeName ref="loc010425">Enge</placeName> keine Konflikte um die Beherbergung Fremder oder das Servieren warmer Speisen mit den Wirten aus der Stadt. 
+Auch die Spannungen, die zuvor zwischen dem Sternenwirt und dem seit 1624 bestehenden alten Gesellenhaus von <placeName ref="loc010425">Enge</placeName> herrschten, konnten so gelöst werden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4546410">StAZH B II 367, S. 57-58</ref></bibl>). 
+Auch Tavernen boten jedoch Konfliktpotenzial. Als die <orgName ref="org007948">Gemeinde <placeName ref="loc009865">Wollishofen</placeName></orgName> sich 1697 ebenfalls eine Taverne verschaffen wollte, indem sie dem Wirt der Taverne in <placeName ref="loc010351">Adliswil</placeName> dessen Tavernengerechtigkeit abkaufte, schritten die Obervögte ein
+und hoben den Verkauf auf, da Tavernenrechte innerhalb der Gemeinde verbleiben mussten (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24113">StArZH VI.EN.LB.A.4.:49</ref></bibl>).</p>
+<p><persName ref="per026384">Johann Landolt</persName> hatte das Gemeindewirtshaus 1718 von der <orgName ref="org007810">Gemeinde <placeName ref="loc010425">Enge</placeName></orgName> verliehen bekommen; 1720 und 1723 erfolgten jeweils Erneuerungen des Lehens (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24169">StArZH VI.EN.LB.D.7.:1:1</ref></bibl>). 
+1726 verlieh die Gemeinde den <placeName ref="loc010777">Sternen</placeName> wiederum an <persName ref="per026384">Landolt</persName>, obwohl <persName ref="per026381">Heinrich Güntert</persName> mehr geboten hatte, worauf die Obervögte urteilten, <persName ref="per026384">Landolt</persName> möge sein Gebot an jenes von <persName ref="per026381">Güntert</persName> 
+anpassen oder ihm das Lehen überlassen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24170">StArZH VI.EN.LB.D.7.:1:2</ref></bibl>). Der vorliegende Streitfall um die Metzgergerechtigkeit war von den zuständigen Obervögten am 10. November 1731 an den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> überwiesen 
+worden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=691537">StAZH A 120, Nr. 69</ref></bibl>). Der Ratsentscheid, auf dem die vorliegende Urkunde basiert, findet sich in <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=703247">StAZH B II 796, S. 34-35</ref></bibl>; 
+eine Abschrift des hier vorliegenden Urteils befindet sich in einem Kopialbuch der <orgName ref="org005076">Zunft zum Widder</orgName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4546423">ZBZ Ms V 79, S. 9-10</ref></bibl>).</p>
+<p>Zum Gesellenhaus zum <placeName ref="loc010777">Sternen</placeName> in <placeName ref="loc010425">Enge</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 68-72</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Biäsch, Beder-Chronik</ref>, S. 22-23</bibl>; zu Tavernen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Billeter 1928</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Peyer 1987</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

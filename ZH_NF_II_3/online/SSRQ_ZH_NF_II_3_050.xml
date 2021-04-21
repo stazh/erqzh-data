@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_050</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250333">StAZH C I, Nr. 2504 d</idno></msIdentifier><head>Bericht über einen Streit zwischen Gerold Edlibach und Junker Batt von Bonstetten über die Fischereirechte im Usterbach</head><msContents><summary>Gerold Edlibach berichtet, wie es während seiner Amtszeit als Vogt von Greifensee zu einem Streit mit Junker Batt von Bonstetten über die Fischereirechte im Usterbach gekommen sei. Bonstetten habe ihm verboten, in dem Bach zu fischen, obwohl die Vögte von Greifensee dort seit jeher gefischt hätten. Als Edlibach sein Recht vor dem Rat erlangen wollte, habe Bonstetten mit Drohungen reagiert und sich über den gebotenen Frieden hinweggesetzt. Bezeugen könnten dies der Kirchherr Hans Sturm, die Kapläne von Uster und Greifensee sowie der Weibel Hans Pfister von Kirchuster, der weitere Zeugen kenne, die vor Ort Karten gespielt hätten. Edlibach habe fortan nicht mehr im Usterbach gefischt und Bonstetten ebenfalls verboten dies zu tun, bis ihr Streit vor dem Rat geschlichtet würde. Das Verbot habe Bonstetten aber nicht beachtet, was die Untervögte und Weibel Jakob Egli, Hans Pfister und Konrad Steger bezeugen könnten. Dass etliche Leute schlecht über ihn sprechen, könne er nicht hinnehmen, weswegen er den Rat von Zürich bittet, zwischen ihm und Bonstetten zu vermitteln. Nachtrag von anderer Hand: Der ehemalige Vogt Gerold Edlibach und Junker Batt von Bonstetten werden vor den Zürcher Rat geladen, der die Zeugen verhört und daraufhin entscheidet, dass kein Friedbruch begangen worden sei und die beiden sich wieder versöhnen sollen, zumal sie zuvor gute Freunde gewesen seien. Die Herbergskosten der Zeugen werden übernommen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gerold Edlibach</author><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1508-11-22">Datiert ist lediglich der Nachtrag des Rats, worin Edlibach bereits als ehemaliger Vogt von Greifensee angesprochen wird.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key000715">Gewässer</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_C_I__Nr__2504_d__S__1_.tif"/>
+<p><lb/>Als dan <persName ref="per004692">Batt von Bonstetten</persName> in <persName ref="per013987">Joͤrg Grebels</persName><note><persName ref="per013987">Jörg Grebel</persName>
+amtierte von 1483 bis 1488 als Vogt in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 218</bibl>).</note> huß zuͦ <placeName ref="loc008569">Griffense</placeName> in der
+sumer<lb break="no"/>loͧben mir, vogt <persName ref="per011033">Gerold Edlibach</persName>, verbotten hatt, nu̍t mer in dem bach zuͦ
+<lb/><placeName ref="loc006198">Ustri</placeName> zuͦ fischen an den ortten und enden, da aber ich, gemelter vogt,
+<lb/>vermeintte, als ich vernomen hab, vormallen biß an mich alle
+<lb/>voͤgt, die min vorfaren gewesen sind, gefischet habend <abbr>etc</abbr>. Hab ich
+<lb/><persName ref="per004692">Batten</persName> geantwortt, da welle ich fu̍rer aber uff raͤcht fischen, und
+<lb/>ob er vermeinne, dz ich oder ander minne nachkomen, so je
+<lb/>zuͦ zitten in u̍wer, <choice><abbr>mir</abbr><expan>miner</expan></choice> herren, namen voͤgt zuͦ <placeName ref="loc000348">Griffense</placeName> sygintt,
+<lb/>mitt guͦt raͤcht zuͦ fischen hettend, deß welle ich im vor u̍ch, min
+<lb/>herren, wen er beger und tag erlangen mug, einß raͤchten sin und
+<lb/>im sinner zuͦ spru̍ch antwortt geben. Und wen ir, min herren,
+<lb/>u̍nß zuͦ beder sitt gnuͦgsamklichen verhoͤrtt habend, weß ir, mine
+<lb/>herren, <unclear>ouch</unclear> dan umb die ding erkennent <del>s</del>, eß sye mit u̍wrem
+<lb/>raͤchtlichen spruch oder in der min, dem selben welle ich minß teils
+<lb/>tru̍lich glaͤben. Und da <persName ref="per004692">Batt</persName> soͤmliches raͤcht bott je sich
+<lb/>nu̍tt benuͤgen lassen wolt, da verbott ich im den bach, so in u̍wer
+<lb/>herren hochen und nidren grichten ru̍nt und durch u̍wre
+vogt<lb break="no"/>barre und zinßbare guͤtter vom se biß obnen in <placeName ref="loc008840">Wil</placeName> zum <del>mark</del>
+<lb/>marckstein, ouch nu̍t dar in zuͦ fischen biß zuͦ <placeName ref="loc008840">Ustry</placeName>, dz ir, min
+<lb/>herren, u̍nß bed enschiedett. Uff dz <persName ref="per004692">Batt</persName> rett, ich hett im nu̍tz
+<lb/>zuͦ bietten, er taͤde nu̍tz umb mine bott. Und nach
+<lb/>aller leig verachtlicher wortten, so <persName ref="per004692">Batt</persName> mit mir brucht, ward
+<lb/>zwuschend u̍nß frid genommen <abbr>etc</abbr>.</p>
+<p><lb/>Item dem nach u̍ber friden ist <persName ref="per004692">Batt von Bonstetten</persName> in gemelter <persName ref="per013987">Joͤrg Grebels</persName>
+<lb/>loͧben mit verfastem taͤgen fu̍r mich, genantter vogt, uff und nider
+<lb/>gangen und mit dratzlichen wortten grett: <q>Ja, vogt, je und ich
+<lb/>dich oder jemmen im bach <del>je</del> woͤlt lassen fischen, je woͤlte ich <unclear>mit</unclear>
+<lb/>eim <measure type="currency" unit="fl" quantity="4000">fiertussend gulden</measure> verraͤchten, dan wen du mir dar inne
+<lb/>fischest, so fischest du mir in dem minen und nimst mir
+<lb/>dz min. Hoͤr du dz aͤben, vogt, dan eß ist min vaͤtterlich erb <abbr>etc</abbr>.</q><note>Vielleicht wird hier auf das verbreitete Diktum angespielt,
+wonach Herzog <persName ref="per000337">Leopold von Österreich</persName> bei <placeName ref="loc001540">Sempach</placeName>
+<quote>auf dem Seinen um das Seine</quote> umgebracht worden sei,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hugener 2014</ref>, S. 224-225, mit Anm. 845</bibl>.
+Oder handelt es sich bei der Mehrfachnennung des substantivierten Possessivpronomens gar um eine geläufige Rechtsformel?</note></p>
+<pb n="2" facs="StAZH_C_I__Nr__2504_d__S__2_.tif"/>
+<p><lb/>Uff dz ich, genantter vogt, antwortt und sprach: <q><persName ref="per004692">Batt</persName>, ich fischen gar
+<lb/>niennen dan an den ortten und enden, da biß har, als ich gehoͤrt
+<lb/>hab, biß an mich all <choice><sic>mir</sic><corr>miner</corr></choice> herren voͤgt gefischet habend, darum
+<lb/>sol du mich nu̍t zu̍chen, dz ich dir dz din niennen naͤme, ich
+<lb/>bedarff deß dinnen nu̍tz.</q> Uff dz <persName ref="per004692">Batt</persName> aber rett: <q>Vogt, find
+<lb/>ich dich oder die dinnen im bach, ir soͤnd ein fischen thuͦn,
+<lb/>dz u̍ch nu̍mer wol erschu̍ssen mu̍ß.</q> Uff dz ich, gemelter
+<lb/>vogt, rett: <q><persName ref="per004692">Batt</persName>, ich weiß dich in soͤmlicher vernunft, ob du
+<lb/>mich oder die minen im bach fundest, u̍ber soͤmlich billiche raͤcht
+<lb/>bott, so ich dir for friden und jetz aber fu̍rschlach, keyn u̍bels
+<lb/>noch args nu̍t zuͦfuͤgtest, und hab deß kein sorg nu̍t uff dich.</q></p>
+<p><lb/>Uff dz <persName ref="per004692">Batt</persName> zum andren mal sprach zuͦ mir und kertte sich gegen
+<lb/>mir und trowtte mir mit der hand und stuͦnd stil und rett:
+<lb/><q>Vogt, du hoͤrst wol, wz ich dir sag. Find ich dich oder die
+<lb/>dinnen im bach, dz es dir noch den dinnen nu̍mer wol
+er<lb break="no"/>schuͤssen muͤß. Und soͤlt ich sin umb lib, er und guͤtt kommen
+<lb/>und umb alleß, dz mich got je beraͧtten hatt, da wu̍sse dich
+<lb/>nach zuͦ richten <abbr>etc</abbr>.</q></p>
+<p><lb/>Daruff ich, gemelter vogt, aber antwort und sprach: <q><persName ref="per004692">Batt</persName>, du troͤwst
+<lb/>mir, umb dz ich minen herren dz ir beger zuͦ beheben und nu̍tz
+<lb/>anderst thuͦn, dan ich innen geloͧpt und geschworen hab und ouch
+<lb/>schuldig zuͦ thuͦn bin, innen ir frigheit und graͤchtikeit zuͦ behalten,
+<lb/>als wit ich mag, dar zuͦ sy dan raͤcht habend. Und u̍ber dz,
+<lb/>so ich mit dir in friden stan, deß du mich billichen u̍ber huͦbest
+<lb/>von wegen <choice><sic>mir</sic><corr>miner</corr></choice> herren.</q>
+Und <subst><del>gange</del><add place="above">gienge</add></subst> dar mit von im uss der
+<lb/>loͧben, da lu̍ffe mir her <persName ref="per013984">Hanß Roͤust</persName>, der kaplon zuͦ <placeName ref="loc008569">Griffense</placeName>,
+<lb/>nach und berette mich, mit im wider zuͦ herren und gesellen
+<lb/>zuͦ kommen <abbr>etc</abbr>.</p>
+<pb n="3" facs="StAZH_C_I__Nr__2504_d__S__3_.tif"/>
+<p><lb/>Und ob <persName ref="per004692">Batt von Bonstetten</persName> soͤlicher wort und reden, wie die alle ob
+<lb/>stand, nu̍t kantlichen und gichtig wissen wilt, deß ich mich doch
+<lb/>an in gar nu̍t versich, so sind doch fil fromer, ersammer
+<lb/>prister, herren und gesellen, geischlich und weltlich, da gegenwertig
+<lb/>gwessen, die disse sachen gehoͤrt und gesaͤchen habend, da mir
+<lb/>nu̍t zwifflet, wen die raͤchtlichen alle verhoͤrtt werden, den
+<lb/>handel lutter sagen soͤllend, wie ob stat, dz <persName ref="per004692">Batt</persName> uff die selben zitt
+<lb/>die mallen, als ich achten dem friden nach gnuͦg geret hab,
+<lb/>namlichen:</p>
+<p><lb/>her <persName ref="per014673">Hans Sturm</persName>, kilchher zuͦ <placeName ref="loc006198">Ustri</placeName>;</p>
+<p><lb/>her <persName ref="per011055">Heinrich Ruͦland</persName>,</p>
+<p><lb/>her <persName ref="per014668">Michel</persName> zuͦ <placeName ref="loc006198">Ustri</placeName>,</p>
+<p><lb/>her <persName ref="per013263">Wernli <unclear>Balter</unclear></persName>, caplon,</p>
+<p><lb/>her <persName ref="per014671">Joß Stoͧber</persName>, alle caplonnen zuͦ <placeName ref="loc008735">Kilchustri</placeName>;</p><!-- rhr: Auflistung allenfalls mit Tabelle lösen. -->
+<p><lb/>her <persName ref="per013984">Hanß Roͤust</persName>, caplan zuͦ <placeName ref="loc008569">Griffense</placeName>
+<abbr>etc</abbr>.</p>
+<p><lb/><persName ref="per014669">Hans Pfister</persName>, u̍wer, <choice><sic>mir</sic><corr>miner</corr></choice> herren, und <persName ref="per004692">Batten</persName> geschworner weibel zuͦ
+<lb/><placeName ref="loc008735">Kilchustri</placeName>, der u̍nß bed von befelch wegen deß kilchherren
+<lb/>und andren priester in frid genomen hat;</p>
+<p><lb/><persName ref="per014670">Baltiser Schuͦmacher</persName> zuͦ <placeName ref="loc006198">Ustri</placeName>.</p>
+<p><lb/>Item sust ist ouch vil guͦtter herren und gesellen, die ich nu̍t alle
+<lb/>kent oder acht gehept hab, ouch uff der loͧben gwessen, ist mir
+<lb/>nu̍t zwyfel, <persName ref="per014669">Hanß Pfister</persName>, der undervogt, wol wu̍sse, dan sy ob
+<lb/>ein tischly alle karttet habend.</p>
+<p><lb/>Item dem allem nach hab ich noch die minen im obgemelten bach
+<lb/>nu̍mer mer gefischett. Und gemelten <persName ref="per004692">Batten</persName>
+dar<lb break="no"/>uff uß kraft u̍wer, <choice><sic>mir</sic><corr>miner</corr></choice> herren,
+durch <persName ref="per012733">Jacob Egly</persName>, u̍wer
+under<lb break="no"/>vogt zuͦ <placeName ref="loc008569">Griffense</placeName>,
+<persName ref="per014669">Hansen Pfister</persName> und <persName ref="per014672">Kuͦnrat Staͤger</persName>, bed weibel, ge<lb break="no"/>nantten bach vom se hin uff biß an marckstein
+ob dem <placeName ref="loc008840">Wil</placeName> an
+<lb/><measure type="currency" unit="M" quantity="3" commodity="silver">dry march silber</measure> ouch verbotten, biß dz von u̍ch, min herren, die
+<lb/>sach ein aͤnd naͤm. Soͤmlich gebott er uß u̍bermuͦtt und ver<damage agent="faded ink"><unclear>acht</unclear></damage>
+<pb n="4" facs="StAZH_C_I__Nr__2504_d__S__4_.tif"/><lb/>u̍wer, <choice><sic>mir</sic><corr>miner</corr></choice> herren, zum dickren mal nie gehalten hat und
+<lb/>sich deß selb beruͤmt, ich habe im nu̍tz zuͦ bietten. Und ob er deß
+<lb/>botteß nu̍t kantlichen sin woͤlt, so mugend ir die dry voͤgt oder
+<lb/>weibel verhoͤren, und ist im botten an <measure type="currency" unit="M" quantity="3" commodity="silver">iij march silbers</measure>,
+<lb/>wie hie for stat.</p>
+<p><lb/>Her burgermeister, strengen, vesten, fu̍rsichtigen, wisen herren, habe
+<lb/>ich u̍wer wisheit disen obgeschribnen handel nu̍t wellen
+ver<lb break="no"/>halten, besunder <unclear>langest</unclear> gern u̍ch, minen herren, enteckt, so hab
+<lb/>ich gesaͤchen u̍wer mercklich gescheft und unruͦw allerleig
+<lb/>und ouch miner sachen halb ferzogen hat. Und ist nu̍t annder,
+<lb/>dz es ouch min notturff fordert, allerleig reden halb, so hinder
+<lb/>mir brucht werdent, vilicht <persName ref="per004692">Batten</persName> und mir zuͦ unruͦwen mer
+<lb/>dan durch ruͦw willen. Etlich spraͤchend, ich wu̍sse wol, wuͦ
+<lb/>dz ertrich am aller besten zuͦ graben sye, etlich, ich wel den
+<lb/>fuchs mit <persName ref="per004692">Baten</persName> nu̍t bissen, und etlich sprechend, hettend eß
+<lb/><unclear>min</unclear> gesellen than, ich hette so <del>s</del> lang nu̍t gebattet, ich hette
+<lb/>sy mit raͤcht angenomen. Dar wider ich nu̍t red und war
+<lb/>ist, harumb, gnaͤdigen, lieben herren, so u̍ber gib ich u̍wer wisheit
+<lb/>die sach, da moͤgend ir nun fu̍r hin handlen, thuͦn und lasen,
+<lb/>dz u̍ch, min herren, dz aller beste bedunckt, dan ich wol
+<lb/>liden moͤcht, dz eß alles zwischend <persName ref="per004692">Batten von Bonstetten</persName> und mir
+<lb/>vermitten werre, und guͦt gesellen und gu̍nner beliben <abbr>etc</abbr>.</p>
+<p><add place="bottom" hand="other hand"><lb/>Uff <origDate when="1508-11-22">mitwoch nach presentationis <persName ref="per000169">Marie</persName> in templum
+anno <abbr>etc</abbr> viij<hi rend="sup">o</hi></origDate><note><bibl><ref target="/startseite/literaturverzeichnis">Baumeler 2010</ref>,
+S. 285, Anm. 225</bibl>, datiert das Stück aufgrund einer Fehlinterpretation der Jahreszahl auf den <date when="1484-11-06">6. November 1484</date>.</note>
+<lb/>sind der alt vogtt <persName ref="per011033">Gerold Edlibach</persName> und <choice><abbr>j</abbr><expan>junker</expan></choice>
+<persName ref="per004692">Batt von Bonstetten</persName>
+<lb/>gegen ein<add place="above">ander</add> vertagt, und ist die ob angezeigte kuntschaft in ir
+<lb/>gegenwirdtikeit gehoͤrt und daruf zuͦ recht erkennt, dz
+<lb/>in der gehoͤrten kuntschaft nit sovil erfunden, dz da kein
+frid<lb break="no"/>bruchh vergangen sye, sonnder so syend si vor nacher guͦt fru̍nd
+<lb/>und gesellen gewesen, darumb soͤllend si heim keren und einandern
+<lb/>dz best und wegst tuͦn, daran tuͦgend si minen herren gefallen.
+<lb/>Und loͤsend min herren die kuntschafter von der herberg.</add></p>
+</div>
+</body>
+<back>
+<div>
+<p>Der hier geschilderte Streit zwischen <persName ref="per011033">Gerold Edlibach</persName> und <persName ref="per004692">Batt von Bonstetten</persName>
+über die Fischereirechte im <placeName ref="loc008848">Usterbach</placeName> hatte 1507 begonnen,
+als <persName ref="per011033">Edlibach</persName> noch Landvogt von <placeName ref="loc000348">Greifensee</placeName> war.
+<persName ref="per011033">Edlibach</persName> berief sich dabei auf einen Vertrag,
+der zwischen seinem Amtsvorgänger <persName ref="per012736">Oswald Schmid</persName> und <persName ref="per004692">Batts</persName> Vater,
+<persName ref="per004609">Andres Roll von Bonstetten</persName>, geschlossen worden war
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_041">SSRQ ZH NF II/3, Nr. 41</ref></bibl>).
+Eigenhändig erstellte er davon mehrere Abschriften, die er teilweise noch ausführlich kommentierte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=689752">StAZH C I, Nr. 2559, S. 2-3</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=689577">StAZH A 123.11, Nr. 1, S. 58-59</ref></bibl>;
+Edition: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_048">SSRQ ZH NF II/3, Nr. 48</ref></bibl>).</p>
+<p>Ein weiteres Konfliktfeld ergab sich während seiner Amtszeit mit den Fischern vom <placeName ref="loc008718">Greifensee</placeName>:
+Gemäss einer weiteren Klageschrift <persName ref="per011033">Edlibachs</persName> verweigerten diese um 1506 ihre Abgaben an den Vogt,
+die sie seinen Amtsvorgängern noch geleistet hatten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250303">StAZH C I, Nr. 2505 c 2</ref></bibl>;
+zugehörige Kundschaft in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250304">StAZH C I, Nr. 2505 c 3</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

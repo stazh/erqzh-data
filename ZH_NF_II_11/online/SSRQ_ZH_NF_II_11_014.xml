@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_014</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356954">StAZH C II 6, Nr. 1097</idno></msIdentifier><head>Ergänzung der Rechte des Klosters St. Blasien in seinem Hof in Oerlikon</head><msContents><summary>Die Rechte des Klosters St. Blasien, des Vogts und des Hofs in Oerlikon, die von den Eigenleuten im Mai und Herbst verkündet werden, hält folgende Bestimmungen fest:  Der Hof von St. Blasien in Oerlikon ist dem Vogt gegenüber weder zu Diensten noch Steuern verpflichtet (1). Über Vergehen des Meiers oder seiner Leute gegenüber den Nachbarn hat jedoch der Vogt unter der Linde in Oerlikon zu urteilen (2), desgleichen, wenn dem Meier von den Vogtleuten Unrecht widerfährt (3). Sonstige Klagen von Vogtleuten gegen den Meier sind an den Amtmann von St. Blasien am Stampfenbach zu richten (4). Die Rechte schliessen mit Bestimmungen zu Mähzeiten, Weiderechten und Wegrechten (5-8). </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Einzelblatt</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="19.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1400-01-01" to="1400-12-31"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 3, Nr. 4424</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000037">Meierhof</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000012">Offnung</term><term ref="key000036">Vogtei</term><term ref="key000606">Wegrecht</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_6__Nr__1097__r_.tif"/>
+<p><seg><lb/>Es ist ze wissen, als die hus und hofgenossen ze <placeName ref="loc010598">Oͤrlikon</placeName>
+<date when="--05">ze meijen</date> und <date period="fall">herbst</date>
+<lb/><date dur="R/P1Y">jerlich</date> offnent mines herren von <placeName ref="loc012251">Sant Blesijen</placeName><!-- PS: Hier würde ich placeName tagen, allenfalls herre von SB als orgName. -->, eines vogtes und des hofes 
+<lb/>recht, das da geoffnet wirt.</seg>
+<seg n="1">Des ersten, so hett min herr von <placeName ref="loc012251">Sant Blesijen</placeName>
+<lb/>ze <placeName ref="loc010598">Oͤrlikon</placeName> einen hof, der ist als frij, das er enheinem vogt<note>Zu dieser Zeit lag das Hochgericht bei der Grafschaft <placeName ref="loc000012">Kyburg</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D3122.php">Oerlikon</ref></bibl>).</note> enheinen
+dienst <lb/>thuͦn sol, weder mit stu̍ren noch mit reisen noch mit huͤnren ze geben noch <lb/>mit
+enheiner ander schlacht dienst, da mit man einem vogt dienen sol.</seg></p>
+<p><seg n="2"><lb/>Wer aber, das ein meijer uff dem selben hof oder sin knecht
+ald gesind an einem <lb/>sinem naͧchgeburen freveni teͣtin, dar umb sol ein vogt komen ze
+<placeName ref="loc010598">Oͤrlikon</placeName>
+<lb/>under die linden und sol da richten, naͧch dem, als die freveni ist und das recht <lb/>da
+git.</seg></p>
+<p><seg n="3"><lb/>Ist aber, das ein vogtman an einem meijer da selbes freveni begaͧt und in er<lb break="no"/>zu̍rnt, so sol ein vogt dar umb sitzen und richten, einem als dem andren un<lb break="no"/>gefarlich, und sol aber denn der meijer und dirr hof als frij sin als vor.</seg></p>
+<p><seg n="4"><lb/>Wer oͧch, das jeman einen meijer umb deheiner schlacht sach beklagen woͤlt, aͧn umb 
+<lb/>freveni, da sol nieman ab richten denn ein amptman mines herren von <placeName ref="loc012251">Sant 
+<lb/>Blesijen</placeName> uff dem hus ze <placeName ref="loc010676">Stampfibach</placeName> oder uff dem meijer hof, weders der wil.<note>Zum Amtmann des <orgName ref="org005029">Klosters St. Blasien</orgName> am <placeName ref="loc010676">Stampfenbach</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_004">SSRQ ZH NF II/11, Nr. 4</ref></bibl>.</note></seg></p>
+<p><seg n="5"><lb/>Oͧch hett min herr von <placeName ref="loc012251">Sant Blesijen</placeName> ein wisen da selbes. Wenn die gebursami 
+<lb/><date notAfter="--06-23">vor sant <persName ref="per008194">Johans</persName> tag ze su̍ngichten</date> ze raͧt wirt, das man meijen wil, 
+<lb/>das sond si einem meijer verku̍nden und sagen. Und sol der es denn einem 
+<lb/>probst und amptman uff <placeName ref="loc010676">Stampfibach</placeName> oͧch verku̍nden und sagen.<note>Diese Pflicht der Bauernschaft zur Vorankündigung der Mähzeit ist auch in der späteren Offnung von <placeName ref="loc010598">Oerlikon</placeName> enthalten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_048">SSRQ ZH NF II/11, Nr. 48</ref>, Art. 7</bibl>).</note> Und der 
+<lb/>sol die selben wisen eines tages vor hin meijen. Woͤlt aber inen ein amptman 
+<lb/>und probst u̍ber dis das meijen verziechen <date notAfter="--06-24">untzit uff sant <persName ref="per008194">Johans</persName> tag 
+<lb/>ze su̍ngichten</date>, so mag jederman naͧch disem verku̍nden meyien, wenn 
+<lb/>er sin notdu̍rftig ist.</seg></p>
+<p><seg n="6"><lb/>Man sol oͧch wissen, das man die wisen, so mines herren von <placeName ref="loc012251">Sant Blesijen</placeName> ist, 
+<lb/>verschlachen mag <date when="--04-22">an sant <persName ref="per000270">Jeorijen</persName> abend</date>, und sol man da mit an einen 
+<lb/>vogt ungefreveld han.</seg></p>
+<p><seg n="7"><lb/>Es sol oͧch durch die selben <placeName ref="loc012034"><orgName ref="org005029">Blesijer</orgName> Wisen</placeName>, wenn man hoͤiuwet, ze jetweder 
+<lb/>siten uf ein weg gaͧn <date dur="P8D">acht tag</date> und nicht me, aͧn geverd.</seg></p>
+<p><seg n="8"><lb/>Wer aber, das jeman da fuͤr, der nicht durch recht da faren sol, dem 
+<lb/>mag es ein meijer uff dem <choice><abbr>egen</abbr><expan>egenanten</expan></choice> hof wol werren, und hett da mit gen 
+<lb/>einem vogt nicht gefrevent.</seg></p>
+</div>
+<pb n="v" facs="StAZH_C_II_6__Nr__1097__v_.tif
+"/>
+<div><ab type="dorsal" place="verso" hand="hand19c?"><lb/><choice><abbr><unclear>Stfb</unclear><!-- ahh an PS: oder ist der b sicher? PS: ich würde unclear lassen--></abbr><expan>Stiftsbuch</expan></choice>
+<lb/><choice><abbr>p<hi rend="sup">a</hi></abbr><expan>pagina</expan></choice> 491</ab></div>
+</body>
+<back>
+<div n="1"><p>Das Pergamentblatt weist eine zeitgenössische Seitenzählung (S. 33 und 34) und Spuren einer Heftung am oberen und unteren linken Rand auf. Dies könnte ein Hinweis darauf sein, dass das Blatt in späterer Zeit aus einem Konvolut herausgetrennt worden ist. Im gleichen Zug mag die Blattzählung auf der Rückseite (fol. 197) angebracht worden sein. Eine Foliierung von gleicher Hand ist auch am Kopf der älteren Hofrechte angebracht worden (fol. 197 bei <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_004">SSRQ ZH NF II/11, Nr. 4</ref></bibl>; fol. 159 bei StAZH C II 6, Nr. 1052 b).</p></div>
+<div n="2"><p>Diese Aufzeichnung ergänzt eine ältere Aufzeichnung der Rechte des <orgName ref="org005029">Klosters St. Blasien</orgName> im <placeName ref="loc005908">Schwarzwald</placeName> in seinem Hof in <placeName ref="loc010598">Oerlikon</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_004">SSRQ ZH NF II/11, Nr. 4</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

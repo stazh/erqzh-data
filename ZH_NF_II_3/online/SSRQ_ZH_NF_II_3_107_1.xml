@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_107_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302345">StAZH B III 143, S. 1-18</idno>
+</msIdentifier>
+<head>Ordnung der Fischer am Greifensee</head>
+<msContents>
+<summary>Angesichts von Berichten über Missstände, die sich bei der Fischerei im Greifensee eingeschlichen haben und die den alten
+Regelungen widersprechen, erstellen die Rechenherren eine neue, auf der alten Einung basierende Ordnung, die den Fischern vom Greifensee
+alljährlich am Ostermontag in Beisein des Säckelmeisters und des Landvogts verkündet werden und von den Fischern nach altem Brauch beschwört
+werden soll. Behandelt werden unter anderem bestimmte Schonzeiten (1, 6, 13-14), Abgaben an den Landvogt (2), Massnahmen bezüglich
+Frischhaltung (3), das Fangen von Hechten (4, 8), Egli (5, 7) und Brachsen (12), die Grösse der Garne und Netze (9, 11) sowie die Anzahl von
+Reusen und Netzen (10). Die Fischer sind verpfichtet, sämtliche Fische auf dem Markt der Stadt Zürich zu verkaufen (15). Wer gegen diese
+Bestimmungen verstösst, wird vom Landvogt mit einer Busse von 5, 10 oder mehr Pfund bestraft (16). Der Rat behält sich vor, diese Artikel zu
+ändern, zu erweitern oder zu kürzen.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<author role="scribe">Rechenschreiber der Stadt Zürich</author>
+<filiation type="current">Aufzeichnung, Band (42 Blätter)</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="20.5"/>
+<width unit="cm" quantity="16.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate when="1738-03-25"/></origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000184">Bussen</term>
+<term ref="key000179">Eid</term>
+<term ref="key000536">Fischerei</term>
+<term ref="key000715">Gewässer</term>
+<term ref="key004022">Satzung</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head type="title"><lb/>Ordnung <lb/>vor die fischere in dem <lb/><placeName ref="loc008718">Greiffensee</placeName>, <lb/>ernëueret
+<lb/><origDate when="1738">anno 1738</origDate>, <lb/>welcher beygefüget ist des <lb/>see-knechts eydt im <placeName ref="loc008718"
+>Greiffensee</placeName>, <lb/>deßgleichen einiche ordnungen den <lb/><placeName ref="loc008718">Greiffensee</placeName> und <placeName
+ref="loc008848">Uster-Bach</placeName>
+<abbr>etc</abbr>
+<lb/>betreffend </head>
+<pb n="2"/>
+<pb n="3"/>
+<head type="subtitle">Vorbericht</head>
+<p><lb/>Nachdeme mein <lb/>gnädig herren, die herren <orgName ref="org004911"
+                                >rechen-<lb/>räthe</orgName>, mißfällig vernemmen müßen, <lb/>wie daß die zeit und jahr haro in dem <lb/><placeName
+                                ref="loc008718"
+                                >Greiffensee</placeName> vielerley schädliche, denen <lb/>alten wol abgefaßten ordnungen <lb/>zu wieder lauffende mißbraüch <pb
+                                n="4"/>
+                            <lb/>eingeschlichen und sich ergeben, haben <lb/>hochgedacht dieselbe eine ohnum<lb
+                                break="no"/>gängliche nothwendigkeit, um dieße<lb break="no"
+                                />ren die abhelffliche maß zugeben, zu <lb/>seyn erachtet, folgende neüe, auß denen <lb/>alten gezogene ordnung zumachen, <lb/>welche <date
+                                dur="R/P1Y">alljährlichen</date> denen fischeren <lb/>des <placeName
+                                ref="loc008718">Greiffensees</placeName> an dem <date
+                                type="floating holiday">ostermon<lb break="no"
+                                        />tag</date><note>Die Verkündigung und Beschwörung der Fischereinung war traditionellerweise an den Ostertermin geknüpft, wie es im Eid des Landvogts festgehalten ist (<bibl><ref
+                                        target="/suche/detail/SSRQ_ZH_NF_II_3_064"
+                                        >SSRQ ZH NF II/3, Nr. 64</ref>, Art. 5</bibl>). Gemäss Artikel 27 in den Nachträgen zur Fischereinung dauerte die Fischerei-Saison jeweils von Ostern bis Martinstag (11. November) (<bibl><ref
+                                        target="/suche/detail/SSRQ_ZH_NF_II_3_021"
+                                        >SSRQ ZH NF II/3, Nr. 21</ref>, Art. 27</bibl> und <bibl><ref
+                                        target="/suche/detail/SSRQ_ZH_NF_II_3_022"
+                                    >Nr. 22</ref>, Art. 27</bibl>).</note> in bey seyn eines <hi
+                                rend="font change">herren</hi> sec<lb break="no"
+                                />kelmeisters und herren landvogts <lb/>vorgelesen und sie darüber von ge<lb
+                                break="no"
+                                />dachtem herren seckelmeister in <lb/>das hand gelübd nach bißharigem <lb/>gebrauch genommen, auch ihnen <lb/>alles ernsts angezeiget werden, daß,<pb
+                                n="5"/>
+                            <lb/>wann der eint ald andere dießere wohl<lb break="no"
+                                />gemeinte ordnung übertretten wur<lb break="no"
+                                />de, ein herr land-vogt einen solchen <lb/>nicht allein nach derselben inhalt ab<lb
+                                break="no"/>zustraffen, sondern auch nach befin<lb break="no"
+                                />denden dingen in mehrerem anzuse<lb break="no"
+                            />hen die befuegsamme haben solle. </p>
+<pb n="6"/>
+<pb n="7"/>
+<head type="subtitle"><lb/>Ordnung <lb/>vor die fischere in dem <lb/><placeName ref="loc008718">Greiffensee</placeName></head>
+<p><seg n="1"><lb/>Erstlichen sollen die <lb/>fischere nicht befüegt seyn, einiche <lb/>albulen in dem <placeName ref="loc008718"
+>Greiffensee</placeName>, wei<lb break="no"/>len sie in dem laich sind, zufangen, sie <lb/>haben dann zu vor von einem jeweili<lb break="no"
+/>gen herren landvogt die erlaubnuß dar<lb break="no"/>zu erhalten, der ihnen dann nach be<lb break="no"/>schaffenheit der zeiten und
+umständen <pb n="8"/>
+<lb/>bewilligen mag, selbige währender laichs <lb/>zeit, jedoch mit bescheidenheit, <date dur="P3W">drey <lb/>wochen</date> lang fangen zu
+mögen. Und <lb/>so der eint ald andere sich unterstehen <lb/>wurde, ein mehrers zu thun, wird er, <lb/>herr landvogt, einen solchen mit
+<measure type="currency" unit="lb" quantity="5">fünf <lb/>pfunden</measure> ohnnachläßlicher buß <lb/>belegen.<note>Dieser Punkt ist
+angelehnt an Artikel 1 der alten Fischereinung, wird hier jedoch bezüglich Aussnahmeregelungen präzisiert (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 1</bibl>).</note>
+</seg></p>
+<p><seg n="2"><lb/>Zweitens sollen sie, die <lb/>fischere, einem jeweiligen herren land<lb break="no"/>vogt den gewohnlichen see zinß nach
+<lb/>bißhäriger üebung geflißen abstat<lb break="no"/>ten und entrichten.<note>Dieser Punkt ist angelehnt an Artikel 2 der alten
+Fischereinung, wobei die dort aufgeführten Regelungen betreffend Art und Höhe der Abgaben hier fehlen (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 2</bibl>).</note>
+</seg></p>
+<pb n="9"/>
+<p><seg n="3"><lb/>Drittens solle ein jeder <lb/>weidmann oder fischer ein saßen <lb/>oder floßschifflein in seinem schiff <lb/>haben, da
+mit er die hecht und andere <lb/>fisch, die er fangt, lebendig behalten <lb/>könne.<note>Dieser Punkt ist angelehnt an Artikel 3 der alten
+Fischereinung, wobei die dort aufgeführten Regelungen betreffend Ablieferung und Kontrolle hier fehlen (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 3</bibl>).</note>
+</seg></p>
+<p><seg n="4"><lb/>Viertens solle niemand <lb/>keinen hecht fangen mögen, es gesche<lb break="no"/>he dann mit dem weiten geschirr <lb/>nach
+dem hecht brittli, bey <measure type="currency" unit="lb" quantity="5">fünff <lb/>pfunden</measure> buͦß.<note>Dieser Punkt ist angelehnt an
+Artikel 4 der alten Fischereinung, wird hier jedoch hier bezüglich Messmethode sowie Bussenhöhe präzisiert (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 4</bibl>). Damit wurde eine Forderung aufgegriffen, die
+bereits anlässlich der Neufassung der Fischereinung im Jahr 1519 aufgekommen war (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_055">SSRQ
+ZH NF II/3, Nr. 55</ref></bibl>).</note>
+</seg></p>
+<p><seg n="5"><lb/>Fünfftens sollen die <pb n="10"/>
+<lb/>bären, so biß dahin zu dem egli-fang <lb/>gebraucht worden, gäntzlichen abge<lb break="no"/>strickt und verbotten seyn, und das by
+<lb/>verlurst der bären und <measure type="currency" unit="lb" quantity="5">fünff pfund<lb break="no"/>den</measure> buß, wie auch <measure
+type="currency" unit="lb" quantity="1">ein pfund gelts</measure>
+<lb/>deme, so einen solchen fehlbahren lai<lb break="no"/>den wird.<note>Dieser Punkt ist angelehnt an Artikel 5 der alten Fischereinung,
+wird hier jedoch als generelles Verbot formuliert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art.
+5</bibl>).</note>
+</seg></p>
+<p><seg n="6"><lb/>Sechstens solle auch nie<lb break="no"/>mand keinen schwaalen fahen, wann <lb/>er in dem laich ist, weder in engen
+<lb/>netzenen nach in engen bären, auß<lb break="no"/>genommen mit einem mäschen al<lb break="no"/>lein. So aber die schwaalen nicht
+<lb/>mehr in dem laich, mögen sie, die <pb n="11"/>
+<lb/>fischere, das gantze jahr, wann es von <lb/>einem herren landtvogt erlaubt und <lb/>bewilliget wird, mit dem netzi, so nach <lb/>dem
+brittli gemachet und der boller <lb/>mäschen genent wird, und mit dem <lb/>bären, über das kleine hecht brittli <lb/>verfertiget, in den see
+fahren und sel<lb break="no"/>bige gebrauchen. Und so einer <lb/>in dem schwaalen-laich ein anders <lb/>als das weite hecht geschirr ge<lb
+break="no"/>brauchte, ein solcher nach beschaffen<lb break="no"/>heit mit mehrerer buß beleget und <lb/>angesehen werden.<note>Dieser Punkt
+ist angelehnt an Artikel 6 der alten Fischereinung, wird hier jedoch bezüglich Aussnahmeregelungen präzisiert (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 6</bibl>).</note>
+</seg></p>
+<p><seg n="7"><lb/>Sibendens solle niemand <pb n="12"/>
+<lb/>keine egli-hürling das gantze jahr durch <lb/>fangen, es werde ihme dann von einem <lb/>herren landtvogt erlaubt, in der fehr<lb
+break="no"/>neren meinung, das der heürling<lb/>-fang von seinem anfang an langer <lb/>nicht als <date dur="P4W">vier</date> biß <date
+dur="P5W">fünff wochen</date> wäh<lb break="no"/>ren solle.<note>Dieser Punkt ist angelehnt an Artikel 8 der alten Fischereinung, wobei die
+dort aufgeführten Ausnahmeregelungen hier fehlen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art.
+8</bibl>).</note>
+</seg></p>
+<p><seg n="8"><lb/>Achtens solle niemand <lb/>keine hechtschnur in den see ohne erlaub<lb break="no"/>nuß setzen mögen.<note>Dieser Punkt
+ist angelehnt an Artikel 9 der alten Fischereinung, wird hier jedoch als generelles Verbot formuliert (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 9</bibl>).</note>
+</seg></p>
+<p><seg n="9"><lb/>Neüntens solle nie<lb break="no"/>mand, der garn in den see führt, <pb n="13"/>
+<lb/>dieselbige länger alß <measure type="length" unit="Klafter" quantity="38">38 klaffter</measure>
+<lb/>lang darein führen, auch nicht befüegt <lb/>seyn, deren zwey an einanderen bin<lb break="no"/>den oder machen zu mögen.<note>Dieser
+Punkt entspricht inhaltlich dem Artikel 12 der alten Fischereinung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3,
+Nr. 17</ref>, Art. 12</bibl>).</note>
+</seg></p>
+<p><seg n="10"><lb/>Zehendens solle niemand <lb/>mehr alß <num value="60">sechzig</num> bären, der namli<lb break="no"/>chen einen gantzen
+gewerb hat, und <lb/>einer, der einen gantzen netzen-ge<lb break="no"/>werb hat, nicht mehr alß <num value="20">zwantzig</num>
+<lb/>netzen in den see setzen mögen und <lb/>beide nach dem brittli, so darüber <lb/>gegeben ist, gemachet werden.<note>Dieser Punkt ist
+angelehnt an Artikel 19 in den Nachträgen zur Fischereinung, wobei die dort aufgeführten Regelungen betreffend Teilung der Gewerbe hier
+fehlen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref>, Art. 19</bibl> und <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_022">Nr. 22</ref>, Art. 19</bibl>).</note>
+</seg></p>
+<pb n="14"/>
+<p><seg n="11"><lb/>Elfftens solle kein gantzes <lb/>netze mehr alß <num value="2400">2400</num> stuedlen <lb/>lang, <num value="32"
+>32</num> reißen hoch und nach dem <lb/>bridtli gemachet seyn.<note>Dieser Punkt ist angelehnt an Artikel 20 in den Nachträgen zur
+Fischereinung, doch wird die dort aufgeführte Zahl von 32 Netzen hier zur Definition der Netzhöhe verwendet (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref>, Art. 20</bibl> und <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_022">Nr. 22</ref>, Art. 20</bibl>).</note>
+</seg></p>
+<p><seg n="12"><lb/>Zwölfftens solle keiner <lb/>keine brachsmann fangen mögen, er <lb/>habe dann darzu die bewilligung <lb/>von dem herren
+landvogt erhalten.<note>Dieser Punkt ist angelehnt an Artikel 22 und 23 in den Nachträgen zur Fischereinung, wird hier jedoch bezüglich
+Bewilligung durch den Landvogt präzisiert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref>, Art.
+22-23</bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_022">Nr. 22</ref>, Art. 22-23</bibl>). Damit wurde ein Anliegen
+aufgegriffen, das die Garner vermutlich anlässlich der Neufassung der Fischereinung im Jahr 1519 formuliert hatten (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_055">SSRQ ZH NF II/3, Nr. 55</ref></bibl>).</note>
+</seg></p>
+<p><seg n="13"><lb/>Dreyzehendens sollen die, <lb/>so mit netzen und bären zu see fah<lb break="no"/>ren, selbige alle <date period="P7WD"
+>samstag</date>
+<time period="morning">morgens</time>
+<pb n="15"/>
+<lb/><time when="08:00:00">um 8 Uhren</time> auß dem selbigen hin<lb break="no"/>weg thun, am <date period="P2WD">montag</date> aber wide<lb
+break="no"/>rum darein thun dörffen.<note>Dieser Artikel hat keine Entsprechung in der alten Fischereinung.</note>
+</seg></p>
+<p><seg n="14"><lb/>Vierzehendens sollen <lb/>die garnfischere den engen sack an <lb/>denen garnen zu keinen zeiten alß <lb/>in dem
+heürling-fang gebrauchen <lb/>dörffen und, wann dießer vorbey, <lb/>selbiger hinweg gethan und abgehauen <lb/>werden, auch die ihnen
+bestimte zeit <lb/>in treüen beobachten und keine neü<lb break="no"/>en züg thun.<note>Dieser Artikel hat keine Entsprechung in der alten
+Fischereinung.</note>
+</seg></p>
+<pb n="16"/>
+<p><seg n="15"><lb/>Fünffzehendens sollen <lb/>alle und jede fischere schuldig und <lb/>verbunden seyn, alle die jenige fische, <lb/>so sie
+fangen, es seye, wann es wolle, <lb/>außgenommen was ein herr landt<lb break="no"/>vogt vor seinen gebrauch in dem schloß <lb/>nöthig hat,
+nach <placeName ref="loc000065">Zürich</placeName> in die stadt auf <lb/>den <placeName ref="loc008753">Fischmarkt</placeName> daselbst und
+nicht <lb/>mehr in <hi rend="font change">privat</hi> haüßer oder klöster <lb/>oder andere orth, wie biß dahin zu <lb/>wider der alten
+ordnung beschechen, <lb/>zu tragen und alda offentlich zu <lb/>verkauffen.<note>Dieser Punkt greift einen Entscheid des Rats von 1431 auf,
+dem offenbar häufig zuwidergehandelt wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_019">SSRQ ZH NF II/3, Nr. 19</ref></bibl>).
+Ähnliche Regelungen finden sich in Artikel 17 und 18 in den Nachträgen zur Fischereinung (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref>, Art. 17-18</bibl> und <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_022">Nr. 22</ref>, Art. 17-18</bibl>).</note>
+</seg></p>
+<p><seg n="16"><lb/>Endtlichen, so sich jemand <pb n="17"/>
+<lb/>unterstehen wurde, wieder obbe<lb break="no"/>melte punckten und artikul zu <lb/>handle, solle ein sollcher von einem <lb/>jeweiligen
+herren landtvogt zu <lb/><placeName ref="loc000348">Greiffensee</placeName> mit <measure type="currency" unit="lb" quantity="5"
+>fünff</measure>, <measure type="currency" unit="lb" quantity="10">zechen</measure>
+<lb/>oder mehreren pfunden buß, je <lb/>nach beschaffenheit des fehlers, ab<lb break="no"/>gestrafft oder auch mit der gefan<lb break="no"
+/>genschafft gebüßt werden.<note>Dieser Punkt ist angelehnt an Artikel 14 der alten Fischereinung, wobei die Busse bei Verstössen gegen die
+Einung dort mit 12 Schilling zuhanden des Vogts und 12 Schilling zuhanden der Weidleute angegeben wird (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref>, Art. 14</bibl>).</note>
+</seg></p>
+<p><lb/>Worbey aber sich meine gnä<lb break="no"/>dige herren heiter vorbehalten, <lb/>mehr bemelte punckten und ar<lb break="no"/>tickul
+nach beschaffenheit der zeiten, <pb n="18"/>
+<lb/>sachen und umständen abände<lb break="no"/>ren, verminderen und vermehren zu <lb/>mögen. </p>
+<p><lb/>Actum <origDate when="1738-03-25">dienstags, den 25ten <lb/>martii, anno 1738</origDate>, <lb/>coram <orgName ref="org004911">rechen
+rath</orgName>. </p>
+<signed><lb/>Rechenschriber</signed>
+<p><gap reason="irrelevant"/><note>Auf den nachfolgenden Seiten wurden diverse weitere Regelungen betreffend <placeName ref="loc008718"
+>Greifensee</placeName> und <placeName ref="loc008848">Usterbach</placeName> eingetragen, die bereits in der erneuerten Fischereinung von
+1574 kompiliert worden waren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_086">SSRQ ZH NF II/3, Nr. 86</ref></bibl>), nämlich der Eid
+des Seeknechts vom <date when="1650-04-15">15. April 1650</date><!-- rhr: calendar="Julian" nicht nötig, da auf Ostern datiert. --> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302363">S. 25-26</ref>; Edition: <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_097">SSRQ ZH NF II/3, Nr. 97</ref></bibl>), das Verbot des Schilfmähens vom <date when="1569-03-28"
+>28. März 1569</date> (<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302377">S. 27-28</ref>), das Urteil in einem
+Streit über die Ufernutzung des <placeName ref="loc008718">Greifensees</placeName> vom <date when="1615-01-18" calendar="Julian">18. Januar
+1615</date> (<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302378">S. 29-36</ref>), ein Entscheid betreffend Nutzung
+des Schilfs am <placeName ref="loc008718">Greifensee</placeName> vom <date when="1621-04-02" calendar="Julian">2. April 1621</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302379">S. 37-39</ref>), ein Entscheid über das Schneiden von Streumaterial im
+<placeName ref="loc008718">Greifensee</placeName> vom <date when="1729-12-13">13. Dezember 1729</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302380">S. 41-42</ref>), das Urteil in einem Streit über das Fischen in den
+Gräben am <placeName ref="loc008718">Greifensee</placeName> vom <date when="1569-12-14">14. Dezember 1569</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302381">S. 43-56</ref>), Bestimmungen betreffend Fischerei im <placeName
+ref="loc008848">Usterbach</placeName> vom <date when="1559-06-24">24. Juni 1559</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302383">S. 57-64</ref>), Bestimmungen für das Fangen von Fischen und Krebsen
+im <placeName ref="loc008848">Usterbach</placeName> vom <date when="1569-09-01">1. September 1569</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302401">S. 65-73</ref>), ein Entscheid über das Ziehen der Setzgarne im
+<placeName ref="loc008848">Usterbach</placeName> vom <date when="1580-01-06">6. Januar 1580</date> (<ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302549">S. 75-78</ref>) sowie das Urteil in einem Streit um die
+Fischereirechte im <placeName ref="loc008848">Usterbach</placeName> vom <date when="1606-08-02" calendar="Julian">2. August 1606</date>
+(<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302571">S. 79-84</ref>). Nachträglich wurden auf freien Seiten noch
+weitere Bestimmungen über das Abschneiden von Rohr im <placeName ref="loc008718">Greifensee</placeName> vom <date when="1779-07-13"
+calendar="Julian">13. Juli 1779</date> eingetragen (<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4302359">S.
+19-21</ref>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Gegenüber der alten Fischereinung von 1428 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_017">SSRQ ZH NF II/3, Nr. 17</ref></bibl>)
+mit ihren zahlreichen Nachträgen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_019">SSRQ ZH NF II/3, Nr. 19</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_3_021">Nr. 21</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_022">Nr.
+22</ref></bibl>) und den verschiedenen Neufassungen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_056">SSRQ ZH NF II/3, Nr.
+56</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_086">Nr. 86</ref></bibl>) ist die vorliegende Ordnung viel kürzer und
+knapper formuliert. Inhaltlich lehnen sich die aufgelisteten Punkte zwar grösstenteils noch an die alte Einung an, doch wurden mehrere
+Artikel weggelassen (7, 10-11, 13, 15-16), während andere lediglich paraphrasiert oder nunmehr als generelles Verbot formuliert wurden (5,
+9, 17-18). Bezeichnenderweise wird die vorliegende Fassung auch nicht mehr als genossenschaftliche <q>Einung</q>, sondern als obrigkeitliche
+<q>Ordnung</q> betitelt. Der herrschaftliche Zugriff auf die Fischer vom <placeName ref="loc008718">Greifensee</placeName> und ihre
+althergebrachten Rechte war damit komplett. So behielt sich der Rat denn auch ausdrücklich vor, die Regelungen eigenmächtig zu ändern, zu
+kürzen oder zu erweitern. </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

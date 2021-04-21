@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_040_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935684">StAZH A 43.1.2, Nr. 2, S. 40</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Wahlfähigkeit der vor der Stadt innerhalb der Stadtkreuze Ansässigen in den Grossen Rat</head><msContents><summary>Bürgermeister, Kleiner Rat, Zunftmeister und Grosser Rat bestimmen nach Konsultation des Geschworenen Briefes, dass Personen, die ausserhalb der Stadtmauern, jedoch innerhalb der Stadtkreuze wohnhaft sind, das passive Wahlrecht für den Grossen Rat zusteht, sofern sie zehn Jahre lang Mitglied der Konstaffel oder einer der Zünfte gewesen sind oder ihre Zunftmitgliedschaft erblich erworben haben. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1489-12-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000305">Grenze</term><term ref="key000364">Rat</term><term ref="key000555">Wahlen</term><term ref="key003068">Zunft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="40"/>
+<head><app><lem><lb/>Erkantnu̍ss dero halb</lem><rdg wit="StAZH B III 6, fol. 17v">Das die</rdg></app>, so vor der stat und doch innerhalb
+<lb/>den <placeName ref="loc010771">Kru̍tzen</placeName> geseͣssen sind <app><lem>und</lem><rdg wit="StAZH B III 6, fol. 17v"/></app> in den <orgName ref="org004906">grosen raͧt</orgName>
+<app><lem/><rdg wit="StAZH B III 6, fol. 17v">mogent</rdg></app> erwelt werden</head>
+<p><seg><app><lem><lb/>Wir, der <orgName ref="org002406">burgermeister, der raͧt, die zunfftmeister und der groͧs raͧt der 
+<lb/>stat <placeName ref="loc000065">Zuͤrich</placeName></orgName>, thuͦnd kund menglichem hiemit,</lem><rdg wit="StAZH B III 2, S. 342; StAZH B III 6, fol. 17v; StAZH B III 4, fol. 33r; StAZH B III 5, fol. 76r"/></app> als ein irrung 
+<lb/>gewaͤsen ist, von deren wegen, so vor der stat und doch innerthalb 
+<lb/>den <placeName ref="loc010771">Kru̍tzen</placeName><note>Zu den <placeName ref="loc010771">Stadtkreuzen</placeName> vgl. auch den Ratsentscheid über die Rechtsstellung der Einwohner innerhalb der <placeName ref="loc010771">Kreuze</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_060">SSRQ ZH NF II/11, Nr. 60</ref></bibl>).</note> geseͣssen sind, also, das etlich in den <orgName ref="org004906">grosen raͧt</orgName> erwelt 
+<lb/>und gesetzt sind, e dann sy <date dur="P10Y">zehen jaͧr </date>in der stat wonhaft geweͣsen 
+<lb/>sind und gemeint worden ist, das soͤlichs wol sin moͤchte und sy 
+<lb/>mit allen dingen glich als ein ingeseͣssner burger geachtot und 
+<lb/>gehalten werden soͤlten.</seg>
+<seg>So aber da gegen der geschworen brieff
+<lb/>verhoͤrt und darinn so vil erfunden ist, das ein jeder ingeseͣssner 
+<lb/>burger <placeName ref="loc000065">Zu̍rich</placeName> in die <orgName ref="org004958">Constaͧfel</orgName> oder in ein <orgName ref="org005085">zunfft</orgName> dienen und 
+<lb/>gehoͤren sol,<note>Vgl. dazu den Vierten Geschworenen Brief sowie den Zunftbrief der <orgName ref="org004958">Konstaffel</orgName>
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>;
+ <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>).</note> so haben wir uns erkendt <app><lem/><rdg wit="StAZH B III 6, fol. 17v">und wollent</rdg></app>, das die, so usserhalb der 
+<lb/>statt und innerhalb den <placeName ref="loc010771">Kru̍tzen</placeName> geseͣssen sind, wol in den <del>grosen</del>
+<orgName ref="org004906">raͧt</orgName>
+<lb/>genommen und gesetzt werden moͤgen, wenn der, <app><lem>so</lem><rdg wit="StAZH B III 6, fol. 18r"/></app> also genommen 
+<lb/>wirt, <date dur="P10Y">zechen jaͧr</date> mit lyb und guͦt in die <orgName ref="org004958">Constaͧfel</orgName> oder ein
+<lb/>zunfft gedient und geton haͧt, als ein andrer ingeseͣssner burger, 
+<lb/>oder das desselben vatter also in <orgName ref="org004958">Constaͧfel</orgName> oder ein zunfft
+<lb/>gedienet und er das von im ererbt hette. Und welicher also 
+<lb/>nit gedienet oder das ererbt haͧt, wie obstaͧt, das der nit in 
+<lb/>den <del>grosen</del>
+<orgName ref="org004906">raͧt</orgName> gesetzt werden soͤlle, bis er die jaͧr zal erfu̍lle,
+<lb/>naͧch lut und sag <app><lem>des</lem><rdg wit="StAZH B III 6, fol. 18r">unnsers</rdg></app> geschwornen brieffs.</seg>
+<seg><app><lem>Actum <origDate when="1489-12-09">mitwoch 
+ <lb/>naͧch sant <persName ref="per001536">Niclaͧs</persName> tag, anno <abbr>etc</abbr> lxxxix<hi rend="sup">o</hi>.</origDate></lem><rdg wit="StAZH B III 2, S. 342; StAZH B III 6, fol. 18r; StAZH B III 4, fol. 33v; StAZH BIII 7, fol. 76r"/></app></seg>
+</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

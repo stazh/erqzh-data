@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_054</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25582">StArZH VI.WO.C.4., S. 1-18</idno></msIdentifier><head>Offnung der Gemeinde Wollishofen</head><msContents><summary>Die Gemeinde Wollishofen mit Erdbrust und Honrain erlässt zum Schutz der Allmende und bestehender Rechtsgewohnheiten sowie zur Vermeidung von Konflikten eine Offnung in Anwesenheit von Jakob Baur, amtierendem Obervogt von Wollishofen und Umgebung. Die zahlreichen Artikel beschränken sich auf genossenschaftliche Bestimmungen (1-24) sowie Regelungen mit den angrenzenden Ortschaften Leimbach, Bendlikon und Adliswil (25-32) und einzelnen Anstössern (33-35), die auf teilweise datierte Urteile von Nutzungskonflikten zurückgehen.  Geregelt werden folgende Punkte: Berechtigung an der Allmende (1), Austeilen des Allmendholzes (2, 5, 8), Verbot der Weitergabe der Allmendnutzungsberechtigung an Auswärtige (4), Regelungen und Bussen bei ungebührlichem Holzhau (6, 7), Weiderecht (3, 9, 10, 14) und Bussen bei Verstössen (13, 15-18), Einzäunung (11, 12) und Bussen bei Verstössen (19-24), Einzugsgebühr (36), Teilnahme an der Gemeindeversammlung und dem Gemeinwerk und Bussen bei Nichterscheinen (37, 38), Übernahme der Gerichtskosten bei Konflikten betreffend die Artikel der Offnung (39), Gelöbnis der Gemeinde, sich an die Bestimmungen der Offnung zu halten (40), Eidesleistung von neuen Geschworenen gegenüber dem Obervogt auf die Offnung bei deren Einsetzung (41). Anschliessend folgt ein Verzeichnis der Güter, die der Gemeinde gehören.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift (Grundtext)</filiation><filiation type="original"><origDate when="1531-03-02"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1701-01-01" to="1800-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000065">Amtleute</term><term ref="key000591">Anzeigepflicht</term><term ref="key000184">Bussen</term><term ref="key000479">Dienstpflicht</term><term ref="key000179">Eid</term><term ref="key004132">Einzug</term><term ref="key004966">Gemeinde</term><term ref="key000827">Geschworene</term><term>Grenzen</term><term ref="key000596">Hirten</term><term ref="key000524">Holz</term><term ref="key000188">Verkehrswege</term><term ref="key004098">Versammlung</term><term ref="key000606">Wegrecht</term><term ref="key000048">Weiderecht</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="1" type="original"/>
+<div><head><lb/>Offnung einer ehrsammen <orgName ref="org007948">gemeind <lb/><placeName ref="loc009865">Wollißhofen</placeName></orgName></head></div>
+<div><p><lb/>Auß gunst, verwilligung und nachlaßen der 
+<lb/>strängen, frommen, vesten, fürsichtigen, ehrsammen und 
+<lb/>weysen <orgName ref="org002406">burgermeisters und räthen der statt <placeName ref="loc000065">Zürich</placeName></orgName>, 
+<lb/>unßeren gnädigen lieben herren, habend wir, ein gan<lb break="no"/>tze 
+<orgName ref="org007948">gemeind von <placeName ref="loc009865">Wollißhofen</placeName>, <placeName ref="loc012102">Erdbrust</placeName> und <placeName ref="loc012648">Honreyn</placeName></orgName>,
+<lb/>von wegen unßers gemeinwercks-güeteren, gerech<lb break="no"/>tigkeiten 
+und altem harkommen, so wir vermeinen ze<lb break="no"/>haben, 
+mehreren zangk, ohneinigkeit, kosten und scha<lb break="no"/>den 
+sich unter uns geben möchte, zuvorkommen, umb 
+<lb/>gemeinlich nachfolgender articklen vereinbahrt, in gegen<lb break="no"/>wertigkeit 
+und beyweßen deß ehrsammen und wy<lb break="no"/>sen 
+meister <persName ref="per014242">Jacob Puren</persName>, deß <orgName ref="org004016">raths <placeName ref="loc000065">Zürich</placeName></orgName>, diser 
+<lb/>zeit genampter unßer gnädigen lieben herren ober<lb break="no"/>vogt 
+allda zu <placeName ref="loc009865">Wollißhofen</placeName> und daselbstum, uns 
+<lb/>dero jetzt und hernach zegebrauch bey nachfolgenden 
+<lb/>bußen.</p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Vertheilung <lb/>des holzes</ab></div>
+<p><seg n="1"><lb/>Deß ersten, daß gemeinwerck und gerechtigkeit 
+<lb/>der höltzeren, alßo so mann daß holtz außtheilt, 
+<lb/>daß dann einem jeden zu <date period="fall">herbst</date> nach altem brauch 
+<lb/>nüt weyter geben noch werden solle, dann nach dem
+<pb n="2" type="original"/>
+<lb/>unter vil gerechtigkeit hat.</seg></p>
+<p><seg n="2"><lb/>Und so mann daß holtz außtheilt, so soll ein jeder 
+<lb/>den gschwohrnen den einigung loben bei verlieh<lb break="no"/>ung 
+deß holtzes deßelbigen jahres, alles nach altem 
+<lb/>brauch.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Weidgang <lb/>in die waldung</ab></div>
+<p><seg n="3"><lb/>Wellicher auch <measure quantity="1" type="area" unit="Gertel" commodity="wood">ein gertel holtz</measure> innhat, der daruff soll 
+ <lb/>und mag <num value="2">zwo</num> kühe und <num value="1">ein</num>
+<measure type="age" unit="year" quantity="1">jähriges</measure> kalb außlaßen.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Keine gerechtigkeit <lb/>soll außer die <lb/>gemeinde ver<lb break="no"/>liehen werden.</ab></div>
+<p><seg n="4"><lb/>Es soll auch niemand kein gerechtigkeit verliehen 
+<lb/>außerthalb der gmeind, sonderen ein nachbahr dem <lb/>anderen abempfahen.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Das holtz soll <lb/>bis <date when="--05-01" type="deadline">1. mai</date> weg<lb break="no"/>geführt werden.</ab></div>
+<p><seg n="5"><lb/>Item und so daß holtz außgetheilt wird, daß alßo 
+<lb/>dann ein jeder daß syn auff den <date when="--05-01" type="deadline">ersten tag meyen</date>
+<lb/>da dannen than haben solle; dann waß demmnach er<lb break="no"/>griffen 
+wird, daß solle einer gemeind zugehören, 
+<lb/>es seye ligends ald standts.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Holtzfrevel</ab></div>
+<p><seg n="6"><lb/>Sehe auch einer den anderen holtz tragen, daß ihn 
+<lb/>gefahrlich bedüchte, der soll ihn darumb fraagen, 
+<lb/>und ob er ihm nit antwort gebe<del rend="blackened">n</del>, die ihn gebührlich 
+<lb/>beduncken wöllte, soll er daßelbig den geschwohrnen 
+<lb/>anzeigen.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Bußen für <lb/>holzdiebstal</ab></div>
+<p><seg n="7"><lb/>Wellicher auch jetz ald hernach, über kurtz oder lang, 
+<lb/>einicherley holtzes in unßeren, obgenannten von <placeName ref="loc009865">Wol<pb n="3"/><lb break="no"/>lißhofen</placeName>, höltzeren abhauwt und hinführt ohne unßeren 
+<lb/>gunst, wüßen und willen und der geleidet wird, 
+<lb/>der soll zu bueß geben von einer eychen <measure quantity="12" unit="bz" type="currency">zwölff 
+<lb/>batzen</measure>, von einer tannen <measure type="currency" quantity="1" unit="lb">ein pfundt haller</measure>, von ei<lb break="no"/>ner reiffstangen, aspen und anderem gemeinem 
+<lb/>holtz von jedem stumpen <measure type="currency" quantity="5" unit="ß">fünff schilling haller</measure>
+<lb/>lauth eines versigleten schirmb-brieffs, von un<lb break="no"/>ßeren gnädigen herren außgangen.<note>Diese Urkunde ist als Entwurf (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3356635">StAZH B V 10, fol. 168v-169r</ref></bibl>) sowie als Abschrift weiter hinten im Kopialbuch von <placeName ref="loc009865">Wollishofen</placeName> überliefert (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25581">StArZH VI.WO.C.4., S. 59-60</ref></bibl>).</note></seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Anzahl der gertel</ab></div>
+<p><seg n="8"><lb/>Es gibt auch ein gemeind <date dur="R/P1Y">jährlichen</date> von ihren nach<lb break="no"/>beschribnen 
+höltzeren an holtz auß <measure quantity="48" unit="Gertel" commodity="wood" type="area">viertzig acht ger<lb break="no"/>tel</measure> 
+und <measure quantity="1" unit="Vierling" type="area" commodity="wood">einen vierling</measure><!-- ahh an PS: Urspr. ein Messer zum Schneiden von Bäumen und Hecken vgl. Gertel I, dann wohl als Masseinheit für eine Fläche, die man mit dem Werkzeug "bearbeitet" (deshalb passend mit Vierling erwähnt) von Holz vgl. Bsp. unter Gerter III mit der Angabe, dass ein Gerter 4 Vierling einhält: https://digital.idiotikon.ch/idtkn/id2.htm#!page/20443/mode/2up-->.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Weder rinder <lb/>noch roß sollen <lb/>auf die braach</ab></div>
+<p><seg n="9"><lb/>Item, es soll auch gantz niemandts weder rinder 
+<lb/>noch roß auff der braach haben, auch keinen gehey<lb break="no"/>leten<!-- ahh: kastriert vgl. Idiotikon, Bd. 2, Sp. 1145: https://digital.idiotikon.ch/idtkn/id2.htm#!page/21143/mode/2up --> 
+stier, so über <measure type="age" unit="year" quantity="1">jährig</measure> ist, sondern die an den 
+<lb/>orthen und enden haben, alß hernach gelütheret und 
+<lb/>geschriben staht.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Zugvieh</ab></div>
+<p><seg n="10"><lb/>Wellicher auch ziehend viehe haben will, der mag daß 
+<lb/>weiden an orthen und enden in neßlen, wo mann mit 
+<lb/>der sichlen und segeßen sollichs nit nutzen mag 
+<lb/>und er ohne schaden dar und dannen kommen mag.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/><placeName ref="loc012085">Braunau</placeName></ab></div>
+<p><seg n="11"><lb/>Es soll auch keiner außwendig der gmeind karren 
+<lb/>oder bauwen, er finde es dann nit in der gemeind 
+<lb/>oder er soll nit auff dem gmeindwerck noch auff 
+<lb/>den essen weiden lauth eines vertrags gemacht, dem 
+<pb n="4" type="original"/>
+<lb/>alßo ist, daß gut, so da heißt die <placeName ref="loc012826">Eß</placeName> und <placeName ref="loc012085">Brunauw</placeName>, 
+<lb/>daß die, so ziend väch habind, sollichs sollent einzühnen
+<lb/>ohne einer gemeind costen und schaden und allda 
+<lb/>ihr väch haben, untz daß die zellgen außgahnd, 
+<lb/>und so es beschicht, daß es zu der braach an nodt, soll 
+<lb/>solliches auch zu der braach außgahn.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Einzeunen <lb/>der weid für <lb/>zug oder mast<lb break="no"/>vieh</ab></div>
+<p><seg n="12"><lb/>Auch sollend alle die, so ziend väch haben, auff <date type="deadline" when="--06-24">st. 
+<lb/><persName ref="per000049">Johanns</persName> tag</date> daß maaß einzeünen oder sagen, ob sie 
+<lb/>solliches einzeünen wöllten, so mag ein gemeind sölliches 
+<lb/>zu ihren handen einzeünen. Ob aber die, so das ziend 
+<lb/>väch habent, alßo zünend, mögent sie auff <date type="deadline" when="--08-31">sanct 
+<lb/><persName ref="per000474">Verena</persName> abend</date> darinn fahren und solliches <date type="deadline" when="--09-14">vierzehen tag</date>
+<lb/>nutzen, ob daß der hirt mit gemeinem väch darinn 
+<lb/>fahrt, wenn ouch etlicher, der rindfleyß feyß machen 
+<lb/>welt und daß darinn schaden wurd, der soll helffen 
+<lb/>zühnen.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Entschädigung</ab></div>
+<p><seg n="13"><lb/>Item, wo ouch einer sein väch innert den fridhagen  
+<lb/>einanderen laßt zu schaden gahn, der soll von jedem 
+<lb/>haupt zu bueß geben <measure type="currency" quantity="3" unit="ß">iij schilling ₰</measure>.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Hirt + stall</ab></div>
+<p><seg n="14"><lb/>Es soll auch ein jeder seinem väch <time period="byDay">tags</time> seinen hirten 
+<lb/>haben und zu <time period="byNight">nacht</time> seinen stall.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Busse</ab></div>
+<p><seg n="15"><lb/>Ergriffe auch ein gemeind ungehüt väch in korn<lb break="no"/>zelgen, haberzelgen oder in anderen <space quantity="1" unit="word"/>, wo 
+<pb n="5" type="original"/><lb/>sollichs innert den fridhägen beschäch oder erfunden wird, 
+<lb/>da sollent die gschwohrnen von jedem haupt <measure type="currency" quantity="3" unit="ß">iij </measure> zu 
+<lb/>buß einzeühen, außgenommen die wucher-stier, die 
+<lb/>selbigen sollend frey seyn.</seg></p>
+<p><seg n="16"><lb/>Wo auch ungehüt väch über diß ergriffen wird, wo 
+<lb/>und an wellichen enden daß beschicht, daßelbig solle <lb/>den geschwohrnen angeben werden und demmnach je<lb break="no"/>der 
+ gestraafft werden, nachdemm jeder dem anderen 
+<lb/>schaden zugefüegt hat, alles nach erkantnuß der 
+<lb/>geschwohrnen, und dann dem, so schaden beschen ist, 
+<lb/>von den geschwohrnen erkennt wird, soll der seiner<!-- seineren? seinenn? PS: weglassen -->
+<lb/>widerparthey abtragen und zahlen, ohne allen costen 
+<lb/>und schaden.</seg></p>
+<p><seg n="17"><lb/>Und wo auch hagbrüchig väch wäre, daß die geschwohr<lb break="no"/>nen 
+gebiethen dannen zethuen, so dick und so viel daß 
+<lb/>darüber außgelaßen wird, soll ein jeder, so solches auß<lb break="no"/>laßt, 
+zu bueß verfallen seyn <measure type="currency" quantity="5" unit="ß">v </measure>.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/><placeName ref="loc012101">Entlisperg</placeName></ab></div>
+<p><seg n="18"><lb/>Item, wo auch ein gemeind fürohin ein haupt väch im 
+<lb/><placeName ref="loc012101">Antlisperg</placeName> finden wird, deß, so daß wäre, wollent 
+<lb/>sie von jedem haupt <measure type="currency" quantity="5" unit="ß">v </measure> zu bueß nemmen lauth und 
+<lb/>innhallt eines schirm-brieffs, so sie von unßeren 
+<lb/>gädigen herren, <orgName ref="org002406">burgermeister und rath der statt
+<lb/><placeName ref="loc000065">Zürich</placeName></orgName>, unter ihrem ehrenynsigel empfangen haben.<note>Diese Urkunde konnte nicht gefunden werden.</note></seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Ehefaden <lb/>zeunen</ab></div>
+<p><seg n="19"><lb/>So auch die geschwohrnen zu außtagen wyl nothwendig 
+<lb/>beduncked, den ehefaden zu zünen, wellichem daß gebotten  
+<pb n="6" type="original"/><lb/>wird und daß übersicht, derßelb soll zu bueß geben 
+<lb/><measure type="currency" quantity="3" unit="ß">iij  ₰</measure>.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Bußen</ab></div>
+<p><seg n="20"><lb/>Und so die geschwohrnen alßo die ehefaden gepiethen 
+<lb/>zu zühnen dem, so an der <measure type="currency" quantity="3" unit="ß">dry schilling</measure> gebotten wird 
+<lb/>und daß übersicht, dem soll darnach an <measure type="currency" quantity="6" unit="ß">vj </measure> und 
+<lb/>von <measure type="currency" quantity="6" unit="ß">vj </measure> an <measure type="currency" quantity="9" unit="ß">viiij </measure>, darnach an unßer herren bueß 
+<lb/>gebotten worden und die buß von ihnen eingezogen 
+<lb/>werden.</seg></p>
+<p><seg n="21"><lb/>Es sollen auch die geschwohrnen zu <date period="fall">herbst</date>-zeit, vor 
+<lb/>und nach die ynfäng und kornzellgen gebieten yn zu<lb break="no"/>legen 
+und zu beschließen. Wellicher daß nit thette, der 
+<lb/>soll gebüeßt um <measure type="currency" quantity="3" unit="ß">iij  ₰</measure>.</seg></p>
+<p><seg n="22"><lb/>Und so die ehefaden beschloßen werden, solle niemand 
+<lb/>mehr durch daß maaß daryn noch darauß fahren, 
+<lb/>untz mann anfacht hören bey der bueß <measure type="currency" quantity="5" unit="ß">v  pfenning</measure>.</seg></p>
+<p><seg n="23"><lb/>Wyter so soll ouch niemand keinerley yn zeünen, daß 
+<lb/>von alter har nit eingezeünt ist, es seye gmeind<lb break="no"/>werck 
+ oder eigne güeter.</seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Marchen</ab></div>
+<p><seg n="24"><lb/>Ob auch einer begehrte, zwüschent ihm und dem anderen 
+<lb/>zemarchen, sollen beid partheyen die geschwohrnen darumb 
+<lb/>bitten, und daß von altem har der brauch geweßen 
+<lb/>ist. Und so aber die geschwohrnen beduncken, daß de<lb break="no"/>weder parthey auß ußfünden arglist solliches 
+<lb/>den anderen verhinderen und sich daß erfunde, soll 
+<lb/>der, so dißen verhinderet hette, umb den costen abtragen.</seg></p><pb n="7" type="original"/>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/><placeName ref="loc009865">Wollishofen</placeName> + <lb/><placeName ref="loc012271">Leimbach</placeName> - <lb/><placeName ref="loc012271">Entlisperg</placeName></ab></div>
+<p><seg n="25"><lb/>Item alß dann span geweßen zwüschent einer <orgName ref="org007948">ge<lb break="no"/>meind 
+zu <placeName ref="loc009865">Wollißhofen</placeName></orgName> und einer <orgName ref="org007845">gemeind zu <placeName ref="loc012271">Leim<lb break="no"/>bach</placeName></orgName> 
+betreffendt, da sollend ein <orgName ref="org007948">gemeind von <placeName ref="loc009865">Wolliß<lb break="no"/>hofen</placeName></orgName> 
+von dem <placeName ref="loc012101">Antlisperg</placeName> biß an die <space quantity="1" unit="word"/> güter 
+<lb/>verzühnen und den <orgName ref="org007845">Leimbachnern</orgName> frid geben, alßo daß 
+<lb/>ihnen von keinem väch daselbst schaden beschächen möge. 
+<lb/>Harwiderumb sollen die <orgName ref="org007845">Leimbacher</orgName> die <placeName ref="loc012562">Ouw</placeName> gantz und 
+<lb/>von der <placeName ref="loc012562">Ouw</placeName> hinab biß an den stäg und dem stäg 
+<lb/>die <placeName ref="loc010518">Sihl</placeName> ab biß an den <placeName ref="loc012245">Sihl-Acker</placeName> und den <placeName ref="loc012245">Sihlacker</placeName>, 
+<lb/>auch gantz und gar alles gut und wohl verzeühnen und 
+<lb/>den <placeName ref="loc009865">Wollißhofferen</placeName> gut fried machen, alßo daß ih<lb break="no"/>nen 
+kein schad von keinem beschehe, alles lauth und 
+<lb/>innhallt zweyer besiegleter spruch-brieffen, der 
+<lb/>meister <persName ref="per006087">Heinrich Rublis</persName>, deß <orgName ref="org004016">raths <placeName ref="loc000065">Zürich</placeName></orgName>, der zeit 
+<lb/>ober vogt zu <placeName ref="loc009865">Wollißhofen</placeName>, eignem ynsiegel auffge<lb break="no"/>richt und dero jeder parthey einer gegeben worden.<note>Diese Urkunde konnte nicht gefunden werden.</note></seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/><placeName ref="loc009865">Wollishofen</placeName>
+<lb/>+ <placeName ref="loc012271">Leimbach</placeName>, <lb/>weg</ab></div>
+<p><seg n="26"><lb/>Weyter haben sich spann gehept zwüschent einer <orgName ref="org007948">ge<lb break="no"/>meind 
+zu <placeName ref="loc009865">Wollißhoffen</placeName></orgName> und einer <orgName ref="org007845">gemeind zu 
+<lb/><placeName ref="loc012271">Leimbach</placeName></orgName> von eins wegs wegen, deßhalbs sie mit 
+<lb/>einanderen vor unßeren gnädigen herren <orgName ref="org002406">burgermei<lb break="no"/>ster 
+und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName> in rechtfertigung 
+<lb/>gestanden, habend sich dießelben, unßer gnädig 
+<lb/>herren, erkennt zu recht, daß die von <placeName ref="loc012271">Leimbach</placeName> den 
+<lb/>unter weg von <date when="--11-11" type="deadline">sanct <persName ref="per000141">Martins</persName> tag</date> hin untz <date when="--03-16" type="deadline">zu mitem 
+<lb/>mertzen</date> wie von alter har fahren und brauchen und 
+<lb/>aber darzwüschent die <space quantity="1" unit="word"/> bescheidenlich auff<lb break="no"/>brechent 
+nach gefahrlich darinn seyn sollind, dardurch deß<pb n="8" type="original"/><lb break="no"/>halb 
+von ihnen kein klägt komme. Und diewyl umb den 
+<lb/><date period="summer">sommer</date>weg kein spann syge, laßen sie den bleiben, wie 
+<lb/>derßelbig an seinem und außgemarchet luth eines 
+<lb/>urthel-brieffs mit unßer gnädigen herren statt 
+<lb/>secret-ynsigel besieglet, geben <date when="1517-05-20">uff mittwuchen vor 
+<lb/>der auffahrt Christi anno j<hi rend="sup">m</hi> v<hi rend="sup">c</hi> xvij</date>.<add place="left margin" hand="hand18c"><date when="1517">1517</date></add><note>Dieser datierte Nachtrag gibt in Kürze das Ratsurteil wieder (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250442">StAZH C I, Nr. 3088</ref></bibl>), dem eine Kundschaft vorausgegangen war (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=680760">StAZH A 120, Nr. 2</ref></bibl>).</note></seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/><placeName ref="loc009865">Wollishofen</placeName> + <lb/><placeName ref="loc012271">Leimbach</placeName>, <date period="winter">winter</date><lb break="no"/>weg</ab></div>
+<p><seg n="27">
+<lb/>Demmnach haben sich spann und irrung gehept zwü<lb break="no"/>schent 
+einer <orgName ref="org007948">gemeind zu <placeName ref="loc009865">Wollißhofen</placeName></orgName> und einer <orgName ref="org007845">ge<lb break="no"/>meind 
+von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Niderleimbach</placeName></orgName> von wegen deß 
+<lb/><date period="winter">winter</date> wegs. Da sollend ein <orgName ref="org007948">gmeind von <placeName ref="loc009865">Wollißho<lb break="no"/>fen</placeName></orgName> 
+dennen von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName> einen auß<lb break="no"/>gemarcheten 
+weg, <measure type="length" quantity="14" unit="Schuh">vierzehen schuhe</measure> weit, geben, solli<lb break="no"/>cher  
+gestallt, daß sie den auff <date type="deadline" when="--11-11">sanct <persName ref="per000141">Martins</persName>
+<lb/>tag</date> anheben zebruchen untz zu <date type="deadline" when="--03-16">mittem mertzen</date>, 
+<lb/>daß auch die von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider-Leimbach</placeName> in ihren 
+<lb/>eignen kosten haben und halten sollen, ohne dero 
+<lb/>von <placeName ref="loc009865">Wollißhoffen</placeName> entgeltnuß. Und so die gemel<lb break="no"/>ten 
+von <placeName ref="loc012271">Leimbach</placeName> sollichen weg nit mehr brauchen 
+<lb/>und nutzen wöllend, so ist grund und boden mit 
+<lb/>aller zugehördt wider dero von <placeName ref="loc009865">Wollißhofen</placeName>, wie 
+<lb/>der vor auch ihro geweßen ist luth eins ver<lb break="no"/>siegleten 
+spruch-brieffs, deß datum weyßt 
+<lb/><date when="1527">xv<hi rend="sup">c</hi> xxvij jahre</date>.<add place="left margin" hand="hand18c">Anno <date when="1527">1527</date></add><note>Vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=278760">StAZH C IV 1.9 Wollishofen</ref></bibl>. Die Präzisierung der Nutzungszeit auf zwischen Martinstag und Mitte März fehlt dort allerdings.</note></seg></p>
+<div><ab type="marginal note" place="next page" hand="later hand"><lb/><date period="winter"><date period="winter">Winter</date></date>weg <lb/>über die <placeName ref="loc012085">Braunau</placeName>, <lb/><date period="summer">sommer</date>weg <lb/>über den <placeName ref="loc012088">Butzen</placeName></ab></div>
+<p><seg n="28"><lb/>Und umb minder zangks und spanns willen, so sich 
+<lb/>zwüschent dennen von <placeName ref="loc009865">Wollißhoffen</placeName> und<orgName ref="org007845">
+<placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Nider<pb n="9" type="original"/><lb break="no"/>Leimbacheren</placeName></orgName>
+erheben möchte betreffend den <date period="summer">som<lb break="no"/>mer</date>- 
+und <date period="winter">winter</date>weg, solle der <date period="winter">winter</date>weg durch 
+<lb/>die <placeName ref="loc012085">Brunouw</placeName> nider nach luth deß vertrag-brieffs 
+<lb/><measure type="length" quantity="14" unit="Schuh">vierzehen schuhe</measure> weit gemacht werden, wie er dann 
+<lb/>außgemarchet ist, und wie der <date period="summer">sommer</date>weg über den 
+<lb/><placeName ref="loc012088">Butzen</placeName> außgemarchet ist, laßend die von <placeName ref="loc009865">Wolliß<lb break="no"/>hoffen</placeName> 
+  sollichen auch bleiben lauth deß urtheil<lb break="no"/>brieffs, 
+  darumb von unßeren gnädigen herren auß<lb break="no"/>gangen.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Buße</ab></div>
+<p><seg n="29"><lb/>Es hat sich auch ein <orgName ref="org007948">gemeind von <placeName ref="loc009865">Wollißhofen</placeName></orgName> ver<lb break="no"/>einbahrt 
+alßo, wo die genempten von <placeName ref="loc012706">Ober-</placeName> und <placeName ref="loc012272">Ni<lb break="no"/>der Leimbach</placeName>, 
+wellicher der wäre, wider gemeldte 
+<lb/>urtheil und vertrag-brieff thetten, so dick daß be<lb break="no"/>schicht, 
+daß der jeder gebüeßt werden solle umb 
+<lb/><measure type="currency" quantity="10" unit="ß">x </measure>.<add place="right margin" hand="hand18c"><measure type="currency" quantity="10" unit="ß">10 </measure></add></seg></p>
+<p><seg n="30"><lb/>Wellicher obgemelter bueß halb die von <placeName ref="loc012706">Ober-</placeName> und 
+<lb/><placeName ref="loc012272">Nider-Leimbach</placeName> mit einer <orgName ref="org007948">gemeind von <placeName ref="loc009865">Wollißhofen</placeName></orgName>
+<lb/>für unßer gnädig herren, <orgName ref="org002406">einen burgermeister und 
+<lb/>rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, in rechtfertigung kommen, ha<lb break="no"/>ben 
+sich dießelbigen unßer gnädig herren er<lb break="no"/>kennt, 
+daß sollich buß der <measure type="currency" quantity="10" unit="ß">zehen schilling</measure> ab seyn 
+<lb/>und sollen die von <placeName ref="loc012706">Ober</placeName>- und <placeName ref="loc012272">Nider-Leimbach</placeName> den <date period="summer">som<lb break="no"/>mer</date>- 
+und <date period="winter">winter</date>weg brauchen und fahren, wie die 
+<lb/>außgemarcht und die vertrags-brieff außwysend 
+<lb/>sygend, mit der bescheidenheit, daß der oder die, so 
+<lb/>dem vertrag nüt statt thüen und den übergahn wur<pb n="10" type="original"/><lb break="no"/>dent, 
+von meinen herren gestraafft sollind werden, je 
+<lb/>zu zeiten, nach gestallt und gelegenheit der sachen.
+<lb/>Actum <date when="1531">anno xv<hi rend="sup">c</hi> xxxj</date>.<add place="left margin" hand="hand18c">Anno <date when="1531">1531</date></add></seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/><placeName ref="loc009865">Wollishofen</placeName>-<lb/><placeName ref="loc010381">Bendlikon</placeName>, <lb/>weidgang</ab></div>
+<p><seg n="31"><lb/>So dann auch spänn und stöß geweßen zwüschent 
+<lb/>beiden <orgName ref="org007948">gemeinden <placeName ref="loc009865">Wollißhofen</placeName></orgName> und <placeName ref="loc010381">Bändtlickon</placeName>
+<lb/>von wegen deß weidgangs, da wollend die von <placeName ref="loc009865">Wol<lb break="no"/>lißhofen</placeName> 
+ihren weidgang haben wie von altem har. 
+<lb/>Ob aber die von <placeName ref="loc010381">Bendtlickon</placeName> darwider welten, daß 
+<lb/>sie alßdann mögend den hag machen und anheben an 
+<lb/>mines herren von <placeName ref="loc013740">Rappelsmatten</placeName><!-- ahh: oder Ort PS: OK tke/msr: GHS konsultiert, keine Herren von Rappelsmatten bekannt; msr: Rappertzmatten --> und zwüschent <persName ref="per024310">Han<lb break="no"/>ßen 
+Glatzen</persName> und herren von <placeName ref="loc013741">Rüttis</placeName><!-- ahh: oder Ort? PS: OK msr: Rüti bei Leimbach --> untz hinter 
+<lb/>sich an <persName ref="per024300">Heini Bagen</persName> lätten mögend zühnen, und ob sie 
+<lb/>daß nit thättend, daß die von <placeName ref="loc009865">Wollißhofen</placeName> ihr väch 
+<lb/>mögend gahn laßen wie von altem har, und ob sie 
+<lb/>wöllen, mögend sie zwüschent beiden lätten einen garten 
+<lb/>machen. Und wann sie alßo zühnen wöllend, sollend 
+<lb/>von jeder parthey <num value="2">zwen</num> geschwohrne darzu verord<lb break="no"/>net 
+werden, den zuhn zubesichtigen, ob der frid syg 
+<lb/>oder nitt. Und ist der frid und die von <placeName ref="loc009865">Wollißhofen</placeName>
+<lb/>dennen von <placeName ref="loc010381">Bändlicken</placeName> darüber schaden thuend, sonnd 
+<lb/>sie den ihnen abtragen. Wo aber sie sollichen frid 
+<lb/>nit machtind, sonnd sie ihnen nüt schuldig seyn. Und 
+<lb/>ob auch dero von <placeName ref="loc010381">Bändlicken</placeName> väch in dero von <placeName ref="loc009865">Wolliß<lb break="no"/>hoffen</placeName> 
+feld ergriffen wurde, so dick daß bescheche, 
+<lb/>mögend sie die straaffen nach altem brauch und 
+<lb/>ihrs dorffs <placeName ref="loc009865">Wollißhofen</placeName> buß, alles nach dem ver<pb n="11" type="original"/><lb break="no"/>trag 
+beider partheyen obervögten und anderen un<lb break="no"/>partheyischen 
+leuthen, so dann hierbey geweßen sind. 
+<lb/>Auch sollend sie, von <placeName ref="loc010381">Bändlicken</placeName>, hinfornen am <placeName ref="loc012800">Kilchweg</placeName>
+<lb/>auch ein gatter machen.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/><placeName ref="loc009865">Wollishofen</placeName>-<lb/><placeName ref="loc010351">Adlischweil</placeName>, <lb/>weidgang</ab></div>
+<p><seg n="32"><lb/>Item alßdann die von <placeName ref="loc009865">Wollißhofen</placeName> gegen dennen von 
+<lb/><placeName ref="loc010351">Adtlischweyl</placeName> weidgängig sind, da sie, die von <placeName ref="loc009865">Wolliß<lb break="no"/>hoffen</placeName>, 
+vermeinend, bey ihrem weidgang zebleiben 
+<lb/>auff dem ihren wie bißhar, auch der spännen und 
+<lb/>irrung zwüschent ihnen, von <placeName ref="loc009865">Wollißhofen</placeName>, und <placeName ref="loc010351">Adtli<lb break="no"/>schweyl</placeName> 
+die zeünung betreffend, da solle jeder theil 
+<lb/>dem anderen <date type="deadline" when="--03-16">zu mitem mertzen</date> friden geben haben. Es 
+<lb/>sollen auch die <orgName ref="org007948">Wollißhofer</orgName> den hag zwüschent den riedte<lb break="no"/>ren<!-- hier sind wohl die zwei Riede zwischen den beiden Gemeinden gemeint, vgl. unten S. 14 -->
+durchhin zeünen.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Riederen <lb/>einzeunung</ab></div>
+<p><seg n="33"><lb/>Wie dann ouch die <orgName ref="org007861">Riedter</orgName><!-- im Gegensatz zu oben Art. 32 ist hier wohl die Bauernfamilie Rieder gemeint, vgl. Siegrist 1995, S. 65 -->, <persName ref="per024298">Lienhardt Asper</persName> und <persName ref="per024311">Jörg 
+<lb/>Hager</persName> einer <orgName ref="org007948">gemeind zu <placeName ref="loc009865">Wollißhofen</placeName></orgName> anstößer sind, 
+<lb/>da sollend die von Wollißhofen die <date dur="P2Y">zwey jahr</date>, so daß 
+<lb/>feld in eß ligt, die ehefaden zeühnen und <date>am dritten 
+<lb/>jahr</date><!-- ahh an PS: kann man nicht tagen? PS: man kann einfach date ohne Inhalt tagen --> gennd die <orgName ref="org007861">Rieder</orgName>, <persName ref="per024298">Asper</persName> und <persName ref="per024311">Hager</persName> den dritten 
+<lb/>theil.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Idem</ab></div>
+<div><ab type="marginal note" place="next page" hand="later hand"><lb/>Zeünung <lb/>gegen die <placeName ref="loc010518">Sihl</placeName></ab></div>
+<p><seg n="34"><lb/>Und alß sich dann spann und stoß zutragen zwüschent 
+<lb/>einer <orgName ref="org007948">gemeinde zu <placeName ref="loc009865">Wollißhofen</placeName></orgName>, den <orgName ref="org007861">Riedern</orgName><!-- im Gegensatz zu oben Art. 32 ist hier wohl die Bauernfamilie Rieder gemeint, vgl. Siegrist 1995, S. 65 -->, <persName ref="per024298">Asper</persName>
+<lb/>und <persName ref="per024311">Hagen</persName> betreffend die ehefaden zezeühnen, so daß 
+<lb/>feld in eß ligt, welliches ihres spanns sie vor un<lb break="no"/>ßer 
+gnädig herren, einem <orgName ref="org002406">burgermeister und rath</orgName>
+<lb/>der statt, in rechtfertigung gestanden. Auff solches <lb/>die gemeldten unßer gnädig herren meister <persName ref="per014242">Jacoben <pb n="12" type="original"/>
+<lb/>Puren</persName> und meister <persName ref="per025261">Heinrichen Peyern</persName>, beid deß raths, 
+<lb/>alt und neüw obervögt zu <placeName ref="loc009865">Wollißhoffen</placeName>,<note><persName ref="per014242">Jakob Baur</persName> war in den Jahren <date when="1529">1529</date> und <date when="1531">1531</date> Obervogt von <placeName ref="loc009865">Wollishofen</placeName>, <persName ref="per006137">Heinrich Peyer</persName> im Jahr <date when="1530">1530</date> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=263949">StAZH B VI 251</ref>, fol. 110v, 156v, 206v</bibl>). Der Ratsbeschluss muss unkorrekt datiert sein; nur im Jahr <date when="1530">1530</date> waren <persName ref="per014242">Baur</persName> der ehemalige und <persName ref="per006137">Peyer</persName> der amtierende Obervogt.</note> sie ihrs 
+<lb/>spanns in der güetigkeit zuvertragen, verordnet. 
+<lb/>Weliche sie beiderseiths vertragen haben, alß hiernach 
+<lb/>geschriben staht und nammlichen, daß nun fürohin 
+<lb/>ein <orgName ref="org007948">gemeind von <placeName ref="loc009865">Wollißhoffen</placeName></orgName> die zühne unten 
+<lb/>herauff untz zu der tannen für sich selbst zeühnen 
+<lb/>und die <orgName ref="org007861">Riedt</orgName>, <persName ref="per024298">Asper</persName> und <persName ref="per024311">Hager</persName> von der thannen hin 
+<lb/>ob sich auff daßelbig fürohin auch für sich selbst züh<lb break="no"/>nen, 
+und so mann zeühnt, daß allwegen der ein theil 
+<lb/>die stecken und der ander daß gerdt geben und 
+<lb/>alßo gewechßlet werden. Und waß außerthalb der 
+<lb/>züny gegen der <placeName ref="loc010518">Sihl</placeName> ist, soll einer <orgName ref="org007948">gemeind zu 
+<lb/><placeName ref="loc009865">Wollißhoffen</placeName></orgName> zugehören, wie vorhar beschehen auff 
+<lb/>den <date when="1536-03-11">eilfften tag deß monats mertzen j<hi rend="sup">m</hi> v<hi rend="sup">c</hi> xxxvj</date>.<add place="left margin" hand="hand18c"><date when="1536">1536</date></add><note>Diese Urkunde konnte nicht gefunden werden.</note></seg></p>
+<div><ab type="marginal note" place="left margin" hand="later hand"><lb/>Weidgang <lb/>der ansäßen</ab></div>
+<p><seg n="35"><lb/>Nachdemm und auch spann geweßen zwüschent mit 
+<lb/>einer <orgName ref="org007948">gemeind zu <placeName ref="loc009865">Wollißhofen</placeName></orgName> und meister <persName ref="per004056">Ja<lb break="no"/>coben 
+Holtzhalben</persName> betreffendt den weidgang, ist 
+<lb/>erkennt, daß der gemeldt meister <persName ref="per004056">Holtzhalb</persName> mit den<lb break="no"/>nen 
+von <placeName ref="loc009865">Wollißhofen</placeName> weidtgnößig seyn solle und die 
+<lb/>weyd mit ihnen brauchen, doch nit anderst alß nach 
+<lb/>anzahl deß holtzes, so er an dem end hat, wie ein 
+<lb/>anderer daselbs geseßen, der auch so viel holtzes 
+<lb/>hat lauth eins urtheil-brieffs mit unßer gnä<lb break="no"/>digen 
+herren von <placeName ref="loc000065">Zürich</placeName> statt-secret-ynsiegel besig<lb break="no"/>let. 
+Geben uff <date when="1505-06-05"><persName ref="per014189">Bonifaci</persName> anno j<hi rend="sup">m</hi> v<hi rend="sup">c</hi> und v jahre</date>.<add place="left margin" hand="hand18c"><lb/><date when="1505">1505</date></add><note>Diese Urkunde konnte nicht gefunden werden.</note></seg></p>
+<pb n="13" type="original"/>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Einzuggeld <lb/>der ansäßen</ab></div>
+<p><seg n="36"><lb/>Item und wellicher unter einer gemeind sich fürohin 
+<lb/>haußhablich setzen wöllte, derßelbig soll zu innzug 
+<lb/>geben <measure type="currency" quantity="10" unit="ß">x </measure>, ob er einzeücht.<add place="right margin" hand="hand18c"><measure type="currency" quantity="10" unit="ß">10 </measure></add></seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Buße für aus<lb break="no"/>bleiben an den <lb/>gemeinden</ab></div>
+<p><seg n="37"><lb/>Und so einem an ein gmeind gebotten wurde und 
+<lb/>der nit kommt, der soll einer gmeind zu buß geben 
+<lb/><measure type="currency" quantity="1" unit="ß">j  ₰</measure>.</seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Buße für aus<lb break="no"/>bleiben bei gemeind<lb break="no"/>werk</ab></div>
+<p><seg n="38"><lb/>So mann auch einer gemeind werck haben will und 
+<lb/>einem daran gebotten wird und nit kommt, der soll 
+<lb/>von <measure quantity="1" unit="Gertel" type="area" commodity="wood">einem gertel</measure>
+<measure type="currency" quantity="5" unit="ß">v </measure> zu buß geben.<add place="right margin" hand="hand18c"><measure type="currency" quantity="5" unit="ß">5 </measure></add></seg></p>
+<div><ab type="marginal note" place="right margin" hand="later hand"><lb/>Schluß</ab></div>
+<p><seg n="39"><lb/>Füegte sich auch, daß ein gemeind eine persohn 
+<lb/>oder mehr ein gemeind über diß obgeschriben articul 
+<lb/>mit einanderen in spann und rechtfertigung kommen, 
+<lb/>wedere parthey dann die haupt-sach in rechten behept, 
+<lb/>solle die andere parthey dero den costen und scha<lb break="no"/>den 
+abtragen.</seg></p>
+<p><seg n="40"><lb/>Es ist auch ein gemeind gäntzlich übereinkommen 
+<lb/>und sich vereinbahrt, dieße obgeschribnen artickel 
+<lb/>alßo unter einanderen zehalten und zugebrauchen, 
+<lb/>auch die weder zeminderen nach zemehren, ohne un<lb break="no"/>ßer 
+gnädigen herren, eines <orgName ref="org002406">burgermeisters und 
+<lb/>räthen der statt <placeName ref="loc000065">Zürich</placeName></orgName>, gunst, wüßen und verwil<lb break="no"/>ligung.</seg></p>
+<p><seg n="41"><lb/>Und so dick auch ein neüwer geschwohrner <sic>wir</sic> ge<lb break="no"/>nommen, 
+der solle einem obervogt schweren und ihm <pb n="14" type="original"/>
+<lb/>ein obervogt den eidt geben, bey dießen punckten und <lb/>articklen zebleiben.</seg></p>
+<head type="subtitle"><lb/>Diß sind die höltzer und wißen, so
+<lb/>einer gantzen gemeind hören</head>
+<p>
+<lb/>Item deß ersten ein wald, genannt der <placeName ref="loc012101">Entlisperg</placeName>,
+<lb/>stoßt oben an der von <placeName ref="loc010351">Adtlischweyl</placeName> riedt und
+<lb/>an der <orgName ref="org007849">Nigglinen</orgName> güeter, nidsich ab für <placeName ref="loc012271">Leimbacher</placeName>
+<lb/>stäg nider, und ist ein außgemarcheter weg von
+<lb/><placeName ref="loc012101">Entlisperg</placeName> untz hinab auff den <placeName ref="loc012088">Butzen</placeName>, stoßt ei<lb break="no"/>nerseiths 
+ans <placeName ref="loc009865">Wollißhofer</placeName> riedt und feld.
+</p>
+<p>
+<lb/>Aber ein holtz, genannt daß <placeName ref="loc012707">Ober Zyl</placeName>, stoßt einer<lb break="no"/>seiths
+an <persName ref="per024562">Hänßli Kloters</persName> acher, zur anderen an 
+<lb/>deß <persName ref="per024312">Haußheren</persName> matten und unten an <persName ref="per024301">Peter
+<lb/>Bagen</persName> matten.
+</p>
+<p>
+<lb/>Mehr ein holtz, genannt daß <placeName ref="loc012767">Unter Zyl</placeName>, stoßt oben
+<lb/>an <persName ref="per024309">Heini Gimpers</persName> holtz, nebent an <persName ref="per024574">Hanßen Wyßen</persName>
+<lb/>matten und an <persName ref="per024308">Hartmann Gimpers</persName> matten und durch<lb break="no"/>nider  
+ins <placeName ref="loc009865">Wollißhofer</placeName> riedt, hat einen außge<lb break="no"/>marcheten
+weg, stoßt an <orgName ref="org002666">Öetenbacher</orgName> acker und
+<lb/>an <persName ref="per024305">Felixen Gimpers</persName> holtz, zum anderen an <persName ref="per024571">Hart<pb n="15"/><lb break="no"/>mann
+Peters</persName> güeter und aber an <orgName ref="org002666">Öetenbacher</orgName> acker.
+</p>
+<p>
+<lb/>Item ein holtz ägertli auff <placeName ref="loc012042">Breitenlon</placeName><!-- Breitloo -->, stoßt
+<lb/>oben an <orgName ref="org002666">Öetenbacher</orgName> güter, anderwert an <persName ref="per024567">Hanßen
+<lb/>Negeli</persName>, so zur wydem gehört, zum dritten an <persName ref="per024564">Hanß
+<lb/>Köchlis</persName> güter.
+</p>
+<p>
+<lb/>Aber ein holtz-ägerten nebent dem <placeName ref="loc012800">Kilchweg</placeName>,
+<lb/>stoßt einerseiths an <persName ref="per024304">Burckhardten Gimpers</persName> güeter,
+<lb/>anderwerths an <persName ref="per024302">Thomman Bleüwlers</persName> güeter, unten
+<lb/>an <persName ref="per024314">Hanßen Honnreins</persName> güeter, oben an <orgName ref="org002666">Öetenbacher</orgName>,
+<lb/><persName ref="per024564">Hanßen Köchlis</persName> und <persName ref="per024570">Hanßen Peters</persName> güter.
+</p>
+<p>
+<lb/>Mehr ein holtzägerten in <placeName ref="loc012685">Lochen</placeName>, stoßt einerseiths
+<lb/>an <persName ref="per024305">Felix Gimpers</persName> holtz, anderwerts an <persName ref="per024313">Hanßen
+<lb/><unclear>Himmbels</unclear></persName> acker.
+</p>
+<p>
+<lb/>Item ein holtz genannt der <placeName ref="loc012088">Butzen</placeName>, stoßt an herr
+<lb/>burgermeister <persName ref="per012669">Röysten</persName> holtz ägerten, zum an<lb break="no"/>deren
+an <persName ref="per024567">Hanßen Nägelis</persName> acker, so zur wydem ge<lb break="no"/>hört,
+zum dritten an <persName ref="per024563">Rudolffen Kloters</persName> holtzägerten,
+<lb/>zum vierten an <persName ref="per024572">Jacob Peters</persName> holtz-ägerten und zum
+<lb/>fünfften an <persName ref="per024573">Andres Rotten</persName> acker. Da ist ein
+<lb/>außgemarcheter weg, gaht ab dem <placeName ref="loc012088">Butzen</placeName> zwü<lb break="no"/>schent
+dem <persName ref="per024574">Wyßen</persName> und <persName ref="per024561">Hanß Jörgen</persName> güeter untz
+<lb/>an daß <placeName ref="loc012833"><unclear>Mißlis</unclear> Egg</placeName>.
+</p><pb n="16"/>
+<p>
+<lb/>Aber ein holtzägerten auff der leimbgrueben, stoßt
+<lb/>zu zweyen seithen an <persName ref="per024302">Thomann Bleüwlers</persName> ägerten,
+<lb/>unten an herren burgermeister <persName ref="per012669">Röysten</persName> holtz äger<lb break="no"/>ten.
+</p>
+<p>
+<lb/>Mehr ein holtzägerten ob der ehefad am <placeName ref="loc012696">Müßly</placeName>,
+<lb/>stoßt an <orgName ref="org002666">Öetenbacher</orgName> matten, so nebent der efad
+<lb/>hinab ligt, und an <persName ref="per024570">Hanßen Peters</persName> matten, an <persName ref="per024564">Hanßen
+<lb/>Köchlis</persName> holtzägerten und an <persName ref="per024569">Großhanßen Peters</persName>
+<lb/>holtzägerten.
+</p>
+<p>
+<lb/>Aber ein holtzägerten am <placeName ref="loc012648">Hochen Reyn</placeName>, stoßt oben
+<lb/>an <orgName ref="org002666">Öetenbacher</orgName> gut, anderwert an die efad an
+<lb/>den matten im <placeName ref="loc012696">Müßli</placeName>.
+</p>
+<p>
+<lb/>Item ein gutt in der <placeName ref="loc012826">Eß</placeName>, stoßt an die wydem,
+<lb/>so mann nennt der <placeName ref="loc012246">Sihlboden</placeName>, anderwert an <placeName ref="loc012245">Sihl<lb break="no"/>acker</placeName>,
+so dero von <placeName ref="loc012271">Leimbach</placeName> ist.
+</p>
+<p>
+<lb/>Aber ein gutt genannt <placeName ref="loc012085">Brunnow</placeName>, stoßt unten har
+<lb/>an die acker, so mann nempt die alten <space quantity="1" unit="word"/> ächer,
+<lb/>anderwerts an <persName ref="per024566">Gylgen Leimbachers</persName> güter, drittens
+<lb/>an ein ägerten, gehört zu der wydem, und zum
+<lb/>vierten an <persName ref="per024567">Hanßen Nägelis</persName> acker, ist der mehr<lb break="no"/>theil
+außgemarchet.
+</p>
+<p>
+<lb/><add place="left margin" hand="hand18c">Ertauschet von gmeind umb <unclear>Ees</unclear></add>Item ein holtzägerten hinderen hagen, stoßt unten
+<lb/>an <persName ref="per024570">Hanßen Peters</persName> gut, anderwert an <persName ref="per024560">Hanßen Hor<lb break="no"/>ners</persName>
+güter, zum dritten an <persName ref="per024562">Hanß Klotters</persName> güeter, <pb n="17"/>
+<lb/>und zum vierten an <persName ref="per024308">Hartmann Gimppers</persName> acker.
+</p>
+<p>
+<lb/>Aber ein holtzägertli hinten am <placeName ref="loc012695">Muggenbüel</placeName>, stoßt
+<lb/>zu zweyen seithen an meister <persName ref="per004056">Holtzhalben</persName> güter, zum
+<lb/>dritten an byfang.
+</p>
+<p>
+<lb/>Mehr ein holtzägerten genannt die <placeName ref="loc012845">Wolffsgrueb</placeName>,
+<lb/>stoßt unten an <orgName ref="org002666">Öetenbacher</orgName> ägerten, oben an <persName ref="per024564">Hanßen
+<lb/>Köchlis</persName> ägerten, und vornen an <persName ref="per024565">Hanß Leemann</persName>.
+</p>
+<p>
+<lb/>Item ein wißplätz, ligt unten im <placeName ref="loc012689">Maaß</placeName><!-- im Moos? vgl. Siegrist 1995, S. 61 -->, stoßt
+<lb/>einerseiths an <persName ref="per024570">Hanßen Peters</persName> gut, anderwerts
+<lb/>an <placeName ref="loc012690">Moßbach</placeName>, und zum dritten an <persName ref="per024305">Felix Gimper</persName>.
+</p>
+<p>
+<lb/>Aber ein wißplätz bym <placeName ref="loc012825">Erly</placeName> auff der zellg,
+<lb/>stoßt einerseith an <persName ref="per024568">Rudi Nägelis</persName> gutt von <placeName ref="loc012271">Leimbach</placeName>,
+<lb/>anderwerth an <persName ref="per024563">Rudolff Klotters</persName> acker und zum
+<lb/>dritten an die efad.
+</p>
+<p>
+<lb/>Mehr ein wißplätz in <placeName ref="loc012685">Lochen</placeName>, stoßt an die efad
+<lb/>und oben an <persName ref="per024301">Peter Bagen</persName>.
+</p>
+<p>
+<lb/>Item zwey wißplätzli in <placeName ref="loc012121">Grabeten Wißen</placeName><!-- später in Grabetwies, Siegrist 1995, S. 45 -->, stos<lb break="no"/>send
+an <persName ref="per024312">Hanßen Haußheeren</persName><!-- oder Haußherren? PS: beides möglich --> matten.
+</p>
+<p>
+<lb/>Aber ein stückli genannt der <placeName ref="loc012116">Gmeind-weg</placeName>, stoßt
+<lb/>zu zweyen seithen an <persName ref="per024567">Hanß Nägelins</persName> gut, zum dritten
+<lb/>an <persName ref="per024570">Hanßen Peters</persName> gut und zum viertens an <persName ref="per024314">Hanßen
+<lb/>Honnreyns</persName> gut.
+</p><pb n="18"/>
+<p>
+<seg><lb/>Und sind diß obbegriffen artickel, puncten und rech<lb break="no"/>tungen,
+nach dem erstlich durch <persName ref="per024304">Burckhardten Gimp<lb break="no"/>per</persName>,
+<persName ref="per024302">Thomann Bleüwler</persName> und <persName ref="per024570">Hanßen Peter</persName> vonwe<lb break="no"/>gen
+und alß vollmächtig gewalthaber einer gantzen
+<lb/><orgName ref="org007948">gemeind zu <placeName ref="loc009865">Wollißhofen</placeName></orgName> meister <persName ref="per014242">Jacoben Puren</persName>,
+<lb/>ihrem obervogt der zeyt, angeben, und nachfolgends
+<lb/>einem ehrsammen <orgName ref="org004016">rath der statt <placeName ref="loc000065">Zürich</placeName></orgName> fürgebracht
+<lb/>worden, in kräfften zubleiben erkennt, alßo
+<lb/>daß dem allem, so vor und nach harinn verschri<lb break="no"/>ben
+und gelütheret stadt, getreüwlich, ehrbahrlich
+<lb/>und styff gelebt und nachgangen werden soll.</seg>
+<seg><lb/>Beschehen auff <origDate when="1531-03-02">donstag vor sont<subst><del>g</del><add place="overwritten">a</add></subst>g reminiscere
+<lb/>nach Christi, unsers lieben herren, gebuhrt gezahlt
+<lb/>fünffzehen hundert dreyßig und ein jahre</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Offnung ist nur als Abschrift in einem 1730 angelegten Kopialbuch der <orgName ref="org007948">Gemeinde <placeName ref="loc009865">Wollishofen</placeName></orgName> überliefert (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283088">StArZH VI.WO.C.4.</ref></bibl>). 
+Der Text weist einige kleine Lücken auf, was möglicherweise darauf hindeutet, dass der Schreiber einzelne Wörter der Vorlage nicht entziffern konnte.</p>
+<p>Die Wegnutzung war auch später noch Gegenstand von Konflikten: Am 19. August 1534 entschied der <orgName ref="org002406">Rat</orgName> einen Streit zwischen <orgName ref="org007948">Wollishofen</orgName>, 
+<orgName ref="org007845">Oberleimbach</orgName> und <orgName ref="org007845">Unterleimbach</orgName> betreffend einen Winterweg über die <placeName ref="loc012085">Brunau</placeName> (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25583">StArZH VI.WO.C.4., S. 19</ref></bibl>). 
+1541 bestätigte der <orgName ref="org002406">Rat</orgName>, dass die Leute von <placeName ref="loc012706">Oberleimbach</placeName> und <placeName ref="loc012272">Unterleimbach</placeName> auf ihr Wegrecht über die Güter von <placeName ref="loc009865">Wollishofen</placeName> Verzicht geleistet haben (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25584">StArZH VI.WO.C.4., S. 61-63</ref></bibl>).
+Am 18. Juni 1543 entschied der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> in einem Konflikt zwischen <orgName ref="org007948">Wollishofen</orgName> und den Zieglermeistern um Wegrecht über die Brunau zugunsten der Ziegler, auch weil ihnen der Dorfrodel 
+von <orgName ref="org007948">Wollishofen</orgName> dieses Recht ausdrücklich einräume (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3347133">StAZH B V 6, fol. 457r</ref></bibl>). Im vorliegenden Stück findet sich diese Bestimmung jedoch nicht.</p>
+<p>1573 wurde auf Bitte der Gemeinde von den Obervögten und weiteren Ratsabgeordneten eine neue Holz- und Weidordnung für <placeName ref="loc009865">Wollishofen</placeName> erlassen und vom <orgName ref="org002406">Rat</orgName> bestätigt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_088">SSRQ ZH NF II/11, Nr. 88</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

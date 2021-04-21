@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_167</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4534310">StAZH B II 930, S. 44-45</idno></msIdentifier><head>Auftrag zur Untersuchung, weshalb einige Anwohner vor dem Niederdorftor die Jurisdiktion der Obervögte nicht anerkennen wollen</head><msContents><summary>Johann Heinrich Rahn, Hans Jakob Rahn, Hans Jakob Ulrich und Hans Konrad Vögelin, welche auf dem Glacis der Stadtbefestigung vor dem Niederdorftor wohnen, wollen die Jurisdiktion der Obervögte der Vier Wachten nicht anerkennen. Die Obervögte haben den Fall an den Zürcher Rat gewiesen, welcher Säckelmeister Heidegger, Zunftmeister Werdmüller, alt Landvogt Salomon Hirzel und Zunftmeister Nüscheler dazu abordnet, ihre Beweggründe in Erfahrung zu bringen und zu untersuchen, wie es sich mit den Häusern vor den anderen Stadttoren und in den anderen Obervogteien verhält und ob nicht zu der Zeit, als die Stadtbefestigung angelegt wurde, diesbezüglich eine Verordnung erlassen worden sei.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="39.5"/><width unit="cm" quantity="12.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1765-08-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005094">Gerichtsstand</term><term ref="key000081">Stadtmauer</term><term ref="key000036">Vogtei</term><term ref="key005400">Weisung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="44"/>
+<head><lb/><origDate when="1765-08-21">Mittwochs, den 21. augusti</origDate>,
+<lb/><choice><abbr>prtbs</abbr><expan>presentibus</expan></choice> herren <orgName ref="org002406">burgermeister
+<lb/><persName ref="per002906">Landolt</persName> und beyde räthe</orgName></head>
+<p><gap reason="irrelevant"/></p>
+<p>
+<lb/>Über die weisung der
+<lb/>herren obervögten in den
+<lb/><placeName ref="loc010140">IV Wachten</placeName>, daß einiche herren
+<lb/>und burgere von hier, so nächst
+<lb/>außert der <placeName ref="loc010563">Niederdörffler-por<lb break="no"/>ten</placeName>
+auf dem sogeheißenen <pb n="45"/>
+<lb/>glacis der fortificationen wohn-
+<lb/>und seßhafft sind, nammentlich
+<lb/>herr <persName ref="per026472">Johann Heinrich Rahn jünger</persName>,
+<lb/>herr <persName ref="per026471">Hans Jacob Rahn</persName>, herr <persName ref="per026473">Hans
+<lb/>Jacob Uͦlrich</persName>, der walcher, und herr
+<lb/><persName ref="per026474">Hans Conrad Vögelin</persName>, auf das
+<lb/>an sie beschehene ansinnen we<lb break="no"/>gen
+abführ- und prästierung
+<lb/>der den gemeinds genoßen und
+<lb/>habitanten an der <placeName ref="loc010816">Unteren Straaß</placeName>
+<lb/>obligenden servituten die ju<lb break="no"/>dicatur
+der herren obervögten
+<lb/>nicht anerkennen wollen, ward
+<lb/>von <abbr>mngnhherren</abbr> gutbefunden
+<lb/>und einmüthig beliebet, daß
+<lb/>herren sekelmeister <persName ref="per026467">Heidegger</persName>,
+<lb/>herren zunfftmeister <persName ref="per026444">Werdmüller</persName>,
+<lb/>herren rathsherr und alt land<lb break="no"/>vogt
+<persName ref="per026468">Salomon Hirzel</persName> und
+<lb/>herren zunfftmeister <persName ref="per026470">Nüscheler</persName>
+<lb/>oberkeitlich aufgetragen seyn
+<lb/>solle, besagte herren und bur<lb break="no"/>gere
+über ihre dißfahls haben
+<lb/>möchtende beweggründe und ur<lb break="no"/>sachen
+in mehrerem zuvernehmen
+<lb/>unnd die sache des näheren
+<lb/>zuuntersuchen, zumahlen, was
+<lb/>es auch mit den burgershaüse<lb break="no"/>ren
+vor den anderen stadt por<lb break="no"/>ten
+und in anderen obervog<lb break="no"/>teyen
+für eine dißfählige be<lb break="no"/>wanndtnuß
+habe und ob nicht
+<lb/>zur zeit der neü angelegten
+<lb/>fortificationen eine hochoberkeit<lb break="no"/>liche
+verordnung und disposi<lb break="no"/>tion
+harüber gemachet worden,
+<lb/>sich grundlich zu informieren
+<lb/>und das sich ergebende wiede<lb break="no"/>rum
+an hohe behörde zuhinter<lb break="no"/>bringen.  
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Kopie eines Schreibens, in dem <persName ref="per026472">Johann Heinrich Rahn</persName>, <persName ref="per026471">Hans Jakob Rahn</persName>, <persName ref="per026473"> Hans Jakob Ulrich</persName> und <persName ref="per026474">Hans Konrad Vögelin</persName> ihre Position darlegen und erklären, dass sie der Stadt und nicht der Obervogtei <placeName ref="loc010140">Vier Wachten</placeName> 
+zugehörig seien, findet sich in <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=731187">StAZH A 149.1, Nr. 158</ref></bibl>. Fast zwei Jahre später, am 9. Mai 1767, entschied der <orgName ref="org002406">Rat</orgName> schliesslich, dass sich die 
+Jurisdiktion der Obervögte bis an die Schlagbäume vor den Stadttoren erstrecke und die Häuser auf dem Glacis der Stadtbefestigung und ihre Bewohner somit den Obervögten unterstellt seien (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_171">SSRQ ZH NF II/11, Nr. 171</ref></bibl>). 
+Zur Stellung der Bewohner im Gebiet zwischen der neuen und der alten Stadtbefestigung hatte sich der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> auch 1660 bereits geäussert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_122">SSRQ ZH NF II/11, Nr. 122</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

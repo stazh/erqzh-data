@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_017_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393652">StAZH C I, Nr. 2503, S. 4-8</idno></msIdentifier><head>Einung der Fischer vom Greifensee</head><msContents><summary>Die Fischer vom Greifensee bezeugen die Regeln, die zu halten sie jährlich schwören sollen, wie sie es von alters her getan haben. Behandelt werden unter anderem die Abgaben der Garner (Schleppfischer) und Bärer (Reusenfischer) an den Vogt von Greifensee (2-3, 10) sowie Schonzeiten und Bussen bei Verstössen (4-5, 9). Der Einsatz von Schwebnetzen (1), Fangkörben (5) oder Grundschnüren (11) ist nur unter bestimmten Bedingungen erlaubt, Garne dürfen eine Grösse von 38 Klafter nicht überschreiten (12). Besondere Einschränkungen gelten für das Fangen von Maränen (1), Hechten (3-4, 9), Egli (5, 8), Schwalen (7) und Aalen (11). Der Vogt geniesst bestimmte Vorrechte; er darf Schwalen zur Fütterung der Fische in seinem Teich (6) sowie die so genannten Murfischli zum Verzehr für sich und sein Gesinde fangen (7). Knechte, die mehr als eine Woche pro Jahr mit den Fischern auf den See fahren, müssen die Einung ebenfalls beschwören (13). Neu hinzugefügt wird die Abmachung, dass Hechte nur während fünf Wochen im Jahr mit der Schnur gefangen werden sollen (9). Wer gegen diese Bestimmungen verstösst, muss dem Vogt und den anderen Fischern je 12 Schilling bezahlen (14). Nachträge von anderen Händen regeln die Platzierung der Netze (15) und den Verkauf der Fische auf dem Markt (16).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1428-04-06"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 5, Nr. 6940</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000536">Fischerei</term><term ref="key000793">Markt</term><term ref="key004022">Satzung</term><term ref="key005446">Umweltschutz</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_C_I__Nr__2503__S__01_.tif"/>
+<pb n="2" facs="StAZH_C_I__Nr__2503__S__02_.tif"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 29"/></p>
+<pb n="3" facs="StAZH_C_I__Nr__2503__S__03_.tif"/>
+<pb n="4" facs="StAZH_C_I__Nr__2503__S__04_.tif"/>
+<p><lb/><origDate when="1428-04-06">Anno domini m cccc xxviij<hi rend="sup">o</hi> an dem nechsten cinstag nach dem heilgen ostertag</origDate> wurden
+<lb/>dise naͧchbenempten stuke in schrift genomen, die die vischer, so in dem <placeName ref="loc008718">Griffense</placeName> vischent,
+<lb/><date dur="RP1Y">jerlich</date> sweren su̍llen ze halten aͧn gevaͤrd, alz sy das von alter her getaͧn und braͧcht hand.</p>
+<seg n="1"><p><lb/>Ze dem ersten sol man wissen, das nieman sol die sweb zu̍chen uff dem <placeName ref="loc008718">Griffense</placeName> under
+<lb/>der fluͦ zuͦ der albellen <app><lem>aͧn eines vogtes des huses ze <placeName ref="loc008719">Griffense</placeName> wissen und willen.
+<lb/><add place="below" hand="hand16c">Und soͤlich erlouben sol oͧch ein vogtt nit zetuͦnd haben on miner herren,
+<lb/>eins burgermeisters und rats, bewilligen und zuͦ lassen.</add></lem><rdg wit="StAZH A 85, Nr. 3, S. 1">Und sol oͧch kein vogt hinfuͤr gewalt haben zuͦ erloben
+<lb/>zuͦ dem swaͤb ze zu̍hen, weder umb die fisch, so die vischer eim vogt zuͦ geben schuldig
+<lb/>sind, noch umb ander fisch.</rdg><rdg wit="StAZH A 85, Nr. 7, S. 1">Zûm erstenn sol niemand zuͦ schwaͤb zûhen, weder mit witten
+<lb/>noch enngen garnen, unnder der fluͦ zuͦ der albelen, und sol och
+<lb/>hinfûr kein gewalt habenn zuͦ erlouben zuͦ dem schwaͤb zuͦ züchen,
+<lb/>weder umb die visch, so die fischer eim vogt zuͦgeben schuldig
+<lb/>sind, noch umb annder visch.</rdg></app></p>
+</seg>
+<seg n="2"><p><lb/>Es sol oͧch jeklich garn, so uff dem <placeName ref="loc008718">Griffense</placeName> faret, einem vogt ze <placeName ref="loc000348">Griffense</placeName>
+<date dur="RP1Y">jerlich</date> geben
+<lb/><num value="60">sechstzig</num>
+<measure type="currency" unit="Vierer" quantity="1">vieren</measure> wertig hecht und <num value="20">zweintzig</num>
+<measure type="currency" unit="ß" quantity="1">schilling</measure> wertig hecht, und wenn einer
+<lb/>die <num value="20">zweintzig</num>
+<measure type="currency" unit="ß" quantity="1">schilling</measure> wertigen hecht einem vogt ze <placeName ref="loc000348">Griffense</placeName> git, so moͤchte dann
+<lb/>einer je einen <measure type="currency" unit="ß" quantity="1">schillig</measure> wertigen hecht einem vogt ze <placeName ref="loc000348">Griffense</placeName> geben fu̍r <num value="3">dry</num>
+<measure type="currency" unit="Vierer" quantity="1">vieren</measure>
+<lb/>wertig hecht, ob einer die <measure type="currency" unit="Vierer" quantity="1">vieren</measure> wertigen hecht nit gehaben moͤcht, und sol oͧch ein
+<lb/>vogt ze <placeName ref="loc000348">Griffense</placeName>
+<num value="3">dry</num>
+<measure type="currency" unit="Vierer" quantity="1">vieren</measure> wertig hecht nemen fu̍r einen <measure type="currency" unit="ß" quantity="1">schilling</measure> wertigen hecht.
+<lb/>Und wenn einer dis <choice><abbr>jetzgent</abbr><expan>jetzgenant</expan></choice> hecht also einem vogt gewertt haͧt, so sol ein vogt
+<lb/>jeklichem garn <measure type="volume" unit="Mütt" quantity="2" commodity="spelt">zwen mu̍t kernen</measure> geben.<note>Diese Bestimmung findet sich auch im Urbar von 1416
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).</note>
+Oͧch so sol ein jeklicher gantzer berrer, so in dem
+<lb/><placeName ref="loc008718">Griffense</placeName> vischent, einem vogt cze <placeName ref="loc000348">Griffense</placeName>
+<date dur="RP1Y">jerlich</date> von des huses ze <placeName ref="loc008719">Griffense</placeName> wegen <num value="5">fu̍nff</num>
+<lb/><measure type="currency" unit="ß" quantity="1">schilling</measure> wertig hecht und <num value="15">fu̍nfftzechen</num>
+<measure type="currency" unit="Vierer" quantity="1">vieren</measure> wertig hecht geben und mag oͧch ein jeklicher
+<lb/>berrer einem vogt die hecht also geben, als hie vor umb die garn geschriben staͧt, und
+<lb/>sol dann ein vogt ze <placeName ref="loc000348">Griffense</placeName> einem gantzen berer geben <measure type="volume" unit="Mütt" quantity="0.5" commodity="grain">ein halb muͦt kernen</measure>. Des
+<lb/>gelich sol ein jeglicher halber berrer <date dur="RP1Y">jerlich</date> einem vogt ze <placeName ref="loc000348">Griffense</placeName> geben <num value="2.5">drithalben</num>
+<lb/>hecht, da einer <measure type="currency" unit="ß" quantity="1">ein schilling pfennig</measure> wertt sin sol und <num value="7.5">achtenthalben</num>
+<measure type="currency" unit="Vierer" quantity="1">vieren</measure> wertigen
+<lb/>hecht, und mag der vischer die oͧch bezaln, als vor staͧt, und sol der vogt derselben halben
+<lb/>bererren einem <date dur="RP1Y">jerlich</date>
+<measure type="volume" unit="Viertel" quantity="1" commodity="grain">ein fiertel kernen</measure> geben.</p>
+</seg>
+<seg n="3"><p><lb/>Und sol man einem vogt ze <placeName ref="loc000348">Griffense</placeName> von des huses ze <placeName ref="loc008719">Griffense</placeName> wegen die <choice><abbr>vorgent</abbr><expan>vorgenanten</expan></choice>
+<lb/>hecht anvachen geben <date type="deadline" when="--05-01">zuͦ ingaͧndem meyen</date>, und sol ein jeklicher nach und nach zu̍chen,
+<lb/>bis das er einem vogt die hecht bezalt und git. Und sol ein vogt ze <placeName ref="loc000348">Griffense</placeName> einen
+<lb/>vischer haben, der den vischern naͧchfare, und wenn der vischer <num value="3">dryg</num> zu̍g gefuͦrt, ee
+<lb/>das des vogtes vischer zuͦ im kunt, so mag ein jeklicher sin hecht in sin wyer tuͦn,
+<lb/>die verkoͧffen oder nit, und haͧt dann ein jeklicher sinem <add place="above">eid</add> genuͦg getaͧn. Und sol oͧch
+<lb/>ein jeklicher weidman ein sessen oder ein flosschif in sinem schiff haben, das er die
+<lb/>hecht und visch lebendig behabe. </p>
+</seg>
+<pb n="5" facs="StAZH_C_I__Nr__2503__S__05_.tif"/>
+<seg n="4"><p><lb/>Es sol oͧch nieman keinen hecht nit vachen, wan der das mess hat. Wer daz brichet,
+<lb/>der git den einung.</p>
+</seg>
+<seg n="5"><p><lb/>Es sol oͧch nieman dehein beren setzen in den se czuͦ den eglinen, so sy in dem leich sint
+<lb/>aͧn eines vogtes und der weidlu̍ten wissen und willen. <app><lem/><rdg wit="StAZH A 85, Nr. 7, S. 2">Unnd
+<lb/>sol weder ein vogt zuͦ <placeName ref="loc000348">Griffense</placeName> noch die weidlût
+<lb/>niemand zuͦ erlouben haben, die vorgemelten beren
+<lb/>zuͦ setzen.</rdg></app> Wer daz brichet, det git den einung.</p>
+</seg>
+<seg n="6"><p><lb/>So sol oͧch nieman deheinen swalen vachn, wenn er uff die wisse gaͧt, weder in engen
+<lb/>netzinen noch in engen berren <app><lem>den leich us und us, ald</lem><rdg wit="StAZH A 85, Nr. 7, S. 3">die zit von <date type="deadline" when="--04-01">angendem apprellen</date> hin
+<lb/>unntz zuͦ <date type="deadline" when="--05-31">usgendem meyen</date></rdg></app> es were dann, das einer die in
+<lb/>sinem hus essen, einem siechen mentschen ald einer tragenden froͧwen geben woͤlt
+<lb/>oder das einer enklein in sinen wyer die ze einer spis tuͦn woͤlt, so mag oͧch ein jeklicher
+<lb/>enklein swalen gehalten, das er ein snuͦr da mit moͤge werffen und nit mer. Aber ein
+<lb/>vogt ze <placeName ref="loc000348">Griffense</placeName> mag die swalen vachen und die in sin wyer tuͦn sinen vischen ze einer spis
+<lb/>oͧch bescheidenlich.<app><lem/><rdg wit="StAZH A 85, Nr. 7, S. 3">Unnd welcher
+<lb/>hierûber verer und witer schwalen fachet, dann
+<lb/>aber hie ist angezeigt, der sol den einung verfallen
+<lb/>sin, und on gnad von im inngezogen werdenn.</rdg></app></p>
+</seg>
+<seg n="7"><p><lb/>Es sol oͧch nieman<app><lem/><rdg wit="StAZH A 85, Nr. 7, S. 3">weder voͤgt noch annder lût</rdg></app> die murvischly, das do heisset das swalen bruͦt, <app><lem>vachen dann u̍ber <num value="5">fu̍nff</num>
+<lb/>seil ungefarlich, ald es were dann, das einer die under dem is fienge, das haͧt dehein baͧn.
+<lb/>Aber sus sol sy nieman vachen, ein vogt von <placeName ref="loc000348">Griffense</placeName> erloͧbe im daz, und mit namen so
+<lb/>sol ein vogt ze <placeName ref="loc000348">Griffense</placeName> noch nieman anders die murvischly nit vachen inrent den
+<lb/>swiren</lem><rdg wit="StAZH A 85, Nr. 7, S. 3">inner<lb break="no"/>halb den schwyren, sy ganngint under dem yß oder nit, fachen innkein wiß noch weg</rdg></app>. Doch so mag ein vogt ze <placeName ref="loc000348">Griffense</placeName> wol so vil murvischlinen vachen, als <damage unit="word" quantity="2" agent="faded ink"><unclear cert="high">er und</unclear></damage>
+<lb/>sin gesind <app><lem>essent</lem><rdg wit="StAZH A 85, Nr. 7, S. 3">zuͦm mal essennt ungevarlich,
+<lb/>ouch mugent die fischer, ob si wellennt, die <num value="5">fu̍nff</num> seil
+<lb/>zu̍chen, doch nit unnder dem yß</rdg></app>, und sol aber ein vogt ze <placeName ref="loc000348">Griffense</placeName> die selben murvischly beschirnen
+<lb/>vor menlichem, er habe den einung gesworn oder nit <abbr>etc</abbr>.</p>
+</seg>
+<seg n="8"><p><lb/>So sol oͧch nieman dehein egle hu̍rling nit vachen, das jaͧr us und us, ald ein vogt
+<lb/>ze <placeName ref="loc000348">Griffense</placeName> erloͧb im daz, ußgenomen, das einer bescheidenlich mag vachen, die er in
+<lb/>sinem hus bruchet, einer tregenden froͧwen oder einem siechen mentschen git, und
+<lb/>sol aber darumb dehein gelt noch miet nit nemen. Darzuͦ so maͧg oͧch ein jeklicher
+<lb/>sinem nechsten naͧchgeburen oͧch wol bescheidenlich geben, so mag oͧch ein weidman
+<lb/>zuͦ <date type="deadline_holiday" when="--09-11">u̍nser herren tag, das ist in der froͧnvasten umb <orgName ref="org004873">sant <persName ref="per012644">Felix</persName> und sant <persName ref="per000143">Regulen</persName></orgName> tag
+<lb/>in den dry tagen der fronvasten</date>, die hu̍rling vachen und die ze markt tragen.</p>
+</seg>
+<pb n="6" facs="StAZH_C_I__Nr__2503__S__06_.tif"/>
+<seg n="9"><p><app><lem><lb/>So was der vischern sitt und ir gewonheit, daz sy die hecht snuͦr in dem jaͧr wurffent,
+<lb/>wenn sy woͤltent und wie vil sy woͤltent, da beduͦcht die vischer gemeinlich, das der se dar
+<lb/>an ze vil hette und haben durch des sewes nutzes, umb des besten und durch grosser
+<lb/>notdurfft willen under einander gemacht, das ein jeklicher die hecht snuͦr mag werffen
+<lb/>in dem jaͧr <time dur="P5W">fu̍nff wuchen</time> und nit mer, und mag dz also tuͦn in dem jaͧr, wenn er wil die <time dur="P5W">fu̍nff
+<lb/>wuchen</time> und nit mer.</lem><rdg wit="StAZH A 85, Nr. 3, S. 3"><lb/>Es mag oͧch ein jeglicher weidman u̍ber jar die hecht schnuͦr setzen, wenn er will.</rdg><rdg wit="StAZH A 85, Nr. 7, S. 4">Es sol och niemand kein hecht schnuͦr mer setzen,
+<lb/>ußgenomen inn der <date type="floating holiday">vasten</date>, dem <date type="holiday">advent</date> und
+<lb/>den dryen tagen inn yeder <date type="floating holiday">fronnfasten</date>, allß
+<lb/>dann mag einer die hechtschnuͦr wol setzen.
+<lb/>Unnd wer hierûber hanndelt, der sol den
+<lb/>einung verfallen sin.</rdg></app></p>
+</seg>
+<seg n="10"><p><lb/>Die weidlu̍t sint oͧch also von alter herkomen, daz ein jeklich garn alle wuchen, so es ze se
+<lb/>vart, dem vogt ze <placeName ref="loc000348">Griffense</placeName>
+<measure type="currency" unit="ß" quantity="1">eines schillings</measure> wertt vischen geben sol, wenn des vogtes
+<lb/>knechte die reichent, und ein jeklicher berrer <measure type="currency" unit="d" quantity="6">sechs pfenning</measure> wert vischen, oͧch so er ze
+<lb/>se vart und des vogtes knecht die reichent.</p>
+</seg>
+<seg n="11"><p><lb/>Es mag oͧch ein jeklicher weidman, der da die garn, netzen und berren fuͤrt, ein alschnuͦr
+<lb/>werffen, wenn er wil, und nieman anders.</p>
+</seg>
+<seg n="12"><p><lb/>Wer oͧch die garn fuͤrt, der sol den oberteil an einer wand nit lenger fuͤren noch haben
+<lb/>dann <measure type="length" unit="Klafter" quantity="38">acht und drissig klafter</measure>. Were aber, das jeman die garn lenger fuͤrte und hette,
+<lb/>der sol den einung geben, und was sy lenger sint dann <measure type="length" unit="Klafter" quantity="38">acht und drissig klafter</measure>, das sol man
+<lb/>abhoͧwen. <supplied source="StAZH A 85, Nr. 7, S. 4">Es sol ouch keiner zwei garn annenandern
+<lb/>knûpffen, sûnder soͤlch <unclear>mennzu̍g</unclear> abgestelt sin
+<lb/>und fûrer nit gebrûcht werden by verfallen
+<lb/>dess eynûngs buͦss.</supplied></p>
+</seg>
+<pb n="7" facs="StAZH_C_I__Nr__2503__S__07_.tif"/>
+<seg n="13"><p><lb/>So mag oͧch jeklicher weidman wol sinen knecht, den er dann hat, mit im ze sew fuͤren,
+<lb/>er habe den einung gesworn oder nit, doch wenn ein weidman einen knecht, den er dann
+<lb/>mit im ze se fuͤrt, <time dur="P8D">acht tag</time> by im hat, so sol er im disen einung sagen und sol im dann der
+<lb/>selb knecht den einung by siner tru̍w an eines eides statt verheissen staͧt ze halten,
+<lb/>und sol aber dann fu̍rderlich der weidman sinen knecht zuͦ einem vogt fuͤren oder sinem
+<lb/>weibel, und sol dann da der knecht den einung sweren in der maͧß, als vor staͧt. Were
+<lb/>aber, daz der weidman sinen knecht mer dann <time dur="P8D">acht tag</time> by im hette, daz er den einung
+<lb/>nit swuͤre noch verhiesse, so ist der meister der weidman den einung verfallen
+<lb/>und sol den geben, als vor staͧt.<space unit="line" quantity="20"/><note>An dieser Stelle wurde Platz ausgespart, vermutlich für allfällige weitere Regelungen.
+Stattdessen wurden solche dann allerdings auf den leeren Seiten am Ende des Hefts nachgetragen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref></bibl>).</note></p>
+</seg>
+<seg n="14"><p><lb/>Disen vorgeschriben <app><lem>vischeinung</lem><rdg wit="StAZH A 85, Nr. 7, S. 5">vischereinung</rdg></app> und alle stuk, so hie vor geschriben sint, hand dis
+nachge<lb break="no"/>schriben weidlu̍t ze <placeName ref="loc008569">Griffense</placeName>
+<supplied source="StAZH A 85, Nr. 7, S. 5">vorziten <add place="left margin">zum teil</add></supplied>also in schrift geben und oͧch da by gesagt, daz ir vordern
+<lb/>das je und je gehalten und an sy braͧcht haben, ußgenomen umb die hecht snuͦr ze
+<lb/>werffen, das hand sy geendert umb des besten willen, als hie vor darumb geschriben ist.
+<lb/>Und hand oͧch dise stuk alle gesworn staͤt ze halten und das oͧch ir vordren das also an
+<lb/>sy gebraͧcht habent ungevarlich, und were, daz deheiner diser stuken deheines
+u̍ber<lb break="no"/>fuͤre und nit staͤt hielte, so sol ein jeklicher, der diser stuken deheins u̍berfuͤre und
+<lb/>breche, dem vogt ze <placeName ref="loc000348">Griffense</placeName> von des huses daselbs wegen ze buͦß verfallen sin
+<lb/>und oͧch geben <measure type="currency" unit="ß" quantity="12">zwoͤlf schilling pfenning</measure> und den weidlu̍ten oͧch <measure type="currency" unit="ß" quantity="12">zwoͤlf schilling
+<lb/>pfenning</measure>, und wie vil in einem schiff uff dem se sint, die diser stuken deheines
+<pb n="8" facs="StAZH_C_I__Nr__2503__S__08_.tif"/>brechen, da sol ein jeklicher, so in dem schiff ist, dem vogt ze <placeName ref="loc000348">Griffense</placeName>
+<measure type="currency" unit="ß" quantity="12">zwoͤlf schilling
+<lb/>pfenning</measure> und den weidlu̍ten oͧch <measure type="currency" unit="ß" quantity="12">zwoͤlf schilling pfenning</measure> geben. Were aber, daz under
+<lb/>inen deheiner were, der da spraͤche, man sol daz nit tuͦn, man brichet den einung und oͧch er
+<lb/>dann daz ze tuͦnd nit hulffe, da mit sol derselb der buͦß dem vogt und den weidlu̍ten
+<lb/>ze geben ledig sin und sol aber daz dann dem vogt by sinem eid leiden. Und welher oͧch
+<lb/>diser stuken deheines, so hie vor geschriben staͧt, brichet und dar wider tuͦt und das dem vogt
+<lb/>und den weidlu̍ten buͤsset, als vor staͧt, der sol dennocht da mit sin eid nit gebrochen haben
+<lb/>noch dar umb meineidig sin. Und besunder so sol oͧch nieman deheinen andern herren
+<lb/>noch vogt umb die buͦss nu̍tzit pflichtig sin ze tuͦnd, dann wenn einer einen vogt ze
+<lb/><placeName ref="loc000348">Griffense</placeName> und die weidlu̍t daselbs darumb abgeleit und gnuͦg getaͧn haͧt, so sol er von
+<lb/>menlichem umbeku̍mbert ledig sin und sol jeklicher den andern umb dise <choice><abbr>vorgent</abbr><expan>vorgenanten</expan></choice> stuk
+<lb/>einem vogt ze <placeName ref="loc000348">Griffense</placeName> oder sinem weibel leiden by sinem eid. <seg>Und sint dis die
+weid<lb break="no"/>lu̍t, so dise vorgeschriben stuk also in geschrift geben hand, mit namen <persName ref="per013896">Heini Keller</persName>,
+<lb/><persName ref="per013751">Hans Kru̍tli</persName> von <placeName ref="loc008569">Griffense</placeName>, <persName ref="per013568">Jekli Schanolt</persName>, <persName ref="per013517">Hans Imhoff</persName> von <placeName ref="loc008648">Mure</placeName>, <persName ref="per013688">Ruͤdy Schanolt</persName>, <persName ref="per013385">Ruͤdi
+<lb/>Vischer</persName>, <persName ref="per013393">Heini Giger</persName> von <placeName ref="loc008846">Rietikon</placeName>, <persName ref="per013897">Ruͤdi Ku̍ng</persName>, <persName ref="per013687">Ruͤdi Schanolt</persName>, <persName ref="per013566">Heini Schanolt</persName> von <placeName ref="loc008790">Uͤsikon</placeName>
+<lb/>und <persName ref="per013562">Hans Schanolt</persName> von <placeName ref="loc008651">Vellanden</placeName>
+<abbr>etc</abbr>.</seg></p>
+</seg>
+<seg n="15"><p><lb/><add place="below" hand="other hand">Wo ouch ein vischer mit dem garn zu̍chet und ein stoͤssruͦten stosset mit einem
+<lb/>stalscheff, da sol einer anvachen netzen setzen, da syen faͤcher oder nit, und sol
+<lb/>fu̍r sich insetzen einhalb seil, und wenn er einhalb seil gesetzet, so sol er dann
+<lb/>sin netzen setzen ob sich oder nid sich, doch so verr, dz er im nu̍t wider her umb
+<lb/>setz gegen sinen vachen naͤcher dann ein halb seil <abbr>etc</abbr>.</add></p>
+</seg>
+<seg n="16"><p><lb/><add place="below" hand="other hand">Was vischen oͧch in den grossen hechtbeͣrren gevangen werdent, die mag man wol
+<lb/>u̍ber jaͧr ze markt senden und ver<damage agent="faded ink"><unclear cert="high">kou</unclear></damage>ffen.</add>
+<supplied source="StAZH A 85, Nr. 3, S. 5">Unnd doch so soͤllen die bliken das mess haben.</supplied></p>
+</seg>
+<pb n="9" facs="StAZH_C_I__Nr__2503__S__09_.tif"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 19"/></p>
+<p><gap source="SSRQ ZH NF II/3, Nr. 20"/></p>
+<pb n="10" facs="StAZH_C_I__Nr__2503__S__10_.tif"/>
+<p><gap source="SSRQ ZH NF II/3, Nr. 21"/></p>
+<pb n="11" facs="StAZH_C_I__Nr__2503__S__11_.tif"/>
+<pb n="12" facs="StAZH_C_I__Nr__2503__S__12_.tif"/>
+<div>
+<ab type="dorsal" place="cover" hand="hand16c"><lb/>Alt vischereynung</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Einung der Fischer am <placeName ref="loc008718">Greifensee</placeName> wurde 1428 niedergeschrieben.
+In diesem Zusammenhang wurde beim Vogt <persName ref="per013899">Rüdger Studler</persName>
+sowie den Fischern vom <placeName ref="loc008718">Greifensee</placeName>
+Kundschaft aufgenommen über den Umgang mit Garnen, Fischleginen und Schwebenetzen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=917494">StAZH A 85, Nr. 4</ref></bibl>).
+Als der <orgName ref="org002406">Zürcher Rat</orgName> 1431 weitere Bestimmungen über die Fischerei
+auf dem <placeName ref="loc008718">Greifensee</placeName> erliess, wurden diese der Einung hinzugefügt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_019">SSRQ ZH NF II/3, Nr. 19</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_020">Nr. 20</ref></bibl>).
+Etwas später wurden auf der Innenseite des Umschlags ausserdem noch Bestimmungen über den Fährdienst auf dem Greifensee festgehalten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>).
+Verschiedene Nachträge finden sich auf den hintersten Seiten im Heft
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_021">SSRQ ZH NF II/3, Nr. 21</ref></bibl>).
+1519 wurde die Einung schliesslich neu aufgesetzt und dabei um zusätzliche Bestimmungen erweitert
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_056">SSRQ ZH NF II/3, Nr. 56</ref></bibl>).</p>
+<p>Bei dem vorliegenden Pergamentheft handelt es sich vermutlich um jenes Exemplar, das der Vogt zur Verkündigung bei sich trug.
+Dafür sprechen die starken Gebrauchsspuren und Nachträge ebenso wie die Tatsache,
+dass Vogt <persName ref="per013722">Heinrich Suter</persName> in den 1460er Jahren darin noch
+Bestimmungen zur Regelung des Fährdienstes auf dem <placeName ref="loc008718">Greifensee</placeName> notierte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>).</p>
+<p>Zur Fischerei auf dem <placeName ref="loc008718">Greifensee</placeName> vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 39-47</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Zimmermann 1990</ref>, S. 7-14</bibl>;
+allgemein zur Fischerei im <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

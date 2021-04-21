@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_068_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250776">StAZH C I, Nr. 2477</idno></msIdentifier><head>Urteil in einem Streit über das Vormundschaftswesen in der Gerichtsherrschaft Maur</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen dem Vogt von Greifensee, Bilgeri Leemann, sowie Grossjakob Aeppli von Maur, dass das Bevogten von Kindern und die Vormundschaftsrechnungen in der Gerichtsherrschaft Maur ausschliesslich Sache des Vogts oder seines Statthalters sei. Für diese Dienstleistung sollen sie eine bescheidene Gebühr empfangen. Die sonstigen Gerichtsrechte Aepplis sollen davon aber keinesfalls beeinträchtigt sein. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="16.0"/><width unit="cm" quantity="30.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1546-03-17"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000038">Gerichtsherrschaft</term><term ref="key000036">Vogtei</term><term ref="key000997">Vormundschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2477__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd kundt mengklichem mit disem brief, als sich etwas spans
+<lb/>zuͦgetragen hatt zwüschend dem ersammen, wysen, unnserem gethrüwen, lieben burger unnd vogt zuͦ <placeName ref="loc000348">Gryffensee</placeName>
+<persName ref="per012737">Bilgeri
+<lb/>Leman</persName> eins unnd dem unnseren <persName ref="per012783">Groß Jacoben Äppli</persName> von <placeName ref="loc008648">Mur</placeName> annndersteyls von wegen des befogtens der kinden
+<lb/>unnd annderer personen, dessglich des innemmens halb der selben rechnungen inn des <persName ref="per012783">Äpplis</persName> zuͦ <placeName ref="loc008648">Mur</placeName> kleinen
+<lb/>gerichten.</seg>
+<seg>Da vermelter unnser vogt vermeynt, das söllichs imm von unnserer herschafft wegen zuͦ thuͦnd unnd
+<lb/>usszerichten zuͦstan sölte, wie dann unnser ordnungen zuͦ gebind unnd die vorigen unnsere vögt zuͦ <placeName ref="loc000348">Gryffensee</placeName> ouch
+ge<lb break="no"/>brucht hettind. Des sich aber gedachter <persName ref="per012783">Äppli</persName> beschwerdt unnd getruwt, wir wurdint unnsere<subst><del rend="overwritten">mm</del><add place="inline">nn</add></subst> vogt syns fürnemens
+<lb/>abwysen unnd inn by sinen gerichten, rechten unnd altem harkommen, so er zuͦ <placeName ref="loc008648">Mur</placeName> hette, es sige befogtenns,
+<lb/>ouch innemmens der rechnungen unnd aller annderer dingen halb, rüwenklich bliben lassen.</seg>
+<seg>Unnd nach
+<lb/>dem die parthygen beidersidts inn irem span nach notturfft gehört, habendt wir uf flissig erkonigung des
+al<lb break="no"/>ten harkommens diß erlütrung unnd erkantnus gegeben, das obangezöigt bevogten unnd rechnung inemmen
+<lb/>inn <persName ref="per012783">Applis</persName> gerichten allein unnseren vögten zuͦ <placeName ref="loc000348">Gryffensee</placeName> ald iren geordneten statthalteren von oberkeit
+<lb/>wegen zethuͦnd unnd zefertigen gebüren unnd zuͦstan unnd sy die lüth mit der belonung bescheidenlich halten,
+<lb/>ouch dise erkantnus dem <persName ref="per012783">Äppli</persName> sonst an sinen gerichten, gebotten unnd rechten inn allweg unabbrüchig
+<lb/>unnd unschedlich syn sölle.</seg>
+<seg>In chrafft dis briefs, daran wir unnser statt <placeName ref="loc000065">Zürich</placeName> secret innsigel offenlich
+<lb/>habend lassen henncken, <origDate when="1546-03-17">mitwuchen nach innvocavit nach der geburt Christi gezalt fünfftzechen
+hun<lb break="no"/>dert viertzig unnd sechs jar</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2477__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Wie das bevogten der kinden
+<lb/>und annderer personen zuͦ
+<lb/><placeName ref="loc008648">Mur</placeName> und derselben rechnung
+<lb/>innemens einem vogt zuͦ
+<lb/><placeName ref="loc000348">Gryffensee</placeName> zustan solle,
+<lb/><origDate when="1546">1546</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Zwischen dem Vogt von <placeName ref="loc000348">Greifensee</placeName> und der Familie <orgName ref="org004085">Aeppli</orgName> als Inhaberin
+der Gerichtsherrschaft <placeName ref="loc008648">Maur</placeName> kam es auch später wieder zu Kompetenzstreitigkeiten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_070">SSRQ ZH NF II/3, Nr. 70</ref></bibl>).
+Offenbar versuchte die Stadt <placeName ref="loc000065">Zürich</placeName> in der Mitte des 16. Jahrhunderts verstärkt,
+die verbleibenden Gerichtsherrschaften auf der <placeName ref="loc000066">Zürcher Landschaft</placeName> unter ihre Hohheit zu bringen
+(<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 179-180</bibl>).
+Während dies kurz zuvor in <placeName ref="loc006198">Uster</placeName> gelungen war
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_065">SSRQ ZH NF II/3, Nr. 65</ref></bibl>),
+blieb <placeName ref="loc008648">Maur</placeName> jedoch noch fast bis zum Ende des Ancien Régime eine private Gerichtsherrschaft.
+Entgegen dem hier gefällten Urteil waren die Gerichtsherren von <placeName ref="loc008648">Maur</placeName>
+später auch wieder sehr aktiv im Vormundschaftswesen
+(<bibl><ref target="/startseite/literaturverzeichnis">Aeppli 1979</ref>, S. 98</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 180-181, mit Anm. 154-163</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

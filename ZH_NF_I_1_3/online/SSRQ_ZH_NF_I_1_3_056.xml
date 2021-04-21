@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_056</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4248738">StAZH B II 27, S. 116</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Klagen in Ehesachen vor dem Offizialgericht in Konstanz</head><msContents><summary>Bürgermeister Konrad Schwend und beide Räte der Stadt Zürich beschliessen die Anfertigung eines Schreibens an die Landvögte. Diese werden angewiesen, die Bussen für abgewiesene Klagen auf Anerkennung einer Ehe (Eheansprachen) unverzüglich einzuziehen. Sofern ein Anspruch auf Anerkennung einer Ehe erhoben wird, aber keine der beiden Parteien vor Gericht klagen will, sollen beide gebüsst werden. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="12.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1496-12-22"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000863">Ehe</term><term>Geistliche Gerichtsbarkeit</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="116"/>
+<head><lb/>Uff <origDate when="1496-12-22">donstag naͧch <persName ref="per000354">Thome</persName>
+<choice><abbr>aply</abbr><expan>apostoly</expan></choice></origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<lb/>herr <orgName ref="org002406"><persName ref="per004700">Swend</persName>, burgermeister, und beyd raͤt</orgName></head>
+<p><gap reason="irrelevant"/><note>Das erste an diesem Tag vor dem <orgName ref="org002406">Rat</orgName> verhandelte Geschäft steht nicht in Zusammenhang mit dem Editionsstück.</note></p>
+<p><seg><lb/>Den voͤgten zeschriben, wenn eins dz ander der 
+<lb/>e ansprecht, dz sy die buͦs von dem, der dz 
+<lb/>ander angesprochen haͧt und dz nit bezu̍cht,
+<lb/>zestund inziechen.</seg>
+<seg>Und ob enweders dz ander
+<lb/>mit recht welt ersuͦchen und doch gen ein 
+<lb/>ander anspraͤchig weren, dz sy von den 
+<lb/>beiden die buͦs erfordern.</seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung stellt eine Erweiterung der Bestimmung <orig>Von unredlicher e</orig> dar, die auf den Richtebrief zurückgeht (<bibl><ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_100">SSRQ ZH NF I/1/1</ref>, S. 100</bibl>). Dort wird verordnet, dass im Falle einer Klage auf Anerkennung einer Ehe (Eheansprache), die vor dem <placeName ref="loc000923">Konstanzer</placeName>
+<orgName ref="org004978">Offizialgericht</orgName> abgelehnt wurde, der unterlegene Kläger gegenüber der Stadt <placeName ref="loc000065">Zürich</placeName> eine Busse in der Höhe von 10 Pfund zu entrichten hatte. Auf diese Weise sollte verhindert werden, dass <placeName ref="loc000065">Zürcher</placeName> Bürgerinnen und Bürger durch ungenügend begründete Klagen vor Gericht gezogen wurden. Von bischöflicher Seite wurde die Bestimmung als Eingriff in die Sphäre geistlicher Gerichtsbarkeit jedoch ungern gesehen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1936</ref>, S. 20-21</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Köhler 1932</ref>, S. 11-12</bibl>).</p>
+<p>Die Erweiterung gegenüber der Bestimmung des Richtebriefs besteht darin, dass im Falle von Eheansprachen, bei denen keine der Parteien vor dem <orgName ref="org004978">Offizialgericht</orgName> klagen wollte, beide Seiten gebüsst werden sollten. Der <orgName ref="org002406">Rat</orgName> unterstrich damit den Anspruch, ungerechtfertigte Eheansprachen zu ahnden, auch wenn diese nur aussergerichtlich vorgebracht wurden. Gleichzeitig bestätigte er ausdrücklich die Zuständigkeit des geistlichen Gerichts zur Beurteilung dieser Fälle.</p>
+<p>Für das Verfahren in Ehesachen vor dem <orgName ref="org004978">Offizialgericht</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_009">SSRQ ZH NF I/1/3, Nr. 9</ref></bibl>; für die Bestrafung ungerechtfertigter Eheansprachen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 61-68</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 171-174</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

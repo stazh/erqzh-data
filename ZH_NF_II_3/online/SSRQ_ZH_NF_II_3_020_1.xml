@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_020_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1498131">StAZH C I, Nr. 2503, S. 9</idno>
+</msIdentifier>
+<head>Lockerung der Bestimmungen über die Fischerei auf dem Greifensee</head>
+<msContents>
+<summary>Bürgermeister und Rat der Stadt Zürich erlauben den Fischern vom Greifensee auf deren Bitte hin, kleine Mengen gefangener Fische
+nicht umgehend auf den Markt nach Zürich zu tragen, weil sich dies nicht lohnt. Ab einem Wert von 10 Schilling sollen sie ihre Fische jedoch
+umgehend auf den Markt liefern, wie sie es mit ihrem Eid geschworen haben.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Zeitgenössische Abschrift aus dem Stadtbuch</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Pergament</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="30.0"/>
+<width unit="cm" quantity="24.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate when="1431-05-08"/></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>Zürcher Stadtbücher, Bd. 3/2, S. 140, Nr. 22 (auf der Grundlage des Stadtbuchs)</bibl>
+</listBibl>
+<listBibl>
+<head>Regest</head>
+<bibl>URStAZH, Bd. 6, Nr. 7365</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000536">Fischerei</term>
+<term ref="key000793">Markt</term>
+<term ref="key004022">Satzung</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="9" facs="StAZH_C_I__Nr__2503__S__09_.tif"/>
+<p><seg><lb/>Uff <origDate when="1431-05-08">cinstag vor der <date type="floating holiday">uffart</date> anno <abbr>etc</abbr> xxxj<hi
+rend="sup">to</hi></origDate> sint die vischer von <placeName ref="loc008569">Griffense</placeName> fu̍r min herren <lb/>burgermeister und
+raͧt komen, hand sy gebetten, inen ze gunnen, so ir einer <measure type="currency" unit="ß" quantity="2">zwey</measure>, <measure
+type="currency" unit="ß" quantity="3">dry</measure>
+<lb/>oder <measure type="currency" unit="ß" quantity="5">funff schilling</measure> wert vischen vache, das er sy behalten muge, untz er
+eines <lb/><measure type="currency" unit="lb" quantity="1">pfuntz</measure> wert gesamne, won inen nit koͤmlich sye, so lu̍tzel visch her in
+ze senden und <lb/>muge ouch den costen nit getragen.</seg>
+<seg>Also hand inen min herren gunnen, dz sy mugend <lb/>wol visch, so sy alz wenig hand, ze samen samnen, doch wenn sy sovil vischen ge<lb
+break="no"/>samnent, die <measure type="currency" unit="ß" quantity="10">x  ₰</measure> gelten mugend, so sullent sy die her in uff den
+nechsten maͤrkt <lb/>senden und fu̍rer by iren eiden nit behalten.</seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Am <origDate when="1431-05-02">2. Mai 1431</origDate> hatte der <orgName ref="org002406">Zürcher Rat</orgName> festgelegt, dass die
+Fischer vom <placeName ref="loc008718">Greifensee</placeName> ihre Fänge umgehend auf den nächsten Markt in die Stadt bringen müssen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_019">SSRQ ZH NF II/3, Nr. 19</ref></bibl>). Mit dem vorliegenden Text wurde diese
+Bestimmung knapp eine Woche später auf Bitte der betroffenen Fischer im Hinblick auf kleinere Fänge gelockert. Beide Beschlüsse wurden im
+Stadtbuch festgehalten (Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 138-140, Nr.
+21-22</bibl>) und auf der letzten Seite im Heft der Fischereinung eingetragen, damit sie zusammen mit dieser verkündet werden konnten.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

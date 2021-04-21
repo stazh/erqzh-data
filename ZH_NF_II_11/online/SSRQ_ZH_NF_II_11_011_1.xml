@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_011_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=347287">StAZH C I, Nr. 3054</idno></msIdentifier><head>Verpfändung der Vogtei Höngg durch das Kloster Wettingen an die Stadt Zürich</head><msContents><summary>Abt und Konvent von Wettingen geben der Stadt Zürich für die von ihrem Kloster geschuldeten 1000 Gulden die Vogtei Höngg über Leute und Güter als Pfand. Die Verpfändung erfolgt mit Einwilligung der Herrschaft Österreich und die Stadt Zürich erhält die Vogtei mit allen Rechten und Nutzen, wie das Kloster sie von Johann von Seen erworben hat. Abt und Konvent verzichten für sich und ihre Nachkommen auf jegliche Ansprüche im Zusammenhang mit der Vogtei, solange die Schuld unbeglichen bleibt. Ausserdem sichern die Pfandgeber der Stadt Zürich zu, deren Rechte an der Vogtei vor geistlichen und weltlichen Gerichten zu schützen.  Die Aussteller siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="19.0"/><width unit="cm" quantity="36.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="peltade" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Abt Johann Paradyser von Wettingen</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Konvent des Klosters Wettingen</persName></seal></sealDesc></physDesc><history><origin><origDate when="1384-09-10"/><origPlace>Kloster Wettingen</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 2, Nr. 2987</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000010">Kloster</term><term ref="key000441">Pfand</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3054__r_.tif"/>
+<p>
+<seg><lb/>Wir, der <orgName ref="org000030">abt und der convent gemeinlich des closters
+ze <placeName ref="loc000074">Wettingen</placeName></orgName>, des
+<orgName ref="org005242">ordens von <placeName ref="loc005629">Citels</placeName></orgName>, in
+<orgName ref="org000056"><placeName ref="loc000923">Costentzer</placeName> bistuͦm</orgName>, verjechen und tuͦn
+kunt offen<lb break="no"/>lich mit disem brief allen, die in sehent
+oder hoͤrrent lesen, das wir von des <choice>
+<abbr>obgen</abbr>
+<expan>obgenanten</expan>
+</choice> u̍nsers gotzhus wegen gemeinlich von rechter und redlicher
+schuld <lb/>wegen schuldig syen und gelten su̍llen dien fromen
+wisen, dem <orgName ref="org002406">burgermeister, dien raͤten und dien burgern
+gemeinlich der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>
+<measure type="currency" quantity="1000" unit="fl">tusent
+guldin</measure>
+<lb/>guͤter und geber an gold und an gewicht, die wir inen jetz
+angandes gewert und bezalt solten han und die anstanden not ze
+verkomen.<note>Bei dem geschuldeten Betrag von <measure type="currency" quantity="1000" unit="fl">1000
+Gulden</measure> handelt es sich gemäss Bauhofer nicht um
+ein Zürcher Darlehen, sondern um eine Busse, die das Kloster
+<placeName ref="loc000074">Wettingen</placeName> der Stadt
+<placeName ref="loc000065">Zürich</placeName> infolge eines in der ersten
+Jahreshälfte 1384 ergangenen Rechtsspruchs (<bibl>StAZH
+B VI 217, fol. 273r</bibl>) hätte entrichten
+sollen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1947</ref>,
+S. 10-11</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>,
+S. 273</bibl>).</note> So
+haben wir <lb/>mit wolbedachtem muͦt und mit sinneklicher
+vorbetrachtung, mit gemeinem einhelligem rat u̍nsers
+conventes und aller der, die zuͦ u̍ns
+gehoͤrent, und <lb/>mit willen, gunst und urlǒb u̍nser gnaͤdigen
+<orgName ref="org000088">herschaft von
+<placeName ref="loc000589">Oͤsterrich</placeName></orgName><note>Die Vogtei war
+bis zur Abtretung an das <orgName ref="org000030">Kloster Wettingen </orgName>im
+Jahr <date when="1366">1366</date> österreichisches Lehen (<bibl>StAAG
+U.38/0596</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">Reg. Habs.</ref> V/1, Nr. 169</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1777</bibl>).</note>, dien <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice>, <orgName ref="org002406">dem burgermeister, dien raͤten und dien burgern
+der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName> umb die
+<lb/>vorgeseiten <measure type="currency" unit="fl" quantity="1000">tusent guldin</measure> ze einem rechten, redlichen, werenden
+pfant, nicht abzeniessen<!-- lem007427.01 -->, 
+versetzet und in geantwu̍rt u̍nser vogtey ze
+<placeName ref="loc009768">Hoͤng</placeName> u̍ber lu̍t <lb/>und u̍ber guͦt mit
+aller rechtung, fryheit und ehafti, so von alter her von recht oder
+von gewonheit dar zuͦ gehoͤret, und als her <persName ref="per023530">Johans selig
+von Sehein</persName><note><persName ref="per023530">Johannes von Seen</persName>, verstorben
+1395 (<bibl><ref target="/startseite/literaturverzeichnis">HBLS</ref>, Bd. 6, S. 324</bibl>).</note>
+<lb/>die selben vogtey an u̍ns bracht hat<note>Am <date when="1365-06-23">23. Juni 1365</date> erklärten Abt
+<persName ref="per023960">Albrecht</persName> und der Konvent des Klosters
+<placeName ref="loc000074">Wettingen</placeName>, dass der Verkauf der
+Vogtei in <placeName ref="loc009768">Höngg</placeName> am <date when="1365-05-12">12. Mai 1365</date> durch <persName ref="per023530">Johannes
+von Seen</persName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_008">SSRQ ZH NF II/11, Nr. 8</ref></bibl>) an
+das <orgName ref="org000030">Kloster Wettingen</orgName> mit Zustimmung von
+Propst <persName ref="per013330">Brun Brun</persName> und dem Kapitel der Propstei
+<placeName ref="loc000065">Zürich</placeName> erfolgt sei (<bibl>StAAG
+U.38/0589</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1700</bibl>). Dabei
+sei vereinbart worden, die Propstei und deren sich in der Vogtei
+befindenden Güter und Leute bei den bisherigen Rechten und
+Nutzen zu belassen (vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273811">StAZH C II 1, Nr. 348</ref></bibl>;
+Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1697</bibl>). Am
+<date when="1366-12-07">7. Dezember 1366</date> traten
+schliesslich die Brüder <persName ref="per000336">Albrecht</persName> und
+<persName ref="per000337">Leopold</persName>, Herzöge von Österreich, das
+Eigentum an der Vogtei über Höngg, das die <orgName ref="org007932">von Seen</orgName> als Lehen
+besessen hatten, an das Kloster Wettingen ab und verzichteten
+auf ihre Lehensrechte (vgl. Anm. 2).</note> an geverd. Also
+und mit dem geding, das die <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice> von <placeName ref="loc000065">Zu̍rich</placeName> und all ir nachkomen
+die vorgeschriben vogty mit aller <lb/>ir zuͦgehoͤrung und in dem
+recht, als vorbescheiden ist, in eines rechten wernden pfandes wise,
+ane abslahen der nu̍tzen, haben und niessen, besetzen und
+<lb/>entsetzen su̍llent, wie inen das fuͤget, als lang und all die
+wile, so si von u̍ns noch von u̍nsern nachkomen umb die vorgeseiten
+<measure type="currency" unit="fl" quantity="1000">tusent
+guldin</measure> von dien selben <lb/>von
+<placeName ref="loc000065">Zu̍rich</placeName> gentzlich nicht erlediget noch
+erloͤset ist an all geverd. Wir haben u̍ns oͧch fu̍r u̍ns und all
+u̍nser nachkomen gar und gentzlich entzigen<!-- lem007225.01 --> und entzi<lb break="no"/>hen<!-- lem005752.05 --> u̍ns mit disem brief alles rechten,
+vordrung und ansprach, so wir oder u̍nser nachkomen nach der
+vorgeschriben vogtey ze <placeName ref="loc009768">Hoͤng</placeName> mit aller ir
+zuͦgehoͤrung <lb/>untz an die losung der vorgeseiten <measure type="currency" unit="fl" quantity="1000">tusent
+guldin</measure> dehein wise jemer gewinnen moͤchtin, gen dien <choice>
+<abbr>obgen</abbr>
+<expan>obgenanten</expan>
+</choice>, <orgName ref="org002406">dem burgermeister, dien raͤten und burgern
+gemeinlich <lb/>der stat
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, oder gen ir nachkomen
+mit geistlichen oder mit weltlichen gerichten oder mit deheinen
+andern sachen an all geverd. Wir haben oͧch ze des <choice>
+<abbr>obgen</abbr>
+<expan>obgenanten</expan>
+</choice>
+<lb/>u̍nsers gotzhus wegen gemeinlich fu̍r u̍ns und fu̍r all u̍nser
+nachkomen, die wir vesteklich hie zuͦ binden, mit guͦten tru̍wen
+gelopt und verheissen, der vorgeschri<lb break="no"/>ben vogty ze
+<placeName ref="loc009768">Hoͤng</placeName> mit aller ir zuͦgehoͤrung und in
+dem recht, als vorbescheiden ist, hinnanhin eweklich fu̍r ein recht
+werend pfand, nicht abzeniessen, recht <lb/>weren<!-- lem000475.01 --> ze sin der <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice>, <orgName ref="org002406">des burgermeisters, der raͤten und der burgern
+gemeinlich der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>,
+und aller ir nachkomen, und si oͧch dar umb hinnanhin jemer <lb/>mer
+gen menlichem ze versprechen und ze verstan vor geistlichen und vor
+weltlichen gerichten und mit namen an allen stetten, wo und wenn si
+des notdurftig <lb/>sint, und oͧch all die wile, so wir die selben
+vogty umb die vorgeseiten <measure type="currency" unit="fl" quantity="1000">tusent guldin</measure> von inen nicht erledigot
+noch erloͤset haben, an all geverd.</seg>
+<seg>Her u̍ber ze <lb/>einem offenn und vesten urku̍nd, das dis
+vorgeschriben alles nu und hienach war und stet belib, so haben wir,
+die <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice>, <orgName role="sigillant" ref="org000030">der abt und der convent
+<lb/>des closters ze <placeName ref="loc000074">Wettingen</placeName></orgName>,
+u̍nsru̍ insigel fu̍r u̍ns und u̍nser nachkomen offenlich gehenket an
+disen brief, der geben ist in dem <choice>
+<abbr>vorgen</abbr>
+<expan>vorgenanten</expan>
+</choice> u̍nserm <orgName ref="org000030">gotzhus <lb/>ze
+<placeName ref="loc000074">Wettingen</placeName></orgName>, <origDate when="1384-09-10">an dem zehenden tag des ersten herbstmanodes,
+do man zalt von Cristus gebu̍rt dru̍zehen hundert und achtzig
+jar, dar nach in <lb/>dem vierden jare.</origDate></seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3054__v_.tif"/>
+<div><ab type="dorsal" place="verso"><lb/>Vogtey ze <placeName ref="loc009768">Hoͤng</placeName></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand15c"><lb/>Von dem apt <placeName ref="loc000074">Wettingen</placeName></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand16c"><lb/>Pfandbrief umb <placeName ref="loc009768">Hōngg</placeName> 1384</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab></div>
+</body>
+<back>
+<div>
+<p>Neben den Erwerbungen der Vogteien <placeName ref="loc010889">Zollikon</placeName> mit <placeName ref="loc010865">Stadelhofen</placeName> (<date when="1358">1358</date>) und <placeName ref="loc010141">Küsnacht</placeName> (<date when="1384">1384</date>) stellt <placeName ref="loc009768">Höngg</placeName> eine der ersten Herrschaftserwerbungen der Stadt <placeName ref="loc000065">Zürich</placeName> dar (<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S. 273</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D170.php">Zollikon</ref></bibl>). Da das Kloster von seinem Recht der Wiederlösung (vgl. Gegenbrief vom <date when="1384-09-12">12. September 1384</date>: <bibl>StAAG U.38/0700</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 2, Nr. 2988</bibl>) nie Gebrauch machte, verblieben die Vogteirechte über <placeName ref="loc009768">Höngg</placeName> bei der Stadt <placeName ref="loc000065">Zürich</placeName>, an die im Zuge der Reformation <date when="1525">1525</date> auch das Niedergericht von <orgName ref="org004352">Propst und Kapitel des <placeName ref="loc007562">Grossmünster</placeName>s</orgName> übergeben wurde (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref>, S. 6</bibl>). Die Vogtei über den Weiler <placeName ref="loc012238">Rütihof</placeName> am <placeName ref="loc009768">Hönggerberg</placeName>, der zum <placeName ref="loc011708">Fraumünster</placeName>(-amt) gehörte, hielt dagegen die Gerichtsherrschaft <placeName ref="loc007731">Weiningen</placeName> inne, womit der <placeName ref="loc012238">[Birch-]Rütihof</placeName> bis zum Ende des Ancien Régime politisch zur Grafschaft <placeName ref="loc000446">Baden</placeName> zählte (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D3138.php">Höngg</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA V</ref>, S. 44, 220-222</bibl>). Auf die vogteilichen Rechte in <placeName ref="loc009768">Höngg</placeName> geht der Pfandbrief nicht näher ein, sondern verweist lediglich auf die Verhältnisse beim Erwerb der Vogtei von den <orgName ref="org007932">von Seen</orgName> durch das Kloster (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_008">SSRQ ZH NF II/11, Nr. 8</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

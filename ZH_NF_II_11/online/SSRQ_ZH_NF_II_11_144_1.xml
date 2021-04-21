@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_144_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=315998">StAZH C II 1, Nr. 1057 b</idno></msIdentifier><head>Bestätigung des Fertigungsrechts des Grossmünsterstifts über seine Lehengüter im Konflikt mit den Landschreibern von Schwamendingen und Albisrieden</head><msContents><summary>Bürgermeister und Rat von Zürich urteilen im Konflikt zwischen Johann Ruodolf Lavater, dem Stiftsschreiber des Grossmünsters, im Namen des Stifts einerseits und Heinrich Wüst, Landschreiber in Schwamendingen, und Rudolf Waser, Landschreiber in Albisrieden, anderseits betreffend das Fertigungsrecht des Stiftes und die Befugnis, Fertigungsbriefe oder Kaufbriefe zu erstellen, nachdem ein durch fünf Ratsabgeordnete vorgeschlagener Vergleich misslungen ist.  Lavater verteidigte das Fertigungsrecht des Stifts unter Hinweis auf dessen zweihundertjährigen unbestrittenen Besitz und beanspruchte unter Berufung auf seine Vorgänger und mit Hinweis auf Rechenschreiber, Spitalschreiber und Almosenamtschreiber das Anrecht auf Urkundenausfertigung. Die Landschreiber erklärten dagegen, dass vor etlichen Jahren Altstiftsschreiber Rudolf Müller und Amtmann Marx Escher, damaliger Landschreiber in Schwamendingen, eine gütliche Verabredung getroffen hätten, wonach auch die Landschreiber das Protokoll </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="60.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax in a box" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1691-04-29"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003931">Fertigung</term><term ref="key000383">Kanzlei</term><term ref="key000051">Schreiber</term><term ref="key003346">Stift</term><term ref="key000751">Vergleich</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister und raht der statt <placeName ref="loc000065">Zürich</placeName></orgName>, urkhunden hiemit offentlich, demnach
+<lb/>sich mißverstand und streitigkeit erhebt zwischent den ehren vesten, unßeren besonders getreüwen, lieben, verburgerten, <persName ref="per026151">Johann Rodolff Lavater</persName>, schreibern einer ehrwürdigen 
+<lb/><orgName ref="org004352">stifft zum Großen Münster</orgName>, an einem, danne <persName ref="per026159">Heinrich Wüest</persName>, landtschreibern zu <placeName ref="loc009859">Schwâmendingen</placeName>, und <persName ref="per026157">Rudolff Waßern</persName>, landtschreybern zu <placeName ref="loc010356">Rieden</placeName><note><placeName ref="loc010356">Albisrieden.</placeName></note>, an dem anderen theil betreffend theils 
+<lb/>einer <choice><abbr> ehrw<hi rend="sup">n</hi><!-- ahh: wird im Tester nicht umgesetzt, Problem ist gemeldet --></abbr><expan>ehrwürdigen</expan></choice>
+<orgName ref="org004352">stifft</orgName> zugehörendes fertigungs-recht, theils die befugsamme, die fertig- ald kauff-brieff<note>Beispiel einer zeitnahen Kauffertigung durch das <orgName ref="org004352">Grossmünsterstift</orgName> vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1196625">StAZH G I 8, Nr. 13</ref></bibl>.</note> zuschreiben, da dan ermelter stifftschreiber innammen seiner <choice><abbr>hh</abbr><expan>herren</expan></choice> principalen angehalten, daß wir 
+<lb/>selbige bey ihrem ohndisputierlich von <num value="2">zweyen</num>
+<foreign xml:lang="la">seculis</foreign> hero unperturbiertem possess der fertigungs rechten zu schützen und zuschirmen, bynebent ihme gleich seinen vorfahren nach außweisung der 
+<lb/>offnung<note>Sowohl die älteren Rechte des <orgName ref="org004352">Stifts</orgName> in <placeName ref="loc009859">Schwamendingen</placeName> (ca. 1400)<!-- ahh: Datierung ev. anpassen, wenn dieses Stück ediert. --> als auch die erneuerten Rechte von <date when="1533">1533</date> erwähnen die Pflicht der Inhaber von Erblehengütern, Kaufgeschäfte innert Jahresfrist vor dem Propst respektive vor den Stiftspflegern zu fertigen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>, Art. 24</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_057">SSRQ ZH NF II/11, Nr. 57</ref>, Art. 16</bibl>).</note> (und wie die rechen-, spitthal- und allmosen ambts schreiber an ihrem ohrt consideriert seyen) zu gutem wolermelter <orgName ref="org004352">stifft</orgName> lëhen zinsen und tragereyen umb das, so vor dero stab ge<lb break="no"/>fertiget
+wird, die schreibung der fertigungs-brieffen zuzukennen, <choice><abbr>gn</abbr><expan>gnädig</expan></choice> geruhen wolten.</seg>
+<seg>Hingegen hatten erwehnte landtschreibern, sonderlich der zu <placeName ref="loc009859">Schwâmendingen</placeName>, vermeinen wollen, daß in 
+<lb/>ansehung einer vor etlichen jahren beschechnen güetlichen abred zwischent dem ehrsammen, weisen alt stifftschreiber <persName ref="per026154">Rudolff Müller</persName> und dem frommen, vesten ambtman <persName ref="per026148">Marx Escher</persName>, damahligen 
+<lb/>landtschreiber zu <placeName ref="loc009859">Schwâmmendingen</placeName>, auch sy solch streitiger enden daß protocoll füehren und zu verhüetung allerhand betrugs nicht nur die schuld, sondern auch, nach bedingtem innhalt erregter 
+<lb/>abred, die kauffs verfertigungs-brieff zu schreiben ihnen zuständig seyn solten.</seg>
+<seg>Und nun wir sie in klag und antwort, auch ablesung eingelegter schrifften<note>Vgl. hierzu die weiteren in diesem Zusammenhang entstandenen Schreiben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195305">StAZH G I 8, Nr. 42</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195301">StAZH G I 8, Nr. 44</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195303">StAZH G I 8, Nr. 46</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195298">StAZH G I 8, Nr. 47</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195304">StAZH G I 8, Nr. 55</ref></bibl>).</note> der nothurfft nach angehört, 
+<lb/>habend wir hierauff etwelche unserer mitträhten verordnet<note>Der Konflikt muss ein Jahr früher angefangen haben, da bereits am <date when="1690-01-18" calendar="Julian">18. Januar 1690</date> vier Ratsherren (<persName ref="per026150">David Horner</persName> und <persName ref="per026138">Ulrich Wolf</persName> werden im Gegensatz zur edierten Urkunde nicht genannt) abgeordnet wurden, ein Gutachten über die Natur der Lehengüter zu erstellen, wegen deren Fertigung ein Konflikt ausgebrochen war (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1194081">StAZH G I 8, Nr. 35</ref></bibl>). Vom gleichen Tag ist auch ein Bericht erhalten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1194080">StAZH G I 8, Nr. 36</ref></bibl>). Datierend vom <date when="1690-01-23" calendar="Julian">23. Januar 1690</date> haben sich Zusammenstellungen und ein Bericht über früher erfolgte Fertigungen sowie ein Gutachten überliefert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1194023">StAZH G I 8, Nr. 37</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1194077">StAZH G I 8, Nr. 38</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1194078">StAZH G I 8, Nr. 39</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Anhang, A. 26</bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195299">StAZH G I 8, Nr. 41</ref></bibl>).</note>, namblich die hochgeachten, woledlen, gesträngen, frommen, vesten, fürnehmen, fürsichtigen und weißen, herren <persName ref="per026146">Johann 
+<lb/>Heinrich Dentzler</persName>, statthalter, <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<persName ref="per026155">Caspar Muralt</persName>, obmann gemeiner unßerer clöstern, <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<persName ref="per026150">David Hörner</persName>, gewesenen syl- und dießmahligen hardherr<!-- ahh an PS: Sihl- und Hardamt ist gemeint. Soll dann trotzdem Syl und Hard gross geschrieben werden? mng: laut Teamsitzung vom 19.4.17 werden solche Komposita kleingeschrieben. -->, <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<persName ref="per026149">Salomon Hirtzel</persName>, gewesnen 
+<lb/>landtvogt im <placeName ref="loc000777">Thurgeüw</placeName> und jetzmahliger statthaubtman, und <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<persName ref="per026138">Ulrich Wolff</persName>, gewesnen vogt zu <placeName ref="loc000362">Grüeningen</placeName>, in der meinung (mit zuziehung unßers auch <choice><abbr>gelbt</abbr><expan>gelobten</expan></choice> mittrahts, <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<lb/><persName ref="per026110">Melchior Hoffmeisters</persName>, zunfftmeisters und gewesnen vogts zu <placeName ref="loc009864">Wynfelden</placeName>, und deß <choice>
+<abbr>ehrw<hi rend="sup">n</hi></abbr><expan>ehrwürdigen</expan></choice> und wolgelehrten <choice><abbr>hr</abbr><expan>herrn</expan></choice>
+<persName ref="per026158">Caspar Wolffen</persName>, verwaltern der <orgName ref="org004352">stifft</orgName>), die partheyen in ihrem für- und 
+<lb/>widerbringen weiters gegen einanderen zuverhören, ihre <foreign xml:lang="la">documenta</foreign> zu durchgehen und, wo müglich, sie güetlich mit einanderen zuvergleichen, welche dan den <date when="1691-03-27" calendar="Julian">27<hi rend="sup">ten</hi> martii</date> nechsthin sich 
+<lb/>zusammen verfüegt, beide partheyen der weitleüffigkeit nach in ihren angelegenheiten verhört, die ein- und anderseiths zum beweistumb producierte gründ und eingegebne schrifften 
+<lb/>erduhret und dato uns gebührend referiert, wie daß von ermeltem <choice><abbr>hr</abbr><expan>herrn</expan></choice> verwalter <persName ref="per026158">Wolffen</persName> in nammen einer <choice><abbr>ehrw</abbr><expan> ehrwürdigen</expan></choice>
+<orgName ref="org004352">stifft</orgName> zu beschirmung der stifftsherrlichen fertigungs-rechten 
+<lb/>die rechtsamme <foreign xml:lang="la">a donatione <persName ref="per012717">Caroli magni</persName></foreign> hargeführt und durch underschidenlich, in nechst verwichnem und gegenwürtigem <foreign xml:lang="la">seculo</foreign> von <orgName ref="org001217">räht, auch räht und burgeren</orgName>, ertheilt, ihrer off<lb break="no"/>nung 
+einverleibten erkantnußen confirmiert zu seyn, auch durch etlich mit fertigungen angefüllte follianten die praxis bescheint worden seye, so danne ernant streitige partheyen 
+<lb/>ihre oberzehlte gründ <foreign xml:lang="la">contradictorie</foreign> weitlaüffig proponiert, worüber sie zwahren ein etwelches gutachten abgefaßet, darmit aber die partheyen sich nicht allerdings vernüegt 
+<lb/>befunden, deßetwegen sie die gantze handlung ledigklich uns zu rechtlichem außspruch gezimmend haben hinterbringen wollen.</seg>
+<seg>Derhalben wir in reifflicher erduhr- und über<lb break="no"/>legung
+der sachen beschaffenheit in conformitet angeregt, wol abgefast befundenen gutachtens einhellig erkennt, daß eine <choice><abbr>erhrw</abbr><expan>ehrwürdige</expan></choice>
+<orgName ref="org004352">stifft</orgName> by ihren althar gebrachten privilegien 
+<lb/>nach außweisung ihrer offnungen und urbarien (die wir in krafft dieß brieffs by ihrem innhalt mit aller sicherheit, so zu solichen sachen gehört, für jetz und könfftige zeiten confir<lb break="no"/>mieren
+und bestätigen)<note>Die erneuerte Offnung von <placeName ref="loc010356">Albisrieden</placeName> vom <date when="1691-05-20">20. Mai 1691</date> führt die Anzeigepflicht der Verkäufer von eigenen oder Erblehengütern zuhanden des dortigen Hofmeiers oder des Stiftsverwalters auf, damit Handänderung von den Stiftspflegern gefertigt werden können (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, Nr. 16, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_164">Art. 20e, S. 164</ref></bibl>). </note>, wie nicht weniger by der durch vilfaltig von unßeren regiments vorfahren und uns ergangnen erkantnußen zum offteren bekrefftigete<subst><del>n</del><add place="overwritten">r</add></subst> freyheit der 
+<lb/>fertigungs rechten, benantlich aller orthen unßerer gericht und gebiethen, wo ihro über die selbiger von alten har lëchig geweßenen güter daß fertigungs recht zustehet und sie es 
+<lb/>docieren kan, forthin unperturbiert, in allweg unbekränckt und krefftigist geschirmt verbleiben, demnach von ihrem alß stifftschreiber alles daß jennige, was vor dero stab ge<lb break="no"/>fertiget
+und verhandlet wird, verbriefet und außgehändiget werden, und umb gemeinen bestens wegen zu verhüetung allerhand unordnungen und betrugs, die landtschreibern 
+<lb/>zu <placeName ref="loc009859">Schwâmendingen</placeName> und <placeName ref="loc010356">Rieden</placeName>, wie auch andere landtschreiber, in deren bezirck oberleüterter mâßen stifftische erb lëhengüeter sich befinden theten, die benöthigte <foreign xml:lang="la">extracta</foreign> auß 
+<lb/>ihren <foreign xml:lang="la">protocollis</foreign>, was namlich schuldbarliches auff den gefertigten güeteren stehen möchte, abzufolgen laßen, auch die von gedachtem stifftschreyber entpfahende fertigungs-nachricht 
+<lb/>dem landts<foreign xml:lang="la">protocollo</foreign> einzuverleiben pflichtig seyn; und dahero von dem schreibtax dem stifftschreiber für seine mehrere müehwalt<!-- ahh: Arbeitsaufwand, vgl. Idiotikon Bd. 15, Sp. 1664.-->
+<num value="0.66">zween drittheil</num>, den landtschreiberen aber für 
+<lb/>ihre müeh <num value="0.33">ein drittheil</num> zu kommen, so danne einer <choice><abbr>erhrw</abbr><expan>ehrwürdigen</expan></choice>
+<orgName ref="org004352">stifft</orgName> pflägerambt die besiglung der fertigungs-brieffen allein wie von altem har gebühren und überlaßen seyn,  
+<lb/>auch demme fürohin von allen hierin berührten theilen ohne widrige exception gehorsammlich nachgelebt werden solle.</seg>
+<seg>In krafft dieses brieffs, an den wir zu wahrem und vestem 
+<lb/>urkhundt unßer statt <placeName ref="loc000065">Zürich</placeName> secret-insigel offentlich haben hencken laßen, <origDate when="1691-04-29" calendar="Julian">mittwochs, den neün und zwänzigsten aprilis von der gnaden reichen gebuhrt Christi, unßers 
+<lb/>lieben herren und heilands, gezellt eintaußendt sechshundert neüntzig und ein jahr</origDate>.<note>Ein Eintrag im Unterschreibermanual des <date when="1691-04-20" calendar="Julian">20. April 1691</date> erwähnt die Verlesung des Vergleichs zwischen den beiden Parteien, in welchem dem <orgName ref="org004352">Stift</orgName> das Recht auf Ausfertigung von Fertigungs- und Kaufurkunden bestätigt worden ist. Auch die Verteilung der Schreibgebühren ist bereits festgehalten. Für den Fall, dass die Konfliktparteien den Vergleich nicht annehmen sollten, sehen <orgName ref="org002406">Bürgermeister und beide Räte</orgName> vor, dass das von den Landschreibern eingelegte Bittschreiben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195301">StAZH G I 8, Nr. 44</ref></bibl>) dem Stiftsschreiber <persName ref="per026151">Lavater</persName> mitgeteilt und am Montag darauf die Bittschreiben beider Parteien angehört werden sollen, um zu erörtern, ob zwischen alten und neuen Lehengütern zu unterscheiden sei (<bibl>StAZH B II 633, S. 110-111</bibl>). Ein Eintrag zum vorliegenden Ratsentscheid liegt unter dem <date when="1691-04-29" calendar="Julian">29. April 1691</date> ebenfalls vor (<bibl>StAZH B II 633, S. 123-125</bibl>; Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 229b</bibl>).</note></seg></p>
+</div>
+<pb n="v"/>
+<div><ab place="verso" type="dorsal"><lb/>Spruch brieff <lb/>der <orgName ref="org004352">stifft</orgName> rechtsammenen ins gemein, sonder<lb break="no"/>bahr aber die fertigungs freyheit und daran <lb/>hangende verschrybung der verkaüffen umb <lb/>eerb lächen güether, sambt theilung <lb/>des schryber taxes be<lb break="no"/>langend, <lb/>anno <date when="1691">1691</date></ab><!-- Später zu erwähnen und verlinken mit ZH_NF_II_11_176 (III AAb 1.14, Nr.&#160;113) -->
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

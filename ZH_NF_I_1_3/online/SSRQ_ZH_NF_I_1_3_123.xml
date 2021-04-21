@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_123</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3566794">StAZH A 27.159, Nr. 14</idno></msIdentifier><head>Geständnis der Verena Diener von Pfäffikon wegen Hexerei sowie Verurteilung zum Tod durch Verbrennen</head><msContents><summary>Verena Diener von Pfäffikon hat gestanden, dass sie von einer unterdessen gestorbenen Frau in Pfäffikon zwei Umschläge mit Pulver entgegengenommen habe, von denen das erste einen Liebeszauber bewirken konnte, das zweite jedoch giftig gewesen sei. Das erste Pulver habe sie ihrem jetzigen Ehemann verabreicht, während sie das zweite mehrfach gegen ihre Stieftochter sowie verschiedene Tiere eingesetzt habe. Durch versehentliche Verabreichung des giftigen Pulvers habe zudem ihre Nichte ein totes Kind geboren. Weiter hat sie gestanden, dass sie dem Teufel die Treue geschworen und Gott, Maria und die Heiligen verleugnet habe, worauf ihr der Teufel ein Kraut gezeigt habe, welches den Menschen den Verstand raube. Dieses habe sie ihrem jetzigen Mann, seiner damaligen Ehefrau und deren Bediensteten verabreicht. Verena Diener hält jedoch fest, dass sie dem Teufel die Gefolgschaft unterdessen aufgekündigt habe, von ihm gebrachte giftige Salben weggeworfen und keine Diebstähle begangen habe. Im Fall einer Verurteilung zum Tod wünscht sie sich Kaspar vom Spital als Priester. Vermerk von derselben Hand: Verena Diener ist durch das Feuer hingerichtet worden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1525-01-01" to="1525-12-31"/></origin></history><additional><listBibl><head>Übertragung in modernes Deutsch (in Auszügen)</head><bibl>Sigg, Hexenprozesse, Nr. 6</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Sigg, Hexenmorde, S. 12, Nr. 6</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000482">Blasphemie</term><term ref="key001045">Geständnis</term><term ref="key000945">Hexerei</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000604">Todesstrafe</term><term ref="key004865">Zauberei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_A_27_159__Nr__14__S__1_.tif"/>
+<p>
+<seg><lb/><persName ref="per014339">Verenen Dienerin</persName>
+<choice><sic>pon</sic><corr resp="msr">von</corr></choice>
+<placeName ref="loc008729">Pfeffikon</placeName> hat verjehen,
+<lb/>das ein froͧw zuͦ <placeName ref="loc008729">Pfeffikon</placeName>, <persName ref="per014331">Brosin</persName> genant, die jetz
+<lb/>gestorben syg, irn <num value="2">zwey</num> briefflin voll pulvers geben
+<lb/>und sy gelert hab, das das ein pulver die krafft
+<lb/>hab, woͤlchem man sy es zeessenn gebe, so muͤsse er sy 
+<lb/>uss liebe allweg han und allein an irn hangen.
+<lb/>Das ander pulver aber habe die krafft, woͤlchem
+<lb/>mentschen es waͤrd zuͦ essen geben, so waͤrde er
+<lb/>von stund an krank, kotze und gange von im durch
+<lb/>den hindern allerley wuͤsts und kaͧtz. Dise <num value="2">zwey</num>
+<lb/>pulver habe sy nun genomen und das ein irm
+<lb/>jetzigen man, <persName ref="per015505">Clausen Tobler</persName>, zu ͦessen gëben, damit 
+<lb/>er sy lieben muͤßt. Das ander habe sy probiert
+<lb/>vor <date dur="P1Y">eim jar</date> on gvarlich an ir stiefftochter <persName ref="per015506">Magda<lb break="no"/>lenen</persName>
+kuͦ, die von stund an der milch beroubet
+<lb/>und ser krank ward.</seg>
+<seg>Darnach, als des <persName ref="per015414">Stoffel
+<lb/>Schellenbergs</persName> hund sy hassett und allweg sy ange<lb break="no"/>bullen,
+habe sy das selbig pulver, uff ein zyt
+<lb/>disem hund, als er junge pracht hat, in einem
+<lb/>gemuͤss zu ͦessen geben. Nit weyßt sy, ob die
+<lb/>hu̍ndin und hu̍ndlinen darab gestorben sygint
+<lb/>oder nit.</seg>
+<seg>Wyter habe sy sollichs pulver harnach
+<lb/>an irs <del>p</del> bruͦders suns hochzyt geprucht und
+<lb/>irn stiefftochter <persName ref="per015506">Magdalenen</persName> an ein pruͤygen<!-- msr: Brühe -->
+<lb/>gesegt und lassen fu̍rtragen, damit sy krank
+<lb/>wurde. Und als irs bruͤders tochter, die dan
+<lb/>schwanger gesin, und glich am <date period="P7WD">sambstag</date> harnach
+<lb/>ein tod kindlin gepracht, mit der <persName ref="per015506">Magdalenen</persName>
+<lb/>ouch der selbigen pruͤygen geessen, syge sy, die
+<lb/>gedacht <persName ref="per014339">Verenen</persName>, hoͤn u̍ber sy gewësen, sy darab
+<lb/>gestuͤbt, das sy nit mer essen soͤllte. Das selbig
+<lb/>pulver habe sy ouch uff ein zyt der <persName ref="per015506">Magdalenen</persName>,
+<lb/>irn stiefftochter, an ein milch gethan unnd irn
+<lb/>gepracht zeessen.</seg>
+</p>
+<pb n="2" facs="StAZH_A_27_159__Nr__14__S__2_.tif"/>
+<p><lb/>Zu andern hat sy verjehen und ist des bekantlich,
+<lb/>als sy vor <date dur="P4Y"><subst><del>ettlichen</del><add place="above">vier</add></subst> jarn</date> in grosser widerwerticheit
+<lb/>gewësen, syge der boͤss geist, mit namen <persName ref="per011219">Kempfer</persName>,
+<lb/><time period="byNight">zenacht</time> in <persName ref="per014990">Baschians Linsis</persName> hus zuͦ <placeName ref="loc008729">Pfëffikon</placeName>, zuͦ irn
+<lb/>in die kamer kommen und gesprochen, warum sy so
+<lb/>widertriessig syge. Sy soͤlle sych zuͦ im verpflichten,
+<lb/>im volgen und gottes, der jungfroͧwen <persName ref="per000169">Marie</persName>
+<lb/>und der heilgen verluͤgnen. So woͤlte er sy menger<lb break="no"/>ley
+ku̍nsten von kru̍tern leren, iro hëlffen und
+<lb/>gnuͦg gen. Woͤlches nun sy angenomen habe,
+<lb/>gottes und der heiligen verluͤgnet und im versprochen
+<lb/>zewillfaren. Uff das habe er irn zuͦ gemuͦtet, das sy
+<lb/>mit im sin willen vollbrechte. Das habe sy gthan
+<lb/>und im hinderwegs still gehalten, bis er benuͤgig
+<lb/>worden was. Und als er von irn scheiden wolt,
+<lb/>habe er irn verheissen, <measure type="currency" unit="fl" quantity="1">einen guldin</measure> an ein ort
+<lb/>zeleggen, dasselbs wurde sy in finden. Ouch
+<lb/>so soͤllte sy hinus fu̍r <placeName ref="loc008729">Pfëffikon</placeName> gegen <placeName ref="loc010677">Staͧgel Hu̍sly</placeName>
+<lb/>gan und umb die zu̍n ein gëlwe bluͦmen und sust
+<lb/>ein krut, das mit breiten plettern uff dem herd
+<lb/>wuͤchse, suͦchen und abgewu̍nnen. Und so sy es eim
+<lb/>zeessen gebe, so wurde er glich toubig und unsinnig.
+<lb/>So habe sy morndes <measure type="currency" unit="fl" quantity="1">den guldin</measure> an dem ort gesuͤcht
+<lb/>und nu̍t gefunden. Und syge demnach hinuss zum
+<lb/><placeName ref="loc010677">Stagel Hu̍sly</placeName> gangen, die obgenanten kru̍ter zesuͤchen.
+<lb/>Dassellbs keme der boͤss geist abermaln zuͦ irn, zeiget
+<lb/>die kru̍ter und begert, das sy mit im sin willen vollbrechte, 
+<lb/>woͤlches sy im abgeschlagen und verseit.
+<lb/>Aber die kru̍ter habe sy abgeprochen und uff ein
+<pb n="3" facs="StAZH_A_27_159__Nr__14__S__3_.tif"/>
+<lb/>zyt <persName ref="per015505">Clausen Tobler</persName>, jetzigem irm man, und siner
+<lb/>eelichen froͧwen, ouch anderm sinem husvolk, in
+<lb/>einem hafen zeessenn geben. Und als sy es aͤssent,
+<lb/>wurdint sy von stund an toub und wuͤtend, luffent
+<lb/>nakent hin und hër wie die unsinnigenn lu̍t.
+</p>
+<p>
+<lb/>Nach <date dur="P8D">acht tagen</date>, als sy soͤlliche kru̍ter gewunnen
+<lb/>hat, syge der boͤss geist abermaln zuͦ irn in das
+<lb/>vorgenant hus kommen, habe sy angefochten und mit
+<lb/>irn gehandelt, wie vor. Do habe sy gedacht, das
+<lb/>sollichs ein betrug und faltsch waͤre, hab also ein
+<lb/>ru̍wen gehept, got on underlass angerruͤfft und
+<lb/>ettwan zuͦ zyten mëssen zelesen geben, damit sy
+<lb/>von des tu̍ffels gwalts und von soͤllichen anfechtungen
+<lb/>gelediget wurd. Das syg beschëhen und mit im
+<lb/>nu̍ts meer zeschaffen gehept.
+</p>
+<p>
+<lb/>Zum dritten habe irn der boͤss geist salben in eim
+<lb/>bu̍chsly gepracht, damit sy die lu̍t lemmen soͤllte.
+<lb/>Aber sy habe die selbigen salbenn hinweg geworffen
+<lb/>und nu̍ts darmit gehandlet.
+</p>
+<p>
+<lb/>Mer habe sy nu̍ts geprucht
+<lb/>und wil darby bliben.
+</p>
+<p>
+<lb/>Des gelts halb, so sy <persName ref="per015505">Claußen Debler</persName> soͤlte entreyt haben,
+<lb/>wil sy nu̍dzit wu̍ßen, dann sy habe es im nidt
+<lb/>genemmen.
+</p>
+<p>
+<lb/>Wenn man sy richten wil, begert sy, das man <add place="above">ire</add> her
+<lb/><persName ref="per014543">Caspar</persName> im <placeName ref="loc010962">spittal</placeName> welle zuͦgeben als ein priester.
+</p>
+<p><add place="below" rend="other ink">
+<lb/>Obgedachte <persName ref="per014339">Verena Dienerin</persName> ward mit dem fu̍r gericht.
+</add></p>
+<pb n="4" facs="StAZH_A_27_159__Nr__14__S__4_.tif
+"/>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Der <persName ref="per014339">Verena Dienerin</persName> von <placeName ref="loc008729">Pfäffickon</placeName> veruͤbte laachsneryen.</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Für das in diesem Fall ausgesprochene Todesurteil vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_129">SSRQ ZH NF I/1/3, Nr. 129</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

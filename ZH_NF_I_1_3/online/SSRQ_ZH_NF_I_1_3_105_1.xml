@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Erste Reihe:
+Stadt und Territorialstaat Zürich. Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_105_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250428">StAZH C I, Nr. 3267</idno>
+</msIdentifier>
+<head>Einigung zwischen Zürich und seinen Untertanen betreffend das Pensionenwesen nach dem sogenannten Lebkuchenkrieg</head>
+<msContents>
+<summary>Bürgermeister, Rat und der Grosse Rat der Stadt Zürich einerseits und ihre Untertanen und Gemeinden ausserhalb der Stadt
+andererseits, nämlich Winterthur, Stein am Rhein, Eglisau, am Zürichsee, Richterswil, Wädenswil, aus der Grafschaft Kyburg, von Grüningen,
+Greifensee, Regensberg, Andelfingen, aus dem Freiamt, Neuamt, Bülach und von anderen Orten, einigen sich auf die folgenden Punkte, nachdem
+im vergangenen Mailänderkrieg der Verdacht aufgekommen ist, etliche Personen hätten sich nicht an das Pensionenverbot gehalten und Zahlungen
+vom König von Frankreich entgegengenommen, worauf die Untertanen sich in einem bewaffneten Aufstand gegen die Stadt Zürich gerichtet haben:
+Bürgermeister, Räte und der Grosse Rat sollen die Untersuchung gegen die wegen der Ereignisse im Mailänderkrieg noch nicht abgeurteilten
+Angeschuldigten zu Ende führen und daraus sich ergebende Bussen zuhanden des Stadtsäckels behalten. Im Gegenzug hat die Stadt den Untertanen
+zur Begleichung ihrer Unkosten eine vereinbarte Summe zu bezahlen (1). Beide Seiten sollen bei ihren althergebrachten Freiheiten und Rechten
+bleiben (2). Die Untertanen dürfen künftig keinen bewaffneten Aufstand gegen die Stadt mehr unternehmen, wer dem zuwiderhandelt, wird
+bestraft (3). Die zwischen den Untertanen geschlossenen Bündnisse zur gegenseitigen Unterstützung werden für ungültig erklärt (4). Die Stadt
+zahlt den Untertanen zur Begleichung ihrer Unkosten eine Summe von 4500 Pfund (5). Personen, die durch gerichtliches Urteil für unehrenhaft
+erklärt werden, sollen aus dem Rat ausgeschlossen und nicht mehr als Landvögte eingesetzt werden. Vorbehalten sind Fälle, in denen
+Angeschuldigte erwiesenermassen zu Unrecht verurteilt worden sind, beispielsweise unter Einfluss der Folter oder wegen falscher
+Zeugenaussagen (6). Hiermit werden sämtliche Rechtshändel zwischen der Stadt und ihren Untertanen für beendet erklärt. Keine der
+involvierten Parteien hat weitere Konsequenzen zu gewärtigen (7). Es werden zwei gleichlautende Urkunden ausgestellt. Es siegeln
+Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich sowie im Namen der ganzen Gemeinde ausserhalb Zürichs die Städte Winterthur und
+Stein am Rhein.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Original (A)</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Pergament</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="32.0"/>
+<width unit="cm" quantity="63.0"/>
+</dimensions><dimensions type="plica">
+<width unit="cm" quantity="7.5"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+<sealDesc>
+<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round"
+nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
+<persName>Stadt Zürich</persName>
+</seal>
+<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round"
+nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
+<persName>Stadt Winterthur</persName>
+</seal>
+<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:material="wax" nontei:shape="round"
+nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
+<persName>Stadt Stein am Rhein</persName>
+</seal>
+</sealDesc>
+</physDesc>
+<history>
+<origin><origDate when="1516-01-12"/><origPlace>Zürich</origPlace></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>Largiadèr 1920, Beilage 4, S. 57-59</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc> </profileDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key003369">Folter</term>
+<term ref="key000266">Krieg</term>
+<term ref="key003429">Pensionen</term>
+<term ref="key000668">Unruhen</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3267__r_.tif"/>
+<p>
+<lb/><app>
+<lem/>
+<rdg wit="StAZH B III 65, fol. 417r"><head>Ein bericht mit den ussern <lb/>der ufrur halb, die sie im <date when="1516">xvi <lb/>jar</date>
+der mindern zal wider <lb/>die statt gehebt</head></rdg>
+</app>
+<lb/><seg>Wir, der <orgName role="issuer" ref="org002406">burgermeister, raͧt und der groß raͧt, so man nempt die zweyhundert, der statt
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, eins und andern teils wir, der selben unser gnedigen herren von <placeName
+ref="loc000065">Zu̍rich</placeName> undertanen und gantz <orgName role="issuer" ref="org005017">gemeinden vor der statt <placeName
+ref="loc000065">Zu̍rich</placeName></orgName> von stetten und uff dem land, namlich von <placeName ref="loc000849">Winterthur</placeName>,
+<lb/><placeName ref="loc007335">Stein</placeName>, <placeName ref="loc010414">Eglisow</placeName>, ab dem <placeName ref="loc000127"
+>Zu̍richsee</placeName>, von <placeName ref="loc008712">Richtiswyl</placeName>, <placeName ref="loc008716">Wedenswyl</placeName>, uß der
+graffschaft <placeName ref="loc000012">Kyburg</placeName>, von <placeName ref="loc000362">Gruͤningen</placeName>, <placeName ref="loc000348"
+>Gryffensee</placeName>, <placeName ref="loc007729">Regensperg</placeName>, <placeName ref="loc008749">Andelfingen</placeName>, uß dem
+<placeName ref="loc010516">Fryen Ampt</placeName>, dem <placeName ref="loc009842">Nu̍wen Ampt</placeName>, <placeName ref="loc009831"
+>Bu̍lach</placeName>, und andren herschaften, aͤmptern und gegninen der gedachten statt <lb/><placeName ref="loc000065"
+>Zu̍rich</placeName>,</seg>
+<seg>bekennend offennlich und thund kund allermengklichem mit disem brief, als dann wir, der <orgName ref="org002406">burgermeister, raͧt
+und der groß rat der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, kurtzlich hievor ein ordnung gemacht, darinn wir mit
+sampt den obgenanten, den unsern allen<lb break="no"/>thalb in stetten und uff dem land, zuͦ gott und den heiligen versworen habent, das
+kein sondre person, <subst><del rend="rubbing"/><add place="overwritten">die</add></subst> sye unser burger, landtman oder hindersaͤß,
+geistlich oder weltlich, edel oder unedel, rich oder arm, in was staͧts oder wesens die ist, weder von keisern, ku̍ngen <lb/>fu̍rsten,
+herrn, stetten, geistlichen und weltlichen stenden, ouch gantz und gar von niemans u̍beral, kein pension, provision, gnad, dienst gelt,
+miet, gab noch schencki, wie das namen haben moͤcht, zuͦ irem nutz nit nemen noch empfachen soͤll, heimlich <lb/>noch offennlich, in kein
+wyß noch weg, bi entsetzung der eren, ouch straͧf und lu̍trung der selben satzung, darzuͦ jetz vergangens <date period="summer"
+>summers</date> unser ere und zeichen, mit sampt andern unsern getru̍wen, lieben <orgName ref="org000531">eidgnossen</orgName> von stetten
+und lendern, in <placeName ref="loc005801">Meyland</placeName>
+<lb/>wider unsern find, den ku̍ng von <placeName ref="loc000281">Franckrich</placeName>, zuͦ schirm und rettung des hertzogen und
+hertzogthuͦmbs zuͦ <placeName ref="loc005801">Meyland</placeName> geschickt, da wir leider mergklichen verlurst und schaden an lu̍t und guͦt
+empfangen, deßhalb wir, der genanten unser gnedigen hern, der <lb/>statt zuͦ <placeName ref="loc000065">Zu̍rich</placeName>, undertaͧn und
+<orgName ref="org005017">gemeinden vor der statt</orgName>, von stetten und uff dem land, habent vermeint gehept, das etlich sonder personen
+soͤlich satzung, darin die pensionen, mietten, gaͧben und schenckinen, wie ob staͧt, werint versworen, nit hettend gehalten, <lb/>darzuͦ,
+das ouch etlich in treffenlichem argwon werint, das si von unserm find, dem <orgName ref="org004933">Frantzoßen</orgName>, soͤlten gelt
+empfangen <add place="above">haben</add> und daran gewesen sin, das der abzug von dem gebirg beschechen und also dardurch der selb, unser
+find, in das land gelaßen were, das uns dann <lb/>umb vil biderblu̍t und zuͦ soͤlichem verlurst und schaden hette gebracht, und uß dem so
+vil bewegt worden, das wir mit einem sturm bemelten unsern gnedigen herren sind fu̍r ir statt gevallen und understanden habend, mit inen
+soͤlich zuͦ suͦchen <lb/>und zuͦ straffen und das boͤß von dem guͦtten zethuͦnd und uff das, die wil an dem end dis sach unser beider teilen
+und ein sache were, einen soͤlichen anlaͧß mit einandern abgeredt.</seg>
+<seg>Woͤlicher sid dem und man die pensionen in der statt <placeName ref="loc000065">Zu̍rich</placeName>
+<lb/>und uff der lantschaft lut angezoͤigter ordnung hette versworn, die selb ordnung nit gehallten und deshalb mißhandlet, desglich,
+woͤlicher jetz in <placeName ref="loc005801">Meyland</placeName> hette mißhandelt, dardurch wir umb unser biderben lu̍t werint kommen und
+sich das uff einen <lb/>erfunde, also, das er an ere, lib, oder guͦt were zuͦ straffen, das der selben guͦt in <num value="2">zwen</num>
+teil soͤllte teilt und uns, obgemelten <orgName ref="org002406">burgermeister, raͤt und dem großen raͧt</orgName>, als zuͦ unser statt
+handen einen teil und der ander teil uns, iren undertanen usserhalb <lb/>der statt <placeName ref="loc000065">Zu̍rich</placeName>, an den
+costen gegeben werden. Und so wir nun beidersits uff soͤlichen anlaͧß etlich personen, so in gefencknuß sind komen, umb angezoigte <num
+value="2">zwey</num> stuck ernstlich und swaͤrlich habent laͧssen foltern und fragen, und doch anders noch <lb/>mer nit funden, dann das iro
+etlich durch offennbare handlung die satzung, verswerung der pensionen u̍bersechen und nit als geschickt raͧtsbotten erungen und schenckinen
+empfangen, habent wir uns zuͦ letst beidersits, als der handel vil und <lb/>mengerley unwillens, muͤg, cost und arbeit uff im ertragt,
+miteinandern guͤtlichen und fru̍ntlichen vereinbart, in form und gestallt, als hiernach von einem an das ander wirt erlu̍tert. Dem ist
+also:</seg>
+<seg n="1">Des ersten, so haben wir, die <orgName ref="org005017">gemeinden <lb/>vor der statt <placeName ref="loc000065"
+>Zu̍rich</placeName></orgName>, in stetten und uff dem land, so zuͦ der selben statt <placeName ref="loc000065">Zu̍rich</placeName>
+gehoͤrend, den gemelten unsern gnedigen hern von <placeName ref="loc000065">Zu̍rich</placeName>, <orgName ref="org002406">burgermeister,
+raͤten und dem großen raͧt</orgName>, den angezoͤigten anlaß, so si und wir mit einandern gemacht und abgeredt <lb/>habent und allen handel,
+darumb soͤlicher anlaß ist beredt und gestellt worden, gar und gentzlich u̍bergeben, also, welicher personen hendel noch nit usgericht sind,
+das unser gnedig hern von <placeName ref="loc000065">Zu̍rich</placeName> die selben ouch mu̍gend richten, nach <lb/>irem beduncken, und das
+der selben buͦßen, so noch also gefallen moͤchtend und die buͦßen dero, so gestraft sind, gemeiner statt in iren seckel dienen und da gegen
+unser herrn uns uss der statt seckel ein benantliche summ geltz an den costen geben <lb/>soͤllen, so von soͤlichs handels wegen in der statt
+<placeName ref="loc000065">Zürich</placeName> ist uf geloͧffen.</seg>
+<seg n="2">Zuͦ dem andern, so soͤllend wir beid teil bi allen und jeden unsern fryheiten, rechten, bru̍chen, gewonheiten, allten harkomen,
+ouch allen und jeden unser oberkeiten gwaltt<lb break="no"/>sami, regimenten, pu̍nden, vertraͤgen, brieffen und siglen bliben und kein teil
+dem andern durch dis handlung darinn kein abbruch taͧn haben noch fu̍ro daran einichen abbruch thuͦn, sonder ein ander dabi hanthaben und
+schirmen, jetz <lb/>und hienach, oͧn intrag mengklichs.</seg>
+<seg n="3">Zum dritten, so soll hinfu̍r u̍ber ein statt <placeName ref="loc000065">Zu̍rich</placeName> kein sturm nit me beschechen noch
+gaͧn und ob soͤlichs durch jemands bescheche, der sol darumb gestraft werden, nach sinem verdienen.</seg>
+<seg n="4"><lb/>Zum vierden, wo einich pflichten von uns, den <orgName ref="org005017">gemeinden vor der statt <placeName ref="loc000065"
+>Zu̍rich</placeName></orgName>, von stetten und uff dem land, werint gemacht, ein ander hilff und bistand zuͦ bewysen, die sollen tod und ab
+und wir den gemelten, unsern gnedigen herren <lb/>von <placeName ref="loc000065">Zürich</placeName>, gehorsam und gewerttig sin, wie das die
+eid, so wir inen <date dur="R/P1Y">jerlichs</date> swerend, wysend. </seg>
+<seg n="5">Zum fu̍nfften, so haben wir, der <orgName ref="org002406">burgermeister, raͤtt und der groß rat der statt <placeName
+ref="loc000065">Zu̍rich</placeName></orgName>, obgenant, den unsern vor der statt, allenthalb <lb/>in stetten und uff dem land, als denen
+wir begirig und geneigt sind, ouch <app>
+<lem>uß</lem>
+<rdg wit="StAZH A 93.2, Nr. 67"/>
+</app> sonder fryer milter gnaͧd und erung an iren costen, so si in unser statt gehept habent, zuͦ geben bewilligt <measure type="currency"
+unit="lb" quantity="4500">fu̍nfthalb tusent pfund</measure>.</seg>
+<seg n="6">Und als jetz <lb/>in diser handlung etlich von eren gestraft und gesetzt sind, und uns die unsern habent angesuͦcht, weliche wir
+fu̍r erloͧß lu̍t hettend gestraft oder hinfu̍r also wurdint straffen, das die selben nit me in unsern <orgName ref="org004016"
+>raͧt</orgName> gesetzt noch inen uff das land <lb/>zuͦ voͤgtten gegeben werden soͤllten, und damit das luter so were ir meynung, also dero
+halb, so mit urteil und recht von iren eren wurdint gesetzt und nit derohalb, so still gestellt werint oder wurdint, habent wir, als die des
+selben <lb/>willens sust gewesen und noch sind, inen soͤlichs nachgelaßen, es were denn sach, das einer mit kuntschaft, marter oder sunst in
+ander weg were oder wurde u̍berylt und sich dem nach erfunde, das imm unrecht bescheche, dem selben sol <lb/>das an sinen eren nu̍tzit
+schaden.</seg>
+<seg n="7">Und zuͦ beschlus aller abgeschribnen dingen habent wir uns beidersits vereint, das hiemit soͤlle hin und ab sin aller unwill und
+alle unfru̍ntschaft, so sich bis uff diesen tag bemelts handels <lb/>halb zwu̍schend uns beidersits hat erloffen und begeben, also das wir,
+der <orgName ref="org002406">burgermeister, raͧt und der groß raͧt der statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+soͤlichs den unsern vor der statt obbemelt zuͦ keinen uneren nit zuͦ zellen noch si deßhalb einichs wegs <lb/>straffen und wir, die vor der
+statt, bemelten, unsern gnedigen herren, zuͦ einicher schmaͧch nit rechnen soͤllen, das habe sich begeben mit wortten, wercken, raͤten und
+getaͤtten, so wir gemeinlich oder jeder partyg sonder personen <lb/>wider die ander parthyg gebrucht habent, in kein wyß noch weg, geverd
+und arglist hierinn gentzlich hindan gesetzt und usgeschlossen.</seg>
+<seg>Und des alles zuͦ warem, vestem urkunde, so haben wir, der <orgName role="sigillant" ref="org002406">burgermeister, <lb/>raͤt und der
+groß raͧt</orgName>, unser statt <placeName ref="loc000065">Zu̍rich</placeName> secret insigel und wir, die gantz <orgName ref="org005017"
+>gemeind</orgName> usserhalb der statt <placeName ref="loc000065">Zu̍rich</placeName>, von stetten und ab dem land, namlich von <placeName
+ref="loc000849">Winterthur</placeName>, <placeName ref="loc007335">Stein</placeName>, <placeName ref="loc010414">Eglisow</placeName>, ab dem
+<placeName ref="loc000127">Zürichsee</placeName>, von <placeName ref="loc008712">Richtiswil</placeName>, <placeName ref="loc008716"
+>Wedenswyl</placeName>, <lb/>uß der graffschaft <placeName ref="loc000012">Kyburg</placeName>, von <placeName ref="loc000362"
+>Gruͤningen</placeName>, <placeName ref="loc000348">Gryffensee</placeName>, <placeName ref="loc007729">Regensperg</placeName>
+<placeName ref="loc008749">Andelfingen</placeName>, uß dem <placeName ref="loc010516">Fryen Ampt</placeName>, dem <placeName ref="loc009842"
+>Nu̍wen Ampt</placeName>, von <placeName ref="loc009831">Bu̍lach</placeName> und andern herschaften, aͤmpttern und gegninen, der gedachten
+stetten <placeName ref="loc000849">Winterthur</placeName> und <lb/><placeName ref="loc007335">Stein</placeName> insigel, in ir und unser
+aller nammen, fu̍r uns und unser ewig nachkomen offennlich lassen hencken, an diser brieffen <num value="2">zwen</num> glich lutend, dero
+jeder parthyg einer ist u̍berantwurt.</seg>
+<seg>Geben und beschechen in der statt <lb/><origPlace ref="loc000065">Zu̍rich</origPlace>, an <origDate when="1516-01-12">sant <persName
+ref="per001805">Hilaryen</persName>, des heiligen bischofs, aͧbent, nach der gepurt Cristi gezalt fu̍nftzechenhundert und sechtzechen
+jar</origDate>. </seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3267__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="later hand"><lb/><app>
+<lem>Ein bericht mit den ussern der <lb/>uffruͦr halb, alß sy im <date when="1516">xvi jar</date>
+<lb/>der mindern zal wyder die stat <lb/>gehept, <origDate when="1516">1516</origDate></lem>
+<rdg wit="StAZH A 93.2, Nr. 67; StAZH B III 65, fol. 418r"/>
+<rdg wit="STAW URK 2007"><lb/>Ein brief von <orgName ref="org002406">burgermeister, räth und burger, der stadt <placeName ref="loc000065"
+>Zürich</placeName></orgName> eines- <lb/>und allen staͤtten und gemeinden des <placeName ref="loc000066">Zürich Gebiets</placeName>
+anderentheils <lb/>betreffend die abstraffung derer, so wieder das verbott, pensionen <lb/>oder anders empfangen oder nemmen, <lb/><choice>
+<abbr>a<hi rend="sup">o</hi></abbr>
+<expan>anno</expan>
+</choice>
+<origDate when="1516">1516</origDate></rdg>
+<rdg wit="StadtA Bülach I A 13"><lb/>Dißer brieff wißt uß, das unßer <abbr>gn</abbr> herren gepoten, dheinem <lb/>frömbden herren zuͦ ze
+züchen oder pension nëmen sölle, dar<lb break="no"/>uff aber syge volck hin wëg gfürot und vil umbkhommen, allso <lb/>das das landvolck für
+die stadt <placeName ref="loc000065">Zürich</placeName> zogen, grosser costens <lb/>hieruff ergangen, letstlichen unßer <abbr>gn</abbr>
+herren und das land<lb break="no"/>volck widerumb mit ein andern verglychen und uß dem <lb/>stattseckel <del>405</del>
+<measure type="currency" quantity="4500" unit="lb">4500 </measure> an costen gëben, dargëgen <lb/>aber sy, unßer <abbr>gn</abbr> herren,
+die velbaren ze straffen habind. <lb/>Deße datum geschëchen in der statt <origPlace ref="loc000065">Zürich</origPlace>, <choice>
+<abbr>a<hi rend="sup">o</hi></abbr>
+<expan>anno</expan>
+</choice>
+<origDate when="1516">1516</origDate>.</rdg>
+</app></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Übereinkunft zwischen der Stadt <placeName ref="loc000065">Zürich</placeName> und ihren Untertanen entstand als Folge der
+kriegerischen Auseinandersetzungen in <placeName ref="loc010567">Oberitalien</placeName> und der Schlacht von <placeName ref="loc010555"
+>Marignano</placeName> im September 1515. Nach der Rückkehr der Truppen führte vor allem die seit Längerem umstrittene Frage der
+Entgegennahme von Pensionen seitens der städtischen Führungsschicht und die Vermutung einer daraus hervorgehenden Parteinahme für den König
+von <placeName ref="loc000281">Frankreich</placeName> zur Eskalation der Situation. Zusammen mit dem Waldmannhandel des Jahres 1489 und dem
+Kappelerkrieg von 1532 fanden somit drei weitreichende Auseinandersetzungen zwischen der Stadt <placeName ref="loc000065">Zürich</placeName>
+und ihren Untertanengebieten innerhalb von rund vier Jahrzehnten statt. Aufgrund des Zeitpunkts des bewaffneten Aufstands kurz vor
+Weihnachten wird der Konflikt auch als Lebkuchenkrieg bezeichnet.</p>
+<p>Zum Lebkuchenkrieg und der vorliegenden Übereinkunft vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stucki 1996</ref>, S.
+181-183</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1920</ref>, S. 26-18</bibl>; zum Pensionenverbot vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_072">SSRQ ZH NF I/1/3, Nr. 72</ref></bibl>; allgemein zur Thematik der Pensionen vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Groebner 2000</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

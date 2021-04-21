@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_142</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25691">StArZH VI.WP.A.8.:66</idno></msIdentifier><head>Anordnungen der Obervögte betreffend das Einziehen des Hühnergeldes und der Stubenhitzen bei auswärtigen Genossen der Gemeinde Wipkingen</head><msContents><summary>Wegen Missverständnissen zwischen dem Säckelmeister und einigen Gemeindegenossen von Wipkingen über die Entrichtung des Hühnergelds und der Stubenhitzen entscheiden die Obervögte, dass diejenigen Gemeindegenossen, die in der Stadt oder um die Stadt herum wohnen und das Hintersässen- oder Schweinegeld entrichten, wie bisher der Gemeinde nur die Stubenhitzen zu bezahlen haben. Diejenigen aber, die ausserhalb der Gemeinde in anderen Gerichten wohnen, schulden sowohl das Hühnergeld als auch die Stubenhitzen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Heinrich Werdmüller, Landschreiber</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1689-03-15"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000330">Niederlassung</term><term ref="key000157">Steuern</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<seg><lb/>Wegen der mißverständtnuß, so sich die zeith
+<lb/>haro under etwelchen gmeindtsgnoßen zu <placeName ref="loc010875">Wipkingen</placeName>
+<lb/>und seckelmeister daselbsten belangend die absta<lb break="no"/>ttung
+deß hünergelts und stubenhitzen erhebt,
+<lb/>ist von endts ehren ermehlten beiden der enden <abbr>hhr</abbr>
+<lb/>obervögten hierüber hernach folgende erlütherung
+<lb/>gemacht:</seg>
+<seg><choice><abbr>Nam</abbr><expan>Namlich</expan></choice>, daß fürbas die jennigen gmeindts<lb break="no"/>gnoßen,
+so in der statt <choice><abbr>od</abbr><expan>oder</expan></choice> umb die statt harumb
+<lb/>wohnend und daß hinderseß- ald schwingelt der
+<lb/>oberkeit entrichtend, wie bißhar einer <choice><abbr>ehrs</abbr><expan>ehrsamen</expan></choice> gmeind
+<lb/>allein die stubenhitzen abzustatten, die jennigen
+<lb/>aber, so ußert der gmeind, in andern grichten,
+<lb/> es seige von waß ursachen wegen, daß es wölle, wohn<lb break="no"/>end,
+fürohin daß hünergelt und stubehitz zu<lb break="no"/><damage agent="hole"><supplied resp="PS">geben</supplied></damage>
+<date dur="R/P1Y">jährlich</date>
+ohndisputtierlich zebezahlen schuldig
+<lb/>sein sollend, in meinung deß fendrich <persName ref="per024947">Heinrich
+<lb/>Notzen</persName> exempel, so lange zeit im <placeName ref="loc012125">Hard</placeName> gewohnet,
+<lb/>und seinetwegen die ynzühung der stubenhitzen
+<lb/>versumbt worden, hierin zu keiner consequenz gezogen
+<lb/><choice><abbr>u</abbr><expan>und</expan></choice>
+<unclear>dienen</unclear> solle.</seg></p>
+<p>
+<lb/>Actum <origDate when="1689-03-15" calendar="Julian">frytags, <choice><abbr>d</abbr><expan>den</expan></choice> 15<hi rend="sup">ten</hi> martzen 1689</origDate>,
+<lb/><choice><abbr>prntb</abbr><expan>presentibus</expan></choice> heren landtvogt <persName ref="per026138">Wolffen</persName> und
+<lb/>herren alt buvherr <persName ref="per026137">Wertdtmüller</persName>
+<lb/><unclear>als</unclear> beiden der enden ordenliche
+<lb/><abbr>hhr</abbr> obervögten
+</p>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="dorsal" place="verso"><lb/>Erkhantnuß für
+<lb/>die gmeind <placeName ref="loc010875">Wipkingen</placeName>.</ab>
+</div>
+<div><ab type="dorsal" place="verso" hand="hand20c?"><lb/>1689.
+<lb/>1 brief <choice><abbr>betr</abbr><expan>betreffend</expan></choice>
+<lb/>stubenhitzen</ab></div>
+</body>
+<back>
+<div>
+<p>Beim Hühnergeld handelte es sich um eine vogteiliche Abgabe, die Entrichtung von Herbst- und Fasnachtshühner beziehungsweise deren Gegenwert in Geld (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/20247/mode/2up">Bd. 2, Sp. 250</ref></bibl>), während die Stubenhitz eine Geldabgabe war, die ursprünglich einen Beitrag
+zu den Heizkosten einer Zunft-, Gesellschafts- oder <!-- hier wohl eher -->Gemeindestube darstellte (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/21831/mode/2up">Bd. 2, Sp. 1833</ref></bibl>; 
+vgl. auch die Stichworte «Heizgeld», <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/20251/mode/2up">Bd. 2, Sp. 251</ref></bibl>, und «Stubengeld», 
+<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id2.htm#!page/20267/mode/2up">Bd. 2, Sp. 268</ref></bibl>). Auch früher schon gab es in <placeName ref="loc010875">Wipkingen</placeName> Konflikte um
+die Rechte und Pflichten der auswärtigen Gemeindebewohner (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_134">SSRQ ZH NF II/11, Nr. 134</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_108</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100757">PGA Schwerzenbach I B 23</idno></msIdentifier><head>Gemeindeordnung von Schwerzenbach</head><msContents><summary>Geregelt werden die Bussen für das Fernbleiben von der Gemeindeversammlung (1), für das Verwenden von Holz aus den Gemeindewäldern für Zäune (2), für die Leute von Gfenn, die Laub oder andere Dinge aus den Schwerzenbacher Gemeindegütern entfernen (3), und für das Mitnehmen von Holz oder Torf aus dem Turbenried (4). Abschliessend werden die 13 Männer aufgezählt, welche Bürger und Gemeindegenossen sind (5).</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Kanzlei Greifensee</author><filiation type="current">Aufzeichnung, Heft (4 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1742-12-17"/></origin></history><additional><listBibl><head>Regest</head><bibl>Sigg 2006, S. 223</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000184">Bussen</term><term ref="key004966">Gemeinde</term><term ref="key000524">Holz</term><term ref="key004098">Versammlung</term><term ref="key000249">Wald</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="8" facs="PGA_Schwerzenbach_I_B_23__S__8_.tif"/>
+<head place="verso">
+<lb/>Ordnung und
+<lb/>satzungen
+<lb/>einer ehresammen <orgName ref="org004901">gemeind
+<lb/>zu <placeName ref="loc008652">Schwertzenbach</placeName></orgName> in der
+herr<lb break="no"/>schafft <placeName ref="loc000348">Greyffensee</placeName>,
+<lb/><origDate when="1742-12-17">datum den 17. <choice><abbr>dec</abbr><expan>december</expan></choice> anno 1742</origDate>.
+</head>
+<pb n="1" facs="PGA_Schwerzenbach_I_B_23__S__1_.tif"/>
+<pb n="2" facs="PGA_Schwerzenbach_I_B_23__S__2_.tif"/>
+<pb n="3" facs="PGA_Schwerzenbach_I_B_23__S__3_.tif"/>
+<p><lb/>Zu wüßen, kundt und
+offen<lb break="no"/>bahr seye aller männigklichem hier mit dißerem
+<lb/>brieffe, daß ein ehresamme <orgName ref="org004901">gemeind zu
+<lb/><placeName ref="loc008652">Schwertzenbach</placeName></orgName> in der herrschafft <placeName ref="loc000348">Greyffensee</placeName>
+<lb/>mit vorgehabtem raht, bewilligung,
+erlaub<lb break="no"/>nuß und ratification unsers hochgeehrten
+<lb/>herren lannd-vogt <persName ref="per013356">Johann-Jacob Eschers</persName>
+<lb/>zu <placeName ref="loc000348">Greyffensee</placeName> nutzlich angesehen, ihre
+gemeind-<lb/>ordnungen durch <persName ref="per015089">Hannß Ochßner</persName> von neüwem
+<lb/>erdauhren und in mehrere erforderliche
+<lb/>erlaüterung brinngen zu laßen, daß sie auf
+<lb/>deßelben gebührend-beschehene
+hinder<lb break="no"/>bringung nach reiflich und wohl-erwogenem
+<lb/>raht der <orgName ref="org004901">gemeind <placeName ref="loc008652">Schwertzenbach</placeName></orgName> zu besonderem
+<lb/>trost ermelte ordnung eingerichtet und
+ge<lb break="no"/>stellet, zumahlen zu jedeßen nachrichtlichem
+<lb/>verhalt cantzleyisch zu verfertigen gut
+be<lb break="no"/>funnden, wie von einem puncten zu dem
+<lb/>annderen folget.
+</p>
+<seg n="1"><p><lb/>Zum ersten wollend sie, daß wann von denen
+<lb/>beiden dorf-meyeren in die gmeind gesagt
+<lb/>wird und einer ohne erhebliche ursachen
+<lb/>daheimen bleibt, folglichen nicht in die
+<lb/>gemeind gehet, ein solcher, so offt er ußbleibt
+<lb/>und nicht erscheint, jedes mahls <measure type="currency" unit="ß" quantity="4">vier schilling</measure>
+<lb/>der gmeind bueß geben und dann nach das
+<lb/>gmeind-werch verrichten solle.
+</p></seg>
+<pb n="4" facs="PGA_Schwerzenbach_I_B_23__S__4_.tif"/>
+<seg n="2"><p><lb/>Demenach und zum annderen, wann jemand
+<lb/>zauhn-holtz in die gmeind hinein tragt, der selbe
+<lb/>solle für jedes mahl <measure type="currency" unit="ß" quantity="8">acht schilling</measure> der gmeind
+<lb/>bueß bezahlen, es seye gleich vill oder wenig
+<lb/>holtz gewesen, <abbr>etc</abbr>
+<abbr>etc</abbr>.
+</p></seg>
+<seg n="3"><p><lb/>Drittens wegen denen benachbahrten <orgName ref="org004881">Gfänneren</orgName>,
+<lb/>wann sie in das <placeName ref="loc010415">Eich</placeName> gen laub-rechen kommend
+<lb/>oder holtz ald annders aus der <orgName ref="org004901">Schwertzenbacheren</orgName>
+<lb/>gmeind-gueth wegtragend, es seye, was es
+<lb/>wolle, der selb solle der <orgName ref="org004901">gmeind <placeName ref="loc008652">Schwertzenbach</placeName></orgName>
+<lb/>für jedes mahl <measure type="currency" unit="ß" quantity="10">zehen schilling</measure> bueß bezahlen.
+</p></seg>
+<seg n="4"><p><lb/>Viertens solle niemand kein holtz oder turben
+<lb/>aus dem <placeName ref="loc010813">Durben-Rieth</placeName> tragen, bey <measure type="currency" unit="ß" quantity="8">acht schillingen</measure>
+<lb/>bueß jedes mahls der <orgName ref="org004901">gmeind
+<placeName ref="loc008652">Schwertzen<lb break="no"/>bach</placeName></orgName>.
+</p></seg>
+<seg n="5"><p><lb/>Fünfftens folgend die nammen der <orgName ref="org004901">burgeren
+<lb/>und gmeinds-gnoßen zu <placeName ref="loc008652">Schwertzenbach</placeName></orgName>,
+<lb/>deren an der zahl <num value="13">13</num>, die der mahlen vorhannden
+<lb/>und bey leben sind:</p>
+<p><lb/>1. <persName ref="per015084">Willhelm Dietterich</persName></p>
+<p><lb/>2. <persName ref="per015087">Hannß-Heinnrich Guhl</persName></p>
+<p><lb/>3. <persName ref="per015088">Hannß-Ulrich Guhl</persName></p>
+<p><lb/>4. <persName ref="per015086">Beatt Guhl</persName></p>
+<p><lb/>5. <persName ref="per015082">Hannß-Jacob Däntzler</persName></p>
+<p><lb/>6. <persName ref="per015085">Jacob Gujer</persName>, <unclear><placeName ref="loc010350">Aâthel</placeName></unclear>-<persName ref="per020820">Müllers</persName>
+<choice><abbr>seel</abbr><expan>seeligen</expan></choice> sohn</p>
+<p><lb/>7. <persName ref="per015089">Hannß Ochßner</persName></p>
+<p><lb/>8. <persName ref="per015090"><choice><abbr>Hs</abbr><expan>Hannß</expan></choice> Heinnrich Ochßner</persName>, der schuehl-meister</p>
+<pb n="5" facs="PGA_Schwerzenbach_I_B_23__S__5_.tif"/>
+<p><lb/>9. <persName ref="per015093">Rudolph Pfister</persName>, dorff-meyer</p>
+<p><lb/>10. <persName ref="per015092"><choice><abbr>Hs</abbr><expan>Hannß</expan></choice> Felix Pfister</persName></p>
+<p><lb/>11. <persName ref="per015091">Hannß Pfister</persName></p>
+<p><lb/>12. <persName ref="per015094">Hannß-Jacob Reiffer</persName></p>
+<p><lb/>13. <persName ref="per015095">Heinnrich Winnckler</persName>, dorff-meyer</p>
+</seg>
+<p><lb/>Angeben von <persName ref="per015089">Hannß Ochßner</persName> von <placeName ref="loc008652">Schwertzenbach</placeName>,
+<lb/><origDate when="1742-12-17">montags, den sibenzehenden tag Christ-monnats,
+<lb/>von der gnâdenreichen gebuhrt Christi, unsers
+<lb/>herren und heilannds, gezehlet eintaußent
+<lb/>sibenhundert viertzig und zwey jahre</origDate>.
+</p>
+</div>
+<signed><lb/><orgName ref="org004910">Cantzley der herrschafft
+<placeName ref="loc000348">Greyffen<lb break="no"/>see</placeName></orgName>
+</signed>
+<pb n="6" facs="PGA_Schwerzenbach_I_B_23__S__6_.tif"/>
+<pb n="7" facs="PGA_Schwerzenbach_I_B_23__S__7_.tif"/>
+</body>
+<back>
+<div>
+<p>Da Holz nicht nur als Baumaterial eine wichtige Ressource darstellte,
+sondern zusammen mit Torf auch als Brennmaterial,
+regulierten die meisten Gemeinden den Zugang zu ihren Wäldern.
+Dementsprechend regelt die vorliegende Ordnung neben der Teilnahme an der Gemeindeversammlung
+vor allem den Zugang zum Gemeindewald und zum Torfried.
+Im Gegensatz zu anderen Gemeinden in der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+verfügte <placeName ref="loc008652">Schwerzenbach</placeName> aber nur über kleine Waldflächen.
+Einiges älter und zugleich ausführlicher als das vorliegende Stück
+sind die Holzordnungen von <placeName ref="loc008816">Nänikon</placeName> von 1556
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_077">SSRQ ZH NF II/3, Nr. 77</ref></bibl>)
+und <placeName ref="loc008704">Aesch</placeName> von 1567
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_081">SSRQ ZH NF II/3, Nr. 81</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

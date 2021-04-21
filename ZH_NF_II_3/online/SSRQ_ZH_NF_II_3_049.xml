@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_049</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691330">StAZH A 123.1, Nr. 28</idno></msIdentifier><head>Klage der Leute von Greifensee über den Lebenswandel des Kaplans Burkhard Kochenrüblin</head><msContents><summary>Die Leute von Greifensee klagen gegen ihren Kaplan Burkhard Kochenrüblin, dass er ein Urteil des Zürcher Rats über die Nutzung eines Guts missachte. An Feiertagen sei er häufig abwesend und halte keine Messe bei ihnen. Stattdessen gehe er ins Kloster Gfenn und an andere Orte. Auch seiner Pflicht, in der Kapelle Nänikon wöchentlich eine Messe zu lesen, komme er nicht nach, obwohl er dafür ausreichend bezahlt werde. Das Pfrundhaus lasse er zerfallen und wohne stattdessen in anderen Häusern. An Sonntagen miste er vor der Messe in den Ställen und melke die Kühe, worauf er mit ungewaschenen Händen an den Altar trete. Auch stehle er alles, was er tragen könne. Ausserdem verkehre er seit ungefähr zwölf Jahren mit seiner Tochter wie mit einer Ehefrau. Diese sage, sie kenne keinen anderen Mann, der so stolz sei, sie wolle lieber bei ihm liegen. Am vergangenen Heiligkreuztag (3. Mai) sei er nachts wieder bis zum Messgeläut bei ihr gelegen. Als man nach ihm geschickt habe, sei er aufgestanden und gleich zur Messe gegangen. Es gebe noch weitere Ereignisse, die man dem Rat jedoch nicht zumuten wolle.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="19.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1508-01-01" to="1508-12-31">Undatiert, Datierung aufgrund des Zusammenhangs mit StAZH A 123.1, Nr. 27 und 29</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000149">Gottesdienst</term><term ref="key000953">Inzest</term><term ref="key003237">Klageschrift</term><term ref="key003477">Konkubinat</term><term ref="key000301">Pfarrer</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<head><lb/>Diß ist der von <placeName ref="loc008569">Gryffense</placeName> klag u̍ber herr
+<lb/><persName ref="per013378">Burckharten Kochenruͤblin</persName>, capplan zuͦ <placeName ref="loc008569">Gryfense</placeName>
+</head>
+<p><lb/>Item mine herren hand unß ein urteil geben von einß guͦtz wegen, das
+<lb/>sol er uß lassen ligen, wenn stoͤfel<!-- rhr: Personenname oder Stoppeln von Getreide, Herbstweide (Idiotikon, Bd. 10, Sp. 1459)? --> u̍bergang, das wil er nit tuͦn.
+</p>
+<p><lb/>Item her <persName ref="per013378">Burckart</persName> ist schuldig, zuͦ den zyten uff firlich tag und uff heilig zit me<damage agent="clipping"><supplied resp="rhr">ß</supplied></damage>
+<lb/>ze <placeName ref="loc008569">Griffense</placeName> zehand, das tuͦt er nit und gat in das <placeName ref="loc008752">Gfenn</placeName> und a<supplied resp="rhr">n</supplied>derschwo
+<lb/>hin und lat unß an meß und seit unß nit, das wir ande<damage agent="hole"><supplied resp="rhr">rsw</supplied></damage>o hin ze kilchen
+<lb/>gangind. Er ist ouch schuldig, all <date dur="R/P1W">wuchen</date> ein meß ze <placeName ref="loc008816">Nen<damage agent="hole"><supplied resp="rhr">ik</supplied></damage>en</placeName> zelesen, das tuͦt
+<lb/>er ouch nit und nimpt da von ein groß pfruͦnd in und k<damage agent="hole"><supplied resp="rhr">oufft</supplied></damage> ander huͤser
+<lb/>und ist in den selben und lat der pfruͦnd huß zergan und lit in sinen guͤter<damage agent="clipping"><supplied resp="rhr">n</supplied></damage>
+<lb/>an allen heiligen tagen und <unclear>ru̍t</unclear> und zu̍nt und scher<damage agent="fold"><unclear>hu</unclear></damage>ffet und <damage agent="faded ink"><unclear>gauftz</unclear></damage>,
+<lb/>kein firtag ußgenommen, und an <date dur="R/P1WD">suntagen</date> vor der meß kotet er und
+<lb/>mistet die stell und milcht die kuͤ und gat glich mit ungeweschnen
+<lb/>henden über altar, dar zuͦ sind wir deß unsren nyemer sicher, weder
+<lb/><time period="byDay">tag</time> noch <time period="byNight">nacht</time>, was er tragen mag.
+</p>
+<p><lb/>Item so brucht er ein groben handel mit siner dochter. By der lit er, <damage agent="faded ink"><unclear>wie</unclear></damage>
+<lb/>sy sin wib syg, und hat das triben me denn <date dur="P12Y">xij jar</date>, und ist im dick und
+<lb/>vil gewert von sinen guͦten gu̍nnern, hat sich nie wellen da vor
+<lb/>huͤten. Und rett sy, sy wiß noch hüt by tag kein man so stoltz, sy well
+<lb/>lieber by im ligen, und ist doch ein mensch, die sich su̍nst ouch nid spart.
+<lb/>Und uff yetz, <date when="1508-05-03">deß heiligen krütz tag</date>,<note>Da die vorliegende Beschwerdeschrift
+vor der Behandlung durch den <orgName ref="org002406">Zürcher Rat</orgName> im August 1508 entstanden sein muss,
+ist wohl der Tag der Kreuzauffindung am 3. Mai gemeint, nicht der Tag der Kreuzerhöhung am 14. September.</note>
+ist er die <time period="byNight">nacht</time> by ir gelegen und hat
+<lb/>nit von ir uff wellen, untz das sy luff ze meß lu̍ten, das beschoß als
+<lb/>nu̍t, untz das zuͦ im geschickt ward, ob er welt meß han oder nit.
+<lb/>Do stuͤnd er uff und lu̍ff glich ge<subst><del>m</del><add place="overwritten">n</add></subst> meß han. Und vil handel, die
+<lb/>wir vor minen herren nit hand erzelt von der hellung wegen min<damage agent="clipping"><supplied resp="rhr">er</supplied></damage>
+<lb/>herren, und git weder umb die nachburen noch umb den vogt
+<lb/>nu̍t, dar umb im die pfruͦnd glichen ist, das er uff ein vogt warten
+<lb/>solt.</p>
+<pb n="v"/>
+</div>
+</body>
+<back>
+<div>
+<p>Im Vorfeld der Reformation häuften sich vielerorts die Klagen über das lasterhafte Leben von Priestern und anderem geistlichen Personal.
+Gerade in <placeName ref="loc000066">Zürich</placeName> wurden entsprechende Vorwürfe auch von der städtischen Obrigkeit geschürt,
+die zunehmend die Kontrolle über geistliche Institutionen anstrebte
+(<bibl><ref target="/startseite/literaturverzeichnis">Dörner 1996</ref>, S. 94-95</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Stucki 1996</ref>, S. 186-188</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Bless-Grabher 1995</ref>, S. 461, S. 464</bibl>;
+mit protestantischer Polemik <bibl><ref target="/startseite/literaturverzeichnis">Egli 1896</ref>, S. 166-168, S. 173</bibl>).
+</p>
+<p>Die Vorwürfe gegen den Kaplan von <placeName ref="loc008569">Greifensee</placeName>,
+<persName ref="per013378">Burkhard Kochenrüblin</persName>, waren jedoch besonders heftig.
+Gemäss der vorliegenden Beschwerdeschrift soll er nicht nur seine seelsorgerische Aufgabe vernachlässigt,
+sondern auch über mehrere Jahre hinweg Inzest mit seiner Tochter betrieben haben.
+Wie aus dem undatierten Text hervorgeht, wurde die vorliegende Klage nach den Vorfällen am Heiligkreuztag (3. Mai) verfasst
+und dem <orgName ref="org002406">Zürcher Rat</orgName> vorgelegt. Wie dieser reagierte, ist unbekannt.
+Jedenfalls wurde die Angelegenheit im Sommer erneut vor dem Gericht in <placeName ref="loc008569">Greifensee</placeName> verhandelt,
+weil <persName ref="per013378">Kochenrüblins</persName> Tochter <persName ref="per013379">Anna</persName> nun klagte,
+dass <persName ref="per013981">Felix Denzler</persName> und <persName ref="per013982">Klaus Steger</persName>
+sie und ihren Vater mit Anschuldigungen betreffend Inzest, ungetreuer Amtsführung und Diebstahl beleidigt hätten,
+wofür sie zusammen mit ihrem Ehemann <persName ref="per013983">Ulrich Heuberger, genannt Töder</persName>, Wiedergutmachung verlangt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691331">StAZH A 123.1, Nr. 29</ref></bibl>).
+Die beiden Beschuldigten gingen ihrerseits zum Gegenangriff über,
+indem sie <persName ref="per013983">Heuberger</persName> beschuldigten,
+er habe sie als Bösewichte und Lügner bezeichnet (<orig>zers bösswichtz und schelmen lu̍g</orig>),
+worauf <persName ref="per013983">Heuberger</persName> entgegnete, dass er alle Leute so bezeichne,
+die behaupten, sein Schwiegervater habe mit seiner Tochter wie mit einer Ehefrau verkehrt
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691329">StAZH A 123.1, Nr. 27</ref></bibl>).
+Beide Fälle wurden durch den Vogt von <placeName ref="loc000348">Greifensee</placeName> beurkundet
+und an den <orgName ref="org002406">Zürcher Rat</orgName> verwiesen,
+dessen Beurteilung schliesslich auf einer der beiden Urkunden festgehalten wurde:
+<orig>Der und der ander gerichts handel sind gehört und durch tan, und ist mit <persName ref="per013983">Töder</persName>
+<lb/>und siner frowen vor rat nach aller notturft geredt, hiefon ru̍ewig zuͦ sind.
+<lb/>Actum <origDate when="1508-08-09">mentags vor <persName ref="per000861">Bartholomey</persName> anno domini viij<hi rend="sup">o</hi></origDate>, 
+<choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<abbr>hr</abbr>
+<orgName ref="org002406"><choice><abbr>burg</abbr><expan>burgermeister</expan></choice>
+<persName ref="per001546">Röisten</persName> und beyd raͧten</orgName>.</orig>
+</p>
+<p>Wie mit dem beschuldigten Kaplan verfahren wurde, ist nicht bekannt.
+Möglicherweise wurde er seines Amts enthoben,
+denn aus einem anderen Streitfall im November 1508 geht hervor,
+dass zu diesem Zeitpunkt nicht mehr <persName ref="per013378">Burkhard Kochenrüblin</persName>,
+sondern <persName ref="per013984">Hans Röist</persName> als Kaplan in <placeName ref="loc008569">Greifensee</placeName> amtierte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_050">SSRQ ZH NF II/3, Nr. 50</ref></bibl>).
+Sicher ist, dass <persName ref="per013378">Kochenrüblin</persName> vor 1516 verstorben ist,
+denn in diesem Jahr stand seine Tochter <persName ref="per013379">Anna</persName> erneut vor Gericht
+wegen eines Zinses, den sie nach Meinung des Klägers von ihrem Vater geerbt hatte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=694525">StAZH A 123.1, Nr. 56</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

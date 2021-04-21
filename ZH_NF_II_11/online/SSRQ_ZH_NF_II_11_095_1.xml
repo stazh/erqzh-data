@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_095_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=604647">StAZH G I 5, Nr. 35, fol. 12r-13r</idno></msIdentifier><head>Maiengerichtsordnung von Höngg</head><msContents><summary>Geregelt wird der Ablauf des Maiengerichts: Besammlung im Meierhof und Verbannung des Gerichts (1). Wer sieben Schuh Land in Höngg besitzt, hat anwesend zu sein. Der Weibel ruft all jene namentlich auf, die ein Lehen vom Stift besitzen. Wer nicht anwesend ist, bevor die Offnung verlesen wird, muss eine Busse von drei Schilling entrichten (2). Die Offnung wird durch den Schreiber vorgelesen. Dies kann allerdings auch unterlassen werden, wenn es nicht gewünscht wird (3). Sofern die Offnung verlesen wurde, wird nach ihrer Gültigkeit und nach allfälligen Beschwerden zu einzelnen Artikeln gefragt (4). Der Hofmeier übergibt den Meierhof dem Propst und den Stab dem Obervogt und wird neu beliehen damit, sofern seine Amtsführung in Ordnung ist (5). Die Amtsträger begeben sich in die Stube und wählen die vier neuen Richter (6). Die neuen Richter werden der Gemeinde vorgestellt und schwören den Amtseid (7). Danach folgen die Rechtsgeschäfte. Beschlossen wird das Maiengericht mit einem Abendtrunk (8).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1538-05-23"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="15.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1581-01-01" to="1581-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Stutz, Rechtsquellen, Nr. 14</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term><term ref="key000057">Gericht</term><term ref="key000012">Offnung</term><term ref="key000103">Richter</term><term ref="key004022">Satzung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="12r" type="original" facs="StAZH_G_I_5__Nr__35__fol__12_r_.tif"/><!-- Kollationieren mit den Abschriften G I 14 (Schachtel aufgelöst! Signatur jetzt G I 5, Nr.&#160;123), G I 32 (Friesisches Stiftsprotokoll; zu ignorieren laut Kopiale_Überlieferung_Export_Rechtsquellenportal_2015_09_21.docx; hier berücksichtigt wegen datiertem Nachtrag). Spätere Versionen, in Kommentar: G I 2 Stiftsoffnung von 1646 (= G I 6, Nr.&#160;152); G I 37 S. 24ff, Stiftsprotokoll -->
+<head><app><lem><lb/>Ordnung unnd process dess mey<lb break="no"/>engrichts zuͦ <placeName ref="loc009768">Höngg</placeName></lem><rdg wit="StAZH G I 5, Nr. 123">Von dem meyengricht zuͦ <placeName ref="loc009768">Hönng</placeName>, mit was ordnung und process dasselbig in dem meyerhoff gehalten werde.</rdg></app></head>
+<p>
+<lb/>1. So man zesamen kumpt inn den
+<lb/>meyerhoff, so setzt man sich zuͦ gricht,
+<lb/>unnd wirt <app><lem>das gricht</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">dasselbig</rdg></app> verbannen. Es fragt
+<lb/>aber ein <app><lem>bropst</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">hoffmeyer</rdg></app> vorhin umm, ob es nun mee
+<lb/>tagzyt sige zrichten.</p>
+<p><lb/>2. Fragt ein <app><lem>bropst</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">hoffmeyer</rdg></app>, was nun das
+<lb/>erst syn sölle. Daruff von den richteren
+<lb/>der ruͦff erkännt wirt, das welicher <measure type="area" unit="Schuh" quantity="7">si<lb break="no"/>ben
+schuͦch</measure> wyt unnd breit zuͦ <placeName ref="loc009768">Höngg</placeName> habe,
+<lb/>das er da syge. Daruff der ruͦff durch den <choice><abbr>w</abbr><expan>weibel</expan></choice>
+<lb/>bschicht unnd werdent mit nammen bruͤfft
+<lb/>alle die, so etwas vom gstifft ze eerb hand,
+<lb/>die muͤssent darnach erschynen oder <measure type="currency" unit="ß" quantity="3">iij </measure>
+<lb/>buͤssen, so sy nit verhanden sind, ee <app><lem>unnd</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)"/></app>
+<lb/>der rodel <app><lem/><rdg wit="StArZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">oder die offnung</rdg></app> verläsen wirt.</p>
+<p><lb/>3. Fragt ein <app><lem>bropst</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">hoffmeyer</rdg></app>, was nun das
+<lb/>erst. Daruff erkennt wirt, das man den
+<lb/><app><lem>rodel</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">gedinngrodel</rdg></app> oder die offnung laͤsen sölle, weliches
+<lb/>dann durch den schryber bschicht. Oder so<pb n="12v" type="original" facs="StAZH_G_I_5__Nr__35__fol__12_v_.tif"/>
+<lb/>man wil umb kürtze willen, mag dasselbig 
+<lb/>underlassen werden. Jedoch gat ein frag <app><lem>vor</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">vorhin</rdg></app>,
+<lb/>ob man inn hören welle oder nit.</p>
+<p><lb/>4. So die offnung <app><lem>oder der gedingro<lb break="no"/>del</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)"/></app>
+verläsen wirt, so gaat ein frag druff,
+<lb/>ob er recht stande oder ob jemantz an einichem
+<lb/>articel beschwärd habe. So dann jemantz be<lb break="no"/>schwërd 
+hatt, wirt das angezeiget.<note>Dieser Artikel ist in der Abschrift im Protokoll von 1623 gestrichen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=905022">StAZH G I 6, Nr. 20</ref>, fol. 5v</bibl>). In späteren Fassungen wird nur noch gefragt, <orig>ob die offnung noch stande und inhalte wie von alten häro</orig> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl>), nicht mehr nach Beschwerden zu einzelnen Artikeln.</note></p>
+<p><lb/>5. Wirt der meyerhoff von dem hoff<lb break="no"/>meyer
+uffgäben, der hoff einem bropst
+<lb/>unnd der stab einem obervogt, unnd wider
+<lb/>gelihen nach umbfrag miner herren unnd
+<lb/>der dorfflüten. Zevor aber wirt ein frag
+<lb/>umb in gehalten, ob er dem meyerhoff nütz
+<lb/>unnd guͦt sige oder nit.</p>
+<p><lb/>6. So staat man uff unnd gaat
+<lb/>man hinuff in die stuben, allda werdent
+<lb/>die <num value="4">vier</num> nüwen richter genommen von den
+<lb/><app><lem>vögten</lem><rdg wit="StAZH G I 5, Nr. 123"><add place="left margin" hand="other hand">ober</add>vögten</rdg></app>, pflägeren <app><lem/><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">und den verordneten vom gstifft</rdg></app> und <app><lem><num value="12">zwölffen</num></lem><rdg wit="StAZH G I 5, Nr. 123"/><rdg wit="StAZH G I 32 (S. 654-656)">sechsen</rdg></app><note>In <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1119862">StAZH G I 5, Nr. 123</ref></bibl> stand ursprünglich auch <orig>zwölffen</orig>. Dies wurde jedoch später gestrichen, vermutlich von Stiftsverwalter <persName ref="per011354">Johann Jakob Ulrich</persName> (Amtszeit 1623-1638), von dessen Hand auch die Hinzufügung auf der letzten Zeile stammt.</note> dess dorffs.</p>
+<p><lb/>7. <app><lem>Werdent die <num value="4">vier</num> nüw erwelten
+<lb/>richter vor der gmeind geoffnet, und schwee<lb break="no"/>rend
+sy den gwonlichen eid.</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">Gaat man uss der stuben wiederumb hinab zuͦ der gmeind versammlung, allda werdent die nüwen richter durch den obervogt geoffnet und sy der gmeind fürgestelt, unnd schweerent ouch den gewonlichen eyd.</rdg></app></p><pb n="13r" type="original" facs="StAZH_G_I_5__Nr__35__fol__13_r_.tif
+"/>
+<p><lb/>8. So diss allsamen beschähen, hatt dann
+<lb/>jemantz etwas zerächten, der thuͦt es, doch allein
+<lb/>umb eerb unnd eigen, so von der gstifft har<lb break="no"/>langet.
+Daruff so aͤndet es <app><lem>sich</lem><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">alles</rdg></app> mit dem
+<lb/><app><lem/><rdg wit="StAZH G I 5, Nr. 123; StAZH G I 32 (S. 654-656)">imbißmal oder</rdg></app> abendtrunck.<note>In der Abschrift im Stiftsprotokoll (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=604690">StAZH G I 32, S. 654-656</ref></bibl>) folgt anschliessend noch eine Notiz zur 1538 beschlossenen Kostenteilung zwischen Obervögten und Stift (vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=602600">StAZH G I 103, fol. 31r</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">Nr. 7, S. 26-27</ref></bibl>). Der darunterstehende Vermerk <orig>Actum den 23. may 1538</orig> bezieht sich nur auf diesen Beschluss; es gibt keine Hinweise darauf, dass die Maiengerichtsordnung selbst an diesem Datum erlassen worden wäre.</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Pflicht, jährlich zwei ordentliche Dinggerichte abzuhalten, ist schon in den Offnungen des 14. Jahrhunderts festgehalten (für <placeName ref="loc009768">Höngg</placeName>: <bibl>ZBZ Ms C 10a, fol. 131r-133v</bibl>, 
+Digitalisat: <ref target="http://doi.org/10.7891/e-manuscripta-47119">e-manuscripta</ref>;  deutsche Fassung: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=602078">StAZH G I 102, fol. 16v-22v</ref></bibl>; Edition: 
+<bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_4">Nr. 1, S. 4-22</ref></bibl>). Nach den üblichen Terminen wurden sie Maien- und Herbstgerichte genannt, manchmal auch <orig>taͤding</orig>.
+Der Gerichtsherr oder sein Stellvertreter sprachen dabei Recht über Angelegenheiten der Grundherrschaft, die dörflichen bzw. grundherrschaftlichen Amtsträger wurden gewählt und vereidigt und die Offnung wurde verlesen. 
+Dazu mussten alle Angehörigen der Grundherrschaft (oft umschrieben mit der bildhaften Formel, wer Land von sieben Schuh – also etwa 2.1 m, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D14191.php">Fuss</ref></bibl> – lang oder breit besitze) zusammentreten, 
+während sonst bei den Gerichtsverhandlungen des Meiergerichts nur die Konfliktparteien anwesend waren. Die Maien- und Herbstgerichte hatten somit auch den Charakter von Volksfesten, die mit einem Imbiss oder Abendtrunk beendet wurden. 
+Vgl. zu den Imbissmählern oder Abendtrünken den Beschluss zur Kostenteilung (<bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">Nr. 7, S. 26-27</ref></bibl>), die Ratserkenntnis von 1592 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_100">SSRQ ZH NF II/11, Nr. 100</ref></bibl>)
+sowie die Abrechnung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_101">SSRQ ZH NF II/11, Nr. 101</ref></bibl>).</p>
+<p>Während mit der Übergabe der hohen und niederen Gerichte des <orgName ref="org004352">Grossmünsters</orgName> an die Stadt 1526 die Gerichte von <placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc009859">Schwamendingen</placeName> und <placeName ref="loc008707">Fluntern</placeName>
+an das städtische <orgName ref="org005053">Stangengericht</orgName> übergingen, bestand das <placeName ref="loc009768">Höngger</placeName> Gericht weiterhin, nur dass der Eid nun dem Obervogt statt dem Propst geleistet werden musste (<!-- StAZH G I 1, Nr.&#160;113 --><bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>;
+vgl. auch <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943</ref>, S. 22</bibl>). Allerdings wurde wohl mit der Zeit nur noch das Maiengericht abgehalten; wenn im 17. Jahrhundert Herbstgerichte erwähnt werden, dann meist mit einer Erklärung, 
+weshalb das Maiengericht nicht abgehalten wurde (z.B. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1124717">StAZH G I 6, Nr. 97, fol. 17r-24v</ref></bibl>: starke Inanspruchnahme der Stiftsherren durch Kirche und Schule, Feldarbeit wegen
+schlechten Wetters). Auch gab es manchmal zwischen den Gerichtsterminen Unterbrüche von mehreren Jahren. Das letzte Protokoll eines abgehaltenen Maiengerichts datiert von 1665 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1127899">StAZH G I 7, Nr. 87</ref></bibl>). 
+Stutz vermutet, dass spätestens mit Aufhebung der Huberrechte 1704 (<!--StArZH VI.HG.A.5.:72--><bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_147">SSRQ ZH NF II/11, Nr. 147</ref></bibl>) das Hofmeieramt und damit 
+das <placeName ref="loc009768">Höngger</placeName> Gericht abgeschafft wurde (<bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_44">S. 44 Anm. 1</ref></bibl>). Eine ähnliche Entwicklung zeigt sich auch an anderen Orten, z.B. im Freigericht <placeName ref="loc007625">Nossikon</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>).</p>
+<p>Auch die Offnungen von 1338 (vgl. oben) und 1539 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_062">SSRQ ZH NF II/11, Nr. 62</ref></bibl>) enthalten bereits nähere Bestimmungen zur Durchführung der Maien- und Herbstgerichte. In einer Zusammenstellung der Offnung, Amtseide und Ordnungen für Meierhof und Maiengericht
+von <placeName ref="loc009768">Höngg</placeName> von 1581 findet sich die untenstehende Maiengerichtsordnung, die den Ablauf des Gerichts festhält. Nur leicht abweichende Fassungen wurden teilweise in die Maiengerichtsprotokolle aufgenommen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_113">SSRQ ZH NF II/11, Nr. 113</ref></bibl>). Eine neue, ausführlichere Version (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=890953">StAZH G I 6, Nr. 152, S. 20-25</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_43">Nr. 14, S. 43-51</ref></bibl>)
+wurde der erneuerten Stiftsoffnung von 1646 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=890948">StAZH G I 6, Nr. 152, S. 3-14</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_68">Nr. 23, S. 68-77</ref></bibl>) beigegeben.</p>
+<p>Vgl. zu den Maien- und Dinggerichten allgemein <bibl><ref target="/startseite/literaturverzeichnis">HRG (2. Aufl.)</ref>, Art. Meiergericht, Meierding, Bd. 3 Sp. 1405-1411<!-- Werner Rösener --></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D16085.php">Hofrecht</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2007</ref>, S. 73-85</bibl>; zu <placeName ref="loc009768">Höngg</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Stutz, Meiergerichtsurteile</ref>, S. 1-5</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

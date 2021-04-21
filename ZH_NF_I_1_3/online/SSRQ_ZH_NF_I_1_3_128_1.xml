@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_128_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1159252">StAZH A 42.1.8, Nr. 15</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Entrichtung des Zehnten</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich haben nach Anhörung der Abgeordneten der Grafschaft Kyburg, der Herrschaften Eglisau, Grüningen, Greifensee, Andelfingen, Bülach, Neuamt und Rümlang über die Frage des Zehnten beraten. Sie erklären, dass der Zehnt für Dinkel, Roggen, Weizen, Gerste, Hafer, Wein und Heu mit der Heiligen Schrift, dem alten Herkommen und den eidgenössischen Bünden im Einklang stehe. Grosser und Kleiner Zehnt sind deshalb jetzt wie in Zukunft vollumfänglich zu entrichten. Frei von Abgaben ist lediglich der zweite Ernteertrag des Jahres. Den Gemeinden soll jedoch nach Möglichkeit bei der Ablösung des Kleinen Zehnten geholfen und die zweckgemässe Verwendung des Kirchenzehnten sichergestellt werden.  Die Aussteller siegeln mit dem Sekretsiegel der Stadt Zürich.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1525-08-14"/></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Actensammlung, Nr. 799</bibl><bibl>Bullinger, Reformationsgeschichte, Bd. 1, S. 284-286</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 761, Nr. 102</bibl><bibl>Moser 2012, Bd. 1, S. 188, Nr. 74</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000668">Unruhen</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<lb/><seg>Wir der <orgName role="issuer" ref="org002406">burgermeister, ratt und der groß ratt, so maͣn neͣmpt 
+ <lb/>die zweyhundert der statt <placeName ref="loc000065">Zurich</placeName></orgName>, embieten allen dennen,
+<lb/>so inn unnsern oberkeiten, gerichten und gepieten wonhafft
+<lb/>sind, unnsern gu̍nnstigenn willen zuͦvor.</seg>
+<seg>Unnd als
+<lb/>ir, wie unns nit <sic>zwyfflettt</sic>, allenthalb bericht, das uß ungli<lb break="no"/>chem
+predigen unnser predicanten unnd myßverstannd 
+<lb/>der unnsern allenthalb (unnsers bedu̍nckens) uff eignen nu̍tz,
+<lb/>zwytracht unnd <app><lem>irrung</lem><rdg wit="StAZH A 42.1.8, Nr. 16">irrungen</rdg></app> der <hi rend="underline" hand="later hand">zehennden</hi> halb erwachßen und
+<lb/>ufferstannden, darumb dann etlich gegninen, als von 
+<lb/>unnser graffschafft <placeName ref="loc000012">Kyburg</placeName>, der herschafft <placeName ref="loc009832">Eglisow</placeName>, <placeName ref="loc000362">Gruͤnin<lb break="no"/>gen</placeName>,
+<app><lem><placeName ref="loc000348">Griffensee</placeName></lem><rdg wit="StAZH A 42.1.8, Nr. 16">Andelfingen</rdg></app>, <app><lem><placeName ref="loc008749">Anndelfingen</placeName></lem><rdg wit="StAZH A 42.1.8, Nr. 16">Gryffensee</rdg></app>, 
+<placeName ref="loc009831">Bu̍lach</placeName>, <placeName ref="loc009842">Nu̍wampt</placeName> und <placeName ref="loc008730">Ru̍m<lb break="no"/>lanng</placeName>,
+durch ire erber bottschafften mitt sampt iro selsorgern 
+<lb/>und predicannten vor unns erschynnen unnd soͤllicher ze<lb break="no"/>hënnden
+halb vill unnd meͣngerley gehanndlet unnd geredt
+<lb/>unnd zuͦ letst durch die botten <app><lem>obbestimpter</lem><rdg wit="StAZH A 42.1.8, Nr. 16">der ob<lb break="no"/>bestimpten</rdg></app> gemeynden <del>vill</del>
+<lb/>heitter gesagt, das soͤllich unruͦw allein von der pfaffenn 
+<lb/><add place="left margin">uß irem unglichen <lb/>predigen</add> under sy gewachßenn, also gelert unnd underricht syennt
+<lb/>unnd darmit unns die hanndlung heimgesetzt unnd u̍ber
+<lb/>geben, die nach de<subst><add place="inline">n</add><del>m</del></subst> wortenn gottes zuͦ erwegenn, und wel<lb break="no"/>liche
+nit darinn grund habent, inen nachzuͦlassen. 
+</seg>
+</p>
+<p>
+<lb/>Unnd diewyl wir <app><lem>sechent</lem><rdg wit="StAZH A 42.1.8, Nr. 16">hörent</rdg></app>, <app><lem>hörrent</lem><rdg wit="StAZH A 42.1.8, Nr. 16">sehend</rdg></app> unnd spu̍rent, das 
+<lb/>etlich sind, die uß eignem nu̍tz irer ungehorsame das gots
+<lb/>wort fu̍rhennkend, daruß unns und u̍ch allen großer 
+<lb/>nachteyl gegenn gott, unnsern <orgName ref="org000531"><choice><abbr>eydgnon</abbr><expan>eydgnossen</expan></choice></orgName> und anndern an<lb break="no"/>stoßennden
+nach purenn, so unnder u̍ch zehennden habent,
+<lb/>erwachßen möcht, habennt wir durch unnsere vorordnoten
+<lb/>raͤte sampt etlichen geschrifft gelertenn die heiligen 
+<lb/><app><lem>geschrifft</lem><rdg wit="StAZH A 42.1.8, Nr. 16">geschrifften</rdg></app> mit sonnderem vlis unnd erntst durch 
+<lb/>ganngen, ersuͦcht unnd erlernet unnd konnent an keinem 
+<lb/>ordt des göttlichenn wortes erfinden, das sich yemans
+<lb/>die zehennden zegebenn weder mit gott noch mit recht
+<lb/>entsagenn oder ußgan muge. So will es sich ouch <app><lem>nit 
+<lb/>zymmen, unns noch keinem richter</lem><rdg wit="StAZH A 42.1.8, Nr. 16">weder uns noch key<lb break="no"/>nem richter gezimmen</rdg></app>, yemans, es syent
+<lb/>leigen oder kilchenn zehennden, die sovil <date dur="P100Y">hundert jar</date> in
+<lb/>ruͦwiger besitzunng, loblichem alltem harkomen und guͦtter 
+<pb n="2"/>
+<lb/>gewarsami gebenn unnd genomen sind, wem joch die ge<lb break="no"/>hoͤrrent, 
+abzusprachenn und <app><lem/><rdg wit="StAZH A 42.1.8, Nr. 16">also</rdg></app> ire eigenthumb zenemen und 
+<lb/>zuͦvernu̍ten, sonnder habent wir uß villerley goͤtlichen,
+<lb/>christennlichen unnd im gots wort gru̍ndtlichenn ur<lb break="no"/>sachenn
+unns entschloßenn, erlu̍tret und erkaͤnt <app><lem>und</lem><rdg wit="StAZH A 42.1.8, Nr. 16"/></app>
+<lb/>wellent ouch, das dem uf dis jar <add place="above">und</add> fürohin <date dur="R/P1Y">jerlichs</date> gelept 
+<lb/>und nachkomen werde. 
+</p>
+<p>
+<lb/>Also, das alle die, so inn unnsern graffschaftenn, her<lb break="no"/>schafftenn, 
+vogtyen, gerichten und gepieten guͤter habent,
+<lb/>sy syent darinn seßhafft oder <del>nidt</del> nit, den großen
+<lb/>zehenden nit allein in die <num value="7">siben</num> stuk, wie u̍ch die 
+<lb/>vorbenempt, als korn, roggen, weytzen, gersten, haber, 
+<lb/>win unnd hew, wo hew zegeben gwan ist, sonnder
+<lb/>mit allem anhang anderer stuken, wie unnd was ein
+<lb/>yetliche gegni oder kilchhori ye welten und von alter
+<lb/>har inn den großenn zehenden geben hatt, an die
+<lb/>ordt, end und dennen, sy syennt geistlich oder welt<lb break="no"/>lich,
+wie sy vorhar gethann, ouch hinfu̍r ungeen<lb break="no"/>dert,
+on abganng zegeben, verbunden und schuldig
+<lb/>sin sollent.</p>
+<p>
+<lb/>Der cleinen zehennden halb, diewyl es sich unns
+<lb/>aber nit gezimen will, weder den unnsern noch
+<lb/>den ußlenndischen, unser gepieten ir gewarsami,
+<lb/>harkomen und besitzung uß iren henden ze<lb break="no"/>schrenntzen, 
+ist abermals unser erkanntnus,
+<lb/>das ein yede kilchhoͤri und gegni den cleinen 
+<lb/>zehenden mit allen dingen, wie und was von 
+<lb/>alter har darinn gehërdt hat und sy yewelten 
+<lb/>geben habent, uf dis jar und hinfu̍r <date dur="R/P1Y">alle jar</date> ußrichten
+<pb n="3"/>
+<lb/>unnd gebennt söllent, on mindrung und abganng, doch 
+<lb/>mit sollicher erlutrung: Was fru̍chten man <date dur="R/P1Y">zum jar
+<lb/>einost</date> inn ein aker <sic>sage</sic>, darvon solle der zehend einost
+<lb/>gebenn werdenn, unnd wo im selbenn jar witter darinn
+<lb/>gesaigt wurde, sol die selb frucht frig sin. 
+</p>
+<p>
+<lb/>Und wo oder von wellichem dem allem, wie obstatt, nit
+<lb/>gelebt und sollichs zu clag keme, den wurden wir uber 
+<lb/>die straf, deren er von gott warten muͦß, mit unser 
+<lb/>zittlichen straff der maßen <app><lem>straffen</lem><rdg wit="StAZH A 42.1.8, Nr. 16">handlen</rdg></app>, das er welte,
+<lb/>uns als siner oberkeit innhalt goͤtlicher geschrifft ge<lb break="no"/>horsam 
+erschinenn sin. 
+</p>
+<p>
+<lb/>Wir wellend ouch nudtdester minder hinfu̍r mit der 
+<lb/>hilf des allmëchtigen gottes daran sin, das insonder 
+<lb/>die <app><lem><sic>klichen</sic></lem><rdg wit="StAZH A 42.1.8, Nr. 16">kilchen</rdg></app> zehennden, so in unser landschafft und 
+<lb/>gepietenn plibenn und mit denen wir zuͦver<lb break="no"/>walten
+habenn, widerumb inhalt des goͤtlichen wortes
+<lb/>inn einen rechten bruch koment, die pfarrer mit 
+<lb/>zimlicher narrung daruß <app><lem>enthalten</lem><rdg wit="StAZH A 42.1.8, Nr. 16">erhalltenn</rdg></app> und das <add place="inline">u̍b<lb break="no"/>rig</add>
+nach dem willen gottes mit der zit verwendt wer<lb break="no"/>de.
+</p>
+<p>
+<lb/>Wir sind ouch willens, der kleinen zehenden halb
+<lb/>tru̍lich helffen zuhandlen, wo yemas, es werend 
+<lb/>der unseren oder ußlendischen, so die cleinenn
+<lb/>zehenden erkoufft und darumb brief und gwar<lb break="no"/>sami
+mit abloßung hetten, das dann den
+<lb/>kilchhoͤrrinen und gegninen der loßung 
+<lb/>gestattet werde. 
+</p>
+<pb n="4"/>
+<p>
+<lb/>Wo aber nit kouffbrief noch sigel, sonnder die 
+<lb/>ruͦwig besitzung, loblich harkommen und ander ge<lb break="no"/>warsami
+on loßung werend, wellend wir aber<lb break="no"/>maln
+fru̍ntlich werben, und so vil uns möglich
+<lb/>ist, das best thuͦn, damit die kilchhoͤrrinen und
+<lb/>gegninen zuͦ einer zimlichen loßung komen
+<lb/>moͤgent. 
+</p>
+<p>
+<lb/>Unnd wiewol sich diser unnser entlicher beschlus 
+<lb/>bißhar mergklicher geschafftenn halb verzogenn,
+<lb/>so habent wir es doch u̍ch <app><lem>nit lennger</lem><rdg wit="StAZH A 42.1.8, Nr. 16">lenger nit</rdg></app> wellen ver<lb break="no"/>halten,
+u̍ch darnach wu̍ßen zuͦ richten. 
+</p>
+<p>
+<lb/><seg>Unnd ist hieruff unnser erntstlich <app><lem>vermanung</lem><rdg wit="StAZH A 42.1.8, Nr. 16">ermanung</rdg></app>, ir 
+<lb/>wellint umb zittlicher guͤtter willenn, die ir und 
+<lb/>u̍were fromen vorderen ye welten schuldig gewe<lb break="no"/>sen
+und noch sind, dem göttlichen wordt, des ir uch
+<lb/>haltenn wellennd, dhein anstoß gebenn, damit 
+<lb/>ir nit inn die rach gottes vallint, sonder uns inn
+<lb/>dennen und anderen göttlichen dingen als u̍wer
+<lb/>oberkeit innhalt des gottlichenn wortes <add place="left margin" type="sign">gehorsam</add> zuͦ erschy<lb break="no"/>nen,
+daran thuͦnd ir ein gotlichs, christenlichs 
+<lb/>werk unnd unns <app><lem>insonder</lem><rdg wit="StAZH A 42.1.8, Nr. 16">besonder</rdg></app> gefallen.</seg>
+<seg>Unnd
+<lb/>des zuͦ warem urkunt habent wir unser stat secret 
+ <lb/>innsigel offenlich <app><lem>hierinn laßen druken</lem><rdg wit="StAZH A 42.1.8, Nr. 16">gehenckt zuͦ end diser ge<lb/>schrifft</rdg></app> unnd 
+ <lb/>beschächen ist am <date when="1525-08-14"><app><lem>vierzehenden tag</lem><rdg wit="StAZH A 42.1.8, Nr. 16">xiiii tage</rdg></app>
+<del>aust</del> augst
+<lb/>monets anno <abbr>etc</abbr> xxv</date>.</seg>
+</p>
+</div>
+<div>
+<ab type="archiving reference" place="below" hand="hand18c">
+<lb/>Entrichtung des zehendens nach der glaubens reformation, <date when="1525">1525</date>.
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Das Mandat erging am Ende der Bauernunruhen des Jahres 1525 auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft. Ein besiegeltes Exemplar ist nicht überliefert; neben dem edierten Entwurf, der leichte Überarbeitungen enthält, 
+liegt noch eine zeitgenössische Reinschrift von anderer Hand vor, die ebenfalls unbesiegelt ist (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1159253">StAZH A 42.1.8, Nr. 16</ref></bibl>).</p>
+<p>Hatte die Problematik der Zehnten nur einen Teil der an die Obrigkeit gerichteten Beschwerdeschriften 
+(vgl. exemplarisch die Beschwerdeartikel der Leute aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName>: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_058">SSRQ ZH NF II/3, Nr. 58</ref></bibl>) ausgemacht, 
+gewann sie im Verlaufe des Jahres 1525 zunehmend an Bedeutung. Dies zeigt sich deutlich anhand der anfangs Juni 1525 erfolgten Anfrage der Stadt gegenüber den Gemeinden am <placeName ref="loc000127">Zürichsee</placeName>, <placeName ref="loc009768">Höngg</placeName>, 
+<placeName ref="loc009842">Neuamt</placeName> sowie den <orgName ref="org005085">Zünften</orgName> 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_127">SSRQ ZH NF I/1/3, Nr. 127</ref></bibl>).</p>
+<p>Bereits in den vorangehenden Jahren hatte es auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft Zehntenverweigerungen und entsprechende Mandate gegeben 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_116">SSRQ ZH NF I/1/3, Nr. 116</ref></bibl>). 
+Auf die Ereignisse des Jahres 1525 reagierten <orgName ref="org002406">Bürgermeister und Rat</orgName> zunächst mit einem Erlass zum Zehntenwesen, der sich an diesen früheren Mandaten orientierte und die Verpflichtung der Untertanen zur Entrichtung sämtlicher Abgaben bekräftigte 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1159251">StAZH A 42.1.8, Nr. 14</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 737</bibl>).
+Zusätzlich wurde in diesem Mandat seitens der Obrigkeit angeboten, die Landgemeinden darin zu unterstützen, mit den Inhabern der Zehntenrechte über den Erlass des sogenannten Kleinen Zehnten sowie die Ablösung 
+der Zehntenpflicht zu verhandeln.</p>
+<p>Die Ereignisse rund um die Entstehung des vorliegenden Mandats werden von <persName ref="per012634">Heinrich Bullinger</persName> ausführlich beschrieben 
+(<bibl><ref target="/startseite/literaturverzeichnis">Bullinger, Reformationsgeschichte</ref>, Bd. 1, S. 283-284</bibl>). Am 22. Juni 1525 empfing der <orgName ref="org002406">Rat</orgName> Abordnungen verschiedener Landgemeinden und der Pfarrer zu 
+direkten Verhandlungen, an denen sich auch <persName ref="per003919">Huldrych Zwingli</persName> beteiligte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4195704">StAZH B VI 248, fol. 269r-270r</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 756</bibl>). 
+Bei dieser Zusammenkunft wurde ein weiteres Zehntenmandat in Aussicht gestellt, welche die Rechtsverhältnisse abschliessend klären sollte. 
+Das vorliegende Mandat vom 14. August 1525 basiert massgeblich auf den Ergebnissen der Unterhandlungen vom 22. Juni, bezieht jedoch ein zusätzliches Gutachten <persName ref="per003919">Zwinglis</persName> mit ein 
+(<bibl><ref target="/startseite/literaturverzeichnis">Zwingli, Werke</ref>, Bd. 4, S. 434-439</bibl>).</p>
+<p>Mit dem Festhalten an Grossem und Kleinem Zehnten 
+unter Freistellung einzig der sogenannten Zweiten Frucht (also dem zweiten Ernteertrag des Jahres) formulierten <orgName ref="org002406">Bürgermeister und Rat</orgName> die inskünftig geltende Regelung, die sie auch den in späteren gedruckten Zehntenmandaten 
+beibehielten (vgl. exemplarisch: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_004">SSRQ ZH NF I/1/11, Nr. 4</ref></bibl>). 
+An dem Mandat lässt sich die um die Mitte der 1520er Jahre verstärkt einsetzende Tendenz der <placeName ref="loc000065">Zürcher</placeName> Obrigkeit ablesen, 
+in Fragen, die zuvor auch innerhalb der reformatorischen Bewegung umstritten gewesen waren, die Regulierungsdichte zu erhöhen und 
+abweichende Positionen zu marginalisieren, wie dies auch hinsichtlich der <orgName ref="org005058">Täufer</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_130">SSRQ ZH NF I/1/3, Nr. 130</ref></bibl>) 
+und der
+Heiligenbilder (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_120">SSRQ ZH NF I/1/3, Nr. 120</ref></bibl>) unternommen wurde. 
+</p>
+<p>
+Allgemein zum Zehnten vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D8982.php">Zehnt</ref></bibl>; für die Bauernunruhen des Jahres 1525 auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft vgl.  
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D16525.php">Bauernkrieg (1525)</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kamber 2010</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stucki 1996</ref>, S. 200-204</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dietrich 1985</ref>, S. 213-252</bibl>; 
+<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1920</ref>, S. 32-42</bibl>; zu <persName ref="per003919">Zwinglis</persName> Behandlung des Zehnten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Pribnow 1996</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

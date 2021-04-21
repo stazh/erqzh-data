@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_179_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3736945">StAZH B III 2, S. 344, Eintrag 2</idno></msIdentifier><head>Verbot der Aufnahme von Eigenleuten ins Bürgerrecht der Stadt Zürich</head><msContents><summary>Anwärter auf das Bürgerrecht der Stadt Zürich haben künftig eine Bestätigung der Obrigkeit ihres Herkunftsgebiets vorzulegen, dass sie nicht der Leibeigenschaft unterstehen und keinem fremden Herren zu irgendwelchen Diensten verpflichtet sind. Dies gilt für Personen aus dem Herrschaftsgebiet der Stadt ebenso wie für solche von innerhalb oder ausserhalb der Eidgenossenschaft.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1540-05-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000325">Fremde</term><term ref="key000084">Leibeigenschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="344" facs="StAZH_B_III_2__S__344_.tif
+"/>
+<p>
+<app><lem/><rdg wit="StAZH B III 4, fol. 35v; StAZH B III 5, fol. 113r"><head>Das man keynen eygnen man zuͦ
+<lb/>burger empfachen soͤlle</head></rdg></app>
+<seg><lb/><app><lem>Wytter haben wir</lem><rdg wit="StAZH B III 5, fol. 113r">Wir haben</rdg></app> unns erkennth umb meerer ruͦwen willen,
+<lb/>diewyl der statt unntzhar mengerley irrung der lybeygnen
+<lb/>lüthen halb begëgnet: Wellicher nunhynfür inn unnser
+<lb/>statt burger werden will, er syge inn der <placeName ref="loc000153">Eydtgnosschafft</placeName>
+<lb/>oder usserthalb inn frömbden oder inn unnseren lannden
+<lb/>unnd gebietten erboren, wannenhär er joch komme, das der
+<lb/>brief unnd sigel von syner oberkeyt brynge, das er ledig
+<lb/>unnd nyemands eygen syge, ouch keyn nachjagenden herren
+<lb/>habe, dem er mit lybeygenschafft oder andern derglychen
+<lb/>pflichten unnd dienstbarkeyten gebunden syge. Dann wel<lb break="no"/>licher
+söllich urkund nit bryngt, der soll zuͦ burger nit
+<lb/>angenommen, ime ouch das burgkrëcht nit zekouffen gëben
+<lb/>werden, untz er sich erlediget und soͤllich brieff bryngt.</seg>
+<seg><app><lem>Actum
+<lb/><origDate when="1540-03-16">mittwuchs dess xxvj<hi rend="sup">ten</hi> tag meygens anno <abbr>etc</abbr> 1540</origDate>, <choice><abbr>pntn</abbr><expan>presentibus</expan></choice> herr
+<lb/><!-- Diethelm --><persName ref="per012669">Royst</persName> unnd beyd räth.</lem><rdg wit="StAZH B III 5, fol. 113r"/></app>
+<note>In der Abschrift der vorliegenden Ordnung im Schwarzen Buch findet sich an dieser Stelle ein späterer Zusatz des Jahres 1545 hinsichtlich Erb- und Unterhaltsansprüche unmündiger Kinder in der Verwandtschaft des Bürgerrechtsanwärters, der in der Folge auch in das Weisse Buch von 1604 übernommen wurde.</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 71</bibl>; allgemein zur Bürgerrechtsvergabe vgl. die Ordnung betreffend die Aufnahme von Neubürgern (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_039">SSRQ ZH NF I/1/3, Nr. 39</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

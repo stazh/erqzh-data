@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_044</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=891148">StAZH C III 8, Nr. 1</idno></msIdentifier><head>Urteil in einem Streit zwischen den Amtleuten von Greifensee und Grüningen über die Gerichtszugehörigkeit</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen den Amtleuten aus den Herrschaften Greifensee und Grüningen. Die Grüninger bringen vor, dass jene Leute aus Greifensee, die innerhalb der Marchen der hohen Gerichte von Grüningen wohnen, den dortigen Landtagen gehorsam sein müssten. Demgegenüber bringen die Leute aus Greifensee vor, dass sie Bürger der Stadt Zürich seien und die hohen Gerichte zu Zürich gehören. Es wird entschieden, dass die Leute aus der Herrschaft Greifensee nicht zu den Landtagen nach Grüningen gehen müssen, sondern bei ihrem altem Herkommen bleiben dürfen. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="12.0"/><width unit="cm" quantity="40.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1498-05-16"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000305">Grenze</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_III_8__Nr__1__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und raͧtt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, thuͦnd kund offennlich mit disem brieff, das fu̍r unns zuͦ recht komen sind unser lieben getruwen, die amptlu̍t der herschafft
+<lb/><placeName ref="loc000362">Gruͤningen</placeName>, eins und annders teils unser lieben getruwen, die amptlu̍t der herrschafft <placeName ref="loc000348">Griffensee</placeName>, von deswegen, das die genanten von <placeName ref="loc000362">Gruͤningen</placeName> meinten,
+<lb/>das die bemelten von <placeName ref="loc000348">Griffensee</placeName>, so indert den marchen der herschafft <placeName ref="loc000362">Gruͤningen</placeName> hochen gerichten gesaͤssen weren, zuͦ lanndtagen <sic>gon</sic>
+<placeName ref="loc000360">Gruͤningen</placeName> gehorsam sin soͤlten,
+<lb/>und aber die selben von <placeName ref="loc000348">Griffense</placeName> dawider vermeinten, das sy unser statt <placeName ref="loc000065">Zu̍rich</placeName> burger und noch bishar von uns dafu̍r gehalten weren, zuͦ dem die hochen
+<lb/>gericht der herschafft <placeName ref="loc000348">Griffense</placeName> zuͦ unser statt <placeName ref="loc000065">Zu̍rich</placeName> gehortten und gehoͤren soͤlten, darumb sy verhofften, nit schuldig zesind zuͦ landtagen <sic>gon</sic>
+<placeName ref="loc000360">Gruͤningen</placeName>
+<lb/>zegand, dann sy ouch von altemhar nit dahin gediennt hetten.</seg>
+<seg>Und als also jederteil uff sinem vermeinen mit vil me wortten, unnot zemelden, bliben
+<lb/>und das von inen zuͦ unns zuͦ recht gesetzt und beslossen worden ist, so haben demnaͧch wir unns zuͦ recht erkenndt und gesprochen, diewil die uss der herschafft
+<lb/><placeName ref="loc000348">Griffensee</placeName> burger in unser statt <placeName ref="loc000065">Zu̍rich</placeName> sigen und dafu̍r gehept und geachtet werden, ouch die hochen gericht der herschafft <placeName ref="loc000348">Griffensee</placeName> zuͦ unser statt
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> gehoͤrent und gehoͤren soͤllent, das dann dieselben von <placeName ref="loc000348">Griffensee</placeName> soͤlicher ansprach ledig und sy nit schuldig sin soͤlten, zuͦ landtagen gen
+<lb/><placeName ref="loc000360">Gruͤningen</placeName> zegand, sunder sy also by unser statt <placeName ref="loc000065">Zu̍rich</placeName> bliben und tuͦn, wie das von alter harkomen und bracht ist.</seg>
+<seg>Des begertten die gemelten
+<lb/>von <placeName ref="loc000348">Griffensee</placeName> eins brieffs, den wir inen zuͦ geben erkenndt, und des zuͦ urku̍nd unser statt secret insigel offennlich daran haben thuͦn hencken,
+<lb/>der geben ist uff <origDate when="1498-05-16">mitwochen nach sannt <persName ref="per004136">Pangracyen</persName> tag, als man von Cristus gepurt zalt tusent vierhundert nu̍ntzig und acht jar</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_III_8__Nr__1__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Greiffensee</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Wie es in der Urkunde heisst, wurde diese auf Verlangen der Leute aus <placeName ref="loc000348">Greifensee</placeName> ausgestellt;
+in das Archiv des <orgName ref="org004911">Rechenrats</orgName> dürfte sie gelangt sein, weil diesem die Oberaufsicht über die Ämter und Vogteien zukam.
+Ihr Text stimmt teilweise wörtlich überein mit einem Eintrag im Ratsmanual vom gleichen Datum
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_043">SSRQ ZH NF II/3, Nr. 43</ref></bibl>).
+Sie stammt aber nicht vom gleichen Schreiber und berichtet ausführlicher von den Argumenten der beiden Parteien,
+insbesodere jenen der Leute aus <placeName ref="loc000348">Greifensee</placeName>.
+Diese beriefen sich darauf, Bürger der Stadt <placeName ref="loc000065">Zürich</placeName> zu sein,
+weswegen sie nicht zu den Landtagen nach <placeName ref="loc000360">Grüningen</placeName> berufen werden dürften,
+sondern direkt dem Ratsgericht unterstellt sein sollten.
+Diese eigentümliche Interpretation beruhte vermutlich darauf,
+dass einigen Leuten aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName> während des Alten Zürichkriegs das Bürgerrecht geschenkt worden war
+(<bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 270-271, S. 290, S. 308</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 23-24</bibl>).
+Bereits im Rahmen des Waldmannhandels hatten die Leute von <placeName ref="loc000348">Greifensee</placeName> darauf beharrt,
+dass ihren Vorfahren in der <placeName ref="loc010451">Wasserkirche</placeName> einst eine Sonderstellung gewährt worden sei
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_038">SSRQ ZH NF II/3, Nr. 38</ref></bibl>).</p>
+<p>Dass die Einwohner des Städchens <placeName ref="loc008569">Greifensee</placeName> besondere Privilegien genossen, 
+zeigt sich auch daran, dass sie dem Vogt keine Garben abgeben mussten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_067">SSRQ ZH NF II/3, Nr. 67</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

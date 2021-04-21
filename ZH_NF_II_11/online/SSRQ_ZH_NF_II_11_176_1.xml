@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_176_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3578959">StAZH III AAb 1.14, Nr. 113</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend die Bereinigung der Kanzlei Wiedikon und Albisrieden</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlassen ein Mandat betreffend Bereinigung der Kanzlei Wiedikon und Albisrieden. Da die dortige Kanzlei in Unordnung geraten sei, was den Landschreiber bei seiner Tätigkeit behindere, wird angeordnet, dass sämtliche ausgestellten Schuldbriefe überprüft werden, mit Ausnahme der bereits bereinigten Kernengült von Albisrieden. Wer ein solches Dokument zu einem Hof oder Dorf aus der Obervogtei Wiedikon besitzt, soll davon eine Abschrift erstellen und diese zusammen mit dem Original innert drei Monaten der dafür vorgesehenen Ratskommission vorlegen. Nach Überprüfung der beiden Dokumente wird das Original dem rechtmässigen Besitzer zurückgegeben und die Abschrift in der Kanzlei Wiedikon und Albisrieden hinterlegt. Es folgt ein alphabetisch geordnetes Verzeichnis aller Dörfer und Höfe in der Obervogtei Wiedikon.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.5"/><width unit="cm" quantity="43.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1780-04-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005369">Buchführung</term><term ref="key003931">Fertigung</term><term ref="key000383">Kanzlei</term><term ref="key000971">Register</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_14__Nr__113__r_.tif"/>
+<p><seg><lb/>Wir <orgName ref="org002406">Burgermeister und Rath der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName>,  
+<lb/>urkunden hiermit; Demnach Wir eine hohe Nothdurft zu seyn erachtet, 
+<lb/>den betraͤchtlichen Unrichtigkeiten, welche zu empfindlichem Nachtheil der Angehoͤrigen Unserer Ober<lb break="no"/>vogtey <placeName ref="loc009863">Wiedickon</placeName> und <placeName ref="loc010356">Albisrieden</placeName> sowohl als vieler redlicher Privatleuthen zu Stadt und Land, auch zu 
+<lb/>unvermeindlicher Verhinderung und Verwirrung Unsers verordneten Landschreibers in Fuͤhrung und 
+<lb/>Fertigung der von seinem Beruff abhangenden Geschaͤften, sich in dasiger Canzley uͤber die massen ange<lb break="no"/>haͤuft haben, bestmoͤglichst abzuhelfen, und die erforderliche Ordnung wiedrum herzustellen; Als haben 
+<lb/>Wir zu vollkommener Erreichung Unsers heilsamen Zwecks, und zu Befoͤrderung der allgemeinen und 
+<lb/>besondern Sicherheit aller Unserer getreuen Lieben Angehoͤrigen, angemessen befunden, eine sorgfaͤltige 
+<lb/>Untersuchung und Bereinigung gedachter <orgName ref="org009125">Canzley <placeName ref="loc009863">Wiedickon</placeName> und <placeName ref="loc010356">Albisrieden</placeName></orgName> vorzunehmen, und zwar 
+<lb/>aller auf endsbenannten Dorfschaften und Hoͤfen und stehenden Guͤlt- und Schuld-Briefen, die Kernen-Guͤlten von <placeName ref="loc010356">Albisrieden</placeName> allein ausge<lb break="no"/>nommen, die schon bereits bereiniget sind;</seg>
+<seg>Ist anmit Unser ernstliche Will und Meynung, daß alle und jede, welche von der <orgName ref="org009125">Canzley 
+<lb/><placeName ref="loc009863">Wiedickon</placeName> und <placeName ref="loc010356">Albisrieden</placeName></orgName> ausgefertigte, und auf Unsere Angehoͤrige der in gedachter Obervogtey liegenden Dorffschaften und Hoͤfen ge<lb break="no"/>stellte Schuld-Brief entweder als ihr wahres Eigenthum oder Versatzungsweise besitzen, schuldig und verbunden seyn sollen, diese ihre 
+<lb/>Haubt-Instrumente mit beygefuͤgten selbst davon gezogenen auf ganze Folio-Bögen geschriebenen Copeyen, worinn auch der Namen 
+<lb/>des dießmaligen Schuldners angezeichnet seyn solle, <date type="deadline" dur="P3M">innert drey Monat Zeit</date>, von dem naͤchstkuͤnftigen <date when="1780-06-06">ersten Dienstag des Brachmonats</date>
+<lb/>angerechnet, bey Verlurst ihrer Schuld, Unseren eigens hierzu verordneten Mit-Raͤthen einzusenden, welche dann <date dur="R/P3D">alle Dienstag</date> Nach<lb break="no"/>mittags <time from="14:00:00" to="16:00:00">von 2 bis 4 Uhr</time> sich auf allhiesigem <placeName ref="loc008754">Rathhaus</placeName> versammeln, die einsendende Original und Copeyen gegen Zuruͤckstellung eines 
+<lb/>Empfang-Scheins annehmen, und sich ferners bemuͤhen werden, die eingesandten Haubt-Instrumente, (wofuͤr wir garant zu seyn die 
+<lb/>goͤnstige Versicherung anfuͤgen,) mit den beygelegten Abschriften zusammen zu halten, und wann beyde Instrument gleichlautend und uͤber<lb break="no"/>einstimmend gefunden werden, erstere ihren wahren und rechtmaͤßigen Besitzeren, welche sie pflichtmaͤßig eingeliefert haben, und welchen 
+<lb/>obliegen solle in Zeit <date dur="P14D">14 Tagen</date>, von dem Tag der Empfang-Scheinen, abfordern zu lassen, wiedrum aushin ze geben, die vidimierten 
+<lb/>Copeyen aber Unserer bestellten <orgName ref="org009125">Canzley <placeName ref="loc009863">Wiedickon</placeName> und <placeName ref="loc010356">Albisrieden</placeName></orgName> zu vorhabenden Verrichtungen zu Hande zu stellen.</seg></p>
+<p><lb/>Wir versehen uns zuversichtlich, es werde jedermaͤnniglich, aus vester Ueberzeugung, daß diese Landesvaͤtterliche Verfuͤgung einig
+<lb/>und allein den allgemeinen und besondern Nutzen, Wohlfahrt und Sicherheit Unserer getreuen Lieben Angehoͤrigen bezwecke, sich dieser 
+<lb/>Oberkeitlichen Aufforderung in allen Theilen unterziehen, und sich selbst vor Schaden und Verlust zu seyn wohl wissen.</p>
+<p><lb/>Geben, <origDate when="1780-04-26">Mittwochs den 26. April 1780</origDate>.</p>
+<p><orgName ref="org005015">Canzley der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName></p>
+<p>
+<lb/>Nammen der Doͤrfer und Hoͤfe in der Obervogtey Wiedickon gelegen: 
+<lb/><placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc012104">Friesenberg</placeName>, <placeName ref="loc012665">Kolbenhof</placeName>, <placeName ref="loc012714">Oberhard</placeName>, 
+<lb/><placeName ref="loc012094">Toͤltsch</placeName>, <placeName ref="loc012270">Unterhard</placeName>, <placeName ref="loc009863">Wiedickon</placeName>. 
+</p>
+<pb n="v" facs="StAZH_III_AAb_1_14__Nr__113__v_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>Am 28. Februar 1780 hatte sich <persName ref="per026512">Hans Rudolf Hess</persName>, Landschreiber in der Obervogtei <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc010356">Albisrieden</placeName>, in einer Bittschrift an den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName>
+über die Unordnung in der Kanzlei beklagt und die Obrigkeit um Hilfe gebeten; besonders die Kauf- und Schuldprotokolle von <placeName ref="loc010356">Albisrieden</placeName> seien in den letzten 45 Jahren schlecht geführt worden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=759468">StAZH A 154, Nr. 142</ref></bibl>). 
+Am 6. März beauftragte der <orgName ref="org002406">Rat</orgName> eine Delegation mit der Untersuchung des Zustands der Kanzlei von <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc010356">Albisrieden</placeName> und trug ihr auf, zu prüfen, ob eine Bereinigung durchgeführt werden sollte, 
+wie dies vor zehn Jahren auch in <placeName ref="loc000348">Greifensee</placeName> der Fall gewesen sei (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=245248">StAZH B II 988</ref>, S. 59-60</bibl>; zur Kanzleibereinigung in <placeName ref="loc000348">Greifensee</placeName> 
+vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_113">SSRQ ZH NF II/3, Nr. 113</ref></bibl>). Die Ratsdelegation reichte ihr Gutachten am 24. April 1780 ein (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=758524">StAZH A 154, Nr. 141</ref></bibl>). 
+Der Rat entschied darauf am 26. April 1780, die Bereinigung durchführen zu lassen und liess das vorliegende Mandat drucken (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=245248">StAZH B II 988</ref>, S. 122</bibl>). Am 26. Februar 1783 erstattete Landschreiber 
+<persName ref="per026512">Hess</persName> Bericht über die von ihm durchgeführte Bereinigung (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=759480">StAZH A 154, Nr. 153</ref></bibl>). Ab 1781 wurde auch in der Obervogtei <placeName ref="loc009859">Schwamendingen</placeName> und <placeName ref="loc008722">Dübendorf</placeName> 
+eine Kanzleibereinigung durchgeführt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579350">StAZH III AAb 1.15, Nr. 5</ref></bibl>); am 13. April 1785 liess der <orgName ref="org002406">Rat</orgName> ein Verzeichnis entkräfteter, in den Protokollen aber noch nicht 
+getilgter Schuldbriefe aus den Kanzleien der beiden Obervogteien <placeName ref="loc009863">Wiedikon</placeName> sowie <placeName ref="loc009859">Schwamendingen</placeName> und <placeName ref="loc008722">Dübendorf</placeName> anlegen und wies die Bürger und 
+Bewohner der Landschaft an, nachzusehen, ob sie noch solche Schuldbriefe besitzen würden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579371">StAZH III AAb 1.15, Nr. 26</ref></bibl>). Am 6. Juli 1785 verordnete der <orgName ref="org002406">Rat</orgName> auch die 
+Bereinigung der Kanzlei <placeName ref="loc008730">Rümlang</placeName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579378">StAZH III AAb 1.15, Nr. 31</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

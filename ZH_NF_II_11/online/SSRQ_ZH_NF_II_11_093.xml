@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_093</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1242238">StAZH G I 23, fol. 188v-189v</idno></msIdentifier><head>Einnahme des grossen Zehnten in Höngg zuhanden des Stiftskelleramtes durch die Amtsleute des Klosters Wettingen</head><msContents><summary>Der grosse Zehnt in Höngg zuhanden des Kelleramts des Grossmünsterstifts, der seit 1520 zusammen mit dem dortigen Wettinger Zehntenteil verliehen wurde, wobei das Grossmünster einen Viertel und das Kloster Wettingen drei Viertel des Gesamtertrags erhielt, wird seit 1571 durch die Amtsleute des Klosters Wettingen eingezogen. Die Bauernschaft von Höngg und einige Stiftspfleger geben zu bedenken, dadurch würde dem Stift Schaden entstehen und begehren, der Zehnt in Höngg möge künftig wieder selber verliehen werden, zumal doch die besten Böden in Höngg im Bereich des Stiftszehnten liegen würden. Der Amtmann des Klosters Wettingen, Junker Jakob Stapfer, beteuert, dass ein solches Vorgehen zu aufwändig sei und dass er den Zehnten gewissenhaft einnehme und dem Kelleramt zustelle. Es wird entschieden, vorläufig bei diesem Vorgehen zu bleiben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="13.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1580-04-20"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="186r"/>
+<head><lb/>Acta den <origDate when="1580-04-20">20. aprilis
+<lb/>im 1580</origDate></head>
+<p><gap reason="irrelevant"/></p>
+<pb n="188v"/>
+<head type="subtitle">
+<lb/>Von dem zenden
+<lb/>zuͦ <placeName ref="loc009768">Höngg</placeName>
+</head>
+<p>
+<seg><lb/>Diewyl die <orgName ref="org004352">gstifft</orgName> zuͦ han<lb break="no"/>den
+deß <orgName ref="org007835">källerampts</orgName> ouch
+<lb/>hatt einen teil von dem
+<lb/>großen zenden zuͦ <placeName ref="loc009768">Höngg</placeName>
+<lb/>und der selbig voriger
+<lb/>zyt alwäg sidhar dem <date when="1520">1520
+<lb/>jar</date> mit dess herren von
+<lb/><orgName ref="org000030">Wettingen</orgName> zenden teilen
+<lb/>verlihen und <choice><abbr>d</abbr><expan>die</expan></choice> gstifft
+<lb/>die quart, was der
+<lb/>gantz zenden erwogen
+<lb/>mögen, davon genommen.
+<lb/>Und aber im <date when="1571">1571</date>
+<lb/>und siderhar der sel<pb n="189r"/><lb break="no"/>big
+nitt mer verlihen,
+<lb/>sonder durch dess herren
+<lb/>von <orgName ref="org000030">Wettingen</orgName> amptlüt
+<lb/>ingesamlet und ingefuͤrt
+<lb/>worden und sich die
+<lb/>pursamme zuͦ <placeName ref="loc009768">Höngg</placeName>, be<lb break="no"/>sonders 
+die, so mit den
+<lb/>zügen büwend und vil
+<lb/>guͤter habend, deß träf<lb break="no"/>fenlich
+beschwärt, die<lb break="no"/>wyl
+weder von dem
+<lb/>strow noch von dem sprür
+<lb/>nieman nüzid werden
+<lb/>möge. Und ouch etlich
+<lb/>herren von der <orgName ref="org004352">gstifft</orgName>
+<lb/>beduncken wellen, das
+<lb/>er gar wenig mee we<lb break="no"/>der
+etwan,<!-- hier: einst --> da er verli<lb break="no"/>hen,
+ertragen möge und
+<lb/>derhalben vermeint,
+<lb/>dem <orgName ref="org004352">gstifft</orgName> nüzer syn,
+<lb/>das er widerum heim
+<lb/>genommen und iren teil,
+<lb/>diewyl doch der von
+<lb/>besonders beschribnen
+<lb/>guͤteren gefalt, wider<lb break="no"/>um
+heimgenommen und
+<lb/>selb verlihen oder ge<lb break="no"/>samlet 
+wurde, diewyl
+<lb/>doch merteils die besten
+<lb/>böden und stǔck inn der
+<lb/><orgName ref="org004352">gstifft</orgName> zenden dienind,
+<lb/>und was an dess <orgName ref="org004352">gstiffts</orgName>
+<lb/>räben, so iren zenden gä<lb break="no"/>bind,
+so die abgelaßen
+<lb/>und zuͦ acheren gemachet,
+<lb/>alein inen der vierde
+<lb/>teil vom zenden davon
+<lb/>gevolge. Da er aber
+<lb/>inen hievor von den
+<lb/>räben gar zuͦgehört,
+<lb/>ist bedencken darüber
+<lb/>gehaben, wie der sach
+<lb/>zethuͦn, doch man
+<lb/>dises diser zyt bis
+<lb/>uff wyters gelegenheit <pb n="189v"/>
+<lb/>beruͦwen laßen.</seg>
+<seg>Diewyl
+<lb/>juncker <persName ref="per025649">Jacob Stapfer</persName>, dess
+<lb/>herren von <orgName ref="org000030">Wettingen</orgName> ampt<lb break="no"/>man,
+diser zyt in <placeName ref="loc012844">Wettin<lb break="no"/>ger
+Hus</placeName>, vermeint, das
+<lb/>es vil <unclear>unkemligkeit</unclear>
+<lb/>bringen wurde, darzuͦ
+<lb/>er den zenden mit allem
+<lb/>flyss samlen und dem
+<lb/><orgName ref="org007835">källerampt</orgName> sinen teil wol
+<lb/>und ordenlich zuͦstellen
+<lb/>welle, daby man es
+<lb/>dann <subst><add place="overwritten">d</add><del>b</del></subst>ißmals beruͦwen
+<lb/>und blyben laßen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc009768">Höngg</placeName> besassen sowohl das <orgName ref="org004352">Grossmünster</orgName> als auch das <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> Zehntansprüche (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_059">SSRQ ZH NF II/11, Nr. 59</ref></bibl>). 
+Während dies im 14. und 15. Jahrhundert noch zu Konflikten geführt hatte, scheint die Zusammenarbeit zwischen den beiden Institutionen im 16. Jahrhundert weitgehend problemlos verlaufen zu sein. Zwei Monate nach dem vorliegenden Entscheid, am 20. Juni 1580, diskutierte das 
+<orgName ref="org004352">Grossmünsterstift</orgName> erneut darüber, ob man den Zehnten von den eigenen Gütern selber einsammeln sollte, kam aber zum Schluss, das dies nur zu Verwirrung führen würde und man lieber beim bestehenden System bleibe 
+(<bibl><ref target=" http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4340939">StAZH G I 23, fol. 196r</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

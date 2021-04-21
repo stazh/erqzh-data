@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_092</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579792">StAZH III AAb 1.15, Nr. 59</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Kontrolle und Verkauf von Kleesamen</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlassen aufgrund der Einfuhr falscher Kleesamen aus Schwaben ein Mandat mit fünf Artikeln. Verordnet wird, dass alle eingeführten Kleesamen ins Kaufhaus geliefert werden müssen, wo zwei Ratsmitglieder der landwirtschaftlichen Kommission die Samen überprüfen (I, III). Es dürfen nur dann Kleesamen auf Gewinn (Mehrschatz) gekauft werden, wenn sie zuvor ins Kaufhaus gebracht werden (II). Weiterhin wird das Hausieren mit Kleesamen verboten und verdächtige Händler sollen überprüft werden (IV). Die Amtleute der Landvogteien Eglisau und Andelfingen sollen an den Territoriumsgrenzen alle Wagen mit Kleesamen kontrollieren, den entsprechenden Betrag in einem Frachtschein aufführen sowie die Fuhrleute ermahnen, die Kleesamen ins Kaufhaus zu bringen (V). Zuletzt wird verordnet, dass das Mandat von den Kanzeln verlesen werden soll und es wird die Belohnungen für erfolgte Anzeigen festgelegt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="42.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1788-03-29"/></origin></history><additional><listBibl><head>Edition</head><bibl>SBPOZH, Bd. 6, Nr. 23 A, S. 210-213</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 1043-1044, Nr. 1909</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000591">Anzeigepflicht</term><term ref="key004353">Einfuhr</term><term ref="key000792">Fürkauf</term><term ref="key000983">Handel</term><term ref="key001040">Hausierer</term><term ref="key005405">Konsumentenschutz</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_15__Nr__59__r_.tif"/>
+<p>
+<lb/>Wir <orgName ref="org002406">Burgermeister und Rath der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName>,
+ <lb/>entbieten allen Unsern getreuen lieben Buͤrgeren und Angehoͤrigen Unsern
+ <lb/>gnaͤdigen wohlgeneigten Willen und alles Guts zuvor. Nachdem Wir in Landesvaͤterliche Erwaͤgung gezogen,
+ <lb/>welcher gestalten die sint einiger Zeit sich erzeigte Einfuhr eines falschen Kleesaamens aus dem <placeName ref="loc005561">Schwabenland</placeName>,
+ <lb/>allerdings der schon mehrere Jahre in Unserm Land in Uebung gebrachten Kleepflanzung, einem durch vielfaͤltige
+ <lb/>Erfahrung so nuͤzlich befundenen Theil des Feldbaus, den die hiesige <hi rend="font change">oeconomi</hi>sche <hi rend="font change">Commission</hi> der <orgName ref="org005127">Naturfor<lb break="no"/>schenden
+  Gesellschaft</orgName>, durch eine neulich im Druck erschienene, hier beygelegte Anleitung<note>Es handelt sich wahrscheinlich um die <quote><orig>Anleitung für die Landleute über die Anlegung und Unterhaltung beständiger Wiesen, Wechsel-Wiesen, der künstlichen Wiesen</orig></quote> von 1781 (<bibl><ref target="https://doi.org/10.3931/e-rara-26319">ZBZ NO 1402,03</ref></bibl>).</note> noch mehr zu
+ <lb/>ermuntern und zu beguͤnstigen trachtet, zu groͤßtem Schaden gereichen koͤnnte; so haben Wir Uns mit wach<lb break="no"/>samster
+ Sorgfalt angelegen seyn lassen, Unsere getreue liebe Angehoͤrige gegen den Ankauf solchen betruͤglichen
+ <lb/>Kleesaamens fuͤr jezt und immer so viel moͤglich zu verwahren und sicher zu stellen, zu dem Ende hin nothwendig befunden, in Kraft des gegen<lb break="no"/>waͤrtigen
+ Mandats zu hinkuͤnftigem allgemeinem Verhalt zu verordnen, daß</p>
+<div><p><lb/>I. Aller Kleesamen, welcher in hiesiges Land eingebracht wird, in das <placeName ref="loc010627">Kaufhaus</placeName> solle geliefert werden.</p></div>
+<div><p><lb/>II. Niemand in Unsern Vogteyen und Landen Kleesaamen auf Mehrschatz kaufen solle, es seye dann vorher dieser Saamen in das <placeName ref="loc010627">Kauf<lb break="no"/>haus</placeName>
+gebracht worden, - wodann</p></div>
+<div><p><lb/>III. Der in das <placeName ref="loc010627">Kaufhaus</placeName> gelieferte Kleesaamen durch <num value="2">zwey</num> Ehrenglieder Unserer Oberkeitlich niedergesezten, <orgName ref="org005123">landwirthschaftlichen
+ <lb/><hi rend="font change">Commission</hi></orgName>, welche von ihr zu diesem Geschaͤft zu verordnen sind, auf vorgewiesene Muster genau besichtiget, und der unwaͤhrschafte Saa<lb break="no"/>men
+nicht verabfolget werden solle.</p></div>
+<div><p><lb/>IV. Alles hausieren mit Kleesaamen gaͤnzlich abgekennt und verboten seyn, zumahlen alle verdaͤchtige Haͤndler, welche etwa mit Kleesaamen
+   <lb/>hausieren wuͤrden, ohne anders angehalten werden sollen.<note>Zum Umgang mit Krämern und Hausierern vgl. das Mandat von 1722 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_046">SSRQ ZH NF I/1/11, Nr. 46</ref></bibl>).</note> Endlich ertheilen Wir</p></div>
+<div><p><lb/>V. Den beyden Landvogteyaͤmtern <placeName ref="loc009832">Eglisau</placeName> und <placeName ref="loc008749">Andelfingen</placeName> ruͤcksichtlich auf die Durchfuhr bey den dortigen Bruͤken andurch den guͤnstigen
+ <lb/>Befehl, entweder durch die dortigen Zoller, oder durch einen eigens bestellten Mann, auf alle mit Kleesamen beladene Wagen sorgfaͤltig acht
+ <lb/>geben, dieselben anhalten, den Kleesaamen genau waͤgen, den Betrag des Saamens in die Frachtzedel sorgfaͤltig einschreiben, und den Fuhr<lb break="no"/>leuthen
+ ansinnen zu lassen, daß sie bey zuerwarten habender ernstlicher Strafe unterwegs keinen abladen, sondern selbigen sammethaft in
+ <lb/>hiesiges <placeName ref="loc010627">Kaufhaus</placeName> liefern sollen.</p></div>
+<p>
+<lb/>Damit uͤbrigens diese Verordnung zu jedermanns Wißen gelange, so haben Wir solche zu Stadt und Land ab den Canzeln verlesen lassen.
+ <lb/>Dabey ergehet ruͤcksichtlich auf hiesige Stadt an Unsere Verordnete zu den landwirthschaftlichen Geschaͤften, in Ansehung der Landschaft aber
+ <lb/>an saͤmtliche <hi rend="font change">respective</hi> Ober- und Landvogteyaͤmter der hochobrigkeitliche Auftrag, auf die Befolgung derselben geflissene Aufsicht halten
+ <lb/>zu lassen, und die darwieder handelnden zu angemessener Verantwortung und Strafe zu ziehen. Den verordneten Ober- und Landvogteyaͤmtern
+ <lb/>ligt besonders ob, auf die Hausierer mit Kleesaamen, von welchen im 4ten Abschnitt die Rede ist, durch die Untervoͤgte und Gemeinds-<lb/>Vorgesezten
+ in ihren <hi rend="font change">respectiven</hi> Regierungs-Bezirken ein aufmerksames Aug zu richten; da dann jedermann, wer einen solchen Hausierer ent<lb break="no"/>deckt,
+ und an der Behoͤrde laͤidet, <measure type="currency" unit="Taler" quantity="4">4 neue Thaler</measure>, und wer einen wirklich mit falschem Saamen handelnden anzeigt, <measure type="currency" unit="Taler" quantity="8">8 neue Thaler</measure> zu
+ <lb/>empfangen haben solle. Wir versehen Uns aber in einer, auf das Beste eines wichtigen Zweigs des Landbaus abzielenden Sache zu will<lb break="no"/>faͤhrigem
+ Gehorsam.
+</p>
+<p><lb/>Geben, <origDate when="1788-03-29">Samstags den 29. Merz, 1788</origDate>.</p>
+<p><lb/><orgName ref="org005015">Canzley der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_15__Nr__59__v_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>In der zweiten Hälfte des 18. Jahrhunderts kam es in <placeName ref="loc000065">Zürich</placeName> zu verstärkten Bemühungen, neue Methoden in der Landwirtschaft einzuführen.  Massgeblich daran beteiligt war die <orgName ref="org005127">Naturforschende Gesellschaft <placeName ref="loc000065">Zürichs</placeName></orgName> und insbesondere deren 1759 entstandene Sektion die <orgName ref="org005128">ökonomische Kommission</orgName>. Das Reformprogramm der sogenannten Ökonomen bestand in der Auflösung der kollektiven Dreizelgenwirtschaft, in der Intensivierung des Ackerbaus und in der Erhöhung der Viehbestände. Um die Fruchtbarkeit des Bodens zu verbessern, sollten ausserdem auf der Brache verschiedene Futtergräser angepflanzt werden. Insbesondere der Anbau von Klee, der Stickstoff aus der Luft binden und den Boden damit anreichern kann, wurde von den Ökonomen gefördert und in vielen Gemeinden erfolgreich eingeführt. Mit dem Mandat vom 5. Juli 1787 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293307">StAZH III AAb 1.15, Nr. 50</ref></bibl>) wurde der Kleeanbau in den Zelgen auf Kosten des Getreidebaus offiziell bewilligt. Ausserdem wurde es möglich, anstatt des Kleezehnten, welcher zum grossen trockenen Zehnten gehörte, einen Abgabeersatz in Naturalien oder Geld zu leisten (vgl. dazu auch das Gesetz vom 20. Dezember 1803, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3544733">StAZH OS AF 1, S. 261-268</ref></bibl>).</p>
+<p>Im Februar des Jahres 1788 meldete die Stadt <placeName ref="loc000701">Schaffhausen</placeName>, dass einige Wochen zuvor ein Wagen mit falschen Kleesamen aus <placeName ref="loc000916">Schwaben</placeName> in die <placeName ref="loc001012">Schweiz</placeName> gekommen sei (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188796">StAZH A 78</ref></bibl>). Auch <persName ref="per012653">Hans Caspar Hirzel</persName>, welcher Stadtarzt und Präsident der <orgName ref="org005128">ökonomischen Kommission</orgName> war, berichtete über unechte Kleesamen, die bereits ins städtische <placeName ref="loc010627">Kaufhaus</placeName> geliefert worden seien (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=229236">StAZH B IX 62</ref>, S. 172</bibl>). Daraufhin beschloss der Rat, dass die <orgName ref="org005123">landwirtschaftliche Kommission</orgName> die Kleesamenhändler befragen sowie ein Gutachten und Ratschlag ausarbeiten solle. In der <orgName ref="org005123">landwirtschaftlichen Kommission</orgName>, welche seit 1779 vom Rat eingesetzt wurde (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245244">StAZH B II 984</ref>, S. 71</bibl>), befand sich auch <persName ref="per012653">Hans Caspar Hirzel</persName> (<bibl>StAZH III AAf 1.41, S. 12</bibl><!-- VE noch nicht erstellt (Druckschriften noch im Aleph, langfristig dann aber in Scope) -->). Am 3. März 1788 lag das Gutachten vor, worin die Publikation eines Mandats empfohlen wurde. Der von der Kommission vorgeschlagene Inhalt wurde im vorliegenden Mandat fast wortgleich übernommen. Allerdings verordnete der Rat, dass das Mandat nicht am Beschlussdatum, dem 29. März, gedruckt werden, sondern zusammen mit einer Anleitung der <orgName ref="org005128">ökonomischen Kommission</orgName> betreffend Erkennung echter Kleesamen, welche noch gedruckt werden musste, verteilt werden solle (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245280">StAZH B II 1020</ref>, S. 177-178</bibl>). Die Anleitung wurde schliesslich am 26. April 1788 gedruckt und laut handschriftlichem Hinweis auf der Rückseite des Mandatentwurfs erstellte man 500 Druckexemplare des Mandats (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=229236">StAZH B IX 62</ref>, S. 181</bibl> und <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188796">StAZH A 78</ref></bibl>).</p>
+<p>Zu den Veränderungen der landwirtschaftlichen Methoden in der zweiten Hälfte des 18. Jahrhunderts sowie zur <orgName ref="org005128">ökonomischen Kommission</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D13827.php">Agrarrevolution</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D11953.php">Hirzel, Hans Caspar</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D16420.php">Ökonomische Gesellschaften</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Rásonyi 2000</ref>, S. 60-70 und S. 146-147</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Erne 1988</ref>, S. 135-149</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stiefel 1944</ref>, S. 68-72</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_076</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250920">StAZH C I, Nr. 2535</idno></msIdentifier><head>Entscheid über die Einkünfte und Pflichten des Prädikanten in Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden, dass die Bürgerschaft von Greifensee im Jahre 1548 wegen des weiten Wegs nach Uster darum gebeten habe, einen eigenen Prädikanten zu erhalten, der im Ort wohnt und an allen Sonntagen, Feiertagen und weiteren Terminen den Gottesdienst abhält, das Abendmahl zelebriert, die Eheleute traut und die Kinder tauft. Dies wird ihnen bewilligt, doch wird festgehalten, dass es sich nur um ein Diakonat und keine eigenständige Pfarrei handelt. Die Toten sollen wie bisher in Uster begraben werden. Die Pfründe, die bislang vor allem aus dem Zehnten von Itzikon finanziert wurde, bringt nicht mehr als 66 Stuck an Getreide, Hafer und Geld ein. Weil der Prädikant Hans Zindel davon mit seinen vielen Kindern fast nicht leben kann, bittet er um eine Aufbesserung seines Gehalts. Der Rat anerkennt die Notwendigkeit und erhöht die Einkünfte um weitere 24 Stuck, nämlich 10 Eimer Wein zur Herbstzeit aus dem Klosteramt Küsnacht und 14 Gulden, welche die Amtleute von Rüti bezahlen. Zusätzlich zu diesem Einkommen von insgesamt 90 Stuck soll der Vogt von Greifensee abklären, ob man dem Pfründeninhaber noch eine Wiese für eine Kuh zur Verfügung stellen könne. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="35.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="7.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1556-01-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000212">Löhne</term><term ref="key000301">Pfarrer</term><term ref="key004022">Satzung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2535__r_.tif"/>
+<p><seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd khundt mëngklichem mit disem brief, als sich die ersamen
+<lb/>unnsere lieben unnd getrüwen, ein gmeyne <orgName ref="org004883">burgerschafft zuͦ <placeName ref="loc008569">Gryffensee</placeName></orgName>, des verren unnd wyten kilchgangs gan <placeName ref="loc006198">Uster</placeName> des
+ver<lb break="no"/>ruckten <date when="1548">acht und viertzigisten jars</date> der geringeren zal erclagt unnd unns daruf ganntz underthenigklich gebätten, wir welten sy
+<lb/>des erlassen unnd mit einem predicannten, der sin wonung by inen hette (wie dann vor zyten ouch beschëhen) versëhen, wellicher
+<lb/>by inen uff die <date dur="R/P1WD">sonntag</date> und heiligen fëst, ouch zuͦ anderen zyten das göttlich wort verkundte, das heilig nachtmal des herren begienge,
+<lb/>die eelüt zuͦsamen gebe unnd kinnder touffte unnd anndere cristenlichen gebrüch erstattete. Söllich der unnsern billich ansuͦchen
+<lb/>wir bedaacht unnd daruf inen uff unnser widerruͤffen das alles bewilliget unnd zuͦglassen, doch das söllicher ires predicannten
+<lb/>stannd allein ein diaconat unnd dhein rëchte pfarr heissen noch sin, unnd das die von <placeName ref="loc008569">Gryffensee</placeName> uff iren tod gan <placeName ref="loc006198">Uster</placeName>, wie
+<lb/>bishar gebrucht ist, zur begreptnus gefuͤrt unnd daselbs begraben werden söllint.</seg>
+<seg>Diewyl aber dise predicatur ein gering
+<lb/>inkommen, unnd namlich mit dem zëhenden zuͦ <placeName ref="loc010478">Ytzicken</placeName>, so zuͦ gmeinen jaren by <measure type="undefined" unit="Stuck" quantity="18">achtzëhen stucken</measure> ungevarlich ertragen soll, nitt mer
+<lb/>dann überal <measure type="undefined" unit="Stuck" quantity="66">sëchtzig unnd sechs stuck</measure> an kernen, haber unnd gëlt zusampt der behusung ingënds hatt, ist daruf der
+<lb/>ersam unnser lieber unnd getrüwer herr <persName ref="per013933">Hanns Zinndel</persName>, predicannt zuͦ <placeName ref="loc008569">Gryffensee</placeName>, vor unns erschinnen, unns der
+gerin<lb break="no"/>gen competentz erinnert unnd unns, inn bedënckung, das sich einer mit dem schwerlich und kümerlich erhalten möchte, und
+<lb/>sonnderlich diewyl er mit vil kinnden beladen, umb etwas besserung demuͤtigklich gebätten. So nun nitt allein die
+billig<lb break="no"/>keit, sonnders ouch die hoch notturfft erfordert, harinn insëhens zethuͦnd, haben wir demnach dise pfruͦnd und diaconat
+<lb/>noch umb <measure type="undefined" unit="Stuck" quantity="24">vier unnd zwëntzig stuck</measure> gemeret unnd gebessert, also das einem jeden predicannten zuͦ <placeName ref="loc008569">Gryffensee</placeName> hinfüro
+<lb/><date dur="R/P1Y">jerlich</date> unnd <date dur="R/P1Y">jedes jars</date> besonnders zuͦ dem allem, wie obstadt, noch <measure type="volume" unit="Eimer" quantity="10" commodity="wine">zëhen eimer wyns</measure> zuͦ <date period="fall">herpst zyt</date> uß unnserm closter
+<lb/>ampt zuͦ <placeName ref="loc010141">Küssnacht</placeName> unnd <measure type="currency" unit="fl" quantity="14">viertzëhen guldin</measure> uff <date type="deadline" when="--11-11"><persName ref="per000141">Martini</persName></date> durch die amptlüt zuͦ <placeName ref="loc008350">Rüti</placeName> gegëben, wellichem ouch
+<lb/>für das verschinnen jar dise besserung angënntz, und namlich der wyn vom <date when="1554">vier und fünfftzigisten jar</date> gewachsen, ussgricht
+<lb/>werden. Hiemitt soll ein predicannt sich dises ordenlichen inkommens der <measure type="undefined" unit="Stuck" quantity="90">nüntzig stucken</measure> vernuͤgen unnd settigen lassen.
+<lb/>Darnëbent aber soll ouch unnser lieber burger unnd vogt zuͦ <placeName ref="loc000348">Gryffensee</placeName> etwan umb ein wisen nachgedënnckens, damitt einer
+<lb/>dannocht ein kuͤli ouch gehaben unnd sich mit söllichem dest baß behëlfen unnd unclagbar sin möge.</seg>
+<seg>Alles inn crafft
+<lb/>diß briefs, daran wir des zuͦ urckhundt unnser <orgName role="sigillant" ref="org002406">statt <placeName ref="loc000065">Zürich</placeName></orgName> secret insigel offentlich gehëngkt unnd besigelt gëben haben,
+<origDate when="1556-01-09">don<lb break="no"/>stags, den nündten jänners, nach der geburt Christi unsers herren getzalt fünfftzehenhundert fünfftzig und sëchs
+<lb/>jar</origDate>.</seg>
+</p>
+<pb n="v" facs="StAZH_C_I__Nr__2535__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Pfrund <placeName ref="loc008569">Gryffensee</placeName>, <origDate>1556</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Kapelle im Städtchen <placeName ref="loc008569">Greifensee</placeName> war durch <persName ref="per000348">Hermann von Landenberg</persName> um 1340 gestiftet worden.
+Mit der Herrschaft <placeName ref="loc000348">Greifensee</placeName> gelangte die Kollatur 1369 an die Grafen von <orgName ref="org000144">Toggenburg</orgName>
+und 1402 an die Stadt <placeName ref="loc000065">Zürich</placeName>.
+In der Reformationszeit begann schrittweise die kirchliche Ablösung von <placeName ref="loc006198">Uster</placeName>.
+Einen eigenen Friedhof erhielt <placeName ref="loc008569">Greifensee</placeName> jedoch erst im 17. Jahrhundert.
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 106-107</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

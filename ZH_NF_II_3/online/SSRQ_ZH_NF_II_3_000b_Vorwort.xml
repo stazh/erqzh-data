@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 3: Die Landvogtei Greifensee</title>
+
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<date type="electronic" when="2020-06-01"/>
+<date type="print" when="2020-06-01"/>
+</publicationStmt>
+
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3</idno>
+</seriesStmt>
+
+<sourceDesc>
+<listWit>
+<witness/>
+</listWit>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+</p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head type="title">Vorwort des Bearbeiters</head>
+<p>Schon als Kind habe ich meine Freizeit gern am Greifensee zugebracht und neben der
+lieblichen Landschaft auch die Burg und das Städtchen Greifensee bewundert. Wie die Menschen
+hier früher gelebt haben, welche Herausforderungen sich ihnen stellten und wie sie ihr
+Zusammenleben organisierten, hat schon damals mein Interesse geweckt. Für mich war es daher
+eine grosse Freude und Ehre, mich über mehrere Jahre hinweg intensiv mit der Geschichte
+dieser Region zu befassen und sie im Rahmen der vorliegenden Quellenedition für ein grösseres
+Publikum zugänglich zu machen. Sie bildet Teil eines gemeinsamen Projekts der
+Rechtsquellenstiftung des Schweizerischen Juristenvereins und des Staatsarchivs des Kantons
+Zürich, in dessen Rahmen neben dem vorliegenden Band auch noch vier weitere Editionseinheiten
+zur Geschichte des vormodernen Stadtstaats Zürich erarbeitet wurden. Ermöglicht wurde dies
+dank der grosszügigen Finanzierung durch den Zürcher Lotteriefonds.</p>
+<p>Seit dem Beginn meiner Arbeit an den Rechtsquellen der Landvogtei Greifensee hat sich
+einiges verändert. Gerade im Bereich der Editionstätigkeit haben sich neue Technologien
+etabliert, die nicht nur für die Bearbeitung, sondern auch für die Publikation von
+historischem Quellenmaterial erhebliche Vorteile mit sich bringen – die es aber auch
+erforderlich machen, althergebrachte Standards der Editionsphilologie zu überdenken. Die
+Rechtsquellenstiftung hat es geschafft, die neuen technischen Möglichkeiten nutzbar zu machen
+und das Editionsunternehmen von einer individualistisch geprägten Arbeitsweise in ein stark
+vernetztes, kollaboratives Projekt umzuwandeln. Dies ist vor allem der administrativen und
+wissenschaftlichen Leiterin, Dr. Pascale Sutter, zu verdanken. Sie hat die bewährten
+Transkriptionsrichtlinien der Rechtsquellenstiftung im Hinblick auf die digitale Publikation
+überarbeitet, dokumentiert und gemeinsam mit den Bearbeiterinnen und Bearbeitern
+weiterentwickelt sowie die Entwicklung interoperabler Datenbanken und die Vernetzung mit
+anderen Institutionen entscheidend vorangetrieben. Nicht zuletzt hat sie auch sämtliche Texte
+lektoriert, wofür ich mich herzlich bedanke. Für das Lektorat der lateinischen Quellenstücke
+danke ich Dr. Philipp Roelli und Darko Senekovic von der Fachstelle Latein
+der Universität Zürich. Die Karte der Landvogtei Greifensee hat Alexander Hermann
+vom Geographischen Institut der Universität Bern erstellt. Die verwendete Literatur wurde
+durch die Schweizerische Nationalbibliothek in die Bibliographie der Schweizergeschichte
+(BSG) aufgenommen, was eine professionelle und nachhaltige Lösung gewährleistet.</p>
+<p>Auch die Zusammenarbeit in einem Team von Editorinnen und Editoren hat sich als sehr
+vorteilhaft erwiesen. Das gegenseitige Kollationieren der Texte sowie das gemeinsame
+Erarbeiten von Werkzeugen und Richtlinien tragen wesentlich zur Qualität der vorliegenden
+Editionseinheit bei. Hierfür habe ich vor allem Dr. Ariane Huber Hernández, Dr. Bettina
+Fürderer, Dr. des. Michael Schaffner, Sandra Reisinger und Michael Nadig
+sowie dem Projektleiter Christian Sieber zu danken. Zweifellos hat sich
+die enge Anbindung an das Staatsarchiv des Kantons Zürich bewährt, indem dadurch die
+notwendigen Überlegungen vorangetrieben wurden, wie historische Quellen im digitalen
+Zeitalter künftig am besten präsentiert werden können. Staatsarchivar Dr. Beat Gnädinger ist
+es zu verdanken, dass das Archiv seine diesbezüglichen Anstrengungen fortsetzt und weiterhin
+spannende Dokumente zur Zürcher Geschichte für eine breitere Öffentlichkeit aufbereitet.</p>
+<p>Tessa Krusche hat als studentische Mitarbeiterin von diversen Quellenstücken
+Rohtranskriptionen erstellt und die Registerdaten aufbereitet, was es mir und den übrigen
+Bearbeiterinnen und Bearbeitern ermöglicht hat, uns stärker auf die Kommentierung und
+Kontextualisierung der Stücke zu fokussieren. Mit Hilfe unserer Informatikspezialistin
+Rebekka Plüss konnten wir diverse Arbeitsschritte automatisieren und somit
+erheblich vereinfachen. Sehr wertvoll war ausserdem der Austausch mit Prof. Dr. Tobias Hodel,
+der parallel zu unserem Projekt die digitale Edition der Urkunden des Klosters Königsfelden
+betreut und im Rahmen eines europäischen Grossprojekts die maschinelle Erkennung von
+Handschriften erprobt hat. Dass ich meine Überlegungen zur Erforschung von materiellen
+Aspekten im digitalen Zeitalter im Rahmen einer gross angelegten Tagung im Herbst 2014 an der
+Universität Zürich präsentieren konnte, ist der Schweizerischen Gesellschaft für Geschichte
+(SGG) zu verdanken. Erste Resultate unsere Editionstätigkeit durfte ich ausserdem im Herbst
+2015 beim Cappelli-Hackathon an der Universität Zürich sowie im Sommer 2016 anlässlich der 4.
+Schweizerischen Geschichtstage an der Universität Lausanne vorstellen.</p>
+<p>Herzlich bedanken möchte ich mich abschliessend auch bei meiner Partnerin Kerstin Seidel,
+die mich nicht nur auf diverse Wanderungen und Velotouren durch die ehemalige Landvogtei
+Greifensee begleitet hat, sondern mit der ich mich auch über jegliche Fragen betreffend
+Geschichte, Archivpraxis und Digitalisierung austauschen konnte.</p>
+<p>Rainer Hugener</p>
+<p>Zürich, im Frühling 2021</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

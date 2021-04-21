@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_146</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4341094">StAZH B II 673, S. 141</idno></msIdentifier><head>Jurisdiktionalstreit zwischen den Obervogteien Wiedikon und Höngg</head><msContents><summary>In der Frage, ob für die Fertigung der Erbteilung Jakob Nötzlis, genannt Spillenmacher, der im Hard in der Obervogtei Wiedikon ansässig, aber in Höngg gemeindsgenössig ist, die Obervögte und Landschreiber von Wiedikon oder diejenigen von Höngg zuständig sind, entscheiden Bürgermeister und Rat, dass sie diesen Fall gemeinsam behandeln sollen. Nötzli soll die entsprechenden Gebühren jedoch nur einmal zu entrichten haben. Die Obervögte sollen das Sitzungsgeld zur Hälfte aufteilen, bei den Schreibergebühren stehen zwei Drittel Landschreiber Holzhalb von Höngg und ein Drittel Landschreiber Esslinger von Wiedikon zu, da die bisherigen Schreibakte in der Kanzlei Höngg ausgeführt wurden und die Federführung daher bei Holzhalb liegt. Die Entscheidung, in wessen Jurisdiktion solche Fälle zukünftig fallen sollen, wird an die Räte und Burger verwiesen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="11.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1701-05-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term><term>Landschreiber</term><term ref="key005403">Kompetenz</term><term ref="key000683">Urteil</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="141" facs="StAZH_B_II_673__S__141_.tif"/>
+<head><lb/><origDate when="1701-05-11" calendar="Gregorian">M<damage agent="ink hole"><supplied resp="mng">i</supplied></damage>ttwochens, den 11. maii</origDate>,
+<lb/><choice><abbr>prn</abbr><expan>presentibus</expan></choice> herren <orgName ref="org002406">burgermeister <persName ref="per007664">Escher</persName>
+<lb/>und beid räth</orgName></head>
+<p>
+<seg><lb/>In der <hi rend="font change">jurisdictional</hi> streithigkeith ent<lb break="no"/>zwüschen
+den <abbr>hh</abbr> obervögten und landschrei<lb break="no"/>beren
+zu <placeName ref="loc009863">Wiedikhon</placeName> und <placeName ref="loc009768">Höngg</placeName>, <choice><abbr>betr</abbr><expan>betreffend</expan></choice> die
+<lb/>frag, wemme die obschwebende theil- und auß<lb break="no"/>richtung
+<persName ref="per026167">Jacob Nötzlis, <choice><abbr>gnt</abbr><expan>genannt</expan></choice> Spillenmacher<!-- Spindelmacher --></persName>,
+<lb/>so im <placeName ref="loc012125">Hard</placeName> als der obervogtey <placeName ref="loc009863">Wiedikhen</placeName>
+<lb/>säßhaft, zugleich aber zu <placeName ref="loc009768">Höngg</placeName> gemeinds<lb break="no"/>gnößig
+und <subst><del rend="blackened"><damage agent="ink hole"><gap unit="word" quantity="1"/></damage></del><add place="above">auch</add></subst> güetter daselbst
+<lb/>ligend hat, zuverfehrtigen und zuberichtigen
+<lb/>gebühre, ward nach abstand der <abbr>hh</abbr> ober<lb break="no"/>vögten
+und der <abbr>hh</abbr> landschreiberen ehren-ver<lb break="no"/>wandtschaft
+einhellig befunden und erkennt,
+<lb/>daß umb diesen <hi rend="font change">particular</hi> fahl die <abbr>hh</abbr>
+<lb/>obervögt zu <placeName ref="loc009863">Wiedikhen</placeName> und <placeName ref="loc009768">Höngg</placeName> zusammen<lb break="no"/>tretten
+und solichen zubehandlen einanderen
+<lb/>helfen, in der meinung, daß der <persName ref="per026167">Nötzli</persName>
+<lb/>mehr nit als einfachen kosten tragen, die
+<lb/><abbr>hh</abbr> obervögt das gewohnte sitz-gelt mit<lb break="no"/>einanderen
+zur helfte theilen und die <abbr>hh</abbr>
+<lb/>landschreibere den <hi rend="font change">ordinari</hi> schreiber-tax
+<lb/>also erheben sollen, daß herren landschreiber
+<lb/><persName ref="per026166">Holtzhalben</persName> darvon (welicher hierby die
+<lb/>federe aus dem grund zu füehren hat, weilen
+<lb/>die bisharige schreiber-<hi rend="font change">actus</hi> in der cantz<lb break="no"/>ley
+<placeName ref="loc009768">Höngg</placeName>
+<hi rend="font change">passiert</hi>) zwey und <abbr>h</abbr>
+<choice><abbr>landschrbr</abbr><expan>landschreiber</expan></choice>
+<lb/><persName ref="per026165">Eßlinger</persName>
+<add place="right margin" type="sign">ohne müehe</add> ein theil angedeyen.</seg>
+<seg><lb/>Unter weliche <hi rend="font change">jurisdiction</hi> aber für das 
+<lb/>könftig dieser und andere dergleichen <hi rend="font change">casus</hi>
+<lb/>gehören, ist die entscheidung deßen an
+<lb/><abbr>mghh</abbr> die <orgName ref="org001217">räth und burger</orgName> verwiesen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bei einer Erbteilung sollte <persName ref="per026167">Jakob Nötzli</persName> seine Schwestern und seine beiden Nichten auszahlen. Weil seine Verwandten sich von ihm benachteiligt fühlten, sollten die Obervögte über den Fall entscheiden. Die Zuständigkeit war jedoch umstritten. Im Bericht
+an den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> stützen sich die Obervögte von <placeName ref="loc009863">Wiedikon</placeName> auf <persName ref="per026167">Nötzlis</persName> Sesshaftigkeit in ihrem Gebiet und die Tatsache, dass der Grossteil seiner Güter dort 
+gelegen sei. Die Obervögte von <placeName ref="loc009768">Höngg</placeName> argumentierten dagegen nicht nur damit, dass <persName ref="per026167">Nötzli</persName> Gemeindsgenosse von <placeName ref="loc009768">Höngg</placeName> sei und dort auch immer seine Abgaben, inklusive Fasnachtshuhn, 
+entrichte. Sie führten auch die Präzedenzfälle von <persName ref="per026167">Nötzlis</persName> Verwandten und Vorfahren ins Feld, welche die Ausrichtungen jeweils vor den Obervögten von <placeName ref="loc009768">Höngg</placeName> machen liessen, auch wenn sie Güter in <placeName ref="loc009863">Wiedikon</placeName> 
+besassen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1548170">StAZH A 126, Nr. 139</ref></bibl>). Der <orgName ref="org002406">Rat</orgName> fällte allerdings keinen Grundsatzentscheid, sondern suchte eine Kompromisslösung, die nur für 
+diesen Fall galt und überliess die endgültige Entscheidung dem <orgName ref="org004906">Grossen Rat</orgName>.</p>
+<p>Zu den Rechten und Pflichten von nicht in der Gemeinde ansässigen Gemeindegenossen in <placeName ref="loc010875">Wipkingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_134">SSRQ ZH NF II/11, Nr. 134</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_142">SSRQ ZH NF II/11, Nr. 142</ref></bibl>. Unklarheit über die Jurisdiktionsgewalt in räumlicher Hinsicht bestand 1775 zwischen den Obervogteien <placeName ref="loc009863">Wiedikon</placeName> und 
+<placeName ref="loc009865">Wollishofen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_173">SSRQ ZH NF II/11, Nr. 173</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

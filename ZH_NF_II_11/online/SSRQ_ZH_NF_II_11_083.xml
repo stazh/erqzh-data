@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_083</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=661192">StAZH B III 66, fol. 197v-198r</idno></msIdentifier><head>Erkenntnis im Konflikt zwischen der Gemeinde Wiedikon und dem dortigen Obervogt betreffend die Vogtgarben</head><msContents><summary>Bürgermeister und Rat von Zürich erkennen in einem Konflikt zwischen Hans Ziegler, Obervogt von Wiedikon, einerseits und der Gemeinde Wiedikon anderseits: Jeder, der in der Vogtei Wiedikon ansässig ist oder dort Land bebaut, muss entgegen dem Inhalt der vorgelegten Offnung und gemäss den beim Kauf der Vogtei Wiedikon durch Zürich vereinbarten Bestimmungen eine jährliche Vogtgarbe entrichten. Diese muss nicht zwingend vom Untervogt eingesammelt werden, und der Obervogt ist deshalb künftig auch nicht verpflichtet, diesem die Hälfte der eingezogenen Garben abzugeben. So kommt die Stadt dieses Mal der Forderung der Gemeinde Wiedikon bezüglich der Entlöhnung des Untervogts zwar nach, behält sich aber ausdrücklich vor, in diesem Punkt künftig nach eigenem Gutdünken zu handeln. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Zeitgenössische Abschrift (Nachtrag)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1564-07-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000012">Offnung</term><term ref="key000683">Urteil</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="179v" type="original" facs="StAZH_B_III_66__fol__197_v_.tif"/>
+<div>
+<head>
+<lb/>Aber ein erkanntnus umb 
+<lb/>die vogtgarben zuͦ <placeName ref="loc009863">Wiedicken</placeName>
+</head>
+</div>
+<div>
+<p><seg><lb/>Als die vogthig sampt aller grechtigckeit zuͦ <placeName ref="loc009863">Wiedickenn</placeName>
+<lb/>an unser statt <placeName ref="loc000065">Zürich</placeName> kouffs wyse kommen unnd im <lb/>selben luth deß darumb ufgerichten kouffbrieffs<note>Vertrag über den Erwerb der Vogtei <placeName ref="loc009863">Wiedikon</placeName> durch <placeName ref="loc000065">Zürich</placeName> vom <date when="1491-11-29">29. November 1491</date> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_040">SSRQ ZH NF II/11, Nr. 40</ref></bibl>).</note> un<lb break="no"/>der annderm mit nammen beschlossen worden, das ein <lb/>jeder, der zuͦ <placeName ref="loc009863">Wiedicken</placeName> gesessen, <date dur="R/P1Y">jerlich</date> ein vogtgarbenn <lb/>zegebenn schuldig syn, wie dann bißhar von inen, denen <lb/>von <placeName ref="loc009863">Wiedicken</placeName>, unnd andern, so under inen unnd inn <lb/>iren zelgen güter ligen haben, beschechen, unnd wir <lb/>ouch dieselbenn garbenn einem jeden unserm ober<lb break="no"/>vogt zuͦ <placeName ref="loc009863">Wiedickenn</placeName> unntzhar gelassenn.</seg>
+<seg>Hat daruf <lb/>unser gethrüwer lieber mitrath unnd jetziger vogt da<lb break="no"/>selbs zuͦ <placeName ref="loc009863">Wiedickenn</placeName>, <persName ref="per009729">Hanns Ziegler</persName>, vermeint, das <lb/>er dieselben vogtgarben durch die synen insamlen, ouch <lb/>heim füren lassen unnd nach synem nutz, willenn <lb/>unnd gefallen damit handlen möchte von aller menck<lb break="no"/>lichem daran gantz ungesumpt unnd unverhindert.</seg><!-- PS: Hier strukturiert die Quelle selber mit einer Initiale. -->
+<seg><lb/>Deß aber die <orgName ref="org007942">gmeind zuͦ <placeName ref="loc009863">Wiedickenn</placeName></orgName> sich treffennlich <lb/>beschwert unnd vermeinenn wellen, diewyl inn <lb/>irer offnung ein artigckel<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_021">SSRQ ZH NF II/11, Nr. 21</ref>, Art. 23</bibl>.</note> heiter zuͦgebe und vermöchte: <pb n="198r" type="original" facs="StAZH_B_III_66__fol__198_r_.tif
+"/>
+<lb/><quote>Wer die siginnd, die ze <placeName ref="loc009863">Wiedickenn</placeName> inn der zelg buwend, die nit <lb/>daselbs hußgnossen sinnd, die söllennt einem vogt unnd ein<lb break="no"/>em vorster jetwederem <date dur="R/P1Y">jerlich</date> ein garbenn geben <abbr>etc</abbr>.</quote> Das <lb/>sy dann hieby belyben unnd sy als die, so zuͦ <placeName ref="loc009863">Wiedickenn</placeName> gsessen, <lb/>dhein vogtgarbenn zegeben pflichtig syn.<note>Dahingehend urteilten am <date when="1481-07-23">23. Juli 1481</date> auch <orgName ref="org002406">Bürgermeister und Rat der Stadt <placeName ref="loc000065">Zürich</placeName></orgName>, als <persName ref="per023505">Hans Schwend</persName> und fünf nicht in <placeName ref="loc009863">Wiedikon</placeName> niedergelassene Metzger in einem Konflikt um die <?oxy_delete author="pascalesutter" timestamp="20151110T104834+0100" content="Schuld"?><?oxy_insert_start author="pascalesutter" timestamp="20151110T104834+0100"?>Abgabe<?oxy_insert_end ?> der Vogtgarben einen Entscheid erbaten. Der Rat gab Schwend recht, der von den <?oxy_delete author="pascalesutter" timestamp="20151110T104941+0100" content="Zelgen bewirtschaftenden"?> Metzgern<?oxy_insert_start author="pascalesutter" timestamp="20151110T104944+0100"?>, die Zelgen bewirtschafteten,<?oxy_insert_end ?> die Entrichtung der Vogtgarbe mit Verweis auf die Bestimmung im von ihm vorgelegten Offnungsrodel (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_021">SSRQ ZH NF II/11, Nr. 21</ref>, Art. 23</bibl>) forderte. Von dieser Pflicht befreiten Bürgermeister und Rat jedoch sowohl all jene, die über maximal eine halbe Jucharte verfügten, als auch jene, welche die Brach- und Ha<?oxy_insert_start author="pascalesutter" timestamp="20151110T105336+0100"?>f<?oxy_insert_end ?><?oxy_delete author="pascalesutter" timestamp="20151110T105336+0100" content="b"?>erzelge bebauten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249964">StAZH C I, Nr. 3082</ref></bibl>).</note> Deßglychen das ouch <lb/>ir obervogt, wie dann bißhar von allen beschechen, verbund<lb break="no"/>en syn <del rend="subpunction">syn</del> sölte, unnsern unndervogt zuͦ <placeName ref="loc009863">Wiedicken</placeName> söllich vogt<lb break="no"/>garben umb den halben theil infüren zelassen. </seg><!-- PS: Hier würde ich die Gegenklage abschliessen und vom Urteil abtrennen. --><seg>Wel<lb break="no"/>liches spanns halb sy für unns zuͦ erlütherunng komm<lb break="no"/>en. <!-- Hier anschliessen -->Wann nun wir sy darinne sampt dem <lb/>vermelten kouffbrieff unnd ir, der von <placeName ref="loc009863">Wiedicken</placeName>, off<lb break="no"/>nung gnuͦgsamcklich verhört, habent wir unns daruf <lb/>unnd iren gethonen rechtsatz erkennt unnd inen die <lb/>lütherung gebenn: Diewyl inn den kouff oder fertig<lb break="no"/>ung brief (wie obstat) heiter gemeldet unnd begriffen, <lb/>das ein jeder, so zuͦ <placeName ref="loc009863">Wiedicken</placeName> gesessenn, <date dur="R/P1Y">jerlich</date> ein vogtgarb<lb break="no"/>enn zegeben schuldig, unnd die <orgName ref="org007942">gmeind zuͦ <placeName ref="loc009863">Wiedickenn</placeName></orgName>
+<lb/>desselben domaln vor gricht bekantlich unnd anred gesyn, <lb/>so sölle es by demselben gentzlichen beston unnd blyben. Also <lb/>das alle <add place="above">die</add>, so zuͦ <placeName ref="loc009863">Wiedickenn</placeName> gesessenn, unnd ouch alle andere, <lb/>so inn iren zelgen buwent, ein jeder <date dur="R/P1Y">jerlich</date> ein vogtgar<lb break="no"/>ben zegeben pflichtig syn, unnd sy dieselben fürer als biß<lb break="no"/>har ußrichtenn. 
+<!-- PS: Man könnte sogar so weit gehen und das Urteil in 2 Abschnitte unterteilen. Hier wäre der  Beginn des 2. Abschnitts. -->Alles mit dem ferern anhang, sidmal <lb/>unser unndervogt einem obervogt daselbs zuͦ <placeName ref="loc009863">Wiedickenn</placeName>
+<lb/>söllich vogtgarben untzhar umb den halben theil gsamlet <lb/>unnd ingefürt, so sölle es uff dißmal fürer by demsel<lb break="no"/>ben belyben, doch das es darumbe gegen dem undervogt <lb/>gar dhein versprochne grechtigckeit syn, son<lb break="no"/>der wellen wir unns hiemit heiter unnd luther be<lb break="no"/>dingt unnd vorbehalten haben, das wir diser vogtgar<lb break="no"/>ben hinfüro zuͦ jeder zyt eines undervogts halb hand<lb break="no"/>len unnd einen die infüren unnd samlen lassen mögen <lb/>nach unserem willen, gefallenn unnd guͦten beduncken <lb/>von den undervögtenn, ouch der <orgName ref="org007942">gmeind ze <placeName ref="loc009863">Wiedicken</placeName></orgName>
+<lb/>unnd mencklichem daran gantz ungesumpt unnd un<lb break="no"/>geirt inn allweg.</seg>
+</p>
+<p>
+<lb/>Actum <origDate when="1564-07-19">mitwuchs, den xviiij <choice>
+<abbr>d</abbr>
+<expan>dag</expan>
+</choice> julij anno 1564</origDate>, presentibus <lb/>herr <persName ref="per001921">Bernhart von Chaam</persName>, <orgName ref="org002406">burgermeister, und beid <lb/>räth</orgName>.<note>Unter gleichem Datum befindet sich auch ein kürzerer Eintrag im Stadtschreibermanual (<bibl>StAZH B II 128, S. 8-9</bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Über die Abgabe des Fasnachtshuhns zuhanden des Obervogts bestand in <placeName ref="loc009863">Wiedikon</placeName> bereits früher Klärungsbedarf (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250448">StAZH C I, Nr. 3085</ref></bibl>, vgl. die Anmerkung zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_021">SSRQ ZH NF II/11, Nr. 21</ref>, Art. 6</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

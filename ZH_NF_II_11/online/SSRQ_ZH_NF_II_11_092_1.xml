@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_092_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24074">StArZH VI.EN.LB.A.1.:9</idno></msIdentifier><head>Urteil von Bürgermeister und Rat von Zürich im Konflikt um den Wahlmodus von Amtleuten der Gemeinde Enge und der Rechnungslegung</head><msContents><summary>Bürgermeister und Rat von Zürich urteilen in einem Konflikt zwischen den in der Gemeinde Enge geboren und aufgewachsenen Gemeindegenossen einerseits und den sich erst kürzlich niedergelassenen Leuten andererseits betreffend den Wahlmodus von Amtleuten und die Offenlegung der Gemeinderechnung.  Anders als die gebürtigen Gemeindegenossen von Enge sind die neu Zugezogenen der Ansicht, die Wahl der Geschworenen und der anderen Amtleute der Gemeinde hätte nicht mehr durch geheime Stimmabgabe durch Flüstern, sondern durch eine offene Wahl stattzufinden. Ausserdem fordern sie, dass die Gemeinderechnung vor einer ganzen Gemeinde stattfinden soll und nicht nur vor Untervogt und Geschworenen. Bürgermeister und Rat von Zürich entscheiden, dass die Gemeinde Enge bei der von alters her üblichen Wahl durch Raunen bleiben soll. Die Gemeinderechnung soll dagegen künftig in Anwesenheit von Obervogt, Untervogt und Geschworenen geschehen, wobei der Obervogt nach Gutdünken zusätzliche Gemeindegenossen dazu berufen könne.  Die unterliegende Partei hat die Gerichtskosten selber zu tragen, die Gegenpartei darf diese aus dem Gemeindegut bezahlen. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.0"/><width unit="cm" quantity="41.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="7.5"/></dimensions></extent><condition>Verblasste Tinte und Risse infolge eines Wasserschadens, mit Textverlust</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:condition="absent"><persName role="sigillant">Sekretsiegel der Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1578-09-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004966">Gemeinde</term><term ref="key000827">Geschworene</term><term ref="key000574">Rechnungswesen</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd
+khund mëncklichem mit disem brief, als sich zwüschennt den unser<lb break="no"/>en einer <orgName ref="org007810">gmeind inn <damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r"><placeName ref="loc010425">Ënngi</placeName></supplied></damage></orgName> von erwellung der
+geschwornen unnd besatzunng annderer empteren wägen dergstallt spann zuͦgethragen, das die
+erbornen <lb/>ynseßen unnd in der gmeind uferzogne personnen by iren allthar gebrachten brüchen unnd gerëchtigkeiten
+zeblyben unnderstanden, unnd verhofft, sovil unnd <lb/>dick sy geschworne unnd anndere amptlüth zuͦe<damage agent="faded ink" cert="high" resp="ahh">r</damage>wellen habinnt, das dann sölliche wie bißhar durch das runen
+unnder innen genommen unnd welliche <lb/>also dardurch das m<damage agent="crack"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">eer erlannginnd</supplied></damage>, darzuͦ bestetiget syn unnd
+gebrucht w<damage agent="faded ink" cert="high" resp="ahh">erd</damage>en, zuͦdem ouch, wann man umb der gmeind guͦtt
+<date dur="R/P1Y">jërlich</date> rëchnung geͣbe, dassëlbig <lb/>nit vor <damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">einer</supplied></damage> ganntzen gmeind, sonnders allein <damage agent="faded ink" cert="high" resp="ahh">in bysyn</damage> deß unndervogts unnd der geschwornen
+beschächen.</seg>
+<seg>Dargägen aber ettliche, so by kurtzen jaren <lb/>har inn die gmeind gezogen, solliches widerf<damage agent="faded ink" cert="high" resp="ahh">ochten</damage>
+<damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">unnd</supplied></damage> vermeint,
+diewyl durch das
+runen<note>Vgl. den Kommentar.</note>
+allerleyg gfar fürgân möchte, so söllte ein gmeind darvon <lb/>abstaan unnd die geschwornen, ouch
+anndere, so von der <damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">gm</supplied></damage>eind ettwas bef<damage agent="faded ink" cert="high" resp="ahh">e</damage>lchs von fryger
+wâl offennlichen genommen unnd ouch die rëchnung der gmeind <lb/>guͦtts vor allen gmeindtsgnossen
+gegäben werden, damit mencklicher sehe, wie es darumb ein gstallt habe, unnd man darmit umbgange, sich ouch inn
+zuͦtragend<lb break="no"/>en fälen dester baß darnach zeschicken wüße.</seg>
+<seg>S<damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">öl</supplied></damage>liches
+zwytrachts halb sy für unns zuͦ gepürenndem enntscheid unnd erlütherung kommen. Wann <lb/>nun wir sy inn klag unnd
+annthworten, ouch allen fürwannd wythlöüffig (unnoth allhir der lënnge nach zuͦerzellen) gnuͦgsam gehört unnd
+darnëb<lb break="no"/>ent, was
+sy, d<damage agent="faded ink" cert="high" resp="ahh">ie</damage> inn
+<placeName ref="loc010425">Enngi</placeName>, bißhar für allte brüch unnd grechtigkeiten gehept unnd von allter gewonnheit har gebracht berichts wyße verstannden,
+so <lb/>haben wir <damage agent="hole"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">unn</supplied></damage>s
+daruf unnd iren gethann<damage agent="hole" cert="high" resp="ahh">e</damage>n beschluße <damage agent="faded ink" cert="medium" resp="ahh">unn</damage>d r<damage agent="faded ink" cert="high" resp="ahh">ëc</damage>htsatz deß
+zuͦ recht erkhënnt unnd gesprochen, <damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">daß vi</supplied></damage>lgenannte <orgName ref="org007810">gmeind <placeName ref="loc010425">Enngi</placeName></orgName> by <lb/>demsëlben
+irem allten harkommen füro unverhinde<damage agent="faded ink" cert="medium" resp="ahh">re</damage>t ouch belyben,
+also das sy die geschwornen unnd anndere amptlüth durch das runen
+zuͦerwellen <lb/>unnd zuͦ nemmen
+macht unnd gewallt habenn.</seg>
+<seg>Sov<damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">il aber</supplied></damage> die
+rechnung deß gemeinen guͦtts belannget, soll sölliche vor denen, so je zun zythen unnsere ge<lb break="no"/>ordnete
+obervögt inn <placeName ref="loc010425">Enngi</placeName> syn werden, deßglychen dem unndervogt, <damage agent="hole"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">auch</supplied></damage> den geschwornen
+beschächen. Unnd wo die obervögt guͦtt beduncken wurde, <lb/><damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">etw</supplied></damage>aren mer dazuͦ zuͦberuͤffen, das sy das
+zethuͦnd wol befuͦgt unnd gwalltig syn, je nach irem willen unnd gfallen.</seg>
+<seg>Sonnst die, so sich den allten brüch<lb break="no"/>en widerse<damage agent="crack"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">tzt unnd neüwerungenn </supplied></damage>
+<damage agent="crack" cert="high" resp="ahh">i</damage>nzefuren unnderstanden, iren diser <damage agent="hole"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">sach</supplied></damage> halb erlittnen <damage agent="faded ink" cert="high" resp="ahh">co</damage>sten an innen sëlbs dulden, die annderen aber, was sy deß
+wäg<lb break="no"/><damage agent="crack"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">enn ußgëbenn, uß
+der gmeind guth abvertigenn</supplied></damage>.</seg>
+<seg>In chrafft <damage agent="crack" cert="high" resp="ahh">di</damage>ß brieffs, daran wir unnser statt
+<placeName ref="loc000065">Zürich</placeName> secret insigel offenntlich habennt lassen hënck<lb break="no"/><damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">enn</supplied></damage>, <origDate when="1578-09-13"><damage agent="hole"><supplied>sambstags, denn dreyg</supplied></damage> z<damage agent="faded ink" cert="high" resp="ahh">echenndenn</damage> tag herpst<damage agent="faded ink"><supplied source="StArZH VI.EN.LB.C.4., fol. 10v-11r">monnats</supplied></damage> nach der gepurt Christi, <damage agent="hole" cert="high" resp="ahh">un</damage>sers lieben herren, gezallt fünffzëchennhundert siben<lb break="no"/>zig unnd acht <damage agent="faded ink" cert="high" resp="ahh">ja</damage>re</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" place="verso" hand="hand16c"><lb/><date when="1578">1578</date></ab></div>
+</body>
+<back>
+<div n="1"><p>Der Modus bei der Wahl von
+Gemeindeamtleuten wie dem Untervogt, den Geschworenen, dem Säckelmeister oder den Kirchenpflegern war in den Dörfern der
+<placeName ref="loc000065">Zürcher</placeName> Landschaft uneinheitlich. Die Stimmabgabe an der Gemeindeversammlung zugunsten eines
+Kandidaten konnte offen durch Handmehr oder geheim durch Raunen (Flüstern in das Ohr eines vereidigten
+Gemeindeamtmanns)
+respektive mithilfe von Wahlpfennigen erfolgen (<bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>,
+S. 206-209</bibl>). Die neu in die <placeName ref="loc010425">Enge</placeName> Zugezogenen waren sich aus ihrem Herkunftsort wohl
+eine offene Stimmabgabe gewohnt. Sie vertrauten der geheimen Wahl nicht, bei der eine dazu bestimmte ortsansässige
+Amtsperson die Stimme eines jeden durch Raunen entgegen nahm, um sie in seiner Strichliste festzuhalten.</p>
+<p>Zur Wahl des Untervogts mittels eines Dreiervorschlags, der anschliessend dem Obervogt und dem <orgName ref="org004016">Kleinen Rat von Zürich</orgName> vorgelegt wurde, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_111">SSRQ ZH NF II/11, Nr. 111</ref></bibl>.</p></div>
+<div n="2"><p>Die Urkunde ist aufgrund eines Wasserschadens stark beschädigt, die Tinte ist stellenweise verblasst und das Pergament an mehreren Stellen gefaltet, brüchig oder gerissen. Zur Ergänzung wurde die Abschrift im Kopialband der <orgName ref="org007810">Gemeinde <placeName ref="loc010425">Enge</placeName> und <placeName ref="loc012271">Leimbach</placeName></orgName> beigezogen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=387655">StArZH VI.EN.LB.C.4., fol. 10v-11r</ref></bibl>).
+</p></div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_045_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283417">StArZH III.B.37., fol. 11r</idno></msIdentifier><head>Entscheid am Maiengericht von Seebach, dass das Dorf einen gemeinsamen Schweinehirten haben soll</head><msContents><summary>Das Dorf Seebach soll einen gemeinsamen Schweinehirten haben. Wenn die Bauern von Seebach keinen Hirten anstellen wollen, sollen sie den Hirtendienst im Turnus selbst versehen. Wer seine Schweine nicht dem Hirten anvertrauen oder keinen Hirtendienst leisten will, soll sie im Stall halten anstatt auf der Weide, ansonsten soll er gebüsst werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1497-05-01"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1501-01-01" to="1600-12-31">Maiengericht 1497 (abweichende Datierung zur Abschrift in StArZH III.B.38.)</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000596">Hirten</term><term ref="key000012">Offnung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="11r"/>
+<p><gap source="SSRQ ZH NF II/11, Nr. 35"/></p>
+<p>
+<lb/>Uff dem meyengericht zuͦ <placeName ref="loc010666">Sebach</placeName> anno <abbr>etc</abbr>
+<app><lem><origDate when="1497">lxxxxvij</origDate></lem><rdg wit="StArZH III.B.38., fol. 25r-v"><date when="1487">lxxxvij</date></rdg></app> jar
+<lb/>ist mit einhelliger urteil durch die bursamy
+<lb/>desselben gerichts erkenndt, das dz dorff ze <placeName ref="loc010666">Sebach</placeName>
+<lb/>einen gemeinen hirtten zuͤ den schwinen haben
+<lb/>sol. Und ob sy den nit gehaben moͤchten, so soͤllen
+<lb/>sy ein gemeinen ker haben und den mit hirten
+<lb/>und ker versechen, das niemand <app><lem>kein</lem><rdg wit="StArZH III.B.38., fol. 25r-v">dhein</rdg></app> schad bescheͤche.
+<lb/>Und welicher nit für den hirten triben oder den
+<lb/>gemeinen ker tuͤn wil, der sol sine swin inhaben,
+<lb/>und welicher dz nit taͤtte, dem sol by der stifft
+<lb/>buͤß geboten werden, so hoch sy zebieten hat, sine
+<lb/>swin in zuͤ haben, und soͤlich buͤsen inzogen werden.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Dieser Artikel folgt in den Abschriften von <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283416">StArZH III.B.37.</ref></bibl> und <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283424">StArZH III.B.38.</ref></bibl> 
+auf die Offnung von <placeName ref="loc010666">Seebach</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_035">SSRQ ZH NF II/11, Nr. 35</ref></bibl>). In der Abschrift von <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283425">StArZH III.B.38., fol. 25r-v</ref></bibl>,
+ist er allerdings schon auf 1487 datiert, während er laut der vorliegenden Fassung von 1497 stammt. In <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=464431">StArZH III.B.37.</ref></bibl> schliesst sich eine Holz- und Zelgordnung daran an 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_046">SSRQ ZH NF II/11, Nr. 46</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

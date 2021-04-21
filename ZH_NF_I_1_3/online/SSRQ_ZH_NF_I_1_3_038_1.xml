@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_038_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3732418">StAZH A 43.1.2, Nr. 2, S. 37</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Friedbruch</head><msContents><summary>Wer es versäumt, in Konflikten Frieden zu bieten, wird mit einer Busse von zwei Mark Silber bestraft (1). Wer den gebotenen Frieden (Stallung) mit Worten oder Werken bricht, ohne seinen Gegner zu verletzen, wird mit einer Busse von zehn Mark Silber bestraft (2). Wer den gebotenen Frieden bricht und seinen Gegner dabei verletzt, wird zum Tod durch das Schwert verurteilt (3). Wer den gebotenen Frieden bricht und seinen Gegner dabei tötet, gilt als ein Mörder und wird zum Tod durch das Rad verurteilt (4).  Späterer Zusatz von derselben Hand: Mündlich vorgebrachte Drohungen werden ebenfalls als Bruch des Friedens gewertet und entsprechend bestraft.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1489-05-25" to="1495-05-30">Der Zusatz datiert vom 30. Mai 1495 (sambstag nach der uffart).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key000506">Friedbruch</term><term ref="key000595">Frieden bieten</term><term ref="key000057">Gericht</term><term ref="key000604">Todesstrafe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="37" facs="StAZH_A_43_1_2__Nr__2__S__37_.tif
+"/>
+<head><lb/>Wie stallung versagen und
+<lb/>stallungbru̍ch gebuͤsd werden soͤllen</head>
+<p><seg n="1"><lb/>Wir haben uns oͧch erkendt, welicher hinfu̍r stallung versagt,
+<lb/>und das mit eynem erbern mann kundtlich wirt, der sol gemeyner 
+<lb/>statt <measure type="currency" unit="M" quantity="2" commodity="silver">zwo march silber</measure> bar zuͦ geben verfallen sin und soͤlichs 
+<lb/>von im oͧn gnaͧd ingezogen werden.</seg></p>
+<p><seg n="2"><lb/>Und welicher hinfu̍r stallung bricht mit worten <add place="above" hand="other hand">oder wercken, aͧne wunden,</add> und das
+<lb/>kundtlich wirt, der ist gemeyner statt zuͦ buͦss verfallen
+<lb/><measure type="currency" unit="M" quantity="10" commodity="silver">zechen march silbers</measure>, oͧn gnaͧd.</seg></p>
+<p><seg n="3"><lb/>Welicher aber stallung bricht mit den weͣrcken, also, das er 
+<lb/>den, mit dem er in stallung staͧt, mit gewaͧpnoter hand <add place="right margin" hand="other hand"><choice><abbr>bluͦtru</abbr><expan>bluͦtrunnß</expan></choice></add>
+<lb/>schlacht oder wundet, oͧn zum tod, und das kuntlich gemacht 
+<lb/>wirt, der sol naͧch reͣcht gericht werden vom leͣben zum 
+<lb/>tod, mit dem schweͣrt.</seg></p>
+<p><seg n="4"><lb/>Welicher aber den andern u̍ber frid und stallung vom leͣben 
+<lb/>zum tod bringt und das kuntlich ist, zuͦ desselben taͤters lyb
+<lb/>und leͣben sol naͧch recht mit dem rad, als umb eyn mord,
+<lb/>gericht werden.</seg></p>
+<p><add place="below"><seg><lb/>Als an unser herren <orgName ref="org002406">burgermeister, raͤt und die zweihundert, den grosen raͧt,</orgName>
+<lb/>gelangt ist, das <num value="2">zwen</num> mit einandern in frid und stallung gstanden
+<lb/>sigen und daru̍ber der ein zuͦ dem andern under oͧgen geredt habe,
+<lb/>stuͤnde er nit mit im in friden, er woͤlte im sagen, das im das 
+<lb/>bluͦt durchs antlit nyder lu̍ffe, ob soͤlich red fu̍r einen fridbruch 
+<lb/>geachtot und gestraͧft werden soͤlle. Uff das ist von den selben unsern 
+<lb/>herren erkent, die wil frid und stallung durch ruͦwen und gemeins 
+<lb/>nutzes willen angesehen sig und mit worten und wercken gestraks 
+<lb/>und uffrecht gehalten werden soͤlle, die wyl dann soͤliche obgemelte
+<lb/>red und wort anreitzig und unfridlich sigen, dz dann die fu̍r 
+<lb/>einen stallungbruch geachtot und gericht werden und hinfu̍r 
+<lb/>gegen <choice><abbr>andn</abbr><expan>andern</expan></choice> och also gehalten werden soͤlle. <app><lem/><rdg wit="StAZH B III 2, S. 339">Unnd ob eyner zum anderen über <lb/>friden reddte: <q>Ich wolt diner oder üwer <num value="2">zwen</num>, <num value="3">dryg</num> ald meer nit fürchten <lb/>ald flyehen</q>, das soll glycher gstalt geachtet unnd gebuͤßt werden.</rdg></app></seg>
+<seg>Actum <origDate when="1495-05-30">sambstag naͧch
+<lb/>der uffart anno <abbr>etc</abbr> lxxxxv<hi rend="sup">to</hi></origDate>.</seg></add></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Verpflichtung der Stadtbewohner, Konflikte zu schlichten und den Stadtfrieden zu wahren, geht auf den Richtebrief zurück und war überdies im Bürgereid verankert (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_97">S. 97</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>). Die Datierung des Grundtextes der vorliegenden Aufzeichnung ergibt sich daraus, dass er im Anhang an den Vierten Geschworenen Brief des Jahres 1489 überliefert ist. Die Ordnung wurde im Jahr 1529 überarbeitet und in der neuen Form in die späteren Satzungsbücher übernommen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1914295">StAZH B III 4, fol 27v-28ar</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4335626">StAZH B III 5, fol. 511r-v</ref></bibl>).</p>
+<p>Zur Praxis der Stallung auf der Basis der Rats- und Richtbücher vgl. <bibl><ref target="/startseite/literaturverzeichnis">Pohl 2003</ref></bibl>; für die Bestrafung des Totschlags vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_032">SSRQ ZH NF I/1/3, Nr. 32</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

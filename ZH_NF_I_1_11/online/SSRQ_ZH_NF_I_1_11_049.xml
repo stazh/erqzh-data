@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_049</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3553009">StAZH III AAb 1.9, Nr. 67</idno></msIdentifier><head>Ratsrednerordnung der Stadt Zürich</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlassen eine erneuerte Ratsrednerordnung. Geregelt wird, dass die Ratsredner für Reisen unter zehn Tagen die Erlaubnis des Bürgermeisters und bei Reisen über zehn Tagen die Erlaubnis des Rats benötigen. Nicht erlaubt sind Reisen, falls die Mandanten in anderen Prozessen vor dem Kleinen Rat oder Stadtgericht involviert sind sowie Reisen für Mandanten, die keine Zürcher Angehörigen sind (1). Des Weiteren werden Ablauf und Inhalt der Reden geregelt sowie beleidigende Reden bei Strafe verboten (2). Danach folgt eine Auflistung der Besoldungen für diverse Dienstleistungen der Ratsredner, wobei auch die Geschenke thematisiert werden (3). Zuletzt wird der Eid aufgeführt, den die Ratsredner vor der Zürcher Obrigkeit schwören müssen (4). </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 4 Bl.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="24.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1731-01-01" to="1731-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>SBPOZH, Bd. 1, Nr. 4, S. 27-35</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 982, Nr. 1537</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key000285">Ehrverletzung</term><term ref="key000179">Eid</term><term ref="key003401">Geschenke</term><term ref="key000212">Löhne</term><term ref="key000304">Rechtsbeistand</term><term ref="key005428">Rede</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" facs="StAZH_III_AAb_1_9__Nr__67__fol__1_r_.tif"/>
+<head type="title"><lb/>Der Raths-Redneren
+<lb/>Ordnung und Eyd</head>
+<p><lb/>Erneueret und <hi rend="font change">publici</hi>ret
+ <lb/>Anno <origDate when="1731">1731</origDate>.</p>
+<pb n="1v" facs="StAZH_III_AAb_1_9__Nr__67__fol__1_v_.tif"/>
+<pb n="2r" facs="StAZH_III_AAb_1_9__Nr__67__fol__2_r_.tif"/>
+<div><head type="subtitle"><lb/>Der Raths-Redneren <lb/>Ordnung</head>
+<p><seg n="1"><lb/>Die Raths-Redner, so je zun Zei<lb break="no"/>ten
+ erwehlet werden / sollen an denen
+ <lb/>Raths-Tagen / wann sie Partheyen ha<lb break="no"/>ben /
+ <time period="morning">am Morgen</time> zu rechter Zeit auf dem
+ <lb/><placeName ref="loc008754">Rath-Haus</placeName> sich einfinden / und von da
+ <lb/>nicht weggehen / bis sie ihre Geschaͤffte
+ <lb/>daselbst verrichtet; Auch / ohne eines Herren Amts-Bur<lb break="no"/>germeisters
+ Erlaubnuß / nicht von der Stadt sich weg
+ <lb/>begeben auf eine Reise welche <date dur="P10D">Zehen Tag</date> Zeit erfordert
+ <lb/>und wann es Sachen antrifft / so ein solcher Redner im
+ <lb/>Nammen eines hiesigen Burgers / oder Land-Manns
+ <lb/>oder eines Gemein-Herrschafftlichen Unterthanen wegen
+ <lb/>eines von Loblichem <orgName ref="org005139"><hi rend="font change">Syndicat</hi></orgName> herruͤhrenden Geschaͤffts
+ <lb/>da und dorten in Loblicher <placeName ref="loc000153">Eydgnoßschafft</placeName> zuverrichten
+ <lb/>haͤtte: Wann aber eine solche Reise mehr als <date dur="P10D">Zehen Tag</date>
+<lb/>waͤhrete / solle ein Redner dise Erlaubnuß / mit Vermel<lb break="no"/>dung
+ der Ursach / von Meinen Gnaͤdigen Herren dene
+ <lb/>Kleinen Raͤthen selbsten ausbitten: Ein Herr Burger<lb break="no"/>meister
+ aber / noch auch Hochgedacht Meine Gnaͤdig
+ <lb/>Herren / einem Redner keine Erlaubnuß von der Stad<supplied reason="omitted" resp="srr">t</supplied>
+<pb n="2v" facs="StAZH_III_AAb_1_9__Nr__67__fol__2_v_.tif"/>
+<lb/>zureisen ertheilen / wann er allhier Partheyen hat / deren
+ <lb/>Sachen vor Meinen Gnaͤdigen Herren oder auch in
+ <lb/>Falliments-Sachen vor einem Frey-<choice><abbr>Lobl</abbr><expan>Loblichen</expan></choice>
+<orgName ref="org005052"> Stadt-Ge<lb break="no"/>richt</orgName>
+ anhaͤngig gemachet sind; und also ein Redner nie<lb break="no"/>mahlen
+ in andern Geschaͤfften aus der Stadt sich wegbe<lb break="no"/>geben /
+ es seyind dann zuvor alle seine Partheyen allhier
+ <lb/>voͤllig <hi rend="font change">spedi</hi>rt: Froͤmde Geschaͤfft aber / so weder einen
+ <lb/>hiesigen Burger / Land-Mann / noch Gemein-Herr<lb break="no"/>schafftlichen
+ Unterthanen / in von dem Loblichen <hi rend="font change">Syndicat</hi>
+<lb/>harruͤhrenden Geschaͤfften / betreffen und aussert hiesiger
+ <lb/>Stadt gefuͤhret werden muͤssen / sollen die Redner anzu<lb break="no"/>nemmen
+ oder derenthalben von hier wegzureisen gar nicht
+ <lb/>befuͤgt seyn.</seg>
+<seg n="2">Und alsdann eine Zeithar man hoͤren muͤs<lb break="no"/>sen /
+ wie daß etliche Redner / vor gesessenem <orgName ref="org004016">Rath</orgName> / <orgName ref="org005052">Stadt</orgName>-
+ <lb/>und <orgName ref="org004927">Ehe-Gericht</orgName> / wie auch vor denen Verordnungen /
+ <lb/>die Sachen mit langen Umstaͤnden fuͤrtragen / hingegen
+ <lb/>aber im Abtrucken ald zum Rechten setzen / der rechten
+ <lb/>Gruͤnden zum Theil nicht gedenken / deßgleichen mit un<lb break="no"/>noͤhtigen
+ Schaͤntzlen / Schmuͤtzen und Schmaͤhen auch
+ <lb/>allerhand Speichworten die Partheyen tratzen und mehr
+ <lb/>verhetzen dann Einigkeit anrichten; insbesonder auch / ob
+ <lb/>sie schon zum Theil berichtet sind / daß zun Zeiten die Sa<lb break="no"/>chen
+ faul und der Gegentheil uͤberlanget wird / nichts
+ <lb/>desto minder sich unterstehen / dieselben mit allerley Ver<lb break="no"/>kleinerung
+ des Gegentheils mit Gewalt hindurch zutru<lb break="no"/>ken /
+ so aber wider die Billichkeit lauffet / und fuͤrterhin
+ <lb/>nicht zuzulassen ist; so sollen hinkoͤnfftig die Redner ihre
+ <lb/>habende <hi rend="font change">Process</hi> anderst nicht als 1. durch einen Vortrag /
+ <lb/>darinn die Gruͤnde / <hi rend="font change">Documenta</hi>, Kundschaften und was
+ <lb/>zu des <hi rend="font change">Actoris</hi> Behilff dienet / enthalten; 2. Durch eine
+ <lb/>Gegen-Antwort des Antworters; 3. Durch die <hi rend="font change">Replic</hi>
+<lb/>des Klaͤgers und 4. die <hi rend="font change">Duplic</hi> des Beklagten fuͤhren,
+ <lb/>und darmit alles was zur Sach dienet anbringen / und
+ <lb/>ihnen keine weitere Hin- noch Wider-Red gestattet / und
+ <pb n="3r" facs="StAZH_III_AAb_1_9__Nr__67__fol__3_r_.tif"/>
+<lb/>wofehrn sie solches unterfangen wollten / dasselbe jeder<lb break="no"/>weilen
+ durch eines Herren Amts-Burgermeisters Be<lb break="no"/>fehl
+ verhindert werden: Alle <hi rend="font change">injuriose</hi> Schmaͤht- und
+ <lb/>Stich-Reden aber, denen Redneren / bey unnachlaͤßlicher
+ <lb/>Buß von <measure type="currency" unit="M" commodity="silver" quantity="2">Zwey</measure> oder <measure type="currency" unit="M" commodity="silver" quantity="3">Drey Mark Silbers</measure> oder je nach
+ <lb/>Beschaffenheit des Fehlers bey fehrnerer Buß / verbot<lb break="no"/>ten
+ seyn.</seg></p>
+<seg n="3"><p>
+<lb/>Der Redneren Besoldungen betreffende sollen selbige
+ <lb/>hinfuͤro bestaͤndig seyn und beobachtet werden / wie her<lb break="no"/>nachfolget.<note>In der Gerichtsordnung von 1716 sind die Besoldungsansätze für die Ratsredner teilweise halb so hoch: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_042">SSRQ ZH NF I/1/11, Nr. 42</ref></bibl></note>
+</p>
+<p>
+<lb/>a. Von einem Vortrag / der keinen Gegentheil oder
+ <lb/>Widerstand hat / <measure type="currency" unit="ß" quantity="10">Zehen Schilling</measure>. Doch / so sie armen
+ <lb/>Leuthen etwas anzubringen haͤtten / sollen sie denen gar
+ <lb/>nichts abnemmen / sondern umsonst reden.
+</p>
+<p>
+<lb/>b. Von einer Weisung oder <hi rend="font change">Appellation</hi>, auch von
+ <lb/>Haͤndlen so Erb- und Eigen- oder sonsten Nammhafft-
+ <lb/>und Ehehaffte / Hoͤf und Guͤter beruͤhren, <measure type="currency" quantity="32" unit="ß">Zwey und
+ <lb/>Dreysig Schilling</measure>.
+</p>
+<p>
+<lb/>Muͤßte aber einer in gleicher Sach mehr als einmahl
+ <lb/>vor Raht oder Verordnung reden / gehoͤren ihme fuͤr jedes
+ <lb/>mahl <measure type="currency" unit="ß" quantity="16">Sechszehen Schilling</measure>.
+</p>
+<p>
+<lb/>c. Aber von gemeinen <date dur="RP1D">taͤglichen</date> schlechten Sachen / es
+ <lb/>seyen um Frefel / Bussen / oder andere kleine Ding / ob er
+ <lb/>schon einen Gegentheil hat und die Widerparth zahlen
+ <lb/>muß / mehr nicht als <measure type="currency" unit="ß" quantity="16">Sechszehen Schilling</measure>.
+</p>
+<p>
+<lb/>d. Item / auf das Land in Untergaͤngen / oder Au<lb break="no"/>genscheinen /
+ oder anderen Geschaͤfften / darzu ein Redner
+ <lb/>erforderet wird / solle einer haben <date dur="RP1D">jeden Tag</date>
+<measure type="currency" unit="fl" quantity="1">Ein Gulden</measure> /
+ <lb/>darzu Futher und Mahl / samt dem Roß-Lohn / Be<lb break="no"/>schlag-
+ und Sattel-Gelt / so er desse bedoͤrffen und etwas
+ <lb/>ausgeben wurde / darzu des Tags so er heimkomt / vor
+ <lb/>das Nacht-Mahl <measure type="currency" unit="ß" quantity="5">Fuͤnf Schilling</measure>.
+</p>
+<pb n="3v" facs="StAZH_III_AAb_1_9__Nr__67__fol__3_v_.tif"/>
+<p>
+<lb/>e. Weiters / als die obbestimmt / sollen die Redner
+ <lb/>nicht fordern moͤgen / auch bey allen vorkommenden Obrig<lb break="no"/>keitlichen
+ und offentlichen Rechnungen / einiche Redner-<lb/>Loͤhne
+ gutgeheissen werden / als was diserer Tax vermag.
+</p>
+<p>
+<lb/>Mit denen Verehrungen aber / welche zu groͤssester
+ <lb/>Beschwerd bisdahin so gar uͤbergroß gemachet worden /
+ <lb/>und darmit man die eint- und andern Redner kaum vernuͤ<lb break="no"/>gen
+ moͤgen / soll es koͤnfftighin also gehalten werden; daß ih<lb break="no"/>nen
+ zwahr wohl / aus gutem freyen Willen / eine Ver<lb break="no"/>ehrung /
+ aber nicht mehr als von <measure type="currency" unit="Dukat" quantity="1">Einer</measure>- bis hoͤchstens
+ <lb/><measure type="currency" unit="Dukat" quantity="10">Zehen Ducaten</measure> / und zwahr disere nicht anderst dann von
+ <lb/>denen wichtigst- und weitlaͤuffigst- lang gedaurten <hi rend="font change">Pro<lb break="no"/>cess</hi>en /
+ fuͤr alle ihre darbey gehabte Muͤhe und Arbeit
+ <lb/>und was darvon immer abhangen moͤchte / auch erst nach
+ <lb/>geendetem voͤlligem <hi rend="font change">Process</hi>, sollen moͤgen gegeben wer<lb break="no"/>den:
+ Wofehrn aber diese Summa uͤbertretten wurde /
+ <lb/>solle nicht nur das / was die <measure type="currency" unit="Dukat" quantity="10">zehen Ducaten</measure> uͤbersteiget /
+ <lb/><hi rend="font change">confisci</hi>ret / sondern auch so gar der Geber und Empfan<lb break="no"/>ger
+ um <measure type="currency" unit="Taler" quantity="100">Einhundert Thaler</measure> gebuͤßt und je nach Beschaffen<lb break="no"/>heit
+ der Sach der Redner annoch eintweders auf eine
+ <lb/>Zeit lang von seinem Dienst <hi rend="font change">suspen</hi>diret oder desselben gar
+ <lb/>entsetzet; Demjenigen aber / der ein solches / es geschehe
+ <lb/>uͤber kurz oder lang / laͤidete / der <num value="0.25">Vierte Theil</num> der <hi rend="font change">confis<lb break="no"/>cir</hi>ten
+ Verehrung zugestellet; Wurde aber der Geber oder
+ <lb/>Empfanger selbsten es anzeigen / er der <hi rend="font change">Confiscation</hi> und
+ <lb/>Buß enthebt werden. Wofehrn aber auch ein Redner
+ <lb/>mehrers forderte / als ihme seine Parthey freyen Willens
+ <lb/>gegeben / es mag wenig oder vil seyn / und sich dessen nicht
+ <lb/>benuͤgte / auch deßwegen scheinbahrer Raach und Feind<lb break="no"/>schafft
+ gegen selbiger ausuͤben wurde / und dieselbe es bey
+ <lb/>koͤnfftigen Anlaͤsen entgelten liesse / der solle auf ein solch
+ <lb/>einlangende Klag um <measure type="currency" unit="M" commodity="silver" quantity="10">Zehen Marck Silbers</measure> unnachlaͤß<lb break="no"/>lich
+ gebuͤßt werden.</p>
+<pb n="4r" facs="StAZH_III_AAb_1_9__Nr__67__fol__4_r_.tif"/>
+<p>
+<lb/>f. Solle auch vorausgefuͤhrte des Redner-Lohns
+ <lb/>halber errichtete Ordnung / auf alle diejenige Personen /
+ <lb/>Froͤmde oder Heimsch / so vor hiesiger Stadt- oder Land<lb break="no"/>schaffts-
+ <hi rend="font change">Tribunali</hi>en zuthun haben und Redner gebrau<lb break="no"/>chen /
+ sich erstrecken.
+</p>
+<p>
+<lb/>g. Denen Raths-Redneren soll zwahren so vil moͤg<lb break="no"/>lich /
+ mit Voͤgtlichen Geschaͤfften verschohnet werden; So
+ <lb/>sie aber deren bekaͤmen / sollen sie verpflichtet seyn die
+ <lb/>Schirm-Ordnung und Tax getreulich zuhalten.
+</p>
+<p>
+<lb/>h. Wann auch eine Parthey in die Koͤsten verfaͤllet
+ <lb/>wurde / sollen derselben fuͤr Redner-Lohn mehrers nicht
+ <lb/>als die gemachte Ordnung vermag / aufgerechnet werden /
+ <lb/>uͤbrigens auch die Redner auf niemanden nuͤtzid zehren.
+</p>
+<p>
+<lb/>i. Wann auch einer einen Redner anspraͤche / vor
+ <lb/>ihne zureden / so solle dann der Redner nicht dem / so ihne
+ <lb/>erst hernach ansprichet / sondern dem / der ihne zuerst an<lb break="no"/>gesprochen /
+ reden.
+</p>
+<p>
+<lb/>Es solle ins koͤnfftig keiner der hiesigen Raths-Red<lb break="no"/>neren /
+ von einichen Fuͤrsten oder Herren / Staͤdten / Kloͤ<lb break="no"/>stern /
+ geistlichen und weltlichen Staͤnden / auch sonsten
+ <lb/>von niemandem uͤberall / zu ihrem eigenen und bestaͤndigen
+ <lb/><hi rend="font change">Procurator</hi>en sich bestellen zulassen / und von denenselben
+ <lb/>einiche Bestallung / Warth-Dienst- und Neujohr-Gelt /
+ <lb/>oder wie solches immer genennet werden moͤchte / es seye
+ <lb/>an Gelt oder Gelts werth / trockenen oder nassen Fruͤch<lb break="no"/>ten /
+ <abbr>etc</abbr> zubeziehen / befuͤgt seyn; Allermassen / im Fahl
+ <lb/>dasselbe von dem eint- oder anderen / uͤber kurtz oder lang /
+ <lb/>an Tag kaͤme / ein solcher als ein Ubertretter des Pensio<lb break="no"/>nen-Brieffs<note>Gemeint ist der Pensionenbrief von 1713 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254301">StAZH B III 8</ref>, fol. 18r-17v</bibl>).</note>
+  / je nach Beschaffenheit seines Fehlers / an
+ <lb/>Leib / Ehr und Guth / ohne verschohnen abgestraffet wer<lb break="no"/>den
+ solle.
+</p></seg></div>
+<pb n="4v" facs="StAZH_III_AAb_1_9__Nr__67__fol__4_v_.tif
+"/>
+<div><head type="subtitle"><lb/>Der Raths-Redneren Eyd</head>
+<seg n="4"><p>
+<lb/>Ihr die Raths-Redner sollet schweeren / Unseren
+ <lb/>Gnaͤdigen Herren / <orgName ref="org002406">Burgermeister / Klein- und
+ <lb/>Grossen Raͤthen der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName> / getreu / gewaͤrthig
+ <lb/>und gehorsam zusein / Dero Nuzen und Frommen / best
+ <lb/>euers Vermoͤgens / zufoͤrderen / und Ihren Schaden zu<lb break="no"/>wahrnen
+ und zuwenden; In Sachen und Handlungen /
+ <lb/>so wider unsers Stands Saz- und Ordnungen lauffen
+ <lb/>und offenbahr unrecht waͤren / euch keineswegs ge<lb break="no"/>brauchen
+ zulassen; Denen Partheyen / so euerer Hilff-
+ <lb/>und Beystand vonnoͤthen haben / sie seyind Froͤmd
+ <lb/>oder Heimsch / Reich oder Arm / in der Stadt / auf dem
+ <lb/>Land / oder denen <orgName ref="org005057">Tagsazungen</orgName> / euch gleich getreulich
+ <lb/>und mit allem Fleiß anzunemmen; Ihre Sachen nach
+ <lb/>bestem euerem Verstand und Vermoͤgen fuͤrzubringen /
+ <lb/>und darinn wuͤssentlich keinerley Falschheit / Unwar<lb break="no"/>heit
+ oder Unrecht zugebrauchen / oder gefaͤhrliche Auf<lb break="no"/>schuͤb /
+ zu Verlaͤngerung der Sachen und Schaden eue<lb break="no"/>rer
+ Parthey / zusuchen; Auch mit eurem Gegentheil /
+ <lb/>in dem Handel / darum es allwegen zuthun seyn wird /
+ <lb/>keine Gemeinsame / weder schrifft- noch mundlich / zu<lb break="no"/>pflegen /
+ demselbigen ohne Vorwuͤssen und Befehl / eue<lb break="no"/>rer
+ Partheyen / weder Schrifften zuzustellen / oder
+ <lb/>Heimlichkeiten zuoffenbahren; Endlich auch von nie<lb break="no"/>mandem
+ einiche Mieth / Gaaben oder Schenckungen /
+ <lb/>es seye an Gelt oder Gelts werth zunemmen oder jeman<lb break="no"/>dem
+ derley zugeben oder zuverheissen.</p>
+<p><lb/>Alles getreulich und ohne Gefahr!
+</p></seg></div>
+</div>
+</body>
+<back>
+<div>
+<p>Seit der zweiten Hälfte des 15. Jahrhunderts lässt sich für <placeName ref="loc000065">Zürich</placeName> das bürgerliche Amt der Ratsredner nachweisen. Im Gegensatz zu den Fürsprechern, welche ordentliche Mitglieder des Stadtgerichts waren und nur in bestimmten Fällen als Wortführer Fälle übernahmen, handelte es sich bei den Ratsrednern um berufsmässige und besoldete Rechtsbeistände, die stellvertretend für ihre Mandanten auftraten. Die Ratsredner waren ausserdem keine Ratsmitglieder, sondern stammten aus dem Stadtbürgertum und übten einen nicht-zünftigen, freien Beruf aus. Ihre juristische Fachausbildung, Einkommen und soziale Stellung waren wohl eher gering. In der Anfangszeit traten die Ratsredner nur vor dem Rat auf, ab 1525 vor dem neu geschaffenen <orgName ref="org004927">Ehegericht</orgName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_001">SSRQ ZH NF I/1/11, Nr. 1</ref></bibl>) und im Laufe des 17. und 18. Jahrhunderts dann vor dem <orgName ref="org005052">Stadtgericht</orgName>. Wer das Amt des Ratsredners ausüben wollte, musste zuerst vor dem <orgName ref="org004016">Kleinen Rat</orgName> eine Redeprobe abgeben sowie eine einmonatige Lehre bei einem anderen Ratsredner absolvieren.  Erst dann wurden die Ratsredner, von denen es in der Regel sechs gab, durch den <orgName ref="org004016">Kleinen Rat</orgName> bestätigt.</p>
+<p>Im Januar des Jahres 1730 stellten die Ratsmitglieder in einer Sitzung fest, dass die alte Ratsrednerordnung von 1634 überarbeitet werden müsse. Eine Ratskommission aus neun Ratsmitgliedern wurde beauftragt, innerhalb von zwei Monaten ein Gutachten bezüglich Besoldung, jährlichen Einkünften (Wartgelder) sowie einer künftigen Eidformel zu verfassen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245048">StAZH B II 788</ref>, S. 21-22</bibl>). Das Gutachten wurde im Februar bis März 1730 besprochen und die alte Ratsrednerordnung umfassend revidiert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245048">StAZH B II 788</ref>, S. 89-91, 100-104 und 151</bibl>). Insbesondere die gängige Praxis, dass geistliche und weltliche Herrschaftsvertreter, wie beispielsweise Klöster oder Städte, Ratsredner als ihre eigenen, ständigen Rechtsvertreter anstellten, gab Anlass zu Diskussionen. Es stellte sich nämlich die Frage, ob die bezahlten Wartgelder gegen die Bestimmungen des Pensionenbriefs von 1713 verstiessen. Am 12. Juni 1730 schlug die Ratskommission einen Passus für die revidierte Ordnung vor, worin stand, dass jegliche Art von Pensionengeldern, Wartgeldern oder Geschenken verboten sein sollen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188731">StAZH A 68.2</ref></bibl>). Der Vorschlag wurde später in der gedruckten Ordnung  wortgleich übernommen. Als der Revisionsprozess schliesslich am 24. Mai 1731 sein Ende fand, wurde die Ratskommission beauftragt, eine Eidformel für die Ratsredner zu entwerfen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245052">StAZH B II 792</ref>, S. 137-138</bibl>). Der Vorschlag für den Eid erfolgte am 4. Juni 1731 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188731">StAZH A 68.2</ref></bibl>) und wurde am 21. Juni 1731 im Rat vorgelesen und einstimmig gutgeheissen. Am selben Tag verordneten die Ratsherren zudem, dass die revidierte Ratsrednerordnung und der Eid gedruckt und publiziert werden sollen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245052">StAZH B II 792</ref>, S. 164-166</bibl>).</p>
+<p>Zu den Fürsprechern und Ratsrednern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Pahud de Mortanges/Prêtre 1998</ref>, S. 9-47</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 107-110</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1927</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

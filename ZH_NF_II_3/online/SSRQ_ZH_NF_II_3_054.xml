@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_054</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=890369">StAZH B II 57, S. 20</idno></msIdentifier><head>Entscheid über die Einkünfte des Weibels der Dingstatt Nossikon</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich entscheiden, dass Bertschi Bachofner seine Einkünfte für die Ausübung des Weibelamts nur dann erhalte, wenn er das Gericht in Nossikon mit sieben freien Stuhlsässen abhalte, wie es die Offnung vorschreibe.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="11.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1515-03-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000057">Gericht</term><term ref="key000827">Geschworene</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="20" type="original"/>
+<head><lb/><origDate when="1515-03-12">Mentags nach dem <date type="floating holiday">sontag oculi</date></origDate>,
+<lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<abbr>hr</abbr>
+<orgName ref="org002406"><choice><abbr>burg</abbr><expan>burgermeister</expan></choice>
+<persName ref="per005042">Schmid</persName> und beid rät</orgName>
+</head>
+<p><lb/>Uff die vordrung, so <persName ref="per013285">Bärtschi
+<lb/>Bachofner</persName> von des weibel
+<lb/>ampts wegen zuͦ <placeName ref="loc007625">Nossikon</placeName>
+<lb/>in der herrschaft <placeName ref="loc000348">Griffense</placeName>
+<lb/>getan hat, ist erkennt, das
+<lb/>man <persName ref="per013285">Bertschin</persName> umb das, so
+<lb/>verfallen sye und im unbezalt
+<lb/>ußstande, usrichten und vernuͦgen söll.
+<lb/>Und ob <persName ref="per013285">Bärtschi</persName> das gericht
+<lb/>zuͦ <placeName ref="loc007625">Nossikon</placeName> nach lut des <del>ro</del>
+<lb/>offnung rodels <add place="bottom" type="sign">mit den <num value="7">siben</num> fryen stuͦl sitzen</add><note>Die Offnung von
+<placeName ref="loc007625">Nossikon</placeName> schreibt vor, dass das Gericht mit sieben freien Stuhlsässen besetzt werden muss
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref>, Art. 3</bibl>).</note> fu̍ro hin mög
+<lb/>ferttigen und versechen, lassend
+<lb/>min herren im verfolgen das,
+<lb/>so der rodel im deßhalb
+zuͦ<lb break="no"/>gebe. Ob er aber sölichs nit
+<lb/>mög erstatten, wërden min
+<lb/>herren <del>im</del> wyter <del>nu̍tzit
+<lb/>schuldig sin</del> handeln, als sich
+<lb/>werd gepu̍ren.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Offnung von <placeName ref="loc007625">Nossikon</placeName> sieht vor,
+dass dem Weibel für seine Amtsausübung die sogenannte <placeName ref="loc007625">Weibelwiese</placeName> zusteht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref>, Art. 2</bibl>).
+Die Nutzung der Wiese war <persName ref="per013285">Bertschi Bachofner</persName> 1510 erlaubt worden unter der Bedingung,
+dass er in Gerichtsbezirk von <placeName ref="loc007625">Nossikon</placeName> zieht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_051">SSRQ ZH NF II/3, Nr. 51</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

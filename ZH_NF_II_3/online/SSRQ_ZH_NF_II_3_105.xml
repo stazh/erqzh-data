@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_105</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4261552">StAZH B II 703, S. 51-52</idno></msIdentifier><head>Verbot von Winkelwirtschaften in der Herrschaft Greifensee</head><msContents><summary>Statthalter Hans Heinrich Hirzel und beide Räte der Stadt Zürich behandeln eine Klage der ehaften Wirte der Herrschaft Greifensee, vertreten duch Amtshauptmann Heinrich Pfister aus Greifensee, Hans Konrad Weber aus Gfenn, Hans Bachmann aus Fällanden, Jakob Briner und Hans Konrad Berchtold aus Kirchuster gegen Martin Fischer aus Nänikon und die Abgeordneten der Gemeinde Nänikon. Die Wirte verlangen, dass jegliche Winkelwirtschaften verboten werden. Martin Fischer vertritt demgegenüber die Meinung, dass er vorrätigen Wein saum- oder eimerweise verkaufen dürfe. Die Gemeinde Nänikon bittet ihrerseits darum, dass ihr Zapfenwirt in seinem Recht geschützt werde. Nach Anhörung der Parteien entscheidet der Rat, dass die ehaften Wirte durch ihre Tavernengerechtigkeiten vollumfänglich geschützt seien und alle Winkelwirtschaften geschlossen werden müssen. Das saum- oder eimerweise Verkaufen von Wein wird verboten. Der Zapfenwirt von Nänikon darf Wein nur noch per Mass oder Kopf verkaufen und niemanden beherbergen. Der Vogt von Greifensee, Hans Heinrich Lochmann, soll die fehlbaren Winkelwirte bestrafen, die ehaften Wirte für ihre Kosten entschädigen und fortan streng auf die Umsetzung dieses Verbots achten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="11.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1708-08-23"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003396">Alkohol</term><term ref="key000129">Wein</term><term ref="key005460">Winkelwirtschaft</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="51"/>
+<head><lb/><origDate when="1708-08-23">Donnerstags, den 23<hi rend="sup">ten</hi> augusti</origDate>,
+<lb/><choice><abbr>prntb</abbr><expan>presentibus</expan></choice> herr statthalter <persName ref="per015060">Hirtzel</persName>
+<lb/>und <orgName ref="org002406">beyde räthe</orgName></head>
+<p><seg><lb/>In der streithigkeit entzwischen
+ammts<lb break="no"/>haubtmann <persName ref="per015053">Heinrich Pfister</persName> von
+<placeName ref="loc008569">Greyffen<lb break="no"/>see</placeName>, <persName ref="per015061">Hanß Conrad Wäber</persName> im <placeName ref="loc008751">Gfänn</placeName>,
+<lb/><persName ref="per015056">Hanß Bachmann</persName> von <placeName ref="loc008651">Fällanden</placeName>, <persName ref="per015058">Jacob
+<lb/>Breyner</persName> von <placeName ref="loc008735">Kilch-Uster</placeName> und <persName ref="per015057">Hanß
+Con<lb break="no"/>rad Berchtold</persName>, auch von daselbst, in ihrem
+<lb/>und überiger ehehaffter wirthen der
+<lb/>herrschafft <placeName ref="loc000348">Greyffensee</placeName> nammen an
+ei<lb break="no"/>nem, danne <persName ref="per015059">Martin Fischer</persName> von
+<placeName ref="loc008816">Nä<lb break="no"/>nikhon</placeName> an dem anderen und einichen
+<lb/>abgeorderten der <orgName ref="org004894">gemeind <placeName ref="loc008816">Nänikhon</placeName></orgName>
+<lb/>an dem dritten theil, betreffende,
+<lb/>daß die ehehaffte wirthe sich ab <unclear>denen</unclear>
+<lb/>je mehr und mehr zu ihrem grossen
+<lb/>nachtheil einreyssenden
+winkhel-wirth<lb break="no"/>schafften ernstlich beklaget und umb
+<lb/>derselben abschaffung trungenlich
+an<lb break="no"/>gehalten, der <persName ref="per015059">Martin Fischer</persName>
+vermei<lb break="no"/>nen wollen, es ihme wol erlaubet
+<lb/>seye, den dann und wann einlegenden
+<lb/>wein wiederumb zu saumen oder
+ey<lb break="no"/>meren weyß hinweg geben zumögen,
+<lb/>und drittens die <orgName ref="org004894">gemeind <placeName ref="loc008816">Nänikhon</placeName></orgName>
+ge<lb break="no"/>betten, ihren bewilligeten zapfen-wirth
+<lb/>bey seiner befugsamme zu schützen.</seg>
+<seg>Ward
+<lb/>nach anhörung der partheyen vor- und
+<lb/>wieder bringens in erdauhrung der sachen
+<lb/>bewandnus einhellig erkennet, daß
+<lb/>die ehehaffte wirthe in der herrschafft
+<lb/><placeName ref="loc000348">Greyffensee</placeName> bey ihren
+tavernen-ge<lb break="no"/>rechtigkeiten, brieff und siglen bestens
+<lb/>geschützet und geschirmet, folglich alles
+<lb/>winkhel-wirthen in dem gantzen ammt
+<lb/>abgekennet, alles verkauffen des
+<lb/>weins, der einem nicht selber wachsst,
+<lb/>es seye zu saumen, eymeren, tansen
+<lb/>oder bey der maß, gäntzlich verbotten
+<lb/>seyn, der sich selbst wachsende wein
+<lb/>nicht anderst als bey dem zapfen
+aus<lb break="no"/>geschenkhet und niemand gesetzet
+wer<lb break="no"/>den, der zapfen-wirth zu <placeName ref="loc008816">Nänikhon</placeName>
+<lb/>seinen wein nicht anderst als bey
+<lb/>dem zapfen zu maassen und köpfen
+<lb/>ausschenkhen und niemand beherbergen
+<lb/><add place="above">oder setzen</add>, herr landtvogt <persName ref="per002266">Lochmann</persName><note><persName ref="per002266">Hans Heinrich Lochmann</persName> (im Amt 1704-1710, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 112</bibl>).</note> zu
+<placeName ref="loc000348">Greyffen<pb n="52"/><lb break="no"/>see</placeName> die, bis hiehar mit winkhel-wirthen
+<lb/>sich fehlbar erzeigete, je nach
+befin<lb break="no"/>denden dingen abstraffen, denen
+wir<lb break="no"/>then an ihre gehabte kösten das
+bil<lb break="no"/>liche sprechen und auff diesere <choice><abbr>mrghrn</abbr><expan>meiner gnädigen herren</expan></choice>
+<lb/>erkanntnus fleissig vigiliren solle.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Gewandelte Vorstellungen bezüglich Sittlichkeit und Moral führten dazu,
+dass die <orgName ref="org002406">Zürcher Obrigkeit</orgName> nach der Reformation vermehrt auch Regelungen betreffend Wirtshäuser erliess,
+um allzu auschweifende Formen der Geselligkeit, des Essens und Trinkens, aber auch des Tanzens und Spielens zu unterbinden.
+Umfassend geregelt wurden diese Punkte im Grossen Mandat von 1530, welches festlegte,
+dass es neben den obrigkeitlich konzessionierten, ehaften Tavernen oder Gasthäusern keine Winkelwirtschaften geben dürfe.
+Den ehrbaren Leuten in Weinbaugebieten sollte es jedoch gestattet sein,
+ihren eigenen Wein ab dem Zapfen zu verkaufen, solange sie keine Gäste beherbergten oder verpflegten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_008">SSRQ ZH NF I/1/11, Nr. 8</ref></bibl>).
+Bezugnehmend auf dieses Mandat gelangte am 1. August 1530 die <orgName ref="org004894">Gemeinde <placeName ref="loc008816">Nänikon</placeName></orgName> an den Rat,
+um für <persName ref="per015248">Hans Denzler</persName> die Konzession zu erlangen,
+im Dorf eine Wirtschaft mit Speise und Trank zu führen, was ihm gestattet wurde
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=698819">StAZH A 123.1, Nr. 115</ref></bibl>).
+Weitere offiziell anerkannte Gasthäuser gab es im Städtchen <placeName ref="loc008569">Greifensee</placeName>,
+in <placeName ref="loc006198">Uster</placeName>, <placeName ref="loc008651">Fällanden</placeName>,
+<placeName ref="loc008751">Gfenn</placeName>, <placeName ref="loc008648">Maur</placeName>
+und <placeName ref="loc008884">Ebmatingen</placeName>
+sowie in den Exklaven <placeName ref="loc008837">Schalchen</placeName> und <placeName ref="loc010560">Neubrunn</placeName>.
+Daneben hatte sich der Vogt von <placeName ref="loc000348">Greifensee</placeName>
+immer wieder mit Winkelwirtschaften zu beschäftigen,
+deren Betreiber Wein ausschenkten, ohne über eine Konzession zu verfügen.
+So musste er dem <orgName ref="org002406">Zürcher Rat</orgName> 1567 anlässlich eines Konflikts
+mit der <orgName ref="org004888">Gemeinde <placeName ref="loc008735">Kirchuster</placeName></orgName> über den Einzug davon berichten,
+dass es in <placeName ref="loc006198">Uster</placeName> neben den drei ehaften Tavernen noch fünf Winkelwirtschaften gebe,
+wo Tag und Nacht Betrieb herrsche, worauf der Rat umgehend deren Schliessung anordnete
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=730730">StAZH A 123.3, Nr. 3</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4283014">StAZH B II 139, S. 38-39</ref></bibl>).
+Auch die Weinschenke in <placeName ref="loc008816">Nänikon</placeName>
+war zwischenzeitlich infolge eines Streits unter den Wirten geschlossen worden,
+weswegen die Gemeinde 1630 an den <orgName ref="org002406">Zürcher Rat</orgName> gelangte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=940325">StAZH A 123.4, Nr. 119</ref></bibl>).
+Der Rat willigte ein, dass die Gemeindegenossen jemanden aus ihrer Mitte zum Weinschenken wählen
+und zwei ehrliche Männer bestimmen, die den Wein schätzen und taxieren sollen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4300165">StAZH B II 391, fol. 33r-v</ref></bibl>).
+Als demgegenüber 1640 die <orgName ref="org004886">Gemeinde <placeName ref="loc008815">Hegnau</placeName></orgName> den Rat um Bewilligung einer Weinschenke
+wie in <placeName ref="loc008816">Nänikon</placeName> ersuchte, wurde dieses Begehren abgewiesen mit der Begründung,
+dass es in den umliegenden Ortschaften bereits genügend Wirtshäuser gebe
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_095">SSRQ ZH NF II/3, Nr. 95</ref></bibl>).
+</p>
+<p>Mit dem hier edierten Stück wurde im Sommer 1708 erneut ein Versuch unternommen,
+sämtliche Winkelwirtschaften in der Herrschaft <placeName ref="loc000348">Greifensee</placeName> zu schliessen
+und den unbeaufsichtigten Weinhandel zu unterbinden.
+Vorausgegangen war eine Auseinandersetzung,
+bei der es gemäss den Schilderungen des Vogts fast zu Totschlag gekommen wäre,
+nachdem er versucht hatte, den Weinhandel unter Strafe zu stellen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1841262">StAZH A 123.6, Nr. 174</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

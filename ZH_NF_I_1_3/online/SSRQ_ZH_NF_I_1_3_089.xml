@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_089</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917112">StAZH B III 6, fol. 74r-v</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Fischverkäufer</head><msContents><summary>Die Verkäufer von gesalzenem, geräucherten und getrocknetem Fisch sowie von Plattfischen sollen nur so viel Fische wässern, wie sie in drei Tagen verkaufen können und nach Ablauf dieser Frist dieselben nicht mehr an Kunden abgeben, sondern verbrennen. Gesalzene Fische dürfen nicht aufgehängt und danach verkauft werden. Die Wässerung ist ausschliesslich mit frischem, sauberem Brunnenwasser durchzuführen. Eingeführte getrocknete Fische sollen im Waaghaus ausgelegt und von den geschworenen Beschauern geprüft werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004353">Einfuhr</term><term ref="key000536">Fischerei</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term><term ref="key000882">Nahrungsmittel</term><term ref="key000716">Wasserführung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="74r"/>
+<head><lb/>Ordnung deren, die hering, bu̍cking, <lb/>stockfisch und blatißli<!-- tke: Scholle, Plattfisch (Idiotikon: Blattisli) --> verkouffent</head>
+<p>
+<lb/>Es sollent alle die, so hering, stockfisch, bu̍cking unnd blatißli
+<lb/>feyl habent, keinen stockfisch, hering noch blatißli inleggen zewessern,
+<lb/>dann die er vertruwet in <date dur="P3D"><subst><del hand="later hand">zweyen</del><add place="above" hand="later hand">drygen</add></subst> tagen</date> den nechsten darnach
+<lb/>zuverkouffen unnd was ir yedem derselben heringen, stockfischen
+<lb/>unnd blatißlin uberlipt, dieselben niemend mer zukouffen geben.
+</p>
+<p>
+<lb/>Es sol ouch ir keiner keinen hering uffhencken noch trochnen und
+<lb/>dann den demselben nach wider verkouffen.
+</p>
+<p>
+<lb/>Deßglich sol ir keiner der obgeschribnen fischen keinen wessern
+<lb/>anders dann mit frischem, unversertem brunnen wasser.
+</p>
+<p>
+<lb/>Unnd was inen von heringen, stockfischen unnd blatißlinen uberblipt
+<lb/><del>uberlipt</del> uber das bestimpt zil, die <subst><del>zwey</del><add place="above">dryg</add></subst> tag, sollent sy nit mer
+<lb/>verkouffen, sonder <del>sollent</del> sy die nemen unnd verbrennen.
+</p><pb n="74v"/>
+<p>
+<lb/>Es sollent ouch all bu̍cking, so in unnser statt koment, in das klein
+<lb/><placeName ref="loc010627">Kouffhuss</placeName>, so man nempt das <placeName ref="loc010627">Waghuss</placeName>, gelegt werden und das,
+<lb/>das verkoufft wirt, sol von unnsern geschwornen beschowern
+<lb/>beschowet werden.<note>Für den Eid der Fischbeschauer vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1917111">StAZH B III 6, fol. 74r</ref></bibl>.</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Ordnung stellt eine Ergänzung zur Fischmarktordnung der Stadt <placeName ref="loc000065">Zürich</placeName> von 1497 dar
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1927158">StAZH B II 2, fol. 72r-73r</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 307-309, Nr. 128</bibl>). Während jene den Verkauf von Fischen aus inländischen Gewässern zum Inhalt hat, der für gewöhnlich durch die <orgName ref="org004930">Fischer</orgName> selbst vorgenommen wurde, regelt die vorliegende Aufzeichnung den Verkauf von eingeführtem Fisch, der durch Trocknung, Räucherung oder Einsalzung haltbar gemacht wurde. Sie wurde im Jahr 1536 auf Ersuchen der <orgName ref="org004931">Fischverkäufer</orgName> angepasst (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_163">SSRQ ZH NF I/1/3, Nr. 163</ref></bibl>). Der <placeName ref="loc008753">Fischmarkt</placeName> wurde jeweils Montag, Mittwoch, Freitag und Samstag abgehalten und befand sich zwischen <placeName ref="loc008754">Rathaus</placeName> und <placeName ref="loc010447">Zunfthaus zum Rüden</placeName>.</p>
+<p>Zum <placeName ref="loc008753">Fischmarkt</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA III.II</ref>, S. 64-65</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref>, S. 121-122</bibl>; zur Fischerei auf dem <placeName ref="loc000127">Zürichsee</placeName> vgl. die Zunfturkunde der Zunft zur <orgName ref="org005079">Schiffleuten</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_045">SSRQ ZH NF I/1/3, Nr. 45</ref></bibl>); zur Haltbarmachung der Fische vgl. <bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref>, S. 107-112</bibl>; zu Fischhandel und obrigkeitlicher Qualitätskontrolle vgl. <bibl><ref target="/startseite/literaturverzeichnis">Heidinger 1910</ref>, S. 89-98</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_005</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=905877">StAZH A 85, Nr. 1</idno></msIdentifier><head>Kundschaft über den Grenzverlauf auf dem Greifensee</head><msContents><summary>In einem Streit über den Grenzverlauf auf dem Greifensee wird Kundschaft eingeholt. Verschiedene Zeugen sagen aus, sie hätten von ihren Vorderen erfahren, dass der See vor Riedikon zum Hof Mönchaltorf gehöre, und zwar bis zum Breitenstein, der zwischen Uessikon und Maur liegt, und von dort in gerader Linie über den See bis zum Breitbrunnen. Vor Zeiten habe es darüber einen Streit gegeben zwischen Diethelm und Friedrich von Toggenburg sowie Hermann von Landenberg, in dessen Folge die Toggenburger den Leuten von Greifensee ihre Netze zerschnitten, die Fischer gefangen setzten und sie in Grüningen in den Turm sperrten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="23.5"/></dimensions></extent><condition>Restauriert</condition></supportDesc></objectDesc></physDesc><history><origin><origDate from="1301-01-01" to="1400-12-31">Undatiert, vermutlich nach 1374</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000174">Fehde</term><term ref="key000536">Fischerei</term><term ref="key000305">Grenze</term><term ref="key003261">Kundschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_85__Nr__1__r_.tif"/>
+<p><lb/>Herr, dis ist die kunschaft von des <placeName ref="loc008718">Griffensewes</placeName> wegen.</p>
+<p><lb/>Des ersten het der alt <persName ref="per013756">Heinrich Murer</persName> geseit, das er voͤr ein
+<lb/>recht warheit wol wis, das vormals ouch mest des darumb
+<lb/>si gesin und mit geswornen eiden erzu̍get sig, <del>w</del>das der
+<lb/><placeName ref="loc008718">Griffense</placeName> in den hof ze <placeName ref="loc008728">Altorf</placeName> hoͤrt unz an den <placeName ref="loc010392">Breiten
+<lb/>Stein</placeName>, der zwischen <placeName ref="loc008790">Oesikon</placeName> und <placeName ref="loc008648">Mure</placeName> lit, und von dem stein
+<lb/>gelich u̍ber se unz an den brunen, den man nemt der <placeName ref="loc010391">Breit
+<lb/>Brun</placeName>.</p>
+<p><lb/>Item das selb het <persName ref="per013752">Werli Kofman</persName> ouch geseit, das ers vor ein recht
+<lb/>warheit wis.</p>
+<p><lb/>Item <persName ref="per013758">Hans Sumerl</persName> von <placeName ref="loc008881">Tu̍fental</placeName> seit ouch bi sim eit, a<supplied resp="rhr">l</supplied>s der alt <del>Beibich</del>
+<lb/><persName ref="per013756">Heinrich Murer</persName>. <persName ref="per013513">Frischi Hu̍ndler</persName> seit ouch a<supplied resp="rhr">l</supplied>s der alt <persName ref="per013756">Heinrich <add place="below">Murer</add></persName>.</p>
+<p><lb/>Item so seit <persName ref="per013759">Hans Trieger</persName> von <placeName ref="loc008760">Groͤningen</placeName> und <persName ref="per013757">Roedi Oͤtinger</persName>
+<lb/>von <placeName ref="loc008723">Eg</placeName> und <persName ref="per013755">Roedi <del>Oͤtinger</del> Ku̍ng</persName> von <placeName ref="loc008846">Rietikon</placeName>, das si
+<lb/>von ir vordren voͤrnomen haben, wer ein recht warheit,
+<lb/>das der se in den hof gen <placeName ref="loc008728">Altorf</placeName> hoͤrt unz an den <placeName ref="loc010392">Breiten
+<lb/>Stein</placeName> und unz an den <placeName ref="loc010391">Breiten Brunen</placeName> eitwedrent lanz ab.</p>
+<p><lb/>Item so seit <persName ref="per013753">Berschi Keller</persName> und sin bruͦder <persName ref="per013754">Herman</persName> und <persName ref="per013760">Oulrich
+<lb/>Weber</persName>, das si von ir vordern voͤrnomen haben, das si voͤr ein
+<lb/>recht warheit wissen, das der se in den hof ze <placeName ref="loc008728">Altorf</placeName> hoͤrt
+<lb/>voͤr <placeName ref="loc008846">Rietikon</placeName> ab unz an den <placeName ref="loc010391"><sic>Breten</sic> Brunen</placeName>.</p>
+<p><lb/>Si sprechent ouch, das die stoͤs sigen gesin zwischen graf
+<lb/><persName ref="per005122">Diethelm von Togenburg</persName> dem alten und graf <persName ref="per005120">Fridrich</persName>,
+<lb/>dir herren vatter, zuͦ eim teil und zwischen her <persName ref="per000348">Herman
+<lb/>von Lan<damage agent="ink blot"><unclear cert="high">d</unclear></damage>enberg</persName>, dir von <orgName ref="org000152">Landenberg</orgName> vatter, zuͦ dem ander
+<lb/>teil, und ei das der saz beschech und bericht wurt, a<supplied resp="rhr">l</supplied>s hie vor
+<lb/>gesriben stat, das die herren von <orgName ref="org000144">Togenburg</orgName> den von
+<lb/><placeName ref="loc008569">Grifense</placeName> dich ir garn zerhu̍wen und die vischer viengen
+<lb/>und leitenz in den tuͦrn gen <placeName ref="loc008760">Gruͦeningen</placeName> unz uf die
+<lb/>stunt, das men abgeleit wart.</p>
+</div>
+<pb n="v" facs="StAZH_A_85__Nr__1__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Kuntschafft von des
+<lb/>sews und der vischentzn
+<lb/>weͣgen <placeName ref="loc008718">Gryfense</placeName></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Streitigkeiten zwischen <orgName ref="org000144">Toggenburg</orgName> und <orgName ref="org000152">Landenberg</orgName>,
+von denen die Befragten erzählen, muss es zwischen 1314 und 1331 gekommen sein.
+In dieser Zeit amtierten die <orgName ref="org000144">Toggenburger</orgName>
+als österreichische Pfleger in <placeName ref="loc000362">Grüningen</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3312</bibl>).
+Ab 1331 waren dann die <orgName ref="org000152">Landenberger</orgName> Pfleger von <placeName ref="loc000362">Grüningen</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4368 und 4447</bibl>).
+Die Kundschaft wurde demnach in der folgenden Generation eingeholt,
+also in der zweiten Hälfte des 14. Jahrhunderts und vermutlich nach 1374,
+nachdem das Amt <placeName ref="loc000362">Grüningen</placeName>
+an den österreichischen Kammermeister <persName ref="per000357">Heinrich Gessler</persName> verpfändet worden war.
+Parallel zu der Kundschaft entstand nämlich ein weiteres Schreiben gleichen Inhalts,
+das sich ausdrücklich an den Kammermeister richtet
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=906689">StAZH A 85, Nr. 2</ref></bibl>).
+Möglicherweise führte der Handwechsel der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+von den <orgName ref="org000152">Landenbergern</orgName> zu den Grafen von <orgName ref="org000144">Toggenburg</orgName>
+in den Jahren 1369 bis 1375 dazu, dass über die Zugehörigkeit des Sees erneut verhandelt wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_004">SSRQ ZH NF II/3, Nr. 4</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_006">Nr. 6</ref></bibl>).
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 40</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Zimmermann 1990</ref>, S. 7</bibl>.</p>
+<p>Die beiden Papierrödel befanden sich ursprünglich im Besitz der Familie <orgName ref="org000154">Gessler</orgName>
+und kamen beim Verkauf der Herrschaft <placeName ref="loc000362">Grüningen</placeName> im Jahr 1408
+zusammen mit weiteren Archivalien an die Stadt <placeName ref="loc000065">Zürich</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=529365">StAZH A 124.1, Nr. 5</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

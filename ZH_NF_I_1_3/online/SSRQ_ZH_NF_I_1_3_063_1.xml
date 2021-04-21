@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_063_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3737847">StAZH B III 2, S. 355, Eintrag 1</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Vorrang von Frauen in Konkursen</head><msContents><summary>Bürgermeister und Rat beschliessen, dass bei Konkurs eines Mannes der Ehefrau ihr zugebrachtes Gut, die Morgengabe sowie das Eherecht ausbezahlt werden sollen, sofern sie dies wünscht. Dabei ist so zu verfahren, wie wenn der Mann gestorben wäre. Der Anspruch der Ehefrau auf die genannten Vermögensanteile geht auch allen anderen Schuldforderungen gegenüber dem Mann vor. Vorbehalten sind jedoch allfällige Bürgschaften, welche die Frau für ihren Ehemann übernommen hat. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1498-05-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000863">Ehe</term><term ref="key000597">Erbrecht</term><term ref="key004367">Konkurs</term><term ref="key000112">Morgengabe</term><term ref="key000058">Schulden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="355"/>
+<head><lb/>Die frowen gand <lb/>inn ufffaͤllen vor mengklichem</head>
+<p>
+<lb/><seg>Wir, der <orgName ref="org002406">burgermeister und raͧtt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, haben unns erkennt, geordnet
+<lb/>und angesechen, ob ein uffal uff eines manns guͦt by sinem leben beschicht, das dann
+<lb/>sin eefroͧw, ob sy das begert, vor allen gellten umb ir zuͦbracht guͦt, morgengaͧb
+<lb/>und ee recht<note>Zum Begriff des Eherechts, der den Vermögensanteil bezeichnet, welcher der Ehefrau nach dem Tod des Mannes zustand, vgl. die Erläuterung zum Erbrecht von Eheleuten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_193">SSRQ ZH NF I/1/3, Nr. 193</ref></bibl>).</note> usgericht werden solle, inn aller maͧß, als ob der mann gestorben were,
+<lb/>nach innhalt des vorgeschribnen rodels und unnser statt recht.<note>Dies bezieht sich auf die Ordnung für die Ausrichtung von Witwen
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_001">SSRQ ZH NF I/1/3, Nr. 1</ref></bibl>). Vgl. auch die erbrechtlichen Bestimmungen der Stadt <placeName ref="loc000065">Zürich</placeName>
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_133">SSRQ ZH NF I/1/3, Nr. 133</ref></bibl>).</note></seg>
+<seg>Ob aber die
+  <lb/>froͧw fu̍r iren mann ichtzit gelobt hette, darumb soll demnach ir guͦt nit
+  <lb/>destminder hafft und verbunden sin, so vil und sich mit recht befindt.</seg>
+<seg>Actum
+<lb/><origDate when="1498-05-19">sambstag nach sannt <persName ref="per020088">Bonifaciis</persName> tag, nach Christi gepurt gezellt tusennt
+ <lb/>vierhundert nu̍ntzig und acht jare.</origDate></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung wurde im Jahr 1512 dahingehend ergänzt, dass der beschriebene Anspruch der Ehefrau ausser Kraft gesetzt wurde, wenn es sich um ein von den Eheleuten gemeinsam betriebenes Gewerbe handelte, das Konkurs gegangen war (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_078">SSRQ ZH NF I/1/3, Nr. 78</ref></bibl>).</p>
+<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref>, S. 205</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 53; 131</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

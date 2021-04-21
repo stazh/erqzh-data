@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_062</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4304336">StAZH F III 12, Nr. 1</idno></msIdentifier><head>Rechnung der Vogtei Greifensee für das Jahr 1542</head><msContents><summary>Der Vogt von Greifensee, Bilgeri Leemann, legt vor dem Zürcher Rat die Rechnung der Vogtei Greifensee ab. An Einnahmen werden alte Restanzen, Zinsen gemäss Urbar, Bussen aus Uster und Greifensee sowie Abgaben der Eigenleute aufgelistet. Die Ausgaben betreffen unter anderem Weibelgänge und Botenmähler, Baukosten, Richterlöhne sowie Spesen für Ritte in die Stadt. Nach Verrechnung der Einnahmen und Ausgaben bleibt der Vogt noch 120 Mütt und 2 Viertel Kernen, 4 Malter, 3 Mütt und 3 Viertel Hafer sowie 19 Pfund, 6 Schilling und 3 Pfennig an Geld schuldig.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Heft (10 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1543-02-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004175">Ausgaben</term><term ref="key005369">Buchführung</term><term ref="key004536">Finanzen</term><term ref="key000574">Rechnungswesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head type="title"><lb/>Der vogtie rechung rodell zuͦ <placeName ref="loc000348">Gryffensee</placeName>,
+<lb/>des <origDate when="1543-02-26">1543 jars uff me<supplied reason="omitted" resp="rhr">n</supplied>tag nach
+<lb/>sannt <persName ref="per000340">Mathis</persName> tag</origDate> vor minenn <damage agent="ink blot">gnä</damage>digenn
+<lb/>herenn grächnot, von <persName ref="per012737">Billgerin Lemann</persName>
+<lb/>gegäbenn</head>
+<head type="title"><lb/>Inämmen im <date when="1542">1542</date></head>
+<add place="below" hand="later hand">ander</add>
+<add place="below" hand="later hand"><origDate when="1543-02-26">26 hornung</origDate></add>
+<pb n="2"/>
+<pb n="3"/>
+<head type="subtitle"><lb/>Innämen von allter restantz <date when="1542">1542</date></head>
+<table>
+<row><cell>Ann kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="92">lxxxxij <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2">ij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Immi" quantity="2.5" commodity="spelt">iiɉ ymi</measure></measureGrp></cell></row>
+<row><cell>Ann haber</cell><cell>‒</cell></row>
+<row><cell>An gelltt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="80">lxxx </measure>
+<measure type="currency" unit="ß" quantity="1">j </measure>
+<measure type="currency" unit="h" quantity="8.5">viiiɉ ħ</measure></measureGrp></cell></row>
+</table>
+<head type="subtitle"><lb/>Inämen an <date dur="R/P1Y">jerlichen</date> zinßenn lut des urbers<note>Diese
+Angaben stimmen überein mit dem Urbar von 1416 und seinen Nachfolgern
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>).</note></head>
+<table>
+<row><cell>Ann kernen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="173">j<hi rend="sup">c</hi> lxxiij <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="3">iij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Immi" quantity="1" commodity="spelt">j ymi</measure></measureGrp></cell></row>
+<row><cell>Ann haber</cell><cell><measureGrp><measure type="volume" unit="Malter" quantity="15">xv malter</measure>
+<measure type="volume" unit="Mütt" quantity="2" commodity="oat">ij <abbr>m<hi rend="sup">t</hi></abbr></measure></measureGrp></cell></row>
+<row><cell>An gelltt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="86">lxxxvj </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure>
+<measure type="currency" unit="h" quantity="6.5">viɉ ħ</measure></measureGrp></cell></row>
+</table>
+<table>
+<row><cell/><cell>ann kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="266">ij<hi rend="sup">c</hi> lxvj <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="1">j <abbr>fl</abbr></measure>
+<measure type="volume" unit="Immi" quantity="3.5" commodity="spelt">iiiɉ ymi</measure></measureGrp></cell></row>
+<row><cell>Suma</cell><cell>ann haber</cell><cell><measureGrp><measure type="volume" unit="Malter" quantity="15">xv malter</measure>
+<measure type="volume" unit="Mütt" quantity="2" commodity="oat"> ij <abbr>m<hi rend="sup">t</hi></abbr></measure></measureGrp></cell></row>
+<row><cell/><cell>an gelltt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="166">j<hi rend="sup">c</hi> lxvj </measure>
+<measure type="currency" unit="ß" quantity="8">viij </measure>
+<measure type="currency" unit="h" quantity="3">iij <abbr>hr</abbr></measure></measureGrp></cell></row>
+</table>
+<pb n="4"/>
+<p><lb/>Von fellen an gellt ‒</p>
+<p><lb/>Vomm dryten pfenig ‒</p>
+<p><lb/>Vonn erben ann gellt ‒</p>
+<p><lb/>Von ungnosamy ann gelt ‒</p>
+<p><lb/>Suma an gelltt ‒</p>
+<pb n="5"/>
+<head type="subtitle"><lb/>Von buͦßen zuͦ <placeName ref="loc006198">Uster</placeName> gefallenn, miner
+<lb/>gnädigen heren halb theill zuͦgehörig</head>
+<p><lb/><measure type="currency" unit="lb" quantity="4">iiij </measure> gab <persName ref="per014770">Felix Schmid</persName>, umb das er zuͦ des jungen
+<lb/><unclear><persName ref="per016576">Thotzen</persName></unclear> wyb <time period="byNight">nachtz</time> in die kamer gestigenn
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure> vonn <persName ref="per016576">Peter Schmid</persName>, umb das er sinen sun wolt
+<lb/>retenn, denn mann fachen sollt
+</p>
+<p><lb/><measure type="currency" unit="ß" quantity="7.5">viiɉ </measure> von <persName ref="per014775">Heimy Solannd</persName> umb ein funst streich
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="6">vj </measure> von <persName ref="per014742">Erny Bruner</persName>, ein armer gsell, umb etlich
+<lb/>fryd brüchig wortt gegen <persName ref="per014741">Thomann Bruner</persName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="10">x </measure> vonn <persName ref="per014771">Hannßenn Schmid</persName> vonn <placeName ref="loc008736">Oberuster</placeName> umb ein
+<lb/>funst streich über recht pott gegenn <persName ref="per014727">Jacob Purenn</persName>
+</p>
+<p><lb/>Item ann <persName ref="per013920">Steffann Knospenn</persName> habend mine herenn durch
+<lb/>den oberstenn stattknächt uff demm <placeName ref="loc008754">Rathhußenn</placeName>
+<lb/>enpfanngen ‒
+</p>
+<p><lb/>Suma an gelt <measureGrp><measure type="currency" unit="lb" quantity="21">xxj </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure>
+<measure type="currency" unit="h" quantity="6">vj <abbr>hr</abbr></measure></measureGrp>
+</p>
+<pb n="6"/>
+<head type="subtitle"><lb/>Vonn buͦßenn zuͦ <placeName ref="loc000348">Griffennsee</placeName> und in ampt</head>
+<p><lb/><measure type="currency" unit="lb" quantity="10">x </measure> vomm jungen <persName ref="per014769">Sallenbach</persName> zuͦ <placeName ref="loc008817">Wärikonn</placeName>, umb das er
+<lb/>ein thochter geschwecht unnd sy zuͦ ee <add place="above">nüt</add> gehept
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp> vonn <persName ref="per014753">Heinrich Günthart</persName> vonn eins funst streichs wägen
+<lb/>gägenn sinem bruͦder
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp> vonn <persName ref="per014772">Schmid</persName> zuͦ <placeName ref="loc008715">Volckentschwil</placeName> umb ein funst streich zuͦ
+<persName ref="per014745">Than<lb break="no"/>gel</persName> gethann
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014767">Kuͤnin Pfister</persName> von <placeName ref="loc008724">Gosow</placeName>, als er gelt uß den potenn
+<lb/>hinwäg gnommen
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014769">Hanns Sallenbach</persName> von <placeName ref="loc008817">Wärikon</placeName>, als er pott übersechenn
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014758">Jacob Hotinger</persName> zuͦ <placeName ref="loc008648">Mur</placeName>, als er <num value="3">drü</num> pott übersechen
+</p>
+<p><lb/><measure type="currency" unit="ß" quantity="16">xvj </measure> vonn <persName ref="per014758">Jaß Hotinger</persName> zuͦ <placeName ref="loc008648">Mur</placeName> vonn eines funst streichs wägen
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014754">Heinin Guͦt</persName> vonn <placeName ref="loc008776">Anslikon</placeName> vonn potten zuͦ übersechenn
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="8">viij </measure> vonn eim vonn <placeName ref="loc008737">Nideruster</placeName>, als er ein meitlin gschlagenn
+</p>
+<p><lb/>Suma ann gellt <measureGrp><measure type="currency" unit="lb" quantity="41">xlj </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure></measureGrp>
+</p>
+<pb n="7"/>
+<head type="subtitle"><lb/>Von spil buͦßen, erstlich zuͦ <placeName ref="loc006198">Uster</placeName></head>
+<p><lb/><measure type="currency" unit="lb" quantity="2.5">iiɉ </measure> vonn <persName ref="per014755">Lasarus Girenn</persName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5"><subst><del>iiɉ</del><add place="left margin" hand="other hand">v</add></subst> </measure> vonn <persName ref="per014756">Uͦlrichenn Giren</persName>
+<add place="inline" hand="other hand">unnd <persName ref="per014760">Balthaßar Yßenschlegel</persName></add>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="2.5">iiɉ </measure> vonn <persName ref="per014760">Balltaßar Isenschlegell</persName>
+</p>
+<head type="subtitle"><lb/>Spillbuͦßenn zuͦ <placeName ref="loc000348">Griffennsee</placeName> unnd im ampt</head>
+<p><lb/><measure type="currency" unit="lb" quantity="10">x </measure> vonn <persName ref="per014762">Klaußen Knüsly</persName> vonn <num value="2">zweyen</num> spillbuͦsen
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="18">xviij </measure>
+<measure type="currency" unit="ß" quantity="8">viij </measure>
+<measure type="currency" unit="h" quantity="9">viiij ħ</measure></measureGrp> vonn <persName ref="per014757">Kuͦmadenn Hemig</persName>, <add place="above">ein</add> spillbuͦß,
+<lb/>ouch das er etlich glüpt unnd pot übersächen hatt
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014744">Kuͤny Thangel</persName>, das er gspilt
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014748">Felixen Thentzler</persName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014747">Batt Thenntzler</persName>
+</p>
+<p><lb/>Suma <measureGrp><measure type="currency" unit="lb" quantity="50">l </measure>
+<measure type="currency" unit="ß" quantity="18">xviij </measure>
+<measure type="currency" unit="h" quantity="9">viiij ħ</measure></measureGrp>
+</p><!-- rhr: Summe stimmt nicht, es müssten 53 lb 8 ß und 9 h sein; es sind 2.5 lb weniger, vielleicht anhand der Korrektur oben erklärbar, wenn der zweite Punkt für Baltasar Isenschlegel nicht gezählt wird? -->
+<pb n="8"/>
+<head type="subtitle"><lb/>Vonn spilbuͦßenn</head>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per011036">Hannßen Wißenn</persName>, das er gespillt
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> von <persName ref="per014746">Andreßen Thentzler</persName> zuͦ <placeName ref="loc008816">Nänikonn</placeName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014749">Hannßen Thentzler</persName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="5">v </measure> vonn <persName ref="per014750">Heimi Thentzler</persName>, spillbuͦß
+</p>
+<p><lb/>Suma <measure type="currency" unit="lb" quantity="20">xx </measure>
+</p>
+<head type="subtitle"><lb/>Suma ann gellt aller buͦßen, so mir
+<lb/>wordenn sind</head>
+<p><lb/>An geltt <measureGrp><measure type="currency" unit="lb" quantity="133">j<hi rend="sup">c</hi> xxxiij </measure>
+<measure type="currency" unit="ß" quantity="12">xij </measure>
+<measure type="currency" unit="h" quantity="3">iij ħ</measure></measureGrp>
+</p>
+<pb n="9"/>
+<head type="subtitle"><lb/>Von eygnen lütenn</head>
+<p><lb/><measure type="currency" unit="lb" quantity="9">viiij </measure> gennd <date dur="R/P1Y">jerlich</date> die vonn <placeName ref="loc008835">Hutzikonn</placeName> als von der eigen lüten
+<lb/>wägenn
+</p>
+<head type="subtitle"><lb/>Von der roubstür</head>
+<p><lb/><measure type="currency" unit="lb" quantity="6">vj </measure>
+</p>
+<p><lb/>Suma an geltt <measure type="currency" unit="lb" quantity="15">xv </measure>
+</p>
+<head type="subtitle">Suma sumarum alles inämens</head>
+<table>
+<row><cell>Ann kernenn</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="266">ij<hi rend="sup">c</hi> lxvj <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="1">j <abbr>fl</abbr></measure>
+<measure type="volume" unit="Immi" quantity="3.5" commodity="spelt">iiiɉ ymi</measure></measureGrp></cell></row>
+<row><cell>An haber</cell><cell><measureGrp><measure type="volume" unit="Malter" quantity="15">xv malter</measure>
+<measure type="volume" unit="Mütt" quantity="2" commodity="oat">ij <abbr>m<hi rend="sup">t</hi></abbr></measure></measureGrp></cell></row>
+<row><cell>Ann gelltt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="315">iij<hi rend="sup">c</hi>
+<subst><del>xxxj</del><add place="above" type="sign">xv</add></subst> </measure>
+<measure type="currency" unit="ß" quantity="4"><del>iiij </del></measure>
+<measure type="currency" unit="h" quantity="6">vj ħ</measure></measureGrp></cell></row>
+</table>
+<pb n="10"/>
+<head type="title"><lb/><persName ref="per012737">Billgerin Lemans</persName> usgebenn, <date when="1542">1542</date></head>
+<head type="subtitle"><lb/>Usgebenn dem kornmeyster</head>
+<table>
+<row><cell>Ann kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="132">j<hi rend="sup">c</hi> xxxij <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="3">iij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Kopf" quantity="2">ij kopf</measure>
+<measure type="volume" unit="Immi" quantity="4" commodity="spelt">iiij ymi</measure></measureGrp></cell></row>
+<row><cell>Ann haber</cell><cell><measure type="volume" unit="Mütt" quantity="2" commodity="oat">ij <abbr>m<hi rend="sup">t</hi></abbr></measure></cell></row>
+</table>
+<head type="subtitle"><lb/>Ann zinß brotenn</head>
+<table>
+<row><cell>An kernenn</cell><cell><measure type="volume" unit="Mütt" quantity="1" commodity="spelt">j <abbr>m<hi rend="sup">t</hi></abbr></measure></cell></row>
+</table>
+<head type="subtitle">Suma</head>
+<table>
+<row><cell>Ann kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="133">j<hi rend="sup">c</hi> xxxiij <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2">ij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Kopf" quantity="2">ij kopf</measure>
+<measure type="volume" unit="Immi" quantity="4" commodity="spelt">iiij ymmi</measure></measureGrp></cell></row>
+<row><cell>Ann haber</cell><cell><measure type="volume" unit="Mütt" quantity="2" commodity="oat">ij <abbr>m<hi rend="sup">t</hi></abbr></measure></cell></row>
+</table>
+<pb n="11"/>
+<head type="subtitle"><lb/>Ann heren mallenn</head>
+<p><lb/><num value="4">iiij</num> mal, als min herenn, meyster <persName ref="per014763">Köchly</persName>, meister <persName ref="per014740">Blaß</persName>, vonn
+<lb/>des vonn <placeName ref="loc010383">Bietenn Holtz</placeName> wegen ghanndlett sampt
+<lb/>juncker <persName ref="per014752">Adryenn</persName> unnd dem unndervogt
+</p>
+<p><lb/>Suma, die <num value="4">iiij</num> mal thuͦnd ann gelt <measure type="currency" unit="ß" quantity="12">xij </measure>
+</p>
+<head type="subtitle">Weybel und botenn mall</head>
+<p><lb/><num value="1">j</num> mal, als mir mine <choice><abbr>g</abbr><expan>gnädigen</expan></choice> herenn ein brieff geschickt, rechumg zuͦgeben
+</p>
+<p><lb/><num value="1">j</num> mal dem undervog<supplied reason="omitted" resp="rhr">t</supplied> zuͦ <placeName ref="loc008651">Velanndenn</placeName>, als er by mir zeschaffen hat
+</p>
+<p><lb/><num value="4">iiij</num> mal demm unndervogt zuͦ <placeName ref="loc008835">Hutzikon</placeName>, als mann grechtet vonn
+<lb/>der roubstür wegenn
+</p>
+<p><lb/><num value="3">iij</num> mal, als des unndervogtz sun mir anzougt, als sy die
+<lb/>stür nüt woltend gebenn
+</p>
+<p><lb/><num value="1">j</num> mal demm undervogt zuͦ <placeName ref="loc008651">Felanndenn</placeName>
+</p>
+<p><lb/>Suma, die <num value="10">x</num> mal
+<lb/>thuͦnd ann gellt <measure type="currency" unit="lb" quantity="1">j </measure>
+</p>
+<pb n="12"/>
+<head type="subtitle"><lb/>Weybel unnd boten mal</head>
+<p><lb/><num value="2">ij</num> mal demm weybel von <placeName ref="loc008877">Yrgenhußenn</placeName>
+</p>
+<p><lb/><num value="1">j</num> mal eim leüffer, do er mir denn brieff vonn denn kryegslüten
+<lb/>wägenn bracht, mit nammen <persName ref="per014728">Byschoff</persName>
+</p>
+<p><lb/><num value="1">j</num> mal eim loüffer mit nammen <persName ref="per013344">Uͦlin</persName>, brach mir ein brieff
+<lb/>von minen herenn
+</p>
+<p><lb/><num value="1">ij</num> mal <persName ref="per012722">Uͦlin Aberly</persName> unnd <persName ref="per014751">Heinin Forster</persName>
+</p>
+<p><lb/><num value="1">j</num> mal der alt <persName ref="per013341">Uͦlin Apenzeller</persName>, als er vonn minen <choice><abbr>g</abbr><expan>gnädigen</expan></choice> herenn ein
+<lb/>brieff bracht
+</p>
+<p><lb/><num value="2">ij</num> mal <persName ref="per012722">Uͦlin Aberly</persName> unnd <persName ref="per013342">Balder</persName>, do sy ingwonet
+</p>
+<p><lb/><num value="2">ij</num> mal <persName ref="per012722">Uͦlin Aberly</persName> unnd <persName ref="per013342">Balder</persName>, sy ouch ingwonent
+</p>
+<p><lb/><num value="3">iij</num> mal <persName ref="per013343">Bindschädler</persName>, <persName ref="per012722">Uͦlin Aberly</persName> unnd <persName ref="per014765">Berschy</persName>
+</p>
+<p><lb/><num value="2">ij</num> mal einem murer <del>unnd</del>
+</p>
+<p><lb/>Suma die <num value="16">xvj</num> mal thuͦnd
+<lb/>an gelltt <measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="12">xij </measure></measureGrp>
+</p>
+<pb n="13"/>
+<head type="subtitle"><lb/>Knächten, weibel unnd werchlütenn</head>
+<p><lb/><num value="16">xvj</num> mal aßennd <num value="4">iiij</num> knächt, als sy ein wäg <choice><sic>gnachet</sic><corr>gmachet</corr></choice> bim
+<lb/><placeName ref="loc008876">Hannfflannd</placeName></p>
+<p><lb/><num value="18">xviij</num> mal demm <persName ref="per010981">Aspar</persName>, als er inn demm schloß etwas gmalet,
+<lb/>malich dry schilt<note>Als Stadtmaler von <placeName ref="loc000065">Zürich</placeName>
+verzierte <persName ref="per010981">Hans Asper</persName> verschiedene Landvogteisitze mit Wappendarstellungen,
+die sich meist gut sichtbar über dem Eingang befinden und das <placeName ref="loc000066">Zürcher</placeName> Wappen
+in Kombination mit dem Reichsadler oder mit zwei Löwen als Schildhaltern präsentieren.
+Entsprechende Malereien <persName ref="per010981">Aspers</persName> sind nicht nur am Schloss <placeName ref="loc008719">Greifensee</placeName> erhalten,
+sondern auch am Schloss <placeName ref="loc008775">Laufen</placeName>,
+am Schloss <placeName ref="loc008775">Frauenfeld</placeName>
+sowie am Schloss <placeName ref="loc009860">Kyburg</placeName>.
+Ebenfalls von <persName ref="per010981">Asper</persName> begonnen oder zumindest renoviert und weitergeführt
+wurde die Wappenfolge sämtlicher Landvögte im Schloss <placeName ref="loc008719">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH III</ref>, S. 49</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/018317">Hans Asper</ref></bibl>).</note>
+</p>
+<p><lb/><num value="15">xv</num> mal dem <persName ref="per014774">Uͦlin Sebach</persName>, dem glaßer
+</p>
+<p><lb/><num value="15">xv</num> mal aßennd die unndervögt unnd weibel, als
+<lb/>sy die huͤner bracht
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="9">viiij </measure></measureGrp>, so abgat ann der roubstür, so sich etlich sperennd, dye
+<lb/>nüt zuͦgebenn<note>Bereits in den Beschwerdeartikeln von 1525
+beklagten sich die Amtsleute von <placeName ref="loc000348">Greifensee</placeName>
+über die Raubsteuer und weitere Abgaben, die sie als unrechtmässig empfanden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_058">SSRQ ZH NF II/3, Nr. 58</ref>, Art. 11</bibl>)</note>
+</p>
+<p><lb/>Suma die <num value="64">lxiiij</num> mal sampt dem <measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="9">viiij </measure></measureGrp>,
+<lb/>thuͦnd ann gellt <measureGrp><measure type="currency" unit="lb" quantity="7">vij </measure>
+<measure type="currency" unit="ß" quantity="17">xvij </measure></measureGrp>
+</p>
+<p><lb/>Suma sumarum ane der heren mal
+<lb/>an mallen <num value="90">lxxxx</num>,
+<lb/>duͦdt ann gelt <measureGrp><measure type="currency" unit="lb" quantity="10">x </measure>
+<measure type="currency" unit="ß" quantity="9">viiij </measure></measureGrp>
+</p>
+<pb n="14"/>
+<head type="subtitle">Verbuwenn unnd aller lenhanndlung</head>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="12">xij </measure>
+<measure type="currency" unit="ß" quantity="18">xviij </measure>
+<measure type="currency" unit="h" quantity="10">x ħ</measure></measureGrp>
+<persName ref="per014774">Uͦlrichen Sebach</persName>, demm glaßer, geben
+<lb/>inn der stubenn unnd allenthalb imm schloß
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="ß" quantity="5">v </measure>
+<measure type="currency" unit="h" quantity="2">ij ħ</measure></measureGrp> demm <persName ref="per014761">Lasarus Keßler</persName>, verglaßet inn einer kammer
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="16">xvj </measure>
+<measure type="currency" unit="h" quantity="8">viij ħ</measure></measureGrp> dem <persName ref="per014759">Heiny Huͦber</persName> umb fennster rammen
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="2">ij </measure>
+<measure type="currency" unit="ß" quantity="3">iij </measure>
+<measure type="currency" unit="h" quantity="2">ij ħ</measure></measureGrp> verzartt ich unnd der unndervogt amm meyenn
+<lb/>gricht zuͦ <placeName ref="loc007625">Noßikonn</placeName>
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="8">viij </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure></measureGrp> verzart ich unnd der unndervogt, als wir
+<lb/>rechung ingnomenn inammen üch, miner herenn, zuͦ
+<lb/><placeName ref="loc006198">Uster</placeName>, <placeName ref="loc008648">Mur</placeName>, <placeName ref="loc008651">Velannden</placeName> unnd <placeName ref="loc008569">Griffennsee</placeName>
+</p>
+<p><lb/><measureGrp><measure type="currency" unit="lb" quantity="2">ij </measure>
+<measure type="currency" unit="ß" quantity="2">ij </measure>
+<measure type="currency" unit="h" quantity="2">ij ħ</measure></measureGrp> umb ein urtelbrieff, so ich und der grichtzher vor
+<lb/>üch, <choice><abbr>m g h</abbr><expan>minen gnädigen heren</expan></choice>, gnommen vonn <persName ref="per013920">Steffan Knoßpenn</persName> wegen<note>Gemeint ist vermutlich die Weisung vom 3. Juli 1542
+in einem Streit zwischen dem Gerichtsherrn <persName ref="per006097">Hans Vogler</persName>
+sowie <persName ref="per013920">Stefan Knosp</persName>, weil dessen Hirten das Vieh durch den Hof des Gerichtsherrn treiben
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=702091">StAZH A 123.1, Nr. 197</ref></bibl>).</note>
+</p>
+<p><lb/><measure type="currency" unit="ß" quantity="10">x </measure> verzertt <persName ref="per014766">Ermy</persName> vonn <placeName ref="loc008835">Hutzikon</placeName>, als mann vonn der roubstür
+<lb/>grechtet hatt
+</p>
+<p><lb/>Suma <measureGrp><measure type="currency" unit="lb" quantity="28">xxviij </measure>
+<measure type="currency" unit="ß" quantity="2">ij </measure>
+<measure type="currency" unit="h" quantity="4">iiij ħ</measure></measureGrp><!-- rhr: Summe stimmt nicht: Ich komme auf 28 lb und 2 ß, hier stehen noch 4 h? -->
+</p>
+<p><lb/>Suma sumarum verbuwen unnd allerley,
+<lb/>thuͦt ann gellt <measureGrp><measure type="currency" unit="lb" quantity="49">xxxxviiij </measure>
+<measure type="currency" unit="ß" quantity="12">xij </measure>
+<measure type="currency" unit="h" quantity="4">iiij <abbr>hr</abbr></measure></measureGrp><!-- rhr: Nicht klar, woher diese 49 lb 12 ß und 4 h stammen. -->
+</p>
+<pb n="15"/>
+<head type="subtitle"><lb/>Denn richterenn</head>
+<p><lb/>Denn richteren zuͦ <placeName ref="loc008569">Griffennsee</placeName> unnd <placeName ref="loc006198">Uster</placeName> fürpieter
+<lb/>lonn unnd richt gellt
+</p>
+<p><lb/>Ann gellt <measureGrp><measure type="currency" unit="lb" quantity="4">iiij </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp>
+</p>
+<p><lb/>Dem unndervogt zuͦ <placeName ref="loc008569">Greiffensee</placeName>, so mann im
+<lb/><date dur="R/P1Y">jerlich</date> schuldig
+</p>
+<p><lb/>An gellt <measure type="currency" unit="lb" quantity="5">v </measure>
+</p>
+<p><lb/>Suma <measureGrp><measure type="currency" unit="lb" quantity="9">viiij </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp>
+</p>
+<head type="subtitle"><lb/>Fuͦter haber</head>
+<p><lb/><measure type="volume" unit="Viertel" quantity="0.5" commodity="oat">ɉ <abbr>fl</abbr></measure> meyster <persName ref="per014763">Köchly</persName> unnd meyster <persName ref="per014740">Blaß</persName> verzertt
+</p>
+<head type="subtitle"><lb/>Dem fryen gricht</head>
+<p><lb/><measureGrp><measure type="volume" unit="Mütt" quantity="1">j <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2" commodity="spelt">ij <abbr>fl</abbr> kernenn</measure></measureGrp>
+</p>
+<table>
+<row><cell/><cell>ann kernen <measureGrp><measure type="volume" unit="Mütt" quantity="1">j <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2" commodity="spelt">ij <abbr>fl</abbr></measure></measureGrp></cell></row>
+<row><cell>Suma</cell><cell/></row>
+<row><cell/><cell>an haber <measure type="volume" unit="Viertel" quantity="0.5" commodity="oat">ɉ <abbr>fl</abbr></measure></cell></row>
+</table>
+<pb n="16"/>
+<head type="subtitle"><lb/>Rytt in dye statt</head>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure> vonn <persName ref="per014740">Heiny Rißers</persName> wegenn vorat waß unnd er
+<lb/>gfanngen waß
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure>, als ich grechtet vonn des abzugs wägen mit <persName ref="per014776">Wanwißer</persName>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure> von des hoffs von <placeName ref="loc008836">Rumlikon</placeName> wegenn ich imm in üwer, miner
+<lb/>heren, namenn gelichenn hab
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure>, als ich mit <persName ref="per014769">Sallenbach</persName> grächtet, do er geapolier<supplied reason="omitted" resp="rhr">t</supplied> für <choice><abbr>u g h</abbr><expan>unser gnädig heren</expan></choice>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure>, als ich und grichtzher vonn <persName ref="per013920">Steffann Knospen</persName> wägen da inenn und
+<lb/>mit imm grächtet
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure>, als ich grächtet vonn der roubstür von <placeName ref="loc008835">Hutzikon</placeName> wägenn
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="1">j </measure>, als ich vor üch, minenn herren, rechnug gab <date when="1543-02-26">uff mentag
+<lb/>nach sannt <persName ref="per000375">Mathis</persName> tag</date>
+</p>
+<p><lb/>Suma <measure type="currency" unit="lb" quantity="7">vij </measure>
+</p>
+<pb n="17"/>
+<head type="subtitle"><lb/>Dem seckelmeister</head>
+<table>
+<row><cell>Ann gellt</cell><cell><measure type="currency" unit="lb" quantity="120">j<hi rend="sup">c</hi> xx </measure></cell></row>
+</table>
+<head type="subtitle"><lb/>Schwynung thuͦt</head>
+<table>
+<row><cell>An kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="6">vj <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2">ij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Kopf" quantity="2" commodity="spelt">ij kopf</measure></measureGrp></cell></row>
+<row><cell>Ann haber</cell><cell><measure type="volume" unit="Kopf" quantity="2" commodity="oat">ij kopf</measure></cell></row>
+</table>
+<head type="subtitle"><lb/>Burghuͦt</head>
+<table>
+<row><cell>An haber</cell><cell><measure type="volume" unit="Malter" quantity="10" commodity="oat">x malter</measure></cell></row>
+<row><cell>An gellt</cell><cell><measure type="currency" unit="lb" quantity="22">xxij </measure></cell></row>
+</table>
+<p><lb/>Item ußgebenn uf bevelch <choice><abbr>m g h</abbr><expan>miner gnädigen heren</expan></choice>
+<lb/><persName ref="per014764">Jörgen Maler</persName> zuͦ <placeName ref="loc008569">Griffennsee</placeName> vonn sins bruͦders
+<lb/>sellgen kinden <measure type="volume" unit="Mütt" quantity="4" commodity="spelt">iiij <abbr>m<hi rend="sup">t</hi></abbr>
+<choice><abbr>k</abbr><expan>kernen</expan></choice></measure>
+</p>
+<head type="subtitle">Suma sumarum ales usgebens</head>
+<table>
+<row><cell>An kernen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="145">j<hi rend="sup">c</hi> xxxxv <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="3">iij <abbr>fl</abbr></measure>
+<measure type="volume" unit="Immi" quantity="4" commodity="spelt">iiij ymy</measure></measureGrp></cell></row>
+<row><cell>An habernn</cell><cell><measure type="volume" unit="Malter" quantity="10" commodity="oat">x malter</measure>
+<measure type="volume" unit="Mütt" quantity="2">ij <abbr>m<hi rend="sup">t</hi></abbr></measure>
+<measure type="volume" unit="Viertel" quantity="1">j <abbr>fl</abbr></measure></cell></row>
+<row><cell>An gellt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="207">ij<hi rend="sup">c</hi> vij </measure>
+<measure type="currency" unit="ß" quantity="17">xvij </measure>
+<measure type="currency" unit="h" quantity="4">iiij ħ</measure></measureGrp></cell></row><!-- rhr: Die Rechnung stimmt hier mit den obenstehenden "falschen" Zahlen überein. -->
+</table>
+<pb n="18"/>
+<add place="inline" hand="other hand">
+<head type="title"><lb/>Allso nach abzug innemens unnd ußgëbens blybt der vogt schuldig</head>
+<table>
+<row><cell>An kernnen</cell><cell><measureGrp><measure type="volume" unit="Mütt" quantity="120">j<hi rend="sup">c</hi> xx <abbr>mt</abbr></measure>
+<measure type="volume" unit="Viertel" quantity="2" commodity="spelt">ij <abbr>vrl</abbr></measure></measureGrp></cell></row>
+<row><cell>An habern</cell><cell><measure type="volume" unit="Malter" quantity="4">iiij <abbr>mlr</abbr></measure>
+<measure type="volume" unit="Mütt" quantity="3">iij <abbr>mt</abbr></measure>
+<measure type="volume" unit="Viertel" quantity="3" commodity="oat">iij <abbr>vrl</abbr></measure></cell></row>
+<row><cell>An gelt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="109">j<hi rend="sup">c</hi> viiij </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure>
+<measure type="currency" unit="h" quantity="3">iij ħ</measure></measureGrp></cell></row>
+</table>
+</add>
+</div>
+</body>
+<back>
+<div>
+<p>Die Rechnungen der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+setzen mit dem vorliegenden Stück im Jahr 1542 ein
+und sind bis zum Ende des Ancien Régime mit wenigen Lücken erhalten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324252">StAZH F III 12</ref></bibl>).
+Im Gegensatz zum Urbar von 1416 und seinen Nachfolgern
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref></bibl>),
+die vor allem Soll-Abgaben enthalten,
+bieten die Rechnungen Aufschluss darüber, was tatsächlich eingenommen und ausgegeben wurde.
+Allerdings werden hier lediglich die offiziellen Einkünfte zuhanden der Vogtei aufgeführt,
+während der Vogt noch weitere Einnahmequellen hatte, über die er keine Rechnung ablegen musste
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_069">SSRQ ZH NF II/3, Nr. 69</ref></bibl>).
+</p>
+<p>Zugleich geht aus den vorliegenden Rechnungen hervor,
+dass die Vögte dafür verantwortlich waren, die im Urbar verzeichneten Einkünfte vollständig einzuziehen;
+für Fehlbeträge hafteten sie mit ihrem Privatvermögen.
+Vogt <persName ref="per012737">Bilgeri Leemann</persName>, der die erste Rechnung anlegte,
+scheint besonders nachlässig gehandelt zu haben, denn schon wenige Monate nach der Rechnungslegung
+erstellte der <orgName ref="org002406">Zürcher Rat</orgName> eine Klageschrift,
+worin <persName ref="per012737">Leemann</persName> unter anderem vorgeworfen wurde,
+dass er die Bussen nicht pflichtegtreu einziehe und Holz aus den Wäldern des Schlosses verschenke
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_064">SSRQ ZH NF II/3, Nr. 64</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

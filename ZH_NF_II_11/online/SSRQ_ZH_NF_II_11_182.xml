@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_182</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=23918">StArZH VI.AS.D.1.:2</idno></msIdentifier><head>Anordnung der Obervögte, dass Einwände gegen obrigkeitliche Erlasse nicht an die Gemeindeversammlungen, sondern direkt an die Obervögte gelangen sollen</head><msContents><summary>Die Obervögte von Wiedikon wurden durch Säckelmeister Huber von Aussersihl darüber informiert, dass an der Gemeindeversammlung beantragt wurde, über den Befehl, an der Strasse bei Otts Gut zu arbeiten, abzustimmen. Huber hat dies verweigert, da es sich um einen obrigkeitlichen Befehl handle. Nach Anhörung der Antragsteller, was sie zu einem solchen Antrag ermächtige, und der Feststelllung, dass die Begründung dafür nicht zutreffend sei, entscheiden die Obervögte: Falls die Gemeinde oder ihre Mitglieder Einwände gegen obrigkeitliche Erlasse haben, sollen sie sich an den Obervogt wenden, der ihnen mitteilen wird, wie sie sich weiter zu verhalten haben. In Gemeindeversammlungen sollen keine Einwände gegen obrigkeitliche Befehle vorgebracht werden. Dieser Entscheid wird nicht nur ins Kanzleiprotokoll eingetragen, sondern auch abschriftlich der Gemeinde ausgehändigt, die ihn in der Gemeindeversammlung vorlesen lassen und in der Gemeindelade aufbewahren soll. Für diesmal bleibt es bei dieser Verwarnung.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Rudolf Hess, Landschreiber</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="38.5"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1788-06-07"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key001001">Ungehorsam</term><term ref="key000668">Unruhen</term><term ref="key004098">Versammlung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p>
+<lb/>Wann <abbr>mhghh</abbr> obervögten der vogtey <placeName ref="loc009863">Wiedikon</placeName> und der
+<lb/>enden durch den der neüen <orgName ref="org007800">Außer Sihl gemeind</orgName> geordneten sekel<lb break="no"/>meister
+<persName ref="per026527">Huber</persName> die ihnen außerst ohnangenehme anzeige pflicht<lb break="no"/>mäßig
+gemacht worden, wie das bey letsthin wegen vorweißung 
+<lb/>der gemeind rechnung gehaltener <placeName ref="loc012026">Außer Sill</placeName> gemeinds ver<lb break="no"/>samlung
+von <num value="3">dreyen</num> sonst bekant wakeren und brafen männeren
+<lb/>die einfrage an ihne geschehen seye, ob er ein mehr ergehen laßen
+<lb/>wolle. Er aber keinen gegenstand wuste, worüber ein mehr be<lb break="no"/>gehrt
+werden könte nach solte; selbige befragte, über was vor eine
+<lb/>sache sie ein solches ansuchen thäten, ihme die antwort ertheilt
+<lb/>worden, wegen dem befehl, an der straaße bey <abbr>hh</abbr> obtmann <persName ref="per026465">Otten</persName>
+<lb/>guth zu arbeiten, und daß er solcher zu erst an <abbr>e e</abbr> gemeind hätte
+<lb/>bringen sollen, ehe und befor solche arbeit ihren anfang genommen,
+<lb/>um einer ganzen gemeind einwilligung zu erhalten. Er, sekel<lb break="no"/>meister
+<persName ref="per026527">Huber</persName>, ein pflicht kenender und redlicher mann, vorge<lb break="no"/>stelt,
+daß da solches aus hohem auftrag der <abbr>hh</abbr> obervögten und
+<lb/>also hoch oberkeitlichem befehl geschehen, er darüber kein mehr er<lb break="no"/>gehen
+zu laßen sich befüegt finde, sonder diesen vorfahl an hohe
+<lb/>behörde zu hinterbringen sich vorbehalte. So haben <abbr>mhghh</abbr> obervögt 
+<lb/>obbemelte <num value="3">drey</num> männer unter dem <date when="1788-06-07">7. junius dieß jahrs</date> nebst dem
+<lb/><abbr>sekelmstr</abbr> vor sich beschieden, und nach anhörung ihrer vermeinend
+<lb/>zu einer solchen einfrage sie bemächtigenden gründen, welche aber nicht
+<lb/>zureichend, aus falschen principien hargeleitet, also verwerflich
+<lb/>befunden worden, sich einmüthig dahin erkent:</p>
+<p><lb/>Daß <abbr>e e</abbr> gemeind, sowohl als einem jeden mittglied derselben,
+<lb/>fahls ihnen etwas der gemeind lästig fallendes von denen jeweilig
+<lb/><abbr>e</abbr><!-- ehrsamen? PS: Sehr gut möglich --> vorgesezten unternemmen zu werden dunkte, dieselbe sich an den jeweil<lb break="no"/>igen
+<abbr>hh</abbr> amts obervogt wenden und ihre da wieder zu haben glaubende
+<lb/>vorstellungen in geziehmender ehrenbietung eröffnen mögen, welcher
+<lb/>dann ihnen freundschafftliche anleitung, wie <abbr>e e</abbr> gemeind sich zu verhalten
+<lb/>und was sie für einen gesezmäßigen weg einzuschlagen habe<del>n</del>
+<lb/>zu geben wohl wißen <del>wird</del> werde.</p><pb n="2"/>
+<p><lb/>Übrigens aber wollen hochdieselben nicht, daß in denen
+<lb/>gemeindsbezirken, die ihnen von ihren gnädig <abbr>hh</abbr> und
+<lb/>oberen anvertrauten vogtey irgend über eine, seye es von <abbr>ughh</abbr>
+<lb/>selbst oder durch hochderoselben gnädigen auftrag, durch sie an ihre
+<lb/><abbr>e</abbr> unterbeamtete ergehend hohe befehle bey <abbr>e e</abbr> gemeinds
+<lb/>versamlung keinerley einwendung oder wieder red gethan werden solle.</p>
+<p><lb/>Zu diesem end hin und damit durch solche ohnangenehme auftrit,
+<lb/>welche straffbaar wahren und das aufblühen besonders dieser so 
+<lb/>ansehnlichen neüen gemeind nicht nur stören, sonder <del>auch</del> durch
+<lb/>daraus entstehendem zwist und streith das durch gnädige be<lb break="no"/>willigung
+bey errichtung derselben nach ihrem selbst eignen
+<lb/>wunsch zu erziehlen gehoffte guthe gänzlich zertrümeren könte,
+<lb/>haben wohl ehren gedachte <abbr>hh</abbr> obervögte nöthig befunden, gegen<lb break="no"/>wertige
+ihre erkantnus nicht nur in ihr canzley protocoll ein<lb break="no"/>tragen,
+sonder solche abschrifftlich der gesamten <abbr>e</abbr> gemeinds versamlung
+<lb/>vorlesen und solche in die gemeind laade aufbehaltlichen verwahren
+<lb/>zu laßen erkent.</p>
+<p><lb/>Mittlerweyle aber diesen aus nicht genugsammer überlegung über<lb break="no"/>eilt
+begangenen fehler für dießmahl mit der geschehenen von
+<lb/>mund ausgesprochenen ahndung und mißbelieben in milde
+<lb/>nachgesehen.</p>
+<p><lb/>Actum den <origDate when="1788-06-07">7. junii 1788</origDate>.</p>
+<p><lb/><choice><abbr>Prsts</abbr><expan>Presentibus</expan></choice>
+<abbr>mhh</abbr> rathsherr <abbr>u</abbr> statthaubtmann <persName ref="per026526">Hirzel</persName>,
+<lb/><abbr>mhh</abbr> rathsherr<!-- mng: Eigentlich Unterführungszeichen für "rathsherr" -->
+<abbr>u</abbr> bauherr <persName ref="per026458">Scheuchzer</persName>,
+<lb/>damahls regierende <abbr>hh</abbr> obervögte zu <placeName ref="loc009863">Wiedikon</placeName>
+<lb/>und der <placeName ref="loc010425">Enge</placeName>.</p>
+<p><lb/><sic>Landschreibel</sic>
+<persName ref="per026512">Rudolf Heß</persName>.
+</p>
+</div>
+<div><ab type="dorsal" place="verso"><lb/>Erkantnuß von <abbr>mhghh</abbr>
+<lb/>obervögten, <choice><abbr>d</abbr><expan>den</expan></choice>
+<origDate when="1788-06-07">7. junii 1788</origDate>
+</ab></div>
+<div><ab type="dorsal" place="verso"><lb/>Vide <abbr>g</abbr> protokoll <abbr>n<hi rend="sup">o</hi></abbr> 1,
+<lb/>p 33 &amp; 34.<note>Vermutlich verweist dieser Vermerk auf die Gerichts- oder Urteilsbücher der Obervogtei <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=302961">StAZH B VII 45.1-45.6</ref></bibl>). Diese sind allerdings nur lückenhaft überliefert; auch das Protokoll für 1788 fehlt.</note><!--Worauf bezieht sich dieser Vermerk? Grundprotokoll eher nicht - habe ich angeschaut und nichts gefunden. Es ist wahrscheinlich, dass er auf die Gerichts- bzw. Urteilsprotokolle verweist (für Wiedikon: B VII 45). Allerdings ist jenes für 1788 nicht überliefert. (Es fehlen noch andere: 1715-1746 (B VII 45.2), 1761-1771 (B VII 45.4)).-->
+</ab></div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

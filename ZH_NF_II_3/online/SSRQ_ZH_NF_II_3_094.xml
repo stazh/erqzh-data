@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_094</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254404">StAZH B III 70 a</idno></msIdentifier><head>Gerichtsordnung und Amtsrecht der Herrschaft Greifensee</head><msContents><summary>Im ersten Teil der Ordnung wird beschrieben, wie die Gerichte in der Herrschaft Greifensee einberufen werden, wie sich die Beteiligten zu äussern haben und in welcher Reihenfolge die Geschäfte behandelt werden. In der Herrschaft Greifensee gibt es drei Gerichte, nämlich diejenigen in Greifensee und Fällanden mit je sieben Richtern sowie jenes in Uster mit acht Richtern. Daneben gibt es noch die Gerichtsherrschaft der Familie Aeppli in Maur, wo der Untervogt von Greifensee den Stab führen soll. Das Gericht soll zweimal jährlich stattfinden, nämlich im Mai und im Herbst. In die Zuständigkeit des Gerichts fallen Erb und Eigen, Käufe, Testamente und Gemächte sowie Mannrechts- und Gantbriefe. Daneben gibt es auch noch das Freigericht Nossikon mit sieben freien Richtern, das alle zwei Jahre gehalten werden soll und allein den Verkauf von vogtbaren Gütern behandelt. Dieses Gericht wurde aber schon lange nicht mehr gehalten und ist daher nur noch wenigen Leuten bekannt. Der zweite Teil behandelt Fragen des Erbrechts, des Güterrechts, des Schuldrechts und des Konkursverfahrens ausdrücklich in Übereinstimmung mit dem Gerichtsbuch der Stadt Zürich, das auch für die Herrschaft Greifensee gilt. Ausserdem enthält er den Eid der Richter sowie einen ausführlichen Eid für Juden, die vor Gericht stehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Band (58 Blätter)</filiation><filiation type="original"><origDate from="1638-01-01" to="1644-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.5"/><width unit="cm" quantity="19.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1701-01-01" to="1800-12-31">Undatiert, Datierung aufgrund der Erwähnung von Landvogt Hans Konrad Bodmer (im Amt 1638-1644)</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Schauberg 1842, S. 278-293</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000597">Erbrecht</term><term ref="key005387">Gebühren</term><term ref="key000057">Gericht</term><term ref="key003037">Gerichtsverfahren</term><term ref="key003383">Instanzenzug</term><term ref="key000755">Juden</term><term ref="key003261">Kundschaft</term><term ref="key003820">Mannrecht</term><term ref="key000468">Rechtsgewohnheit</term><term ref="key000103">Richter</term><term ref="key004022">Satzung</term><term ref="key000058">Schulden</term><term ref="key000635">Testament</term><term ref="key000412">Versteigerung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head type="title"><lb/>Beschreibung aller alten breüchen
+<lb/>des grichts zuͦ <placeName ref="loc008569">Griffensee</placeName>, samt etlichen der
+für<lb break="no"/>nehmsten rechten der herrschafft
+<placeName ref="loc000348">Griffen<lb break="no"/>see</placeName></head>
+<div>
+<head type="subtitle"><lb/>Erstlich folgen die breüch bemeldten gerichts
+<lb/>zuͦ <placeName ref="loc008569">Griffensee</placeName></head>
+<p><lb/>Als namlichen des ersten, wann mann bey einanderen
+<lb/>versamlet ist, so thut der herr landtvogt den anzug und
+<lb/>zeiget an, worum er ein ehrsamm gricht zusammen
+<lb/>beruffen laßen, und heißt darüber, so keiner unter
+<lb/>den richteren nichts fürzubringen hat, den
+unter<lb break="no"/>vogt das gricht verbannen.
+</p>
+<p><lb/>Darauf fraget der untervogt unter den richteren einen,
+<lb/>welchen er will, an, nent ihn mit seinem geschlecht
+<lb/>und nammen und sagt: <q>Ich frag dich oder ich frag eüch,
+<lb/>ob es nit tagszeit zu richten seye nach der stund, die
+<lb/>gesezt ist?</q>
+</p>
+<p><lb/>Darüber sagt der richter, so gefraget ist: <q>Ja, herr, es
+<lb/>dunkt mich, es seye wohl tagszeit zu richten nach der
+<lb/>stund, die gesezt ist.</q>
+</p>
+<p><lb/>Darauf fragt der untervogt noch einen anderen richter,
+<lb/>nent ihn einfeltig mit seinem geschlecht und nammen,
+der<pb n="2"/><lb break="no"/>selbig giebt einfaltig zum bescheid: <q>Herr, ich folge.</q>
+<lb/>Alsdann sagt der undervogt: <q>Die fürsprechen sind eins, ist
+<lb/>einer, der etwas anders will? 1, 2, und zum 3ten, wie recht ist.</q>
+</p>
+<p><lb/>Und fragt darüber den ersten richter wiederum und sagt
+<lb/>zu ihm: <q>Ich frag eüch weiters an, wie manns gricht
+ver<lb break="no"/>bannen soll, damit es krafft und macht habe, was mann macht?</q>
+<lb/>Hierauf sagt der richter: <q>Herr, so dunkt mich das recht,
+<lb/>daß ihr das gricht verbannet im nammen <choice><abbr>ugndhhrn</abbr><expan>unserer gnädigen herren</expan></choice>, auch
+<lb/>im nammen und befelch unsers gönstigen, lieben herren
+<choice><abbr>l</abbr><expan>landt</expan></choice><lb break="no"/>vogts, daß keiner den anderen hinter dem gricht saume noch
+<lb/>irre, er thüe dann das durch seinen erlaubten fürsprechen,
+<lb/>und ihr das gebiethet an <measure type="currency" unit="ß" quantity="3">3 </measure>. Herr, das ist mein urthel und
+<lb/>dunkt mich recht.</q>
+</p>
+<p><lb/>Darauf fraget der untervogt den anderen richter wiederumb
+<lb/>wie zuvor. Der giebt abermahls zum bscheid: <q>Herr, ich folge.</q>
+<lb/>Alsdann sagt der untervogt fehrner: <q>Die fürsprechen sind eins,
+<lb/>ist einer, der etwas anders will? 1, 2, 3ten, wie recht ist.</q>
+</p>
+<p><lb/>Und staht darmit samt dem herrn <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt und einem ehrsammen
+<lb/>gricht auf und sagt weiters also: <q>So verbanne ich das gricht
+<lb/>im nammen <choice><abbr>ugdhhrn</abbr><expan>unserer gnädigen herren</expan></choice> und oberen, herren <orgName ref="org002406"><choice><abbr>brgrmstr</abbr><expan>burgermeister</expan></choice> und rath der
+<lb/>statt <placeName ref="loc000065">Zürich</placeName></orgName>, auch im nammen und aus befelch
+<pb n="3"/><lb/>unsers gönstigen, lieben herren <choice><abbr>l</abbr><expan>landt</expan></choice>vogts, herren <persName ref="per009975">Hans
+<lb/>Conrad Bodmers</persName>,<note><persName ref="per009975">Hans Konrad Bodmer</persName> (im Amt 1638-1644, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 110</bibl>).</note> daß keiner den anderen weder saume noch
+<lb/>irre, weder mit worten noch mit werken, er thüe dann das
+<lb/>durch seinen erlaubten fürsprechen, und verbiethe das an <measure type="currency" unit="ß" quantity="3">3 </measure>.
+<lb/>Wer rechts begehrt, mag wohl zu einem vorsprech stehen.</q>
+<lb/>Ist dann etwer verhanden, der rechts begehrt, sagt derselb zum
+<lb/>untervogt: <q>Herr, ich bitt um einen fürsprechen.</q>
+<lb/>Demselben giebt der untervogt zum bscheid: <q>Es sey dir oder
+<lb/>es sey eüch erlaubt.</q>
+</p>
+<p><lb/>Alsdann sagt der, so rechtens begehrt: <q>Ich bitte den oder den</q>, welchen
+<lb/>er dann will, nennt ihn mit seinen geschlecht und nammen, darauf
+<lb/>soll der untervogt sagen: <q>Ich bitten ihn auch.</q>
+</p>
+<p><lb/>Demnach sagt der richter, so zum vorsprechen betten worden:
+<lb/><q>Herr, gebt ihr mir den (nent ihn mit seinem nammen) zum
+vorsprechen?</q>
+</p>
+<p><lb/>Hierauf sagt der undervogt: <q>Ich erlaube eüch das recht.</q>
+<lb/>Darüber sagt der fürsprech weiters: <q>So haltet uns recht,
+<lb/>worzu wir recht haben, herr, erlaubet uns rath</q>, so es ein
+<lb/>klag ist. Ist es aber ein antwort, so sagt der: <q>Wir wollen
+<lb/>auf klag losen.</q>
+</p>
+<p><lb/>Wann aber die fürsprechen um rath bättend, sagt der
+under<lb break="no"/>vogt allwegen: <q>Den rath, den hand ihr.</q>
+</p>
+<pb n="4"/>
+<p><lb/>Alsdann geht der fürsprech samt dem, so rechtens begehrt,
+<lb/>ußen an ein sonderbahr ort und erzehlt der, so rechtens
+be<lb break="no"/>gehrt, dem fürsprech den handel einanderen nach, und worauf
+<lb/>er dann zufusen vermeint, und kommen darnach beyd
+wiede<lb break="no"/>rum mit einanderen hin ein. Der fürsprech sizt nieder und
+<lb/>sagt: <q>Herr, wolt ihr loßen?</q>
+</p>
+<p><lb/>Darauf sagt der untervogt: <q>Der herr landvogt und ein ehrsamm gricht
+<lb/>wird loßen.</q>
+</p>
+<p><lb/>Demnach fangt der fürsprech den handel auf folgend weis
+<lb/>an. Nemlich wann er nit wohl beredt ist, so sagt er
+einfal<lb break="no"/>tig also: <q>Herr landtvogt, herr der richter und ein ehrsamm
+<lb/>gricht.</q> Ist er aber etwas beredter, so sagt er: <q>Frommer,
+<lb/>vester, ehrenfester, vorsichtiger und wyser, insonders
+<lb/>günstiger und lieber herr landtvogt,
+<lb/>des gleichen herr der richter und ein ehrsamm gricht</q>,
+<lb/>oder: <q>Herr landtvogt, fromme, ehrenveste, fürsichtige, ehrsamme
+<lb/>und wyse, besonders gönstige, liebe herren undervogt,
+<lb/>richter und rechtsprecher, <del>ich</del> es stehet hier zugegen der gutt
+<lb/>freünd, wer er dann ist (nent ihn mit seinem nammen), der
+<lb/>heißt mich dem herren landtvogt, eüch und den richteren anzeigen
+<lb/>oder zu verstehen oder zu erkennen geben</q>, wie daß er mit dem
+<lb/>oder dem, wer er dann auch
+<pb n="5"/>
+<lb/>ist, von deß wegen, was er dann antrifft, in spang kommen,
+<lb/>erzehlt den handel, so guth ers kan, und die gründ, darauf
+<lb/>der kleger zufußen begehrt, einanderen nach und sagt entlichen:
+<lb/><q>Und seye deßwegen guter hoffnung oder guter zuversicht
+<lb/>oder er getraue, es solle also recht seyn und werden und setz
+<lb/>ihnen hiemit die sach zum rechten, ob es nit billich sey,
+<lb/>daß solches geschehe, so nichts weiters komt. Wann aber
+<lb/>etwas weiters komt, so behalte ich mir vor, daßelb in
+<lb/>rechten zu widerantworten.</q>
+</p>
+<p><lb/>Darauf bittet der ander fürsprech auch um rath, gleich wie
+<lb/>vorsteht, daßelbig wird ihme auch gleicher gestalt erlaubt.
+<lb/>Darüber gehen sie beyd mit einander hinaus, und
+er<lb break="no"/>zehlt ihme, dem fürsprechen, der so antworten muß, die sach
+<lb/>und seine gründ auch einanderen nach und gehen darnach
+wie<lb break="no"/>derum hinein. Und sagt der fürsprech gleicher gestalt zum
+<lb/>untervogt wie der vorstehend richter: <q>Herr, wolt ihr loßen?</q>
+<lb/>Darüber giebt der undervogt wiederum vorstehenden
+be<lb break="no"/>scheid: <q>Der herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt und ein ehrsamm gricht wird loßen.</q>
+</p>
+<p><lb/>Alsdann fangt der fürsprech den titul gleich wie den
+vorste<lb break="no"/>henden an, und wann er den titul vollendet hat, sagt er:
+<pb n="6"/>
+<lb/><q>Herr, ihr habt gehört ein klag, die der erste fürsprech
+<lb/>(nent ihn mit seinem geschlecht und nammen) von des
+klä<lb break="no"/>gers wegen gethan</q>, wiederäfferet dieselbe, so ers kann, ein
+<lb/>wenig, <q>und heißt hierauf der gutt freünd mich die sach
+<lb/>also verantworten</q>, erzehlt auch seine greünd und was
+<lb/>er sich am rechten zu genießen verhofft einanderen nach,
+<lb/>und sezt, gleich wie der erst richter, die sach zum rechten. Es kan
+<lb/>sich wohl begeben, daß einer sagen soll, daß er hiemit
+ver<lb break="no"/>hoffe, sein gegentheil ihne dieser seiner
+unbegründ<lb break="no"/>ten ansprach unersucht laßen und ihm aller seiner
+deshal<lb break="no"/>ben erlittenen kosten und schaden abzutragen gewiesen
+<lb/>werden solle.
+</p>
+<p><lb/>Es begiebt sich aber auch vielmahlen, daß von den partheyen
+<lb/>mehr, als sie sich versehen, ins recht gebracht wirdt,
+<lb/>daß sie darüber zu beyderseiths weiter raths begehrend,
+<lb/>welches ihnen dann auch vorerzehlter maaßen erlaubt
+<lb/>wirdt. Alsdann, nach gehabtem rath, erzehlen sie die sachen
+<lb/>vast wiederum wie vor und was weithers vonöthen, und
+<lb/>sezen auch gleicher gestalt die sachen zum rechten, wie vormahls,
+<lb/>doch allwegen mit unterscheid, nach dem die sachen sind.
+</p>
+<p><lb/>Wann dann der erst fürsprech sein sach zum rechten gesezt hat, so
+<lb/>soll der untervogt zu ihm sagen: <q>So theillet darumb.</q>
+</p>
+<pb n="7"/>
+<p><lb/>Ists ein sach, daß beyd partheyen erscheinen, und so sagt
+<lb/>der fürsprech: <q>Herr, ich begehr <unclear>sie</unclear> eines raths.</q>
+</p>
+<p><lb/>Ists aber, daß allein nur die kleger erscheinen und der
+gegen<lb break="no"/>theil ausbliebe, so sagt er: <q>Herr, das will ich thun, herr,
+<lb/>dieweil ich höre und verstehe, daß dem gutten freünd
+hie<lb break="no"/>zugegen auf dießmahl niemand im rechten bescheid
+<lb/>noch antwort giebt, so dunkt mich das recht, daß er, der
+<lb/>gutt freünd, wer er dann ist, auf diesen heütigen tag ein
+<lb/>tag gewehrt habe, und daß er seinem gegentheil aufs nächst
+<lb/>gericht wohl wieder fürkünden möge, von eim biß
+<lb/>aufs ander, vom anderen biß auffs dritt, und alsdann aber
+<lb/>geschehe, was recht ist: Herr, das ist mein urthel und
+<lb/>dunkt mich recht.</q>
+</p>
+<p><lb/>Darauf fragt der untervogt die anderen richter all
+<lb/>einanderen nach.
+</p>
+<p><lb/>Die geben all zum bscheid, einer nach dem anderen: <q>Herr,
+<lb/>ich folge <unclear><choice><abbr>sie</abbr><expan>sinem</expan></choice></unclear><note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 282</bibl>, lässt dieses Wort aus.</note>.</q>
+</p>
+<p><lb/>Item wann einer auf ein gantbrieff klagen muß,
+<lb/>so sind die ersten fragen auch den vorstehenden gleich.
+<lb/>Und wann der fürsprech den titul vollführt, so soll er dann
+<lb/>sagen: <q>Es stehet hier zugegen der oder der, wer er dann ist,
+<pb n="8"/>
+<lb/>der heißt mich eüch und dem rechten fürbringen, wie daß ihme
+<lb/>auf dem (wer es dann auch ist) ein summa gelts bey
+<lb/>haubtguth und zinß, mag sie namsen, unbezahlt ausstehen,
+<lb/>darumb er dann seine unterpfand nach laut brieff und
+<lb/>siegel samt auferloffnem kosten vor längst auf die
+<lb/>gandt schlagen laßen, und die sach so weit getrieben, daß
+<lb/>er alle erlangte recht hette, und wolte jetz under
+dersel<lb break="no"/>ben ein austrag erlangen und klage hiermit auf den
+gant<lb break="no"/>brieff, doch wirdt der herr der richter genugsamms
+be<lb break="no"/>richt geben können, daß alle recht vollführt seyen.</q>
+</p>
+<p><lb/>Alsdann heißt der herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt den untervogt bericht geben, ob diß
+<lb/>ohrts halber alle recht vollführt seyen. Und wann dann
+<lb/>der untervogt den bericht geben, daß alle recht vollführt seyen.
+</p>
+<p><lb/>So sagt darauf der fürsprech weiters: <q>Herr der richter und ein
+<lb/>ehrsamm gericht, dieweil ich höre und verstehe, daß durch
+<lb/>eüch gegen dem, so die schuld schuldig ist, alle recht
+voll<lb break="no"/>führt sind, so setze ich deß wegen dem kleger die sach zum
+<lb/>rechten, obs nit billich seye, daß ihm auf den heütigen
+<lb/>tag ein gantbrieff erkendt werde.</q>
+</p>
+<p><lb/>Wann aber einer 2, 3 oder mehr partheyen fürsprech
+<lb/>seyn muß, so soll er für die erst titulierung den titul
+<pb n="9"/>
+<lb/>nit allemahl auf vorerzehlte weiß (wie es etliche im brauch
+<lb/>allwegen zu wiederäfferen, welches nit ein zier zu reden ist)
+ha<lb break="no"/>bend, sonder was er denselben gantzen tag redt und er je
+titu<lb break="no"/>lieren will, soll er einfaltig also sagen: <q>Herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt, vor- und
+<lb/>wohlermeldte, gönstige, liebe herren</q>, und alsdann gestraks
+<lb/>mit der sach fortfahren. Ist den selben weg viel anständiger als
+<lb/>den anderen.
+</p>
+<p><lb/>Und wann dann die sachen all zum rechten gsezt sind, so sagt der untervogt:
+<lb/><q>Was nit zum gericht gehöret, soll ausstahn.</q>
+</p>
+<p><lb/>Wann dann alles ausgestanden, so hat der fürsprech die umfrag,
+<lb/>der fragt mehrtheils den herren <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt zum 1sten an, alsdann
+<lb/>wiederäfferet der herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt klag und antwort, erzehlt, was
+<lb/>brieff und siegel, so vorhanden, zugebe<note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 283</bibl>, liest <quote><orig>zu gebiethen</orig></quote> und lässt das folgende Wort aus.</note>, <unclear>wo</unclear> was etwann durch
+<lb/>kundtschafft erwiesen oder augenschein vielmahlen
+mit<lb break="no"/>bringt ald was sonst etwann handgrifflich ist, und felt
+dar<lb break="no"/>über sein meinung und urthel.
+</p>
+<p><lb/>Darnach fragt der fürsprech unter den richteren weiters
+<lb/>um, wo er will, wann dann einer zu folgen begehrt, so
+nü<lb break="no"/>zet es nit viel, klag und antwort weittläuffig zu
+er<lb break="no"/>zehlen, worum er folgen will, und <unclear>endtlich letstlich</unclear><note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 283</bibl>, liest <quote><orig>endlich</orig></quote>.</note> sagen:
+<lb/><q>Und hat mir der herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt hiermit wohl von der sach gerathen.</q>
+</p>
+<pb n="10"/>
+<p><lb/>Will aber einer nit folgen, sonder ist einer anderen
+mei<lb break="no"/>nung, so ist es alsdann billich, daß einer seine greünd
+<lb/>zum 1sten fein umständtlich erzelle und erst dann sein
+urt<lb break="no"/>hel felle.
+</p>
+<p><lb/>Es soll sich aber keiner schämen, wann er gleich anfangs sein
+<lb/>recht von sich geben und er darnach etwas beßers berichtet
+<lb/>wird, von seiner ersten meinung zustehen und der beßeren
+zu<lb break="no"/>folgen, dann es also auf der ersten meinung wieder sein
+ge<lb break="no"/>wüßen zu verharren, weder fein noch gutt wäre.
+</p>
+<p><lb/>Was aber dann unter ihnen (ob sie gleich nit einhellig sind)
+<lb/>das mehr, soll billich gelten und aus gesprochen werden. Item wann
+<lb/>aber die mehr gleich fallend, so hat alsdann der <choice><abbr>ldt</abbr><expan>landt</expan></choice>schreiber den
+ent<lb break="no"/>scheid, doch kein neüe urthel zu fellen.
+</p>
+<p><lb/>Wann die urtheillen all ergangen, so heißt mann alsdann zum
+<lb/>vordersten die, so etwann vom gricht aufgestanden, und darnach
+<lb/>die partheyen all wiederum hinein kommen.
+</p>
+<p><lb/>Und wann alles hinein ist, so sagt der untervogt zum 1sten
+für<lb break="no"/>sprechen, der die urthel aussprechen muß: <q>Ich hab
+<pb n="11"/>
+<lb/>eüch von der oder der sach wegen zwüschet dem und dem des rechten
+<lb/>angefraget, so habt ihr eines raths begehret, so theillend
+<lb/>drum darnach ein jeder.</q>
+</p>
+<p><lb/>Darruf sagt der fürsprech oder soll sagen: <q>Herr, das will ich
+<lb/>thun, herr, ihr habt mich des rechten angefraget, so hab ich eines
+<lb/>raths begehrt. Was mir nun gerathen ist, das ist mir wohl
+<lb/><unclear>eidemk</unclear><note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 284</bibl>,
+liest <quote><orig>eingedenck</orig></quote>.</note> und dunkt mich selbst auch. Herr, ihr habt durch klag und
+<lb/>antwort gehört und verstanden</q>, erzehlt dieselbige, item was
+<lb/>brieff und siegel etwann zugiebt und was durch kundtschafft
+<lb/>oder den augenschein beybracht und erwiesen und sonst handgreifflich
+<lb/>ist, und sagt dann weiters: <q>Herr, dieweil nun der gut freünd sein
+<lb/>sach durch brieff und siegel, kundtschafft <choice><sic>als</sic><corr>ald</corr></choice> augenschein
+gnug<lb break="no"/>samm und dem rechten gemäß beygebracht und erwiesen, so
+er<lb break="no"/>kenne ich mich deßen, <unclear>namlich</unclear> daß ihn sein gegentheil um
+<lb/>solche sein ansprach auf zihl und tag, wie dann die urthel
+er<lb break="no"/>gangen, samt gebührenden kösten aus weisen und bezahlen
+<lb/>oder aber, so es den anderen weg unersucht laßen solle, und so
+<lb/>zwüschen ihnen zu reden ergangen, die zureden von oberkeits
+<lb/>wegen aufgehebt und von des wegen zu beiderseihts
+buß<lb break="no"/>würdig seyn: Herr, das ist mein urthel und dunkt mich recht.</q>
+</p>
+<pb n="12"/>
+<p><lb/>Darauf fragt der untervogt die übrigen richter all einanderen
+<lb/>nach, nennt ein jeden allein einfaltig mit seinem geschlecht
+<lb/>und nammen.
+</p>
+<p><lb/>Darüber sagen sie allsammen, je einer nach dem anderen,
+<lb/>wann sie einhellig sind: <q>Herr, ich folge.</q> Wann aber einer oder mehr
+<lb/>in der urthel nit mitgestimt hat, soll der oder dieselben nit
+<lb/>also sagen, sonder einfaltig sagen: <q>Fahret für</q>, dann es den
+an<lb break="no"/>deren weg nit recht, sonder ein gleichßnerey wäre.
+</p>
+<p><lb/>Wann dann ein urthel also ausgesprochen, soll der untervogt
+all<lb break="no"/>wegen zu den partheyen sagen: <q>Ihr höret wohl, was eüch für ein
+<lb/>urthel worden ist.</q>
+</p>
+<p><lb/>Und wann dann die urthlen all ausgesprochen, so sagt der untervogt:
+<lb/><q>Wer weiter rechts begehrt, mag wohl zu einem fürsprechen
+<lb/>stehen.</q>
+</p>
+<p><lb/>Ist dann noch etwer vorhanden, der rechtens begehrt, der bittet
+vor<lb break="no"/>erzelter maaßen um einen fürsprech, und wird ihme auch also
+<lb/>erlaubt. Ist aber niemand mehr vorhanden, der rechtens begehrt,
+<lb/>so sagt der untervogt noch einmahl: <q>Wer weiters rechtens
+be<lb break="no"/>gehrt</q>, so sagt der untervogt noch einmahl, <q>mag wohl zu
+ei<lb break="no"/>nem fürsprechen stahn</q>, halt darmit ein wenig still und
+<lb/>sagt dann fehrners: <q>1, 2 und zum 3ten</q>, legt darmit den stab
+<lb/>nieder, und ist das gricht aus und geendet.
+</p>
+<pb n="13"/>
+<p><lb/>Und also kommen alle sachen, so für gricht kommen, es seyen
+<lb/>in aufrichtung der gmächten und mannrechten und was es sonst wolle,
+<lb/>allwegen noch gestaltsamme und beschaffenheitt derselben in klag und
+<lb/>antworten, auch in urthlen und aussprüchen, derselbigen
+vor<lb break="no"/>erzehlte frommen und breüch erzehlt werden.
+</p>
+<p><lb/>Es ist aber vor in der klag des ersten fürsprechen vergeßen
+<lb/>worden, dann der fürsprech allezeit, wann der untervogt
+ge<lb break="no"/>sagt hat, <q>es wird der herr <choice><abbr>ld</abbr><expan>landt</expan></choice>vogt und ein ehrsamm gricht loßen</q>,
+<lb/>sagen soll: <q>So möchtet ihr heißen der ald der, wer er dann ist, loßen,
+<lb/>ob er dem guten freünd im rechten bscheid und antwort geben
+<lb/>wolle.</q>
+</p>
+<p><lb/>Darüber soll der untervogt zu dem, so bscheid geben soll, sagen: <q>Wolt
+<lb/>ihr dem guten freünd im rechten bscheid und antwort geben?</q>
+<lb/>Alsdann sagt derselb, so er nach keinen fürsprechen hat: <q>Herr,
+<lb/>ich bitt um einen fürsprechen</q>, der wird im vorerzehlter gstalten
+<lb/>erlaubt.
+</p>
+<p><lb/>Wann aber ein ald dem anderen ein <choice><sic>vortheil</sic><corr>urthel</corr></choice> wird, mit der
+<lb/>er beschwehrt zu seyn vermeint, sagt derselbig: <q>Diese
+<lb/>urthel ist mir zu schwer, ich kan und will sie nit halten</q>,
+<lb/>legt darmit <measure type="currency" unit="ß" quantity="10">10 </measure> ins gericht und sagt weiters: <q>Ich will
+für <choice><abbr>mghhrn</abbr><expan>meine gnädigen herren</expan></choice> appellieren.</q>
+</p>
+<p><lb/>Alsdann soll der undervogt zu dem ersten fürsprechen,
+<pb n="14"/>
+<lb/>so die urthel ausgesprochen hat, sagen: <q>Ihr höret wohl, daß
+<lb/>dem ein urtel worden, derren er sich beschwehrt und verhofft,
+<lb/>beßer recht zu bekommen und die deshalben für <choice><abbr>ungndhhrn</abbr><expan>unsere gnädigen herren</expan></choice>
+<lb/>zu appellieren begehrt, so theillet<note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 286</bibl>, liest <quote><orig>urtheilet</orig></quote>.</note> darum darnach ein jeder.</q>
+<lb/>Darüber giebt der fürsprech zur antwort: <q>Herr, das will ich thun,
+<lb/>herr, weil ich höre und verstehe, daß dem ein urthel worden,
+<lb/>derren er sich beschwehrt und deshalben für <choice><abbr>ugdhhrn</abbr><expan>unsere gnädigen herren</expan></choice> zu
+appel<lb break="no"/>lieren begehrt, so dunkt mich das recht, daß er nach unßers
+<lb/>amts und grichts brauch und recht wohl möge appellieren</q>, 
+<lb/>mag darzu setzen, <q>dann appellieren und bettlen ist jedermann
+er<lb break="no"/>laubt</q>.
+</p>
+<p><lb/>Darauf soll der untervogt die übrigen richter all
+einan<lb/>deren nach einfaltig ein jeden mit seinem nammen fragen,
+<lb/>die geben all zum bscheid: <q>Herr, ich folge.</q>
+</p>
+<p><lb/>Alsdann sagt der untervogt weiters zum 1sten fürsprechen:
+<lb/><q>Ich frag dich weiters an, wie mann die appellation
+verfer<lb break="no"/>gen und aufrichten soll, damit es nach form rechtens
+gesche<lb break="no"/>he und zugehe.</q>
+</p>
+<p><lb/>Hierauf giebt der richter oder fürsprech zum bscheid:
+<lb/><q>Herr, so dunkt mich das recht, daß der, so geappelliert, die
+appel<lb break="no"/>lation innert <date dur="P10D">10 tagen</date> beschreye, und wann er darmit
+fürzu<lb break="no"/>fahren begehrt, er es alsdan eüch als dem
+<pb n="15"/>
+<lb/>richter und untervogt anzeigen und zu wüßen thun und er dann
+<lb/>beyde fürsprechen samt dem <choice><abbr>ldt</abbr><expan>landt</expan></choice>schreiber auf einen bestimten
+<lb/>tag zusammen beruffen und die apellation durch beyde fürsprechen,
+<lb/>wie klag und antwort, auch die urthel ergangen, dem
+<choice><abbr>ldt</abbr><expan>landt</expan></choice>schrei<lb break="no"/>ber angeben und darüber von ihm, dem <choice><abbr>ldt</abbr><expan>landt</expan></choice>schreiber, nach bester form
+<lb/>geschrieben und wider für beyde fürsprechen gebracht werden.
+<lb/>Wann dann sie steht, wie klag und antwort, item gricht und
+urt<lb break="no"/>hel ergangen, daß sie alsdann von herrn <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt auf eüer als von
+<lb/>des grichts bitt wegen gesieglet und dem, so geappelliert,
+<lb/>in sein hand geben werden soll und er darüber mit fahren
+<lb/>möge, so weit als er wolle oder so es ihm dann wiederrathen
+<lb/>wird, die sach seinem gefallen gar unterlaßen: Herr, das ist
+<lb/>mein urthel und dunkt mich recht.</q>
+</p>
+<p><lb/>Darüber fragt der untervogt die übrigen richter wiederum all
+<lb/>einanderen nach, wie zuvor, die geben all vorstehende antwort:
+<lb/><q>Herr, ich folge</q>, und hat darmit ein end und wird die appellation
+<lb/>erzehlter maaßen gestelt und verferget.
+</p>
+<p><lb/>Item wann ein sach, die ziemlich wichtig und schweer ist, für den herrn
+<lb/><choice><abbr>ld</abbr><expan>landt</expan></choice>vogt und ein ehrsamm gricht komt und ihnen schweer falt zu theillen,
+<lb/>möge<supplied resp="rhr">n</supplied> sie dieselbe samt einer schrifftlichen weisung gstrax
+<lb/>für <choice><abbr>ugdhhrn</abbr><expan>unsere gnädigen herren</expan></choice> weisen.
+</p>
+</div>
+<pb n="16"/>
+<div>
+<head type="subtitle"><lb/>Wie brüderen schwösteren
+<lb/>ausrichten sollen</head>
+<p><lb/>Wann brüderen schwösteren vor dem herrn <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt, seinen
+<lb/>amtleüthen und richteren ausrichten wollen, so wird
+vor<lb break="no"/>derst all ihr haab und guth specificierlich beschrieben.
+Dar<lb break="no"/>nach, wann mann zusammen komt, so thut ein <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt den anzug,
+<lb/>gleich wie in anderen sachen, worum man bey einanderen seye,
+<lb/>und ermahnet sie zu beyder seiths aller brüderlichen und
+schwä<lb break="no"/>gerlichen treü und liebe der gestalten, daß sie, wo immer
+<lb/>möglich, sich freündtlich und ohne rechtsprüch mit
+einan<lb break="no"/>deren vergleichen laßen wollen. Wann ald die schwösteren
+<lb/>oder ihre anwalt in ihrem geheüsch zimlich hoch und dargegen
+<lb/>die brüderen in ihrem spott eben ring daher fahren, also daß die
+<lb/>güttigkeit kein platz haben will, so heißt mann sie zu
+bey<lb break="no"/>derseiths ausstahn und nimt mann alsdann das gantze guth,
+<lb/>und was sie darbey schuldig sind, für sich, und werden die
+heü<lb break="no"/>ser und gütter nach je deßen ohrt, beschaffen- und gelegenheit
+<lb/>geschäzt und gewerdet und darüber schulden und wieder
+<lb/>schulden gegen einanderen abzogen, und das ledig guth
+<lb/>unter die geschwüsterte nach gebühr und billichkeit
+<lb/>zertheilt dergstalt, daß allwegen einem bruder, damit
+<lb/>mann bey den gütteren bleiben könne, ohngefahr 2 theil, wo
+ei<lb break="no"/>ner schwöster ein theil geordnet wird.
+</p>
+</div>
+<pb n="17"/>
+<div>
+<head type="subtitle"><lb/>Wie man ein mannrecht
+<lb/>aufrichten soll</head>
+<p><lb/>Wann einer sich an der frömbde hausheblich niederlaßt und
+<lb/>sein mannrecht abholen muß, so komt mehrtheils (wann
+<lb/>mann nit sonst gricht haltet) der herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt samt dem
+<lb/>untervogt, schreiber und 2 richteren zusammen und wird das
+<lb/>gricht verbannen. Des gleichen staht der, so das mannrecht
+<lb/>begehrt, zum fürsprechen, wie vorstehet.
+</p>
+<p><lb/>Und nach gehabtem rath kommen sie beyd wiederum
+hin<lb break="no"/>ein und soll also sagen (wann er den titul vollführt hat): <q>Es
+<lb/>stehet hier zuge<subst><del>h</del><add place="overwritten">g</add></subst>en der gut freünd, wer er dann ist, der
+<lb/>heißt mich dem herren <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt und einem ehrsammen gricht
+<lb/>anzeigen und zu erkennen geben, wie daß er um beßerer
+<lb/>seiner gelegenheit willen gesinnet seye, sich an der
+<lb/>frömbde hausheblich niederzulaßen und ihme deßhalben
+<lb/>vonöthen eines glaubwürdigen scheins, daß er von
+<lb/>vatter und mutter ehrlich ehrbohren, auch er und
+sei<lb break="no"/>ne vorelteren sich jederzeit fromen, ehrlich und redlich
+ge<lb break="no"/>halten, auch niemand leibeigen seye, darum dann er diese
+<lb/>2 ehrliche mann (welche er dann zu zeugen stelt) als 2 alte,
+<lb/>wohlbetagte männer,
+<pb n="18"/>
+<lb/>die deßen alles genugsamme wüßenschafft habend, allher
+<lb/>für gricht citieren laßen mit <choice><abbr>fr</abbr><expan>freündlich</expan></choice> bitten und begehren,
+<lb/>ihme dieselbigen zu verhören und dann ihrer außag
+schrifft<lb break="no"/>lichen schein mitzutheillen, damit er deßelben, wo es
+von<lb break="no"/>nöthen, darlegen und erscheinen könne, und setze ihme hiemit die
+<lb/>sach zum rechten, obs nit billich seye, daß solches geschehe.</q>
+<lb/>Darauf wird ihme die kundtschafft zu verhören erkendt, auch
+<lb/>an die kundschafft zeüget und dieselb verhört, wie man sonst
+<lb/>kundtschafft verhört, doch daß sie ihre außagen mit dem
+<lb/>eydt beste<add place="above">t</add>hen müßen.
+</p>
+<p><lb/>Nach verhörung der kundtschafft wird ihm, dem begehrenden, das
+<lb/>mannrecht erkendt und der <choice><sic>fürsprüch</sic><corr>fürsprech</corr></choice> vom undervogt gleich wie
+<lb/>in einer anderen urthel angefragt und die urthel auszusprechen
+<lb/>vermahnet.
+</p>
+<p><lb/>Hierüber sagt der fürsprech, nachdem er also gefraget ist: <q>Herr,
+<lb/>das will ich thun. Herr, ihr habt mich des rechtens angefraget, so
+<lb/>hab ich eines raths begehrt, was mir nun gerathen ist,
+<lb/>das dunkt mich selbs auch. Herr, dieweil ich gehört und
+<lb/>verstanden, daß der guth freünd hie zugegen um beßer
+<lb/>seines nutzens willen sich an der frömbde
+<pb n="19"/>
+<lb/>hausheblich niderzulaßen willens und seines herkommens,
+<lb/>auch seiner und seiner elteren verhaltens und daß er der
+leibeigen<lb break="no"/>schafft halber gegen niemandt verhafft, vonnöhten seye eines
+<lb/>glaubwürdigen scheins und deßen durch diese 2 ehrliche
+<lb/>männer genugsamm erwiesen, daß er ja von seinem vatter
+<lb/>in <unclear>ehrlichem</unclear> stannd gezüget und gebohren und daß seine elteren und
+<lb/>vorelteren und er sich jederzeit fromen, ehrlich und redlich, wie
+<lb/>es redlichen leüthen zustaht, verhalten, und der leibeigenschafft halber
+<lb/>gegen jemanden verhafftet seye, und hiermit keinen eignen
+<lb/>nachjagenden herren nit habe. Herr, so erkenne ich mich deßen,
+<lb/>daß ihm, dem gutten freünd, zu steüer der wahrheit deßen alles
+<lb/>ein schrifftlicher schein vom gricht unter des herren <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogts
+<lb/>siegel mitgetheilt werde und der <choice><abbr>l</abbr><expan>landt</expan></choice>schreiber denselben nach
+<lb/>bester formm eines mannrechts schreibe, damit er denselben,
+<lb/>wo es vonöthen, zu seiner beförderung darlegen und
+erschei<lb break="no"/>nen könne. Herr, das ist mein urthel und dunkt mich recht.</q>
+</p>
+<p><lb/>Darüber wird fehrner, wie sonst in einer anderen urthel,
+<lb/>umgfragt und gfolget, als vorsteht.
+</p>
+</div>
+<pb n="20"/>
+<pb n="21"/>
+<div>
+<head type="subtitle"><lb/>Demnoch folget die gemeinen
+<lb/>recht bemeldter herrschaft
+<lb/><placeName ref="loc000348">Grifensee</placeName></head>
+<p><lb/>Und nemlich so hat ein herrschafft <placeName ref="loc000348">Griffensee</placeName> alle
+<lb/>die recht, wie sie in <choice><abbr>ugndhhrn</abbr><expan>unserer gnädigen herren</expan></choice> statt <placeName ref="loc000065">Zürich</placeName> gebraucht
+wer<lb break="no"/>den, bis an das blut und sind das die fürnehmsten, wie folget:
+</p>
+<p><lb/>Erstlich, so geschehen alle bott auf erlaubnuß eines herren
+ober<lb break="no"/>vogts durch die undervögt und weibel in der gantzen herrschafft
+<lb/><placeName ref="loc000348">Grifensee</placeName>, und hat sonst außerthalb dem grichtsherr zu <placeName ref="loc008648">Maur</placeName>
+<lb/>niemand gwalt, bott zu erlauben, es seye dann, daß ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt
+<lb/>etwann seinen untervögten und nachgesetzten amtleüthen verwillige,
+<lb/>kleine ald ringe botten (damit mann nit alle mahl gen
+<placeName ref="loc008569">Grifen<lb break="no"/>see</placeName> müeße) zu erlauben.<note>Diese Angaben stimmen überein mit der Ordnung der Gerichtsherrschaft <placeName ref="loc008648">Maur</placeName> von 1604
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_091">SSRQ ZH NF II/3, Nr. 91</ref></bibl>).</note>
+</p>
+<p><lb/>Die ersten, stärksten bott sind, daß mann etwann ein bey
+<date dur="P1D">tagszei<lb break="no"/>ten</date> an ein buß etwas zu erstatten bietten laßt.
+</p>
+<p><lb/>Die anderen sind, daß man etwann eim <date dur="P3D">3 tag</date> einanderen
+<lb/>noch bieten laßt, die heißt mann die schnellen bott. Die dritten bott sind,
+<lb/>daß man etwann eim zu <date dur="P3D">3 tagen</date> um bietten laßt, werden
+<lb/>die <date dur="P3D">3 tägigen</date> bott genendt.
+</p>
+<pb n="22"/>
+<p><lb/>Die vierten sind, daß man eimm zu <date dur="P8D">8 tagen</date> umb bieten laßt, heißen
+<lb/>die <date dur="P8D">8 tägigen</date> bott, sind die gebreüchlichsten, da unter dieseren 3 letzten
+<lb/>allwegen 3 bott geschehen müßen.
+</p>
+<p><lb/>Auf die geschehenen 3 bott geschihet das wahrnungsbott und
+<lb/>wird darüber das fach gelt ausgeben und die ungehorsammen
+<lb/>durch die untervögt und weibel gehorsamm gemacht.
+</p>
+<p><lb/>Wann mann aber einen mit pfand antreiben will, geschihet das
+<lb/>auch durch die untervögt, und wird daßelbig dem schuldner
+an<lb break="no"/>fangs durch den untervogt einfaltig zu wüßen gethan, der oder
+<lb/>der, wer er dann ist, laß ihn pfänden, steht alsdann <date dur="P14D">14 tag</date> stille.
+<lb/>Nach verfließung der <date dur="P14D">14 tagen</date> geht der untervogt wiederum zum schuldner,
+<lb/>der gibt ihm alsdann kleine pfand, mag ein hogmeßer geben, steht dann
+<lb/><date dur="P8D">8 tag</date> lang still.
+</p>
+<p><lb/>Wann dann die <date dur="P8D">8 tag</date> vorbey, so geht der untervogt abermahls
+<lb/>zum schuldner, der muß alsdann nun die schuld gnugsamme
+<lb/>pfand geben, steht alsdann wiederum <date dur="P8D">8 tag</date> lang still.
+</p>
+<pb n="23"/>
+<p><lb/>Nach verfließung dieser <date dur="P8D">8 tagen</date> wahrnet der untervogt den
+schuld<lb break="no"/>ner, daß er die gehebenen pfand innerthalb den nächsten <date dur="P3D">3en tagen</date>
+<lb/>ab der gant löse.
+</p>
+<p><lb/>Wann dann nach den <date dur="P3D">3 tagen</date> noch kein bezahlung beschehen, so rüfft
+<lb/>der untervogt die pfand an einem darzu bestimten ohrt <date dur="P3D">3 tag</date>
+<lb/>einanderen nach auß, thut <date dur="R/P1D">alle tag</date> ein ruff.
+</p>
+<p><lb/>Ist dann noch kein bezahlung beschehen, so ist alsdann der untervogt
+<lb/>schuldig, die pfand aus des schuldners hauß zu nemmen und dem
+<lb/>ansprecher an sein hand zu geben.
+</p>
+<p><lb/>Item wann einer vermög brieff und sieglen liegende pfand
+<lb/>hat, so laßt der ansprecher dem schuldner die unterpfand auf
+<lb/>ein gandt schlagen und stehet dann drüber <date dur="P6W3D">6 wochen und 3 tag</date>
+<lb/>still.
+</p>
+<p><lb/>Nach verfließung der bestimten zeiten gehet der untervogt wiederum
+<lb/>zum schuldner und verkündt ihm, daß er die unterpfand ab der
+<lb/>ganth lösen solle, thut darnach auch <date dur="P3D">3 tag</date> nach einanderen
+<lb/>auf <date dur="R/P1D">jeden tag</date> besonders ein ruff.
+</p>
+<p><lb/>Wann dann kein zahlung erfolget, so laßt der ansprecher dem
+<lb/>schuldner für gricht verkünden und klagt, obgleich der
+<lb/>schuldner nit erscheindt, auf den gantbrieff.
+</p>
+<pb n="24"/>
+<p><lb/>Alsdann wird ihm, nachdem der undervogt bericht gegeben, daß
+<lb/>alle recht vollführt seyen, der gantbrieff erkendt, und mag
+<lb/>er darüber die in der kirchen offentlich feil rüffen laßen oder
+wie<lb break="no"/>ters still stehen, wie er will.
+</p>
+<p><lb/>Item alle verbott geschehen aus erlaubnuß eines herren <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogts,
+<lb/>auch durch die undervögt und weibel.
+</p>
+<p><lb/>Item es hat ein herrschafft <placeName ref="loc000348">Grifensee</placeName>, ußerthalb dem gricht
+<lb/>zu <placeName ref="loc008648">Maur</placeName>, so den <orgName ref="org004085">Äplinen</orgName> gehört,<note>Für die Gerichtsherrschaft der Familie <orgName ref="org004085">Aeppli</orgName> in <placeName ref="loc008648">Maur</placeName> ist eine eigene Ordnung erhalten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_091">SSRQ ZH NF II/3, Nr. 91</ref></bibl>).</note> 3 gricht, namlich eins zu
+<lb/><placeName ref="loc008569">Griffensee</placeName>, eins zu <placeName ref="loc006198">Uster</placeName> und eins zu <placeName ref="loc008651">Fällanden</placeName>, derren 2,
+<lb/>namlich zu <placeName ref="loc008569">Griffensee</placeName> und <placeName ref="loc008651">Fällanden</placeName>, jedes 7 und das zu <placeName ref="loc006198">Uster</placeName>
+<lb/>8 richter hat und an jedem orht der untervogt den stab führt,
+<lb/>und sitzet ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt <choice><sic>mehrthleils</sic><corr>mehrtheils</corr></choice> an allen grichten, wird
+<lb/>auch keins ohne sein erlaubnuß gehalten.
+</p>
+<p><lb/>Item wann es an einem gricht ein richter manglet, so hat
+<lb/>ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt im nammen <choice><abbr>ugdhhrn</abbr><expan>unserer gnädigen herren</expan></choice> den gewalt, demselben
+<lb/>gricht einen anderen richter fürzuschlagen, und haben die richter
+<lb/>ihm, wann der neüwe richter unverleümbdt ist, nichts darein
+<lb/>zu reden, sonder müßen denselben gelten laßen.
+</p>
+<pb n="25"/>
+<p><lb/>Es geschihet aber nit bald, daß ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt einem gricht
+<lb/>etwann einem wieder seinen willen hin einsezt, sonder thut
+<lb/>solches mehrtheils mit den richteren und nach gesezten amtleüthen
+<lb/>rath und haltet unter ihnen ein umfrag.
+</p>
+<p><lb/>Es hat ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt, samt den richteren an jedem ohrt zu
+<lb/>richten um eigen und erb, und all ander sachen, was es dann je für
+<lb/>sachen sind, bis an das malefiz, doch hat es an allen 3 ohrten ein
+<lb/>appellation und weisung für <choice><abbr>ugndhhrn</abbr><expan>unsere gnädigen herren</expan></choice>.
+</p>
+<p><lb/>Item es mögen die keüff vor den gerichten verfertiget werden,
+<lb/>doch sollen keine erblehenhöff und wieder güther, so <choice><abbr>ugdhhrn</abbr><expan>unseren gnädigen herren</expan></choice>
+zinß<lb break="no"/>bahr sind, vor den grichten gefertiget, sonder dieselbigen für <choice><abbr>ughhrn</abbr><expan>unsere gnädigen herren</expan></choice>
+<lb/>die <orgName ref="org004911">rechen herren</orgName> gewiesen werden.
+</p>
+<p><lb/>Item es mögen auch die testament und gemächt vor einem
+<lb/>herren <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt und seinen amtleüthen, wie nit weniger vor den
+<lb/>grichten aufgerichtet werden, da allwegen den ersten erben darzu
+ver<lb break="no"/>kündt werden, und mit nammen an den grichten durch den untervogt
+<lb/>jederzeit vor bestättigung eines gmächs 3 rüeff gethan
+<lb/>und beschehen, ob niemand hier zugegen, der solches gemächt
+<lb/>speren und wehren wolle.
+</p>
+<pb n="26"/>
+<p><lb/>Es werden aber auch vil gemächten von kranknen persohnen
+auf<lb break="no"/>gericht allein in beyseyn 2 ehrlicher männeren, deren mehrtheils
+<lb/>der untervogt und landtschreiber, wo mann die haben mag, berufft
+<lb/>werden, welche gemächt sie aber nit bestehten, sonder wann
+dar<lb break="no"/>nach jemand darwieder seyn wurde, derren allein zügen sind.
+</p>
+<p><lb/>Es mögend auch die mannrecht und gantbrieff vor dieseren
+<lb/>3en grichten aufgerichtet werden.
+</p>
+<p><lb/>Item wann die gsetzten gricht gehalten werden, so legt jede
+<lb/>parthey <measure type="currency" unit="ß" quantity="3">3 </measure> ins gricht, und wird daßelbig jederzeit under
+<lb/>die richter ausgetheilt. Wann aber einer ein eigen gricht
+ha<lb break="no"/>ben und daßelbig kauffen will, muß er allen kosten und darneben
+<lb/>ein gebührlich sitzgelt erlegen.
+</p>
+<p><lb/>Wann ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt zu <placeName ref="loc006198">Uster</placeName> und <placeName ref="loc008651">Fellanden</placeName> gesezte gricht
+<lb/>haltet, so zahlt er die urthen, des gleichen der herren
+prædi<lb break="no"/>canten, wann sie erscheinen, wie auch der 2 untervögten und des
+<lb/><choice><abbr>ldt</abbr><expan>landt</expan></choice>schreibers, und hat es dann <choice><abbr>ugdhhrn</abbr><expan>unseren gnädigen herren</expan></choice> zu verrechnen.
+</p>
+<p><lb/>Item es giebt ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogdt im nammen <choice><abbr>ugdhhrn</abbr><expan>unserer gnädigen herren</expan></choice> beyden
+<lb/>grichten zu <placeName ref="loc008569">Griffensee</placeName> und <placeName ref="loc006198">Uster</placeName> jedem besonders <date dur="R/P1Y">jährlich</date>
+<measure type="currency" unit="lb" quantity="4">4 </measure>
+<lb/>für ihre belohnung.<note>Diese Angaben stimmen überein mit der Ordnung über die Abhaltung der Gerichte in <placeName ref="loc008569">Greifensee</placeName> und <placeName ref="loc006198">Uster</placeName> von 1569
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_082">SSRQ ZH NF II/3, Nr. 82</ref></bibl>).</note>
+</p>
+<pb n="27"/>
+<p><lb/>Item es ist neben diesen 3en grichten noch ein gricht in der
+herr<lb break="no"/>schafft <placeName ref="loc000348">Greiffensee</placeName>, das fryg gricht zu <placeName ref="loc007625">Noßikon</placeName> genandt,
+<lb/>welches <date dur="R/P1Y">alle jar</date> 2 mahl gehalten werden sollte und daran 7 freye,
+<lb/>unpartheyische richter seyn, und darüber allein die rechtshändel
+<lb/>von wegen der zeügen der erkaufften vogtbahren gütteren halben eröhrteret
+<lb/>werden. Da dann geht die appellation gen <placeName ref="loc008569">Griffensee</placeName> in
+<placeName ref="loc010763">Rosen<lb break="no"/>garten</placeName> und da dannen wiederum gen <placeName ref="loc007625">Noßikon</placeName>, und führt der
+under<lb break="no"/>vogt zu <placeName ref="loc000348">Griffensee</placeName> allwegen den stab.<note>Diese Angaben stimmen überein mit der Offnung von <placeName ref="loc007625">Nossikon</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>).</note> Und sind um den <placeName ref="loc010872">Wildensperg</placeName>,
+<lb/><placeName ref="loc008817">Werikon</placeName> und <placeName ref="loc008816">Nenikon</placeName> sonderbahre gütter, welche die richter
+be<lb break="no"/>solden sollen, welche aber, weill diß gricht jezt lange jar her nit
+<lb/>mehr gehalten worden, nit viellen leüthen mehr bekandt sind.
+<lb/>Es hat aber der undervogt zu <placeName ref="loc008569">Griffensee</placeName>, obgleich diß gricht nit
+<lb/>gehalten wird, nichts desto weniger zu <unclear>verliechen</unclear> von des grichts
+<lb/>wegen die schönste besoldung.<note><bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 292</bibl>, liest hier:
+<quote><orig>Es hat aber der untervogt zu <placeName ref="loc008569">Greiffensee</placeName>, obgleich dis gericht nicht
+mehr gehalten wird, nichts desto weniger zu verliehren, sonder von des gerichts wegen, die schönste besoldung</orig></quote>.</note>
+</p>
+<p><lb/>Item es soll ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt zu <placeName ref="loc000348">Griffensee</placeName>
+<date dur="R/P1Y">jahrlich</date> zu <placeName ref="loc008648">Maur</placeName> 2
+<lb/>gricht halten, eins im <date type="deadline" when="--05">meyen</date> und eins zu <date period="fall">herbstzeiten</date>, und der
+un<lb break="no"/>tervogt zu <placeName ref="loc008569">Griffensee</placeName> den stab führen, da dann allwegen der herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt
+<lb/>den kosten, so durch ihn und seine amtleüth, die untervögt und schreiber
+<lb/>aufgeht, abfertiget und es dann <choice><abbr>ugdhhrn</abbr><expan>unseren gnädigen herren</expan></choice> verrechnet.
+</p>
+</div>
+<pb n="28"/>
+<div>
+<head type="subtitle"><lb/>Der richteren eydt</head>
+<p><lb/>Es sollen die richter schweeren, auf den gewohnlichen grichtstag bey zeit
+<lb/>bey einanderen zu seyn und allda zurichten, was für sie komt, was
+<lb/>sie recht bedunkt, dem armen wie dem reichen und dem reichen wie
+<lb/>dem armen, auch dem frömbden wie dem heimbschen, und darum kein
+<lb/>mieth zu nemmen dann das gewohnlich grichtgeldt, wie es von alter
+<lb/>her kommen ist, getreülich und ohn alle gefahr.<note>Dieser Artikel ist angelehnt an den
+Eid des Schultheissen, der Fürsprecher, des Schreibers und des Weibels im Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 8-10</bibl>.</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Welche zum ersten
+verfer<lb break="no"/>tiget werden sollen</head>
+<p><lb/>In allen sachen soll man den gästen und frömbden vor den einheimschen richten,
+<lb/>damit ein jeder wiederum an sein arbeit komme.<note>Dieser Artikel
+stimmt sinngemäss überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 21</bibl>).</note>
+</p>
+<p><lb/>Es hat auch ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt den gewalt, wann ein parthey sich aus
+<lb/>ehehafften ursachen einer urthel beschwehrt und seiner beschwerd
+<lb/>genugsammen grund anzeigen kan, ihm das recht wiederum
+auf<lb break="no"/>zuthun, damit ein jeder zu billichen rechten kommen möge.<note>Dieser Artikel
+stimmt sinngemäss überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 21</bibl>).</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Umb ungehorsamme der kundtschafften</head>
+<p><lb/>Wann einem kundtschafft zusagen zum 3ten mahl gebotten wird
+<lb/>und er alle 3 mahl verächten und
+un<pb n="29"/><lb break="no"/>gehorsam ausbliebe, so soll ein herr <choice><abbr>ldt</abbr><expan>landt</expan></choice>vogt denselben ungehorsammen
+<lb/>in gfängnuß legen laßen und darneben gegen ihm weiter mit straff
+<lb/>noch gebühr verfahren.<note>Dieser Artikel
+stimmt sinngemäss überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 25</bibl>).</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Beweisung <unclear>auf</unclear> ein schuld
+<lb/>auf einen todnen leichnamm</head>
+<p><lb/>Wann einer ein schuld erfordert von persohnen, die tödlich abgegangen,
+<lb/>und aber derselbig weder mit leüthen noch mit brieffen erweisen kan,
+<lb/>daß mann ihm die schuld schuldig seye, so soll es derselb ausbringen,
+<lb/>wie auf einen todnen leichnam recht ist, daß sein fürbringen wahr
+<lb/>und mann ihm solche schuld schuldig seye.<note>Dieser Artikel
+stimmt sinngemäss überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 27</bibl>).</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Wie man kundtschaft verhören solle</head>
+<p><lb/>Wann man kundtschafft verhören will und an sie zeüget werden, sollen
+<lb/>die kundtschaffter alle biß an einen ausstehen und je einer nach dem anderen
+<lb/>in abwesen der anderen zeügen under augen beyder partheyen verhört
+<lb/>werden, wie es vor gseßnem rath gebraucht wird.<note>Dieser Artikel
+stimmt sinngemäss überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 28</bibl>).</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Der juden eydt</head>
+<p><lb/>Item der jud soll stahn auf einer schweinhauth und soll die recht
+<lb/>hand in das buch <choice><abbr>h</abbr><expan>herr</expan></choice>
+<persName ref="per006379">Moßes</persName>, da die <choice><abbr>h</abbr><expan>heiligen</expan></choice> 10 gebott geschrieben stehen, legen
+<lb/>und soll man ihn also fragen:
+</p>
+<pb n="30"/>
+<p><q><lb/>Jud, du wilt ein wahrheit, darum man dich fraget, sagen?
+<lb/>Jud, du bist deßen, so man dich zicht, unschuldig?
+<lb/>Jud, dein sach, so du gsagt hast, ist ein wahrheit?
+<lb/>Also helff dir gott, der berg und thal, laub und gras und alle ding geschaffen
+<lb/>hat, und also helffen dir die <choice><abbr>h</abbr><expan>heiligen</expan></choice> 10 gebott, die gott der herr dem <persName ref="per006379">Mosi</persName> gab
+<lb/>auf dem berg <placeName ref="loc007280">Sinai</placeName>, und also helff dir der hochwürdig namm <foreign xml:lang="he"><persName ref="per014176">אֲדֹנַי</persName></foreign><!-- rhr: Adonai, hebräisch "Herr". -->
+<lb/>(teütsch: der herr).</q><note>Dieser Artikel
+stimmt wörtlich überein mit den Gerichtsbüchern der Stadt <placeName ref="loc000065">Zürich</placeName> von 1527 und 1553/1620
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_134">SSRQ ZH NF I/1/3, Nr. 134</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 28</bibl>).
+Zum Judeneid der Stadt <placeName ref="loc000065">Zürich</placeName> und seiner Anlehnung an die Rechtssammlung des Schwabenspiegels vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Gilomen 2009a</ref>, S. 185-186, mit Anm. 129</bibl>.</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Wie man kösten sprechen soll</head>
+<p><lb/>Wo sich begebe, daß ein persohn die ander unbillicher weis und
+ge<lb break="no"/>fährlich fürnemme, bekümmeret und aufzuge, so sollen alsdann
+<lb/>die rechtsprecher der persohn, so <unclear>gefahrlich</unclear> also umgezogen wird, ein
+<lb/>zimmlichen und billichen kosten sprechen.<note>Dieser Artikel
+stimmt wörtlich überein mit dem Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553/1620
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref>, S. 28</bibl>).</note>
+</p>
+</div>
+<div>
+<head type="subtitle"><lb/>Der stat <placeName ref="loc000065">Zürich</placeName> wie auch der herrschaft
+<lb/><placeName ref="loc000348">Greifensee</placeName> recht, wie laut der stat
+grichts<lb break="no"/>buech leüthe einanderen erben sollend</head>
+<p><gap reason="irrelevant"/><note>Die nachfolgenden Artikel werden hier nicht ediert,
+da sie mit den Gerichtsbüchern der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553 beziehungsweise 1620 weitgehend übereinstimmen
+(<bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 289-290</bibl>).</note></p>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Wie die vorliegende Gerichtsordnung der Herrschaft <placeName ref="loc000348">Greifensee</placeName> an verschiedenen Stellen betont
+(<orig>und nemlich so hat ein herrschafft <placeName ref="loc000348">Griffensee</placeName> alle die recht,
+wie sie in unserer gnädigen herren statt <placeName ref="loc000065">Zürich</placeName> gebraucht werden</orig>,
+<orig>der statt <placeName ref="loc000065">Zürich</placeName> wie auch der herrschaft <placeName ref="loc000348">Greifensee</placeName> recht,
+wie laut der statt grichtsbuech leüthe einanderen erben sollend</orig>),
+stützt sie sich im Wesentlichen auf das Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> von 1553 beziehungsweise 1620
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254375">StAZH B III 54</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254377">B III 56</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref></bibl>).
+Die Bestimmungen bezüglich Erbrecht, Güterrecht, Schuldrecht und Konkursverfahren
+stimmen praktisch wörtlich mit dieser Vorlage überein und wurden daher von der Edition nicht berücksichtigt.
+Als originell erweisen sich indessen die einleitenden Ausführungen bezüglich der Abhaltung der Gerichte
+in <placeName ref="loc008569">Greifensee</placeName>, <placeName ref="loc006198">Uster</placeName>,
+<placeName ref="loc008651">Fällanden</placeName> und <placeName ref="loc008648">Maur</placeName>.
+Die Anweisungen in direkter Rede geben einen interessanten Einblick, wie ein vormoderner Gerichtstag ablief und was dabei von wem wann gesagt wurde.
+Auf diese Weise konkretisiert die Gerichtsordnung die vielen erhaltenen Akten zu Appellationen und Weisungen
+aus der Landvogtei <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=13273">StAZH A 123</ref></bibl>).
+</p>
+<p>Gemäss <bibl><ref target="/startseite/literaturverzeichnis">Schauberg 1842</ref>, S. 289</bibl>,
+handelt es sich bei der Gerichtsordnung von <placeName ref="loc000348">Greifensee</placeName>
+um eine Privatarbeit von <persName ref="per015026">Hans Kaspar Denzler</persName> aus <placeName ref="loc008816">Nänikon</placeName>,
+der ab 1717 als Untervogt beziehungsweise Weibel in <placeName ref="loc008835">Hutzikon</placeName> tätig war und 1734 verstarb
+(<bibl><ref target="/startseite/literaturverzeichnis">Kunz 1948</ref>, S. 165</bibl>).
+Zumindest inhaltlich dürfte die Ordnung jedoch in die erste Hälfte des 17. Jahrhunderts zurückreichen,
+da als amtierender Landvogt <persName ref="per009975">Hans Konrad Bodmer</persName> erwähnt wird (im Amt 1638-1644, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 110</bibl>).
+Zu dieser Datierung passt, dass hier die Familie <orgName ref="org004085">Aeppli</orgName> als Inhaber
+der Gerichtsherrschaft <placeName ref="loc008648">Maur</placeName> erwähnt wird, was ab 1652 nicht mehr zutrifft
+(<bibl><ref target="/startseite/literaturverzeichnis">Schmid 1963</ref>, S. 321</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

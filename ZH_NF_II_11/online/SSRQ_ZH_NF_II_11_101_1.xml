@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_101_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1119764">StAZH G I 5, Nr. 108</idno></msIdentifier><head>Kosten des abgehaltenen Maiengerichts in Höngg</head><msContents><summary>Aufgeführt werden die beim Maiengericht von 1597 enstandenen Kosten. Es wurden 34 Personen im Imbissmahl bewirtet. Von den 102 Personen, die am Abendtrunk teilnahmen, werden die Kosten der 30 Personen aus der Stadt sowie der 8 alten und neuen Richter von Höngg vollumfänglich übernommen; die 64 Personen aus dem Dorf müssen eine Teilzahlung leisten. Die Kosten werden hälftig zwischen den Obervögten und dem Grossmünster aufgeteilt. Das Geld wird hauptsächlich dem Hofmeier und dem Wirt geschuldet, daneben entstanden Kosten für Lohn und Reisespesen der Obervögte, Stiftsabgeordneten und Schreiber. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1597-05-24"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004175">Ausgaben</term><term ref="key004966">Gemeinde</term><term ref="key000057">Gericht</term><term ref="key000574">Rechnungswesen</term><term ref="key004098">Versammlung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_G_I_5__Nr__108__S__1_.tif"/>
+<head type="title">
+<lb/>Uff <origDate when="1597-05-24" calendar="Julian">zinstag, den 24<hi rend="sup">ten</hi> meyen, anno <abbr>etc</abbr> 1597</origDate> ist zuͦ <placeName ref="loc009768">Hönngg</placeName>
+<lb/>das meyengricht gehalten worden, unnd damaalen
+<lb/>verzeert und costen ufganngen wie hernach volget.</head>
+<head type="subtitle">Eerstlichen im imbiß</head>
+<p>
+<lb/>Warend myn herren, nammlich die herren obervögt,
+<lb/>dessglychen die herren pfläger, item verordnete herren,
+<lb/>ouch amptlüth, schryber und dienner vom <orgName ref="org004352">gstifft zum
+<lb/>Großenmünster</orgName>, sodänne pfarer, undervogt, hoffmeyer,
+<lb/>richtere und weibel, unnd dann andere herren und burger
+<lb/>uss myner herren statt, sinnd überal 34 personnen
+<lb/>im imbißmaal. Darfür ist verrëchnet worden:
+<table>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="4">iiij </measure>
+<measure type="currency" unit="ß" quantity="15">xv </measure></measureGrp></cell><cell>dem hoffmeyer umb fleisch, grüns,<!-- grünes Fleisch: von frisch geschlachteten Tieren, im Ggs. zu Räucherfleisch oder gesalzenem, vgl. Idiotikon II, Sp. 750. --> digens<!-- getrocknet, gedörrt, geräuchert, vgl. Idiotikon XII, Sp. 1121. -->
+<lb/>und schwynis</cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="2">ij </measure>
+<measure type="currency" unit="ß" quantity="15">xv </measure></measureGrp></cell><cell>ouch imme, so er umb fisch gäben</cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="1">j </measure></cell><cell>aber imme für das übrig und in die kuchi</cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="18">xviij </measure></measureGrp></cell><cell>dem wirt umb <num value="12">12</num> voggentzer<!-- -er richtig aufgelöst? PS: ja korrekt würde unclear weglassen --> brot per <measureGrp><measure type="currency" unit="ß" quantity="3">3 </measure>
+<measure type="currency" unit="h" quantity="2">2 hlr</measure></measureGrp><note>In der Reinschrift <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1119765">StAZH G I 5, Nr. 109</ref></bibl> stehen die Ausgaben für den Wirt vor den Ausgaben für den Hofmeier.</note></cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="11">xj </measure></cell><cell>aber imme umb <measure type="volume" unit="Kopf" quantity="20" commodity="wine">20 <choice><abbr>k</abbr><expan>kopf</expan></choice> wyn</measure> per <measure type="currency" unit="ß" quantity="11">11 </measure></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="5">v </measure>
+<measure type="currency" unit="ß" quantity="12">xij </measure></measureGrp></cell><cell>aber dem wirt umb fleisch, fisch und anders</cell></row>
+<row><cell><measure type="currency" unit="lb" quantity="1">j </measure></cell><cell>inn die kuchi</cell></row></table>
+<table><row><cell>Summa der imbis bringt</cell><cell><measure type="currency" unit="lb" quantity="28">xxviij </measure>, brüchte jeder
+<lb/>person <measure type="currency" unit="ß" quantity="16.5">16½ </measure></cell></row></table></p>
+<head type="subtitle">Demnoch im aabent trunk</head>
+<p>
+<lb/><sic>Wasend</sic> uss myner herren statt überal 30 personnen <add place="left margin" type="sign" rend="other ink">demnoch alt und <lb/>nüw richter, als <lb/>8 personen</add> und
+<lb/><subst><del rend="strikethrough">72</del><add place="below" rend="other ink">64</add></subst> personnen uss dem dorff, thuͦt 102 personnen. <pb n="2" facs="StAZH_G_I_5__Nr__108__S__2_.tif"/>
+<lb/>Dißre personnen im aabent trunk hand brucht</p>
+<table>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="3">iij </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp></cell><cell>dem hoffmeyer für <measure type="volume" unit="Mütt" quantity="0.5" commodity="bread">ɉ <choice><abbr>mt</abbr><expan>mütt</expan></choice> hußbrot
+<lb/>und weggen</measure></cell><cell/></row>
+<row><cell><measure type="currency" unit="lb" quantity="7"><subst><del rend="strikethrough">vj</del><add place="above" rend="other ink">vij</add></subst> </measure>
+<measure type="currency" unit="ß" quantity="2"><subst><del rend="strikethrough">x</del><add place="above" rend="other ink">ij</add></subst> </measure></cell><cell>umb annken <add place="above" rend="other ink"><measure type="weight" unit="Pfund" quantity="31.5">31½ ℔</measure> per <measureGrp><measure type="currency" unit="ß" quantity="4">4 </measure>
+<measure type="currency" unit="h" quantity="6"><unclear>6</unclear> hlr</measure></measureGrp></add></cell><cell/></row>
+<row><cell><measure type="currency" unit="lb" quantity="6">vj </measure></cell><cell>umb milch</cell><cell>Zuͦ ankenbruten<note>Geschweifte Klammer um diese und obere Zeile</note></cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="2">ij </measure>
+<measure type="currency" unit="ß" quantity="17">xvij </measure></measureGrp></cell>
+<cell>dem wirt umb <num value="18">18</num> voggentzer brot per <measureGrp><measure type="currency" unit="ß" quantity="3">3 </measure>
+<measure type="currency" unit="h" quantity="2">2 hlr</measure></measureGrp></cell><cell/></row>
+<row><cell><measure type="currency" unit="ß" quantity="16">xvj </measure></cell><cell>ouch imme umb <num value="2">2</num> hußbrot</cell><cell/></row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">x </measure></cell><cell>umb <num value="4">4</num> weggen</cell><cell/></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="35">xxxv </measure>
+<measure type="currency" unit="ß" quantity="4">iiij </measure></measureGrp></cell><cell>umb <measureGrp><measure type="volume" unit="Eimer" quantity="2" commodity="wine">2 eimer</measure>
+<measure type="volume" unit="Kopf" quantity="4" commodity="wine">4 <choice><abbr>k</abbr><expan>kopf</expan></choice> wyn</measure></measureGrp> per <measure type="currency" unit="ß" quantity="11">11 </measure></cell><cell/></row></table>
+<p><lb/>Summa deß aabent trunks ist <measureGrp><measure type="currency" unit="lb" quantity="55">lv </measure>
+<measure type="currency" unit="ß" quantity="14"><add place="inline" rend="other ink">xij</add>ij </measure></measureGrp>,
+<lb/>brüchte jeder person ongfar <measure type="currency" unit="ß" quantity="11">11 </measure> zuͦ ürten.</p>
+<p><lb/>Darinnen sinnd die personen uss myner herren statt
+<lb/>zuͦ gast ghalten worden. <add place="inline" rend="other ink">Dessglychen ouch <num value="8">8</num> personen <lb/>als die nüwen und alten richter.</add></p>
+<p>
+<lb/>Die pursamme dero <subst><del rend="strikethrough">72</del><add place="above" rend="other ink">64</add></subst> personen. Gibt jede zuͦ ürten <measure type="currency" unit="ß" quantity="5">5 </measure>.
+<lb/>Bringt <subst><del rend="strikethrough"><measure type="currency" unit="lb" quantity="18">xviij </measure></del>
+<add place="inline" rend="other ink"><measure type="currency" unit="lb" quantity="16">xvj </measure>.</add></subst></p>
+<p>
+<lb/>Nach abzug dessëlben, so blybt dann mynen herren
+<lb/>zuͦbezalen im aabenttrunk
+<lb/>an gëllt <measureGrp><measure type="currency" unit="lb" quantity="39">xxxvij<add place="inline" rend="other ink">ij</add> </measure>
+<measure type="currency" unit="ß" quantity="14"><add place="inline" rend="other ink">xii</add>ij </measure></measureGrp>.</p>
+<head type="subtitle">Wyter</head>
+<table>
+<row><cell><add place="inline" rend="other ink"><measure type="currency" unit="ß" quantity="10">x </measure></add></cell><cell><add place="inline" rend="other ink">umb eiger</add><note>Dieser Eintrag steht in der Reinschrift <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1119765">StAZH G I 5, Nr. 109</ref></bibl> nach Butter und Milch; eine geschweifte Klammer fasst alles <orig>zuͦ ankenbruten</orig> zusammen.</note></cell><cell/></row>
+<row><cell><measure type="currency" unit="ß" quantity="8">viij </measure></cell><cell>inn stall</cell><cell><add place="inline" rend="other ink">hoffmeyer</add><note>Nach geschweifter Klammer um diese und vorherige Zeile.</note></cell></row>
+<row><cell><measure type="currency" unit="ß" quantity="10">x </measure></cell><cell>den mägten</cell><cell><add place="inline" rend="other ink">hoffmeyers</add></cell></row>
+<row><cell><add place="inline" rend="other ink"><measure type="currency" unit="ß" quantity="10">x </measure></add></cell><cell><add place="inline" rend="other ink">wirts magt</add></cell><cell/></row></table>
+<p>
+<lb/>Unnd dann den herren obervögten, gstiffts verordneten
+<lb/>und schryber, jedem <measure type="currency" unit="ß" quantity="10">10 </measure> blonung und <measure type="currency" unit="ß" quantity="10">10 </measure> für rosslon.
+<lb/>Thuͦt <measure type="currency" unit="lb" quantity="6">vj </measure>.<note>Hier endet die Abschrift <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1119765">StAZH G I 5, Nr. 109</ref></bibl>.</note>
+<add place="inline" rend="other ink">Meer <measure type="currency" unit="lb" quantity="5">v </measure> bi der abrëchnung verzert.</add></p>
+<head type="subtitle"> Summarum alles costens ist</head>
+<p><lb/>an gëllt <measureGrp><measure type="currency" unit="lb" quantity="80">lxxx </measure>
+<measure type="currency" unit="ß" quantity="12">xij </measure></measureGrp>.
+<lb/>Bringt mynen <abbr>g</abbr> herren und dem <orgName ref="org004352">gstifft</orgName> jedem theil
+<lb/>an gëllt <measureGrp><measure type="currency" unit="lb" quantity="40">xl </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure></measureGrp>.
+<lb/>Daran ist mynen herren an irem theil <measure type="currency" unit="lb" quantity="0"><unclear>0</unclear><!-- stimmt das? PS: ja --> </measure> abgenommen
+<lb/>so das gstifft ouch gëben sol.</p>
+<add place="left margin" rend="other ink"><p><lb/>Summa dem hoffmeyer <lb/><measureGrp><measure type="currency" unit="lb" quantity="26">xxvj </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp> zalt.</p><!-- Hier wurde zusammengezählt, was dem Hofmeier geschuldet wurde, aus dem Imbiss, dem Abendtrunk und den Nachträgen unter "Wyter". -->
+<p><table><row><cell>Weybel</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="59">lviiij </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp></cell></row>
+<row><cell>Daran empfacht er <lb/>von dorfflüthen</cell><cell><measure type="currency" unit="lb" quantity="16">xvj </measure></cell></row>
+<row><cell>Rest</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="43">xliij </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp></cell></row></table>
+<lb/>Daran empfacht er
+<table><row><cell><measureGrp><measure type="currency" unit="lb" quantity="40">xl </measure>
+<measure type="currency" unit="ß" quantity="6">vj </measure></measureGrp></cell><cell>vom hern ober<lb break="no"/>vogt</cell></row>
+<row><cell><measureGrp><measure type="currency" unit="lb" quantity="3">iij </measure>
+<measure type="currency" unit="ß" quantity="1">j </measure></measureGrp></cell><cell>vom <abbr>h</abbr> cammerer</cell></row></table></p></add>
+</div>
+<pb n="3" facs="StAZH_G_I_5__Nr__108__S__3_.tif"/>
+<pb n="4" facs="StAZH_G_I_5__Nr__108__S__4_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Meyen grichts zuͦ <placeName ref="loc009768">Hönngg</placeName> costen
+<lb/>verzeichnuß, anno <abbr>etc</abbr>
+<date when="1597">97</date>.
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zum Maiengericht gehörte auch ein Abendtrunk für alle Anwesenden, teilweise auch ein Imbissmahl für die Amtsträger (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_095">SSRQ ZH NF II/11, Nr. 95</ref></bibl><!--G I 5, Nr.&#160;35 (fol. 12 r - 13 r)-->;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl><!--G I 6, Nr.&#160;97 (fol. 25 r - 33 v)-->). Dies war eine sehr teure Angelegenheit, so dass mitunter deswegen sogar die Maiengerichte nicht mehr abgehalten wurden
+(vgl. dazu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_100">SSRQ ZH NF II/11, Nr. 100</ref></bibl><!--B V 34 (S. 109 r)-->). Ähnliche Aufstellungen gibt es auch für die Kosten, die bei der Huldigung der Obervögte enstanden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_102">SSRQ ZH NF II/11, Nr. 102</ref></bibl>)<!--A 154, Nr.&#160;31 --><!-- Es ist nicht ganz klar, ob in Höngg die Huldigung der Obervögte jeweils gleich am Maiengericht stattfand, wäre aber naheliegend -->.</p>
+<p>Die Korrekturen stammen einerseits daher, dass Butter offenbar entweder teurer war oder mehr Butter für die Butterbrotschnitten (Ankenbraut) verbraucht wurde als zunächst gedacht, weshalb auch die Zwischensumme angepasst werden musste. Anders als in einer Verordnung vom 4. Mai 1582
+festgehalten, wo der Butterverbrauch auf höchstens 25 Pfund beschränkt wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317215">StAZH G I 29</ref>, S. 1058-1061</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">S. 26, Anm. 3</ref></bibl>)
+wurden hier sogar 31,5 Pfund Butter verbraucht. Andererseits stammen Korrekturen aber vor allem daher, dass die neuen und alten Richter, die der Schreiber zuerst zu den Dorfleuten zählte, beim Abendtrunk ebenfalls auf Kosten der Obrigkeit bewirtet wurden.
+Die <orig>summarum alles costens</orig> von 80 Pfund 12 Schilling ist hier nur der Anteil der Obrigkeit, den die Obervögte und das <orgName ref="org004352">Stift</orgName> sich gemäss einer Vereinbarung vom 23. Mai 1538 zur Hälfte aufteilten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=602600">StAZH G I 103, fol. 31r</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_26">Nr. 7, S. 26-27</ref></bibl>). Die Gesamtsumme, die dem Hofmeier und dem Weibel ausgezahlt wurde und zu der auch jeder aus der <orig>pursamme</orig>
+seinen Teil beisteuern musste, beläuft sich auf 96 Pfund 12 Schilling. Am linken Rand wurde ausgerechnet, was dem Hofmeier und was den anderen Personen von Imbiss und Abendtrunk geschuldet wurde (vor allem dem Wirt und dessen Magd), was offenbar durch den Weibel
+überbracht wurde. Der gesamte Anteil der Obervögte an den Kosten geht an den Weibel, ebenso der Beitrag der Dorfleute; somit war das Stift verantwortlich für die Zahlung an den Hofmeier, den nicht gedeckten Betrag an den Weibel, aber auch für den Sitzungs- 
+und Reitlohn für die Obervögte, Stiftsverordneten und Schreiber sowie für die 5 Pfund, die bei der Abrechnung verzehrt wurden. <!--(Ist das eine pragmatische Aufteilung oder war das Stift verpflichet, z.B. für den Rosslohn aufkommen? Dass es für die Zahlung an seinen 
+Hofmeier zuständig war, scheint naheliegend.) (Interessant auch, dass der Hofmeier und der Wirt den Imbiss und den Abendtrunk gemeinsam ausrichteten, wobei der Wirt zwar für den Wein zuständig war, ansonsten aber keine klare Aufgabenteilung erscheint,
+beide werden sowohl für Fleisch und Fisch als auch für Brot bezahlt.)--></p><p>Eine Reinschrift (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1119765">StAZH G I 5, Nr. 109</ref></bibl>) übernimmt die Korrekturen und verändert leicht 
+die Reihenfolge der Positionen. Es fehlen dort jedoch die Gesamtsumme und die Bemerkungen zur Kostenaufteilung.</p>
+<p>Weitere Kostenaufstellungen finden sich beispielsweise in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=891168">StAZH G I 5, Nr. 35, fol. 20r-33r</ref></bibl>, StAZH G I 5, Nr. 37; StAZH G I 5, Nr. 116; StAZH G I 5, Nr. 148; StAZH G I 7, Nr. 22; StAZH G I 7, Nr. 51; 
+sowie teilweise in den Maiengerichtsprotokollen (vgl. die im Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl><!-- G I 6, Nr.&#160;97 (fol. 25 r - 33 v) --> genannten Signaturen).  
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

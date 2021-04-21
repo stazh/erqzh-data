@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_051</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4241642">StAZH B II 47, S. 1</idno></msIdentifier><head>Urteil in einem Streit zwischen dem Vogt von Greifensee sowie den Freien der Dingstatt Nossikon</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen in einem Streit zwischen dem Vogt von Greifensee sowie den Freien der Dingstatt Nossikon, dass die Offnung von Nossikon gültig bleiben soll. Bertschi Bachofner soll die Weibelwiese nutzen dürfen, wenn er in das Gerichtsgebiet zieht, wie er es angeboten hat.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="11.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1510-07-06"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000335">Nutzungsrecht</term><term ref="key000012">Offnung</term><term ref="key000103">Richter</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" type="original"/>
+<head><lb/><origDate when="1510-07-06">Sambstags nach sant <persName ref="per000356">Uͦlrichs</persName>
+<lb/>tag</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<abbr>hr</abbr>
+<orgName ref="org002406"><choice><abbr>burg</abbr><expan>burgermeister</expan></choice>
+<persName ref="per013559">Röist</persName> und
+<lb/>beyd rät</orgName>
+</head>
+<p><lb/>Im span, so der vogtt zuͦ
+<placeName ref="loc000348">Griffen<lb break="no"/>see</placeName><note><persName ref="per013353">Konrad Engelhard</persName>
+(im Amt 1508-1510, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 218, 316</bibl>).</note> eins und die fryen in der
+<lb/>dingstatt <placeName ref="loc007625">Nossikon</placeName> anders
+<lb/>teils <add place="left margin" type="sign">mit ein <lb/>andern haben</add>, ist nach verhörung
+<lb/>des ingelegten urteil briefs
+<lb/>und des hofrodels <placeName ref="loc007625">Nossikon</placeName>
+<lb/>und gantz alles fu̍rwands
+<lb/>zuͦ recht erkennt, dz es on
+<lb/>alles mittel by dem urtel
+<lb/>brief und dem hofrodell
+<lb/>bestan und denen, wie si
+<lb/>der dingstatt und der fryen
+<lb/>gerechtikeit anzöigend,
+<lb/>gelept werde. Und sölle
+<lb/>nu̍tz destminder <persName ref="per013285">Bärtschy
+<lb/>Bachofner</persName> by der wysen bliben
+<lb/>und haru̍ber in das gericht
+<lb/><placeName ref="loc007625">Nossikon</placeName> zu̍chen, wie er sich
+<lb/>dann zetuͦnd hat erpotten.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Offnung von <placeName ref="loc007625">Nossikon</placeName> sieht vor,
+dass dem Weibel für seine Amtsausübung die sogenannte <placeName ref="loc010824">Weibelwiese</placeName> zusteht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref>, Art. 2</bibl>).
+<persName ref="per013285">Bertschi Bachofner</persName> war demnach also Weibel,
+wohnte aber offenbar ausserhalb des Gerichtsbezirks, weswegen der <orgName ref="org002406">Zürcher Rat</orgName> verlangte,
+dass er nach <placeName ref="loc007625">Nossikon</placeName> zieht, um die Wiese nutzen zu dürfen
+(<bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 40</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 68</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1958</ref>, S. 437</bibl>).
+Fünf Jahre später bestimmte der Rat, dass <persName ref="per013285">Bachofner</persName> seine Einkünfte für die Amtsausübung nur erhalte,
+wenn er das Gericht in <placeName ref="loc007625">Nossikon</placeName> mit sieben freien Stuhlsässen abhalte, wie es die Offnung vorschreibe
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_054">SSRQ ZH NF II/3, Nr. 54</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

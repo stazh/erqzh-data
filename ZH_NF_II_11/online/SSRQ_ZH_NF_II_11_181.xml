@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_181</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25253">StArZH VI.WD.A.4.:16</idno></msIdentifier><head>Bestätigung des Stillstands von St. Peter, dass ein eigener Friedhof die Rechte Wiedikons an der Kirchgemeinde St. Peter nicht schmälert</head><msContents><summary>Der Stillstand der Kirchgemeinde St. Peter bestätigt der Gemeinde Wiedikon, dass die Kosten für den Kauf eines eigenen Begräbnisplatzes, den die Gemeinde auf Anordnung des Zürcher Rats getätigt hat, sowie für die Erbauung und Erhaltung der Friedhofsmauer von der Kirchgemeinde St. Peter übernommen werden. Die Anlage des eigenen Friedhofs soll ansonsten keine Auswirkungen auf die Rechte Wiedikons an der Kirchgemeinde St. Peter haben und namentlich ihre Ansprüche auf das Kirchengut sowie auf zwei Sitze im Stillstand bestehen bleiben. Die Aussteller siegeln mit dem Siegel der Kirchgemeinde.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Kirchenschreiber Hirzel</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="39.5"/><width unit="cm" quantity="60.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="well-preserved"><persName role="sigillant">Kirchgemeinde St. Peter</persName></seal></sealDesc></physDesc><history><origin><origDate when="1788-04-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000238">Friedhof</term><term ref="key004009">Kirchengut</term><term ref="key000637">Pfarrei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Im nammen <choice><abbr>e</abbr><expan>eines</expan></choice>
+<choice><abbr>hochansehnl</abbr><expan>hochansehnlichen</expan></choice> grossen <orgName ref="org005055">stillstands der kirchen allhier zu <placeName ref="loc010769">St. Peter</placeName></orgName>
+<lb/>wird denen sammtlich <choice><abbr>respvé</abbr><expan>respectiven</expan></choice> vorgesetzten der ehrsamen gemeinde <placeName ref="loc009863">Wiedikon</placeName> auf ihr diesfahls gethanes ehrenbietiges
+<lb/>ansuchen diesere auf pergament geschriebne urkund zu handen derselben mit der feyerlichen versicherung angestellt, <!-- Strich. Auszeichnen, z.B. als space? PS: Nein, hier würde ich ein p setzen. Mng: seg gesetzt, sonst reisst es die quellennahe Ansicht auseinander --></seg>
+<seg>daß, da bemelte ehrsame gemeinde in 
+<lb/>gehorsamster befolgung des zu folg hoher raths-erkanntnus an sie so wie die zwey ehrsamen gemeinden <placeName ref="loc009863">Engi</placeName> und <placeName ref="loc012026">Außere Sihl gemeind</placeName> nachher ertheilten auftrags, auf
+<lb/>einen eignen beerdigungs-plaz in ihrem bezirk bedacht zu seyn, <!-- Strich. Auszeichnen, z.B. als space? --> durch die handbietung des ehrsamen und bescheidenen alt gschwornen <persName ref="per026522">Heinrich Meyers</persName> und <orgName ref="org000050"><persName ref="per026523">Heiri</persName>
+<lb/>und <persName ref="per026524">Jacob</persName> den Meyeren</orgName>, <persName ref="per026525">Ludwigs</persName>
+<choice><abbr>s</abbr><expan>seligen</expan></choice> söhnen, von gedachtem <placeName ref="loc009863">Wiedikon</placeName>, welche zu dieser bestimmung eine beyden partheyen zuständige streke wiesen-plazes kaüflich 
+<lb/>überlaßen wollen, eine eigene begräbnis-stätte für ihre leichen ausfindig gemacht, <!-- Strich. Auszeichnen, z.B. als space? --> nicht nur so wohl der ankauff des hierzu erforderlichen plazes
+<lb/>als die über die erbauung und in ehrenhaltung der kirchhof-mauer ergehende umkösten von der kirche bey <placeName ref="loc010769">St. Peter</placeName> werden übernommen, <!-- Strich. Auszeichnen, z.B. als space? --></seg>
+<seg>sondern
+<lb/>sie noch überdies, in krafft dieses vollgültigen briefs, auf das stärkste sicher gestellt seye, dass mehr benannter <choice><abbr>respve</abbr><expan>respectiver</expan></choice>
+<orgName ref="org007942">gemeinde <placeName ref="loc009863">Wiedikon</placeName></orgName> diesere 
+<lb/>veränderung an ihren uralt wohlhergebrachten wahlgerechtigkeiten, gebraüchen und freyheiten, auch an allen ihren übrigen ansprüchen an das kirchengut, desgleichen
+<lb/>an ihren ab seite der gemeind Wiedikon gehabten und noch habenden <num value="2">zwey</num> ehrenhaften beysizen und pläzen in dem grössern und engeren <orgName ref="org005055">stillstand</orgName>
+<lb/>in die zukunfft und zu allen ewigen zeiten nicht præjudicierlich noch nachteilig, sondern sie auf die kräfftigste weise dabey beständig geschützt heißen,
+<lb/>seyn und verbleiben solle, <!-- Strich. Auszeichnen, z.B. als space? --></seg>
+<seg>zu deße mehrerer versicherung diesere urkunde, mit dem gewohnten kirchen-insigul bekräfftiget, aushingegeben 
+<lb/>worden.</seg></p>
+<p>
+<lb/><origDate when="1788-04-21">Montags, den 21<hi rend="sup">ten</hi> aprilis anno 1788</origDate>
+</p>
+<p>Kirchenschreiber <persName ref="per026521">Hirtzel</persName>
+</p>
+</div>
+<pb n="v"/>
+<div><ab place="verso" type="dorsal">
+<lb/>Urkunde
+<lb/>von der
+<lb/>kirchen <placeName ref="loc010769">St. Peter</placeName>
+<lb/>wegen
+<lb/><unclear>kirchennakher</unclear>
+<lb/><add place="inline" hand="later hand">21 april</add>
+<lb/><choice><abbr>dat</abbr><expan>datum</expan></choice> 1788
+</ab></div>
+</body>
+<back>
+<div>
+<p><placeName ref="loc009863">Wiedikon</placeName> gehörte bis 1883 zur Kirchgemeinde <orgName ref="org005140">St. Peter</orgName>. Anfangs wurden die Verstorbenen der Gemeinde auch dort begraben. 1566 kaufte der <orgName ref="org002406">Rat</orgName> aufgrund der Pestjahre ein Grundstück bei 
+der Kapelle <placeName ref="loc012758">St. Anna</placeName> als Friedhof, das danach der Kirchgemeinde <orgName ref="org005140">St. Peter</orgName> geschenkt wurde. Die Leute von <placeName ref="loc009863">Wiedikon</placeName>, <placeName ref="loc010425">Enge</placeName>, an der <placeName ref="loc010518">Sihl</placeName> 
+und vor dem <placeName ref="loc010644">Rennwegtor</placeName> wurden fortan dort begraben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1927341">StAZH B III 7, fol. 34v</ref></bibl>; zur Anlage des Friedhofs zu <placeName ref="loc010635">Predigern</placeName> 
+um diese Zeit vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_180">SSRQ ZH NF I/1/3, Nr. 180</ref></bibl>). 1786 entschied der <orgName ref="org002406">Rat</orgName>, dass die Toten nicht mehr innerhalb der Stadt beerdigt werden sollten. 1788 wurde 
+deshalb der Friedhof auf der <placeName ref="loc012253">St. Peterhofstatt</placeName> aufgehoben und die Kirchgemeinde <orgName ref="org005140">St. Peter</orgName> nutzte den Friedhof bei <placeName ref="loc012758">St. Anna</placeName> für sich selbst. Die äusseren Gemeinden, die diesen Friedhof bisher 
+genutzt hatten, erhielten eigene Friedhöfe, wofür <placeName ref="loc010769">St. Peter</placeName> aufkommen musste. Am 23. April 1788 wurde in <placeName ref="loc009863">Wiedikon</placeName> mit der Einebnung des Grundstücks begonnen, am 5. Juli 1788 fand die erste Beisetzung statt. 
+Am 10. Juni 1788 überwiesen die Obervögte ein Gesuch um die Einrichtung einer Abdankungshalle im Schulhaus an den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=759488">StAZH A 154, Nr. 161</ref></bibl>). 
+Zum Bestattungswesen in <placeName ref="loc009863">Wiedikon</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 138-140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 2006</ref>, S. 195-198</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

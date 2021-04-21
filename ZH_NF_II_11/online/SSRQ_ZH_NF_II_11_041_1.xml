@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_041_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24068">StArZH VI.EN.LB.A.1.:2</idno></msIdentifier><head>Urteil von Bürgermeister und beiden Räten von Zürich betreffend die Zugehörigkeit der Einwohner an der Sihl bezüglich deren Dienstpflichten</head><msContents><summary>Da es zwischen der Wacht zu den Drei Königen in der Vogtei Wollishofen und der Konstaffel zu einem Konflikt betreffend die Dienstpflicht des vor der mindern Stadt an der Sihl wohnhaften Anton Schmid gekommen ist, fällen Bürgermeister und beide Räte von Zürich folgendes Urteil: Wer an besagtem Ort wohnt, keiner Zunft angehört und einem Vogt von Wollishofen von alters her das Vogthuhn entrichtet, hat in die Wacht zu den Drei Königen zu dienen. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.0"/><width unit="cm" quantity="34.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.0"/></dimensions></extent><condition>Wasserflecken</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1494-04-28"/></origin></history><additional><listBibl><head>Teiledition</head><bibl>QZZG, Bd. 1, Nr. 172 (auf der Grundlage von StAZH W I 15.34.1, Nr. 1)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000157">Steuern</term><term ref="key001101">Wehrdienst</term><term ref="key003068">Zunft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg><lb/>Wir, <orgName role="issuer" ref="org002406">der burgermeister, der rǎt und der groß rǎt, so man nempt die zwey hundert, der statt
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, <lb/>tuͦnd kundt offennlich mit disem brieff, das fu̍r unns zuͦ
+recht kommen sind der unnsern gemeiner wacht <app>
+<lem>zen <lb/><placeName ref="loc012095">heilgen Dryg Ku̍ngen</placeName> in unnser vogtye zuͦ
+<placeName ref="loc009865">Wolishofen</placeName></lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">zuͦ
+<placeName ref="loc009865">Wollißhoffen</placeName></rdg>
+</app><note>Zu den unterschiedlichen Bezeichnungen der Wacht vgl. <bibl><ref target="/startseite/literaturverzeichnis">Guyer 1980</ref>, S. 42</bibl>.</note> volmechtig botten an
+einem und <orgName ref="org004958">gemeine Constǎfel</orgName>
+<lb/>in unnser statt, ouch durch ir anwaͤllt, dem annderrnn teil von der wegen, das die machtbotten der <lb/>gemellten
+wacht <app>
+<lem>zuͦ den <placeName ref="loc012095">heilgen Dryg Ku̍ngen</placeName></lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">zuͦ
+<placeName ref="loc009865">Wolißhoffen</placeName></rdg>
+</app> sich <app>
+<lem>erclagten</lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">erclagen</rdg>
+</app>, nǎch dem <persName ref="per024267">Anthony Schmid</persName>, vor unnsrer mindern <lb/>statt an der <placeName ref="loc010518">Syl</placeName>
+gesessen und deßhalb in ir wacht gehoͤrig were, angesechen, das er in kein zunfft diente <lb/>noch gehorte, u̍ber das
+sparte er sich mit inen zuͦ dienen und zetuͦn, das ein anndrer, in ir wacht gesessen, <lb/>schuldig were, und hette
+ouch die beruͤrte <orgName ref="org004958">Constǎfel</orgName> unnderstannden, inn zuͦ inen anzuͦnemen und in die <orgName ref="org004958">con<lb break="no"/>stǎfel</orgName> ze <choice>
+<sic>zeichen</sic>
+<corr>ziechen</corr>
+</choice>, wie wol von altemhar die, so in deßelben <persName ref="per024267">Anthony Schmids</persName> hus und daselbs umb gesessen
+<lb/>und nit in unnser statt zu̍nfftig gewesen weren, zuͦ inen in ir wacht gediennt, ouch des zuͦ urku̍nd einem
+<lb/>vogt zuͦ <placeName ref="loc009865">Wolishofen</placeName>
+<date dur="R/P1Y">jeͣrlich</date> die vaßnachthuͤner hetten muͤssen geben. Dǎrumb sy begerten, die gedǎchten
+<lb/><orgName ref="org004958">Constǎfel</orgName> des abzuͦwisen und sy by soͤlichem irem altharkommen bliben zuͦ
+lǎssen.<note>Vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935688">StAZH
+B II 2, fol. 40r, Eintrag 2</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 395,
+Nr. 264</bibl>.</note></seg>
+<seg>Dǎgegen die anwaͤllt der <lb/>selben <orgName ref="org004958">Constǎfel</orgName> anntwurt gaben und fu̍rwanndten, wie das die, so
+vor unnser statt an der <placeName ref="loc010518">Syl</placeName> gesessen <lb/>und hußhablich weren, mit allen dingen gehalten, ouch
+in unnser raͤtt gesetzt<note>Vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935684">StAZH
+A 43.1.2, Nr. 2, S. 40</ref></bibl>.</note> und nit annders geachtet <lb/>wurden, dann die,
+so innerthalb den rinckmuren in unnser statt wonhafft weren, dǎrumb sy hofften, <damage agent="faded ink"><supplied resp="ahh">das</supplied></damage>
+<lb/>die, so an dem ennd gesessen und nitt zu̍nfftig weren, nach lut und sag unnsers geswornen brieffs in die con<lb break="no"/>stǎfel dienen und gehoren soͤlten.<note>Gemäss Viertem Geschworenenbrief von <date when="1489">1489</date> mussten alle Männer und Frauen der Stadt, die keiner Handwerkszunft angehörten, in die
+<orgName ref="org004958">Gemeine Konstaffel</orgName> aufgenommen werden. Diese bildete fortan ein Auffangbecken für
+nichtzünftische Mittel- und Unterschichten, zu denen wohl auch
+<persName ref="per024267">Anton
+Schmid</persName> zu zählen wäre (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D10249.php">Konstaffel</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 2003</ref>, S. 51</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 169</bibl>).</note></seg>
+<seg>Unnd als dǎruff beyd parthygen mit <damage agent="fold"><supplied source="StAZH W I 15.34.1, Nr. 1">mee</supplied></damage> worten, nit not zuͦ beschriben, <lb/>soͤlichs zuͦ re<damage agent="faded ink"><supplied resp="ahh">cht</supplied>
+<supplied resp="ahh">ge</supplied></damage>set<damage agent="faded ink"><supplied resp="ahh">zt</supplied></damage> und beslossen, und wir am ersten den unnsern in der beruͤrten wacht ein fu̍rbringen
+<lb/>irs harkommens und <damage agent="faded ink"><supplied resp="ahh">fu̍</supplied></damage>rgebens ze tuͦn erkenndt
+und demnǎch ir gebottnen und ingelegte kuntschafft mit <lb/>beyder teilen inred und widerred gehoͤrt, so haben wir
+dǎruff nǎch allem fu̍rwennden und inleggen unns <lb/>erkennt und zuͦ recht gesprochen, das die unnsern <app>
+<lem>in der gemelten wacht</lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">von
+<placeName ref="loc009865">Wolißhoffen</placeName></rdg>
+</app> irs fu̍rbringens uff unnser vor<lb break="no"/>ußganngen urteil, ouch das sich findt, welicher an dem ennd
+gesessen und nit zu̍nfftig ist, das der von altem<lb break="no"/>har einem vogt zuͦ <placeName ref="loc009865">Wolishofen</placeName>
+das vogthuͦn <app>
+<lem>gegeben</lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">geben</rdg>
+</app> und deßhalb in die selben vogtye gehoͤrt hǎt, so vil <lb/>geniessen, das er nochmals dǎby bliben und der
+genannt <persName ref="per024267">Anthony Schmid</persName>, allewyl er dǎselbs an der <placeName ref="loc010518">Syl</placeName>
+<lb/>sitzt und kein zunfft hǎt, in die wacht <app>
+<lem>zen <placeName ref="loc012095">heilgen Dryg Ku̍ngen</placeName> und die gedachten voͤgtye zuͦ
+<placeName ref="loc009865">Wolishofen</placeName></lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">zuͦ
+<placeName ref="loc009865">Wollißhoffen</placeName></rdg>
+</app>
+<lb/>dienen und gehoͤren soͤlle.</seg>
+<seg>Des begerten die obgemelten <placeName ref="loc012095"><app>
+<lem>zen <placeName ref="loc012095">heilgen Dryg Ku̍ngen</placeName></lem>
+<rdg wit="StAZH W I 15.34.1, Nr. 1">von Wollißhoffen</rdg>
+</app></placeName> eins brieffs, den wir inen <lb/>zuͦ geben erkenndt und der zuͦ urku̍nde unnser statt secret
+insigel offennlich daran haben tuͤn henncken, <lb/>der geben ist, <origDate when="1494-04-28">mentag nǎch sannct
+<persName ref="per000998">Marx</persName> tag des heilgen ewangelisten nǎch der gepurt Cristy, unnsers <lb/>lieben herren,
+gezalt tusent vierhundert nu̍ntzig und vier jare</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/><date when="1494">1494</date></ab></div><!-- ahh: Hand abgeklärt mit Stücken bis ins 17. Jh. -->
+</body>
+<back>
+<div>
+<p>Der unklare Status der Bewohner vor den Stadttoren <placeName ref="loc000065">Zürichs</placeName> in Bezug auf Wehr- und
+Steuerpflicht wie hier auf dem Boden von <placeName ref="loc010425">Enge</placeName> war ein wiederkehrender Grund für Konflikte, die eines
+Urteils bedurften
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_018">SSRQ ZH NF II/11, Nr. 18</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24069">StArZH
+VI.EN.LB.A.1.:3</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24070">StArZH
+VI.EN.LB.A.1.:4</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24753">StArZH
+VI.OS.A.1.:4</ref></bibl>).
+</p>
+<p>Der Urkunde wurde im 18. Jahrhundert mit einer Stecknadel ein Zettel mit einem Kurzregest
+angeheftet.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_127_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24083">StArZH VI.EN.LB.A.3.:19</idno></msIdentifier><head>Ratsurteil der Stadt Zürich betreffend die Errichtung von Wuhren in der Sihl</head><msContents><summary>Bürgermeister und Rat entscheiden im Streit zwischen den Gemeinden Wollishofen (vertreten durch Untervogt Rudolf Hausheer und die drei Geschworenen Hans und Georg Bleuler sowie Wilhelm Hausheer) und Enge (vertreten durch Leutnant Caspar Hausheer, Säckelmeister) einerseits, der Gemeinde Wiedikon (vertreten durch Hauptmann Gorius Koller, Untervogt, die beiden Richter Hans Ulrich Meyer, Säckelmeister, und Felix Hämiker sowie Weibel Heinrich Wetzel) andererseits und Conrad Asper und Jacob Kienast von Wollishofen dritterseits. Wollishofen und Enge haben ein Wuhr (Flussverbauung) bei der Wollishofer Allmend in die Sihl gesetzt, das Wiedikon eigenmächtig wieder entfernt hat. Wollishofen und Enge fordern dafür Schadenersatz, während Wiedikon vorbringt, dass das Wuhr bei Hochwasser nicht nur ihren Dämmen, sondern auch den obrigkeitlichen Wehren an der Sihl geschadet hätte, weshalb sie ihrerseits um Schadenersatz ersucht. Bürgermeister und Rat entscheiden, dass es bei den bisherigen Urteilen verbleiben soll und dass kein Teil ohne Wissen der Obervögte und der anderen Teile in der Sihl Wuhren errichten soll. Die Gemeinde Enge muss sich auch am Unterhalt der Wuhren beteiligen. Für diesmal soll Wiedikon das nötige Holz stellen. Die Obervögte sollen mit alt Sihlherr Zimmermann festlegen, wie das Wuhren in Zukunft gehandhabt werden soll. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.5"/><width unit="cm" quantity="54.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax in a box" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1671-06-03"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000748">Augenschein</term><term ref="key004966">Gemeinde</term><term ref="key000715">Gewässer</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000471">Schriftlichkeit</term><term ref="key000683">Urteil</term><term ref="key000036">Vogtei</term><term ref="key000716">Wasserführung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd khundt offentlich hiemit, demnach
+<lb/>uff den hüttigen tag vor uns spännig gëgeneinanderen erschinnen: Unßere allerseits liebe, gethreüwe angehörige, undervogt <persName ref="per025701">Ruͦdolff Hußheer</persName>, <orgName ref="org000964"><persName ref="per026031">Hans</persName> und <persName ref="per026029">Geörg</persName> die Blöüwleren</orgName> und <persName ref="per026041">Wilhelm Hußheer</persName>, gschworne
+<lb/>und als abgeordnete anwält einer ehrsammen <orgName ref="org007948">gmeind <placeName ref="loc009865">Wollißhoffen</placeName></orgName>, so danne leütenant <persName ref="per026033">Caspar Hußheer</persName>, seckelmeister, sampt einem usschuß innammen auch einer ehrsammen <orgName ref="org007810">gmeind <placeName ref="loc010425">Engi</placeName></orgName>, eins; deßglychen
+<lb/>hauptman <persName ref="per026043">Gorius Koller</persName>, undervogt, <persName ref="per026044">Hanß Uͦlrich Meyer</persName>, seckelmeister, und <persName ref="per026032">Felix Hämicker</persName>, beid deß gerichts, wie auch <persName ref="per026045">Heinrich Wetzel</persName>, weibel, von wëgen und als ebenmeßig abgeordnete anwält einer gantzen
+<lb/>ehrsammen<orgName ref="org007942"> gmeind <placeName ref="loc009863">Wiedickon</placeName></orgName>, anders; dannethin <persName ref="per026028">Conradt Asper</persName> und <persName ref="per026042">Jacob Kienast</persName> von <placeName ref="loc009865">Wollißhoffen</placeName>, dritten theils, von wëgen des wuͦrens beidersyts an der <placeName ref="loc010518">Sil</placeName>, insonderheit aber deß jënigen wuͦhrs<!-- Bach-, Flussverbauung, seitlicher Schutzdamm am Wasser oder Stauanlage zur Regulierung des Wasserstandes, vgl. Idiotikon XVI, Sp. 1076 -->
+<lb/>halber, so besagte beide gmeinden, <placeName ref="loc009865">Wollißhoffen</placeName> und <placeName ref="loc010425">Engi</placeName>, jüngsthin by der <placeName ref="loc009865">Wollißhofferen</placeName> allmënt in die <placeName ref="loc010518">Sil</placeName> gesetzt, volgendts aber von der <orgName ref="org007942">gmeind <placeName ref="loc009863">Wiedickon</placeName></orgName> zuͦ ihren nit geringen nachtheil und schaden der enden
+<lb/>ihnen unwüßend wider hinweg gethan worden.</seg>
+<seg>Deßen ermëlte beide gmeinden dan sich höchlich beschwert und dahar umb abtrag kostens und schadens underthenig angehalten. Eine <orgName ref="org007942">gmeind <placeName ref="loc009863">Wiedickon</placeName></orgName> hergëgen be<lb break="no"/>weglich
+fürbringen laßen, wie das gëgentheil mit wuͦhren ihrer syts der <placeName ref="loc010518">Sil</placeName> die zyth har nit allein zimmlich sumsëllig verfahren, sondern angedütes wuͦhr auch so wyt in die <placeName ref="loc010518">Sil</placeName> gëgen ihrer landtsfeste<!-- Landfesti: 1. Vorkehrung zum Schutz des Landes, z.B. Holzverschlag, Stützmauer etc. 2. Land längs eines Baches oder Flusses, vgl. Idiotikon I, Sp. 1122.-->
+<lb/>hereingemachet, daß bie entstandenem waldwaßer<!-- Hochwasser, vgl. Idiotikon XVI, Sp. 1842 --> nit nur daß ihrige, sondern auch unßere oberkeitliche werck an der <placeName ref="loc010518">Sil</placeName> sëlbst dardurch leichtlich zuͦ grund gerichtet werden mögen, so daß sy eben dardurch
+<lb/>verursachet, ermëltes wuͦhr nothtrungenlich widrumb hinweg zuͦ thun; inmaaßen, daß, wylen sëlbiges ihnen dergestalten zuͦ schaden gereichet und sy damit in kosten gerathen, ihr glychmeßige under<lb break="no"/>thenige
+pitt an uns seige, ihnen den gëgentheil umb ersatzung deßen gnädig einzuͦkennen.</seg>
+<seg>Und nun wie sy samptlichen in ihren klägten und antworten gnuͦgsamm verstanden, auch allersyts eingelegte brieff
+<lb/>und sigel und verträg, als mit nammen deren von <placeName ref="loc009863">Wiedicken</placeName> vom <date when="1596-09-07">sibenden herpstmonat tusendt fünffhundert sëchs und nüntzig</date>, den <date when="1599-08-03">dritten augstmonat tusent fünffhundert nün und nüntzig</date>, item
+<lb/>den <date when="1606-12-13">dryzëhenden <hi rend="font change">decembris</hi> tusendt sëchshundert und sächse</date><note>Ein Regest dieses Urteils findet sich im Urkundenbuch der Gemeinde <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25423">StArZH VI.WD.C.4., S. 58, Nr. 7</ref></bibl>).</note>, zesampt einem kauffbrieff von den <orgName ref="org007818">Glaseren</orgName><!-- ist hier ein Familienname, kein Handwerk --> allda gëgen der gmeind vom <date when="1664-11-28">acht und zwantzigsten wintermonat anno tusent sëchs hundert vier
+<lb/>und sëchtzig</date><note>Ein Regest dieses Urteils findet sich im Urkundenbuch der Gemeinde <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25453">StArZH VI.WD.C.4., S. 58, Nr. 8</ref></bibl>).</note>; so danne deren uß <placeName ref="loc010425">Engi</placeName> und <placeName ref="loc009865">Wollißhoffen</placeName> von <hi rend="font change">anno</hi>
+<date when="1560">tusent fünff hundert und sëchstzig</date>, item den <date when="1663-12-10">zëhenden christmonat tusendt sëchs hundert drü und sëchstzig</date><note>Möglicherweise handelt es sich um <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24105">StArZH VI.EN.LB.A.4.:41</ref></bibl>.</note>;  dannethin von den <orgName ref="org002510">Kienasten</orgName>
+<lb/>einer vom <date when="1646-04-10">zëhenden aprellen tusendt sechs hundert sëchs und viertzig</date> wol erduhert; und solchem nach auch unßerer uff dem augenschyn gewästen lieben mitträthen mehreren mundtlichen bericht darüber
+<lb/>nachrichtlich vernommen; daß wir daruf, in ryffer erwëgung der sachen beschaffenheit ein hellig erkhëndt:</seg>
+<seg>Nammlich, umb so vil vordrist angeregte brieffliche gwarsamminen deß wuͦhrens halb anbelangend; daß
+<lb/>es by den sëlbigen einfaltig nach fürbas verbleiben und solliche dißfahls zuͦ krefften erkëndt syn, in dem heiteren verstand und meinung, daß krafft sëlbiger fürhin kein theil ohne vorwüßen des anderen wuͦhren
+<lb/>mögen; und eine gmeind in <placeName ref="loc010425">Engi</placeName>, sy habe glych an der <placeName ref="loc010518">Sill</placeName> auch gmeind- oder nur sonderbare güeter, ihrer syts zuͦ erhaltung der landts veste nit minder als die von <placeName ref="loc009863">Wiedickon</placeName> und <placeName ref="loc009865">Wollißhoffen</placeName>, da es allwëgen in jeder gmeind
+<lb/>eignem costen, auch mit eines jewyligen regierenden obervogts wüßen, beschähen, nach nothdurfft zewuͦhren schuldig syn solle. Widrigen fahls, da der ein ald andere theil deme künfftig nit nachgahn, sondern etwan zuͦwider<lb break="no"/>handlen
+wurde, der fehlbare allwëgen gebürend abbüest und gstrafft werden. Unßeren dißmahligen obervögten beider orthen anby überlaßende, in zuͦzühung alts silherr <persName ref="per026046">Zimbermans</persName>, mit den partheyen die fernere nothwendig<lb break="no"/>keit
+hierüber zereden und zetrachten, sëlbige widerumb mit- und gëgen einanderen zuͦversüenen, und zuͦ glych grad zuͦ befehlen, wie anjetzo gewuͦhret werden;<note>Die Obervögte von <placeName ref="loc010425">Enge</placeName> und <placeName ref="loc009865">Wollishofen</placeName> erliessen am 14. Dezember 1671 weitere Bestimmungen zum Wuhren in der Sihl (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24166">StArZH VI.EN.LB.C.4., fol. 52v-53v</ref></bibl>).</note> in der meinung, daß die <orgName ref="org007942">gmeind <placeName ref="loc009863">Wiedickhon</placeName></orgName> den anderen
+<lb/>daß hierzuͦ erforderliche holtz und studen für dißmahlen darzegëben und den nothwëndig befundenen fuhrt über die klingen abhin, auch nur dißmahlen, mitzemachen haben solle.</seg>
+<seg>Imm übrigen danne der in wärendem
+<lb/>handel uffergangne umbcosten, zesambt den ein- und andersyts gefloßenen zuͦred<!-- Verbalinjurie, vgl. Idiotikon VI, Sp. 541 --> und schältungen zwüschent beiden theilen, von oberkeits wëgen umbs besten willen uff gehebt, also daß die schältungen niemandem
+<lb/>ins gemein ald sonderbar an synen ehren, guͦten lümbden und nammen, jetz nach künfftig, nicht<del>s</del> über al praejudicier-, uffheb- nach schädlich, sondern hiemit alles ein ußgemachte sach heißen, und sy aller syts fürbas
+<lb/>guͦte, liebe fründt und nachbauren gëgen einanderen syn und blyben.</seg>
+<seg>In krafft diß brieffs, daran wir zuͦ gezügknus deßen unßer statt <placeName ref="loc000065">Zürich</placeName> gewohnliches secret-insigel offentlich haben hënckhen laßen.
+<lb/>So gëben <origDate when="1671-06-03" calendar="Julian">sammbstags, den dritten brachmonaths, nach der geburth Christi gezelt ein thusendt sëchs hundert sibentzig und ein jahr</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c">Wuhren an der <placeName ref="loc010518">Sihl</placeName>
+<choice><abbr>betr</abbr><expan>betreffend</expan></choice></ab>
+</div>
+</body>
+<back>
+<div>
+<p>An der <placeName ref="loc010518">Sihl</placeName> kam es immer wieder zu Hochwasser und Überschwemmungen. Manchmal veränderte sich deswegen auch der Verlauf des Flusses. Da die <placeName ref="loc010518">Sihl</placeName> die Grenze zwischen den Gemeinden 
+<placeName ref="loc009865">Wollishofen</placeName> sowie <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc012271">Leimbach</placeName> bildete, kam es  auchdeswegen zu Auseinandersetzungen. Um den Wasserlauf zu stabilisieren, wurden Verbauungen und Dämme angelegt, 
+die sogenannten <orig>wuhren</orig>. Nicht nur um deren Anlage und Unterhalt gab es Konflikte; wie im vorliegenden Stück stritt man auch darum, dass das Umleiten der Strömung auf der einen Flussseite dafür die andere Flussseite schädigte.</p>
+<p>Die Konfliktparteien verwiesen in diesem Streit auf zahlreiche ältere Urteile und Urkunden, die jedoch meist nicht überliefert sind. Von zwei Urteilen von 1606 und 1664 finden sich immerhin noch Regesten im 1833 angelegten Urkundenbuch der Gemeinde <placeName ref="loc009863">Wiedikon</placeName> 
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25423">StArZH VI.WD.C.4., S. 58, Nr. 7</ref></bibl>;
+<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25453">StArZH VI.WD.C.4., S. 58, Nr. 8</ref></bibl>).
+Bei der erwähnten Urkunde vom 10. Dezember 1663 handelt es sich möglicherweise um einen Kaufbrief, in dem auch eine Kies- oder Sandbank in der <placeName ref="loc010518">Sihl</placeName> von 135 Schritt als zum verkauften Land zugehörig erwähnt ist 
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24105">StArZH VI.EN.LB.A.4.:41</ref></bibl>). Nicht erwähnt werden weitere Konflikte vom 4. Oktober 1621 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25533">StArZH VI.WO.A.2.:10</ref></bibl>) 
+und vom 16. November 1665 <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25586">(StArZH VI.WO.C.4., S. 89-93</ref></bibl>).</p>
+<p>In der angekündigten Regelung durch die Obervögte befanden diese, dass in Zukunft alle Parteien für den Unterhalt der Wuhren in ihrem Gebiet selber aufkommen müssten und dass die Grenzen beim derzeitigen Stand verbleiben sollten. Zudem erhielten die 
+Geschworenen die Aufgabe, bei der jährlichen Kontrolle der Wege und Gräben auch die Wuhren zu kontrollieren (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24166">StArZH VI.EN.LB.C.4., fol. 52v-53v</ref></bibl>). 
+Doch auch später folgten noch Auseinandersetzungen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25534">StArZH VI.WO.A.2.:11</ref></bibl>), weshalb sich am 7. März 1708 eine Ratsdelegation der Sache annahm und detaillierte Vorschriften
+zu Anzahl, Ort, Höhe und Art der Wuhren erliess (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25599">StArZH VI.WO.C.4., S. 149-152</ref></bibl>).</p>
+<p>Zur <placeName ref="loc010518">Sihl</placeName> und ihren Wuhren vgl. <bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 228-230</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Meier/Winkler 1993</ref>, S. 60-62</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

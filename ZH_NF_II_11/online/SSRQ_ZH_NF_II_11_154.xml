@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_154</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=731441">StAZH A 149.1, Nr. 181</idno></msIdentifier><head>Appellation betreffend Mitspracherecht an der Gemeindeversammlung in Unterstrass</head><msContents><summary>Eine Gruppe von Männern, die einem Kreis von Bewohnern minderer Rechte in Unterstrass angehören, ist in ihrem Begehren um Mitsprache an der Gemeindeversammlung von den beiden Obervögten der Vier Wachten und Wipkingen mit Verweis auf ältere Entscheide abgewiesen worden. Da die Männer an Bürgermeister und Rat von Zürich appellieren wollen, stellen ihnen die Obervögte einen Appellationsschein aus. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johann Konrad Escher, Landschreiber der Kanzlei Vier Wachten</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1734-12-03"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000287">Appellation</term><term ref="key000134">Bürgerrecht</term><term ref="key004966">Gemeinde</term><term ref="key005349">Stimmrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_149_1__Nr__181__S__1_.tif"/>
+<p><seg><lb/>Auf unterthäniges anhalten und begehren <persName ref="per026554">Caspar Buchers</persName>, <lb/><persName ref="per026556">Cornell
+Remiß</persName>, <persName ref="per026555">Heinrich Dimberten</persName> alß abgeordnete <lb/>einer anzahl junger
+mannschafft<note>«Junge Mannschaft» oder die in den anderen hier erwähnten Quellen
+ebenfalls anzutreffende Bezeichnung «Gemeindskinder» bezieht sich nicht auf das Alter, sondern
+auf den minderen Rechtstatus dieser Gruppe der Wachtbewohner (<bibl><ref target="/startseite/literaturverzeichnis">Sigg 2006</ref>, S. 321</bibl>).</note> an der <placeName ref="loc010816">Unternstraß</placeName>, <lb/>der gemeinds
+zugängen in derselben zusammenkonfften <lb/>zu minderen und zu mehren, und gethaner gegenantwort <lb/>von haubtmann
+und untervogt <persName ref="per026393">Rudolf Nötzli</persName>, <choice>
+<abbr>sekelm</abbr>
+<expan>sekelmeister</expan>
+</choice>
+<lb/><persName ref="per026394">Remmi</persName>, geschwohrnen <persName ref="per026391">Kuhnen</persName> und <persName ref="per026392">Landolten</persName> nammens <lb/><choice>
+<abbr>e
+e</abbr>
+<expan>einer erwürdigen</expan>
+</choice> gemeind daselbsten mit gezimmend und demüthigem <lb/>ersuchen, daß sie
+bey ihren habenden gerechtsammen, <lb/>documenten, brieffen und <choice>
+<sic>urthlen</sic>
+<corr resp="ahh">urtheilen</corr>
+</choice> gnädigst geschüzt bleiben <lb/>möchten, ward mit recht gesprochen:</seg>
+<seg>Weilen gleiches be<lb break="no"/>gehren schon den <date when="1657-01-25" calendar="Julian">25<hi rend="sup">ten</hi> jenner 1657</date><note>Aus diesem Urteil geht hervor, dass der Anspruch auf die Gemeinderechte
+über den Besitz eines mit der entsprechenden «Gerechtigkeit» ausgestatteten Hauses in
+<placeName ref="loc010816">Unterstrass</placeName> definiert wird (<bibl>StAZH B II 497, S. 54</bibl>).</note>, den <date when="1682-09-28" calendar="Julian"><!-- PS: Julianischer Kalender wird aber nicht angezeigt-->28<hi rend="sup">ten</hi>
+<choice>
+<abbr>7bris</abbr>
+<expan>septembris</expan>
+</choice> 1682</date><note>Das genannte Datum war kein Tagungsdatum des
+<orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rats</orgName>. Der Entscheid ist im Ratsmanual nicht
+dokumentiert.</note>
+<lb/>und den <date when="1690-09-24" calendar="Julian">24<hi rend="sup">ten</hi>
+<choice>
+<abbr>7br</abbr>
+<expan>septembris</expan>
+</choice> 1690</date><note>Vgl. <bibl>StAZH B II 630, S. 60</bibl>. In diesem Ratsentscheid wird
+neben den hier ebenfalls erwähnten Urteilen auf eine Pergamenturkunde vom <date when="1452-06-22">22. Juni
+1452</date> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_030">SSRQ ZH NF II/11, Nr. 30</ref></bibl>) und auf den Einzugsbrief vom <date when="1671-08-09" calendar="Julian">9. August
+1671</date> verwiesen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_131">SSRQ ZH NF II/11,
+Nr. 131</ref></bibl>).</note> vor <abbr>mgndhh</abbr>, den <orgName ref="org004016">kleinen
+<lb/>räthen</orgName>, geschwebt, daßelbsten erkennt worden, daß es bey <lb/>dem alten harkommen des mehrers
+halben in der gemeind <lb/>sein fehrners verbleiben haben und also die in der gemeind <lb/>sich befindenden junge
+mannschafft ihres begehrens halben <lb/>ab und zur ruhe gewisen sein solle, lasen wir es bey disern <lb/><choice>
+<abbr>oberkeitl</abbr>
+<expan>oberkeitlichen</expan>
+</choice> erkanntnusen bewenden.</seg>
+<seg>Über welche erkandt<lb break="no"/>nuß sich die obgemeldte <num value="3">drey</num> abgeordnete beschwerth
+<lb/>zusein vermeint und deswegen eine appellation vor <lb/><abbr>mgndhh</abbr>,
+ herren <orgName ref="org002406">burgermeisteren und rath</orgName>, angelegen<lb break="no"/>lich verlanget, welches ihnenn auch vergönstiget und <lb/>auf begehren gegenwerthige
+appellationn-schein zuge<lb break="no"/>stellt worden.</seg>
+</p>
+<p><lb/>Actum, <origDate when="1734-12-03" calendar="Gregorian">freytags, den 3<hi rend="sup">ten</hi>
+<choice>
+<abbr>xbr</abbr>
+<expan>decembris</expan>
+</choice> 1734</origDate>, <choice>
+<abbr>pbus</abbr>
+<expan>presentibus</expan>
+</choice>
+<abbr>hhh</abbr>
+<choice>
+<abbr>sekelm</abbr>
+<expan>sekelmeister</expan>
+</choice>
+<lb/>und fordester examinator <persName ref="per009089"><choice>
+<abbr>Joh</abbr>
+<expan>Johann</expan>
+</choice> Conrad Escher</persName> und <abbr>hhh</abbr> zunfft <lb/>und <choice>
+<abbr> alt-kornm</abbr>
+<expan>alt-kornmeister</expan>
+</choice>
+<persName ref="per026343"><choice>
+<abbr>Joh</abbr>
+<expan>Johann</expan>
+</choice> Heinrich Meyer</persName>, beyderseithe deß <lb/><orgName ref="org004016">raths <choice>
+<abbr>lobl</abbr>
+<expan>loblicher</expan>
+</choice> statt <placeName ref="loc000065">Zürich</placeName></orgName> und dismahl regierende neüw und <lb/>alte <abbr>hh</abbr>
+obervögte der <placeName ref="loc010140">IV Wachten</placeName> und <placeName ref="loc010875">Wipkingen</placeName>. </p>
+<p>
+<choice>
+<abbr>Landtschbr</abbr>
+<expan>Landtschreiber</expan>
+</choice>
+<persName ref="per026390"><choice>
+<abbr>Joh</abbr>
+<expan>Johann</expan>
+</choice> Conrad Escher</persName>
+<choice>
+<abbr>st</abbr>
+<expan>scripsit</expan>
+</choice>.</p>
+</div>
+<pb n="2" facs="StAZH_A_149_1__Nr__181__S__2_.tif"/>
+<pb n="3" facs="StAZH_A_149_1__Nr__181__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_149_1__Nr__181__S__4_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Appellation <lb/>der jungen mannschafft von der <placeName ref="loc010816">Undern<lb break="no"/>straß</placeName> und die vorgesetzten daselbst <lb/>vom <origDate when="1734-12-03" calendar="Gregorian">3<hi rend="sup">ten</hi>
+<choice>
+<abbr>xbr</abbr>
+<expan>decembris</expan>
+</choice> 1734</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Samstag, den <date when="1735-01-22" calendar="Gregorian">22<hi rend="sup">ten</hi> jenner 1735</date><note>Zum Appellationsentscheid vgl. den Kommentar.</note></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Wegen der erstern
+pretendierenden<!-- https://www.ssrq-sds-fds.ch/lemma-db-edit/views/view-lemma.xq?id=lem014470 -->
+zugangs und rechte zu minderen <lb/>und zu zumehren in dortigen gemeinden</ab>
+</div>
+</body>
+<back>
+<div><p>Im Gegensatz zu den <orgName ref="org007938">Gemeindegenossen von <placeName ref="loc010816">Unterstrass</placeName></orgName> gehörten die Appellanten zum Kreis der Bewohner, die über keinen Anteil an den Gemeindenutzungen verfügten; die Appellation wurde am <date when="1735-01-22" calendar="Gregorian">22. Januar 1735</date> von <orgName ref="org002406">Bürgermeister
+und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> abgewiesen
+(<bibl>StAZH B II 808, S. 26-27</bibl>). In einem erneuten Begehren forderten sie am <date when="1763-09-30" calendar="Gregorian">30. September 1763</date> das Recht auf Allmendnutzung und übrige <quote>gemeindsfreyheiten</quote>, namentlich das Stimmrecht. Einmal mehr entschieden die Obervögte, dass nur die Gemeindegenossen Anteil an der Allmende und das daraus abgeleitete Stimmrecht haben sollten, denn nur sie entrichteten den erheblichen Zins für den <date when="1441">1441</date> vom <orgName ref="org005088">Spital</orgName> übernommenen <placeName ref="loc012655">Ilanzhof</placeName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_026">SSRQ ZH NF II/11, Nr. 26</ref></bibl>). Damals seien 17 Männer im Besitz der Nutzungsrechte gewesen, mittlerweile seien es 45 Männer (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25201">StArZH VI.US.A.2.:41</ref></bibl>). Zu den Rechten der Gemeindebewohner auf der zürcherischen Landschaft vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stahel 1941</ref>, S. 92-136</bibl>; zum Anteil am Gemeindegut im Besonderen vgl. <bibl>S. 122-127</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

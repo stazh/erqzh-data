@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_013</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1432000">StAZH B II 4, Teil I, fol. 34r</idno></msIdentifier><head>Abkommen mit dem Vogt von Greifensee über die Abrechnung seines Amtes</head><msContents><summary>Weil Johannes Bitziner noch nicht alle Schulden aus der Vogtei Greifensee beglichen hat, verpflichten sich seine Ehefrau und sein Bruder Jäckli Bitziner als Bürgen. Bitziner soll die Schulden sowie alle weiteren anfallenden Zinsen bis zur alten Fasnacht bezahlen, kann dafür aber bis zu diesem Termin im Amt bleiben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1418-04-26"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 2/2, S. 301, Nr. 97</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000574">Rechnungswesen</term><term ref="key000058">Schulden</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="34r"/>
+<head>
+<lb/>Wie fu̍r <persName ref="per013297">Johanns Bitziner</persName> sin wib und sin bruͦder versprochen
+<lb/>hand umb die schuld, so er von der vogty wegen ze <placeName ref="loc000348">Griffensew</placeName> schuldig ist.
+</head>
+<p><seg><lb/>Als <persName ref="per013297">Johans Bitziner</persName>
+<placeName ref="loc000348">Griffense</placeName> enpfolet ist inzehaben <abbr>etc</abbr>, dar umb er jetz rechnung geben hât
+<lb/>und noch rechnung etwe vil guͦtz schuldig ist, als dz die rechen brief wisent, sint
+<lb/>uff hu̍ttigen tag vor u̍ns gewesen der selb <persName ref="per013297">Johans Bitziner</persName>, sin elich wirtin und <persName ref="per013296">Jecly
+<lb/>Bitziner</persName>, sin bruͦder, hand u̍ns fu̍r dz selb verrechnet guͦt versprochen, und ist <persName ref="per013297">Hansen
+<lb/>Bitziner</persName> gunnen, ze <placeName ref="loc000348">Griffense</placeName> ze beliben untz uff <date type="deadline_floating holiday">alt vasnacht</date> nechst kunt.
+<lb/>Da zwu̍schent sol er die zins und gu̍lt, so u̍ns uff dis ku̍nftig jar gevallent,
+<lb/>ouch innemen und inzûchen. Fu̍r die selben zins sy alle dru̍ u̍ns ouch versprochen
+<lb/>hand, genuͦg ze tuͦnd, und in dem zit hie zwûschent und <date type="deadline_floating holiday">vasnacht</date> u̍ns die alten
+ <lb/>schuld und nu̍wen zins ze bezalen. Und wz sich in dem jar von <date type="deadline" when="--12-06">sant <persName ref="per001536">Niclaus</persName> tag</date>,
+<lb/>so suss des <persName ref="per013297">Bitziners</persName> jar were usgangen, an sinem lon gezu̍chet untz uff die <date type="deadline_floating holiday">vasnacht</date>,
+<lb/>sol man im geben, won man dann <placeName ref="loc000348">Griffense</placeName> mit einem andern vogt wil besetzen.</seg>
+<seg><foreign xml:lang="la">Actum
+<lb/><origDate when="1418-04-26">feria iij post <persName ref="per000270">Georii</persName> anno <abbr>etc</abbr> xviij<hi rend="sup">o</hi></origDate>.</foreign></seg></p>
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per013297">Johannes Bitziner</persName> war 1416 anstelle
+seines verstorbenen Bruders <persName ref="per013298">Rudolf Bitziner</persName>
+zum Vogt von <placeName ref="loc000348">Greifensee</placeName> ernannt worden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_012">SSRQ ZH NF II/3, Nr. 12</ref></bibl>).
+Der hier für den Amtswechsel neu vereinbarte Termin setzte sich durch, sodass die Landvögte fortan immer an der alten Fasnacht auf Schloss <placeName ref="loc008719">Greifensee</placeName> einzogen,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frei 2006</ref>, S. 93-94.</bibl></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

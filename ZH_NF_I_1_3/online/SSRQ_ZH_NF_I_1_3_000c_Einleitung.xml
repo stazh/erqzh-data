@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Erste Reihe:
+Stadt und Territorialstaat Zürich. Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<date type="electronic" when="2020-06-01"/>
+<date type="print" when="2020-06-01"/>
+</publicationStmt>
+
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_03</idno>
+</seriesStmt>
+
+<sourceDesc>
+<listWit>
+<witness/>
+</listWit>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head>Einleitung</head>
+<p>Die vorliegende Edition enthält Rechtstexte zur Stadt Zürich und ihrem Herrschaftsgebiet zwischen ca. 1460 und der Reformation. Der
+Abschluss des damit benannten Zeitraums wird bewusst nicht durch eine bestimmte Jahreszahl definiert; die edierten Stücke reichen bis zur
+Mitte des 16. Jahrhunderts. Dies ist wesentlich im Verständnis des Begriffs <q>Reformation</q> begründet: In der vorliegenden Edition wird
+Reformation nicht als starre Epochengrenze zwischen Mittelalter und Früher Neuzeit definiert, sondern vielmehr an die vormoderne
+Vielschichtigkeit des Begriffs angeknüpft. Für die Zeitgenossen bezeichnete Reformation nämlich zunächst einmal allgemein den Prozess einer
+Gesetzesrevision ebenso wie die Gesamtheit <quote>normativ formulierter öffentlicher Ordnung</quote><note><bibl><ref
+target="/startseite/literaturverzeichnis">Burghartz 2016</ref>, S. 90</bibl>.</note> und erst sekundär die spezifische religiöse und
+gesellschaftliche Bewegung, die in den 1520er Jahren zum Durchbruch kam und das heutige Verständnis des Begriffs massgeblich prägt. Zwar ist
+auch die Reformation im engeren Begriffsverständnis mit ihren Weichenstellungen in der vorliegenden Edition prominent vertreten. Dazu
+gehören unter anderem die Übergabe der Rechte und Besitzungen des Fraumünsters durch Äbtissin Katharina von Zimmern,<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_121">SSRQ ZH NF I/1/3, Nr. 121</ref></bibl>.</note> die Aufhebung von Messe und
+Fastengebot,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_119">SSRQ ZH NF I/1/3, Nr. 119</ref></bibl>.</note> die Entfernung der
+Kirchenzierden<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_118">SSRQ ZH NF I/1/3, Nr. 118</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_120">SSRQ ZH NF I/1/3, Nr. 120</ref></bibl>.</note> sowie die Einrichtung von Ehegericht und
+Almosenamt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_141">SSRQ ZH NF I/1/3, Nr. 141</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_125">SSRQ ZH NF I/1/3, Nr. 125</ref></bibl>.</note></p>
+<p>Ein Blick auf die weitere Entwicklung der obrigkeitlichen Gesetzgebungstätigkeit in der Frühen Neuzeit zeigt jedoch, dass die Reformation
+auch nach dem Vollzug der soeben erwähnten Schritte gerade nicht als abgeschlossen begriffen wurde. Davon zeugen die stetige Wiederholung
+und Ergänzung von Vorschriften, die einen der neuen Glaubenslehre gemässen Lebenswandel garantieren sollten. Dies geschah namentlich in den
+ab dem Jahr 1530 immer wieder neu gedruckten Grossen Mandaten.<note>Vgl. dazu exemplarisch <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_11_030">SSRQ ZH NF I/1/11, Nr. 30</ref></bibl>; allgemein zum Verständnis von Reformation als
+andauerndem Prozess vgl. <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 2016</ref></bibl>; zur Abkehr vom
+<quote>Epochendenken</quote> in der Reformationsforschung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hamm
+2012</ref></bibl>.</note> Dass das Ende des <q>Reformationsjahrzehnts</q> zwischen 1520 und 1530 nicht als scharf gezogener Abschluss einer
+Entwicklung gesehen werden kann, lässt sich auch ganz direkt an der Wahrnehmung der Zeitgenossen festmachen. Ein prominenter Zeuge dafür ist
+Stadtschreiber Werner Beyel, der nach langjähriger Tätigkeit in der Kanzlei des Bischofs von Basel 1529 zum Stadtschreiber von Zürich
+gewählt wurde.<note>Zu Beyel vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+target="https://hls-dhs-dss.ch/de/articles/018121">Beyel, Werner</ref></bibl>.</note> Am Ende einer umfangreichen Auflistung der anlässlich
+der jährlichen Schwörtage in den Zürcher Obervogteien jeweils zu verlesenden Anordnungen und Verbote setzt er den folgenden Vermerk:
+<orig>Es was ein söllichs articulieren zuͦ diser zyt, zwischen dem 1530 unntz inn das 1540 unnd ettliche jar darnach, hette man nit
+uffgehört, es werind diser buͤchern wol zwey voll worden.</orig><note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_169">SSRQ ZH NF
+I/1/3, Nr. 169</ref></bibl>.</note> Die von Beyel auf diese Weise benannte intensive Aktivität des <q>Articulierens</q> von Recht gerade in
+den 1530er Jahren wurde auch von der Forschung beobachtet.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr
+1932</ref>, S. 41 sowie unten, Abschnitt 3: Verschriftlichung</bibl>.</note> Aus diesem Grund endet die vorliegende Edition bewusst nicht –
+anders als namentlich die in ihrer Materialfülle noch heute beeindruckende Sammlung Emil Eglis<note><bibl><ref
+target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref></bibl>.</note> – mit dem Beginn der 1530er Jahre.</p>
+<p>Ähnliches gilt für den Anfang des berücksichtigten Zeitraums: Indem die Edition bereits nach der Mitte des 15. Jahrhunderts einsetzt,
+werden einerseits Kontinuitäten zu Ereignissen der 1520er Jahre sichtbar, wodurch beispielsweise Phänomene wie die Klosteraufhebungen in den
+Zusammenhang spätmittelalterlicher Entwicklungen eingeordnet werden können.<note>Vgl. dazu exemplarisch die Ordnung betreffend Einsetzung
+zweier Pfleger für das Kloster Oetenbach, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_021">SSRQ ZH NF I/1/3, Nr.
+21</ref></bibl>.</note> Andererseits entsteht dadurch aber auch ein Blick auf die Zürcher Geschichte, der das Spätmittelalter gerade nicht
+einfach als <q>Vorgeschichte</q> zur Reformation (im engen Begriffsverständnis) begreift, sondern eigenständige Charakteristika dieses
+Zeitraums aufzeigt.</p>
+<p>Zentrale mittelalterliche Rechtstexte aus dem der vorliegenden Edition vorangehenden Zeitraum liegen mit dem Urkundenbuch der Stadt und
+Landschaft Zürich (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref></bibl>), dem Richtebrief,<note><bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref></bibl>.</note> den Stadtbüchern (<bibl><ref
+target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref></bibl>) sowie den Steuerbüchern (<bibl><ref
+target="/startseite/literaturverzeichnis">Steuerbücher Zürich</ref></bibl>) bereits ediert vor, weitere Quellen sind durch die bis 1460
+reichenden Urkundenregesten des Staatsarchivs Zürich (<bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref></bibl>)
+erschlossen. Auf der Grundlage dieser Werke setzt die vorliegende Edition zu einem Zeitpunkt ein, als der Verlauf der im 14. Jahrhundert
+beginnenden städtischen Territorialisierung noch nicht abgeschlossen, jedoch bereits weit fortgeschritten war und im Wesentlichen die
+heutigen Kantonsgrenzen erreicht hatte.<note>Für eine kartographische Darstellung der territorialen Situation Zürichs um 1470 einschliesslich der Grenzen der Landvogteien und Gerichtsherrschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui/Imhof 1951</ref>, Tafel 9</bibl>.</note> Gleichzeitig war der Stadt durch die Niederlage im Alten Zürichkrieg (1436-1450) die Möglichkeit zur
+weiteren Ausdehnung der Herrschaft im Wesentlichen genommen. Bis Mitte des 16. Jahrhunderts dominierten deshalb die zwei miteinander
+interagierenden Prozesse der Intensivierung und Zentralisierung von Herrschaft.<note>Vgl. unten, Abschnitt 1: Rechtsräume.</note> Eine
+dritte für die vorliegende Edition zentrale Problemstellung betrifft die Veränderung des Verhältnisses des städtischen Regiments zu anderen
+Gewalten, die während des Spätmittelalters in Stadt und Landschaft Zürich ebenfalls zur Rechtssetzung befugt waren.<note>Vgl. unten,
+Abschnitt 2: Akteure.</note> In zahlreichen Editionsstücken beleuchtet wird dabei die Entwicklung der Beziehung der zwei wichtigsten
+geistlichen Körperschaften, Fraumünster und Grossmünster, zur aus Bürgermeister und Rat gebildeten städtischen Obrigkeit. Aber auch ein
+auswärtiges Kloster, nämlich Einsiedeln, wird in seiner zentralen Bedeutung für die Entwicklung der städtischen Identität im Spätmittelalter
+greifbar.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_080">SSRQ ZH NF I/1/3, Nr. 80</ref></bibl>.</note> Nur in Ansätzen
+berücksichtigt werden kann im Rahmen der vorliegenden Edition jedoch die eigenständige Verwaltungsschriftlichkeit dieser geistlichen
+Körperschaften, die gerade im Fall des Grossmünsters äusserst differenziert war und zeitlich vor den Ausbau der städtischen Kanzlei
+zurückreicht.<note>Vgl. unten, Abschnitt 2: Akteure sowie 3: Schriftlichkeit.</note></p>
+<p>Die vorgenommene Auswahl sucht möglichst viele Aspekte des Rechtslebens in Stadt und Herrschaftsgebiet Zürich zu beleuchten und ein
+breites Spektrum der Verwaltungsschriftlichkeit wie etwa Urkunden, Akten, Gerichts- und Satzungsbücher zu berücksichtigen, mit der damit
+einhergehenden Auffächerung auf verschiedene Quellengattungen: Dazu gehören unter anderem die Geschworenen Briefe, Eide, Ordnungen,
+Zeugenaussagen, Gerichtsurteile und letztwillige Verfügungen. Dabei wurde bewusst keine thematische Eingrenzung vorgenommen, im Unterschied
+zu den bereits vorliegenden, grundlegenden Editionswerken der Quellen zur Zürcher Zunftgeschichte (<bibl><ref
+target="/startseite/literaturverzeichnis">QZZG</ref></bibl>), den Quellen zur Zürcher Wirtschaftsgeschichte (<bibl><ref
+target="/startseite/literaturverzeichnis">QZWG</ref></bibl>), den Zürcher Kirchenordnungen (<bibl><ref
+target="/startseite/literaturverzeichnis">Zürcher Kirchenordnungen</ref></bibl>) sowie dem sich auf Zürich beziehenden ersten Band der
+Quellen zur Geschichte der Täufer in der Schweiz (<bibl><ref target="/startseite/literaturverzeichnis">QGTS</ref></bibl>). Stattdessen
+werden im Folgenden zur Charakterisierung des Zeitraums der vorliegenden Edition vier thematische Zugänge skizziert, anhand derer sich die
+edierten Stücke kontextualisieren lassen. Diese betreffen die Rechtsräume von Stadt und Herrschaftsgebiet Zürich (1), die darin handelnden
+Akteure (2), die Weisen der Kommunikation von Recht (3) sowie dessen Verschriftlichung (4). Für einen Überblick über die Chronologie der
+Ereignisse sei auf die Zeittafeln in der Zürcher Kantonsgeschichte verwiesen.<note><bibl><ref target="/startseite/literaturverzeichnis"
+>Gisler 1995</ref>, S. 499-503</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gisler 1996</ref>, S. 512-515</bibl>.</note> Kartographische Darstellungen der 
+territorialen Entwicklung des Zürcher Herrschaftsgebiets in Spätmittelalter und Früher Neuzeit finden sich bei <bibl><ref target="/startseite/literaturverzeichnis">Kläui/Imhof 1951</ref>, Tafeln 5-10</bibl>.</p>
+<head type="title" n="1">Rechtsräume</head>
+<p>Die in der vorliegenden Editionseinheit versammelten Rechtstexte beziehen sich allesamt auf bestimmte Rechtsräume, an deren Schaffung und
+Transformation sie beteiligt waren. Der wichtigste dieser Räume ist das Gebiet der Stadt Zürich selbst. Die Weise, wie dieses bereits von
+den Zeitgenossen als eigenständiger Rechtsraum wahrgenommen wurde, lässt sich aus der 1576 gedruckten Stadtansicht des Jos Murer
+erschliessen.<!-- msr: Abbildung bitte hier einfügen --><note>Zur Stadtansicht Murers vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stercken 2013</ref>, S.
+610-611</bibl>.</note> Das augenfälligste Element, das die Stadt von ihrem Umland trennte, ist die bei Murer prominent dargestellte
+Stadtmauer mit ihren Türmen und Toren. Die Mauer, wie sie während des gesamten Zeitraums dieser Editionseinheit Bestand hatte, geht auf das
+13. Jahrhundert zurück. Sie wurde während des 16. Jahrhunderts stellenweise durch Bollwerke erweitert, wie etwa beim Rennwegtor, blieb
+ansonsten aber bis zum Bau der barocken Schanzen im 17. Jahrhunderts im Wesentlichen unverändert.<note><bibl><ref
+target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 90</bibl>.</note> An den Wohnsitz in der Stadt war die Erlangung des
+Bürgerrechts gebunden und Frauen wie Männer hatten zur Verteidigung und Bewachung des Stadtraumes beizutragen.<note>Für die Vergabe des
+Bürgerrechts vgl. den Neubürgereid sowie die Ordnung betreffend Aufnahme von Neubürgern, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_039">SSRQ ZH NF I/1/3, Nr. 39</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_087"
+>SSRQ ZH NF I/1/3, Nr. 87</ref></bibl>; zur Bewachung der Stadt vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_094">SSRQ ZH NF
+I/1/3, Nr. 94</ref></bibl>.</note> Innerhalb des durch die Mauer definierten Bezirks wurden gewalttätige Auseinandersetzungen als Verletzung
+des Stadtfriedens gewertet, und jeder Bürger war durch seinen halbjährlich geleisteten Eid verpflichtet, Streitigkeiten zu schlichten und
+auf diese Weise zur Wiederherstellung des Friedens beizutragen.<note>Vgl. dazu den Eid der Bürgergemeinde, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.</note> Eine der vorgesehenen Strafen für die Verletzung
+des Stadtfriedens durch Verübung eines Totschlags war die einjährige Verbannung aus der Stadt.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_032">SSRQ ZH NF I/1/3, Nr. 32</ref></bibl>.</note> An ganz bestimmte Orte innerhalb der städtischen
+Topographie gebunden war die halbjährliche Leistung des Bürgereids im Grossmünster, die mit der Amtseinsetzung von Bürgermeister und Kleinem
+Rat verbunden war. Am Vortag rief der Ratsschreiber in einem genau definierten Umritt durch die Stadt die dazu verpflichteten Stadtbürger
+zur Teilnahme auf.<note>Zum Umritt: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_082">SSRQ ZH NF I/1/3, Nr. 82</ref></bibl>; zum Ablauf
+des Schwörtags: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>.</note> Eigene, den Stadtraum
+als solchen auszeichnende Regeln galten auch im wirtschaftlichen Bereich, etwa für den Handel mit Waren, der an bestimmte Märkte, Plätze und
+Gebäude gebunden war – so etwa der Verkauf von Fleisch in der Metzg,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_071">SSRQ ZH NF
+I/1/3, Nr. 71</ref></bibl>.</note> von Brot in der Brotlaube<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_017">SSRQ ZH NF I/1/3,
+Nr. 17</ref></bibl>.</note> oder von Textilien im Rahmen der beiden städtischen Jahrmärkte<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_069">SSRQ ZH NF I/1/3, Nr. 69</ref></bibl>.</note>. Auswärtige Kaufleute, die den durch die
+Stadtmauern begrenzten Bezirk mit ihren Waren betraten, hatten diese ins Kaufhaus zu transportieren, unterstanden den dortigen Regeln und
+hatten die entsprechenden Zölle zu entrichten.<note>Vgl. dazu den Eid des Kaufhausschreibers, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_088">SSRQ ZH NF I/1/3, Nr. 88</ref></bibl>, sowie die Satzung betreffend das Kaufhaus, <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4329442">StAZH A 43.1.2, Nr. 2, S. 22</ref></bibl>.</note></p>
+<p>Der Raum innerhalb der Stadtmauern wurde um das Jahr 1500 von rund 5000 Personen bewohnt, was Zürich zu einer sogenannten Mittelstadt
+machte, ungefähr gleich gross wie Bern, jedoch deutlich kleiner als Basel oder Genf, die beide rund 10’000 Einwohner zählten.<note>Zur
+Bevölkerungsentwicklung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 337-338</bibl>.</note> Berechtigt
+zur Teilnahme an den erwähnten Schwörtagen und damit am Stadtregiment waren jedoch nur etwa 1000 Personen, nämlich christliche Männer über
+16 Jahre, die im Besitz des Bürgerrechts waren.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S.
+22</bibl>.</note> Von der direkten Mitbestimmung ausgeschlossen waren damit Frauen, die zwar das Bürgerrecht besassen, jedoch keine
+politischen Ämter wahrnehmen konnten, sowie Niedergelassene und Angehörige der Geistlichkeit. Eine dauernd in der Stadt Zürich wohnhafte
+jüdische Gemeinde gab es seit der Vertreibung der 1430er Jahre nicht mehr.<note>Vgl. dazu den Gerichtseid der Juden, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_134">SSRQ ZH NF I/1/3, Nr. 134</ref></bibl>.</note></p>
+<p>Ein erneuter Blick auf den Murerplan zeigt verschiedene Elemente, welche den nur scheinbar einheitlichen Stadtraum nicht zuletzt auch in
+rechtlicher Hinsicht in zahlreiche Untereinheiten gliederten: Zunächst fällt das Augenmerk auf die Limmat, die für eine Trennung des
+Siedlungsbereichs in Grössere Stadt am rechten und Kleinere Stadt am linken Ufer sorgte. Diese beiden Bereiche wurden durch zwei Brücken
+verbunden, wobei die ältere Brücke an der engsten Stelle der Limmat archäologisch bereits in römischer Zeit nachgewiesen ist und ab dem 13.
+Jahrhundert als Untere Brücke bezeichnet wurde. Die Obere Brücke befand sich auf der Höhe der Wasserkirche und lässt sich auf das 11. oder
+12. Jahrhundert datieren.<note><bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 8</bibl>.</note> Die Brücken
+bildeten eigene Rechtsbereiche; sie waren unter anderem Schauplätze des Warenumschlags, aber auch der Versteigerung von Konkursware im
+Rahmen von Schuldbetreibungen sowie der (obrigkeitlich nach der Reformation zunehmend beargwöhnten) Verteilung von Almosen durch
+Einzelpersonen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_004">SSRQ ZH NF I/1/3, Nr. 4</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_005">SSRQ ZH NF I/1/3, Nr. 5</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_189"
+>SSRQ ZH NF I/1/3, Nr. 189</ref></bibl>.</note> Das Wasser der Limmat wurde durch verschiedene Handwerke und Gewerbe genutzt, deren
+Tätigkeiten Gegenstand städtischer Ordnungen war. Dazu gehörte auch die ganz am linken Rand von Murers Stadtplan deutlich sichtbare,
+zwischen 1532 und 1536 erbaute neue Papiermühle auf dem Werd.<note>Zu deren Verleihung an den Drucker Christoph Froschauer vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_161">SSRQ ZH NF I/1/3, Nr. 161</ref></bibl>.</note></p>
+<p>Die bedeutendsten und auch flächenmässig grössten eigenständigen Rechtsräume innerhalb der Stadtmauern waren jedoch die Klöster und
+Kirchen. Fraumünster, Grossmünster und Sankt Peter verfügten über eigene Mauern, die den ihnen eigenen Immunitätsbezirk abgrenzten und sie
+auch physisch als Inseln aus dem Rechtsraum der Stadt heraushoben. Dies galt auch für die ehemalige Königspfalz auf dem
+Lindenhof.<note><bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 89</bibl>.</note> Zwischen Fraumünster,
+Grossmünster und dem Lindenhof entstand bis zur Reformation im Rahmen der Palmsonntagsprozession jeweils eine eigene städtische
+Sakraltopographie.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_081">SSRQ ZH NF I/1/3, Nr. 81</ref></bibl>.</note> Darin spielten
+die Äbtissin, die bis 1524 formell die Herrschaft über die Stadt innehatte, sowie das Grossmünster als Begräbnisort der Stadtheiligen Felix
+und Regula eine prominente Rolle. Auch die Männerklöster der Franziskaner und Dominikaner (mit dem angegliederten, durch die Herzöge von
+Zähringen gestifteten Heiliggeistspital) in der Grösseren Stadt sowie das von Dominikanerschwestern bewohnte Kloster Oetenbach in der
+Kleineren Stadt stellten eigene Rechtsbezirke dar, die aus dem restlichen Stadtraum herausgehoben waren.<note>Zum Spital vgl. dessen Ordnung
+des Jahres 1528 <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_143">SSRQ ZH NF I/1/3, Nr. 143</ref></bibl>; zum Kloster Oetenbach vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_021">SSRQ ZH NF I/1/3, Nr. 21</ref></bibl>.</note> Im Umfeld der Klöster entstanden im
+Verlauf des Mittelalters weitere Räume, die in rechtlicher Hinsicht von besonderer Qualität waren: So hatte sich in der Nachbarschaft der
+Predigerkirche im 13. und 14. Jahrhundert ein eigentliches Beginenquartier gebildet. Die in eigenen Häusern als religiöse
+Frauengemeinschaften ohne Ablegung eines Gelübdes lebenden Beginen waren in der Textilbearbeitung tätig und gehörten zwar nicht zum
+geistlichen Stand, übernahmen jedoch wichtige Funktionen im Kontext der Krankenpflege und des Totengedenkens, wofür sie immer wieder zu
+Empfängerinnen von bedeutenden Stiftungen wurden. Im Jahr 1491 bestätigte der städtische Rat gegenüber der Zunft der Leinweber das den
+Beginen eigene Recht, in ihren Schwesterhäusern Flachs und Leinen zu weben.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_050">SSRQ
+ZH NF I/1/3, Nr. 50</ref></bibl>.</note></p>
+<p>Die Eigenständigkeit der unter geistlicher Rechtsprechung stehenden Räume zeigt sich besonders deutlich am Kirchenasyl, das vom
+städtischen Rat verfolgten Personen Sicherheit gewährte, wenn sie in einem Gotteshaus oder dem dazu gehörenden Friedbezirk Zuflucht genommen
+hatten. Bereits der Richtebrief garantierte das Asylrecht<note><bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>,
+<ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_233">S. 233</ref></bibl>.</note> und es wurde auch noch im Jahr
+1527 durch den Zürcher Rat grundsätzlich bestätigt<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_140">SSRQ ZH NF I/1/3, Nr.
+140</ref></bibl>.</note>. Allerdings hatte die städtische Obrigkeit wenige Jahre zuvor durch Kaiser Karl V. die Erlaubnis erhalten, eben
+dieses Recht unter bestimmten Bedingungen aufzuheben und die Strafverfolgung auch auf die kirchlich geschützten Gebiete
+auszuweiten.<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250513">StAZH C I, Nr. 319</ref></bibl>; allgemein
+zu den Privilegienbestätigungen Karls V. vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_115">SSRQ ZH NF I/1/3, Nr.
+115</ref></bibl>.</note></p>
+<p>Am Beispiel des Kirchenasyls wird eine gewisse Homogenisierungstendenz in Bezug auf die Rechtsprechung deutlich, im Zuge derer sich der
+Rat bemühte, seine Jurisdiktion auf den gesamten Stadtraum auszuweiten und andere, besonders geistliche, Instanzen der Rechtsprechung
+zurückzudrängen. Diese Entwicklung tritt in verschiedenen Stücken der vorliegenden Editionseinheit zu Tage.<note>Vgl. dazu die Einrichtung
+eines weltlichen Zinsgerichts im Jahr 1460, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_004">SSRQ ZH NF I/1/3, Nr.
+4</ref></bibl>.</note> Die Aufhebung der Klöster im Zuge der Reformation während der 1520er Jahre stellte in dieser Entwicklung eine
+wichtige, jedoch keineswegs die einzige Etappe dar.<note>Vgl. dazu auch untenstehend Abschnitt 2: Akteure.</note></p>
+<p>Neben den kirchlichen Rechtsräumen gab es auch Stadtquartiere, die aufgrund der hohen Fluktuationsrate ihrer zumeist armen Bevölkerung
+für die städtische Obrigkeit nur begrenzt zu kontrollieren waren. Dazu zählt namentlich der sogenannte Kratz, der südlich der
+Fraumünsterabtei gegen die Stadtmauer hin gelegen war. Auch hier bemühte sich der Rat gegen Ende des 15. Jahrhunderts um eine Erhöhung der
+Regulierungsdichte.<note>Vgl. dazu die Ordnung der Vogtei im Kratz, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_097">SSRQ ZH NF I/1/3,
+Nr. 97</ref></bibl>; allgemein zur Sozialtopographie Zürichs vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>,
+S. 342-343</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gisler 1992</ref></bibl>.</note></p>
+<p>Weitere Grenzziehungen innerhalb der Stadt stellten die Wachten dar, an denen sich die Stadtbevölkerung in akuten Notsituation wie dem
+Eintreten eines nächtlichen Brandes zu orientieren hatte,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_146">SSRQ ZH NF I/1/3, Nr.
+146</ref></bibl>.</note> sowie die Kirchspiele, die unter anderem darüber bestimmten, wo die Bewohner eines bestimmten Quartieres begraben
+wurden. In diesem Zusammenhang wurde anlässlich der Pestepidemie des Jahres 1541 die Anlegung eines neuen Friedhofs beim Predigerkloster
+notwendig, was auch eine detaillierte Neuziehung der diesbezüglichen Grenzen nach sich zog.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_180">SSRQ ZH NF I/1/3, Nr. 180</ref></bibl>.</note></p>
+<p>Weder war der Rechtsraum der Stadt im Innern einheitlich noch war er abgeschlossen gegen aussen. Der Ring der Stadtmauer war durchbrochen
+von Stadttoren, zu deren wichtigsten das Rennwegtor in der Kleineren und das Niederdorftor in der Grösseren Stadt zählten. Gegen den See hin
+schloss der Grendel als Wassertor mit einer dazugehörigen Palisadenreihe, den Schwirren, den Stadtraum ab und ermöglichte gleichzeitig als
+wichtige Zollstelle den Warenverkehr auf dem Seeweg.<note>Zu den Stadttoren vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH
+NA I</ref>, S. 102-122</bibl>; zum Zoll vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_088">SSRQ ZH NF I/1/3, Nr.
+88</ref></bibl>.</note> Die nächtliche Schliessung der Stadttore war durch verschiedene Ordnungen detailliert geregelt. Standen in diesen
+während des Spätmittelalters Fragen der Stadtverteidigung und der Feuerpolizei im Vordergrund, lässt sich mit der Wende zum 16. Jahrhundert
+eine zunehmende Regulierungsdichte ausmachen, die auf die Unterbindung einer Reihe nächtlicher Verhaltensformen wie Schreien und Singen in
+den Gassen, aber auch in den Stadtgräben direkt vor der Mauer, abzielte.<note>Vgl. dazu das Mandat betreffend nächtliche Ruhestörung und
+Schliessung der Stadttore, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_076">SSRQ ZH NF I/1/3, Nr. 76</ref></bibl>.</note> Die
+Verordnungen betreffend Öffnung und Schliessung der Stadttore zeigen dabei über die praktische Besorgnis hinsichtlich der Sicherheit der
+Stadt und ihrer Bewohner hinaus die Bemühungen von Bürgermeister und Rat, die Grenzen des städtischen Rechtsraumes und ihre Durchlässigkeit
+möglichst zu kontrollieren. Gleichzeitig deuten aber auch die zahlreich erhaltenen Klagen über unbesetzte, offene oder durch Unbefugte
+nächtlich geöffnete Stadttore darauf hin, dass dies längst nicht immer durchzusetzen war.<note>Vgl. etwa <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3711476">StAZH A 81.1, Nr. 23</ref></bibl> sowie <bibl><ref
+target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 162-164</bibl>.</note></p>
+<p>Während die Stadtmauer auf der linksufrigen Seite von einem doppelten Wassergraben umgeben war, befand sich vor der rechtsufrigen Stadt
+ein Landgraben, der bis ins 16. Jahrhundert für den Viehtrieb genutzt wurde und wo Nussbäume standen. Zudem war er für seine
+Hirschpopulation bekannt, wovon noch der heutige Strassenname Hirschengraben zeugt.<note>Zum Hirschengraben vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 98-99</bibl>.</note> Hinsichtlich der Nutzung dieses Zwischenraumes am
+Übergang von der Stadt zur Landschaft existieren detaillierte Regelungen; dazu gehören das Verbot Nüsse von den dortigen Bäumen zu schlagen
+oder Vieh im Stadtgraben (statt in der Metzg) zu schlachten. Diese Verbote wurden neben anderen anlässlich der halbjährlichen Schwörtage im
+Münster verlesen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_168">SSRQ ZH NF I/1/3, Nr. 168</ref></bibl>; vgl. auch das so
+genannte Verbotbuch, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4322532">StAZH A 42.3.1, S.
+22</ref></bibl>.</note></p>
+<p>An die Stadtgräben schloss sich ein weiterer rechtlicher Zwischenbereich an, der in vielerlei Hinsicht dem Stadtraum gleichgestellt war,
+nämlich das durch die Stadtkreuze eingefasste Gebiet. Dieses erstreckte sich von der als Klausstud bezeichneten Säule im See auf der
+rechtsufrigen Seite bis hin zum Dorf Fluntern, von dort zur Spanweid über die Limmat hinüber zum Siechenhaus St. Jakob und zur
+Dreikönigskapelle am linken Seeufer.<note>Zur genauen Lage der Stadtkreuze vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH
+NA I</ref>, S. 38-39</bibl>.</note> Innerhalb dieses Bereichs unterstanden Handwerk und Gewerbe dem Zunftzwang, und es galten die
+städtischen Weinmasse für die Entrichtung des Ungelds, der Umsatzsteuer auf Wein.<note>Zum Ungeld vgl. die diesbezügliche Abrechnung des
+Jahres 1519, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_108">SSRQ ZH NF I/1/3, Nr. 108</ref></bibl>.</note> Die im Gebiet der
+Stadtkreuze ansässigen Männer waren zur Wahl in den Grossen Rat berechtigt, sofern sie zehn Jahre Mitglied in Konstaffel oder einer der
+Zünfte gewesen waren oder die Zunftmitgliedschaft von ihrem Vater ererbt hatten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_040"
+>SSRQ ZH NF I/1/3, Nr. 40</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_060">SSRQ ZH NF II/11, Nr. 60</ref></bibl>.</note>
+Weiter befanden sich dort die beiden der Aufnahme von Aussätzigen und weiteren Pflegebedürftigen dienenden Siechenhäuser St. Moritz an der
+Spanweid und St. Jakob an der Sihl. Die mit dem Aussatz behafteten Insassen waren aufgrund ihrer Krankheit bis zu einem gewissen Grad von
+der städtischen Gesellschaft ausgeschlossen, trotzdem durften sie sich zu bestimmten Zeitpunkten des Jahres innerhalb der Stadtmauern zwecks
+Sammlung von Spenden zeigen.<note>Zum alljährlichen Neujahrssingen der Aussätzigen in der Stadt vgl. die Almosenordnung des Jahres 1525,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_125">SSRQ ZH NF I/1/3, Nr. 125</ref></bibl>.</note> Zudem unterstützte die städtische
+Bevölkerung die beiden Siechenhäuser durch namhafte Zuwendungen, die vor der Reformation den Charakter von Jahrzeitstiftungen, danach
+denjenigen von Almosen trugen.<note>Zu den Stiftungen vgl. die Einträge des Jahrzeitbuchs des Siechenhauses an der Spanweid, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_057">SSRQ ZH NF I/1/3, Nr. 57</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_166"
+>SSRQ ZH NF I/1/3, Nr. 166</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_192">SSRQ ZH NF I/1/3, Nr. 192</ref></bibl>;
+allgemein zu den Siechenhäusern vgl. die Ordnung des dortigen Kaplans, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_174">SSRQ ZH NF
+I/1/3, Nr. 174</ref></bibl>.</note> Die städtische Obrigkeit stellte die beiden kirchlich geführten Häuser gegen Ende des 15. Jahrhunderts
+unter die Aufsicht von Pflegern, wodurch sich eine bereits im Zusammenhang der geistlichen Gerichtsbarkeit angesprochene Ausweitung des
+Ordnungsanspruchs von Bürgermeister und Rat zeigt. Im Zug der Reformation wurden die Siechenhäuser dem durch die Stadt neu geschaffenen
+Almosenamt einverleibt.<note>Vgl. dazu den Erlass der Almosenordnung im Jahr 1525, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_125"
+>SSRQ ZH NF I/1/3, Nr. 125</ref></bibl>.</note> Ebenfalls vor den Toren der Stadt, unweit des Siechenhauses St. Jakob, befand sich die auch
+als <orig>wallstatt</orig> bezeichnete städtische Hinrichtungsstätte, wo unter anderem die Enthauptungen vollzogen wurden. Für die
+Vollstreckung von Verbrennungen existierte ein separater Ort auf den Schotterbänken der Wilden Sihl, während der städtische Galgen noch
+weiter stadtauswärts am heutigen Letzigraben stand.<note>Zu den Orten der Blutgerichtsbarkeit vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_100">SSRQ ZH NF I/1/3, Nr. 100</ref></bibl>.</note></p>
+<p>Ausserhalb der Stadtkreuze begann das Gebiet der städtischen Landesherrschaft. Ist hinsichtlich des durch die Stadtmauern eingefassten
+Rechtsraumes bereits festgehalten worden, dass dieser keineswegs homogen war, so trifft dies in noch höherem Mass auf das durch Zürich
+beherrschte Territorium zu.</p>
+<p>Der Prozess der Bildung eines städtischen Herrschaftsgebiets setzte Mitte des 14. Jahrhunderts ein, als Ausgangspunkt kann der Erwerb der
+Höfe Stadelhofen, Zollikon und Trichtenhausen im Jahr 1357 genannt werden.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=272448">StAZH C I, Nr. 3100</ref></bibl>; Regest: <bibl><ref
+target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1207</bibl>.</note> Als veräussernde Partei trat in diesem Fall wie auch
+in zahlreichen anderen in der Zeit der frühen Zürcher Territorialisierung das Geschlecht der Mülner auf, eine aus dem Dienstadel des
+Fraumünsters stammende Familie, die im 13. und 14. Jahrhundert unter der Schirmherrschaft der Habsburger in den Besitz zahlreicher Gerichts-
+und Herrschaftsrechte in der Umgebung der Stadt gelangt war.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Eugster
+1995b</ref>, S. 302-303</bibl>.</note> Mit dem Rückgang des habsburgischen Einflusses im östlichen Mittelland, nicht zuletzt vor dem
+Hintergrund der Auseinandersetzungen mit der Eidgenossenschaft, wurde eine wachsende Zahl solcher Herrschaftsrechte durch Zürich pfandweise
+aufgekauft. Die Trennung zwischen städtischen Erwerbungen und denjenigen einzelner aufstrebender Zürcher Adelsfamilien wie den Schwend,
+Meyer von Knonau und Meiss, die einerseits als Gerichtsherren auf der Landschaft, andererseits als Ratsherren in der Stadt auftraten und als
+finanzkräftige Handelsherren bürgerlichen Tätigkeiten nachgingen, war dabei nicht klar gezogen.</p>
+<p>Meilensteine des sich zunächst in der Umgebung der Stadt und entlang des Zürichsees entfaltenden Erwerbs von Herrschaftsrechten war der
+Kauf von Küsnacht, Meilen und Höngg im Jahr 1384 sowie von Männedorf und Horgen in den Jahren 1405/06. Bereits 1402 war die Grafschaft
+Greifensee durch Pfand von den Toggenburgern an die Stadt Zürich gelangt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_007">SSRQ ZH
+NF II/3, Nr. 7</ref></bibl>.</note> Hebel der Ausweitung des städtischen Einflusses auf der Landschaft waren gerade an der Wende zum 15.
+Jahrhunderts die Aufnahme von Ausburgern und der Abschluss von Burgrechtsverträgen mit bedeutenden Klöstern wie Kappel und Wettingen, die
+sich auf diese Weise den Schutz der Stadt und den Zugang zu ihren Märkten sicherten, dieser umgekehrt aber auch einen wachsenden Zugriff auf
+ihre umfangreichen Besitzungen garantierten.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Eugster 1995b</ref>, S.
+307-309</bibl>.</note> Dies galt auch für Adelsfamilien wie die Gessler, die als Träger des österreichischen Pfandes der Grafschaft
+Grüningen fungierten und seit 1406 im Burgrecht mit Zürich standen. 1408 übertrugen sie das Pfand an die Stadt, wo es auch verbleiben
+sollte.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2008</ref>, S. 38-41</bibl>.</note> In den 1410er und
+1420er Jahren profitierte Zürich zudem, wie andere eidgenössische Orte auch, von einem guten Einvernehmen mit dem luxemburgischen Königtum,
+indem Sigismund der Zurückdrängung des habsburgischen Herrschaftsbereichs reichsrechtliche Legitimation bot. So gelangte 1415 das Freiamt
+durch kriegerische Eroberung und 1424 die Grafschaft Kyburg durch erzwungene Pfandnahme von den Habsburgern an Zürich, wobei letztere das
+städtische Herrschaftsgebiet um rund die Hälfte vergrösserte. Bis zum Beginn Alten Zürichkrieges im Jahr 1436 war somit bereits ein
+wesentlicher Teil der Zürcher Landschaft, wie sie bis zum Ende des Ancien Régimes bestand, im Besitz der Stadt. Zwar brachte die Niederlage
+im Alten Zürichkrieg den vorübergehenden Verlust fast der ganzen Herrschaft, wobei auch Kyburg wiederum an Habsburg abgetreten werden
+musste, im Austausch für die militärische Unterstützung gegen die eidgenössischen Orte.<note>Zum Alten Zürichkrieg vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Niederhäuser/Sieber 2006</ref></bibl>.</note> Dies konnte zwar mit dem Friedensschluss von 1450 –
+bis auf den Verlust der Höfe Pfäffikon und Wollerau an Schwyz – wieder rückgängig gemacht werden. Dennoch war die Expansion der Zürcher
+Herrschaft damit im Wesentlichen gestoppt.</p>
+<p>Der mit dem Jahr 1460 einsetzende Zeitraum der vorliegenden Editionseinheit stellt damit im Wesentlichen nicht eine Phase der Erweiterung
+nach aussen dar, sondern der Intensivierung und Zentralisierung von Herrschaft sowie der Schliessung von Lücken gegen innen. 1467 erfolgte
+der Erwerb der Stadt Winterthur, die seit 1424 eine Enklave im Zürcher Gebiet dargestellt hatte, als Pfand von Herzog Sigismund von Habsburg
+für 10’000 Gulden. Winterthur konnte sich auch unter Zürcher Herrschaft wichtige Privilegien erhalten und der dortige Rat unterhielt noch
+über längere Zeit intensive Beziehungen zum habsburgischen Hof.<note>Zur Erpfändung vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_090">SSRQ ZH NF I/2/1, Nr. 90</ref></bibl>; allgemein zur Beziehung zwischen Winterthur und Zürich
+vgl. Einleitung <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1"/></bibl><!-- Verweis auf Einleitung Winterthur -->.</note></p>
+<p>In die zweite Hälfte des 15. Jahrhunderts fallen sodann Bemühungen seitens der Stadt, die Aufgaben und Einkünfte ihrer Landvögte zu
+vereinheitlichten. Das Zürcher Herrschaftsgebiet war seit dem Beginn des 15. Jahrhunderts in die stadtnahen Obervogteien und die weiter
+entfernten Landvogteien unterteilt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_092">SSRQ ZH NF I/1/3, Nr.
+92</ref></bibl>.</note> Im ersten Viertel des 16. Jahrhunderts bestanden 20 Ober- und 7 Landvogteien.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 37</bibl>.</note> Während die Obervogteien durch in der Stadt residierende
+Vögte verwaltet wurden, die gleichzeitig Mitglied des Kleinen Rates waren, galt für die Landvögte eine Residenzpflicht auf ihren ländlichen
+Herrschaftssitzen, so dass Kleinräte in der Regel dieses Amt ruhen liessen, während sie eine Landvogtei versahen. Waren noch zu Beginn des
+15. Jahrhunderts jeweils Anstellungsverträge mit Vögten ad personam geschlossen worden, die sich je nach Landvogtei stark voneinander
+unterschieden, wurden im Zeitraum der Editionseinheit erstmals einheitliche Vorgaben getroffen, die auch Eide und Spesenansprüche der Vögte
+regelten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_005">SSRQ ZH NF I/1/3, Nr. 5</ref></bibl>.</note> Dabei ist zu beobachten,
+dass sich die frühen, in den 1460er Jahren getroffenen Vogtordnungen noch deutlich von den späteren unterscheiden.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>.</note> Besonders hinsichtlich der Rechnungslegung der
+Vögte über die mit ihrem Amt verbundenen Einnahmen fanden während des 16. Jahrhunderts einschneidende Veränderungen statt: Existierten
+zunächst nur ad hoc eingesetzte Rechnungsprüfungskommissionen sowie pauschale Angaben zu den Beträgen, welche die Vögte berechtigt waren,
+sich selbst als Aufwandsentschädigungen auszuzahlen, wurden um 1500 detaillierte Tarifordnungen ausgearbeitet. Zudem etablierte sich bis zum
+Beginn des 1530er Jahre das Gremium der Rechenherren, das die Kontrolle der Vogteirechnungen und die Sicherstellung der städtischen
+Einkünfte zum Zweck hatte.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl>.</note>
+Hinsichtlich Wahl und Amtszeiten der Landvögte herrschte noch bis Mitte des 16. Jahrhunderts eine uneinheitliche Praxis.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>.</note> In die 1550er Jahre fällt eine umfassende
+Neuordnung der Finanzverwaltung der Landvogteien, aus der auch ein revidierter Eid für die Vögte hervorging.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_191">SSRQ ZH NF I/1/3, Nr. 191</ref></bibl>.</note> Im Zeitraum der vorliegenden Editionseinheit ist
+somit ein Prozess zu beobachten, in Zuge dessen aus jeweils individuell eingestellten Landvögten, die als Nachfolger der zuvor meist
+habsburgischen Herrschaft auf den Burgen der Landschaft residierten, zunehmend städtische Amtsträger wurden, die über (bis zu einem gewissen
+Grad) einheitliche Eide und Pflichtenhefte verfügten. Dennoch blieben gerade in Bezug auf die durch die Landvögte verwalteten Einkünfte und
+Besitztümer erhebliche Unterschiede zwischen den Landvogteien erhalten, was sich auch auf die Rentabilität des jeweiligen Amtes für dessen
+Träger niederschlug.<note>Vgl. dazu <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 61-63</bibl>.</note></p>
+<p>Parallel dazu verlief während desselben Zeitraums die Zentralisierung städtischer Herrschaft. Wie ihre Rechtsvorgänger traf die Stadt
+Zürich während des Aufbaus ihres Untertanengebietes im 14. und 15. Jahrhundert auf der Landschaft auf ein Bündel an Herrschafts- und
+Nutzungsrechten, von denen sie in den wenigsten Fällen von Beginn weg alle in ihrer Hand vereinigen konnte. Während Zürich bis 1500 fast im
+ganzen nachmaligen Kantonsgebiet die Hochgerichtsbarkeit erlangt hatte, blieben im Bereich der Niedergerichtsbarkeit zahlreiche weitere
+Herrschaftsträger präsent: Dazu gehörten nicht zuletzt Vertreter städtischer Familien, die sich an der Ratspolitik beteiligten, gleichzeitig
+aber auch als Gerichtsherren auf der Landschaft einen adligen Lebensstil pflegten und Herrschaft ausübten. Daneben hatten jedoch auch
+auswärtige Adelsgeschlechter sowie geistliche Herren und Klöster bedeutende Gerichtsherrschaften inne; dazu gehörten bis zur Reformation
+auch Grossmünster und Fraumünster.<note>Zur Übergabe ihrer Gerichtsrechte an die Stadt vgl. für das Grossmünster <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>; zum Fraumünster vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_121">SSRQ ZH NF I/1/3, Nr. 121</ref></bibl>.</note></p>
+<p>Eine Gerichtsherrschaft beinhaltete meist nicht nur die Befugnis, über Straftaten der niederen Gerichtsbarkeit zu urteilen und die dazu
+gehörenden Bussen einzunehmen, sondern umfasste auch Grundbesitz mit dem Anrecht auf Zinsen und Gülten sowie Nutzungsrechte an Fischenzen
+und das Jagdprivileg.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2003</ref>, S. 69-71</bibl>.</note>
+Deshalb argumentierte der Zürcher Rat in seiner Replik auf die Forderung der Bauern im Jahr 1525, welche die Abschaffung des Zehnten
+forderten, in der Sache durchaus richtig, wenn er erklärte, dass er zur Befreiung von dieser Abgabe in seinem Herrschaftsgebiet gar nicht
+alleine befugt sei, da neben der Stadt selbst eine Vielzahl weiterer Herren und Klöster im Besitz von Zehntenrechten seien.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_127">SSRQ ZH NF I/1/3, Nr. 127</ref></bibl>.</note> Die Existenz von Gerichtsherrschaften auf der
+Zürcher Herrschaft dauerte bis zum Ende des Ancien Régime an, 1798 bestanden noch rund ein Dutzend.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Niederhäuser 2003</ref>, S. 79</bibl>.</note> Dennoch suchte der Zürcher Rat während des letzten
+Drittels des 15. Jahrhunderts, besonders aber während der 1480er Jahre, ihre Träger enger an das städtische Regiment zu binden und allgemein
+seinen Zugriff auf die dortige Bevölkerung auszuweiten. In diesen Kontext gehört die Ausarbeitung eines Lehensmandats im Jahr 1474 sowie die
+1487 erlassene Verordnung, wonach Gerichtsherren ihre Rechte verschriftlichen und vom Rat bestätigen lassen mussten, ansonsten sie ihre
+Gültigkeit verlieren sollten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_010">SSRQ ZH NF I/1/3, Nr. 10</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_023">SSRQ ZH NF I/1/3, Nr. 23</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+>Largiadèr 1932</ref>, S. 41</bibl>.</note> Dies verweist auch darauf, dass die städtische Obrigkeit im Verlauf des
+Territorialisierungsprozesses allmählich eigene Kanzleipraktiken zur Verschriftlichung, Sammlung und Ordnung von Rechtsverhältnissen
+entwickelte.<note>Vgl. dazu unten, Abschnitt 4: Schriftlichkeit.</note> Für nicht verburgrechtete, aber im städtischen Herrschaftsgebiet
+sitzende Adlige erliess der Rat während der 1480er Jahre zudem einen Eid, der diese auf das Zürcher Regiment und namentlich auf die
+Bestimmungen des Geschworenen Briefs verpflichten sollte.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_022">SSRQ ZH NF I/1/3, Nr.
+22</ref></bibl>.</note> Nach dem Waldmannhandel des Jahres 1489 suchte ein Teil der Adligen unter Führung von Ritter Johann von Landenberg
+vergeblich, sich dieses Eides wieder zu entledigen. Ein Mandat zur Beschränkung des Aufwands bei Hochzeiten und anderen Anlässen, das in der
+Nachfolge älterer Luxusordnungen stand, nun aber sowohl für die Stadt als auch für alle Teile der Landschaft Gültigkeit beanspruchte, wurde
+im Jahr 1488 erlassen, jedoch im Rahmen der sogenannten Waldmannschen Spruchbriefe, die durch eidgenössische Vermittler ausgearbeitet worden
+waren, wiederum ausser Kraft gesetzt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_026">SSRQ ZH NF I/1/3, Nr. 26</ref></bibl>; für
+die Spruchbriefe vgl. <bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref></bibl>.</note></p>
+<p>Die Auseinandersetzung um den Eid der Adligen sowie die Aufhebung des Luxusmandats verweisen darauf, dass der im Zeitraum der
+vorliegenden Editionseinheit stattfindende Prozess der Intensivierung und Zentralisierung von Herrschaft keineswegs geradlinig verlief,
+sondern von Aushandlungen und Konflikten geprägt war. Standen im Waldmannhandel des Jahres 1489 in erster Linie wirtschaftliche Differenzen
+zwischen Stadt und Landschaft im Vordergrund, gab 1515 die schon länger umstrittene Frage der Entgegennahme von Pensionen seitens der
+städtischen Führungsschicht Anlass für einen Aufstand des Untertanengebiets gegen die Stadt.<note>Vgl. dazu den sogenannten Lebkuchenkriegs-
+oder Mailänderbrief, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_105">SSRQ ZH NF I/1/3, Nr. 105</ref></bibl>.</note> Nach der
+Reformation und dem verlorenen Zweiten Kappelerkrieg fanden sich Teile der Landschaft zu Gemeindeversammlungen zusammen und drohten der
+Stadt, mit den verfeindeten katholischen Orten einen Separatfrieden zu schliessen. In der zeitgenössisch als Pfaffenbrief, später als
+Kappelerbrief bezeichneten Übereinkunft setzte die Landbevölkerung eine Konsultationspflicht der Untertanengebiete bei Entscheidungen über
+Krieg und Frieden durch.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_151">SSRQ ZH NF I/1/3, Nr. 151</ref></bibl>.</note> Somit
+ereigneten sich zwischen 1489 und 1532 im Zeitraum von rund vier Jahrzehnten drei tiefgreifende Auseinandersetzungen zwischen der Stadt
+Zürich und ihrem Herrschaftsgebiet. Das Verhältnis zwischen diesen beiden Parteien ist entsprechend ein zentraler thematischer Schwerpunkt
+der vorliegenden Editionseinheit. Jedoch waren die Ereignisse von 1532 gleichzeitig auch bis zum Ende des Ancien Régime das letzte Mal, dass
+die Zürcher Landschaft geeint handelte, um der Obrigkeit Zugeständnisse abzuringen.</p>
+<p>Die Aushandlung des Verhältnisses zwischen Stadt und Landschaft ging auch mit der Entwicklung von Formen der Kommunikation zwischen den
+beteiligten Parteien hervor. Die wichtigste davon war das von der Stadt seit den 1490er Jahren verwendete Instrument der Ämterbefragungen,
+die zunächst vor allem in Zusammenhang mit den umstrittenen Themen Reislauf und Pensionen zum Einsatz kamen.<note>Für eine exemplarische
+Befragung vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_127">SSRQ ZH NF I/1/3, Nr. 127</ref></bibl>; zu Aufkommen und Entwicklung
+dieser Praxis vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dändliker 1896</ref></bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Dändliker 1898</ref></bibl>.</note> Während zunächst vor allem über bereits getroffene
+Entscheidungen informiert wurde, ging man in einem zweiten Schritt zu eigentlichen Befragungen über, wobei auch die Antworten der Gemeinden
+auf dem Land ausführlich verschriftlicht wurden.<note>Für die überlieferten Befragungen vgl. <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=13243">StAZH A 95</ref></bibl>.</note> Vergleichbare Kommunikationsformen
+entwickelten sich während derselben Zeit auch in anderen eidgenössischen Orten wie Bern und Luzern.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/016544"
+>Ämteranfragen</ref></bibl>.</note> Die Zürcher Befragungen wurden in der zweiten Hälfte des 16. Jahrhunderts seltener und kamen seit dem
+17. Jahrhundert vollständig zum Erliegen. Von diesem zunehmend einseitigen Verhältnis zwischen Obrigkeit und Untertanen zeugen die
+frühneuzeitlichen gedruckten sogenannten Landmandate, in denen die Stadt ihr Herrschaftsgebiet als geschlossenen Rechtsraum ansprach,
+innerhalb dessen ihre Anordnungen im Prinzip uneingeschränkt Gültigkeit beanspruchten.<note>Vgl. exemplarisch <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928909">StAZH III AAb 1.2, Nr. 7</ref></bibl>.</note></p>
+<p>Um über das eigene Herrschaftsgebiet hinausreichende Rechtsräume zu schaffen, namentlich um das sichere Geleit von Kaufleuten und die
+Kontinuität des Warentransports garantieren zu können, war Zürich auf die Kooperation mit benachbarten Mächten angewiesen. Dies zeigt sich
+besonders deutlich am Beispiel des Wasserwegs via Obersee, Linth und Walensee zu den Pässen Graubündens und letztlich nach Italien, der seit
+dem Spätmittelalter für die Handelspolitik Zürichs eine hervorragende Bedeutung besass. Seit der Alte Zürichkrieg den militärischen Einfluss
+der Stadt in dieser Region zurückgedrängt hatte, schloss Zürich wiederholt Schifffahrtsverträge mit Schwyz und Glarus ab, die ihrerseits die
+Herrschaft über die Schiffleute von Walenstadt und Weesen ausübten.<note>Für den diesbezüglichen Vertrag des Jahres 1498 vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_064">SSRQ ZH NF I/1/3, Nr. 64</ref></bibl>.</note></p>
+<head type="title" n="2">Akteure</head>
+<p>Das oben erwähnte Instrument der Ämteranfragen verweist darauf, dass im Zeitraum der vorliegenden Editionseinheit Rechtsetzung kein
+einseitiger Prozess, sondern eingebettet in Kommunikationssituationen war, in deren Verlauf sich verschiedene Parteien einschalten konnten,
+durchaus auch in sich widersprechender Weise. Entlang der edierten Stücke lässt sich die Vielfalt der involvierten Akteure benennen. Die im
+Folgenden dargestellten Mengenverhältnisse sind zwar auch von der Auswahl der Stücke bedingt. Dennoch lassen sich grobe Tendenzen ausmachen,
+die mit Blick auf weiterreichende gesellschaftliche Entwicklungen im 15. und 16. Jahrhundert eingeordnet werden können.</p>
+<p>Die durch Bürgermeister, Kleinen und Grossen Rat erlassenen Rechtssatzungen stellen innerhalb der vorgenommenen Auswahl klar die Mehrheit
+dar (173 von 195 edierten Stücken). Dies reflektiert die oben bereits ausgeführte Tendenz, dass die städtische Obrigkeit sich zwischen 1460
+und der Mitte des 16. Jahrhunderts allmählich als alleinige Instanz in Stadt und Herrschaftsgebiet Zürich durchsetzte, die für sich in
+Anspruch nehmen konnte, Recht zu setzen und zu sprechen. Auch innerhalb des städtischen Regiments sind jedoch mehrere Instanzen voneinander
+zu unterscheiden. In der vorliegenden Auswahl anteilsmässig am häufigsten sind diejenigen Rechtstexte, die von Bürgermeister, Kleinem und
+Grossem Rat (auch bezeichnet als <q>die Zweihundert</q>) gemeinsam verabschiedet wurden (58 Stücke). Am zweithäufigsten treten Bürgermeister
+und Kleiner Rat alleine als rechtssetzendes Organ auf (34 Stücke). In zusätzlichen acht Fällen wird das Gremium der Zunftmeister neben
+Bürgermeister, Kleinem und Grossem Rat eigens erwähnt. Zweimal wird neben den erwähnten Gremien auch die gesamte Stadtgemeinde als
+beschlussfassendes Organ erwähnt, nämlich im Fall der beiden in den Zeitraum der Edition fallenden Geschworenen Briefe von 1489 und
+1498.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_058">SSRQ ZH NF I/1/3, Nr. 58</ref></bibl>.</note> In 62 Fällen wird kein rechtssetzendes Organ
+explizit genannt, die Urheberschaft dieser Rechtstexte aus dem Umfeld der städtischen Obrigkeit lässt sich aus dem Kontext ihrer
+Überlieferung jedoch erschliessen. Dies trifft vor allem für die in den Anhängen zum Vierten und Fünften Geschworenen Brief sowie in den
+1515-1518 und 1539-1541 verschriftlichten Satzungsbüchern enthaltenen Texte zu.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254298">StAZH B III 6</ref></bibl>; <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254296">StAZH B III 4</ref></bibl>.</note> In diesen Stücken spricht die
+rechtssetzende Instanz meist in der ersten Person Plural, wobei Formulierungen wie <orig>Wir haben uns ouch erkendt</orig><note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_030">SSRQ ZH NF I/1/3, Nr. 30</ref></bibl>.</note> verwendet werden, ohne dass das dahinterstehende
+Gremium näher benannt würde.</p>
+<p>Hinsichtlich Zusammensetzung und Kompetenzen von Grossem und Kleinem Rat sowie des Zunftmeisterkollegiums ergaben sich im Zeitraum der
+Editionseinheit gewisse Verschiebungen. So stammen die Fälle, in denen die Zunftmeister neben den Räten eigenständig genannt werden,
+allesamt aus dem 15. Jahrhundert.<note>Mit einer Ausnahme, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_103">SSRQ ZH NF I/1/3, Nr.
+103</ref></bibl>.</note> Dies ist damit zu erklären, dass der Fünfte Geschworene Brief die Aufgaben des Zunftmeisterkollegiums im
+Wesentlichen auf gewerbliche Frage eingrenzte, während vor dieser Änderung die Zunftmeister eigenständig neben dem Kleinen Rat als
+rechtssetzende Instanz in Erscheinung treten.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier/Frei 2005</ref>, Bd.
+1, S. 86-93</bibl>.</note> Die Zusammensetzung des Grossen Rats legte der Geschworene Brief von 1489 folgendermassen fest: Je zwölf
+Abgeordnete der Zünfte (die Zwölfer) wurden durch 24 Mitglieder der Konstaffel ergänzt, dazu kamen die 50 Mitglieder des Kleinen Rats. Die
+Revision des Jahres 1498 reduzierte jedoch den Anteil der Konstaffel am Grossen Rat auf 18 Personen. Dies entsprach der Tendenz des 15.
+Jahrhunderts, welche die Vertretung dieser Gesellschaft in den Räten zunehmend derjenigen der Zünfte annäherte. Damit einher ging auch eine
+gesellschaftliche Angleichung, da um 1500 sowohl Konstaffel als auch Zünfte durch wohlhabende Familien dominiert wurden, die sich im Handel
+sowie in der Ausübung von Gerichtsrechten und Vogteiämtern auf der Landschaft betätigten, so dass die Trennung zwischen der ehemals adlig
+geprägten Konstaffel und den handwerklich orientierten Zünften verschwand.<note>Vgl. dazu die Zunfturkunde der Konstaffel des Jahres 1490,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>.</note></p>
+<p>Der Kleine Rat umfasste neben den beiden Bürgermeistern je zwei Vertreter jeder Zunft (die 24 Zunftmeister), vier Mitglieder der
+Konstaffel und 20 Ratsherren, von denen 12 einer Zunft und zwei der Konstaffel angehörten. Sechs Ratsherren waren sogenannt <q>freier
+Wahl</q>, konnten also aus Konstaffel oder Zünften gewählt werden. Die beiden Bürgermeister sowie die 20 Ratsherren des Kleinen Rates wurden
+vom Grossen Rat gewählt, während die Versammlungen der Zunftmitglieder sowie der Konstaffel die Zunftmeister und Konstaffelherren
+bestimmten. Der Kleine Rat war unterteilt in zwei Hälften (Natal- und Baptistalrat), die sich zusammen mit dem vorsitzenden Bürgermeister
+jeweils halbjährlich im Juni und im Dezember abwechselten.<note>Die Details der Abfolge ist in den Geschworenen Briefen geregelt, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 12; 16; 18</bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_058">SSRQ ZH NF I/1/3, Nr. 58</ref>, Art. 10; 15; 17</bibl>.</note> Die Mitglieder des Kleinen Rats
+hatten sich bei jeder zweiten Ablösung der Wiederwahl zu stellen, wobei ihre Bestätigung die Regel war.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 17</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gilomen
+1995</ref>, S. 366-367</bibl>.</note> Oftmals tagten Natal- und Baptistalrat zusammen, worauf sich die in zahlreichen der edierten Stücke
+verwendete Formulierung <q>Bürgermeister und (beide) Räte</q> bezieht.<note>Vgl. beispielsweise <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_007">SSRQ ZH NF I/1/3, Nr. 7</ref></bibl>.</note> Dem Kleinen Rat gehörten mit dem Bürgermeister, den
+Säckelmeistern und den Oberstzunftmeistern die wichtigsten Amtsträger der Stadt an. Er fasste hinsichtlich seiner eigenen Amtstätigkeit im
+ersten Viertel des 16. Jahrhunderts mehrere Bestimmungen zu einer eigentlichen Geschäftsordnung zusammen, die namentlich auch festlegte,
+welche Geschäfte an welchen Tagen zu behandeln und wie die Debatten im Rat zu führen waren. Weiter wurde geregelt, unter welchen Bedingungen
+Ratsmitglieder in den Ausstand zu treten hatten.<note>Für die Bestandteile dieser Geschäftsordnung vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_083">SSRQ ZH NF I/1/3, Nr. 83</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_084"
+>SSRQ ZH NF I/1/3, Nr. 84</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_085">SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_086">SSRQ ZH NF I/1/3, Nr. 86</ref></bibl>.</note></p>
+<p>Zusammen zählten Kleiner und Grosser Rat dem Fünften Geschworenen Brief zufolge 212 Mitglieder. Von den rund 1000 Bürgern im Alter über
+16 Jahre war damit zwar ein relativ hoher Anteil in irgendeiner Form am Regiment beteiligt, die aus Frauen und Nichtbürgern gebildete
+Mehrheit blieb jedoch ausgeschlossen.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S.
+22</bibl>.</note></p>
+<p>Die Kompetenzenteilung zwischen Kleinem und Grossem Rat wurde 1489 erstmals explizit geregelt.<note>Vgl. dazu die entsprechende Ordnung,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_145">SSRQ ZH NF I/1/3, Nr. 145</ref></bibl>.</note> Dabei war vorgesehen, dass bei
+gewichtigen Fragen wie der Einführung neuer Steuern, dem Erwerb von Land und Leuten, dem Abschluss von Bündnissen, bei Entscheidungen über
+Krieg und Frieden sowie in der Münzgesetzgebung die Zweihundert beigezogen werden mussten. Die täglichen Regierungsgeschäfte hingegen wurden
+vom Kleinen Rat besorgt. Dessen Mitgliedern stand es jedoch frei, bei Bedarf Fragen an den Grossen Rat zur weiteren Beratung zu
+überweisen.<note>Das hierfür notwendige Prozedere war in den Geschworenen Briefen geregelt, vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 23</bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_058">SSRQ ZH NF I/1/3, Nr. 58</ref>, Art. 22</bibl>.</note> Die Festlegung derjenigen Geschäfte, die
+nicht ohne den Grossen Rat entschieden werden durften, zeugt von dessen Stärkung im Anschluss an den Waldmannhandel des Jahres
+1489.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 349</bibl>.</note> Allerdings ist der Grundsatz,
+wonach bei Entscheiden der Aussen- und Bündnispolitik der Grosse Rat oder sogar die Bürgergemeinde einberufen werden sollte, schon für das
+frühe 15. Jahrhundert belegt.<note><bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 400-401, Nr.
+269</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 26</bibl>.</note> Der Grosse Rat wählte auch die
+meisten niederen städtischen Beamteten.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S.
+19</bibl>.</note> Im Zeitraum vom Vierten Geschworenen Brief bis zum Zweiten Kappelerkrieg tagte er verhältnismässig oft, was sich auch im
+hohen Anteil der vom ihm verabschiedeten Ordnungen innerhalb der vorliegenden Edition niederschlägt. Der Hintergrund dafür dürfte nicht
+zuletzt auch in der Reformation der 1520er Jahre und den damit zusammenhängenden, wegweisenden Entscheidungen zu suchen sein, vor die sich
+das Stadtregiment gestellt sah. Ab der Jahrhundertmitte ging sein Einfluss jedoch zurück und er wurde bis in die ersten Jahrzehnte des 17.
+Jahrhunderts nur wenige Male einberufen; politische Fragen entschied in dieser Zeit oftmals der Kleine Rat alleine, respektive aus ihm
+gebildete Sonderkommissionen.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 19</bibl>.</note> Bereits
+im Zeitraum der vorliegenden Editionseinheit lässt sich aber beobachten, dass Ordnungen zwar vom Grossen Rat mitverabschiedet, jedoch auf
+Beschlüssen von mehrheitlich aus Mitgliedern des Kleinen Rates gebildeten Kommissionen beruhten.<note>Vgl. etwa die Einführung der
+Ratsbesoldung 1545/46, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_186">SSRQ ZH NF I/1/3, Nr. 186</ref></bibl>.</note></p>
+<p>Neben seiner Eigenschaft als Träger der Regierungsgewalt war der Kleine Rat zudem, gemeinsam mit dem Stadtgericht, die wichtigste Instanz
+der Judikative im Zeitraum der vorliegenden Editionseinheit. Er urteilte hauptsächlich über Schlaghändel, Beleidigungen, Friedensbrüche,
+Eigentums- und Betrugsdelikte.<note>Zur Gerichtssituation vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S.
+84-85</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 35-40</bibl>.</note> Mehrere normative Texte
+regelten zu diesem Zweck die Abhaltung von Gerichtstagen durch den Bürgermeister.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_019">SSRQ ZH NF I/1/3, Nr. 19</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_085"
+>SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>.</note> Dabei wurde unterschieden zwischen dem Klageverfahren, bei dem von Einzelpersonen gegen
+Dritte Klage erhoben wurde, und dem Nachgangsverfahren, innerhalb dessen der Kleine Rat selbst die Untersuchung eröffnete und Zeugen
+befragte.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_037">SSRQ ZH NF I/1/3, Nr. 37</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_060">SSRQ ZH NF I/1/3, Nr. 60</ref></bibl>.</note> Der Kleine Rat wirkte zudem als
+Appellationsinstanz für sämtliche untergeordneten Gerichte, wozu auch diejenigen auf der Landschaft gehörten.<note>Vgl. dazu die
+Appellationsordnung des Jahres 1507, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_075">SSRQ ZH NF I/1/3, Nr.
+75</ref></bibl>.</note></p>
+<p>Neben dem Rat stellte das Stadtgericht die zweite wichtige gerichtliche Instanz dar. Es war für Sach- und Geldstreitigkeiten zuständig,
+wobei namentlich Schuldbetreibungen, aber auch Erbschaftsangelegenheiten vor diesem Gericht verhandelt wurden. Während die Fürsprecher des
+Stadtgerichts vom Kleinen Rat bestimmt wurden, hatte dieser für den das Gericht präsidierenden Schultheissen bis zur Reformation nur das
+Vorschlagsrecht inne, während die Ernennung durch die Äbtissin des Fraumünsters erfolgte.<note>Vgl. dazu Eid und Ordnung des Schultheissen,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_135">SSRQ ZH NF I/1/3, Nr. 135</ref></bibl>.</note> Über die verschiedenen, vom
+Verfahrensablauf her oftmals komplexen Formen des Betreibungsverfahrens haben sich mehrere Ordnungen erhalten, wobei die bedeutendste von
+Schultheiss Heinrich Effinger stammt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_113">SSRQ ZH NF I/1/3, Nr.
+113</ref></bibl>.</note></p>
+<p>Die Kompetenz, über Fälle der Hochgerichtsbarkeit zu urteilen und Todesstrafen auszusprechen, hatte der Zürcher Rat im Jahr 1400
+erhalten. Zuvor war die Urteilsfällung in solch schwerwiegenden Fällen dem auf dem Lindenhof tagenden Reichsvogteigericht vorbehalten
+gewesen. Fortan übte die jeweils amtierende Hälfte des Kleinen Rats die Blutgerichtsbarkeit aus und aus seinem Kreis wurde auch der
+Reichsvogt bestimmt, der den Vorsitz über dieses Gericht ausübte.<note>Vgl. dazu die Blutgerichtsordnung der Stadt Zürich, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_099">SSRQ ZH NF I/1/3, Nr. 99</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_100"
+>SSRQ ZH NF I/1/3, Nr. 100</ref></bibl> sowie <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1958</ref></bibl>.</note> Vom
+Reichsvogt besiegelt wurden auch die drei in dieser Editionseinheit edierten Todesurteile, nämlich gegen Ritter Richard Puller von Hohenburg
+wegen Homosexualität,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_015">SSRQ ZH NF I/1/3, Nr. 15</ref></bibl>.</note> gegen Verena
+Diener wegen Hexerei<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_129">SSRQ ZH NF I/1/3, Nr. 129</ref></bibl>.</note> sowie gegen
+den wegen Verbreitung des Täufertums hingerichteten Felix Manz<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_139">SSRQ ZH NF I/1/3,
+Nr. 139</ref></bibl>.</note>.</p>
+<p>Mit 27 Stücken sind neben Bürgermeister und Räten auch andere rechtssetzende Instanzen in der vorliegenden Editionseinheit prominent
+vertreten. An erster Stelle zu nennen sind in diesem Zusammenhang die beiden Bullen Papst Sixtus’ IV. aus dem Jahr 1479. Der durch den Papst
+gewährte, während fünf Jahren andauernde ausserordentliche Ablass diente der Renovation von Fraumünster und Grossmünster sowie dem Neubau
+der Wasserkirche.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_012">SSRQ ZH NF I/1/3, Nr. 12</ref></bibl>.</note> Das wesentlich
+der Bündnispolitik Sixtus’ IV. und seiner Bemühung um militärische Unterstützung durch die Eidgenossen geschuldete Privileg trug dazu bei,
+den baulichen Rückstand einzuholen, den sich die Stadt seit der Mitte des Jahrhunderts aufgrund der Nachwirkungen des verlorenen Alten
+Zürichkriegs eingehandelt hatte. Die päpstliche Ablassurkunde war zudem ein wichtiger Impulsgeber für die frühe Druckgeschichte
+Zürichs.<note>Vgl. dazu <bibl><ref target="/startseite/literaturverzeichnis">Moser/Vitali 2001</ref>, S. 49-58</bibl>.</note> Die zweite
+Papsturkunde betrifft die Vergabe der Pfründen am Grossmünster.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_011">SSRQ ZH NF
+I/1/3, Nr. 11</ref></bibl>.</note> Indem das Kirchenoberhaupt das ihm zustehende Vorschlagsrecht für Pfründen, die in ungeraden Monaten frei
+wurden, an den städtischen Rat übertrug, sicherte er diesem die Einflussnahme auf die personelle Zusammensetzung des reich begüterten
+Chorherrenstifts und verstärkte die sich anbahnende Einflussnahme der weltlichen Obrigkeit auf die geistlichen Körperschaften im Zürcher
+Herrschaftsbereich. Gegenüber dem unter anderem von Emil Egli geprägten Begriff eines mit dieser Urkunde begründeten und in der Reformation
+vollendeten <q>Staatskirchenrechts</q>.<note><bibl><ref target="/startseite/literaturverzeichnis">Egli 1896</ref>, S. 22</bibl>.</note> ist
+jedoch festzuhalten, dass gerade in dieser frühen Phase die Einflussnahme des Rates durch ein Zusammengehen mit den übergeordneten
+kirchlichen Gewalten bedingt war.</p>
+<p>Oberster weltlicher Herr über Zürich, das in Folge des Aussterbens der Zähringer 1218 zur Reichsstadt aufgestiegen war, war im gesamten
+Zeitraum der vorliegenden Editionseinheit der römisch-deutsche König. Jeweils anlässlich eines Herrscherwechsels bemühte sich die Stadt
+deshalb um die Bestätigung ihrer hergebrachten Rechte, wobei zwischen der Wahl eines neuen Königs und der Ausstellung der entsprechenden
+Urkunde unter Umständen geraume Zeit verstreichen konnte. So erlangte Zürich die Bestätigung seiner Rechte durch Karl V. erst fünf Jahre
+nach dessen Wahl zum König im Jahr 1519. Es handelt sich dabei um insgesamt sechs Privilegien, welche die wichtigsten Herrschafts- und
+Gerichtsrechte sowie die städtischen Rechtssatzungen bestätigten.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_115">SSRQ ZH
+NF I/1/3, Nr. 115</ref></bibl>.</note> Sie zeigen die auch in der ersten Hälfte des 16. Jahrhunderts noch grundlegende Bedeutung des Reichs
+für die Legitimation der Stadtherrschaft. Erst nach der Jahrhundertmitte verzichtete auch Zürich auf einzelörtische Privilegienbestätigungen
+und erwirkte zusammen mit den anderen 12 eidgenössischen Orten eine Gesamtbestätigung, was nicht zuletzt die wachsende (Selbst-)Wahrnehmung
+der Eidgenossenschaft als Einheit illustriert.</p>
+<p>Im Vergleich zu Papst und Kaiser näher an der Stadt und für das alltägliche Rechtsleben auch bedeutender war der Bischof von Konstanz. In
+seine Gerichtsbarkeit fiel bis zur Reformation der Bereich des Matrimonialrechts.<note>Für das Verfahren vor dem dortigen Offizialgericht
+vgl. die exemplarische Klage der Anna Kramer auf Anerkennung des ihr gegenüber geleisteten Eheversprechens, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_009">SSRQ ZH NF I/1/3, Nr. 9</ref></bibl>.</note> So war denn auch der Weg vor das bischöfliche
+Gericht in Konstanz zwecks Verhandlung von Ehesachen ausdrücklich vom im Neubürgereid enthaltenen Verbot ausgenommen, Angehörige Zürichs vor
+fremde Gerichte zu ziehen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_087">SSRQ ZH NF I/1/3, Nr. 87</ref></bibl>.</note> Güter-
+und erbrechtliche Aspekte der Ehe wie die Verfügungsgewalt über die Morgengabe, die Ausrichtung von Witwen oder die Haftung von Eheleuten
+für Schulden ihres Partners lagen hingegen in der Kompetenz des Rats.<note>Vgl. dazu die erbrechtlichen Bestimmungen der Stadt Zürich
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_133">SSRQ ZH NF I/1/3, Nr. 133</ref></bibl>), die Ordnung betreffend Ausrichtung von
+Witwen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_001">SSRQ ZH NF I/1/3, Nr. 1</ref></bibl>) sowie die Bestimmungen betreffend
+Vorrang von Ehefrauen in Konkursen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_063">SSRQ ZH NF I/1/3, Nr. 63</ref></bibl>); allgemein
+zum Eherecht vgl. <bibl><ref target="/startseite/literaturverzeichnis">Matter-Bacon 2016</ref></bibl>.</note></p>
+<p>Mit dem Erlass des ersten gedruckten Ehemandats im Jahr 1525<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_001">SSRQ ZH NF
+I/1/11, Nr. 1</ref></bibl>.</note> sowie der Einrichtung des Ehegerichts im Zug der Reformation fiel schliesslich die gesamte
+Ehegerichtsbarkeit in die Kompetenz der städtischen Obrigkeit. Als Eherichter tätig waren fortan jeweils je zwei Mitglieder des Kleinen und
+des Grossen Rates sowie zwei städtische Pfarrer.<note>Zu Organisation und Besetzung des Ehegerichts vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_141">SSRQ ZH NF I/1/3, Nr. 141</ref></bibl>.</note> Das Ehegericht beanspruchte über eherechtliche
+Fragen im engeren Sinn hinaus eine beaufsichtigende Funktion in Fragen der Lebensführung und Sexualität.<note>Vgl. dazu die Ordnung des
+Bordellbetreibers, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_167">SSRQ ZH NF I/1/3, Nr. 167</ref></bibl>.</note> Im ländlichen
+Herrschaftsgebiet erfüllte der sogenannte Stillstand, der aus den örtlichen Pfarrern und den von den Gemeinden gewählten Ehegaumern gebildet
+war, eine vergleichbare Funktion.<note>Vgl. dazu den Eid der Ehegaumer, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_170">SSRQ ZH NF
+I/1/3, Nr. 170</ref></bibl>.</note> Mit der reformierten Ehetheologie wurden zudem Scheidungen möglich, diese fielen ebenfalls in die
+Kompetenz des Ehegerichts.<note>Vgl. dazu die Weisung betreffend Ehescheidungen des Jahres 1533, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_156">SSRQ ZH NF I/1/3, Nr. 156</ref></bibl>.</note></p>
+<p>Neben der Ehegerichtsbarkeit war der Bischof vor der Reformation auch an der Aburteilung von Streitfällen zwischen Laien und Geistlichen
+im Zürcher Herrschaftsgebiet beteiligt. Grundlegende Bestimmungen dazu finden sich bereits im Richtebrief.<note><bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref
+target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_226">S. 226-241</ref></bibl>.</note> Gemäss einem 1506 abgeschlossenen
+und 1523 durch Zürich aufgekündigten Vertrag blieb dem Bischof die Hochgerichtsbarkeit über Geistliche vorbehalten, und sämtliche gegen sie
+ausgesprochenen Bussen gingen an ihn.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_074">SSRQ ZH NF I/1/3, Nr.
+74</ref></bibl>.</note> Auch bei Streitigkeiten zwischen Bürgermeister und Rat und der Inhaberin der Stadtherrschaft, der Äbtissin des
+Fraumünsters, fungierte der Bischof als Rekursinstanz. So entschied er im Jahr 1470 die Auseinandersetzung zwischen diesen beiden Parteien
+um die Ernennung des Amtsmannes des Fraumünsters im Sinne des Rats.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_008">SSRQ ZH NF
+I/1/3, Nr. 8</ref></bibl>.</note></p>
+<p>Unter den Herrschaftsrechten der Äbtissin des Fraumünsters sind an erster Stelle das Münzrecht sowie die bereits erwähnte Kompetenz, den
+Schultheissen des Stadtgerichts einzusetzen, zu nennen. Hatte der Rat im Verlauf des 14. Jahrhunderts bereits zeitweise das Münzrecht von
+der Äbtissin gepachtet, erhielt er es im Jahr 1425 durch Kaiser Sigismund verliehen, sodass fortan Äbtissin und Rat beide zum Schlagen von
+Münzen berechtigt waren.<note>Vgl. dazu den Einstellungsvertrag der Münzmeister Ludwig Gsell und Ulrich Trinkler, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_070">SSRQ ZH NF I/1/3, Nr. 70</ref></bibl>.</note> Sowohl Fraumünster als auch Grossmünster traten
+zudem neben der Stadt als Träger von Herrschaft auf der Landschaft auf; so hatte das Grossmünster an mehreren Orten die Hochgerichtsbarkeit
+inne und verfügte entsprechend über einen eigenen Galgen auf dem Zürichberg.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_020"
+>SSRQ ZH NF II/11, Nr. 20</ref></bibl>.</note> Die beiden geistlichen Körperschaften besassen zur Verwaltung ihrer Besitzungen und Einkünfte
+selbstständige Einrichtungen mit einer eigenen Schriftlichkeit.<note>Vgl. unten, Abschnitt 4: Schriftlichkeit.</note> Während Äbtissin
+Katharina von Zimmern im Jahr 1524 der Aufhebung ihres Klosters zustimmte und die Übertragung von dessen Rechten und Besitzungen an
+Bürgermeister und Rat vornahm,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_121">SSRQ ZH NF I/1/3, Nr. 121</ref></bibl>.</note>
+blieb das Grossmünsterstift über die Reformation hinaus als selbstständige Körperschaft erhalten, wenn es auch sämtliche Gerichtsrechte
+abgeben musste<note>Für die 1523 geschlossene Übereinkunft zwischen Rat und Grossmünsterstift vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_117">SSRQ ZH NF I/1/3, Nr. 117</ref></bibl>.</note>. Zentrale Bedeutung kam ihm mit seiner
+Lateinschule und der im Verlauf der 1520er Jahre eingerichteten Hohen Schule fortan namentlich als Ausbildungsort der reformierten
+Pfarrerschaft zu.<note>Für den dortigen Schulunterricht vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_149">SSRQ ZH NF I/1/3, Nr.
+149</ref></bibl>.</note> Als nach dem verlorenen Zweiten Kappelerkrieg zur Sanierung der Stadtfinanzen die ökonomische Selbstständigkeit des
+Stifts aufgehoben werden sollte, wandte sich Antistes Heinrich Bullinger in einem Fürtrag (Vortrag) vor dem Rat erfolgreich
+dagegen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_152">SSRQ ZH NF I/1/3, Nr. 152</ref></bibl>.</note> Das in der Folge
+mehrfach zum Einsatz gekommene Instrument der Fürträge verweist darauf, dass die reformierte Pfarrerschaft bei wichtigen gesellschaftlichen
+Entscheidungen durchaus auch zum Widerspruch bereit war.<note>So namentlich im Jahr 1546 bei der Einführung der Ratsbesoldung aus
+säkularisierten Kirchenmitteln, gegen die Bullinger letztlich aber vergeblich Stellung nahm, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_186">SSRQ ZH NF I/1/3, Nr. 186</ref></bibl>.</note></p>
+<p>Eine ebenfalls der städtischen Obrigkeit nahestehende, jedoch eigenständige Position vertraten die Zünfte und Gesellschaften.
+Bürgermeister und Rat gaben Leitlinien hinsichtlich der Abgrenzung der verschiedenen Gewerbebereiche und der Einteilung der Handwerke. Dies
+geschah einerseits in den Geschworenen Briefen, andererseits aber auch in den 1336 erstmals erlassenen und 1490 erneuerten
+Zunftbriefen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_044">SSRQ ZH NF I/1/3, Nr. 44</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_045">SSRQ ZH NF I/1/3, Nr. 45</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_046"
+>SSRQ ZH NF I/1/3, Nr. 46</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_047">SSRQ ZH NF I/1/3, Nr. 47</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_048">SSRQ ZH NF I/1/3, Nr. 48</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>.</note> In konkrete Fragen griff die städtische Obrigkeit
+vor allem dann ein, wenn es um Lebensmittelversorgung und Qualitätskontrolle ging, namentlich durch die Setzung von Preisen für Brot und
+Fleisch, die Ausübung der Marktkontrolle sowie in Fragen des Stadtbaus.<note>Vgl. dazu die Ordnungen der Bäcker sowie der Metzger
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_071">SSRQ ZH NF I/1/3, Nr. 71</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_148">SSRQ ZH NF I/1/3, Nr. 148</ref></bibl>); zum sogenannten Fruchtschlag vgl. auch <bibl><ref
+target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 271-299</bibl>; für die Ordnung des Baumeisters vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_183">SSRQ ZH NF I/1/3, Nr. 183</ref></bibl>.</note> In den meisten Angelegenheiten von Handwerk und
+Gewerbe dominierte aber die zunftinterne Gerichtsbarkeit, deren oberste Instanz das Gremium der Zunftmeister darstellte. Die von ihnen
+gefällten Urteile sind im sogenannten Zunftmeisterbuch festgehalten.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=264349">StAZH B VI 294 b</ref></bibl>; für einen exemplarischen, durch die
+Zunftmeister entschiedenen Fall vgl. die Auseinandersetzung zwischen den Meistern und Gesellen der Schuhmacher <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_107">SSRQ ZH NF I/1/3, Nr. 107</ref></bibl>.</note> Die Zunftmeister waren in den meisten Fällen
+bereits selbst Rekursinstanz für Angelegenheiten, die von den Meistern einer einzelnen Zunft gerichtlich nicht hatten beigelegt werden
+können sowie für Streitigkeiten zwischen Zünften.<note>Für die verschiedenen Ebenen der Zunftgerichtsbarkeit vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_188">SSRQ ZH NF I/1/3, Nr. 188</ref></bibl>.</note> Nicht zu vergessen ist zudem die Bedeutung der
+Zünfte im Bereich des Begräbniswesens und der Vorsorge für das Seelenheil nach dem Tod. In diesem Bereich existieren eigenständige Satzungen
+von Bruderschaften, die in Absprache mit der Geistlichkeit die Durchführung von Seelmessen für verstorbene Mitglieder regelten.<note>Vgl.
+dazu die Stiftung der Bruderschaft der Schuhmachergesellen, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_018">SSRQ ZH NF I/1/3, Nr.
+18</ref></bibl>; allgemein zu den Zürcher Bruderschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Amacher
+2002</ref></bibl>.</note></p>
+<p>Gerade im Bereich der letztwilligen Verfügungen waren es einzelne Frauen und Männer, die als rechtssetzende Instanzen in Erscheinung
+traten, indem sie über ihre materielle Hinterlassenschaft und ihr Begräbnis entschieden. Seit dem Jahr 1424 mussten sämtliche in der Stadt
+Zürich getroffenen letztwilligen Verfügungen dem Rat zur Genehmigung vorgelegt werden.<note><bibl><ref
+target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/2, S. 360, Nr. 176</bibl>.</note> Hintergrund dieser Bestimmung
+war die Bemühung der städtischen Obrigkeit, das Vererben von Gütern, insbesondere von Immobilien, an die Kirche
+einzuschränken.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_007">SSRQ ZH NF I/1/3, Nr. 7</ref></bibl>; vgl. auch <bibl><ref
+target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 344</bibl>.</note> Obwohl die Verschriftlichung im Kontext der städtischen
+Kanzlei stattfand, wurden die letztwilligen Verfügungen für gewöhnlich in der Perspektive der Erblasser verfasst.<note>Vgl. dafür
+exemplarisch das Testament der Anna Mettenbuch, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_051">SSRQ ZH NF I/1/3, Nr.
+51</ref></bibl>.</note></p>
+<p>Die Eidgenossenschaft spielte als rechtssetzendes Organ für die inneren Belange von Stadt und Territorialstaat Zürich während des
+behandelten Zeitraums eine untergeordnete Rolle. Ihr direktes Eingreifen war an Ausnahmesituationen gebunden. Eine solche war im
+Waldmannhandel von 1489 gegeben, als eidgenössische Vermittler durch Erlass der Spruchbriefe eine Einigung zwischen den Konfliktparteien
+herbeiführen konnten.<note><bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref></bibl>.</note>
+Abgesehen davon lässt sich der Einfluss der Eidgenossenschaft daran festmachen, dass der Zürcher Rat zuweilen Ordnungen unter ausdrücklicher
+Bezugnahme auf die Abschiede der Tagsatzung oder die Regelungen anderer eidgenössischer Städte erliess. Ein konkretes Beispiel für einen
+solchen Austausch, der in diesem Fall allerdings nur die reformierten eidgenössischen Städte umfasste, bildet das Scheidungsrecht, bei
+dessen Beratung die Verordneten ausdrücklich auf die Situation in Bern, Basel, Schaffhausen und St. Gallen verwiesen.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_156">SSRQ ZH NF I/1/3, Nr. 156</ref></bibl>.</note></p>
+<head type="title" n="3">Öffentlichkeiten</head>
+<p>Eine Mehrheit der in der vorliegenden Editionseinheit versammelten Stücke lässt sich dem von der Forschung traditionell als städtisches
+<q>Statutenrecht</q><note>So etwa <bibl><ref target="/startseite/literaturverzeichnis">Dilcher 1989</ref>, S. 37</bibl>; analog wird auch
+von Satzungs- bzw. Statutarrecht gesprochen, vgl. etwa <bibl><ref target="/startseite/literaturverzeichnis">SSRQ_ZH_NF_I_1_1</ref>, <ref
+target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_XI"> S. XI</ref></bibl> sowie <bibl><ref
+target="/startseite/literaturverzeichnis">Isenmann 2001</ref>, S. 18</bibl>.</note> bezeichneten Schriftgut zurechnen, nämlich die von
+Bürgermeister und Rat verabschiedeten Erlasse. Diese bezogen sich anfänglich nur auf die Stadt, beanspruchten aber mit der Entstehung des
+Zürcher Herrschaftsgebiets auch Geltung auf der Landschaft und traten zu den dort geltenden Rechtsgewohnheiten hinzu, die sie ergänzten und
+teilweise auch konkurrenzierten. Diese Rechtsnormen, die sich über die verschiedenen, modern als Staats-, Privat- und Staatsrecht
+bezeichneten Rechtsbereiche erstrecken, werden in der vorliegenden Einheit als <q>Ordnungen</q> bezeichnet. Dies geschieht in Anlehnung an
+den vormodernen Sprachgebrauch und die in den Texten häufig zu findenden Formulierungen wie <orig>setzend und ordnend
+wir</orig>,<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_016">SSRQ ZH NF I/1/3, Nr. 16</ref></bibl>.</note> in denen das
+städtische Regiment den Anspruch erhob, in die verschiedenen Lebensbereiche durch Setzung von Normen ordnend einzugreifen. In diesem
+Zusammenhang aufschlussreich ist die Weise, in welcher die Geschworenen Briefe die Tätigkeit des von der Stadtgemeinde eingesetzten
+Regiments umschreiben. Dabei werden die Tätigkeiten des Setzens von Recht und des Ordnens sowie des Richtens hervorgehoben: <orig>Was sachen
+der burgermeister, die raͤt, die zunftmeister und der groß raͧt zuͦ Zu̍rich gemeinlich oder der merteil under inen hinenthin jemer mer
+richtend, ordnend oder setzendt oder welicher sach sy also mit einandern u̍ber ein komend, dz die selben sachen oder ir richtung, wie sy
+dann je richtend oder sy von inen geordnot, gesetzt, gericht oder gesprochen werdent, gentzlich, waͧr und staͤt, oͧn alle wandlung soͤllend
+beliben und das dawider nieman reden, werben noch thuͦn oder zethuͦnd schaffen noch verhengen sol</orig>.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>.</note></p>
+<p>Im beginnenden 16. Jahrhundert kam zu dieser Selbstbeschreibung obrigkeitlichen Handelns der Begriff der Polizei hinzu. Im Entwurf der
+Vorrede zum Satzungsbuch von 1515-1518, der wichtige programmatische Überlegungen zur Bedeutung der Anlegung einer neuen Stadtrechtssammlung
+enthält, erscheint Polizei als Mittel zur Sicherstellung des gemeinen Nutzens und friedlichen Zusammenlebens innerhalb der Stadtgemeinde
+durch die ordnende und rechtssetzende Tätigkeit der Obrigkeit. In diesem Sinn wird argumentiert, <orig>das gmeiner nutz und ein yeder stat
+nit allein wirt enthallten durch manhaffte und krieg, damit man gwalt vertribt, besonnder ouch durch guͦt pollicien, recht ordnungen und
+satzungen, damit der unrechtlichen ancleger und u̍beltetigen menschen boßheit und unrecht wirt ußgeru̍dt</orig>.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_103">SSRQ ZH NF I/1/3, Nr. 103</ref></bibl>.</note> Der Auftrag der durch Vertreter des Kleinen und
+Grossen Rates sowie Stadt- und Unterschreiber gebildeten Kommission zur Erarbeitung der Stadtrechtssammlung wird in der Folge dahingehend
+umrissen, <orig>soͤlich unser statt regiment, recht, stattut, ordnungen und gewonheiten allenthalb uss unsern alten und nu̍wen bu̍chern zuͦ
+samen zesuͦchen und die ordenlich in ein buͦch zuͦ beschryben, ouch die zuͦ bessern und ander satzungen und ordnungen darzuͦ
+zesetzen</orig>. Das Resultat der Arbeit, nämlich die Sammlung der <orig>pollicien, recht, fryheit, stattut, ordnungen und
+gewonheiten</orig> der Stadt Zürich, wird sodann förmlich in Kraft gesetzt, damit <orig>einem yedem dest gemesser geregiert und gericht
+werd.</orig> Die zuletzt angeführte Passage rückt, wie auch das oben stehende Zitat aus dem Geschworenen Brief, neben der ordnenden
+Tätigkeit des Stadtregiments auch dessen richterliche Funktion in den Vordergrund. Neben neueren Ordnungen, welche die Kommissionsmitglieder
+ergänzen sollen, haben sie zudem alte <orig>gewonheiten</orig> zu berücksichtigen. Über das <q>Statutenrecht</q> sowie das durch altes
+Herkommen legitimierte Gewohnheitsrecht hinaus werden auch die durch Kaiser und Reich der Stadt gewährten Privilegien (<orig>fryheit</orig>)
+als Gegenstand der Rechtssammlung definiert.</p>
+<p>Die soeben angeführten, programmatischen Zitate verweisen somit auf eine Vielzahl verschiedener Formen, in denen sich das Stadtregiment
+artikulierte und konstituierte, wie neuere und ältere Ordnungen, Rechtsgewohnheiten, Gerichtsurteile, herrschaftliche Privilegien sowie
+Eide. Rechtssetzung war in vormodernen Städten stets in konkrete Kommunikationssituationen eingebettet, innerhalb derer sie Gültigkeit
+erlangte. In zahlreichen Editionsstücken haben sich Spuren davon hinterlassen. Am deutlichsten ist dies wiederum bei den Geschworenen
+Briefen, auf welche die Bürger halbjährlich im Grossmünster ihren Eid ablegten. Am Fünften Geschworenen Brief, der im Original erhalten ist,
+lassen sich noch deutlich die Abnutzungsspuren erkennen, die der wiederholten, durch den jeweiligen Unterschreiber vorgenommenen Verlesung
+vor der Stadtgemeinde geschuldet sein dürften.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_041">SSRQ ZH NF I/1/3, Nr.
+41</ref></bibl>.</note> Die Eidleistung war somit an die Anwesenheit an einem bestimmten Ort zu einem klar definierten Zeitpunkt gebunden.
+Der Akt der Eidleistung umriss auf diese Weise einen Kreis von Personen, die als aktive Stadtbürger an der Ausübung des Regiments teilnehmen
+konnten, während andere ausgeschlossen blieben. Der Eid kann somit neben den durch Bürgermeister und Rat verabschiedeten Ordnungen als
+zentrale städtische Rechtsform gelten. Die bereits erwähnte, ausdrückliche Nennung der <orig>gemeind</orig> als den Geschworenen Brief
+mitverabschiedendes Organ unterstrich damit, dass das Stadtregiment (zumindest in der Theorie) von allen durch den Eid in einer
+Schwurgemeinschaft Verbundenen mitgetragen werden sollte und nicht einfach <q>von oben</q> gesetztes Recht darstellte. Dass innerhalb der im
+Grossmünster versammelten Stadtgemeinde dennoch ein Machtgefälle bestand, darauf verweisen besonders deutlich die anlässlich der
+Eidleistungen verlesenen Verbote, die von den Mitgliedern des Kleinen Rats zusammengestellt wurden und auf deren Einhaltung die Anwesenden
+durch ihren Eid verpflichtet wurden.<note>Zu den Verboten vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_168">SSRQ ZH NF I/1/3, Nr.
+168</ref></bibl>.</note></p>
+<p>Die Verlesung von Verboten und obrigkeitlichen Ordnungen wurde auch ausserhalb der Schwörtage jeweils am Sonntag in den Stadtkirchen
+praktiziert, wobei in diesem Fall die Kommunikation über die Pfarrer verlief. Verschiedene der edierten Stücke weisen entsprechende Vermerke
+auf, die eine sonntägliche Verlesung anordnen. Dies gilt etwa für die Ordnung für den Kreuzgang nach Einsiedeln, welche die folgende
+Formulierung enthält: <orig>Es sol ouch dise unnser satzung unnd ordnung alweg acht tag vorhin in den kilchen verku̍ndt werden, damit sich
+ein yeder darnach wu̍sse zehalten.</orig><note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_080">SSRQ ZH NF I/1/3, Nr.
+80</ref></bibl>.</note> Ein weiteres prominentes Beispiel ist die 1525 erlassene Almosenordnung, wo es heisst: <orig>Soͤllichs soͤllennd die
+predicantenn an der cantzel verku̍nden.</orig><note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_125">SSRQ ZH NF I/1/3, Nr.
+125</ref></bibl>.</note> Weitere solche Belege finden sich in den Ordnungen betreffend das Kirchenasyl,<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_140">SSRQ ZH NF I/1/3, Nr. 140</ref></bibl>.</note> auswärtige Almosenempfänger<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_157">SSRQ ZH NF I/1/3, Nr. 157</ref></bibl>.</note> sowie den Schutz städtischer Brunnen und
+Wasserleitungen<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_195">SSRQ ZH NF I/1/3, Nr. 195</ref></bibl>.</note>. Eine
+zusätzliche, besonders für das ländliche Herrschaftsgebiet der Stadt bedeutende Kommunikationsform waren die bereits erwähnten, seit dem
+späten 15. Jahrhundert durchgeführten Ämterbefragungen. Neben den eigentlichen Befragungen wurden diese Zusammenkünfte fallweise auch dazu
+genutzt, die Anwesenden an obrigkeitliche Erlasse zu erinnern, die mit der aktuell zur Diskussion stehenden Frage nichts zu tun
+hatten.<note>Vgl. etwa die Instruktion zur Durchführung der Anfrage bei den Gemeinden der Landschaft betreffend Badener Disputation,
+<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3569728">StAZH A 95.1, Nr. 8.3</ref></bibl>.</note> Eine weitere
+Gelegenheit stellten die jährlich stattfindenden Eidleistungen auf der Landschaft dar, wo analog zu den Schwörtagen der Stadtgemeinde im
+Anschluss an den Eid eine Zusammenstellung besonders wichtiger Verbote und Ordnungen verlesen wurde.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_169">SSRQ ZH NF I/1/3, Nr. 169</ref></bibl>.</note> Wichtige Hinweise für die Umstände solcher
+Bekanntmachungen in den Landgemeinden liegen für die ab dem 16., in grösserer Zahl dann ab dem 17. Jahrhundert gedruckten Mandate
+vor.<note>Vgl. Einleitung zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11">SSRQ ZH NF I/1/11</ref></bibl>.</note></p>
+<p>Die in der vorliegenden Einheit edierten Rechtstexte verweisen noch auf weitere solche <quote>okkasionellen
+Öffentlichkeiten</quote>,<note>Zu diesem Begriff vgl. <bibl><ref target="/startseite/literaturverzeichnis">Monnet 2011</ref>, S.
+342</bibl>.</note> die an bestimmte Orte und Zeiten gebunden waren: So sind an den für die beiden städtischen Jahrmärkte an Pfingsten und am
+Tag der Stadtpatrone Felix und Regula erlassenen Ordnungen für den Verkauf von Textilien noch die Einstichlöcher zu erkennen, die auf einen
+Aushang der Stücke an einem öffentlichen Ort, vermutlich im Kaufhaus, hindeuten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_069"
+>SSRQ ZH NF I/1/3, Nr. 69</ref></bibl>.</note> Eine Verlesung auf dem Fischmarkt in nächster Nähe zum Rathaus erfuhren die Todesurteile; an
+diesem Ort befand sich auch das sogenannte Halseisen, der städtische Pranger.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_100"
+>SSRQ ZH NF I/1/3, Nr. 100</ref></bibl>.</note></p>
+<head type="title" n="4">Schriftlichkeit</head>
+<p>Der oben zitierte Entwurf zur Stadtrechtssammlung von 1515-1518 verweist auf das Element der Schriftlichkeit, das die Grundlage bildete
+für die jeweils okkasionell gebildeten Öffentlichkeiten, in denen die Rechtsordnungen ihre Wirkung erst entfalteten. So werden die
+Mitglieder der mit der Rechtssammlung betrauten Kommission beauftragt, die wichtigsten Rechtstexte aus alten und neuen <orig>bu̍chern</orig>
+zusammen zu suchen und in diese in geordneter Weise (<orig>ordenlich</orig>) im geplanten neuen Satzungsbuch zu versammeln. Das hier in
+Bezug auf die Weise der Verschriftlichung hervorgehobene Element der Ordnung setzt die Vorrede dabei in Bezug zur bisherigen Situation, in
+welchem das städtische Recht <orig>unordenlich</orig> und <orig>zum teil veraltet</orig> gewesen sei.</p>
+<p>Im Zeitraum der vorliegenden Editionseinheit fanden bedeutende Veränderungen statt, was die Verschriftlichung und Sammlung von
+Rechtstexten angeht. Bereits um das Jahr 1300 entstand der Richtebrief der Stadt Zürich als früheste umfassende städtische
+Rechtsammlung.<note><bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref></bibl>.</note> Die dortigen Bestimmungen
+richten sich in erster Linie an die Bürger der Stadt, schlossen aber auch die sich in Zürich aufhaltenden Auswärtigen ein.<note>Vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref
+target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_XI">S. XI</ref></bibl>.</note> Seit der Entstehung des Richtebriefs
+kann, wie in anderen Städten des deutschen Südwestens auch, ein Zuwachs an pragmatischer Schriftlichkeit festgestellt werden.<note>Zum
+Begriff der pragmatischen Schriftlichkeit vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hugener 2014</ref>, S. 9</bibl>.</note>
+1314 kam zum Richtebrief eine weitere Form der Verschriftlichung von Recht hinzu, nämlich die Stadtbücher, die zeitgenössisch als Sammlung
+von einzeln gefalteten und ineinander gelegten Blättern aus Papier aufbewahrt und um das Jahr 1640 zu fünf Bänden zusammengebunden
+wurden.<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=243957">StAZH B II 1 - B II 5</ref></bibl>, Edition:
+<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref></bibl>.</note> Sie enthalten Ordnungen und Gerichtsurteile
+von Kleinem und Grossem Rat zu den verschiedensten Rechtsbereichen sowie eine Anzahl von Eiden, die teilweise in späteren Fassungen
+vorliegend ediert wurden.<note>Vgl. etwa den Eid des Bürgermeisters, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_028">SSRQ ZH NF
+I/1/3, Nr. 28</ref></bibl>.</note> Parallel zu den Stadtbüchern entwickelten sich ab dem Brunschen Umsturz des Jahres 1336 die Geschworenen
+Briefe.<note>Zu Brun und dem Ersten Geschworenen Brief vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S.
+366-367</bibl>.</note> Diese wurden ergänzt durch die ebenfalls in diesem Jahr erstmals erlassenen Zunftbriefe, welche die Rechte der
+einzelnen Zünfte in gewerblichen Fragen und ihr Verhältnis zueinander, aber beispielsweise auch die Mitwirkung beim Begräbnis verstorbener
+Zunftbrüder regelten.<note>Für die Neufassung der Zunftbriefe im Jahr 1490 vgl. die Urkunde der Konstaffel, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>.</note> Die Urteile des Ratsgerichts sind seit dem Jahr
+1375 überliefert und wurden in sogenannten Richtbüchern verschriftlicht, die jeweils die Gerichtstätigkeit eines halben Jahres umfassten.
+Ihre heutige Form als Rats- und Richtbücher erhielten sie erst im frühen 18. Jahrhundert, als sie mit weiteren seriellen Quellen wie den
+Eingewinnerverzeichnissen, die über Schuldbetreibungen Auskunft geben, zusammengebunden wurden.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S. 57</bibl>.</note></p>
+<p>Bereits am Ende der 1420er und zu Beginn der 1430er Jahre ist eine Professionalisierung der städtischen Kanzlei zu beobachten, die
+wesentlich mit der Person von Stadtschreiber Michael Stebler, genannt Graf, verbunden war. Sie ging mit einer deutlichen Zunahme des
+Verwaltungsschriftguts sowie einer Reorganisation des städtischen Archivs einher.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Sieber 2007</ref>, S. 8-13</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schweizer
+1894</ref>, S. 15-17</bibl>.</note> In die Amtszeit von Stebler fiel die Anlegung des sogenannten Roten Buchs, einem zweibändigen Kopialwerk
+aus Pergament, das die Abschriften von 220 Urkunden enthält, darunter auch die wichtigsten, der Stadt verliehenen Privilegien. Unter anderem
+entstanden während dieses Zeitraums auch zwei neue Stadtbücher für die Beschlüsse des Grossen und Kleinen Rats,<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=243963">StAZH B II 5</ref></bibl>; <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928742">StAZH B II 4, Teil II</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3</bibl>.</note> ein Lehensbuch,<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=318330">StAZH F I 50</ref></bibl>.</note> ein Verrufbuch,<note>Verzeichnis der
+ausgesprochenen Verbannungen, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263979">StAZH B VI 279
+a</ref></bibl>.</note> ein neues Bürgerbuch,<note><bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=444625">StArZH
+III.A.1.</ref></bibl></note> das auf dem bisherigen, 1351 angelegten Bürgerbuch basierte, sowie eine Ordnung zur Fixierung der
+Kanzleigebühren für die Ausstellung von Urkunden.<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928745">StAZH
+B II 4, Teil II, fol. 8r</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S.
+148-149, Nr. 32</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2007</ref>, S. 11-12</bibl>.</note> Auch die zur
+Protokollierung letztwilliger Verfügungen angelegten Gemächtbücher setzen 1428 mit dem Amtsantritt Steblers nach einer Unterbrechung seit
+1408 wieder ein (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263256">StAZH B VI 304 - B VI
+331</ref></bibl>).</p>
+<p>Verschiedene der im Zeitraum der vorliegenden Editionseinheit stattgefundenen Veränderungen im Bereich der Verwaltungsschriftlichkeit
+knüpfen an Steblers Arbeiten an. Unterbrochen wurde die damals begonnene Entwicklung durch die Verwerfungen des Alten Zürichkriegs, dessen
+Auswirkungen sich auch in einem Rückgang der Stadtbevölkerung und des Gesamtsteuervermögens nachweisen lassen.<note>Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 355-356</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Schlüer 1978</ref>, S. 39-47</bibl>.</note></p>
+<p>Eine herausgehobene Bedeutung erlangte dabei in der zweiten Hälfte des 15. Jahrhunderts die Kanzleitätigkeit insbesondere auch für die
+Verwaltung der Landschaft. In diesem Bereich lassen sich ab den 1470er und 1480er Jahren wichtige Impulse erkennen: In die Zeit von
+Stadtschreiber Konrad von Cham fällt der Erlass eines Lehensmandats, das die Ordnung der komplexen Lehensverhältnisse im Herrschaftsgebiet
+der Stadt zum Ziel hatte.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_010">SSRQ ZH NF I/1/3, Nr. 10</ref></bibl>.</note> 1487
+verpflichtete der Rat die Inhaber von Gerichtsherrschaften dazu, ihre Rechte in der Stadt verschriftlichen und vom Rat bestätigen zu
+lassen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_023">SSRQ ZH NF I/1/3, Nr. 23</ref></bibl>.</note> Damit zusammenhängend
+wurde 1482 erstmals die Anlegung eines umfangreichen Urbars an die Hand genommen, in dem die Einkünfte und Rechte der Stadt auf der
+Landschaft verzeichnet waren.<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=290206">StAZH F II a
+272</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 41</bibl>.</note> An den erwähnten
+Stücken lässt sich ein Prozess festmachen, im Laufe dessen die städtische Kanzlei zur Verwaltung der Landschaft eigene Praktiken des
+Verschriftlichens, Sammelns und Ordnens von Rechtsverhältnissen entwickelte, während man sich zuvor im Wesentlichen auf das von den
+Habsburgern übernommene Schriftgut gestützt hatte.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S.
+41-42</bibl>; allgemein zur Verschriftlichung von Herrschaftsrechten und der Entwicklung städtischer Kanzleipraktiken während des
+Spätmittelalters vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2007</ref>, S. 278-304</bibl>.</note> Im
+innerstädtischen Bereich legte Stadtschreiber Ludwig Ammann ab dem Jahr 1484 die Ratsmanuale an. Im Vergleich zu den anderen eidgenössischen
+Städten Luzern (ab 1409/1416) und Bern (1465) setzt in Zürich die Überlieferung von Ratsprotokollen damit vergleichsweise spät
+ein.<note>Dabei ist aber nicht ausgeschlossen, dass bereits zu einem früheren Zeitpunkt angelegte Protokolle, etwa von der Hand Michael
+Steblers, später verloren gegangen sind. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wanner 2007</ref>, S.
+367-368</bibl>.</note> Die Ratsmanuale dokumentieren, geordnet nach der Abfolge von Natal- und Baptistalrat, die Beschlüsse und Beratungen
+des Kleinen und Grossen Rates und liegen durchgehend bis 1798 vor (mit einer Lücke zwischen 1516 und 1545). Hinsichtlich der Organisation
+der Kanzlei entstand auf der Grundlage der unter Stebler erarbeiteten Tarifliste für die Ausstellung von Urkunden im Jahr 1515 eine
+Stadtschreiberordnung.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_096">SSRQ ZH NF I/1/3, Nr. 96</ref></bibl>.</note>
+Untermittelbarer Auslöser dafür war der Amtsantritt von Stadtschreiber Kaspar Frey und Unterschreiber Joachim von Grüth. Vermutlich bereits
+vom Ende des 15. Jahrhundert datiert ein Eid für die beiden Schreiber, welcher die mit ihrem Amt verbundenen Pflichten
+regelt.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_095">SSRQ ZH NF I/1/3, Nr. 95</ref></bibl>.</note> Das gedruckte Gültmandat
+vom 9. Oktober 1529 bildete schliesslich den Anlass für eine erste ausführliche Regelung der Schreiberdienste auf der Landschaft,
+einschliesslich Ernennung geschworener Schreiber und Definition ihrer Zuständigkeitsgebiete.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_147">SSRQ ZH NF I/1/3, Nr. 147</ref></bibl>.</note> Eine detailliertere Landschreiberordnung, die
+analog zur Stadtschreiberordnung die Tarife für die Ausführung verschiedener Amtsgeschäfte regelte, erliess der Rat Mitte des 16.
+Jahrhunderts, wobei eine zunächst nur für die Landvogtei Kyburg geltende Ordnung auf das gesamte Herrschaftsgebiet ausgeweitet
+wurde.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_177">SSRQ ZH NF I/1/3, Nr. 177</ref></bibl>.</note></p>
+<p>Vor der Verabschiedung des Vierten Geschworenen Briefes bestanden die zentralen städtischen Rechtssammlungen im Richtebrief, den
+Stadtbüchern, den Zunfturkunden sowie den Rats- und Richtbüchern. Dass diese als die wichtigsten Zürcher Rechtsdokumente angesehen wurden,
+lässt sich daran ablesen, dass man die Gültigkeit dieser Texte im Jahr 1433 durch Kaiser Sigismund in Rom bestätigen liess.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434138">StAZH C I, Nr. 90</ref></bibl>.</note> Als sich Zürich rund 90 Jahre
+später bei Karl V. erneut um eine Privilegienbestätigung bemühte, nahm man den Text von 1433 als Grundlage. In der überarbeiteten Version,
+die der Kaiser bestätigte, fehlt jedoch der Verweis auf den Richtebrief, stattdessen wird auf den Geschworenen Brief
+verwiesen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_115">SSRQ ZH NF I/1/3, Nr. 115</ref></bibl>.</note> Offenbar hatte sich
+zwischen den beiden Privilegienbestätigungen die Wahrnehmung hinsichtlich der wichtigsten Rechtskodifikationen der Stadt verändert. Ein
+bedeutender Schritt in diese Richtung vollzog sich im Jahr 1489 nach Beendigung der als Waldmannhandel bezeichneten Unruhen. Bei der
+Ausarbeitung des Vierten Geschworenen Briefs fertigte der damalige Unterschreiber Johannes Gross neben der (heute verlorenen)
+Pergamenturkunde auch eine Abschrift in einem Heft aus Papier an.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF
+I/1/3, Nr. 27</ref></bibl>.</note> Im Anschluss an diese Abschrift wurden sodann zeitnah verschiedene zentrale, teilweise aus den
+Stadtbüchern übernommene und überarbeitete Eide und Satzungen notiert und bis zum Jahr 1491 weiter ergänzt.<note>Vgl. exemplarisch den Eid
+der Bürgergemeinde, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.</note> Die Einträge
+betreffen unter anderem das Verhältnis zwischen Grossem und Kleinem Rat, bürgerrechtliche Fragen, verfahrensrechtliche Aspekte des
+Gerichtswesens sowie die Aburteilung von Straftaten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_030">SSRQ ZH NF I/1/3, Nr.
+30</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_031">SSRQ ZH NF I/1/3, Nr. 31</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_032">SSRQ ZH NF I/1/3, Nr. 32</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_033"
+>SSRQ ZH NF I/1/3, Nr. 33</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_034">SSRQ ZH NF I/1/3, Nr. 34</ref></bibl>.</note>
+Darüber hinaus beschlossen Bürgermeister, Räte und Gemeinde, die Zunfturkunden neu auszustellen, was im Jahr 1490 geschah.<note>Vgl. dazu
+die Urkunde der Konstaffel, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>.</note> Somit fand
+in den Jahren 1489-1490 über die Neuredaktion des Geschworenen Briefs hinaus eine Sammlung und Verschriftlichung des geltenden Stadtrechts
+statt.<note>Für eine Einordnung dieses Vorgangs vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S.
+129-130</bibl>.</note> Dasselbe Vorgehen wurde anlässlich der Verabschiedung des Fünften Geschworenen Briefs gewählt, wobei der auf dessen
+Abschrift folgende Anhang bedeutend umfangreicher ist und im Unterschied zu 1489 auch Bestimmungen privatrechtlichen Inhalts
+enthält.<note>Vgl. exemplarisch die Verordnung betreffend Vorrang von Frauen in Konkursen, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_063">SSRQ ZH NF I/1/3, Nr. 63</ref></bibl>.</note> Der Anhang wurde zudem bis in die 1520er Jahre
+weiter ergänzt. Damit war das Beispiel gegeben für die Satzungsbücher des 16. und 17. Jahrhunderts, die sich in ihrem Aufbau grundsätzlich
+an den beiden Kodifikationen von 1489 und 1498 orientierten, insofern sie neben einer Abschrift des Geschworenen Briefs die wichtigsten Eide
+der Stadtbürgerschaft und ihrer Amtsträger sowie Ordnungen verschiedenen Inhalts enthielten. Das bereits erwähnte Satzungsbuch von 1515-1518
+vollzog dabei eine deutliche quantitative Steigerung in Bezug auf die Anzahl der darin versammelten Ordnungen. Weit über seine Vorgänger
+hinausgehend, bezog es auch Abschriften der Zunfturkunden sowie ältere und neuere Ordnungen mit ein, wobei sich die Redakteure neben den
+Stadtbüchern auch auf in Form von Akten vorliegendes Schriftgut sowie in einem Fall auf den Richtebrief stützten.<note>Vgl. dazu die Ordnung
+für die Prozession auf den Lindenhof, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_081">SSRQ ZH NF I/1/3, Nr. 81</ref></bibl>.</note>
+Neben der im Entwurf erhaltenen, programmatischen Vorrede haben sich stichwortartige Überlegungen zur Anlage der Stadtrechtssammlung von der
+Hand von Unterschreiber Joachim vom Grüth erhalten, der die Redaktion des Buches massgeblich vorantrieb.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4250859">StAZH B III 2, S. 378-381</ref></bibl>.</note> Im Unterschied zu
+weiteren, im selben Zeitraum geschaffenen Rechtskodifikationen anderer Reichsstädte wie Nürnberg und Freiburg im Breisgau unternahmen die
+Verfasser des Satzungsbuchs von 1515-1518 jedoch keinen Versuch, das städtische Statutenrecht mit dem römischen Recht zu
+verbinden.<note>Vgl. zur rechtshistorischen Dimension <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S.
+138-141</bibl>; allgemein zu spätmittelalterlichen Stadtrechtssammlungen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann
+2001</ref>, S. 80-94</bibl>.</note></p>
+<p>Die Tendenz zu einer quantitativen Ausweitung setzt sich in dem durch Stadtschreiber Werner Beyel um das Jahr 1540 zusammengestellten
+sogenannten Schwarzen Buch fort, das ansonsten aber im Wesentlichen der Konzeption des Satzungsbuches von 1515-1518 folgt.<note>Zur
+Entstehung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sigg 2014</ref></bibl>.</note> Die im Rahmen der vorliegenden Edition
+unternommenen Variantenvergleiche der mehrfach überlieferten Eide zeigen dabei, dass sich Beyel, wenn ihm mehrere Versionen zur Verfügung
+standen, bevorzugt am Anhang des Geschworenen Briefes von 1498 orientierte.<note>Vgl. exemplarisch den Eid der neuen Mitglieder des Grossen
+Rats, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_035">SSRQ ZH NF I/1/3, Nr. 35</ref></bibl>.</note></p>
+<p>Neben der Herausbildung der Anhänge der Geschworenen Briefe als Orte der Rechtskodifikation und der damit zusammenhängenden Entstehung
+der erwähnten Satzungsbücher sind im Zeitraum der vorliegenden Editionseinheit auch Veränderungen im Bereich der gerichtlichen
+Schriftlichkeit auszumachen. Dies betrifft zunächst die Rats- und Richtbücher: Während diese seit dem letzten Viertel des 14. Jahrhundert
+einem weitgehend einheitlichen Format folgten, indem die Schreiber sämtliche vor dem Ratsgericht getätigten Klagen und Zeugenaussagen auf
+der Grundlage von Konzepten sorgfältig ins Reine schrieben, vollzog sich im Jahr 1489 eine deutliche Transformation. Diese stand in
+Zusammenhang mit der zu diesem Zeitpunkt vollzogenen Neuordnung des Klageverfahrens.<note><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_037">SSRQ ZH NF I/1/3, Nr. 37</ref></bibl>.</note> Fortan stand es im Ermessen des Kleinen Rats,
+Zeugenaussagen entweder wie bisher einholen und niederschreiben zu lassen oder aber nur noch mündlich direkt während der Verhandlung
+anzuhören. Zudem ist zu beobachten, dass die Prozesse ab diesem Zeitpunkt zunehmend in Form von losen Akten verschriftlicht
+wurden.<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S. 60-63</bibl>.</note> Somit sind die Unterlagen
+zu gerichtlichen Untersuchungen ab 1489 und besonders im 16. Jahrhundert zunehmend in Aktenbeständen zu suchen, während sich die
+abschliessenden Urteile nach wie vor in den Rats- und Richtbüchern finden.<note>Für diese Situation vgl. exemplarisch den Hexenprozess gegen
+Verena Diener, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_123">SSRQ ZH NF I/1/3, Nr. 123</ref></bibl>.</note> Insbesondere im
+Zeitraum zwischen 1516 und 1545, in dem die Ratsmanuale nicht (mehr?) vorliegen, sind wichtige Beschlüsse zunehmend in den Rats- und
+Richtbüchern verschriftlicht.<note>Vgl. exemplarisch die Regelung der Schreiberdienste, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_147">SSRQ ZH NF I/1/3, Nr. 147</ref></bibl>; zur Frage, ob es sich bei der Lücke in den Ratsmanualen
+um einen nachträglichen Verlust oder um einen durch den Amtsantritt von Stadtschreiber Kaspar Frey und Unterschreiber Joachim vom Grüth
+bedingten Wechsel in der Kanzleipraxis handelt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S.
+165-169</bibl>.</note></p>
+<p>Speziell für den Zuständigkeitsbereich des Stadtgerichts<note>Vgl. oben, Abschnitt 2: Akteure.</note> begann zudem Stadtschreiber
+Wolfgang Mangold Ende der 1520er Jahre mit der Konzeption eines Gerichtsbuches.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254374">StAZH B III 53</ref></bibl>; zur Entstehung vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 7</bibl>.</note> Dieses enthält auch Eide und Ordnungen der wichtigsten
+Gerichtsbeamten.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_135">SSRQ ZH NF I/1/3, Nr. 135</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_136">SSRQ ZH NF I/1/3, Nr. 136</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_137"
+>SSRQ ZH NF I/1/3, Nr. 137</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_138">SSRQ ZH NF I/1/3, Nr.
+138</ref></bibl>.</note> Das zum Zeitpunkt des Tods von Mangold noch weitgehend den Charakter eines Entwurfs aufweisende Gerichtsbuch wurde
+später in mehreren Redaktionen überarbeitet und erweitert.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254375">StAZH B III 54</ref></bibl>; <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254377">StAZH B III 56</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Schauberg, Gerichtsbuch</ref></bibl>.</note></p>
+<p>Zusammenfassend lässt sich festhalten, dass sich im Zeitraum der vorliegenden Editionseinheit zwei Zeiträume der intensivierten
+Verschriftlichung von Rechtsverhältnissen festmachen lassen, die auch mit Änderungen in der Arbeitsweise der städtischen Kanzlei verbunden
+waren: zwischen 1480 und 1490 und dann wieder zwischen 1510 und 1540.<note>Für eine ähnliche Periodisierung vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 41</bibl>.</note></p>
+<p>Lediglich angedeutet werden kann an dieser Stelle die Entwicklung der eigenen Schriftlichkeit von Fraumünster und Grossmünster. Beide
+verfügten über bedeutende Archive, deren Urkunden heute grösstenteils im Staatsarchiv aufbewahrt werden.<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=255355">StAZH C II 1</ref></bibl>; <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273623">StAZH C II 2</ref></bibl>.</note> Die vorliegende Editionseinheit
+umfasst mit dem durch Papst Sixtus IV. erteilten Privileg betreffend die Chorherrenstellen des Grossmünsters, der Ernennungsurkunde von
+Huldrych Zwingli als Chorherr sowie dem von Bischof Hermann von Landenberg gefällten Urteil betreffend die Einsetzung des Amtmannes des
+Fraumünsters drei Urkunden aus diesen Beständen.<note><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_008">SSRQ ZH NF I/1/3, Nr.
+8</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_012">SSRQ ZH NF I/1/3, Nr. 12</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_114">SSRQ ZH NF I/1/3, Nr. 114</ref></bibl>; weitere Stücke stammen aus den Aktenbeständen des
+Grossmünsters, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_020">SSRQ ZH NF I/1/3, Nr. 20</ref></bibl>; <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_149">SSRQ ZH NF I/1/3, Nr. 149</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_152"
+>SSRQ ZH NF I/1/3, Nr. 152</ref></bibl>.</note> Insbesondere das Grossmünster verfügte über eine hochstehende, der Erfassung der eigenen
+Herrschaftsrechte und Einkünfte dienende Verwaltungsschriftlichkeit, die der städtischen Kanzlei in vielerlei Hinsicht voraus war.<note>Vgl.
+dazu vor allem das in lateinischer Sprache gehaltene Grosse Stiftsurbar, das Mitte des 14. Jahrhunderts begonnen wurde, <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317288">StAZH G I 96</ref></bibl>.</note> Für das Fraumünster fertigte Chorherr
+Johannes Häring im Jahr 1481 ein umfassendes Urbar mit Urkundenabschriften der Abtei seit dem Jahr 853 an.<note><bibl><ref
+target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=339607">StArZH III.B.1.</ref></bibl></note> Der Zugang zum Urkundenarchiv des
+Fraumünsters wurde im Jahr 1470 in dem erwähnten Urteil des Bischofs von Konstanz zwischen der Äbtissin, dem Kapitel sowie dem Rat von
+Zürich aufgeteilt.</p>
+<p>Hinsichtlich der zeitgenössischen Aufbewahrungsorte der in der vorliegenden Einheit versammelten Stücke ist eine Aufteilung des
+städtischen Archivs auf verschiedene Standorte festzustellen – was im Übrigen bis zum Ende des Ancien Régime der Fall bleiben sollte. So
+befanden sich die Pergamenturkunden mit den wichtigsten Privilegien und Bündnissen der Stadt (die heutige Archivabteilung <q>Stadt und
+Landschaft Zürich</q>, <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=236361">StAZH C I</ref></bibl>) in der
+sogenannten oberen Sakristei des Grossmünsters. Der Archivraum in der Sakristei wurde 1502/03 umfassend renoviert. Zwei der Archivschränke,
+in denen die Urkunden aufbewahrt wurden, haben sich bis heute erhalten und sind in die Bestände des Schweizerischen Landesmuseums
+übergegangen. Sie sind um 1480 sowie um 1500 entstanden.<note>Zum Urkundenarchiv in der Oberen Sakristei und seiner Ausstattung vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Sieber 2010a</ref>, S. 50-58</bibl>.</note> Andere Bestände wie Papierakten,
+Korrespondenzen, Urbare, aber auch die Rats- und Richtbücher, lagerten in mehreren Räumen des Ratshauses, darunter auch in der Ratsstube,
+sowie auf der Stadtschreiberei.<note><bibl><ref target="/startseite/literaturverzeichnis">Sieber 2010a</ref>, S. 50-58</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S. 57-59</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Schweizer 1894</ref>, S. 8</bibl>.</note> Eigentliche Archivinventare setzen erst ganz am Ende der vorliegenden Editionseinheit ein:
+Stadtschreiber Hans Escher vom Luchs fertigte im Jahr 1555 ein Verzeichnis sämtlicher in der oberen Sakriste befindlichen Urkunden an,
+basierend auf der durch die Trucken (Schubladen) der Archivschränke vorgegebenen Ordnung. In diesem Zusammenhang versah er alle Urkunden mit
+einer kurzen Inhaltsangabe auf der Rückseite<note>Vgl. exemplarisch die Privilegienbestätigung Karls V., <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_115">SSRQ ZH NF I/1/3, Nr. 115</ref></bibl>.</note> und legte eine Serie von Kopialbüchern an, die
+den Erwerb der Landschaft betreffen. Spätere umfassendere Archivverzeichnisse, die auch die Aktenbestände einschliessen, fallen ins 17. und
+18. Jahrhundert und sind mit dem Wirken von Johann Heinrich Waser und Johannes Rahn verbunden. Die von Wasers Index Generalis und Rahns
+Weissem Register herrührenden Dorsualregesten finden sich auf verschiedenen der edierten Texte.<note>Waser: <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_152">SSRQ ZH NF I/1/3, Nr. 152</ref></bibl>; Rahn: <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_017">SSRQ ZH NF I/1/3, Nr. 17</ref></bibl>.</note> Auf diese Weise lassen sich an den vorliegend
+edierten Stücken über den Zeitraum ihrer Entstehung hinaus Schlüsse zu ihrer Benutzung und damit auch zur Zürcher Archivgeschichte
+ziehen.</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

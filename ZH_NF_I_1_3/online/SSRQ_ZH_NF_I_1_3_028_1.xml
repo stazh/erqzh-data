@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_028_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3731327">StAZH A 43.1.2, Nr. 2, S. 20</idno></msIdentifier><head>Eid des Bürgermeisters der Stadt Zürich</head><msContents><summary>Der Bürgermeister soll schwören, die Ehre des Reichs, den Nutzen und die Ehre der Stadt, die Ehre der Klöster und der Landschaft zu fördern und Stadt und Zünfte vor Schaden zu schützen und darin sein Bestes zu tun, ein gerechter und unbestechlicher Richter für alle zu sein und sein Amtsgeheimnis zu wahren. Insbesondere soll er auch die Zünfte schützen und ihre Rechte wahren, wie sie in den Zunftbriefen verbürgt sind.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1489-05-25">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000133">Bürgermeister</term><term ref="key000179">Eid</term><term ref="key000364">Rat</term><term>Zünfte</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="20" facs="StAZH_A_43_1_2__Nr__2__S__20_.tif"/>
+<head><lb/>Des burgermeisters eyd, den <lb/>er im <placeName ref="loc007562">Mu̍nster</placeName> sweren sol</head>
+<p>
+<seg><lb/>Ir, herr burgermeister, soͤllen schweren, <note>In Schwarzen Buch wurde an dieser Stelle von späterer Hand <orig>gotts</orig> eingefügt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1914252">StAZH B III 4, fol. 18r</ref></bibl>).</note> des heilgen <orgName ref="org005050">richs</orgName> ere, der stat
+<lb/>nutz und ere, <app><lem>der gotzhu̍sern</lem><rdg wit="StAZH B III 4, fol. 18r; StAZH B III 5, fol. 32r">der heyl<lb break="no"/>igen, cristennlichen kilchen</rdg></app> ere, des lands ere, raͧtend und frommend
+<lb/>zuͦ sin und gemein stat, <app><lem><del hand="later hand">ouch die <orgName ref="org005085">zu̍nfft</orgName></del></lem><rdg wit="StAZH B III 2, S. 320; StAZH B III 6, fol. 21v; StAZH B III 4, fol. 18r; StAZH B III 5, fol. 32r"/></app> zeverhuͤten und ze vergoͧmen,
+<lb/>darinn u̍wer bests und waͤgsts zuͦ tuͦnd, als verr ir mogen, und zuͦ
+<lb/>richten, was fu̍r u̍ch kombt, dem armmen als dem richen und dem
+<lb/>richen als dem armmen, niemand zuͦ lieb noch zuͦ leyd, und darumb
+<lb/>kein myet zuͦ nemmend und zuͦverschwigent, davon schad oder
+<lb/>gebreͣst komen mag, es werde verpotten oder nit, oͧn alle gefaͤrd.</seg>
+<seg><lb/><add place="left margin" hand="later hand">Der allt eyd</add>
+<app><lem><del hand="later hand">Und besunder die <orgName ref="org005085">zu̍nfft</orgName> gemeinlich und jede besonder zuͦ bschirmmen
+<lb/>und bliben zuͦlaͧsen bi iren gereͣchtikeiten, guͦten gewonheiten
+<lb/>und alten harkomnen naͧch sag und wisung der briefen,<note>Zu den Zunftbriefen vgl. die Urkunde der <orgName ref="org004958">Konstaffel</orgName>
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_049">SSRQ ZH NF I/1/3, Nr. 49</ref></bibl>).</note> so
+<lb/>des jede zunfft, mit unser gemeynen statt grosem insigel ver<lb break="no"/>sigelt, uffgericht worden ist.</del></lem><rdg wit="StAZH B III 2, S. 320; StAZH B III 6, fol. 21v; StAZH B III 4, fol. 18r; StAZH B III 5, fol. 32r"/></app></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Eid geht auf die 1430er Jahre zurück (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928757">StAZH B II 4, Teil II, fol. 8v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 150, Nr. 36</bibl>). Er wurde im Anschluss an den Vierten Geschworenen Brief des Jahres 1489 überarbeitet und neu verschriftlicht. Gegenüber dem älteren Eid ist die vorliegende Fassung um Formulierungen betreffend die Wahrung der Zunftrechte erweitert. Der Grund dafür liegt im kurz zuvor stattgefundenen Sturz des Bürgermeisters <persName ref="per000814">Hans Waldmann</persName>, dem seine Gegner die Schmälerung verbürgter Rechte vorwarfen (vgl. dazu <bibl><ref target="/startseite/literaturverzeichnis">Illi 2003</ref>, S. 49-50</bibl> sowie die durch <persName ref="per000814">Waldmann</persName> verfasste Ordnung betreffend Eid und Amtspflichten der obersten Zunftmeister,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_016">SSRQ ZH NF I/1/3, Nr. 16</ref></bibl>). Die Zusätze, welche die Rechte der <orgName ref="org005085">Zünfte</orgName> zum Inhalt hatten, wurden indes in den nachfolgenden Redaktionen wieder aus dem Eid des Bürgermeisters gestrichen und dieser blieb im Wesentlichen die ganze Frühe Neuzeit hindurch unverändert. Die wichtigste Modifikation erfuhr der Eid im 16. Jahrhundert durch die Streichung der Erwähnung der Klöster.</p>
+<p>Zum Ablauf der halbjährlichen Eidleistung im <placeName ref="loc007562">Grossmünster</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl> sowie
+<bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 20-26</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

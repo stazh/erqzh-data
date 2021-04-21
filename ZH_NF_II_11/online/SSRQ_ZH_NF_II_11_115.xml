@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_115</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1124716">StAZH G I 6, Nr. 97, fol. 25r-33v</idno></msIdentifier><head>Protokoll des Höngger Maiengerichts, gehalten auf dem Meierhof in Höngg</head><msContents><summary>Nach der Predigt werden zwei Tische im Meierhof aufgestellt und die grossen Glocken geläutet, damit alle volljährigen Männer versammeln. Nach einleitenden Worten des Stiftsverwalters bannt der Hofmeier das Gericht. Der Weibel ruft jeden Hausvater mit Namen auf, die Abwesenden werden schriftlich festgehalten.  Es folgt das Verlesen der Stiftsoffnung durch den Stiftsschreiber Waser, und die Menge wird befragt, ob die Offnung noch wie von alters her eingehalten werde. Darauf übergibt der Hofmeier dem amtierenden Obervogt Horner den Stab und dem Stiftsverwalter den Hof zu Handen des Stifts.  Nach erfolgter Umfrage, ob der Hofmeier das Gericht gebührend abhalte, die Güter in gutem Zustand halte und dem Meierhof korrekt vorstehe, wird ihm der Stab erneut übergeben und der Hof für ein Jahr verliehen. Auch der Weibel bzw. Förster wird nach einer Umfrage wieder im Amt bestätigt.  Danach liest Heinrich Ulinger, der Höngger Schreiber, die neue bestätigte Höngger Gemeindeoffnung vor. Da laut </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.5"/><width unit="cm" quantity="17.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1641-06-08"/></origin></history><additional><listBibl><head>Teiledition</head><bibl>Stutz, Rechtsquellen, Nr. 21 (nur fol. 27 über die neue bestätigte Höngger Gemeindeoffnung)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004175">Ausgaben</term><term ref="key000179">Eid</term><term ref="key000057">Gericht</term><term ref="key003037">Gerichtsverfahren</term><term ref="key000037">Meierhof</term><term ref="key000012">Offnung</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1"><!-- Was machen wir mit mehreren Marginalien pro Abschnitt? In einem <ab> am Anfang zusammenfassen? -->
+<div>
+<pb n="25r" facs="StAZH_G_I_6__Nr__97__fol__25_r_.tif"/>
+<head><lb/>Auff <origDate when="1641-06-08" calendar="Julian"><persName ref="per000813">Medardi</persName>, war zinstag den
+<lb/>8. junii 1641</origDate>, wurd das mei<lb break="no"/>engricht
+zuͦ <placeName ref="loc009768">Höngg</placeName> im meier<lb break="no"/>hoff
+formaliter wie vol<lb break="no"/>get
+gehalten worden.</head>
+<div><ab type="marginal note" place="left margin">Predig.</ab></div>
+<div><ab type="marginal note" place="left margin">Tischet.</ab></div>
+<div><ab type="marginal note" place="left margin">Grosgloggen.</ab></div>
+<div><ab type="marginal note" place="next page">Man setzt sich zuͦsammen.</ab></div>
+<p>
+<lb/>Benantlich, und für das erste, sind die
+<lb/>verordnete <abbr>hn</abbr>
+<choice><abbr>vͦ</abbr><expan>von</expan></choice> beiden stenden, als sy
+<lb/>noch <placeName ref="loc009768">Hongg</placeName> kommen, mit ein anderen in
+<lb/>die morgen predig gangen, und noch vol<lb break="no"/>endung
+der selbigen sich widerumb in den
+<lb/>meierhoff verfügt. Alda hatt man in dem
+<lb/>tänn <num value="2">2</num> lange tisch zuͦgerichtet, und noch
+<lb/>dem myn <abbr>hn</abbr> bysammen, hatt man mit der
+<lb/>grosen gloggen ein zeichen gelüttet, dar<lb break="no"/>über
+ist alles manbar volch im meier<pb n="25v" facs="StAZH_G_I_6__Nr__97__fol__25_v_.tif"/><lb break="no"/>hoff
+erschynnen, die <abbr>hn</abbr> beide obervögt
+<lb/>sammt dem verwalter und übrigen mynen
+<lb/><abbr>hn</abbr>
+<choice><abbr>vͦ</abbr><expan>von</expan></choice> der stifft habend sich zuͦ tisch gesetzt,
+<lb/>der undervogt, geschworne und fürgesetzte
+<lb/>richter zuͦ <placeName ref="loc009768">Höngg</placeName> sind nochgefolget.</p>
+<div><ab type="marginal note" place="left margin">Verwalter
+<lb/>proponirt.</ab></div>
+<p><lb/>Auff diss hatt der verwalter einen
+<lb/>kurtzen ingang und fürtrag an ein ehrsa<lb break="no"/>me
+gmeind gethan, namlich aus was ursach<lb break="no"/>en
+man verhanden, und diewyl es nhun mher
+<lb/>ein lange zeit, das die offnung nie abgelasen
+<lb/>worden, seige man söliches disser stund zethuͦn
+<lb/>gesinnet, sollend sich nhun beflysen, das sel<lb break="no"/>bigen
+nochgangen werde.</p><pb n="26r" facs="StAZH_G_I_6__Nr__97__fol__26_r_.tif"/>
+<div><ab type="marginal note" place="left margin">Gricht wirt
+<lb/>verbannet.</ab></div>
+<p><lb/>Demnach hatt der hoffmeier das
+<lb/>gricht verbannet und ein urtel lassen
+<lb/>erghan, ob es <time period="byDay">tags</time> gnug zerichten seige.</p>
+<div><ab type="marginal note" place="left margin">Was für das er<lb break="no"/>ste zuͦ handlen.</ab></div>
+<p><lb/>Darüber fragt der hoffmeier, was
+<lb/>nhun jetz das erste syn sölle.</p>
+<div><ab type="marginal note" place="left margin">Der ruͦff wirt
+<lb/>erkent.</ab></div>
+<p><lb/>Darauff ward von den richteren der
+<lb/>ruͦff erkënt, namlich das welcher <measure type="area" unit="Schuh" quantity="7">7 schuͦch</measure>
+<lb/>wyt und breit zuͦ <placeName ref="loc009768">Höngg</placeName> habe, das er da
+<lb/>erschyne und da seige, by <measure type="currency" unit="ß" quantity="3">3 </measure> auffgesetzter
+<lb/>buͦs.</p>
+<div><ab type="marginal note" place="left margin">Weibel rüfft.</ab></div>
+<p><lb/>Da stuͦnd der gmeind weibel in
+<lb/>das tänn, rüfft jedem hausvatter nach
+<lb/>dem anderen mit nammen, als wie man
+<lb/>pflegt zuͦ thuͦn, wan man der bursame
+<lb/>den winter holtz hauw aus theilet. Und
+<lb/>wurdend die abwessenden auff gezeichnet.</p><pb n="26v" facs="StAZH_G_I_6__Nr__97__fol__26_v_.tif"/>
+<div><ab type="marginal note" place="left margin">Die offnung
+<lb/>wirt abgläsen.</ab></div>
+<p><lb/>Noch dem nhun soliches beschächen,
+<lb/>wurd erkänt, das man den geding rodel
+<lb/>oder die offnung abläse.</p>
+<p><lb/>Disse offnung ist durch <abbr>hn</abbr> stifftschryber
+<lb/><persName ref="per025772">Waseren</persName> gantz verstentlich abgeläsen worden.</p>
+<div><ab type="marginal note" place="left margin">Offnung wirt
+<lb/>censiert.</ab></div>
+<p><lb/>Hierüber gieng aber ein umfrag und
+<lb/>urtel, ob die offnung noch stande und in<lb break="no"/>halte
+wie <choice><abbr>vͦ</abbr><expan>von</expan></choice> alten häro.</p>
+<div><ab type="marginal note" place="left margin">Hoffmeier gibt
+<lb/>den hoff auff.</ab></div>
+<p><lb/>Hierauff gab der hoffmeier den stab
+<lb/>von handen dem <abbr>hn</abbr> regierenden obervogt
+<lb/><persName ref="per025751">Horner</persName>, und gab den hoff auff dem ver<lb break="no"/>walter
+zuͦ handen der <orgName ref="org004352">stifft</orgName>.</p>
+<div><ab type="marginal note" place="left margin">Hoffmeier wirt
+<lb/>censiert.</ab></div>
+<p><lb/>Dazuͦ malen wurd umb den hoffmeier<pb n="27r" facs="StAZH_G_I_6__Nr__97__fol__27_r_.tif"/>
+<lb/>synes thuns und lassens ein umbfrag gehalten,
+<lb/>benantlich ob er das gricht rächt und ge<lb break="no"/>bürender
+massen verwalte, die gütter in
+<lb/>guttem ehr und buw halte und hiemit
+<lb/>also dissem hoff wol vorstande und nutz
+<lb/>seige oder nit. Das sollend sy mynen herren
+<lb/>anzeigen.</p>
+<div><ab type="marginal note" place="left margin">Hoffmeier wirt
+<lb/>wider angenommen.</ab></div>
+<p><lb/>Und diewyl er <add place="above">nit</add> nhun <choice><abbr>vͦ</abbr><expan>von</expan></choice> den richteren,
+<lb/>geschwornen und <choice><abbr>vͦ</abbr><expan>von</expan></choice> der baursame disses
+<lb/>alles guͦtte zügnus hatte, hatt imme der
+<lb/>verwalter den stab widerumb zuͦgestelt
+<lb/>und hatt man imme den meierhoff nebent
+<lb/>zuͦsprechen und glückwünschung wider uff
+<lb/><date dur="P1Y">ein jaar</date> lang vertrauwt und gelichen.</p>
+<div><ab type="marginal note" place="left margin">Weibel wirt
+<lb/>censirt.</ab></div>
+<p><lb/>De<subst><del>na</del><add place="overwritten">m</add></subst>nach ward ein umbfrag gehalten
+<lb/>umb <persName ref="per025749">Heinrich Grosman</persName>, den neüwen weibel<pb n="27v" facs="StAZH_G_I_6__Nr__97__fol__27_v_.tif"/>
+<lb/>und holtzvoster, und diewyl nhun der
+<lb/>selbige ebenmessig seines wandels und ver<lb break="no"/>haltens
+guͦtte zügnus hatte, ist er auch wider<lb break="no"/>umb 
+bestelt und bestettet worden, bis könfftigen
+<lb/><date type="deadline" when="--12-26">st <persName ref="per003068">Stephans</persName> tag</date>.</p>
+<div><ab type="marginal note" place="left margin">Neüwe offnung
+<lb/>wirt abgeläsen.
+<lb/>Der gmeind
+<lb/><choice><abbr>seckelmr</abbr><expan>seckelmeister</expan></choice> wirt
+<lb/>erwelt.</ab></div>
+<p><lb/>Noch dem disses vorüber, ist die neüw
+<lb/>gestelte und mynen <abbr>gn</abbr> herren bestelte <placeName ref="loc009768">Hongger</placeName>
+<lb/>gmeind offnung<note>Die Gemeindeordnung wurde offenbar 1640 erneuert; vgl. die Delegation von Ratsverordneten zur Prüfung der Ordnung vom 3. Juni 1640 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244687">StAZH B II 431</ref>, S. 68</bibl>) sowie den Auftrag zur Verlesung der verbesserten Offnung vom 5. Juni 1641 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244691">StAZH B II 435</ref>, S. 66</bibl>). Diese Ordnung scheint jedoch nicht überliefert zu sein (vgl. auch <bibl><ref target="/startseite/literaturvereichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_67">Nr. 21, S. 67</ref></bibl>).</note> durch den <abbr>hr</abbr>
+<persName ref="per025736">Heinrich Ulinger</persName>,
+<lb/>der <orgName ref="org007827">Honggeren</orgName> schryber, abgeläsen worden.
+<lb/>Und wyl nhun under anderen die selbe vermag,
+<lb/>das ein gmeind an statt eines dorffmeiers
+<lb/>fürohin einen stetten und bestendigen seckel<lb break="no"/>meister
+haben sölle, also ist grad in puncto
+<lb/>einen zuͦ erwellen <choice><abbr>vͦ</abbr><expan>von</expan></choice> der gantzen gmeind <choice><abbr>vͦ</abbr><expan>von</expan></choice> den
+<lb/><abbr>hn</abbr> obervögten bevollen worden.</p><pb n="28r" facs="StAZH_G_I_6__Nr__97__fol__28_r_.tif"/>
+<p><lb/>Und sind benantlich darzuͦ ernammset worden
+<lb/>von den gmeindsgnossen:</p>
+<table>
+<row>
+<cell><persName ref="per025742">Felix Appenzeller</persName>, kilchmeier, der hatte</cell><cell><num value="26">26</num> händ</cell><!-- passt nicht in Tabelle, da über 2 Zeilen. Nur den Rest als Tabelle? Oder ganz anders? -->
+</row>
+<row>
+<cell><persName ref="per025763">Heinrich Nötzli</persName></cell><cell><num value="2">2</num> händ</cell>
+</row>
+<row>
+<cell><persName ref="per024945">Heinrich Notz</persName></cell><cell><num value="1">j</num></cell>
+</row>
+<row>
+<cell><persName ref="per025743">Görg Appenzeller</persName></cell><cell><num value="1">j</num></cell>
+</row>
+<row>
+<cell><persName ref="per025753">Ruͦdi Laubi</persName></cell><cell><num value="16">16</num></cell>
+</row>
+<row>
+<cell><persName ref="per025738">Hans Ruͦdi Wys</persName></cell><cell><num value="3">3</num></cell>
+</row>
+<row>
+<cell><persName ref="per025758">Hans Marti Nötzli</persName></cell><cell><num value="11">ii</num><!-- gemeint ist 11; ii lassen und einfach im tag auflösen? --></cell>
+</row>
+</table>
+<div><ab type="marginal note" place="left margin"><persName ref="per025742">Appenzeller</persName>
+<lb/>weigret sich.</ab></div>
+<p><lb/>Obemelter <persName ref="per025742">Felix Appenzeller</persName> hatt das
+<lb/>seckel-ammt nit annemmen wollen, sonder
+<lb/>vermeldet, ehe er soliches thuͦn, ehe wölle
+<lb/>er <choice><abbr>vͦ</abbr><expan>von</expan></choice> statt und land oder man sol <choice><sic>ien</sic><corr>ihn</corr></choice> ehe
+<lb/>umb ein namhaffte <add place="above">gelt</add> buͦs anlegen, dan imme<pb n="28v" facs="StAZH_G_I_6__Nr__97__fol__28_v_.tif"/>
+<lb/>soliches zuͦverwalten unmüglich, sonderlich
+<lb/>wyl er schon kilchmeier seige. Hieruber
+<lb/>hatt man auff diss syn yffriges anhaltens
+<lb/><add place="left margin">inne</add> wider entlassen und darüber ein ander
+<lb/>mher ergan lassen, da ward vor bemelter
+<lb/><persName ref="per025753">Hans Ruͦdi Laubi</persName>, der wirt, mit <num value="34">34</num> stimen
+<lb/>an des dorff meiers <persName ref="per025742">Appenzeller</persName> statt er<lb break="no"/>welt 
+worden.</p>
+<div><ab type="marginal note" place="left margin">Neüwe richter 
+<lb/>erwelt.</ab></div>
+<p><lb/>Darauff ist man <choice><abbr>vͦ</abbr><expan>von</expan></choice> tischen auff ge<lb break="no"/>standen,
+und in die stuben hinuff gangen.
+<lb/>Alda hatt man an der 4 abgehenden rich<lb break="no"/>teren 
+statt <num value="4">vier</num> andere erwelt. Namlich
+<lb/><persName ref="per025742">Felix Appenzeller</persName>, kilch meier,
+<lb/>welcher vorhin zum <choice><abbr>seckelm<hi rend="sup">r</hi></abbr><expan>seckelmeister</expan></choice> erwelt ward,
+<lb/><persName ref="per024952">Joder Notz</persName>,
+<lb/><persName ref="per025746">Uͦli Bur</persName>, wagner, und
+<lb/><persName ref="per025756">Felix Nötzli</persName>. <seg><abbr>Nb</abbr>
+<unclear><foreign xml:lang="la">præside <choice><abbr>præpos</abbr><expan>præpositi</expan></choice></foreign></unclear></seg><!-- an PS: So oder anders auszeichnen? -->
+</p><pb n="29r" facs="StAZH_G_I_6__Nr__97__fol__29_r_.tif"/>
+<div><ab type="marginal note" place="left margin">Die 4 neüwen
+<lb/>richter, hoffmeier
+<lb/>und weibel werdend
+<lb/>beidiget.</ab></div>
+<p><lb/>Noch verrichtung dessen ist man auff ge<lb break="no"/>standen,
+wider hinab in das tänn gangen,
+<lb/>und hatt man disse <num value="4">4</num> neüwe richter der
+<lb/>baursame, welche im tänn gewartet, er<lb break="no"/>öffnet
+und zuͦ glich innen, den hoffmeier und
+<lb/>weibel vor allem volch den eyd <del>geben</del>
+<lb/>von dem <abbr>hr</abbr> obervogt <persName ref="per025751">Horner</persName> geben worden.
+</p>
+<div><ab type="marginal note" place="left margin">Ob jemand et<lb break="no"/>was zuͦ rechten.</ab></div>
+<p><lb/>Noch dem die neüwen richter, hoffmeier
+<lb/>und der weibel in glübt genommen worden, setzt<lb break="no"/>end
+sich die erwelten richter an das gricht
+<lb/>und ward durch den weibel ausgerüfft, ob
+<lb/>jemands etwas zuͦrëchten umb erb und eigen,
+<lb/>der möge es thuͦn. Und wil nhun jemands
+<lb/>klagte, stuͦnd herfür der <persName ref="per025537">Hoüinner</persName>, der<pb n="29v" facs="StAZH_G_I_6__Nr__97__fol__29_v_.tif"/>
+<lb/>klagte auff schryber <persName ref="per025748">Burris</persName>
+<choice><abbr>s</abbr><expan>säligen</expan></choice> wittwen, das
+<lb/>sy ab einem wysli, des <persName ref="per025770">Rothansen</persName>
+<placeName ref="loc012831">Kerinwysli</placeName><!-- PS: Flurname Rothansen Kerinwysli oder nur Kerinwysli? -->
+<lb/>genant, den kleinen zeenden zegeben verweigrete.
+<lb/>Der sohn <persName ref="per025747">Andres Burri</persName>, noch dem es aus dem 
+<lb/>urbar<!-- welches? Signatur ermittelbar? Hier wurde möglicherweise die Abschrift vom Stiftsgüterverzeichnis für Höngg verwendet (G I 5, Nr. 13) --><note>Zu den <placeName ref="loc009768">Höngger</placeName> Urbaren vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_059">SSRQ ZH NF II/11, Nr. 59<!-- C II 1, Nr.&#160;868 --></ref></bibl></note> erscheint worden, das disse wisen zeenten<lb break="no"/>hafft,
+ob glich wol sein vatter sälig nie nüt
+<lb/>geben, hatt er sich guͦttwillig ohne rächt<lb break="no"/>spruch
+den zeenden fürbas abzestatten begeben.</p>
+<div><ab type="marginal note" place="left margin"><persName ref="per025763">Heinrich Nötzli</persName>
+<lb/>veweigret den
+<lb/>kleinen zeenden.</ab></div>
+<p><lb/>Verners klagte der hoffmeier auff
+<lb/><persName ref="per025763">Heinrich Nötzli</persName> im <placeName ref="loc012125">Hard</placeName>, das er den kleinen
+<lb/>zeenden <choice><abbr>vͦ</abbr><expan>von</expan></choice> etlichen bömmen im <placeName ref="loc012746">Röttler</placeName> verweigre.
+<lb/>Der <persName ref="per025763">Nötzli</persName> wendete für, habe die räben un<lb break="no"/>lengst
+<choice><abbr>vͦ</abbr><expan>von</expan></choice>
+<abbr>hr</abbr> zunfftmeister und obervogt <persName ref="per025708">Bod<lb break="no"/>mer</persName>
+für ledig erkaufft, verhoffe nüt schuldig
+<lb/>syn, oder so er den zeenden gäben miesse,
+<lb/>begär er abtrag <choice><abbr>vͦ</abbr><expan>von</expan></choice> synem verküffer.
+</p><pb n="30r" facs="StAZH_G_I_6__Nr__97__fol__30_r_.tif"/>
+<div><ab type="marginal note" place="left margin"><abbr>Hr</abbr>
+<persName ref="per025708">Bodmer</persName>
+<lb/>repliciert.</ab></div>
+<p><lb/><abbr>Hr</abbr> zunfftmeister <persName ref="per025708">Bodmer</persName> wënte in,
+<lb/>er habe, so lang er die räben, kein zeenden
+<lb/>geben <choice><abbr>vͦ</abbr><expan>von</expan></choice> den boümen, verhoffe auch noch diss<lb break="no"/>malen
+es darby blyben werde.
+</p>
+<p><lb/>Diewyl aber aus dem urbar heiter er<lb break="no"/>scheint
+worden, das das ausgelendt und die
+<lb/>räben zeendenhafft und myn <abbr>hn</abbr> der <orgName ref="org004352">stifft</orgName>
+<lb/>innen nützid verschynen lassen könend, wan
+<lb/>glich wol etwan ein hoffmeier aus güte den
+<lb/>zeenden <choice><abbr>vͦ</abbr><expan>von</expan></choice> seiner obervögten güteren nit yn<lb break="no"/>zogen,
+ward mit recht erkent, das der <persName ref="per025763">Nötzli</persName>
+<lb/>dem hoffmeier den zeenden für bas abstatten
+<lb/>und imme syn ansprach abtrags an <abbr>hn</abbr> zunfft<lb break="no"/>meister
+<persName ref="per025708">Bodmer</persName> vorbhalten syn sölle.
+</p>
+<p><lb/>Vilgedachter <abbr>hr</abbr>
+<choice><abbr>zunfftm<hi rend="sup">r</hi></abbr><expan>zunfftmeister</expan></choice>
+<persName ref="per025708">Bodmer</persName>
+<lb/>hat sich auch geweigeret, von dissem und<pb n="30v" facs="StAZH_G_I_6__Nr__97__fol__30_v_.tif"/>
+<lb/>anderen noch habenden güteren mher den
+<lb/>kleinen zeenden zegeben. An jetzo aber hatt
+<lb/>er sich auch guͦttwillig ergeben, soliches für<lb break="no"/>hin 
+zuͦ erstatten.
+</p>
+<p><lb/>Hierauff endet es alles mit dem imbis
+<lb/>mal im meierhoff.</p>
+<p><lb/>Von mynen <abbr>hn</abbr> wegen ward by dem selben
+<lb/>erschynnen aus der statt:</p>
+<p><abbr>h</abbr>
+<persName ref="per025751">Görg Horner</persName>,</p>
+<p><abbr>h</abbr>
+<persName ref="per025708">Jacob Bodmer</persName>, beid obervögt</p>
+<p><abbr>h</abbr>
+<choice><abbr>syllhr</abbr><expan>syllherr</expan></choice>
+<persName ref="per025735">Schwytzer</persName>, stifft pfläger</p>
+<p><persName ref="per011353">Hans Jacob Fries</persName>,<!-- Schreiber dieses Stücks --> verwalter</p>
+<p><abbr>h</abbr>
+<persName ref="per025715">Oswald Käller</persName>, alten schenckhoffer</p>
+<p><abbr>h</abbr>
+<persName ref="per025771">Hans Caspar Suter</persName>, schenckhoffer</p>
+<p><abbr>h</abbr>
+<persName ref="per025774">Hans Wirtz</persName>, <choice><abbr>bauwhr</abbr><expan>bauwherr</expan></choice></p>
+<p><persName ref="per025730">Hans Rudolph Maͣg</persName>, cammerer</p>
+<p><persName ref="per025772">Hans Ruͦdolph Waser</persName>, <choice><abbr>stifftschryb</abbr><expan>stifftsschryber</expan></choice>, <abbr>hr</abbr>
+<choice><abbr>schrib</abbr><expan>schriber</expan></choice>
+<persName ref="per025736">Uͦlinger</persName></p>
+<p><abbr>m<hi rend="sup">r</hi></abbr>
+<persName ref="per025775">Hans Heinrich Ziegler</persName>, stifft stallknecht</p>
+<pb n="31r" facs="StAZH_G_I_6__Nr__97__fol__31_r_.tif"/>
+<p><lb/>Von dem dorff <placeName ref="loc009768">Höngg</placeName> und von der
+<lb/>bursame sind verners im meierhoff
+<lb/>sind by dem <placeName ref="loc009768">Höngger</placeName> meiengricht
+<lb/>imbis mâl erschynen:</p><!-- Als Liste mit <p> oder besser als Tabelle? -->
+<p><abbr>h</abbr>
+<persName ref="per025728">Hans Jacob Lindinger</persName>, pfarrer alda</p>
+<p>undervogt <persName ref="per025745">Appenzäller</persName></p>
+<p><persName ref="per024952">Joder Notz</persName></p>
+<p><persName ref="per025706">Heinrich Appenzeller</persName></p>
+<p><persName ref="per025740">Hans Zwyffel</persName></p>
+<p><persName ref="per025756">Felix Nötzli</persName></p>
+<p><persName ref="per025738">Hans Ruͦdi Wys</persName></p>
+<p><persName ref="per025768">Felix Rieder</persName></p>
+<pb n="31v" facs="StAZH_G_I_6__Nr__97__fol__31_v_.tif"/>
+<p><persName ref="per025746">Uli Paur</persName></p>
+<p><persName ref="per025767">Jagli Nötzli</persName></p>
+<p><persName ref="per025732">Ulrich Nägeli</persName>, der müller</p>
+<p><persName ref="per025754">Hans Jagli Meier</persName>, der hoffmeier</p>
+<p><persName ref="per025749">Heinrich Grosman</persName>, der neüwe weibel</p>
+<p><persName ref="per025763">Heinrich Nötzli</persName></p>
+<p><persName ref="per025743">Görg Appenzeller</persName></p>
+<p><persName ref="per012632">Hans Breitinger</persName></p>
+<p><persName ref="per025757">Hans Nötzli</persName></p>
+<p>haffner <persName ref="per025755">Meier</persName> aus der statt</p>
+<p><abbr>h</abbr> obervogt <persName ref="per025708">Bodmers</persName> diener</p>
+<p><lb/>Summarum, was im meierhoff by
+<lb/>dem imbis mal erschynnen:</p>
+<table>
+<row>
+<cell>an personen</cell><cell><num value="29">29</num></cell>
+</row>
+</table><pb n="32r" facs="StAZH_G_I_6__Nr__97__fol__32_r_.tif"/>
+<p><lb/>Uff gedachtes meiengricht zuͦ <placeName ref="loc009768">Höngg</placeName>
+<lb/>ist costen ergangen, als volgt:</p>
+<table>
+<row>
+<cell><measure type="currency" unit="lb" quantity="4">4 </measure></cell><cell>umb brott</cell>
+</row>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="7">7 </measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp></cell><cell>umb kalbfleisch</cell>
+</row>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="4">4 </measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp></cell><cell>umb allerlei fisch</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell><cell>für <abbr>hn</abbr> zunfftmeister <persName ref="per025708">Bodmers</persName>
+<lb/>rosslhon sammt synes dieners lhon</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="11">11 </measure></cell><cell>hatt gemelt ross in dem <lb/>gsellen haus verzeert</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell><cell>der hoffmeiren umb küchli</cell>
+</row>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="5">5 </measure></measureGrp></cell><cell>umb ein hammen<!-- Schinken, vgl. Idiotikon II, Sp. 1269 --></cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="1">1 </measure></cell><cell>umb <num value="2">zwo</num> ancken brut</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="3">3 </measure></cell><cell>in die kuchi kochen lhon</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="8">8 </measure></cell><cell>in kuchi trinckgelt</cell>
+</row>
+<row>
+<cell>summa</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="26">26 </measure>
+<measure type="currency" unit="ß" quantity="4">4 </measure></measureGrp></cell>
+</row><pb n="32v" facs="StAZH_G_I_6__Nr__97__fol__32_v_.tif"/>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="8">8 </measure></measureGrp></cell><cell>umb <measureGrp><measure type="weight" unit="Pfund" quantity="5">5 </measure>
+<measure type="weight" unit="Vierling" quantity="1">j <unclear><choice><abbr>vlig</abbr><expan>vierlig</expan></choice></unclear><!-- rhr: vielleicht klig oder kly? --></measure></measureGrp> kës</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="12">12 </measure></cell><cell>mynen <abbr>hn</abbr>, den obervögten, und <lb/>beiden stenden sitzgelt,  samt <num value="2">2</num>
+<lb/>schryberen, und diener</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="16">16 </measure></cell><cell><abbr>hn</abbr> pfarrer <persName ref="per025728">Lindingers</persName> tochter<lb break="no"/>li trinckgelt, umb das sy den wyn <lb/>verehrt, in nammen ihres vatters</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell><cell>dem fheer<!-- fer=Fährmann, vgl. Idiotikon I, 904 --> zuͦ <placeName ref="loc009768">Höng</placeName>, als myn <lb/><abbr>hn</abbr> über die <placeName ref="loc000075">Limat</placeName> gefharen</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="ß" quantity="32">32 </measure></cell><cell><abbr>hn</abbr> zunfftmeister und obervogts <lb/><persName ref="per025751">Horners</persName> tochter, als er myn <abbr>hn</abbr>
+<lb/>noch mit im heimb genommen und <lb/>ein trunck geben</cell>
+</row>
+<row>
+<cell>summa</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="16">16 </measure>
+<measure type="currency" unit="ß" quantity="6">6 </measure></measureGrp></cell>
+</row><pb n="33r" facs="StAZH_G_I_6__Nr__97__fol__33_r_.tif"/>
+<row>
+<cell><measure type="currency" unit="lb" quantity="16">1<damage agent="ink blot"><supplied resp="mng">6</supplied></damage> </measure></cell><cell>umb <measure type="volume" unit="Kopf" quantity="16" commodity="wine">16 <choice><abbr>k</abbr><expan>kopf</expan></choice> rotten guͦtten <lb/>wyn</measure>, so über myn <abbr>hn</abbr> und der <lb/>richteren und geschwornen tisch <lb/>verbrucht worden</cell>
+</row>
+<row>
+<cell><measure type="currency" unit="lb" quantity="28">28 </measure></cell><cell>umb <measure type="volume" unit="Eimer" quantity="2" commodity="wine">2 eimer wyn</measure> ab <lb/>anno <date when="1640">40</date>, so man der bursame <lb/>im gselen haus geben</cell>
+</row>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="1">1 </measure>
+<measure type="currency" unit="ß" quantity="12">12 </measure></measureGrp></cell><cell>dem fhuͦrman <persName ref="per025744">Claus Appen<lb break="no"/>zeller</persName>, den wyn aus der statt <lb/>hirab zuͦ fheüren</cell>
+</row>
+<row>
+<cell/><cell>summa <measureGrp><measure type="currency" unit="lb" quantity="45">45 </measure>
+<measure type="currency" unit="ß" quantity="12">12 </measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>Summarum alles auff geloffenen
+<lb/>meien grichts costen, thuͦtt</p>
+<table>
+<row>
+<cell>an gelt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="88">88 </measure>
+<measure type="currency" unit="ß" quantity="2">2 </measure></measureGrp></cell>
+</row>
+</table><pb n="33v" facs="StAZH_G_I_6__Nr__97__fol__33_v_.tif
+"/>
+<p><lb/>Disse <measureGrp><measure type="currency" unit="lb" quantity="88">88 </measure>
+<measure type="currency" unit="ß" quantity="2">2 </measure></measureGrp> werdend
+<lb/>also vertheilt, wie volget:</p>
+<table>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="44">44 </measure><measure type="currency" unit="ß" quantity="1"> 1 </measure></measureGrp></cell><cell>für den <num value="0.5">halben</num> theil die <abbr>hn</abbr>
+<lb/>obervögt zuͦ <placeName ref="loc009768">Höngg</placeName> in nammen <lb/>und wegen eines seckelmeisters <lb/>gemeiner statt</cell>
+</row>
+<row>
+<cell><measureGrp><measure type="currency" unit="lb" quantity="44">44 </measure>
+<measure type="currency" unit="ß" quantity="1">1 </measure></measureGrp></cell><cell>myn <abbr>hn</abbr> von der <orgName ref="org004352">stifft</orgName> den an<lb break="no"/>deren <num value="0.5">halben</num> theil</cell>
+</row>
+</table>
+<p>Namlich</p>
+<table>
+<row>
+<cell>das <orgName ref="org007935">studenten ammt</orgName></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="14">14 </measure>
+<measure type="currency" unit="ß" quantity="13">13 </measure>
+<measure type="currency" unit="h" quantity="8">8 hr</measure></measureGrp></cell>
+</row>
+<row>
+<cell>das <orgName ref="org007834">cammer ammt</orgName></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="14">14 </measure>
+<measure type="currency" unit="ß" quantity="13">13 </measure>
+<measure type="currency" unit="h" quantity="8">8 hr</measure></measureGrp></cell>
+</row>
+<row>
+<cell>das <orgName ref="org007835">käller ammt</orgName></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="14">14 </measure>
+<measure type="currency" unit="ß" quantity="13">13 </measure>
+<measure type="currency" unit="h" quantity="8">8 hr</measure></measureGrp></cell>
+</row>
+</table>
+<p>Summarum</p>
+<table>
+<row>
+<cell>an gelt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="88">88 </measure>
+<measure type="currency" unit="ß" quantity="2">2 </measure></measureGrp></cell>
+</row>
+</table>
+</div>
+</body>
+<back>
+<div>
+<p>
+Aus dem 16. und 17. Jahrhundert sind neben den normativen Bestimmungen zu den Maiengerichten aus den Offnungen oder Maiengerichtsordnungen (vgl. dazu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_095">SSRQ ZH NF II/11, Nr. 95</ref></bibl>)
+auch Protokolle zu einzelnen Maiengerichten aus <placeName ref="loc009768">Höngg</placeName> erhalten (z.B. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=905022">StAZH G I 6, Nr. 20</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1496423"> StAZH G I 6, Nr. 39</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1491717">StAZH G I 6, Nr. 97</ref></bibl>;<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121566"> StAZH G I 6, Nr. 98</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1127899">StAZH G I 7, Nr. 87</ref></bibl>).
+Frühe Formen bestehen vor allem aus Notizen zu den gewählten bzw. amtierenden Amtsträgern sowie den entstandenen Kosten (z.B. für 1556-1581 <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=891168">StAZH G I 5, Nr. 35, fol. 20r-33r</ref></bibl>),
+später werden sie ausführlicher. Während sich die Maiengerichtsordnungen vor allem mit der Rahmenhandlung des Gerichts befassen und die Vorgaben zur eigentlichen Gerichtsverhandlungen nur den letzten, relativ knappen Punkt bilden, geben diese späteren Protokolle auch 
+Auskunft über die behandelten Fälle und die anwesenden Personen sowie detaillierte Abrechnungen zu den Imbissmählern und Abendtrünken (vgl. dazu auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_101">SSRQ ZH NF II/11, Nr. 101</ref></bibl><!--- G I 5, Nr.&#160;108 -->). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

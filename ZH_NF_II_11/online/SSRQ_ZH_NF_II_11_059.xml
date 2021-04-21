@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_059</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=255392">StAZH C II 1, Nr. 868</idno></msIdentifier><head>Erneuerung des Weinzehntenrodels des Meierhofs in Höngg</head><msContents><summary>Johannes Schnewly, Abt des Gotteshauses Wettingen, lässt wegen vieler Namenänderungen einen neuen Weinzehntenrodel des Meierhofs in Höngg, entsprechend einem besiegelten Brief und alten Rodeln, welche in Anwesenheit der Beteiligten verlesen wurden, erstellen. Dies bezeugen die Wettinger Gotteshausleute Hensy Burri, Rudolf Burri und Ammann Mathis Wyss, alle von Höngg; von des Propstei Meierhofs wegen Heini Notz, Heini Wirtli, Uli Burri und Jakob Liechti, Hofmeier in Höngg; in Anwesenheit des Propstes Felix Fry, des Chorherrn Johannes Hagnauer und des Inhabers des Kelleramtes der Propstei Jakob Reinhart.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Heft (10 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="15.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1535-09-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000037">Meierhof</term><term ref="key000471">Schriftlichkeit</term><term ref="key000122">Urbar</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_C_II_1__Nr__868__S__01_.tif"/>
+<head type="title">
+<lb/>Rodel des meyerhoffs zuͦ <placeName ref="loc009768">Hoͤnngg</placeName>
+<lb/>von wegen des win zechendens
+</head><head type="subtitle">
+<lb/>Meyerhoff
+</head>
+</div>
+<pb n="2" facs="StAZH_C_II_1__Nr__868__S__02_.tif"/>
+<pb n="3" facs="StAZH_C_II_1__Nr__868__S__03_.tif"/>
+<div>
+<p>
+<lb/>In dem jare, als man zalt von
+  <lb/>der gepurt Cristi <origDate when="1535-09-08">tusent fünffhundert dryssig und
+  <lb/>fünff jar uff mitwuchen vor<orgName ref="org004873"> sannt <persName ref="per012644">Felix</persName> und 
+  <lb/>sannt <persName ref="per000143">Reglen</persName></orgName> tag</origDate>, hat der erwirdig unnd
+  <lb/>geistlich herr, her <persName ref="per025010">Johannes Schnewly</persName>, der zit
+  <lb/>abbte des <orgName ref="org000030">gotzhus <placeName ref="loc000074">Wettingen</placeName></orgName>, dis nachgeschrib<lb break="no"/>nen 
+  erberen lüt von des obgenanten <orgName ref="org000030">gotz<lb break="no"/>huses 
+  zuͦ <placeName ref="loc000074">Wettingen</placeName></orgName> wegen, <persName ref="per024659">Hensy Buri</persName>,
+  <lb/><persName ref="per024662">Ruͦdolff Buri</persName> und <persName ref="per025167">Mathis Wyss</persName>, der zit amman
+  <lb/>des <orgName ref="org000030">gotzhus <placeName ref="loc000074">Wettingen</placeName></orgName>, all von <placeName ref="loc009768">Hoͤnngg</placeName>,
+  <lb/>ouch von des meyerhoffs wegen <persName ref="per024941">Heiny Notz</persName>,
+  <lb/><persName ref="per025158">Heiny Wirttli</persName>, <persName ref="per024663">Uli Buri</persName> und <persName ref="per024713">Jacob Liechty</persName>,
+  <lb/>der zit hoffmeyer zuͦ <placeName ref="loc009768">Hoͤnngg</placeName>, inbywessen
+  <lb/>der erwirdigen und wolgelerten herren
+  <lb/>hern <persName ref="per011263">Felixen Fry</persName>, der zit bropst, ouch <persName ref="per024684">Johansen
+  <lb/>Hagnower</persName>, der zit chorher, und <persName ref="per024970">Jacoben Rein<lb break="no"/>hart</persName>, der zit keller zuͦ der <orgName ref="org004352">bropstig sannt
+  <lb/>Felix unnd sannt Regula <placeName ref="loc000065">Zürich</placeName></orgName>, zuͦ im ge<lb break="no"/>nommen 
+  und berüfft, im ein lütterung von
+  <lb/>des win zechendens wegen, der dem ge<lb break="no"/>nanten 
+  meyerhoff daselbs zuͦ <placeName ref="loc009768">Hoͤnngg</placeName> zuͦge<lb break="no"/>hörtt, zuͦ geben. Wie wol vormallen ouch
+  <lb/>lütterungen umb den genanten zechenden
+  <lb/>geben ist nach innhalt eins besigelten brieffs,
+  <lb/>so das <orgName ref="org000030">gotzhus <placeName ref="loc000074">Wettingen</placeName></orgName> darumb innhat,
+  <lb/>ouch roͤdel nach dem selben brief gestelt wurd<lb break="no"/>ent, 
+  die von beidenteilen uff den obgenanten
+  <lb/>tag gegenandern gehört wurdent, so habent
+  <lb/>sich doch syd der zyt har die nammen der lütt<lb break="no"/>en
+  und ouch der güttern geendert und nun
+  <lb/>ander roͤdel von nüwem lassen beschriben
+  <lb/>und setzen, wie hernach stat, des jegklich<lb break="no"/>en
+  teil einen rodel genommen hat, dar<lb break="no"/>mit niemandt sines rechtens verkürtz
+  <lb/>werde <abbr>etc</abbr>.
+  </p>
+<head type="subtitle">
+<lb/>Des ersten
+</head>
+<p>
+<lb/>Item der infang ennet dem <placeName ref="loc012038">Bommbach</placeName>.
+</p>
+<pb n="4" facs="StAZH_C_II_1__Nr__868__S__04_.tif"/>
+<head type="subtitle">
+<lb/>In dem infangen an <placeName ref="loc012137">Klingen</placeName>
+</head>
+<p>
+<lb/>Item <persName ref="per024956">Felix Nötzli</persName> buwt ein bletz, genant das
+<lb/><placeName ref="loc012715">Oberfaͤchli</placeName>, des ist ein teil acker, genant das
+<lb/><placeName ref="loc012098">Eigenli</placeName>, hat <persName ref="per024706">Wernli Koffel</persName> von <placeName ref="loc012716">Oberhaßle</placeName>, was
+<lb/>vor <persName ref="per024683">Henßli Großmans</persName>.
+</p>
+<p>
+<lb/>Item <persName ref="per025172">Rüdi Zwyffel</persName> hat <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>
+<lb/>an der <placeName ref="loc012143">Obern Klingen</placeName> gelegen.
+</p>
+<p>
+<lb/>Item <orgName ref="org007850"><persName ref="per024957">Felix</persName>, ouch <persName ref="per024963">Uͦli</persName> und <persName ref="per024959">Jacob</persName> die Nötzlinen</orgName>
+<lb/>hand <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure> an <placeName ref="loc012131">Hinder
+<lb/>Klingen</placeName>, genant in der <unclear><placeName ref="loc012827">Fud</placeName></unclear>, warend
+<lb/>vor <persName ref="per024697">Hansen Kellers</persName> und darnach <persName ref="per025168">Rudi
+<lb/>Wyssen</persName> kinden ab <placeName ref="loc007729">Regensperg</placeName> halb.
+</p>
+<p>
+<lb/>Item <persName ref="per024702">Hanns Klaus</persName> hat <measure type="area" unit="Juchart" quantity="1" commodity="field">ein juchart
+<lb/>ackers</measure> an <placeName ref="loc012137">Klingen</placeName>, was vor zitten <persName ref="per024701">Ger<lb break="no"/>hartz
+Kilchherren</persName> und darnach <persName ref="per024703">Hensy
+<lb/>Klausen</persName> erben.
+</p>
+<pb n="5" facs="StAZH_C_II_1__Nr__868__S__05_.tif"/>
+<head type="subtitle">
+<lb/>Der infang <placeName ref="loc012709">im Loch</placeName>
+</head>
+<p>
+<lb/>Item <persName ref="per023468">Lienhart Saͤsslers</persName> frow <persName ref="per023467">Brydli Fry</persName> hat
+<lb/><measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, stoßt an der <orgName ref="org000386">Fryen</orgName> an der
+<lb/><placeName ref="loc012752">Schipfi</placeName> gütter, was vor der <orgName ref="org000691">Rösten</orgName>.
+</p>
+<head type="subtitle">
+<lb/>In dem infang von der
+<lb/><placeName ref="loc012694">Müllihalden</placeName> unntzit
+<lb/>gen <placeName ref="loc012031">Bächlen</placeName><note>In der Version von 1440 heisst es hier: <orig>untz an das bechli</orig> (<bibl>StAAG U.38/1017</bibl>).</note><!-- in der Version von 1440: untz an das bechli. Also kein placeName? Doch, hat ortsnamen.ch-ID: Datensatz 7071005 -->
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, gehördt herr
+<lb/><persName ref="per025169">Spänlis</persName> pfruͦnd zuͦ <placeName ref="loc010769">Sant Petter</placeName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was der <orgName ref="org004918">frowen
+<lb/>im sammling</orgName><!--  Frauen der "Sammlung" von St. Verena-->
+<placeName ref="loc000065">Zürich</placeName>, lit nebent an den
+<lb/>obgenanten reben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, lit uff der wiß,
+<lb/>hat vor gehept <persName ref="per023980">Heinrich Stapfer</persName>, hand jetz
+<lb/>junckher <persName ref="per025024">Hans Stapfers</persName> selgen erben <placeName ref="loc000065">Zürich</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, heist der <placeName ref="loc012231">Rietten<lb break="no"/>acker</placeName>, 
+stost an die <placeName ref="loc012694">Müllihalden</placeName>, was der
+<lb/><orgName ref="org000050">Meyern</orgName> von <placeName ref="loc012023">Adlikon</placeName>, sind jetz des <persName ref="per024710">Langen<lb break="no"/>meyers</persName>
+ von <placeName ref="loc011244">Buchs</placeName>.
+</p>
+<pb n="6" facs="StAZH_C_II_1__Nr__868__S__06_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist halb <persName ref="per025026">Hans
+<lb/>Trachssels</persName>, des schniders, erben <placeName ref="loc000065">Zürich</placeName> und
+<lb/>der ander halbteil der genanten <orgName ref="org000050">Meyern</orgName>
+<lb/>von <placeName ref="loc012023">Adliken</placeName>, was vor des <persName ref="per024708">Köschen</persName> und des
+<lb/><persName ref="per024666">Telleckons</persName>
+<placeName ref="loc000065">Zürich</placeName>, sind jetz <persName ref="per025009">Welty Schniders</persName>
+<lb/>selgen frow von <placeName ref="loc009845">Regenstorff</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, gehört dem <orgName ref="org005088">spittal
+<lb/><placeName ref="loc000065">Zürich</placeName></orgName>, was vor der <orgName ref="org008803">Geltrichingen</orgName> von <placeName ref="loc007770">Waltz<lb break="no"/>huͦt</placeName>,
+buwt <persName ref="per025159">Heini Wirttli</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, gehörtt an herr
+<lb/><persName ref="per014992">Jerg Lübegers</persName>,<!-- Georg Lübegger, vgl. Meyer, Zürich und Rom, S. 263, 556, 566. --> caplon zumm <orgName ref="org004352">Grossen Münster</orgName>,
+<lb/>pfruͦnd, buwt <persName ref="per024711">Balthasser Liechtis</persName> son.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per024672">Cuͦnrat
+<lb/>Fryen</persName>, was vor <persName ref="per024653">Heini Beringers</persName>, stoßt unden
+<lb/>an die wisen.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, hat <persName ref="per024707">Koiffeller</persName>
+<lb/>von <placeName ref="loc009845">Regenstorff</placeName>, was vor <persName ref="per024654">Cuͦni Beringers</persName>,
+<lb/>stoßt ouch unden an die selben wisen.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per024695">Hans Kellers</persName>
+<lb/><placeName ref="loc000065">Zürich</placeName>, ist das <placeName ref="loc013753">Underfach</placeName>, stoßt hinden an
+<lb/>das <placeName ref="loc012027">Bachtal</placeName>, was vor zitten <persName ref="per025155"> Hans Trincklers</persName>
+<lb/><placeName ref="loc000065">Zürich</placeName> und jetz junckher <persName ref="per025381">Hans Wernly
+<lb/>Schweigers</persName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<pb n="7" facs="StAZH_C_II_1__Nr__868__S__07_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, buwt <persName ref="per021917">Efler</persName>, ist
+<lb/>burgermeister <persName ref="per005042">Schmids</persName> erben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was der <orgName ref="org004925">predig<lb break="no"/>eren</orgName>
+<placeName ref="loc000065">Zürich</placeName>, stost einthalb an die obgenanten
+<lb/>reben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist des <persName ref="per024992">Schmids</persName>
+<lb/>von <placeName ref="loc010379">Basserstorff</placeName>, stost an die genanten <orgName ref="org004925">prediger</orgName>
+<lb/>reben, buwt der lang <persName ref="per024960">Ruͦdolff Nötzli</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, gehört an ein
+<lb/>pfruͦnd zur <orgName ref="org004352">bropstig</orgName>, hat jetz ein sigerist, stoßt
+<lb/>ouch an <orgName ref="org004925">predigeren</orgName> reben, genant die <placeName ref="loc012086">Brunn<lb break="no"/>aderen</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, ist <unclear>Durßhaben</unclear><!-- ??? Ist das ein Name? -->
+<lb/>selgen erben <placeName ref="loc000065">Zürich</placeName>, was vor zitten des <persName ref="per024666">Tällickons</persName>
+<lb/><placeName ref="loc008762">Uff Dorff</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure> genant das <placeName ref="loc012649">Holtz<lb break="no"/>lechen</placeName>,
+lit oben an dem gäßli, ist jetz der <persName ref="per024925">Mertz<lb break="no"/>husseren</persName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, warend der <persName ref="per024692">Hünnen<lb break="no"/>bergeren</persName>
+zuͦ <placeName ref="loc000446">Baden</placeName>, nempt man des <placeName ref="loc012244">Sigeristen
+<lb/>Reben</placeName>, ligent oben an dem <placeName ref="loc012649">Holtzlechen</placeName>, sind
+<lb/>jetz junckher <persName ref="per009305">Hans Edlibachs</persName>
+<placeName ref="loc000065">Zürich</placeName>, buwet
+<lb/><persName ref="per024944">Heini Notz</persName>.
+</p>
+<pb n="8" facs="StAZH_C_II_1__Nr__868__S__08_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="2.5" commodity="vineyard">dritthalb juchart reben</measure>, buwt
+<lb/><persName ref="per025159">Heini Wirttli</persName>, sind des <orgName ref="org005088">spittals <placeName ref="loc000065">Zürich</placeName></orgName>,
+<lb/>stossent an des meyerhoffs gütter und
+<lb/>an das gäßli, warend vor zitten <persName ref="per025014">Wernli
+<lb/>Schürmeyers</persName>.
+</p>
+<head type="subtitle">
+<lb/>In dem infang <placeName ref="loc012125">im
+<lb/>Hard</placeName>, als wyt der zech<lb break="no"/>enden gat
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, was des
+<lb/>meyers von <placeName ref="loc000074">Wettingen</placeName>, darnach des <persName ref="per024973">Riett<lb break="no"/>meyers</persName>,
+stossent an der <orgName ref="org000141">Manessen</orgName> oder <orgName ref="org000377">Schwend<lb break="no"/>en</orgName> 
+reben, buwt jetz <persName ref="per024956">Felix Nötzli</persName>.
+</p>
+<p>
+<lb/>Iten <measure type="area" commodity="vineyard" quantity="7" unit="Kammer">siben kammeren<!-- Kammer: durch die sog. Kammerwege erschlossene Abteilung im Weinberg, ca. 1 Vierling oder 10-12 Steg gross, aber keine bestimmte Masseinheit (Idiotikon Bd. 3 Sp. 250). --> reben</measure> genant der
+<lb/><placeName ref="loc012579">Bluͦmen</placeName>, warend des vorgemelten meyers,
+<lb/>stossent an die vorgemelten reben, sind 
+<lb/>jetz <persName ref="per025170">Ruͦtsch Zelgers</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per025164">Heinrichen
+<lb/>Wysen</persName>, lit unden an der straß, genant
+<lb/>der <placeName ref="loc012746">Röttler</placeName>, was vor <persName ref="per024666">Hansen Tallickons</persName>,
+<lb/>des pfisters <placeName ref="loc000065">Zürich</placeName> und darnach <persName ref="per025166">Cüni
+<lb/>Wyssen</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, stossent an die
+<lb/>obgenanten reben, genant <placeName ref="loc012746">Röttler</placeName>, buwt
+<lb/><persName ref="per024661">Heini Bury</persName>, was <add place="above">vor</add> der <orgName ref="org000377">Schwendinen</orgName> an der
+<lb/><placeName ref="loc012646">Hoffhalden</placeName>
+<placeName ref="loc000065">Zürich</placeName>, ligend unden an der strass,
+<lb/>hatt jetz <persName ref="per024648">Cuͦnrat Äbli</persName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<pb n="9" facs="StAZH_C_II_1__Nr__868__S__09_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per024993">Hans Schne<lb break="no"/>bergers</persName>,
+appenteggers <placeName ref="loc000065">Zürich</placeName>, lit am <placeName ref="loc012681">Letten</placeName>,
+<lb/>was vor zitten des <persName ref="per024656">Bindschedlers</persName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="6" commodity="vineyard">sechs jucharten reben</measure>, warent der
+<lb/><orgName ref="org004925">predigeren herren</orgName>, sind jetzt miner herren,
+<lb/>stossen an den <placeName ref="loc012681">Letten</placeName> und an <orgName ref="org004925">prediger</orgName> reben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, heißt der <placeName ref="loc012118">Gissübel</placeName>,
+<lb/>stost an die landtstraß, warend <persName ref="per015474">Balthasser Spross<lb break="no"/>en</persName>
+kind und darvor meister <persName ref="per015628">Werders</persName>, ger<lb break="no"/>wers
+<placeName ref="loc000065">Zürich</placeName>, sind jetz <persName ref="per024649">Hans Barthlome Ammans</persName>
+<lb/><placeName ref="loc000065">Zürich</placeName>, buwt <persName ref="per024713">Jacob Liechty</persName>, hoffmeyer.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was ouch
+<lb/>meister <persName ref="per015628">Heinrich Werders</persName>, ligend under der
+<lb/>trotten, stossent and den <placeName ref="loc012118">Gissübel</placeName>, ist jetz meister
+<lb/><persName ref="per014328">Fridli Bluntschlis</persName> erben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="3" commodity="vineyard">dry juchart reben</measure>, dero ist eine des
+<lb/><orgName ref="org000030">gotzhus <placeName ref="loc000074">Wettingen</placeName></orgName>, die andern <num value="2">zwo</num> der
+<lb/><orgName ref="org007947">Wirttlinen</orgName> und meister <persName ref="per024993">Hansen Schnebergers</persName>,
+<lb/>appenteggers, und <persName ref="per014328">Fridli Bluntschlis</persName> erben,
+<lb/>stossent an den bach und an die landtstraß.
+</p>
+<pb n="10" facs="StAZH_C_II_1__Nr__868__S__10_.tif"/>
+<head type="subtitle">
+<lb/>In dem infang als der
+<lb/>zechend ein end hatt
+<lb/>untz an den <placeName ref="loc012671">Kurenberg</placeName>
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was des <persName ref="per024226">Langen<lb break="no"/>schwenden</persName>
+erben, stoßt an den bach und
+<lb/>an die landtstraß, was vor zitten her <persName ref="per024669">Götz
+<lb/>Äschers</persName>, sind jetz der <orgName ref="org005000">armmen lütten an
+<lb/>der <placeName ref="loc010518">Sil</placeName></orgName>, buwt <persName ref="per025012">Rüdi Schubinger</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist her <persName ref="per024985">Caspar
+<lb/>Rösten</persName> erben, stost an die obgenanten reben
+<lb/>und an den bach, buwt <persName ref="per024944">Heini Notz</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, sind her burg<lb break="no"/>ermeister
+<persName ref="per012669">Rösten</persName> kinden, warend vor <persName ref="per024967">Hans
+<lb/>Oris</persName>
+<placeName ref="loc000065">Zürich</placeName>, stossent an den bach, buwt 
+<lb/><persName ref="per024960">Langruͦdolff Nötzli</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <orgName ref="org002666">Öttenbacher</orgName>
+<lb/><placeName ref="loc000065">Zürich</placeName>, stost an den bach, buwt <persName ref="per025011">Jerg Schub<lb break="no"/>inger</persName>.
+</p>
+<pb n="11" facs="StAZH_C_II_1__Nr__868__S__11_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist ouch der
+<lb/>genanten <orgName ref="org002666">Öttenbacheren</orgName>
+<placeName ref="loc000065">Zürich</placeName>, stost oben
+<lb/>an <orgName ref="org002680">Selnower</orgName> reben und an die landt<lb break="no"/>straß,
+buwt ouch <persName ref="per025011">Jerg Schubinger</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, buwt <persName ref="per025164">Heini
+<lb/>Wyss</persName> im <placeName ref="loc012125">Hard</placeName>, ist gsin der <orgName ref="org002680">frowen an
+<lb/>Selnow</orgName>, ligent oben an den obgenanten
+<lb/>reben, sind jetz des <orgName ref="org005088">spittals <placeName ref="loc000065">Zürich</placeName></orgName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per024688">Ludwig
+<lb/>Höschen</persName>
+<placeName ref="loc000065">Zürich</placeName>, heißt der <placeName ref="loc012263">Trottbomm</placeName>, sind
+<lb/>jetz junckher <persName ref="per024709">Jacob Kriegen</persName> von <placeName ref="loc000163">Bellick<lb break="no"/>en</placeName>,
+buwt <persName ref="per024681">Uͦli Großman</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per024668">Petter
+<lb/>Effingers</persName>
+<placeName ref="loc000065">Zürich</placeName>, stost an den obgenanten
+<lb/><placeName ref="loc012263">Trottbomm</placeName> und an die landtstraß, was vor
+<lb/>zitten der <persName ref="per021909">Ussermeninen</persName>, sind jetz junckher
+<lb/><persName ref="per024667">Jacob Effingers</persName>, buwt <persName ref="per025165">Klewy Wyss</persName>.
+</p>
+<head type="subtitle">
+<lb/>In dem infang von
+<lb/>dem <placeName ref="loc012671">Kürenberg</placeName> untzit
+<lb/>an das groß gesteig
+</head>
+<pb n="12" facs="StAZH_C_II_1__Nr__868__S__12_.tif"/>
+<p>
+<lb/>Item das <choice><sic>nittel</sic><corr>mittel</corr></choice> fächli, stost an das <placeName ref="loc012027">Bachtal</placeName>,
+<lb/>ist <persName ref="per025026">Hans Trachssels</persName>, schlossers, <persName ref="per024675">Geffnowers</persName>
+<lb/>tochterman by der stägen <placeName ref="loc000065">Zürich</placeName>, was
+<lb/>vor <persName ref="per024697">Hensy Kellers</persName>.
+</p>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="4" commodity="vineyard" type="area">vier kammeren reben</measure>, stossent an
+<lb/>das <placeName ref="loc012027">Bachtal</placeName>, ist jetz ein wiß bletzli, hat <persName ref="per024707">Heini
+<lb/>Köffeller</persName> von <placeName ref="loc009845">Regenstorff</placeName>, was vor <persName ref="per024962">Rüdi
+<lb/>Nötzlis</persName> und vor <persName ref="per024697">Hansen Kellers</persName> und jetz
+<lb/><persName ref="per024990">Hans Schouben</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="2">zwo juchart</measure>, des ist ein teil reben
+<lb/>und ein teil acker, stossent an das <placeName ref="loc012027">Bach<lb break="no"/>tal</placeName>,
+warend <persName ref="per024690">Heini Hüglis</persName> und vor <persName ref="per024654">Cüni
+<lb/>Beringers</persName>, sind jetz kein reben me, hat
+<lb/><persName ref="per024663">Uͦli Buri</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1">ein juchart</measure>, des ist ein teil reben
+<lb/>und ein teil acker, warend des <persName ref="per024674">Fricken</persName>
+<lb/>und vor <persName ref="per024686">Hansen Helffers</persName>, sind jetz gar acker,
+<lb/>buwt <persName ref="per024664">Uͦli Buri</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="2" commodity="vineyard">zwo juchart reben</measure>, stossent an samm<lb break="no"/>linger
+<placeName ref="loc000065">Zürich</placeName> und an der <orgName ref="org007850">Nötzlinen</orgName>
+<lb/>reben, sind <persName ref="per024670">Rüdi Fischers</persName> von <placeName ref="loc010407">Diettickon</placeName>,
+<lb/>warend <persName ref="per013819">Uͦlrich Widmers</persName>
+<placeName ref="loc000065">Zürich</placeName>.
+</p>
+<pb n="13" facs="StAZH_C_II_1__Nr__868__S__13_.tif"/>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="7" commodity="vineyard" type="area">siben kammeren reben</measure>, warend der
+<lb/><orgName ref="org000344">Fischeren</orgName> von <placeName ref="loc010407">Diettickon</placeName>, stossent einthalb
+<lb/>an der <orgName ref="org004925">predigeren</orgName>
+<placeName ref="loc000065">Zürich</placeName> und des <persName ref="per024991">Scherers</persName>
+<lb/>von <placeName ref="loc012563">Ow</placeName> reben, warend <persName ref="per024962">Rüdi Nötzlis</persName>
+<lb/>und vor der <orgName ref="org000273">Suttern</orgName>, sind jetz <persName ref="per024921">Langhansen
+<lb/>Matthissen</persName> von <placeName ref="loc012023">Adlickon</placeName>, buwt <persName ref="per024989">Jerg Schaller</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, stossent
+<lb/>an die obgenanten reben und an der
+<lb/><orgName ref="org004925">predigeren</orgName> reben, warend des <persName ref="per024991">Scherers</persName>
+<lb/>von <placeName ref="loc012563">Ow</placeName>, sind jetz her <persName ref="per024969">Crafft Ölhaffen</persName>, ist
+<lb/>jetz ein acker.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="2" commodity="vineyard">zwo juchart reben</measure>, hand inn
+<lb/><persName ref="per025157">Cuͦnrat Werder</persName>, <persName ref="per024649">Barthlome Amman</persName>,
+<lb/><persName ref="per024957">Felix Nötzli</persName>, warend vor <persName ref="per024694">Felix Kellers</persName>
+<lb/>und <unclear><persName ref="per024926">Metzamman</persName></unclear>
+<placeName ref="loc000065">Zürich</placeName> und <persName ref="per024958">Hensy
+<lb/>Nötzlis</persName>, stossent an der <orgName ref="org004925">predigeren</orgName> und
+<lb/>an des <persName ref="per025164">Wyssen</persName> reben, warend vor
+<lb/><persName ref="per024699">Hensy Kellers uff dem Bach</persName>.
+</p>
+<p>
+<lb/>Item ein stuck, ist reben und ein wiß<lb break="no"/>plätz,
+was <persName ref="per024958">Hensy Nötzlis</persName>, stost an <persName ref="per025166">Cüni 
+<lb/>Wyssen</persName> reben, jetz <persName ref="per025156">Ruͦdolff Wäbers</persName>, ist wisen.
+</p>
+<p>
+<lb/>Item das under stuck hat <persName ref="per025168">Rüdi Wyss</persName>, stost
+<lb/>an den diergartten, was vor <persName ref="per024966">Hensy
+<lb/>Nüsslis</persName>
+<placeName ref="loc000065">Zürich</placeName>, ist jetz <persName ref="per024959">Jacob Nötzlis</persName>.
+</p>
+<pb n="14" facs="StAZH_C_II_1__Nr__868__S__14_.tif"/>
+<head type="subtitle">
+<lb/>In dem infang von dem <placeName ref="loc012092">Kilch
+<lb/>Gesteig</placeName> untzit an den <placeName ref="loc012096">Egkweg</placeName>
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="2" commodity="vineyard">zwo jucharten reben</measure>, sind <persName ref="per013623">Bernhart
+<lb/>Reinharts</persName> selgen erben, stossend an das
+<lb/><placeName ref="loc012092">Kilch Gesteig</placeName> und an <persName ref="per024703">Henßli Klausen</persName>
+<lb/>selgen erben, warent vor <persName ref="per011935">Albrecht Mossers</persName>.
+</p>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="5" commodity="vineyard" type="area">fünff kammern reben</measure>, warent 
+<lb/><persName ref="per024703">Henßli Klausen</persName>, stossent ouch an das
+<lb/><placeName ref="loc012092">Kilchen Gsteig</placeName>, sind jetz <persName ref="per025016">Henßli Schwytzers</persName>.
+</p>
+<p>
+<lb/>Item das under fächly, so uff dem weg
+<lb/>anhin litt, was ouch <persName ref="per024703">Hensy Klausen</persName>, sind
+<lb/>jetz <persName ref="per024702">Hans Klausen</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <orgName ref="org002666">Öttenbacher</orgName>,
+<lb/>stost an <persName ref="per013623">Bernharts Reinharts</persName> selgen
+<lb/>reben und an <persName ref="per024933">Hensy Notzen</persName> selgen reben,
+<lb/>buwt <persName ref="per024658">Felix Bury</persName>.
+</p>
+<pb n="15" facs="StAZH_C_II_1__Nr__868__S__15_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was der <orgName ref="org008809">Fürbass<lb break="no"/>inen</orgName>
+und <persName ref="per014354">Hans Fryttags</persName>, stost an <orgName ref="org005152">Öttenbacher</orgName>
+<lb/>und an <persName ref="per015372">Henßli Münchs</persName> selgen reben,
+<lb/>was vor zitten des <persName ref="per012669">Rösten</persName>
+<placeName ref="loc000065">Zürich</placeName>, ist jetz
+<lb/>ein teil <persName ref="per024659">Hans Buris</persName> und der ander teil
+<lb/><persName ref="per024673">Uͦli Fryttags</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5">einhalb juchart</measure>, ist ein wißplätz,
+<lb/>was <persName ref="per024695">Hans Kellers</persName>
+<placeName ref="loc000065">Zürich</placeName>, stost an den <placeName ref="loc012096">Egg<lb break="no"/>weg</placeName>
+und an <orgName ref="org002666">Öttenbacher</orgName> gütter, ist jetz
+<lb/><persName ref="per025157">Cuͦnrat Werders</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per015372">Henßli
+<lb/>Münchs</persName>, stoßt an die <orgName ref="org002666">Öttenbacher</orgName> und an
+<lb/>die <orgName ref="org008809">Fürbassen</orgName>, was vor <persName ref="per024698">Henßli Kellers</persName>
+<lb/>von <placeName ref="loc009768">Hönngg</placeName>, ist jetz <orgName ref="org007971"><persName ref="per024663">Uͦli</persName> und <persName ref="per024657">Andressen</persName> der
+<lb/>Burinen</orgName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, sind <orgName ref="org002666">Ötten<lb break="no"/>bacher</orgName>,
+stost an den <placeName ref="loc012096">Eggweg</placeName>, buwt <persName ref="per024658">Felix
+<lb/>Bury</persName>, stost an obgenanten reben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per024702">Henßli
+<lb/>Klausen</persName>, stost ouch an den <placeName ref="loc012096">Eggweg</placeName> und an
+<lb/><persName ref="per013623">Bernhart Reinharts</persName> selgen reben, sind jetz <space unit="cm" quantity="2"/>
+<note>Der Satz bricht hier ab. Vermutlich hätte noch der Name des jetzigen Besitzers eingetragen werden sollen.</note>
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, ist <persName ref="per024680">Rüdi
+<lb/>Großmans</persName> gsin und jetz <persName ref="per024923">Moritz Meyers</persName>,
+<lb/>lit im <placeName ref="loc012084">Brüll</placeName>, stost an den <placeName ref="loc012642">Hollenweg</placeName> und
+<lb/>ist jetz ein wißplätz.
+</p>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="7" commodity="vineyard" type="area">siben kammeren reben</measure>, sind des <orgName ref="org004908">gotz<lb break="no"/>huss
+zumm Frowen Münster</orgName>, stossent an
+<lb/>das <placeName ref="loc012092">Kilchen Gsteig</placeName>, warend vor des <persName ref="per024687">Hirß<lb break="no"/>korns</persName>
+von <placeName ref="loc010354">Affholteren</placeName>.
+</p>
+<pb n="16" facs="StAZH_C_II_1__Nr__868__S__16_.tif"/>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="4" commodity="vineyard" type="area">dry kammern</measure> und <measure type="area" commodity="vineyard" quantity="1" unit="Zeile">ein zil<!-- eine Zeile --> reben</measure>, sind
+<lb/><persName ref="per025023">Klausen Sydlers</persName>
+<placeName ref="loc000065">Zürich</placeName>, stossent an die
+<lb/>obgenanten reben, warend vor <persName ref="per024715">Cüni Lind<lb break="no"/>iners</persName>.
+</p>
+<head type="subtitle">
+<lb/>In dem infang von
+<lb/>dem <placeName ref="loc012096">Eggweg</placeName> untzit
+<lb/>an des <persName ref="per025166">Wyssen</persName> weid
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per024700">Heini Kellers</persName>,
+<lb/>stost an den <placeName ref="loc012096">Eggweg</placeName>, sind jetz <persName ref="per024694">Felix Kellers</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per024651">Jägli Appen<lb break="no"/>zellers</persName>,
+stost an den <placeName ref="loc012096">Eggweg</placeName>, was vor <persName ref="per024704">Rüdi
+<lb/>Klausen</persName>, die hat <persName ref="per024650">Hensy Appenzeller</persName> halb 
+<lb/>und <persName ref="per025158">Heini Wirttly</persName> halb.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per025020">Rüdi Schwend<lb break="no"/>en</persName>,
+stost oben an <persName ref="per024986">Hensy von Rüti</persName>, jetz <persName ref="per024665">Hensy
+<lb/>Burckarts</persName>, sind jetz <persName ref="per024693">Hensy Jegers</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was <persName ref="per025161">Henßi
+<lb/>Wyssen</persName> und <persName ref="per024929">Uͦli Müllers</persName>, stost an den <placeName ref="loc012096">Eggweg</placeName>,
+<lb/>was vor <persName ref="per024993">Hansen Seebachs</persName> und <persName ref="per024660">Heini Buris</persName>,
+<lb/>sind jetz <persName ref="per023556">Elsi Wyssen</persName> und <persName ref="per024957">Felix Nötzlis</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, was <persName ref="per024929">Uͦli
+<lb/>Müllers</persName>, stost an die obgeschribnen reben,
+<lb/>was vor zitten <persName ref="per024917">Hietzman Lüffingers</persName>, stost
+<lb/>an die obgeschribnen reben, sind ouch
+<lb/><persName ref="per023556">Elsy Wyssen</persName> und <persName ref="per024957">Felix Nötzlis</persName>.
+</p>
+<pb n="17" facs="StAZH_C_II_1__Nr__868__S__17_.tif"/>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, ist <persName ref="per024712">Heini
+<lb/>Liechtis</persName>, stost an den <placeName ref="loc012096">Eggweg</placeName>, sind jetz <persName ref="per024714">Caspar
+<lb/>Liechtis</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="vineyard">einhalb juchart reben</measure>, was <persName ref="per024705">Küni
+<lb/>Klobers</persName>, stost an <persName ref="per025161">Hans Wyssen</persName> und an <persName ref="per024682">Uͦli
+<lb/>Großmans</persName> reben, was vor <persName ref="per025171">Heini Zwyff<lb break="no"/>els</persName>,
+ist jetz <persName ref="per024691">Hensy Hümmlers</persName>, ist wisen.
+</p>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="2" commodity="vineyard" type="area">zwo kammeren reben</measure>, warend <persName ref="per024986">Henßli
+<lb/>von Rüttis</persName>, stossent an sin reben, warent
+<lb/>vor zitten <persName ref="per024988">Wolfen Sagers</persName>
+<placeName ref="loc000065">Zürich</placeName>, sind jetz
+<lb/><persName ref="per025156">Ruͦdolff Wäbers</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, was der <orgName ref="org008803">Gelt<lb break="no"/>richinen</orgName>
+zuͦ <placeName ref="loc007770">Waltzhuͦt</placeName>, stossen an <persName ref="per024705">Küni
+<lb/>Cloubers</persName> und an des <persName ref="per024674">Fricken</persName> reben, war<lb break="no"/>end
+vor des <persName ref="per024674">Fricken</persName>, sind jetz der <orgName ref="org000965">Schwartzen</orgName>
+<lb/>zuͦ <placeName ref="loc012775">Watt</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, warend der
+<lb/><orgName ref="org004925">predigeren</orgName>
+<placeName ref="loc000065">Zürich</placeName>, stossent an <persName ref="per024291">Heini Groß<lb break="no"/>mans</persName>
+selgen und an <persName ref="per024958">Hensy Nötzlis</persName> selgen
+<lb/>reben, sind jetz miner herren, buwt <persName ref="per024990">Hensy
+<lb/>Schoub</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="field">ein juchart acker</measure>, ist <persName ref="per025168">Rüdi Wyss<lb break="no"/>en</persName>
+erben, stost an der <orgName ref="org000412">Wüsten</orgName> acker und
+<lb/>an <persName ref="per024987">Rüdi von Rüttis</persName> selgen reben.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="0.5" commodity="field">einhalb juchart acker</measure>, was der
+<lb/>vorgenanten <orgName ref="org001326">Wyssen</orgName>, stost an <persName ref="per024655">Cuͦnrat Bert<lb break="no"/>schingers</persName>
+und an <persName ref="per024676">Bertschy Großmans</persName>
+<lb/>güter.
+</p>
+<pb n="18" facs="StAZH_C_II_1__Nr__868__S__18_.tif"/>
+<head type="subtitle">
+<lb/>In dem infang ussert<lb break="no"/>halb
+der weid
+</head>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" commodity="vineyard" quantity="1.5">anderthalb juchart reben</measure>, sind
+<lb/><persName ref="per025160">Fridli Wyssen</persName>, stossent an den <persName ref="per024674">Fricken</persName> und
+<lb/>an <persName ref="per025173">Rüggen Zwyffels</persName> acker, sind jetz
+<lb/>halb <persName ref="per024932">Felix Notzen</persName>, des baders, zuͦ <placeName ref="loc009768">Hönngg</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist der <orgName ref="org000751">Fricken</orgName>,
+<lb/>stost an die weid und an den <orgName ref="org000377">Schwenden</orgName>,
+<lb/>sind jetz des <persName ref="per024689">Houpts</persName> von <placeName ref="loc010234">Steinmur</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ist <persName ref="per024682">Uͦli Groß<lb break="no"/>mans</persName>
+ und <persName ref="per024679">Lentzen Großmans</persName>, stost an 
+ <lb/>den <persName ref="per024674">Fricken</persName> und an die straß.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein jucharten reben</measure>, ist <persName ref="per024958">Henßli
+<lb/>Nötzlis</persName> gsin, stost einthalb an die straß
+<lb/>und an die weid, was vor <persName ref="per024715">Cüni Lindiners</persName>,
+<lb/>sind jetz des <persName ref="per024652">Buren</persName> von <placeName ref="loc008716">Wettischwyl</placeName>.
+</p>
+<p>
+<lb/>Item <measure unit="Kammer" quantity="1" commodity="vineyard" type="area">ein kammern reben</measure>, ist <persName ref="per024965">Henßli
+<lb/>Nußbommers</persName>, lit vor an <placeName ref="loc012656">Imbis Büll</placeName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, lit an <placeName ref="loc012678">Lew<lb break="no"/>eren</placeName>,<!-- Leweren, Leberen: Hügel, Anhöhe. Häufiger Flurname. vgl. Idiotikon, Bd. 3, Sp. 1544. -->
+stost an die landtstraß, was <persName ref="per024944">Heini Notzen</persName>,
+<lb/>sind jetz <persName ref="per024677">Hensy Großmans, genant
+<lb/>Graff</persName>.
+</p>
+<p>
+<lb/>Item <measure type="area" unit="Juchart" quantity="1" commodity="vineyard">ein juchart reben</measure>, ouch an <placeName ref="loc012678">Lew<lb break="no"/>eren</placeName>
+gelegen, was <persName ref="per024954">Rüdi Notzen</persName>, stost
+<lb/>an burgermeister <persName ref="per001584">Walders</persName> gütter, ist
+<lb/>jetz der <orgName ref="org004908">apty <placeName ref="loc000065">Zürich</placeName></orgName>, ist fast abglassen.
+</p>
+<pb n="19" facs="StAZH_C_II_1__Nr__868__S__19_.tif"/>
+<pb n="20" facs="StAZH_C_II_1__Nr__868__S__20_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>Die Zehntrechte in <placeName ref="loc009768">Höngg</placeName> waren geteilt. Ein Teil stand seit spätestens 1188 dem <orgName ref="org004352">Grossmünster</orgName> zu (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=390727">StAZH C II 1, Nr. 7</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 1, Nr. 346</bibl>), den anderen Teil erwarb das <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> zusammen mit dem Kirchensatz und dem zweiten Meierhof 
+von <placeName ref="loc009768">Höngg</placeName>, dem Meierhof <placeName ref="loc012100">Ennetwies</placeName>, 1359 von den <orgName ref="org007932">Herren von Seen</orgName> (StAAG U.38/0529; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1316</bibl>). 
+1365 kaufte das <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> den <orgName ref="org007932">Herren von Seen</orgName> auch die Vogteirechte über <placeName ref="loc009768">Höngg</placeName> ab (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_008">SSRQ ZH NF II/11, Nr. 8</ref></bibl>), 
+verpfändete sie aber 1384 an die Stadt <placeName ref="loc000065">Zürich</placeName>, wo sie blieben, da das Pfand nicht wieder ausgelöst wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_011">SSRQ ZH NF II/11, Nr. 11</ref></bibl>).</p><p>
+Bereits 1364 war es zu einem ersten Konflikt zwischen <orgName ref="org000030">Wettingen</orgName> und dem <orgName ref="org004352">Grossmünster</orgName> um die Zehntpflichtigkeit einiger Güter gekommen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273807">StAZH C II 1, Nr. 343</ref></bibl>; 
+Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1643</bibl>). Am 4. August 1440 schlichteten Bürgermeister <persName ref="per000744">Rudolf Stüssi</persName> und <persName ref="per013915">Werner Kambli</persName>, Vogt von 
+<placeName ref="loc009768">Höngg</placeName>, in einem weiteren Streit zwischen <orgName ref="org000030">Wettingen</orgName> und dem <orgName ref="org004352">Grossmünsterstift</orgName>, in dem sie sich gegenseitig vorwarfen, sie beziehungsweise ihre damit beauftragten Meier würden den 
+Weinzehnten auch von Gütern einziehen, die nicht zu ihrem Anteil gehörten. Die Situation war allerdings auch kompliziert, da die Güter der beiden Zehntherren <orig>byeinander und undereinander</orig> lägen. Daraufhin wurde im Urteil genau festgehalten, 
+welche Güter dem Meierhof des <orgName ref="org004352">Grossmünsters</orgName> in <placeName ref="loc009768">Höngg</placeName> den Weinzehnten schuldeten; alle in der Urkunde nicht genannten Güter aus dem Kirchspiel <placeName ref="loc009768">Höngg</placeName> sollten dem <orgName ref="org000030">Abt und Konvent von <placeName ref="loc000074">Wettingen</placeName></orgName> 
+den Zehnt entrichten (<bibl>StAAG U.38/1017</bibl>; Abschrift: <bibl>StAAG AA/3116, fol. 96r-98r</bibl>; Digitalisat der Abschrift: <bibl><ref target="https://www.e-codices.unifr.ch/de/saa/AA3116/96r/0/Sequence-955">StAAG AA/3116</ref></bibl>).
+Auf diese Ausscheidung von 1440 nimmt die vorliegende Erneuerung in der Einleitung Bezug und sie diente als Vorlage: Die im vorliegenden Stück genannten Vorbesitzer der jeweiligen Güter entsprechen den Namen der Inhaber von 1440. Die Version von 1440 
+wurde zudem in die Urbare des Stiftsmeierhofs von <placeName ref="loc009768">Höngg</placeName> aufgenommen, die vermutlich um 1474 angelegt und mit Nachträgen weitergeführt wurden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=934828">StAZH G I 1, Nr. 29</ref>, fol. 12r-18r</bibl>; 
+<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1118747">StAZH G I 5, Nr. 13</ref>, fol. 12r-18r</bibl>).</p>
+<p>Der Zeitpunkt der vorliegenden Aktualisierung der Ansprüche ist vor dem Hintergrund der Erhebung von <persName ref="per025010">Johannes Schnewly</persName> zum Abt von <placeName ref="loc000074">Wettingen</placeName> zu sehen. Abt <persName ref="per015051">Georg Müller</persName> sowie 
+die meisten Konventualen von <placeName ref="loc000074">Wettingen</placeName> waren 1529 unter dem Einfluss des <placeName ref="loc000157">Berner</placeName> Reformators <persName ref="per024920">Niklaus Manuel</persName> zum neuen Glauben übergetreten, einige blieben jedoch katholisch. 
+Nach der Schlacht von <placeName ref="loc000451">Kappel</placeName> 1531 flohen die reformierten Konventualen unter dem Druck des Landvogts von <placeName ref="loc000020">Baden</placeName> nach <placeName ref="loc000065">Zürich</placeName>, worauf eine Rekatholisierung einsetzte. 
+<persName ref="per025010">Johannes Schnewly</persName> wurde von den katholischen Orten als Vorsteher des Klosters eingesetzt und versuchte, die Güter und Finanzen des Klosters in Ordnung zu bringen. <persName ref="per025010">Schnewly</persName> bekleidete zunächst jedoch nur das 
+Amt des Schaffners und verfügte nicht über die Kompetenzen und die Autorität eines Abtes, weshalb er – entgegen dem Kirchenrecht – von der <orgName ref="org005057">Tagsatzung</orgName> am 10. Februar 1534 zum Abt ernannt wurde. Geweiht wurde er jedoch erst am 7. Mai 1535 (<bibl><ref target="/startseite/literaturverzeichnis">Kottmann/Hämmerle 1996</ref>, S. 106-119</bibl>).</p>
+<p>1558 erneuerte das <orgName ref="org004352">Grossmünster</orgName> wiederum das Verzeichnis der zehntpflichtigen Reben, allerdings diesmal, ohne das <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> zu involvieren. Eine Notiz in der linken oberen Ecke 
+vermerkt, dass dieses Verzeichnis 1624 noch einmal aktualisiert wurde (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317407">StAZH G I 207</ref>, Heft 2, fol. 1r-12r</bibl>). Im 16. Jahrhundert scheint die Zusammenarbeit zwischen dem <orgName ref="org004352">Grossmünster</orgName> und 
+<orgName ref="org000030">Wettingen</orgName> relativ reibungslos verlaufen zu sein: Die Zehntanteile wurden nicht nur zusammen verliehen, sondern zumindest zeitweise auch vom <placeName ref="loc000074">Wettinger</placeName> Amtmann eingezogen und dem <orgName ref="org004352">Grossmünster</orgName> 
+weitergeleitet (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_093">SSRQ ZH NF II/11, Nr. 93</ref></bibl>). Dabei scheint es üblich geworden zu sein, dass das <orgName ref="org004352">Grossmünster</orgName> einfach einen Viertel des Gesamtertrags des Zehnten erhielt, während 
+die übrigen drei Viertel dem <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> zufielen. Erst 1644 wurde wieder eine grosse Bereinigung der Güter zwischen den beiden Institutionen nötig (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317408">StAZH G I 208</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_036</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=339610">StArZH III.B.1., fol. 159r-160r</idno></msIdentifier><head>Rechte der Fraumünsterabtei in Wipkingen</head><msContents><summary>Die Offnung regelt die Rechte und Pflichten der Äbtissin des Zürcher Fraumünsters als Inhaberin von Twing und Bann in Wipkingen (1). Nach der Beschreibung der Grenzen des Gerichtsbezirks (2) werden Zinsmodalitäten (3), Fallrecht (4, 5), Gerichtstage im Mai und Herbst (6), Einzäunung (7), Holzbussen (8), Aufsicht durch die jährlich gewählten Fünf (Geschworenen) über Grenzsteine, Stege und Wege sowie über die Fortzahlung der Zinsen nach Güterverkauf respektive Güterteilung geregelt (9-10). Ferner aufgeführt sind die Eidesleistung durch die Fünf (11), das Kaufrecht (12) und die im Hof abzuhaltenden Gerichtstage unter Vorsitz des Amtmanns der Äbtissin oder dessen Stellvertreter (13). Die Äbtissin hat die Hofleute, allenfalls mit Unterstützung des Vogtes, vor anderen Gerichten zu schützen (14). Die Offnung schliesst mit Bestimmungen betreffend das Försteramt und Hirtenamt (15) sowie das Pfändungsrecht und Fertigungsrecht der Äbtissin (16-17).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Zeitgenössische Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.5"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1481-01-01" to="1481-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Ott, Rechtsquellen, Teil 2, S. 195-197</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key000179">Eid</term><term ref="key003931">Fertigung</term><term ref="key000827">Geschworene</term><term ref="key000183">Fall</term><term>Förster</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000012">Offnung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="159r" type="original"/><div>
+<head><lb/><app><lem>Die rechtung ze <placeName ref="loc010875">Wipkingen</placeName>, so dz <orgName ref="org004908">gotzhuß
+<lb/>ze Frowenmu̍nster</orgName> hāt</lem><rdg wit="StArZH III.B.37., fol. 17r-19r">Die rechtung zuͦ <placeName ref="loc010875">Wipchingen</placeName>. Dis ist die rechtung, so die <orgName ref="org004935">stifft zuͦ der appthig 
+<placeName ref="loc000065">Zu̍rich</placeName></orgName> haͧt ze <placeName ref="loc010875">Wipchingen</placeName></rdg><rdg wit="StArZH III.B.38., fol. 53r-57r">Diß ist die rechtung, so die <orgName ref="org004935">stifft zuͦ der apty <placeName ref="loc000065">Zürich</placeName></orgName> hat zuͦ <placeName ref="loc010875">Wipchingen</placeName></rdg></app>
+</head>
+<p><seg n="1"><add place="right margin" hand="later hand">Alle gericht biß an
+<choice><abbr>d</abbr><expan>das</expan></choice><!-- Wird im Portal nicht richtig dargestellt -->
+malefiz</add><note>Im 18. Jahrhundert brachte eine Hand am Rand
+der einzelnen Artikel einen Inhaltsbeschrieb an.</note><lb/>Amm
+ersten, das twing und benne und alle geru̍cht <app>
+<lem>miner <lb/>frowen, der eptissin des <orgName ref="org004908">gotzhuß
+<placeName ref="loc000065">Zu̍rch</placeName></orgName>,</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">gemelter
+<orgName ref="org004935">stifft</orgName></rdg>
+</app> sin, an tu̍b und frefin, <lb/>die sint eines vogtes.<note>Für
+die Rechte des Vogtes in <placeName ref="loc010875">Wipkingen</placeName> vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_003">SSRQ ZH NF II/11, Nr. 3</ref></bibl></note>
+</seg></p>
+<p><seg n="2"><add place="right margin" hand="later hand">Marchen</add><lb/>Ouch sol man wissen, das die selben twing und banne gand untz
+<lb/>an <placeName ref="loc012140">Linden Bach</placeName> des wegs hin wider die statt, einent hin wider
+<lb/><placeName ref="loc009768">Hoͤngge</placeName> untz an den bach, der hinder <persName ref="per024227"><choice><abbr>Bercht</abbr><expan>Berchtold</expan></choice> Wetzwilers</persName> trotten
+<lb/>ab gaut, ob sich an den <app><lem><placeName ref="loc012136">Kamer Weg</placeName></lem><rdg wit="StArZH III.B.37., fol. 17r-19r"><placeName ref="loc012136">Keͤfferberg</placeName></rdg><rdg wit="StArZH III.B.38., fol. 53r-57r"><placeName ref="loc012136">Käferberg</placeName></rdg></app>, als die guͤtter gond, die von
+<lb/><app><lem>miner frowen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">von der <orgName ref="org004935">stifft</orgName></rdg></app> erb sint.
+</seg></p>
+<p><seg n="3"><add place="right margin" hand="later hand">Zinsrichtung</add><lb/>Ouch sol man wissen, das die selben guͤtter,
+die in dem <choice>
+<abbr>vorgenan</abbr>
+<expan>vorgenanten</expan>
+</choice>
+<lb/><app>
+<lem>kriess</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">kreiss</rdg>
+</app> ligent, erbe sind von <app>
+<lem>dem <choice>
+<abbr>vorgenan</abbr>
+<expan>vorgenanten</expan>
+</choice> gotzhuß</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der genanten
+<orgName ref="org004935">stifft</orgName></rdg>
+</app> um einen <lb/>semlichen zinß, als <app>
+<lem>an unser</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">in der
+<orgName ref="org004935">stifft</orgName></rdg>
+</app> zinß buͤcher verschriben staͤtt. Wenne <lb/><app><lem>sy, ouch min
+frow,</lem><rdg wit="StArZH III.B.37.,  fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">och der <orgName ref="org004935">stifft</orgName> amptman</rdg></app> notturfftig were, so sol man <app><lem>ir</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">im</rdg></app> der selben zinsen <lb/>von
+jeder huͦb <date when="--08-16" type="deadline">ze mittem
+ougsten</date>
+<app>
+<lem/>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">geben</rdg>
+</app>
+<measure commodity="spelt" quantity="2" unit="Mütt" type="volume">ij
+mu̍tt kernen</measure>, die ander <app>
+<lem>kern</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">korn</rdg>
+</app>
+<lb/>zinse sond <date when="--11-11" type="deadline">zuͦ sant
+<persName ref="per000141">Martins</persName> tag</date> vollewertt sin,
+pfening und alle <lb/>zinß sond <date when="--11-30" type="deadline">zuͦ sant <persName ref="per000303">Andres</persName> tag</date>
+<app>
+<lem>gewertt</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">volwert</rdg>
+</app> sin. </seg></p>
+<p><seg n="4"><add place="right margin" hand="later hand">Der huber fahl</add><lb/>Ouch sol man wissen, wer der huͦben hautt, die in den <app><lem>selben</lem><rdg wit="StArZH III.B.37., fol. 17r-19r"/></app> hoff
+<lb/>gehoͤrent, <measure quantity="7" unit="Schuh" type="area">siben schuͦ witt und breitt</measure>, wenne der von todes wegen
+<lb/>ab gautt, das der <app><lem>miner frowen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r">gemelter <orgName ref="org004935">stifft</orgName></rdg></app> eines val schuldig ist: ein keller
+<lb/>das best houpt, das er hautt, der ander jeklicher das best an
+<lb/>eines, ob er vech hantt, wer aber, das er nitt vechs hautt, wann
+<lb/>eines, das selb sol er <app><lem>miner frowen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r">der <orgName ref="org004935">stifft</orgName></rdg></app> geben oder das best gewand,
+<lb/>das er hautt, da er inne ze kilchen gautt.<note>In der jüngeren Fassung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_076">SSRQ ZH NF II/11, Nr. 76</ref></bibl>) wurde dieser Artikel weggelassen.</note>
+</seg></p>
+<p><seg n="5"><add place="right margin" hand="later hand">Der eltest unter
+gemeindern</add><lb/>Ouch soll man wissen,
+were, das drye oder fier mitt ein andren <lb/>teil und gemein hetti, da
+vallet je nun der elterst.<note>In der jüngeren Fassung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_076">SSRQ ZH NF II/11, Nr. 76</ref></bibl>) wurde dieser Artikel weggelassen.</note></seg></p>
+<p><seg n="6"><add place="right margin" hand="later hand">Meyen und herbstgricht</add><lb/>Ouch sol man wissen, wenne ein amptman ein <date period="fall">herpst</date> gericht
+<lb/>oder ein <date when="--05">meygen</date> gericht heisset gebietten, das uff den selben tag
+<lb/>alle, die dar komen sond, die der <choice><abbr>vorgenan</abbr><expan>vorgenanten</expan></choice> guͤttern hond, die
+<lb/>inren etters gesessen sind, so man die offnung an faucht, die
+<lb/>ussren, e das die offnung des hoffes recht uß kum. Wer das
+<lb/>nitt taͤtte, der sol es einem amptman bessren mitt <measure quantity="3" unit="ß" type="currency">iij  ₰</measure>.
+</seg></p>
+<p><seg n="7"><add place="right margin" hand="later hand">Ehefaden</add><lb/>Ouch sol man wissen, das in dem selben hof die <del rend="underline"><unclear>enagen</unclear></del>
+<choice><sic>enaden</sic><corr>evaden</corr></choice>
+<lb/>all gerech sont sin <date when="--11-11">uff sant <persName ref="per000141">Martins</persName></date> tag und in den haber
+<lb/>zaͤlgen <date when="--05-01">uf sant <persName ref="per003337">Walpurgs</persName> tag ze <app><lem>dem</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app>
+<date when="--05">meygen</date></date>.<note>Auf diese Vorschrift in der Offnung betreffend das Einzäunen von Grundstücken, die zur Brach- oder Stoppelweide gehören, verweisen <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> in ihrem Entscheid vom <date when="1550-05-31">31. Mai 1550</date> (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25633">StArZH VI.WP.A.2.:11</ref></bibl>).</note> Wer das nitt
+<lb/>taͤtti, der sol es ouch bessren einem amptman mitt <measure quantity="3" unit="ß" type="currency">iij  ₰</measure>, und
+<lb/>sol es aber darnach machen <date dur="P8D">in achttagen</date>, taͤtte er das nitt, so
+<lb/>bessrett er <app><lem/><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">es</rdg></app> mitt zwiffalter buͦse.
+</seg></p>
+<p><seg n="8"><add place="right margin" hand="later hand">Holtzbussen</add><lb/>Ouch sol man wissen, wer einer einung verschuldet an gru̍nem
+<lb/>holtz, der sol jeklichem stumppen bessren mit <measure quantity="3" unit="ß" type="currency">iij  ₰</measure>. Die selben
+<lb/>einung soͤllend all eines amptmans sin, und ware, das sy notturfftig
+<lb/>weren, ze bannen holtz oder veld fu̍ror, denne hie vor verschriben
+<lb/>stautt, das mu̍gent sy wol tuͦn, als sich der merteil under den
+<lb/>husgenosen erkennot. Die selben einung sind zwenteil <choice><sic>der
+<lb/>der</sic><corr><lb/>der</corr></choice> gebursami und der dritteil eines amptmans.
+</seg></p>
+<pb n="159v" type="original"/><p><seg n="9"><add place="left margin" hand="later hand">Marchstein setzen, steg und weg <unclear>bessern</unclear></add><lb/>Ouch sol man wissen, das man <date dur="R/P1Y">alle jar</date> in dem selben hoff fu̍nf
+<lb/>erkiesen sol, die us gon sond, steg und weg, als man <app><lem>sin</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">sy</rdg></app> nottufftig
+<lb/>ist und gewonlich har ist komen, und sond ouch marckt stein
+<lb/>setzen, als man <app><lem>sin</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">sy</rdg></app> nottuftig ist und man es an sy vordret.
+</seg></p>
+<p><seg n="10"><add place="left margin" hand="later hand">Zinß abtheilung</add><lb/>Ouch <del>sol</del> sont die selben fu̍nf zinß bescharen<!-- https://www.ssrq-sds-fds.ch/lemma-db-edit/views/view-lemma.xq?id=lem010515 -->, da guͤtter geteilt
+<lb/>wurden oder von ein ander verkoufft, uff ein jeklichs, als sy
+<lb/>duncket, das es nach dem zinß getragen mu̍g <app><lem>durch das min
+<lb/>frow und ir gotzhuß</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">umb dz die <orgName ref="org004935">stifft</orgName> ir zins</rdg></app> nitt verliere. Were aber, das es w̍ber sechen
+<lb/>wurde, das dekeines guͦtt ze schwach wurde umb denn zins, als
+<lb/>denne daruff komen ist, so sol man je griffen an das naͤchste, das
+<lb/>da von <app><lem>dem</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app> geteilt oder verkouffet ist, <app><lem>also das min frow</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">um das die gemelt <orgName ref="org004935">stifft</orgName></rdg></app> ir zinß
+<lb/>nitt verliere.
+</seg></p>
+<p><seg n="11"><add place="left margin" hand="later hand">Eidleistung</add><lb/>Ouch sol man wissen, das die <choice><abbr>egenan</abbr><expan>egenanten</expan></choice> fu̍nf, die hie zuͦ herkosen
+<lb/>sint, sond <date dur="R/P1Y">jerlich</date>
+<app><lem>uff den heilgen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">einen eid</rdg></app> schweren, diß <choice><abbr>vorgenan</abbr><expan>vorgenanten</expan></choice> sachen
+<lb/>ußzerichten, by ir eid nieman zuͦ lieb noch ze leid, als sy das
+<lb/>best duncket.
+</seg></p>
+<p><seg n="12"><add place="left margin" hand="later hand">Kauffs recht</add><lb/>Ouch sol man wissen, das in disem hoffrecht ist, wer sinu̍ guͤtter
+<lb/>verkouffen wil, das der sinem geteilet an dem ersten bietten sol
+<lb/>und ouch ze kouffen geben, ob er als vil darumb wil geben, als <lb/>ein ander. Woͤlt er es aber nitt kouffen noch alvil darumb geben,
+<lb/>als ein ander, so sol er es dem naͤchsten erben bietten und ze
+<lb/>kouffen geben in dem <choice><abbr>vorgenan</abbr><expan>vorgenanten</expan></choice> recht. Woͤlt ouch der nitt kouffen,
+<lb/>so sol er es bietten und geben den, die des <del>h</del> selben hoffes hant.
+<lb/>Wend aber die nitt als vil geben, als ander lu̍t, so hautt er gewalt
+<lb/>ze gebenne, wem er wil.
+</seg></p>
+<p><seg n="13"><add place="left margin" hand="later hand">Gricht halten</add><lb/>Ouch sol man <add place="above">wissen</add>, das <app><lem>miner frowen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der <orgName ref="org004935">stifft</orgName></rdg></app> amptman allweg ze <choice><sic>achtagen</sic><corr>achttagen</corr></choice><!-- ahh: Achttag hier nicht im Sinne von Woche wie oben, sondern Banntag/Gerichstag, vgl.  DRW: Bedeutung 1: http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?index=lemmata&term=Banntag#Banntag. -->
+<lb/>richten sol in dem hoff, so man <app><lem>sin</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">sy</rdg></app> notturfftig ist, ald es <app><lem>imen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">jeman</rdg></app>
+<lb/>an in vordret oder es gewonlich <app><lem/><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">ist</rdg></app> ze richten. Wer aber, das er es 
+<lb/>nitt getuͦn moͤchti, so sol er heissen richten einen keller <app><lem>oder einen
+<lb/>andern</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app>, das den lu̍tten gericht werd.
+</seg></p>
+<p><seg n="14"><add place="left margin" hand="later hand">Vor andern grichten schirmen</add><lb/>Ouch sol <app><lem>min frow</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">min herren von <placeName ref="loc000065">Zu̍rich</placeName> innammen der <orgName ref="org004935">stifft</orgName></rdg></app> die lu̍tt in dem hoff schirmen, das si nieman
+<lb/>lade gen <placeName ref="loc000923">Costentz</placeName> noch an andru̍ gericht noch sy nieman <placeName ref="loc000065">Zu̍rch</placeName>
+<lb/>verbietten sol. Wer aber, da sy dar zuͦ notturfftig wer eines vogtes,
+<lb/>der sol <app><lem>ir</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app> ouch helfen, die lu̍tt hie by <app><lem>ze</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app> schirmen.
+</seg></p>
+<p><seg n="15"><add place="left margin" hand="later hand">Forster- und hirten wahl</add><lb/>Ouch sol man wissen, das <app><lem>min frow und ir amptman</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der <orgName ref="org004935">stifft</orgName> amptmann</rdg></app> und ouch
+<lb/>die lu̍tt, die in den hoff gehoͤrent, einen forster haben sont mitt
+<lb/>der rechtung, die ouch einem forster an gehoͤrent. Und sol man
+<lb/>ouch den vorster <date dur="R/P1Y">jerlich</date>
+<date when="--01-01">zuͦ dem ingenden jar</date> setzen und sol
+<lb/>ouch ein keller die lu̍tt samlen, die in den hof gehoͤrent, als
+<lb/>verre er mag zuͦ dem zil, und <app><lem>sol einen forster setzen</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">sol ein vorster gesetzt werden</rdg></app>, als sich
+<lb/>der merteil erkennet <app><lem>under den</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app>. Wer aber, das es sich <app><lem>gelu̍ch</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r"/></app>
+<lb/>teilti <app><lem>under den lu̍ten</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">in der wal</rdg></app> oder es stoͤssig wurde, des sol man hin komen
+<pb n="160r" type="original"/><lb/>an einen amptman, und an wedren teil, der fallet, da sol man
+<lb/>es hinlichen. Das selb sol man ouch tuͦn einem <choice><sic>hu̍rtten</sic><corr>hirtten</corr></choice>.
+</seg></p>
+<p><seg n="16"><add place="right margin" hand="later hand">Verabsäumende
+verzinsungen</add><lb/>Ouch sol man wissen, wer die selben
+guͤtter ungezinset ließ <date dur="P3Y">dru̍ <lb/>jar</date> nach
+ein andren, so es <app>
+<lem>min frow oder ir amptman vorderti</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der
+<orgName ref="org004935">stifft</orgName> amptman an sy ervorderti</rdg>
+</app>, <lb/>die guͤtter weren <app>
+<lem>miner frowen</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der
+<orgName ref="org004935">stifft</orgName></rdg>
+</app> ledig von den, die usserent <lb/>etters gesessen sint, die
+aber inrent gesessen sind, die hautt <lb/><app>
+<lem>min frow</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">ein amptman</rdg>
+</app> gewalt ze pfenden, so <app>
+<lem>si ir zinses</lem>
+<rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">man der zinsen</rdg>
+</app> nitt enberen wil. </seg></p>
+<p><seg n="17"><add place="right margin" hand="later hand">Fertigung der käuffen</add><lb/>Wer ouch der selben guͤtter koufft oder verkoufft <app><lem/><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">ald versetzt</rdg></app>, der sol es vertigen
+<lb/><date dur="P1Y">in jars frist</date> an <app><lem>miner frowen hant oder an eines amptmans
+<lb/>hand</lem><rdg wit="StArZH III.B.37., fol. 17r-19r">der <orgName ref="org004935">stifft</orgName> amptman hand</rdg></app>. Taͤtte er das nitt, wenn es denn jar und tag ungevertiget
+<lb/>belibet, so sol es <app><lem>dem gotzhuß</lem><rdg wit="StArZH III.B.37., fol. 17r-19r; StArZH III.B.38., fol. 53r-57r">der obgemelten <orgName ref="org004935">stifft</orgName></rdg></app> ledig sin, es stuͤnde denn in krieg.<note>Dieser Artikel betreffend die Fertigung wurde am <date when="1539-02-04">4. Februar 1539</date> abgeändert (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283420">StArZH III.B.37., fol. 19r-v</ref></bibl>;
+vgl. die Anmerkung zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_076">SSRQ ZH NF II/11, Nr. 76</ref>, Art. 15</bibl>).</note>
+</seg></p>
+</div>
+</body>
+<back>
+<div n="1">
+<p>Die Niederschrift im Häringischen Urbar von ca. 1481 bildet die älteste
+Überlieferung der Rechte des <orgName ref="org004908">Fraumünsters</orgName> in
+<placeName ref="loc010875">Wipkingen</placeName>. Eine in die Zeit der Reformation
+zu datierende Aufzeichnung enthält im ersten, pergamentenen Teil des
+Heftes mit dem Titel <quote>Offnungen herpst uund meyengricht der
+apty</quote> wenige inhaltliche Anpassungen, wobei nicht mehr von
+der Äbtissin, sondern vom <orgName ref="org004935">Stift</orgName> und dessen Amtmann
+die Rede ist (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283419">StArZH III.B.37.,
+fol. 17r-19r</ref></bibl>). Diese in der Übergabe des Niedergerichts an die
+Stadt <placeName ref="loc000065">Zürich</placeName>
+(vgl. Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>) begründeten Abweichungen
+werden im Folgenden als alternative Lesung wiedergegeben; auf die
+Dokumentierung rein sprachlicher Erneuerungen wird dagegen
+verzichtet.</p></div>
+<div n="2"><p>Die beiden Artikel die Fallabgabe betreffend (Art. 4 und 5) wurden in der auf die
+veränderten herrschaftlichen Verhältnisse angepassten Fassung von
+frühestens 1524 durch Streichung getilgt (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283419">StArZH III.B.37.,
+fol. 17r-19r</ref></bibl>). Wie dort ein nachträglich angebrachter
+Randvermerk erläutert, wurden diese am <date when="1558-02-09">9.
+Februar 1558</date> von Statthalter <persName ref="per013943">Bräm</persName> und
+beiden Räten für ungültig erklärt. Die ebenfalls überlieferte
+Urteilsurkunde beschreibt die Umstände im Konflikt um die Fallpflicht
+zwischen <orgName ref="org004934">Fraumünsteramt</orgName> und der <orgName ref="org007945">Gemeinde
+<placeName ref="loc010875">Wipkingen</placeName></orgName> etwas ausführlicher
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25635">StArZH VI.WP.A.2.:13</ref></bibl>). In der jüngeren Fassung
+sind die beiden Artikel gänzlich weggelassen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_076">SSRQ ZH NF II/11, Nr. 76</ref></bibl>).</p></div>
+<div n="3"><p>Die Rechte des zu Beginn erwähnten Vogtes, in dessen Kompetenz die hochgerichtlichen Fälle lagen, sind ebenfalls überliefert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_003">SSRQ ZH NF II/11, Nr. 3</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

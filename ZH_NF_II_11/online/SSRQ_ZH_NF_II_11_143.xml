@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_143</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=755145">StAZH A 154, Nr. 80</idno></msIdentifier><head>Bittschreiben der Gemeinde Albisrieden um Nichtversetzung des Wasenwinkels auf die Allmende</head><msContents><summary>Die Abgeordneten der Gemeinde Albisrieden gelangen an Bürgermeister und Rat der Stadt Zürich mit einer Bitte. Sie haben vernommen, dass der Winkel (Schindanger) des Wasenmeisters neben das Hochgericht auf ihre Allmende versetzt werden soll. Dadurch würde der Gemeinde grosser Schaden entstehen. Da die Landstrasse und die Wege zum Hochgericht bei nassem Wetter fast unbrauchbar seien, würde das Volk über die Güter und Felder der Gemeinde laufen (1). Die Knechte des Wasenmeisters könnten die Kadaver unterwegs einfach in die Felder werfen, weil der Winkel so abgelegen liegt. Zudem würden ihre jederzeit mitlaufenden Hunde die Güter schädigen (2). Der Ort ist nicht nur weit abgelegen von der Stadt, sondern auch von fliessendem Wasser, welches zu solchen Verrichtungen nötig wäre (3). Der Schindanger käme auf ihre Allmende selbst zu liegen, wo nicht nur das Vieh von Albisrieden, sondern auch von Wiedikon und manchmal sogar von Altstetten weidet. Es ist zu befürchten, dass das Vieh, wenn es Aas riecht, in Panik ausbrechen und sich gegenseitig erdrücken würde, neben vielen anderen Schäden, die in solchen unangenehmen Nachbarschaften entstehen können (4). Aus diesen Gründen bittet die Gemeinde Albisrieden darum, dass Bürgermeister und Rat einen anderen Platz auswählen, der nicht ganz so abgelegen ist und näher am Wasser liegt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1690-04-01"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key001033">Abdeckerei</term><term ref="key000307">Allmende</term><term ref="key003918">Petition</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_A_154__Nr__80__S__1_.tif"/>
+<p><lb/>Herr burgermeister <abbr>etc</abbr>, 
+<lb/>hochgeachte, woledle, gestrenge, veste, ehr-
+<lb/>und nothveste, fromme, fürnemme, fürsichtige
+<lb/>und weise, insonders hochgeehrte gnädige
+<lb/>herren und vätter.</p>
+<p><lb/>Wir, die abgeordnete einer <orgName ref="org007861">gmeind <placeName ref="loc010356">Albisrieden</placeName></orgName>, 
+<lb/>eüwere getreüwe und gehorßamme underthannen,
+<lb/>erschynen vor eüch, unßeren gnädigen <add place="above">lieben</add> herren,
+<lb/>in nammen und von wägen der gantzen gemeindt
+<lb/>daselbsten mit undertheniger bitt, die väter<lb break="no"/>lich
+geruehen woltend, unß in unßseren an<lb break="no"/>bringen
+gnädigist zuverhören.</p>
+<p>
+<lb/>Es ist by weniger zeith unßerer gemeindt
+<lb/>bedaurlich vor kommen, wie das ihr, unßer
+<lb/><choice><abbr>gn</abbr><expan>gnädigen</expan></choice> lieb herren, gesinnet, den also genannten
+<lb/>winkel des waßenmeisters uff unßers
+<lb/>gmeindwerch nechst dem hochgericht versetzen
+<lb/>zulaßen, dardurch dann unß besorgklich
+<lb/>allerhand schaden und unmuts erwachsen
+<lb/>thete. In demme:</p><!-- PS: hier würde ich auf eine Nummerierung verzichten, da bereits im Text mit Erstens etc. strukturiert wird. Mng: Habe ich beibehalten, da es für das Regest klarer wird -->
+<seg n="1"><p><lb/>Erstlich die landtstraß und <unclear>fueswäg</unclear><!-- an PS: Fuhrwege oder Fusswege?--> bis 
+<lb/><subst><del rend="underline">uff die wâhlstatt</del>
+<add place="left margin" type="sign">zu dem hochgericht</add></subst> by naßem wetter vast
+<lb/>ohnbrauchbahr und ohnverzühnt, in welicher
+<lb/>beschaffenheit das volkch <del>so gewohnlich den <lb/>armen sündern <add place="above">nach</add> folgend</del>
+<lb/>über unßere güeter
+<lb/>lauffen und also die frücht und güeter
+<lb/>schädigen wurde.</p></seg>
+<seg n="2"><p><lb/>Zum anderen, das etwann der waßen<lb break="no"/>meister
+knecht haben könte, weliche, wann
+<pb n="2" facs="StAZH_A_154__Nr__80__S__2_.tif"/>
+<lb/>sie saumselig werend, das eint ald ander
+<lb/>abgangen stukch vych, von hünden, auch and<lb break="no"/>ren 
+<add place="left margin">unflätereyen</add> mehr <choice><abbr>rev</abbr><expan>reverenter</expan></choice><note>Mit Formeln wie «reverenter» («mit Verlaub zu sagen», abgekürzt rev. oder r.), «salvo honore» («ohne Verletzung der Ehre», abgekürzt s. h.), «salva venia» («ohne Euer Wohlwollen/Gnade zu verletzen», abgekürzt s. v.) oder «cum venia» («mit Ihrer Erlaubnis», abgekürzt c. v.) distanzierten sich die Schreiber vom 16. bis zum 18. Jahrhundert von unreinen, unflätigen, blasphemischen oder auch nur unfeinen Ausdrücken gegenüber einem (tatsächlichen oder potenziellen) Leser,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sabean 1996</ref></bibl><!-- noch nicht in BSG, eingetragen in Sammelstelle --> (der das Phänomen im Zusammenhang mit der Herausbildung einer Beamten- und Akademikerklasse sieht, die sich vom bäuerlichen Leben immer mehr distanzieren wollte) und <bibl><ref target="/startseite/literaturverzeichnis">Mathieu 2000</ref>, S. 6-10</bibl><!-- noch nicht in BSG, eingetragen in Sammelstelle --> (mit Präzisierungen und weiteren Beispielen zum Raum der heutigen <placeName ref="loc001012">Schweiz</placeName>).</note>, wegen abgelegenheit des
+<lb/>winkels underwegs in unßere frücht
+<lb/>hinein werffen, <subst><del rend="crossout">möchtend auch</del><add place="left margin" type="sign">desglychen</add></subst> durch
+<lb/>ihre jederzeith mit laufenden hünd großen
+<lb/>schaden zufüegen möchtend, dardurch
+<lb/>uns nith nur allerhand unglegenheiten,
+<lb/>sonder auch verschreyung der güeteren
+<lb/>erwachßsen thete.</p></seg>
+<seg n="3"><p><lb/>Drytens, das dis orth von der stadt
+<lb/>zimblich weith abgelegen, auch sehr von
+<lb/>rünnendem waßer, weliches doch zu der<lb break="no"/>glychen
+verrichtungen ohnvermydenlich
+<lb/>nothwendig ist.</p></seg>
+<seg n="4"><p><lb/>Viertens were dißes ohnsaubere orth
+<lb/>in der gmeindt allment selbsten, allwo
+<lb/>die meiste zeith des jahrs der gmeindt
+<lb/><placeName ref="loc009863">Wiedikhen</placeName> und unßer, auch gar bißweilen
+<lb/>der <placeName ref="loc009828">Altstedter</placeName> vych zu weid gehet und
+<lb/>zusammen stoßet. Wann nun diß arme
+<lb/>vych etwas von abgangnen sachen <choice><abbr>rev</abbr><expan>reverenter</expan></choice> schmö<lb break="no"/>ken 
+und vernemmen thete, were zu besorgen,
+<lb/>das selbiges, wie es by derglychen an<lb break="no"/>läsen
+mehr beschechen, errasen,<!-- rasend, verrückt? vgl. Idiotikon, Bd. VI, Sp. 1281 -->
+<lb/><subst><del>und wild werden</del><add place="left margin" type="sign">zusammen lauffen</add></subst>
+<del rend="crossout"><unclear>daruff er</unclear></del> und sich under ein<lb break="no"/>anderen
+ertrukhen ald sonst beschedigen 
+<lb/>thete, zugeschwigen viller anderer
+<pb n="3" facs="StAZH_A_154__Nr__80__S__3_.tif"/>
+<lb/>verdrießlichkeithen, schadens, verschreyung 
+<lb/>und ungelegenheithen, so in derglychen ohn<lb break="no"/>angenemmen
+nachbaurschafften erwachsen
+<lb/>möchtend.</p></seg>
+<p><lb/>In erwegung nun bygebrachter gründen
+<lb/>leben wir der getrosten hoffnung, <choice><abbr>ewr</abbr><expan>euwer</expan></choice>
+<lb/>gnaden und wysheit, ihr, unßer <choice><abbr>gn</abbr><expan>gnädigen</expan></choice> lieb
+<lb/>herren, werden in dißerem fahl nach
+<lb/>dero anerbohrnen väterlichen gnad und
+<lb/>güete unß gnädig verschonnen und etwan
+<lb/>ein ander, nith so gar abgelegen, sonder<lb break="no"/>bahr
+aber dem waßer beqüemer orth
+<lb/>hier zu verordnen, wie wir dann hier
+<lb/>für underthenig und demüethig biten,
+<lb/>alß die wir sind und verblyben.</p>
+<p><lb/>Euwer gnaden und wysheit
+<lb/>gehorsamme und getreüwe
+<lb/>underthannen</p>
+<p><add place="left margin" rend="other ink"><lb/>Geben, den <space quantity="2" unit="cm"/>
+<origDate when="1690-04">aprellen
+<lb/>1690</origDate><note>Platz für das Tagesdatum wurde zwar vom Schreiber ausgespart, später aber nicht ausgefüllt.</note>.</add></p>
+<p><lb/>Ein <orgName ref="org007861">gantze gemeind <placeName ref="loc010356">Rieden
+<lb/>am Albiß</placeName></orgName></p>
+<pb n="4" facs="StAZH_A_154__Nr__80__S__4_.tif"/>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/>Supplication 
+<lb/>der <orgName ref="org007861">gmeind <placeName ref="loc010356">Rieden amm Albiß</placeName></orgName>, daß
+<lb/>der wasen-winckel nicht auff ihr
+<lb/>gmeind-werckh gesetzt werde
+</ab></div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Was hierüber erkhandt worden, ist zu<lb break="no"/>sehen 
+im underschreiber manual sub
+<lb/><date when="1690-04-30">30<hi rend="sup">ten</hi> aprilii anno 1690</date><note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 118</bibl>.</note>
+</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Das Amt des Wasenmeisters oder Abdeckers wurde im deutschen Sprachraum oft vom Scharfrichter ausgeübt, so auch in <placeName ref="loc000065">Zürich</placeName>. Durch die Verleihung des Abdeckereiprivilegs an den Henker konnte dieser seinen Lebensunterhalt
+besser bestreiten und die Obrigkeit konnte es sich leisten, dauerhaft einen Scharfrichter zur Verfügung zu halten. Allerdings führte dieser nur die Aufsicht über das «Abdecken» (Abziehen der Häute) und «Verlochen» (Vergraben der Kadaver); ausgeführt wurden
+diese Arbeiten von seinen Knechten. Im übrigen <placeName ref="loc006593">Europa</placeName> ist die Verbindung von Scharfrichter und Abdeckerei hingegen weitgehend unbekannt (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Enzyklopädie der Neuzeit</ref>, Scharfrichter, Sp. 658-661</bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle. -->).</p>
+<p> 1689 entschied der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName>, dass der bisherige Wasenplatz, der sich beim Schützenplatz vor dem Stadttor befand, 
+dem Ausbau der Befestigungsanlagen zu weichen hatte<!-- Ruoff, Vom Scharfrichter und Wasenmeister, S. 26--> (zum Bau der Stadtbefestigungen vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_122">SSRQ ZH NF II/11, Nr. 122<!--VI.FL.A.1.:3--></ref></bibl>). 
+Daher musste ein neuer Standort für den Wasenwinkel gefunden werden. Die Suche gestaltete sich allerdings schwierig. Am 7. Januar 1689 wurde eine Ratsdelegation damit beauftragt, mit der Gemeinde <placeName ref="loc009863">Wiedikon</placeName> einen neuen Standort,
+die Grösse des Winkels und die Bezahlung dafür zu bereden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244884">StAZH B II 625</ref>, S. 5</bibl>). Am 16. Januar verordnete der <orgName ref="org002406">Rat</orgName>, dass die Mauer um den Wasenplatz abgebrochen und die Steine für den Schanzenbau verwendet werden sollten. 
+Die Ratsdelegation solle gemeinsam mit Untervogt und Geschworenen von <placeName ref="loc009863">Wiedikon</placeName> und dem Wasenmeister noch einmal einen Augenschein nehmen. Aus verschiedenen Gründen sei der Platz an der unteren <placeName ref="loc012085">Brunau</placeName> 
+günstig, weshalb die Verordneten ihn der Gemeinde <placeName ref="loc009863">Wiedikon</placeName> vorschlagen sollten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=244884">StAZH B II 625</ref>, S. 18-19</bibl>).</p>
+<p>Die Ratsabgeordneten erstatteten am 31. Januar Bericht: 
+Besichtigt worden war der Platz gegen den <placeName ref="loc012118">Giesshübel</placeName> (zu abgelegen, zu unbequem zum Graben), der Platz bei <persName ref="per026144">Jacob Trüebs</persName> Gut (wäre Vogt und Geschworenen von <placeName ref="loc009863">Wiedikon</placeName> genehm, 
+aber dem Wasenmeister zu weit weg) und ein Platz unter dem <placeName ref="loc012248">Sihlhölzli</placeName>, zu dem es keine Beschwerden gab (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=755144">StAZH A 154, Nr. 79</ref></bibl>). 
+Am 10. Juli 1689 bat Wasenmeister <persName ref="per026145">Jacob Vollmar</persName> darum, dass der Wasenwinkel auf dem Platz entweder wieder ummauert und so brauchbar gemacht werde oder dass ihm ein anderer Winkel zugewiesen werde.
+Daraufhin wurde beschlossen, mit Fähnrich <persName ref="per026143">Steinbrüchel</persName> zu verhandeln wegen seines Gutes auf dem Platz, so dass der Bau der Fortifikationen weitergeführt werden könne (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244886">StAZH B II 627</ref>, S. 11</bibl>). 
+Am 19. Dezember 1689 wird verordnet, unverzüglich mit dem weiteren Bau und Ausbau der Fortifikationen fortzufahren; dem Wasenmeister soll ein anderer Platz auf dem <placeName ref="loc012120">Gmeimeri</placeName><!-- an PS: Wie soll ich diesen Flurnamen wiedergeben?'Gmeimeri' ist wohl die heutige Form, vgl. den noch existierenden Gmeimeriweg; in den Quellen steht u.a. 'Gemmeinmere', 'Gemeimere' und 'gemeind-merich'; laut Guyer/Saladin/Lendenmann, Strassennamen der Stadt Zürich, kommt es von 'gemein mark', Allmend. PS: Im Bearbeitertext würde ich immer die heute gebräuchliche Standardform einer Ortsbezeichnung verwenden. Die weiteren Informationen zum Ort kann in der Ortsdb untergebracht werden. --> gezeigt und übergeben werden. 
+Er soll das Vieh zu allen Zeiten verlochen und bedecken und den Platz mit einer Mauer einfassen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244886">StAZH B II 627</ref>, S. 156-158</bibl>). Diese Anordnung musste allerdings am 29. März 1690 noch einmal wiederholt werden, zusammen mit dem Befehl, 
+das Gut <persName ref="per026143">Steinbrüchels</persName> zu einem freien offenen Platz zu machen und die Mauer und dortigen Gebäude innert 14 Tagen abzureissen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 84-85</bibl>).</p>
+<p>Die Gemeinde <placeName ref="loc010356">Albisrieden</placeName> reagierte aber auf die drohende Versetzung des Winkels auf ihr Gemeindewerk mit dem untenstehenden Bittschreiben, worauf das Verfahren am 28. April wieder sistiert wurde, um die Gemeinden
+<placeName ref="loc009828">Altstetten</placeName>, <placeName ref="loc010356">Albisrieden</placeName> und <placeName ref="loc009863">Wiedikon</placeName> anzuhören (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 112</bibl>). Zwei Tage später, am 30. April, wurde erneut eine Ratsdelegation 
+mit der Standortevaluation beauftragt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 118</bibl>). Deren Bericht vom 2. Mai 1690 umfasste nun acht mögliche Standorte: 1. den bisherigen Ort, wo die <placeName ref="loc010518">Sihl</placeName> in die <placeName ref="loc000075">Limmat</placeName> fliesst; 
+2. auf dem <placeName ref="loc012120">Gmeimeri</placeName> beim Hochgericht; 3. auf dem <placeName ref="loc012120">Gmeimeri</placeName>, aber näher bei der Stadt, wo dem Wasenmeister selbst ein Stück Land gehört; 4. näher bei <placeName ref="loc009863">Wiedikon</placeName> auf dem 
+sogenannten <placeName ref="loc012240">Saum</placeName>; 5. den eigenen Wasenwinkel von <placeName ref="loc009863">Wiedikon</placeName>; 6. bei der Lehmgrube (Leimgrub); 7. hinter dem <placeName ref="loc012248">Sihlhölzli</placeName> und 8. auf dem <placeName ref="loc012118">Giesshübel</placeName> 
+bei <persName ref="per026144">Jacob Trüebs</persName> Gut. Zu allen Standorten gab es Einwände, aber die Abgeordneten empfahlen den Ort beim Hochgericht (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=755147">StAZH A 154, Nr. 82</ref></bibl>).</p>
+<p>Der Rat folgte dieser Empfehlung und ordnete am 7. Mai an, 
+diesen Platz dem Wasenmeister zuzuweisen und mit einer Mauer zu umfassen (oder wenigstens provisorisch mit einem Setz- und einem dahinter gepflanzten Grünhag). Der Wasenmeister bekam aber die Auflage, das Vieh winters wie sommers zu verlochen und gut zu bedecken;
+dazu musste er bereits im Herbst eine Grube ausheben. Ausserdem sollte er nur das Vieh dort verlochen, das <orig>inn und allernechst umb die statt</orig> abginge, nicht aber jenes aus den äusseren Gemeinden, dem <placeName ref="loc005561">Schwabenland</placeName> 
+oder anderen entlegenen Orten. Die Gemeinde <placeName ref="loc009863">Wiedikon</placeName> solle gemäss ihrem Angebot die Strasse zum Winkel reparieren und unterhalten. Die Säckelmeister sollen den genauen Ort und die Grösse des Winkels bestimmen, wegen der Mauer 
+mit dem Bauherrn sprechen und die Kosten berechnen, mit der Gemeinde <placeName ref="loc010356">Albisrieden</placeName> die Lieferung der Steine bereden und den Wasenmeister zu fleissiger Verlochung des Viehs anhalten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 127-128</bibl>). 
+Als sich nun die Anstösser des ausgesteckten Platzes beschwerten, wurde das Geschäft abermals vertagt bis zur Heimkunft von Statthalter <persName ref="per026142">Meyer</persName> und mit der Einzäunung des Platzes innegehalten; das zwischenzeitlich abgegangene Vieh 
+sollte aber trotzdem dort verlocht werden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 147-148</bibl>).</p>
+<p>Am 5. Juni wurden Bauherr <persName ref="per026141">Holzhalb</persName> und Bergherr <persName ref="per026140">Blarer</persName> beauftragt, zum letzten Mal einen Augenschein zu nehmen, 
+wo auf dem <placeName ref="loc012240">Saum</placeName>, aber so weit von Dorf und Gütern entfernt wie möglich, der Winkel angelegt werden könnte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244888">StAZH B II 629</ref>, S. 169</bibl>). Dagegen protestierte aber jetzt die Gemeinde 
+<placeName ref="loc009863">Wiedikon</placeName> und bat darum, den Wasenwinkel nicht auf die Stelle auf dem <placeName ref="loc012240">Saum</placeName> zu setzen, sondern lieber beim <placeName ref="loc012120">Gmeimeri</placeName> zu bleiben (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=755146">StAZH A 154, Nr. 81</ref></bibl>), 
+worauf der <orgName ref="org002406">Rat</orgName> am 19. Juli 1690 die Ratserkenntnis vom 7. Mai wiederholte und in Kraft setzte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244890">StAZH B II 631</ref>, S. 30-31</bibl>.
+Archäologische Ausgrabungen zeigen, dass der Wasenplatz schlussendlich tatsächlich beim Hochgericht zu liegen kam; wenige Meter von der Stelle entfernt, wo heute der Pavillon im Freibad <placeName ref="loc010528">Letzigraben</placeName> steht (<bibl><ref target="/startseite/literaturverzeichnis">Motschi/Muntwyler 2006</ref></bibl>).
+</p><p>Die Verbindung von Richtplatz und Wasenwinkel ist auch an anderen Orten nachgeweisen, z.B. <placeName ref="loc005655">Emmenbrücke</placeName>, <placeName ref="loc001549">Willisau</placeName> und <placeName ref="loc001063">Sursee</placeName> (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Manser 1992</ref>, S. 208, Anm. 3</bibl>). 
+Verschiedene Ordnungen und Ratserkenntnisse für den Scharfrichter und Wasenmeister zwischen 1617 und 1746 finden sich in<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=254583"> StAZH B III 204</ref></bibl> und <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254584">205</ref></bibl>; 
+eine Ordnung von 1684 hält auch die Einkünfte für die Abdeckerei fest (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=254583">StAZH B III 204</ref>, fol. 13v-19r</bibl>, ediert in <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1935</ref></bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle -->).
+Vgl. zum Wasenplatz und der Abdeckerei die sehr gut untersuchte Situation von <placeName ref="loc005655">Emmenbrücke</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Manser 1992</ref></bibl>); 
+für <placeName ref="loc000065">Zürich</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1934</ref></bibl>, <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1935</ref></bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle. --> und <bibl><ref target="/startseite/literaturverzeichnis">Motschi/Muntwyler 2006</ref></bibl>;
+allgemein <bibl><ref target="/startseite/literaturverzeichnis">Wilbertz 1979</ref></bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle. -->, <bibl><ref target="/startseite/literaturverzeichnis">Nowosadtko 1994</ref></bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle. -->, <bibl><ref target="/startseite/literaturverzeichnis">Enzyklopädie der Neuzeit</ref>, Scharfrichter, Sp. 658-661</bibl><!-- noch nicht in BSG; eingetragen in Sammelstelle. -->.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

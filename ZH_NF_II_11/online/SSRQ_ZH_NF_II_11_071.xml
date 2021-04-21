@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_071</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250781">StAZH C I, Nr. 852</idno></msIdentifier><head>Gütlicher Entscheid im Konflikt um Fischereifache in der Limmat im Hard</head><msContents><summary>Bartholomäus Köchli und Felix Bertschiner, beide Ratsherren, sind vom Rat bestimmte Schiedsrichter im Konflikt zwischen Meister Rudolf Stoll und Meister Hans Lindiner, beide Ratsherren und Hardmeister, sowie Rudolf Vögeli, Hardmeier, einerseits und Junker Christoffel Murer andererseits wegen eines Fachs (Gehege), das Murer in der Limmat in seiner Weide im Hard auf der Wipkinger Seite zu weit in den Fluss hinaus verlegt hat.  In einem gütlichen Entscheid wird bestimmt, dass das äussere Auge (Teil eines Fischfanggeräts) samt der Kripfe (Flusswehr) beseitigt und das obere Fach geschlossen werden soll. Dafür darf Murer an der anderen Seite gegen das Hard drei Fache erstellen, die allerdings nicht länger als ein Auge sein dürfen; in jedes mag er eine Reuse setzen. Sollten sich die Einrichtungen als schädlich herausstellen, hat er diese widerstandslos zu entfernen. Es werden zwei gleichlautende Urkunden ausgestellt und auseinander geschnitten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Niklaus Köchli</author><filiation type="current">Original (Chirograph)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.5"/><width unit="cm" quantity="40.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1546-09-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000751">Vergleich</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__852__r_.tif"/>
+<p>
+<seg><lb/>Die naachbenemptenn <persName ref="per014763">Bartlome Köchli</persName> und <persName ref="per026705">Felix Bertschiner</persName>, bed der räthen, von unnseren gnedigen herren <orgName ref="org002406">burgermeyster und rat der statt <placeName ref="loc000065">Zürich</placeName></orgName>
+<lb/>zu nachvolgendem span geschiben<!-- ahh: Streitsachen vor eine bestimmte Instanz ziehen, vgl. https://www.idiotikon.ch/Register/faksimile.php?band=8&spalte=58&hl=244976 Bedeutung 3 a) α (alpha)-->, bekhännent unnd thund khundt mënngclichem hiemit, alß sich stös unnd spän erhaben und zugethragen habent entzwüschen den <lb/>frommen, ersamen unnd wysen meyster <persName ref="per006154">Rudolff Stollen</persName> unnd meyster <persName ref="per025226">Hanns Lindiner</persName>, bed der räthen unnd hardmeyster, von gedachten unnsern gnedigen herren <lb/>hiertzu ver<damage agent="hole"><supplied resp="ahh">o</supplied></damage>rdnett, denne <persName ref="per025228">Rudolffen Vögeli</persName>, hardmeyeren an einem, unnd dem vesten, <add place="above">ersamen</add> jungkher <persName ref="per025227">Cristoffel Murer</persName>, all burgere gemëllter statt <placeName ref="loc000065">Zürich</placeName>, an dem <lb/>anndren theyl von wëgen eines fachs<note>Zum Umgang mit dieser Vorrichtungen zum Fischfang in der Form eines Geheges (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id1.htm#!page/10635/mode/2up">Bd. 1, Sp. 638</ref></bibl>) vgl. <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_037">SSRQ ZH NF II/11, Nr. 37</ref></bibl> Zur Fischerei und den verschiedenen Fischfanggeräten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dalcher 1957</ref></bibl>.</note>, so gedachter junckher <persName ref="per025227">Christoffel</persName> in der <placeName ref="loc000075">Lindmagt</placeName> inn siner weid im <placeName ref="loc012125">Hard</placeName> uff der syten gëgen <placeName ref="loc010875">Wipchingen</placeName> gemacht, <lb/>welichs gedachter hardmeyer sampt beden herren, den hardmeysteren, vermeint, zewyt hinus gestreckt, unnd aber vermëlter junckher <persName ref="per025227">Stoffel</persName> vermeint, <lb/>dardurch niemans kein schad alld nachtheil zugewarten sin. Welchs spanns erstermellter hardmeyer unnd benempter junckher <persName ref="per025227">Stoffel Murer</persName> fur ob<lb break="no"/>gedachte, unser gnedig herren, zu rächt khomen, die unnß uff den stoß zekeren unnd (ob müglich) gütlich zemitlen bevolchen.</seg>
+<seg>Unnd so wir dann nach <lb/>sollichem bevelch den stoß besehen, sy in iren clagen unnd anntwurten widerumb verhört, ouch an beden theilen sovil vermögen, das sy unns mit mund und hand, <lb/>solichen span gütlich hinzeleggen verwilligt, haben wir unns deß selben gütlichen spruchs söllicher maß enntschloßen, das berürter junckher <persName ref="per025227">Stoffel</persName> am ersten fach, <lb/>darumb der gspan ist, das ußer oug<note>Beim Auge handelt es sich um einen Teil eines Fischfanggeräts (<bibl><ref target="/startseite/literaturverzeichnis">Dalcher 1957</ref>, S. 24</bibl>).</note> sampt der kripfen<note>Flusswehr (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id3.htm#!page/30843/mode/2up">Bd. 3, Sp. 845</ref></bibl>).</note> dannen thun unnd keins mer dar machen, ouch das er das ober fach gar dannen schlysen solle. Darge<lb break="no"/>gen unnd hinwiderumb aber habent wir im gegundt unnd zugelaßen, das er an der änneren syten gegen <placeName ref="loc012125">Hard</placeName> dru fächli uffs aller unschedlichest, allß er mag, <lb/>machen möge, so fer keins lennger sye dann eines ougs lanng, das er in jedes ein rüschen setzen möge, doch mitt dem geding unnd vorbhallt, ob man mittler <lb/>zit gespüren unnd sëhen, das etwas schadens darvon komen wurde, so sölle er sich nit wideren, die selben widerumb dannen zethun.</seg>
+<seg>Unnd hiemit söllent sy beder <lb/>syts dises ires gägenwirtigen spans halb gericht unnd vertragen sin, dem gethru̍wlich geläben unnd nachkomen, wie sy das zethun gelopt unnd versprochen <lb/>habent.</seg>
+<seg>In urkund dis zedels, deren zwen glichs luts gemacht, uß ein annder geschnitten unnd yedem theyl einen geben sind uff <origDate when="1546-09-09">donnstag, des nündten tags <lb/>herpstmonats nach Cristi gepurt getzalt tusent fünffhundert viertzig unnd sechs jar</origDate>, allso wann der ein verloren, verleit ald verhallten wurde, <lb/>solle dem anndren in allweg glouben geben werden.</seg>
+</p>
+<signed><lb/><persName role="scriptor" ref="per025225">Niclaus Köchli</persName>
+<choice><abbr>sßt</abbr><expan>scripsit</expan></choice>.</signed>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__852__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Spruch von wegen <choice><abbr>j</abbr><expan>junker</expan></choice>
+<persName ref="per025227">Stoffell Murers</persName>
+<lb/>vachen im <placeName ref="loc012125">Hard</placeName> inn der <placeName ref="loc000075">Linmagt</placeName>
+<lb/>1546</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die hier festgehaltenen Bestimmungen flossen auszugsweise in die verschiedenen Exemplare des sogenannten «Hardbüchleins» ein (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2498237">StAZH H I 64, Teil 1, fol. 13r</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=440854">StArZH III.E.2., fol. 22r</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=441073">StArZH III.E.3., Teil 2, S. 14</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=441078">StArZH III.E.4., Teil 1, S. 21-22</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=441079">StArZH III.E.5., S. 18-19</ref></bibl>). Die dortigen Ordnungen und Eide betreffend die städtische Allmend im unteren <placeName ref="loc012125">Hard</placeName> wurden um mehrere, hauptsächlich Weiderechte betreffende Urteile ergänzt. Durch diese auf die Datierung und den Entscheid reduzierten Aufzeichnungen erlangten die in einem spezifischen Kontext entstandenen Urteile generelle Gültigkeit (vgl. auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_126">SSRQ ZH NF II/11, Nr. 126</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

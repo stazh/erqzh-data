@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_158</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25344">StArZH VI.WD.A.8.:104</idno></msIdentifier><head>Schildtafel-Ordnung der Gemeinde Wiedikon</head><msContents><summary>Die Schildtafel-Ordnung der Gemeinde Wiedikon regelt unter anderem die Bedingungen für die Aufnahme auf die Schildtafel (1-4), den Ausschluss bestimmter Personen von Gemeindeanlässen (5-8), die Anzeigepflicht und die Zuständigkeit der Obervögte bei Diebstahl (9), den Verkauf von Kirchenstühlen (10), den Geltungsbereich der Ordnung, die Aufsicht darüber und die Rechnungslegung (11). Das Original war gesiegelt von Zunftmeister David Oeri.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Zeitgenössische Abschrift (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1746-01-01" to="1746-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000291">Diebstahl</term><term>Gemeindeversammlung</term><term ref="key000574">Rechnungswesen</term><term ref="key004022">Satzung</term><term ref="key005349">Stimmrecht</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head><lb/>Scheilt taffellen ordtnung der pünckten zu <placeName ref="loc009863">Weidickon</placeName>, wie selbeige solle
+<lb/>gehalten und beobachtett werden.</head>
+<p><lb/>1<hi rend="sup">o</hi> Solle keinem kein scheilt angenohmen werden, er führe dan ein eigen haußhaltung.</p>
+<p><lb/>2<hi rend="sup">o</hi> Eß sölle keiner, ehe mann ihme den scheilt abnimbt, dem darzu bestimdten taffellenmeister
+<lb/>den so genamten hauß guldtin erlegen.</p>
+<p><lb/>3<hi rend="sup">o</hi> Ein verauffahltter<!--uffall: gerichtlicher Konkurs, Idiotikon I, Sp. 737--> mag nicht angenomen werden, auch bey keinem anloß, was
+<lb/>gattung sie waren, zu keiner wahl tüchtig er fundten werden.</p>
+<p><lb/>4<hi rend="sup">o</hi> Auff gleichen fueß soll auch ein bevogteter trankteirtt und gehalten werden.</p>
+<p><lb/>5<hi rend="sup">o</hi> Kein verlumpedter bey gemeindt anlößen gedultett werden.</p>
+<p><lb/>6<hi rend="sup">o</hi> Sölle auch kein proffoß gedultett werden, wohl aber ein wächter.</p>
+<p><lb/>7<hi rend="sup">o</hi> Solle auch kein allmoßenß gnößiger, der oberkeitliche almoßen oder von der gemeindt etwaß hat, geleiten <add place="below">werden</add>.</p>
+<p><lb/>8<hi rend="sup">o</hi> So einer sich muthwilliger weiß von weyb und kindteren weg begab, daß selbige
+<lb/>durch die entbehrung ihreß <sic>leiberlichen</sic> vatters dem oberkeitlichen allmoßen oder der gemeindt
+<lb/>beschwerlich wurdte, möge noch seiner ankunftt auch nicht mehr geleiten werden.</p>
+<p><lb/>9<hi rend="sup">o</hi> So einer ein diebstall begieng, eß wer bey gemeindt anlößen oder sonst auff was form
+<lb/>und gattung es immer geschähe, solle selbiger denen meinen hochgeachten herren obervögten
+<lb/>geleitett werden <choice><abbr>u</abbr><expan>und</expan></choice> die beschaffenheit deß fählers ihrer judicattur über laßen werden.</p>
+<p><lb/>10 Wan einer noth wägen oder sonsten ein kirchen orth by <placeName ref="loc010769">St. <persName ref="per000438">Petter</persName></placeName> wölle verkauffen, so solle er
+<lb/>eß zu vor einem gemeindt genoßen oder der gemeindt kundt machin, und so es dan niemandt
+<lb/>wolte, köne er eß verkauffen an andter <placeName ref="loc010769">St. <persName ref="per000438">Petter</persName></placeName> gemeindtß gnoßen.</p>
+<p><lb/><seg>11<hi rend="sup">o</hi> Sollendt obbenamdte arttickell by kirchen wahlen so wohl alß by gemeindt wahlen beobachtett
+<lb/>und gehalten werden und sollend von einer ehrsamen gemeindt ein oder <num value="2">zwey</num> ehrliche männer
+<lb/>dar zu bestelett werden, umb fleißige auffsicht und guthe ordnung zu halten, auch zu gewüßen
+<lb/>zeiten denen samtlichen vorgesetzen und einer gantzen gemeindt schultig sein, vor die so genamten
+<lb/>haußgultin gute rächnung zu halten <choice><abbr>u</abbr><expan>und</expan></choice> zu gäben.</seg>
+<seg>Und dißeß alleß zu vesten gezeügnuß
+<lb/>hatt der wohlgeachte, wohledelgestränge, fromme, veste, vornahme, vorsichtige und weiße herren,
+<lb/>herr zunfftmeister <persName ref="per026414">Davidt Öri</persName>, auff an ihne beschähenes ehrenbeitiges ansuchen vorbeschriebne
+<lb/>pünckten und artickllen mit seinem eignen anerbohren ehren insigel bekrafftigett.</seg>
+<seg><lb/>So gäben <choice><abbr>u</abbr><expan>und</expan></choice> beschähen <origDate when="1746">1746 jahr</origDate>.</seg></p>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Schilt-taffelen ordtnung 
+<lb/>der <choice><abbr>e e</abbr><expan>einer ehrsamen</expan></choice>
+<orgName ref="org007942">gemeindt 
+<lb/><placeName ref="loc009863">Weidickon</placeName></orgName>, <date when="1746">1746</date>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Schildtafel, eine Sammlung von Wappen der Gemeindemitglieder, wurde in <placeName ref="loc009863">Wiedikon</placeName> 1731 eingerichtet. Die einzelnen Wappen befanden sich auf beweglichen Täfelchen, so dass Wappen hinzugefügt oder entfernt werden konnten. 
+Die Verbindung von Bedingungen zur Aufnahme auf die Schildtafel und Bestimmungen zu Gemeindeanlässen in der vorliegenden Ordnung lassen vermuten, dass nur stimmberechtigte Bürger dazu berechtigt waren, ihr Wappen auf der Schildtafel zu führen. 
+Die Schildtafel befand sich im Gesellenhaus; 1620 hatte die <orgName ref="org007942">Gemeinde <placeName ref="loc009863">Wiedikon</placeName></orgName> die Erlaubnis erhalten, dort Gericht und Schule abzuhalten sowie an Gerichtstagen und Gemeindeanlässen vom Stubenknecht bewirtet zu werden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_106">SSRQ ZH NF II/11, Nr. 106</ref></bibl>).
+Als das Gesellenhaus 1880 verkauft wurde, wurde die Schildtafel aufgelöst und die Wappentäfelchen ihren Besitzern ausgehändigt. Zur Schildtafel und der Schildtafelordnung von <placeName ref="loc009863">Wiedikon</placeName> vgl. 
+<bibl><ref target="/startseite/literaturverzeichnis">Etter 1970</ref>, S. 31-34, Tafel 23, Tafel 24</bibl>;<!-- Kurztitel fehlt; eingetragen in Sammelstelle -->
+<bibl><ref target="/startseite/literaturverzeichnis">Etter 1987</ref>, S. 92-93</bibl>. Eine Schild- oder Wappentafel 
+aus <placeName ref="loc008707">Fluntern</placeName> von 1875 ist erhalten; sie befindet sich derzeit im Stadtarchiv <placeName ref="loc000065">Zürich</placeName> an einer Wand im 2. Stock, vgl. 
+<bibl><ref target="/startseite/literaturverzeichnis">Dünki 2011</ref>, S. 106-110</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Angst et al. 1995</ref>, S. 99</bibl>.  
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

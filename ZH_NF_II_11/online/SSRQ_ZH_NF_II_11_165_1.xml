@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_165_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=758517">StAZH A 154, Nr. 134</idno></msIdentifier><head>Appellation vor den Zunftmeistern zur Meisen im Streit wegen der Bewirtung von Fremden</head><msContents><summary>Hans Heinrich Hausheer, der Gesellenwirt von Wiedikon, beklagt sich, dass er von der Gesellschaft der Wirte von Zürich wegen der Bewirtung sowohl von Fremden als auch von Stadtbürgern mit kalten und warmen Speisen mit einer Busse von 20 Pfund belegt worden sei. Gestützt auf einen Ratsentscheid vom 4. Februar 1680 sei ihm jedoch die Bewirtung von Stadtbürgern erlaubt und die Busse somit ungerechtfertigt.  Die Gesellschaft der Wirte, vertreten durch Obmann Ott, sagt dagegen aus, dass Hausheer wiederholt gegen die Gemeindehäuser- und Gesellenwirtsordnungen verstossen habe, die besagen, dass die Gemeinde- und Gesellenhäuser niemanden beherbergen und Fremden nur Wein, Brot und Käse darreichen dürfen. Durch Bussen habe er sich bisher nicht abschrecken lassen. Die Gesellschaft der Wirte stellt sich auf den Standpunkt, dass sich die Formulierung des Ratsentscheids von 1680 nur auf Bürger der Gemeinde, nicht aber solche der Stadt beziehe, weil sonst ausdrücklich von Stadtbürgern die Rede sein </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Ludwig Landolt, Schreiber der Zunft zur Meisen</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1764-07-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000287">Appellation</term><term ref="key004706">Konzession</term><term ref="key000758">Wirtshaus</term><term ref="key003068">Zunft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_A_154__Nr__134__S__1_.tif"/>
+<p><lb/>Nachdemme <choice><abbr>lieut</abbr><expan>lieutenant</expan></choice>
+<persName ref="per026463">Hans Heinrich Haußheer</persName> von <placeName ref="loc009863">Wiediken</placeName>, dermah<lb break="no"/>liger
+gsellenwirth alldorten, klagend vorgestellet, was gestalten
+<lb/>er sub <date when="1764-01-04">4<hi rend="sup">ten</hi>
+<choice><abbr>jan</abbr><expan>januar</expan></choice> diß jahrs</date> von einer ehrsammen <orgName ref="org007946">gesellschaft der her<lb break="no"/>ren 
+wirthen</orgName> wegen aufstellung warmer und kalter speisen, so<lb break="no"/>wol
+an frömde als herren und burger aus der stadt, um eine
+<lb/>geltbuß von <measure type="currency" unit="lb" quantity="20"> 20</measure> seye belegt worden, da er vermeine, in kraft
+<lb/>einer raths erkantnuß vom <date when="1680-02-04">4<hi rend="sup">en</hi>
+<choice><abbr>febr</abbr><expan>februar</expan></choice> 1680</date><note><bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25289">StArZH VI.WD.A.5.:51</ref></bibl>; <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=24783">StArZH VI.OS.A.4.:28</ref></bibl>.</note>  (in welcher ausdru<lb break="no"/>kenlich
+enthalten, was aber gemeindsgnoßen und burgere be<lb break="no"/>langt, 
+solle es bey dem alten herkommen verbleiben <!-- Abkürzung: p.p.? Sinngemäss mit etc wiedergeben? PS: würde ich so lassen--><abbr>pp</abbr>) nichts ver<lb break="no"/>fehlt
+zu haben, sondern unbefügter weis gestraft <app><lem>worden</lem><rdg wit="StAZH W I 11.16.3, S. 95-96"/></app> zu seyn,
+<lb/><app><lem>und</lem><rdg wit="StAZH W I 11.16.3, S. 95-96"/></app> hoffe also, er werde diser geltbuß dato entlaßen und bey ob<lb break="no"/>bemelter
+erkantnuß geschützt und geschirmt werden. Im übrigen
+<lb/>wiße er wol, daß wann die seinige<!-- seinige. Besser lesbar in StAZH W I 11.16.3, S. 95-96 --> in seiner abwesenheit, eintweder
+<lb/>aus unvorsichtigkeit oder aus unwüßenheit, denen frömden gekoch<lb break="no"/>te
+speisen darreichen oder auch solche beherbergen, eine ehrsamme <orgName ref="org007946">ge<lb break="no"/>sellschaft 
+der herren wirthen</orgName> ihne mit recht um eine leidenliche
+<lb/>geltbuß belegen könne.</p>
+<p><lb/>Worgegen, herr obmann und rittmeister <persName ref="per026465">Ott</persName>, nahmens einer
+<lb/>ehrsammen <orgName ref="org007946">gesellschaft der herren wirthen</orgName>, gezimmend <app><lem>vorgestellt</lem><rdg wit="StAZH W I 11.16.3, S. 95-96">eingewendt</rdg></app>, wie
+<lb/>besagter gesellenwirth <persName ref="per026463">Haußheer</persName> schon vor etwas zeits wegen <add place="above">+</add><note>Hier wurde eine Passage durch ein Kreuz am Anfang und am Ende hervorgehoben.</note> unerlaub<lb break="no"/>ter
+wirthschaft um eine geltbuß angelegt <app><lem/><rdg wit="StAZH W I 11.16.3, S. 95-96">worden</rdg></app>, durch welche er sich aber
+<lb/>nicht abschreken laßen, sondern darmit immerhin (zuwider einer ehr<lb break="no"/>sammen
+gesellschaft habenden freyheiten und gerechtigkeiten und<!-- unter dem u ein Zeichen/Kreuz? --> zu grös<lb break="no"/>sestem
+schaden und nachtheil ihrer besizenden theüren ehhafftenen) <add place="above">+</add>
+<lb/>ungescheüt fortgefahren, deßnahen genöthiget gewesen, ihne, <persName ref="per026463">Haußheer</persName>,
+<lb/>vor sich zu bescheiden und <app><lem>ihne</lem><rdg wit="StAZH W I 11.16.3, S. 95-96"/></app> um ermelte buß der <measure type="currency" unit="lb" quantity="20"> 20</measure> gelts anzu<lb break="no"/>legen.
+Um so mehr, da dises sein verfahren allen gmeindhaüser- und
+<lb/>gsellenwirthsordnungen zuwider, als welche einerseits niemand be<lb break="no"/>herbergen,
+und anderseits denen frömden nichts anders als wein,
+<lb/>brod und käs dar stellen sollen, mithin die raths erkantnuß <app><lem>von 
+<lb/>anno</lem><rdg wit="StAZH W I 11.16.3, S. 95-96">de</rdg></app>
+<date when="1680">1680</date> keineswegs ausburger unserer stadt gemeint seyn könne,
+<lb/>sondern dise worte, gmeindsgnoß und burger, nur die angehörige
+<lb/>einer ehrsammen <orgName ref="org007942">gemeind <placeName ref="loc009863">Wiediken</placeName></orgName> ausdruke, indemme, wann das
+<lb/>erstere wäre, nothwendig der ausdruk burgeren aus der stadt,
+<lb/>um alle zweydeütigkeit auszuweichen, hätte beygesezt wer<pb n="2" facs="StAZH_A_154__Nr__134__S__2_.tif"/><lb break="no"/>den
+müßen. Und hoffen also, sie haben besagten gesellenwirth recht<lb break="no"/>mäßig
+gebüßt und werde er folgends zur bezahlung angehalten, ei<lb break="no"/>ne
+ehrsamme <orgName ref="org007946">gesellschaft der herren wirthen</orgName> aber bey ihren habenden
+<lb/>freyheiten und gerechtigkeiten geschüzt und geschirmt werden, auch die
+<lb/><orgName ref="org007942">gemeind <placeName ref="loc009863">Wiediken</placeName></orgName> schuldig und verbunden seyn, die ausgehenkte
+<lb/>tafferen<note>Wirtshausschild, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id12.htm#!page/120543/mode/2up">Bd. 12, Sp. 546</ref></bibl>.</note><!-- Wirtshausschild (einer 'offiziellen' Taverne), vgl. Idiotikon XII, Sp 546 ('Taf(f)er(n)en' 2 a), aber auch Sp. 543ff --> einzuzeühen und dargegen einen sogenannten meyen<note>Maibaum; junge, hohe Tanne mit entästetem Stamm und grünem Wipfel. 
+Vor einem Wirthaus gilt ein solcher Baum als Zeichen einer Weinschenke. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id4.htm#!page/40003/mode/2up">Bd. 4, Sp. 3-4</ref></bibl>.</note> hin<lb break="no"/>zustellen, 
+alles mit mehrerem. <!-- Was heisst hier 'mehrerem'? PS: Wohl Hinweis auf Mehrheitsentscheid? --></p>
+<p><lb/>Als ward auf angehörtes vor- und widerbringen <app><lem>beyder parthey<lb break="no"/>en</lem><rdg wit="StAZH W I 11.16.3 (S. 95-96)"/></app>
+und in erdaurung der sachen beschaffenheit, einhellig erkennt, daß
+<lb/>von seiten einer ehrsammen <orgName ref="org007946">gesellschaft der herren wirthen</orgName> wolgesproch<lb break="no"/>en,
+von seiten <app><lem/><rdg wit="StAZH W I 11.16.3, S. 95-96">aber</rdg></app> des gsellenwirth <persName ref="per026463">Haußheeren</persName>
+<app><lem>aber</lem><rdg wit="StAZH W I 11.16.3, S. 95-96"/></app> übelappelliert seye.
+<lb/>Folglich solle er in kraft diser erkantnuß nicht nur pflichtig seyn, be<lb break="no"/>sagte
+<app><lem>geltbuß</lem><rdg wit="StAZH W I 11.16.3, S. 95-96">buß</rdg></app> von <measure type="currency" unit="lb" quantity="20"> 20</measure> zu bezahlen, sondern auch die tafferen einzu<lb break="no"/>zeühen
+und gleich allen übrigen gmeind- und gsellenhaüseren ein<lb break="no"/>en
+sogenannten meyen hinzustellen.</p>
+<p><lb/>Da aber bedeuteter <persName ref="per026463">Hausheer</persName>
+<app><lem>sich</lem><rdg wit="StAZH W I 11.16.3, S. 95-96"/></app> in instanti erklärt, daß er sich
+<lb/>disem spruch keineswegs unterwerffen, sondern <app><lem/><rdg wit="StAZH W I 11.16.3, S. 95-96">solchen</rdg></app> vor unsere gnä<lb break="no"/>dige
+herren, die kleine räthe, bringen wolle, als ist ihme auf sein be<lb break="no"/>gehren
+gegenwärtiger recess zuhanden gestellt worden.</p>
+<p><lb/>Actum donstags, den <origDate when="1764-07-26">26. julii 1764</origDate>,
+<lb/><choice><abbr>prætbus</abbr><expan>præsentibus</expan></choice> herren amtszunfftmeister <persName ref="per026466">Weber</persName>, <orgName ref="org001217">rath und zwölfen</orgName>
+<lb/>loblicher <orgName ref="org005077">zunfft zur Meisen</orgName>.</p>
+<p><lb/>Zunftschreiber <persName ref="per026464">Landolt</persName>.<note>Der Schreiber nennt seinen vollen Namen in einer Notiz auf <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4547733">StAZH W I 11.16.3, S. 96</ref></bibl>, die aber nicht zu diesem Stück gehört: <orig>Und hiermit endiget sich die continuation diser protocolli, den <date when="1755-07-21">21. julii anno 1755</date> angefangen von zunftschreiber <persName ref="per026464">Ludwig Landolt</persName>.</orig></note></p>
+<pb n="3" facs="StAZH_A_154__Nr__134__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_154__Nr__134__S__4_.tif
+"/>
+<div><ab type="dorsal" place="verso"><lb/>Appellationsrecess
+<lb/>wegen der streithigkeit zwüschen
+<lb/>den hiesigen wirthen und dem
+<lb/>gesellen wihrt zu <placeName ref="loc009863">Wiedikon</placeName>.
+<lb/><origDate when="1764-07-26">26. <abbr>jul</abbr> 64</origDate></ab></div>
+<div><ab type="dorsal" place="verso"><lb/><choice><abbr>Erk</abbr><expan>Erkanntnuß</expan></choice> vide sub <date when="1764-11-24">24.
+<lb/><choice><abbr>9bris</abbr><expan>novembris</expan></choice> 1764</date>
+<lb/><choice><abbr>u</abbr><expan>unterschreiber</expan></choice>
+<choice><abbr>m</abbr><expan>manual</expan></choice></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> lehnte am 24. November 1764 die Appellation <persName ref="per026463">Hausheers</persName> ab, weil er Fremde bewirtet habe. Er bestätigte ihm aber ausdrücklich das Recht, nicht nur Gemeindegenossen, 
+sondern auch Bürger zu bewirten (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25252">StArZH VI.WD.A.3.:15</ref></bibl>). Ein ähnlicher Konflikt um die Beherbergung und Bewirtung von Fremden trug sich 1739 in <placeName ref="loc010816">Unterstrass</placeName>
+zu (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_156">SSRQ ZH NF II/11, Nr. 156</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

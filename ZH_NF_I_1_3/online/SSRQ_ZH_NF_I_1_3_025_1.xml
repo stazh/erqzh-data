@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_025_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4324303">StAZH B II 4, Teil II, fol. 40r</idno></msIdentifier><head>Verordnung betreffend Aufgabe des Bürgerrechts der Stadt Zürich</head><msContents><summary>Kleiner und Grosser Rat ordnen an, dass Bürger, die ihr Bürgerrecht aufzugeben wünschen, persönlich vor dem Kleinen Rat zu erscheinen haben und Bürgen stellen müssen als Garantie dafür, dass sie vor Verlassen der Stadt allen finanziellen Verpflichtungen nachkommen. Dazu sollen sie einen Eid leisten, dass sie gegen die Stadt und ihre Bürger nichts unternehmen werden, was diesen Schaden bringen könnte. Weiter sollen sie schwören, ein halbes Jahr an keinem Kriegszug teilzunehmen. Ausgenommen davon bleibt der Fall, dass die Stadt oder Herrschaft, in die sie ziehen, sich im Krieg befindet. Wer das Bürgerrecht aufgibt, aber trotzdem in der Stadt wohnhaft zu bleiben wünscht, hat weiterhin die mit dem Bürgerrecht verbundenen Pflichten zu erfüllen, soll ansonsten aber rechtlich wie ein Bewohner der Landschaft behandelt werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1488-10-08">Datierung aufgrund nachfolgendem Eintrag</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 3/2, S. 234, Nr. 156</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000134">Bürgerrecht</term><term ref="key000499">Bürgschaft</term><term ref="key000266">Krieg</term><term ref="key000364">Rat</term><term ref="key000058">Schulden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="40"/>
+<head><app><lem><lb/>Erkandtnüss, wie eyn burger, der sin 
+<lb/>burgraͤcht uffgeben wil, dz tuͦn sol</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">Welicher sind burgrecht uffgeben wil, <lb/>wie der das tuͦn sol</rdg></app></head>
+<p>
+<seg><app><lem><lb/>Wir, <app><lem>der <orgName ref="org001217">raͧt und die burgere der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>, sind gemeinlich u̍ber ein komen umb burger,
+<lb/>die burgrecht wellent uffgeben, das dero ein jeglicher mit sin selbs lib gon sol fu̍r einen 
+<lb/><orgName ref="org004016">raͧt</orgName>, der dann <placeName ref="loc000065">Zu̍rich</placeName> gewalt haͧt</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">haben uns erkendt, welicher sin burgreͣcht uffgaͤben wil, der <lb/>sol fu̍r einen <orgName ref="org004016">raͧt</orgName> zuͦ <placeName ref="loc000065">Zu̍rich</placeName> goͧn</rdg></app></lem><rdg wit="StAZH B III 6, fol. 28v">Woͤlicher sin burgrecht uffgeben wil, der sol fu̍r einen <orgName ref="org004016">rat</orgName> zuͦ <lb/><placeName ref="loc000065">Zu̍rich</placeName> gon</rdg></app> und sol dem buͤrgen geben, das er von der statt nit <app><lem>kere</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">welle</rdg></app>,
+<lb/>er habe dann vor allen burgern vergolten, denen er gelten sol, und ist er in keiner
+<lb/>schuld ergriffen, mit stu̍ren oder mit andern sachen, die sol er och usrichten. Und dartzuͦ <app><lem/><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">sol er</rdg></app>
+<lb/>schweren, das er wider die stat noch die burger <app><lem/><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">oder die unsern</rdg></app> nyemer weͣrbe noch tuͤge, davon
+<lb/>jemann <app><lem><placeName ref="loc000065">Zu̍rich</placeName></lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">der unsern</rdg></app> breͤsten gewynnen moͧchte. <app><lem>Och in eim <date dur="P6M">halben jaͧr</date> dem neͣchsten in
+<lb/>keinen krieg zuͦ riten, zuͦ loͧffen noch zuͦ gond, keins waͤgs,</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r"/></app> es waͤre dann, das einer 
+<lb/>zuͦ herren oder stetten keme, die krieg, <app><lem>es weͣre mit uns oder andern</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">mit uns</rdg></app>, gewu̍nnyndt
+<lb/>und inn soͤlich krieg by inen begriffind, das er dann da wol wider uns sin 
+<lb/><app><lem>und beliben</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r"/></app> moͤcht, die wil soͤlich krieg weͣrtind, ungevarlich.</seg>
+<seg>Wil aber einer,
+<lb/>u̍ber das und er sin burgrecht uff gegeben haͧt, in der stat wonhaft <app><lem>weͣsen</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">sin</rdg></app>, so sol 
+<lb/>er mit allen sachen dienen als ander burger und sol man im doch nit anders 
+<lb/>rechtes tuͦn, dann als einem <app><lem>landtmann</lem><rdg wit="StAZH A 43.1.2, Nr. 2, S. 28; StAZH B III 2, S. 330; StAZH B III 6, fol. 28v; StAZH B III 4, fol. 22r; StAZH B III 5, fol. 56r">gast</rdg></app>.</seg>
+<app><lem/><rdg wit="StAZH B III 6, fol. 28v; StAZH B III 5, fol. 56r">Und 
+<lb/>welcher also sin burgrecht uff gidt, der sol uff das burger buͦch 
+<lb/>also verschryben werden unnd mit im die, so sin troster sind, umb 
+<lb/>das, wo nott ist, man das finde.</rdg></app>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Datierung der vorliegenden Aufzeichnung ergibt sich aus den zwei nachfolgenden Einträgen, die von derselben Hand stammen und von denen der erste datiert ist (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4324353">StAZH B II 4, Teil II, fol. 40r-v</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4528081">StAZH B II 4, Teil II, fol. 40v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 234-235, Nr. 157-158</bibl>). Diese befassen sich mit der Umgehung des Reislaufverbots durch zwischenzeitliche Aufgabe des Bürgerrechts, indem sie das Leisten von fremdem Kriegsdienst mit der Strafe vierjähriger Verbannung belegen und für diejenigen Reisläufer, die nach ihrer Rückkehr in die Stadt das Bürgerrecht wiedererlangen, eine Wartezeit von zwei Jahren für die Wählbarkeit in <orgName ref="org004016">Kleinen</orgName> und <orgName ref="org004906">Grossen Rat</orgName> einführen.</p>
+<p>Die wesentlichen Bestimmungen betreffend Aufgabe des Bürgerrechts gehen bereits auf den Richtebrief zurück (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_61">S. 61</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_104">S. 104</ref></bibl>). Die vorliegende Ordnung wurde in einer leicht überarbeiteten Fassung in den Anhang zum Vierten Geschworenen Brief übernommen und von dort aus in die nachfolgenden Satzungsbücher abgeschrieben. Ein Zusatz betreffend Festhalten der wichtigsten Angaben zu den aus der Stadt weggezogenen Personen im Bürgerbuch findet sich in den Satzungsbüchern von 1515-1518 und 1604. Der Eid der Neubürger hält zudem fest, dass diese ihr Bürgerrecht erst nach Ablauf von zehn Jahren wieder aufgeben konnten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_087">SSRQ ZH NF I/1/3, Nr. 87</ref></bibl>).</p>
+<p>Zur Aufgabe des Bürgerrechts vgl. <bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 73-74</bibl>; zum Wegzug aus der Stadt vgl. auch die Abzugsordnung von 1489 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_031">SSRQ ZH NF I/1/3, Nr. 31</ref></bibl>); zu den Reislaufverboten vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_126">SSRQ ZH NF I/1/3, Nr. 126</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

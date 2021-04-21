@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_126</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168913">StAZH A 42.1.13, Nr. 18</idno></msIdentifier><head>Reislaufverbot der Stadt Zürich</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich schreiben an die Gemeinden auf der Landschaft und ermahnen sie angesichts der gegenwärtigen Kriegswerbungen des Königs von Frankreich und des Herzogs von Württemberg, sich der fremden Dienste zu enthalten und erinnern an die diesbezüglich zwischen Stadt und Land getroffene Vereinbarung. In den Gemeinden appellieren sie insbesondere an die Ältesten, ihre Aufsichtsplicht wahrzunehmen und sofern sie in Wirtshäusern, auf den Strassen oder an anderen Orten Personen beobachten, die in fremde Dienste ziehen oder Söldner anwerben, diese verhaften zu lassen und der Obrigkeit zu übergeben. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1525-02-26"/></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Actensammlung, Nr. 656</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Moser 2012, Bd. 1, S. 187, Nr. 63</bibl><bibl>Schott-Volm, Repertorium, S. 760, Nr. 97</bibl><bibl>Bullinger, Reformationsgeschichte, Bd. 1, S. 240 (zum 25. Februar)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key004082">Solddienst</term><term ref="key005458">Werbung</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_42_1_13__Nr__18__S__1_.tif"/>
+<div><ab place="above" type="dorsal" hand="other hand"><lb/>Verpot im <origDate when="1525">xxv jar</origDate> von wegen des <placeName ref="loc007494">Wirtenberschen</placeName> zugs <lb/>ußgangen</ab></div>
+<p>
+<seg>
+<lb/>Unnser herren <orgName ref="org002406">bu̍rgermeister und ratt der statt <placeName ref="loc000065">Zurich</placeName></orgName>
+<lb/>habent erwaͧgen die schweren louff, so yetzent
+<lb/>der kriegen unnd anderer sachen halb vorhanden
+<lb/>sind, allso, das vil zwytracht ist, unnd einer
+<lb/>loufft zum ku̍ng von <placeName ref="loc000281">Frankrich</placeName>, der ander zum
+<lb/>hertzogen von <placeName ref="loc007494">Wirtemberg</placeName>, alles uber ir schwaͤre
+<lb/>verpott, by lib, er und guͦtt, und zum hoͤchsten
+<lb/>und ouch uber dz, das sich unser herren und
+<lb/>ein erbere <orgName ref="org001187">gmeynd</orgName> in statt und uff dem landt
+<lb/>sich habent vereymbaret, aller fursten und
+<lb/>herren muͤßig zegand<note>Dies dürfte sich auf die im Juli 1524 durchgeführte Ämteranfrage beziehen, die unter anderem auch die Frage der Solddienstbündnisse berührte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3568078">StAZH A 95.1, Nr. 4</ref></bibl>; Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 557</bibl>). Im September desselben Jahres erging ein Reislaufverbot, das Bestrafung an Leib und Gut für fremde Kriegsdienste androhte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168908">StAZH A 42.1.13, Nr. 14</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 575</bibl>).</note> und unsers vatters lands
+<lb/>achtzuhaben, unnd sich daruff erkaͤnt,
+<lb/>diewyl by soͤllichen sorgklichen und schwaͤren
+<lb/>lou̍ffen inen on mu̍glich ist, on hilff unnd
+<lb/>zuthuͦn einer <orgName ref="org001187">gmeynd</orgName> in der statt unnd uff
+<lb/>dem landt gehorsamme zuͦ behoupten, und dem
+<lb/>vor zuͦ <del>sid</del> sind, so unns allen zuͦverderben
+<lb/>unnd großem nachteyl mag reichen, das
+<lb/>man allenthalb in die gmeynden irer landtschafft
+<lb/>sölle schriben unnd sy vermanen.</seg>
+<seg>Also sy ouch 
+<lb/>alle gmeynden irer landtschafft hiemit schribent
+<lb/>unnd vermanent und einen yegklichen be<lb break="no"/>sonder
+unnd mit nammen die alten unnd
+<lb/>erberen, denen ungehorsami geprest und schad
+<lb/>einer statt unnd landtschafft <placeName ref="loc000066">Zurich</placeName> nit minder
+<lb/>leid ist, dann unseren herren sälbs, das sy by
+<lb/>der pflicht, so sy einer statt <placeName ref="loc000065">Zurich</placeName> schuldig
+<lb/>sind, unnd der vereymbarung, so ein
+<lb/>statt und landtschafft zuͦsamen gethan habent,
+<pb n="2" facs="StAZH_A_42_1_13__Nr__18__S__2_.tif"/>
+<lb/>aller fursten unnd herren muͤßig zegand, darob
+<lb/>unnd daran sin, ouch versechen unnd guͦtt sorg
+<lb/>haben wellint, es sig in wirtshußern, straßen
+<lb/>oder andern orten, wo das die notturfft erfordrot,
+<lb/>wo yemans uffbrechen und hinlouffen oder
+<lb/>uffwiglen, gelt ußgeben oder anders handlen well,
+<lb/>so unnsern herren gmeyner statt unnd landtschafft
+<lb/>by disen sorgklichen lou̍ffen, es sig zuͦ kriegs
+<lb/>louͤffen oder in anderweg, zuͦ schaden und nach<lb break="no"/>teyl
+welle dienen, das sy es syent, frombd oder
+<lb/>heimsch, zuͦ den selben griffen, die gefängklich
+<lb/>anemen unnd unsern herren uberantwurten,
+<lb/>unnd also haͤlffen wellint, unsern herren behoupten
+<lb/>und erobren, dass gmeyner statt <placeName ref="loc000065">Zu̍rich</placeName> unnd
+<lb/>irer landtschafft, ouch richen unnd armmen, zuͦ frid,
+<lb/>er, ruͦm, ruͦwen unnd guͦttem mag reichen, 
+<lb/>alß unser herren einem yedem gehorsammen und
+<lb/>getruwen der statt unnd landtschafft wol ver<lb break="no"/>truwent
+unnd sich des gäntzlich wellent
+<lb/>versechen, dann sy wol wußent, wo ein biderbe
+<lb/><orgName ref="org001187">gmeynd</orgName> inen in disen schweren louffen nit
+<lb/>will beholffen unnd beraten sin, dass so kein
+<lb/>gehorsame behalten noch das behoupten mögent,
+<lb/>so unnser aller er, nutz, fromen, frid unnd ruͦw
+<lb/>mag sin.</seg>
+<seg>Unnd dis well ein yeder frommer
+<lb/><orgName ref="org002811">Zu̍richer</orgName> bedaͤnken und das thuͦn, so <subst><del>schuldig</del><add place="above">pflichtig</add></subst> unnd
+<lb/>eren halb schuldig ist und von pillikeit wegen thuͦn
+<lb/>soll, unnd bedaͤnken, waß einer statt und landt<lb break="no"/>schafft
+daran gelegen sig, des wellent sich unser
+<pb n="3" facs="StAZH_A_42_1_13__Nr__18__S__3_.tif"/>
+<lb/>herren gaͤntzlich versechen unnd dz zuͦ sampt aller
+<lb/>pflicht und billikeit gegen einem yedem erkennen
+<lb/>unnd zuͦ guͦttem nit vergaͤßen.</seg>
+<seg>Actum <origDate when="1525-02-26">sontags
+<lb/>an der herren faßnacht anno <abbr>etc</abbr> xxv</origDate>.</seg>
+</p><pb n="4" facs="StAZH_A_42_1_13__Nr__18__S__4_.tif
+"/>
+<div><ab type="dorsal" place="verso"><origDate when="1525">1525</origDate></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Verbott des reyßlauffens zum herzog von <placeName ref="loc007494">Wirtemberg</placeName>, <origDate when="1525">1525</origDate></ab></div>
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per012634">Heinrich Bullinger</persName> erwähnt das vorliegende Mandat in seiner Reformationsgeschichte in Zusammenhang mit den Kriegswerbungen Herzog <persName ref="per015558">Ulrichs von Württemberg</persName>, datiert es jedoch auf den 25. Februar (<bibl><ref target="/startseite/literaturverzeichnis">Bullinger, Reformationsgeschichte</ref>, Bd. 1, S. 239-240</bibl>). Bereits anfangs desselben Monats war ein kürzeres Reislaufverbot ergangen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1168911">StAZH A 42.1.13, Nr. 15</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 635</bibl>).</p>
+<p>Das für die Obrigkeit nur schwer kontrollierbare Söldnerwesen war bereits seit den 1490er Jahren angesichts der Teilnahme <placeName ref="loc000153">eidgenössischer</placeName> Reisläufer an den <placeName ref="loc010567">oberitalienischen</placeName> Kriegen des Königs von <placeName ref="loc000281">Frankreich</placeName> Gegenstand einer intensivierten Verbotspolitik des <orgName ref="org002406">Rates</orgName> geworden (vgl. dazu den Erlass des Jahres 1494,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_054">SSRQ ZH NF I/1/3, Nr. 54</ref></bibl>). Das Verbot, sich ohne Erlaubnis in fremde Kriegsdienste zu begeben, war zwischenzeitlich Teil des Eids der <orgName ref="org001187">Bürgergemeinde</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>), zudem wurde es im Anschluss an die Eidleistung verlesen (vgl. dazu den Eintrag im Verbotbuch, <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4322703">StAZH A 42.3.1, S. 38</ref></bibl>). Die Frage nach der obrigkeitlich sanktionierten Belieferung auswärtiger Kriegsschauplätze mit Söldnern spaltete jedoch den <orgName ref="org002406">Rat</orgName> ebenso wie die verschiedenen Orte der <placeName ref="loc000153">Eidgenossenschaft</placeName>, da zahlreiche Mitglieder der Führungsschicht durch Pensionen <placeName ref="loc006593">europäischer</placeName> Fürsten beträchtlichen Reichtum erlangten (für <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stucki 1996</ref>, S. 205</bibl>). Insbesondere im Kontext der Mailänderkriege erregten die Bezüger von Pensionen den Unmut der Landbevölkerung, wodurch die Stadt gezwungen wurde, beim Abschluss von Soldbündnissen die Landschaft stärker mit einzubeziehen (vgl. dazu den sogenannten Lebkuchenkriegsbrief des Jahres 1516, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_105">SSRQ ZH NF I/1/3, Nr. 105</ref></bibl>).</p>
+<p>Für eine chronologische Auflistung sämtlicher Reislaufverbote vgl. <bibl><ref target="/startseite/literaturverzeichnis">Romer 1995</ref>, Tabelle 12, S. 345-346</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

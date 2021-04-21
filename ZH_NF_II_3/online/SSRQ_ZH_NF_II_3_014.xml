@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_014</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393030">StAZH C I, Nr. 2560</idno></msIdentifier><head>Abrechnung zwischen der Stadt Zürich und dem Grafen von Toggenburg über die Einkünfte der Herrschaft Greifensee in den Jahren 1415 bis 1418</head><msContents><summary>Die jährlichen Einnahmen der Herrschaft Greifensee an Hafer und Dinkel belaufen sich auf 193 Stuck und 3 Viertel sowie zusätzliche Geldeinnahmen von 107 Pfund, 6 Schilling und 7 Pfennig. Der 1414 festgelegte Zins beträgt 264 Gulden pro Jahr. Während die Einnahmen und der Sollzins konstant bleiben, variiert der aufgeführte Umrechnungssatz für Getreide und für Gulden zu Pfund und Schilling von Jahr zu Jahr. Für die Jahre 1415, 1416 und 1418 fallen die Einnahmen daher gemäss Rechnung niedriger aus als der Sollzins, für 1417 höher. Daraus resultiert eine Differenz von insgesamt 79 Pfund, 3 Schilling und 5 Pfennig, die der Graf der Stadt schuldet. Hinzu kommen noch Baukosten des Vogts Rudolf Bitziner aus dem Jahr 1415, des Vogts Johannes Bitziner aus den folgenden drei Jahren sowie des städtischen Baumeisters Felix Manesse, die ebenfalls dem Grafen verrechnet werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1419-05-22"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 5, Nr. 6318</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005369">Buchführung</term><term ref="key004536">Finanzen</term><term ref="key000574">Rechnungswesen</term><term ref="key000058">Schulden</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="4" facs="StAZH_C_I__Nr__2560__S__1_.tif"/>
+<head><lb/>Des <persName ref="per000327">von Toggenburg</persName> reitung von <placeName ref="loc000348">Griffense</placeName>
+<lb/>wegen uff den <origDate when="1419-05-22">mentag vor der uffart im
+<lb/>xviiij jar</origDate>, und ist dz <date when="1419">xviiij jar</date> nicht verreit.</head><!-- rhr: Dorsualvermerk von S. 4 als Titel verwendet. -->
+<pb n="1" facs="StAZH_C_I__Nr__2560__S__2_.tif"/>
+<div><seg n="1"><p><lb/>Item ingenon von <placeName ref="loc000348">Griffese</placeName> von <date when="1415">xv jar</date> an korn
+<measureGrp><measure type="volume" unit="Mütt" quantity="100" commodity="grain">c <choice><abbr>m<hi rend="sup">t</hi></abbr><expan>müt</expan></choice></measure>
+<measure type="volume" unit="Mütt" quantity="93" commodity="grain">lxxxxiij <choice><abbr>m<hi rend="sup">t</hi></abbr><expan>müt</expan></choice></measure>
+<measure type="volume" unit="Viertel" quantity="3" commodity="grain">iij <abbr>f</abbr></measure></measureGrp>
+<lb/>an haber und an kernen und ist je dz <measure type="undefined" unit="Stuck" quantity="1">stuk</measure> verrechnot fu̍r
+<measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="2">ij </measure></measureGrp>.
+</p>
+<p><lb/>Item aber an <choice><sic>peffnig</sic><corr>pfennig</corr></choice>
+<measureGrp><measure type="currency" unit="lb" quantity="100">c </measure>
+<measure type="currency" unit="lb" quantity="7">vij </measure>
+<measure type="currency" unit="ß" quantity="6.5">viɉ </measure>
+<measure type="currency" unit="d" quantity="1">j <add place="above" type="sign">₰</add></measure></measureGrp>, <unclear>so</unclear><!-- rhr: Abschrift 18. Jh. "er" -->
+<unclear>wirt</unclear><!-- rhr: Abschrift 18. Jh. "tuͦt". --> dis
+<measureGrp><measure type="currency" unit="lb" quantity="300">ccc </measure>
+<measure type="currency" unit="lb" quantity="20">xx </measure>
+<measure type="currency" unit="ß" quantity="9">viiij </measure>
+<measure type="currency" unit="d" quantity="1">1 ₰</measure></measureGrp>.
+</p>
+<p><lb/>Item <unclear>so</unclear><!-- rhr: Abschrift 18. Jh. "er". --> belipt uns min <choice><abbr>h</abbr><expan>her</expan></choice>
+<persName ref="per000327">von Togburg</persName> zins von <placeName ref="loc000348">Griffese</placeName>
+<date dur="RP1Y">jerlich</date>
+<measureGrp><measure type="currency" unit="fl" quantity="200">cc <abbr></abbr></measure>
+<measure type="currency" unit="fl" quantity="64">lxiiij <abbr></abbr></measure></measureGrp>.
+<lb/>Dz korn und haber ist gerechnot von <date when="1415">xv jar</date> je dz <measure type="undefined" unit="Stuck" quantity="1">stuk</measure> fu̍r
+<lb/><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="2">ij </measure></measureGrp>
+und wirt uns schuldig <measureGrp><measure type="currency" unit="lb" quantity="35.5">xxxvɉ </measure>
+<measure type="currency" unit="ß" quantity="8">viij </measure>
+<measure type="currency" unit="d" quantity="11">xj ₰</measure></measureGrp>
+<lb/>und ist im gerechnet je der <measure type="currency" unit="fl" quantity="1">guldin</measure> an diser sum
+<measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp>.
+</p></seg>
+</div>
+<div><seg n="2"><p><lb/>Item ingenomen von <placeName ref="loc000348">Griffense</placeName>
+<measureGrp><measure type="undefined" unit="Stuck" quantity="193">clxxxxiij stuk</measure>
+<measure type="volume" unit="Viertel" quantity="3" commodity="grain">iij <abbr>f</abbr></measure></measureGrp> an korn und an haber
+<lb/>und ist je dz <measure type="undefined" unit="Stuck" quantity="1">stuk</measure> gereit fu̍r
+<measureGrp><measure type="currency" unit="fl" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="3">iij </measure></measureGrp>.
+</p>
+<p><lb/>Item an pfennigen <measureGrp><measure type="currency" unit="lb" quantity="107">cvij </measure>
+<measure type="currency" unit="ß" quantity="6.5">viɉ </measure>
+<measure type="currency" unit="d" quantity="1">j ₰</measure></measureGrp>.
+</p>
+<p><lb/><unclear><choice><abbr>No</abbr><expan>Nota</expan></choice></unclear> gebu̍rt <unclear><choice><abbr>sua</abbr><expan>summa</expan></choice></unclear>
+an korn und an pfennigen <measureGrp><measure type="currency" unit="lb" quantity="330">cccxxx </measure>
+<measure type="currency" unit="ß" quantity="2">ij </measure>
+<measure type="currency" unit="d" quantity="10">x ₰</measure></measureGrp>.
+</p>
+<p><lb/>Item dar an ist er uns schuldig <measure type="currency" unit="fl" quantity="264">cclxiiij guldin</measure>.
+<lb/><unclear><choice><abbr>R</abbr><expan>Restiert</expan></choice></unclear><!-- rhr: Abschrift 18. Jh. "Restiert", gemäss Capelli wäre auch lateinisch "Restat" möglich. -->
+nach aller reitung min <choice><abbr>hr</abbr><expan>herr</expan></choice> von <persName ref="per000327">Toggenburg</persName>
+<subst><del><measureGrp><measure type="currency" unit="lb" quantity="12">xij </measure>
+<measure type="currency" unit="ß" quantity="15">xv </measure>
+<measure type="currency" unit="d" quantity="2">ij ₰</measure></measureGrp></del>
+<add place="above"><measureGrp><measure type="currency" unit="lb" quantity="26">xxvj </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure>
+<measure type="currency" unit="d" quantity="2">ij ₰</measure></measureGrp></add></subst>.
+</p>
+<p><lb/>Item in diser rechung ist <measure type="currency" unit="fl" quantity="1">ein guldin</measure> gereit fu̍r
+<measureGrp><measure type="currency" unit="fl" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp>.
+</p></seg>
+</div>
+<div><seg n="3"><p><lb/>Item ingenomen von <placeName ref="loc000348">Griffense</placeName>
+<measureGrp><measure type="volume" unit="Stuck" quantity="193">clxxxxiij stuk</measure>
+<measure type="volume" unit="Viertel" quantity="3" commodity="grain">iij <abbr>f</abbr></measure></measureGrp> an korn und an haber
+<lb/>und ist je <measure type="undefined" unit="Stuck" quantity="1">j stuk</measure> gereit fu̍r <measure type="currency" unit="ß" quantity="30">xxx </measure>.
+</p>
+<p><lb/>Item an pfennigen <measureGrp><measure type="currency" unit="lb" quantity="107">cvij </measure>
+<measure type="currency" unit="ß" quantity="6.5">viɉ </measure>
+<measure type="currency" unit="d" quantity="1">j ₰</measure></measureGrp>.
+</p>
+<p><lb/><unclear><choice><abbr>No</abbr><expan>Nota</expan></choice></unclear> gebu̍rt
+<unclear><choice><abbr>sua</abbr><expan>summa</expan></choice></unclear> an korn und an pfennigen
+<measureGrp><measure type="currency" unit="lb" quantity="397">ccclxxxxvij </measure>
+<measure type="currency" unit="ß" quantity="19">xviiij </measure></measureGrp>.
+</p>
+<p><lb/>Item dar an ist er uns schuldig <measure type="currency" unit="fl" quantity="264">cclxiiij guldin</measure>,
+<lb/>su̍llen wir unserm herren <persName ref="per000327">von Toggenburg</persName> nach reitung
+<measureGrp><measure type="currency" unit="lb" quantity="51">lj </measure>
+<measure type="currency" unit="ß" quantity="11">xj </measure>
+<measure type="currency" unit="d" quantity="1">j ₰</measure></measureGrp>.
+</p>
+<p><lb/>Item in diser rechung ist <measure type="currency" unit="fl" quantity="1">ein guldin</measure> gereit fu̍r
+<measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="7">vij </measure></measureGrp>.
+</p></seg>
+</div><pb n="2" facs="StAZH_C_I__Nr__2560__S__3_.tif"/>
+<div><seg n="4"><p><lb/>Ingenomen von <placeName ref="loc000348">Griffense</placeName>
+<measureGrp><measure type="volume" unit="Stuck" quantity="193">clxxxxiij stuk</measure>
+<measure type="volume" unit="Viertel" quantity="3" commodity="grain">iij <abbr>f</abbr></measure></measureGrp> an korn und an haber
+<lb/>und ist je <measure type="undefined" unit="Stuck" quantity="1">j stuk</measure> gereit fu̍r <measure type="currency" unit="lb" quantity="1">j  ₰</measure>.
+</p>
+<p><lb/>Item an pfennigen <measureGrp><measure type="currency" unit="lb" quantity="107">cvij </measure>
+<measure type="currency" unit="ß" quantity="6.5">viɉ </measure>
+<measure type="currency" unit="d" quantity="1">j ₰</measure></measureGrp>.
+</p>
+<p><lb/>Item gebu̍rt <unclear><choice><abbr>sua</abbr><expan>summa</expan></choice></unclear> an korn und an pfennigen
+<measureGrp><measure type="currency" unit="lb" quantity="301">cccj </measure>
+<measure type="currency" unit="ß" quantity="1">j </measure>
+<measure type="currency" unit="d" quantity="7">vij ₰</measure></measureGrp>.
+</p>
+<p><lb/><unclear><choice><abbr>No</abbr><expan>Nota</expan></choice></unclear> dar an ist er uns schuldig
+<measure type="currency" unit="fl" quantity="264">cclxiiij guldin</measure>.
+</p>
+<p><lb/>Item <unclear><choice><abbr>r</abbr><expan>restiert</expan></choice></unclear><!-- rhr: Vgl. oben. -->
+min <choice><abbr>hr</abbr><expan>herr</expan></choice>
+<persName ref="per000327">von Toggenburg</persName> nach reitung
+<measureGrp><measure type="currency" unit="lb" quantity="68">lxviij </measure>
+<measure type="currency" unit="ß" quantity="10">x </measure>
+<measure type="currency" unit="d" quantity="5">v ₰</measure></measureGrp>.
+<lb/>In diser reitung ist <measure type="currency" unit="fl" quantity="1">ein guldin</measure> gereit fu̍r
+<measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="8">viij </measure></measureGrp>.
+</p></seg>
+</div>
+<div><seg n="5"><p><lb/>Item belipt min <choice><abbr>hr</abbr><expan>herr</expan></choice>
+<persName ref="per000327">von Toggenburg</persName> schuldig nach aller reitung
+<lb/>von versessnen zins wegen <measureGrp><measure type="currency" unit="lb" quantity="79">lxxviiij </measure>
+<measure type="currency" unit="ß" quantity="3">iij </measure>
+<measure type="currency" unit="d" quantity="5">v ₰</measure></measureGrp>.
+</p>
+<p><lb/>Item aber sol er von verbuwens geltz wegen die <persName ref="per013298"><choice><abbr>R</abbr><expan>Rudolf</expan></choice> Bitzzner</persName><note><persName ref="per013298">Rudolf Bitziner</persName>
+(im Amt 1411-1416, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216</bibl>).</note>
+<subst><del rend="overwritten"><gap/></del><add place="overwritten">verbuwte</add></subst> im <date when="1415">xv jar</date>
+<measure type="currency" unit="lb" quantity="5">v </measure>.
+</p>
+<p><lb/>Item aber sol er die <persName ref="per013297">Hans Bitzziner</persName><note><persName ref="per013297">Johannes Bitziner</persName>
+(im Amt 1416-1419, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216</bibl>).</note>
+in <date dur="P3Y">dry jaren</date> verbuwen hat <measure type="currency" unit="lb" quantity="12">xij </measure>.
+</p>
+<p><lb/>Item aber sol er die <persName ref="per013787">Felix Maness</persName><note><persName ref="per013787">Felix Manesse</persName> war Baumeister der Stadt <placeName ref="loc000065">Zürich</placeName>
+(im Amt 1407-1424, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/018089">Felix Manesse</ref></bibl>).</note>
+verbuwen hat <measure type="currency" unit="lb" quantity="25">xxv </measure>.
+</p></seg>
+</div>
+<pb n="3" facs="StAZH_C_I__Nr__2560__S__4_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>Graf <persName ref="per000327">Friedrich VII. von Toggenburg</persName> hatte die Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+im Jahr 1402 an die Stadt <placeName ref="loc000065">Zürich</placeName> verpfändet
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_007">SSRQ ZH NF II/3, Nr. 7</ref></bibl>).
+Weil die Herrschaft jedoch nicht genug Ertrag abwarf, wurde die Pfandsumme 1414 erhöht
+und der vereinbarte Zins von 400 Gulden auf 264 Gulden gesenkt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_010">SSRQ ZH NF II/3, Nr. 10</ref></bibl>).
+Auf dieser Grundlage entstand für die folgenden Jahre die vorliegende Abrechnung, aus der hervorgeht,
+dass sich die Schulden des Grafen auf das Pfand <placeName ref="loc000348">Greifensee</placeName> weiter anhäuften.
+Die Auslösung des Pfandes wurde dadurch zunehmend unrealistisch, sodass <placeName ref="loc000348">Greifensee</placeName>
+dauerhaft unter <orgName ref="org002406">Zürcher Herrschaft</orgName> verblieb.
+</p>
+<p>Parallel zu der vorliegenden Abrechnung geht aus einem Eintrag im Stadtbuch zum 26. April 1418 hervor,
+dass der von der Stadt eingesetzte Vogt <persName ref="per013297">Johannes Bitziner</persName> es nicht schaffte,
+die vorgesehenen Zinsen der Herrschaft <placeName ref="loc000348">Greifensee</placeName> vollumfänglich einzuziehen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_013">SSRQ ZH NF II/3, Nr. 13</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

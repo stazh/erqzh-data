@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_085</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3614889">StAZH III Pb 6/1 (2)</idno></msIdentifier><head>Schulordnung der Stadt Zürich für die deutschen Schulen</head><msContents><summary></summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 24 S.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="19.0"/><width unit="cm" quantity="17.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1781-01-01" to="1781-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>SBPOZH, Bd. 6, Nr. 40, S. 314-334 mit Beilage</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 1038, Nr. 1865</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004749">Ausbildung</term><term ref="key003009">Gebet</term><term ref="key004196">Kinder/Jugendliche</term><term ref="key000795">Schulwesen</term><term ref="key000584">Visitation</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_III_Pb_6_1__2___S__01_.tif"/><head type="title"><lb/>Erneuerte <lb/>Schul- und Lehr-Ordnung <lb/>fuͤr die <lb/>Haus- und Deutsche Schulen der <lb/>Stadt <placeName ref="loc000065">Zuͤrich</placeName></head>
+<p>
+<lb/>Aus Hoch-Obrigkeitlichem Befehl zum
+ <lb/>Druck befoͤrdert.
+</p>
+<p>
+<figure type="copper engraving"/>
+</p>
+<p>
+<lb/><date when="1781">MDCCLXXXI</date>.
+</p><pb n="2" facs="StAZH_III_Pb_6_1__2___S__02_.tif"/>
+<pb n="3" facs="StAZH_III_Pb_6_1__2___S__03_.tif"/>
+<p><figure type="copper engraving"/></p>
+<seg><head type="subtitle">Die Haus-Schulen</head>
+<p>
+<lb/>Es sollen derselben fernerhin nur <num value="7">sieben</num> seyn. Naͤmlich
+ <lb/><num value="2">zwey</num> in der <placeName ref="loc011711">Groß-Muͤnster</placeName><!-- Kirchspiel -->, <num value="2">zwey</num> in der <placeName ref="loc011710"><abbr>St</abbr> Peters</placeName><!-- Kirchspiel -->, <num value="2">zwey</num>
+<lb/>in der <placeName ref="loc011709">Prediger</placeName><!-- Kirchspiel -->, und eine in der <placeName ref="loc011708">Frau-Muͤnster-Gemeinde</placeName><!-- Kirchspiel -->. ‒
+ <lb/>Um nun diese Schulen desto nutzbarer zu machen, ward
+ <lb/>fuͤr den Unterricht folgende Ordnung vestgesetzt, deren Beob<lb break="no"/>achtung
+ und gewissenhafte Befolgung jeder Schulmeister
+ <lb/>der <num value="7">sieben</num> Haus-Schulen sich bestens soll angelegen seyn
+ <lb/>lassen.<note>Zum <placeName ref="loc000065">Zürcher</placeName> Schulwesen vgl. auch die Ordnung für die Schule am <placeName ref="loc007562">Grossmünster</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_149">SSRQ ZH NF I/1/3, Nr. 149</ref></bibl>).</note>
+</p>
+<seg><div><ab type="marginal note" place="right margin"><lb/><hi rend="font change">A.</hi> In Anse<lb break="no"/>hung der <lb/>Eintheilung der <hi rend="font change">Penso<lb break="no"/>rum</hi>.</ab></div>
+<div type="chapter"><p>
+<lb/>I.
+ <lb/>Jeder Schulmeister soll <date dur="R/P1D">taͤglich</date>
+<time dur="PT4H">4 Stunden</time> Schule
+ <lb/>halten, nebst <time dur="PT2H">2 Nachstunden</time>, naͤmlich von <time from="08:00:00" to="10:00:00">8 bis 10 Uhr
+ <lb/>des Morgens</time>, sowohl im <date period="summer">Sommer</date> als im <date period="winter">Winter</date>, und
+ <pb n="4" type="original" facs="StAZH_III_Pb_6_1__2___S__04_.tif"/>
+<lb/>von <time from="13:00:00" to="15:00:00">1 bis 3 Uhr des Nachmittags</time>. ‒ Die Nachstunden
+ <lb/>sind des <time from="10:00:00" to="11:00:00">Morgens von 10 bis 11 Uhr</time>, und zu <time from="15:00:00" to="16:00:00">Mittag von
+ <lb/>3 bis 4 Uhr</time>.
+</p></div>
+<div type="chapter"><p>
+<lb/>II.
+ <lb/>In besagten Stunden werden der Ordnung nach fol<lb break="no"/>gende
+ <hi rend="font change">Pensa</hi> tractiert:
+</p><p>
+<seg><lb/><date dur="R/P2WD">Montag</date> Morgens lehrt er Buchstaben kennen, buch<lb break="no"/>stabieren
+  und lesen, nach Anleitung des verfertigten Le<lb break="no"/>se-Buͤchleins
+  ‒ zugleich wird aus dem kleinen und
+  <lb/>grossen Catechismus memorisiert, und die in dem Lese-<lb/>Buͤchlein
+ enthaltene Verse und Spruͤche sammt den eigens
+  <lb/>hierzu ausbezeichneten schoͤnsten Psalmen sollen dem Ge<lb break="no"/>daͤchtniß
+ der Kinder durch fleißiges Lesen eingepraͤget
+  <lb/>werden.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> wie am <time period="morning">Morgen</time>.</seg>
+<seg><lb/><date dur="R/P3WD">Dienstag</date>
+<time period="morning">Morgens</time> wird der grosse und kleine Cate<lb break="no"/>chismus ganz recitiert.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time>, wie am <date dur="R/P2WD">Montag</date>.</seg>
+<seg><lb/><date dur="R/P4WD">Mittwoch</date>
+<time period="morning">Morgens</time>, wie am <date dur="R/P2WD">Montag</date>.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> eben so.</seg>
+<seg><lb/><date dur="R/P5WD">Donnstag</date>
+<time period="morning">Morgens</time>, wie am <date dur="R/P3WD">Dienstag</date>.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> sind Ferien.</seg>
+<seg><lb/><date dur="R/P6WD">Freytag</date>
+<time period="morning">Morgens</time>, wie am <date dur="R/P2WD">Montag</date>.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> eben so.</seg>
+<pb n="5" type="original" facs="StAZH_III_Pb_6_1__2___S__05_.tif"/>
+<seg><lb/><date dur="R/P7WD">Samstag</date>
+<time period="morning">Morgens</time>, wie am <date dur="R/P3WD">Dienstag</date>, aussert daß
+ <lb/>noch Psalmen recitiert werden.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> begleitet der Schulmeister die
+  <lb/>Kinder in die Kirche zum <placeName ref="loc007562">Grossen Muͤnster</placeName>, wo alle
+  <lb/>mal <num value="4">4</num> Kinder aus jeder Schule der Ordnung nach auf<lb break="no"/>sagen muͤssen.</seg>
+</p></div>
+<div type="chapter"><p>
+<lb/>III.
+ <lb/>In den Nachstunden wird ein kleiner Anfang in dem
+ <lb/>Schreiben gemachet.
+</p></div></seg>
+<seg><div><ab type="marginal note" place="right margin"><lb/><hi rend="font change">B.</hi> In Anse<lb break="no"/>hung der <lb/>Lehrart.</ab></div>
+<div><ab type="marginal note" place="right margin"><lb/>Von der Er<lb break="no"/>lernung der <lb/>Buchstaben.</ab></div>
+<div type="chapter"><p>
+<lb/>IV.
+ <lb/><date dur="R/P1Y">Jedes Jahr</date> muß, in den oͤffentlichen Schulen die
+ <lb/>Unterrichtung der Kinder ganz vornen angefangen, und
+ <lb/>denen, die um persoͤnlicher unvermeidlicher Ursachen wil<lb break="no"/>len
+ in ihren spaͤten Jahren zur Schule geschickt werden, in
+ <lb/>ausserordentlichen Stunden nachgeholfen werden.
+</p><p>
+<lb/>In jeder Schul muß eine Tafel aufgehaͤngt sey, auf
+ <lb/>welcher in gedruckten Folio-Blaͤttern mit den schoͤnsten an<lb break="no"/>sehnlichsten
+ Buchstaben aufgekleibt sind.
+</p>
+<div type="section"><p>
+<lb/>1. Das deutsche Alphabeth in der gewoͤhnlichen kleinen
+ <lb/>Schrift und in Versalen.
+</p></div>
+<div type="section"><p>
+<lb/>2. Die vornehmsten Sylben, so daß auf die einfache
+  <lb/>immer zusammengesetzte schwerere folgen.
+ </p></div>
+<div type="section"><p>
+<lb/>3. Die Ziefern von <num value="1">1</num> bis <num value="1000">1000</num>.
+ </p></div><pb n="6" type="original" facs="StAZH_III_Pb_6_1__2___S__06_.tif"/><p>
+<lb/>Ueber dies ist dienlich, eine hinlaͤngliche Menge Syl<lb break="no"/>ben
+  auch mit solchen Zuͤgen, wie sie von guten Haͤnden ge<lb break="no"/>schrieben
+  werden, mit zugeschnittener Kreide auf die Tafel zu
+  <lb/>zeichnen. An dieser Tafel nun geschiehet durch Huͤlfe eines
+  <lb/>duͤnnen weissen Stabs die allererste Anweisung der Buch<lb break="no"/>staben,
+  von welcher also eine ziemliche Menge Kinder auf
+  <lb/>einmal Nutzen haben kann. Der Lehrer sagt ihnen erstlich
+  <lb/>das Alphabeth einige mal nach der Ordnung vor, lieset her<lb break="no"/>nach
+  die Selbstlaute heraus, und macht sie den Kindern be<lb break="no"/>kannt.
+  Nach diesem von den Mitlauten diejenige, welche
+  <lb/>am meisten Aehnlichkeit mit der Selbstlauten einem haben.
+ </p><p>
+<lb/>Es koͤmmt hier viel auf die Geschicklichkeit des Lehrers
+  <lb/>an, in der Figur der Buchstaben die kleinen fluͤchtigen
+  <lb/>Aehnlichkeiten derselben zu entdecken, wann er dem Kinde
+  <lb/>ein Auge geben kann, die kaum bemerkten <hi rend="font change">Apices</hi> oder
+  <lb/>Strichlein, so sie unterscheiden, zu erblicken. Ein geschick<lb break="no"/>ter
+  Lehrer kann ferner in der Gestalt und Form eines Buch<lb break="no"/>stabens
+  immer etwas aͤhnliches, obgleich entferntes, und
+  <lb/>nur eingebildetes, mit irgend einer andern ins Auge fal<lb break="no"/>lenden,
+  und den Kindern bekannten Figur ersinnen. ‒
+  <lb/>Dadurch werden sie aufmerksam gemacht und die Kenntniß
+  <lb/>der Buchstaben wird ihnen erleichtert und familiar. Auf
+  <lb/>diese zuerst erwaͤhnte Art kann zugleich der Grund zum
+  <lb/>Schreiben gelegt werden.
+ </p></div><pb n="7" type="original" facs="StAZH_III_Pb_6_1__2___S__07_.tif"/>
+<div><ab type="marginal note" place="right margin"><lb/>Von dem <lb/>Buchstabie<lb break="no"/>ren.</ab></div>
+<div type="chapter"><p>
+<lb/>V.
+ <lb/>Wann nun die einzelnen Buchstaben, wie sie an der
+ <lb/>Tafel stehen, wohl begriffen worden, muͤssen die Kinder
+ <lb/>auf ihr A. B. C. Buch gewiesen, und dazu angewoͤhnt wer<lb break="no"/>den;
+ daß sie alle zugleich nach dem Wink ihrers Lehrers
+ <lb/>auf das, was er ihnen darinnen angiebt, acht haben, und
+ <lb/>wann einer laut buchstabiert, ihm anfangs mit einem lei<lb break="no"/>sen
+ Murmlen, und hernach nur in Gedanken folgen ler<lb break="no"/>nen.
+ Dieses zu erlangen stellet er anfangs etwann <num value="6">6</num> bis
+ <lb/><num value="10">10</num> um sich her und so, daß sie zugleich an die Tafel sehen
+ <lb/>koͤnnen, weiset ihnen, was sie an der Tafel gelernet, in
+ <lb/>ihrem Buche, und gehet alsdann immer einen Schritt wei<lb break="no"/>ter
+ fort. Seine Liebe, Lust zur Sache und Munterkeit
+ <lb/>wird auch in den Kindern dergleichen Gemuͤthsregung er<lb break="no"/>wecken,
+ und sie eifrig machen, es einander vorzuthun, so
+ <lb/>daß die Anzahl der Kinder, welche anfangs dem gluͤckli<lb break="no"/>chen
+ Fortgange der Unterweisung im Wege zu stehen schei<lb break="no"/>nen
+ doͤrfte, denselben vielmehr befoͤrdern wird. Es muß
+ <lb/>aber die Uebung im Buchstabieren sonderlich auf das fleis<lb break="no"/>sigste
+ getrieben werden, und zwar nicht nur aus dem
+ <lb/>Buch, sondern auch auswendig, in dem man den Kindern
+ <lb/>die Buchstaben einer Sylbe vorsagt, und sie saͤmtlich fragt,
+ <lb/>wie dieselbe auszusprechen? Die so nuͤtzliche Nacheifrung
+ <lb/>zu erhalten, theilet der Lehrer die Kinder, nach ihrem un<lb break="no"/>terschiedlichen
+ natuͤrlichen oder durch Fleiß erlangten Faͤhig<lb break="no"/>keiten,
+ in ihre Classen ein, damit diejenigen, so er zugleich
+ <pb n="8" type="original" facs="StAZH_III_Pb_6_1__2___S__08_.tif"/>
+<lb/>fraget, einander so ziemlich gleich seyen, und nicht ein
+ <lb/>oder der andere allezeit, die uͤbrigen aber niemal zur Ant<lb break="no"/>wort
+ kommen moͤgen, wodurch diese faul werden, und sich
+ <lb/>auf das Vorsagen andrer verlassen, sondern es muͤssen auch
+ <lb/>die langsamen bisweilen den Anlaaß haben, durch Huͤlfe
+ <lb/>ihrer Aufmerksamkeit mit der Antwort eher fertig zu wer<lb break="no"/>den,
+ wodurch zugleich die, so muntrer sind, vor der Ein<lb break="no"/>bildung,
+ und daher entstehenden Luͤderlichkeit behuͤtet
+ <lb/>werden.
+</p></div>
+<div><ab type="marginal note" place="left margin"><lb/>Von dem <lb/>Lesen.</ab></div>
+<div type="chapter"><p>
+<lb/>VI.
+ <lb/>Es muß niemalen ein Kind aus der Classe der Buch<lb break="no"/>stabierenden
+ herausgenohmen, und unter die Lesenden ge<lb break="no"/>setzt
+ werden; ehe es im Buchstabieren einen ziemlichen
+ <lb/>Grad der Fertigkeit erlanget hat. ‒ Alsdann aber wird
+ <lb/>es damit eben so, wie mit dem Buchstabieren gehalten. ‒
+ <lb/>Nemlich die, so von ungefehr gleichen Kraͤften sind, wer<lb break="no"/>den
+ mit einander vorgenohmen. ‒ Alle haben einerley
+ <lb/>Buch und in demselben eine Stelle vor sich. Der Lehrer
+ <lb/>lieset eine kurze Stelle vor, oder laͤßt dieses durch einen
+ <lb/>fertigen Knaben verrichten ‒ Ruft hernach bald diesen
+ <lb/>bald jenen zum nachlesen auf ‒ Wann der Aufgerufne
+ <lb/>nicht fortkommen kann, oder fehlet, stehet es einem jeden
+ <lb/>von seiner Ordnung frey, ihm einzuhelfen. ‒ Der Lehrer
+ <lb/>giebt Achtung, ob auch alle Kinder die Augen auf dem
+ <lb/>Buch haben ‒ Befiehlet, ohne eine gewisse Ordnung zu
+ <pb n="9" type="original" facs="StAZH_III_Pb_6_1__2___S__09_.tif"/>
+<lb/>halten, bald diesem bald einem andern fortzulesen, und
+ <lb/>machet durch seine Munterkeit und bestaͤndige Abwechslung
+ <lb/>diese Bemuͤhungen den Kindern zu einem angenehmen Zeit<lb break="no"/>vertriebe.
+</p><p>
+<lb/>Zur Lese-Uebung muͤssen die in dem Lese-Buͤchlein ent<lb break="no"/>haltene
+ Spruͤche, Reimgebette, ferner die darin bezeich<lb break="no"/>neten
+ Psalmen, und der Catechismus genohmen werden,
+ <lb/>welches aber so oft zu wiederholen, bis es dadurch im Ge<lb break="no"/>daͤchtnisse
+ hangen bleibt ‒ Wobey dann um so viel sorg<lb break="no"/>faͤltiger
+ zu vermeiden ist, daß nicht einige Fehler dem Ge<lb break="no"/>daͣchtnisse
+ zugleich eingedruͤckt werden. Absonderlich aber
+ <lb/>haben die Lehrer auch dahin zu sehen, das die Kinder sich
+ <lb/>keinen verdruͤßlichen Sing-Ton und immer wieder kommen<lb break="no"/>den
+ Klang angewoͤhnen, sondern nach Beschaffenheit der
+ <lb/>Materie, und Abtheilung der Distinction der Worte, die
+ <lb/>Stimme in etwas erheben oder fallen lassen. ‒ Es ist
+ <lb/>so weit ertraͤglicher, wenn die Kinder ganz gerade zu in ei<lb break="no"/>nem
+ Ton fortlesen, als wenn sie am unrechten Orte, und
+ <lb/>immer auf einerley Art mit der Stimme steigen und fallen.
+</p></div>
+<div><ab type="marginal note" place="right margin"><lb/>Von dem <lb/>Schreiben.</ab></div>
+<div type="chapter"><p>
+<lb/>VII.
+ <lb/>Mit dem Schreiben kann der Anfang gemacht wer<lb break="no"/>den,
+ so bald die Formen der Buchstaben recht begriffen,
+ <lb/>und das Buchstabieren angefangen worden. Vor allen
+ <lb/>Dingen sollen die Kinder angewiesen werden, wie sie die
+ <lb/>Feder halten muͤssen, und daß sie sich weder gewoͤhnen,
+ <pb n="10" type="original" facs="StAZH_III_Pb_6_1__2___S__10_.tif"/>
+<lb/>die Augen zu nahe auf das Papier zu halten, wodurch sie leicht
+ <lb/>bloͤdsichtig werden koͤnnen, noch die Federstriche mit Bewe<lb break="no"/>gung
+ der Lippen zu verfolgen, krumm und mit gebognem
+ <lb/>Rucken zu sitzen, die Haͤnde zu besudeln, die Federn zu kaͤuen,
+ <lb/>und was noch mehr fuͤr ungereimte und theils schaͤdliche
+ <lb/>Gewohnheiten bey dem Schreiben vorzukommen pflegen.
+</p><p>
+<lb/>Man faͤngt von dem einfachesten und leichtesten Zuge
+ <lb/>an, mit welchem alle Buchstaben sich im Deutschen anhe<lb break="no"/>ben,
+ und gefuͤget werden. ‒ Gehet von da fort auf das
+ <lb/>i, n, m, und so weiter. Es werden aber die allerersten
+ <lb/>Zuͤge mit Reißbley<!-- Idiotikon: Bleistift, "Rissbli" --> auf das Papier gemacht, und von den
+ <lb/>Kindern mit Dinte, doch unter der Aufsicht des Lehrers,
+ <lb/>damit sie die Feder recht fuͤhren, uͤberzogen. Bey einer
+ <lb/>ziemlichen Menge mahlet der Lehrer die Buchstaben, auch
+ <lb/>wohl mit zugeschnittener Kreide an die Tafel, und heißt
+ <lb/>die Kinder auf seine Zuͤge Acht geben.
+</p><p>
+<lb/>So bald die Kinder eine Fertigkeit in den einzelnen
+ <lb/>Buchstaben, und deren Zusammenfuͤgung erlanget, muß
+ <lb/>der Lehrer ihnen benahe <date dur="R/P1Y">taͤglich</date> eine andere Vorschrift ge<lb break="no"/>ben,
+ damit sie bestaͤndig auf das ihnen vorgelegte Muster
+ <lb/>zu sehen, gezwungen seyen, und nicht, ohne die Vorschrift
+ <lb/>ins Auge zu fassen, schreiben koͤnnen. Zu welchem Ende
+ <lb/>dann jeder Schulmeister mit einer grossen Anzahl schoͤner
+ <lb/>entweder geschriebner oder in Kupfer gestochner Vorschrif<lb break="no"/>ten
+ versehen seyn soll.
+</p></div></seg><pb n="11" type="original" facs="StAZH_III_Pb_6_1__2___S__11_.tif"/>
+<seg><div><ab type="marginal note" place="right margin"><lb/><hi rend="font change">C.</hi> In Anse<lb break="no"/>hung der <lb/>Schul-Dis<lb break="no"/>ciplin.</ab></div>
+<div type="chapter"><p>
+<lb/>VIII.
+ <lb/>Die Schule soll allemal mit den auf das Alter der Kin<lb break="no"/>der
+ eingerichteten, und hinten an dem Lese-Buͤchlein gedruck<lb break="no"/>ten
+ Gebetten angefangen und beendigt werden.
+</p></div>
+<div type="chapter"><p>
+<lb/>IX.
+ <lb/>Da die Liebe zur Tugend den Kindern am besten in
+ <lb/>dem zartesten Alter eingepraͣget werden kann, und die Er<lb break="no"/>fahrung
+ zeiget, daß sich die ersten Eindruͤcke, sey es zum
+ <lb/>Guten oder Boͤsen selten ausloͤschen lassen, so soll hiemit
+ <lb/>den Schulmeistern ernstlich anbefohlen seyn, auf die Unar<lb break="no"/>ten
+ des kindlichen Alters genaue Aufsicht zu halten, und
+ <lb/>die Kinder zu einer hoͤhern Sittenlehre vorzubereiten. Zu
+ <lb/>dem Ende werden sie ermahnet, keine Hartnaͤckigkeit, kin<lb break="no"/>dische
+ Schalkheit oder gar Bosheit unbemerkt hingehen zu
+ <lb/>lassen, den Kindern Ehrfurcht und Gehorsam gegen ihre
+ <lb/>Eltern, als eine der nothwendigsten Pflichten, immer vor<lb break="no"/>zusagen
+ ‒ sie zu ermahnen, daß sie sich gegen aͤltere Per<lb break="no"/>sonen
+ ehrerbietig, und gegen ihres gleichen liebreich bezei<lb break="no"/>gen.
+ Insonderheit soll der Schulmeister trachten, ihnen
+ <lb/>durch artige Histoͤrchen fuͤr Fluchen, poͤbelhafte Beynemen,
+ <lb/>und alle andern unanstaͤndigen Dinge Abscheu einzupflan<lb break="no"/>zen,
+ welches gewiß durch Gottes Segen einem rechtschaff<lb break="no"/>nen
+ Schulmeister nicht schwer fallen, und ihm bey seiner
+ <lb/>Muͤhe den freudigen Gedanken beybringen wird, daß er
+ <pb n="12" type="original" facs="StAZH_III_Pb_6_1__2___S__12_.tif"/>
+<lb/>zum Nutzen seines Vaterlands zarte Herzen zur Erkenntniß
+ <lb/>der Religion und Tugend gebildet habe.
+</p></div>
+<div type="chapter"><p>
+<lb/>X.
+ <lb/>Hiemit wird den Schulmeistern auf das ernstlichste
+ <lb/>anbefohlen, und zweifelt man keineswegs, sie werden die
+ <lb/>Wichtigkeit dessen von selbst einsehen, daß sie, wenn al<lb break="no"/>lenfalls
+ liebreiche Ermahnungen bey Kindern nichts fruch<lb break="no"/>ten
+ wurden, und eine Strafe nothwendig waͤre, nicht
+ <lb/>mit ungestuͤm-zornigen Gebaͤhrden, Schreyen und Poltern
+ <lb/>drein fahren, welches den Kindern eine Art der Selbst<lb break="no"/>raache
+ scheinen doͤrfte, sondern mit Bescheidenheit handeln,
+ <lb/>Widerwillen fuͤr den Fehler, und Mitleiden fuͤr das Kind
+ <lb/>bezeugen. Besonders muͤssen sie nie straffen, wenn sie zor<lb break="no"/>nig
+ sind; (und welcher vernuͤnftige Mann wird sich von
+ <lb/>einem Kind selbst beleidiget halten koͤnnen?) um auch nur
+ <lb/>den Schein des Zorns zu vermeiden, soll der Schulmei<lb break="no"/>ster
+ bis nach geendigter Schule zuwarten. ‒ Wobey ihm
+ <lb/>aber ernstlich untersagt seyn soll, anders als mit Zwicken
+ <lb/>der Ruthe auf die Haͤnde zu zuͤchtigen. ‒ Anbey ist an<lb break="no"/>zumerken,
+ daß die Seltenheit einer jeden Sache alte und
+ <lb/>junge aufmerksam, und um dessentwillen mehrern Eindruck
+ <lb/>macht, und hieraus entspringt der Nutzen, daß die Stra<lb break="no"/>fen,
+ je seltener sie sind, desto gelinder seyn koͤnnen.
+</p></div><pb n="13" type="original" facs="StAZH_III_Pb_6_1__2___S__13_.tif"/>
+<div type="chapter"><p>
+<lb/>XI.
+ <lb/>Da besonders der Schulmeister, bey unausweichlicher
+ <lb/>Ahndung, nie sich unterstehen soll, ohne dringende Um<lb break="no"/>staͤnde
+ sich von der Schule zu entaͤussern, so wird ihm auch
+ <lb/>ebenfalls ernstlich angesinnet, in denjenigen Stunden, in
+ <lb/>welchen er Schule haͤlt, keine eigne und fremde Ge<lb break="no"/>schaͤfte
+ zu verrichten, sey es lesen, copieren <abbr>etc</abbr> welches ihn
+ <lb/>hindern wurde die noͤthige Aufmerksamkeit ganz auf die
+ <lb/>liebe Jugend zu wenden. ‒ So auch sich durch niemand
+ <lb/>ander, als durch sein Eheweib oder andere, die von seinen
+ <lb/>Vorstehern dazu tuͤchtig befunden worden, helfen zu lassen.
+</p></div>
+<div type="chapter"><p>
+<lb/>XII.
+ <lb/>Jeder Schulmeister soll verbunden seyn, um den Kin<lb break="no"/>dern
+ eine gute Ordnung anzugewoͤhnen, selbst in der
+ <lb/>Schulstube eine gute Ordnung zu halten, jedem Kind sei<lb break="no"/>nen
+ bestimmten Platz einzuraͤumen, und genau Achtung
+ <lb/>darauf zu geben, daß jedes in seiner Buͤchern und Schrif<lb break="no"/>ten
+ ordentlich sey, und dieselbigen immer in seinem ange<lb break="no"/>wiesenen Ort verwahre.
+</p></div>
+<div type="chapter"><p>
+<lb/>XIII.
+ <lb/>Der Schulmeister muß bey Endigung der Schule je<lb break="no"/>desmal,
+ so wohl im <date period="summer">Sommer</date> als im <date period="winter">Winter</date>, wenigstens
+ <lb/><time dur="PT30M">ein halbe Stunde</time> lang die Thuͤr und die Fenster oͤffnen,
+ <pb n="14" type="original" facs="StAZH_III_Pb_6_1__2___S__14_.tif"/>
+<lb/>um die verdorbne Luft herauszulassen, und selbige im
+ <lb/><date period="winter">Winter</date> annoch mit Wachholderfeuer jedesmal wohl be<lb break="no"/>raͤuchern.
+</p></div>
+<div type="chapter"><p>
+<lb/>XIV.
+ <lb/>Die Abwesenheit eines jeden Kindes soll ordentlich
+ <lb/>bemerkt, und der Ursache derselben geflissen nachgefraget
+ <lb/>werden.
+</p></div>
+<div type="chapter"><p>
+<lb/>XV.
+ <lb/>Damit diese Gesetze in allen Theilen genau befolget
+ <lb/>werden, und weder aus Unachtsamkeit, oder vorschuͤtzen<lb break="no"/>der
+ Vergessenheit dawider gehandelt werden koͤnne, so sol<lb break="no"/>len
+ sie nicht nur jedem neuerwaͤhlten Schulmeister vorge<lb break="no"/>lesen,
+ und die gewissenhafte Beobachtung derselben auf das
+ <lb/>nachdrucklichste eingeschaͤrft und anbefohlen, sondern ihm
+ <lb/>auch ein gedrucktes Exemplar zu Handen gestellet werden.
+</p></div>
+<div type="chapter"><p>
+<lb/>XVI.
+ <lb/>Um dieser Schul Ordnung den erwuͤnschten Nachdruck
+ <lb/>zu geben, und den Fleiß und Eifer so wol der Lernenden
+ <lb/>als Lehrenden zu erwecken, wird den Herren Pfarrern
+ <lb/>und Helfern, wie auch denen verordneten Stillstaͤndern,
+ <lb/>hiemit aufgetragen, die Visitationen der Ordnung nach in
+ <lb/>diesen Schulen und je oͤfter je lieber zu machen, um von
+ <lb/>der eigentlichen Beschaffenheit derselben grundlichen Be<pb n="15" type="original" facs="StAZH_III_Pb_6_1__2___S__15_.tif"/><lb break="no"/>richt
+ zu haben. Da dann <date dur="R/P3M">alle Vierteljahre</date> bey Haltung
+ <lb/>des gewohnten <orgName ref="org005055">grossen Stillstands</orgName> auf die <choice><abbr>H</abbr><expan>Heiligen</expan></choice> Feste Nach<lb break="no"/>frage
+ zu halten, ob diese Visitationen fleißig seyen einge<lb break="no"/>nohmen
+ worden, und jeder von den Herren Visitatoren
+ <lb/>auf das nachdruͤcklichste ermahnet werden soll, alles lobens-
+ <lb/>oder tadlenswuͤrdige bey seinem Gewissen, und ohne Ver<lb break="no"/>schonen
+ oder Nachsicht anzuzeigen.
+</p></div>
+<div type="chapter"><p>
+<lb/>XVII.
+ <lb/>Jeder Praͤtendent zu einer dieser Haus-Schulen soll
+ <lb/>zuerst von den eigens hiezu verordneten <choice><abbr>HHerren</abbr><expan>Hohen Herren</expan></choice> Schul<lb break="no"/>herren
+ der deutschen Schulen auf das genauste examiniert
+ <lb/>werden, ob er die erforderliche Eigenschaften im gehoͤrigen
+ <lb/>Grad habe.
+</p><p>
+<lb/>Damit nun die Landesvaͤterliche gute Gesinnungen ge<lb break="no"/>gen
+ die Jugend desto besser befolget werden, als soll von dem
+ <lb/><orgName ref="org005055">Stillstand</orgName> in jeder Gemeind <date dur="R/P1Y">jaͤhrlich</date> einmal in denen ihm
+ <lb/>angehoͤrigen Schulen ein Examen gehalten werden. ‒
+ <lb/>Die Schulmeister aber sollen wie bis anhin, in den Exa<lb break="no"/>minibus
+ auf der deutschen Schule erscheinen, um daselbst
+ <lb/>von ihren Verrichtungen Rechenschaft abzulegen.
+</p><p>
+<lb/>Damit anbey die Herren Vorsteher der deutschen
+ <lb/>Schulen wissen, in wie weit ein jeder derselben seinen Pflich<lb break="no"/>ten
+ ein Genuͤgen leiste, als wird einem jeden Herrn Pfarrer
+ <lb/>aufgetragen, vor dem Examen der deutschen Schulen im
+ <pb n="16" type="original" facs="StAZH_III_Pb_6_1__2___S__16_.tif"/>
+<lb/>Namen seines <orgName ref="org005055">Stillstandes</orgName> bey Ihro Gnaden Herrn Buͤr<lb break="no"/>germeister,
+ welcher die vorderste Aufsicht auf die deutschen
+ <lb/>Schulen hat, ein Zeugniß von denen ihm zur Visitation
+ <lb/>anvertrauten Schulen abzulegen, damit in allweg die
+ <lb/>noͤthigen Anstalten zur Bildung der Jugend nach Noth<lb break="no"/>durft
+ der Sachen vorgekehret, und von den angezeigten
+ <lb/>Vorschriften nichts unterlassen werden moͤge.
+</p></div></seg>
+<p><figure type="copper engraving"/></p></seg>
+<pb n="17" facs="StAZH_III_Pb_6_1__2___S__17_.tif"/>
+<seg><head type="subtitle"><lb/>Die Deutschen Schulen</head>
+<p>
+<lb/>In beyden Deutschen Schulen aber soll die gleiche
+ <lb/>Lehrart beobachtet werden ‒ Mit dem Anhang, daß
+ <lb/>die <date dur="R/P1Y">alljaͤhrigen</date> Examina in dem Schulhaus in der gros<lb break="no"/>sen
+ Stadt gehalten werden sollen, wohin sich alsdann
+ <lb/>der Schulmeister und die Schuͤler der kleinen Stadt ver<lb break="no"/>fuͤgen
+ muͤssen. Im uͤbrigen sind die Schulmeister der
+ <lb/>Deutschen Schulen an die gleiche Disciplin und Ordnung
+ <lb/>gebunden, welche den Schulmeistern von den Haus-<lb/>Schulen
+ vorgeschrieben ist, und diese beyden Schulmei<lb break="no"/>ster
+ haben in allem die gleichen Pflichten. Die beson<lb break="no"/>dere
+ Ordnungen dieser deutschen Schulen aber sind nach<lb break="no"/>folgende:
+</p>
+<seg><div><ab type="marginal note" place="right margin"><lb/><hi rend="font change">A.</hi> In Anse<lb break="no"/>hung der <lb/>Aufnahme <lb/>in dieselbe.</ab></div>
+<div type="chapter"><p>
+<lb/>I.
+ <lb/>Der Schulmeister soll keinen Knaben annehmen, be<lb break="no"/>vor
+ er ihn wohl examiniert hat, ob er in einer der Haus<lb break="no"/>schulen
+ im Buchstabieren, Lesen des kleinen Lese-Buͤchleins,
+ <lb/>und Erlernung des grossen und kleinen Catechismus die er<lb break="no"/>forderliche
+ Progressen gemachet habe?
+</p></div><pb n="18" type="original" facs="StAZH_III_Pb_6_1__2___S__18_.tif"/>
+<div type="chapter"><p>
+<lb/>II.
+ <lb/>Wann etwann ein Knabe nicht in den Hausschulen
+ <lb/>gewesen, und doch in die deutsche Schule wollte, so soll
+ <lb/>er nicht aufgenommen werden, wenn er nicht in allem,
+ <lb/>was in der Hausschule gelehrt wird, vollkommen geuͤbet
+ <lb/>ist, damit er den erwuͤnschten Nutzen von der deutschen
+ <lb/>Schule haben koͤnne, und andern nicht hinderlich sey.
+</p></div></seg>
+<seg><div><ab type="marginal note" place="left margin"><lb/><hi rend="font change">B.</hi> In Anse<lb break="no"/>hung der <lb/>Eintheilung <lb/>der <hi rend="font change">Penso<lb break="no"/>rum</hi>.</ab></div>
+<div type="chapter"><p>
+<lb/>III.
+ <lb/>Jeder Schulmeister soll <date dur="R/P1D">taͤglich</date>
+<date dur="PT4H">4 Stunden</date> Schule
+ <lb/>halten, sowohl im <date period="summer">Sommer</date> als im <date period="winter">Winter</date>, am <time from="08:00:00" to="10:00:00">Morgen
+ <lb/>von 8 bis 10 Uhr</time>, und <time from="13:00:00" to="15:00:00">Nachmittags <choice><sic>vo</sic><corr>von</corr></choice> 1 bis 3 Uhr</time>.
+</p></div>
+<div type="chapter"><p>
+<lb/>IV.
+ <lb/>In diesen Stunden werden der Ordnung nach fol<lb break="no"/>gende <hi rend="font change">Pensa</hi> tractiert:
+</p><p>
+<seg><lb/><date dur="R/P2WD">Montag</date>
+<time period="morning">Morgens</time> 1ste Stunde, in den auserlesenen
+  <lb/>evangelischen Spruͤchen lesen.
+  <lb/>2te Stunde, in den moralischen Erzehlungen lesen.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> 1ste Stunde, auswendig er<lb break="no"/>zehlen,
+ was man am <time period="morning">Morgen</time> gelesen hat, und wei<lb break="no"/>ter
+ in den moralischen Erzehlungen lesen.
+  <lb/>2te Stunde, die groͤssern Knaben auswenig schreiben,
+  <lb/>die kleinern nach Vorschrift.</seg>
+<pb n="19" type="original" facs="StAZH_III_Pb_6_1__2___S__19_.tif"/>
+<seg><lb/><date dur="R/P3WD">Dienstag</date>
+<time period="morning">Morgens</time> 1ste Stunde den Christlichen Cate<lb break="no"/>chismus
+  recitieren lassen.
+  <lb/>2te Stunde in <persName ref="per012661">Osterwalds</persName> biblischen Geschichten lesen,
+  <lb/>auch die in den Hausschulen gelernte Psalmen recitieren.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> 1ste Stunde nach der Vor<lb break="no"/>schrift
+ und nach der Tafel Zahlen machen.
+  <lb/>2te Stunde Zahlen aussprechen lernen, und dann die<lb break="no"/>selben abschreiben.</seg>
+<seg><lb/><date dur="R/P4WD">Mittwoch</date>
+<time period="morning">Morgens</time> 1ste Stunde in den auserlesnen
+  <lb/>evangelischen Spruͤchen lesen.
+  <lb/>2te Stunde in den moralischen Erzehlungen lesen.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> 1ste Stunde auswendig er<lb break="no"/>zehlen,
+ was man am <time period="morning">Morgen</time> gelesen hat, und weiter
+  <lb/>in den moralischen Erzaͤhlungen lesen.</seg>
+<seg><lb/><date dur="R/P5WD">Donnstag</date>
+<time period="morning">Morgens</time>, 1ste Stunde im deutschen Decli<lb break="no"/>nieren
+ lesen, mit den lateinischen Paradigmen uͤben.
+  <lb/>2te Stunde, sich im Schreiben uͤben, sowohl im aus<lb break="no"/>wendig
+ schreiben, als nach Vorschrift. Lernen den Cir<lb break="no"/>kel
+ zu gebrauchen, Linien, Quadrate zu machen.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> sind Ferien.</seg>
+<seg><lb/><date dur="R/P6WD">Freytag</date>
+<time period="morning">Morgens</time> 1ste Stunde aus dem Christlichen
+  <lb/>Catechismus aufsagen. Besonders werden die auserle<lb break="no"/>senen
+ evangelischen Spruͤche repetiert.
+  <lb/>2te Stunde aus den moralischen Erzehlungen gelesen,
+  <lb/>und aus denselben erzehlt.</seg>
+<pb n="20" type="original" facs="StAZH_III_Pb_6_1__2___S__20_.tif"/>
+<seg><lb/><date dur="R/P6WD">Freytag</date>
+<time period="afternoon">Nachmittags</time> 1ste Stunde im deutschen De<lb break="no"/>clinieren
+ lesen; sich bey den lateinischen Paradigmen
+  <lb/>im latein lesen uͤben.
+  <lb/>2te Stunde latein schreiben lernen.</seg>
+<seg><lb/><date dur="R/P7WD">Samstag</date>
+<time period="morning">Morgens</time> 1ste Stunde Christlicher Catechis<lb break="no"/>mus.
+  <lb/>2te Stunde <persName ref="per012661">Osterwalds</persName> biblische Geschichten lesen; die
+  <lb/>gelernten Psalmen aufsagen.</seg>
+<seg><lb/>" " " <time period="afternoon">Nachmittags</time> gehet man in die Kirche.</seg></p>
+</div></seg>
+<seg><div><ab type="marginal note" place="left margin"><lb/><hi rend="font change">C.</hi> In Anse<lb break="no"/>hung der <lb/>Lehrart.</ab></div>
+<div type="chapter"><p>
+<lb/>V.
+ <lb/>Da man sich Muͤhe gegeben, daß das Lese-Buch cor<lb break="no"/>rect
+ und in reiner deutscher Sprache geschrieben sey, so
+ <lb/>sollen die Schulmeister den kleinen Knaben ihre Vorschrif<lb break="no"/>ten
+ eigenhaͤndig daraus schreiben, die groͤssern aber aus
+ <lb/>dem Lese-Buch selbst abschreiben lassen, ihnen auch daraus
+ <lb/>dictieren, und ordentlich corrigieren.
+</p></div>
+<div type="chapter"><p>
+<lb/>VI.
+ <lb/>Auf alle und jede Unarten bey dem Schreiben soll
+ <lb/>ordentlich Achtung gegeben, und denselben nach Anleitung
+ <lb/>der Gesetze fuͤr die Hausschulen, ferners vorgebogen wer<lb break="no"/>den.
+ Da dann nicht unnoͤthig seyn wird, denen Schul<lb break="no"/>meistern
+ der deutschen Schule die Gesetze der Hausschulen
+ <lb/>zu ihrem Verhalt ebenfalls mitzutheilen.
+</p></div><pb n="21" type="original" facs="StAZH_III_Pb_6_1__2___S__21_.tif"/>
+<div type="chapter"><p>
+<lb/>VII.
+ <lb/>Die Erfahrung zeiget, daß man gemeiniglich zufrie<lb break="no"/>den
+ gewesen, wenn die Knaben die Woͤrter nur ausspre<lb break="no"/>chen
+ konnten, und man sich nicht bekuͤmmerte, ob sie bey
+ <lb/>den Unterscheidungszeichen gehoͤriger Massen absetzten, so
+ <lb/>daß ihr Lesen dem Zuhoͤrer ein unverstaͤndliches Getoͤn,
+ <lb/>und ohne einigen Verstand und Zusammenhang schien,
+ <lb/>welche uͤble Lehrart manchem, der sich keine Muͤhe gab,
+ <lb/>sich selbst zu corrigieren, bis ins reife Alter anhaͤngt, und
+ <lb/>noch uͤber dies der Schaden entstehet, daß die Knaben von
+ <lb/>Historien, die man ihnen nicht bloß, um dieselben zu lesen,
+ <lb/>sondern um sie auch zu belehren, vorlegt, keinen Begriff
+ <lb/>haben; so sollen die Schulmeister die genaueste Sorge tra<lb break="no"/>gen,
+ daß sie kein Wort verschlucken, jede Sylbe deutlich
+ <lb/>aussprechen, an behoͤrigen Orten anhalten, und bey jedem
+ <lb/>Punct ordentlich absetzen. Ferner ist sowohl der singende
+ <lb/>als aber einfoͤrmige Ton im Lesen zu verhuͤten, welche bey<lb break="no"/>de
+ gleich unangenehm sind ‒ Und soll einem jeden Schul<lb break="no"/>meister
+ angelegen seyn, selbst zu lernen, was fuͤr Woͤrtern
+ <lb/>im Lesen ein besondrer Nachdruck gegeben werden muͤsse,
+ <lb/>damit sie es den Knaben zeigen, und durch verstaͤndliches
+ <lb/>Lesen ihrem Gedaͤchniß zu Huͤlfe kommen koͤnnen.
+</p></div>
+<div type="chapter"><p>
+<lb/>VIII.
+ <lb/>Zu einer Probe, ob der Knab eine Historie mit Nach<lb break="no"/>sinnen
+ und Aufmerksamkeit gelesen habe, soll man ihn al<pb n="22" type="original" facs="StAZH_III_Pb_6_1__2___S__22_.tif"/><lb break="no"/>lemal
+ das Buch zuthun lassen, um zu sehen, was er von
+ <lb/>derselben wieder im Stand sey zu erzehlen. In gleichem
+ <lb/>sollen die andern Knaben, wann einer von ihnen lieset,
+ <lb/>ordentlich nachschauen, und soll der Schulmeister genau
+ <lb/>Achtung geben, ob sie aufmerksam seyen, und um diese
+ <lb/>Aufmerksamkeit rege zu halten, dann und wann in den
+ <lb/>Haufen fragen, wo man im Lesen sey? welches bey allen
+ <lb/>Lectionen zu beobachten ist.
+</p></div>
+<div type="chapter"><p>
+<lb/>IX.
+ <lb/>Der Schulmeister soll nicht zugeben, daß ein Knab
+ <lb/>anfangs zu geschwind schreibe, (wie es manchmal aus fal<lb break="no"/>scher
+ Ehrbegierde geschiehet, damit seine Vorschrift vor sei<lb break="no"/>nes
+ Cameraden seiner geendigt sey) bis er die Zuͤge eines
+ <lb/>jeden Buchstabens vollkommen im Kopf hat, weil dieses
+ <lb/>ein Hauptgrund ist, wodurch man sich eine ungleiche und
+ <lb/>unleserliche Schrift angewoͤhnt.
+</p></div></seg>
+<seg><div><ab type="marginal note" place="left margin"><lb/><hi rend="font change">D.</hi> In Anse<lb break="no"/>hung der <lb/>Schul-Dis<lb break="no"/>ciplin.</ab></div>
+<div type="chapter"><p>
+<lb/>X.
+ <lb/>Alles, was in den Gesetzen der Hausschulen unter die<lb break="no"/>sem
+ Artikel den Schulmeistern eingeschaͤrft worden, soll
+ <lb/>auch den deutschen Schulmeistern anbefohlen seyn.
+</p></div>
+<div type="chapter"><p>
+<lb/>XI.
+ <lb/>Da schon in dem IXten Gesetz der Hausschulen den
+ <lb/>Kindern die Ehrfurcht und Gehorsam gegen ihre Eltern
+ <pb n="23" facs="StAZH_III_Pb_6_1__2___S__23_.tif"/><note>Hier ist offensichtlich ein Druckfehler passiert. Statt 23 wurde 15 gedruckt.</note>
+<lb/>und andere Personen von hoͤherm Alter eingepraͤgt wird,
+ <lb/>so soll sich der Schulmeister in der deutschen Schule, be<lb break="no"/>sonders
+ in dem dermaligen Alter der Knaben aͤusserst ange<lb break="no"/>legen
+ seyn lassen, seinen Untergebnen ihre Pflichten der
+ <lb/>Ehrerbietung gegen ihre Obrigkeit, Lehrer und aͤltere Per<lb break="no"/>sonen
+ zu Gemuͤthe zu fuͤhren, und um sie zu einer anstaͤn<lb break="no"/>digen
+ und gesitteten Lebensart zu gewoͤhnen, ihnen ein<lb break="no"/>schaͤrfen,
+ daß sie niemals ohne Abnehmen des Huts oder
+ <lb/>der Kappe vor jemand vorbeygehen.
+</p></div>
+<div type="chapter"><p>
+<lb/>XII.
+ <lb/>Sehr oft und vielleicht allemal haͤngt es von den Schul<lb break="no"/>meistern
+ ab, den Knaben die Haͤßlichkeit des Fluchens und
+ <lb/>poͤbelhafter Beynamen zu zeigen, und deßhalben erwartet
+ <lb/>man von ihnen, daß sie alle Sorge anwenden werden,
+ <lb/>diese Unarten, die in der Folge der Zeit in Laster ausar<lb break="no"/>ten
+ koͤnnen, sorgfaͤltig zu ersticken. Gleicher Maassen kann
+ <lb/>man den Knaben zu Gemuͤth fuͤhren, was fuͤr Gefahren
+ <lb/>sie mit dem Steinwerfen, nachlaufen der Kutschen, Wa<lb break="no"/>gen
+ und Pferde unterworfen seyen, und was fuͤr Nieder<lb break="no"/>taͤchtigkeit
+ und Bosheit schon in einem jungen Herzen ein<lb break="no"/>gewurzelt
+ sey, welches arme Leute und Dienste mit Schnee<lb break="no"/>ballen
+ verfolgen koͤnne. ‒ Grausamkeiten gegen Thiere
+ <lb/>sollen allemal ernstlich geahndet werden, weil dadurch ein
+ <lb/>Knabe nicht nur die Empfindungen des Mitleidens gegen
+ <lb/>seine Nebengeschoͤpfe, sondern sogar die so edlen Triebe der
+ <lb/>Menschlichkeit verlieren kann.
+</p></div><pb n="24" type="original" facs="StAZH_III_Pb_6_1__2___S__24_.tif"/>
+<div type="chapter"><p>
+<lb/>XIII.
+ <lb/>Ausser der in dem XIIten Gesetz der Hausschulen an<lb break="no"/>befohlenen
+ Ordnung, wird den Schulmeistern angesonnen,
+ <lb/>zuzusehen, daß ein jeder Knabe gekaͤmmt sey, und Gesicht
+ <lb/>und Haͤnde gewaschen habe. Bey dem ersten mal soll er
+ <lb/>freundlich gemahnet werden, solches nicht mehr zu unter<lb break="no"/>lassen;
+ in dem zweyten mal aber setzt ihn der Schulmeister
+ <lb/>als einen eckelhaften und unsauberen Menschen an einen be<lb break="no"/>sondern
+ Platz, welches dem Knaben empfindlicher seyn
+ <lb/>wird, als eine thaͤtliche Strafe, die allemal, wie schon in
+ <lb/>den Gesetzen der Hausschulen angezeiget ist, nur bey gro<lb break="no"/>ben
+ Fehlern gebraucht werden soll.
+</p></div>
+<div type="chapter"><p>
+<lb/>XIV.
+ <lb/>Die in dem XVIten Gesetz der Hausschulen angezeigte
+ <lb/>Verordnung wegen fleißiger Visitationen soll dem Herrn
+ <lb/>Pfarer und Helfer in derjenigen Gemeine, wo sich eine
+ <lb/>der deutschen Schulen befindet, nebst Zuzug der Herren
+ <lb/>Stillstaͤnder ebenfalls ernstlich anbefohlen werden, nur mit
+ <lb/>dem Anhang, daß sie alle Jahre vor den, zu den deutschen
+ <lb/>Schulen verordneten <choice><abbr>HHerren</abbr><expan>Hohen Herren</expan></choice> Examinatoren deßhalber
+ <lb/>einen gewissenhaften Bericht abstatten sollen.
+</p></div></seg></seg>
+<pb n="27" facs="StAZH_III_Pb_6_1__2___S__25_.tif"/><p><note>Im Anschluss an die Schulordnung befindet sich eine vorgedruckte Tabelle, worin die Lese- und Schreibübungen zum Auswendiglernen (<orig>Leztgen</orig>), die Abwesenheiten und das Zeugnis eines jeden Schülers aufgeführt werden kann.</note></p>
+<pb n="28" facs="StAZH_III_Pb_6_1__2___S__26_.tif
+"/>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_092</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917230">StAZH B III 6, fol. 88r</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Besetzung der Obervogteien</head><msContents><summary>Die Vögte, die ihren Sitz in der Stadt haben, werden jährlich aus den Reihen des Kleinen Rates (Neue oder Alte Ratshälfte) berufen, nicht jedoch aus dem Grossen Rat. Wer eine Vogtei während eines Jahres innegehabt hat, kann sich erst für das übernächste Jahr wieder auf diese Stelle bewerben. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003866">Landesherrschaft</term><term ref="key000204">Verwaltung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="88r"/>
+<head>
+<lb/>Wie die vogtyen der vogten in
+<lb/>der statt sollent besetzt werden
+</head>
+<p><seg>
+<lb/>Aber die vogtyen, die wir besetzent unnd bißhar besetzt habent
+<lb/>mit vogten in der statt, die mit irem sitz deßhalb nit mu̍ssint 
+<lb/>hinuß ziehen, sollent unnd wollent wir besetzen <date dur="R/P1Y">jerlich</date> allein 
+<lb/>mit unnser nu̍wen oder alten <orgName ref="org004016">re̍ten</orgName> unnd keinem des <orgName ref="org004906">großen 
+<lb/>rats</orgName>.</seg>
+<seg>Unnd doch also we̍licher derselben vogtyen eine <date dur="P1Y">eins jars</date>
+<lb/>hat gehept, das im des <date dur="P1Y">anderen jars</date> keine nit sol wider gelihen
+<lb/>werden, aber am <date dur="P1Y">dritten jar</date> mag er es wol wider weßen, ob wir 
+<lb/>im eine lihent.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Aufteilung des Herrschaftsgebietes der Stadt <placeName ref="loc000065">Zürich</placeName> in Obervogteien und Landvogteien geht auf das Spätmittelalter zurück, im ersten Viertel des 16. Jahrhunderts bestanden 20 Ober- und 7 Landvogteien. Die in der Nähe der Stadt liegenden Obervogteien (auch Innere Vogteien genannt) verwalteten in der Stadt residierende Vögte, die aus den Reihen des Kleinen Rates rekrutiert wurden. Formell endete die Amtszeit eines Obervogts nach einem Jahr, de facto bestand jedoch die Praxis, dass die Obervogteien jeweils für längere Zeit durch zwei jährlich alternierende Amtsinhaber verwaltet wurden.
+Der Wortlaut der vorliegenden Ordnung findet sich in einer ungefähr zeitgleichen Fassung als Teil einer umfassenderen Ordnung für die Besetzung der städtischen Ämter sowie der Landvogteien und der Obervogteien (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_102">SSRQ ZH NF I/1/3, Nr. 102</ref></bibl>) sowie als spätere Überlieferung im sogenannten <q>Schwarzen Buch</q> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</p>
+<p>Zu den Obervogteien vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 37-39</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 38-39</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 16-17</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

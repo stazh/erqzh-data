@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_020</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393090">StAZH G I 96, fol. 240v-241r</idno></msIdentifier><head>Verleihung des Weibelamts in Fluntern mitsamt der Weibelhofstatt und Zubehör durch den Stiftspropst des Grossmünsters</head><msContents><summary>Lienhard Moschard, Propst des Stifts St. Felix und Regula in Zürich, verleiht Niklaus Hämmerli, Bürger von Zürich, kraft eines älteren Urteils das Amt des Weibels in Fluntern mitsamt der Weibelhofstatt, dem Gut genannt Loch und Zubehör.  Hämmerli hat die am Gericht im Hof von Fluntern gesprochenen Körperstrafen und Todesstrafen zu vollziehen. Er muss mit anderen Amtleuten des Grossmünsters während der Prozessionen und Kreuzgänge dem Propst und den Chorherren mit einem Stab folgen und ihnen dienen. Die Lehengüter darf er nutzen, ohne sie zu schädigen.  Nach seinem Tod soll das Lehen an den jeweils ältesten Sohn übergehen, der dem Stift einen Ehrschatz von höchstens 10 Schilling entrichten muss; er hat dem Stift wie andere Amtleute zu huldigen. Der Aussteller siegelt mit dem Stiftssiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift (Grundtext)</filiation><filiation type="original"><origDate when="1420-04-10"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="41.0"/><width unit="cm" quantity="31.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1401-01-01" to="1500-12-31"/><origPlace>Zürich</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 5, Nr. 6378</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000274">Ehrschatz</term><term ref="key000215">Huldigung</term><term ref="key000022">Lehen</term><term ref="key000604">Todesstrafe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="240v" type="original" facs="StAZH_G_I_96__fol__240_v_.tif"/>
+<div>
+<p><seg><lb/><add place="left margin" hand="hand16c" scribe="per011263"><!-- Schreiber ist Felix Fry --><lb/>Verlihung der stift <lb/>weibel tuͦn, der weibel <lb/>hoffstat und dem
+guͦt <lb/>im <placeName ref="loc012685"><sic>Locch</sic></placeName> ze <placeName ref="loc008707">Fluͦntren</placeName></add>Wir, <persName role="issuer" ref="per024109">Lienhart Moschart</persName>, probst des <orgName ref="org004352">gotzhus Sant Felix und Sant Reglen ze der probsty
+<placeName ref="loc000065">Zu̍rich</placeName></orgName> in <orgName ref="org000056"><placeName ref="loc000923">Costentzer</placeName> bistuͦm</orgName> ge<lb break="no"/>legen,
+tuͦnd kund und verjechent offenlich mit disem brieff allen den, die in ansechend, lesend oder hoͤrrent lesen, des wir
+<lb/>fu̍r u̍nß und alle u̍nser nachkomen an u̍nser <orgName ref="org004352">probsty <placeName ref="loc000065">Zu̍rich</placeName></orgName>, wan wir
+och die vestenklich hier zuͦ binden, alß wir <lb/>oͧch des wol machthabend nach lut und sag des spruch
+brieffs<note>URStAZH datiert das Urteil ohne weitere Angaben auf das Jahr <date when="1390">1390</date>.</note><!-- ahh: Eine Urkunde ist aber nicht überliefert. Auch kein Verweis in den Statutenbüchern. -->,
+so die erbern saͤligen herren, meister <persName ref="per023978">Heinrichs Stapflins</persName>, <lb/>custer, meyster <persName ref="per023979">Johans
+von <del rend="strikethrough">Stef</del>Stettfurt</persName>, corher, und <persName ref="per024105">Johans Amman</persName>, vogt
+des selben u̍nsers gotzhus, zwu̍schent <lb/>dem erwirdigen herren <persName ref="per023649">Johansen Wissen</persName>, do ze maͧl
+probst, u̍nserm vorfarn seligen, an einem teil und gemeinem <lb/><orgName ref="org004352">cappittel des selben u̍nsers
+gotzhus</orgName> ze dem andren teil, hier um vor ziten mit iren anhanginden insigeln besigelt <lb/>geben habind,
+u̍nser weibel tuͦn ze <placeName ref="loc008707">Fluͦntren</placeName> mitt der weibelhoffstatt<note>Bei der Witinger Hofstatt hängen gemäss Urbar von <date notBefore="1333">1333</date>/<date notAfter="1334">1334</date> Schlegel
+und Barte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=317327">StAZH G I 135</ref>, fol. 1v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Urbare und Rödel Zürich</ref>, Nr. 162, hier S. 198</bibl>).</note> da selbs und mitt
+dem guͦt genant <placeName ref="loc012685">im Loch</placeName><note>Gemäss den Bestimmungen im Statutenbuch zum Scharfrichter in <placeName ref="loc008707">Fluntern</placeName> erfolgt die Urteilsvollstreckung <quote>in
+loco dicto <placeName ref="loc012685">in dem Loche</placeName></quote> (<bibl>ZBZ Ms C 10a, fol. 54r</bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 67</bibl>). Die ebenfalls dort verzeichnete lateinische Fassung der Hofrechte des <orgName ref="org004352">Grossmünsterstifts</orgName> in <placeName ref="loc008707">Fluntern</placeName> erwähnt den Ort im gleichen Zusammenhang (<bibl>ZBZ Ms C 10a, fol. 134v-135v</bibl>, hier fol. 135r;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 154-157</bibl>, hier S. 156).</note>
+<lb/>und oͧch mit allen andren rechten, so zuͦ dem selben weibel tuͦn gehoͤrt, recht und redlich <choice>
+<sic>verlichen haben und ver<lb break="no"/>lichen haben</sic>
+<corr resp="ahh">verlichen haben</corr>
+</choice>.<!-- PS: Damit der <lb> korrekt umgesetzt wird, muss das Stylesheet entsprechend angepasst werden. Ist gemeldet zuhanden JL.--></seg>
+<seg>Und verlichen och die wissenklich in krafft ditz brieffs dem bescheiden <persName ref="per024106">Niclaͧs Haͤmerlin</persName>,
+burgern <placeName ref="loc000065">Zu̍rich</placeName>, <lb/>mitt disen nach geschribnen geding: Den dem ist also, daz der selb
+<persName ref="per024106">Niclaus Haͤmerlin</persName> alle toͤd und kestigung, alß sy <lb/>denn in dem <choice>
+<abbr>vorgnt</abbr>
+<expan>vorgenanten</expan>
+</choice> hoff ze <placeName ref="loc008707">Fluͦntren</placeName> und da selbs an dem gericht <choice>
+<sic>arteilt</sic>
+<corr resp="ahh">erteilt</corr>
+</choice> werden,<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_024">SSRQ ZH NF II/11, Nr. 24</ref>, Art. 2-3</bibl>. Anders als in den Rechten des <orgName ref="org004352">Grossmünstertifts</orgName> in <placeName ref="loc008707">Fluntern</placeName> in deutscher Sprache (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_024">SSRQ ZH NF II/11, Nr. 24</ref>, Art. 8</bibl>) werden hier die Aufgaben des Weibels als
+Tavernenwirt nicht erwähnt. In der lateinischen Version wird das dem <orgName ref="org004352">Stift</orgName> gehörende Wirtshaus zwar ebenfalls genannt, jedoch nicht in Verbindung mit dem Weibelamt (<bibl>ZBZ Ms C 10a, fol. 135r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 156</bibl>). Zu den verschiedenen Amtsbezeichnungen des Henkers in <placeName ref="loc008707">Fluntern</placeName> und zur Verbindung von Henkeramt und Leitung des Wirtshauses vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 369-370</bibl>.</note> in sinem, an allen u̍nsern und <lb/>u̍nser nachkomen schaden, tuͦn sol<note>Die lateinische Version der Stiftsrechte in <placeName ref="loc008707">Fluntern</placeName> hält lediglich fest: <quote>Item ultimo suplicio deputati puniri debent in loco dicto im <placeName ref="loc012685">Loch</placeName></quote> (<bibl>ZBZ Ms C 10a, fol. 135r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 156</bibl>). Die Bestimmungen zum Scharfrichter in <placeName ref="loc008707">Fluntern</placeName> sind dagegen ausführlicher (<bibl>ZBZ Ms C 10a, fol. 54r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 67</bibl>).</note> und oͧch
+mit andern u̍nsern und u̍nsers gotzhus amptlu̍ten, so je denn ze maͧl sind, <lb/>ze allen procession und crutzgengen
+ze den ziten, so dz gewonlich ist, einem probst und des mit corherren, so je <lb/>denn ze maͧl ze dem ebenempten
+u̍nserm gotzhus sind, oͧch mit einem steken nach volgen, dienen und warten, <lb/>und och hier umb die selben guͦter,
+so wir im also verlichen haben, mit allen iren tzuͦgehoͤrden hin fu̍r ze end <lb/>
+<del rend="strikethrough">sinel</del>siner wile nu̍zen und niessen, doch das sy dar by alweg in guͦten, nu̍tzlichen eren gehaben und gelaussen <lb/>werden.</seg>
+<seg>Wenn aber der selb <persName ref="per024106">Clauß Haͤmerlin</persName> ab gangen und von diser welt gescheiden ist, su̍llen wir oder
+u̍nser <lb/>nachkomen an der selben <orgName ref="org004352">probsty</orgName>, ob wir nit aͤnweren, des selben <persName ref="per024106">Niclausen
+Haͤmerlis</persName> kinden und oͧch der selben <lb/>siner kinden kinden, doch von mannes namen je dem eltsten
+under in, und also einem nach dem andren ze end <lb/>siner wile, so vil und dik dz also <del rend="strikethrough">eines nach d</del> ze schulden kaͤmet, dz selb guͦt alles mit siner <del rend="strikethrough">zoh</del>zuͦgehoͤrt <lb/>verlichen
+in dem recht und in aller der wise und maͧße, und wir die dem <del rend="strikethrough">dig</del><choice>
+<abbr>dikgnt</abbr>
+<expan>dikgenanten</expan>
+</choice>
+<persName ref="per024106">Clausen Haͤmerlin</persName> verlichen <lb/>und gunnen haben, als vorgeschriben stant, und in der och also
+gunnen, ob sy wellen, vor aller menklich und dar <lb/>umb von der selben kinden nitt mer ze erschatz denn <measure type="currency" quantity="10" unit="ß" origin="ZH">zehen schilling pfaͤnning</measure>, so denn zemal
+<placeName ref="loc000065">Zu̍rich</placeName> geng und <lb/>gaͤb sind, vordern und nemen, und welerm also under in gelichen wirt,
+sol ze hand <del rend="strikethrough">hu̍</del> u̍ns oder u̍nsern nachkomen, <pb n="241r" facs="StAZH_G_I_96__fol__241_r_.tif
+"/><lb/>so im gelichen haͧt,
+hulden, als ander u̍nsers gotzhus amptlu̍t <del rend="strikethrough">g</del>gewonlich
+tuͦnd, und dis alles aͧn su̍men und wider<lb break="no"/>sprechen und oͧch aͧn all geverde.</seg>
+<seg>Hier u̍ber ze einem staͤten und waren urku̍nd aller vorgeschribne<subst><del>n</del><add place="inline">r</add></subst> dingen, so haben <lb/>wir der selben <orgName role="sigillant" ref="org004352">probstye</orgName> insigel fu̍r
+u̍ns und die <choice>
+<abbr>obgnt</abbr>
+<expan>obgenanten</expan>
+</choice> nachkomen alle <del rend="strikethrough">offenliche</del>offenliche
+gehaͤnkt an <lb/>disen brieff, der geben ist,
+<origPlace ref="loc000065">Zu̍rich</origPlace>, an dem <origDate when="1420-04-10">zehenden tag <del rend="blackened">d</del>des manotz abrellen in
+dem jar, als man zalt <lb/>von gottes gebu̍rtz tusend vierhundert und zweintzig jare</origDate>
+<abbr>etc</abbr>.<add place="inline" hand="hand16c" scribe="per011355">Collationata et auschultata est
+praesens prescripta copia per me, <lb/><persName ref="per011355">Arnoldum Winterswick</persName>, publicum apostolica et imperiali
+auctoritatibus notarium, et concordat cum suo origenali. Ita est ego, A. W.<!-- Ist nach Absprache mit PS nicht aufzulösen.-->
+<lb/>, qui supra attestor manu mea propria.</add><note><persName ref="per011355">Arnold Winterswick</persName>, Notar und Kaplan
+in der <placeName ref="loc010451">Wasserkirche</placeName>, kollationierte im Winter <date notBefore="1523" notAfter="1524">1523/24</date> im Auftrag des Stiftspropsts <persName ref="per011263">Felix Fry</persName> die Abschriften des Bandes mit den
+Originalen (<bibl><ref target="/startseite/literaturverzeichnis">Figi 1951</ref>,
+S. 54</bibl>).</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div><p>Bereits die Statutenbücher des <orgName ref="org004352">Grossmünsterstifts</orgName> aus dem Jahr <date when="1346">1346</date> enthalten neben den Rechten des <orgName ref="org004352">Grossmünsterstifts</orgName> in seinen verschiedenen Besitzungen Bestimmungen betreffend den Henker in <placeName ref="loc008707">Fluntern</placeName> (<bibl>ZBZ Ms C 10a, fol. 54r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 67</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 353</bibl>). Älter ist eine Aufzeichnung im Kelleramturbar des <orgName ref="org004352">Grossmünsterstifts</orgName> von <date notBefore="1333">1333</date>/<date notAfter="1334">1334</date>, die sich zur Blutgerichtsbarkeit des <orgName ref="org004352">Stifts</orgName> in <placeName ref="loc008707">Fluntern</placeName> äussert. Gemäss den dortigen Bestimmungen oblag dem jeweiligen Inhaber der <placeName ref="loc012786">Witinger Hofstatt</placeName> in <placeName ref="loc008707">Fluntern</placeName> das Henkeramt (<bibl>StAZH G I 135, fol. 1v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Urbare und Rödel Zürich</ref>, Nr. 162</bibl>, S. 198-199; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 353-354, 367-372</bibl>).</p><!-- weglassen: Ruoff vermutet, diese Praktik sei im 13. Jahrhundert anzusiedeln, während für das 14. Jahrhundert das Schwert sowie Stock und Galgen üblich seien, womit die Stelle im Urbar auf eine frühe Zeit verweise (<bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 369</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943</ref>, S. 9</bibl>).</p> -->
+<p>Die Richtstätte auf dem <placeName ref="loc010892">Zürichberg</placeName> ist auf einer Illustration in der Eidgenössischen Chronik von <persName ref="per024110">Werner Schodoler</persName> zur Belagerung <placeName ref="loc000065">Zürichs</placeName> durch die Eidgenossen im Jahr <date when="1444">1444</date> dargestellt (<bibl><ref target="https://www.e-codices.unifr.ch/de/stab/0002/99r">Stadtarchiv Bremgarten, Bücherarchiv Nr. 2, fol. 99r</ref></bibl>). In der Reformationszeit kam es zur mutwilligen Zerstörung respektive Versetzung von Galgen und Halseisen des Grossmünstersifts (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3620338">StAZH B VI 249, fol. 78r-v</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 371</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 188-189</bibl>).</p>
+<p>Zur Hochgerichtsbarkeit des <orgName ref="org004352">Grossmünsterstifts von <placeName ref="loc000065">Zürich</placeName></orgName> an verschiedenen Orten vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_006">SSRQ ZH NF II/11, Nr. 6</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_017">SSRQ ZH NF II/11, Nr. 17</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

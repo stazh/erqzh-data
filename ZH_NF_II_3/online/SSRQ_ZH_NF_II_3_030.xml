@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_030</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480366">StAZH C I, Nr. 775</idno></msIdentifier><head>Beschlagnahmung der Güter und Rechte des Junkers Kaspar von Bonstetten im Amt Greifensee</head><msContents><summary>Der Vogt von Greifensee, Heinrich Röist, hält an der Richtstätte in Greifensee auf offener Strasse Gericht und bestätigt den Vertretern von Bürgermeister, Räten und Bürgern der Stadt Zürich, dass sie alle Güter und Rechte des Junkers Kaspar von Bonstetten im Amt Greifensee beschlagnahmen dürfen. Dazu gehören die Burg sowie alle Höfe, Weinberge, Gerichte, Twing und Bann, Zehnten, Zinsen, Äcker, Wiesen, Wälder, Weiden, Fischenzen, Gewässer, Eigenleute, Pfänder und Lehen. Bonstetten hatte sich zusammen mit anderen für eine Schuld von 5000 Gulden verpflichtet, war der dreimaligen Vorladung zum Rechtstag aber nicht nachgekommen. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="55.0"/></dimensions></extent><condition>Entwertungsschnitte</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Heinrich Röist</persName></seal></sealDesc></physDesc><history><origin><origDate when="1451-11-04"/><origPlace>Greifensee</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 7, Nr. 9691</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005367">Beschlagnahmung</term><term ref="key000057">Gericht</term><term ref="key003214">Schuldhaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__775__r_.tif"/>
+<p><seg><lb/>Ich, <persName role="issuer" ref="per001546">Heinrich Roͤist</persName>, vogt in dem ampt <placeName ref="loc000348">Griffensee</placeName> und richtter in diser nachgeschribner sach von des
+<choice><abbr>yetzgentten</abbr><expan>yetzgenantten</expan></choice> amptz <placeName ref="loc000348">Griffensee</placeName> wegen, tuͦn kund aller menglichem, die disen brieff lessent,
+sechent oder hoͤrent lessen, das fu̍r mich komen sind an der statt, da ich zuͦ <placeName ref="loc008569">Griffensee</placeName> an offner,
+<lb/>fryer straß an gewonlicher richtstatt offennlich in verbannem gericht zuͦ gricht sass, der fu̍rsichttigen, ersamen, wisen, des <orgName ref="org002406">burgermeisters, der raͤtten und der burgern 
+gemeinlich der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, miner gnedigen, lieben herren, volmechttig bottschafft, offenbartent vor mir ingericht
+<lb/>durch iren fu̍rsprechen, nach dem und die <choice><abbr>yetzgentten</abbr><expan>yetzgenantten</expan></choice> min herren von <placeName ref="loc000065">Zu̍rich</placeName>
+des vesten junckher <persName ref="per004819">Caspars von Bomstetten</persName> guͦt, das er in dem <choice><abbr>gentten</abbr><expan>genantten</expan></choice>
+ampt <placeName ref="loc000348">Griffensee</placeName> hett, es were burg, burgstal, burgsaͤss, hoffstetten, hoffreittinen, reben, gericht, twing, benne, zechenden,
+<lb/>zinse, nu̍tz, gu̍lt, hoͤff, guͤtter, acker, matten, wisen, holtz, veld, wunn, weid, vischentzen, wasser, wasserru̍nssen, eigenlu̍t, pfandschafften, lechenschafften, manschafften, geldschulden,
+halbling, ligendz, varendz, gendz, stendz, <measure type="currency" unit="d" quantity="1">pfenning</measure> und des wertt, wie guͦt den namen hette und gehaben
+<lb/>moͤchtte, darinne gantz nu̍tzit ussgelassen noch vorbehept, von der schuld wegen, so er den <choice><abbr>genten</abbr><expan>genanten</expan></choice>
+minen herren von <placeName ref="loc000065">Zu̍rich</placeName> schuldig were, ingebott und gericht genomen hettind und im gen den gebott,
+wie das des amptz <placeName ref="loc000348">Griffensee</placeName> recht were, uff den ersten tag, den andern
+<lb/>tag harfu̍rgericht verku̍nt, und er noch niement von sinen wegen uff der selben tagen derwedern komen wer, das gebott zuͦ verantwurtind, denn das er die verkundung,
+die gericht und das recht verschmacht hett, von des wegen die <choice><abbr>obgenten</abbr><expan>obgenanten</expan></choice> min herren <choice><sic>von
+<lb/>von</sic><corr>von</corr></choice>
+<placeName ref="loc000065">Zu̍rich</placeName> die vergangnen zwen rechttag mit urteil und mit recht behalten hettind, nach sag der urteil brieffen inen darumb von dem gericht
+geben.<note>Die hier erwähnte Urkunde ist nur als Entwurf vom <date when="1451-10-27">27. Oktober 1451</date> erhalten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480364">StAZH A 123.1, Nr. 4</ref></bibl>).</note>
+Und won uff hu̍t der dritt und letst rechttag sye und uff dem nechstvergangnen andern rechttlichen
+<lb/>tag bekennt were, irem <choice><abbr>obgentten</abbr><expan>obgenantten</expan></choice> widersecher den hu̍ttigen als den dritten und letsten tag ouch ze verku̍ndint, ob er noch antwurtten woͤlt,
+das er kem und das taͤtte, also begertind sy an dem rechtten ze erfarent, ob dem von <persName ref="per004819">Bomstetten</persName> soͤllich verku̍ndung also
+<lb/>beschechen were.</seg>
+<seg>Also fand sich vor mir ingericht, das dem von <persName ref="per004819">Bomstetten</persName> die verku̍ndung, wie vorstaͧt und gericht und urteil geben hatt, beschechen
+was, uff das miner herren von <placeName ref="loc000065">Zu̍rich</placeName> botten aber durch iren fu̍rsprechen rettent, nach dem und sich vor gericht
+<lb/>erfunden hette, das irem <choice><abbr>obgenten</abbr><expan>obgenanten</expan></choice> widersecher harfu̍r gericht verku̍nt were, wie das des amptz <placeName ref="loc000348">Griffensee</placeName> recht ist,
+und er aber noch niemant von sinen wegen ingericht gegenwu̍rttig wer, der antwurtten woͤlte, und das gericht und recht verschmachtte,
+<lb/>begerttind sy an dem rechtten ze erfarent, was nun recht were. Also fragt ich urteil umb, und ward mit einhelliger urteil nach miner frag uff den eid erteilt,
+sidmalen dem von <persName ref="per004819">Bomstetten</persName> uff den ersten tag, den andern tag und uff hu̍tt als uff den dritten
+<lb/>und letsten tag harfu̍rgericht verku̍nt wer zeantwurtend und er uff die vergangnen zwey gericht nit komen were, die verachtet hett,
+darumb min herren von <placeName ref="loc000065">Zu̍rich</placeName> die mit recht behept hettind, und er uff hu̍t als den dritten und letsten rechttag aber nit
+<lb/>hie were und darinne das gericht verachtotte und verschmachtte, das nun miner herren von <placeName ref="loc000065">Zu̍rich</placeName> botten ir clag offnen moͤchttind
+mit brieffen oder wortten, wie sy dero getru̍wtind zegniessind, wenn das bescheche, das denn aber fu̍rer volgieng, das recht
+<lb/>were.</seg>
+<seg>Uff das miner herren von <placeName ref="loc000065">Zu̍rich</placeName> botten einen brieff vorgericht liessent lessen, darinne sich der genant <persName ref="per004819">Caspar von Bomstetten</persName>
+mit sampt ettlichen andern gen minen herren von <placeName ref="loc000065">Zu̍rich</placeName> umb <measure type="currency" unit="fl" quantity="5000">fu̍nff tusent guldin</measure> hobtguͦtz da von <date dur="R/P1Y">jerlichen</date> zins
+<lb/>und costen und schaden verschriben hat nach innhaltung desselben brieffs. Und als der brieff gehoͤrtt ward, liessent miner herren von <placeName ref="loc000065">Zu̍rich</placeName>
+botten durch iren fu̍rsprechen reden, von soͤllicher schuld wegen hettind sy dem von <persName ref="per004819">Bomstetten</persName> das sin, das in
+<lb/>dem ampt <placeName ref="loc000348">Griffensee</placeName> lege und were, als vorgenempt stuͦnde, in gebott genomen, dem selben von <persName ref="per004819">Bomstetten</persName>
+uff den ersten tag, den andern tag und uff hu̍t als uff den dritten und den letsten tag verku̍nt were ze antwurtten, ob er woͤlte, wie das davor geschriben
+<lb/>staͧt, und aber der von <persName ref="per004819">Bomstetten</persName> noch niement von sinen wegen hie were, der antwurtten woͤlte, und sunder die verku̍ndung,
+die gericht und das recht von dem von <persName ref="per004819">Bomstetten</persName> verachtet und verschmacht were, getru̍wtind sy, ir herren soͤltind des alles
+<lb/>so verr geniessen, das inen <persName ref="per004819">Caspars von Bomstetten</persName> guͦt, wie das vor eigenlich genempt ist, das in dem ampt <placeName ref="loc000348">Griffensee</placeName>
+lege und were, an ir schuld, hoptguͦt, <add place="above">zins,</add> costen und schaden vervallen sin soͤlte, und das sy das an das ir zuͦ iren handen ziechen und nemen moͤchtind,
+<lb/>damit zehandeln und zewandeln als mit irem eigenlichen guͦt, satztend das zuͦ recht.</seg>
+<seg>Also fragt ich urteil umb und ward nach miner frag uff den eid erteilt, nach dem und
+die <choice><abbr>obgentten</abbr><expan>obgenantten</expan></choice> min herren von <placeName ref="loc000065">Zu̍rich</placeName> den ersten tag und den andern tag gen dem
+<lb/>von <persName ref="per004819">Bomstetten</persName> mit recht behalten hettind und dar inne gehandelt und getaͧn, was recht were, und hu̍t als uff den dritten und den letsten tag
+aber hie vorgericht werind, irs rechtten erwarttotind und irem <choice><abbr>vilgenten</abbr><expan>vilgenanten</expan></choice> widersecher der dritt und letst
+<lb/>tag nach des amptz <placeName ref="loc000348">Griffensee</placeName> recht ouch verku̍nt were und er die verku̍ndung, die gericht und das recht verachtet und verschmacht hette,
+das min herren von <placeName ref="loc000065">Zu̍rich</placeName> des alles und irs besigelten brieffs, den sy vorgericht gezoͧigt hettind, so
+<lb/>verr geniessen soͤltind, das sy des <choice><abbr>obgenten</abbr><expan>obgenanten</expan></choice>
+<persName ref="per004819">Caspars von Bomstetten</persName> guͦt, das in dem
+ampt <placeName ref="loc000348">Griffensee</placeName> lege und were, es syent bu̍rg, bu̍rgstal, bu̍rgsaͤss, hoffstetten, hoffreittine, reben, gericht, twing, benne, zechenden, zinsen, nu̍tz, gu̍lt, hoͤff, guͤtter,
+<lb/>acker, matten, wissen, holtz, veld, wunn, weid, vischentzen, wasser, wasserru̍nssen, eigenlu̍t, pfandschafften, lechenschafften, manschafften, geldschulden, halbling,
+ligendz, varendz, gendz, stendz, pfenning und des wertt, wie guͦt den namen hette und gehaben moͤchte,
+<lb/>dar inne gantz nu̍tzit ussgelassen noch vorbehept, zuͦ iren handen an das ir nemen und ziechen, das nutzen, bruchen, niessen, besetzen und entsetzen moͤchten
+als ir eigenlich guͦt, wie inen das fuͦgklich were, und ob sy min, <choice><abbr>obgentten</abbr><expan>obgenantten</expan></choice> vogtz, nottu̍rfftig werent,
+<lb/>das ich inen von des gerichtz und des amptz wegen zuͦ soͤllichem hilfflich sin und das gericht sy daby, so verr es moͤchtte, schirmen und hanthaben soͤlte. Des alles begerttent
+der <choice><abbr>obgenten</abbr><expan>obgenanten</expan></choice> miner herren von <placeName ref="loc000065">Zu̍rich</placeName> botten eins brieffs, der
+<lb/>inen zegebent nach miner frag bekennt ward.</seg>
+<seg>Und des alles zuͦ gezu̍gnu̍sse und warem urkund, so hab ich, <choice><abbr>obgentter</abbr><expan>obgenantter</expan></choice> vogt,
+min insigel von des gerichtz wegen, als urteil gab, offennlich gehenckt an disen brieff, doch dem ampt <placeName ref="loc000348">Griffensee</placeName>
+<lb/>an aller siner fryheitt, rechtten und altem herkomen, ouch mir und minen erben unschedlich, der geben ist uff <origDate when="1451-11-04">donrstag
+nach <orgName ref="org005009">aller heiligen</orgName> tag nach der gebu̍rt Cristi viertzechenhundert fu̍nfftzig und ein jare</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__775__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><unclear><choice><abbr>Gantbr</abbr><expan>Gantbrief</expan></choice></unclear> umb des von <persName ref="per004819">Bonstetten</persName>
+<lb/>guͦt im ambt <placeName ref="loc000348">Gryfennsee</placeName>,
+<lb/><origDate when="1451">1451</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Möglicherweise hatte sich <persName ref="per004819">Kaspar von Bonstetten</persName> als Inhaber
+der Burg und Herrschaft <placeName ref="loc006198">Uster</placeName> infolge des Alten Zürichkriegs verschuldet.
+Als die <orgName ref="org000531">Eidgenossen</orgName> in den Jahren 1443 und 1444 brandschatzend durch das <placeName ref="loc010890">Zürcher Oberland</placeName> zogen,
+war es <persName ref="per004819">Bonstetten</persName> – vermutlich mit Geldzahlungen – gelungen, sie von der Zerstörung der Burg <placeName ref="loc006924">Uster</placeName>
+und der Schädigung seiner Eigenleute im Amt <placeName ref="loc000362">Grüningen</placeName> abzuhalten
+(<bibl><ref target="/startseite/literaturverzeichnis">Baumeler 2010</ref>, S. 155-156</bibl>).</p>
+<p>Die Urkunde ist zerschnitten und somit entwertet; <persName ref="per004819">Bonstetten</persName> hat seine Schulden
+wohl beglichen und die Pfändung seiner Güter dadurch abgewendet.
+Es ist anzunehmen, dass der <orgName ref="org002406">Zürcher Rat</orgName> sehr darauf erpicht gewesen wäre,
+<placeName ref="loc006198">Uster</placeName> in seine Herrschaft zu integrieren.
+Nach diesem ersten, missglückten Versuch gelang dies erst 1544
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_065">SSRQ ZH NF II/3, Nr. 65</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

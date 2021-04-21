@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_089_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25027">StArZH VI.SW.A.1.:1</idno></msIdentifier><head>Ordnung betreffend Holzrecht und Weiderecht in Schwamendingen, Bussordnung und Bestimmungen betreffend die Ziegelei</head><msContents><summary>Die Ratsabgeordneten Ludwig Schörli, Obervogt von Schwamendingen, Mathias Schwerzenbach, alt Landvogt von Kyburg, und Rudolf Pur, alle drei Ratsherren, untersuchten die Klagen der Stiftspfleger und des Kapitels des Grossmünsterstifts gegenüber den Hubeninhabern von Schwamendingen betreffend deren Ansprüche an Holz und Weide. Sie erlassen eine detaillierte Ordnung zur Nutzung und zum Schutz des Waldes, zum Unterhalt der Gebäude und der Wasserleitungen, zur Niederlassung von Hausleuten, zur Weide, zum Verkauf von Gütern, Holz, Heu, Stroh, Mist etc. und zu Abgaben an den Weibel. In die Ordnung wird auch eine ältere Bussordnung mit 26 Artikeln integriert. Am Schluss steht eine Ordnung des Zieglergewerbes, die unter anderem das Bezahlen des Zinses, das Stechen des Lehms, das Weiderecht und den Verkauf der Verkauf der Ziegel regelt. Die Aussteller siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Heft (14 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:condition="absent"><persName>Ludwig Schörli</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:condition="absent"><persName>Mathias Schwerzenbach</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:condition="absent"><persName>Rudolf Pur</persName></seal></sealDesc></physDesc><history><origin><origDate when="1573-10-10"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz, UB Schwamendingen, Teil 1, Nr. 153; Schauberg, Zürcherische Rechtsquellen, S. 125-134 (auf der Grundlage von StAZH G I 231)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key000748">Augenschein</term><term ref="key000162">Bauernschaft</term><term ref="key000184">Bussen</term><term ref="key000687">Gewerbe</term><term ref="key000524">Holz</term><term ref="key000330">Niederlassung</term><term ref="key003292">Nutzungskonflikt</term><term ref="key004022">Satzung</term><term ref="key000187">Unterhalt</term><term ref="key000716">Wasserführung</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" type="original"/><head resp="ahh" n="1"><lb/>Vermittlung dreier Ratsabgeordneter im Konflikt zwischen den Pflegern des <orgName ref="org004352">Grossmünsterstifts</orgName> und den Hubern von <placeName ref="loc009859">Schwamendingen</placeName> betreffend deren Nutzungsrechte an Wald und Weide</head>
+<p><seg><lb/><add place="right margin" hand="hand19c?">Plura <abbr>vid</abbr> protocol <abbr>tom</abbr>
+<placeName ref="loc009859">Schwamendingen</placeName>
+<abbr>pag</abbr> 149 et <abbr>sqq</abbr> manu <persName ref="per024279">Halleri</persName> consignata</add> Wir, nachbenanntten <persName role="issuer" ref="per025262">Ludwig 
+<lb/>Schörli</persName>, vogt zuͦ <placeName ref="loc009859">Schwaamendingen</placeName>, <persName role="issuer" ref="per025196">Mathyas 
+<lb/>Schwertzenbach</persName>, alter vogt zu <placeName ref="loc000012">Kyburg</placeName>, unnd <persName role="issuer" ref="per025259">Rudolf Burr</persName>, 
+<lb/>all <num value="3">dry</num> des <orgName ref="org004016">raaths der statt <placeName ref="loc000065">Zürich</placeName></orgName>, bekännend und thund 
+<lb/>khundt allermängklichem offenbar hiemit, als 
+<lb/>dann die eerwürdigen, wolgeleertten, ouch frommen, eersam<lb break="no"/>en unnd wyßen herren die <orgName ref="org004352">pflägere, ouch gantz cappittell 
+<lb/>des gmeinen gstiffts zum <placeName ref="loc007562">Grossenmünster</placeName></orgName> zur bropsty 
+<lb/><placeName ref="loc000065">Zürich</placeName>, durch ire von der gstifft hierzuͦ verordnette unßern 
+<lb/>gnedigen herren, <orgName ref="org002406">burgermeiyster unnd raath dißer statt von 
+<lb/><placeName ref="loc000065">Zürich</placeName></orgName>, uß hochthrungender notturfft wägen ettliche beschwer<lb break="no"/>nussen, so ein <orgName ref="org004352">gstifft</orgName> deren von <placeName ref="loc009859">Schwaamendingen</placeName> halben 
+<lb/>gehept, fürgebraacht.</seg>
+<seg n="1">Als für das eerst, diewyll die 
+<lb/>herren <orgName ref="org004352">pfläger und verordnette von der stifft</orgName> uff diß jar 
+<lb/>aber gar ein eerlichen wintterhouw ußgegäben und aber 
+<lb/>die von <placeName ref="loc009859">Schwaamendingen</placeName> sich, wie vor alwägen ouch beschächen, 
+<lb/>erclagt, das sy ann dißem ußgegäbnen houw nit gnuͦg, 
+<lb/>sunder man innen wytter gäben sölle und derhalben ann 
+<lb/>dem bränholtz gar unbenuͤgig syend. Und der hubern ett<lb break="no"/>lich dasselbig gar unnützlich wider die offnung, welliche 
+<lb/>allein ein gebürende notturfft zu brännen wyße, bruchind 
+<lb/>unnd derwägen an wolgemälte unßer gnedig heren <orgName ref="org002406">burger<lb break="no"/>meyster unnd ein eersamen raatt</orgName> fründtlichen begärtt, das 
+<lb/>sy von irem raatt ettliche heren, die innen gefellig, verordnen 
+<lb/>wellind, die den ußgegäbnen houw schetzen unnd dann dar<lb break="no"/>über erkännen wellind, ob er nit nach vermög der offnung 
+<lb/>(darin sy sich ouch ersächen mögen) ußgegäben sye, mit dem 
+<lb/>erpietten, so sy erfinden unnd erachten mögen, an söllichen 
+<lb/>nit gnuͦgsam syn, das sy innen gern wytters und nach aller 
+<lb/>notturfft ußgäben wellind. Soveer sy aber finden und 
+<lb/>erkännen könind, das dißer houw nach luth der offnung 
+<lb/>und nach irer gepürlichen notturfft ußgäben, das sy dann 
+
+<pb n="1v" type="original"/><lb/>die von <placeName ref="loc009859">Schwaamendingen</placeName> ires unzimlichen begärenns 
+<lb/>abwyßen und ein <orgName ref="org004352">gstifft</orgName> by der offnung und by der 
+<lb/>holtzordnung schirmen wellind.</seg></p>
+<p><seg n="2"><lb/>Zum anderen, so ouch unnßer gnedig herren, <orgName ref="org002406">burgermeyster 
+<lb/>unnd ein eersamen raath</orgName>, der <orgName ref="org004352">stifft</orgName> zum dickermaall gar 
+<lb/>ernstlichen bevelch gegäben, das huͦbholtz zu <placeName ref="loc009859">Schwaamendingen</placeName>
+<lb/>in guttem schirm und eeren zehaben und alles holtz, was 
+<lb/>müglich uff notturfft, besunder das buwholtz, was joch ge<lb break="no"/>meinem <orgName ref="org004352">gstifft</orgName> oder innen, den hubern, da ussen<!-- eigentlich zusammengeschrieben, zur besseren Lesbarkeit getrennt. --> begägnen 
+<lb/>möchte, zesparren. Da aber sy, die huber, ann underlaß die 
+<lb/>herren <orgName ref="org004352">pfläger und das gstifft</orgName> umb holtz laden daruß zesagen, 
+<lb/>ire ställ zethillinen<!-- ahh: was bedeutet das? mng: vermutlich von 'dilinen': Dielen anbringen, einen Boden legen, vgl. Idiotikon XII, Sp. 1645.--> und ouch umb mistladen, und was sy sunst 
+<lb/>inn ire hüsser bedörffind, anforderind und darzuͦ ouch 
+<lb/>stetts vill buͦchen haben wellind, riesterbrätter<!-- ahh: Riester I: Streichbrett am Pflug vgl. https://digital.idiotikon.ch/idtkn/id6.htm#!page/61515/mode/2up - Abb. vgl. http://www.pflugmuseum.ch/pflug-historisches-bestandteile.html-->, bettstollen 
+<lb/>und anders daruß zemachen. Da aber sy vermeintt, das 
+<lb/>sy by söllichem gmeinem holtzmangell unzimlichs begärind 
+<lb/>und dem holtz (darunder sunst gar wenig sagthannen) mit 
+<lb/>stettem ußgäben zu mistladen und die ställ zuͦthillinen, ouch 
+<lb/>zuͦ riesterbrätteren, deren sy nienen sovill bruchind als 
+<lb/>aber vorderend, grosser schad begägne. Und daruff 
+<lb/>aber begärtt, das unnßer gnedig herren, <orgName ref="org002406">burgermeyster und  
+<lb/>raatt</orgName>, denen iren hierzuͦ verordnetten herren in bevelch gäben, 
+<lb/>das sy das gantz hubholtz durch schouwen, alda sy sächen werd<lb break="no"/>ind, 
+das kümerlich sagthannen, ein eintzig huß damit ze<lb break="no"/>buwen, 
+im gantzen wald zefinden sye unnd dann ouch 
+<lb/>ordnung zegäben, wie sy sich gägen inen, den hubern, mit 
+<lb/>den ställen zethillinen, das anderschwo under der pursame 
+
+<pb n="2r" type="original"/><lb/>ann villen ortten gar nit brüchig, unnd ouch mit den 
+<lb/>riesterbuͦchen (da man inen wider ir notturfft nie gsyn) 
+<lb/>hinfür halten söllind.</seg></p>
+<p><seg n="3"><lb/>Zum dritten, diewyll ouch inen, den herren am <orgName ref="org004352">gstifft</orgName>, 
+<lb/>von ettlichen hubern zu <placeName ref="loc009859">Schwaamendingen</placeName> gar vill unnd 
+<lb/>mängerley beschwernussen des vechs, ouch der hußlüthen 
+<lb/>und anderer sachen halb begägne, damit sy einen eersamm<lb break="no"/>en
+<orgName ref="org004016">raath</orgName> nit bemuͤyen, sunder vor den verordneten heren 
+<lb/>gern erzellen wellind, da sy, die heren am <orgName ref="org004352">gstifft</orgName>, über 
+<lb/>dasselbig vill fürfallende stuck, darüber sy kein namm<lb break="no"/>liche 
+einung und buͦssen habind, gern lütterung und ge<lb break="no"/>wüsse 
+erkannttnussen haben weltind, da dann ouch ir 
+<lb/>ernstlich pitt were, das unnßer gnedig heren, <orgName ref="org002406">burgermeyst<lb break="no"/>er 
+und raatt</orgName>, denen heren, so sy hierzu verordnen wurdind, 
+<lb/>inn bevelch gäben, das sy diesaͤlbigen ire beschwerden all<lb break="no"/>samen, 
+so sy und die inneren huben habind, vernämen 
+<lb/>unnd dann uff verhörung der offnung, der holtzordnung, 
+<lb/>der vorußgangnen sprüchen, brieffen und siglen guͦtte
+<lb/>ordnungen gäben, ouch über alle faͤll und unordnungen 
+<lb/>namlich einung und bussen, stimen und ernämen well<lb break="no"/>ind, 
+damit fürhin die herren von der stifft unnd die pfläger, 
+<lb/>welicher gstalt sy jedes fals der überthrättenden unghor<lb break="no"/>same 
+buͤssen und ouch sy, die überthrättenden, wüssen 
+<lb/>mögind, was sy mit jeder irer überthrättung verwürckt 
+<lb/>und die gägen dem <orgName ref="org004352">gstifft</orgName> zebussen und zebessern schuͦld<lb break="no"/>ig sygind. 
+</seg></p>
+<pb n="2v" type="original"/>
+<p><lb/>Uff welich ir, der herren am <orgName ref="org004352">gstifft</orgName>, fürbringen und 
+<lb/>begären habend wolgemälte unnßer gnedig herren, <orgName ref="org002406">burg<lb break="no"/>ermeyster und raath</orgName>, wyll sy sölliches ir begaͤren nit nun 
+<lb/>allein nüt unzimlichs, sunder ouch guͦtt und nottwändig 
+<lb/>syn bedunckt, unns, obgenantte <persName ref="per025262">Ludwig Schörli</persName>, <persName ref="per025196">Mathyas 
+<lb/>Schwertzenbach</persName> und <persName ref="per025259">Rudolf Burr</persName>, sampt meyster <persName ref="per025261">Hanns 
+<lb/>Heinrich Peyer</persName> (der aber underzwüschend glych mit thod ab<lb break="no"/>gangen), luth der darüber ußganngnen bekanttnus hier<lb break="no"/>zu verordnett,<note>Vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1117448">StAZH G I 4, Nr. 78</ref></bibl>.</note> mit heitterem gwalt und bevelch, den uß<lb break="no"/>gegaͤbnen houw, ouch das ganntz der <orgName ref="org004352">gstifft</orgName> hubholtz zuͦ 
+<lb/><placeName ref="loc009859">Schwaamendingen</placeName> zubesächen. Deßglychen die übrigen ire 
+<lb/>beschwerden, darzuͦ ouch alle ire offnungen, holtzordnungen, 
+<lb/>urtheillen, verthrägen, verkomnussen, sprüch und alle ire 
+<lb/>brieff und sigell, so sy, die herren am <orgName ref="org004352">gstifft</orgName>, dero von <placeName ref="loc009859">Schwam<lb break="no"/>endingen</placeName> halber byhanden habindt, zum flysigisten zehören 
+<lb/>und dan uͤber alles, so unns nottwändig syn beduncke, guͤtte 
+<lb/>ordnung, einung und lütterung zegäben und zestellen. 
+<lb/>Daruff wir nun uff hütt, datto diß, die sach für hannd 
+<lb/>genomen, ouch bests unßers vermögens hierinen zehandlen 
+<lb/>guttwillig gwässen. Und eerstlich, so haben wir den 
+<lb/>hürigen, von der <orgName ref="org004352">stifft</orgName> verordnetten denen von <placeName ref="loc009859">Schwaam<lb break="no"/>endingen</placeName> ußgegäbnen houw und demnach das gantz der 
+<lb/><orgName ref="org004352">gstifft</orgName> huͦbholtz durch schouwet und besächen, und volgäntz 
+<lb/>daruff aller der <orgName ref="org004352">gstifft</orgName> beschwerden, zusampt der off<lb break="no"/>nung, holtzordnungen, urtheillen, brieffen, siglen, sprüchen 
+<lb/>und verthrägen nach der länge und notturfft zum flyß<lb break="no"/>igisten gehörtt und verstanden. Und daruff 
+<lb/>nach gnugsamer besichtigung des houws, des ganntzen 
+<lb/>walds und verhörung, ouch verläßung aller irer beschwerden 
+<lb/>uff alle die jhenigen puncten und articull, so unns 
+<lb/>zu erhaltung aller irer, der <orgName ref="org004352">gstifft</orgName>, alten hargebraachten 
+<lb/>und gutten sitten, brüchen und rächtungen und dargägen 
+
+<pb n="3r" type="original"/><lb/>zu abstellung viller schedlicher ingerißner mänglen nott<lb break="no"/>wändig syn bedunckt, nach vermög unßers von offtgesagten 
+<lb/>unßern gnedigen herren, <orgName ref="org002406">burgermeyster und raath</orgName>, habenden 
+<lb/>bevelchs und gwalts ordnung, erkanttnus, ouch lütterung 
+<lb/>gegäben und gesprochen, wie das von einem an das ander 
+<lb/>hernach volgen wirtt. 
+</p>
+<p><seg n="1"><lb/>Erstlich, das es by dem hürigen houw gäntzlichen belyben 
+<lb/>und die herren am <orgName ref="org004352">gstifft</orgName> inen, den huͤbern, für <date dur="P1Y">ein jar</date> des 
+<lb/>bränholtz halb nützit wytters schuldig, sunder das dißer 
+<lb/>houw noch eeren und aller notturfft rächt für ein ganntz 
+<lb/>jar ußgegäben syn, also <date dur="R/P1Y">jerlich</date> fürhin nach luth der offnung 
+<lb/>des bränholtzes halb gehalten werden söllen. Unnd 
+<lb/>diewyll wir allerley by dem holtz, was demsälbigen schaden 
+<lb/>und verwüstung bringen möge, bedaacht und sälb befunden, 
+<lb/>habend wir uß grund voriger ordnungen und erkantnußen, 
+<lb/>damit die huber all by dem ußgegaͤbnen houw desterbaß 
+<lb/>blyben mögind, erkännt, das sy, die huͤber, alwägen im 
+<lb/>theillen der ußgegäbnen houwen kein gfaar thryben, sunder al<lb break="no"/>wäg zu dem aller glychesten theillen und ouch jeder syn holtz und 
+<lb/>ryß zum sübersten uffmachen und bruchen und die höuw 
+<lb/>ouch gezeichnett werden. Und dan niemantz über keinne 
+<lb/>zeichen by dem einung wytter houwen sölle. Unnd 
+<lb/>damit ouch der wald durchs jar desterminder gschändt werde, 
+<lb/>so sölle nach luth der offnung und holtzordnung vor der 
+<lb/>theillung alwäg ußgezogen und uff die nottwändigen uß<lb break="no"/>getheilt werden, was zuͦ buwholtz oder zum buw unnd 
+<pb n="3v" type="original"/><lb/>karren gschir da nutzlich möchte funden. Und was also funden, 
+<lb/>nit verkoufft nach anderschwohin gezogen werden, sunder ouch 
+<lb/>dasselbig holtz allein zuͦ iren hubhüssern thun und zuͦ iren 
+<lb/>guͤttern brucht werden. Ob aber ettliche usserthalb wonttind 
+<lb/>und allein hußlüth zuͦ <placeName ref="loc009859">Schwaamendingen</placeName> hettind, densälbigen 
+<lb/>das holtz und ouch dem schmid und ziegler dasälbst, und sunst 
+<lb/>nieman verkoufft oder anderschwo hin zogen und verwändt werden.<add place="left margin" hand="hand19c?"><abbr>Vid</abbr>
+<abbr>ib</abbr>, <abbr>pag</abbr> 161-162.</add></seg></p>
+<p><lb/>Diewyll wir ouch im wald befunden grosse blätz, da 
+<lb/>gar schonn und nutzlich holtz, allein mit faßnacht füren ge<lb break="no"/>schändt und dan das holtz verkoufft und verthruncken wordenn, 
+<lb/>habend wir das gar abbekänntt, also das ein weibell zuͦ 
+<lb/><placeName ref="loc009859">Schwaamendingen</placeName> den knaben zun faßnacht<!-- ahh: Fastnachtsfeuer, ein Fest für die Jungen vgl. https://digital.idiotikon.ch/idtkn/id1.htm#!page/10947/mode/2up  --> füren allein 
+<lb/>ettwas unschedlichs zeigen und by der buß darby blybenn 
+<lb/>sölle. Unnd als vill thanholtzes gar schedlich gestück, 
+<lb/>ouch sunst mit andern stucken gar vill gfaaren, wie ouch 
+<lb/>mit den boumstützen on nott zehouwen und die glych zuͦver<lb break="no"/>brännen gebrucht wurden, wellend wir, das fürhin söll<lb break="no"/>ichs nit meer bescheche luth der ordnung, so hiervor darüber 
+<lb/>gegäben.<add place="left margin" hand="hand19c?"><abbr>Vid</abbr>
+<abbr>ib</abbr>, <abbr>pag</abbr> 164-165.</add> Diewyll ouch die jungen houw mitt 
+<lb/>dem gfaarlichen und unordenlichen widen houwen, darzu ouch
+<lb/>der wald mit dem unordenlichen geertt houwen zusampt 
+<lb/>dem tüchelholtz und unnzimlichen begären und verwuͤsten 
+<lb/>der riesterbuchen gar übel geschändt, da wellend wir, das 
+<lb/>ouch söliche fräffell gestraafft und zu guͦtter fürsorg in 
+<lb/>dem riett hin und har vill wydboumen zu den geertt gezüchtet, 
+<lb/>das düchelholtz zuͦ bester notturfft zu iren brunnen, ouch 
+<pb n="4r" type="original"/><lb/>der <orgName ref="org004352">stifft</orgName> unnd der statt gespartt,<add place="right margin" hand="hand19c?"><abbr>Vid</abbr>
+<abbr>ib</abbr>, <abbr>pag</abbr> 169-170.</add> und inen keine riester<lb break="no"/>buchen dann allein nach irer notturfft und der pflägern gutten 
+<lb/>beduncken je zu den jaren, die mit einandern zetheillen unnd 
+<lb/>allein uff iren hubgwerben nutzlich zebruchen, gegäben 
+<lb/>werden und die pfläger alda ir händ alwäg offen haben söllend. 
+<lb/><add place="right margin" hand="hand19c?"><abbr>Ead</abbr>
+<abbr>pag</abbr></add>Und diewyll ettliche mit gar grossen schaden vill eichen unnd 
+<lb/>fruchtbar boum, <add place="above">so</add> uff iren hubguͤttern gestannden, gefelt und 
+<lb/>verkoufft, als ob sy des fug, und aber den guͤttern und besitzern 
+<lb/>zu grossen schaden reicht, soll das fürhin ouch nit meer beschächen, 
+<lb/>und so es bescheche, wie im hubholtz gestraafft werden.</p>
+<p><add place="right margin"><abbr>NB</abbr></add><lb/>Unnd als wir ouch befunden, das in den jungen houwen durch 
+<lb/>ire unordnungen mit allerlei vill schadens begägnott, so 
+<lb/>wellend wir, das jeder huber syn holtz vor dem <date type="deadline" when="--04-01">eersten tag 
+<lb/>apprellen</date> uß dem houw hinweg gäbe oder das luth der holtz<lb break="no"/>ordnung 
+verfallen syge. Wer ouch nit den rächten holtz<lb break="no"/>straassen 
+nach, sunder mitten durch die jungen houw mitt 
+<lb/>holtz oder leym fare ald schleicke, oder veech daryn heimlich 
+<lb/>oder offentlich schlache, das der darumb gebuͤst werde, wie 
+<lb/>hernach volgt. Und diewyll an dem rächten inschlachen, 
+<lb/>inzünen, schirmen und inhaben der jungen houw am aller<lb break="no"/>meersten 
+gelägen, das dises luth der holzordnung in alwäg bescheche.<add place="right margin" hand="hand19c?"><abbr>Ib</abbr>
+<abbr>pag</abbr> 166-167</add></p>
+<seg n="2"><p><lb/>Zum andern, als wir das vilfaltig begären der hubern aller<lb break="no"/>ley 
+unnöttigen und unzimlichen buwens halb verstanden, 
+<pb n="4v" type="original"/><lb/>unnd als wir am flysigen durchschouwen des walds befunden, 
+<lb/>wie wenig der erlyden und wie gar wenig sag thannen in allem 
+<lb/>holtz jetzmaallen syendt, das kümerlich damitt ein eintzig huß 
+<lb/>zebuwen were, deßhalb wir ouch erlüttert und erkäntt, das 
+<lb/>hinfür kein huber meer zu <placeName ref="loc009859">Schwaamendingen</placeName> syne ställ 
+<lb/>dillinen und ein <orgName ref="org004352">stifft</orgName> inen kein holtz meer darzu, weder wenig 
+<lb/>noch vill, gäben, sonder sy sich als die bursame anderschwo 
+<lb/>behälfen oder onn einichen des <orgName ref="org004352">stiffts</orgName> schaden an irem holtz <add place="left margin" hand="hand19c?"><abbr>Ib</abbr>
+<abbr>pag</abbr> 169.</add>
+<lb/>das holtz und die laden anderschwo har erkouffen söllind, das 
+<lb/>ouch inen das <orgName ref="org004352">stifft</orgName> keine thannen, mistladen daruß zesagen, 
+<lb/>schuldig syn sölle. <add place="left margin" hand="hand19c?"><abbr>Ib</abbr>
+<abbr>pag</abbr> 170.</add> Und als aber sy je zu zythen uß gnaden 
+<lb/>und gar nit uß pflicht ettwas erlouben wurdind, <choice><sic>so 
+<lb/>so</sic><corr>so</corr></choice> söllend doch die huber diesälbigen laden im jar alwäg wider 
+<lb/>behalten, uff andere jar ouch zebruchen, das ouch sy innen 
+<lb/>in ire hüsser zuͦ hußgschir und andern dingen, weder zuͦ 
+<lb/>kästen, bettstatten nach anderen, weder laden nach stollen 
+<lb/>gäben, sunder luth der offnung die eintzig notturfft zu 
+<lb/>iren rächten hubhüssern zebuwen und zebrännen gäben 
+<lb/>söllind, darzu ouch keine boum zu grossen ußgehölten 
+<lb/>kripfen, anders dann wo die für die grossen züg woll im 
+<lb/>wald mögend funden werden.<add place="left margin" hand="hand19c?"><abbr>Ib</abbr>
+<abbr>pag</abbr> 170.</add>
+</p></seg>
+<p><lb/>Unnd als iren ettlich ire hubhüßer an tach und sunst 
+<lb/>gar übell inn eeren gehaben und söllichs dem hubholtz 
+<lb/>und der <orgName ref="org004352">stifft</orgName> zu grossem nachteill gedienett oder etwan 
+<lb/>unnöttige unzimliche büw und mee ouch wytter dann 
+<lb/>irer huben notturfft angesächen und buwen wellen,<add place="left margin" hand="hand19c?"><abbr>Ib</abbr>
+<abbr>p</abbr> 171.</add>
+<pb n="5r" type="original"/><lb/>soll inen das nit gestattet, sunder sy darzuͦ gehalten werden, 
+<lb/>ire hüsser und gebüw in gutten thach und gmach unnd 
+<lb/>besten eeren zehalten, ouch keinen buw, weder wenig nach vil, 
+<lb/>hinder der <orgName ref="org004352">stifft</orgName> fürzenämen und by  der rächten und einigen 
+<lb/>zall und ordnung der hubhüsseren zeblyben, also das ein jede 
+<lb/>hub nit wytter dann ir gebürlich hubhus und darin schür, 
+<lb/>gehalt und stallung haben sölle. Unnd diewyll vor<add place="right margin" hand="hand19c?"><abbr>ib</abbr>
+<abbr>p</abbr> 172.</add>
+<lb/>jaren hinder der <orgName ref="org004352">stifft</orgName> ettliche näbenthüsser uff dißen 
+<lb/>huͦbboden nebent die hubhüsser zu grossenn nachteill und 
+ <lb/>schaden des hubholtzes anderschwo har erkoufft und gesetzt worden, 
+<lb/>söllend gedaachte näbenthüsser dißmaall in irem wässen 
+<lb/>blyben. Ob aber diesälbigen mit der zytt zergaan, söllend dann 
+<lb/>die huben dahar die hoffstatten nach der pflägern ußsprächen 
+<lb/>widerumb an sich züchen und die zins ann inen sälber haben, 
+<lb/>damit der hubcirk söllicher beschwerd entladen werde. 
+</p>
+<seg n="3"><p><lb/>Zum driten, als wir ouch der <orgName ref="org004352">gstifft</orgName> ander wyttere 
+<lb/>beschwerden der länge nach der hußlüthen, der weid, des 
+<lb/>vächs und der hubguͤtteren und sunst allerlei verstanden, 
+<lb/>habend wir uff verhörung voriger urtheillen, sprüchen, 
+<lb/>brieffen, siglen, ouch der offnung und voriger ordnung 
+<lb/>unns über diesälbigen erlüttert und wytter angesächen, 
+<lb/>wie volgt, namlich: </p></seg>
+<p><add place="right margin" hand="hand19c?"><abbr>ib</abbr>
+<abbr>p</abbr> 175 et 176</add><lb/>Das es mit den hußlüthen by voriger ordnung, von einem 
+<lb/>eersammen <orgName ref="org004016">raatt</orgName> gemachet, blyben und nieman keine hußlüth 
+<pb n="5v" type="original"/><lb/>inn das dorff nach von einem huß in das ander hinder 
+<lb/>den <orgName ref="org004352">pflägern</orgName> nämen und insetzen sölle. Und damitt 
+<lb/>die huber und ein <orgName ref="org004352">stifft</orgName> desterminder überladen werdind, 
+<lb/>so söllendt alle die, so ire hubrächt alda verkouffend und von 
+<lb/>andern gmeinden dahin gezogen sind, widerumb dadannen 
+<lb/>und in ire gmeinden, da sy erboren und harkommen, hinzüchen.</p>
+<p><lb/>Das ouch alle und jede huͦber, sy sygend im dorff ald uß<lb break="no"/>erthalb gsässen, die weid nit anderst dann luth der off<lb break="no"/>nung und uffgerichter brieff und siglen bruͦchen und mit 
+<lb/>dem gebürlichen väch, so über jar uff den huben stannde, 
+<lb/>mit andern hubern allein von <placeName ref="loc009859">Schwaamendingen</placeName> uß und 
+<lb/>infaren und anderschwo har nit, weder mit roßen, rindern, 
+<lb/>stieren, kalbern, kuͤyen nach schwynen by der buͤß hinin 
+<lb/>faren und alda weiden söllind und ouch die rächt ord<lb break="no"/>enlich zall des vechs uff den huben haltind und habind an 
+<lb/>eignem vech und mit frömbden ald anderm vech ire zall 
+<lb/>nit ersetzind, ouch kein vech, wie es nammen haben mag, 
+<lb/>haryn verdingind oder luth der offnung darumb gebuͤst 
+<lb/>werdend. Das sy ouch mit den kalbern, so nach nit <measure type="age" unit="year" quantity="1">jerig</measure>, 
+<lb/>uff die weid zeschlachen kein gfaar thrybind und nam<lb break="no"/>lich keine daruff schlachind, die nit von denen kuͤyen 
+<lb/>komend, so über jar uff der hub unnd nit 
+<lb/>anderschwo gestannden, dann was kalbern vom
+  <lb/>küyen werind, so nit über jar uff der hub gestanden, 
+<lb/>soll es für frömbd gerechnett unnd das brüchig 
+<lb/>und schedlich vech darvon gethaan und da nit geduldet 
+<lb/>werden.</p>
+<pb n="6r" type="original"/><p><lb/>Deßglychen alle guͤtter zu rächter gwonlicher gmeyner weid 
+<lb/>nach luth der offnung ußliggen und niemantts keine guͤtter, 
+<lb/>so offen syn söllend, inschlachen und zuͦ eigner weid bruͦchen 
+<lb/>oder andern lüthen verkouffen sölle, ouch die weid in der 
+<lb/><placeName ref="loc012847">Ouw im Zelgli</placeName> in glychem bruch und rächten haben unnd 
+<lb/>keiner vor dem andern und über die gewonlich zall daryn schlachen. 
+<lb/>Die weid aber in den halmen in den zelgen söllend sy eerst 
+<lb/>anfachen bruchen, so der nuͤtz und die frücht all darus komen, 
+<lb/>zuͦvor keiner kein houpt daryn schlachen sölle, ouch die weid 
+<lb/>im <placeName ref="loc012273">Farott</placeName> zu gwonlicher zytt ruͤwen lassen und vor 
+<lb/>gwonlicher zytt weder heimlich nach offentlich darin faren 
+<lb/>oder schlachen. 
+</p>
+<p><lb/>Diewyll ouch die guͤtter, so zu den huben gehörend, und vor<lb break="no"/>ab die wisen und was inen sunst wytter zu irer weid von 
+<lb/>der <orgName ref="org004352">stifft</orgName> gegunen wirtt, gar übell in eeren gehaltenn, 
+<lb/>also das die gräben nit uffgethaan und hiemitt die guͤtter 
+<lb/>und die weiden übell erchrinckind, ouch umb <sic>dese</sic> willen, das 
+<lb/>dem waser kein ußzug gegäben unnd die <placeName ref="loc010439">Glatt</placeName> nit gesübert 
+<lb/>wirt. So wellend wir, das die gräben in den wißen und 
+<lb/>ouch im <placeName ref="loc012273">Farott</placeName>
+<date dur="R/P1Y">jedes jars</date> (für das sy ein maall rächt uff<lb break="no"/>gethaan) halb wider eröffnett und uffgethaan und besunder 
+<lb/>die rächten wassergräben, so das wasser von dem berg und 
+<lb/>den zelgen abthragen söllend, <date dur="R/P1Y">jedes jars</date> uffgethaan, ouch 
+<lb/>jeder luth der vonn unßern heren gemachten ordnung die 
+<lb/><placeName ref="loc010439">Glatt</placeName> vor synen guͤttern zum andern maall, das ist im 
+<lb/><date when="--05" type="deadline">meyen</date> und im <date when="--08" type="deadline">augsten</date>, mäyen und sübern und je ein an<lb break="no"/>stossender dem andern behulfen syn, und wo einer das allein 
+<pb n="6v" type="original"/><lb/>zethun schuldig, ouch gar umb kein sach versummen 
+<lb/>sölle.</p>
+<p><lb/>Unnd als der guͤttern ettliche getheilt unnd nach nit wider<lb break="no"/>umb zesamen gewachßen, was halbe huben sind, die söllend nach 
+<lb/>irer ordnung ouch wider zesamen kommen. Und wo etwas uß 
+<lb/>einer hub verlichen, widerumb darzu gezogen, und was 
+<lb/>überiger schuppis guͤttern, so nach nit zu den andern huben 
+<lb/>komen, nienenhin dann zuͦ den huben durch ußsprächen der 
+<lb/><orgName ref="org004352">pflägern</orgName> widerumb gebraacht werden. Und also soll es ouch 
+<lb/>mit den näbent hoffstatten im dorff beschechen.</p>
+<p><lb/>Und damit söllichs beschechen möge, soll fuͤrhin keyner, weder 
+<lb/>der, so huͦbguͤtter, schuppissen oder nëbent hoffstatten hatt, luth 
+<lb/>der offnung hinder dem <orgName ref="org004352">gstifft und pflägern</orgName> ützit feill bietten 
+<lb/>nach verkouffen, er habe es dann inen, den herren am <orgName ref="org004352">gstifft</orgName>, 
+<lb/>zuͦvor angebotten oder sunst zuverkouffen erloutpnus ent<lb break="no"/>pfanngen, anderst der merckt gar nütt gelten sölle.<!-- ahh:??? --> Unnd 
+<lb/>wer dann mit erlouptnus verkoufft, soll im hinder den <orgName ref="org004352">pfläg<lb break="no"/>ern</orgName> nützit vorbehalten und ouch holtz, houw, strow unnd 
+<lb/>mist allenklich by den guͤttern blyben lassen.</p>
+<p><lb/>Unnd als mit großem schaden der huͦb guͤtteren gar vill 
+ <lb/>houw, strouw, mist, holtz und strouwi von iren hubwißen 
+ 
+ <pb n="7r" type="original"/><lb/>bißhar verkoufft und hinweg gefuͤrtt, so aber söllichs wider 
+ <lb/>die lächen und gmeine landträcht ist, so soll dasselbig 
+ <lb/>fürhin niemer meer beschächen, sunder das alles luth der off<lb break="no"/>nung, brieff und siglen by den hubhuͤssern und guͤttern be<lb break="no"/>lyben, es were inen dan ettwas derglychen zeverkouffen <lb/>uß gnaaden erloupt und vergundt, oder sy der zenden 
+ <lb/>houwen halber mit den herren, denen sy die schuldig, überkomen 
+ <lb/>mögind.</p>
+<p><lb/>Unnd wie ouch ettliche mit grossen fräffell den nutz ab iren 
+<lb/>wißen und andern guͤttern uff gwüsse jar verkoufft, soll 
+<lb/>dasselbig abgeschlagen synn, der nutz by den guͤttern blyben 
+<lb/>und welicher sollichs thette, syn eerbrächt der guͤttern ver<lb break="no"/>würckt haben, die ströuwi wißen aber im <placeName ref="loc012273">Farot</placeName> und 
+<lb/>sunst des, so der <orgName ref="org004352">stifft</orgName> gehörig, söllend sy, die huber, sich gar 
+<lb/>nützit beladen und zu ungwonlicher zytt darinen by dem 
+<lb/>einung, so wir daruff gesetzt, gar nützit zuverhoffen 
+<lb/>haben.</p>
+<p><lb/>Unnd als der <orgName ref="org004352">stifft</orgName> amptlüth des simelkernens und der 
+<lb/>simlen halb uff <date when="--09-11">unnßer herren tag</date><note>Gemeint ist wohl das Fest der Stadtpatrone <orgName ref="org004873"><persName ref="per012644">Felix</persName> und <persName ref="per000143">Regula</persName></orgName>, vgl.<bibl><ref target="/startseite/literaturverzeichnis">Maissen 1998a</ref>, S. 195</bibl>.</note> ußzegäben durch ire 
+<lb/>sumnus und gefaar sich gar thräffenlich beschwärt, deß<lb break="no"/>glychen die herren pfläger nit minder irer, der hubern, 
+<lb/>ungehorsame halber gar unwillig von wegen, das sy vill 
+
+<pb n="7v" type="original"/><lb/>maallen uff ir beruͤffen nit erschynind und sy den weybell 
+<lb/>umb synen lonn, den sy ime luth der offnung in dem houwet 
+<lb/>an houw, in der ern aber am synen weibell garben zegäben 
+<lb/>schuldig sind, nit abfergend, da ist ouch unnßer erkanttnus, 
+<lb/>das sy, die huber, den simel kernen zu gwonlicher zytt richt<lb break="no"/>ind unnd zallind, unnd die, so für die herren <orgName ref="org004352">pfläger</orgName>
+<lb/>ervordert, jederzytt mit aller ghorsame alda erschynind, 
+<lb/>ouch den weibell syn gebürlich höuw unnd die garbenn 
+<lb/>nit anfanngs der ern, sunder am andern oder dritten tag 
+<lb/>des schnydens, sampt allem, was sy im sunst zethun schuldig, 
+<lb/>mit thrüwen werden laßind, sampt allem anderem, wie 
+<lb/>das by der <orgName ref="org004352">stifft</orgName> inn offnungen, brieffen, siglenn, 
+<lb/>urtheillen, sprüchen, erkannttnussen, holtzordnungen 
+<lb/>begriffen unnd sunst der lännge nach verschribenn 
+<lb/>und verzeichnett worden, gethrüwlich geläbind und nach<lb break="no"/>komind.</p>
+<div><head resp="PS" type="subtitle" n="2">Bussordnung</head>
+<p><lb/>Unnd diewyll dann die überthrätter söllicher articuln 
+<lb/>billichen gestraafft werden söllind, damit sy by der 
+<lb/>gehorsame desterbaß gehandt hapt werden mögind, unnd 
+<lb/>dann der einungen und bussen ettliche zevor in der 
+<lb/>offnung, ouch holtzordnung und sunst von unnßern 
+<lb/>gnedigen heren, einem eersamen <orgName ref="org004016">raatt</orgName>, benamsett und
+<lb/>bestimpt, da lassend wir es by demsälbigen in alwäg
+<lb/>blyben. Sidmaalln aber uff vill schedliche fräffel 
+<lb/>und unordnungen, so sich täglich by den hubern befindt, 
+<lb/>keine namlich einung und bussen gesetzt, deren sich 
+
+<pb n="8r" type="original"/><lb/>die herrenn am <orgName ref="org004352">gstifft</orgName> der ungehorsamen zehalten wüssen 
+<lb/>mögen, so habendt wir uß bevelch unnßerer gnedigen 
+<lb/>herren diesälbigen erwägen unnd darüber straaffen unnd 
+<lb/>bussen bestimpt unnd gesetzt, wie hernach volgt.<note>Die folgenden Bestimmungen zu Bussen für Holzschäden und zur Ziegelei wurden wörtlich und integral von der Bussenordnug vom 10. November 1569 übernommen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1114618">StAZH G I 4, Nr. 41</ref></bibl>). Nur der Abschnitt mit der Siegelankündigung und der Datierung wurde eingeschoben.</note></p></div>
+<p><seg n="1"><lb/>Namlich deß ersten, wer der ist, der ußert das dorff und 
+<lb/>dem hubcirck holtz hinweg fuͤrtt oder verkoufft, der soll 
+<lb/>vonn jedem, was unnder einem claffter und <measure commodity="wood" quantity="1" unit="Klafter" type="volume">ein claffter</measure>
+<lb/>thun mag, jedes maals <measure type="currency" quantity="5" unit="lb">f̈ünff pfund</measure> verfallen syn unnd 
+<lb/>soll das den hubern und thagnowern glych ghalten werden.</seg></p>
+<p><seg n="2"><lb/>Zum anderen, wer thannen stückt unerloubt, frömbd
+<lb/>oder heimbsch, soll von jedem maall <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> buͦß
+<lb/>unnd soll der einung im <placeName ref="loc012239">Sack</placeName> und hinder dem <placeName ref="loc012040">Brannd</placeName>
+<lb/>für sich sälbs umb <measure type="currency" quantity="5" unit="lb">fünff pfund</measure> wie bißhar gehaltenn
+<lb/>werden.
+</seg></p>
+<p><seg n="3"><lb/>Zum dritten, wer uß den zünen holtz zeertt ald sunst 
+<lb/>särlen, hagthannen oder anders nimpt, damit gezüntt 
+<lb/>ist, wo das bschicht im holtz und im feld, im dorff unnd 
+<lb/>usserthalb soll jedes maals <measure type="currency" quantity="1" unit="lb">ein pfund</measure> verfallenn 
+<lb/>synn.</seg></p>
+<pb n="8v" type="original"/>
+<p><seg n="4"><lb/>Zum viertten, wer mit unordnung unnd schedlich widen 
+<lb/>houwt inn den jungen houwen oder sunst, soll jedes mals 
+<lb/><measure type="currency" quantity="10" unit="ß">zächen schilling</measure> buͤssen, einer möchte aber so gar schedlich 
+<lb/>houwen, söllend sy gwalt haben, den und diesälben thürer 
+<lb/>und höcher zestraaffen.</seg></p>
+<p><seg n="5"><lb/>Zum fünfften, wer im jar boumstützen houwt 
+ <lb/>unnd diesälbigen nit bhalt über jar unnd gfaar damit 
+ <lb/>brucht, soll jedes maals luth des einungs <measure type="currency" quantity="1" unit="lb">ein pfund</measure> buͤssen.</seg></p>
+<p><seg n="6"><lb/>Zum sächßdenn, wer holtz abhin stückt, das er nit vom 
+<lb/>stumppen gebuͤst werde, soll jedes maals <measure type="currency" quantity="20" unit="bz">zwänntzig batzen</measure>
+<lb/>verfallen syn.</seg></p>
+<p><seg n="7"><lb/>Zum sibenden, wer nutzlich boum und eichen ab den hub<lb break="no"/>guͤttern, wo die joch jemer staand, abhouwt und verkoufft, 
+<lb/>soll, so dick das bschicht, <measure type="currency" quantity="5" unit="lb">fünff pfund</measure> zestraaff verfallen synn.</seg></p>
+<p><seg n="8"><lb/>Zum achten, wer synn empfanngen holtz, so im zu riestern,  
+<lb/>buw und karen gschir worden, anderschwo hin zücht und threit, 
+<lb/>soll jedes maals <measure type="currency" quantity="20" unit="bz">zwänntzig batzen</measure> buͤssen.</seg></p>
+<pb n="9r" type="original"/><p><seg n="9"><lb/>Zum nüntten, wer einen jungenn houw uffbricht, so 
+<lb/>nach nit ußgelassen, soll jedes maals <measure type="currency" quantity="5" unit="lb">fünff pfund</measure> buͤssen. 
+</seg></p>
+<p><seg n="10"><lb/>Zum zächenden, wer mit dem ußgegäbnen holtz zum 
+<lb/>wintterhauw und sunst nit den rächten straassen nachfartt, 
+<lb/>sunder durch die jungen houw schleickt oder fuͤrtt, soll jedes 
+<lb/>maals <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> verfallen synn.</seg></p>
+<p><seg n="11"><lb/>Zum einlifften, wer vech in einen houw schlaatt, soll von 
+<lb/>jedem houpt jedes tags <measure type="currency" quantity="1" unit="lb">ein pfund</measure> verfallen syn, es möchte aber 
+<lb/>einer <time period="byNight">nachts</time> also gfaarlich thryben, das man es einem für ein 
+<lb/>diebstall rächnotte und unßern herren zestraaffen übergebe.</seg></p>
+<p><seg n="12"><lb/>Zum zwölften, wer unghorsam ist unnd die jungen houw 
+<lb/>nit hilft nach der odnung zünen, soll jedes maals <measure type="currency" quantity="10" unit="ß">zächen schilling</measure>
+<lb/>verfallen syn, also ouch mit andern gmeinwerchen ghalten werden.</seg></p>
+<p><seg n="13"><lb/>Zum dryzächenden, wer hußlüth hinder der <orgName ref="org004352">gstifft</orgName> inhin 
+<lb/>setzt, soll <measure type="currency" quantity="5" unit="lb">fünff pfund</measure> zebuͤß gäben und allen schaden, denn 
+<lb/>sy thund, abthragen. Es soll aber nieman erloupt werden, da 
+<lb/>inzesitzen, dann der, da er erzogen unnd erboren ist.</seg></p>
+<pb n="9v" type="original"/><p><seg n="14"><lb/>Zum vierzächenden, wer synn tach nit in eeren hatt und ge<lb break="no"/>fordert wirt ze bessern und es versumpt, soll über jede war<lb break="no"/>nung, so er versumpt, <measure type="currency" quantity="1" unit="lb">ein pfund</measure> verfallen synn.</seg></p>
+<p><seg n="15"><lb/>Zum fünffzächenden, wer frömbd vech, so ußert dem hub<lb break="no"/>zirck zu <placeName ref="loc009859">Schwaamendingen</placeName> staatt, es sye roß, rinder, stier, <del hand="later hand">ku</del><!-- ahh: Ist das mit Bleistift durchgestrichen? PS: sieht so aus, würde del later Hand oder eine note setzen -->, 
+<lb/>kälber oder schwyn, hinyn zeweid thrybt, soll jedes maals für 
+<lb/>den fräffell <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> und die weid buß darzu gäben.</seg></p>
+<p><seg n="16"><lb/>Zum sächszächenden, wer frömbd vech hinyn verdingt, als 
+<lb/>ob es syn, unnd nit syn were, oder als ob er das erkouffte und 
+<lb/>zu änd der weid das wider verkouffte, soll in glycher straaff 
+<lb/>staan, dann alda kein gfaar soll gebrucht werden, sonder by 
+<lb/>dem articull der offnung blyben.</seg></p>
+<p><seg n="17"><lb/>Zum sibenzächenden, wer über syn zall kalber uff die weid 
+<lb/>schlugi, so nach nit <measure type="age" quantity="1" unit="year">jerig</measure>, die im von den küyen nit worden, so 
+<lb/>über jar uff der hub gestannden, soll in glycher straaff ge<lb break="no"/>halten werden.</seg></p>
+<p><seg n="18"><lb/>Zum achtzächenden, wer brüchig und schedlich vech hatt und 
+<lb/>das ab warnung nit danen und hinweg thuͤtt, soll umb syn 
+<lb/>unghorsame von den herren obervogten gestraafft werdenn.</seg></p>
+<pb n="10r" type="original"/>
+<p><seg n="19"><lb/>Zum nünzächenden, wer synne guͤtter wider die offnung 
+<lb/>zu eigner weid inschlaatt oder syner infängen weid verkoufft 
+<lb/>und des nit befugt, soll jedes maals <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> gäben 
+<lb/>und die weid nütdesterminder ußligen lassen.</seg></p>
+<p><seg n="20"><lb/>Zum zwäntzigisten, alle die, so ire gräben in den wißen, 
+<lb/>guͤttern und weiden nit uffthund, so es die notturfft erhouscht, 
+<lb/>und darumb zu gelägner zyth von der <orgName ref="org004352">stifft</orgName> ervordert, 
+<lb/>und das in <date dur="P1M">einem monat</date> nit thund, deren soll jeder jed<lb break="no"/>es maals <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> verfallen syn.</seg></p>
+<p><seg n="21"><lb/>Zum ein und zwäntzigisten, wer zu unerloupter zyth 
+<lb/>zwischend <date when="--05-13">sannt Margrethen</date> und <date when="--09-11">unßer herren tag</date><!-- laut <bibl><ref target="/startseite/literaturverzeichnis">Maissen 1998a</ref></bibl> meint dieser Begriff nicht Fronleichnam, sondern Felix und Regula, (11. September).--> one 
+<lb/>erlouptnus in das <placeName ref="loc012273">Faratt</placeName> und in die ströuw höuwi wißen 
+<lb/>fart, soll von jedem houpt jedes tags oder nacht <measure type="currency" quantity="10" unit="ß">zächen schilling</measure>
+<lb/>verfallen syn.</seg></p>
+<p><seg n="22"><lb/>Zum zwey und zwäntzigisten, wer strow, höw, mist, ströwi 
+<lb/>ab den huben verkoufft, soll jedes maals von jedem fuder <measure type="currency" quantity="10" unit="lb">zächen 
+<lb/>pfund</measure> verfallen syn, doch mit vorbhalt alles deße, was des 
+<lb/>jars für die zenden höuw mag gegäben werden.</seg></p>
+<p><seg n="23"><lb/>Zum dry und zwäntzigisten, wer den simelkernen nit git 
+
+<pb n="10v" type="original"/><lb/>zu gwonlicher zytt, soll jedes maals <measure type="currency" quantity="20" unit="bz">zwäntzig batzen</measure> zu 
+<lb/>buß verfallen syn und dem simlen bacher nütdesterminder 
+<lb/>den, wie er in inkouffen muͤssen, angänds bezallenn.</seg></p>
+<p><seg n="24"><lb/>Zum vier und zwäntzigisten, wen für die herren <orgName ref="org004352">pfläger</orgName> ver<lb break="no"/>kündt und der on redlich ursachen ußblybt, soll jedes maals 
+<lb/><measure type="currency" quantity="1" unit="lb">ein pfund</measure> zu straaff verfallen syn.</seg></p>
+<p><seg n="25"><lb/>Zum fünf und zwäntzigisten, wer in die ouw über die 
+<lb/>ordnung fart, soll von jedem houpt <measure type="currency" quantity="10" unit="ß">zächen schilling</measure> gen, jedes 
+<lb/>tags oder nachts.</seg></p>
+<p>
+<seg n="26"><lb/>Zum sächs und zwäntzigisten, wer in die halmen<!-- ahh: Flurnamen? mng: wohl eher als Ausdruck für das Umpflügen oder Umgraben des Stoppelfeldes, vgl. Idiotikon II, Sp. 1201 oben --> fartt, 
+<lb/>ob die zelg gar ledig ist, das soll ouch by myner heren buß blyben.</seg></p>
+<p><lb/>Und hiemit soll es nüt dester minder in alwäg blyben by der off<lb break="no"/>nung, brieffen, siglen, sprüchen und verthrägen, urtheilen und 
+<lb/>erkantnußen, so zevor uffgrichtet und ußganngen, und soll 
+<lb/>ouch diße ordnung und einungen demselbigen fürhin ver<lb break="no"/>lybet syn und glych gehalten werden. Und namlich alle 
+<lb/>und jede huber, sy werind sälbs personlich zu <placeName ref="loc009859">Schwaamen<lb break="no"/>dingen</placeName> oder usserthalb, in allen articklen der offnung und 
+<lb/>andern, ouch dißer erkantnus, glych angebunden syn und einer
+<lb/>wie der ander, onne allen underscheid, glych gehalten, ouch alle 
+<lb/>die hußlüth, denen je zu zythen alda zewonen erloupt und 
+<lb/>vergunen wirt, hieran angebunden syn sollend.</p>
+<pb n="11r" type="original"/><head type="subtitle" n="3"><lb/>Von dem ziegel gwerb unnd <lb/>dem ziegler<note>Zu den Zieglern vgl. auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_082">SSRQ ZH NF II/11, Nr. 82</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_107">SSRQ ZH NF II/11, Nr. 107</ref></bibl>.</note></head>
+<p><lb/>Unnd als ouch die ziegler bißhar vill unordnung und miß<lb break="no"/>brüch wider das, das inen ein <orgName ref="org004352">stifft</orgName> von alterhar des nutzlichen 
+<lb/>und nottwändigen gwerbs in irem hubrächten inen gern 
+<lb/>gegunen, getriben, so sond ouch diesälbigen, so jetz ver<lb break="no"/>handen und in künfftigen da syn wurdent, ire guͤtte und 
+<lb/>nutzliche ordnung halten, wie volgt.</p>
+<p><lb/>Namlich, das sy der <orgName ref="org004352">stifft</orgName> und den hubern one iren schaden 
+<lb/>iren gwerb thryben und der <orgName ref="org004352">stifft</orgName> jerlich den herdzins, wie 
+<lb/>sy je mit inen überkomen mögend, ußrächnind und bezallind.
+</p>
+<p><lb/>Das sy ouch mit dem leimgraben by den alten gruͦben blyben 
+<lb/>und keine nuwe gruͦben onne vorwüssen und erlouptnus 
+<lb/>und besunder inn keinem jungen houw anstächen und 
+<lb/>graben und hiemit mit dem leym weder yn nach durch 
+<lb/>die jungen houw faren söllind.</p>
+<p><lb/>Und ouch keinen lyem anderschwohin dann zu jrer hütten 
+<lb/>und sunst onne erlouptnus nienen hin füren nach graben 
+<lb/>oder graben lassen söllind. Und ob inen sölliches 
+<lb/>erloupt by iren thrüwen den zoll der <orgName ref="org004352">stifft</orgName> weibell al<lb break="no"/>weg zuͦstellind.</p>
+<pb n="11v"/><p><lb/>By eintziger behußung nebent der hütten soll er alwäg 
+<lb/>blyben und ouch inn dersälbigen keine hußlüth habenn 
+<lb/>unnd das althuß uff dem reyn niemermeer behussen oder 
+<lb/>mit hußlüthen besetzen, es were dann, das er die behussung 
+<lb/>nebent der hütten abschlyffen wurde, die nüw schür 
+<lb/>ouch gar zu keiner behussung machen und gar keine huß<lb break="no"/>lüth haben.</p>
+<p><lb/>By synner zall vechs der <num value="3">dry</num> houpten soll es blyben 
+<lb/>unnd by der weid buß darüber nit haben. Und diewyll 
+<lb/>im die <orgName ref="org004352">stifft</orgName> uß gnaaden nach ein roß darzuͦ vergonnen, 
+<lb/>soll es ann der <orgName ref="org004352">stifft</orgName> staan, ime dasselbig uff ir gfallen 
+<lb/>abzesprächen oder zelassen, und söllind ouch die huber 
+<lb/>nützig daryn zereden haben.<note>Dies hatten <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> am 15. Juli 1562 entschieden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100352">StAZH G I 3, Nr. 97</ref></bibl>).</note></p>
+<p><lb/>Es soll ouch synen gwerb hinder der <orgName ref="org004352">stifft</orgName> niemer veränd<lb break="no"/>ern, sonder den der <orgName ref="org004352">stifft</orgName> zum eersten anbietten unnd 
+<lb/>wen ime zverkouffen erloupt, alwäg vor der <orgName ref="org004352">stifft</orgName>
+<lb/>vertigen, einen jeden syner pflichten zuͦerinern wüssen 
+<lb/>mögen.</p>
+<p><lb/>Er soll ouch nach luth alter verträgen der <orgName ref="org004352">stifft</orgName> dem keln<lb break="no"/>hoff und den hubern die ziegel, so sy jederzytt mangelbar, 
+<lb/>werden und gevolgen lassen.</p>
+<p><lb/>Unnd diewyll sölliches alles inmaassen, wie hiervor 
+<lb/>staatt, also zuͦganngen und beschechen. So habend dar<lb break="no"/>uff wir des zu waarem urkund und meeren bestand 
+<pb n="12r" type="original"/><lb/>aller hiervorbemelten dingen unßere eigne insigell (doch 
+<lb/>unns unnd unßern eerben inn alwäg onne schaden und 
+<lb/>unvergriffen) ann diß offen libell schrifft hänncken 
+<lb/>und obgedaachten herren am <orgName ref="org004352">stifft</orgName> uff ir ernstlich begär 
+<lb/>hin sich des irer notturfft nach zuͦgebruchen wüssen 
+<lb/>mögen gäben lassen uff den <origDate when="1573-10-10">zächenden tag wymonats, 
+<lb/>als mann zalt vonn der gepurtt Cristi fünffzächen<lb break="no"/>hundert sibenzig unnd dry jar</origDate>.</p>
+<p><lb/>Unnd damit ouch söllichen unnßern hiervor beschribnen, jetz 
+<lb/>nüw gestelten ordnungen und erkanttnussen, inn allen 
+<lb/>articuln dester styffer geläpt und nachkomen möge werdenn, 
+<lb/>so haben wir unns ouch entschlossen, wann hinfür einer 
+<lb/>oder meer wider dise gesatzte hanndlen und er darumb durch 
+<lb/>den weybel oder sunst geleidet und angäben wurde, das dann 
+<lb/>diesälben verfalnen und angegäbnen buͦssen von den über<lb break="no"/>thrättenden personen durch der <orgName ref="org004352">stifft</orgName> buwmeystere, wer 
+<lb/>der je ist, lutt der hiervor bemälten und gestelten ord<lb break="no"/>nungen angäntz zuͦhanden der <orgName ref="org004352">stifft</orgName> fabric und buw<lb break="no"/>ampts, dahin dann diße gefell bißhar ouch gehörtt, on nach<lb break="no"/>laß ingezogen und daran niemants verschonett werden sölle, 
+<lb/>wie dann das die heren <orgName ref="org004352">gstiffts pflägere</orgName> sälbst ouch das best und 
+<lb/>wegist synn bedunckt hatt.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Marginalien von späterer Hand beziehen sich vermutlich auf <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1117449">StAZH G I 4, Nr. 82</ref></bibl>, eine Aufzeichnung der Regelungen von Wald- und Weiderechten des <orgName ref="org004352">Stifts</orgName>
+in <placeName ref="loc009859">Schwamendingen</placeName> von der Hand <persName ref="per024279">Wolfgang Hallers</persName>, mit Ausnahme des Vermerks <orig>Tom IV 121</orig>, der auf die Abschrift im Stiftsprotokoll von <persName ref="per000784">Hans Jakob Fries</persName> verweist 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=955997">StAZH G I 32, S. 120-147</ref></bibl>). Eine Teilabschrift der vorliegenden Ordnung von der Hand von Prädikant <persName ref="per025260">Hans Jakob Haller</persName> lässt die 
+Bestimmungen zur Ziegelei weg (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=943750">StAZH G I 230, S. 85-100</ref></bibl>).</p>
+<p>Anfang der 1560er Jahre hatten das <orgName ref="org004352">Grossmünster</orgName> und die Huber von <placeName ref="loc009859">Schwamendingen</placeName> mehrere Konflikte um Holz- und Weiderechte sowie die Kompetenzen des <orgName ref="org004352">Stifts</orgName> und der Huber 
+ausgetragen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_079">SSRQ ZH NF II/11, Nr. 79</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1100352">StAZH G I 3, Nr. 97</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_081">SSRQ ZH NF II/11, Nr. 81</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_082">SSRQ ZH NF II/11, Nr. 82</ref></bibl>). Mit dem Urteil durch Ratsverordnete vom 22. September 1562 
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1105817">StAZH G I 3, Nr. 120, S. 3-10</ref></bibl>) waren die Konflikte jedoch nicht beigelegt; schon am 22. Dezember 1563 notierte Stiftsverwalter <persName ref="per024279">Wolfgang Haller</persName> 
+erneute Verstösse der Huber gegen die Offnung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1102719">StAZH G I 3, Nr. 96, S. 7</ref></bibl>). Am 18. Mai 1564 vermittelten Bürgermeister <persName ref="per001921">Bernhard von Cham</persName> 
+und Säckelmeister <persName ref="per001965">Hans Heinrich Spross</persName> wiederum zwischen den beiden Konfliktparteien und erläuterten verschiedene Artikel der Offnung und Holzordnung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1105866">StAZH G I 3, Nr. 120, S. 19-46</ref></bibl>). 
+Danach befahlen sie, alle Bestimmungen aufzuschreiben und zusammen mit der Offnung und der Holzordnung aufzubewahren, damit bei künftigen Konflikten die gnädigen Herren nicht damit belästigt würden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1235559">StAZH G I 22, fol. 142r</ref></bibl>). 
+Am 10. November 1569 wurde eine neue Bussenordnung für die Schädigung der Stiftswälder sowie die durch den Ziegler verursachten Schäden erlassen, die in die vorliegende Ordnung integral eingeflossen ist (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1114618">StAZH G I 4, Nr. 41</ref></bibl>).
+Am 31. Oktober 1570 liess das <orgName ref="org004352">Stift</orgName> den Hubern von <placeName ref="loc009859">Schwamendingen</placeName> anlässlich der Austeilung des Holzes eine weitere Holzordnung vorlesen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1114804">StAZH G I 4, Nr. 54</ref></bibl>).
+Auf Bitte des <orgName ref="org004352">Grossmünsterstifts</orgName>, das den <orgName ref="org002406">Rat</orgName> um den Schutz seiner Rechte ersuchte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1117450">StAZH G I 4, Nr. 82, S. 149-151</ref></bibl>), 
+erliessen die Ratsverordneten am 10. Oktober 1573 die vorliegende Ordnung. Diese scheint Bestand gehabt zu haben: Die Bestimmungen zur Holznutzung von 1671 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_125">SSRQ ZH NF II/11, Nr. 125</ref></bibl>)
+halten fest, dass neben den dort spezifisch geregelten Punkten die Ordnung von 1573 in Kraft bleiben solle. Fast gleichzeitig mit der vorliegenden Ordnung, am 30. September 1573, wurde auch in <placeName ref="loc009865">Wollishofen</placeName> eine Holz- und Weideordnung 
+durch Ratsabgeordnete erlassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_088">SSRQ ZH NF II/11, Nr. 88</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

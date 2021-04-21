@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/01/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+        <respStmt>
+          <persName>Sandra Reisinger</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Sandra Reisinger</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date type="electronic" when="2021-04-01"/>
+        <date type="print" when="2018-12-31"/>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Sammlung Schweizerischer Rechtsquellen</title>
+        <respStmt>
+          <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>SSRQ_ZH_NF_I_1_11_015</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928910"
+              >StAZH III AAb 1.2, Nr. 8</idno>
+          </msIdentifier>
+          <head>Mandat der Stadt Zürich betreffend Verbot des Täufertums</head>
+          <msContents>
+            <summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erneuern das Täufermandat von 1585. Zunächst werden neben dem allgemeinen Täuferverbot die Sanktionen und Bussen bei Abwesenheit vom Gottesdienst festgelegt (1). Wiederholungstätern droht zuerst die Gefangennahme, dann die Landesverweisung und schliesslich die Bestrafung an Leib und Gut (2). Verarmte Täufer, die aus Mähren zurückgekehrt sind, erhalten ihr konfisziertes Gut zurück, falls sie sich vom Täufertum abwenden (3). Weiterhin werden die Massnahmen und Bestrafungen für missionierende Täufer sowie für Leute, die an täuferischen Versammlungen teilnehmen oder verfolgten Täufern Unterschlupf geben, festgehalten (4, 5). Güter, die von Täufern verkauft werden, sollen künftig von der Obrigkeit konfisziert werden (6). Umherziehende und werbende Täufer werden nicht aufgrund ihres Glaubens, sondern wegen Aufruhr und Meineid verfolgt und bestraft (7). Da viele Täufer sich aufgrund von Missständen von der zürcherischen Kirche abgesondert haben, werden die geistlichen Amtsträger daran erinnert, ein christliches und sittliches Leben zu führen (8). Zuletzt wird das Ehegericht mit der Vollstreckung des Mandats beauftragt sowie alle geistlichen und weltlichen Amtspersonen zur Wachsamkeit und Bestrafung von Zuwiderhandlungen aufgefordert (9, 10).</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="original">
+                <origDate when="1612-12-30"/></filiation>
+              <filiation type="current">Druckschrift, 8 Bl.</filiation>
+              <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><material>Papier</material></support>
+                <extent><dimensions type="leaves">
+                    <height unit="cm" quantity="30.5"/>
+                    <width unit="cm" quantity="20.0"/>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin><origDate from="1613-01-01" to="1613-12-31"/></origin>
+          </history>
+          <additional>
+            <listBibl>
+              <head>Edition</head>
+              <bibl>Zürcher Kirchenordnungen, Bd. 1, Nr. 179</bibl>
+            </listBibl>
+            <listBibl>
+              <head>Nachweis</head>
+              <bibl>Schott-Volm, Repertorium, S. 833-834, Nr. 633</bibl>
+              <bibl>VD17 7:708341G</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key000598">Ausweisung</term>
+          <term ref="key005367">Beschlagnahmung</term>
+          <term ref="key004344">Ehegericht</term>
+          <term ref="key003648">Geistlichkeit</term>
+          <term ref="key000149">Gottesdienst</term>
+          <term ref="key000957">Meineid</term>
+          <term ref="key005437">Sekten</term>
+          <term ref="key005438">Täufer</term>
+        </keywords>
+      </textClass>
+      <particDesc default="false"/>
+      <settingDesc default="false"/>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="1r" facs="StAZH_III_AAb_1_2__Nr__8__fol__1_r_.tif"/>
+            <head><lb/>Mandat: <lb/>Der Statt <placeName ref="loc000065"
+                >Zürych</placeName> / der <lb/><orgName ref="org005058"
+              >Widertaͤuffern</orgName> halber <lb/>ußgangen</head>
+            <p><figure type="woodcut"/></p>
+            <p><date when="1613" calendar="Julian">M. DC. XIII.</date></p>
+            <pb n="1v" facs="StAZH_III_AAb_1_2__Nr__8__fol__1_v_.tif"/>
+            <pb n="2r" facs="StAZH_III_AAb_1_2__Nr__8__fol__2_r_.tif"/>
+            <p><seg><lb/>Wir der <orgName ref="org002406"
+                    >Burgermeister / Raht und
+ <lb/>der groß Raht / so man nennt die
+ <lb/>zweyhundert der Statt <placeName
+                    ref="loc000065"
+                  >Zürych</placeName></orgName>.
+ <lb/>Embietend allen und jeden unseren
+ <lb/>Burgeren / Inwohneren Ober- und
+ <lb/>Undervoͤgten: auch allen anderen unseren zuͦgehoͤ<lb
+                  break="no"
+                  />rigen /
+ Geistlichen und Weltlichen / in unser Statt /
+ <lb/>Graffschafften / Herrschafften / Landen / Gerichten
+ <lb/>und gebieten wohnhafft / unseren günstigen geneig<lb
+                  break="no"
+                  />ten
+ willen und alles guͦts zuͦvor. Und thuͦnd hiemit
+ <lb/>üch sampt unnd sonders zuͦvernemmen. Nach dem
+ <lb/>die Irrige Sect der <orgName
+                  ref="org005058">Widertaͤufferen</orgName> an etlichen or<lb break="no"
+                  />ten
+ nur immerdar mehr zuͦ: dann abnemmen will. 
+ <lb/>Und aber ein jede Christliche Oberkeit / uß obligen<lb
+                  break="no"/>der
+ pflicht / soͤlliche Widertaͤufferyg unnd dero an<lb break="no"
+                  />hang /
+ under irem volck nit dulden / noch ungestrafft
+ <lb/>hingahn lassen khan / Als die nit gering zuͦachten ist.
+ <lb/>Dieweyl die <orgName
+                  ref="org005058"
+                  >Widertaͤuffer</orgName> der mehrer theil vilerley
+ <lb/>schaͤdlicher irrthumben von etlichen articklen deß
+ <lb/>Glaubens habend und fuͤhrend. In denen sy nit al<lb
+                  break="no"
+                  />lein
+ den Kindertauff verwerffend / sonders irrend
+ <lb/>auch mehrentheils under inen / In den rechten Haupt
+ <lb/>puncten der Christlichen Lehr. Item durch ire Lehr
+ <lb/>werdent Christenliche Kirchen verwirrt unnd zer<lb
+                  break="no"/>stoͤhrt.
+ Deßglych die Regiment unnd Hußhaltun<lb break="no"
+                  />gen
+ zerrüttet. Dann sy wendend mengklichen so
+ <lb/>vil innen müglich / ab / von ordenlichem Kirch<lb
+                  break="no"/>gang /
+ Lehrend kein Christ moͤge im stand der Ober<pb n="2v"
+                  facs="StAZH_III_AAb_1_2__Nr__8__fol__2_v_.tif"/><lb break="no"
+                  />kheit
+ syn / hebend die rechten Eid uf / mit denen die
+ <lb/>Underthonen iren Herren und Oberen verbunden
+ <lb/>sind. Verner trennend sie die Ee / fuͤren einem bider<lb
+                  break="no"
+                  />mann
+ sin Eelich wyb hinweg / einer Eerenfrauwen
+ <lb/>iren Eemann / Wysend die kind und dienst uf / das
+ <lb/>sy von iren elteren und herren lauffind. Beraubend
+ <lb/>auch die kinder irer Erbguͤteren / damit sy vil guͦt uß
+ <lb/>dem land vertigind / und irer Gesellschafft im land
+ <lb/><placeName
+                  ref="loc006953"
+                  >Meerhern</placeName><!-- Mähren --> zuͦeignind. Wie glych etliche / so durch ir
+ <lb/>falsche anleitung sich daselbst hin begaͤben / zuͦ irer
+ <lb/>widerkunfft den trug unnd bschiß anzeigen khoͤn<lb
+                  break="no"
+                  />nen.
+ Entbloͤssend und beraubend das vatterlandt
+ <lb/>der hilff wider fyentlichen gewalt. Inn summa sy
+ <lb/>vertrybend die recht Evangelisch Religion / unnd
+ <lb/>Christliche billiche Politische sachen / <abbr>etc</abbr>,</seg>
+              <seg>Das wir
+ <lb/>uß Christlicher Oberkeitlichen pflicht / soͤllichem
+ <lb/>schaͤdlichen Irrsal / unraht und übel / mit ernst und
+ <lb/>nach gebür zuͦbegegnen / verursachet worden sind /
+ <lb/>unser vormaln hierwider ußgangen Mandat<note>Hier wird auf das Täufermandat von 1585 verwiesen (<bibl><ref
+                      target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162194"
+                      >StAZH III AAb 1.1, Nr. 39</ref></bibl>).</note> / wi<lb break="no"
+                  />derumb
+ in unser Statt unnd Landschafft / mit et<lb break="no"
+                  />was
+ verbesserung und vernerem zuͦsatz / zuͦernüwe<lb break="no"/>ren.</seg>
+              <seg n="1"
+                  >Und gebietend daruf zum aller ernstlichisten /
+ <lb/>das sich menigklich under uns unnd den unseren /
+ <lb/>von diser Irrigen Widertaͤufferischen lehr abzühe /
+ <lb/>und derselben enthalte. Dann wer sich dero anhen<lb
+                  break="no"/>gig
+ machete / und daher sich deß ordenlichen Kilch<lb break="no"
+                  />gangs /
+ nach unserem Christenlichen ehrbaren anse<lb break="no"
+                  />hen /
+ üsserte / und das gemein Gebaͤtt und die Predi<pb n="3r"
+                  facs="StAZH_III_AAb_1_2__Nr__8__fol__3_r_.tif"/><lb break="no"
+                  />gen
+ in siner Pfarr ald Kilchen (wie andere gehor<lb break="no"
+                  />same
+ burger und underthonen zethuͦn pflaͤgen) nit
+ <lb/>besuͦchte / unnd ab erster synes Pfarrers ald Predi<lb
+                  break="no"/>canten /
+ oder eines Ersammen <orgName ref="org004927"
+                  >Eegerichts</orgName> inn unser
+ <lb/>Statt alhie / und uff unser Landtschafft / deß Pfar<lb
+                  break="no"
+                  />rers /
+ Undervogts / Eegaumern und der Eltisten in
+ <lb/>der Gmeind / fründtlicher vermanung / erinneren
+ <lb/>unnd warnen von der bruchenden soͤnderung im
+ <lb/>Kilchgang abzuͦstahn / nüt thete / sonders nachmaln
+ <lb/>ussert der ordenlichen versamblungs predig blibe /
+ <lb/>Von dem unnd denen sol deß nechsten <date
+                  dur="P1WD">Sonntags</date>
+                <lb/>nach der warnung / <measure type="currency" unit="lb" quantity="5" origin="ZH"
+                  >fünff pfund</measure> gelts. Deß anderen
+ <lb/><date dur="P1WD"
+                  >Sonntags</date> darnach <measure type="currency" unit="lb" quantity="10"
+                  >zehen pfund</measure> / und deß dritten
+ <lb/><date dur="P1WD">Sonntags</date>
+                <measure type="currency" unit="lb" quantity="15"
+                  >fünffzehen pfund</measure> / an barem gelt unserer
+ <lb/>waͤhrung / und benanntlich jede der jetzt bestimpten
+ <lb/>buͦssen / glych uff den <date
+                  dur="P1WD"
+                  >Sonntag</date> deß übersehens und
+ <lb/>ußblybens der Predig / gestracks unnd ohne gnad /
+ <lb/>zuͦ rechter straff yngezogen werden. Da die Predi<lb
+                  break="no"
+                  />canten /
+ Undervoͤgt / Weibel und Eegaumer / jeder
+ <lb/>by synem Eyd soͤlliches allwegen iren Obervoͤgten
+ <lb/>leiden und anzeigen. Welte dann by einem die ab<lb
+                  break="no"
+                  />nemmung
+ vorerzelter geltbuͦssen nützit helffen noch
+ <lb/>verfahen. So sol dannethin ein soͤllicher ungehorsa<lb
+                  break="no"
+                  />mer /
+ Ist er ein burger ald ynwohner in unser Statt
+ <lb/>alhie / von und uß syner Zunfft unnd Gesellschafft
+ <lb/>ußgeschlossen / unnd syn handtwerck / gwün unnd
+ <lb/>gwerb ime verbotten und nidergelegt / Und die uff
+ <lb/>unser Landtschafft von aller gemeinschafft und nu<pb
+                  n="3v" facs="StAZH_III_AAb_1_2__Nr__8__fol__3_v_.tif"/><lb break="no"/>tzung
+ der gmeinen guͤteren in holtz und veld / in
+ <lb/>waͤsserungen / kauffen und verkauffen ußgeschlossen
+ <lb/>werden / und dessen alle diewyl unnd so lang sy sich
+  <lb/>nit gehorsamlich stellend / ungenoß<!-- (der zürcherischen Gesellschaft) nicht teilhaftig sein, ausserhalb der Gesellschaft sein, vg. Grammatisch-Kritisches Wörterbuch der Hochdeutschen Mundart --> und nit vehig <!-- handlungsunfähig -->
+                <lb/>syn.</seg></p>
+            <seg n="2"><p>
+                <lb/>Welliche aber / es sygind mann ald wyb / jung
+ <lb/>oder alt / über das alles inn irer halßstarrige fürfuͤ<lb
+                  break="no"
+                  />rend /
+ und sich nit berichten lassen welten. Der unnd
+ <lb/>dieselben soͤllent zuͦ unseren als der hohen Oberkeit /
+ <lb/>handen genommen / und in gefangenschafft gelegt
+ <lb/>werden. Und da man gegen soͤllichen widerspen<lb
+                  break="no"/>nigen
+ lüthen mit vernerem fründtlichen underrich<lb break="no"
+                  />ten
+ und abwysen vom Irrthumb / auch nüdt schaf<lb break="no"
+                  />fen
+ khoͤndte. So wellend wir als dann uß Ober<lb break="no"
+                  />keitlichem
+ gewalt / den unnd dieselben von unser
+ <lb/>Statt und Landtschafft verwysen. Und so sy dar<lb
+                  break="no"
+                  />über
+ wyter darinne ohne vorgehnde begebung der
+ <lb/>gehorsame / und abstand vom Irrthumb / betraͤtten
+ <lb/>wurdint / sy widerumb in gefengknuß leggen / und
+ <lb/>mit muͦß und brot spysen lassen / unnd da sy sich uß
+ <lb/>Goͤttlichem wort nochmaln nit zum abstandt un<lb
+                  break="no"
+                />derrichten
+ lassen welten / den und dieselben noch ein
+ <lb/>mal von unser Statt und Land verwysen.</p>
+              <p>
+                <lb/>Were dann einer so straͤffen und widersetzig / das
+ <lb/>er / über das er zum andern mal verwisen worden /
+ <lb/>sich abermaln widerumb ohn erlaubtnuß ins Land
+ <lb/>liesse: Oder / das einer sich uß dem Landt wysen
+ <pb
+                  n="4r" facs="StAZH_III_AAb_1_2__Nr__8__fol__4_r_.tif"/>
+                <lb/>lassen / sonders mit gwalt darinnen belyben welte.
+ <lb/>Wie dann etliche <orgName
+                  ref="org005058"
+                >Taͤuffer</orgName> so vermessen sind / das sy
+ <lb/>inen ein solliches fürnemmen / und der Oberkeit sich
+ <lb/>auch in dem widersetzen doͤrffend. Gegen soͤllichen
+ <lb/>halßstarrigen menschen / an denen alles nüdt helffen
+ <lb/>will / werdent wir mehrern ernst anwaͤnden / und
+ <lb/>dieselben als meineyde ufruͤrische lüth / und die sich
+ <lb/>allem Oberkeitlichen rechtmessigen gwalt trutzlich
+ <lb/>widersetzend / an irem lyb / oder auch am leben / nach
+ <lb/>gstaltsamme der sachen / straffen.</p></seg>
+            <p><seg n="3">
+                <lb/>Und wiewol wir vor jaren / die jhenigen so mit
+ <lb/>der Taͤufferey befleckt sind / mit irem hab und guͦt
+ <lb/>uß unser Landtschafft verfahren lassen. Sidtmaln
+ <lb/>aber augenschynlich sich erfindt. Das wann sy hin<lb
+                  break="no"/>ab
+ in das land <placeName ref="loc006953"
+                  >Meerhern</placeName> / oder aber in berüwen
+ <lb/>khommend / und widerumb dem vatterland zuͦzü<lb
+                  break="no"
+                  />hend.
+ Oder da sy daunden absterbend / und dann
+ <lb/>ire kinder / als unschuldige / sich wider heimbwerts
+ <lb/>begaͤbend / alles guͦt eintweders verbrucht ist / oder
+ <lb/>inen anderschwo abgenommen und vorgehalten
+ <lb/>wirdt. Da so wellend wir kheinen mehr der unse<lb
+                  break="no"/>ren /
+ so sich der <orgName ref="org005058"
+                  >Taͤufferischen Sect</orgName> anhengig ma<lb break="no"
+                  />chen /
+ oder mit inen hinweg zühend / irs zytlichen
+ <lb/>hab und guͦts nützidt volgen lassen / alle diewyl sy
+ <lb/>in irer ungehorsamme verharrend / sonders dassel<lb
+                  break="no"/>big
+ zuͦ unseren handen in bevogtigung und ver<lb break="no"
+                  />wahrung
+ nemmen und ufbehalten lassen. Damit
+ <pb n="4v"
+                  facs="StAZH_III_AAb_1_2__Nr__8__fol__4_v_.tif"/>
+                <lb/>wann hernach sy oder ire kinder widerumb in be<lb break="no"
+                  />rüwen /
+ unnd zuͦ Land khommend / und gehorsam
+ <lb/>sein wellend / wir den und dieselben nach unserm ge<lb
+                  break="no"
+                />fallen
+ und guͦtbeduncken / uß soͤllichem guͦt / bedencken
+ <lb/>khoͤnnind. Wellichs wir uns hiemit vorbehaltend /
+ <lb/>nach gnaden und gstaltsame der sachen zethuͦnd.</seg></p>
+            <p><seg n="4">
+                <lb/>Und als dann uns fürkompt / Daß etliche <orgName ref="org005058">Taͤuf<lb
+                    break="no"
+                  />fer</orgName>
+ so vermessen sind / Das sy sich in unseren Landen
+ <lb/>ufstellen / und in wincklen und an heimlichen orten
+ <lb/>deß predigens anmassen doͤrffend / und darmit ein<lb
+                  break="no"/>falte
+ lüht an sich zehencken und zuͦverfuͤren under<lb break="no"
+                  />stahnd.
+ Da ist unser ernstlich gebott und meinung:
+ <lb/>So bald man vernimbt / das soͤliche lüth verhan<lb
+                  break="no"
+                  />den /
+ sy sygind froͤmbd oder heimbsch / soͤllind als
+ <lb/>dann unsere underthonen schuldig syn / by iren Ey<lb
+                  break="no"
+                  />den
+ und vermydung unserer hoͤchsten ungnad und
+ <lb/>straf / den nechsten ohn verzug / soͤliche lehrer unnd
+ <lb/>prediger anzuͦgryffen / Unnd uns der hohen Ober<lb
+                  break="no"/>keit
+ gfengklich zuͦzefuͤhren / gegen denselben nach uß<lb break="no"
+                  />wysung
+ unsers Mandats und irem verdienen ze<lb break="no"
+                  />handlen.
+ Wo aber derglychen heimliche versamb<lb break="no"
+                  />lungen
+ unnd predigen / wider all unser verhoffen in
+ <lb/>unseren Landen gehalten wurdint. Und etliche der
+ <lb/>unseren so unbedacht und wundergeb werend / das
+ <lb/>sy an soͤlliche heimblichen predigen giengend / es we<lb
+                  break="no"
+                  />ren
+ wyb ald mann / jung oder alt / Bevelhend wir
+ <lb/>unseren Obervoͤgten / Das sy dieselben all / anderen
+ <pb
+                  n="5r" facs="StAZH_III_AAb_1_2__Nr__8__fol__5_r_.tif"/>
+                <lb/>zuͦ einem byspil / buͤssen und straffen soͤllind.</seg></p>
+            <p><seg n="5">
+                <lb/>Denne die / so heimbschen und froͤmbden <orgName ref="org005058">Toͤuf<lb
+                    break="no"/>feren</orgName> /
+  sy sygind inen verwandt oder nit wüssent<lb
+                  break="no"/>lich
+  underschlauff und platz / in iren hüseren / schü<lb break="no"
+                  />ren
+  oder guͤteren gaͤbend / anthreffend. Von dem
+  <lb/>und denen / sol durch unsere Voͤgt unnd Amptlüth
+  <lb/>so offt das beschicht / <measure
+                  type="currency" unit="lb" quantity="10"
+                  >zehen pfund</measure> gelts unablaͤßlich
+  <lb/>zuͦ buͦß yngezogen werden. Es moͤchte aber einer
+  <lb/>inen zum predigen / oder inzug anderer lüthen sy
+  <lb/>auch abtrünnig zemachen / dermassen fürschub thuͦn /
+  <lb/>oder sy nit leiden oder verjagen / wir wurdint es
+  <lb/>denselben (als lüth die thrüw und Eyd an iren Her<lb
+                  break="no"/>ren
+  überfaren habent) ohne gnad rechnen / und dar<lb break="no"
+                />inn
+  niemandts verschonen.</seg></p>
+            <p><seg n="6">
+                <lb/>Ob auch jemandts / wer joch derselbig were /
+ <lb/>von wüssentlichen <orgName
+                  ref="org005058"
+                >Taͤufferen</orgName> guͦt erkauffte / oder
+ <lb/>umb zinß bestuͤnde / ohne vorwüssen und willen der
+ <lb/>Oberkeit / Der und dieselben soͤllent das guͦt / unnd
+ <lb/>was sy daran bezalt hetten / auch die Lehenschafft
+ <lb/>oder bestandt deß guͦts verwürckt und verlohren
+ <lb/>haben / und dasselbig zuͦ unseren handen genommen
+ <lb/>werden.</seg></p>
+            <p><seg n="7">
+                <lb/>Anlangend die ufwigler und Lehrer so alle land
+ <lb/>durchstrychend / unnd fromme einfalte lüth in irr<lb
+                  break="no"
+                  />thumb /
+ auch mit lyb und guͦt uß dem land fuͤhrend.
+ <lb/>Daher ein Christliche Oberkeit / billichen sy an lyb
+ <pb
+                  n="5v" facs="StAZH_III_AAb_1_2__Nr__8__fol__5_v_.tif"/>
+                <lb/>und laͤben zuͦstraffen hat / und das nit von deß Glau<lb break="no"
+                  />bens /
+ sonders von deßwegen / daß sy ufruͤrisch han<lb break="no"
+                  />dlend /
+ meineyd sind / und einer Ersamen Oberkeit
+ <lb/>ire Underthanen ungehorsam machend und verfuͤ<lb
+                  break="no"
+                  />rend.
+ Wo nun soͤllicher ufwigleren und Lehreren
+ <lb/>einiche / wer sy joch sind / froͤmbd oder heimbsch in
+ <lb/>unseren gerichten und gebieten verhanden / und er<lb
+                  break="no"/>faren
+ werdent. Die soͤllent angents ohn alles su<lb break="no"
+                  />men
+ mit allem erntst und yfer gfengklich angenom<lb break="no"
+                  />men /
+ und uns bewahrt zuͦgefuͤrt werden / gegen den<lb break="no"
+                  />selben
+ wir uns / nach jedessen verhandlen und ver<lb break="no"
+                  />dienen /
+ und gstaltsame der sach / mit straff an guͦt / o<lb break="no"
+                  />der
+ auch am lyb und laͤben / fürzuͦnemmen / uns hie<lb break="no"
+                  />mit
+ fryg vorbehalten haben woͤllend.<note>Im Täufermandat von 1585 fehlen die restlichen drei Teile des Mandats.</note></seg></p>
+            <p><seg n="8">
+                <lb/>Unnd so dann hienebent die <orgName ref="org005058"
+                  >Toͤuffer</orgName> vil unnd
+ <lb/>grossen anlaß nemmend / sich von unserem Glauben
+ <lb/>und Kilchen abzuͦsoͤnderen / by den lasteren der trun<lb
+                  break="no"
+                  />ckenheit /
+ gyts / liederligkeit und anderen / mit denen
+ <lb/>etliche Predicanten unnd Kilchendiener behafftet
+ <lb/>sind. Deßglych auch by dem / das unseren Christen<lb
+                  break="no"/>lichen
+ Satzungen und Mandaten etwan nit nach<lb break="no"
+                  />gesetzt /
+ und dieselben nit gehalten und gehandthabt
+ <lb/>werdent. So wellent wir hiemit alle Predicanten
+ <lb/>unnd Vorstehnder der Kilchen / irer pflicht unnd
+ <lb/>ambts / darzuͦ sy von Gott unnd uns irer Oberkeit
+ <lb/>beruͤfft sind / zum erntstlichisten erinneret / unnd da<lb
+                  break="no"/>by
+ vermanet haben / Das sy sich alles ergerlichen
+ <pb n="6r"
+                  facs="StAZH_III_AAb_1_2__Nr__8__fol__6_r_.tif"/>
+                <lb/>wandels und lebens / unnd aller deren dingen so ih<lb break="no"
+                  />rem
+ beruͦff unnd ambt nit gezimmend / enthaltind /
+ <lb/>und ihren verthruwten Kilchgnossen ein guͦt byspil
+ <lb/>vorfuͤrind. Wir vermanend auch hiemit zum aller
+ <lb/>treffenlichisten alle unsere Obervoͤgt / Undervoͤgt /
+ <lb/>Weibel / Eegaumer / Geschwornen unnd Eltisten /
+ <lb/>allenthalben uff unser Landtschafft / daß sy alle
+ <lb/>sampt / Inen die handthabung unserer Satzungen /
+ <lb/>und insonderheit unsers Mandats unnd ernüwe<lb
+                  break="no"/>rung
+ unserer Christenlichen Satzungen / so wir
+ <lb/>im <date
+                  when="1611-08" calendar="Julian">Augstmonat deß nechstvergangnen Ein thu<lb
+                    break="no"
+                      />sendt
+ sechßhundertisten unnd einlifften Jars</date> im
+ <lb/>truck ußgahn<note>Gemeint ist das Grosse Mandat für die Landschaft von 1611 (<bibl><ref
+                      target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928909"
+                      >StAZH III AAb 1.2, Nr. 7</ref></bibl>).</note>/ unnd offentlich uff unser Landt<lb
+                  break="no"
+                  />schafft
+ verkhünden haben lassen / mit mehrerm erntst
+ <lb/>und yfer dann bißhaͤr erzeigt worden ist / hinfüro
+ <lb/>angelegen syn lassind. Die übertraͤtter ohne ver<lb
+                  break="no"/>schonen
+ angaͤbind und straffind. Unnd wo unse<lb break="no"
+                  />re
+ Obervoͤgt und nachgesetzten Amptlüth / in irem
+ <lb/>Ampt sumselig und hinlaͤssig werind / und ir pflicht
+ <lb/>nit erstattetind. Das dann dasselbig als bald ohne
+ <lb/>forcht und schühen unseren Burgermeisteren fürge<lb
+                  break="no"/>bracht
+ und angezeigt werde. Damit gegen den jhe<lb break="no"
+                  />nigen /
+ so deß orts nit thetend was sy schuldig sind /
+ <lb/>gebürender erntst / nach erforderung der nothurfft /
+ <lb/>erzeigt. Unnd also aller anlaß so von Geistlichen
+ <lb/>unnd Weltlichen den <orgName
+                  ref="org005058"
+                >Toͤufferen</orgName> gegeben werden
+ <lb/>moͤchte / als wyt immer müglich ist / abgeschnitten
+ <lb/>und fürkhommen werde.</seg></p>
+            <pb n="6v" facs="StAZH_III_AAb_1_2__Nr__8__fol__6_v_.tif"/>
+            <p><seg n="9">
+                <lb/>Und diewyl dann / zum bschluß / fürnemblich an
+  <lb/>dem gelegen ist / Das diß unser Mandat / so wir der
+  <lb/><orgName
+                  ref="org005058">Widertoͤufferen</orgName> halber abermalen ußgahn zelas<lb
+                  break="no"/>sen /
+  uß erforderter not verursachet worden sind / vol<lb break="no"
+                  />streckt
+  und demselbigen nachgesetzt werde. So ü<lb break="no"
+                  />bergebend
+  unnd bevelhend wir unserem <orgName ref="org004927"
+                  >Eegericht</orgName>
+                <lb/>alhie / desselbigen execution und volnstreckung / was
+  <lb/>unser Statt alhie / und die Wachten unnd Gmein<lb
+                  break="no"
+                  />den
+  ußerthalb so alhar Pfarr- unnd Kilchgnoͤssig
+  <lb/>sind / belanget. Mit dem erntstlichen bevelch / daß
+  <lb/>sy die verordneten Eerichtere / wer die jeder zyt
+  <lb/>sind / bey iren Eeren und Eyden / uff die <orgName
+                  ref="org005058">Taͤuffer</orgName>
+                <lb/>unnd andere persohnen die nit in die Kilchen zur
+  <lb/>Predig gahnd / unnd andere opinionen unnd irri<lb
+                  break="no"
+                  />gen
+  meinungen / unserer Christenlichen Religion
+  <lb/>und ußgangnen Glaubens bekandtnuß zuͦwider /
+  <lb/>haben moͤchten / mit allen thrüwen ir flyssigs ufse<lb
+                  break="no"/>hens
+  habint. Und so bald sy derselben einiche erfa<lb break="no"
+                  />rend /
+  oder inen geleidet werdent / dieselben den nech<lb break="no"
+                  />sten
+  ohne verzug für sich beschicken / unnd mit aller
+  <lb/>fründtligkheit uß dem wort Gottes berichten / und
+  <lb/>von iren irrigen meinungen abzuͦstahn erntstlich
+  <lb/>vermanen / unnd welliche nit gehorsammen unnd
+  <lb/>sich abwysen lassen welten. Dasselbig als bald für
+  <lb/>unseren <orgName
+                  ref="org004016">kleinen Rath</orgName> bringen soͤllint / gegen soͤlli<lb
+                  break="no"/>chen
+  lüthen wyter nach gebür zehandlen.</seg></p>
+            <p>
+              <seg n="10"><lb/>Unnd bevelhend demnach auch allen unseren
+<pb n="7r"
+                  facs="StAZH_III_AAb_1_2__Nr__8__fol__7_r_.tif"/>
+                <lb/>Predicanten / Ober- und Undervoͤgten / Weiblen /
+ <lb/>Eegaumeren unnd anderen nachgesetzten / gantz
+ <lb/>erntstlich und wellend / Daß sy ab diserem unserem
+ <lb/>Christenlichen Mandat / mit allem flyß styff unnd
+ <lb/>stet haltind unnd dem selben mit thrüwen nachse<lb
+                  break="no"/>tzind.
+ Damit die ungehorsammen / jeder wie vor<lb break="no"
+                  />gelüthert
+ ist / gebürende straff empfahind. Wo aber
+ <lb/>etwan die nachgesetzten Amptlüth / es sygen Un<lb
+                  break="no"
+                  />dervoͤgt /
+ Weibel oder andere / hierinnen sumselig
+ <lb/>weren / unnd uns und unseren Obervoͤgten nit zuͦ<lb
+                  break="no"/>springen /
+ und das so inen befolhen wirt / und sy ih<lb break="no"
+                  />rer
+ dientsten halber zethuͦnd schuldig sind / nit uß<lb break="no"
+                  />richten
+ wurdint. So soͤllend unsere Obervoͤgt
+ <lb/>die selben sumseligen mit erntst darzuͦ halten. Wel<lb
+                  break="no"
+                  />liche
+ aber über das einem Obervogt hierinnen nit
+ <lb/>gehorsammen welten / das soͤllend unsere Obervoͤgt
+ <lb/>uns klagen. Da wir dann die ungehorsammen irer
+ <lb/>Empteren unnd Dientsten entsetzen werdent. Ob
+ <lb/>auch etwan unsere Obervoͤgt iren von uns haben<lb
+                  break="no"/>den
+ befelch was diß unser Mandat belangt / nit ver<lb break="no"
+                  />richteten.
+ Das soll man ohne schühen unnd ver<lb break="no"
+                  />zug
+ uns anzeigen / gegen denselben was sich gebürt
+ <lb/>fürzuͦnemmen / und sy zuͦ erstattung unsers befelchs
+ <lb/>zehalten wüssen. Das alles ist unser erntstlicher
+ <lb/>will und meinung. Dann wir je der Widerthaͤuf<lb
+                  break="no"
+                  />feren
+ unverdacht syn / unnd sy in unseren Landen
+ <lb/>nit lyden noch dulden woͤllend. Darnach wüsse
+ <pb
+                  n="7v" facs="StAZH_III_AAb_1_2__Nr__8__fol__7_v_.tif"/>
+                <lb/>sich ein jeder zerichten. </seg><seg>Geben und beschlossen in
+  <lb/>unserem <orgName
+                  ref="org004906">grossen Raht</orgName> / uff den <origDate when="1612-12-30"
+                  calendar="Julian"
+                    >dryssigisten
+ <lb/>tag Christmonats / von der geburt
+ <lb/>Christi unsers lieben Herren
+ <lb/>gezalt / Einthusent sechs<lb
+                    break="no"/>hundert
+ unnd
+ <lb/>zwoͤlf jare</origDate>.</seg>
+              <pb n="8r" facs="StAZH_III_AAb_1_2__Nr__8__fol__8_r_.tif"/>
+              <pb n="8v" facs="StAZH_III_AAb_1_2__Nr__8__fol__8_v_.tif
+"/>
+            </p>
+          </div>
+        </body>
+        <back>
+          <div>
+            <p>Die <orgName ref="org005058"
+                >Täufer</orgName>, welche sich als radikale Verfechter der Reformation seit den 1520er Jahren in <placeName
+                ref="loc000065"
+                  >Zürich</placeName> formiert hatten, wurden seit ihrer Entstehung in unterschiedlich intensiven Wellen obrigkeitlich verfolgt (für die erstmalige Androhung der Todesstrafe vgl. das Mandat von 1526, <bibl><ref
+                  target="/suche/detail/SSRQ_ZH_NF_I_1_3_130"
+                >SSRQ ZH NF I/1/3, Nr. 130</ref></bibl>). Der Grund dafür lag hauptsächlich darin, dass die <orgName
+                ref="org005058"
+                >Täufer</orgName> den Militärdienst und den Untertaneneid verweigerten sowie eine Allianz zwischen Kirche und Obrigkeit ablehnten. Zentraler Bestandteil der täuferischen Vorstellungen war die Erwachsenentaufe, womit nur die wahren Gläubigen in die christliche <orgName
+                ref="org005058"
+                >Täufergemeinde</orgName> aufgenommen werden würden. Des weiteren verfochten die <orgName
+                ref="org005058"
+              >Täufer</orgName> die Ansicht, dass nur mit dem Gemeindeprinzip sowie der strikten Trennung zwischen Kirche und Obrigkeit die zeitgenössischen Missstände behoben werden würden.</p>
+            <p>In der zweiten Hälfte des 16. Jahrhunderts stieg die Zahl der <orgName
+                ref="org005058"
+                >Täufer</orgName> aufgrund der Verschärfung der sozialen Ungleichheit vor allem auf der <placeName
+                ref="loc000066"
+                >Zürcher</placeName> Landschaft an. Obrigkeit und Kirche versuchten mit Überzeugungsarbeit, Verhören und verschiedenen Sanktionen die <orgName
+                ref="org005058"
+                >Täufer</orgName> von ihrem nonkonformistischen Verhalten abzubringen, was jedoch meist wenig Erfolg zeigte und eher zur religiösen und gesellschaftlichen Absonderung führte. Ausserdem wanderten zahlreiche <orgName
+                ref="org005058">Täufer</orgName> aus, wobei insbesondere <placeName ref="loc006953"
+                >Mähren</placeName> als ideale Destination galt, da die <orgName ref="org005058"
+                >Täufer</orgName> dort ungehindert leben konnten. Um 1570 war die Auswanderung zwar prinzipiell gestattet, aber die Rückkehr wurde untersagt. 1581 beschloss der <orgName
+                ref="org002406"><placeName ref="loc000065"
+                >Zürcher</placeName> Rat</orgName>, die zurückgelassenen Güter zu konfiszieren und diese den zurückkehrenden <orgName
+                ref="org005058"
+                >Täufern</orgName> nur bei Abkehr vom Täufertum zu erstatten. Nach dem <orgName
+                ref="org000531">eidgenössischen</orgName> Abschied von 1585 (<bibl><ref
+                  target="/startseite/literaturverzeichnis">EA</ref>, <ref
+                  target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/352583?"
+                  >Bd. 4/2, Nr. 718a</ref></bibl>) wurde im selben Jahr ein gedrucktes Täufermandat erlassen (<bibl><ref
+                  target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162194"
+                  >StAZH III AAb 1.1, Nr. 39</ref></bibl>), was zu einer grossen Verfolgungswelle führte. Trotz Verhaftungen, Verhören, Landesverweisungen und Güterkonfiskationen liessen sich die <orgName
+                ref="org005058"
+                >Täufer</orgName> nicht von ihrem Glauben abbringen. Ausserdem führte die inkonsequente obrigkeitliche Verfolgungspolitik sowie die teilweise Unterstützung der <orgName
+                ref="org005058"
+                >Täufer</orgName> durch Amtspersonen, Kirchenvertreter oder Einwohner zum Anstieg der Täuferzahlen. Erst als etwa ab 1600 die Geistlichkeit zunehmend Kritik an der zürcherischen Täuferpolitik äusserte, setzten ernsthafte Versuche, die <orgName
+                ref="org005058"
+                >Täufergemeinden</orgName> aufzulösen, ein. Am 17. und 21. Dezember 1612 wurde in einem Ratschlag des <orgName
+                ref="org002406"><placeName ref="loc000065"
+                  >Zürcher</placeName> Rats</orgName> der Neudruck des Täufermandats von 1585 beschlossen (<bibl><ref
+                  target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691328"
+                  >StAZH E I 7.4, Nr. 26</ref></bibl>). Das vorliegende Mandat  wurde am 30. Dezember 1612 zunächst als handschriftlicher Entwurf mit Korrekturen verfasst (<bibl><ref
+                  target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691328"
+                  >StAZH E I 7.4, Nr. 27</ref></bibl>) und kurze Zeit später gedruckt.</p>
+            <p>Im Vergleich zum Mandat von 1585 enthält das vorliegende Mandat die zusätzliche Bestrafung an Leib und Leben, eine präzisere Begründung der Güterkonfiskation sowie die stärkere Einbindung der Einwohner und Einwohnerinnen bei der Gefangennahme der <orgName
+                ref="org005058"
+                >Täufer</orgName>. Im Mandat von 1612 sind ausserdem am Ende drei weitere Teile beigefügt, in welchen es um die Verbesserung der Verhaltensweisen der kirchlichen Vertreter, die für die <orgName
+                ref="org005058"
+                >Täufer</orgName> als Vorbilder fungieren sollten, sowie um die Übertragung der Ausführungsbestimmungen an das <orgName
+                ref="org004927">Ehegericht</orgName> geht.</p>
+            <p>Zu Beginn des Jahres 1613 kam es zu verschiedenen Disputationen zwischen einzelnen <orgName
+                ref="org005058"
+                >Täufern</orgName> sowie der Obrigkeit und Kirche, an denen das vorliegende Mandat vorgelesen wurde. Nach der aufsehenerregenden Hinrichtung des Täufers <persName
+                ref="per012657"
+                >Hans Landis</persName> im Jahre 1614, mit welcher die Obrigkeit vergeblich ein Exempel statuieren wollte, nahm die Verfolgung der <orgName
+                ref="org005058"
+                >Täufer</orgName> etwas ab. Zwar wurde 1615 eine Kommission zur systematischen Bekämpfung der <orgName
+                ref="org005058"
+                >Täufer</orgName> einberufen, aber die folgenden Jahre waren durch uneinheitliche Behandlungsweisen je nach Vogtei sowie durch eine grundsätzlich pragmatische Duldung der <orgName
+                ref="org005058"
+                >Täufer</orgName> gekennzeichnet. Hinzu kam, dass aufgrund des Dreissigjährigen Krieges das Täuferthema stärker in den Hintergrund trat. Eine intensive Täuferverfolgung kam erst wieder zwischen 1635 und 1645 auf, was zur Auswanderung vieler <orgName
+                ref="org005058"
+                >Täufer</orgName> sowie deren beträchtlicher Dezimierung auf der <placeName
+                ref="loc000066">Zürcher</placeName> Landschaft führte.</p>
+            <p>Zur Geschichte der <placeName ref="loc000066">Zürcher</placeName>
+              <orgName ref="org005058">Täufer</orgName> vgl. <bibl><ref
+                  target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+                  target="http://www.hls-dhs-dss.ch/textes/d/D11421.php"
+                  >Täufer</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+                  >Bötschi-Mauz 2007</ref>, S. 165-202</bibl>; <bibl><ref
+                  target="/startseite/literaturverzeichnis"
+                  >Pfister 2007</ref>, S. 247-260</bibl>; <bibl><ref
+                  target="/startseite/literaturverzeichnis"
+                  >Zuber 1931</ref>, S. 3-9</bibl> und <bibl><ref
+                  target="/startseite/literaturverzeichnis"
+              >Bergmann 1916</ref>, S. 1-104</bibl>.
+</p>
+          </div>
+        </back>
+      </text>
+    </group>
+  </text>
+</TEI>

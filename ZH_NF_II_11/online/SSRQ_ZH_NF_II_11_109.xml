@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_109</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25666">StArZH VI.WP.A.6.:40</idno></msIdentifier><head>Ratsentscheid betreffend die Bettelfuhr von Höngg</head><msContents><summary>Bürgermeister Heinrich Holzhalb und der Rat entscheiden im Konflikt zwischen Wipkingen sowie Höngg und Weiningen, dass die Höngger wie früher die marschunfähigen Bettler direkt ins Spital nach Zürich und nicht nur nach Wipkingen führen sollen. Zudem soll der Spitalmeister anordnen, dass die ausgewiesenen Bettler nicht nur nach Höngg, sondern auch in andere Gemeinden gebracht werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Unterschreiber der Stadt Zürich</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1626-11-20"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000581">Bettler</term><term ref="key004009">Kirchengut</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<seg><lb/>Myn gnedig herren, <orgName ref="org002406">burgermeister unnd rath der statt
+<lb/><placeName ref="loc000065">Zürich</placeName></orgName>, habent sich inn dem spann zwüschent den abgeordneten
+<lb/>anwälten der gmeind <placeName ref="loc010875">Wipchingen</placeName>, eins-, so denne den an<lb break="no"/>wälten
+der gmeind <placeName ref="loc009768">Höngg</placeName> und den ußschützen uß dem ambt
+<lb/><placeName ref="loc000836">Wyningen</placeName>, anderstheils, von wägen der bätelfuͦhr erkhënnt:</seg>
+<seg>
+<lb/>Diewyl die von <placeName ref="loc009768">Höngg</placeName> von alter har schuldig gsyn, die krankenn bät<lb break="no"/>ler,
+die nit mehr gahn mögent, und die innen unden uf hin gefhürt
+<lb/>worden, gestrax ohne abladen zuͦ <placeName ref="loc010875">Wipchingen</placeName> allhar inn den <orgName ref="org005088">spital</orgName>
+<lb/>zeführen, angesëhen, es nur <time dur="PT1H">ein stund</time> wyt von der statt, unnd
+<lb/>mit abladung zuͦ <placeName ref="loc010875">Wipchingen</placeName> zwifacher kosten ufgienge. Zuͦ<lb break="no"/>dem
+sy, von <placeName ref="loc009768">Höngg</placeName>, mit hübschen kilchenguͦt gefaßet, dargäg<lb break="no"/>en
+aber die von <placeName ref="loc010875">Wipchingen</placeName> kein kilchen guͦt nit habent, so
+<lb/>sölle es by sölichem alten bruch verblyben, und die von <placeName ref="loc009768">Höngg</placeName> die
+<lb/>bätler, so innen von <placeName ref="loc000446">Baden</placeName> und deren ënden naher zuͦgeführt
+<lb/>werdent und nit gahn mögent, nit biß gen <placeName ref="loc010875">Wipchingen</placeName> allein,
+<lb/>sonnder daselbst durch gestraks inn <orgName ref="org005088">spital</orgName> alhar führen. Was
+<lb/>den kosten betrifft, sölle jeder theil denselben an imme selbs
+<lb/>haben und den kilchen deßwëgen nützit ufgerechnet w<subst><del>o</del><add place="overwritten">e</add></subst>rden.</seg>
+<seg>
+<lb/>Hienebent soll mit dem <abbr>h</abbr> spitalmeister allhie gredt werden,
+<lb/>anordnung zetuͦnd, das die übel mögenden bättler nit nur
+<lb/>allein uff die von <placeName ref="loc009768">Höngg</placeName>, sonnder auch uff andere gmeinden
+<lb/>gen <placeName ref="loc009845">Regenstorff</placeName> und der ënden, item was gen <placeName ref="loc000446">Baden</placeName> begëhrt,
+<lb/>auch uff die andere syten der <placeName ref="loc000075">Limmat</placeName>, als gen <placeName ref="loc009828">Altstetten</placeName> und
+<lb/>deren ohrten, gefürt werdint.</seg></p>
+<p>
+<lb/><choice><abbr>Act</abbr><expan>Actum</expan></choice>
+<origDate when="1626-11-20" calendar="Julian">montags, den 20. novembris <add place="above">anno 1626.</add></origDate>
+<choice><abbr>Prnt<hi rend="sup">s</hi></abbr><expan>Presentibus</expan></choice> herren <orgName ref="org002406">burger<lb break="no"/>meister
+<persName ref="per007120">Holtzhalb</persName> und beid reth</orgName>.</p>
+<p>
+<lb/>Underschryber zuͦ
+<lb/><placeName ref="loc000065">Zürich</placeName>
+<choice><abbr>sst</abbr><expan>scripsit</expan></choice>
+</p>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Von ano <date when="1626-11">1626 
+<lb/><choice><sic>vj</sic><corr>xj</corr></choice></date><!-- stimmt das? PS: ich lese vj, was aber wenn man das Datum auf der Vorderseite liest, nicht stimmen kann, ich würde sic corr anwenden-->
+<handShift/><placeName ref="loc009768">Hönger</placeName>
+<lb/>bättel fuͦr 
+</ab></div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c">
+<lb/>Urttel von wägen der 
+<lb/>bätelfur 
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Seit der Reformation folgte der Umgang mit Armen und Bettlern immer mehr zwei Prinzipien: dem Heimatprinzip, demnach die Versorgung der Armen durch ihre jeweilige Heimatgemeinde zu erfolgen hatte, und dem Abschiebeprinzip, demzufolge nicht im eigenen 
+Territorium heimatberechtigte Bettler so bald wie möglich ausgewiesen wurden (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ebnöther 2013</ref>, S. 190-191</bibl>). In der Folge gab es kontinuierliche Migrationsbewegungen von Bettlern, die sich von den 
+Territorien gegenseitig zugeschoben wurden. Für den Transport von solchen Armen, Kranken und Bettlern, die sich nicht selbst fortbewegen konnten, wurden Bettelfuhren organisiert, bei denen die Bettler mit Pferdewagen von Gemeinde zu Gemeinde transportiert 
+wurden. Die Organisation der Bettelfuhren oblag den Gemeinden. Wie man im vorliegenden Stück sieht, ging es aber nicht nur darum, fremde Bettler auszuführen, sondern auch darum, die anspruchsberechtigten Bettler zum <orgName ref="org005088">Spital</orgName> zu bringen. 1694 wurde die 
+vorliegende Regelung nach Beschwerden sowohl von <placeName ref="loc010875">Wipkingen</placeName> als auch von <placeName ref="loc009768">Höngg</placeName> noch einmal bestätigt (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25694">StArZH VI.WP.A.8.:69</ref></bibl>).</p>
+<p>Vgl. zum Bettelwesen allgemein <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D16095.php">Bettelwesen</ref></bibl>, zur Entwicklung in <placeName ref="loc000065">Zürich</placeName>
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_125">SSRQ ZH NF I/1/3, Nr. 125</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_157">SSRQ ZH NF I/1/3, Nr. 157</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_016">SSRQ ZH NF I/1/11, Nr. 16</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_027">SSRQ ZH NF I/1/11, Nr. 27</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_031">SSRQ ZH NF I/1/11, Nr. 31</ref></bibl>; zur Bettelfuhr allgemein 
+<bibl><ref target="/startseite/literaturverzeichnis">Dubler 1970</ref>, S. 67-73</bibl><!-- noch nicht in BSG, in Sammelstelle eingetragen -->; zur Organisation in <placeName ref="loc010356">Albisrieden</placeName>
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_145">SSRQ ZH NF II/11, Nr. 145</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

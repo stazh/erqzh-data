@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_077</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1249910">StAZH G I 22, fol. 46v</idno></msIdentifier><head>Erkenntnis in der Klage des Weibels von Schwamendingen über den entstandenen Schaden beim Brennen von Asche im Wald</head><msContents><summary>Der Weibel von Schwamendingen beklagt, dass durch das Brennen von Asche im Wald viel gesundes Holz zerstört werde, das die Armen üblicherweise auflesen. Das Stift entscheidet, dass die drei Geschworenen von Schwamendingen nach ihrem Gutdünken das Brennen verbieten dürfen. Es sollen die Geschworenen die Gewalt haben, mit den Stiftspflegern über eine Busse zu befinden und dies in den anderen Holzordnungen festzuhalten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="13.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1558-04-04"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000591">Anzeigepflicht</term><term ref="key000524">Holz</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="46v"/>
+<p>
+<seg><lb/>Der weibel
+<lb/>zeiget grossen mißbruch mit dem eschen<!-- geht es um Eschen oder um Asche? Warum werden Eschen "gebrannt"? vgl. Aschenbrenner: Hersteller von Pottasche. PS: Meiner Meinung nach geht es ums Brennen von Asche. -->
+<lb/>brännen im wald, dadurch vil gsund
+<lb/>und guͦt holtz verderbt wirt und
+<lb/>den armen das nütz holtz entzogen,
+<lb/>das sy ufläsen möchtind.</seg>
+<seg>Ward er<lb break="no"/>kennt,
+die <num value="3">dry</num><note>Gemeint sind die drei Geschworenen.</note> sonds für die gmeind
+<lb/>heimbringen, und so es inen gfalt, pott
+<lb/>nen vom obervogt, und es denen
+<lb/>verbüten, so es tuͦnd, und den <num value="3">dryen</num>
+<lb/>gwalt gen, mit den herren pflägeren
+<lb/>ein buͦß darüber zestimmen und zuͦ
+<lb/>den anderen holtzordnungen uf ze
+<lb/>schriben.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>
+Die Pflicht des Weibels, Verstösse zu <orig>leiden</orig>, also anzuzeigen, wurde in Amtseiden oder Ordnungen immer wieder betont. In diesem Fall führte das zu Problemen: vier Jahre später endete ein Streit zwischen dem <orgName ref="org004352">Stift</orgName> und den Hubern von <placeName ref="loc009859">Schwamendingen</placeName> damit, dass <persName ref="per025246">Franz Meyer</persName>, dem Weibel von <placeName ref="loc009859">Schwamendingen</placeName>, von
+den Hubern das Hirtenamt entzogen wurde, dass er bis dahin in Personalunion ausgeübt hatte. Ausgegangen war der Streit davon, dass die <placeName ref="loc009859">Schwamendiger</placeName> bei der Bestellung des Weibels, wofür das <orgName ref="org004352">Grossmünster</orgName> zuständig war, mitreden
+wollten, um jemanden zu wählen, den sie laut Darstellung des <orgName ref="org004352">Stifts</orgName>
+<orig>in irem gwalt</orig> haben würden und <orig>sy nit leiden dörffte</orig> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_079">SSRQ ZH NF II/11, Nr. 79</ref></bibl>).</p>
+<p>Auch wenn hier den Geschworenen und Pflegern erlaubt wurde, eine Busse festzulegen und in die Holzordnung aufzunehmen, findet sich in späteren Holzordnungen (z.B. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1102849">StAZH G I 3, Nr. 112</ref></bibl> von 1563 oder <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl> von 1573) keine entsprechende Bestimmung.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

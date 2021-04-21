@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_078</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1234552">StAZH G I 22, fol. 65r</idno></msIdentifier><head>Erkenntnis betreffend die Hausgenossen, die ohne Wissen des Stifts eine neue Ordnung zum Überwachen des Waldes angenommen haben</head><msContents><summary>Die Hausgenossen des Stifts in Fluntern und Unterstrass hatten ohne Wissen des Stifts eine neue Ordnung angenommen, dass immer zwei Leute für einen Monat den Wald überwachen sollten, anstatt je einer von Fluntern und Unterstrass für ein ganzes Jahr wie früher. Die Pfleger haben vor Weihnachten 1558 angeordnet, zur alten Ordnung zurückzukehren, aber die Hausgenossen haben es bisher nicht getan und versichern, dass der Wald so besser beaufsichtigt werde. Es wird entschieden, dass sie bis Weihnachten so weitermachen dürfen wie bisher, dann aber zur alten Weise zurückkehren sollen oder das Stift zuerst um Erlaubnis fragen müssen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="13.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1559-04-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000524">Holz</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="65r"/>
+<p>
+<lb/>Die husgnossen
+<lb/>hattend ein nüwe ordnung angenom<lb break="no"/>men,
+hinder minen herren im holtz
+<lb/>zegoumen und alweg zwen
+<lb/>gegoumt <date dur="P1M">zmonaten</date> und nit me
+<lb/>zwen durch das <date dur="P1Y">jaar</date>, wie von
+<lb/>alter har, einen von <placeName ref="loc008707">Fluͦntren</placeName>
+<lb/>und einen <placeName ref="loc012791">ab der Straß</placeName><note>Gemeint ist <placeName ref="loc010816">Unterstrass</placeName>; in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3596499">StAZH G I 22, fol. 57v</ref></bibl> steht <orig>ab der <placeName ref="loc010816">Underen Strass</placeName></orig>.</note>, und
+<lb/>wie es inen <date notAfter="1558-12-25">vor wienacht im 58
+<lb/>jar</date><!-- an PS: Auszeichnung ok so? Oder 'vor' ausserhalb der Auszeichnung und when="1558-12-24"? PS: OK, wenn 25.12.[  --> anzeigt<note>Der zugehörige Eintrag im Stiftsprotokoll ist datiert auf den 22. November 1558 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3596499">StAZH G I 22, fol. 57v</ref></bibl>).</note> von der pflägeren wä<lb break="no"/>gen
+im wider also zethuͦn, habind
+<lb/>sy es nit tan, begärind min herren
+<lb/>bscheid. Zeigind sy an, <choice><abbr>d</abbr><expan>dass</expan></choice> sy es
+<lb/>guͦter meinung getan, so vil bas ze
+<lb/>goumen, item sy habind all geschwo<lb break="no"/>ren, 
+dess habind sy also wellen gou<lb break="no"/>men,
+bättind, <choice><abbr>d</abbr><expan>dass</expan></choice> man inn der sach
+<lb/><choice><abbr>d</abbr><expan>das</expan></choice> best tuͦn welle.</p>
+<p>
+<lb/>Also ward erkennt, sy söllind diss har<lb break="no"/>nach
+also goumen bis <date type="deadline_holiday" when="1559-12-25">wienacht</date>, wie
+<lb/>bishar, dannethin aber söllind sy gou<lb break="no"/>men
+wie von alter har oder mine her<lb break="no"/>ren
+vorhin drum fragen und sonst ir
+<lb/>ufsähen han, wie sy gschworen.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>
+Die Aufsicht über den Wald und die Kontrolle auf Holz- und Flurschäden wurde an vielen Orten einem Förster oder Weibel übertragen (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_096">SSRQ ZH NF II/11, Nr. 96</ref></bibl><!-- StAZH G I 5, Nr.&#160;35 (fol. 17 r) -->).
+Im vorliegenden Fall hatten die Hausgenossen von <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010816">Unterstrass</placeName><!-- Kann ich husgenossen mit Bewohner wiedergeben? Gemeindegenossen? Lehenleute? PS: Hausgenossen sind Hofgenossen, die ins gleiche Gericht gehören bzw. die dem gleichen Klostern geheören--> 1558 begonnen, diese Aufgabe im Turnus selbst zu versehen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3596499">StAZH G I 22, fol. 57v</ref></bibl>). 
+Ein ähnlicher Fall findet sich um diese Zeit in <placeName ref="loc010875">Wipkingen</placeName>: Die Gemeinde wendet ein, dass sie keinen Förster mehr benötige, da sie den Wald <orig>durch einander versechent unnd schirment</orig>, was ihnen schliesslich gestattet wird (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_076">SSRQ ZH NF II/11, Nr. 76</ref></bibl><!-- III.B.38., fol. 53r-57r -->).
+Die Offnung von <placeName ref="loc008707">Fluntern</placeName> hatte für diese Aufgabe einen Bannwart vorgesehen; zwei Leute waren nach den dort festgehaltenen Bestimmungen allerdings nur in den sechs Wochen vor Weihnachten und in den sechs Wochen danach nötig (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_024">SSRQ ZH NF II/11, Nr. 24</ref></bibl><!-- StAZH G I 102 (fol. 23 r - 29 v) -->). 
+Auch findet sich kein Hinweis darauf, dass <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010816">Unterstrass</placeName> je eine Person zu stellen hatten. In die Ordnung für die Stiftslehenleute von <placeName ref="loc008707">Fluntern</placeName> und <placeName ref="loc010816">Unterstrass</placeName> von ca. 1600 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72<!-- G I 2, Nr.&#160;61 --></ref></bibl>) wurde 
+ein Bannwartseid aufgenommen, der in der Fassung von ca. 1550 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1098765">StAZH G I 2, Nr. 60</ref></bibl>) noch gefehlt hatte.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

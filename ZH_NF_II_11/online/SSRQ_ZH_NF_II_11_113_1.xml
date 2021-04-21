@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_113_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1121564">StAZH G I 6, Nr. 97, fol. 1r -10r</idno></msIdentifier><head>Protokoll des Höngger Maiengerichts, gehalten auf der Chorherrenstube</head><msContents><summary>Das Protokoll führt zuerst die Anwesenden auf, namentlich die Chorherren und Pfleger des Stifts, die beiden Amtsmänner von Kammeramt und Kelleramt, Obervögte und Untervogt sowie Schreiber und Sigrist. Anschliessend wird Andres Nötzli auf dessen Bitte erneut in seinem Amt als Hofmeier bestätigt, worauf er den Eid leistet. Es folgt die Bestätigung und Eidesleistung der bereits am 6. August gewählten vier neuen Richter sowe des Försters bzw. des Weibels. In sieben Punkten schliesst die "Ordnung und Prozess des Meiengerichts" an, welche vom Stiftsverwalter vorgelesen wird. Das Protokoll endet mit der Dankesrede des Verwalters und der Einladung zu Imbissmahl und Abendtrunk. Die Auflistung der Kosten des Maiengerichts bildet den Schluss.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.5"/><width unit="cm" quantity="17.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1638-08-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004175">Ausgaben</term><term ref="key000179">Eid</term><term ref="key000057">Gericht</term><term ref="key003037">Gerichtsverfahren</term><term ref="key000037">Meierhof</term><term ref="key004022">Satzung</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1r" facs="StAZH_G_I_6__Nr__97__fol__01_r_.tif"/>
+<head type="title"><!-- PS: wenn du bei head type setzt, dann bitte überall; ich frage mich allerdings, ob weiter unten überhaupt head mit subtitle notwendig sind. Die Überschriften werden zu prominent. mng: Head mit subtitle entfernt, ausser im mittleren Teil. -->
+<lb/>Das meien gricht zuͦ <placeName ref="loc009768">Höng</placeName>,
+<lb/>so von beiden obervögten
+<lb/>und dem verwalter der
+<lb/><orgName ref="org004352">stifft <placeName ref="loc000065">Zürich</placeName></orgName> auff den
+<lb/><origDate when="1638-08-09" calendar="Julian">9. augusti 1638</origDate>
+<lb/>auff der chorherren
+<lb/>stuben gehalten
+<lb/>worden
+</head>
+<p><lb/><persName ref="per011353">Hans Jacob Fries</persName>, doctor
+<lb/>und verwalter der <orgName ref="org004352">stifft</orgName>.</p>
+<p><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Numero</expan></choice> 1</p>
+<pb n="1v" facs="StAZH_G_I_6__Nr__97__fol__01_v_.tif"/>
+<pb n="2r" facs="StAZH_G_I_6__Nr__97__fol__02_r_.tif"/>
+<p><note>Hier beginnt die Teilabschrift in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121566">StAZH G I 6, Nr. 98</ref></bibl>. Die Anwesenheitsliste hat eine leicht andere Reihenfolge, was hier nicht genauer ausgewiesen wird.</note>
+<lb/>Auff <origDate when="1638-08-09" calendar="Julian">donnstag, den 9. augusti anno
+<lb/>1638</origDate>, ist das meien gricht
+<lb/>der gmeind zuͦ <placeName ref="loc009768">Höng</placeName> auff der chor<lb break="no"/>herren 
+stuben alhie gehalten
+<lb/>und angesechen worden; demme
+<lb/>hernach geschrybne <abbr>hn</abbr> und
+<lb/>personen beigewonnet:</p>
+<p>Namlich</p>
+<p><abbr>h</abbr> pfarrer <persName ref="per012632">Breitinger</persName></p>
+<p><app><lem/><rdg wit="StAZH G I 6, Nr. 98">herr</rdg></app> verwalter <persName ref="per011353">Fries</persName></p>
+<p><abbr>h</abbr>
+<persName ref="per025715">Oswald Käller</persName>, chorherren<note>Die Bezeichnung Chorherren, die mit einer Klammer angefügt wurde, bezieht sich auf alle vier genannten Personen.</note></p>
+<p><abbr>h</abbr>
+<persName ref="per025739">Heinrich Zeller</persName></p>
+<p>Von <abbr>hn</abbr> stifft pflägeren:</p>
+<p><abbr>h</abbr> statthalter <persName ref="per011113">Heiddegger</persName></p>
+<p><abbr>h</abbr> syllher <persName ref="per025735">Schwitzer</persName></p>
+<p><abbr>h</abbr>
+<persName ref="per025734">Fridli Ori</persName></p>
+<p><app><lem><abbr>h</abbr>
+<persName ref="per025711">Ludwig Dietschi</persName></lem><rdg wit="StAZH G I 6, Nr. 98"/></app></p>
+<pb n="2v" facs="StAZH_G_I_6__Nr__97__fol__02_v_.tif"/>
+<p>Von amtleüten:</p>
+<p><abbr>h</abbr>
+<persName ref="per025730">Rodolph Mag</persName>, cammerer</p>
+<p><abbr>h</abbr>
+<persName ref="per025712">Peter Falckenstein</persName>, groskäller</p>
+<p>Demnach</p>
+<p><abbr>h</abbr>
+<persName ref="per025728">Hans Jacob Lindinger</persName>
+<app><lem/><rdg wit="StAZH G I 6, Nr. 98">pfarrer</rdg></app></p>
+<p><abbr>h</abbr>
+<persName ref="per025731">Michel Mantz</persName>, zuͦ <placeName ref="loc009768">Höng</placeName><note>Der Ort, der mit einer Klammer angefügt wurde, bezieht sich auf alle genannten Personen.</note></p>
+<p><abbr>h</abbr>
+<persName ref="per025708">Jacob Bodmer</persName>, beid obervogt</p>
+<p><lb/>Des glichen auch
+<lb/>undervogt, hoffmeier, richter, und die
+<lb/>geschworne der gmeind zuͦ <placeName ref="loc009768">Höng</placeName></p>
+<p>Von dieneren:</p>
+<p><abbr>h</abbr> schryber <persName ref="per025736">Uͦlinger</persName>, in absentia <choice><abbr>stifftschr</abbr><expan>stifftschryber</expan></choice></p>
+<p><app><lem><abbr>m<hi rend="sup">r</hi></abbr></lem><rdg wit="StAZH G I 6, Nr. 98"><abbr>h</abbr></rdg></app>
+<persName ref="per025714">Ludwig Huͦber</persName>, sigrist zum <choice><abbr>gr m<hi rend="sup">r</hi></abbr><expan><placeName ref="loc007562">Grossen Münster</placeName></expan></choice></p>
+<pb n="3r" facs="StAZH_G_I_6__Nr__97__fol__03_r_.tif"/>
+<p><lb/>Und ist erstlichen <persName ref="per025733">Andres Nötzli</persName> auff
+<lb/>zuͦvor ingenomnen bricht seins wolverhalt<lb break="no"/>ens,
+und das er die der stifft meyerhoff zuͦ<lb break="no"/>gehörige
+stuck und guͦter in guten ehren
+<lb/>halten und bewerben theüge, auff sein bittlich
+<lb/>anhalten und begären widerumb zuͦ einem
+<lb/>hoffmeier erwelt und bestetiget worden, we<lb break="no"/>licher
+die gewonliche eydspflicht von
+<lb/>neuwen abermalen geschworen.</p>
+<p><lb/>Demnach sind die 4 neüwen erwelten
+<lb/>richter der gmeind <placeName ref="loc009768">Höng</placeName>, namlich
+<lb/><persName ref="per025740">Hans Zwyffel</persName>,
+<lb/><persName ref="per025706">Heinrich Appenzeller</persName>,
+<lb/><persName ref="per025732">Ulrich Negeli</persName>,
+<lb/><persName ref="per025738">Hans Ruͦdolph Wys</persName>, auch bestetiget und
+<lb/><choice><abbr>vͦ</abbr><expan>von</expan></choice> innen der gewonliche eyd geschworen worden.</p>
+<p><app><lem><lb/>Actum zuͦ <origPlace ref="loc009768">Höng</origPlace> den, <date when="1638-08-06" calendar="Julian">6. augusti 1638</date></lem><rdg wit="StAZH G I 6, Nr. 98"/></app>.</p>
+<pb n="3v" facs="StAZH_G_I_6__Nr__97__fol__03_v_.tif"/>
+<p><lb/>Diewyl man hieby verstendiget wirt,
+<lb/>das inn der erwellung gedachter neüwen
+<lb/>richteren etwas yfferz mit geloffen, in demme
+<lb/>nit nhur allein <num value="2">zweyen</num> abghenden richteren
+<lb/>zuͦ der erkiessung nit gebotten, sonder auch
+<lb/>der alten ordnung zuͦ wider, an statt einse
+<lb/><num value="2">zwen</num> junge richter genommen, deswegen dan
+<lb/>den furgesetzten der gmeind <placeName ref="loc009768">Hong</placeName> inns
+<lb/>könfftig mit erwellung richteren der alten
+<lb/>ordnung gemes in allweg zuͦ verfharen
+<lb/>zuͦ gesprochen worden.</p>
+<p><lb/>Endtlich ist auch der vorster und
+<lb/>weibel auff ein jaarlang und versuch<lb break="no"/>en
+hin, nebent ernsthafften zuͦ sprechen, sein
+<lb/>dienst ins könnftige besser und ohne fernere
+<lb/>klegten, weder aber die zeit här beschächen,
+<lb/>zuͦ versechen, widerumb bestettiget worden.
+<pb n="4r" facs="StAZH_G_I_6__Nr__97__fol__04_r_.tif"/>
+<lb/>Wyln er aber sich seines eyds, den selben
+<lb/>den buͦchstaben noch volkommenlich zuͦ halten
+<lb/>beschwert, als hatt man inne dissmalen
+<lb/>denne zuͦ schweren underlassen, hierauff
+<lb/>aber etliche herren ernambset, auffs fürder<lb break="no"/>lichst
+des weibels und vorsters eyd für
+<lb/>sich zuͦ nemmen und noch beschaffennheit der
+<lb/>sach hierinnen derogestalten m<damage agent="ink blot"><supplied resp="mng">oder</supplied></damage>ation
+<lb/>zethuͦn, das derselbig zuͦ halten müglich
+<lb/>sein werde.</p>
+<p><app><lem><lb/>Actum ut supra</lem><rdg wit="StAZH G I 6, Nr. 98"><persName ref="per025736">Hannß Heinrich Uͦlinger</persName>
+<choice><abbr>sst</abbr><expan>scripsit</expan></choice></rdg></app><note>Hier endet die Teilabschrift in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121566">StAZH G I 6, Nr. 98</ref></bibl>.</note></p>
+<head><lb/>Ordnung und process des
+<lb/>meyengrichts zuͦ <placeName ref="loc009768">Höng</placeName></head>
+<head type="subtitle">Vorred des verwalters</head><!-- Ist das die Vorrede, die bei Stutz, RQ Höngg, auf S. 45f Anm. 3 ediert ist? (Nein, das ist G I 6, Nr.&#160;132) Inwiefern unterscheidet sie sich von den Fassungen von 1628/29 in G I 6, Nr.&#160;20 (fol. 24 r - 29 v, fol. 31 r - 33 v)? -> Dort eher Stichworte, hier ausformuliert -->
+<p><lb/><abbr>Hr</abbr> statthalter, fromme <abbr>etc</abbr>, auch
+<lb/>ehrwirdige, hoch- und wolgelerte <abbr>etc</abbr>.
+<pb n="4v" facs="StAZH_G_I_6__Nr__97__fol__04_v_.tif"/>
+<lb/>Es hand unsere fromme altforderen
+<lb/>die <abbr>hn</abbr> der <orgName ref="org004352">stifft zum Grosenmünster</orgName> ihn
+<lb/>unser <abbr>gn hn</abbr> statt <placeName ref="loc000065">Zürich</placeName> nhum mher lob<lb break="no"/>seliger
+gedechtnus von vielen jaaren häro
+<lb/>gehalten ire meyengricht zuͦ <placeName ref="loc009768">Höng</placeName> nit
+<lb/>ohne ursach, damit jedermencklicher
+<lb/>verstande, das ob schon die nideren ge<lb break="no"/>richt
+mit ihren buͦssen zuͦ <placeName ref="loc009768">Höng</placeName> zur
+<lb/>zeit der reformation übergeben, nichts
+<lb/>destoweniger unsere vorfaren, in krafft
+<lb/>auf gerichter brieff und siglen, innen
+<lb/>für sich und für ire noch kommenden
+<lb/>vorbehalten alle andere ire rechtsa<lb break="no"/>me
+und freyheiten an zinsen un zëenden,
+<lb/>und was der glichen für gefäll und
+<lb/>nutzungen von ihrem meyerhoff und
+<lb/>anderen der glichen erb- und lächen
+<pb n="5r" facs="StAZH_G_I_6__Nr__97__fol__05_r_.tif"/>
+<lb/>guͤtter härlangend, und was für in<lb break="no"/>kommen
+zuͦ uff pflantzung und erhaltung
+<lb/>des ehr lher und kilchenstands in un<lb break="no"/>ser
+<abbr>gn</abbr> herren statt und landschafft mag
+<lb/>erschiesen und dienen. Und so etwas un<lb break="no"/>richtigkeit
+und spän bei diserem der <orgName ref="org004352">stift</orgName>
+<lb/>lächen und zins geüteren alhier fürfiele,
+<lb/>das das selbige durch ein ordenlich, <choice><abbr>ehrs</abbr><expan>ehrsames</expan></choice>
+<lb/>gricht in beiwesen unsers hoffmeiers
+<lb/>als eines verwësers und statthalters der
+<lb/><orgName ref="org004352">stifft</orgName> frundtlich erlüteret und entschieden
+<lb/>wurde, und damit der alte brauch nit in
+<lb/>abgang kemme, und die ehrsamen biderben
+<lb/>leüt von <placeName ref="loc009768">Höng</placeName> sich nit zuͦ erklagen hetten,
+<lb/>als wan mein <abbr>hn</abbr> von <orgName ref="org004352">stifft</orgName> sie nit begärten
+<lb/>zeschirmen by iren alten härkommen, gewon<lb break="no"/>heiten
+und brüchen, da hand mein herren
+des<pb n="5v" facs="StAZH_G_I_6__Nr__97__fol__05_v_.tif"/><lb break="no"/>wegen
+erbätten die fromen, ehrenvesten, vor<lb break="no"/>sichtigen
+und weisen herren <abbr>n n</abbr><!-- nomen nominandum/nomen nescio -->, beide <abbr>hn</abbr>
+<lb/>obervögte zuͦ <placeName ref="loc009768">Höng</placeName>, damit sie auff den heüti<lb break="no"/>gen
+tag mit und nebet meinen <abbr>hn</abbr> der <orgName ref="org004352">stift</orgName>
+<lb/>beider stenden disses geschäfft halfind ver<lb break="no"/>richten
+und also den alten brauch helfind
+<lb/>handhaben; getröster hoffnung, das wan
+<lb/>der liebe gott uns widerum mit fruchtba<lb break="no"/>ren,
+wolfheilen jaaren wurde segnen, das
+<lb/>mein <abbr>hn</abbr> den alten brauch widerumb erneü<lb break="no"/>weren
+und zuͦ einer gantzen ehrsamen <orgName ref="org007827">gmeind
+<lb/>gen Höng</orgName> worden keeren.</p>
+<p><lb/>Es sind aber <num value="7">vij</num> underschydenliche
+<lb/>puncten, von denen unsere lieben altforder<lb break="no"/>en
+an einem offnen allgemeinen meiengricht
+<lb/>gehandlet.</p>
+<pb n="6r" facs="StAZH_G_I_6__Nr__97__fol__06_r_.tif"/>
+<head type="subtitle">Der <num value="1">I</num> puncten</head>
+<p><lb/>Das gricht wirt verbannet durch den
+<lb/>hoffmeier in nammen unseren <abbr>gn</abbr> herren ob<lb break="no"/>eren 
+und der herren am <orgName ref="org004352">stifft</orgName>, das das ge<lb break="no"/>richt
+in rächter gebür und ordnung werd
+<lb/>gehalten, das einem jedem, der angefraget
+<lb/>wirt, es seig <abbr>hr</abbr> oder richter, erlaubt seige
+<lb/>zuͦ reden, zuͦ rhaten von fürfallenden sachen,
+<lb/>by seinen guͦtten, treüwen pflichten, daran
+<lb/>niemands gesaumbt oder verhinderet werde,
+<lb/>by auff gesetzter buͦs straff.</p>
+<head type="subtitle">Der <num value="2">II</num> puncten</head>
+<p><lb/>Die richter erkennen den ordenlichen
+<lb/>ruͦff, solle <choice><abbr>vͦ</abbr><expan>vom</expan></choice> weibel beschächen <foreign xml:lang="la">antquam
+<lb/>legatur</foreign> die offnung, reüfft allen haus<lb break="no"/>vätteren
+zuͦ <placeName ref="loc009768">Höng</placeName>, <foreign xml:lang="la">ordine et sigillatim</foreign>,
+<pb n="6v" facs="StAZH_G_I_6__Nr__97__fol__06_v_.tif"/>
+<lb/>als wie man ein houw austheilt, alle
+<lb/>die, so nun <measure type="area" unit="Schuh" quantity="7">7 schuͦch</measure> weit breit <choice><abbr>vͦ</abbr><expan>von</expan></choice> dem
+<lb/><orgName ref="org004352">gstifft</orgName> zuͦ erb hand, bei der buͦss.
+</p>
+<head type="subtitle">Der <num value="3">III</num> puncten</head>
+<p><lb/>Die richter erkennend, ob es <choice><abbr>vͦ</abbr><expan>von</expan></choice> nöten,
+<lb/>die <placeName ref="loc009768">Hönger</placeName> offnung abzuͦ lessen, ist weit<lb break="no"/>loffig
+von den pflichten der <orgName ref="org007827">gmeind Höng</orgName>
+<lb/>gegem <orgName ref="org004352">stift</orgName>, herwiderumb von etlichen
+<lb/>freyheiten, so die paursame vom <orgName ref="org004352">stifft</orgName> hatt,
+<lb/>zuͦ <date dur="R/P3Y">3</date> oder <date dur="R/P4Y">4 jaren</date> gelesen wirt.</p>
+<head type="subtitle">Der <num value="4">IV</num> puncten</head>
+<p><lb/>Trifft an sonderbar den meierhoff, das der
+<lb/>selbig <date dur="R/P1Y">alle jaar</date>
+<choice><abbr>vͦ</abbr><expan>von</expan></choice> neuwen dem hoffmeier
+<lb/>auff sein wol halten hin solle gelichen
+<lb/>werden, wirt ausgestelt und censiert <abbr>etc</abbr>.</p>
+<pb n="7r" facs="StAZH_G_I_6__Nr__97__fol__07_r_.tif"/>
+<head type="subtitle">Der <num value="5">V</num> puncten</head>
+<p><lb/>Die <num value="4">4</num> neüwen erwelten richter wer<lb break="no"/>dend
+benammset und bestettiget.</p>
+<head type="subtitle">Der <num value="6">VI</num> puncten</head>
+<p><lb/>Der weibel wirt ausgestelt und
+<lb/>censirt, und darüber dem hoffmeier, den
+<lb/><num value="4">4</num> neüwen richteren und dem weibel sein
+<lb/>ordinantz und eydspflicht vorgeläsen und
+<lb/>die geschworne huldigung <choice><abbr>vͦ</abbr><expan>von</expan></choice> innen ingeno<lb break="no"/>men.</p>
+<head type="subtitle">Der <num value="7">VII</num> puncten</head>
+<p><lb/>Es beschicht ein fraag, durch den hoff<lb break="no"/>meier,
+ob jemands verhanden, der etwas zuͦ
+<lb/>rechten hette, doch allein umb erb und eigen,
+<lb/>so von der <orgName ref="org004352">stifft</orgName> härlanget, der möge es
+<lb/>nhun mher thuͦn <abbr>etc</abbr>.</p>
+<pb n="7v" facs="StAZH_G_I_6__Nr__97__fol__07_v_.tif"/>
+<head type="subtitle"><lb/>Beschluss und abdanckung wegen
+<lb/>erschynung zuͦ dem meien gricht
+<lb/>und verharrung bim abent trunck</head>
+<p><lb/>Herr statthalter, fromme, veste, ehren<lb break="no"/>veste,
+vorsichtige und wolweise, auch ehr<lb break="no"/>wirdige,
+hoch- und wolgelertte <abbr>etc</abbr>.</p>
+<p><lb/>Noch dem es meinen hochehrenden, gros<lb break="no"/>gönstigen
+herren, beiden <abbr>hn</abbr> obervögten, noch
+<lb/>iren beiwonenden fründligkeit, guͦtter, tragender
+<lb/>affection gegen einem ehrwirdigen <orgName ref="org004352">stifft</orgName>, ge<lb break="no"/>liebt
+und gefallen, das die <num value="4">4</num> neüwen richter,
+<lb/>desglichen der hoffmeier und weibel, ire
+<lb/>huldigung und eydspflicht noch altem brauch
+<lb/>von der <abbr>e</abbr><!-- ehrsamen? oder ehrwürdigen? PS: nicht sicher, daher nicht auflösen --> oberkeit und dess loblichen stands
+<lb/>der <orgName ref="org004352">stifft</orgName> wegen leistind und schwerind, und
+<lb/>noch verrichtung disses geschäffts bei meinen <abbr>hn</abbr>
+<lb/>der <orgName ref="org004352">stifft</orgName> so gönstig fründlich verharret <unclear>bei</unclear><!-- oder by? PS: würde ich so mit unclear lassen -->
+<lb/>disem abenttrunck, den gott eüch mit gnaden
+<lb/>wolle segnen. Darüber dancken die mein <abbr>hn</abbr>
+<pb n="8r" facs="StAZH_G_I_6__Nr__97__fol__08_r_.tif"/>
+<lb/>vom <orgName ref="org004352">stifft</orgName> beider stenden gantz fründlich
+<lb/>dienstlich, erkennend darbei den wolgemein<lb break="no"/>ten
+gönstigen willen, so die herren zuͦ dem 
+<lb/>ehrwirdigen stifft tragend. Mein herren bitten
+<lb/>eüch, das ir an fürgestelter spys und tranck,
+<lb/>wie auch an der geleisteten gselschafft, ein
+<lb/>gönstig, fründtlichs beneügen, wolgefal<lb break="no"/>len
+tragen, und in disem favor und wol
+<lb/>gemeinten willen und gemeüt verharren.
+<lb/>Die mein <abbr>hn</abbr> sind herwiderumb des danck<lb break="no"/>baren
+annerbietens, das <del>wo sy</del> sy by für
+<lb/>fallenden anlaas und glegenheit nit allein
+<lb/>soliche empfangne ehr und guthaten<!-- Gut-taten --> an
+<lb/>gebürenden orten danckbarlich anmelden
+<lb/>und reümen wollen, sonder sy selbsten für ir
+<lb/>ehr person dahin zuͦ trachten, soliche guͦt<lb break="no"/>thaten
+mit würcklichem danck gegen den <abbr>hn</abbr>
+<lb/>zuͦ verglichen.</p>
+<pb n="8v" facs="StAZH_G_I_6__Nr__97__fol__08_v_.tif"/>
+<p><lb/>Und dan was eüch, die ehrsammen, bider<lb break="no"/>ben
+lüt von <placeName ref="loc009768">Höng</placeName> antrifft, versechen sich
+<lb/>mein <abbr>hn</abbr> von beiden stenden alles guͦtten zuͦ
+<lb/>euch, nit allein dessen das ir <gap/><note>Der Text bricht hier ab.</note></p>
+<pb n="9r" facs="StAZH_G_I_6__Nr__97__fol__09_r_.tif"/>
+<head><lb/>Als <origDate when="1638-08-09" calendar="Julian">donstag, den 9. augusti 1638</origDate>,
+<lb/>das meiengricht auff der chor<lb break="no"/>herren
+stuben gehalten worden,
+<lb/>ist bei dem abentrunck <choice><abbr>vͦ</abbr><expan>von</expan></choice>
+<lb/><num value="34">34</num> personen dazuͦmalen
+<lb/>verbrucht worden:</head>
+<table>
+<row>
+<cell>umb ein gantz schaff</cell><cell><measure type="currency" unit="lb" quantity="8">8 </measure></cell>
+</row>
+<row>
+<cell>umb kalb fleisch</cell><cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell>
+</row>
+<row>
+<cell>umb junge guggelein</cell><cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell>
+</row>
+<row>
+<cell>umb kees</cell><cell><measure type="currency" unit="lb" quantity="3">3 </measure></cell>
+</row>
+<row>
+<cell>dem metzger für seine dienst</cell><cell><measure type="currency" unit="ß" quantity="8">8 </measure></cell>
+</row>
+<row>
+<cell>randenwurtzen</cell><cell><measure type="currency" unit="ß" quantity="4">4 </measure></cell>
+</row>
+<row>
+<cell>um <num value="1">j</num> par duben</cell><cell><measure type="currency" unit="ß" quantity="10">10 </measure></cell>
+</row>
+</table>
+<p>Was <persName ref="per025718">Küngolt</persName> verrächnet:</p>
+<table>
+<row>
+<cell>umb weggen und ring</cell><cell><measure type="currency" unit="ß" quantity="8">8 </measure></cell>
+</row>
+<row>
+<cell>umb <abbr>n<hi rend="sup">o</hi></abbr>
+<num value="7">vij</num>
+<unclear>vogetzen</unclear> brot</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="2">2 </measure>
+<measure type="currency" unit="ß" quantity="2">2 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>umb baurenkeüchli</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="7">7 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>umb mandel</cell><cell><measure type="currency" unit="ß" quantity="3">3 </measure></cell>
+</row><pb n="9v" facs="StAZH_G_I_6__Nr__97__fol__09_v_.tif"/>
+<row>
+<cell>umb salat, öl und <add place="above">retich</add> essig</cell><cell><measure type="currency" unit="ß" quantity="19">19 </measure></cell>
+</row>
+<row>
+<cell>umb ops</cell><cell><measure type="currency" unit="ß" quantity="8">8 </measure></cell>
+</row>
+<row>
+<cell>umb kertzen</cell><cell><measure type="currency" unit="ß" quantity="6">6 </measure></cell>
+</row>
+<row>
+<cell>umb <measure type="volume" unit="Kopf" quantity="2" commodity="wine">2 kopff wysen wein</measure></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="12">12 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>umb <measure type="volume" unit="Kopf" quantity="19" commodity="wine">19 <choice><abbr>k</abbr><expan>kopf</expan></choice> roten wein</measure> à <measure type="currency" unit="ß" quantity="14">14 </measure></cell><cell><measureGrp><measure type="currency" unit="lb" quantity="13">13 </measure>
+<measure type="currency" unit="ß" quantity="6">6 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>der <choice><abbr>stubenfr</abbr><expan>stubenfrau</expan></choice> in die kuchi</cell><cell><measure type="currency" unit="lb" quantity="2">2 </measure></cell>
+</row>
+<row>
+<cell>der magt trinckgelt</cell><cell><measure type="currency" unit="lb" quantity="1">j </measure></cell>
+</row>
+</table>
+<p><lb/>Summa, was über den abent<lb break="no"/>trunck verbrucht worden:</p>
+<table>
+<row>
+<cell>an gält</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="39">39 </measure>
+<measure type="currency" unit="ß" quantity="13">13 </measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>Die <abbr>hn</abbr> beide obervögt haben zuͦ <placeName ref="loc009768">Höng</placeName>, als
+<lb/>die neuwen richter sind erwelt worden, verzeert:</p>
+<table>
+<row>
+<cell>namlich</cell><cell><measure type="currency" unit="lb" quantity="4">4 </measure></cell>
+</row>
+</table>
+<table>
+<head>Meinen <abbr>hn</abbr>
+<choice><abbr>vͦ</abbr><expan>von</expan></choice> beiden stenden sitz gelt</head>
+<row>
+<cell>jedem <measure type="currency" unit="ß" quantity="16">16 </measure>, thuͦtt</cell><cell><measure type="currency" unit="lb" quantity="12">12 </measure></cell>
+</row>
+<row>
+<cell>den schrybern und dieneren</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="12">12 </measure></measureGrp></cell>
+</row>
+</table><pb n="10r" facs="StAZH_G_I_6__Nr__97__fol__10_r_.tif"/>
+<p>Summarum:</p>
+<table>
+<row>
+<cell>an gelt</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="57">57 </measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>Disse <measureGrp><measure type="currency" unit="lb" quantity="57">57 </measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp> sind zuͦ
+<lb/>bezallen zerlegt worden.</p>
+<p><lb/>Die herren obervögt von <placeName ref="loc009768">Höng</placeName>
+<lb/>zalen in nammen eines <choice><abbr>seckelmeist<hi rend="sup">rs</hi></abbr><expan>seckelmeisters</expan></choice>:</p>
+<table>
+<row>
+<cell>namlich</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="19">19 </measure>
+<measure type="currency" unit="ß" quantity="5">5 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>der verwalter</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="12">12 </measure>
+<measure type="currency" unit="ß" quantity="17">17 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>der cammerer</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="12">12 </measure>
+<measure type="currency" unit="ß" quantity="17">17 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>der gros käller</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="12">12 </measure>
+<measure type="currency" unit="ß" quantity="17">17 </measure></measureGrp></cell>
+</row>
+<row>
+<cell>summa</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="57">57 </measure>
+<measure type="currency" unit="ß" quantity="16">16 </measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>Gott lob, das alles wol abgangen.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In diesem Protokoll finden sich neben der Liste der anwesenden Amtsträger, Einträgen zu den behandelten Geschäften (allerdings keine Gerichtsfälle; vgl. zu diesen <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl><!-- G I 6, Nr.&#160;97 (fol. 25 r - 33 v) -->) 
+und der Abrechnung vom Abendtrunk auch eine Version der Maiengerichtsordnung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_095">SSRQ ZH NF II/11, Nr. 95</ref></bibl>) sowie die in anderen Protokollen (z.B. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1121560">StAZH G I 6, Nr. 27, fol. 2r-4v</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_115">SSRQ ZH NF II/11, Nr. 115</ref></bibl>) teils nur erwähnte Vorrede des Verwalters, die erklärt, weshalb trotz Übergabe der Gerichte weiterhin Maiengericht stattfindet und wofür es zuständig ist.
+Nach der Maiengerichtsordnung steht ein Teil der Schluss- und Dankesrede des Verwalters, sie bricht jedoch ab.</p>
+<p>In der hier festgehaltenen Beschwerde des Weibels, dass er den Wortlaut seines Eides gar nicht einhalten könne, vermutet <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_42">S. 42 Anm. 1</ref></bibl>, die Ursache für die Änderung des 
+Weibel- oder Förstereides (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_096">SSRQ ZH NF II/11, Nr. 96</ref></bibl>), so dass der Weibel nicht mehr zweimal täglich, sondern nur noch fünfmal wöchentlich die Schäden in Feld und Wald zu beschauen hatte.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

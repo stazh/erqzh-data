@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<date type="electronic" when="2020-06-01"/>
+<date type="print" when="2020-06-01"/>
+</publicationStmt>
+
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11</idno>
+</seriesStmt>
+
+<sourceDesc>
+<listWit>
+<witness/>
+</listWit>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head>Vorwort der Bearbeiterin</head>
+<p>Ganze zwei Jahre habe ich mich intensiv mit den gedruckten Mandaten der Stadt Zürich zwischen 1525 und 1798 beschäftigt. Die
+grosse Vielfalt an Themen, welche die Zürcher Obrigkeit sowohl den Zeitgenossen als auch der Nachwelt hinterlassen hat, stellte für mich eine
+spannende, wenn auch nicht immer einfache Herausforderung dar. Die Tatsache, dass es sich bei den Quellen um gedruckte Texte handelte, machte das
+Transkribieren zwar deutlich einfacher, aber die langen, verschachtelten und oftmals komplizierten Sätze führten zu manchem Kopfzerbrechen. Eine
+häufig mühselige Kleinarbeit war ausserdem die Abklärung der Entstehungsgeschichte der einzelnen Mandate. Obwohl die Zürcher Mandate meist in den
+Ratsmanualen beim entsprechenden Tagesdatum angesprochen werden, waren die Gründe und der Ablauf der Mandatserlasse nicht immer ersichtlich. Zudem
+befinden sich die häufig im Vorfeld angefertigten Kommissionsgutachten und Mandatsentwürfe in anderen Beständen des Staatsarchivs Zürich, wo sie
+zunächst in fast detektivischer Arbeitsweise aufgefunden werden mussten. Kaum Hinweise gab es schliesslich zur Druckgeschichte der Zürcher Mandate,
+obwohl dies aus mediengeschichtlicher Perspektive spannende Antworten auf viele meiner Fragen hätte geben können. Zum Glück fanden sich immer wieder
+handschriftliche Anmerkungen und Ergänzungen bei einzelnen Mandatsexemplaren, die Licht ins Dunkel brachten. Dank den meist unbekannten Verfassern
+dieser handschriftlichen Notizen konnte ich zahlreiche Vermutungen zur Entstehungsgeschichte und Verbreitung der Zürcher Mandate anstellen.</p>
+<p>Die vielen thematischen Aspekte, die in den Zürcher Mandaten vorkommen, waren nicht nur der unmittelbare Grund für die
+Erstellung der Themenblöcke, sondern halfen mir, mich vertieft mit der Geschichte der Zürcher Herrschaft in der Frühen Neuzeit
+auseinanderzusetzen. So konnte ich aus der Forschungsliteratur, aber vor allem mit der sorgfältigen Lektüre und Analyse der Zürcher Mandate neue
+Erkenntnisse gewinnen. Die gedruckten Mandate wiederspiegeln in diesem Sinne einen Ausschnitt beziehungsweise eine spezifische Sichtweise der
+Geschichte Zürichs zwischen dem 16. und 18. Jahrhundert.</p>
+<p>Dank möchte ich an erster Stelle der Rechtsquellenstiftung des Schweizerischen Juristenvereins aussprechen. Insbesondere die
+administrative und wissenschaftliche Leiterin Dr. Pascale Sutter war mir aufgrund ihrer kompetenten, freundlichen und jederzeit raschen Antworten auf
+meine fachlichen Fragen sowie aufgrund ihres sorgfältigen und kritischen Lektorats aller edierten Mandate eine grosse Hilfe. Pascale Sutter ist es
+zudem zu verdanken, dass ich im Sommer 2017 im Rahmen des SSRQ-Workshops in Zürich mit anderen Editorinnen und Editoren von schweizerischen
+Rechtsquellen in Kontakt treten und Erfahrungen austauschen konnte.</p>
+<p>Ebenfalls zentral für die Erstellung dieser Editionseinheit war das gesamte Team des Projekts der Elektronischen
+Rechtsquellen-Edition Zürich (Projekt eRQZH), namentlich Dr. Bettina Fürderer, Dr. Ariane Huber Hernández,
+Dr. Rainer Hugener, Dr. des. Michael Schaffner, Michael Nadig und Christian Sieber.
+Sie alle waren für meine Arbeit sowohl in fachlicher wie auch in menschlicher Hinsicht ein grosser Gewinn. Neben der Beantwortung
+vieler meiner Fragen war das Zürcher Rechtsquellenteam vor allem für die Kollationierung der edierten Mandate verantwortlich. Gegen Ende meiner
+Tätigkeit im Staatsarchiv Zürich war mir des Weiteren Tessa Krusche mit der qualitativ hochstehenden und äusserst schnellen Transkription zahlreicher
+Mandate behilflich, wofür ich ihr ebenfalls herzlich danken möchte.
+Dr. des. Michael Schaffner danke ich zudem für die nach dem Ende meiner Anstellungszeit vorgenommenen Abschlussarbeiten
+an meiner Editionseinheit, in deren Rahmen er auch die Kommentare zu zwei Stücken verfasst hat
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_009">SSRQ ZH NF I/1/11, Nr. 9</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_014">Nr. 14</ref></bibl>). Mit tatkräftiger Unterstützung durch
+Tessa Krusche und Jonas Köppel hat er ausserdem die Registerarbeiten erledigt.</p>
+<p>Eine wissenschaftliche Quellenedition lässt sich ohne die Mitwirkung und Unterstützung von institutioneller Seite kaum
+bewältigen. Aus diesem Grund möchte ich zuerst den vielen Mitarbeiterinnen und Mitarbeitern des Staatsarchivs Zürich danken. Für Fragen zu bestimmten
+Beständen, zur Überlieferungsgeschichte und zum Auffinden einiger Archivalien standen mir unter anderem Dr. Karin Huser, Dr. Meinrad Suter, Dr. Hans Ulrich Pfister
+und Martin Leonhard zur Verfügung. In der Abteilung Beständeerhaltung wurden unter Leitung von Ines Rauschenbach und Romano Padeste von den
+edierten Mandaten qualitativ hochstehende Digitalisate erstellt. Für technische Anliegen des Rechtsquellenportals, des Archivinformationssystems
+scopeArchiv sowie für allgemeine Fragen zur digitalen XML-Edition bin ich unter anderem Prof. Dr. Tobias Hodel, Monika Rhyner, Matthias Wild
+und Rebekka Plüss zu Dank verpflichtet.</p>
+<p>Obwohl alle edierten Mandate aus den Beständen des Staatsarchivs Zürich stammen,
+möchte ich an dieser Stelle lic. phil. Christian Scheidegger (Zentralbibliothek Zürich)
+und Dr. Roger Peter (Stadtarchiv Zürich) für ihre Auskünfte bei meiner Recherche nach weiteren Mandatsexemplaren in
+anderen Gedächtnisinstitutionen danken. Ausführliche und hilfreiche Antworten auf allgemeine Fragen zur Definition und Abgrenzung von Mandaten gaben
+mir des Weiteren Prof. Dr. Michael Stolleis und Prof. Dr. Karl Härter (Max-Planck-Institut für europäische Rechtsgeschichte, Frankfurt am Main)
+sowie Dr. Josef Pauser (Bibliothek des Verfassungsgerichtshofs, Wien).
+Bei spezifischen inhaltlichen Fragen konnte ich mich an Benedikt Zäch (Münzkabinett Winterthur)
+wenden, was für das Verständnis der komplexen frühneuzeitlichen Münzgeschichte auf eidgenössischem Gebiet äusserst hilfreich war. Im Bereich der
+Kleidermandate konnte ich dank Sonia Calvi (Departement Geschichte, Basel) neue Erkenntnisse gewinnen.</p>
+<p>Zuletzt möchte ich meiner gesamten Familie und all meinen Freunden dafür danken, dass sie mich in den vergangenen zwei Jahren
+tatkräftig unterstützt, für meine Fragen immer ein offenes Ohr hatten und meinen Erzählungen zu den Zürcher Mandaten geduldig zuhörten.</p>
+<p>Sandra Reisinger</p>
+<p>Zürich, im Frühling 2021</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_018</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=947733">ERKGA Fällanden I A 2</idno></msIdentifier><head>Weihe- und Ablassbrief für die Pfarrkirche in Fällanden</head><msContents><summary>Thomas, Bischof von Caesarea und Vikar des Bischofs Otto von Konstanz, weiht die Pfarrkirche und den Friedhof in Fällanden, nachdem der Chor erweitert und der während der Bauzeit beseitigte Hauptaltar wieder dorthin versetzt worden ist. Mit Zustimmung des Bischofs erteilt er ausserdem allen, welche die genannte Kirche zur Kirchweihe oder an den Festtagen ihrer Patrone besuchen sowie zu ihrem Nutzen und Schmuck beitragen, einen Ablass von 40 Tagen bei schweren und einem Jahr bei lässlichen Sünden. Dadurch sollen vorgängig erteilte Ablässe keinesfalls abgelöst, sondern vielmehr bekräftigt werden. Der Aussteller siegelt.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="9.0"/><width unit="cm" quantity="27.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:condition="absent"><persName role="sigillant">Vikar Thomas</persName></seal></sealDesc></physDesc><history><origin><origDate when="1428-05-25"/><origPlace>Fällanden</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>REC, Bd. 3, Nr. 9219</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003372">Ablass</term><term ref="key000015">Bischof</term><term ref="key000841">Feiertage</term><term ref="key000238">Friedhof</term><term ref="key005402">Kirchengebäude</term><term ref="key000463">Weihe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="ERKGA_Fällanden_I_A_2__r_.tif"/>
+<p><seg><lb/><persName ref="per022198">Thomas</persName>, dei et apostolice sedis gratia episcopus <placeName ref="loc008771">Cesariensis</placeName> reverendi in Christo patris et domini,
+nostri domini <persName ref="per005100">Ottonis</persName> eadem gratia episcopi <placeName ref="loc000923">Constantiensis</placeName> vicarius
+<lb/>in pontificalibus, notum facimus presencium per tenorem, quod die date infrascripte chorum ecclesie parrochialis in <placeName ref="loc008651">Vellanden</placeName> prope <placeName ref="loc000065">Thuregum</placeName>,
+<lb/>dicte <orgName ref="org000056"><placeName ref="loc000923">Constantiensis</placeName> dyocesis</orgName>, nova structura amplificatum necnon summum altare prefate ecclesie eadem de causa translatum et in iam dictum chorum
+<lb/>denuo locatum, cooperante nobis septiformis spiritus gratia, consecravimus ipsamque ecclesiam cum suo cimiterio ad cautelam reconciliamus,
+<lb/>dantes ac concedentes ad hoc nostra auctoritate atque pretaxati domini nostri licencia et commissione omnibus vere confessis et contritis, qui dictam ecclesiam
+<lb/>in diebus dedicacionis et patronorum ipsius causa devocionis visitando oraciones suas dixerint vel qui ad dicte <supplied reason="omitted" resp="rhr">ecclesie</supplied> seu altaris
+<lb/>usum ac decorem manus suas porrexerint adiutrices, eciam tociens quociens id fecerint, <date dur="P40D">quadraginta dierum</date> criminalium
+in<lb break="no"/>dulgencias et <date dur="P1Y">annum</date> venialium, nolentes per hoc aliqualiter indulgenciis eidem ecclesie a nostris predecessoribus concessis
+pre<lb break="no"/>iudicare, sed pocius cooperari.</seg>
+<seg>In cuius rei testimonium presentes litteras nostri sigilli fecimus appensione muniri. Datum et actum
+<lb/>loco quo supra, <origDate when="1428-05-25">anno domini millesimo quadringentesimo vicesimo octavo in die sancti <persName ref="per000352">Urbani</persName> pape et martiris</origDate>
+<abbr>etc</abbr>.</seg></p>
+<pb n="v" facs="ERKGA_Fällanden_I_A_2__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Abblaß brieff</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Mit dieser Neuweihe wurde <persName ref="per000352">Urban</persName> als zweiter Patron der Kirche in
+<placeName ref="loc012457">Fällanden</placeName> etabliert und dessen Feiertag zum Kirchweihfest erhoben.
+Wie die seit 1488 überlieferten Kirchengutrechnungen zeigen,
+erhielt die Kirche bis zur Reformation von verschiedenen Bauern der Umgebung
+das sogenannte <persName ref="per000352">Sankt-Urbans</persName>-Kernengeld,
+das vermutlich anlässlich der Kirchweihe von <date when="1428">1428</date> als Lichtstiftung eingerichtet worden war,
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2002</ref>, S. 63</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

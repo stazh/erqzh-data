@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_101</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1369175">StAZH A 123.6, Nr. 43</idno></msIdentifier><head>Erklärung der Gemeinde Kirchuster betreffend Metzgereigerechtigkeit</head><msContents><summary>Säckelmeister und Vorgesetzte der Gemeinde Kirchuster berichten Bürgermeister und Rat der Stadt Zürich, dass Landvogt Hans Hartmann Escher wegen eines Streits zwischen Hans Heinrich Schellenberg und Kirchenpfleger Felix Brunner eine Gemeindeversammlung einberufen habe, um herauszufinden, wie es um die Metzgerei bestellt sei. Die Gemeinde habe einhellig erklärt, dass es eigentlich zwei Metzgereigerechtigkeiten gebe, doch habe Brunner, der Inhaber der einen Gerechtigkeit, die andere vor etlichen Jahren gekauft und seither beide betrieben. Die Gemeinde werde durch Brunner besser versorgt als zuvor, als es noch zwei Gerechtigkeiten gab, doch wenn sich dies ändern sollte, wolle sie jederzeit wieder zu einer zweiten Gerechtigkeit zurückkehren und bittet die Obrigkeit darum, ihr dies zu bestätigen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1685-01-22"/><origPlace>Kirchuster</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000346">Fleisch</term><term ref="key004706">Konzession</term><term ref="key000335">Nutzungsrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p><lb/>Hochgeachte, woledle, gestrenge, fromme, veste, fürsichtige
+<lb/>und weise, gnädige herren <abbr>etc</abbr>.
+</p>
+<p><seg><lb/>Sittenwylen juncker, major und landtvogt <persName ref="per013363">Ëscher</persName><note><persName ref="per013363">Hans Hartmann Escher</persName> (im Amt 1680-1686, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 111</bibl>).</note> zu
+<lb/><placeName ref="loc000348">Gryffensee</placeName> wegen der strytigkeit zwüschendt <persName ref="per015042">Hans Heinrich
+<lb/>Schällenberg</persName> und <choice><abbr>mr</abbr><expan>meister</expan></choice>
+<persName ref="per015040">Felix Brunner</persName>, kirchenpfläger zu
+<placeName ref="loc008735">Kirch<lb break="no"/>uster</placeName>, anbefohlen, eine ehrsamme <orgName ref="org004888">gmeind <placeName ref="loc008735">Kirchuster</placeName></orgName> solle sich
+<lb/>versamlen und ihr angelegenheit der metzg halben eröffnen
+<lb/>und sich erklären, wie sy mit ihrer metzg versehen seigind <abbr>etc</abbr>.</seg>
+<seg><lb/>Woruff eine gmeind sich einhellig erklärt, daß ob zwahren
+<lb/><num value="2">zwo</num> metzg-gerechtigkeiten allhie seigind und vor etlich jahren
+<lb/>gedachter <persName ref="per015040">Brunner</persName> die einte gerëchtigkeit ehrlich und redlich
+<lb/>erkaufft und biß dato beid beworben, sy, die gmeind, dannoch
+<lb/>bißhar wol versehen und keines wägs klag ab dem metzger
+<lb/>habind. Darby auch bricht gefallen, man seige vill beßer
+ver<lb break="no"/>sëhen als zuvor, da beid gerechtigkeiten von <num value="2">zweyen</num> beworben
+<lb/>worden, sittenwylen sy sich mit schlechterem vych versehen habend.
+<lb/>So lang nun mehr gemeldter <persName ref="per015040">Brunner</persName> eine gmeind wyter
+<lb/>also versehe, mögind sy ihme solche gerechtigkeit wol gunnen.
+<lb/>Jedoch wan könfftiger zeit die gmeind mit einem metzger nit
+<lb/>versëhen wurde, wie sich aber gebührte, begärend sy des wëgen
+<lb/>jederzeit, by beiden gerechtigkeiten zu verblyben und hoffend
+<lb/>von <choice><abbr>u gn hr</abbr><expan>unseren gnädigen herren</expan></choice> darby beschirmbt zu werden. Setzend
+deß<lb break="no"/>wegen alles in <choice><abbr>u gn hr</abbr><expan>unsere gnädigen herren</expan></choice> willkhur und begährt eine
+<lb/>gmeind, sich dißmahl dißer sach halben in kein recht ynzulaßen,
+<lb/>als dardurch unnöthigen costen verursachet wurde.</seg>
+</p>
+<p><lb/>Befehlend sich hiemit in aller deemütigster underthänigkeit
+<lb/>in ihr <choice><abbr>gnd</abbr><expan>gnaden</expan></choice> und <choice><abbr>wsht</abbr><expan>weisheit</expan></choice>, nebendt wünschung glückseliger
+re<lb break="no"/>gierung vätterlichen hochen gunsten.
+</p>
+<p>
+<lb/><placeName ref="loc008735">Kirchuster</placeName>, <origDate when="1685-01-22" calendar="Julian">den 22<hi rend="sup">ten</hi>
+<lb/><choice><abbr>jan</abbr><expan>januar</expan></choice> anno 1685</origDate>.
+</p>
+</div>
+<div><signed><lb/>Ihr <choice><abbr>gnd</abbr><expan>gnaden</expan></choice> und <choice><abbr>wsht</abbr><expan>weisheit</expan></choice>
+<lb/>underthänigste
+<lb/>seckelmeister und
+vor<lb break="no"/>gesetzte daselbst,
+in<lb break="no"/>nammen einer ehrsammen
+<lb/>gmeind</signed>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="address" place="verso"><lb/>Denen hochgeachten, woledlen, gestrengen, frommen,
+<lb/>vesten, fürsichtign und weisen herren, <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+<lb/><orgName ref="org002406">burgermeister und rath loblicher statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+<lb/>unßeren gnädigen, lieben herren und vätteren
+<lb/><placeName ref="loc000065">Zürich</placeName>
+</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/><origPlace ref="loc008735">Kilchuster</origPlace>,
+<origDate when="1685-01-22" calendar="Julian">den 22ten <choice><abbr>jan</abbr><expan>januar</expan></choice> 1685</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Der <orgName ref="org004904">gemeind <placeName ref="loc006198">Uster</placeName></orgName> erklährung betreffend ihre <num value="2">zwey</num>
+mezg-<lb/>gerechtigkeiten, <origDate when="1685">1685</origDate>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Mit der Bevölkerungszunahme ab dem 16. Jahrhundert reichte die bäuerliche Selbstversorgung mit Fleisch nicht mehr aus,
+sodass man auch in den Dörfern auf der Landschaft zunehmend Metzgereien benötigte.
+Wie Gasthäuser waren die Schlachtbetriebe an eine obrigkeitliche Konzession gebunden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_105">SSRQ ZH NF II/3, Nr. 105</ref></bibl>).
+Da Gastwirtschaften zugleich sichere Abnehmer für Fleisch waren,
+wurde das Metzgergewerbe häufig mit dem Tavernenrecht verbunden.
+Wie die Wirtshäuser sahen sich aber auch die Metzger häufig mit der Konkurrenz der Bauern konfrontiert,
+die weiterhin ihr eigenes Vieh für den Hausgebrauch schlachteten und gelegentlich auch verkauften
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 168-169</bibl>).
+</p>
+<p>Die erste Metzgerei in <placeName ref="loc006198">Uster</placeName> wurde 1617 eröffnet,
+nachdem Untervogt <persName ref="per015011">Christoph Brunner</persName>
+den <orgName ref="org002406">Zürcher Rat</orgName> auf die Notwendigkeit einer solchen hingewiesen hatte.
+Er erhielt die Konzession, jedoch unter ausdrücklichem Vorbehalt,
+dass die Bauern für ihren eigenen Verzehr sowie zu besonderen Anlässen ihr Vieh selber schlachten durften
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4312824">StAZH W I 1, Nr. 2612</ref></bibl>).
+Parallel dazu existierte wohl eine Metzgerei im Gasthaus <placeName ref="loc010797">Kreuz</placeName>,
+dessen Wirt <persName ref="per015044">Hans Jakob Weber</persName> allerdings 1675 Konkurs machte,
+sodass der junge <persName ref="per015040">Felix Brunner</persName> dessen Metzgergerechtigkeit zu seiner eigenen hinzu erwarb.
+Diese Verquickung der beiden Gerechtigkeiten bildete den Hintergrund für die vorliegende Regelung.
+</p>
+<p>Hatte sich die Dorfbewohnerschaft im vorliegenden Stück noch zufrieden mit ihrem Metzger geäussert,
+so kam es 1711 zu einer Auseinandersetzung zwischen diesem und den Wirten des Orts,
+weil letztere ihr Vieh selber schlachteten und wohl auch im grösseren Stil verkauften,
+was <persName ref="per015040">Brunners</persName> Metzgerei konkurrenzierte.
+Der <orgName ref="org002406">Zürcher Rat</orgName> entschied, dass die Wirte wie jeder andere Gemeindegenosse
+ihr Vieh für den Hausgebrauch selber schlachten, nicht aber ausserhalb ihres Hauses verkaufen durften
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4261483">StAZH B II 713, S. 28-30</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

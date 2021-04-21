@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_025</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3548745">StAZH III AAb 1.4, Nr. 53</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Auswanderungsverbot in katholische Orte</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich erlassen ein erneuertes Mandat betreffend Auswanderung. Es ist nicht erlaubt, ohne die Amtleute zu informieren, aus dem Zürcher Herrschaftsgebiet zu ziehen. Falls jemand in einen reformierten Ort auswandern möchte, muss neben der obrigkeitlichen Bewilligung auch ein Schein (Mannrechtsbrief) des entsprechenden Ortes vorliegen. Gänzlich verboten ist es, an einen katholischen Ort zu ziehen. Zuletzt wird festgehalten, dass Personen, die Andere zum Auswandern anstiften, festgenommen und bestraft werden sollen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Johann Jakob Bodmer?)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="40.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1657-03-11"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Kirchenordnungen, Bd. 2, Nr. 328</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 893, Nr. 1040</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004054">Auswanderung</term><term ref="key000297">Bewilligung</term><term ref="key000134">Bürgerrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_4__Nr__53__r_.tif"/>
+<p>
+<seg><lb/>Wir der <orgName ref="org002406">Burgermeister und Rahte der Statt <placeName ref="loc000065">Zürich</placeName></orgName> /
+ <lb/>Thuͦnd kundt offentlich hiemit: Demnach Wir mit beduren den schrift- und mundtlichen be<lb break="no"/>richt
+  empfangen / was gestalten über und wider Unser hiebevor im <date when="1652-08" calendar="Julian">Augstmonat des verschinnen eintausent / sechshun<lb break="no"/>dert /
+ zwey und fünfzigisten Jahrs</date> / durch ein offentlich verkündtes Mandat uß Oberkeit- und Vaͤtterlich wolmeinender
+  <lb/>sorgfalt beschehens ernstliches verwahrnen und verbott<note>Hier wird auf das Mandat betreffend Auswanderung von 1652 Bezug genommen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615821">StAZH III AAb 1.4, Nr. 29</ref></bibl>).</note> / gleichwolen jetzt etwas zyts haro etliche von Unseren Under<lb break="no"/>thanen /
+ jungen und alten / wyb- und mannspersonen / ledigen und verehelichten / sich nit geschohen / uß Unseren Landen
+ <lb/>hinweg / und theils auch gar an Papistische ort zuzühen / umb nit allein daselbst sich ein zytlang dienstswyse ufzuhalten /
+ <lb/>sonder auch gar ihren hußhablichen sitz zusuͦchen und zunemmen; Und nun bekant und offenbar / daß dardurch mancher /
+ <lb/>wegen der enden all zu grosser freyheit in Kilbinen / Feyrtagen / Markten und Hochzyten / von Christlicher zucht / ehrbar<lb break="no"/>keit
+ und gottseligem wandel / zu allem muͦhtwillen / üppigkeiten / tantzen / spilen und anderen lasteren veranlaaset / und
+ <lb/>endlich gar zum leidigen abfahl gebracht wird;</seg>
+<seg>Daß Wir in behertzigung dessen / und zuverhuͤtung erzelter und anderer
+ <lb/>besorglich hieruß erwachsender ungelegenheiten / hierinn von newem gebührendes ynsehen zutuͦhn / bewogen worden.
+ <lb/>Und ist derowegen hiemit an alle und jede Unsere Underthanen / Unser widerholleter ernstlicher Befelch / Will und Mei<lb break="no"/>nung /
+ daß fürbashin niemand mehr / ohne Unser ald Unserer nachgesetzten Voͤgten und Amtlühten vorwüssen und be<lb break="no"/>willigung /
+ uß Unseren Landen hinweg zühen / und in anderen / sonderlich aber solchen Gerichten und Gebieten / wo das
+ <lb/>Papsttumb sich befindt / weder dienstswyse ohne noht sich ufhalten / noch niderlassen und setzen solle. Mit dem heiteren
+ <lb/>und ußtruckenlichen anhang / wer sich eines solchen über diß Unser so ernstliches vermahnen wyters gelusten lassen / und
+ <lb/>ohne Unser ald Unserer nachgesetzten Voͤgten und Amtlühten vorwüssen und bewilligung uß dem Land hinweg begeben /
+ <lb/>und an anderen / sonderlich unserer Religion nit zuͦgethanen orten / ufhalten wurde / daß der und dieselben ungehorsam<lb break="no"/>men
+ hierdurch ihr Vatterland / und alle Unsere Oberkeitliche huld und gnad verwürckt haben soͤllind.</seg>
+<seg>Wann aber je
+ <lb/>einer ald der ander eintweders uß hochtringender noht / oder sonsten in hoffnung / anderstwo seine gelegenheit besser zu<lb break="no"/>finden /
+ und synen nutzen mehrers zuschaffen / uß dem Vatterland hinweg / an andere / unserer waaren / Christenlichen / al<lb break="no"/>lein
+ seligmachenden Religion zugetahne ort zuzühen / willens wurde / sollen der und dieselben solch ihr vorhaben ihrem or<lb break="no"/>denlichen
+ Obervogt / auch Pfarrern eroͤffnen / und zuglych einen authentischen Schyn / wie es an dem ort / dahin er zilet / der
+ <lb/>Religion fürnemlich / und auch anderer sachen halber beschaffen seye / mitbringen und zeigen: worüber dann gedachte Un<lb break="no"/>sere
+ nachgesetzte Voͤgt / Amtlüht und Pfarrer / nach anleitung ihres hierumb habenden befelchs und gewalts / je nach der
+ <lb/>sach befindenden beschaffenheit / jedem hierinn mit hilff und raht zubegegnen / wol wüssen werdend.</seg>
+<seg>Wann auch wyters /
+ <lb/>wie etwan beschehen / jemand wer der were / betretten wurde / der die Unserigen uß dem Land zuzühen ufzuwiglen under<lb break="no"/>stuͦhnde /
+ sollen der oder dieselben alsobald gefaͤnglich angenommen / Unseren Obervoͤgten und Amtlühten / oder Uns selb<lb break="no"/>sten
+ zugefuͤhrt / und je nach befindtnuß ihrer fehleren darumb ernstlich gehandhabet und gestraafft werden: Und wir
+ <lb/>wollend Uns hieruf gegen maͤnnigklichem gehorsamer beobachtung diß Unsers wolmeinlichen Ansehens gaͤntzlich ver<lb break="no"/>sehen.</seg>
+<seg>Geben <origDate when="1657-03-11" calendar="Julian">Mitwochs den eilften tag Mertzens / von der heilsamen geburt Christi unsers lieben Herren und Hei<lb break="no"/>lands
+ gezelt / eintusent / sechshundert / fünftzig und siben Jahre</origDate>.</seg></p>
+<p><orgName ref="org005015">Cantzley <placeName ref="loc000065">Zürich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_4__Nr__53__v_.tif
+"/>
+<div><ab type="dorsal" place="verso" hand="hand17c"><lb/>Dißes usschryben sind <num value="200">200</num> exemplaria <lb/>gethrukt, und davon an alle ober-<lb/>und undervögt nach gewohnlichem bruch <lb/>verschickt worden, wie byligende <lb/>verzeichnuß vermag. <lb/>Im <date when="1657-03" calendar="Julian">martio 1657</date></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c?"><lb/>Wider das hinweg <lb/>ziechen an papistische <lb/>orth.
+ <lb/>Anno <date when="1657">1657</date>.</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>Auswanderungsbewegungen lassen sich für die Stadt und Landschaft <placeName ref="loc000066">Zürich</placeName> in grösserem Stil seit der zweiten Hälfte des 16. Jahrhunderts nachweisen. Bis etwa in die Mitte des 17. Jahrhunderts spielten hauptsächlich religiöse Gründe eine ausschlaggebende Rolle, weswegen meist verfolgte <orgName ref="org005058">Täufer</orgName> auswanderten. Obwohl die Auswanderung zunächst noch von der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Obrigkeit</orgName> geduldet wurde, war die Rückkehr grundsätzlich verboten und die zurückgelassenen Güter wurden konfisziert (vgl. das erneuerte Täufermandat von 1612, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_015">SSRQ ZH NF I/1/11, Nr. 15</ref></bibl>).</p>
+<p>Gegen Mitte des 17. Jahrhunderts verlor die Auswanderung ihren fast ausschliesslich religiösen Charakter und es kamen weitere Ursachen wie Missernten, Teuerungsjahre, Hungersnöte, Armut und Pestwellen hinzu. Insbesondere nach dem Dreissigjährigen Krieg, als es zu Geldentwertung, höherer Verschuldung und Unzufriedenheit vieler Bauern kam, wanderten vermehrt <orgName ref="org002811">Zürcher und Zürcherinnen</orgName> in die <placeName ref="loc006894">Kurpfalz</placeName>, ins <placeName ref="loc000140">Elsass</placeName>, nach <placeName ref="loc007494">Württemberg</placeName> und nach <placeName ref="loc010368">Baden</placeName> aus. Während der Rat bis etwa 1650 weitgehend untätig war, befürchteten die kirchlichen Vertreter zunehmend den Glaubensabfall von Personen, die in nicht reformierte Gebiete auswanderten. Deshalb versandte der Antistes <persName ref="per012676">Johann Jakob Ulrich</persName> am 2. Januar 1650 ein Zirkularschreiben an alle Pfarrer, worin festgehalten war, dass alle Pfarrer die ausgewanderten Personen ihrer Gemeinde in einem Verzeichnis aufführen sollten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188865">StAZH A 103</ref>.5</bibl>). Ausserdem wurden die Pfarrer aufgefordert, die auswanderungswilligen Personen von ihrem Vorhaben abzuhalten oder sie zumindest schwören zu lassen, nicht an katholischen Gottesdiensten teilzunehmen. Da das Vorgehen aber wenig Erfolg zeigte, trat am 10. April 1651 ein Ratsausschuss zusammen, um ein Gutachten zu erstellen. In diesem war die Auswanderung grundsätzlich erlaubt, allerdings nur in protestantische Gebiete, wobei ein Bestätigungsschein des entsprechenden Gebietes vorgewiesen werden musste. Des Weiteren durften Familien mit mehr als 400 Gulden Vermögen nur mit obrigkeitlicher Bewilligung auswandern und mussten zudem eine Abzugssteuer von 10 Prozent bezahlen. Arme Personen durften ohne Bezahlung der Abzugsteuer auswandern. Das Gutachten wurde am 2. August 1652 in einem ersten Mandat publiziert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=615821">StAZH III AAb 1.4, Nr. 29</ref></bibl>). Im Jahr 1657 wiederholte der <orgName ref="org002406">Rat</orgName> den Inhalt fast wortwörtlich im vorliegenden Mandat, legte allerdings mehr Nachdruck auf das Verbot der Auswanderung in katholische Gebiete.</p>
+<p>Zwischen 1650 und 1680 wanderten ungefähr zwischen 4000 bis 5000 Personen aus dem zürcherischen Herrschaftsgebiet aus, wobei der Höhepunkt in den 1650er Jahren auszumachen ist und die Zahl ab 1660 zunehmend sank. In den 1690er Jahren kam eine erneute Auswanderungswelle auf, welche sich vor allem ins <placeName ref="loc010390">Kurfürstentum Brandenburg</placeName> richtete. Nachdem ab etwa 1710 erste Schweizer nach <placeName ref="loc008082">Amerika</placeName> auswanderten, um Städte und Kolonien zu gründen, lässt sich in <placeName ref="loc000066">Zürich</placeName> ab 1729 bis etwa 1750 eine Auswanderungswelle nach <placeName ref="loc008082">Amerika</placeName> nachweisen (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_050">SSRQ ZH NF I/1/11, Nr. 50</ref></bibl>). Zur Zürcher Auswanderung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ulrich 1996</ref>, S. 391-394</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Pfister 1987</ref>, S. 25-131</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Blocher 1976</ref>, S. 9-14</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Zuber 1931</ref>, S. 1-32</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_028</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480082">StAZH W I 3.7 c, Nr. 2, S. 17</idno></msIdentifier><head>Neuweihe der Kapelle St. Leonhard</head><msContents><summary>Johannes, Bischof von Belinas (Bellinensis) und Weihbischof von Heinrich, Bischof von Konstanz, hält fest, dass er die Kapelle St. Leonhard vor den Stadtmauern Zürichs und deren zwei Altäre mit ihren Patrozinien aufs Neue geweiht hat. Der Hauptaltar ist Maria und den Heiligen Petrus, Leonhard, Aegidius und Katharina und der zweite Altar den Heiligen Stefan, Sebastian, Blasius, Antonius und Barbara geweiht. Das jährliche Kapellenweihfest setzt er auf den Sonntag vor Auffahrt fest. Den Gläubigen, die nach der Beichte die Kapelle am Kirchweihtag oder an den Festtagen eines Altarpatrons besuchen, soll ein Ablass von 40 Tagen bei schweren Sünden und einem Jahr für lässliche Sünden gewährt werden. Der Aussteller siegelt.</summary><msItem><textLang>Latein</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1448-10-05"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1504-12-19"/><origPlace>Zürich</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 7, Nr. 9398</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003372">Ablass</term><term ref="key000143">Kapelle</term><term ref="key000266">Krieg</term><term ref="key000463">Weihe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="17" facs="StAZH_W_I_3_7_c__Nr__2__S__17_.tif"/>
+<head><lb/>De consecratione <choice><abbr>ecclie</abbr><expan>ecclesie</expan></choice>
+<choice><abbr>s</abbr><expan>Sancti</expan></choice>
+<persName ref="per019405">Leonardi</persName>
+<lb/>et <num value="2">duorum</num> altarium, maioris videlicet 
+<lb/>et sancti <persName ref="per000795">Antonii</persName></head>
+<p><seg><lb/>Nos, frater <persName role="issuer" ref="per024216">Johannes</persName>,<note><persName ref="per024216">Johannes von Blatten</persName> (Platten, de Platea), Franziskaner, 1440-1461 Weihbischof von <placeName ref="loc000923">Konstanz</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">HS I/2</ref>, Teil 2, S. 512</bibl>).</note> dei et <choice><abbr>aplice</abbr><expan>apostolice</expan></choice> sedis <choice><abbr>gra</abbr><expan>gratia</expan></choice>
+<choice><abbr>epus</abbr><expan>episcopus</expan></choice>
+<placeName ref="loc012576">Bellinensis</placeName>
+<lb/><choice><abbr>reverend</abbr><expan>reverendi</expan></choice> in Christo <choice><abbr>pris</abbr><expan>patris</expan></choice> et <choice><abbr>dni</abbr><expan>domini</expan></choice>
+<choice><abbr>dni</abbr><expan>domini</expan></choice>
+<persName ref="per000519">Heinrici</persName>,<note><persName ref="per000519">Heinrich von Hewen</persName>, 1436-1462 Bischof von <placeName ref="loc000923">Konstanz</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">HS I/2</ref>, Teil 1, S. 351-356</bibl>).</note>
+<choice><abbr>ead</abbr><expan>eadem</expan></choice>
+<choice><abbr>gra</abbr><expan>gratia</expan></choice>
+<choice><abbr>epi</abbr><expan>episcopi</expan></choice>
+<placeName ref="loc000923"><choice><abbr>Constan</abbr>
+<expan>Constantiensis</expan></choice></placeName>
+<lb/>et administratoris <placeName ref="loc000021">Curiensis</placeName> ecclesiarum, vicarius in pontificalibus 
+<lb/>generalis, universis et singulis presencium inspectoribus 
+<lb/>tam presentibus quam posteris subscriptorum noticiam cum salute in
+<lb/><choice><abbr>dno</abbr><expan>domino</expan></choice> sempiterna:</seg>
+<seg>Noveritis noverintque omnes et singuli, 
+<lb/>quos nosse fuerit oportunum, quod sub anno a nativitate <choice><abbr>dni</abbr><expan>domini</expan></choice>
+<lb/>nostri salvatoris <origDate when="1448-10-05">millesimo quadringentesimo quadragesimo 
+<lb/>octavo, die sabbati, quinta videlicet mensis octobris</origDate> capellam 
+<lb/>sancti <persName ref="per019405">Leonardi</persName> vulgariter appellatam extra muros opidi 
+<lb/>imperialis <placeName ref="loc000065">Turicensis</placeName> dicte <placeName ref="loc000923"><choice><abbr>Constan</abbr><expan>Constanciensis</expan></choice></placeName>
+<choice><abbr>dyoc</abbr><expan>dyocesis</expan></choice> sitam et <num value="2">duo</num> altaria, 
+<lb/>unum videlicet summum in honore beatissime virginis <persName ref="per000169">Marie</persName>
+<lb/>sanctorumque <persName ref="per003081">Petri</persName>
+<choice><abbr>apli</abbr><expan>apostoli</expan></choice>, <persName ref="per019405">Leonardi</persName> et <persName ref="per021906">Egidii</persName> confessorum 
+<lb/>necnon <persName ref="per000793">Katherine</persName> virginis, alterum vero in honore sanctorum 
+<lb/><persName ref="per003068">Stephani</persName> et <persName ref="per001916">Sebastiani</persName> martirum, <persName ref="per014188">Blasiique</persName> et <persName ref="per000795">Antonii</persName> confessorum 
+<lb/>et <persName ref="per000970">Barbare</persName> virginis, situata in eadem de novo consecravimus. 
+<lb/>Cuius quidem capelle dedicationem <date type="floating holiday"><choice><abbr>dnica</abbr><expan>dominica</expan></choice> proxima ante 
+<lb/>festum ascensionis <choice><abbr>dni</abbr><expan>domini</expan></choice></date> deinceps celebrandam duximus 
+<lb/>statuendum, hinc est quod <choice><abbr>aplus</abbr><expan>apostolus</expan></choice><note>Gemeint ist <persName ref="per003081">Paulus</persName></note> ait: <quote>omnes stabimus ante 
+<lb/>tribunal <choice><abbr>xpi</abbr><expan>Christi</expan></choice>, recepturi prout in corpore gessimus, sive bonum 
+<lb/>sive malum</quote>.<note>Vgl. 2. Brief des <persName ref="per003081">Paulus</persName> an die Korinther 5,10.</note> Quare oportet nos diem messionis extreme 
+<lb/>misericordie operibus prevenire, et eternorum intuitu seminare 
+<lb/>in terris, quod reddente <choice><abbr>dno</abbr><expan>domino</expan></choice> cum multiplicato fructu recolligere
+<lb/>debeamus in celis, firmam spem fiduciamque habentes. 
+<lb/>Quamobrem cupientes quoslibet christifideles ad bene faciendum 
+<lb/>et exercendum opera caritatis indulgenciis id est peccatorum 
+<lb/>remissionibus invitare, ut exinde reddantur divine gracie 
+<lb/>aptiores, omnibus igitur Christi nominis professoribus vere penitentibus 
+<lb/>confessis et contritis, qui dictam capellam una cum altaribus 
+<lb/>suis in die dedicationis eiusdem ac in diebus patronorum predictorum
+<lb/>devote visitaverint, de omnipotentis dei <choice><abbr>mia</abbr><expan>misericordia</expan></choice> et patronorum
+<lb/>dicte capelle prefatorum meritis confisi <date dur="P40D">quadraginta dierum</date>
+<lb/>criminalium et <date dur="P1Y">annum unum</date> venialium peccatorum de iniunctis 
+<lb/>eis penitenciis pro qualibet vice <choice><abbr>aucte</abbr><expan>auctoritate</expan></choice> ordianaria in hac 
+<lb/>parte nobis concessa misericorditer in <choice><abbr>dno</abbr><expan>domino</expan></choice> relaxamus.</seg>
+<seg>In 
+<lb/>quorum omnium et singulorum premissorum evidens testimonium 
+<lb/>atque robur signetum <choice><abbr>nrm</abbr><expan>nostrum</expan></choice> propter carenciam sigilli <choice><abbr>nri</abbr><expan>nostri</expan></choice>
+<lb/>pontificalis presentibus duximus appendendum. Datum in opido 
+<lb/><origPlace ref="loc000065">Turicensi</origPlace> premencionato, anno, die et mense prenotatis, 
+<lb/><choice><abbr>indcoe</abbr><expan>indictione</expan></choice> undecima.</seg></p></div>
+</body>
+<back>
+<div>
+<p>Die Kapelle <placeName ref="loc010768">St. Leonhard</placeName> war im alten Zürichkrieg von den <orgName ref="org002811">Zürchern</orgName> selbst zerstört worden, um dem Feind keinen Stellungsvorteil zu bieten. Nach dem Krieg wurde sie wieder aufgebaut und gemäss der hier vorliegenden Urkundenabschrift neu geweiht. 
+Später erhielt sie einen dritten Altar, der erstmals <date when="1465">1465</date> Erwähnung findet und <date when="1487">1487</date> geweiht wurde. In den zwei Vergabungen von 1465 wird als Patrozinium U. L. Frau im Kindbett genannt (<bibl><ref target="/startseite/literaturverzeichnis">Nüscheler 1864-1873</ref>, Heft 3, S. 432</bibl>, 
+verweisend auf die Kauf- und Gemächtebriefe, heute <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=263256">StAZH B VI 304-B VI 331</ref></bibl>). Kaplan <persName ref="per024218">Peter Numagen</persName> nennt, gestützt auf die 
+Aufzeichnungen seines Vorgängers <persName ref="per024220">Johannes Ougli</persName> für das Jahr 1487 als Patrozinien <persName ref="per000169">Maria</persName>, den Evangelisten <persName ref="per004014">Johannes</persName> sowie die Heiligen <persName ref="per001536">Nikolaus</persName>, <persName ref="per004902">Dorothea</persName>
+und <persName ref="per000267">Agnes</persName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3433700">StAZH W I 3.7 c, Nr. 2, S. 18</ref></bibl>). Gemäss <bibl><ref target="/startseite/literaturverzeichnis">Nüscheler 1864-1873</ref>, Heft 3, S. 432</bibl>, sei der Altar am Sonntag nach Christi Himmelfahrt geweiht worden, woran sich fortan auch die jährlichen Erinnerungsfeste orientierten.<!-- ahh: Die Herkunft dieser Angaben lässt sich jedoch nicht verifizieren. Er gibt als Quelle lediglich die Kauf- und Gemächtebriefe an, hier wird es sich aber um die genannten zwei Vergabungen handeln. --></p>
+<p>Nach der Kapelle wurde auch die 1400 erschaffene Wacht <placeName ref="loc010768">St. Leonhard</placeName> benannt. Seit der Reformation wurde die Kapelle nicht mehr als Gotteshaus verwendet und die Wacht hiess fortan <placeName ref="loc010816">Unterstrass</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA V</ref>, S. 59; S. 389</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 66-70</bibl>).
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

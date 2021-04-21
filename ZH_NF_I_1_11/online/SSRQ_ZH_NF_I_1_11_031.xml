@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+     Band 11: Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_031</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3294083">StAZH III AAb 1.6, Nr. 10</idno></msIdentifier><head>Almosenordnung der Stadt Zürich</head><msContents><summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erlassen aufgrund der steigenden Anzahl der Armen auf der Landschaft eine erneuerte Almosenordnung mit acht Punkten. Das Bettelverbot wird insbesondere für Jugendliche wiederholt, wobei Zuwiderhandlungen im Wiederholungsfall härter bestraft werden (1). Des Weiteren wird das Spendenverhalten reglementiert sowie Profosen und Dorfwachen zur Bestrafung von Übertretungen aufgefordert (2). Geregelt wird ausserdem das Geben von sogenannten Zehrpfennigen an durchreisende Handwerksgesellen sowie die Zulässigkeit von Steuerbriefen und Brandbriefen (3, 4). Gemeinden müssen weiterhin für ihre eigenen Armen selbst aufkommen (Heimatprinzip). Pfarrer und Stillstände sollen zudem alle Ausgaben für die Armen korrekt aufschreiben und dafür sorgen, dass alle Kinder die Schule und Kinderlehre besuchen (5). Almosenempfänger sind zwar von der Gemeindeversammlung ausgeschlossen, dürfen aber die Allmenden nutzen, auf welchen die Gemeinden fruchtbare Pflanzen anbauen sollen (6, 7). Die Armen werden zur Arbeit angehalten. Es werden Heiratseinschränkungen zur Verhinderung von Ehen mittelloser Personen aufgeführt. Fremde Frauen müssen in der Stadt 300 und auf der Landschaft 200 Gulden in die Ehe einbringen (8).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 19 S.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1693-03-13"/></origin></history><additional><listBibl><head>Edition</head><bibl>SBPOZH, Bd. 3, Nr. 4, S. 53-71</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 925, Nr. 1247</bibl><bibl>VD17 23:681750W</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key005358">Armenversorgung</term><term ref="key004749">Ausbildung</term><term ref="key003398">Aussteuer</term><term ref="key000581">Bettler</term><term ref="key000863">Ehe</term><term ref="key000961">Gesellen</term><term ref="key004196">Kinder/Jugendliche</term><term ref="key000574">Rechnungswesen</term><term ref="key004079">Spenden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1" facs="StAZH_III_AAb_1_6__Nr__10__S__01_.tif"/>
+<head><lb/>Mandat und <lb/>Ordnung / <lb/>Unserer Gnaͤdigen Herren / <lb/><orgName ref="org002406">Burgermeister / Klein und Grossen <lb/> Raͤhten der Statt <placeName ref="loc000065">Zuͤrich</placeName></orgName> / wie der Hoch-be<lb break="no"/>schwaͤrliche Gassen-Baͤttel auß ihrer Statt / Lan<lb break="no"/>den und Gerichten allerdings abgeschaffet / und hingegen <lb/>die Recht-wuͤrdigen Armen des Lands um so vil <lb/>besser und trostlicher versorget <lb/>werden moͤgen</head>
+<p><figure type="woodcut"/></p>
+<p>Getruckt im Jahr Christi / <origDate when="1693">1693</origDate>.</p>
+<pb n="2" facs="StAZH_III_AAb_1_6__Nr__10__S__02_.tif"/>
+<pb n="3" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__03_.tif"/>
+<div><p><seg><lb/>Wir <orgName ref="org002406">Burgermeister /
+ <lb/>Klein und groß Raͤhte / so
+ <lb/>man nennet die Zweyhundert der
+ <lb/>Statt <placeName ref="loc000065">Zuͤrich</placeName></orgName>; Entbieten hie<lb break="no"/>mit
+ allen und jeden Unseren An<lb break="no"/>gehoͤrigen
+ und Underthanen zu
+ <lb/>Statt und Land Unseren guͤnstigen Willen und alles
+ <lb/>Guts / auch darbey zuvernemmen; Demnach Wir
+ <lb/>auß obligender Obrigkeitlicher Amts-Pflicht von
+ <lb/>zeit zu zeiten vil und gute heilsame Mandat und Ord<lb break="no"/>nungen
+ wider den unverschamten und hoch-be<lb break="no"/>schwaͤrlichen
+ Gassen-Baͤttel / welcher under dem
+ <lb/>Volck Gottes nicht solte gefunden werden / gemachet
+ <lb/>und in offnen Truck kommen lassen / und aber (Lei<lb break="no"/>der!)
+ im Werck selbst vilfaltig erfahren muͤssen / daß
+ <lb/>derenselben ungeachtet der Unehrbahre Gassen-Baͤt<lb break="no"/>tel
+ so wol von Lands-Einheimschen als Froͤmden
+ <lb/>Mann- und Weibspersohnen / so weit zu- und uͤber<lb break="no"/>hand
+ genommen / daß bald alle Strassen und Gas<lb break="no"/>sen
+ zu Statt und Land von umschweiffendem muͤs<lb break="no"/>siggehendem
+ Baͤttel-Gesind angefuͤllt / und hiemit
+ <lb/>maͤnniglich mit demselben sich hoͤchst / und nunmehr
+ <lb/>unerschwinglich beschwaͤrt und uͤberladen befindt;</seg>
+<seg><lb/>Als haben wir / disem unverschamten Gewuͤhl mit
+ <pb n="4" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__04_.tif"/>
+<lb/>kraͤftigerem Eifer als noch niemahlen beschehen ab<lb break="no"/>zuhelffen /
+ und in dem Trost- und gantz Vaͤtterlichen
+ <lb/>Absehen / daß die Recht-wuͤrdigen Armen / welche
+ <lb/>uns Gott der Herr in seinem Heiligen Wort zu al<lb break="no"/>lem
+ Mitleiden und Handreichung so ernstlich / und
+ <lb/>mit versprochener hohen Gnaden-Vergeltung / anbe<lb break="no"/>fohlen /
+ in ihrer Armuth desto huͤlfflicher erquikt wer<lb break="no"/>den
+ moͤgen / etwelche Verordnete außgeschossen / mit
+ <lb/>dem Befehl / daß sie eine eigentliche und genaue un<lb break="no"/>tersuchung
+ aller Armen auf Unserer Landschaft von
+ <lb/>Gemeinden zu Gemeinden fuͤr die hand nemmen /
+ <lb/>und die beschaffenheit jeder Almosens-wuͤrdiger
+ <lb/>Haußhaltungen / auf wie vil Persohnen dieselben be<lb break="no"/>stehen /
+ was Alters und Geschlechts jede / mit was
+ <lb/>fuͤr Hand-arbeit sie etwas / und wie vil / <date dur="R/P1W">Wuchentlich</date>
+<lb/>gewuͤnnen koͤnnen; Deßgleichen was sie an <date dur="R/P1Y">Jahr</date>-
+ <lb/><date dur="R/P1M">Monat</date>- oder <date dur="R/P1W">Wuchentlichem</date> Almosen / es seye auß
+ <lb/>Unseren Aemteren / oder von den Kirchen- Gemeind-
+ <lb/>Spend- und Saͤckli-Guͤteren / oder auch durch frey<lb break="no"/>willige
+ Beysteur und zusammenschuß hablicher Ge<lb break="no"/>meinds-genossen /
+ an Brot / Maͤhl / oder Gelt / genies<lb break="no"/>sen /
+ und was in jede Gemeind zu vollkomnem Trost
+ <lb/>ihrer Armen / es seye hier oder dorther / noch weiters
+ <lb/>vonnoͤthen seyn moͤchte; und endlich von was fuͤr er<lb break="no"/>tragenheit
+ die Kirchen- Gemeind- und Capellen-
+ <lb/>Guͤter jedes orts seyen / erkundigen sollen: Wann
+ <lb/>dann nun ermeldte Verordnete / zu Unserem sonde<lb break="no"/>ren
+ vernuͤgen / in disem gottseligen Werck allen muͤg<pb n="5" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__05_.tif"/><lb break="no"/>lichsten
+ Fleiß / Muͤh und Sorge vil zeitlang ange<lb break="no"/>wendt /
+ auch folgends die befindtnuß mit Unseren
+ <lb/>Ordinari-Almosen-Pflegeren wol uͤberlegt / und zu<lb break="no"/>gleich
+ mit ihnen einen Rahtschlag abgefasset / wie al<lb break="no"/>les /
+ zum Trost der wuͤrdigen Armen / in eine bessere
+ <lb/>Ordnung eingerichtet werden koͤnte / welchen Sie
+ <lb/>Uns auch in Unserer heutigen <orgName ref="org004906">Grossen Rahts</orgName>-Ver<lb break="no"/>samlung
+  gebuͤhrend hinterbracht;<note>Vgl. das Ratsmanual des Unterschreibers vom 13. März 1693 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244900">StAZH B II 641</ref>, S. 103-105</bibl>).</note> Als haben Wir
+ <lb/>Uns denselben in allen seinen Puncten und Articklen
+ <lb/>gnaͤdig gefallen lassen: Und ist deßwegen Unser gantz
+ <lb/>Ernstlicher Will / Meinung und Befehl.</seg></p></div>
+<div><ab type="marginal note" place="right margin"><lb/>Abstel<lb break="no"/>lung des <lb/>Gassen<lb break="no"/>baͤttels.</ab></div><p>
+ <seg n="1"><lb/>Erstlich / daß von nun an gar niemand mehr / er
+ <lb/>were Froͤmder oder Heimscher / weder in unserer Statt
+ <lb/>allhie noch auf der Landschaft / oder anderstwo aussert
+ <lb/>Unseren Landen und Gerichten / Heuschen und Baͤtt<lb break="no"/>len /
+ sonder ein jeder und jede sich dessen / so ihme zum
+ <lb/><date dur="R/P1M">Monat</date>- oder <date dur="R/P1W">Wuchentlichen</date> Almosen bestimmet ist /
+ <lb/>vernuͤgen solle; Massen Wir allerdings gehebt ha<lb break="no"/>ben
+ wollen / daß dises Landschweiffende Baͤttlen / als
+ <lb/>welches eine lautere schaͤdliche gewohnheit ist / dar<lb break="no"/>durch
+ die Leuthe von der Arbeit und Gottesdienst ab<lb break="no"/>gezogen
+ und zum Muͤssiggang gewehnt werden /
+ <lb/>gaͤnzlich abgestellt seyn und verbleiben soͤlle; Die<lb break="no"/>weilen;
+ wann Wir solchem grossen Ubel laͤnger
+ <lb/>zusehen wurden / anders nichts darauß erfolgen koͤn<lb break="no"/>te /
+ als daß Unser Land endlich mit einer grossen anzahl
+ <lb/>Unnuͤtzen / Leichtfertigen Diebs- und Strolchen-Ge<lb break="no"/>sinds /
+ welches von Gott und seinem Wort nichts 
+  <pb n="6" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__06_.tif"/>
+<lb/>wuͤßte / zu umleidenlichem uͤberdrang der Ehrbarkeit /
+ <lb/>angefuͤllt wurde: Damit aber dises Unser wolmein<lb break="no"/>liches
+ Ansehen nunmehr mit besserem Nachtruck und
+ <lb/>gehorsame / als (Leider!) bis dahin beschehen / begleitet
+ <lb/>werde / so werden Wir auch mit mehrerem ernst als
+ <lb/>noch niemahlen beschehen darob halten / und alle die
+ <lb/>jenige / Junge und Alte / Mann- und Weibs-Persoh<lb break="no"/>nen /
+ Froͤmde und Heimsche / so dem Baͤttel weiters
+ <lb/>nachziehen wurden / gleich nach verkuͤndung gegen<lb break="no"/>wuͤrtigen
+ Mandats auf betretten / mit abschlag des
+ <lb/>Almosens / so sie dessen geniessen / abstraffen; wann
+ <lb/>sie aber nichts geniessen / auf dem Land zwahren / sie
+ <lb/>mit fuͤrstellung fuͤr die <orgName ref="org005055">Stillstaͤnd</orgName> und der Truͤllen /
+ <lb/>in der Statt aber das erste mahl mit der Ruthen oder
+ <lb/>Rinder-Schweiff / in Unserem <orgName ref="org005152">Oetenbach</orgName> zuͤchtigen /
+ <lb/>das andere mahl aber an das <orgName ref="org005152">Schellen-Werck</orgName> schla<lb break="no"/>gen
+ lassen / und das dritte mahl gar auß Unseren Lan<lb break="no"/>den
+ und Gebieth verschicken: und unter disem Ver<lb break="no"/>bott /
+ wollen Wir auch begriffen haben / das unehrbah<lb break="no"/>re
+ gelaͤuff und heuschen an der <date type="floating holiday">Faßnacht</date> / und <date type="holiday" when="--01-01">Neu-<lb/>Jahrs-Tagen</date> / welches allerdings abgeschaffet seyn
+ <lb/>solle.</seg></p>
+<div><ab type="marginal note" place="left margin"><lb/>Sonder<lb break="no"/>lich jun<lb break="no"/>gen Kna<lb break="no"/>ben und Meidt<lb break="no"/>lenen.</ab></div>
+<p><lb/>Und weilen insonderheit / es je laͤnger je mehr uͤber<lb break="no"/>hand
+ nemmen wil / daß junge Knaben und Meidtli
+ <lb/>ohne einiges scheuhen dem Baͤttel dergestalten nach<lb break="no"/>haͤngen /
+ daß sie auch so gar des Tags des Herren und
+ <lb/>des offentlichen Gottesdiensts nicht verschohnen /
+ <lb/>sonder sich darvon muthwillig entaͤusseren / auch das
+ <pb n="7" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__07_.tif"/>
+<lb/>erbaͤttlete mehrentheils unnuͤtziglich verschwenden /
+ <lb/>ja etwann gar verspillen / so daß sie endlich zu schandt<lb break="no"/>lichen
+ Muͤssiggaͤngeren werden muͤssen / Als ist Unser
+ <lb/>gantz ernstlicher Will und Meinung / daß die Seel<lb break="no"/>sorger
+ und Stillstaͤnder jedes orts / Ihnen sonderlich
+ <lb/>angelegen seyn lassen / die schwaͤre diser Sünd den
+ <lb/>Haußvaͤtteren bey den Hauß-suchungen / mit gezim<lb break="no"/>mendem
+ ernst vorzustellen / und genaue aufsicht zu<lb break="no"/>halten /
+ ob dergleichen Knaben und Meidtli die Pre<lb break="no"/>digen /
+ Kinderlehren und Schuhlen auch fleissig besu<lb break="no"/>chen
+ thuͤgen / oder nicht / und im fahl solches nicht be<lb break="no"/>schehe /
+ und sie sich durch eiferiges vermahnen und be<lb break="no"/>straffen
+ von dem schandtlichen Baͤttel nicht abhalten
+ <lb/>lassen wolten / sie zu mehrer Zuͤchtigung allhero in
+ <lb/>Unseren <orgName ref="org005152">Oetenbach</orgName> schicken: Welche meinung Wir
+ <lb/>auch haben / desjenigen jungen Volcks halben / so den
+ <lb/>Reisenden durch die Doͤrffer mit einem gantz unver<lb break="no"/>schamten /
+ den Froͤmden aͤrgerlichen und unleidenli<lb break="no"/>chen
+ nachgelaͤuff überlegen seyn; welches Wir hie<lb break="no"/>mit
+ auch gaͤntzlich / bey einer wolverdienten Straff /
+ <lb/>abgestelt und Verbotten haben wollen.</p>
+<div><ab type="marginal note" place="left margin"><lb/>Verbott <lb/>des auß<lb break="no"/>werffens des Al<lb break="no"/>mosens.</ab></div>
+ <seg n="2"><p><lb/>Dieweilen aber / Zum Anderen / die erfahrung /
+ <lb/>die Zeit und Jahrhero ein unwidersprechlicher Zeug
+ <lb/>gewesen / daß man zu gaͤntzlicher abschaffung des un<lb break="no"/>verschamten
+ Gassen-Baͤttels zu Statt und Land nie<lb break="no"/>mahlen
+ gelangen moͤgen / alldieweil man des hinauß<lb break="no"/>werffens
+ des Almosens bey den Haͤusern und Laͤden
+ <lb/>sich nicht gemuͤssiget / und uͤbel zubesorgen / daß es diß<pb n="8" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__08_.tif"/><lb break="no"/>mahlen
+ widerum also ergehen moͤchte / deßwegen so
+ <lb/>Erinneren / Vermahnen und Wahrnen Wir Unsere
+ <lb/>Angehoͤrige zu Statt und Land auf das beweglichst
+ <lb/>und zum trefflichsten / daß Sie dise Unsere Neu-ange<lb break="no"/>sehene
+ nutzliche und ersprießliche Almosens-Ord<lb break="no"/>nung /
+ kraft welcher Wir solche anstalten / mit vermeh<lb break="no"/>rung
+ des <date dur="R/P1M">Monat</date>- und <date dur="R/P1W">Wuchentlichen</date> Almosens auß
+ <lb/>Unseren Aemtern / und sonsten anderwerts / gema<lb break="no"/>chet /
+ daß die wuͤrdigen Armen gewuͤßlich genugsam
+ <lb/>versorget seyn werden / gebuͤhrend / pflichtig und schul<lb break="no"/>diger
+ massen ihrer seits auch beobachten sollen; In
+ <lb/>reiffer betrachtung / daß durch solches hinaußwerffen
+ <lb/>der unverschamte Baͤttel nur gezuͤchtet / gute Ord<lb break="no"/>nungen
+ zerruͤttet / auch dem Baͤttler an und fuͤr sich
+ <lb/>selbst auch nicht geholffen wird; dann so lang man
+  <lb/>ihme gibt / so lang verlaßt er sich darauf / und bleibt
+  <lb/>ein Baͤttler / ja zeucht auch seine Kinder darzu; da
+  <lb/>sonsten / wo man ihne abweisen thaͤte / er und die seini<lb break="no"/>gen
+  sich auf ehrliche Arbeit legen / oder aber ihr noth
+  <lb/>und Armuth an gebuͤhrenden Orten eroͤffnen / und
+  <lb/>um huͤlff und Handreichung bitten wurden; Neben
+  <lb/>deme Uns das Wort Gottes und die Christliche Ord<lb break="no"/>nung
+  dahin weiset / daß Wir unser Almosen nicht also
+  <lb/>offentlich hinauß werffen / sonder in geheim und stille /
+  <lb/>und zwahren an seinen gebuͤhrenden und gewohnli<lb break="no"/>chen
+  Orten / mittheilen sollen: und wollen hiemit /
+  <lb/>daß nicht allein von sonderbaren Persohnen zu Statt
+  <lb/>und Land ein jeder und jede sich alles hinaußwerffens
+  <pb n="9" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__09_.tif"/>
+<lb/>des Almosens bey den Haͤuseren und Laͤden gaͤntzlich
+  <lb/>muͤssigen und enthalten / hingegen seine Christenliche
+  <lb/>Handreichung in das Saͤckli legen / und versichert
+  <lb/>seyn solle / daß solches ordenlich / sorgfaͤltig und in be<lb break="no"/>sten
+  treuen / an die Recht-wuͤrdigen Armen werde ver<lb break="no"/>wendt
+  werden; sonder ist auch Unser Meinung / daß
+  <lb/>von nun an alles unordenliche außtheilen des so wol
+  <lb/><date dur="R/P1D">taͤglichen</date> Almosens / als auch an den hohen Faͤsten
+  <lb/>und <date when="--12-31">Neu-Jahr-Abenden</date> / dessen so wol wuͤrdige als
+  <lb/>unwuͤrdige ohne underscheid genossen / bey Unseren
+  <lb/>Almosens-Aemteren zu Statt und Land allerdings
+  <lb/>aufgehebt werden solle; wie dann auch Wir an den
+  <lb/><date dur="R/P1M">Monatlichen</date> Pfleger-Tagen keine Extraordinari-
+  <lb/>Handreichungen mehr außgeben / hingegen dasjenige
+  <lb/>alles / so dardurch erspahrt wird / in die Gemeinden /
+  <lb/>zum trost der wuͤrdigen allein / zu einem bestaͤndigen
+  <lb/>Almosen vertheilen lassen werden.</p></seg>
+<div><ab type="marginal note" place="right margin"><lb/>Profo<lb break="no"/>sen und Dorff<lb break="no"/>wachten.</ab></div>
+<p>
+<lb/>Damit aber disem Unserem so Vaͤtter- und wol<lb break="no"/>meinlichem
+ Ansehen destomehrer gehorsam geleistet
+ <lb/>werde / und statt beschehen thuͤge / so ist Unser ernstlicher
+ <lb/>Befehl / daß die Profosen in Unserer Statt ihre Pflicht
+ <lb/>und schuldigkeit besser als bis dahin in acht nemmen /
+ <lb/>und jeder in seinem Bezirck fleissig herum gehen / die
+ <lb/>Baͤttler / so sie betretten moͤchten / anhalten / alsobald in
+ <lb/>Unser <orgName ref="org005152">Zuchthauß</orgName> fuͤhren / und sich durch keinerley vor<lb break="no"/>wand
+ oder widersetzlichkeit derenselben darvon ab<lb break="no"/>wendig
+ machen lassen / auch diejenigen / was Stands
+ <lb/>sie immer weren / so den Baͤttleren etwas hinauß werf <pb n="10" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__10_.tif"/><lb break="no"/>fen
+ wurden / Unsern Verordneten zur Auffsicht des
+ <lb/>Grossen Mandats<note>Gemeint ist das Grosse Mandat von 1691 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3294114">StAZH III AAb 1.5, Nr. 61</ref></bibl>).</note> leiden / und dieselben solche uͤber<lb break="no"/>trettere
+ mit <measure type="currency" unit="lb" quantity="20">Zwaͤnzig Pfunden</measure> unnachlaͤßlicher Buß<note>Im Ratsmanual des Unterschreibers vom 13. März 1693 sind 25 Pfund als Busse notiert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244900">StAZH B II 641</ref>, S. 104</bibl>).</note>
+<lb/>ansehen sollen; widrigen fahls / und da der ein oder
+ <lb/>andere sich in seinem Dienst saumselig erzeigen wur<lb break="no"/>de /
+ werden Wir solche nicht allein desselben ohne alle
+ <lb/>Gnad entsetzen / sonder auch mit Gefangenschaft und
+ <lb/>anderer fehrnerer straff ansehen: Was aber die Land<lb break="no"/>schaft
+ betrift / sittenweilen die erfahrung gelehret /
+ <lb/>daß / so lang man in den Gemeinden die Dorffwach<lb break="no"/>ten
+ fleissig gehalten / man des Gassen-Baͤttels aller<lb break="no"/>dings
+ loß werden koͤnnen / so bald aber darmit aufge<lb break="no"/>hoͤrt
+ worden / der Baͤttel sich nach und nach widerum
+ <lb/>in die Doͤrffer hinein gelassen / Als ist Unser gantz ei<lb break="no"/>gentlicher
+ Will und Meinung / daß von stund an die
+ <lb/>Dorffwachten / als eine hochnothwendige / und den
+ <lb/>Gemeinden selbs zu grossem nutzen reichende Sach /
+ <lb/>so wol <time period="byDay">Tags</time> als <time period="byNight">Nachts</time> widerum angestellt / und dar<lb break="no"/>mit
+ unaufhoͤrlich fortgefahren / und also durch dises
+ <lb/>Mittel der Baͤttel auß dem Land geschaffet werden
+ <lb/>solle: und werden Unsere Land- und Obervoͤgt hiemit
+ <lb/>alles ernsts erinneret / daß sie genaue aufsicht bestel<lb break="no"/>len /
+ damit diese so heilsame Ordnung steiff observiert
+ <lb/>und gehalten / und solcher massen eingerichtet werde /
+ <lb/>wie es bey theils Gemeinden schon ruhmlich / und mit
+ <lb/>wol-erschiessendem Nutzen beschehen; Und / da hier<lb break="no"/>unter
+ einige Nachlaͤssigkeit verspuͤrt wurde / die Vor<lb break="no"/>gesetzten
+ der Gemeinden mit einer unnachlaͤßlichen
+<pb n="11" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__11_.tif"/>
+<lb/>Gelt-Buß ansehen; Insonderheit sollen sie an den
+ <lb/>Paͤssen / bey den Bruggen und Fahren fleissige anord<lb break="no"/>nung
+ bestellen / daß daselbsten kein Baͤttel-Volck in
+ <lb/>das Land gelassen / sonder sie mit allem ernst darvon
+ <lb/>ab- und zuruck gewiesen werden. Und wann etwann
+ <lb/>deren leichtfertigen Leuthen sich erzeigten / welche sich
+ <lb/>vom Baͤttlen nicht abhalten lassen wolten / sonder /
+ <lb/>wie etwann geschihet / gefahrliche betraͤuwungen fal<lb break="no"/>len
+ liessen / ist Unser ernstlicher Befehl / daß solche ohne
+ <lb/>einiche Gnad handvest gemachet / und verwahrlich
+ <lb/>an allhiesiges <orgName ref="org005152">Schellenwerck</orgName> geschikt werden sollen.</p>
+<div><ab type="marginal note" place="right margin"><lb/>Handt<lb break="no"/>wercks- <lb/>Gesel<lb break="no"/>len.</ab></div>
+ <seg n="3"><p>
+<lb/>Was dann / Drittens / die Handtwerks-Gesel<lb break="no"/>len
+  betrift / ist Unser Will und Meinung / daß / nach
+  <lb/>lauth Unserer hievor gemachter Ordnungen / ihnen
+  <lb/>bey denen von den Landt-Strassen entlegenen Ge<lb break="no"/>meinden
+  nichts gegeben / sonder sie an die Haubt-<lb/>Strassen
+  und den Staͤtten zugewiesen / bey ihrem
+  <lb/>durchpaß aber ihnen auß den Kirchen und Gemeind-<lb/>Guͤteren
+  ein Zehrpfaͤnning mitgetheilt werden moͤ<lb break="no"/>ge /
+  da im uͤbrigen sie sich des Baͤttlens und Heu<lb break="no"/>schens
+  bey den Haͤuseren / bey obbestimter Straff / al<lb break="no"/>lerdings
+  muͤssigen und enthalten: und werden Unse<lb break="no"/>re
+  Land- und Obervoͤgt bey ablegung der Kirchen-
+  <lb/>und Gemeind-Rechnungen deren erwehnter mas<lb break="no"/>sen
+  abgelegener Gemeinden fleissige obsicht halten /
+  <lb/>daß dergleichen Zehr-Pfaͤnning nicht darein gebracht
+  <lb/>noch gut geheissen werden.</p></seg>
+<pb n="12" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__12_.tif"/>
+<div><ab type="marginal note" place="left margin"><lb/>Brand- <lb/>und Steur-<lb/>Brief.</ab></div>
+ <seg n="4"><p><lb/>Belangend / Zum Vierten / diejenigen Persoh<lb break="no"/>nen /
+ so etwann mit Brand- und anderen Steur-
+ <lb/>Briefen sich bey den Kirchen-Dieneren und Gemein<lb break="no"/>den
+ anmelden / dieweilen offentlich am Tag ligt / daß
+ <lb/>mehrentheils betrug darmit underlauft / und denen
+ <lb/>Kirchen- und Gemeind-Guͤteren eine grosse be<lb break="no"/>schwerd
+ aufwachßt; da doch durch vilfaltige / von
+ <lb/>gesamten Loblichen Orthen der <placeName ref="loc000153">Eidgnoßschaft</placeName> ge<lb break="no"/>machte
+ Abscheid<note>Vgl. den eidgenössischen Abschied von 1673 (<bibl><ref target="/startseite/literaturverzeichnis">EA</ref>, <ref target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/1290033">Bd. 6/1, Nr. 567l</ref></bibl>).</note> heiter vorgesehen ist / daß man ein<lb break="no"/>anderen
+ mit dergleichen Steur-Briefen nicht uͤber<lb break="no"/>laͤstig
+ seyn solle; Als wollen Wir hiemit alles ernsts
+ <lb/>abgestrikt und verbotten haben / daß uͤberal niemand /
+ <lb/>wer der were / ohne Unsere außtruckenliche Bewilli<lb break="no"/>gung
+ und Erlaubnuß / mit einichen Brand- oder an<lb break="no"/>deren
+ <lb/>Steur-Briefen / weder in Unserer Statt noch
+ <lb/>auf dem Land herum gehen / noch einiche Steuren zu<lb break="no"/>erbaͤttlen /
+ befuͤgt seyn / sonder sie aller Orthen mit
+ <lb/>freundtlichkeit ab- und an Uns gewisen werden sollen;
+ <lb/>da dann / wann jemandem / es seyen Privat-Persoh<lb break="no"/>nen
+ oder Gemeinden / auß leidender und wolbekand<lb break="no"/>ter
+ Noth obgelegen were eine Steur zusamlen / Wir
+ <lb/>jederzeit / nach der Sachen wahrhafter befindtnuß /
+ <lb/>das jenige thun und erlauben werden / worzu die
+ <lb/>Christenliche liebe Uns anweisen und ermahnen wird.</p></seg>
+<div><ab type="marginal note" place="left margin"><lb/>Pflicht <lb/>der Ge<lb break="no"/>meinden <lb/>Seelsor<lb break="no"/>gern und <lb/><orgName ref="org005055">Still<lb break="no"/>staͤnden</orgName>.</ab></div>
+ <seg n="5"><p><lb/>Wann nun vorerzelter massen der Gassen-Baͤt<lb break="no"/>tel
+ allerdings abgestellt seyn und verbleiben soll / So
+ <lb/>ist dann fehrners / und Zum Fuͤnften / Unsere Mei<pb n="13" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__13_.tif"/><lb break="no"/>nung
+  und Befehl / finden es auch das allerfuͤglichste /
+  <lb/>sicherste und bestaͤndigste Mittel zu erhaltung der
+ <lb/>wuͤrdigen Armen seyn / daß / nach dem wol erschiessen<lb break="no"/>den
+ Exempel anderer Orthen Loblicher <placeName ref="loc000153">Eidgnoß<lb break="no"/>schaft</placeName> /
+ und nach der schon bey ein und anderer Ge<lb break="no"/>meinde
+ eingefuͤhrter uͤbung / die Verpflegung der Ar<lb break="no"/>men
+ in ihre Gemeinden gaͤntzlich eingeschrancket /
+ <lb/>und jeder derselbigen uͤberlassen seyn solle die Ihrigen
+ <lb/>mit Nothurft zuversorgen; da Wir dann denen je<lb break="no"/>nigen
+ <lb/>Gemeinden / welche mit keinen Kirchen- oder
+ <lb/>anderen Gemeinen Guͤteren versehen / oder dieselben
+ <lb/>zu erhaltung der Armen nicht erklaͤcklich genug seyn /
+ <lb/>weiters so wol mit Continuation des <date dur="R/P1W">Wuchent</date>- und
+ <lb/><date dur="R/P1M">Monatlichen</date> Almosens und desselben vermehrung /
+ <lb/>nach gegenwuͤrthiger Zeiten ellender beschaffenheit /
+ <lb/>als auch mit anderwerthiger fehrnerer Handrei<lb break="no"/>chung /
+ allwo es die unentbehrliche Nothwendigkeit
+ <lb/>erforderet / auß Unseren Almosens-Aemteren unter
+ <lb/>die Aerm greiffen werden.</p>
+<seg><p><lb/>Damit aber dannethin solches Almosen auf<lb break="no"/>richtig /
+ unpartheyisch und gewuͤssenhaft under die
+ <lb/>wuͤrdigen Armen außgetheilt werde / So ist fehrners
+ <lb/>Unser gantz ernstlicher Befehl / daß / zu schuldiger
+ <lb/>Folgleistung Unserer hievor deßhalben gemachter
+ <lb/>heilsamer Ordnungen / kein Pfarrer hinderrucks des
+ <lb/><orgName ref="org005055">Stillstands</orgName> / noch der <orgName ref="org005055">Stillstand</orgName> hinderrucks des
+ <lb/>Pfarrers / einiches Almosen außtheilen / sonder Sie
+ <lb/>an disem Geschaͤft jederzeit mit gemeinem Rath und
+ <pb n="14" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__14_.tif"/>
+<lb/>in gutem vertrauen mit einanderen handlen; auch
+ <lb/>alles Almosen in den Kirchen / und nicht mehr in den
+ <lb/>Pfarr- oder anderen Haͤuseren / außgetheilt / und kei<lb break="no"/>nem
+ gegeben werden solle / er holle es dann selbs / und
+ <lb/>nicht durch die seinigen: und wird ein jeder Seelsor<lb break="no"/>ger
+ alles was Er außgibt specificierlich zuverzeich<lb break="no"/>nen
+ wuͤssen / damit / wann Unsere Land- und Ober<lb break="no"/>voͤgt /
+ oder die Herren Decani bey denen <date dur="R/P6M">Halb-Jaͤh<lb break="no"/>rigen</date>
+ Visitationen (wie dann solches Ihr Pflicht
+ <lb/>seyn sol / ) Rechnung von Ihnen forderen werden /
+ <lb/>Sie solches mit freuden thun koͤnnen.</p></seg>
+<p><lb/>Es sollen auch die Pfarrer und Stillstaͤnder auf
+ <lb/>die Armen Ihrer anvertrauten Gemeinden fleissige
+ <lb/>achtung geben / ob sie ihr mitgetheiltes Almosen recht
+ <lb/>und wuͤrdiglich brauchen und anwenden / der Arbeit
+ <lb/>emsig obligen / und auch ihre Kinder darzu anhalten
+ <lb/>und ziehen / und dieselben fleissig in die Schul schicken /
+ <lb/>auch ob sie die Predigen und Kinderlehren stets besu<lb break="no"/>chen;
+ damit nicht etwann heillose Muͤssiggaͤnger
+ <lb/>oder uͤppige Verschwender dessen geniessen / was ei<lb break="no"/>gentlich
+ zum trost wuͤrdiger Noth- und Mangel lei<lb break="no"/>dender
+ gewidmet ist: Und im fahl der ein oder andere
+ <lb/>in einichem diser Stucken saumselig erfunden / moͤ<lb break="no"/>gen
+ Sie ihnen / wie auch denen so sonsten ohne das
+ <lb/>mehr als sie beduͤrftig vom Almosen geniessen / dar<lb break="no"/>mit
+ abbrechen / und es anderen wuͤrdigen etwas zeits
+ <lb/>lang mittheilen; da sie dann die Erwachßnen und
+ <lb/>zum dienen taugenlichen Persohnen ehrliche Handar<pb n="15" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__15_.tif"/><lb break="no"/>beit
+ zuerlehrnen / oder einem Meister zu dienen wei<lb break="no"/>sen /
+ und ihnen hierzu alle noͤthige anleitung geben
+ <lb/>sollen / damit sie dem Almosen weiters nicht be<lb break="no"/>schwaͤrlich
+ seyen.</p></seg>
+<div><ab type="marginal note" place="right margin"><lb/>Auß<lb break="no"/>schlies<lb break="no"/>sung der <lb/>Almo<lb break="no"/>sensge<lb break="no"/>noͤssigen <lb/>von den <lb/>Gemein<lb break="no"/>den.</ab></div>
+ <seg n="6"><p><lb/>Bey disem allem wollen Wir / daß keiner Unse<lb break="no"/>rer
+ Angehoͤrigen zu Statt und Land / welcher das ge<lb break="no"/>wohnliche
+ Almosen empfahet / in einiche Gemeinds-
+ <lb/>Versamlung / darinn zu einer Sach zuminderen oder
+ <lb/>zumehren / nicht beruͤft / sonder darvon außgeschlos<lb break="no"/>sen
+ werden solle / jedoch daß solches im uͤbrigen ihme
+ <lb/>an seinen Ehren und guten Nammen unaufheblich /
+ <lb/>und an Nutzung der Gemeinds-Gerechtigkeit in
+ <lb/>Holtz und Feld unnachtheilig seye.</p></seg>
+<div><ab type="marginal note" place="right margin"><lb/>Anlei<lb break="no"/>tung für <lb/>die Ge<lb break="no"/>meinden.</ab></div>
+ <p><seg n="7"><lb/>Damit aber der grosse und fast unerschwingli<lb break="no"/>che
+ <lb/>Last / welchen Unsere Aemter tragen / und Wir
+ <lb/>gern noch weiters uͤber Uns nemmen werden / in die
+ <lb/>harr nicht gar zu schwer falle / So ist Unser ernst-wol<lb break="no"/>mein-
+ und Vaͤtterliches gesinnen / daß die Gemein<lb break="no"/>den
+ auf Unserer Landschaft / nach dem Segen so Gott
+ <lb/>einem jeden gegonnen / das ihrige hierbey auch erstat<lb break="no"/>ten /
+ und ihrer schuldigen Christen-Pflicht der Armen
+ <lb/>halb nicht vergessen: Welches sie dann um so vil de<lb break="no"/>sto
+ leichter werden thun koͤnnen / wann sie auf hernach
+ <lb/>folgende Anleitung fleissig achtung geben / und das
+ <lb/>ein und andere darauß zum Werck zubringen trach<lb break="no"/>ten
+ werden / gleich es sich auch schon bey unterschidli<lb break="no"/>chen
+ Gemeinden / zu derenselben grossen Nutzen / ein<lb break="no"/>gefuͤhrt
+ befindet:</seg>
+<seg>Benantlichen / daß sie ihre Ge<pb n="16" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__16_.tif"/><lb break="no"/>meind-Guͤter
+ je mehr und mehr in das aufnemmen
+ <lb/>zubringen bedacht seyen / in dem sie eintweders von
+ <lb/>den grossen Gemeindwerchen etwas aufbrechen und
+ <lb/>Anbluͤhmen / und die danahen beziehende Nutzung
+ <lb/>in den gemeinen Seckel legen / oder aber bey guten und
+ <lb/>gesegneten Jahrgaͤngen / zu <date period="fall">Herbst</date>- und Ernds-Zei<lb break="no"/>ten /
+ je nach jedes vermoͤgen / geringe und unempfindt<lb break="no"/>liche
+ Anlagen an Wein und Kernen machen / deß<lb break="no"/>gleichen
+ auf den gemeinen Allmenten und anderer
+ <lb/>Orthen fruchtbare Baͤum zupflantzen sich je mehr
+ <lb/>und mehr befleissen; welches dann bey vilen Gemein<lb break="no"/>den /
+ so solches angestellt / bereits grossen Nutzen er<lb break="no"/>tragt;
+ und was dergleichen wol ersprießliche Mit<lb break="no"/>tel
+ mehr seyn; und was auf dise weis zusammen ge<lb break="no"/>legt
+ wird / das sol nicht allein auf die Noth der Ar<lb break="no"/>men /
+ sonder auch auf andere Nothwendigkeiten der
+ <lb/>Gemeinden warten / und darum ordenliche Rech<lb break="no"/>nung
+ gehalten werden:</seg>
+<seg>So sollen auch die Gemein<lb break="no"/>den /
+ in welchen es bemittlete Leuthe hat / zur unter<lb break="no"/>haltung
+ der Armen darinn weiters ihr bestes thun /
+ <lb/>daß sie eintweders mit aufheben des Almosen-Saͤck<lb break="no"/>leins
+ an den <date dur="R/P1WD">Sonntagen</date> / oder zum wenigsten an den
+ <lb/>hohen Faͤsten / oder aber mit <date dur="R/P1WD">Sonntaͤglicher</date> zusam<lb break="no"/>menschieß-
+ und außtheilung etwas Brots / oder an<lb break="no"/>deren
+ Huͤlffs-Mittlen / da man bey ein und anderen
+ <lb/>Gemeinden / zu Unserem vernuͤgen / dergleichen schon
+ <lb/>ruhmlich in vollen gang gebracht / der Noth dersel<lb break="no"/>ben
+ auch um etwas zu huͤlff kommen; worzu sie dann
+ <pb n="17" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__17_.tif"/>
+<lb/>von ihren Seelsorgeren (als an deren Eifer und
+ <lb/>vorsichtigkeit in disem Geschaͤft / wie Wir es selbst
+ <lb/>gesehen / das meiste gelegen seyn wil) stets ermahnet
+ <lb/>und aufgemunteret werden sollen.</seg></p>
+<div><ab type="marginal note" place="right margin"><lb/>Liederli<lb break="no"/>che Hauß <lb/>halter / <lb/>unzeiti<lb break="no"/>ge Ehen.</ab></div>
+<p><seg n="8"><lb/>Und wann dann endlich die Verpfleg- und ver<lb break="no"/>sorgung
+ der Armen auß dem was Wir auß Unseren
+ <lb/>Aemteren darreichen lassen / und auß den Kirchen- und
+ <lb/>Gemeind-Guͤteren / oder dem Zusammenschuß hab<lb break="no"/>licher
+ Leuthen wird beygefuͤgt werden / denen Ge<lb break="no"/>meinden
+ fuͤrohin gaͤntzlich und allein obligen wird /
+ <lb/>Als werden die Pfarrherren und Vorgesetzten deren<lb break="no"/>selben
+ hiemit von hoher Obrigkeits wegen gantz ernst<lb break="no"/>lich
+ erinneret und vermahnet / daß sie auf die Hauß<lb break="no"/>haltungen
+ in der Gemeind genaue aufsicht haben /
+ <lb/>und mit ermahnen und bestraffen Muͤssiggehende
+ <lb/>Leuth zur Arbeit und ehrlicher ergwuͤnnung ihres
+ <lb/>Stuck Brots anhalten / insonderheit aber auf die je<lb break="no"/>nigen
+ Liederlichen und Verthuͤigen / welche eintwe<lb break="no"/>ders
+ mit uͤberfluͤssigem Trincken und Zechen in den
+ <lb/>Wirthshaͤuseren / oder aber mit unnoͤthigem Gruͤ<lb break="no"/>tzen /
+ Maͤrkten / und Wein-Kaͤuffen das ihrige ver<lb break="no"/>schwenden /
+ gute achtung geben / und ihrer Liederlich<lb break="no"/>keit
+ nicht gar zu lang zuschauen / sonder sie / mit huͤlff
+ <lb/>und zuthun Unserer Land- und Obervoͤgten / bey zei<lb break="no"/>ten
+ Bevogten / und ihnen allen Gewalt nemmen thuͤ<lb break="no"/>gen:</seg>
+<seg>Deßgleichen sollen sie auch alles ernsts daran
+ <lb/>seyn / daß Unserem wider die unzeitigen Ehen Mittel<lb break="no"/>loser
+ Leuthen / welches eine rechte Haubt-quelle des
+ <pb n="18" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__18_.tif"/>
+<lb/>Baͤttels ist / vor der Zeit in offnem Truck außgegan<lb break="no"/>genem
+ Mandat<note>Möglicherweise wird auf das Mandat betreffend unzeitige Ehen von mittellosen Leuten aus dem Jahre <date when="1676">1676</date> verwiesen
+  (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3549836">StAZH III AAb 1.5, Nr. 14</ref></bibl>).</note> aller Orthen gehorsamlich nach<lb break="no"/>kommen /
+ und nicht zugelassen werde / daß einige Un<lb break="no"/>bemittlete
+ Leuthe / welche nicht ihr rechtes alter er<lb break="no"/>reicht /
+ und genugsam zeigen koͤnnen / daß sie sich und
+ <lb/>ihre etwann erzeugende Kinder ohne beschwerd der
+ <lb/>Gemeind werden erhalten koͤnnen / und dessen mit er<lb break="no"/>spar-
+ und zusammenlegung etwas Mittlen / so sie in
+ <lb/>ledigem Stand verdienet / wuͤrckliche proben von sich
+ <lb/>gegeben / in unzeitigen und unbedachten Ehestand zu<lb break="no"/>sammentretten
+ thuͤgen:</seg>
+<seg>Da insonderheit der Froͤm<lb break="no"/>den
+ Weibs-Persohnen halb nochmahlen heiter Un<lb break="no"/>sere
+ Meinung ist / daß keiner Unserer Burgeren sich
+ <lb/>mit einicher Froͤmden verheurathen / sie koͤnne ihme
+ <lb/>dann wenigstens <measure type="currency" quantity="300" unit="fl">Dreyhundert Guldin</measure> barer Mitt<lb break="no"/>len
+ zeigen / die auf der Landschaft aber keine der sol<lb break="no"/>chen
+ ehelichen / oder in ein Dorff bringen sollen / sie
+ <lb/>besitze dann auf das wenigste <measure unit="fl" quantity="200" type="currency">Zweyhundert Guldin</measure>:</seg>
+<seg><lb/>dann wofehrn wider verhoffen Sie die Vorgesetzten
+ <lb/>der eint und anderen halb sich saumselig erzeigen /
+ <lb/>und ihnen also zuschauen / hernach aber sie und ihre
+ <lb/>Kinder zu Armuth gerathen wurden / werden Wir
+ <lb/>selbige nicht mehr fuͤr Almosensgenoͤssige einschrei<lb break="no"/>ben
+ lassen / sonder ihre unterhaltung den Gemeinden
+ <lb/>lediglich uͤberlassen.</seg></p>
+<div><div><ab type="marginal note" place="left margin"><lb/>Beschluß</ab></div>
+<p><lb/>Und leben Wir der ungezweifenlichen guten hoff<lb break="no"/>nung /
+ wann diß Unser best-gemeintes Ansehen und
+ <lb/>Ordnung von maͤnniglichem der Unseren / wie Wir
+ <pb n="19" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__19_.tif"/>
+<lb/>Uns dessen zu ihnen versehen / mit willigem gehor<lb break="no"/>sam
+ werde observiert / erstattet / und demme geflissenlich
+ <lb/>nachgelebt werden / man werde dardurch dermahlen
+ <lb/>eins des so beschwerlichen Lasts des Gassen-Baͤt<lb break="no"/>tels /
+ und der gefahr und verderblichen Ungemachs /
+ <lb/>so derselbe endlich / wann nicht noch in Zeiten gesteu<lb break="no"/>ret
+ wurde / uͤber das gantze Vatterland ziehen koͤnte /
+ <lb/>loß und ledig werden; Hingegen aber wird darauß
+ <lb/>gewuͤßlich erfolgen / daß die wuͤrdigen Armen des
+ <lb/>Lands um so vil besser werden moͤgen erhalten / ver<lb break="no"/>sorget
+ und erquikt werden; wie zugleich auch ins ge<lb break="no"/>mein
+ und sonderbahr in dem Land so vil mehr Ruh /
+ <lb/>Sicherheit / Gluͤck und Segens wohnen und fort<lb break="no"/>bluͤhen
+ moͤgen: Darum Wir den Grundguͤtigen
+ <lb/>Gott Hertz-Eiferig anruͤffen und bitten.</p></div>
+<p><seg><lb/>Geben den <origDate when="1693-03-13" calendar="Julian">Dreyzehenden Tag Mertzen / von
+ <lb/>der Gnadenreichen Geburth Christi / unsers lieben
+ <lb/>Herren und Heilands gezellet / Eintausent /
+ <lb/>Sechshundert / Neunzig und
+ <lb/>Drey Jahre</origDate>.</seg>
+</p>
+<p><lb/><orgName ref="org005015">Cantzley <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="20" type="original" facs="StAZH_III_AAb_1_6__Nr__10__S__20_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>Gegen Ende des 17. Jahrhunderts kam es aufgrund der Folgen des Pfälzischen Erbfolgekrieges (1688-1697) sowie wegen Missernten zu einer massiven Teuerung und Hungersnot, die grosse Armut hervorbrachten. Da an zahlreichen Orten der <placeName ref="loc000153">Eidgenossenschaft</placeName> bereits seit dem 16. Jahrhundert regelmässig Bettlerjagden durchgeführt wurden, gab es kontinuierliche Migrationsbewegungen von Armen (<bibl><ref target="/startseite/literaturverzeichnis">Ebnöther 2013</ref>, S. 191 und 217</bibl>). Oft führten herumziehende Bedürftige sogenannte Steuer- und Brandbriefe mit sich, um Geld zu erhalten. Es handelte sich um obrigkeitlich beglaubigte Schreiben, die bestätigten, dass die betroffene Person aufgrund eines unverschuldeten Ereignisses (Missernte, Feuer oder Überschwemmung) arm geworden war. Da nur Arme mit rechtmässigen Steuer- und Brandbriefen unterstützt wurden, war die Fälschung solcher Briefe bei Strafe verboten. Zur Gruppe der herumziehenden Fremden zählten auch die Handwerksgesellen. Für den Fall, dass sie in der Stadt <placeName ref="loc000065">Zürich</placeName> keine Arbeit fanden, erhielten Handwerksgesellen einen sogenannten Zehrpfennig zur Weiterreise, Betteln war ihnen jedoch untersagt (<bibl><ref target="/startseite/literaturverzeichnis">Denzler 1920</ref>, S. 76-78</bibl>).</p>
+<p>Um das Problem der steigenden Bettlerzahl zu lösen, beschloss die <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Obrigkeit</orgName> die Überarbeitung der Armenordnung von 1662 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_027">SSRQ ZH NF I/1/11, Nr. 27</ref></bibl>). Zunächst wurden Abgeordnete aus dem <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> aufgefordert, sich ein Bild über die Situation auf der Landschaft zu machen und einen Ratschlag für eine erneuerte Almosenordnung zu verfassen. Dieser wurde am 13. März 1693 im <orgName ref="org004906">Grossen Rat</orgName> in Form eines schriftlichen Berichts sowie einer mündlichen Zusammenfassung vorgestellt. Der Rat beschloss sogleich den Druck der neuen Ordnung sowie die erstmalige Verlesung in den Sonntagsgottesdiensten vom 26. März 1693. Mit dieser Massnahme erhoffte man sich eine Verbesserung der Situation innerhalb eines Jahres (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244900">StAZH B II 641</ref>, S. 103-105</bibl>).</p>
+<p>Im Vergleich zur Armenordnung von 1662 enthält die vorliegende Ordnung verschärfte Sanktionen gegen unerlaubtes Betteln. Die Bestimmung, wer als rechtmässig arm galt, erfolgte nicht mehr durch einen langwierigen schriftlichen Überprüfungsprozess (Berichtsverfahren), sondern mithilfe einfacher theologischer Schuldzuweisungen, wie sie schon im 16. Jahrhundert formuliert worden waren. Die Profosen wurden erneut an ihre Pflichten erinnert und die Gemeinden der Landschaft dazu verpflichtet, ständige Dorfwachen, die Tag und Nacht patrouillieren mussten, einzusetzen.</p>
+<p>Ein wesentlicher Bestandteil der Almosenordnung von 1693 ist ausserdem die Verankerung des Heimatprinzips, welches bereits im Mandat vom 25. März 1579 festgelegt  worden war (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188711">StAZH A 61.2</ref></bibl>). Das Heimatprinzip sah vor, dass die Gemeinden für ihre rechtmässigen Armen selbst aufkommen mussten, wobei nicht klar ersichtlich ist, ob damit alle Einwohner oder nur die Bürger gemeint waren. Langfristig setzte sich in der Armenfürsorge das Heimatprinzip durch, welches auf eidgenössischer Ebene erst mit dem Zuständigkeitsgesetz von 1977 durch das Wohnortprinzip abgelöst wurde (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D25809.php">Fürsorge</ref></bibl>). Obwohl in der vorliegenden Almosenordnung das Heimatprinzip grundsätzlich galt, wurde den weniger vermögenden Gemeinden wöchentliche oder monatliche Unterstützung durch das <orgName ref="org004915">Almosenamt</orgName> zugesichert. Um die Unterstützung ihrer armengenössigen Angehörigen zu gewährleisten, sollten die Gemeinden auf ihren Allmenden aber fruchtbare Pflanzen anbauen.</p>
+<p>Langfristig zeigte die Almosenordnung von 1693 wenig Wirkung. Dies lässt sich laut Christoph Ebnöther neben den Unzulänglichkeiten der ordnungssichernden Organe sowie den geringen personellen und finanziellen Ressourcen vor allem auch mit dem schwachen Rückhalt in der Bevölkerung begründen. Insbesondere herumziehende Krämer und Verkäufer befriedigten zahlreiche wirtschaftliche, gewerbliche und unterhaltungsbezogene Bedürfnisse der Bewohner und Bewohnerinnen des <placeName ref="loc000065">Zürcher</placeName> Stadtstaates, was die Obrigkeit wiederholt einzuschränken versuchte (vgl. beispielsweise das Krämermandat von 1722, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_046">SSRQ ZH NF I/1/11, Nr. 46</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ebnöther 2013</ref>, S. 217-219</bibl>).
+Zwar kam es in der ersten Hälfte des 18. Jahrhunderts zum Erlass zahlreicher Mandate betreffend Bettler und Arme, aber erst im Jahre 1762 wurde die Almosenordnung erneuert und beträchtlich erweitert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3292940">StAZH III AAb 1.12, Nr. 41</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Keller 1935</ref>, S. 51-61</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

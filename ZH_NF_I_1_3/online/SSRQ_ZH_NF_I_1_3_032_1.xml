@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_032_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3732115">StAZH A 43.1.2, Nr. 2, S. 32</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Bestrafung des Totschlags zwischen Bürgern</head><msContents><summary>Wer an einem anderen Bürger einen Totschlag verübt und nicht in Notwehr dazu gedrängt worden ist, soll der Stadt 20 Mark Busse entrichten und für die Dauer eines Jahres aus der Stadt Zürich und ihrem Herrschaftsgebiet verbannt sein. Nach Ablauf dieser Frist ist er zur Rückkehr befugt, jedoch soll er zuvor die genannte Busse entrichten und sich vor den Verwandten des Toten hüten. Wer mit glaubwürdigen Zeugen versichern kann, dass er aus Notwehr gehandelt hat, muss keine Busse entrichten und soll vor den Verwandten des Toten sicher sein. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1489-05-25">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key000057">Gericht</term><term ref="key000225">Totschlag</term><term ref="key001043">Verwandtschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="32"/>
+<head>Waͧ ein burger den andern burger vom <lb/>leben zum tod bringt, wie soͤlicher tod<lb break="no"/>schlag gebuͤsd werden sol</head>
+<p>
+<lb/>Wir haben uns erkendt, so ein burger <subst><del>den</del><add place="above">an einem</add></subst> andern burger <subst><del>ze</del><add place="above">einen</add></subst>
+<lb/>todschla<subst><del rend="overwritten">cht</del><add place="inline">g</add></subst>
+<subst><del>oder sticht</del><add place="above">tuͦt</add></subst> und der selb, so den todschlag geton haͧt, 
+<lb/>nit zuͦ der not wer getrengt ist, der sol der stat zuͦ buͦß geben 
+<lb/><measure type="currency" unit="M" quantity="20">xx march</measure> und darzuͦ von der statt und unsern gepieten sin <date dur="P1Y"><add place="inline">ein</add>
+<lb/><subst><del rend="overwritten">zwey</del><add place="inline">gantzes</add></subst> jar</date>. Und wyl er naͧch dem <del>zwey</del>
+<date dur="P1Y">jare</date> in die statt und
+<lb/>unser gepiet, das mag er wol tuͦn, und doch sol er zuͦvor 
+<lb/>unser statt umb soͤlich buͦß usgericht haben und sich vor 
+<lb/>des libloß toͧnen fru̍nden huͤten.
+</p>
+<p>
+<lb/>Welcher aber mit gloͧplicher kuntschaft fu̍rbringen mag, des den 
+<lb/><orgName ref="org004016">rat</orgName> zuͦ recht gnuͦg sin bedunckt, das er zuͦ der not wer getrengt sye, 
+<lb/>der selb sol gemeyner stat kein buͦs verfallen sin <del rend="crossout"><measure type="currency" unit="M" quantity="20">xx march</measure></del>
+<lb/>und daͧmyt dem <orgName ref="org004982">gericht</orgName> und reͣchten gebuͤsd haben, oͧch vor des 
+<lb/>liblos toͧnen fru̍nden sicher sin.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die ersten den Totschlag betreffenden Bestimmungen finden sich im Richtebrief, wobei schon dort Notwehr als Entlastungsgrund genannt wird (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_11">S. 11-18</ref></bibl>). In der Rechtspraxis des 14. und 15. Jahrhunderts, wie sie in den Urteilen der Richtebücher deutlich wird, fand die Einstufung einer Tötung als Notwehr jedoch nur selten Anwendung (<bibl><ref target="/startseite/literaturverzeichnis">Pohl 1999</ref>, S. 253</bibl>). Einfache, aus einem unmittelbar vorangehenden Konflikt entstandene Tötungen wurden von dem für diese Fälle zuständigen <orgName ref="org004982">Ratsgericht</orgName> für gewöhnlich mit einer an die Stadt zu entrichtenden Busse bestraft. Gerade im Kontext von Beleidigungen gestand der <orgName ref="org002406">Rat</orgName> den männlichen Stadtbürgern grundsätzlich zu, ihre Ehre auch durch Gewaltanwendung wiederherzustellen. Zusätzlich hatte sich der Täter jedoch mit den Hinterbliebenen zu einigen, denen auch die Möglichkeit der Blutrache offenstand (für die Definition der zur Blutrache berechtigten Verwandtschaftsgrade vgl. <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref> Bd. 3/2, S. 200, Nr. 106</bibl>). In der zweiten Hälfte des 15. Jahrhunderts setzte eine Verschärfung der Gerichtspraxis ein, die am Auftauchen der Kategorie des <q>unehrlichen</q> Totschlags in den Urteilen abzulesen ist: Darunter fielen als exzessiv eingestufte Tötungen, die nun für gewöhnlich mit der Todesstrafe geahndet wurden. Umgekehrt kam auch die Kategorie der Notwehr immer häufiger zu Anwendung (<bibl><ref target="/startseite/literaturverzeichnis">Pohl 1999</ref>, S. 243</bibl>).</p>
+<p>Die vorliegende Ordnung antwortet auf diese allmähliche Verschärfung der Rechtspraxis, insofern nun alle Totschläge, auch die als <q>ehrlich</q> angesehenen, mit einer hohen Busse sowie einjähriger Verbannung bestraft wurden. Die Reformation führte diese strengere Handhabung fort, indem zwischenzeitlich sogar alle gesetzeswidrigen Tötungen, unter Vorbehalt der Notwehr, unter die Todesstrafe gestellt wurden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1159177">StAZH A 42.1.8, Nr. 24</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1609</bibl>; die Vermutung von <bibl><ref target="/startseite/literaturverzeichnis">Pohl 1999</ref>, S. 264</bibl>, wonach eine erste Satzung bereits um 1480 vorübergehend alle Totschläge unter Todesstrafe gestellt habe, basiert auf der irrtümlichen Datierung eines Todesurteils des Jahres 1530, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4308797">StAZH B VI 232, fol. 87r</ref></bibl>). Die tatsächliche Anwendung des Erlasses von 1529 war jedoch von begrenzter Dauer, denn bereits um das Jahr 1540 findet sich eine neue Bestimmung, die sich, mit einigen Modifikationen, wiederum an der vorliegenden Ordnung orientiert und für längere Zeit Gültigkeit behalten sollte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_171">SSRQ ZH NF I/1/3, Nr. 171</ref></bibl>).</p>
+<p>Zur Behandlung des Totschlags und seiner Bedeutung im Kontext von Ehrenhändeln vgl. <bibl><ref target="/startseite/literaturverzeichnis">Pohl 1999</ref></bibl>; für sein Verhältnis zu anderen Gewaltdelikten insbesondere im 14. Jahrhundert vgl. <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 139-154</bibl>; allgemein zur Deliktstruktur vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 382-386</bibl>. 
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

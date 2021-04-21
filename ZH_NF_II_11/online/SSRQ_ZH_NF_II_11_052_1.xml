@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_052_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2298785">StAZH B V 3, fol. 340v-341r</idno></msIdentifier><head>Entscheid des Zürcher Rats im Konflikt um das Kollaturrecht in Höngg zwischen den dortigen Kirchgenossen und dem Abt und Kloster Wettingen</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich entscheiden in einem Konflikt um das Kollaturrecht zwischen den Kirchgenossen der Kirchhöre Höngg und dem Abt und Kloster Wettingen. Die Kirchgenossen von Höngg haben im Vorfeld den Abt von Wettingen aufgefordert, ihnen Einsicht, welche Rechte das Kloster Wettingen in Höngg im Hinblick auf Kirchensatz, Zins und Zehnten hat, zu gewähren. Sie begehren zu wissen, ob sie bei der Bestellung des Leutpriesters auch ein Mitspracherecht haben, wie sie denken, dass es ihnen eine lateinische Urteilsurkunde zugestehe, oder ob dem Abt von Wettingen das alleinige Recht zukomme. Nachdem der Rat entscheidet, der Abt müsse die Rechte wie gefordert vorweisen, legt der Abt Urkunden betreffend Kirchensatz, Zinsen und Zehnten, nicht nur der Kirche in Höngg, sondern auch beider Filialkapellen in Regensdorf, vor. Nach Anhörung der verschriftlichten Rechte entscheidet der Rat, dass Abt und Kloster von Wettingen den Kirchgenossen nichts schuldig seien. Sie stellen dem </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1523-12-15"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000032">Patronat</term><term ref="key000301">Pfarrer</term><term ref="key000658">Reformation</term><term ref="key000683">Urteil</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="340v"/>
+<head>
+<app><lem><lb/>Her abts von <placeName ref="loc000074">Wettingen</placeName> urtel
+<lb/><choice><abbr>br</abbr><expan>brief</expan></choice><!-- Auflösung korrekt? oder 'betreffend' oder so ähnlich? PS: brief erscheint sinnvoll--> gegen den <choice><abbr>kilchgnen</abbr><expan>kilchgenoßen</expan></choice> z <placeName ref="loc009768">Höngg</placeName></lem>
+<rdg wit="StAZH F II a 458, fol. 145r-v"><lb/>Wie die kilchgnoßen zuͦ <placeName ref="loc009768">Höngg</placeName> under<lb break="no"/>standen,
+die brief von deß kilchensatzes
+<lb/>wegen zehören und was darüber erckent</rdg></app><note>Die Ausfertigung der Urkunde (<bibl>StAAG U.38/1314</bibl><!-- Nicht online beim StAAG; im StAZH als TAI verzeichnet, darauf kann aber nicht verlinkt werden -->) hat keinen Titel. Dafür findet sich ein Dorsualvermerk von späterer Hand, der lautet: <orig>Die <placeName ref="loc009768">Hönggische</placeName> kilchgenossen sprechen den kirchensaz ahn,
+vorderen vom gottshaus sigel und brieff, dises recht ihnen
+zubescheinen, wird aber ihnen abgeschlagen, dieweil ihnen als
+klegern das zu thun oblige; die <orgName ref="org002406">herren von <placeName ref="loc000065">Zürich</placeName></orgName> sprechen,
+das ein gottshaus bey seinen rechten verbleiben, die
+pauren das maul halten sollen.</orig></note>
+</head>
+<p>
+<seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und rat der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd kundt
+<lb/>mengklichem mit disem brief, das sich spenn unnd
+<lb/>irtung habent gehalten zwüschent den unnsern, gmeinen
+<lb/>kilchgnoßen der <orgName ref="org007826">kilchhöri zuͦ <placeName ref="loc009768">Hönngg</placeName></orgName>, eins und anndern 
+<lb/>teyls dem erwirdigen geistlichen her <persName ref="per024295">Andres</persName>, abt des <orgName ref="org000030">gotz<lb break="no"/>hußes
+zuͦ <placeName ref="loc000074">Wettingen</placeName></orgName>, unserm lieben herren und frund, als
+<lb/>von wegen sin und sines gotzhußes, deßwegen, das
+<lb/>die unnsern der <orgName ref="org007826">kilchhöri zuͦ <placeName ref="loc009768">Hönngg</placeName></orgName> vermeintend, her
+<lb/>abt von <placeName ref="loc000074">Wettingen</placeName> söllte vor uns darleggen und uns und sy
+<lb/>lassen hörren die brief und was er und sin gotzhuß hettind
+<lb/>umb den kilchensatz, ouch zinß und zehenden <del>in d so er</del> by
+<lb/>inen, dardurch sy möchtind hörren, was die selben brief
+<lb/>inen zuͦ gebint, und ob sy nu<!-- statt nun? in F II a 458 steht nun. PS: ja ok --> einen luppriester, seelsorger und
+<lb/>verkunder des gotzwort müßdint haben, den inen ein abt oder
+<lb/><orgName ref="org000030">gotzhuß zuͦ <placeName ref="loc000074">Wettingen</placeName></orgName> gebent, oder selbs deßhalb ouch etwas
+<lb/>gwalts und gerechtigkeit haben, als sy dann vermeintind, uß
+<lb/>chrafft eins erlangten latinischen proceß und gricht handels
+<lb/>deß etwas füg zehaben.</seg>
+<seg>Unnd aber her abt von <app><lem>wegen</lem><rdg wit="StAAG U.38/1314; StAZH F II a 458, fol. 145r-v"/></app> sin
+<lb/>und sines gotzhußes darwider vermeint, er söllte nit schuldig
+<lb/>sin, des gotzhußes und sin gewër also sinem widerteil ze
+<lb/>erscheynen, sonnder wölltind sy im an disem end neywas<!-- etwas; vgl. 'neisswas', Idiotikon IV, Sp. 808 -->
+<lb/>absetzen, sölltind sy das thun durch ir gewere und nit sin
+<lb/>und sines gotzhußes. Doch uns in abweßen sins widerteils lassen
+<lb/>zehören, was er hatt, woͤllt er sich nit widern, aber dz er
+<lb/>es dem widerteil wöllte thuͦn, tëte er nit, wir erkantind
+<lb/>dann uns, dz er es thuͦn söllt.</seg>
+<seg>Solicher spennen halb
+<lb/>beidteil für uns sind zuͦ recht komen, und als her abt
+<lb/>von <placeName ref="loc000074">Wettingen</placeName> uff unser rechtlich erkennen sin und sines gotz<lb break="no"/>hußes 
+brief und gwarsami <del>und den</del> umb den kilchen satz, sin zins,
+<lb/>zehenden und gerechtigkeit, nit allein der kilchen im dorff zuͦ
+<lb/><placeName ref="loc009768">Höng</placeName>, sonnder ouch beider filialen und capellen zuͦ <placeName ref="loc009845">Regenn<lb break="no"/>storff</placeName>,
+vor uns under ougen der anwälte gmeiner <choice><abbr>kilchgnen</abbr><expan>kilchgenoßen</expan></choice>
+<lb/>hat dargelegt und lassen hörren.</seg>
+<seg>Unnd wir daruff beidteil
+<lb/>in allem irem darthuͦn eigentlich und nach aller notdurfft
+<lb/>gehört, so habent wir uns zuͦ recht erkent und gesprochen,
+<lb/>das her abt von <placeName ref="loc000074">Wettingen</placeName> und sin gotzhuß by iren ingelegten
+<lb/>briefen und siglen umb sölichen kilchensatz und deß gerechtig<lb break="no"/>keit
+wyßende bliben und gmeinen kilchgnoßen daby nüdt <pb n="341r"/>
+<lb/>schuldig sin sollint. Diser unser rechlichen erkantnus
+<lb/>begert her abt zu sin und sins gotzhußes handen eins briefs,
+<lb/>den habent wir im <add place="left margin" type="sign">zu geben erkent <lb/>und</add> deß zuͦ urkund mit unser statt <placeName ref="loc000065">Zurich</placeName>
+<lb/>anhangendem secret insigel lassen <app><lem>besiglen</lem><rdg wit="StAZH F II a 458, fol. 145r-v">versiglen</rdg></app>.</seg>
+<seg>Und <subst><add place="above">ist beschehen</add><del>geben</del></subst> uff
+<lb/><origDate when="1523-12-15">zinstag nechst nach sant <persName ref="per000631">Lucien</persName> tag nach der geburt
+<lb/>Cristi gezalt fünfftzehenhundert zwentzig und drü jar.</origDate></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Von 1520 bis 1523 war <persName ref="per024294">Simon Stumpf</persName> Pfarrer in <placeName ref="loc009768">Höngg</placeName>. <persName ref="per024294">Stumpf</persName>, ein Anhänger <persName ref="per003919">Zwinglis</persName> und der Reformation, predigte gegen den Zehnten, welchen 
+<orig>unnütze</orig> Mönche den Bauern abnehmen würden, weshalb das <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> sich bei der <orgName ref="org005057">Tagsatzung</orgName> und dem Bischof von <placeName ref="loc000923">Konstanz</placeName> beschwerte. 
+Da unter <persName ref="per024294">Stumpf</persName> zudem ein Bildersturm in <placeName ref="loc009768">Höngg</placeName> stattfand und er sich den Positionen der Täuferbewegung annäherte, wurde er vom <orgName ref="org002406">Rat</orgName> im November 1523 aufgefordert, 
+<placeName ref="loc009768">Höngg</placeName> zu verlassen. Als das Begehren der Leute von <placeName ref="loc009768">Höngg</placeName>, ihren Pfarrer behalten zu dürfen, vom Rat am 14. November abgewiesen wurde (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4341015">StAZH B VI 249, fol. 72r</ref></bibl>), 
+forderten sie, die Rechte des <orgName ref="org000030">Klosters <placeName ref="loc000074">Wettingen</placeName></orgName> einsehen zu dürfen, ob die <orgName ref="org008788">Höngger</orgName> nicht selbst ihren Pfarrer wählen dürften. <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> 
+bestätigten dem Abt von <placeName ref="loc000074">Wettingen</placeName> jedoch den Besitz des Kirchensatzes und stellten ihm die vorliegende Urkunde aus. Zumindest formal blieben daher das Recht zur Besetzung der Pfarrstelle in <placeName ref="loc009768">Höngg</placeName> sowie die 
+zugehörigen Zehntrechte auch über die Reformation hinaus und bis ins 19. Jahrhundert beim <orgName ref="org000030">Kloster <placeName ref="loc000074">Wettingen</placeName></orgName> (<bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S. 163, 167, 262-269</bibl>). 
+Zu <persName ref="per024294">Simon Stumpf</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bugmann 1949</ref>, S. 10-15</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kottmann/Hämmerle 1996</ref>, S. 101-102</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S. 183-184</bibl>. 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

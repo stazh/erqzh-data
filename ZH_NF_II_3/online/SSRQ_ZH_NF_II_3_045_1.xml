@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_045_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=947740">ERKGA Fällanden I A 5</idno></msIdentifier><head>Urteil in einem Streit über das Wegrecht des Hofs im Rohr zu den Gütern in Stuhlen</head><msContents><summary>Untervogt Jakob Egli beurkundet im Auftrag des Obervogts Oswald Schmid einen Streit vor dem Gericht in Greifensee zwischen den Einwohnern von Fällanden und Heinrich Aeppli aus dem Rohr um das Wegrecht durch das Maurholz zu seinen Gütern in Stuhlen. Der Fall wird an den Zürcher Rat gewiesen, von diesem nach einem Augenschein durch zwei Ratsherren aber nach Greifensee zurückgewiesen. Aeppli beruft sich auf eine Urkunde, die ihm ein allgemeines Wegrecht einräumt. Die Vertreter der Gemeinde Fällanden argumentieren demgegenüber, dass die Urkunde nicht das Gut in Stuhlen betreffe, das ausserhalb des Dorfetters liege und nicht zu Fällanden, sondern zu Maur gehöre. Es habe noch nie einen Weg durch ihr Gemeingut im Maurholz gegeben. Der Richter urteilt, dass Aeppli gemäss seiner Urkunde ein Wegrecht innerhalb der Gemeindegrenzen von Fällanden zustehe, nicht jedoch darüber hinaus. Oswald Schmid siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (A 1)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.0"/><width unit="cm" quantity="37.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Oswald Schmid</persName></seal></sealDesc></physDesc><history><origin><origDate when="1503-12-04"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000748">Augenschein</term><term ref="key000314">Hintersassen</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000606">Wegrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="ERKGA_Fällanden_I_A_5__r_.tif"/>
+<p><seg><lb/>Ich, <persName role="issuer" ref="per012733">Jacob Egli</persName>, undervogt zuͦ <placeName ref="loc008569">Gryffense</placeName>, tuͦn kund allermenngclichem mit dißem brieff, dz ich uff hu̍t sin daͧtum an statt und innamen der
+<lb/>strenngen, fromen, vesten, fu̍rsichtigen und wysen <orgName ref="org002406">burgermeisters und raͤtten der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, ouch us sunder befelch des ersamen und
+from<lb break="no"/>en <persName ref="per012736">Oschwalden Schmitz</persName>, burger <placeName ref="loc000065">Zu̍rich</placeName>, obervogt zuͦ <placeName ref="loc000348">Gryffense</placeName>,
+aller miner gnedigen lieben herren, alda zuͦ <placeName ref="loc008569">Griffense</placeName> offenlich zuͦ gericht
+<lb/>saß und fu̍r mich ingericht komen sind die erbern <persName ref="per012728">Heinrich Aͤply</persName> uß dem <placeName ref="loc008780">Ror</placeName> eins und gemein insaͤssen von <placeName ref="loc008651">Fellanden</placeName> am andern
+<lb/>teil, und also ließ im genantter <persName ref="per012728">Heinrich Aͤply</persName> durch <persName ref="per012732">Peter Bachoffner</persName>, sin erloͧpten fu̍r sprech, vor mir inrechttragen die meinung,
+<lb/>als dann vormaͧls er und die gemelten von <placeName ref="loc008651">Fellanden</placeName> von des waͤgs waͤgen, so er vermeint ze haben, von und uß dem <placeName ref="loc008780">Ror</placeName> zefaren u̍ber
+<lb/>der von <placeName ref="loc008651">Fellanden</placeName> guͦt genempt <placeName ref="loc008802">Murholtz</placeName> in sin guͦt in <placeName ref="loc008798">Stuͦlen</placeName>,<note>Das Gut in <placeName ref="loc008798">Stuhlen</placeName>
+hatte <persName ref="per012728">Heinrich Aeppli</persName> 1491 erworben
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691308">StAZH A 123.1, Nr. 7</ref></bibl>).</note>
+und uff dz verpott, so die von <placeName ref="loc008651">Fellanden</placeName> im darumb getoͧn, sy allhie zuͦ
+<placeName ref="loc008569">Grif<lb break="no"/>fense</placeName> gegen einandern inrecht gestanden und darumb clag und wyderred gegen einandern getoͧn, jetz nit nott zuͦ melden. Daruff sy
+beider<lb break="no"/>sidt der sach hie dannen fu̍r min gnedig herren, <orgName ref="org002406">burgermeister und raͤtte der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, als die oberkeitt mit urteil gewyst. Und als sy
+<lb/>mit der sach fu̍r die gedaͧchten mine herren komen, so habent die gemelten min herren <num value="2">zwen</num> irs raͧtz uff soͤllichen stoͤß geschyben, den
+<lb/>zuͦ beseͣchen. Und als die selben <num value="2">zwen</num> min herren uff den stoͤß komen und den beseͣchen, so habent sy soͤllich sach wyderumb fu̍r min
+<lb/>herren <orgName ref="org002406">burgermeyster und raͧtt <placeName ref="loc000065">Zu̍rich</placeName></orgName> gebraͧcht, daruff die gemelten min herren soͤllich sach von inen wyderumb alhar fu̍r das gricht
+<lb/><placeName ref="loc008569">Gryffense</placeName> zuͦ ußtraͤglichem rechten gewyst. Harumb so stuͦndi er hie, hofft und getruwti uff sin vor ingelegten, gehoͤrten urteil brieff, so
+<lb/>im staͤg und waͤg uff alle sine guͤtter zuͦ gaͤbe,<note>Die hier erwähnte Urkunde scheint nicht erhalten zu sein.</note>
+ ouch uff allen vorgebruchten grichtz handel und urteilen, dz im das verpott, so im von den
+<lb/>von <placeName ref="loc008651">Fellanden</placeName> des waͤgshalb angelegt, ab und entschlagen sin und im sin ingelegter, gehoͤrtter und versigelter urteil brief inkrefften zuͦ pliben
+<lb/>erkennt unnd im staͤg und waͤg von sim guͦt genempt dz <placeName ref="loc008780">Ror</placeName> uff und in sin guͦt in <placeName ref="loc008798">Stuͦlen</placeName> u̍ber dero von <placeName ref="loc008651">Fellanden</placeName> guͦt genant
+<lb/><placeName ref="loc008802">Murholtz</placeName> mit urteil zuͦ gelaͧssen und erkennt waͤrden soͤll.</seg>
+<seg>Darzuͦ inen die gemelten gemein insaͤssen von <placeName ref="loc008651">Fellanden</placeName> durch <persName ref="per012734">Hansen
+<lb/>Gul</persName>, irn erloͧpten fu̍rsprech, antwurtten ließen, wie <persName ref="per012728">Heinrich Aͤply</persName> gemeldot, wie sy im des waͤgshalb uff sin guͦtt <placeName ref="loc008798">Stuͦlen</placeName> zefaren ein pott
+<lb/>angeleit, och daby gemeldott, dz sy alhie ze <placeName ref="loc008569">Griffense</placeName> und och vor minen herren, eim <orgName ref="org002406">burgermeister und raͧtt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, der sach halb
+<lb/>mit ein ander inrecht gestanden, och die vermelten min herren <num value="2">zwen</num> vom raͧt uff soͤllichen stoͤß geschyben und die daruff gesin, den
+<lb/>beseͣchen und sy dis sach wyderumb an min herren gebraͧcht und daruff mine herren semlich sach wyderumb alhar fu̍r dz gricht
+<lb/><placeName ref="loc008569">Gryffense</placeName> zuͦ ußtraͤglichem rechten gewyst. Waͤri alles beschechen, des glich der <persName ref="per012728">Aͤpli</persName> gemeldot, wie er ein urteil brief hab und wz
+<lb/>der wyse, da redintt sy och nit darwyder, waß der brief wyße, dann der selbig brief dem <persName ref="per012728">Aͤpli</persName> nit zuͦ gaͤbe, dz sy im keinen waͤg u̍ber
+<lb/>ir guͤtter uff <placeName ref="loc008648">Murer</placeName> guͤtter und usser iren efaden zegeben schuldig waͤrindt. Und die wil man vor und jetz von inen verstanden und
+<lb/>gehoͤrt, ouch clarlich am tag laͤge, dz der <persName ref="per012728">Aͤpli</persName> dz guͦt in <placeName ref="loc008798">Stuͦlen</placeName> erkouft, dz usserthalb iro von <placeName ref="loc008651">Fellanden</placeName> guͤttern ussert aͤtters und ussert
+<lb/>iro aller guͤtter efaden gelegen waͤr und dz selbig nit <placeName ref="loc008651">Fellander</placeName> guͤtter waͤri, sunder <placeName ref="loc008648">Murer</placeName> guͤtter und sich der <persName ref="per012728">Aͤpli</persName> understanden,
+<lb/>uff dz selb guͦt u̍ber ir guͦtt <placeName ref="loc008802">Murholtz</placeName> ze faren, dahar vor nacher kein waͤg nie gewaͤsen, darumb oͧch sy im soͤllichen waͤg zefaren
+<lb/>verbotten habindt in hoffnung, semlich pott des waͤgshalb gegem <persName ref="per012728">Aͤpli</persName> styll stand und sy von <placeName ref="loc008651">Fellanden</placeName> im keinen waͤg u̍ber ir guͦt
+<lb/><placeName ref="loc008802">Murholtz</placeName> uff <placeName ref="loc008798">Stuͦlen</placeName> nit zuͦ geben schuldig sin soͤllen.</seg>
+<seg>Und daruff dz mit mer wortten von beiden teilen zuͦ recht gesetzt, also nach
+<lb/>clag, inred und wyderred, och uff des <persName ref="per012728">Aͤpliß</persName> vor ingelegten, gehoͤrtten brief und uff allen vorgebruchten handel, so ist nach miner fraͧg mit
+<lb/>einhelliger urteil zuͦ recht erkennt, das des genanten <persName ref="per012728">Aͤpliß</persName> ingelegter, gehoͤrtter <app><lem/><rdg wit="StAZH A 123.1, Nr. 17">urteil</rdg></app> brief
+in krefften pliben und bestoͧn und die von <placeName ref="loc008651">Fellanden</placeName>
+<lb/>dem <persName ref="per012728">Aͤpli</persName> staͤg und waͤg geben soͤllen uff alle sine guͤtter, so wytt dero von <placeName ref="loc008651">Fellanden</placeName> zwing und benn gond, und innderthalb iren efaden,
+<lb/>wie iren einer von <placeName ref="loc008651">Fellanden</placeName> das ouch bruchen ist und nitt wytter.</seg>
+<seg><app><lem>Des begertten inen die von <placeName ref="loc008651">Fellanden</placeName> urtel brief vom gricht, so inen
+<lb/>erkennt ist. Zuͦ urkund haͧt gemelter <persName role="sigillant" ref="per012736">Oschwald Schmid</persName>, vogt zuͦ <placeName ref="loc000348">Gryffense</placeName>, sin insygel mit urteil von grichtz und min, des richters,
+ <lb/>pytt waͤgen</lem><rdg wit="StAZH A 123.1, Nr. 17">Von der urteil tett sich genannter <persName ref="per012728">Aͤply</persName> als beswaͤrt fu̍r min herren, <orgName ref="org002406">burgermeister und raͧtt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, als die oberkeitt
+beruͤffen und appelieren. Des zuͦ urku̍nd haͧt gemelter <persName ref="per012736">Oschwald Schmid</persName>, obervogt, sin insigel mit urteil und von min, des richters, pytt waͤgen</rdg></app>, doch gemelten minen herren,
+der herschafft <placeName ref="loc000348">Gryffense</placeName> an aller oberkeit und zuͦgehoͤrd, och im, sinen erben <app><lem/><rdg wit="StAZH A 123.1, Nr. 17">in allwaͤg</rdg></app> on schaden,
+<lb/>offenlich an dißen brief gehenckt, geben am <origDate when="1503-12-04">mentag vor sant <persName ref="per001536">Niclaͧß</persName> tag von Kristi gebu̍rt fu̍nfftzechenhundert und dru̍
+<lb/>jare</origDate>.</seg></p>
+<pb n="v" facs="ERKGA_Fällanden_I_A_5__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Der gemeinen insässen
+<lb/>zuͦ <placeName ref="loc008651">Fellanden</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Der brief ist recht kennt. Gehört den richtern
+<lb/><measure type="currency" unit="ß" quantity="6">vj </measure>.</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Während die vorliegende Urkunde auf Verlangen der Leute von <placeName ref="loc008651">Fällanden</placeName> ausgestellt wurde,
+verfügt die Ausfertigung zuhanden von <persName ref="per012728">Heinrich Aeppli</persName> über den Zusatz, dass dieser mit dem Urteil nicht einverstanden war
+und daher an den <orgName ref="org002406">Zürcher Rat</orgName> als oberste Instanz appellierte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691318">StAZH A 123.1, Nr. 17</ref></bibl>).
+Auf diesem Exemplar wurde auf der Rückseite sodann in knapper Form vermerkt, dass der Rat das Urteil am 30. Januar 1504 bestätigte
+(<orig>Ist kent, dz wol gesprochen und u̍bel geopoliert sig, actum <date when="1504-01-30">zinstag nach <persName ref="per012717">Karoli</persName> anno <abbr>etc</abbr> iiij<hi rend="sup">o</hi></date></orig>)
+und die Richter für ihre Verköstigung 6 Schilling erhalten sollen
+(<orig>Den richtern darvon <measure type="currency" unit="ß" quantity="6">vj </measure> zeru̍ng</orig>).
+Sinngemäss das Gleiche notierte man nachträglich auch noch auf das hier edierte Exemplar der <orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName>.
+</p>
+<p>Der hier geschilderte Konflikt hatte seine Ursache darin, dass der Hof im <placeName ref="loc008780">Rohr</placeName> ausserhalb des Dorfetters von <placeName ref="loc008651">Fällanden</placeName> lag
+und daher nicht den Regeln der dörflichen Nutzungsorganisation unterlag.
+Umso eifriger wachten die Dorfbewohner darüber, dass dem Besitzer dieses Hofs die Nutzung der kommunalen Güter und Rechte verwehrt blieb
+(<bibl><ref target="/startseite/literaturverzeichnis">Wüthrich 1997</ref>, S. 6-7</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 71-76</bibl>).
+Bereits im folgenden Jahr kam es erneut zu Streit zwischen der <orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName> und der Familie <orgName ref="org004085">Aeppli</orgName>,
+weil mit der Erlaubnis, ausserhalb des Dorfs zu siedeln, die Pflicht verbunden war, auf eigene Kosten eine Fähre zu betreiben
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_046">SSRQ ZH NF II/3, Nr. 46</ref></bibl>).
+1534 entbrannte der Konflikt erneut. Vor dem <orgName ref="org002406">Zürcher Rat</orgName> klagten die Vertreter der <orgName ref="org004879">Gemeinde <placeName ref="loc008651">Fällanden</placeName></orgName>,
+dass <persName ref="per012731">Jakob Aeppli</persName> sich nicht an die Beschränkungen halte, die seinem Vorgänger <persName ref="per012735">Ruedi Meier</persName> auferlegt worden waren,
+sondern ausserhalb des Dorfs viele Güter erwerbe und den erweiterten Viehbestand auf die Gemeindeweide treibe.
+Das Gericht legte fest, dass <persName ref="per012731">Aeppli</persName> sich an die alten Abmachungen halten solle
+oder aus dem <placeName ref="loc008780">Rohr</placeName> ins Dorf ziehen und damit auch die Fähre aufgeben müsse
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=944147">PGA Fällanden I A 3</ref></bibl>).
+Zu den Bestimmungen bezüglich Fährdienst, die für <persName ref="per012735">Ruedi Meier</persName> erlassen worden waren, vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

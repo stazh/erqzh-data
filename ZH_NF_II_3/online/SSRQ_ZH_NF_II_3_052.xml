@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_052</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=691334">StAZH A 123.1, Nr. 32</idno></msIdentifier><head>Kundschaft über das Erbrecht von Eheleuten in der Herrschaft Greifensee</head><msContents><summary>Über das Erbrecht von Eheleuten in der Herrschaft Greifensee wird Kundschaft eingeholt. Jörg Grebel, ehemals Vogt von Greifensee, beruft sich darauf, dass Bürgermeister Marx Röist gesagt habe, das Recht der Herrschaft Greifensee sei gleich wie jenes der Stadt Zürich. Bei weiteren Erkundungen habe er dies jedoch weder in Satzungen noch Offnungen dokumentiert gefunden. Der amtierende Vogt Konrad Escher sagt, ein alter Mann habe im Sommer die Amtsleute gefragt, ob in ihrem Amtsrecht vorgesehen sei, dass ein Mann das Gut seiner Frau erbt, wenn sie vor ihm stirbt. Dies hätten sie bestätigt, doch erhalte der Mann das Gut nur auf Lebenszeit als Leibding. Ausserdem sehe das Amtsrecht vor, dass der Mann, wenn er Not leidet, aus dem Gut der Frau täglich 5 Schilling beziehen darf.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1511-01-01" to="1514-12-31">Undatiert, Datierung aufgrund der Amtszeit von Landvogt Konrad Escher (im Amt 1511-1514)</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000863">Ehe</term><term ref="key000597">Erbrecht</term><term ref="key000818">Leibgeding</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_123_1__Nr__32__S__1_.tif"/>
+<p><lb/><persName ref="per013987">Jerg Grebel</persName><note><persName ref="per013987">Jörg Grebel</persName> (im Amt 1484-1488, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 218</bibl>).</note>
+seit, das er nie gehoͤrt hab, wenn im ammpt <placeName ref="loc000348">Grifense</placeName>
+<lb/>ein frow mit tod abgienge vor irem eman, das dann der eman ir
+<lb/>verlasen guͦt soͤlte erben, sonder duͤchte inn, das soͤlichs billich nit geschehe,
+<lb/>es were denn vor gericht und mit verwilgung geschehen, dann er zuͦ vil
+<lb/>maͧlen von dem alten herr burgermeister <persName ref="per013559">Roͤisten</persName><note>Bürgermeister <persName ref="per013559">Marx Röist</persName> (im Amt 1505-1524, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/018063">Marx Röist</ref></bibl>).</note> gehoͤrt, das er
+<lb/>geredt hab, miner herren von <placeName ref="loc000065">Zu̍rich</placeName> statt recht und der von <placeName ref="loc000348">Grifense</placeName>
+<lb/>recht sig ein recht. Aber als er si da ussen habe erkonnet, so finde
+<lb/>er nit, das si kein gesatzt recht noch dingstat oder hof roͤdel der
+<lb/>sachen halb habint, sonder machint si ir sachen nach irem
+<lb/>beduncken.
+</p>
+<p><lb/><persName ref="per013357">Cuͦnrat Aͤscher</persName>,<note><persName ref="per013357">Konrad Escher</persName> (im Amt 1511-1514, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 218</bibl>).</note>
+vogt zuͦ <placeName ref="loc000348">Grifense</placeName>, seit, er wisse von dem rechten nu̍tzit,
+<lb/>hab och nu̍tz davon hoͤren sagen anderst, dann hu̍r im sommer sige
+<lb/>ein altz mennli komen fu̍r das ampt, als die amptlu̍t sust bi
+<lb/>ein andern weren, und hette iren raͧt und fraͧgte, ob nit irs amptz
+<lb/>recht were, wenn ein frow vor irem eman mit tod abgienge, dz der
+<lb/>man ir guͦt arpti. Also hetten si ein fraͧg under ein andern, von
+<lb/>eim an den andern, und redten, ja, dz were irs amptz recht, doch nit
+<lb/>anders, dann dz es sin libding sin und er der frowen <add place="above" type="sign">erben</add> solich guͦt
+<lb/>setzen soͤlt, so es zuͦ fal keme, das si wisden des wider zuͦ bekomen.
+<lb/>Und si hetten dartzuͦ noch ein ampt recht, wenn den man not an
+<lb/>gienge, dz er bedoͤrfte dz guͦt anzuͦgriffen, moͤchte er des tags
+<lb/><measure type="currency" unit="ß" quantity="5">v </measure><note>Als man das Erbrecht 1691 verschriftlichte,
+wurde dieser Betrag auf 6 Schilling erhöht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_102">SSRQ ZH NF II/3, Nr. 102</ref></bibl>).
+</note> daruff nemmen, darnach werden u̍ber etlich tag, sig die
+<lb/>rechtfertigung geschehen und ergangen wie der gerichtzhandel
+<lb/><del>sig ergangen</del> dar wisd, sust wisse er nu̍tz davon.</p>
+<pb n="2" facs="StAZH_A_123_1__Nr__32__S__2_.tif"/>
+<pb n="3" facs="StAZH_A_123_1__Nr__32__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_123_1__Nr__32__S__4_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate notBefore="1511" notAfter="1514">15..</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Erb-recht der herrschafft <placeName ref="loc000348">Gryffensee</placeName> zweyer ehemenschen halben</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die von Bürgermeister <persName ref="per013559">Marx Röist</persName> geäusserte Meinung,
+das Recht von <placeName ref="loc000348">Greifensee</placeName> sei gleich wie jenes der Stadt <placeName ref="loc000065">Zürich</placeName>,
+hängt vielleicht damit zusammen, dass die Bewohner von <placeName ref="loc000348">Greifensee</placeName>
+als Bürger von <placeName ref="loc000065">Zürich</placeName> galten und daher das gleiche Recht beanspruchten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_044">SSRQ ZH NF II/3, Nr. 44</ref></bibl>).
+Dementsprechend hält auch die Gerichtsordnung der Herrschaft <placeName ref="loc000348">Greifensee</placeName> fest:
+<orig>Und nemlich so hat ein herrschafft <placeName ref="loc000348">Griffensee</placeName> alle die recht,
+wie sie in unserer gnädigen herren statt <placeName ref="loc000065">Zürich</placeName> gebraucht werden</orig>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_094">SSRQ ZH NF II/3, Nr. 94</ref></bibl>).
+</p>
+<p>1691 verlangten die Herrschaftsangehörigen von <placeName ref="loc000348">Greifensee</placeName>,
+dass ihr Erbrecht verbessert und demjenigen in der Grafschaft <placeName ref="loc000012">Kyburg</placeName>
+und in der Herrschaft <placeName ref="loc000362">Grüningen</placeName> gleichgestellt werde,
+was ihnen der <orgName ref="org002406">Zürcher Rat</orgName> gewährte
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_102">SSRQ ZH NF II/3, Nr. 102</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

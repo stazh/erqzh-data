@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_160</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25348">StArZH VI.WD.A.8.:107</idno></msIdentifier><head>Bittschrift der Gemeinde Wiedikon an Bürgermeister und Rat der Stadt Zürich betreffend die Erlaubnis des Sandabbaus</head><msContents><summary>Die Gemeinde Wiedikon bittet Bürgermeister und Rat der Stadt Zürich darum, ihnen das Recht, Sand abzubauen und zu verkaufen, zu bestätigen. In Wiedikon würden viele arme Leute ihren Unterhalt damit verdienen, die sonst dem Almosenamt oder der Gemeinde zur Last fallen würden. Eine Änderung der bestehenden Praxis würde nicht nur diesen Leuten schaden, da ihre Sandvorräte vom starken Regen weggeschwemmt wurden, sondern auch den fünf Ziegelhütten zum Nachteil gereichen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1748-09-27"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000924">Arbeit</term><term ref="key005358">Armenversorgung</term><term ref="key000490">Bauwesen</term><term ref="key000687">Gewerbe</term><term ref="key003918">Petition</term><term>Ressourcen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/><!-- Diverse Wörter, die in der Vorlage getrennt geschrieben wurden ("burger meister"), zur besseren Verständlichkeit zusammengeschrieben. PS: Ok -->
+<p>
+<lb/>Gnädiger herr burgermeister,
+<lb/>hochgeachte, hoch- und woledelgestränge, vorneme,
+<lb/>vorsichtige, hoch- und wolweise
+<lb/>gnädige herren.</p>
+<p><lb/>Es hat hochgedacht <choice><abbr>ew</abbr><expan>euer</expan></choice>
+<choice><abbr>gnd</abbr><expan>gnädigen</expan></choice> herren underem <date when="1748-08-22">22. verwichnen
+<lb/>august</date> belieben wollen, dem herr bauwherr <persName ref="per026420">Ziegler</persName> wägen
+<lb/>einicher erneüwerung des sand werffens eine erkantnuß<!-- diese Erkenntnis konnte bisher nicht gefunden werden -->
+<lb/>zustellen zelaßen mit dem <choice><abbr>gnäd</abbr><expan>gnädigen</expan></choice> ansinen, auff allenfahls
+<lb/>erfolgende <hi rend="font change">protestatcion</hi> dero getreüwen angehörigen von <placeName ref="loc009863">Wiedickon</placeName>
+<lb/>gnedig zu bewilligen, das sie hierin ihr habende rechtsamene,
+<lb/>brieff und sigel <choice><abbr>ew</abbr><expan>euer</expan></choice>
+<choice><abbr>gnd</abbr><expan>gnädigen</expan></choice> herren vorzeigen möchten.</p>
+<p><lb/>Wir erstatend denn <choice><abbr>eu gnd</abbr><expan>euer gnaden</expan></choice> allerforderst den underthänigsten,
+<lb/>gehorsammen dank, das sie unß in unßerer dißfähligen tringenden
+<lb/>angelegenheit auch anzehören gnedig geruhen wollen.</p>
+<p><lb/>Sint onverdencklicher zeit haben vil ehrliche, obschon armme, bedürfftige
+<lb/>leüt und an weißung der rathserkantnußen de anno <date when="1617">1617</date><note><bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4528272">StAZH B II 340, S. 80-81</ref></bibl>.</note> und
+<lb/><date when="1652">1652</date><note><bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4528278">StAZH B II 479, S. 6-7</ref></bibl>.</note> eüwer <choice><abbr>säll stand</abbr><expan>säligen standes</expan></choice><!--laut Auskunft von Meinrad Suter muss das zu 'seligen Standes-' aufgelöst werden --> vorfahren ihr stückli brod mit sandt
+<lb/>werffen verdienen müßen, die sonsten dem <orgName ref="org004915">allmosen ammt</orgName> und
+<lb/>der gmeind zum last gefallen wären. Ja, es thut ihnen auch
+<lb/>schmertzlich wehe, da sie in wärendem rächt etwelchen vorath am
+<lb/>sand haten und am verkauff deßelben gehinderet worden,
+<lb/>solches durch ein gefallenes starcke rägenwäter und waßergüß
+<lb/>weg geschwemmt worden. Dißere armme leüt folglich von ihrem
+<lb/>seuren schweiß und schwerer arbeit keinen genuß habend
+<lb/>bezeühen könen.</p><pb n="2"/>
+<p><lb/>Zudeme kommt auch annoch, das dißere erneüwerung denen
+<lb/><num value="5">fünff</num> ehehafften ziegelhüten zu <placeName ref="loc009863">Wiedicken</placeName>, die pflichtmäßig
+<lb/>stat und land mit benöthigter bauw <hi rend="font change">materialien</hi> zu versehen haben,
+<lb/>höchst nachteilig und beschwerlich fallen wurde.</p>
+<p><lb/>Wir, allseitige <hi rend="font change">supplicanten</hi>, ersuchen also <choice><abbr>e</abbr><expan>euer</expan></choice> hochgedacht <choice><abbr>u</abbr><expan>unsere</expan></choice>
+<choice><abbr>gne</abbr><expan>gnädigen</expan></choice> herrenn
+<lb/>mit allgezimmendem <hi rend="font change">respect</hi>, obengeregte erkantnußen von
+<lb/>anno <date when="1617">1617</date> und <date when="1652">1652</date> des nächeren einzusehen, unß in mererem
+<lb/>muntlich abzehören, unß auch darbey und bey dem sint dißer zeit
+<lb/>rüehigen onunderbrochnen <hi rend="font change">poses</hi><!-- Posess, Besitz --> gnädig zu schützen und zu schirmen,
+<lb/>worentgegen wir den obersten regenten himmels und der erden
+<lb/>vor eür <abbr>gnd</abbr> und <abbr>unß</abbr>
+<abbr>gnd</abbr>
+<abbr>hh</abbr> hohes beständiges wollsein
+<lb/>inigest zu erflehen niemallen underlaßen werden.</p>
+<p><lb/>Eüre <choice><abbr>gnd</abbr><expan>gnaden</expan></choice>
+<choice><abbr>u</abbr><expan>und</expan></choice>
+<choice><abbr>wßht</abbr><expan>weisheit</expan></choice></p>
+<p><lb/>unßerren hochgeachten <choice><abbr>gnd</abbr><expan>gnädigen</expan></choice> herren
+<lb/>underthänig gehorsammste</p>
+<p><lb/>vogt und fürgesezte der gemeind
+<lb/><placeName ref="loc009863">Wiedicken</placeName> und in nammen der 
+<lb/>5 ehafften ziegelhüten</p>
+<p><lb/><choice><abbr>d</abbr><expan>den</expan></choice>
+<origDate when="1748-09-27">27. <choice><abbr>7bri</abbr><expan>septembris</expan></choice>
+<lb/>anno 1748</origDate></p>
+<p><lb/><persName ref="per026416">Casper Matys</persName>, gschwornen</p></div>
+<div><ab type="address" place="verso"><lb/>Ihro gnaden <lb/>herren ammts burger<lb break="no"/>meister <persName ref="per013355">Escher</persName></ab></div>
+<div><ab type="dorsal" place="verso">Wegen dem sand-werffen</ab></div>
+</body>
+<back>
+<div>
+<p>Sand war als Baumaterial und zur Herstellung von Ziegeln und Mörtel gefragt. Zur Deckung des Bedarfs des Bauamts erhielt <persName ref="per026415">Beat Hübscher</persName>, der das Bauamt mit Sand belieferte, am 18. Juni 1617 das Monopol auf das Sammeln von Sand im untersten Teilstück der <placeName ref="loc010518">Sihl</placeName>, 
+nachdem er sich darüber beschwert hatte, dass andere die von ihm vorbereiteten Sandstellen ausgebeutet und den Sand verkauft hätten. Allerdings schränkte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> dieses Privileg dahingehend ein, dass das Sammeln von Sand für den Eigengebrauch 
+weiterhin erlaubt sein solle (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4528272">StAZH B II 340, S. 80-81</ref></bibl>). Am 16. August 1626 wurde dieses Privileg bestätigt und gegen die Einsprache von <persName ref="per026418">Jakob Sommerauer</persName> verteidigt 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4528276">StAZH B II 376, S. 24-25</ref></bibl>). Am 12. Januar 1652 bestätigte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> nach einem Streit zwischen <persName ref="per026419">Peter Widerkehr</persName>, dem vom 
+Bauamt bestellten Sandwerfer, und <persName ref="per026417">Ulrich Meier</persName>, einem Sandwerfer von <placeName ref="loc009863">Wiedikon</placeName>, erneut, dass den Sandwerfern von <placeName ref="loc009863">Wiedikon</placeName> lediglich erlaubt sei, ihre Arbeit auf dem Gebiet bis zum oberen grossen Stein auszuführen 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4528278">StAZH B II 479, S. 6-7</ref></bibl>). Im vorliegenden Fall wurden diese Urteile nun als Argument gebraucht, um zu zeigen, dass die Leute von <placeName ref="loc009863">Wiedikon</placeName> ausserhalb des vom <orgName ref="org002406">Rat</orgName> 
+privilegierten Gebiets über das Recht verfügten, Sand abzubauen und zu verkaufen. Zum Bauwesen und zu Sand als Baustoff vgl. <bibl><ref target="/startseite/literaturverzeichnis">Guex 1986</ref>, besonders S. 54-55</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_074</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=716158">StAZH A 123.2, Nr. 84</idno></msIdentifier><head>Schreiben des Vogts von Greifensee über die Bestätigung und Ausstattung von Untervogt und Weibel</head><msContents><summary>Der Vogt von Greifensee, Konrad Escher, schreibt an Bürgermeister und Rat der Stadt Zürich, dass Jörg Denzler aus Greifensee als Untervogt sowie Jörg Hoffmann aus Uster als Weibel bestätigt worden seien und bittet darum, dass nicht nur dem Untervogt Tuch in den Ehrenfarben der Stadt geschenkt werde, sondern auch dem Weibel. Dieser übe sein Amt nicht wie sonst ein Weibel aus, sondern er führe den Gerichtsstab im Namen der Obrigkeit wie ein Untervogt. Auch fänden in Uster häufiger Gerichtstage statt, weil Delikte, die mit einer Busse geahndet werden, direkt dort behandelt würden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Escher, Vogt von Greifensee</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="absent"><persName role="sigillant">Konrad Escher</persName></seal></sealDesc></physDesc><history><origin><origDate when="1553-10-15"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key005359">Amtskleidung</term><term ref="key003401">Geschenke</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_123_2__Nr__84__S__1_.tif"/>
+<p><seg><lb/>Fromer, vürsychtiger, ersamer, wyser herr, herr
+<lb/>burgermeyster, min gehorsam, wylig dienst und
+<lb/>früntlicher gruͦtz sye üwer ersam wysheytt
+<lb/>altzitt zuͦ vor.</seg>
+<seg>Dem noch ir, min gnaͤdig
+<lb/>herren, <persName ref="per013927">Joͤrgen Daͤntzler</persName> von <placeName ref="loc008569">Gryfensee</placeName> und
+<lb/><persName ref="per014137">Joͤrgen Hofman</persName> von <placeName ref="loc006198">Uster</placeName> bestaͤdt und genomen
+<lb/><persName ref="per013927"><choice><abbr>J</abbr><expan>Joͤrgen</expan></choice> Daͤntzler</persName> zuͦ üwer, miner <choice><abbr>g</abbr><expan>gnaͤdigen</expan></choice> herren, undervogt,
+<lb/>den <persName ref="per014137"><choice><abbr>J</abbr><expan>Joͤrgen</expan></choice> Hoffman</persName> von <placeName ref="loc006198">Uster</placeName> zuͦ üwer, miner <choice><abbr>g</abbr><expan>gnaͤdigen</expan></choice>
+<lb/>herren, weybel, und <persName ref="per013927">Jorg Daͤntzler</persName> von <placeName ref="loc008569">Gryfense</placeName>
+<lb/>von üwer wyssheytt dag hatt erworben vür üch,
+<lb/>min gnaͤdig herren, von waͤgen üwer, min
+<lb/>gnaͤdigen herren, eren farw, die wil
+<lb/>sy bedt vor üch, minen gnaͤdigen herren,
+<lb/>bestaͤdt und genomen, so es üwer ersam
+<lb/>wysheytt beduͦchte, ime, <add place="left margin" type="sign">dem <persName ref="per014137">Hofman</persName><lb/> von <placeName ref="loc006198">Uster</placeName>,</add> ouch beholfen zesin,
+<lb/>mitt untherdaͤnyger bydt, üwer wysheydt an
+<lb/>mich nitt zuͦ verargen, den alein üwer ersam
+<lb/>wysheytt zuͦ berichten, das ein weybel zuͦ
+<lb/><placeName ref="loc006198">Uster</placeName> nitt als sunst ein weybel, sonder er
+<lb/>fuͤrtt den stab wie ein undervogt zuͦ
+<lb/><placeName ref="loc006198">Uster</placeName> in nammen eines herren <orgName ref="org002406">burgermeyster
+<lb/>und ersamen ratz der statt <placeName ref="loc000065">Zürich</placeName></orgName>, üwer, miner
+<lb/>gnaͤdigen herren, und wirdt ouch vyl gricht
+<lb/>dagehalten, den man die buͦssen daselpst
+<lb/>raͤcht ferggett, in guͦter hofnung, mitt <unclear>imm</unclear>
+<lb/>zuͦ hussen gott, dem herren, dem noch
+<lb/>üch, minen gnaͤdigen herren, gefelig
+<lb/>zesin, der verliche üwer ersam wysheytt
+<lb/>sin gnad altzitt.</seg>
+<seg>Datum den <origDate when="1553-10-15">15 ocktober
+<lb/>155<subst><del>4</del><add place="above">3</add></subst> jar</origDate>.</seg>
+</p>
+<div>
+<signed><lb/><persName ref="per002057">Cuͦnratt Aͤscher</persName>, vogt zuͦ
+<lb/><damage agent="clipping"><placeName ref="loc000348">Gryfensee</placeName></damage></signed>
+</div>
+<pb n="2" facs="StAZH_A_123_2__Nr__84__S__2_.tif"/>
+<pb n="3" facs="StAZH_A_123_2__Nr__84__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_123_2__Nr__84__S__4_.tif"/>
+<div>
+<ab type="address" place="verso"><lb/>Dem frommen, fürsychtigen, ersamen und
+<lb/>wyssen herren, herr <persName ref="per001933">Johansen Hab</persName>,
+burger<lb break="no"/>meyster der statt <placeName ref="loc000065">Zürich</placeName>, minem gebietter,
+<lb/>den <choice><abbr>g</abbr><expan>gnaͤdigen</expan></choice> lieben herren.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Undervogt <placeName ref="loc008569">Gryfense</placeName> und weybel
+<lb/>zuͦ <placeName ref="loc006198">Uster</placeName> jedem ein kleid</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><origDate when="1553-10-15"><add place="inline" hand="other hand">Den 15<hi rend="sup">ten</hi>
+<choice><abbr>8bris</abbr><expan>octobris</expan></choice></add> 1553</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Intercession für <persName ref="per013927">Geörg Dentzler</persName>, undervogt zu <placeName ref="loc008569">Gryffense</placeName>,
+und <persName ref="per014137">Geörg Hoffmann</persName>, weibel zu <placeName ref="loc006198">Uster</placeName>,
+<lb/>daß mann ihnen meiner gnädigen herren ehren-farb zuͦkommen laßen wollte, <origDate when="1553">1553</origDate>.</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Im Verlauf des 16. Jahrhunderts war es üblich geworden, obrigkeitliche Amtsträger
+mit einem Rock in den Standesfarben von <placeName ref="loc000066">Zürich</placeName> auszustatten.
+Zu diesem Zweck enstand 1618 ein erstes systematisches Verzeichnis sämtlicher Untervögte und Weibel im Herrschaftsgebiet von <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_093">SSRQ ZH NF II/3, Nr. 93</ref></bibl>).
+Spätestens seit dem Ende des 17. Jahrhunderts wurden die entsprechenden Ausgaben und Ämter im sogenannten Mantelbuch verzeichnet
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=318645">StAZH F I 103-105</ref></bibl>;
+vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bickel 2006</ref>, S. 215, Anm. 63</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Kunz 1948</ref>, S. 27</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

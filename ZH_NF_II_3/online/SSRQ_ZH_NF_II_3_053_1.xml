@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_053_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250409">StAZH C I, Nr. 2509</idno></msIdentifier><head>Urteil in einem Streit über die Teilung von Bussgeldern zwischen dem Gerichtsherrn von Uster und dem Vogt von Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden, dass ihr Bürger Batt von Bonstetten gegen sie geklagt habe, dass die Einnahmen in der Gerichtsherrschaft Uster aus Bussen von Freveln, Raufhändeln, Körperverletzungen, Gewaltdrohungen und Friedbrüchen zwischen ihm und dem Vogt der Herrschaft Greifensee geteilt werden müssen, während die Blutsgerichtsbarkeit allein der Stadt Zürich zusteht. So sei es seit jeher gewesen, auch zur Zeit seines verstorbenen Vaters Roll von Bonstetten. Auf seinen Wunsch hin wird Kundschaft aufgenommen bei den ehemaligen Vögten sowie bei weiteren Leuten, die sich 30 bis 50 Jahre zurück erinnern. Weil diese die Ansprüche Bonstettens bestätigen, urteilt der Rat, dass die Einkünfte weiterhin geteilt werden sollen, und stellt Bonstetten darüber die verlangte Urkunde aus. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="14.0"/><width unit="cm" quantity="30.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1514-07-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000038">Gerichtsherrschaft</term><term ref="key003737">Herrschaftsrechte</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__2509__r_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und raͤt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, thuͦnd kundt offennlich mit disem brief, als sich dann etlich irtung gehalten gehept hat
+<lb/>zwu̍schent uns an eim und am anndernteil dem edlen und vesten <persName ref="per004692">Batten von Bonstetten</persName> zuͦ <placeName ref="loc006198">Ustry</placeName>, unserm getru̍wen, lieben burger,
+<lb/>deßhalb das derselb von <persName ref="per004692">Bonstetten</persName> vermeint, was fraͤfel und buͦssen, schlahen, zucken, wunnden, fryd versagen, frydbru̍ch unnd
+<lb/>annders in den gerichten zuͦ <placeName ref="loc006198">Ustry</placeName> verfielint, das unser vogt zuͦ <placeName ref="loc000348">Gryfense</placeName> in namen unser und er, genanter von <persName ref="per004692">Bonstetten</persName>, dieselben
+<lb/>mit einanndern straftind und das buͦßgelt, so davon gefiele, glichlich durch den banck hinweg on all su̍nndrung mit einandren
+<lb/>teiltind und teilen soͤlten, bis allein an das, so das bluͦt beruͦrti, gehorte unser statt, als von unser herschafft <placeName ref="loc000348">Gryfense</placeName> wegen, wie
+<lb/>das von alterhar komen und vor och by ziten sins vatters, her <persName ref="per004609">Rollen von Bonstetten</persName> ritters seligen, also gebrucht weͣre, und aber
+<lb/>wir im desselben nit geston oder soͤlichs nachlassen wolten, und er sich sins fu̍rgebens kuntschafft erbot, die dann wir im
+<lb/>zuͦ verhoͤrren nachliessent.</seg>
+<seg>Und als dieselb kontschafft vor uns gehoͤrt ist, namlich etlich unser altvoͤgt und annder, so vonn
+<lb/><date dur="P30Y">dryßg</date>, <date dur="P40Y">viertzg</date> oder <date dur="P50Y">fu̍nftzig jaren</date> har gedencken, das es also gebrucht syge und sy des gerichts ze <placeName ref="loc006198">Ustry</placeName> sigen geweßen, uss
+<lb/>den ursachen sy das wissind, als sy sagten by iren eiden, darumb sonnderlich geschworen haben, daruff wir uns erkent
+<lb/>und entschlossen, das der von <persName ref="per004692">Bonstetten</persName> mit siner gestellten und gehoͤrten kuntschafft so vil fu̍rbracht habe, das er dess
+<lb/>billich so ferr geniessen, das es nuhinfu̍r aber allso gebrucht werden soͤll, wie sin fu̍rgeben geweͣßen und das durch sin
+ge<lb break="no"/>stelte kuntschafft gesagt syge.</seg>
+<seg>Soͤlicher erkantnus dann der von <persName ref="per004692">Bonstetten</persName> eins briefs begert, den wir im zegeben erkennt
+<lb/>und daran des zuͦ urkund unser statt secret insigel offenlich hencken lassen haben, der geben ist an <origDate when="1514-07-13">donnstag vor sant
+<persName ref="per000365">Mar<lb break="no"/>grethen</persName> tag nach Crists gepurt gezallt fu̍nftzehenhundert und viertzehen jar</origDate>.</seg></p>
+<pb n="v" facs="StAZH_C_I__Nr__2509__v_.tif"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Von den buͦssen <add place="above">zuͦ</add>
+<placeName ref="loc006198">Usster</placeName>,
+<lb/><origDate when="1514">1514</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Zwischen den Vögten von <placeName ref="loc000348">Greifensee</placeName> und dem Inhaber der Gerichtsherrschaft <placeName ref="loc006198">Uster</placeName>
+kam es immer wieder zu Konflikten, beispielsweise über das Recht des Vogts, im <placeName ref="loc008848">Usterbach</placeName> zu fischen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_041">SSRQ ZH NF II/3, Nr. 41</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_048">Nr. 48</ref></bibl> und
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_050">Nr. 50</ref></bibl>).
+Aber auch über die hier geregelte Aufteilung der Gerichtseinnahmen brach später erneut Streit aus
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_061">SSRQ ZH NF II/3, Nr. 61</ref></bibl>).
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 39 und 93</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

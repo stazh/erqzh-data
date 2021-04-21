@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_174</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3742988">StAZH H I 607, fol. 1r-2v</idno></msIdentifier><head>Ordnung für den Kaplan des Siechenhauses an der Spanweid</head><msContents><summary>Der Kaplan des Siechenhauses an der Spanweid soll wie bisher jeweils am Sonntag und am Mittwoch den Kranken das Wort Gottes verkünden, ebenso an allen weiteren Feiertagen, an denen in der Stadt ebenfalls Gottesdienst gehalten wird. Im Krankheitsfall hat der Kaplan auf eigene Kosten einen Vertreter zu stellen (1). Den Todkranken hat der Kaplan Trost zu spenden (2). Dem Kaplan obliegt es, in der Verwaltung der Haushaltung des Siechenhauses behilflich zu sein und darauf zu achten, dass wohltätige Vergabungen und Spenden ihrer Bestimmung gemäss verwendet werden. In Abwesenheit des Pflegers hat er dafür zu sorgen, dass das Haus und seine Insassen mit dem Notwendigen versorgt sind (3). Wenn für das Siechenhaus bestimmte wohltätige Vergabungen und Almosen an den Kaplan gelangen, hat er diese dem Pfleger zu übergeben und dafür besorgt zu sein, dass sie gemäss dem Willen der Stifter verwendet werden. Alle testamentarisch verfügten Vergabungen sowie Schenkungen sollen in das vorliegende Buch eingetragen werden (4).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1539-06-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key000150">Jahrzeit</term><term ref="key003496">Krankheiten</term><term ref="key005411">Medizinische Versorgung</term><term ref="key000301">Pfarrer</term><term ref="key003956">Seuchen</term><term ref="key003944">Siechenhaus</term><term ref="key004079">Spenden</term><term ref="key000192">Stiftung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1r"/>
+<head><lb/>Statuten unnd ordnunngen, so der capplan deren
+<lb/>armen luͤten des gotshuß <placeName ref="loc008759">Spanweyd</placeName> schu<lb break="no"/>ldig
+unnd pflictig ist zehaltenn und denen
+<lb/>mit ernstlichem fliß nachkommen, damitt
+<lb/>gottes eer gefuͤrdert unnd zucht und erberk<lb break="no"/>eyt
+by den armen gepflantzet werd unnd
+<lb/>hie mitt ein christenlich demuͤtig leben fuͤ<lb break="no"/>rind</head>
+<p><seg n="1">
+<lb/>Item des ersten, so sol der capplan des
+<lb/>gotshuß <placeName ref="loc008759">Spanweyd</placeName>
+<date dur="R/P1WD">all sontag</date> unnd <date dur="R/P4WD">mit<lb break="no"/>wuchen</date>
+denen armen sondersiechen luͤten
+<lb/>dz heylig gots wortt verkuͤnden, uff zit und
+<lb/>stund, wie dz vormals gebrucht ist worden.
+<lb/>Witter ouch an andren firtagen, so man
+<lb/>in der statt haltet und das goͤttlich wortt
+<lb/>verkuͤndt, so sol der capplan an den selben
+<lb/>firtagen ouch an der <placeName ref="loc008759">Spanweyd</placeName> dz goͤttl<lb break="no"/>lich
+wortt verkuͤnden. Unnd ob sach waͤre, dz
+<lb/>ein capplan kranck waͤre, dz er sinen die<lb break="no"/>nst
+nit selbs moͤcht versehen mit predgen,
+<lb/>so sol ers verschaffen gethan werden durch
+<lb/>einen andren verstendigen der heyligenn
+<lb/>geschrifftt predicanten, in sinez eygnen costen.
+</seg></p>
+<pb n="1v"/>
+<seg n="2"><p>
+<lb/>Zum andren sol der capplan, so er erfordrett
+<lb/>wirdtt unnd die notturfft houͤst, die armen
+<lb/>luͤt, so da zuͦ bett liggend unnd in schwaͤ<lb break="no"/>rer,
+toͤdlicher kranckheyt begriffen sind,
+<lb/>sy zuͦ vermanen, troͤsten mitt dem goͤtt<lb break="no"/>lichen
+wortt, wie man schuldig ist zethuͦn
+<lb/>uss christenlicher liebe, damit sy gnad
+<lb/>unnd barmhertzigkeytt von gott, dem
+<lb/>herren, erlangind unnd drost in gott ir
+<lb/>selen habind, denn soͤllich vermannung
+<lb/>zuͦ hoͤchsten von noͤtten sind, dennen armen
+<lb/>sondersiechen zuͦ zuͦ dienen.
+</p></seg>
+<seg n="3"><p>
+<lb/>Zum dritten gebuͤrtt, dz der capplan
+<lb/>hilfflich unnd dienstlich sye, die huß<lb break="no"/>haltung
+des gotshus <placeName ref="loc008759">Spanweyd</placeName> truͤlich
+<lb/>helffen zuͦ verwalten, ouch ein flißig
+<lb/>uffsehen habe, das alle gottes gaben und
+<lb/>ordnungen geben unnd bruchtt werdind,
+<lb/>ouch da hin verwendt werdind, wie alle
+<lb/>ding unnd gmaͤchtt von ersamen bider<lb break="no"/>benluͤten
+geben unnd geordnett sind,
+<lb/>one allen abgang.</p>
+<p><lb/>Unnd ob sich begebe, dz zuͦ ziten ein pfle<lb break="no"/>ger
+nitt anheimsch oder sust in geschaͤfften
+<lb/>vergriffen, sol der capplan das huß
+<pb n="2r"/>
+<lb/><placeName ref="loc008759">Spanweyd</placeName> versehen mitt in kouffen und
+<lb/>was die notturfft erfordrett und mit truͤ<lb break="no"/>wen
+erstatten, wz in zethuͦn befolet wird.
+</p></seg>
+<seg n="4"><p>
+<lb/>Zum vierden, so sich begebe, dz ersamme und
+<lb/>andaͤchtige personen handreychung des
+<lb/>goͤttlichen allmuͦsens und gotsgaben de<lb break="no"/>nen
+armen kinden oder dem hus <placeName ref="loc008759">Spanw<lb break="no"/>eyd</placeName>
+weltint geben unnd soͤllich gotsga<lb break="no"/>ben
+wurdint gen an barem geltt, an guͤlt,
+<lb/>mitt brieff unnd siglen oder an ander<lb break="no"/>ley
+fruͤchten, wie unnd in was gstalt soͤl<lb break="no"/>lich
+almuͦsen geben wurd und einem cap<lb break="no"/>plan
+des gotshus <placeName ref="loc008759">Spanweyd</placeName> uberant<choice><sic>w<lb break="no"/>w</sic><corr><lb/>w</corr></choice>urttet
+wurde, so sols der capplan by
+<lb/>siner truͤw unnd eyds pflichtt fuͤrderlich,
+<lb/>one hinderstellung, einem pfleger anzouͤ<lb break="no"/>gen
+unnd zuͦ des pflegers gwaltt unnd
+<lb/>handen geben unnd stellen, one wider<lb break="no"/>red,
+damit soͤllich gotsgaben und almuͦ<lb break="no"/>sen
+verwendt werdint nach luth und inha<lb break="no"/>ltt
+gmaͤchts und ordnunng deren, so soͤllich
+<lb/>almuͦsen geben hand dem hus <placeName ref="loc008759">Spanweyd</placeName>
+<lb/>und den armen kinden. Ouch, so sol soͤll<lb break="no"/>ich
+gmaͤcht unnd gstifft almuͦsen uffge<pb n="2v"/><lb break="no"/>richtt
+unnd geschriben werden harin in diss
+<lb/>buͦch, wie andere gotsgaben hie inn besch<lb break="no"/>riben stand.
+</p></seg>
+<p>
+<lb/>Actum <origDate when="1539-06-19">sontags vor sant <persName ref="per000049">Johannes</persName>
+<lb/>tag des heyligen touͤffers, wz der
+<lb/>xix tag brachmanott, als man zalt
+<lb/>nach Cristi geburtt fuͤnffzechenhun<lb break="no"/>dertt
+drysig unnd nuͤn jare.</origDate>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Das 1539 angelegte Jahrzeitbuch des Siechenhauses an der <placeName ref="loc008759">Spanweid</placeName>, an dessen Anfang die vorliegende Ordnung steht, enthält neben Abschriften vorreformatorischer Jahrzeitstiftungen auch wohltätige Vergabungen aus der Zeit nach der Reformation, die sich am protestantischen Almosenwesen orientieren. Es dokumentiert die umfangreichen Zuwendungen, welche die Institution erhielt (für zwei exemplarische Stiftungen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_057">SSRQ ZH NF I/1/3, Nr. 57</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_192">SSRQ ZH NF I/1/3, Nr. 192</ref></bibl>). Die vorliegende Aufzeichnung ist die erste überlieferte Ordnung für den Kaplan des Siechenhauses. Ausführlichere Hausordnungen, die Einblick in die Verhaltensvorschriften der Insassen geben, sind erst aus dem 17. Jahrhundert überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4306539">StAZH H II 24.4, Nr. 2</ref></bibl>).</p>
+<p> Für die Insassen des Siechenhauses brachte die Reformation insofern eine Veränderung, als die neue Almosenordnung des Jahres 1525 ihnen verbot, wie bisher an bestimmten Tagen in der Stadt Spenden zu sammeln (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_125">SSRQ ZH NF I/1/3, Nr. 125</ref></bibl>). Der Zutritt zur Stadt wurde damit auf den Weihnachtstag eingeschränkt, an dem die an Aussatz Leidenden gemeinsam singend durch die Stadt ziehen durften, wobei der Knecht des Siechenhauses die Spenden der Bevölkerung einsammelte. Das allgemeine Bettelverbot während des restlichen Jahres wurde 1538 noch einmal verschärft (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550145">StAZH A II 61.1, fol. 3r-4r</ref></bibl>). Um den Kranken dadurch entstehende Einbussen zu kompensieren, schlugen die <orgName ref="org004911">Rechenherren</orgName> deshalb im Auftrag des <orgName ref="org002406">Kleinen Rates</orgName> vor, das Siechenhaus stärker an den Einkünften des <orgName ref="org004915">Almosenamtes</orgName> zu beteiligen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4306536">StAZH H II 24.10, Nr. 1</ref></bibl>). Die Neuanlage des Jahrzeitbuchs im Jahr 1539 und der Erlass der darin erhaltenen Ordnung für den Kaplan dürften auch im Kontext dieser Bestrebungen zu verorten sein, die finanzielle Unterstützung der an Aussatz Leidenden neu zu organisieren. </p>
+<p>Das dem heiligen <persName ref="per001846">Mauritius</persName> geweihte Siechenhaus an der <placeName ref="loc008759">Spanweid</placeName> im heutigen Quartier <placeName ref="loc010816">Unterstrass</placeName> war neben demjenigen bei <placeName ref="loc010673">St. Jakob an der Sihl</placeName> das jüngere der beiden Siechenhäuser vor den Mauern der Stadt <placeName ref="loc000065">Zürich</placeName>. Im Zuge der stärkeren Kontrollbestrebungen der städtischen Obrigkeit gegenüber kirchlichen Institutionen Ende des 15. Jahrhunderts erhielt das Haus einen durch den <orgName ref="org004016">Rat</orgName> eingesetzten Pfleger, dem fortan zusammen mit dem Kaplan die Leitung des Betriebs oblag (für die Einsetzung der ersten Pfleger vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=943627">StAZH A 94.1, Nr. 1a</ref>, S. 24</bibl>). Die durch das <orgName ref="org004352">Grossmünster</orgName> versehene, im Jahr 1472 gestiftete Kaplaneipfründe der zum Siechenhaus gehörenden Kapelle wurde auch durch die Reformation nicht angetastet, sondern sogar noch erhöht. Ein noch heute erhaltener Bestandteil der Innenausstattung der Kapelle ist das im Landesmuseum befindliche Altarbildnis des <placeName ref="loc000065">Zürcher</placeName> Veilchenmeisters mit <persName ref="per000947">Maria Magdalena</persName> und <persName ref="per000049">Johannes dem Täufer</persName>, das gemäss einem Donationenbuch des 17. Jahrhunderts von der <placeName ref="loc008759">Spanweid</placeName> in den Kunstkammerbestand der <placeName ref="loc010451">Wasserkirche</placeName> gelangte (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 55</bibl>).</p>
+<p>Während sich das Haus <placeName ref="loc010673">St. Jakob an der Sihl</placeName> bereits zu Beginn des 16. Jahrhunderts in Richtung einer Pfrundanstalt für besser gestellte, bezahlende Insassen entwickelte, erfüllte die <placeName ref="loc008759">Spanweid</placeName> weiterhin die Funktion eines Siechenhauses, das auch zahlreiche bedürftige Kranke übernahm (<bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1934a</ref>, S. 27-28</bibl>). Nachdem im 17. Jahrhundert der Aussatz weitgehend verschwunden war, fanden an anderen ansteckenden Krankheiten Leidende dort Beherbergung. Nach der Zusammenlegung der Verwaltung mit dem neuen <orgName ref="org004955">Kantonsspital</orgName> wurde zwischen 1865 und 1884 in den Gebäuden des ehemaligen Siechenhauses eine Quarantänestation für Pocken-, Typhus- und Cholerakranke eingerichtet. 1894 erfolgte der Verkauf an Private und der Abbruch von Siechenhaus und Kapelle.</p>
+<p>Zur Geschichte des Siechenhauses vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 51-56</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1934a</ref>, S. 21-26</bibl>; zur Feststellung des Aussatzes im vormodernen <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_052">SSRQ ZH NF I/1/3, Nr. 52</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_108</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3766181">StAZH F III 40, Nr. 7</idno></msIdentifier><head>Rechnung der Stadt Zürich über das Weinungeld sowie diesbezügliche Eide und Ordnungen</head><msContents><summary>Abgerechnet werden die aus dem Weinungeld zu entrichtenden Zinsen auf Pfründen, Leibrenten und Vergabungen aus letztwilligen Verfügungen. Es folgen Bestimmungen betreffend Auszahlung von Ungeldeinnehmern und Sinnern aus dem Weinungeld; die Beanspruchung von Spesen durch diese; die Auszahlung des obersten Stadtknechts sowie weiterer Stadtknechte, Boten, Pfandeinnehmer und des Ratsschreibers aus dem Ungeld; der Eid der Ungeldeinnehmer; die Eide der Wirte und ihrer Ehefrauen sowie der Wirtshausknechte zur Entrichtung des Ungelds; die Befreiung von selbst erzeugtem oder im Zürcher Herrschaftsgebiet hergestelltem Wein vom Ungeld; das Verbot des Ausschanks fremden Weins, unter Vorbehalt des Eigenkonsums.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Heft (6 Doppelblätter)</filiation><filiation type="original"><origDate from="1503-05-20" to="1519-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1519-01-01" to="1519-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key005358">Armenversorgung</term><term ref="key005369">Buchführung</term><term ref="key000179">Eid</term><term ref="key003401">Geschenke</term><term ref="key000818">Leibgeding</term><term ref="key000212">Löhne</term><term ref="key000222">Renten</term><term ref="key003944">Siechenhaus</term><term ref="key005388">Spesen</term><term ref="key003559">Spital</term><term ref="key000157">Steuern</term><term ref="key000635">Testament</term><term ref="key000129">Wein</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_F_III_40__Nr__7__S__01_.tif"/>
+<head type="title"><lb/>Wynumgellt rodel <origDate when="1519">anno <abbr>etc</abbr> xix</origDate></head>
+<p>
+<lb/>Wyn umgellter: <abbr>j</abbr>
+<persName ref="per006520">Felix Schwend</persName>, 
+<lb/><abbr>m</abbr>
+<persName ref="per015384">Erhart Nussberger</persName>
+</p>
+<p>
+<add place="below" hand="later hand"><lb/><date when="1509">1509</date></add>
+</p>
+<pb n="2" facs="StAZH_F_III_40__Nr__7__S__02_.tif"/>
+<add place="bottom" hand="later hand">a b c d e f g h i k</add>
+<pb n="3" facs="StAZH_F_III_40__Nr__7__S__03_.tif"/>
+<seg><head type="subtitle"><lb/>Eigneschafft <date dur="R/P3M">all fronfasten</date> von 
+<lb/><measure type="currency" unit="fl" quantity="25">xxv gulden</measure>
+<measure type="currency" unit="fl" quantity="1">einen</measure> zuͦ zynß</head>
+<table>
+<row><cell><lb/>Sant <persName ref="per000049">Johans</persName> pfruͦnd zuͦ der <orgName ref="org004908">abty</orgName><!-- Fraumünster -->
+<measureGrp><measure type="currency" unit="fl" quantity="1">j gulden</measure>
+<lb/><measure type="currency" unit="Ort" quantity="1">j ort</measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org005000">sonndersiechen an der <placeName ref="loc010518">Syl</placeName></orgName>
+<measure type="currency" unit="fl" quantity="3">iij gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Aber denselben <orgName ref="org005000">sondersiechen</orgName>
+<measure type="currency" unit="lb" quantity="5.5">vɉ <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Sant <persName ref="per000947">Maria Magtdalena</persName> pfruͦnd <lb/>zuͦ der <orgName ref="org004352">brobsty</orgName>
+<measureGrp><measure type="currency" unit="fl" quantity="3">iij gulden</measure>
+<measure type="currency" unit="Ort" quantity="1">j ort</measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Meister <persName ref="per015416">Hannsen Scherer</persName>, dem <lb/>watman, <measure type="currency" unit="fl" quantity="1.5">iɉ gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Aber demselben <persName ref="per015416">Scherer</persName>
+<measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Aber dem <persName ref="per015416">Scherer</persName>
+<measure type="currency" unit="Ort" quantity="3">iij ort eins guldens</measure><!-- tke: 1530: 1 Ort eines Guldens = 15 Konstanzer Kreuzer (Wiki) --></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per001663">Jacob Meysen</persName> seligen erben <measure type="currency" unit="fl" quantity="3">iij gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per014338">Heinrichen David</persName> von <placeName ref="loc000161">Basel</placeName>, langt <lb/>har von den <orgName ref="org000349">Kellern</orgName>, <measure type="currency" unit="fl" quantity="2">ij gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+</table>
+<p>
+<add hand="other hand" place="below"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="59">lviiij </measure>, suma an müntz <measure type="currency" unit="lb" quantity="26">xxvj <abbr>lib</abbr></measure></add>
+</p>
+<pb n="4" facs="StAZH_F_III_40__Nr__7__S__04_.tif"/>
+<table>
+<row><cell><lb/><persName ref="per015372">Hannsen Mu̍nch</persName> am <placeName ref="loc010667">Sefeld</placeName>, langthar von <lb/>wyland <persName ref="per015495">Ruͤdy Susenbraͤtlis</persName> wib, <measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org004913">sondersiechen an der <placeName ref="loc008759">Spanweid</placeName></orgName> von <lb/>wyland <persName ref="per015525">Clewy Trechsels</persName> wegen <measure type="currency" unit="ß" quantity="30">xxx </measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Aber den <orgName ref="org004913">sondersiechen an der <placeName ref="loc008759">Spannweid</placeName></orgName> von <lb/>wylant <persName ref="per015655">Uͦlman Zoͤrnlis, genant Trincklers</persName>, <lb/>wegen <measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org004150">predigern</orgName> von wyland <persName ref="per015525">Clewy Trechsels</persName>
+<lb/>wegen <measure type="currency" unit="ß" quantity="10">x </measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org004807">augustinern</orgName> von desselben wegen <measure type="currency" unit="ß" quantity="10">x </measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org002768">barfuͦssern</orgName> von desselben wegen <measure type="currency" unit="ß" quantity="10">x </measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>An das <quote>salve regina</quote><!-- Stundengebet --> in der <placeName ref="loc010451">Wasserkilchen</placeName>
+<lb/><measureGrp><measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure>
+<measure type="currency" unit="d" quantity="15">15 ₰</measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="12">xij </measure>, suma an müntz <measure type="currency" unit="lb" quantity="12">xij <abbr>lib</abbr></measure></add>
+</p>
+<pb n="5" facs="StAZH_F_III_40__Nr__7__S__05_.tif"/>
+<head type="subtitle">Eigenschafft <date dur="R/P3M">all fronfasten</date> von <lb/><measure type="currency" unit="fl" quantity="20">xx gulden</measure>
+<measure type="currency" unit="fl" quantity="1">einen</measure> zuͦ zinß</head>
+<table>
+<row><cell><lb/>Unnserm <placeName ref="loc010962">spittal</placeName><note>Zum <placeName ref="loc010962">Heiliggeistspital</placeName> vgl. dessen Ordnung des Jahres 1528
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_143">SSRQ ZH NF I/1/3, Nr. 143</ref></bibl>).</note>
+<measure type="currency" unit="lb" quantity="6">vj <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Aber unnserm <placeName ref="loc010962">spittal</placeName>
+<measure type="currency" unit="fl" quantity="12.5">xiiɉ </measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Dem capplan an der <placeName ref="loc008759">Spanweid</placeName><note>Für die Ordnung des Kaplans des <orgName ref="org004913">Siechenhauses an der <placeName ref="loc008759">Spanweid</placeName></orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_174">SSRQ ZH NF I/1/3, Nr. 174</ref></bibl>.</note>
+<measureGrp><measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><add place="interlinear" hand="other hand"><lb/>Aber demselben capplan <measureGrp><measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp></add></cell><cell><add place="interlinear" hand="other hand"><num value="4">iiij</num></add></cell></row>
+<row><cell><lb/><persName ref="per015372">Hannsen Mu̍nch</persName> am <placeName ref="loc010667">Sefeld</placeName>, langthar von <lb/><persName ref="per015495">Ruͤdy Sußenbraͤtlis</persName> wyb, <measure type="currency" unit="fl" quantity="0.5">ɉ gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org005000">sundersiechen an der <placeName ref="loc010518">Syl</placeName></orgName><!-- St. Jakob an der Sihl -->
+<measureGrp><measure type="currency" unit="lb" quantity="8">viij <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="15">xv </measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="52">lij </measure>, suma an <choice><sic>mütz</sic><corr>müntz</corr></choice>
+<measure type="currency" unit="lb" quantity="69">lx viiij <abbr>lib</abbr></measure></add>
+</p>
+<pb n="6" facs="StAZH_F_III_40__Nr__7__S__06_.tif"/>
+<head type="subtitle">Eigenschafft uff <date dur="R/P1Y">jars tag</date> von etwas minder <lb/>dann von <measure type="currency" unit="fl" quantity="28">xx viij gulden</measure>
+<measure type="currency" unit="fl" quantity="1">einen</measure> zuͦ zinß</head>
+<table>
+<row><cell><lb/>Der kilchen zuͦ <placeName ref="loc010769">Sant <persName ref="per000438">Peter</persName></placeName> uff <date when="--09-01">sant <persName ref="per000474">Verenen</persName> tag</date>, <lb/>langt har von wyland her <persName ref="per014551">Hansen Gu̍ttiner</persName>, lu̍p<lb break="no"/>priester daselbs, <measure type="currency" unit="fl" quantity="3.5">iiiɉ gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>An des <persName ref="per014551">Wu̍lflingers</persName> brunnen <measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure></cell><cell/></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="3.5">iiiɉ </measure></add>
+</p>
+<pb n="7" facs="StAZH_F_III_40__Nr__7__S__07_.tif"/>
+<head type="subtitle">Eigenschafft uff <date dur="R/P1Y">jars tag</date> von <measure type="currency" unit="fl" quantity="25">xxv gulden</measure>
+<lb/><measure type="currency" unit="fl" quantity="1">einen</measure> zuͦ zinß</head>
+<table>
+<row><cell><lb/><persName ref="per015465">Hannsen Sidenneyers</persName> wibs erben <date type="floating holiday">uff die fronfasten zuͦ <lb/>pfingsten</date>, nemend yetz die <orgName ref="org004925">herren zuͦ den predigern</orgName>, <measure type="currency" unit="fl" quantity="4">iiij </measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/><persName ref="per014334">Heinrichen Burckharts</persName> erben uff <date when="--07-25">sant <persName ref="per000208">Jacobs</persName> tag</date>, <lb/>langent har von <persName ref="per015361">Erhart Meyer</persName> seligen, <measure type="currency" unit="fl" quantity="6">vj </measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org002680">frowen an <placeName ref="loc007756">Sellow</placeName></orgName><!-- Selnau --> uff <date when="--02-02">liechtmess</date>
+<measure type="currency" unit="fl" quantity="3">iij gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org005000">sundersiechen an der <placeName ref="loc010518">Syl</placeName></orgName> uff <date type="floating holiday">vaßnacht</date>, langt har von <persName ref="per015462">Peter <lb/>Schoͤnen</persName>, sind uff <persName ref="per015489">Cuoͦnrat Steffa</persName>, als er der zit dz in nam ab<lb break="no"/>gloͤßd und dem <orgName ref="org005000">huß an der <placeName ref="loc010518">Syl</placeName></orgName> ze kouffen geben wordenn,
+<lb/><measure type="currency" unit="fl" quantity="12">xij gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/><persName ref="per014560">Jëcklin Habersat</persName> und sin schwoͤster, gehoͤrt yetz <lb/><persName ref="per014988">Gretlin Leman</persName>, uff <date when="--11-11"><persName ref="per000141">Martini</persName></date>
+<measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure></cell><cell><num value="1">j</num></cell></row>
+</table>
+<p>
+<add hand="other hand" place="below"><lb/>Suma us gen: suma us gen an gold <measure type="currency" unit="fl" quantity="25">xxv </measure>, suma an müntz <measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure></add>
+</p>
+<pb n="8" facs="StAZH_F_III_40__Nr__7__S__08_.tif"/>
+<head type="subtitle">Eigenschafft uff <date dur="R/P1Y">jars tag</date> von <lb/><measure type="currency" unit="fl" quantity="20">xx gulden</measure>
+<measure type="currency" unit="fl" quantity="1">einen</measure> zuͦ zinß</head>
+<table>
+<row><cell><lb/>Unnserm <placeName ref="loc010962">spittal</placeName> von herrn <persName ref="per014344">Uͦlrichen Ysenbergs</persName> wegen <lb/>an das liecht vor der siechstuben uff <date when="--09-11">unser herren tag</date>
+<measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Den <orgName ref="org005000">sundersiechen an der <placeName ref="loc010518">Syl</placeName></orgName> uff <date when="--02-02">liechtmess</date>
+<measure type="currency" unit="fl" quantity="5">v gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Her <persName ref="per015499">Hannsen Thorman</persName>, capplan an der <placeName ref="loc008759">Spannweid</placeName>, und <lb/>an sin pfruͦnd, lut des briefs, daru̍ber wyßent, <lb/>uff <date when="--11-11"><persName ref="per000141">Martini</persName></date>
+<subst><del hand="other hand"><measure type="currency" unit="lb" quantity="10">10 <abbr>lib</abbr></measure></del><add place="inline"><measure type="currency" unit="fl" quantity="4.5">iiiiɉ an gold</measure></add></subst></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Meister <persName ref="per015416">Hansen Scherer</persName>, watman, uff die <date when="--09-14">fronfasten zeherbst</date>
+<lb/><measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Me demselben <persName ref="per015416">Scherer</persName> uff die <date when="--12-13">fronfasten ze wienecht</date>
+<measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="1">j</num></cell></row>
+<row><cell><lb/>Dem <orgName ref="org004925">gotzhuß zuͦ den predigern</orgName> uff die <date type="floating holiday">fronvast zuͦ <lb/>vaßnacht</date>, langt har von der <persName ref="per015394">Richenbachin</persName>, <measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="1">j</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="12.5">xiiɉ </measure>, suma an müntz <measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure></add>
+</p>
+<pb n="9" facs="StAZH_F_III_40__Nr__7__S__09_.tif"/>
+<head type="subtitle">Eigenschafft uff <date dur="R/P1Y">jars tag</date>, so nit <lb/>zuͦ widerkouff stat</head>
+<table>
+<row><cell><lb/>An die faͤn oder den knaben, so mit den faͤnen vom <placeName ref="loc007562">Großen <lb/>Mu̍nster</placeName> vor und hinder dem sacrament gond, uff <date when="--12-13"><lb/>fronfasten zuͦ wienechten</date>
+<measure type="currency" unit="lb" quantity="5">v <abbr>lib</abbr></measure></cell><cell><num value="1">j</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: an muͤntz <measure type="currency" unit="lb" quantity="5">v <abbr>lib</abbr></measure></add>
+</p>
+<pb n="10" facs="StAZH_F_III_40__Nr__7__S__10_.tif"/>
+<head type="subtitle">Eigenschafft <date dur="R/P1W">all wuchen</date> von <lb/><measure type="currency" unit="lb" quantity="20">xx <abbr>lib</abbr></measure>
+<measure type="currency" unit="lb" quantity="1">eins</measure> zuͦ zinß</head>
+<p>
+<lb/>Den du̍rftigen des <placeName ref="loc010962">spittals</placeName>
+<date dur="R/P1W">all wuchen</date>
+<measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure> in die hend eins
+<lb/>kapplans daselbs, der <measure type="currency" unit="ß" quantity="2">ij </measure> davon nemen und inen umb dz
+<lb/>u̍brig fisch, fleisch und anders kouffen lassen sol, nach ord<lb break="no"/>nung
+her <persName ref="per014344">Uͦlrich Yßenburgs</persName> seligen und darzuͦ in der
+<lb/>wuchen an <date when="--11-02">aller selen tag</date> ein mal <measure type="currency" unit="ß" quantity="10">x </measure>.
+</p>
+<p>
+<lb/>Aber denselben du̍rftigen <date dur="R/P1W">all wuchen</date>
+<measure type="currency" unit="ß" quantity="10">x </measure> von wegen herrn
+<lb/><persName ref="per015356">Steffa Meyers</persName>, chorherren zur <orgName ref="org004908">abty</orgName>, lut sins testaments, bringt
+<lb/>alles an einer summ <date dur="R/P1Y">jërlich</date>
+<measureGrp><measure type="currency" unit="lb" quantity="78">lxxviij <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="10">10 </measure></measureGrp>.
+</p>
+<table>
+<row><cell><date type="floating holiday">Pfingsten</date></cell><cell><num value="14">iiiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--09-11">Unser herren tag</date></cell><cell><num value="13">iiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--12-25">Wienechten</date></cell><cell><num value="13">iiiiiiiiiiiij</num></cell></row>
+<row><cell><date type="floating holiday">Vaßnacht</date></cell><cell><num value="12">iiiiiiiiiiij</num></cell></row>
+</table>
+<p>
+<add hand="other hand" place="below"><lb/>Suma us gen: suma an muͤntz <measureGrp><measure type="currency" unit="lb" quantity="78">lxx viij <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="10">x </measure></measureGrp></add>
+</p>
+<pb n="11" facs="StAZH_F_III_40__Nr__7__S__11_.tif"/>
+<p>
+<lb/>Den <orgName ref="org004913">sundersiechen lu̍ten an der <placeName ref="loc008759">Spannweid</placeName></orgName>
+<date dur="R/P1W">all wuchen</date>
+<measure type="currency" unit="ß" quantity="7">xij </measure>
+<lb/>in die hend eins capplons daselbs, der <measure type="currency" unit="ß" quantity="2">ij </measure> davon nemen
+<lb/>und inen umb das u̍brig fisch, fleisch oder anders kouffen lassen
+<lb/>sol, nach ordnung des vermellten herrn <persName ref="per014344">Ulrich Yßenburgs</persName>
+<lb/>seligen, und dar zuͦ in der wuchen vor <date when="--11-02">aller selen tag</date>
+<measure type="currency" unit="ß" quantity="16">xvj </measure>.
+</p>
+<p>
+<lb/>Aber denselben <orgName ref="org004913">sundersiechen</orgName>
+<date dur="R/P1W">all wuchen</date>
+<measure type="currency" unit="ß" quantity="10">x </measure> von wegen herrn
+<lb/><persName ref="per015356">Steffa Meyers</persName> seligen, chorherren zur <orgName ref="org004908">abty</orgName>, lut sins testa<lb break="no"/>ments,<note>Diese letztwillige Verfügung sowie weitere Stiftungen <persName ref="per015356">Stefan Meiers</persName> finden sich im Jahrzeitbuch des <orgName ref="org004913">Siechenhauses an der <placeName ref="loc008759">Spanweid</placeName></orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_057">SSRQ ZH NF I/1/3, Nr. 57</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_166">SSRQ ZH NF I/1/3, Nr. 166</ref></bibl>).</note>
+bringt alles an einer summ <date dur="R/P1Y">jerlich</date>
+<measure type="currency" unit="lb" quantity="58">lviij <abbr>lib</abbr></measure>.
+</p>
+<table>
+<row><cell><date type="floating holiday">Pfingsten</date></cell><cell><num value="14">iiiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--09-11">Unser herren tag</date></cell><cell><num value="13">iiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--12-25">Wienëchten</date></cell><cell><num value="13">iiiiiiiiiiiij</num></cell></row>
+<row><cell><date type="floating holiday">Vaßnacht</date></cell><cell><num value="12">iiiiiiiiiiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an muͤntz <measure type="currency" unit="lb" quantity="58">lviij viij <abbr>lib</abbr></measure></add>
+</p></seg>
+<pb n="12" facs="StAZH_F_III_40__Nr__7__S__12_.tif"/>
+<seg><head type="subtitle">Libding <date dur="R/P3M">all fronfasten</date></head>
+<table>
+<row><cell><lb/>Frow <persName ref="per015553">Regula von Mu̍nchwyl</persName>, closter frow <lb/>zuͦ <placeName ref="loc010770">Sant <persName ref="per000474">Verena</persName></placeName>, <measure type="currency" unit="fl" quantity="1">j gulden</measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Frow <persName ref="per015634">Regula Werdmu̍llerin</persName>, closterfrow zuͦ <placeName ref="loc010770">Sant <persName ref="per000474">Verena</persName></placeName>, <measure type="currency" unit="lb" quantity="5">v <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/>Bruͦder <persName ref="per015420">Johans Schili, genant Schweger</persName>, convent<lb break="no"/>bruͦder zuͦ den <orgName ref="org005087">augustinern</orgName>, <measureGrp><measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per016897">Ruͦdolf Reyen</persName>
+<measure type="currency" unit="lb" quantity="10">x <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per015461">Cuͦnrat Schmid</persName>
+<measure type="currency" unit="lb" quantity="15">xv <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per014204">Peter</persName>, dem alten nachrichter,<note>Es dürfte sich dabei um den Nachrichter <persName ref="per014204">Peter Aeppli</persName> handeln. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Steinfels/Meyer 2018</ref>, S. 62</bibl>.</note>
+<measure type="currency" unit="lb" quantity="5">v <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+<row><cell><lb/><persName ref="per015635">Anna Wernlinen</persName>
+<measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure></cell><cell><num value="4">iiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand">
+<lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="4">iiij </measure>, suma an müntz <measure type="currency" unit="lb" quantity="152">clvij <abbr>lib</abbr></measure></add>
+</p>
+<pb n="13" facs="StAZH_F_III_40__Nr__7__S__13_.tif"/>
+<p>
+<lb/>Unnser herren habent mit <persName ref="per014540">Heintzen</persName>, dem nachrichter, ver<lb break="no"/>komen,
+das man im fu̍r richtlon und alle ding geben soͤll
+<lb/><date dur="R/P1W">all wuchen</date>
+<measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure>.
+</p>
+<table>
+<row><cell><date type="floating holiday">Pfingsten</date></cell><cell><num value="14">iiiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--09-11">Unser herren tag</date></cell><cell><num value="13">iiiiiiiiiiiij</num></cell></row>
+<row><cell><date when="--12-25">Wienechten</date></cell><cell><choice><sic>iiiiiiiiiiiiij</sic><corr><num value="13">iiiiiiiiiiiij</num></corr></choice></cell></row>
+<row><cell><date type="floating holiday">Vaßnacht</date></cell><cell><num value="12">iiiiiiiiiiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an müntz <measure type="currency" unit="lb" quantity="104">ciiij <abbr>lib</abbr></measure></add>
+</p>
+<pb n="14" facs="StAZH_F_III_40__Nr__7__S__14_.tif"/>
+<head type="subtitle"><lb/>Libding zuͦ <date dur="R/P1Y">jars tagen</date></head>
+<table>
+<row><cell><lb/>Frow <persName ref="per014954">Appolonia Kupfferschmidin</persName> und irer schwoͤster zuͦ
+<lb/><placeName ref="loc000980">Thoͤß</placeName>
+<measure type="currency" unit="fl" quantity="24">xxiiij gulden</measure>
+<num value="0.5">halbs</num>
+<date when="--07-24">uff sant <persName ref="per000049">Johans</persName> tag ze singichten</date>
+<lb/>und <num value="0.5">halbs</num> uff <date when="--11-11"><persName ref="per000141">Martini</persName></date>. Und so der schwoͤstern eine abgat,
+<lb/>so gat das lipding ouch halb ab, lut irs lipding briefs.</cell><cell><num value="2">ij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an gold <measure type="currency" unit="fl" quantity="24">xxiiij </measure></add>
+</p>
+<table>
+<row><cell>Jungfrow <persName ref="per014470">Fronegg</persName></cell><cell><num value="52"><lb/>iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii<lb break="no"/>iiiiiiiiiiiiiiij</num></cell></row>
+</table>
+<p>
+<add place="below" hand="other hand"><lb/>Item us gen <measure type="currency" unit="ß" quantity="12">xij </measure> meister <persName ref="per014562">Hans Han</persName> von junckfrow <persName ref="per014470">Fron<lb break="no"/>eg</persName> schnider lon.</add>
+</p>
+<p>
+<add place="below" hand="other hand"><lb/>Suma us gen: suma an müntz <measureGrp><measure type="currency" unit="lb" quantity="13">xiij <abbr>lib</abbr></measure>
+<measure type="currency" unit="ß" quantity="2"><add place="above">ij </add></measure></measureGrp> mitt dem schnider lon</add>
+</p></seg>
+<pb n="15" facs="StAZH_F_III_40__Nr__7__S__15_.tif"/>
+<seg><p>
+<lb/>Als yetz etlich zithar wider unser statt <placeName ref="loc000065">Zu̍rich</placeName> satzungen und
+<lb/>alt, guͦt gewonheiten mercklich unmaßen gebrucht sind
+<lb/>an unser statt winumgellt mit zeren, ouch das einer dem
+<lb/>andren letz und badgelt, zimpeltag und guͦt jar gegeben hat,
+<lb/>und so ein umgelter ab und ein anderer angegangen ist, sy
+<lb/>ein mal by einander gehept hand und derglich, und doch
+<lb/>alles uss der statt guͦt. Solichs zuͦ verkomen, ouch durch der
+<lb/>statt nutz und eren willen, habent wir, der <orgName ref="org002406">burgermeister
+<lb/>und rat der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, geordnet und angesehen, ordnent und
+<lb/>setzent ouch dis, wie hernach geschriben stat, hinfu̍r ewigklich
+<lb/>zehalten, namlich das soͤlicher cost und merckliche unmaß
+<lb/>gentzlich und gar sol abgethon und hingestellt werden und
+<lb/>unser umbgellter uss der statt guͦt weder burgermeistern, <orgName ref="org004016">rëten</orgName>
+<lb/>und gar niemand u̍beral hinfu̍r nu̍dtzit mer geben soͤllen,
+<lb/>weder guͦt jar, zimpeltag, bad oder letzgelt, trinckgelt noch
+<lb/>mal und derglich, dann wir ye woͤllent, das soͤlicher cost
+<lb/>sol abgethon werden.
+</p>
+<p>
+<lb/>Aber damit dennocht des umgelts gewartet und wider in
+<lb/>die alten, loblichen gewonheit gebracht werde, so setzennt
+<lb/>und ordnent wir, das die umgellter und synner des umgeltz,
+<lb/>wie von alter harkomen ist, uff dem <placeName ref="loc008754">Rathuß</placeName> warten und nu
+<lb/>hinfu̍r inen selbs und den knechten, so uff sy wartend, an
+<lb/><date period="P7WD">sambstagen</date> nit mer dann <measure type="volume" unit="Kopf" quantity="4" commodity="wine">vier kopf wyn</measure> beschicken unnd
+<lb/>u̍berflu̍ssige zerung, bißhar gebrucht, abstellen soͤllen. Ob aber
+<lb/>ander der <orgName ref="org004016">reͣten</orgName> by froͤmbden herren uff dem <placeName ref="loc008754">Rathuß</placeName>, der zit,
+<lb/>als die winumgellter sitzend, ouch da werend, habent die
+<lb/>umgellter gwalt, ob die notdurfft das erforderte, nach me win
+<lb/>ze schicken, damit sy die ouch geeren mu̍gint.
+</p>
+<p>
+<lb/>Und einem win umgellter, der am <date period="P7WD">sambstag</date> also wartet,
+<lb/>usser dem win umgellt gegeben werden <measure type="currency" unit="ß" quantity="1">j </measure>, und nit mer,
+<lb/>und darzuͦ yedem win umgelter sinen <date dur="R/P3M">fronfasten</date> lon, nam<lb break="no"/>lich
+<date dur="R/P3M">all fronfasten</date>
+<measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure>.
+</p>
+<pb n="16" facs="StAZH_F_III_40__Nr__7__S__16_.tif"/>
+<p>
+<lb/>Dem obristen stattknecht uff dem <placeName ref="loc008754">Rathuß</placeName> vom win umgellt
+<lb/><date dur="R/P7WD">all sambstag</date>
+<measure type="currency" unit="ß" quantity="2">ij </measure>.
+</p>
+<p>
+<lb/>So soͤllend die stattknecht, namlich ritknecht und die anndren,
+<lb/>so dann die staͤb tragent, ouch die geschwornen, louffennden
+<lb/>botten, der pfennder und ratschriber<note>Zu den Aufgaben des Ratsschreibers vgl. den diesbezüglichen Bericht <persName ref="per014238">Hans Aspers</persName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_104">SSRQ ZH NF I/1/3, Nr. 104</ref></bibl>).</note> und die winruͤffer, uff
+<lb/>die win umgellter warten <date dur="R/P7WD">all sambstag</date> und die umgellter
+<lb/>derselben jedem geben, der da ist und wartet, <measure type="currency" unit="d" quantity="6">vj ₰</measure>.
+</p>
+<p>
+<lb/>Item der synner <date dur="R/P1W">einem der wuͦchen</date>
+<measure type="currency" unit="ß" quantity="1">j </measure>.
+</p>
+<p>
+<lb/>Item dem, so die laden bringt und wider heym treit, <measure type="currency" unit="ß" quantity="1">1 </measure>.
+</p>
+<p>
+<lb/>Und woͤlichs <date period="P7WD">sambstags</date> einer nit uff dem <placeName ref="loc008754">Rathuß</placeName> ist am um<lb break="no"/>gellt
+und da nit wartet, er syg umgellter, synner oder knecht,
+<lb/>keinen ußgenomen, demselben sol man nu̍dtzit geben.
+</p>
+<p>
+<lb/>Und besonnder sol man den grichts weibel, die weͣchter, tru<lb break="no"/>meter,
+pfiffer und ander an dem end nit zuͦ warten haben,
+<lb/>inen sol ouch nu̍dtzit gegeben werden.
+</p>
+<p>
+<lb/>Die umgellter soͤllent ouch von dem gellt, so sy von wirten und
+<lb/>andren burgren inziehend, ze drinckgelt geben, was under
+<lb/><measure type="currency" unit="lb" quantity="1">eym pfund</measure> ist, <measure type="currency" unit="d" quantity="4">iiij ₰</measure>, und von <measure type="currency" unit="lb" quantity="1">eym <abbr>lib</abbr></measure>
+<measure type="currency" unit="d" quantity="6">vj ₰</measure>, und nit mer.
+</p>
+<p>
+<lb/>Und mit dem gelt, so also am umgellt fallet, soͤllent die
+<lb/>synner gmeinlich noch sonderlich gar nu̍dtzit hanndlen
+<lb/>und sich deßhalb keins gwalts nit annemen, weder mit
+<lb/>gellt zuͦ empfahen noch mit drinckgelt, ald annderem
+<pb n="17" facs="StAZH_F_III_40__Nr__7__S__17_.tif"/>
+<lb/>hinuß zegeben, sonnder allein die umgellter, so darumb schwe<lb break="no"/>rend
+und unser statt rechnung geben soͤllen und muͤssen, das
+<lb/>handlen und thuͦn lassen.
+</p>
+<p>
+<lb/>Es soͤllent ouch unser statt win umgellter <date dur="R/P1Y">jerlich</date>, so sy ge<lb break="no"/>setzt
+werdent, schwerren, die obgeschribnen artickel unnd
+<lb/>stuck zehalten, denen nach zekomen und gnuͦg zethuͦnd,
+<lb/>gmeiner, unser statt tru̍w und warheit zehalten und nutz
+<lb/>und ere zefu̍rdren und schaden zewenden, dem umgellt
+<lb/>umb <time period="morning">prym</time> und <time period="afternoon">vesper zit</time> zuͦ wartend, die win ingeschrifft
+<lb/>zenemen und dz umgelt inzezu̍chen, nach wyßung unnd
+<lb/>sag des win umgellt rodels, der inen daru̍ber gegeben ist.
+<lb/>Und besonnder die personen, so gu̍llt uff dem umgellt hand,
+<lb/>es syge eigenschafft oder lipding, ußzerichten, und ob kein
+<lb/>gellt u̍ber dis zinß u̍ber wurde, das in unser gmeinen
+<lb/>statt seckel zuͦ antwurten. Ouch niemant davon nu̍dtzit
+<lb/>zuͦ lihen, weder uff pfand noch sust, on unser herren er<lb break="no"/>louben,
+wu̍ssen und willen, alles getru̍lich und ungevar<lb break="no"/>lich.<note>Für eine ältere Fassung dieses Eides vgl. <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 228-229, Nr. 146</bibl>.</note>
+</p></seg>
+<p><seg><lb/>Actum <origDate when="1503-05-20">sambstags vor der
+<lb/>uffart anno <abbr>etc</abbr> tercio</origDate>.</seg></p>
+<pb n="18" facs="StAZH_F_III_40__Nr__7__S__18_.tif"/>
+<seg><p>
+<lb/>Unser herren <orgName ref="org002406">burgermeister und rat der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> ha<lb break="no"/>bent
+sich erkent, das alle wirt <placeName ref="loc000065">Zu̍rich</placeName>, so dann schenckent
+<lb/>und gest empfahend, <date dur="R/P1Y">jerlichen</date> schwerren soͤllent, von al<lb break="no"/>lem
+dem wyn, so sy mit iren gesten bruchent, der statt das
+<lb/>umgellt zegeben und das ir keiner kein vaß mit wyn
+<lb/>anstechen woͤlle. Er soͤlle das den winruͤffern sagen unnd
+<lb/>inn die heissen ruͤffen, den ersten ruͦff, damit er den umgell<lb break="no"/>tern
+angegeben und das umbgellt davon bezalt werde.
+<lb/>Und wie einer den wyn ruͤffen lat, also sol er inn meng<lb break="no"/>klichem,
+wer des begert, umb denselben <measure type="currency" unit="d" quantity="1">pfening</measure> geben und
+<lb/>das niemand versagen. Und woͤlicher dz nit tëte und
+<lb/>darumb verleidet wurd, der sol, so dick dz beschicht, <measureGrp><measure type="currency" unit="lb" quantity="1">j <abbr>lib</abbr></measure>
+<lb/><measure type="currency" unit="ß" quantity="5">v </measure></measureGrp> zuͦ buͦss geben und soͤllent die win umgellter soͤlich
+<lb/>buͦssen by iren eiden inziehen.<note>Für eine ältere Fassung dieses Eides vgl. <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 136, Nr. 147</bibl>.</note>
+</p>
+<p>
+<lb/>Deßglichen soͤllent aller wirten knecht <date dur="R/P1Y">jerlich</date>, so die wirt
+<lb/>schwerrent, soͤlich eid mit inen ouch thuͦn und ire wy<lb break="no"/>ber
+das <date dur="R/P1Y">jerlich</date> an eids statt globen, by guͦten tru̍wen.
+</p>
+<p>
+<lb/>Es soͤllent ouch die win umgellter <date dur="R/P1Y">jerlich</date>, so sy gesetzt
+<lb/>werden, by iren eiden die wirt, ouch ire wyber und
+<lb/>knecht, fu̍rderlich beru̍ffen, soͤlich glu̍pt und eid von inen
+<lb/>zenemen.
+</p></seg>
+<pb n="19" facs="StAZH_F_III_40__Nr__7__S__19_.tif"/>
+<p><seg>
+<lb/>Item was wins einer uff dem sinen erbuwt <add place="above" type="sign">ald</add> in der statt
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> landtschafft, gerichten und gebieten gewachßen, er<lb break="no"/>koufft,
+darvon ist keiner kein umgelt schuldig. Ob aber
+<lb/>einer usserthalb den vermellten kreyßen und gebieten win
+<lb/>kouffti, von demselben sol er das umgelt geben, namlich
+<lb/>von yedem <measure type="volume" unit="Eimer" quantity="1" commodity="wine">eimer</measure> in sonder <measure type="currency" unit="ß" quantity="7.5">achtthalben schilling haller</measure>.</seg>
+</p>
+<p>
+<seg><lb/>Als dann bißhar der <placeName ref="loc000140">Elsaͤßer</placeName> und die froͤmbden wyn sind harin
+<lb/>gelassen, hand sich mine herren erkent, das hinfu̍r niemas
+<lb/>mer soͤlich froͤmbd wyn soͤlle harin fuͤren noch inleggen, 
+<lb/>besonnder, das es blib und gehalten werd, wie von alterhar. Und
+<lb/>ob yemas <placeName ref="loc000140">Elsaͤßer</placeName><!-- Elsass --> hett, er syge wirt oder wer der woͤlle, das er
+<lb/>denselben wyn nit schenck oder gaͤsten geͣb, sonnders selbs drinck.
+<lb/>Und wer das u̍berseͣhe, das der on gnad <measure type="currency" unit="M" quantity="2">ij march silbers</measure> soͤlle zuͦ
+<lb/>buͦß geben und ob aber einer sich harinn einer sonnderen
+<lb/>gefar oder verachtung bewyße, behaltend mine herren inen vor,
+<lb/>denselben hoͤher und witer zestrafen, ye nach sinem verdienen
+<lb/>und nach gestalt der sach. Es sol ouch der <placeName ref="loc010421">Elsaͤßer</placeName><!-- Haus zum Elsässer --> mit wyn
+<lb/>und <placeName ref="loc000140">Elsaͤßer</placeName><!-- Elsass --> versehen werden nach notdurfft.</seg>
+<seg>Actum <orgName ref="org001217">vor kleinen
+<lb/>und großen raͤten</orgName>
+<origDate when="1514-10-21">uff der <num value="11000">xj<hi rend="sup">m</hi></num> megt tag anno <abbr>etc</abbr> xiiij<hi rend="sup">to</hi></origDate>.
+ </seg></p>
+<pb n="20" facs="StAZH_F_III_40__Nr__7__S__20_.tif"/>
+<pb n="21" facs="StAZH_F_III_40__Nr__7__S__21_.tif"/>
+<pb n="22" facs="StAZH_F_III_40__Nr__7__S__22_.tif"/>
+<pb n="23" facs="StAZH_F_III_40__Nr__7__S__23_.tif"/>
+<pb n="24" facs="StAZH_F_III_40__Nr__7__S__24_.tif
+"/>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung besteht aus zwei Teilen: Auf die Auflistung der aus dem eingenommenen Weinungeld zu tätigenden Ausgaben folgen verschiedene, mit dem Weinungeld zusammenhängende normative Texte. Letztere wurden aus älteren Fassungen kompiliert und von Jahr zu Jahr leicht variiert. In ähnlicher Weise aufgebaut sind die sogenannten Fleischrodel
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_071">SSRQ ZH NF I/1/3, Nr. 71</ref></bibl>). Im Abrechnungsteil vermerkte der Schreiber fortlaufend neben dem jeweiligen Ausgabenposten in Form von Strichen, wenn eine vorgesehene Auszahlung getätigt worden war. Am Ende des Abschnittes notierte schliesslich eine andere Hand in zusammenfassender Weise, wie viel über das ganze Jahr in einer bestimmten Rubrik ausgegeben worden war.</p>
+<p>Die auf den Weinausschank erhobene Umsatzsteuer war eine der bedeutendsten, an den Stadtsäckel zu entrichtenden Abgaben und galt neben der Stadt auch für ihr Herrschaftsgebiet. Die Befreiung von Wein, der selbst hergestellt wurde bzw. aus der <placeName ref="loc000065">Zürcher</placeName> Landschaft stammte, geht auf die Forderungen der Untertanen im sogenannten Waldmannhandel zurück
+(vgl. <bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref>, S. 25</bibl>). Während der Bauernbewegung des Jahres 1525 waren das Ungeld sowie die Einfuhrbeschränkungen für fremden Wein erneut umstritten, wie aus der Instruktion für die Abgeordneten der in diesem Jahr durchgeführten Ämterbefragung hervorgeht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_127">SSRQ ZH NF I/1/3, Nr. 127</ref></bibl>).</p>
+<p>Zum Weinungeld vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D26199.php">Ungeld</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946a</ref>, S. 111-125</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Frey 1911</ref>, S. 100-113</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

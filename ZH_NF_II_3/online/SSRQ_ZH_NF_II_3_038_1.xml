@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_038_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250094">StAZH C I, Nr. 3271</idno></msIdentifier><head>Waldmannscher Spruchbrief für die Herrschaft Greifensee</head><msContents><summary>Die sieben Orte der Eidgenossenschaft, Bern, Luzern, Uri, Schwyz, Unterwalden, Zug und Glarus, bestimmen je zwei Abgeordnete, die den Streit schlichten sollen, der zwischen der Stadt Zürich und ihren Untertanen vom Zürichsee, von Richterswil und Wädenswil, aus der Grafschaft Kyburg, dem Freiamt, den Herrschaften Greifensee und Grüningen sowie anderen Orten im Rahmen des Waldmannhandels entstanden ist. Speziell für die Leute aus der Herrschaft Greifensee wird festgehalten, dass sie die gleichen Freiheiten und Rechte haben wie die Leute am Zürichsee. Die Leute in Wangen, die dem Johanniterhaus Bubikon gehören, müssen nicht mehr der Grafschaft Kyburg Kriegsdienst leisten und Steuern zahlen, sondern wie ehedem der Stadt Zürich. Dem Johanniterhaus Bubikon wird das Recht bestätigt, kleine Bussen bis neun Pfund einzuziehen. Auf Verlangen der Stadt Zürich werden die Gelübde, mit denen sich die Leute der Landschaft gegenseitig Beistand versprochen haben, für ungültig erklärt. Stattdessen sollen sich die Untertanen an ihren Eid gegenüber der Stadt Zürich halten. Die Kosten für den Unterhalt der einberufenen Landleute sollen aus der Reisbüchse der betroffenen Ämter bestritten werden. Jene Personen der Landschaft, die im Zug der Unruhen geschädigt worden sind, müssen entschädigt werden, unter ihnen der Kaplan von Uster. Die Aussteller siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (A 1), Heft (6 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="29.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="damaged"><persName>Urs Werder</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Anton Schön</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Ludwig Seiler</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Werner von Meggen</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="5" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Walter In der Gass</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="6" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Heinrich Imhof</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="7" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Rudolf Reding</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="8" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Dietrich In der Halden</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="9" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Niklaus von Zuben</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="10" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Heinrich Zumbühl</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="11" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Hans Schell</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="12" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Heinrich Hasler</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="13" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName>Jost Küchli</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="14" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="absent"><persName>Werner Rietler</persName></seal></sealDesc></physDesc><history><origin><origDate when="1489-05-09"/><origPlace>Zürich</origPlace></origin></history><additional><listBibl><head>Teiledition</head><bibl>Forrer, Waldmannsche Spruchbriefe, S. 47-48</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003737">Herrschaftsrechte</term><term ref="key000468">Rechtsgewohnheit</term><term ref="key000668">Unruhen</term><term ref="key000817">Vertrag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="2" facs="StAZH_C_I__Nr__3271__S__02_.tif"/>
+<pb n="3" facs="StAZH_C_I__Nr__3271__S__03_.tif"/>
+<p><seg><lb/>Wir, diser nachbeneͣmpter <orgName ref="org001189">siben ortten der eydtgnoßen von stetten und lenndern</orgName>
+<lb/>raͤtte, mitnamen von <placeName ref="loc000464">Bernn</placeName>
+<persName ref="per013424">Ursch Werder</persName> und <persName ref="per013425">Annthoni Schoͤn</persName>, von
+<lb/><placeName ref="loc000972">Lutzern</placeName>
+<persName ref="per001107">Ludwig Seiler</persName>, schuldtheiss, <persName ref="per005642">Wernnher von Meggen</persName>, seckelmeister,
+<lb/>von <placeName ref="loc000796">Ure</placeName>
+<persName ref="per000818">Walther in der Gassen</persName>, alltamman, und <persName ref="per000942">Heinrich im Hof</persName>,
+<lb/>von <placeName ref="loc000730">Schwytz</placeName>
+<persName ref="per013426">Ruͦdolff Reding</persName>, alltamman, und <persName ref="per000766">Diettrich in der Hallten
+<lb/>der junger</persName>, von <placeName ref="loc000568">Unnderwalden</placeName>
+<persName ref="per000688">Claus von Zuben</persName>, amman ob dem wald,
+<lb/><persName ref="per013427">Heinrich zum Buͤl</persName>, amman nid dem wald, von <placeName ref="loc000215">Zug</placeName>
+<persName ref="per013428">Hanns Schell</persName>, allt
+<lb/>amman, und <persName ref="per004102">Heinrich Haßler</persName>, unnd von <placeName ref="loc000326">Glarus</placeName>
+<persName ref="per001568">Jos Kuͤchly</persName>, amman,
+<lb/>und <persName ref="per013429">Wernnher Riettler</persName>, lanndtschriber, thuͦnd kunnd aller meͣnngklich
+<lb/>mit disem brieff:</seg>
+<seg>Von soͤllicher speͣnn und mißhellung weͣgen zwu̍schent
+<lb/>den streͣnngen, vesten, fu̍rsichtigen, ersamen und wysen hobtman, raͤten
+<lb/>und ganntzer <orgName ref="org001187">gemeind in der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> an einem unnd den ersamen
+<lb/>wysen ganntzer <orgName ref="org005017">gemeind vor der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, sy sigent von dem <placeName ref="loc000127">Zu̍richsee</placeName>,
+<lb/><placeName ref="loc008712">Rychtischwyl</placeName>, <placeName ref="loc009862">Waͤdischwyl</placeName>, usser der graufschafft <placeName ref="loc000012">Kyburg</placeName>, usser dem
+<placeName ref="loc010516">Fryen<lb break="no"/>ambt</placeName>, von <placeName ref="loc000348">Gryffensee</placeName>, <placeName ref="loc000362">Gruͤnigen</placeName> und anndern herrschafften und aͤmbtern
+<lb/>der gedachten statt <placeName ref="loc000065">Zu̍rich</placeName> alls den iren am anndern teil ufferstannden,
+<lb/>harlanngende von ettwa meͣnngerhannd stucken und arttickeln, so die
+<lb/>jetzgenanten gemeind von den geruͤrten graufschafften, herrschafften,
+<lb/>aͤmptern und gegninen alle gemeinlich, oͧch sundrige aͤmpter unnd
+<lb/>gegninen zuͦ und an die beneͣmpten ir herren von <placeName ref="loc000065">Zu̍rich</placeName> zuͦ spreͣchen,
+<lb/>desglich und hinwiderumb von den arttickeln und stucken, so die von
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> an die iren zuͦvordern habent <abbr>etc</abbr>, <app><lem>dero si uff die obgenanten
+<lb/>unnser herren, die <orgName ref="org001189">siben ortt</orgName>,</lem><rdg wit="StAZH C I, Nr. 3278">uff unns,
+obgenanten der <orgName ref="org001189">siben ortten unnser <placeName ref="loc000153">Eidgnosschafft</placeName></orgName> darzuͦ verordnoten raͤten</rdg></app>, lut der anlauß brieffen von wortt zuͦ
+<lb/>wortt allso lutende:</seg>
+<seg><hi rend="font change">Zuͦ wissent</hi> sige aller meͣnngklichem offembor
+<lb/>mit disem brief, alls dann speͣnn, stoͤß und mißhellung entzwu̍schen
+<lb/>den streͣnngen, frommen, fu̍rsichtigen, ersamen und wysen hobtmann,
+<lb/>raͤtten und ganntzer <orgName ref="org001187">gemeind in der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> an einem und den
+<lb/>ersamen, wysen ganntzer <orgName ref="org005017">gemeind vor der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, sy sigent vom
+<lb/><placeName ref="loc000127">Zu̍richsee</placeName>, <placeName ref="loc008712">Richtischwyl</placeName>, <placeName ref="loc009862">Waͤdischwyl</placeName>, uß der graufschafft <placeName ref="loc000012">Kyburg</placeName>, usser
+<lb/>dem <placeName ref="loc010516">Fryenambt</placeName>, von <placeName ref="loc000348">Gryffensee</placeName>, <placeName ref="loc000362">Gruͤnigen</placeName> und anndern herrschafften
+<lb/>und aͤmptern der gedachten statt <placeName ref="loc000065">Zu̍rich</placeName> unndergehoͤrig, an dem
+<pb n="4" facs="StAZH_C_I__Nr__3271__S__04_.tif"/>
+<lb/>anndern teil ufferstannden sind, harlanngende von ettwameͣnngerhannd
+<lb/>stucken und arttickelln, so die jetzgenant gemeind von den geruͤrtten
+grauf<lb break="no"/>schafften, herschafften, aͤmptern und gegninen alle gemeinlich und sundrige
+<lb/>aͤmptern und gegninen zuͦ und an die beneͣmbten ir herren von <placeName ref="loc000065">Zu̍rich</placeName> zuͦ
+<lb/>spreͣchen habent, desglich und hinwiderumb von den arttickeln und stucken,
+<lb/>so die von <placeName ref="loc000065">Zu̍rich</placeName> an die iren, wie die jetzgenant und von welchen iren
+<lb/>aͤmbtern, herschafften und gegninen die sind, zuͦvordern habent <abbr>etc</abbr>. Das
+<lb/>naͧch vil mercklicher muͤg und arbeitt, so der hochwurdig fu̍rst und
+<lb/>her, her <persName ref="per001086">Uͦlrich</persName>, abbt des <orgName ref="org000581">gotzhus <placeName ref="loc000083">Sanndt Gallen</placeName></orgName>, und der streͣnngen,
+<lb/>frommen, fu̍rsichtigen, ersamen und wysen der <orgName ref="org001189">siben ortten der eydtgnosen
+<lb/>von stetten und lenndern</orgName>, naͤmlich von <placeName ref="loc000464">Bernn</placeName>, <placeName ref="loc000972">Lutzern</placeName>, <placeName ref="loc000796">Ure</placeName>, <placeName ref="loc000730">Schwytz</placeName>,
+<lb/><placeName ref="loc000568">Unnderwalden</placeName>, <placeName ref="loc000215">Zug</placeName> und <placeName ref="loc000326">Glarus</placeName>, und annder ir bunttgnoßen treͣffenlich
+<lb/>raͤtt und bottschafft harinn gebrucht und gehebt habent, beid vorgenant
+<lb/>parthyen umb all ir speͣnn, stoͤß, vordrung und zuͦspru̍ch, wie oder warumb
+<lb/>jeder teil die zuͦ dem anndern haͧt und zuͦ habent vermeint, darinn
+<lb/>nichtz ußgesetzt, willku̍rlich uff die gedaͧchten <orgName ref="org001189">siben oͤrtten der <placeName ref="loc000153">Eydtgnosschaft</placeName></orgName>
+<lb/>darzuͦ verordnoten raͤtte zuͦ reͣcht kommen und ganngen sind, reͣcht umb reͣcht
+<lb/>zuͦ geͣben und zuͦneͣmen mit raͣchtem geding, das die <orgName ref="org005017">gemeinde ussertt
+<lb/>der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName> durch ir vollmaͤchtig botten alles das, so si gemeinlich
+<lb/>oder jegklich herschafft, ampt und gegni in sonnders zuͦ irn herren von
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> zuͦ spreͣchen habent, deßglich und hinwiderumb die von <placeName ref="loc000065">Zu̍rich</placeName> oͧch
+<lb/>all ir vordrungen, so si von gemeiner ir statt <placeName ref="loc000065">Zu̍rich</placeName> und den iren
+<lb/>weͣgen zuͦ den iren obgenant zuͦ spreͣchen habent, fu̍r die gedaͧchten der
+<lb/><orgName ref="org001189">siben ortten</orgName> reͣte tragen und leggen. Und neͣmlich alles das, so jeder
+<lb/>teil gegen dem anndern in seͣmlichen reͣchten getru̍wt zuͦͦ geniessen,
+<lb/>es sigint wortt, lu̍t oder brieff, fu̍rweͣnden moͤgen, und was denn uff
+<lb/>beider teil reͣchtsatz naͧch ir clagen, anntwu̍rtten, reden und wider reden
+<lb/>durch die gedaͧchten der <orgName ref="org000531">eidtgnoßen</orgName> raͤtt zuͦ reͣcht erkeͣnndt und gesprochen
+<lb/>wirtt, darby soͤllent si ganntz zuͦ allen <app><lem>sydten</lem><rdg wit="StAZH C I, Nr. 3278">parthyen</rdg></app> beliben, dem tru̍wlich,
+<lb/>uffreͣcht und unzerbrochen naͧchkomen und gnuͦg thuͦn, jetz und zuͦ
+<pb n="5" facs="StAZH_C_I__Nr__3271__S__05_.tif"/>
+<lb/>ewigen zidten, aͧn alles wytter waͤgern, eͣnndern und appellieren. Es ist oͧch
+<lb/>mit neͣmlichen wortten harinn angedingt und beredt worden, das beider
+<lb/>vorgeseitter parthyen reͣcht, eins mit dem anndern zuͦgaͧn, ußgeverttiget
+<lb/>und beschloßen weͣrden sol. Und in seͣmlichen anlauß haben die genanten
+<lb/>raͤtte der <orgName ref="org001189">siben ortten der <placeName ref="loc000153">Eydtgnosschafft</placeName></orgName> luter vorbehallten, vor dem reͣchten
+<lb/>in den speͣnnigen hanndel fru̍nntlich zuͦgryffen und mit allem vlys
+<lb/>guͤttlich hinlegung zuͦbesuͦchen. Was dann allso guͤttlich betragen
+<lb/>wirdet, darby sol es beliben und dem von beiden teilen tru̍wlich naͧchganngen
+<lb/>weͣrden, inmaß wie ob von dem reͣchten staͧt. Was und wievil aber stuck
+<lb/>und arttickel allso guͤttlich nicht hingelegt weͣrdent, die soͤllen dann
+<lb/>aͧn verziehen obbegryffner meinung zuͦ reͣcht ußgesprochen und von beiden
+<lb/>teilen gehallten weͣrden.</seg>
+<seg>Wir, obgenanten <orgName ref="org001187">hobtman, raͤtt und ganntz
+<lb/>gemeind in der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, an einem unnd die ganntz <orgName ref="org005017">gemeind ussertt
+<lb/>der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, wir sigint ab dem <placeName ref="loc000127">Zu̍richsee</placeName> und von allen anndern
+graͧf<lb break="no"/>schafften, herschafften, aͤmbtern und gegninen der statt <placeName ref="loc000065">Zu̍rich</placeName> zuͦgehoͤrende,
+<lb/>an dem anndern teil, bekeͣnnen gen aller menngklichem mit disem
+<lb/>brief, das wir aller unnser speͣnn, vordrung und zuͦspru̍ch, so wir dann
+<lb/>beydersydt zuͦ und gegen enanndern habent und jede parthy zuͦ der anndern
+<lb/>habende vermeint, bys uff den hu̍ttigen tag datum ditz briefs erloffen,
+<lb/>uff der vorgenanten unnser lieben <orgName ref="org001189">eydtgnoßen, der siben ortten stetten und
+<lb/>lenndern</orgName>, raͤte obbegryffner meinunng, mit vorbehalltung guͤttlicher
+hinleg<lb break="no"/>ung, mit guͦttem, fryem willen zuͦ reͣcht komen und ganngen sind, unnd
+<lb/>gelobent daruff zuͦ beyder sydt in krafft ditz briefs by unnsern guͦten tru̍wen
+<lb/>an eydes statt fu̍r unns und alle unnser ewig naͧchkomen, was allso
+<lb/>uff unnser beider teil fu̍rbringen und darlegen von den beneͣmbten unnsern
+<lb/>lieben <orgName ref="org000531">eiydtgnoßen</orgName> raͤten guͤttlich oder zuͦ reͣcht hingelegt und ußgesprochen
+<lb/>wirtt, das alles, wie oͧbstaͧt, waͧr, vest und staͤtt zuͦ hallten, dem allem
+<lb/>tru̍wlich, gestracks und unzerprochen nachkomen und gnuͦg zetuͦn, ouch
+<lb/>darwider niemer nichtz zuͦ reden, zuͦ thuͦn noch schaffen getaͧn weͣrden, in
+<lb/>dehein wys noch weͣg, jetz und zuͦ ewigen zidten. Und hieruff so soͤllen wir,
+<pb n="6" facs="StAZH_C_I__Nr__3271__S__06_.tif"/>
+<lb/>obgenannten beid teil, und alle die, so zuͦ unns beiden parthien behafft, gewanndt
+<lb/>und verdaͧcht sind, die sigen edel oder unedel, geistlich oder weͣlltlich, niemant
+<lb/>ußgesuͤndertt, allso zuͦ reͣcht betragen, geeint, gesu̍nt, gericht und verschlicht
+<lb/>und aller unwill und vindtschafft zwu̍schen unns beiden teilen untz uff den
+<lb/>hu̍ttigen tag daͧte ditz briefs entsprungen, alklich und ganntz hin, thod und
+<lb/>ab heißen und sin und miteinanndern hinfu̍r zuͦ ewigen zidten in guͦtter,
+<lb/>fru̍nntlicher einigkeitt und fru̍ntdschafft bliben und dehein teil den anndern
+<lb/>umb alles, so sich in semlichen speͣnnen und uffruͦr begeͣben, gemacht und
+ver<lb break="no"/>loffen haͧt, niemer mer hassen, vehen, straufen noch zuͦ argem gedeͣnncken, boͤs
+<lb/>gevaͤrd und arglist harinn allweͣg zuͦvermyden.</seg>
+<seg>Und des alles zuͦ waͧrem, offem
+<lb/>urku̍nd und steͣtter, ewiger sicherheitt, so haben wir, obgenanten <orgName ref="org001187">hobtmann,
+<lb/>raͤt und ganntz gemeind in der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, unnser statt secredt insigel
+<lb/>fu̍r unns und all unnser ewig naͧchkomen an diser anlaͧß brieff zwen
+<lb/>glych lutend offennlich tuͦn heͣnncken. Und zuͦ noch merer sicherheitt und
+<lb/>ewiger besteͣnntnuß aller obgeschribner ding, so habent wir, die ganntz
+<orgName ref="org005017">ge<lb break="no"/>meind ussertt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, neͣmlich ab dem <placeName ref="loc000127">Zu̍richsee</placeName> und von allen
+<lb/>anndern herrschafften, aͤmptern und geginen der statt <placeName ref="loc000065">Zu̍rich</placeName> zuͦgehoͤrende,
+<lb/>mit ernnst erbeͣtten die edeln und streͣnngen, fu̍rnaͤmen, ersamen und wysen
+<lb/>hernn <persName ref="per013430">Diettrichen von Enngelsperg</persName>, ritter, des raͧtz zuͦ <placeName ref="loc000284">Fryburg in Uͤchtland</placeName>,
+<lb/>unnd <persName ref="per013431">Hannsen Ochsenbein</persName>, seckelmeister zuͦ <placeName ref="loc000737">Sollotern</placeName>, hern <persName ref="per004609">Andresen Rollen
+<lb/>von Bonstetten</persName>, ritter, <persName ref="per014666">Heinrichen Wirtz</persName>, amman zuͦ <placeName ref="loc010814">Uͤrykon</placeName>, und
+<lb/><persName ref="per014660">Uͦlrichen Vorster</persName>, richter zuͦ <placeName ref="loc008716">Waͤdischwyl</placeName>, das die ir eigne insigel fu̍r unns
+<lb/>und alle unnser naͧchkomen, doch hern <persName ref="per013430">Diettrichen von Enngelsperg</persName> und
+<lb/><persName ref="per013431">Hannsen Ochsenbein</persName> und iren erben aͧn schaden, offennlich harzuͦ geheͣnnkt
+<lb/>haͧnnd, die geben sind an <origDate when="1489-04-06">meͣnntag naͧch dem sunntag Judica naͧch
+<lb/>Cristi geburtt tusent vierhundertt und im nu̍n und achtzigosten jaur</origDate>.</seg>
+<seg><lb/>Zuͦ enndtlichem ußtraͤgenlichem entscheid, guͤttlicher oder reͣchtlicher spru̍chen
+<lb/>veranlaußet, das wir daruff von den obgenanten unnsern herren
+<lb/>und obern mit ernnstlicher beveͣlh naͧch unnserm vermoͤgen und besten
+<lb/>vlyß die ding, sover wir erfinden, guͤttlich hinzuͦleggen oder in
+wel<lb break="no"/>lichen stucken das nit sin moͤg, lut des vorgeschribnen anlauß reͣchtlich
+<pb n="7" facs="StAZH_C_I__Nr__3271__S__07_.tif"/>
+<lb/>zuͦ entscheiden, hierzuͦ verordnet, und demnaͧch beid obgenannt parthien
+vollmaͤchten<lb break="no"/>klich von irn gemeinden vor unns zuͦ <placeName ref="loc000065">Zu̍rich</placeName> in der statt erschinen sigen, und
+<lb/>sy daruff diser naͧchvolgender arttickel und stucken halb mit ir aller wissen
+<lb/>und guͦtem willen fru̍nntlich vereint betragen und in der minn unnd
+<lb/>fru̍ndtschafft guͤttlich bericht haben, inmaußen wie heͣrnaͧch staͧt.</seg><note>Bis hierhin stimmt der vorliegende Spruchbrief
+von <placeName ref="loc000348">Greifensee</placeName> fast wörtlich mit jenem für die Gemeinden am <placeName ref="loc000127">Zürichsee</placeName> überein
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250100">StAZH C I, Nr. 3278</ref></bibl>,
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref>, S. 13-16</bibl>).</note>
+<seg><hi rend="font change">Des
+<lb/>ersten:</hi> Naͧch dem dann die allenthalben usser der herrschafft <placeName ref="loc000348">Gryffensee</placeName> begeͣrtt
+<lb/>haben, dem zuͦsagen naͧch irn vordern vor zidten in der <placeName ref="loc010451">Wasser Kilchen</placeName>
+be<lb break="no"/>scheͣhen,<note>Vermutlich ist hier die Aufnahme ins Bürgerrecht gemeint,
+die in der <placeName ref="loc010451">Wasserkirche</placeName> in <placeName ref="loc000065">Zürich</placeName> erfolgte;
+die Leute von <placeName ref="loc000348">Greifensee</placeName> bezogen sich wohl darauf,
+dass jene Leute von der Landschaft, die 1440 für die Stadt <placeName ref="loc000065">Zürich</placeName> gekämpft hatten,
+in einem kollektiven Akt eingebürgert worden waren
+(<bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 270-271, S. 290, S. 308</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 23-24</bibl>).</note>
+sy by allen stucken, punncten, arttickeln, reͣchten, gereͣchtigkeitten,
+<lb/>gewonheitten und fryheitten wie die am <placeName ref="loc000127">Zu̍richsee</placeName> beliben zuͦ laußen,
+<lb/>das si dann dem guͦttwilligen naͧchlaußen, von unnsern <orgName ref="org001196">eydtgnossen von
+<lb/><placeName ref="loc000066">Zu̍rich</placeName></orgName> bescheͣhen und untz jetz zuͦ gesagt by allen und jeden stucken, punncten,
+<lb/>arttickeln, reͣchten, gereͣchtigkeitten, gewonheitten und fryheitten, so die
+<lb/>am <placeName ref="loc000127">Zu̍richsee</placeName> habent und inen jetz durch unnser fru̍ntlich vereinung
+<lb/>naͧch lut der briefen und libeͣllen, zwu̍schen den vermeͣllten unnsern
+<orgName ref="org001196">eydt<lb break="no"/>gnosen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> und den selben am <placeName ref="loc000127">Zu̍richsee</placeName> versigelt von unns
+uß<lb break="no"/>ganngen, nachgelaͧßen und zuͦ geͣben sigen, beliben und in allen dingen
+<lb/>also geacht und gehallten weͣrden soͤllen, doch ußgesetzt die vaßnacht
+<lb/>heͣnnen, die wie bys har zuͦ geͣben, inmaußen sy desseͣlbs zuͦ tuͦnd bekanntlich
+<lb/>sigen.</seg>
+<seg><hi rend="font change">So dann</hi>, alls die selben von <placeName ref="loc000348">Gryffensee</placeName> vermeint haben, das
+<lb/>vormaͧls von der buͦßen und fraͤfflinen weͣgen by inen die gewonheitt
+<lb/>geweͣsen sig, welcher sich einer buͦß begeͣb, oͧn reͣcht zuͦ geͣben, das denn
+<lb/>ein unndervogt im den drytteil der buͦß allweͣg naͧch ließ und die zweͣn
+<lb/>teil neͣme, habent wir an unnsern <orgName ref="org001196">eydtgnossen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> sovil erfunden,
+<lb/>das sie hinfu̍r soͤlichs allso, wie jetz gemeͣllt ist, aber bescheͣhen laußen wellen.
+<lb/>Waͧ aber einer mit reͣcht buͦß wirdig erkeͣnndt wirtt, umb dasselbig soͤlle
+<lb/>es denn oͧch gehallten weͣrden, wie das von allter har komen ist.</seg>
+<seg><hi rend="font change">Item als
+<lb/>dann</hi> die von <placeName ref="loc010866">Wanngen</placeName>, so dem hus <placeName ref="loc008653"><sic>Buͦblickon</sic></placeName> zuͦgehoͤrent, vermeint
+<lb/>habent, inen sig nu̍wlich uffgesetzt, das sy muͤssint mit der graͧfschaft
+<lb/><placeName ref="loc000012">Kyburg</placeName> reisen und stu̍r und pru̍ch, oͧch vaßnacht huͤner daͧ hingeͣben,
+dar<lb break="no"/>mit sigint die selben vogtbaren lu̍t beschwaͤrtt, das aber wider ir
+allthar<lb break="no"/>kommen sige, denn sy vormaͧlen mit unnsern <orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName>, irn
+<lb/>herren, gereiset und den kosten an inn selbs gehebt habint, mit begeͣr,
+<pb n="8" facs="StAZH_C_I__Nr__3271__S__08_.tif"/>
+<lb/>seͣmlich nu̍wrungen abzuͦstellen und si der genanten stuckenhalb by dem
+<lb/>allten harkomen beliben zuͦlaußen. Umb das stuck habent wir aber guͤttlich
+<lb/>an unnsern <orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> erfunden, das si seͣmlichs allso
+naͧch<lb break="no"/>gelaußen haben, sy hinfu̍ro zehallten wie von allter harkomen sig.
+<lb/>Doch weͣnn sy ein stu̍r uff sich seͣlbs in der statt legint, naͧch lib und naͧch
+<lb/>guͦt, das sy dann oͧch ein stu̍r uff die genanten von <placeName ref="loc010866">Wanngen</placeName> naͧch lib und
+<lb/>guͦt legen mu̍gint.</seg>
+<seg><hi rend="font change">So ist oͧch von des huses <placeName ref="loc008653">Buͦbbickon</placeName> weͣgen</hi>
+<lb/>vor unns erscheint, das dasselb <placeName ref="loc008653">Buͦbbickon</placeName> die gereͣchtigkeitt von allter
+<lb/>har gehebt hab, die kleinen buͦßen in sinen gerichten zestrauffen und in zuͦ
+<lb/>ziehen. Daͧ habent wir an unnsern <orgName ref="org001196">eydtgnossen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> abermaͧlen
+<lb/>sovil funden, dz si das uff jetz geschriben meinung zuͦ gelaußen
+<lb/>haben, doch allso, das das hus <placeName ref="loc008653">Buͦbbickon</placeName> die kleinen buͦßen bys an <measure type="currency" unit="lb" quantity="9">nu̍n
+<lb/>pfund</measure> und nit hoͤher strauffen mu̍g, wie von allter harkomen sig.</seg>
+<seg><lb/><hi rend="font change">So hab dann</hi> dasseͣlbig hus <placeName ref="loc008653">Buͦbbickon</placeName> die gereͣchtigkeitt von allter
+<lb/>har gehebt, das in allen sinen gerichten, doͤrffern und hoͤfen jede fu̍rstatt dem
+<lb/>hus <placeName ref="loc008653">Buͦbbickon</placeName> jaͤrlich ein vaßnacht huͦn geͣben hab, und muͤssint aber die
+<lb/>vogtbaren lu̍t und sine hindersaͤßen einem vogt zuͦ <placeName ref="loc000362">Gruͤnigen</placeName> des jaͧrs
+<lb/>oͧch ein vaßnacht huͦn geben, das oͧch wider ir alltharkomen sige. Das
+<lb/>stuck habent unnser <orgName ref="org001196">eydtgnossen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> naͧchgelaußen in dem fuͦg,
+<lb/>alls naͧch staͧt, weͣnn sy bericht weͣrdint, das das nit sin soͤlle, daͧr von
+ze<lb break="no"/>staͧnd.</seg><note>Das Nachfolgende stimmt wiederum fast wörtlich
+mit dem Spruchbrief für die Gemeinden am <placeName ref="loc000127">Zürichsee</placeName> überein
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250100">StAZH C I, Nr. 3278</ref></bibl>,
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref>, S. 22-24</bibl>).</note>
+<seg><hi rend="font change">Unnd naͧch</hi> dem unnsern <orgName ref="org001196">eidgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> lut des
+obver<lb break="no"/>meͣllten anlauß ir vordrung und zuͦspruch, oͧch das widerreͣcht gegen
+<lb/>den iren obgemeͣllt in dem selben anlauß vergriffen, hinwiderumb
+be<lb break="no"/>hallten ist, so habent die selben unnser <orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> des ersten
+<lb/>vermeint, alls denn die iren obgenant vor der statt, vom <placeName ref="loc000127">Zu̍richsee</placeName>
+<lb/>und sunst von allen anndern graufschafften, herrschafften, eͣmptern
+<lb/>und gegninen in dem letst verganngnen hanndel ein verpflichtung
+<lb/>und gelu̍bt zuͦ samen getaͧn habent, enannder hilff und bystannd
+<lb/>ze thuͦnd, mit mer innhallt der selbigen gelu̍bdt, das die selbig gelu̍bt
+<lb/>abgetaͧn weͣrden und sich die iren vor der statt des in keinen weͣg
+be<lb break="no"/>heͣllfen, besonnder das si by dem obgeschribnen eyd, so si inen als iren
+<lb/>herren zuͦ sweren schuldig sigen, beliben soͤllen.</seg>
+<seg><hi rend="font change">Unnd alls die</hi>
+<pb n="9" facs="StAZH_C_I__Nr__3271__S__09_.tif"/>
+<lb/>vermeͣlten die iren des mit unnderscheid, hie zuͦ meͣlden nit not, zetuͦnd urbu̍ttig
+<lb/>warent, haben wir dannocht umb des besten willen unns darinn sovil
+ge<lb break="no"/>arbeitt, das wir deßhalben und darumb in der guͤttlicheitt in wys und
+<lb/>maußen, alls ob wir soͤllichs zuͦreͣcht bekenndt hetten, entscheiden allso,
+<lb/>das soͤlich gelu̍bt und verpflichtung, so die <orgName ref="org005017">gemeinden ussertt der statt
+<lb/><placeName ref="loc000065">Zu̍rich</placeName></orgName> in dem verloffnen hanndel zuͦ samen getaͧn habent, ganntz
+<lb/>hin, thod und absin und die selben gemeinden sich deͣro gemeinlich noch
+<lb/>sonnderlich hinfu̍r u̍ber kurtz oder lanng zitt wider die genanten unnser
+<lb/><orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> noch niemand anndern von iren weͣgen niemer
+<lb/>mer beheͣllfen, sunder fu̍rohin by dem obgeschribnen eyd, so si unnsern
+<lb/><orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> jeͣrlich zuͦ sweren schuldig sigen, beliben soͤllen,
+<lb/>und das oͧch darmit der widerwill, so sich in soͤlchem hanndel gegen
+<lb/>der statt <placeName ref="loc000849">Winterthur</placeName> irn burgern gemeinlich oder deheinem besunder,
+<lb/>ouch gegen den <persName ref="per014665">graufen von Sulltz</persName>, dem <persName ref="per000643">graufen von Musax</persName>,
+<lb/><persName ref="per014663">Jacoben Moͤttilin</persName> zuͦ <placeName ref="loc008440">Bu̍rglen</placeName>, dem <persName ref="per014662">Kornnfeil</persName> zuͦ <placeName ref="loc007467">Winfelden</placeName> und
+<lb/>allen anndern, so unnsern <orgName ref="org001196">eydtgnossen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> zuͦverspreͣchen staͧnd
+<lb/>und inen in den verloͧffnen heͣnndel uff ir ervordrung hilff und
+<lb/>bystannd getaͧn alld zuͦgeseitt habent, ald was sich sunst der selben
+<lb/>aller und jedes in sonndernhalb mit wortten alld in annder weͣg
+<lb/>begeͣben haͧt, ganntz hin und absin und des dehein teil dem anndern
+<lb/>zuͦ argem niemer mer gedeͣnncken noch deßhalben niemant dem andern
+<lb/>nichtz unfru̍ntlich zuͦfuͤgen <supplied resp="rhr">soͤlle</supplied>.</seg>
+<seg>Zum andern, alls dann unser <orgName ref="org001196">eydtgnossen
+<lb/>von <placeName ref="loc000066">Zu̍rich</placeName></orgName> in dem erst verganngnen hanndel ettlich der iren usser
+<lb/>den aͤmbtern hin in zuͦ inen beruͤfft habent und inen, die gehorsamm
+<lb/>geweͣsen sigen, die nun ettlich geͣllt verzertt, da nun unnser
+<orgName ref="org001196">eydt<lb break="no"/>gnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> vermeinen, das die selbig zerung usser den bu̍chsen
+<lb/>jedes ambtz, daruß si lu̍t by inen gehept haben, genomen weͣrden
+<lb/>soͤll, denn die selben bu̍chsen anfangs darumb angeseͣhen sigen, wenn
+<lb/>si der iren <supplied source="StAZH C I, Nr. 3278">in</supplied> kriegs loͧuffen oder anndrer ir statt noͤttenhalb nottduͤrfftig
+<lb/>weͣrint, das si dann dester geru̍ster sin und soͤlich bu̍chsen geͣllt
+<pb n="10" facs="StAZH_C_I__Nr__3271__S__10_.tif"/>
+<lb/>dar zuͦ bruchen moͤchten, des sich aber die <orgName ref="org005017">gemeinden ussertt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>
+ge<lb break="no"/>spertt und vermeint habent, soͤlich zerung usser den bu̍chsen zuͦ geͣben nit schuldig
+<lb/>sin, besonnder hettint unser <orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> jemant hin in ervordertt, die
+<lb/>by inen geweͣsen weͣren, so soͤllten si den seͣlben selbs darumb ein benuͤgen tuͦn,
+<lb/>mit mer und wyttern wortten, von allen teilen darinn gebrucht, unnot
+zuͦver<lb break="no"/>gryffen, zuͦ unnser reͣchtlichen erkanndtnuß gesetzt. Darumb habent wir
+<lb/>unns zuͦ reͣcht erkenndt und gesprochen, welche von unnsern <orgName ref="org001196">eydtgnoßen
+<lb/>von <placeName ref="loc000066">Zu̍rich</placeName></orgName> zuͦ inen in ir statt ervordertt und beruͤfft worden, oͧch by inen
+<lb/>geweͣsen, uss welchen aͤmptern die sigen, das den selben die zerung, so
+<lb/>si die zidt und sy in der statt geweͣsen sigen, verzertt habent, usser den bu̍chsen
+<lb/>in iren aͤmptern, dar in si gehoͤrent, geͣben werden soͤll, aber welche unberuͤfft
+<lb/>und unervordertt hin in ganngen sigen und da zertt habent, das mann den selben
+<lb/>usser den bu̍chsen gar nichtz zuͦ geͣben schuldig sig.</seg>
+<seg>So dann von des wins
+<lb/>weͣgen, den <num value="8">achten</num> zuͦ <placeName ref="loc008713">Ruͤschlickon</placeName> und <placeName ref="loc010381">Beͣnncklickon</placeName>, <app><lem>oͧch</lem><rdg wit="StAZH C I, Nr. 3278">oder</rdg></app> anndern am
+<placeName ref="loc000127">Zu̍rich<lb break="no"/>see</placeName> genomen, oͧch von des schadens weͣgen mit eͣssen und trincken, win und
+<lb/>annderm, dem <app><lem>capplon</lem><rdg wit="StAZH C I, Nr. 3278">priester</rdg></app> zuͦ <placeName ref="loc006198">Uster</placeName>, oͧch <persName ref="per014664">Beͣrttschin Seiler</persName>, <persName ref="per014667">Connratten Wu̍rgel</persName>, <persName ref="per014659">Uͤlin
+<lb/>Ennderlin</persName> von <placeName ref="loc008709">Illnow</placeName> oder andern zuͦ gefuͤgt, da oͧch unnser <orgName ref="org001196">eydtgnoßen von
+<lb/><placeName ref="loc000066">Zu̍rich</placeName></orgName> mit anruͤrung des anlaͧß verhofft habent, den selben allen billich
+<lb/>umb ir zuͦgefuͤgt schaͧden wanndel und abtrag bescheͣhen, des sich aber
+<lb/>die obvermeͣllten gemeinden gespertt und vermeint habent, des zuͦtuͦnd
+<lb/>guͦt ursach gehebt haben, und das oͧch uff allerley wortt, von beiden teilen
+<lb/>gebrucht, zuͦ unnser reͣchtlichen erkanntnuß gesetzt ist. Umb das stuck
+<lb/>habent wir unns oͧch naͧch betrachtung des anlaͧß und allem hanndel
+<lb/>zuͦ reͣcht erkennt, das die, so vor der statt <placeName ref="loc000065">Zu̍rich</placeName> geleͣgen sien, und den <num value="8">acht</num>
+<lb/>personen, si sigint von <placeName ref="loc008713">Ruͤschlickon</placeName>, <placeName ref="loc010381">Beͣnncklickon</placeName> oder anndern ennden am
+<lb/><placeName ref="loc000127">Zu̍richsee</placeName>, irn win genomen haben, das si inen darumb naͧch glichen
+<lb/>billichen dingen wanndel und abtrag thuͦn soͤllen und inen denn
+<lb/>umb das zuͦ sagen, so si vermeinen, inen von einer <orgName ref="org008050">gemeind zuͦ <placeName ref="loc008710">Kilchsperg</placeName></orgName>
+<lb/>bescheͣhen sig, ir reͣcht, darumb gegen inen zesuͦchen, behallten sin soͤll.
+<lb/>So denn von des briesters zuͦ <placeName ref="loc006198">Uster</placeName> und der anndern aller weͣgen, denen dz
+<lb/>ir abgeeͣssen und truncken, das die gemeinden, von deͣnen das bescheͣhen
+<lb/>ist, inen die selben scheͣden oͧch naͧch zimlicheitt abtragen und inen dann
+<lb/>hin wider umb ir vordrung und rechtverttigung gegen denselben personen
+<pb n="11" facs="StAZH_C_I__Nr__3271__S__11_.tif"/>
+<lb/>oͧch behallten sin soͤll, es waͤr dann, das die selben personen, eine oder mer, ir erlitten scheͣden
+<lb/>selbs dulden und haben wellte, gegen den selben soͤllte dann hinwiderumb die vordrung,
+<lb/>so die gemeinden wortten oder anndrer dingenhalb zuͦ inen zuͦ spreͣchen hetten, oͧch absin.</seg>
+<seg><lb/>Unnd hieruff zuͦ beschluß aller obgeschribner unnser guͤttlicher und reͣchtlicher
+<lb/>entscheidungen, so sol hiermit aller unwill und unfru̍ndtschafft, so sich vornaher
+<lb/>untz uff hu̍tt datum dis briefs zwu̍schent unnsern <orgName ref="org001196">eydtgnoßen von <placeName ref="loc000066">Zu̍rich</placeName></orgName> an
+<lb/>einem und den obgenanten den iren vor der statt an dem anndern teil gemeinlich
+<lb/>und sunderlich durch disen hanndel begeben, verloffen und gesachet haͧt, ganntz hin,
+<lb/>thod und absin und das alles dehein teil dem anndern in argem niemer mer
+fu̍r<lb break="no"/>ziechen noch niendertt zuͦ schaden ermeͣßen, was sich oͧch an jedem teil in
+ge<lb break="no"/>meinden oder sundern personen mit wortten oder annderm byshar begeͣben und
+<lb/>verloffen haͧt, das dz alles niemant uff deheinem teil an sinenn eren nichtz
+<lb/>abziehen noch schaden in kein wys noch weͣg, sunnder so sol es hiermit durch
+<lb/>unns ein versu̍nte, gerichte und verschlichte sach heissen und sin und si zuͦ
+<lb/>allen teilen in guͦtter einigkeitt und fru̍nntlichem willen mitenanndern
+<lb/>bestaͧn und bliben by den pflichten und gelu̍pten, ob in dem anlaͧß <app><lem>begriffen</lem><rdg wit="StAZH C I, Nr. 3278">vergriffen</rdg></app>.
+<lb/>Es sol oͧch mit lutern wortten diser bericht guͤttlicher und reͣchtlicher
+erkannt<lb break="no"/>nu̍ssen aller ob geschribner stucken, puncten und arttickeln unnsern <orgName ref="org001196">eydtgnoßen
+<lb/>von <placeName ref="loc000066">Zu̍rich</placeName></orgName> in all annder weͣg an irn oberkeitten, gewalltsami, alten
+<lb/>harkomen und gereͣchtigkeitten ganntz keinen abpruch, mindrung noch
+verletz<lb break="no"/>ung gebeͣren noch bringen in keinen weͣg, gevaͤrd und arglist harinn
+<lb/><app><lem>ußgeschlosen</lem><rdg wit="StAZH C I, Nr. 3278">ganntz vermitten und usgeschlossen</rdg></app>.</seg>
+<seg>Unnd des allen zuͦ waͧrem und ewigem urku̍nd,
+<lb/>so haben wir obbestimpten botten alle unnser jeder insonnder sin eigen insigel,
+<lb/>doch unns allen und unnsern erben oͧne schaden, an diser brief, zwen glich
+<lb/>lutend in libells wyse gemacht, <app><lem/><rdg wit="StAZH C I, Nr. 3278">offennlich</rdg></app> laußen heͣnncken, die zuͦ <placeName ref="loc000065">Zu̍rich</placeName> inn der
+<lb/>statt geben sind an dem <origDate when="1489-05-09">nu̍nden tag des monatz meyen nach Cristi
+ge<lb break="no"/>burtt thusendt vierhundertt und darnaͧch im nu̍n und achtzigosten jaͧr</origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+<pb n="12" facs="StAZH_C_I__Nr__3271__S__12_.tif"/>
+<pb n="1" facs="StAZH_C_I__Nr__3271__S__01_.tif"/>
+<div>
+<ab type="dorsal" place="cover" hand="hand16c"><lb/><placeName ref="loc000348">Gryffensee</placeName> und <placeName ref="loc008653">Buͦbbickon</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="cover" hand="hand18c"><lb/>Der <orgName ref="org001189">siben alten orthen der <placeName ref="loc000153">Eidtgnoßchafft</placeName></orgName> spruch <del>zum</del>,
+so sie der herrschafft <placeName ref="loc000348">Gryffensee</placeName> und dem
+<lb/>haus <placeName ref="loc008653">Buͦbickon</placeName> nach dem <persName ref="per000814">Waldmanns</persName> auͦflauff gegeben, <origDate when="1489">1489</origDate></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Im Frühjahr 1489 erhoben sich die Bauern von <placeName ref="loc000348">Greifensee</placeName>
+zusammen mit Leuten aus anderen <placeName ref="loc000066">Zürcher Herrschaftsgebieten</placeName>
+gegen den Bürgermeister <persName ref="per000814">Hans Waldmann</persName> und seine Anhänger.
+Als Auslöser wird meist die von der Stadt angeordnete Tötung der Bauernhunde genannt;
+zugleich wehrte sich die Landschaft aber auch gegen weitere Massnahmen der städtischen Territorialisierung und Herrschaftsintensivierung.
+Da sich der bereits von den Zeitgenossen als Waldmannhandel bezeichnete Aufstand auf weitere Gebiete auszuweiten drohte,
+drängten die anderen <orgName ref="org001189">eidgenössischen Orte</orgName> auf eine Schlichtung
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/026844">Waldmannhandel</ref></bibl>).
+In 14 Spruchbriefen wurden die allgemeinen Anliegen sowie spezifische Forderungen der verschiedenen Herrschaftsgebiete aufgeführt,
+zumeist aber im Sinn der <orgName ref="org002406">Zürcher Obrigkeit</orgName> entschieden
+(Edition: <bibl><ref target="/startseite/literaturverzeichnis">Forrer, Waldmannsche Spruchbriefe</ref></bibl>).</p>
+<p>Speziell am Spruchbrief für die Leute aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName> ist der Anspruch,
+rechtlich gleich gestellt zu sein wie die Gemeinden am <placeName ref="loc000127">Zürichsee</placeName>.
+Diese Sonderstellung, die ihren Vorfahren einst in der <placeName ref="loc010451">Wasserkirche</placeName> gewährt worden sei,
+leiteten sie wohl aus dem Umstand ab, dass einigen Leuten aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+für ihre treuen Dienste während des Alten Zürichkriegs 1440 das Bürgerrecht geschenkt worden war
+(<bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 270-271, S. 290, S. 308</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 23-24</bibl>).
+Knapp zehn Jahre nach dem Waldmannhandel bezeichneten sich die Leute aus der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+sogar schlichtweg als Bürger von <placeName ref="loc000065">Zürich</placeName> und erreichten damit,
+dass <placeName ref="loc000348">Greifensee</placeName> hochgerichtlich direkt der Stadt unterstellt wurde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_044">SSRQ ZH NF II/3, Nr. 44</ref></bibl>).
+</p>
+<p>Erneut zu Unruhen kam es im Rahmen der Reformation,
+als die Leute von <placeName ref="loc000348">Greifensee</placeName>
+und aus anderen <placeName ref="loc000066">Zürcher Herrschaftsgebieten</placeName>
+1525 die Abschaffung von Zehntabgaben und Frondienstleistungen forderten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_058">SSRQ ZH NF II/3, Nr. 58</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

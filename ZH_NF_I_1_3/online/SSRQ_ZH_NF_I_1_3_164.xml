@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+  Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+  Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_164</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917262">StAZH B III 6, fol. 105r-v</idno></msIdentifier><head>Ordnung für die Besoldung der Hebammen der Stadt Zürich</head><msContents><summary>Bürgermeister Diethelm Röist und beide Räte verfügen eine Verbesserung der Entlohnung der städtischen Hebammen, damit möglichst viele fähige Frauen für diese Tätigkeit gewonnen werden können. Aufgrund schlecht ausgebildeter Hebammen sei in der Vergangenheit mancher Schaden für die Gebärenden entstanden. Künftig sollen die Hebammen zu jeder Fronfasten zwei Pfund aus dem Stadtsäckel, jährlich 4 Mütt Kernen aus dem Almosenamt, aufgeteilt auf die vier Fronfasten, jährlich ein Halbhundert Holz aus dem Sihlamt sowie jeweils im Herbst vier Eimer Wein erhalten. Dafür werden die Geschenke zu Neujahr und zum Ostermontag abgeschafft. Die Hebammen sollen Tag und Nacht den Gebärenden zur Verfügung stehen und ihr Bestes tun, ansonsten wird die Verbesserung der Entlohnung wieder rückgängig gemacht. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag (Nachtrag)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1536-04-12"/></origin></history><additional><listBibl><head>Edition</head><bibl>Ruf, Gesamtausgabe, Bd. 4, S. 704-705; Baumgartner, Wundgschau, S. 73-74</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003401">Geschenke</term><term ref="key000212">Löhne</term><term ref="key005411">Medizinische Versorgung</term><term ref="key005333">Schwangerschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="105r"/>
+<head><lb/>Der hebammen besoldung</head>
+<p>
+<seg>
+<lb/>Es sind der statt hebammen<note>Zu den Hebammen vgl. deren Eid und Ordnung
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_162">SSRQ ZH NF I/1/3, Nr. 162</ref></bibl>).</note> bißhar eben schlächtlich besoldet ge<lb break="no"/>wesen,
+dardurch biderben frouwen vil schaden, gefhaaren unnd
+<lb/>nachteyls inn purtenn unnd sunst enntstanden, allermeyst
+<lb/>der ursach, das niemand dann arme, unnkönnende wyber,
+<lb/>damit biderblütt nit versechen gewesen, nach söllichenn dien<lb break="no"/>stenn
+gstelt.</seg>
+<seg>Deßhalb mine herren umb dess gemeinen nutzes
+<lb/>willen, diewyl an disem hanndel träffenlich vil gelegen unnd
+<lb/>damit redliche, könnende unnd berichte wyber lustig werdint,
+<lb/>sich diser dingen zuͦ unnderwynden, trägender not unnd ee<lb break="no"/>haffter
+ursachen halb bewegt worden, der hebamen besoldung
+<lb/>etwas zebesseren unnd habent ouch geordnet, das man
+<lb/>nun hynfür yeder hebammen zuͦ <date dur="R/P3M">yeder fronvasten</date> von der statt
+<lb/>segkel <measure type="currency" unit="lb" quantity="2">ij <abbr>lib</abbr></measure>, deßglychen vom <orgName ref="org004915">almuͦsen</orgName>
+<date dur="R/P1Y">järlich</date>
+<measure type="volume" unit="Mütt" quantity="4" commodity="spelt">iiij <choice><abbr>t</abbr><expan>mütt</expan></choice> kernnen</measure>,
+<lb/>zuͦ den <date dur="R/P3M">vier fronvasten</date> geteylt, zuͦsampt <num value="50">eym halbhundert</num> holtz
+<lb/>ab der <placeName ref="loc010518">Sil</placeName> unnd <date dur="R/P1Y">järlich</date>
+<date period="fall">zuͦ herbst</date> vom <orgName ref="org004915">almuͦsen</orgName>
+<measure type="volume" unit="Eimer" quantity="4" commodity="wine">vier ey<lb break="no"/>mer
+wyn</measure> geben unnd verfolgen laßenn. Des sy sich ouch
+<lb/>benügen, geflißenn unnd trüw sin unnd biderben lütten
+<lb/>by <time period="byDay">tag</time> unnd <time period="byNight">nacht</time> gewärttig unnd inn allweg das best
+<pb n="105v"/>
+<lb/>thuͦn, doch hiemit das guͦt jar unnd der <date type="floating holiday">zümpeltag</date><!-- msr: vgl. Idiotikon, Bd. XII, Sp. 1061 ("Zimpfeltag"): Auf den Ostermontag gegebene Geschenke --> hin
+<lb/>unnd ab sin unnd wyter, dann obstat, nit geben.</seg>
+<seg>Es sol ouch
+<lb/>yetz angends unnd dannenthin offtermaln im jar ernstlich
+<lb/>mit inen geredt werden, guͦt sorg zehabenn unnd biderben lü<lb break="no"/>tten
+inn allen trüwen zethuͦn, das sy inen schuldig sind,
+<lb/>dann mine herrenn inen sunst dise beßerung widerumb
+<lb/>abschlahen wurden. Darnach sollennt sy sich haben zerichten.</seg>
+<lb/><seg>Actum <origDate when="1536-04-12">mittwuchs nach dem palmtag anno <abbr>etc</abbr>
+<lb/>1536</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr <!-- Diethelm --><orgName ref="org002406"><persName ref="per012669">Royst</persName> unnd beyd räth</orgName>.<note>Direkt an die Ordnung schliessen sich zwei spätere Zusätze aus den Jahren 1567 und 1580 an. Der erste verfügt die Aufbesserung des Gehalts der Hebammen auf vier Pfund zu jeder Fronfasten. Im zweiten wird die Schaffung einer weiteren Stelle angekündigt, so dass künftig fünf geschworene Hebammen im Dienst der Stadt tätig sein sollen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917263">StAZH B III 6, fol. 105v, Eintrag 1-2</ref></bibl>).</note></seg>
+</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

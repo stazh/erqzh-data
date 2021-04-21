@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_032_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=680063">StAZH G I 102, fol. 34r</idno></msIdentifier><head>Eid der Leute von Höngg</head><msContents><summary></summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift (Nachtrag)</filiation><filiation type="original"><origDate when="1479-05-26"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Datierung aufgrund von B II 4 (Teil II, fol. 37 v, Eintrag 1)</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 3/2, S. 230, Nr. 150 (auf der Grundlage von StAZH B II 4)</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1"><pb n="34r" facs="StAZH_G_I_102__fol__34_r_.tif
+"/>
+<div><head><app><lem>Der von <placeName ref="loc009768">Hoͤngk</placeName> eide, och zuͦ <date dur="R/P10Y">x jare</date></lem><rdg wit="StAZH B II 4, Teil II, fol. 37v, Eintrag 1">Disen eyd söllen die von <placeName ref="loc009768">Höngg</placeName> schweren</rdg></app></head>
+<p><lb/>Ir soͤllent sweren miner herren, <orgName ref="org004352">bropstz <lb/>und cappittels des wirdigen gotzhus <lb/>Sant
+<persName ref="per012644">Felix</persName> und Sant <persName ref="per000143">Reglen</persName> zuͦ der brop<lb break="no"/>stye
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, gerichten zuͦ <placeName ref="loc009768">Hoͤngk</placeName> ge<lb break="no"/>horsam und
+gewerttig zuͦ sin und <lb/>inen die zuͦ behalten und zuͦ beheben, <lb/>wie das von alterhêr komen ist, ge<lb break="no"/>tru̍wlich und ǎn allegevêrd.<app>
+<lem/>
+<rdg wit="StAZH B II 4, Teil II, fol. 37v, Eintrag 1">Actum <origDate when="1479-05-26">uff mitwuchen nach dem sant
+<persName ref="per000356">Urbans</persName> tag anno <abbr>etc</abbr> lxxxix</origDate>, coram consilio.</rdg>
+</app>
+</p>
+</div>
+</body>
+<back>
+<div><p>Wahrscheinlich diente der gleichlautende Eid im Stadtbuch, datierend vom <date when="1479-05-26">26. Mai 1479</date>, dieser nachträglichen Abschrift in der Sammlung der Hofrechte des <orgName ref="org004352">Grossmünsterstifts</orgName> als Vorlage; dort fehlt allerdings der Hinweis auf die Periodizität der Eidesleistung (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3305451">StAZH B II 4, Teil II, fol. 37v, Eintrag 1</ref></bibl>).</p><p>Für den Eid der Leute in den anderen Besitzungen des <orgName ref="org004352">Grossmünsterstifts</orgName>, der an diese Abschrift anschliesst, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_033">SSRQ ZH NF II/11, Nr. 33</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

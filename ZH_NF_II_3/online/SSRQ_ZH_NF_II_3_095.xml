@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_095</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=941023">StAZH A 123.4, Nr. 152</idno></msIdentifier><head>Bittschreiben der Gemeinde Hegnau betreffend Eröffnung einer Weinschänke</head><msContents><summary>Der Vogt von Greifensee, Hans Konrad Bodmer, schreibt an Bürgermeister und Rat der Stadt Zürich, dass Felix Gul und Heinrich Ochsner vor ihm erschienen seien, um im Namen der gesamten Gemeinde Hegnau um die Eröffnung einer Weinschänke zu bitten. Weil Hegnau eine grosse Gemeinde mit vielen Haushaltungen sei, aber niemand bei ihnen das Recht habe, öffentlich Wein auszuschenken, und man für Kranke, Kindbetterinnen, Reisende und bei sonstigen Gelegenheiten Wein benötige, bittet die Gemeinde darum, einen von ihnen bestimmen zu dürfen, der Wein ausschenken darf.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="fragmentary"><persName role="sigillant">Hans Konrad Bodmer</persName></seal></sealDesc></physDesc><history><origin><origDate when="1640-01-24"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003396">Alkohol</term><term ref="key003918">Petition</term><term ref="key000129">Wein</term><term ref="key005460">Winkelwirtschaft</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_A_123_4__Nr__152__S__1_.tif"/>
+<p><lb/>Hoch geachte, wol edle, gestrenge, fromme, veste, ehrn
+<lb/>veste, fürsichtige, fürnemme und wyße herr
+burgermeist<lb break="no"/>er, gnedig, günstig, hochehrend herren, dennen seige myn
+<lb/>underthenig, guͦtwillig dienst sampt schuldiger pflicht
+<lb/>zuͦvor.
+</p>
+<p><seg><lb/>Es ist vor mir erschinen <persName ref="per015028">Felix Gul</persName> und <persName ref="per015029">Heinrich
+<lb/>Ochsner</persName> innammen einer gantzen ehrsammen <orgName ref="org004886">gmeind
+<lb/>zuͦ <placeName ref="loc008815">Hegnauw</placeName></orgName>, myner ampts angehörigen von eüwer
+<lb/>gnaden mir vertruwten herschafft, mit anzeigung,
+<lb/>wyl der hußhaltungen by innen vil und nit gar ein
+<lb/>kleine gmeind seige und niemands by innen offentlich
+<lb/>wyn ußzuͦschëncken gwalt habe, und aber auch durch
+<lb/>das jar etwa kranckne, item kind betteren,
+biß<lb break="no"/>wylen auch durch reyßende lüth und sonsten zuͦ
+für<lb break="no"/>fallenden glëgenheiten man dess wyns mangelbar
+<lb/>und notürfftig, da auch in irem dorff kein
+würths<lb break="no"/>huss und eignen wyn in synem huss zuͦhaben nit <choice><sic>in
+<lb/>in</sic><corr>in</corr></choice> jedeße vermögen, mit pit, deßwegen innen
+zuͦer<lb break="no"/>lauben oder verhülfflich zesyn, daß sy möchtind einen
+<lb/>uß irer gmeind erwellen, der offentlich dörffte durch
+<lb/>das jar wyn ußschëncken. Doch begërind sy es anderer
+<lb/>gstalt nit dan zuͦ rëchter notwëndigkeit.</seg>
+<seg>Diewyl
+<lb/>nun diss ir begëren gehörter maßen mich nit
+un<lb break="no"/>zimlich syn bedunckt, sonderlich wyl es ein zimmlich große
+<lb/>gmeind und sy zuͦ fürfallender noturfft den wyn
+<lb/>in andern abglëgnen orten mit unglëgenheit holen
+<lb/>müßnd, deßwegen ich sy für eüch, myn gnedig,
+hoch<lb break="no"/>ehrend herren, gwißen, diss ir begeren underthenig
+<lb/>fürzuͦbringen und anzuͦhalten, ob vilicht von <choice><abbr>e gn</abbr><expan>eüwer gnaden</expan></choice>
+<lb/>innen vergünstiget werden möchte, das sy, glych wie die
+<lb/><orgName ref="org004894">gmeind zuͦ <placeName ref="loc008816">Nënicken</placeName></orgName> und ander gmeinden mehr,
+<lb/>auch also einen in irer <orgName ref="org004886">gmeind <placeName ref="loc008815">Hegnauw</placeName></orgName> haben
+möch<lb break="no"/>tind, der offentlich mit gebürender bscheidenheit zuͦ
+<lb/>rechter notwëndigkeit dörffte durchs jar wyn
+uss<lb break="no"/>schëncken. Umm diss dan gemelte <orgName ref="org004886">gmeind
+<placeName ref="loc008815">Heg<lb break="no"/>nauw</placeName></orgName>
+<choice><abbr>e gn</abbr><expan>eüwer gnaden</expan></choice> gantz underthenig und pitlich ersuͦcht,
+<lb/>innen in dißem irem begeren zewilfahren, weliches
+<lb/>sy jederzyth schuldiger gebür und undertheniger
+ghor<pb n="2" facs="StAZH_A_123_4__Nr__152__S__2_.tif"/><lb break="no"/>samme umm <choice><abbr>e gn</abbr><expan>eüwer gnaden</expan></choice> danckbarlich zuͦerkënnen
+aner<lb break="no"/>bietig.</seg>
+<seg>Hiemit mich in <choice><abbr>e gn</abbr><expan>eüwer gnaden</expan></choice> gunsten <choice><sic>und und</sic><corr>und</corr></choice> uns
+<lb/>samptlich göttlicher allmacht, schutz und schirm trüwlich
+<lb/>befehlende, datum <origDate when="1640-01-24" calendar="Julian">24ten januarii anno 1640</origDate>.</seg>
+</p>
+<p><lb/><choice><abbr>E gn</abbr><expan>Eüwer gnaden</expan></choice>
+<lb/>undertheniger burger,
+<lb/><persName ref="per009975">Hans Conradt Bodmer</persName>,
+<lb/>vogt zuͦ <placeName ref="loc000348">Gryffensee</placeName>.
+</p>
+<pb n="3" facs="StAZH_A_123_4__Nr__152__S__3_.tif"/>
+<pb n="4" facs="StAZH_A_123_4__Nr__152__S__4_.tif"/>
+<div>
+<ab type="address" place="verso"><lb/>Den hochgeachten, wol edlen, gestrengen,
+fromm<lb break="no"/>en, vesten, ehrnvesten, fürsichtigen, fürnemmen und
+<lb/>wysen herrn, herrn <orgName ref="org002406">burgermeister und rath der
+<lb/>stat <placeName ref="loc000065">Zürich</placeName></orgName>, mynen hocheh<supplied resp="rhr">r</supplied>enden, gnedigen, lieben
+<lb/>herren.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Vogt zuͦ <placeName ref="loc000348">Gryffensee</placeName>,
+<origDate when="1640-01-24" calendar="Julian">24<hi rend="sup">ten</hi> januarii anno <unclear><abbr>etc</abbr></unclear> 40</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Interce<subst><del>diert</del><add place="overwritten" hand="later hand">ssion</add></subst> für die <orgName ref="org004886">gmeind
+<lb/><placeName ref="loc008815">Hegnauw</placeName></orgName>, inen ein <unclear>tafernen</unclear>
+<lb/>oder sonsten wyn vom zapfen
+<lb/>zuͦ schencken, ze verwilligen, <add place="inline" hand="other hand"><origDate when="1640">1640</origDate></add>.
+<lb/><del hand="later hand">Sy sind solch ires begehrens abgewißen.</del></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Das Ausschenken von Wein war in der Frühen Neuzeit streng reglementiert.
+Die sogenannten ehaften Tavernen oder Gasthäuser verfügten über eine von der Obrigkeit
+verliehene Konzession zur Verpflegung und Beherberung von Gästen.
+Die Wirte erhielten das Tavernenrecht gegen eine einmalige Gebühr sowie einen jährlichen Zins verliehen
+und waren dazu verpflichtet, Gäste mit Speise und Trank zu versorgen
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/013731">Ehaften</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/016323">Gasthäuser</ref></bibl>).
+Davon unterschieden sich die Weinschenken oder Zapfenwirtschaften,
+die geringere Mengen von Wein ausschenken, jedoch keine Gäste verpflegen oder beherbergen durften.
+Daneben existierte eine Vielzahl sogenannter Winkelwirtschaften,
+deren Besitzer Wein ausschenkten, ohne über eine Konzession zu verfügen,
+was die Obrigkeit nicht nur aus sittlichen, sondern auch aus fiskalischen Gründen zu unterbinden versuchte.
+So legte der <orgName ref="org002406">Zürcher Rat</orgName> für die Herrschaft
+<placeName ref="loc000348">Greifensee</placeName> im Jahr 1708 fest,
+dass sämtliche Winkelwirtschaften geschlossen werden müssen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_105">SSRQ ZH NF II/3, Nr. 105</ref></bibl>).
+</p>
+<p>Dass dem Wein indessen eine wichtige, ja geradezu lebensnotwendige Funktion zugesprochen wurde, geht aus dem vorliegenden Stück hervor,
+indem die Gemeinde neben der Verpflegung von Reisenden auch mit der Versorgung von Kranken und Kindbetterinnen argumentierte.
+Der <orgName ref="org002406">Zürcher Rat</orgName> folgte dieser Argumentation jedoch nicht, wie ein Vermerk auf dem Rücken des Stücks belegt
+(<orig>Sy sind solch ires begehrens abgewißen</orig>).
+Auch in den Ratsmanualen wurde unter dem 1. Februar 1640 vermerkt, dass das Begehren abgelehnt worden sei;
+wer Wein benötige, könne diesen wie bisher in einem der umliegenden Orte beschaffen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4283603">StAZH B II 431, S. 15-16</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

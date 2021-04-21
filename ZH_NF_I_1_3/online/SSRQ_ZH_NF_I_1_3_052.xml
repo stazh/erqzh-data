@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_052</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3281089">StAZH B II 20, S. 72</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend die Beschau der Aussätzigen</head><msContents><summary>Angesichts der Missbräuche bei der Beschau von Aussätzigen ordnen Bürgermeister und Räte von Zürich an, dass niemand in die Siechenhäuser aufgenommen werden darf, der nicht zuvor durch den geschworenen Beschauer der Stadt begutachtet worden ist, und dass die Beschau bei denjenigen, die noch nicht beschaut worden sind, nachgeholt werden soll. Die Aussätzigen sollen nicht selbst die Beschau durchführen, sonst droht ihnen der Verlust ihrer Pfrund. Wer des Aussatzes verdächtigt wird, soll von den Beschauern dem Bürgermeister gemeldet werden, damit er die Beschau des Betroffenen veranlasse. Man soll die Vögte beauftragen, verdächtige Personen unverzüglich der Beschau zuzuführen. Man soll denen von Winterthur melden, verdächtige Personen in ihrer Stadt zur Beschau nach Zürich und nicht nach Konstanz zu schicken.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="11.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1491-11-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key003496">Krankheiten</term><term ref="key005411">Medizinische Versorgung</term><term ref="key003956">Seuchen</term><term ref="key003944">Siechenhaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="72"/>
+<head><lb/>Uff <origDate when="1491-11-14">mentag naͧch <persName ref="per000141">Martini</persName></origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+<orgName ref="org002406"><abbr>hr</abbr>
+<lb/><persName ref="per004700">Swennd</persName>, ritter, burgermeister, und <lb/>beyd raͤtt</orgName></head>
+<p><gap reason="irrelevant"/></p>
+<p>
+<seg>
+<lb/>Als an min herren gelannget ist, das in
+<lb/>der schow der maletzen mißbruch bescheche,
+<lb/>haben min herren geordnet und angesechen,
+<lb/>das hinfu̍r niemanns in die maletzenhu̍ser
+<lb/>genommen noch gelaͧß werden sol, er sye dann
+<lb/>vor durch miner herren geswornen schower
+<lb/>probiert und gesechen. Und ob ettlich yetz
+<lb/>inn hu̍serru̍n, die nit geschowet weren,
+<lb/>das die noch probiert und versuͦcht werden
+<lb/>soͤllen. Und besunder, das die maletzen
+<lb/>nit unnderstaͧn soͤllenn annder zuͦ geschowen
+<lb/>und welich das daͧru̍ber taͤten, das die
+<lb/>ir pfruͦnden verloren haben und daͧvon
+<lb/>gestraͧfft werden soͤllen.</seg>
+<seg>Wenn ouch einer
+ <lb/>des sundersiechtuͦmbs verlu̍mbdet wirdt
+ <lb/>oder in arckwaͧn ist, so soͤllen die schower,
+ <lb/>so es sy anlannget, das an einen burger<lb break="no"/>meister
+ bringen und der selb dann ge<lb break="no"/>wallt
+ haben zuͦ schaffen, das der selb
+ <lb/>an die schow kome. Ouch sol den
+ <lb/>voͤgten geschriben und verschaffet werden,
+ <lb/>wo einer unnder inen verlu̍mbdet
+ <lb/>wirdt oder in arckwan kumpt der ma<lb break="no"/>latzye,
+ das sy die unverzogenlich an
+ <lb/>die schow schaffen soͤllen. Ouch sol
+ <lb/>denen von <placeName ref="loc000849">Winterthur</placeName><note>Für das dem heiligen <persName ref="per000270">Georg</persName> gewidmete <orgName ref="org007453">Siechenhaus</orgName> der Stadt <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_006">SSRQ ZH NF I/2/1, Nr. 6</ref></bibl>.</note> geschriben werden,
+ <lb/>die, so by inen verlu̍mbdet werden, an
+ <lb/>miner herren schow har und nit
+ <lb/>gon <placeName ref="loc000008">Costenntz</placeName> zuͦ vertigen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bis in die zweite Hälfte des 15. Jahrhundert hinein lag die Zuständigkeit für die Beschau der Aussätzigen innerhalb der <placeName ref="loc000923">Diözese Konstanz</placeName><!-- Bistum --> beim Bischof und dessen <orgName ref="org005025">Leprosorium in <placeName ref="loc010963">Kreuzlingen</placeName></orgName> (<bibl><ref target="/startseite/literaturverzeichnis">Müller 2007</ref>, S. 52-53</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sutter 1996</ref>, S. 35-39, 44-48</bibl>). Mit dem vorliegenden Beschluss setzte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> auf seinem Herrschaftsgebiet seine eigene Rechtsprechung hinsichtlich der Beurteilung von Aussätzigen durch. Damit erlangte er auch die Kontrolle darüber, wer Anspruch auf eine Pfrund in den reich mit Stiftungen ausgestatteten Siechenhäusern erheben durfte.</p>
+<p>Zum <orgName ref="org004913">Siechenhaus an der <placeName ref="loc008759">Spanweid</placeName></orgName> ausserhalb <placeName ref="loc000065">Zürichs</placeName> vgl. die Ordnung für dessen Kaplan (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_174">SSRQ ZH NF I/1/3, Nr. 174</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

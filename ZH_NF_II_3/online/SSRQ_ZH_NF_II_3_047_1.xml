@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_047_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=689751">StAZH C I, Nr. 2559, S. 1</idno></msIdentifier><head>Bestimmungen über den Betrieb der Fähre im Rohr bei Fällanden</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich bestimmen, dass die Aeppli die Eiche (Fähre) im Rohr bei Fällanden unterhalten und den Vogt sowie die Herrschaftsleute damit über den See führen sollen, wie es im Urbar von Greifensee geschrieben steht. Andernfalls sollen sie innert Monatsfrist aus dem Rohr wegziehen, denn man würde wohl andere Leute finden, die gewillt wären, die genannten Pflichten zu erfüllen. Als Gegenleistung erhalten sie bestimmte Nutzungsrechte auf der Weide, im Wald, auf dem Feld und beim Fischen, die bereits dem verstorbenen Ruedi Meier im Rohr zugestanden hatten. Der Vogt soll von den Aeppli solange Bussen einfordern, bis sie wieder gehorchen und ihre Pflicht erfüllen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Stadtschreiber von Zürich</author><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1507-02-03"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000479">Dienstpflicht</term><term ref="key000703">Fähre</term><term ref="key000335">Nutzungsrecht</term><term ref="key000704">Schifffahrt</term><term ref="key000187">Unterhalt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="StAZH_C_I__Nr__2559__S__1_.tif"/>
+<p><seg><lb/>Von der eich weͣgen, so die <orgName ref="org004085">Aͤpplinen</orgName> im <placeName ref="loc008780">Ror</placeName> zuͦ <placeName ref="loc008651">Feͣllanden</placeName>
+<lb/>am <placeName ref="loc008718">Griffense</placeName> halten und einem vogtt und den biderben
+<lb/>lu̍ten warten und die, so es die notturft erfordert, u̍ber
+<lb/>und wideru̍ber fuͤren soͤllen, wie dann das im urber
+<lb/>zuͦ <placeName ref="loc000348">Griffense</placeName> geschriben.<note>In den älteren Urbaren von <placeName ref="loc000348">Greifensee</placeName> von 1450 und 1483 finden sich keine Hinweise auf den Hof im <placeName ref="loc008780">Rohr</placeName> oder die damit verbundenen Fährdienstpflichten 
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=685158">StAZH A 123.11, Nr. 1</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=685977">Nr. 2</ref></bibl>). Ist vielleicht ein verlorener Vorläufer des als Urbar bezeichneten Kopialbuchs in 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=289227">StAZH F II a 176</ref></bibl> von 1555 gemeint, der auch als Grundlage für die Sammlung der Rechtsverhältnisse in 
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254391">StAZH B III 65</ref></bibl> gedient hätte?
+In dieser finden sich jedenfalls entsprechende Bestimmungen über den Fährdienst auf dem <placeName ref="loc008718">Greifensee</placeName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>).</note></seg>
+<seg>Ist erkennt, das die <orgName ref="org004085">Aͤpplinen</orgName>
+<lb/>die selben eich nach lut der schriften hallten und on
+<lb/>allen verzug darstellen, oder aber in <date dur="P1M">manotsfrist</date> da
+<lb/>dannen und usserm <placeName ref="loc008780">Ror</placeName> zu̍chen soͤllen.</seg>
+<seg>So achttend
+<lb/>min herren, das man lu̍t finde, die dasselb geseͣß
+<lb/>und die nutzung, so von soͤlicher eich weͣgen dem
+<lb/><persName ref="per012735">Meyer</persName><note><persName ref="per012735">Ruedi Meier</persName> erscheint um 1450 als Betreiber der genannten Fähre
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_029">SSRQ ZH NF II/3, Nr. 29</ref></bibl>).
+Auch im Streit zwischen den Leuten aus Fällanden sowie <persName ref="per012731">Jakob Aeppli</persName>
+im <placeName ref="loc008780">Rohr</placeName> berief man sich auf die Abmachung mit <persName ref="per012735">Ruedi Meier</persName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_046">SSRQ ZH NF II/3, Nr. 46</ref></bibl>).</note> seligen im <placeName ref="loc008780">Ror</placeName> nachgelassen ist, es sye im
+<lb/>weydgang, in holtz, in feͣld oder im wasser zuͦ
+<lb/>vischen, gern annemmend und dagegen die eich
+<lb/>halltend und tuͤgend das, so die obgemelten schriften
+<lb/>innhallten.</seg>
+<seg>Und doch, ob die <orgName ref="org004085">Aͤpplinen</orgName> darinn
+<lb/>geveͣrd bruchen und tuͦn woͤlten wie bishar, so sol
+<lb/>der vogtt zuͦ <placeName ref="loc000348">Griffensee</placeName> die buͦssen von inen fu̍r
+<lb/>und fu̍r inzu̍chen bis uff stund und wyl, das si
+<lb/>gehorsam werdent und tuͤgend das, so obstat.</seg>
+<seg>Actum
+<lb/><origDate when="1507-02-03">mitwoch nach sant keiser <persName ref="per012717">Karolus</persName> tag anno <abbr>etc</abbr>
+<lb/>vij<hi rend="sup">o</hi></origDate><note>Der Eintrag im Ratsmanual nennt als Datum den Mittwoch vor Karlstag, also den <origDate when="1507-01-27">27. Januar 1507</origDate>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3283081">StAZH B II 40, S. 7</ref></bibl>).</note>.</seg></p>
+</div>
+<signed><lb/>Stattschriber <placeName ref="loc000065">Zu̍rich</placeName></signed>
+</body>
+<back>
+<div>
+<p>Bereits drei Jahre zuvor war es wegen des Unterhalts der Fähre zwischen <persName ref="per012731">Jakob Aeppli</persName> im <placeName ref="loc008780">Rohr</placeName> 
+und den Leuten von <placeName ref="loc008651">Fällanden</placeName> zum Streit gekommen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_046">SSRQ ZH NF II/3, Nr. 46</ref></bibl>).
+Offenbar wurde die damals getroffene Regelung von der Familie <orgName ref="org004085">Aeppli</orgName> weiterhin nicht respektiert,
+sodass das damalige Urteil nun bestätigt und mit einem Ultimatum verschärft wurde.
+Nichtsdestotrotz musste die Fährdienstpflicht am <origDate when="1534-10-12">12. Oktober 1534</origDate> erneut vor Gericht behandelt werden,
+weil sich die Leute von <placeName ref="loc008651">Fällanden</placeName> beklagten, dass <persName ref="per012731">Jakob Aeppli</persName> sich nicht an die Abmachungen halte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=944147">PGA Fällanden I A 3</ref></bibl>).</p>
+<p>Auf der Innenseite des Doppelblatts kopierte der Landvogt <persName ref="per011033">Gerold Edlibach</persName> (im Amt 1505-1507, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 218</bibl>)
+eine Einigung, die zwischen seinem Amtsvorgänger <persName ref="per012736">Oswald Schmid</persName> und dem Gerichtsherr von <placeName ref="loc006198">Uster</placeName>,
+<persName ref="per004609">Andres Roll von Bonstetten</persName> über die Fischerei im Usterbach getroffen worden war
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_041">SSRQ ZH NF II/3, Nr. 41</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_015</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=13173">StArZH I.A.302.</idno></msIdentifier><head>Verleihung des Bruderhauses am Wassberg bei Maur</head><msContents><summary>Anastasia von Hohenklingen, Äbtissin des Zürcher Fraumünsters, und Ulrich Brun, Chorherr am Fraumünster, verleihen das Bruderhaus am Wassberg, das zu Bruns Pfründe gehört, dem Bruder Heinrich Gössikon unter der Bedingung, dass darin ein gottgefälliges Leben geführt werde. Nach dem Tode oder sonstigen Abgang des Bruders sollen seine Nachfolger das Haus von der Äbtissin und dem Chorherrn der betreffenden Pfründe als Lehen empfangen, wenn sie ebenfalls ehrbare Brüder sind. Sollte jedoch verlauten, dass die Brüder ein ungöttliches, ungeistliches und unehrliches Leben führen, verfällt ihr Anspruch auf das Haus, die Hofstatt sowie die zugehörenden Güter und Gottesgaben. Wenn Gössikon oder seine Nachfolger weitere Güter erwerben oder geschenkt erhalten, sollen ihnen diese belassen werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.0"/><width unit="cm" quantity="31.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="oval" nontei:attachment="sealed on a ribbon" nontei:condition="damaged"><persName>Äbtissin Anastasia von Hohenklingen</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName>Ulrich Brun</persName></seal></sealDesc></physDesc><history><origin><origDate when="1419-06-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003648">Geistlichkeit</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StArZH_I_A_302_r_.jpg"/>
+<p><seg><lb/>Wir, <persName role="issuer" ref="per013509">Annastasya von der Hohen Klingen</persName>, von gottes gnaden epptischin des gotzhus ze der
+<orgName ref="org004908">appty <placeName ref="loc000090">Zu̍rich</placeName></orgName>, <orgName ref="org004297">sant <persName ref="per000419">Bennedicten</persName> ordens</orgName>, in
+<lb/><orgName ref="org000056"><placeName ref="loc000923">Costentzer</placeName> bistum</orgName> gelegen, und ich, <persName role="issuer" ref="per013331">Uͤlrich Brun</persName>, korherr des
+<choice><abbr>egen</abbr><expan>egenannten</expan></choice> gotzhus, tuͤnd kund allen den, die disen brief sehent oder hoͤrent
+<lb/>lesen, das wir u̍nser bruͤder hus und die hofstatt mit allem recht, so dar zuͤ gehoͤrt, in dem <placeName ref="loc010821">Wassenberg</placeName> gelegen, das da gehoͤrt
+<lb/>an min, des <choice><abbr>egen</abbr><expan>egenannten</expan></choice>
+<persName ref="per013331">Brunen</persName>, pfruͤnd,
+luterlich durch gott und oͧch dar umb, das gott da gelopt und geeret werd, recht und
+<lb/>redlich verlihen haben bruͤder <persName ref="per013482">Heinrich Goͤssikon</persName> und allen sinen nachkomen,
+die hinnenhin nach im jemer koment, mit
+<lb/>soͤllichem geding, das sy das <choice><abbr>egen</abbr><expan>egenannte</expan></choice> hus und hofstatt
+in guͤten eren haben und da ein goͤtlich luter rein leben fuͤrren soͤllent. Und
+<lb/>wenn der <choice><abbr>obgen</abbr><expan>obgenannte</expan></choice> bruͤder <persName ref="per013482">Heinrich</persName> von todes wegen
+oder suss von dem <choice><abbr>vorgen</abbr><expan>vorgenannten</expan></choice> hus gat, wellicher dann dar kumpt, der selb sol
+<lb/>das <choice><abbr>obgen</abbr><expan>obgenannte</expan></choice> hus und hofstatt mit allem recht, so dar zuͤ gehoͤrt,
+von einer epptischin des <choice><abbr>egen</abbr><expan>egenannten</expan></choice> gotzhus und von einem korherren
+<lb/>der <choice><abbr>egen</abbr><expan>egenannten</expan></choice> pfruͤnd enpfachen,
+und su̍llen oͧch wir und u̍nser nachkomen oͧch das lihen, ob er ein erber, fromer bruͤder ist, aͧn all widerred.</seg>
+<seg><lb/>Were oͧch, das der selb <persName ref="per013482">Goͤssikon</persName> oder sin nachkomen keiner
+jemer ein ungoͤtlich, ungeistlich und ein unerlich leben fuͤrten und
+<lb/>das mit biderben, erbern lu̍ten, dien dar umb ze geloͤben wer, kuntlich wurde,
+so soͤllent sy von dem <choice><abbr>egen</abbr><expan>egenannten</expan></choice> hus gan und kein
+<lb/>vordrung noch ansprach zuͤ dem <choice><abbr>egen</abbr><expan>egenannten</expan></choice> hus noch zuͤ dem,
+so zuͤ dem <choice><abbr>vorgen</abbr><expan>vorgenannten</expan></choice> hus gehoͤrt oder so dann dar inne ist, weler ley guͤtz
+<lb/>das ist, es syen gotz gaben oder ander guͤt, so dar zuͤ geordnet ist, kein vordrung noch ansprach niemer me gewinnen noch gehaben,
+<lb/>aͧn all widerred, aͧn geverd. Und was oͧch hinnenhin der <choice><abbr>vorgen</abbr><expan>vorgenannte</expan></choice>
+<persName ref="per013482">Goͤssikon</persName> oder sin nachkomen zuͤ dem <choice><abbr>obgen</abbr><expan>obgenannten</expan></choice> hus und hofstatt koͧffent
+<lb/>oder in dar zuͤ und dar in ze haben geben wird, es syen gotz gaben oder das sy es ersparent, wie sich das fuͤget, soͤllent wir, <choice><abbr>obgen</abbr><expan>obgenannte</expan></choice> epptischin,
+<lb/>ich, <choice><abbr>vorgen</abbr><expan>vorgenannter</expan></choice>
+<persName ref="per013331">Brun</persName>, und u̍nser nachkom den <choice><abbr>dikgen</abbr><expan>dikgenannten</expan></choice>
+<persName ref="per013482">Goͤssikon</persName> und sin nachkomen da by lassen beliben, aͧn all widerred.</seg>
+<seg>Her u̍ber ze einem
+<lb/>offenn, waren urku̍nd aller vorgeschribner ding, so haben wir, die <choice><abbr>egen</abbr><expan>egenannte</expan></choice> epptischin,
+u̍nser insigel, u̍ns und u̍nserm gotzhus an allen
+<lb/>u̍nsern zinsen, fryheiten und rechten unschedlich, offenlich tuͤn henken an disen brief.
+Und ich, der vorgeschriben <persName role="sigillant" ref="per013331">Uͤlrich Brun</persName>,
+kor<lb break="no"/>herr der <choice><abbr>egen</abbr><expan>egenannten</expan></choice> pfruͤnd, han oͧch min insigel ze der <choice><abbr>egeß</abbr><expan>egeseiten</expan></choice>
+miner genedigen froͧwen, der epptischin, insigel, oͧch mir und minen
+nachko<lb break="no"/>men und der <choice><abbr>egen</abbr><expan>egenannten</expan></choice> pfruͤnd unschedlich offenlich gehenkt an disen bief,
+der geben ist am <origDate when="1419-06-12">zwoͤlften tag des manotz brachotz, do
+<lb/>man zalt von gottes gebu̍rt viertzehen hundert jar, dar nach in dem nu̍nzehenden jare</origDate>.
+Hie by waren her <persName role="testis" ref="per013352">Chuͤnrad Helye</persName>, lu̍ppriester
+<lb/>des <choice><abbr>egen</abbr><expan>egenannten</expan></choice> u̍nsers gotzhus, her <persName role="testis" ref="per013893">Johans von Ru̍ty</persName>,
+<persName role="testis" ref="per013518">Bantheleo von Inkenberg</persName> und ander erber lu̍t <abbr>etc</abbr>.</seg></p>
+<pb n="v" facs="StArZH_I_A_302_v_.jpg"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c?"><lb/>Das bruͦderhaus und die hofstatt in dem <placeName ref="loc010821">Wassenberg</placeName>
+<lb/>sind von der äbbtissin und <choice><abbr>chorhr</abbr><expan>chorherr</expan></choice>
+<persName ref="per013331">Brünen</persName> zum <orgName ref="org004935"><choice><abbr>Frmnstr</abbr><expan>Fraumünster</expan></choice>
+<placeName ref="loc000090">Zürich</placeName></orgName>
+<lb/><choice><abbr>br</abbr><expan>bruder</expan></choice>
+<persName ref="per013482"><choice><abbr>Heinr</abbr><expan>Heinrich</expan></choice> von Gössiken</persName>
+und seinen ehrben mit dem geding verlihen worden,
+<lb/>daß neben deren erhaltung in guͦten ehren ein göttlich,
+lau<lb break="no"/>ter, rein leben darin geführt werden solle.
+<lb/>Datum <placeName ref="loc000065">Zürich</placeName>, den <origDate when="1419-06-12">12. tag brachmonats anno 1419</origDate>.
+</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>In der vorliegenden Urkunde wird erstmals das <orgName ref="org005016">Bruderhaus am <placeName ref="loc010821">Wassberg</placeName></orgName> oder <placeName ref="loc010821">Wasserberg</placeName>
+oberhalb von <placeName ref="loc008648">Maur</placeName> fassbar, wo Männer wie der hier genannte Bruder <persName ref="per013482">Heinrich Gössikon</persName> ein geistliches Leben führten,
+ohne einer Ordensgemeinschaft anzugehören (<bibl><ref target="/startseite/literaturverzeichnis">Nüscheler 1864-1873</ref>, S. 340-341</bibl>).
+Allgemeine Bestimmungen über die Besetzung des Bruderhauses wurden um 1481 in das sogenannte Häringische Urbar des <orgName ref="org004908">Fraumünsters</orgName> eingetragen.
+Daraus geht hervor, dass das Haus nicht durch einen Nachbarn besetzt, sondern einzig von der Äbtissin verliehen werden dürfe
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_036">SSRQ ZH NF II/3, Nr. 36</ref></bibl>).
+Angesichts der dürftigen Quellenlage ist ungewiss, ob das Haus dauerhaft von Brüdern besiedelt war.
+Spätestens mit der Reformation wurde das Bruderhaus aufgehoben, denn am 21. Dezember 1527 bestimmten die vier Pfleger des <orgName ref="org004908">Fraumünsters</orgName>,
+dass die Familie <orgName ref="org001410">Trüb</orgName> als Besitzer des Guts im <placeName ref="loc010821">Wasserberg</placeName> weiterhin maximal zwei Viertel Kernen
+als Zehnten abzuliefern habe, wie es vom Kapitel zu einem früheren Zeitpunkt festgelegt worden war
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=14132">StArZH I.A.607</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

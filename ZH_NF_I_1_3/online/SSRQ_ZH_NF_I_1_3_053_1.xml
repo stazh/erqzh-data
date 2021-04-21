@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_053_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3733001">StAZH A 43.1.2, Nr. 2, S. 43-44</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Ausschluss von Schuldnern von der Wahl in den Kleinen und Grossen Rat</head><msContents><summary>Bürgermeister, Kleiner Rat, Zunftmeister und Grosser Rat ordnen an, dass künftig niemand mehr, der sich eidlich als zahlungsunfähig erklärt hat, Mitglied des Kleinen oder Grossen Rates sein dürfe, da dies gegen den Geschworenen Brief verstösst und der Ehre der Stadt abträglich ist. Sofern die betroffenen Personen zu einem späteren Zeitpunkt wieder zu Vermögen kommen und nicht mehr zahlungsunfähig sind, können sie wieder unter die Räte gewählt werden, ohne dass der zwischenzeitliche Ausschluss ihrer Ehre abträglich gewesen wäre.  Späterer Zusatz von Hand des Stadtschreibers Ludwig Ammann: Wenn jemand wegen offener Schuldverpflichtungen der Stadt verwiesen wird, soll er lebenslänglich aus dem Rat ausgeschlossen werden oder, sofern er nicht Mitglied ist, sein passives Wahlrecht verlieren.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross, Unterschreiber der Stadt Zürich (Haupttext) Ludwig Ammann, Stadtschreiber von Zürich (Zusatz)</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1491-12-03" to="1495-12-31">Datierung des Zusatzes aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000946">Ehre</term><term ref="key004367">Konkurs</term><term ref="key000027">Pfändung</term><term ref="key000364">Rat</term><term ref="key000058">Schulden</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="43" facs="StAZH_A_43_1_2__Nr__2__S__43_.tif"/>
+<p><app><lem/><rdg wit="StAZH B III 2, S. 345; StAZH B III 4, fol. 36r"><head><lb/>Wellicher waͤder pfand noch pfenning
+<lb/>hat, soll waͤder <orgName ref="org004016">raͤth</orgName> noch <orgName ref="org004906">burger</orgName> besitzen</head></rdg><rdg wit="StAZH B III 6, fol. 16v"><lb/>Umb die, so uff ir eid nement, das sy we<lb break="no"/>der pfening noch pfand habint und denen <lb/>die stat von geltschuld wegen verufft wirtt</rdg></app></p>
+<p><seg><app><lem><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister, der raͧt, die zunftmeister und der gros raͧt, so 
+<lb/>man nempt die zweihundert der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>, thuͦnd kund menglichem 
+<lb/>hiemit, als an uns gelangt ist, das in unserm geswornen 
+<lb/>brief, och stat satzung verschriben sige, welicher in den <orgName ref="org004016">kleinen</orgName> oder
+<lb/><orgName ref="org004906">grosen raͧt</orgName> gesetzt werde, er sige von ritern, edeln, burgern, den
+<lb/>zu̍nften oder handtwerchen, das dero jeder ein biderber, unversprochner 
+<lb/>mann und ein erberer, ingesessner burger sin soͤlle, der ere und 
+<lb/>guͦt, witz, vernunfft und bescheidenheit hab<note>Vgl. dazu den Vierten Geschworenen Brief
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>).</note> und aber etlich des 
+<lb/>selben <orgName ref="org004016">raͧtes</orgName> sigen, die uff ir eid genommen haben und fuͤrter nemmen 
+<lb/>moͤchten, das sy die, denen sy schuldig sind, nit zuͦ bezalen 
+<lb/>und zeverpfenden vermoͤgen und aber das von froͤmden und 
+<lb/>heimschen merklich geandet und vermeynt werde, das wider 
+<lb/>der stat lob und ere, waͧ soͤlich lu̍t im <orgName ref="org004016">raͧt</orgName> sitzen sigen, habent
+<pb n="44" facs="StAZH_A_43_1_2__Nr__2__S__44_.tif
+"/>
+<lb/>demnaͧch wir unsern geswornen brieff und stat satzung fu̍r 
+<lb/>uns genomen und in betrachtung unser stat lob und ere uns
+<lb/>erkendt, die wile unser gesworner brieff soͤlich meynnung, wie
+<lb/>vorstaͧt, ertragt</lem><rdg wit="StAZH B III 2, S. 345; StAZH B III 6, fol. 16v; StAZH B III 4, fol. 36r">Wir haben ouch durch unnser statt lob und ere unns erkennt</rdg><rdg wit="StAZH B III 5, fol. 84r">Es ist ouch durch unnser statt lob und ere von unns erkhenndt</rdg></app>, das dann nun fu̍rohin dero keyner, so 
+<lb/>hinfu̍r uff sinen eid nimpt, das er weder pfand noch pfening 
+<lb/>hab, in den <orgName ref="org004016">raͧt</orgName> oder die <orgName ref="org004906">burger</orgName> genommen soͤlle werden.</seg>
+<seg><lb/>Und ob ir einich da hinfu̍r sitzen, so oͧch soͤlichs uff ir eyd 
+<lb/>nemmen wurden, das sy weder pfand noch pfenning hetten,
+<lb/>das die selben us dem <orgName ref="org004016">raͧt</orgName> oder den <orgName ref="org004906">burgern</orgName> gesetzt und 
+<lb/>ander an ir stat erwelt werden soͤllen und doch inen das 
+<lb/>an iren eren kein uffhebung noch schaden bringen <app><lem/><rdg wit="StAZH B III 6. fol. 17r">mocht</rdg></app>. Ob 
+<lb/>es sich aber jemer fuͦgte, das der selben einich wider in 
+<lb/>guͦt kemen, die moͤchte man dann wider in den <orgName ref="org004016">raͧt</orgName> oder
+<lb/>under die <orgName ref="org004906">burger</orgName>, ob sy jeman dartzuͦ toͧgenlich und guͦt 
+<lb/>sin beduͤcht, erkiesen und nemmen.</seg>
+<seg><app><lem>Actum <origDate when="1491-12-03">sant <persName ref="per000970">Barbara</persName> aͧbend
+ <lb/>anno <abbr>etc</abbr> lxxxxj</origDate>.</lem><rdg wit="StAZH B III 2, S. 345; StAZH B III 6, fol. 17r; StAZH B III 4, fol. 36v; StAZH B III 5, fol. 84r"/></app></seg></p>
+<p><seg><add place="below" hand="other hand"><lb/>Wo aber einer mit unnser statt recht so wyt erlannget,
+<lb/>das imm die statt offennlich verruͤfft wirdt, ist er des <orgName ref="org004016">raͧts</orgName>,
+<lb/>so sol er des ewenclich erlaͧssen sin, ist er usserthalb des <orgName ref="org004016">raͧts</orgName>,
+<lb/>der sol niemerme daͧrin genommen noch erwellt werden.</add></seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung wurde im Anhang zum Vierten Geschworenen Brief im Jahr 1489 erlassen, die spätere Anmerkung von Stadtschreiber <persName ref="per014210">Ludwig Ammann</persName> betreffend die wegen offener Schulden verbannten Personen dürfte zwischen diesem Datum und dem Jahr 1498 entstanden sein. Dies ergibt sich daraus, dass die Ordnung in den Anhang zum Fünften Geschworenen Brief übernommen und <persName ref="per014210">Ammanns</persName> Anmerkung darin integriert wurde. Die Ordnung ergänzt verschiedene weitere Bestimmungen, die Ende des 15. Jahrhunderts den Zugang zu den Räten restriktiver gestalteten und dabei unter anderem unehelich Geborene, im Konkubinat Lebende sowie Inhaber fremder Burgrechte ausschlossen 
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_036">SSRQ ZH NF I/1/3, Nr. 36</ref></bibl>;
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_062">SSRQ ZH NF I/1/3, Nr. 62</ref></bibl>).</p>
+<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud/Sutter 1999</ref>, S. 105</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

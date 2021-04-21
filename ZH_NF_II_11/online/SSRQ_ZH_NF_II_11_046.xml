@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_046</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=464431">StArZH III.B.37., fol. 11r-13r</idno></msIdentifier><head>Holz- und Flurordnung von Seebach</head><msContents><summary>Geregelt werden Bussen bei Holzfreveln (1), die Einzäunung und Wegrecht von benachbarten Gütern (2), das Verbot, die Zelgen vor der Ernte als Weide zu benutzen (3) sowie die Lage der Wege und Zugänge in den einzelnen Zelgen (4, 5, 6).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1497-05-01">Datierung aufgrund des vorangehenden Eintrags</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key004017">Flurordnung</term><term ref="key000524">Holz</term><term ref="key000012">Offnung</term><term ref="key000249">Wald</term><term ref="key000606">Wegrecht</term><term ref="key000048">Weiderecht</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="11v"/>
+<div><ab type="marginal note" place="left margin">
+<lb/>Suͦch disers artigkels
+<lb/>halb hernach neüe
+<lb/>lüthrung by disem
+<lb/>zeichenn <figure type="sign"/><note>Das Verweiszeichen verweist auf die Abschrift der Erneuerung der Holzordnung von 1556 weiter hinten in diesem Band (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283421">StArZH III.B.37., fol. 21r-22r</ref></bibl>). Edition dieser Holzordnung bei <bibl><ref target="/startseite/literaturverzeichnis">Winkler 1925</ref>, Beilage Nr. 3, Artikel 1-9</bibl> (auf Grundlage der Abschrift in <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=531954">StArZH III.B.6.</ref>, S. 63</bibl>).</note>
+</ab></div>
+<seg n="1"><p>
+<lb/>Aber hand sy sich erkenndt und ein buͤs über ire
+<lb/>hoͤltzer gesetzt, alß welicher ein eichen hoͧwet,
+<lb/>der sol von einem jegklichen stumpen <measure type="currency" unit="lb" quantity="1" origin="ZH">ein pfund
+<lb/>Züricher pfening</measure> zuͤ buͤs geben, von einer tanen
+<lb/>oder voren, er howe oder stucky sy, <measure type="currency" unit="ß" quantity="10">zechen schilling</measure>,
+<lb/>und von annderm holtz von einem jeden stumpen
+<lb/><measure type="currency" unit="ß" quantity="3">iij </measure>. Welicher einen ergrifft, den sol er pfenden
+<lb/>und sol ein jeder den andern leiden by sinem eide
+<lb/>und sol das holtz, so einer gehoͧwen haͧt, des sin, so in
+<lb/>ergriffen und gepfenndet hat. Doch so haben sy,
+<lb/>von <placeName ref="loc010666">Sebach</placeName>, inen selbs zuͤ gelaͧsen, das sy tanen
+<lb/>stücken, och stecken und gert hoͧwen und bruchen
+<lb/>moͧgen zuͤ irem guͤten nutz und notdurfft.</p></seg>
+<seg n="2"><p>
+<lb/>Aber hand sy sich erkenndt, das ein jegkliche wis,
+<lb/>so an ein andern ligendt, der andern frid geben sol<!-- frid geben: "einen Zaun herstellen, resp. auch: Fuss- und Fahrweg längs oder durch das betr. Grundstück gewähren" (Idiotikon I, Sp. 1280 oben) -->
+<lb/><date type="deadline" from="--03-31" to="--09-29">von usgendem mertzen untz uff sant <persName ref="per000390">Michels</persName> tag</date>
+<lb/>by der buͤs <measure type="currency" unit="ß" quantity="10">x </measure>. Es mag ouch ein jeder sin wisen
+<lb/>inzünen und infriden, wie er wil, und die nutzen,
+<lb/>inhaben und niessen, so lang er wil, und sol der
+<lb/><placeName ref="loc010666">Sebach</placeName><!-- Hier ist wohl der Bach gemeint; andere ID --> kein frid sin.</p></seg>
+<seg n="3"><p>
+<lb/>Aber hand sy sich erkenndt und gesetzt, das niemand
+<lb/>in kein zelg in die helm, vor und e soͤlich zelg
+<lb/>gantz abgeschniten oder gemaͤt wirt, mit sinem
+<lb/>vich zuͤ weid faren sol, und wer das darüber taͤte,
+<lb/>der sol von einem zug ze buͤs gen <measure type="currency" unit="ß" quantity="10">x </measure> und sust
+<lb/>von jedem hoͧpt <measure type="currency" unit="ß" quantity="3">iij </measure>.</p></seg>
+<seg n="4"><p>
+<lb/>Item es soͤllend inn die zelg, genant die <placeName ref="loc012673">Lenngi</placeName>, <num value="5">fünff</num>
+<lb/>brach weg gaͧn mit namen über des <persName ref="per025552">Swenden</persName> acker
+<lb/>by dem <placeName ref="loc010666">Sebach</placeName>, so jetz <persName ref="per024270">Felix Gilman</persName> in haͧt, einer,
+<lb/>und wer den acker inhat, der sol ein hurd<!-- vermutlich Gattertüre, vgl. 'Hurd' 1.c), Idiotikon II, Sp. 1603 --> da haben,
+<lb/>so man haber und korn usher fuͤrt.</p>
+<pb n="12r"/>
+<p>
+<lb/>Item by der linden über des <persName ref="per024278">Schaden</persName> acker sol ein brach<lb break="no"/>weg
+gan und daͧselbs von dem, der den acker innhaͧt,
+<lb/>ein hurd gehept werden, wenn man haber als
+<lb/>korn uss der zelg fuͤrt.</p>
+<p>
+<lb/>Item by dem <placeName ref="loc012784">Winckel Acker</placeName> über des <persName ref="per024278">Schaden</persName> acker
+<lb/>sol ein brachweg gan in <placeName ref="loc012228">Riedholtz Gassen</placeName> und sol
+<lb/>der, so den acker innhat, ouch ein hurd haben.</p>
+<p>
+<lb/>Item hinden an den <placeName ref="loc012258">Studen Acker</placeName> sol oͧch ein brach weͤg 
+<lb/>gaͧn in die <placeName ref="loc012228">Riedholtz Gassen</placeName> und sol och ein hurd haben.</p>
+<p>
+<lb/>Item am <placeName ref="loc012612">Furt Acker</placeName>, so der <persName ref="per024269">Brogli</persName> inhaͧt, sol ein braͧch
+<lb/>weg gaͧn in <placeName ref="loc012228">Riedholtz Gassen</placeName> und sol ein hurd han.</p></seg>
+<head>Die zelg hinderm <placeName ref="loc012227">Riedholtz</placeName></head>
+<seg n="5"><p>
+<lb/>Item der kelnhof sol ein braͧchweg über den <placeName ref="loc012846">A<subst><del>c</del><add place="overwritten">s</add></subst>per
+<lb/>Acker</placeName> und ein hurd haben in das <placeName ref="loc012227">Riedholtz</placeName>.</p>
+<p>
+<lb/>Item in der <placeName ref="loc012763">Tuckenmanrüti</placeName> unden by dem <placeName ref="loc012227">Riedholtz</placeName>
+<lb/>sol ein braͧchweg sin.</p>
+<p>
+<lb/>Item oben in der <placeName ref="loc012763">Tuckenmanrüti</placeName> sol ein brachweg
+<lb/>und ein hurd dasin.</p>
+<p>
+<lb/>Item über des <persName ref="per024269">Broglis</persName> acker in die <placeName ref="loc009859">Schwanden Gassen</placeName>
+<lb/>sol ein brachweg sin.</p>
+<p>
+<lb/>Item über des <persName ref="per021912">Bintzmüllers</persName> acker zeniderst an der
+<lb/>hoͤw sol ein brach weg gaͧn und ein hurd haben.</p>
+<p>
+<lb/>Item und hinden an desselben <persName ref="per021912">Bintzmüllers</persName> acker
+<lb/>sol oͧch ein brach weg gan.</p>
+<p>
+<lb/>Item unden in <placeName ref="loc009859">Schwannden Zelg</placeName> sol ein braͧchweg
+<lb/>über des <persName ref="per024269">Broglis</persName> acker gaͧn und ein hurd dasin.</p>
+<pb n="12v"/>
+<p>
+<lb/>Item über des <persName ref="per024269">Broglis</persName> zwiger acker sol oͧch ein
+<lb/>brachweg in <placeName ref="loc009859">Schwanden Zelg</placeName> gan und da ein
+<lb/>hurd sin.</p>
+<p>
+<lb/>Item hinden an <placeName ref="loc012787">Wittenwegen Acker </placeName>sol ein brach
+<lb/>weg gan und ein hurd da sin.</p>
+<p>
+<lb/>Item <placeName ref="loc012829">Cappeller Acker</placeName> am <placeName ref="loc012734">Oberloͧ</placeName>, so der <persName ref="per024277">Meyer</persName><!-- Name oder Funktion? PS: Das lässt sich nicht mit Sicherheit sagen.--> in
+<lb/>haͧt, sol ein brachweg und ein hurd haben.</p>
+<p>
+<lb/>Item der <placeName ref="loc012780">Widem Acker</placeName> am <placeName ref="loc012657">Jungholtz Bach</placeName> sol
+<lb/>och ein brachweg sin in <placeName ref="loc012133">Hürsten Zelg</placeName>.</p>
+<p>
+<lb/>Item der <placeName ref="loc012780">Widem Acker</placeName>, so der <persName ref="per024277">Meyer</persName><!-- Name oder Funktion? --> inhat, sol
+<lb/>ein brachweg und ein hurd haben in die zelg
+<lb/>under <placeName ref="loc013441">Winckel</placeName>.</p>
+<p>
+<lb/>Item über des <persName ref="per024272">Kellers</persName><!-- Name oder Funktion? --> breiti gegen dem <placeName ref="loc012664">Klotter
+<lb/>Furt</placeName> sol ein brachweg sin.</p>
+<p>
+<lb/>Item am <placeName ref="loc012664">Klotterfurt</placeName> über des <persName ref="per024270">Gilmans</persName> acker
+<lb/>uff dem <placeName ref="loc012836">Sperwart</placeName> sol ein brachweg sin.</p>
+<p>
+<lb/>Item über den <placeName ref="loc012236">Roͤtelacker</placeName>
+<lb/>und <placeName ref="loc012597">Eschen Acker</placeName> sol ein braͧchweg gaͧn
+<lb/>und soͤllend beid ein hurd
+<lb/>haben.</p>
+<p>
+<lb/>Item über <persName ref="per024270">Felix Gilmans</persName> acker underheͤg, so
+<lb/>zuͤ des <persName ref="per025552">Schwanden</persName> guͤter gehoͤrt, sol ein braͧch
+<lb/>weg gan und ein hurd haben.</p></seg>
+<head><lb/>In der zelg enthalb
+<lb/>dem bach</head>
+<seg n="6"><p>
+<lb/>Item über <persName ref="per024277">Meyers</persName><!-- Name oder Funktion? --> hof acker sol ein brach weg
+<lb/>gaͧn und ein hurd haben.</p>
+<pb n="13r"/>
+<p>
+<lb/>Item über des kelnhoffers hof acker gegen der <placeName ref="loc012674">Lachen
+<lb/>Bünten</placeName> in die gassen sol ein brach weg gan.</p>
+<p>
+<lb/>Item unden an der halden under der kilchen
+<lb/>über des <persName ref="per024269">Broglis</persName> acker sol ein brach weg sin und
+<lb/>ein hurd haben.</p>
+<p>
+<lb/>Item über des <persName ref="per024269">Broglis</persName> sannd acker sol ein brachweg
+<lb/>gan uff den wasen gegen <placeName ref="loc012664">Klotters Furtt</placeName>.
+</p></seg>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Bestimmungen stehen in der Abschrift von <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283414">StArZH III.B.37.</ref></bibl> direkt nach dem Beschluss zum Schweinehirten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_045">SSRQ ZH NF II/11, Nr. 45</ref></bibl>). 
+Es ist jedoch nicht klar, ob sie zum selben Zeitpunkt erlassen wurden oder ob es sich um zwei separate Nachträge zur Offnung handelt. In die Abschrift von <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=283423">StArZH III.B.38.</ref></bibl> 
+wurden diese Bestimmungen in dieser Form nicht aufgenommen; stattdessen finden sie sich dort in der überarbeiteten Version von 1556 (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283426">StArZH III.B.38., fol. 30r-35v</ref></bibl>). 
+Wie die Marginalie und das Verweiszeichen anzeigen, wurde der erste Artikel zu den Holzbussen nämlich am 7. März 1556 erneuert und um weitere Bestimmungen zur Holz- und Flurordnung erweitert (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283421">StArZH III.B.37., fol. 21r-22r</ref></bibl>; 
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Winkler 1925</ref>, Beilage Nr. 3, Artikel 1-9</bibl>, nach der Abschrift in <bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=531954">StArZH III.B.6.</ref>, S. 63-65</bibl>). Die Holzbussen wurden erhöht und entsprachen nun 
+den Bussen, die auch in den Wäldern auf dem <placeName ref="loc010892">Zürichberg</placeName> zur Anwendung kamen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_069">SSRQ ZH NF II/11, Nr. 69</ref>, Art. 7</bibl>). Dieser Artikel über den <placeName ref="loc010892">Zürichberg</placeName> 
+diente offenbar auch als Vorbild, wie der einleitende Artikel des Ratsbeschlusses deutlich macht (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283421">StArZH III.B.37., fol. 21r</ref></bibl>); dieser wurde aber in späteren Abschriften 
+weggelassen und fehlt dementsprechend auch in der Edition von Winkler. Die übrigen Artikel der vorliegenden Ordnung blieben unverändert bestehen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283426">StArZH III.B.38., fol. 32v-35v</ref></bibl>). 
+Am 13. Dezember 1570 wurden sie jedoch um einen Ratsbeschluss zur Anzeigepflicht aller Bewohner von <placeName ref="loc010666">Seebach</placeName> ergänzt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_086">SSRQ ZH NF II/11, Nr. 86</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

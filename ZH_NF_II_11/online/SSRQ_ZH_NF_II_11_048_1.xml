@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_048_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24710">StArZH VI.OE.A.1.:1</idno></msIdentifier><head>Offnung von Oerlikon</head><msContents><summary>Die Offnung von Oerlikon regelt ausschliesslich flurgenossenschaftlich-flurrechtliche Belange: Weiderecht (1-5, 20), Wässerung (6), Turnus der Heuernte und damit zusammenhängende Regelung von Wegrechten (7-12) und übrige Wegrechte (13-20). Es wird zudem festgehalten, dass innerhalb des Bannkreises von Oerlikon nur die von Oerlikon nutzungsberechtigt sind (21-22). Die drei Höfe in Oerlikon haben je neun Schupposen, von jeder Schuppose dürfen gemäss Beschluss der Bauernschaft vier Stück Vieh (insgesamt 36) auf die gemeine Weide getrieben werden (23). Besondere Bestimmungen gelten für Kamblis Gut (24).  Ein erster Nachtrag hält die Bussenordnung für das Gemeindeholz fest (25), ein zweiter Nachtrag regelt die obrigkeitliche Bussgewalt für die Ausswiesen (26).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Rodel</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="59.0"/><width unit="cm" quantity="38.0"/></dimensions></extent><condition>Diverse Flickstellen und verblasste Tinte, teilweise mit Textverlust</condition></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Nachträge des 16. Jh.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000012">Offnung</term><term ref="key000716">Wasserführung</term><term ref="key000606">Wegrecht</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<head type="title"><lb/><app><lem>Dero</lem><rdg wit="StAZH A 97.5, Nr. 13">Diss ist
+deren</rdg></app> von <placeName ref="loc010598">Oͤrlikon</placeName> offn<damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">ung</supplied></damage>
+<lb/>und rechtung zuͦ iren <damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">guͤte</supplied></damage>rn 
+</head>
+<p><seg n="1"><lb/>Die bu̍rsamy zuͦ <placeName ref="loc010598">Oͤrlikon</placeName>
+<app>
+<lem>moͤgent</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">mag</rdg>
+</app> mit ein anderen eins und raͤttig werden, ob sy mit ein andern in die feissen <lb/>wissen
+<!-- PS: bist Du sicher, dass es sich um einen Flurnamen handelt? evtl. sind tatsächlich die "fetten" Wiesen gemeint; der zweite Beleg (Plural) spricht dafür. Ich würde nicht als placeName tagen und f und w klein schreiben, ausser Du bist sicher, dass es einen solchen Flurnamen in Oerlikon gibt. -->faren
+und die weiden wellind, und doch nit laͤnger dan bis zuͦ <date type="deadline" when="--04-16">mittem
+apprellen</date>.</seg>
+</p>
+<p><seg n="2"><lb/>Die von <placeName ref="loc010598">Oͤrliken</placeName> moͤgent oͧch weyden und mit
+irem fich naͧch weid faren bis uff den alten <placeName ref="loc012138">Loͤitschen Bach</placeName><note>Damit ist der frühere
+Bachlauf an der Grenze zu <placeName ref="loc009859">Schwamendingen</placeName> und <placeName ref="loc012717">Oberhausen</placeName> gemeint (<bibl><ref target="/startseite/literaturverzeichnis">Bollinger 1992</ref>, S. 9</bibl>).</note> bis
+zuͦ <lb/><date type="deadline" when="--04-16">mittem <choice><sic>apperlen</sic><corr>apprelen</corr></choice></date> und oͧch nit lennger.</seg>
+</p>
+<p><seg n="3"><lb/>Die von <placeName ref="loc010598">Oͤrliken</placeName> moͤgent oͧch faren mit irem
+fich uff <damage agent="faded ink"><supplied source="StAZH A 97.5, Nr.13">alle</supplied></damage> die guͤter, so in iren zwingen und bennen ligen, also 
+<lb/>das die uff <date type="deadline" when="--09-01">sant <persName ref="per000474">Frenen</persName> tag</date> offen und ir stroͧffel weid syn soͤllen.<note>Auf diesen Artikel verweist die <orgName ref="org007857">Gemeinde <placeName ref="loc010598">Oerlikon</placeName></orgName> in einem späteren Konflikt mit <persName ref="per024282">Klaus Schad</persName> vom <placeName ref="loc012259">Susenberg</placeName>, der meint, seine Wiese stehe der Gemeinde nicht zur Stoppelweide offen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=852991">StAZH C II 10, Nr. 747</ref></bibl>).</note></seg>
+</p>
+<p>
+<seg n="4"><lb/>Und so die feissen wissen untzit uff den
+alten <placeName ref="loc012138">L<damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">oͧi</supplied></damage>tschen
+Bach</placeName> geeͣmdet werden, dz ungefaͧrlich uff  <date when="--09-01">sant <persName ref="per000474">Fr<damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">enen</supplied></damage></persName>
+<lb/>tag</date>, <date when="--08-25">achtag vor</date> oder <date when="--09-08">naͧch</date>
+<!-- PS: 7 Tage = 1 Woche (nicht 8 Tage) -->beschehen sin sol, als dan <damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">sol</supplied></damage> man die von <placeName ref="loc010598">Oͤrlikon</placeName>
+daselbs mit weiden ungeirt laͧsen, also <lb/>das <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">die wisen inen
+von</supplied></damage>
+<placeName ref="loc010598">Oͤrlikon</placeName> allein und su̍ss nieman <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">stro</supplied></damage>ffel <app>
+<lem>weid</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">weidig</rdg>
+</app> sin soͤllen.</seg>
+</p>
+<p>
+<seg n="5"><lb/>Des glich sol die <persName ref="per024283">Schwentz</persName> wissen, <app>
+<lem>ist <measure type="area" quantity="2" unit="Mannwerk" commodity="grassland">zwey manwerch</measure></lem><rdg wit="StAZH A 97.5, Nr. 13">so <measure type="area" quantity="2" unit="Mannwerk" commodity="grassland">zwey
+manwerch</measure> ist</rdg>
+</app>, <lb/>ouch dess <persName ref="per024285">Trinklers</persName> wiss, ist <app>
+<lem/>
+<rdg wit="StAZH A 97.5, Nr. 13">ouch</rdg>
+</app>
+<measure type="area" quantity="2" unit="Mannwerk" commodity="grassland">zwey manwerch</measure>, <app>
+<lem>denen von <placeName ref="loc010598">Oͤrlickon</placeName> uff <date type="deadline" when="--09-01">sant
+<persName ref="per000474">Frenen</persName> tag</date> offen staͧn zuͦ straffel weid. <lb/>
+Item die <placeName ref="loc012024">Alt Wiß</placeName>, ist oͧch <measure type="area" quantity="2" unit="Mannwerk" commodity="grassland">zwey manwerch</measure>, ist oͧch straffelweid</lem><rdg wit="StAZH A 97.5, Nr. 13">und die <placeName ref="loc012024">Alt Wis</placeName>, ist ouch <measure type="area" quantity="2" unit="Mannwerk" commodity="grassland">zwey manwerch</measure>, uff <date type="deadline" when="--09-01">sant
+<persName ref="per000474">Frenen</persName> tag</date> offenstan, denen von <placeName ref="loc010598">Oͤrlicken</placeName> zuͦr
+stroffelweid</rdg></app>.</seg>
+</p>
+<head type="subtitle"><lb/>Von der wessery</head>
+<p><seg n="6"><lb/>Item <app>
+<lem/>
+<rdg wit="StAZH A 97.5, Nr. 13">die</rdg>
+</app>
+<orgName ref="org005029">Blaͤsyer</orgName> wiß sol neͣmen das wasser
+an <date dur="R/P2WD">mentag</date>. <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">Item</supplied></damage>
+<placeName ref="loc012251"><orgName ref="org005029">Blaͤsyer</orgName> Hoͧf</placeName> haͧt das wasser
+<date dur="P2D">ij tag</date>, <date dur="R/P3WD">zinstaͧg</date> und <date dur="R/P4WD">mitwochen</date>. <lb/>Item
+<placeName ref="loc012756">Spitaler Hoff</placeName><note>Das
+<orgName ref="org004925">Predigerkloster</orgName> war im Besitz des kleinen und
+grosses <placeName ref="loc012756">Spitalerhofes</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Bollinger 1983</ref>,
+S. 14</bibl>).</note> hat das wasser <date dur="P2D">ij tag</date>,
+<date dur="R/P5WD">donstag</date> u<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">nd</supplied></damage>
+<date dur="R/P6WD"><damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">fryta</supplied></damage>g</date>. <lb/><app>
+<lem>Und</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">Item</rdg>
+</app> uff den <date dur="R/P7WD">sambstag</date> sol das wasser gan uff
+die <measure type="area" quantity="4" unit="Mannwerk" commodity="grassland"> vier <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">man</supplied></damage>werch</measure>, namlich uff
+<placeName ref="loc012756">Spitaller</placeName>
+<measure type="area" quantity="0.5" unit="Mannwerk" commodity="grassland">halb manwerch</measure>,
+uff <measure type="area" quantity="1" unit="Mannwerk" commodity="grassland">j manwerch</measure>,
+<lb/>heist <placeName ref="loc012692">Muͤliwiß</placeName>, uff <measure type="area" quantity="1" unit="Mannwerk" commodity="grassland">j manwerch</measure>, heist <placeName ref="loc012660">Camer
+Wiß</placeName>, uff <measure type="area" quantity="1" unit="Mannwerk" commodity="grassland"><damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">ein</supplied></damage> manwerch</measure>, heist die
+<placeName ref="loc012128">Heilgen Wiß</placeName>.</seg>
+</p>
+<p><seg n="7"><lb/>Item wen man hoͤwen wil, des sond die buͤrsamy eins
+werden, und dan sol man das dem gotzhus amptman uff <placeName ref="loc010676">Stamp<lb break="no"/>flibach</placeName><note>Der Amtmann von <orgName ref="org005029">St. Blasien</orgName> hatte seinen Sitz am <placeName ref="loc010676">Stampfenbach</placeName> in <placeName ref="loc010816">Unterstrass</placeName>, wo die <placeName ref="loc005908">Schwarzwälder</placeName> Benediktinerabtei seit dem 13.. Jahrhundert begütert war (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA V</ref>, S. 51-53</bibl>). 
+</note> kundthuͤn, das man hoͤwenn well, ein tag
+vor <damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13">und</supplied></damage>
+<app>
+<lem>das</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">ee</rdg>
+</app> man anfach hoͤwen.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_014">SSRQ ZH NF II/11, Nr. 14</ref>, Art. 5</bibl>.</note>
+</seg></p>
+<p><lb/>Und dan sol der seͣlb amptman <date when="--04-30">ein tag vor anfachen
+meygen</date> die wisen, so man neͣmpt <app><lem/><rdg wit="StAZH A 97.5, Nr.13">die</rdg></app>
+<orgName ref="org005029">Blaͤsyer</orgName> wiss, daͧmit 
+<lb/>man durch die selb wiß steg und weg haben moͤg.
+</p>
+<p><seg n="8"><lb/>Item die <persName ref="per000390">Michel</persName> wiß sol den weg tregen den wisen gegen moͧrgen.
+</seg></p>
+<p><seg n="9"><lb/>Item den <placeName ref="loc012226">Riettgraben</placeName> sol man weiden bis an <date type="deadline" when="--04-22">sannt <damage agent="faded ink"><supplied source="StAZH A 97.5, Nr. 13"><persName ref="per000270">Joͤrgen</persName><!-- ahh: nach Absprache mit PS: Damit Joergen mit persName ausgezeichnet werden kann, ist J ausnahmsweise ebenfalls in damage zu setzen.--> abent</supplied></damage>
+</date>, den sol man inn in zu̍nen und in frid legen, 
+<lb/>damit man den hoͧwen moͤge.</seg>
+</p>
+<p><seg n="10"><lb/>Item den selben <placeName ref="loc012226">Riettgraben</placeName> sol man hoͧwen uff <date when="--06-24">sant <persName ref="per000049">Johans</persName> tag</date>, <date when="--06-17">achtag vor</date> oder <date when="--07-01">naͧch</date>, dan so die froͤmbden da 
+<lb/>hoͧwent, soͤllen die ir hoͧw hin und anweg fuͤ<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">ren</supplied></damage>, <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">und</supplied></damage> die von <placeName ref="loc010598">Oͤrlikon</placeName> dafu̍ren ungesumpt und ungeirt lasen.</seg>
+</p>
+<p>
+<seg n="11"><lb/>Item wer da hoͧwen wil, <app><lem>der sol</lem><rdg wit="StAZH A 97.5, Nr.13">sol da</rdg></app> helfen, steg und weg <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">mach</supplied></damage>en, das man faren mag. Wer das nit tuͦn welt, der mag 
+<lb/>sin hoͧw mit einer schlingen an die straß werffen und <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">dan</supplied></damage>nen hin damit faren, war er wil.</seg>
+</p>
+<p><seg n="12"><lb/>Item die ußwissen<note>Wiesen, die im äusseren Bereich eines Hofes liegen und nicht eingezäunt sind beziehungsweise für den Weidgang offen stehen (<bibl><ref target="/startseite/literaturverzeichnis ">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id16.htm#!page/162023/mode/2up">Bd. 16, Sp. 2023</ref></bibl>).</note>, die zuͦ den hoͧffen gehoͤrent, <app><lem/><rdg wit="StAZH A 97.5, Nr. 13">die</rdg></app> sol man <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">weiden</supplied></damage> bis an <app><lem/><rdg wit="StAZH A 97.5, Nr. 13">den</rdg></app>
+<date type="deadline" when="--04-30">meyabent</date>, dan sol man die inzunen, es were dan, das 
+<lb/>ein bu̍rsamy eins wurde, das man die e in schluge.<add place="inline" hand="hand16c">Allwegen uff <date when="--05-01" type="deadline"><persName ref="per000208">Jacobe</persName></date> all gehoͧuwen sin und nüt destminder
+<date type="deadline" when="--09-01">bis uff sannt <persName ref="per000474">Frenen</persName>tag</date>
+beschlossen bliben, damit die gute weid haben mögend.</add>
+<note>Dieser Artikel diente
+einem Urteil des Jahres <date when="1596" calendar="Julian">1596</date> als Grundlage, vgl. <bibl>Art. 26</bibl>.</note></seg>
+</p>
+<head type="subtitle"><lb/>Die brach weg</head>
+<p><seg n="13"><lb/>Item die <placeName ref="loc012658">Kalben</placeName>, so die <measure commodity="field" quantity="1" unit="Juchart" type="area">juchart</measure> acker, genant der
+<placeName ref="loc012037">Bletsch Ack<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">er</supplied></damage></placeName>,
+<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">di</supplied></damage>e sol der kalben weg gen.</seg></p>
+<p><seg n="14"><lb/>Item das <placeName ref="loc012848">Zwey Aͤckerly</placeName> sol dem buͤl<!-- ahh: Damit ist gemäss Bollinger 1983, S. 17 der Weg nach der Küh- und Rinderriet gemeint.--> steg und weg gen.</seg>
+<seg n="15"><damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">Item</supplied></damage> der <placeName ref="loc012774">Wassen Acker</placeName>, so man die gaß <app>
+<lem>uff faren</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">uffart</rdg>
+</app> bis zuͦm <app>
+<lem>bomm</lem>
+<rdg wit="StAZH A 97.5, Nr. 13">birboum</rdg>
+</app>, <lb/>dan sol er der zelg weͣg gen.</seg></p>
+<p><seg n="16"><lb/>Item das <placeName ref="loc012030">Boͤmackerly</placeName> ist <measure type="area" quantity="0.5" unit="Juchart" commodity="field">ɉ juchart</measure>, stost an die lantstraß, s<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">ol</supplied></damage>
+<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">de</supplied></damage>m selben zelgly weg gen.</seg></p>
+<p><seg n="17"><lb/>Item den <placeName ref="loc012749">Riett Weg</placeName> sol <app><lem>die bu̍rsamy</lem><rdg wit="StAZH A 97.5, Nr. 13">man</rdg></app> mit ein andern zu̍<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">nen</supplied></damage> zwu̍schent den hoͤltzern.</seg></p>
+<p><seg n="18"><lb/>Item <measure type="area" quantity="0.5" unit="Juchart" commodity="field">ɉ
+juchart</measure> acker, genant der <placeName ref="loc012697">Neͣgeler</placeName> am obern <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">wag</supplied></damage>enloch, sol der zelg steg und weg gen.</seg></p>
+<head><lb/>An <placeName ref="loc012254">Stadel Acker</placeName></head>
+<p>
+<seg n="19"><lb/><app><lem/><rdg wit="StAZH A 97.5, Nr. 13">So</rdg></app> Sol des <persName ref="per024284">Studers</persName>
+<placeName ref="loc012254">Stadel Acker</placeName> den weg tregen <num value="2">ij</num> zu̍g<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">en</supplied></damage>
+<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">la</supplied></damage>ng.</seg>
+</p>
+<p>
+<seg n="20"><lb/>Item der <placeName ref="loc012231">Riett Acker</placeName> sol dem undern zelgly oͧch weg
+<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">gen</supplied></damage>.</seg>
+</p>
+<p>
+<seg n="21"><lb/>Item die von <placeName ref="loc010598">Oͤrlikon</placeName> sind weidgnossyg bis an die
+<app><lem/><rdg wit="StAZH A 97.5, Nr. 13"><orgName ref="org005088">Spittals</orgName></rdg></app> huben
+<app><lem>und</lem><rdg wit="StAZH A 97.5, Nr. 13"/></app> dazuͦ bliben und nit witter, und
+dan <damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">die
+anstößer</supplied></damage> 
+oͧch nit wytter.</seg>
+</p>
+<p>
+<seg n="22"><lb/>Und danenhin moͧgen die von <placeName ref="loc010598">Oͤrlikon</placeName> in iren zwingen und banen bliben und sol nieman zuͦ inen faren.</seg>
+</p>
+<p>
+<seg n="23"><lb/>Item es sind <num value="3">iij</num> hoͤff zuͦ
+<placeName ref="loc010598">Oͤrlikon</placeName>, dero jede haͧt <measure type="area" quantity="9" unit="Schuppose">nun schuͦppossen</measure>, da hat ein bursamy
+<app><lem><measure type="area" quantity="1" unit="Schuppose">einer schupos</measure> uff geleit</lem><rdg wit="StAZH A 97.5, Nr. 13">ufgleit <measure type="area" quantity="1" unit="Schuppose">einer
+schuͦppoß</measure></rdg></app>
+<num value="4">vier</num> hoͧpt.<note>An diese Beschränkung musste in
+einem Konflikt des Jahres <date when="1595" calendar="Julian">1595</date> erinnert werden (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24717">StArZH VI.OE.A.2.:7</ref></bibl>).</note></seg>
+</p>
+<p><seg n="24"><lb/>Item des <persName ref="per024280">Kamblis</persName> guͤtly sol haben <num value="1">j</num> roß, <app><lem>und</lem><rdg wit="StAZH A 97.5, Nr.13"/></app>
+<num value="2">zwo</num> kuͤg und <num value="1">ein</num> jeͣrig kaͧlb und
+nit meͣr, oͧch <num value="6">vj</num> huͤner und <num value="1">j</num> guͤgel 
+<lb/><app><lem>und kein gaͧnß</lem><rdg wit="StAZH A 97.5, Nr. 13"/></app>.</seg>
+</p>
+<p><seg n="25"><add place="bottom" hand="other hand"><lb/>Wer
+ouch in dero von <placeName ref="loc010598">Oͤrlikon</placeName> hoͤltzern <app>
+<lem>holtz</lem>
+<rdg wit="StAZH A 97.5, Nr. 13"/>
+</app> hoͧwt, wirt der ergriffen oder geleidet, der sol von jedem <sic>stumpten</sic>
+<lb/>zuͦ buͦß verfallen syn <measure quantity="10" unit="ß" type="currency">x </measure>
+und nitdesterminder den selben von <placeName ref="loc010598">Oͤrlikon</placeName> das abgehoͧwen h<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">oltz</supplied></damage>
+<damage agent="restoration"><supplied source="StAZH A 97.5, Nr. 13">bezalen so lieb, als</supplied></damage>
+<lb/>es inen ist.</add></seg></p>
+<p><seg n="26"><add place="bottom" hand="other hand"><lb/>Mit
+fernerm anhang, welicher ald weliche <date type="deadline" when="--05-01">uff <persName ref="per000208">Jacobi</persName></date>
+sin matten inn ermelten usswisen nit ge <damage agent="restoration" quantity="8" unit="cm"><gap/></damage>
+<lb/>und darin zuͦ weid faren wurde, das der ald die, so offt es beschicht, allwegen unßern <abbr>gn</abbr> herren
+<damage agent="restoration"><supplied source="StArZHVI.OE.A.2.:8">handen <measure type="currency" quantity="5" unit="lb">fünff pfund</measure> gelts zuͦ</supplied></damage>
+<lb/>rechter buͦß verfallen sin, vermaͧg hirnun habenden urteilbriefs <abbr>etc</abbr>.</add>
+<note>Dieser Nachtrag wurde in der Folge eines Urteils der Obervögte von <placeName ref="loc009859">Schwamendingen</placeName> und
+<placeName ref="loc010598">Oerlikon</placeName> vom <date when="1596-08-29" calendar="Julian">29. August 1596</date>, das sich
+auf die Nutzung dieser Wiesen bezog, hinzugefügt (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24719">StArZH VI.OE.A.2.:8</ref></bibl>).
+In der Abschrift von der Hand <persName ref="per024279">Wolfgang Hallers</persName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=611724">StAZH A 97.5,
+Nr. 13</ref></bibl>) ist er dagegen nicht enthalten, was dafür spricht, dass der Stiftsverwalter die Abschrift vor <date notAfter="1595">1596</date> erstellt hat.</note></seg></p>
+</div>
+</body>
+<back>
+<div><p>Die Rechte des Hofes von <orgName ref="org005029">St. Blasien</orgName> auf dem Gebiet von <placeName ref="loc010598">Oerlikon</placeName>, nach dem die hier erwähnten Wiesen benannt sind, sind ebenfalls überliefert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_004">SSRQ ZH NF II/11, Nr. 4</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_014">SSRQ ZH NF II/11, Nr. 14</ref></bibl>).</p>
+<p>Die Überlieferung im Stadtarchiv Zürich wird bei <bibl><ref target="/startseite/literaturverzeichnis">Bollinger 1992</ref>, S. 13-16</bibl> nicht erwähnt.</p></div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

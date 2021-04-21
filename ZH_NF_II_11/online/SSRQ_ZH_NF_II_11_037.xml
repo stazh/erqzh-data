@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc><titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt><publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt><seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_037</idno>
+</seriesStmt><sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250036">StAZH C I, Nr. 3059</idno></msIdentifier><head>Entscheid im Konflikt um die Nutzung der Limmat bei Höngg für den Fischfang, den Betrieb der Mühle und die Schifffahrt</head><msContents><summary>Ruedi Zweifel, Müller auf der Limmat bei Höngg, klagt vor Bürgermeister und Rat der Stadt Zürich, dass ihm seine Nachbarn durch Anbringen von Fachen (hölzerne Gehege) das nötige Wasser für seine Mühle entziehen. Diese klagen ihrerseits, dass der Müller durch Wuhren die Richtung des Flusswassers geändert und die Fischerei geschädigt habe. Nach einer Ortsbegehung durch die Ratsabgerordneten treffen Bürgermeister und Rat verschiedene Bestimmungen, um den Ansprüchen sowohl der Mühle als auch der Fischerei und der Schifffahrt gerecht zu werden. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.5"/><width unit="cm" quantity="37.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1486-01-30"/></origin></history></msDesc></sourceDesc></fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key000047">Mühlen</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000704">Schifffahrt</term><term>Wasser</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3059__r_.tif"/>
+<p>
+<seg><lb/>Wir, der <orgName ref="org002406">buͧrgermeister und raͧt der statt
+<placeName ref="loc000065">Zûrich</placeName></orgName>, tuͦnd kuͧndt allermennglichem und bekennen offenlich mit
+disem <lb/>brieff, als irrung, spenn und zweytrecht ufferstannden und angehannget sind zwûschen den
+unnsern <persName ref="per024237">Ruͤdi Zwyfel</persName>, <lb/>dem mûller uff der <placeName ref="loc000075">Lindmagt</placeName>
+unnder <placeName ref="loc009768">Hoͤnngg</placeName>, an einem, und ettlichen sinen naͧchpuͧren, namlichen den
+<orgName ref="org008415">Huͦbachern</orgName>, <lb/><orgName ref="org003364">Meyer</orgName> und <orgName ref="org009326">Amptzen</orgName>,
+daͧselbs zuͦ <placeName ref="loc000075">Lindmagt</placeName> gesessen, von deß wegen, das der selb
+<persName ref="per024237">Zwyfel</persName> sich erclagt, wie dann die obgenanten
+<lb/><orgName ref="org008415">Huͦbacher</orgName> mit ettlichen vachen neͣbend siner mûli, deßglich der
+<persName ref="per024232">Meyer</persName> mit den vachen oben an sinem werd<note>Zur Nutzung der Flussinseln in
+<placeName ref="loc009768">Höngg</placeName> durch die Fischer vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_022">SSRQ ZH NF II/11, Nr. 22</ref></bibl>.</note> im mercklichen <lb/>schaden und hindernûß an siner mûli zuͦfuͦgten,
+und besuͧnders das wasser mit iren vachen und vischentzen also ûbersetzt und verswellt <lb/>hetten,
+das er zuͦ zitten an siner mûli nit gnuͦgsamclich wasser haben moͤchte, ouch ettliche guͤtter an dem
+ennd mercklich daͧduͧrch <lb/>beschediget, hingefuͤrt und verruͧnnen weren, darumb er uns
+demuͤttenclich anruͦfft, ime in soͤlichem guͤttlich zuͦversechen.</seg>
+<seg>Daͧwider <lb/>die obgenanten von <placeName ref="loc000075">Lindmagt</placeName> fûrwandten, das sy zuͦ
+soͤlichen vachen und vischentzen, so sy und ir vordern lange zit harbraͧcht, guͦt <lb/>recht hetten,
+moͤchten sich ouch deren in der gstallt wol gebruchen uß krafft ettlicher sprûchen und ûbertraͤgen,
+so vor zitten <lb/>ettlich unser raͧtzfrûnde zwûschen inen getaͧn.<note>Bereits in den Jahren <date when="1454">1454</date> und <date when="1457">1457</date> war es zu gütlichen Urteilen zwischen
+<persName ref="per024230">Clewi Hubacher</persName> und <persName ref="per024237">Ruedi Zweifel</persName>, dem Müller von
+<placeName ref="loc009768">Höngg</placeName>, gekommen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480608">StAZH C I,
+Nr. 3056</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 9936</bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480897">StAZH C I,
+Nr. 3057</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10234</bibl>). Auch damals wurden Kompromisse gefällt, damit
+sowohl die Interessen der Mühle als auch jene der Fischerei gewahrt blieben. Zu den Fischrechten bei der Mühle in <placeName ref="loc009768">Höngg</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref>, S. 140-141</bibl>.</note> Aber daͧwider so
+hette der genant <persName ref="per024237">Zwyfel</persName> understanden, die <placeName ref="loc000075">Lindtmagt</placeName> mit
+wuͦren<!-- ahh: Mühlwuhr: Kanäle der Mühlen, die das Wasser auf das Rad lenken. -->
+<lb/>zuͦ ûberslachen wyter, dann soͤlich sprûch wysten und von altem harkomen, were dann von
+recht, soͤllte der recht ruͧnß des wassers <lb/><measure quantity="36" unit="Schuh" type="area">sechs und dryssig schuͦch</measure> offen staͧn, das aber durch den <persName ref="per024237">Zwyfel</persName> nit
+gehallten und daͧdurch die visch an ihrem gang und strich <lb/>geirrt wuͧrden, das inen an irn
+vyschentzen mercklichen schaden braͤchte, und begerten an uns, sy by den vorgetaͧnen sprûchen
+<lb/>und lûtruͧngen zuͦ hanndthaben mit vil me worten, von allen parthyen widereinandern gebruͧcht
+und nit not verrer <lb/>zuͦ beschriben.</seg>
+<seg>Das wir alles eigenntlich gehoͤrt und daͧruͧff vil unnser treffenlichen raͤtten uff die stoͤß
+geordnet haben, die ou<lb break="no"/>genschinlich zuͦ besechen. Und als sy soͤlichs getaͧn und
+demnaͧch gestallt der dingen wider an unns gebraͧcht, haben wir <lb/>gemeint, nach dem sich der
+fluͧß und ruͧnß des wassers an dem ennd geenndert und verwanndellt hab, das ouch not sye,
+<lb/>anndern unnderscheid und wytter lûtruͧng haͧrumb zuͦgeben, und daͧruff naͧch gruͧntlicher
+unnderrichtuͧng der vor<lb break="no"/>gemellten, unnser raͧtzfrûnden, unns erkennt und
+gesprochen:</seg>
+<seg>Am ersten von der vachen wegen, so <persName ref="per024230">Clewi Huͦbacher</persName>
+<lb/>in dem
+giessen<!-- ahh: Giessen = 2. Seitenarm, Nebenrinnsal, vgl. https://www.idiotikon.ch/Register/faksimile.php?band=2&spalte=470&hl=125159 -->
+nebent des <persName ref="per024237">Zwyfels</persName> mûli gemachet haͧt, das der selb <persName ref="per024230">Clewi
+Huͦbacher</persName> soͤliche vach dannen tuͦn und den giessen <lb/>nit also gar ûberschlachen noch
+wytter vachen sol, dann wye das mit einem pfaͧl ußgemarchet und bezeichnet ist. Daͧgegen <lb/>so sol
+der <persName ref="per024237">Zwyfel</persName> under siner mûli, so dick es not ist, schoren<!-- ahh: schoren II: https://www.idiotikon.ch/Register/faksimile.php?band=8&spalte=1196&hl=242924, 1 a) Alpha 1, Sp. 1198: Baggerarbeiten im Wasser, um den Lauf des Wassers zu optimieren. Vgl. auch Amacher 1996, S. 44-45. -->, daͧmit das wasser
+sinen ußzug wol haben moge. Deßglich <lb/>oberthalb der mûli am rannck ouch ruͧmen und schoren,
+daͧmit der egg dannen kome und das wasser nit also von der mûly <lb/>abwyse.</seg>
+<seg>Daͧrtzuͦ sol der selb <persName ref="per024237">Zwyfel</persName> den mûlywuͦr, so bald unnser schyfflût das
+nider wasser<note>Mit dem Niederwasser ist die Limmat gemeint, wogegen das Oberwasser den See bezeichnet (<bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref>, S. 143</bibl>).</note> faren mogen und wenn sy <lb/>des zuͦ ir notturfft begeren, ufftuͦn <measure type="area" unit="Schuh" quantity="36">sechs und dryssig schuͦch</measure> an dem ennd, do es aller fuͦgclichest
+und best mag gevaren <lb/>werden, wie dann unnser schifflût das ye zuͦ zytten
+<choice><sic>anzeeigen</sic><corr>anzeigen</corr></choice>,
+und das also fry laͧssen, damit des richs straͧß<note>Mit der Reichsstrasse ist an dieser Stelle die
+<placeName ref="loc000075">Limmat</placeName> gemeint.</note> offen stand, <lb/>und besuͧnder, das die
+swyren<!-- ahh: Schwirre = Holzpflock, Pfahl, vgl. https://www.idiotikon.ch/Register/faksimile.php?band=9&spalte=2140&hl=187766 -->
+der sellen
+<!-- ahh: Sellen = 2. Schwelle, vgl. https://www.idiotikon.ch/Register/faksimile.php?band=7&spalte=711&hl=245227 -->eben
+syen und keins wegs daͧrfûr uff gangen noch eyniche irruͧng, sorg oder <lb/>hindernûß unnsern
+schifflûten gebaͤren, soͤlichermaͧß, das sy uͧnclagbar syen. Wenn aber das niderwasser nit gevaren
+<lb/>werden mag und unnser schifflût das nit bruͧchen, so mag der gemellt
+<persName ref="per024237">Zwyfel</persName> aber inbescheidenheit wuͦren und ver<lb break="no"/>machen unntz an unnser widerruͤffen
+oder byß das unser schifflût im aber embietten uffzetuͦn, daͧmit er wasser zuͦ siner <lb/>mûli haben
+moge, doch das er daͧby allweg ennent dem wasser gegen <placeName ref="loc009828">Alltstetten</placeName> zuͦ den
+schiffweg offen laͧssen, daͧmit <lb/>man mit schiffen uff und nider schallten oder varen mog.</seg>
+<seg>Und von der vachen wegen, so der <persName ref="per024232">Meyer</persName> oben am werd gemachet <lb/>haͧt:
+Diewyl die den rechten fluͧß und ruͧnß des wassers abtriben und hinswellen, also das es der mûli,
+ouch byderber lûtten <lb/>guͤttern mercklichen schaden an dem ennd bringt, ist unnser lûtruͧng und
+erkanntnûß, das der genant <persName ref="per024232">Meyer</persName> soͤliche <lb/>vach alle dannen tuͦn und fûrer
+an soͤlichem werd kein vach me machen noch haben sol an dheinem ennd, dann allein
+<lb/>kripffen<!-- ahh: eine Art Flusswehr; PS: https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem008189 -->, aͧn
+geverd und uͧnschedlich. Und ob sich fûrer irruͧng an dem ennd begebe oder sich der fluͧß und ruͧnß
+des <lb/>wassers also schickte und ennderte, das die nottuͧrfft hiesche, wyttern bescheid zuͦ geben,
+behallten wir unns allweg vor, <lb/>verrer lûtruͧng zetuͦn.</seg>
+<seg>Und des zuͦ urkuͧnd, so haben wir unnser statt secret insigel offennlich tuͦn hennchen an disen
+<lb/>brieff, der geben ist uff <origDate when="1486-01-30">mentag vor unnser froͧwen tag der
+liechtmeß nach Cristi, unnsers lieben herren, gepûrt <lb/>gezellt viertzechenhuͧndert achtzig und
+sechs jaͧre</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3059__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Ein vertrag betrefend <lb/>den werd zuͦ <placeName ref="loc009768">Höngg</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>1486</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+</div>
+</body>
+<back>
+<div><p>Mit verschiedenen Verbauungen lenkten die Fischer den Lauf des Wassers. Eine der aufwendigsten Selbstfangvorrichtungen bildeten die Fache oder Fächer. In den Flüssen standen sie als Wehre schräg in der Strömung, um die Fische in die Reusen der Fischer zu lenken. Aber auch die Müller stauten das Wasser zu ihrem Nutzen mit Dämmen respektive leiteten es mit Kanälen auf ihre Räder zu. Alle diese Vorrichtungen konnte zudem die Schiffahrt behindern, was ebenfalls zu Unstimmigkeiten führte und der Regelung bedurfte (<bibl><ref target="/startseite/literaturverzeichnis">Amacher 1996</ref>, S. 49-53, 140-141</bibl>; vgl. <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_071">SSRQ ZH NF II/11, Nr. 71</ref></bibl>).</p></div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

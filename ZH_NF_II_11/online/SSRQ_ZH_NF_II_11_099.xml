@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_099</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1535706">StAZH B II 217, S. 37</idno></msIdentifier><head>Aufhebung des Gerichts in Wipkingen</head><msContents><summary>Nach einem Entscheid im Schuldkonflikt zwischen Klaus Kuhn, dem Keller von Wipkingen, und Hermann Ochsner heben Bürgermeister Kambli und beide Räte der Stadt Zürich das Gericht auf, das bisher auf dem Wipkinger Kelnhof gehalten worden ist, mit der Begründung, es werde zu viel für die Gerichtsmähler ausgegeben. Die Bewohner von Wipkingen haben sich künftig an das Stadtgericht zu wenden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="12.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1586-10-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term><term ref="key005364">Geselligkeit</term><term ref="key003752">Kelnhof</term><term ref="key000058">Schulden</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<pb n="37" type="original" facs="StAZH_B_II_217__S__37_.tif
+"/>
+<div>
+<head><lb/><origDate when="1586-10-31" calendar="Julian">Mentags, den letsten <choice><abbr>octob</abbr><expan>octobris</expan></choice></origDate>, <choice><abbr>pnts</abbr><expan>presentibus</expan></choice>
+<lb/>herr <orgName ref="org002406"><persName ref="per002004">Kambli</persName> und beid reth</orgName></head>
+<p><lb/>Sidtmalen der hürig winterholtz houw 
+<lb/>zum kelnhof zuͦ <placeName ref="loc010875">Wipchingen</placeName> unnd deß<lb break="no"/>halb <persName ref="per025661">Clauß Kuͦnen</persName>, dem nüwen keln<lb break="no"/>hofer, zuͦgehört, so soll das ver<lb break="no"/>bott, so <persName ref="per025664">Herrman Ochßners</persName><note>Ein <persName ref="per025664">Hermann Ochsner</persName> lässt sich 1579 als Richter am Gericht in <placeName ref="loc010875">Wipkingen</placeName> nachweisen; er wird <persName ref="per025661">Klaus Kuhn</persName> als Inhaber des Kelnhofs vorangegangen sein (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=727901">StAZH A 149.1, Nr. 43</ref></bibl>).</note> schuldford<lb break="no"/>ere an söllichen houw angelegt, uf<lb break="no"/>gehept syn unnd der houw dem <persName ref="per025661">Kuͦnen</persName>
+<lb/>verlangen. Unnd was <persName ref="per025661">Kuͦn</persName>
+<lb/>umb strouw und anndere varende 
+<lb/>hab dem <persName ref="per025664">Ochßner</persName> schuldig ist, das 
+<lb/>soll er hinder recht leggen.
+</p>
+<p><lb/><choice><sic>Hienebem</sic><corr>Hieneben</corr></choice> das gricht, so bißhar uff
+<lb/>disem kelnhof gehallten worden 
+<lb/>unnd aber wenig nützt, hiemit aber<lb break="no"/>khendt syn, da die jhennigen, so 
+<lb/>mitt einannderen zerëchten, das<lb break="no"/>selbig vor dem statt gricht alhie ver<lb break="no"/>richten, unnd die <orgName ref="org007945">Wipchinger</orgName> by 
+<lb/>diser thüren zyth sich der unnötigen 
+<lb/>mäleren und zächeten abthuͦn. 
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Früher unterstand Wipkingen der Niedergerichtsbarkeit des Fraumünsters (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_036">SSRQ ZH NF II/11, Nr. 36</ref></bibl>), als diese mit der Reformation an die Stadt gelangte und fortan einem Obervogt unterstand, blieb das Dorfgericht zunächst erhalten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 6</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, S. 437</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 78-79, 140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1922</ref>, S. 76-77</bibl>). Dort richtete der Fraumünsteramtmann oder der Keller als sein Vertreter fortan nicht mehr auf Geheiss der Äbtissin (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_036">SSRQ ZH NF II/11, Nr. 36</ref>, Art. 13</bibl>), sondern im Auftrag des amtierenden Obervogts (vgl. etwa <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_058">SSRQ ZH NF II/11, Nr. 58</ref></bibl><!-- StArZH I.A.634 -->; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=728266">StAZH A 149.1, Nr. 39</ref></bibl>).</p>
+<p>Aufgrund der geringen Grösse <placeName ref="loc010875">Wipkingens</placeName> und zu hoher Kosten sollte die Stadt die Verwaltung Wipkingens als eigene Vogtei bald zugunsten einer Eingliederung in die Obervogtei <placeName ref="loc010140">Vier
+Wachten</placeName><!-- ahh an PS: Oder Vier Wachten nicht als Ort tagen? Ist eigentlich Verwaltungseinheit, jedoch geographisch klar auszumachen. PS: Doch. Hier würde ich Vier Wachten im Sinne der geografisch fassbaren Obervogtei Vier Wachten als Ort auszeichnen. --> aufgeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_112">SSRQ ZH NF II/11, Nr. 112</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

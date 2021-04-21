@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_035_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=436009">StArZH III.B.1., fol. 104r-105v</idno>
+</msIdentifier>
+<head>Offnung von Fällanden</head>
+<msContents>
+<summary>Die Hofjünger und Huber sowie der Meier und der Keller von Fällanden zählen ihre Rechte und Pflichten auf. Geregelt werden unter
+anderem die Abgaben an den Vogt von Greifensee (1-3), die Gerichtstermine und deren Ablauf (4-7, 11), die Freizügigkeit innerhalb der sieben
+Gotteshäuser (10), Kriegsdienst (12), Pfändung (13) und Fallabgaben (14-15), Rechte und Pflichten des Kellers (16-18) und des Meiers
+(19-22), die Haltung eines Zuchtebers (19-20) und eines Zuchtstiers (21) sowie die Anstellung des Kuhhirten (18), des Schweinehirten (22)
+und des Bannwarts (28). Eine besondere Bestimmung betrifft das Siedeln ausserhalb des Dorfetters (25). Ausserdem verlangen die Fällander von
+ihrer Herrin, der Fraumünsteräbtissin, vor Immi und Ungeld geschützt zu werden (8).</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Aufzeichnung</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="40.5"/>
+<width unit="cm" quantity="30.5"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate from="1481-01-01" to="1481-12-31"/></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>Sablonier 1986, S. 78-84 (nach der Abschrift in StAZH B III 65); Grimm, Weisthümer, Bd. 1, S. 27-29 (nach der Abschrift in StAZH B III
+65)</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000066">Bannwart</term>
+<term ref="key000479">Dienstpflicht</term>
+<term ref="key005072">Eigentum</term>
+<term ref="key003290">Freizügigkeit</term>
+<term ref="key003037">Gerichtsverfahren</term>
+<term ref="key000305">Grenze</term>
+<term ref="key000596">Hirten</term>
+<term ref="key003403">Keller</term>
+<term ref="key000002">Meier</term>
+<term ref="key000012">Offnung</term>
+<term ref="key003021">Termin</term>
+<term ref="key000048">Weiderecht</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="104r" type="original"/>
+<head><lb/><app>
+<lem>Diß ist der hofrodel ze <placeName ref="loc008651">Vellanden</placeName></lem>
+<rdg wit="StAZH B III 65, fol. 107r">Offnung dero von <placeName ref="loc008651">Faͤllanden</placeName></rdg>
+</app></head>
+<seg n="1"><p><lb/>Item des ersten wirtt eim vogt von <placeName ref="loc000348">Griffensew</placeName> von der vogty <measure type="volume"
+unit="Mütt" quantity="20" commodity="spelt">xx <hi rend="sup">t</hi>
+<choice>
+<abbr>kn</abbr>
+<expan>kernen</expan>
+</choice></measure>
+<lb/>und <measure type="currency" unit="lb" quantity="5">v </measure>, das ist ein ungnad und nitt ein recht.<note>Dieser erste Artikel
+fehlt in der Abschrift in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=660583">StAZH B III 65, fol.
+107r</ref></bibl>. Auf das Fehlen wird durch zwei leer gelassene Zeilen mit dem Wort <orig>Item</orig> aufmerksam gemacht (<bibl><ref
+target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 78, Anm. 1</bibl>). Vielleicht basiert diese Abschrift auf einem heute
+verlorenen Original, dessen erste Zeilen zu diesem Zeitpunkt bereits unleserlich geworden waren (<bibl><ref
+target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 21</bibl>). Möglich wäre aber auch, dass man diese Passage in der
+Abschrift beiseite liess, weil es sich gemäss Wortlaut ja um <orig>ein ungnad und nitt ein recht</orig> handelte.</note></p>
+</seg>
+<seg n="2"><p><lb/>Item aber git im ein jeckliche huß roͤchi <num value="2">ij</num> herbst huͤner und <num value="2">ij</num> fasnacht
+<lb/>huͤner, uß genun der meyerhof git keinß, und der hoff ze <placeName ref="loc008778">Pfaffenhußen</placeName>
+<lb/>git nun <num value="2">zwey</num> herbst huͤner.</p>
+</seg>
+<seg n="3"><p><lb/>Item ouch hautt ein herr zuͦ <placeName ref="loc000348">Griffensew</placeName> das recht, das er sol komen <lb/>an <date
+type="deadline" when="--12-26">sant <persName ref="per003068">Steffans</persName> tag</date> umb die wisung, und wer die nitt git oder
+<lb/>mit simm willen behebt, der kumpt dannen hin alltag umb <measure type="currency" unit="ß" quantity="3">iij </measure>.</p>
+</seg>
+<seg n="4"><p><lb/>Item ouch sprechend die <del>junger</del> hoffjunger, das sy habind das recht, <lb/>das ein herr von <placeName
+ref="loc000348">Griffensew</placeName> soͤll da richten vierstund im jar, ze <lb/><date type="deadline" when="--05">meygen</date>, zuͦ <date
+type="deadline" period="fall">herbst</date> und dannenhin, wenn sy sin notturftig sind.</p>
+</seg>
+<seg n="5"><p><lb/>Item aber sprechend die hoffjunger da selbs, das ein herr von <placeName ref="loc000348">Grifensew</placeName>
+<lb/>zuͦ dem ersten soͤll den hussgenossen richten umb eigen und umb erb, <lb/>ob jeman da ze clagnen hautt.</p>
+</seg>
+<seg n="6"><p><lb/>Item ouch sprechend die hofjunger, das da nieman sol in ir hoff <lb/>erteilen umb eigen und umb erb, er hab denn in irem
+hof <measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure>
+<lb/>lang unnd breitt.</p>
+</seg>
+<seg n="7"><p><lb/>Item aber sprechend die hoffjunger, das man dar nach richten soͤll <lb/>den gesten, ist da ymen, der klagnen wil, und
+darnauch dem hußgenoß.</p>
+</seg>
+<seg n="8"><p><lb/>Item ouch sprechend die hoffjunger, das sy habind das recht, das <lb/>min frow, die ebtischin, sy soͤll schu̍rmen vor dem
+imy und vor <lb/>dem umbgelt, sy kouffind oder verkouffint.<note>Auf diese Passage beriefen sich die Leute von <placeName ref="loc008651"
+>Fällanden</placeName>, als sie sich 1581 dagegen auflehnten, an den Toren <placeName ref="loc000065">Zürichs</placeName> Zoll für ihre
+Waren zu bezahlen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_087">SSRQ ZH NF II/3, Nr. 87</ref></bibl>). Bereits 1508 war es über
+diesen Punkt zu Streit gekommen, weswegen der Rat die Leute von <placeName ref="loc008651">Fällanden</placeName> aufforderte, ihren Anspruch
+mit Rödeln und Zollbriefen zu belegen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=695841">StAZH B II 43, S.
+39</ref></bibl>).</note> Wer aber, das sy ze kranck <lb/>wer, so sol sy ein herren von <placeName ref="loc000348">Griffense</placeName> an
+ruͤffen, das in doch <lb/>geholfen werd.</p>
+</seg>
+<seg n="9"><p><lb/>Aber sprechend die hoffjunger, das sy habind das recht, wer das <lb/>ymen by in jar und tag unansprechig wer, der sol
+dannenhin <lb/>hoͤrn an <orgName ref="org004907">sant <persName ref="per012644">Felix</persName> unnd sannt <persName ref="per000143"
+>Reglen</persName></orgName> gen <placeName ref="loc000065">Zu̍r<supplied resp="rhr">i</supplied>ch</placeName>, und sol in ein herr
+<lb/>von <placeName ref="loc000348">Griffensew</placeName> schu̍rmen fuͤr ein vogt man, usgenon unverluͤmbt <lb/>man. Wer aber, das er von
+inen ziechen woͤlt, wenn er denn u̍ber <lb/>den <placeName ref="loc008779">Wisbach</placeName> ushin kem, so hautt im nieman nahin ze jagen
+den <lb/>einer, dem er gelten sol.<note>Dieser und alle weiteren Artikel werden in der Abschrift in <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=660583">StAZH B III 65, fol. 107v</ref></bibl> weiterhin mit <orig>Item</orig>
+eingeleitet.</note></p>
+</seg>
+<seg n="10"><p><lb/>Ouch sprechend die hofjunger, das sy habind das recht, da<supplied resp="rhr">s</supplied> sy iri <lb/><choice>
+<sic>ku̍nder</sic>
+<corr>kinder</corr>
+</choice> moͤgend uß hin gen und her in nemen in die <num value="7">siben</num> gotzhu̍ser, <lb/>das sy gnossammig syent dar zuͦ.</p>
+</seg>
+<seg n="11"><p><lb/>Item aber sprechent die hofjunger, das sy habind das recht, <lb/>wer, das sy stoͤssig wurdind under in selber aͧn den
+tod, moͤgent sy <pb n="104v" type="original"/>
+<lb/>das mitt an andren verrichten, e es klegt wirtt, da sol ein herr von <lb/><placeName ref="loc000348">Griffensew</placeName> nu̍t nahin
+ze klagen noch ze fraugen han.</p>
+</seg>
+<seg n="12"><p><lb/>Ouch sprechend die hoffjunger, das <del>sy habint das</del><note>Vermutlich wurde diese Passage gestrichen, weil es sich
+nicht um ein Recht der Hofjünger, sondern eher um eines des Vogtes von <placeName ref="loc000348">Greifensee</placeName> handelt. In der
+Abschrift in <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=660583">StAZH B III 65, fol. 108r</ref></bibl> fehlt
+diese Passage.</note> recht, wer, das <lb/>ein herr von <placeName ref="loc000348">Griffensew</placeName> jenahin reisen woͤlt, so sond sy
+im ein tag <lb/>in irem kosten dienen. Woͤlt er aber fu̍rbaß reisen, das sond wir tuͦn <lb/>in sinem kosten, und wenn in des kosten
+verdru̍st, so sol uns des reisen verdruͤssen.</p>
+</seg>
+<seg n="13"><p><lb/>Aber sprechent die hoffjunger, das sy habind das recht <app>
+<lem>von</lem>
+<rdg wit="StAZH B III 65, fol. 108r">zuͦ</rdg>
+</app> miner <lb/>frowen, der ebtischin, das sy sy nienan hin weder laden noch bannen sol. <lb/>Und wer, das sy eins jars nitt mag bezalt
+werden, so soll sy beiten <lb/>uncz uff den drytten bluͦmen. Denn mag sy den an griffen, und mag <lb/>sy da mitt nitt bezalt werden, so mag
+sy fu̍rbaß umb pfand griffen, <lb/>und die pfand triben hinder ein keller, im unschedlich, und da <lb/>lon <date dur="P8D">acht
+tag</date>.</p>
+</seg>
+<seg n="14"><p><lb/>Ouch sprechend die hoffjunger, das min frow, die ebtissin, das recht <lb/>hab, wer der <measure type="area" unit="Hube"
+quantity="5">fu̍nff huͦben</measure>
+<measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure> wit unnd breit hautt, der sol <lb/>miner frowen ein val gen. Wer
+aber, das zwen oder dru̍ minder <lb/>oder mer mitt ein andren teil und gmein hettind, da sol <app>
+<lem>ye der</lem>
+<rdg wit="StAZH B III 65, fol. 108r">jeder</rdg>
+</app> eltest, <lb/>der ab gestorben ist, fallen, und nitt der jungst.</p>
+</seg>
+<seg n="15"><p><lb/>Aber sprechend die huͦber, das min frow hab das recht, wenn ir einer <lb/>ab stirbt, das min frow ir amann soͤll dar
+schicken, und sol man <lb/>im den fal fu̍r schlachen, und sond die erben da das best houbt uß ziechen, <lb/>und sol denn der amman aͧn
+griffen nemen, weles er woͤll. Und wend <lb/>die erben den fal loͤsen, so sol er in <app>
+<lem>imm</lem>
+<rdg wit="StAZH B III 65, fol. 108r">lan</rdg>
+</app>
+<measure type="currency" unit="ß" quantity="5">v </measure> necher denn eim froͤmden. <lb/>Wer ouch, das einer, der fellig<note><bibl><ref
+target="/startseite/literaturverzeichnis">Grimm, Weisthümer</ref>, Bd. 1, S. 28</bibl>, sowie ihm folgend <bibl><ref
+target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 18</bibl>, lesen irrtümlich <quote><orig>selbig</orig></quote> und sind
+anschliessend gezwungen, den sinnentstellten Satz um einen bestimmten Artikel zu ergänzen (<quote><orig>dz einer derselbig wer [der] nit
+vech het</orig></quote>).</note> wer, nitt fech hett, so mag der <lb/>amann das best gwand nemen, so er am <date period="P1WD">suntag</date>
+treit, on geverd.</p>
+</seg>
+<seg n="16"><p><lb/>Ouch spricht der keller, das er das recht hab zuͦ den huͦbern, wenn er sin <lb/>zinß bereit, das er zuͦ in schicken mag
+umb roß. Und wer im ein ross <lb/>verseit, dem ist er kein habern gebunden ze gen.</p>
+</seg>
+<seg n="17"><p><lb/>Aber sprechent die huͦber, das sy habind zuͦ dem keller das recht, das er <lb/>in sol gen <measure quantity="15"
+unit="Viertel" type="volume" commodity="oat">xv <abbr>fl</abbr> habern</measure> des schwechsten, so im des jars uff dem hoff <lb/>wirtt.
+Und sol <app>
+<lem>der</lem>
+<rdg wit="StAZH B III 65, fol. 108v">das</rdg>
+</app> als wol gewannet sin, der in schutti uff ein berwertz <lb/>manttel, als meng agen daruff belib, als meng <measure quantity="3"
+unit="ß" type="currency">iij </measure> sol er den huͦbern <lb/>bessren.</p>
+</seg>
+<seg n="18"><p><lb/>Ouch sprechend die hoffjunger, das sy habind das recht zuͦ einem <lb/>keller, das er in soͤll ein kuͤhu̍rtten suͦchen,
+und sol im denn die kuͤ <lb/>lichen mitt der hoffjunger willen und gunst. Und hett dem selben <lb/>kuͤhirtten yeman den lon for, so sol im
+der keller pfand gen on voͤgt, <lb/>und wer im pfand wertt, der ist umb die buͦß komen.</p>
+</seg>
+<pb n="105r" type="original"/>
+<seg n="19"><p><lb/>Aber sprechend die hoffjunger, das sy habind das recht zuͦ dem <lb/>meyer hoff, das er in soͤll han ein wuͦcher schwin,
+das nutzlich <lb/>syg u̍ber jar.</p>
+</seg>
+<seg n="20"><p><lb/>Aber spricht der meyer, das das selb wuͦcher schwin das recht <lb/>hab, wa es jeman in <app>
+<lem>das</lem>
+<rdg wit="StAZH B III 65, fol. 108v">dz</rdg>
+</app> sin gang, das soͤls mitt dem rechten gern <lb/>us triben on schla<del>u</del>chen.</p>
+</seg>
+<seg n="21"><p><lb/>Ouch sprechend die hoffjunger, das der meyer sol han ein nutzbar <lb/>wuͦcher rind von <date type="deadline"
+when="--04-23">sant <persName ref="per000270">Joͤrgen</persName> tag</date> uncz zuͦ <date type="deadline" when="--06-24">sant <persName
+ref="per000049">Johans</persName> tag</date>. Und <lb/>ging das selb wuͦcher rind jeman ze schaden, der sols mitt dem <lb/>rechten geren uß
+dem sinen triben und nitt fu̍rer. Und wer das <lb/>u̍ber sech, der hett die buͦß verschuldt.</p>
+</seg>
+<seg n="22"><p><lb/>Aber sprechend die hoffjunger, das sy habind das recht zuͦ dem meyer, <lb/>das er in soͤll werben umb ein schwin
+hirtten, und sol den dingen mitt <lb/>ir willen, und sol man im siner schwinen vergeben huͤtten. Und woͤlt <lb/>dem hirtten jeman sin lon
+vor hon, so sol im der meyger pfand gen, <lb/>und wertt die jeman, der ist um die buͦß komen. Were aber, das er kein <lb/>hirtten fund und
+man on hu̍rtten muͤst huͤtten, so sol man in nitt <lb/>noͤtten, von dem wuͦcherschwin ze huͤtten, aber von den andren schwinen<app>
+<lem/>
+<rdg wit="StAZH B III 65, fol. 109r">sol er an hirten huͤten</rdg>
+</app>.</p>
+</seg>
+<seg n="23"><p><lb/>Ouch sprechend die hoffjunger, das sy habind das recht, wer da <lb/>buwt eigen oder erb, das der soͤll mitt in stu̍ren
+und dienen nach <lb/>der vieren erkantnuß.</p>
+</seg>
+<seg n="24"><p><lb/>Aber sprechend die hoffjunger, das sy habind das recht, was einer <lb/>nitt mag schniden noch gehoͤwen, da hond die
+husgenosen all recht <lb/>zuͦ weiden.</p>
+</seg>
+<seg n="25"><p><lb/>Ouch sprechend die hofjunger, das sy habint das recht, das nieman <lb/>soͤll husen usserthalb aͤtters. Tuͦtz aber yman,
+der sol uff den first ston <lb/>und sol mitt dem rechten arm griffen under dem lingken und sol <lb/>das haur in die rechten hand nemen, und
+sol ein sichlen nemen <lb/>by dem spitz in die lingken hand, und als fer als er wirfft, also <lb/>fer sond sine huͤnr gon. Und was sy
+fu̍rbas ymen schaden, das sol <lb/>er von yedem tritt mitt <measure quantity="3" unit="ß" type="currency">iij </measure> bessren.</p>
+</seg>
+<seg n="26"><p><lb/>Aber sprechend die hoffjunger, das sy habind das recht, wer, das keiner <lb/>da selbs under in eigen oder erb woͤlt
+verkouffen, der sols des <lb/>ersten sinem geteiliden viel bietten, und sols dem <measure quantity="5" unit="ß" type="currency">v
+</measure> necher gen <lb/>denn eim anderm. Und wils der nitt kouffen, so mag er es denn gen, <lb/>wemm er wil.</p>
+</seg>
+<seg n="27"><p><lb/>Aber sprechend die hoffjunger, das die huͦb ze <placeName ref="loc008789">Bincz</placeName> gehoͤr in den hoff <lb/>ze
+<placeName ref="loc008651">Fellanden</placeName> mit aller zuͦ gehoͤrtt, und sy weydignoss uncz gen <placeName ref="loc010465"
+>Hermikon</placeName>
+<pb n="105v" type="original"/>
+<lb/>an den steg, und sy wider umb in den hindrosten winckel, so zuͦ <lb/>der huͦb gehoͤrtt, das er nitt schniden nach hoͤwen mag.</p>
+</seg>
+<seg n="28"><p><lb/>Aber sprechend die hoffjunger, das die huͦber <date dur="R/P1Y">jerlich</date> sond ein <lb/>banwartt han. Wer aber, das
+sy dheins jars ein kein fundint, <lb/>so sond die huͦber ze samen gon und einen erkiesen, und <del>er</del>wellen <lb/>sy under den huͦbern
+erkiesent, woͤlt er es nitt tuͦn, dem sol es <lb/>ein vogt gebietten, als fil unnd als dick, uncz das er ein jar gedine <lb/>oder als sy
+sich denn erkennent.</p>
+</seg>
+</div>
+</body>
+<back>
+<div>
+<p>Die Offnung von <placeName ref="loc008651">Fällanden</placeName> wird hier erstmals nach dem Eintrag im Häringischen Urbar ediert
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=339607">StArZH III.B.1</ref></bibl>). Diese Fassung ist anlässlich der
+Erstellung des genannten Urbars um 1481 entstanden und somit bedeutend älter als die Abschrift in der Sammlung der Rechtsverhältnisse in den
+<placeName ref="loc000066">Zürcher Herrschaftsgebieten</placeName> aus der Mitte des 16. Jahrhunderts (<bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254391">StAZH B III 65</ref></bibl>), auf der alle bisherigen Editionen
+basieren. Inhaltlich stimmen die beiden Fassungen weitgehend überein. Zur den Rechtsverhältnissen in Fällanden vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Sablonier 1986</ref>, S. 20-30.</bibl></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

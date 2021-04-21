@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_079</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=661048">StAZH F II a 180, fol. 624r-627r</idno></msIdentifier><head>Erneuerung der Offnung von Nossikon</head><msContents><summary>Weil der alte Offnungsrodel aus dem Jahr 1431 derart schadhaft geworden ist, dass man den ersten Absatz kaum noch kesen kann, ist Konrad Kambli im Auftrag aller zur Dingstatt Nossikon gehörenden Hausgenossen vor dem Rat der Stadt Zürich erschienen, um den Text erneuern zu lassen. Nachdem die fehlenden Stellen sinnvoll ergänzt und die übrigen Regelungen wortgetreu abgeschrieben worden sind, wird die neue Fassung den Hausgenossen vorgelesen, die deren Richtigkeit bestätigen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift mit Ergänzungen</filiation><filiation type="original"><origDate when="1560-11-11"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1604-01-01" to="1604-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003037">Gerichtsverfahren</term><term ref="key000012">Offnung</term><term ref="key000103">Richter</term><term ref="key003021">Termin</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="624r" type="original" facs="StAZH_F_II_a_180__fol__624_r_.tif"/>
+<head><lb/>Hernoch volget des fryen
+<lb/>gerichts zuͦ <placeName ref="loc007625">Nossicken</placeName>
+rechtun<lb break="no"/>gen, harkommen und
+gwon<lb break="no"/>heit, als hernoch geschriben
+<lb/>stadt.</head>
+<p><lb/>Der je zuͦ zyten herr ist, oder wer <placeName ref="loc000348">Gryffensee</placeName> ynhatt, der
+<lb/>soll <date dur="R/P1Y">jerlich</date>
+<num value="2">zwey</num> gericht haben in der dingstatt zuͦ
+<placeName ref="loc007625">Noß<lb break="no"/>icken</placeName>, eins zuͦ <date type="deadline" when="--05">meyen</date>
+und das ander zuͦ <date type="deadline" when="--10">herbst</date>, und soll
+<lb/>man haben einen fryen richter. Were aber, das sy den
+<lb/>fryen richter also nit han möchtend, das dan ein herr,
+<lb/>der danzemal vogt ist daselbs zuͦ <placeName ref="loc000348">Gryffensee</placeName>, mit den
+<lb/>huͦßgenoßen und stuͦlsessen ein andern richter setzen, der
+<lb/>zu glicher wyß und in dem rechten zerichten hab, als ob er
+<lb/>ein frye wer. Und wan ein vogt die gricht also
+<lb/>haben wil, so sol der grichtsweibel die gricht verkünden
+<lb/>vor dem tag, als er den ansetzt, ob <date dur="P14D">vierzehen tagen</date> unnd
+<pb n="624v" type="original" facs="StAZH_F_II_a_180__fol__624_v_.tif"/><lb/>under <date dur="P3W">drey wuchen</date>, und soll ouch der grichtsweibel,
+<lb/>welcher das verkündet, ein rechter frey syn, und soll
+<lb/>allen den, die in die dingstatt gehörend oder dingstatt
+<lb/>güter <measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure> wyt und breit inhand, das gricht also
+<lb/>verkünden ze huß, ze hof oder under augen. Und
+<lb/>sol ouch der jetzgenant weibel vor gricht die rëchtungen
+<lb/>offnen, und sol ouch derselb weibel, so er das gricht
+<lb/>verkündt, dermaß beschücht syn, das er ob den fädern
+<lb/>siner schuͦchen keinen blätz haben soll. Were aber,
+<lb/>das er des überseit wurde, das er nit also beschücht
+<lb/>wer gsin, so mögend dan die hof jünger ze dem gricht
+<lb/>komen oder nit, weders sy dan wöllend. Und wer, das
+<lb/>einer oder mehr nit ze dem gericht also kemind, darumb
+<lb/>hand die ein herr oder vogt nit zestraffen. Ist
+<lb/>aber, das der weibel das gricht mit sollichem zyt, das
+<lb/>ist ob <date dur="P14D">vierzehen tagen</date> oder under <date dur="P3D">drey wuchen</date>,
+ver<lb break="no"/>kündet und also beschücht ist, wer der dan ist, der
+<lb/>güter <measure type="length" unit="Schuh" quantity="7">siben schuͦch</measure> wyt und breit inhat, und das gebott
+<lb/>übersicht und nit zuͦ dem gericht also kombt, den oder
+<lb/>die hat ein herrschafft oder vogt zestraffen umb <measure quantity="3" unit="ß" origin="ZH" type="currency">drey
+<lb/>schilling pfänning Züricher wärschafft</measure>, es were dan, das
+<lb/>einer redlich sachen erzellen möcht, die in billich hievor
+<lb/>schirmmen soltend noch der hof jünger erkandtnus,
+<lb/>dan solle einer aber ungestrafft beliben und solt das
+<lb/>nit bessern, alles ohn geverd und ergen list.</p>
+<p><gap source="SSRQ ZH NF II/3, Nr. 5"/></p>
+<pb n="625r" type="original" facs="StAZH_F_II_a_180__fol__625_r_.tif"/>
+<pb n="625v" type="original" facs="StAZH_F_II_a_180__fol__625_v_.tif"/>
+<pb n="626r" type="original" facs="StAZH_F_II_a_180__fol__626_r_.tif"/>
+<pb n="626v" type="original" facs="StAZH_F_II_a_180__fol__626_v_.tif"/>
+<pb n="627r" type="original" facs="StAZH_F_II_a_180__fol__627_r_.tif"/>
+<p><lb/>Zuͦ beschluß des alles ist zuͦ wüssen, noch dem die alt
+<lb/>offnung, so im <origDate when="1413">thusend vierhundert und <sic>dryzehenden</sic>
+<lb/>jar</origDate><note>Offenbar wurde die Datierung des Originals falsch aufgelöst; richtig wäre 1431
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>).</note>
+uffgericht, oben noher im ersten artickel von alters
+<lb/>wegen dermaßen schadhafft worden, das die nit mehr an
+<lb/>etlicher gschrifft zuͦ läßen gewäßen, darumb meister
+<lb/><persName ref="per013903">Cuͦnradt Kambli</persName>, diser zyt vogt der herrschafft <placeName ref="loc000348">Gryfensee</placeName>,<note><persName ref="per013903">Konrad
+Kambli</persName> amtierte von 1559 bis 1565 als Vogt in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 108</bibl>).</note>
+<lb/>für sich selbs und uß bevelch aller hußgenoßen, so in die
+<lb/>dingstat ghörend, vor einem ehrsammen <orgName ref="org002406">radt der statt <placeName ref="loc000065">Zürich</placeName></orgName>
+<lb/>erschinen mit bitt, die bemelt offnung von nüwen
+<lb/>dingen abschryben und ernüwern zelaßen. Und als
+<lb/>die wider zuͦ irem verstand an brästhaften orthen
+ge<lb break="no"/>bracht, daruff an offnem gricht in gegenwirtigkeit der
+<lb/>hußgnoßen vorglëßen, die da erzüget, das die in allen
+<lb/>stuken und articklen grecht und warhafft sige, ist
+<lb/>inen die uff ir begär abgeschriben und zuͦgestelt, uff
+<lb/><origDate when="1560-11-11"><persName ref="per000141">Martini</persName> im fünffzehenhundert und sechszigisten
+<lb/>jare</origDate>.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorhandene Neufassung der Offnung entstand als Ersatz für den alten Offnungsrodel,
+der also bereits um die Mitte des 16. Jahrhunderts ähnlich stark beschädigt war wie heute
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF II/3, Nr. 23</ref></bibl>).
+Bei der Ergänzung des ersten, kaum mehr lesbaren Artikels zeigte man sich denn auch einiges freier als beim Rest des Textes;
+vielfach passen die ergänzten Passagen nicht recht in die vorhandenen Lücken.
+Aus diesem Grund wird die Neufassung hier gesondert ediert.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_117</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=24159">StArZH VI.EN.LB.C.4., fol. 49r-50r</idno></msIdentifier><head>Ordnung der Gemeinde Enge</head><msContents><summary>Die Gemeinde Enge erlässt mit Zustimmung der Obervögte eine Ordnung bezüglich Rechnungslegung, Wahlen, Gemeindeversammlungen und die Entlohnung gewisser Gemeindeaufgaben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1645-08-04"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1701-01-01" to="1800-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term><term ref="key004966">Gemeinde</term><term ref="key005364">Geselligkeit</term><term ref="key000212">Löhne</term><term>Rechnung</term><term ref="key004022">Satzung</term><term ref="key000188">Verkehrswege</term><term ref="key004098">Versammlung</term><term ref="key000036">Vogtei</term><term>Wahl</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="49r"/>
+<p>
+<lb/>Wir, ein ehrsamme gmeind
+<lb/>gemeinlich in der gmeind <placeName ref="loc010425">Engi</placeName> unnd vogteig
+<lb/><placeName ref="loc009865">Wollisshoffen</placeName>, thuͦnd khundt mëngklichem hiemit.
+<lb/>Demnach wir zuͦ uffnung unnd handhabung dess
+<lb/>gmeinen nutzens, habend wir mit rëchtem wüss<lb break="no"/>en
+dissere nachgeschribne ordnung unnd artickel
+<lb/>nach gelëgenheit jetziger zytten unnd löüffen ent<lb break="no"/>schlossen
+unnd von unss unnd unsseren nachkommenden
+<lb/>gmeinlich gehalten ze werden erlüteret unnd ein<lb break="no"/>hellig
+erkënt unnd wellend, das dem styff gelëbt und
+<lb/>nachkommen werden sölle. In auch by wässen der frommen,
+<lb/>ehrvesten, fürsichtigen, fürnëmmen unnd wyssenn
+<lb/>herren <persName ref="per025778">Hans Caspar Schuffelbërger</persName> unnd herren
+<lb/><persName ref="per025777">Hanss Peter Lochman</persName>, beid des raths der statt
+<lb/><placeName ref="loc000065">Zürich</placeName> unnd disser zyt nöüw- unnd alte obervögt
+<lb/>ermëlter gmeind in <placeName ref="loc010425">Ëngi</placeName>, <placeName ref="loc009865">Wollißhoffen</placeName>, <placeName ref="loc010816">Under-</placeName>
+<lb/>unnd <placeName ref="loc012706">Oberleibach</placeName> unnd daselbsten umb <abbr>etc</abbr>.</p>
+<p>
+<lb/>Des ersten, so habend wir uns erkënt, das, wan man
+<lb/>altem bruch nach die gmeind rëchnung gibt, so sölle
+<lb/>jedem, der hierzuͦgehört, für syn blonung unnd mahl <measure type="currency" unit="lb" quantity="1">ein
+<lb/>pfundt gälts</measure> gegäben werden.</p>
+<p>
+<lb/>Zum anderen sölle umb minderen costens willen dass
+<lb/><date when="--07-25">sanct <persName ref="per000208">Jacobs</persName> pott</date> gar uffgehebt syn und die geschwornnen
+<lb/>und ehegaummer an <date when="--12-26">sanct <persName ref="per003068">Stëffens</persName> tag</date>, wan man
+<lb/>die rëchnung gibt und einer gmeind vorlist, fürhin
+<lb/><unclear>nëmmen</unclear>. Es sölle aber alles dan auch von der rëchnung wëg<lb break="no"/>en
+gar nützit verthan werden, sonder dis ynstellen biss
+<lb/>uff das <date when="--01-01">nöüw jahr</date>.</p><pb n="49v"/>
+<p>
+<lb/>Zum driten, wie vil dan am <date when="--01-01">nöüw jahrs tag</date> ein
+<lb/>ehrsamme gmeind vom gmeinen guͦtth zuͦverzeeren
+<lb/>habe, das sölle jeder wyllen, wan der seckelmeist<lb break="no"/>er
+rëchnung gibt, von beiden hochehrenden herren
+<lb/>obervögten, item dem undervogt, seckelmeister
+<lb/>und den <num value="4">vier</num> geschwornnen beratschlaget werden.</p>
+<p>
+<lb/>Zum vierten, wan man am <date when="--01-02">Bechteli tag</date> die bëcher
+<lb/>ghalt, so sölle denen persohnen, so darmit zuͦschaffen habend
+<lb/>und darzuͦ gehörend, jedem auch <measure type="currency" unit="lb" quantity="1">ein pfundt gälts</measure> für
+<lb/>dass mahl gëben werden.</p>
+<p>
+<lb/>Zum fünfften, wan man nach altem bruch die strässen
+<lb/>beschouwet, sölle den hier zuͦ verordneten auch jedem
+<lb/><measure type="currency" unit="lb" quantity="1">ein pfundt gält</measure> für das mahl gëben werden.</p>
+<p>
+<lb/>Wyter ist erkënt der <num value="4">vier</num> geschwornen halb, dass
+<lb/>allwëgen uff <date when="--12-26">sanct <persName ref="per003068">Stëffens</persName> tag</date>, wie vorstadt, nur
+<lb/><date dur="R/P1Y">alle jahr</date> einen genommen werden sölle, der sol dan
+<lb/><date dur="P4Y">vier jahr</date> lang blyben. Unnd so die <date dur="P4Y">vier jahr</date> verfloss<lb break="no"/>en
+unnd der erst genommne geschworne hiemit ussgadt,
+<lb/>sölle dan der usgangne, wan er sich ehrlich gehalten,
+<lb/>allwëgen zuͦ einem ehegoummer nach <date dur="P1Y">ein jahr</date> lang
+<lb/>genommen werden. Unnd sölle auch haben für syn blonung
+<lb/>oder mahl, wan er bim undervogt und den geschwornn<lb break="no"/>nen
+ist, <measure type="currency" unit="lb" quantity="1">ein pfundt gälts</measure>. Item wellicher zuͦ
+<lb/>einem geschwornnen oder ehegoummer genommenn
+<lb/>wirt unnd denn geschwornnen ald ehegaummer
+<lb/>eyd nach niemahls geschworen hatte, demme sölle
+<lb/>alls dann den eyd gëben unnd vorglëssen werden, <pb n="50r"/>
+<lb/>so bald einer, wie obstadt, genommen worden. Es sölle
+<lb/>auch keiner mehr zuͦ einem geschwornnen ald ehegoummer
+<lb/>genommen werden, er seige dan <date dur="P10Y">zëchen jahr</date> zuͦvor einn
+<lb/>yngesëssner burger in disser gmeind.</p>
+<p>
+<lb/>Beschlieslich, so ist auch disser puncten unnd articklen halber
+<lb/>vorbehalten worden, die je nach gstaltsamme der sachen, zytt
+<lb/>unnd jahren zeverbesseren, zeënderen, zeminderenn
+<lb/>ald zemehren, jeder zyt nach der herren obervögten
+<lb/>gefallen unnd guͦtbeduncken.</p>
+<p>
+<lb/>Wan nun sölliche ordnung von obgemëlter einer
+<lb/>ehrsammen gmeind <orgName ref="org007810">Engi</orgName> mit bywëßen vor- und wolge<lb break="no"/>dachten
+herren obervögten bestedt unnd angenommen,
+<lb/>das dem allem flyssig nachkommen werde, in crafft
+<lb/>disser unsser erkantnus, so gëben den <origDate when="1645-08-04">vierten tag
+<lb/>augusti, alls man zahlt von Jesu Christi, unsers
+<lb/>lieben herren unnd heillandts, gnaadrychen ge<lb break="no"/>burth
+sëchszëchen hundert vierzig und fünff
+<lb/>jahre</origDate>.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Ordnung scheint nur als Eintrag im 1643 begonnenen Kopialbuch von <placeName ref="loc010425">Enge</placeName> und <placeName ref="loc012271">Leimbach</placeName> überliefert zu sein (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=387612">StArZH VI.EN.LB.C.4.</ref></bibl>). Bereits 1578 war es in <placeName ref="loc010425">Enge</placeName> zum Konflikt um die Wahl der Geschworenen und die Rechnungslegung gekommen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_092">SSRQ ZH NF II/11, Nr. 92</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

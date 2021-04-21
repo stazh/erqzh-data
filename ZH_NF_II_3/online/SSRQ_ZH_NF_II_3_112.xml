@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_112</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4304073">StAZH B VII 14.17, S. 1</idno></msIdentifier><head>Aufruf zur Ablegung von Eid und Huldigung in den Kirchen von Uster und Maur</head><msContents><summary>Der Vogt von Greifensee, Hans Jakob Nägeli, bietet alle Männer ab dem 16. Altersjahr auf, den Eid auf die Obrigkeit abzulegen und die Huldigung zu vollziehen. Wer sich weigert, dem soll eine Geldbusse oder Körperstrafe auferlegt werden. Die Zeremonie findet am 16. April in der Kirche Uster sowie am 23. April in Maur statt. In den Pfarrkirchen von Wetzikon, Pfäffikon, Turbenthal, Wildberg, Volketswil und Dübendorf soll dieses Aufgebot von der Kanzel verkündet werden. Am Rand sind weitere Termine für die Verkündigung und die Durchführung der Huldigung in Uster und Maur für die Jahre 1775, 1787 und 1793 aufgelistet.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Kanzlei Greifensee</author><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1769-04-03"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000215">Huldigung</term><term ref="key003288">Mündigkeit</term><term ref="key004423">Verkündung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<head><lb/>Huldigungsverkündigung</head>
+<div><ab type="marginal note" place="left margin"><origDate when="1769">1769</origDate></ab></div>
+<p><lb/>Wan unser hochgeachte herr landvogt <persName ref="per010905">Nägeli</persName>
+<lb/>zuͦ <placeName ref="loc000348">Greiffensee</placeName> sich entschloßen, auf <origDate when="1769-04-16">sontag, den 16<hi rend="sup">ten</hi>
+<lb/>diß monaths aprill</origDate>, in der kirchen <placeName ref="loc008647">Uster</placeName> die
+<lb/>gewohnlich und schuldige huldigungs- und eydspflichten
+<lb/>halten zulaßen und einzunehmen. Als wird hierdurch
+<lb/>alle manschafft von <measure type="age" unit="year" quantity="16">16. jahr</measure> alters und darüber
+<lb/>hochoberkeitlichen ernsts angemahnet, daß selbige
+<lb/>obbedeüteten <date period="P1WD">sontag</date>
+<time period="morning">morgen</time> sich gehorsamlich allda
+<lb/>einfindind, um in gedachter kirchen <placeName ref="loc008647">Uster</placeName> ihre
+auff<lb break="no"/>habende pflichten in trüwen abzustatten. Mit dem
+<lb/>angemesenen anhang, so eint ald anderer sich nicht
+<lb/>einstellen thäte und gefährlicher weise sich deßen
+<lb/>entaüserte, ein solcher ohne verschonen mit <choice><abbr>oberkei</abbr><expan>oberkeitlicher</expan></choice>
+<lb/>geltbus und leibesstraff beleget werden solle.
+</p>
+<p><lb/>In krafft dis geben <origDate when="1769-04-03">montags, den 3. <choice><abbr>apr</abbr><expan>aprill</expan></choice>
+<lb/>1769</origDate>.<add place="left margin" hand="later hand"><lb/>Den <date when="1775-05-26">26<hi rend="sup">ten</hi> maii 75</date></add>
+</p>
+</div>
+<div>
+<signed><lb/><choice><abbr>C Gr</abbr><expan><orgName ref="org004910">Canzley <placeName ref="loc008569">Greiffensee</placeName></orgName></expan></choice></signed>
+</div>
+<div>
+<p><lb/><placeName ref="loc008650">Maur</placeName>, <choice><abbr>mut mut</abbr><expan>mutatis mutandis</expan></choice> auf den
+<origDate when="1769-04-23">23. <choice><abbr>apr</abbr><expan>aprill</expan></choice></origDate>.<add place="left margin" hand="later hand"><lb/>Den <date when="1775-05-28">28<hi rend="sup">ten</hi> maii</date>
+</add>
+</p>
+<p><lb/>In den 5 pfarrkirchen <placeName ref="loc008649">Weziken</placeName>, <placeName ref="loc012452">Pfäffiken</placeName>,
+<placeName ref="loc012453">Turben<lb break="no"/>thal</placeName>, <placeName ref="loc012454">Wildberg</placeName>, <placeName ref="loc012455">Volketschwyl</placeName> und <placeName ref="loc012456">Dübendorff</placeName> ab
+<lb/>der canzel zuͦ verlesen.
+</p>
+</div>
+<div><add place="left margin" rend="other ink"><head><lb/><date when="1775">1775</date></head>
+<p><lb/><placeName ref="loc008647">Uster</placeName>,
+<lb/><date when="1775-06-11">sontags, 11. juni</date>
+</p>
+<p><lb/><placeName ref="loc008650">Maur</placeName>,
+<lb/><date when="1775-06-18">18<hi rend="sup">ten</hi>
+<choice><abbr>d<hi rend="sup">o</hi></abbr><expan>dito</expan></choice></date>
+</p></add>
+</div>
+<div><add place="left margin" hand="other hand"><head><lb/><date when="1787">1787</date></head>
+<p><lb/><placeName ref="loc008647">Uster</placeName>,
+<lb/><date when="1787-04-29">sontags, den 29. apprill</date>
+</p>
+<p><lb/><placeName ref="loc008650">Maur</placeName>,
+<lb/><date when="1787-05-06">6. maii</date>
+</p></add>
+</div>
+<div><add place="left margin" hand="other hand"><p><lb/>Anno <date when="1793-05-26">1793 sontags,
+<lb/>den 26. maii</date>, zuͦ
+<lb/><placeName ref="loc008647">Uster</placeName>
+</p>
+<p><lb/><date when="1793-06-09">Sontags, den 9<hi rend="sup">ten</hi> junii</date>,
+<lb/>zuͦ <placeName ref="loc008650">Maur</placeName>
+</p></add>
+</div>
+</body>
+<back>
+<div>
+<p>Eidleistung und Huldigung waren rechtssymbolische Akte,
+mit denen die Untertanen ihren Gehorsam, ihre Unterwerfung und Treuebindung gegenüber der Obrigkeit zum Ausdruck brachten.
+Aufgrund der Durchführung in der Kirche erhielt das Ritual eine geradezu sakrale Aura,
+zumal der entsprechende Eid vor Gott abgelegt wurde.
+Zugleich war die Huldigung aber auch ein gesellschaftliches Ereignis,
+in dessen Anschluss den Teilnehmenden Wein, Brot und verschiedene Speisen ausgeteilt wurden
+(<bibl><ref target="/startseite/literaturverzeichnis">Holenstein 1991</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/028688">Huldigung</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/010348">Treueeid</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/016356">Untertan</ref></bibl>).
+</p>
+<p>Häufig erfolgte die Huldigung anlässlich des Amtsantritts eines neuen Vogts,
+wie es auch aus den vorliegenden Aufzeichnungen zur Herrschaft <placeName ref="loc000348">Greifensee</placeName> hervorgeht,
+wo die Landvögte in einem Turnus von sechs Jahren wechselten.
+Die aufgeführten Daten entsprechen genau der Amtseinführung von
+<persName ref="per010905">Hans Jakob Nägeli</persName> (im Amt 1769-1775),
+<persName ref="per010906">Hans Konrad Keller</persName> (im Amt 1775-1781),
+<persName ref="per010907">Jakob Christoph Hirzel</persName> (im Amt 1787-1793) und
+<persName ref="per010907">Andreas Schmid</persName> (im Amt 1793-1798).
+Es fehlt einzig die Amtszeit von
+<persName ref="per015115">Salomon Hirzel</persName> (im Amt 1781-1787),
+sodass unklar bleibt, ob unter ihm keine Huldigung erfolgte oder ob lediglich vergessen ging,
+den entsprechenden Termin in das vorliegende Missivenbuch einzutragen.
+Zugleich belegt die relativ kontinuierliche Dokumentation der Huldigungsdurchführung,
+dass der Obrigkeit gerade in den letzten Jahrzehnten des Ancien Régime daran gelegen war,
+ihre Herrschaft im Rahmen solcher Rituale zu inszenieren und sie nötigenfalls mit Gewalt durchzusetzen.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

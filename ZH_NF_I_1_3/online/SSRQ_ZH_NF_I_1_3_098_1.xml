@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_098_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917276">StAZH B III 6, fol. 120r, Eintrag 2</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend jährliche Rechnungslegung der städtischen Amtleute und Vögte</head><msContents><summary>Damit ausstehende Guthaben in Zukunft vollumfänglich zuhanden der Stadt eingenommen werden können, wird beschlossen, dass zukünftig der abtretende Bürgermeister, der jüngste Oberstzunftmeister, beide Säckelmeister sowie je zwei Mitglieder des Grossen und Kleinen Rats dazu verordnet werden, jährlich von den städtischen Amtleuten und Landvögten Rechnung zu nehmen. Dabei sollen sie darauf achten, dass niemand zwei Rechnungen gleichzeitig ablegt und anlässlich des Rücktritts eines Amtmanns oder Landvogts mit diesem eine Schlussrechnung durchführen. Sind in einer Rechnung noch Posten ausstehend, hat der betreffenden Amtmann oder Landvogt diese innert zwei Monaten zu begleichen, es sei denn, dass der Rat angesichts besonderer Umstände darauf verzichtet. In diesem Fall soll dies in den Säckelamtsrechnungen vermerkt werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key005369">Buchführung</term><term ref="key004536">Finanzen</term><term ref="key000574">Rechnungswesen</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="120r" facs="StAZH_B_III_6__fol__120_r_.tif
+"/>
+<head><lb/>Wie man <date dur="R/P1Y">jerlich</date> von der statt amptlu̍ten 
+<lb/>und vogten sol rechnung innemen</head>
+<p>
+<seg><lb/>Witer erkennent wir unns, damit unnser statt dest eigentlicher 
+<lb/>mu̍ge werden das, so ir zuͦgehort, das allweg ein abgender bu̍rger<lb break="no"/>meister,
+ein ju̍ngster obrister meister, der das <app><lem>den</lem><rdg wit="StAZH B III 2, S. 361">ein</rdg></app>
+<date dur="P1Y">jar</date> thun soll, beid 
+<lb/>seckler <app><lem>unnd dann</lem><rdg wit="StAZH B III 2, S. 361"/></app>
+<num value="2">zwen</num> von alten unnd nuwen <orgName ref="org004016">rëten</orgName> und <num value="2">zwen</num> von
+<lb/><orgName ref="org004906">den burgern, dem großen rat</orgName>, wie die ye zuͦ ziten werdent geordnet,
+<lb/>von unnser statt amptlu̍ten unnd voͤgten <date dur="R/P1Y">jerlichs</date> rechnung nemint
+<lb/>unnd keinem <num value="2">zwo</num> rechnungen lassent zusamen komen, ouch so einer 
+<lb/>abzu̍cht unnd von sinem ampt oder von siner vogty kumpt, mit dem 
+<lb/>selben fu̍rderlich abrechnint.</seg>
+<seg>Unnd was also die amptlu̍t oder vogt by
+<lb/>rechnung schuldig blibent, das sollent sy nach solcher rechnung bezallen
+<lb/>in <date dur="P2M">zweyen monaten</date>, sy habent das ingezogen oder nit, es begegne inen
+<lb/>dann solich abgeng unnd hinderung, deß sich die <orgName ref="org004016">rët</orgName> benu̍gent. Und
+<lb/>solichs sol ouch allweg unnser statt secklern in ir innemen ingeschryben 
+<lb/>werden <app><lem/><rdg wit="StAZH B III 2, S. 361">deßglich ouch <lb/>dem kornmeister</rdg></app>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Ordnung lässt sich der Hand des Schreibers des Satzungsbuches der Stadt Zürich von 1515-1518 zuordnen. Eine gleichzeitige, leicht abweichende Fassung von der Hand des Unterschreibers <persName ref="per015535">Joachim vom Grüth</persName>, der für die Konzeption des Satzungsbuches verantwortlich zeichnete, ist ebenfalls überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4198840">StAZH B III 2, S. 361</ref></bibl>).</p>
+<p>Bereits seit Ende des 15. Jahrhunderts wurden verschiedentlich ad hoc gebildete Kommissionen zur Prüfung der Rechnungen von Vögten und Amtleuten eingesetzt (vgl. dazu die Bestimmungen zur Rechnungslegung, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_077">SSRQ ZH NF I/1/3, Nr. 77</ref></bibl>). Demgegenüber spricht die vorliegende Ordnung erstmals von einer dauerhaften Rechnungsprüfungskommission und definiert, wer daran teilzunehmen hatte. Bereits einige Jahre zuvor lassen sich den Ämterlisten der Rats- und Richtbüchern die Namen der zur Rechnungsprüfung abgeordneten Amtsträger entnehmen. Demzufolge umschrieb die vorliegende Ordnung eine bereits seit einiger Zeit gebräuchliche Praxis (<bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 18</bibl>). Im Jahr 1533 schliesslich wurde im Zug der Reform der Klostergüterverwaltung das Gremium der <orgName ref="org004911">Rechenherren</orgName> gebildet. Dieses entsprach von der Zusammensetzung her den Vorgaben der vorliegenden Ordnung, wobei zusätzlich der Obmann der Klosterämter zu den <orgName ref="org004911">Rechenherren</orgName> gezählt wurde.</p>
+<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 137; 358</bibl>; zur Herausbildung des Gremiums der <orgName ref="org004911">Rechenherren</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sigg 1971</ref>, S. 101-103</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 18-21</bibl>; zur Finanzverwaltung vgl. auch den Eid der Säckelmeister (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_002">SSRQ ZH NF I/1/3, Nr. 2</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

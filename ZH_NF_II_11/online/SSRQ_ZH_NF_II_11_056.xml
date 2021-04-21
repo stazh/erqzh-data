@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_056</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=23884">StArZH VI.AR.A.2.:16</idno></msIdentifier><head>Entscheid von Bürgermeister und Rat von Zürich betreffend der Kirche in Albisrieden geschuldete Zahlungen des Stiftskammeramts</head><msContents><summary>Bürgermeister und Rat von Zürich entscheiden in einem Konflikt zwischen den Kirchenpflegern von Albisrieden und Vertretern von Propst und Kapitel des Zürcher Grossmünsterstifts betreffend einen Zins von drei Mütt Kernen, die das Stiftskammeramt gemäss Jahrzeitbuch von Albisrieden an die dortige Kirche entrichten muss.  Entgegen der Meinung der Stiftsvertreter schulden Propst und Kapitel des Grossmünsterstifts der Kirche in Albisrieden den jährlichen Zins weiterhin, obwohl der Unterhalt des dortigen Pfarrers nunmehr vom Stift getragen wird. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="28.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.0"/></dimensions></extent><condition>Riss an Faltstelle</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1532-05-20"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000217">Jahrzeitbuch</term><term ref="key003745">Filialkirche</term><term ref="key000032">Patronat</term><term ref="key000193">Pfründe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister unnd ratt der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnt kund offenlich mit disem brieff, das für unns zuͦ 
+<lb/>recht komen sind die kilchen pfläger zuͦ <placeName ref="loc010356">Riedenn</placeName> innamen und als vollmächtig anwellt des kilchlis daselbs 
+<lb/>eins unnd herrenn <orgName ref="org004352">probsts unnd cappittels der gestifft zum Grossen Münster</orgName> inn unser merern statt geord<lb break="no"/>notten gewallthabere andersteyls, deßwägenn, das die obberürten kilchen pfläger zuͦ <placeName ref="loc010356">Rieden</placeName> vermeintent, 
+<lb/>diewyl <date dur="R/P1Y">jerlich</date> von dem <orgName ref="org004352">gestifft zuͦm Grossenmünster</orgName> uss dem kamerer ampt <measure type="volume" commodity="spelt" quantity="2" unit="Mütt">zwen müt</measure> unnd dann aber 
+<lb/><measure type="volume" commodity="spelt" quantity="1" unit="Mütt">ein müt kernen</measure> irem kilchli zuͦerhalltung desselbenn und nit einem priester sich zuͦgeben geburtint luth des 
+<lb/>jarzytt buͦchs<note>Es handelt sich hier um das kurz vor <date notAfter="1433">1433</date> angelegte <placeName ref="loc010356">Albisrieder</placeName> Jahrzeitbuch  (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=316515">StAZH F II c 6 b</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hubmann 1956</ref></bibl>). Im Anschluss an das Kalendarium des Jahrzeitbuchs folgt ein Verzeichnis über die Einkünfte und Güter der <placeName ref="loc010356">Albisrieder</placeName> Kirche, das auch die hier angesprochenen Zuwendungen des Grossmünsterstifts aufführt (<bibl><ref target="/startseite/literaturverzeichnis">Hubmann 1956</ref>, S. 20-25</bibl>, hier S. 21).</note> unnd gewarsame, unnd aber yetz von gedachtem <orgName ref="org004352">gestifft</orgName> darin intrag gethan, allso das sollich 
+<lb/>kernen güllt nit wie von allter har ußgericht wurde. So sölltint wir sollich fürnämmen mit unserm güt<lb break="no"/>tlichen alld rechtlichen spruch abschaffenn unnd unns erkennen, die <measure type="volume" commodity="spelt" quantity="3" unit="Mütt">dry obangeregten müt kernen</measure> gelltz 
+<lb/>fürterhin wie untzhar <date dur="R/P1Y">jerlichen</date> ußzuͦrichtenn und zuͦbezalen.</seg>
+<seg>Darwider aber herrn <orgName ref="org004352">probst unnd cappittels 
+<lb/>zum Grossenn Münster</orgName> anwält vermeintent, diewyl die unnsern von <placeName ref="loc010356">Rieden</placeName> vornacher ein predicanten 
+<lb/>in irem eignen costen erhalltenn unnd aber sy vom <orgName ref="org004352">gestifft</orgName> yetz inen einen geben und hinus vertigen müß<lb break="no"/>tint ane ir, der gemeind, wythern costen und engeltnus, sölltint sy ouch uß diser ursach die obbestimpten 
+<lb/><measure type="volume" commodity="spelt" quantity="3" unit="Mütt">dry müt kernen</measure> geltz nit mer zerichten unnd zezinsen pflichtig sin, sonnders beschechner anclag halb 
+<lb/>ledig erkennt werden.</seg>
+<seg>Unnd als wir sy hütt siner dato gegen unnd widereinandern in söllichen 
+<lb/>iren clegtenn, antwurten, red, widerreden unnd allem irem darthuͦn eigentlich der notturfft nach ge<lb break="no"/>hört unnd verstanden, habent wir unns daruff, als die sach zuͦ unser rechtlichen erkantnus gesetzt 
+<lb/>ward, zuͦ recht erkennt unnd gesprochen, das die vorgemelten herrn <orgName ref="org004352">probst unnd cappittell der ge<lb break="no"/>stifft zuͦm Grossenmünster</orgName> der kilchen zuͦ <placeName ref="loc010356">Rieden</placeName>, ungehindert irs vermeinten intrags, die obgenanten 
+<lb/><measure type="volume" quantity="3" unit="Mütt" commodity="spelt">dry müt kernen</measure> gelltz luth des jarzytt buͦchs und gewarsame fürohin wie bißhar zuͦgeben und zuͦver<lb break="no"/>zinsen schuldig sygint.</seg>
+<seg>Diser unser rechtlichen erkantnus begertent die kilchen pfläger zuͦ <placeName ref="loc010356">Rie<lb break="no"/>denn</placeName> eins brieffs, den habent wir inen zuͦgeben erkent und daran des zuͦ urkund unser statt <placeName ref="loc000065">Zürich</placeName>
+<lb/>secrett insigel offenlich lassen hencken, der gebenn ist <origDate when="1532-05-20">mentags nach dem heiligen pfingstag nach 
+<lb/>Cristi geburt gezalt fünffzechenhundert dryssig unnd zwey jar</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" place="verso" hand="hand18c?"><date when="1532"><lb/>1532</date></ab></div>
+</body>
+<back>
+<div>
+<p>Zur Filialkirche des <orgName ref="org004352"><placeName ref="loc000065">Zürcher</placeName> Grossmünsters</orgName> in <placeName ref="loc010356">Albisrieden</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_034">SSRQ ZH NF II/11, Nr. 34</ref></bibl>.
+</p></div></back>
+</text>
+</group>
+</text>
+</TEI>

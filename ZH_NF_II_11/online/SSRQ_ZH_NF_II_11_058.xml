@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_058</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14164">StArZH I.A.634.</idno></msIdentifier><head>Ratsentscheid in der Klage der Gemeinde Wipkingen, Keller und Amtmann hätten dem Untervogt ihre richterlichen Funktionen übertragen</head><msContents><summary>Die Gemeinde Wipkingen klagt vor Bürgermeister und Rat der Stadt Zürich gegen Hans Meyer, den Keller des Fraumünsteramts, dass der Amtmann des Stifts und der Keller, als Eigentümer des Kehlhofs, sich teilweise der richterlichen Funktionen, die ihnen rechtlich zustehen, entzogen und diese dem Untervogt übertragen haben. Zudem wurden Servituten und Reallasten auf die Gemeinde abgewälzt. Der Keller und der Amtmann antworten, dass sie sich niemals weigern würden, alles wie früher zu leisten. Die Gemeinde habe jedoch mit Beleidigungen des Kellers usw. diesen Missstand selbst herbeigeführt. Bürgermeister und Rat urteilen, dass die alten Rechte Wipkingens (Hofrodel, Offnung etc.) weiterhin gelten und der Amtmann oder in seinem Namen der Keller Gericht halten sollen, aber die Rechte des Vogts nicht beeinträchtigt werden. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="59.0"/><width unit="cm" quantity="19.5"/></dimensions></extent><condition>Entwertungsschnitt</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1534-10-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000207">Amtsführung</term><term ref="key000285">Ehrverletzung</term><term>Keller</term><term>Niedergericht</term><term ref="key000012">Offnung</term><term ref="key001001">Ungehorsam</term><term>Untervogt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeyster und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd kunth menngklichem mit disem bryeff, das für unns kommen sind der unnsern eyner <orgName ref="org007945">gmeynnd von <placeName ref="loc010875">Wipchingen</placeName></orgName> erbar bottschafft, inn ir aller namm<lb break="no"/>en
+an eynem, sodenn <persName ref="per024576">Hënnsi Meyger</persName>, der keller uff dem hoffe zuͦ <placeName ref="loc010875">Wipchingen</placeName>, mit bystannd des ersammen, unnsers lieben unnd gethrüwen burgers <persName ref="per014763">Barthlomee Köchlins</persName>, der zyt ammans unnser <orgName ref="org004935">stifft unnd gottshuses zuͦ der aptye
+<lb/>zum <placeName ref="loc000090">Frowenmünster</placeName>
+<placeName ref="loc000065">Zürich</placeName></orgName>, inn derselben stifft nammen am anndernteyl, deswegen, das sich die gennannten von <placeName ref="loc010875">Wipchingen</placeName> erclagtennd, wiewol des hoffes zuͦ <placeName ref="loc010875">Wipchingen</placeName> rechtung, ouch von altem unnd yewelten<!-- von jeher, seit langem, schon immer; vgl. Idiotikon XV, Sp. 1706. --> also herbracht, darzuͦ
+<lb/>inn der offnung heyter unnder annderm begriffen, das der stifft amptmann allweg zuͦ <date dur="R/P8D">acht tagen</date><note>Es ist nicht ganz klar, ob hier eine wöchentliche Abhaltung des Gerichts gemeint ist oder ob <orig>achttag</orig> allgemein im Sinn von Banntag oder Gerichtstag zu verstehen ist. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">DRW 1914ff</ref>, <ref target="https://www.rzuser.uni-heidelberg.de/~cd2/drw/e/ac/htta/achttag.htm">Achttag</ref>, <ref target="https://www.rzuser.uni-heidelberg.de/~cd2/drw/e/ac/htta/achttag-2.htm">Achttage</ref></bibl>.</note><!-- http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?index=lemmata&term=Banntag#Banntag ; http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?index=lemmata&term=Echttag#Echttag --> unnd sunst, wenn man sin nothurfftig ist, im hof richten oder, wo er das selbst nit thuͦn möchte, eynen keller söllichs heyssen. Desglychen der keller zuͦ den zyten
+<lb/>unnd tagen, so man holtz usgyt unnd das holtz zünet, ouch uff denn allmennden ald sunst gmeyne wërch thuͦt, darzuͦ uff den <date type="deadline" when="--01-01">nüwen jars tag</date> unnd den <date type="deadline" when="--01-02">bächteltag</date> eyner <damage agent="ink blot"><unclear>g</unclear></damage>meynnde inn dem hoff unnd siner stuben platz unnd unnderschlouff, desglychen 
+<lb/>fuyr unnd liecht geben, unnd sy one widersprechen darinn zerren, essen unnd thrynncken lassen sölte; desglychen inen, so man <date type="deadline" when="--05">meygen</date> unnd <date type="deadline" period="fall">herpst</date>, als sunst im jar, wellicher zyt das ist, gericht hat, ouch platz unnd heerberge, darzuͦ zuͦm
+<lb/>meygengericht ziger, anncken unnd milch, wye von alter heͣr, unnd darzuͦ, wenn man veech inn holtz ald fëld inn schaden fynndt, demselben veech, unntz der schad geschetzt werden mag, ouch unnderschlouff, fuͦrung<!-- Fütterung, vgl. Fuerung 4), Idiotikon I, Sp. 976 --> und stallung zegeben schuldig, 
+<lb/>were inen doch sällich gerechtigkeyt unnd altheͣrkommen, als wie neͣcherer tagen dem unndervogt wider den alten bruch den stab unnd das gericht zeferggen angehennckt, ettwas geeͣnndert unnd geschwecht worden, das sy threͣffenlich beschweͣrdte, inn hoff<lb break="no"/>nung,
+wir sy, als die unnss sunst inn allweg gehörig unnd gehorsam syn wölten, inn gnaden bedenncken unnd sy by gehörten iren rechtungen unnd guͦten gewonheyten, wye sy die leͣnnger, dann keyn menntsch verdenncken möchte, ruͦwig harbracht, gnedig<lb break="no"/>clich
+schyrmenn, besunder ouch gemelten keller wysen wurden, sy ungesumpt darby plyben unnd inen die wye von altemhär gefolgen zelassen.</seg>
+<seg>Dargegen aber unnser amman zum <placeName ref="loc000090">Frowenmünster</placeName> mitsampt dem keller fürwannten, das untz<lb break="no"/>har
+an inen nützit erwunden, dann was sy inen schuldig, werint sy allweg willig gwesen, inen das zeleysten, das aber wir unnsern unndervogt den stab unnd das gericht zefüren bevolchen unnd sy us dem hoff inns wirtshus ze zeeren 
+<lb/>gewisen, daran werint nit sy, sunder die von <placeName ref="loc010875">Wipchingen</placeName> selbs schuldig, dann sy nye mit dem keller gestellen können, sunder eyn spann unnd zannck über den anndern mit im ghan, unnd in <unclear>jüngst</unclear> gern der eeren gschuldigt, deß er sich
+<lb/>mit recht vor unns enntschlachen mussen, unnd so wyt sy dem gottshus unnd sinen amptlüt, desglychen dem keller thätten, das sy inen schuldig, so werint sy inen inn keynen wëg wider ir rechtung, unnd begertennd ëben als wol, alß sy ruͤffind,
+<lb/>ouch darumb zum thrungenlichisten an, das wir söllich beschechen hinderung unnd ingriff uffheben unnd sy zuͦ beydersyt by iren fryheyten unnd altem härkomenn hanndthaaben unnd belyben lassen wölten.</seg>
+<seg>Deß haben wir angsëchen ir beyderteylen
+<lb/>thrungenlich ernnstlich bitt unnd eynthrëchtigen willen unnd das sy eynannder oberzelter gerechtigkeyten nit ab, sunder eynannder darby plyben zelassen urpütig, wir ouch nit geneygt sind, yemannt an synem alten harkomenn zube<lb break="no"/>krennck<supplied resp="mng">en</supplied>
+unnd darumb nach vyl unnd manngerley ingefürten meynungen, red unnd widerreden, uß eehafften unns bewegennden ursachen die fürgenommene ennderung des stabs unnd gerichts halb uffgehept unnd unns mit urteyl zuͦ recht er<lb break="no"/>kennth
+unnd gesprochen, das die von <placeName ref="loc010875">Wipchingen</placeName> gegen dem gottshus zum <placeName ref="loc000090">Frowen Münster</placeName>, ouch desselben amann unnd keller, by oberzelten iren gerechtigkeyten, fryheytn unnd altem härkomenn, wye die von altem unnd iren vordern sëligen har uff sy
+<lb/>komenn, ouch bishar yewëlten im bruch gwesen sind, es syge der gerichten, füyres, liechtes, platzes, zeerens, anncken, ziger unnd milch zuͦ den meygen gericht, uffenthalt des viches unnd annderer obermelter dingen unnd gerechtigkeyten halb, wye
+<lb/>die obvergriffen staand, styff plyben, unnd gemelter amann zum <placeName ref="loc000090">Frowen Münster</placeName>, deßglychen der keller, unnd ire nachkomenn, inen die von altem hër erstatten unnd one inthrag verfolgen lassen. Dar zuͦ der keller inn des amanns nammen, ob er es
+<lb/>selbs nit thätte, uff dem keelnhoffe das gericht unnd den stab wye vornacher füren, unnd so man des bedarff, nach besage des hoffrodels unnd der offnung richten sölle, doch unns unnd gemeyner unnser statt, ouch ye zuͦ zyten unnserm vogt, dem
+<lb/>vogt, dem wir die vogthye zu Wipchingen bevelchen werden, an unnserer vogthye buͤssen, ouch allen anndern rechten, fryheytn, zuͦgehörungen, herrligkeyten, oberkeyten unnd gerechtigkeytn, so wir des ennds hannd unnd haben sollennt, genntzlich un<lb break="no"/>abbrüchlich
+unnd one schaden, die wir unns hyemit vollkomennlich vorbehalten haben wellent.</seg>
+<seg>Inn crafft dis bryeffs, der den gemelten von <placeName ref="loc010875">Wipchingen</placeName> uff ir bitt mit unnser statt angehenncktem secret insigel verwaret zuͦ urkund geben
+<lb/>ist des <origDate when="1534-10-10">nechsten sambstags vor sanntt <persName ref="per000455">Gallen</persName> tag nach Cristi gepurt gezelt thusennt fünffhundert unnd darnach im vierunddryssigesten jare</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" place="verso">Vom kälhoff</ab></div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><origDate when="1534-10-10">Samstag vor st <persName ref="per000455">Gallen</persName> tag
+<lb/>1534</origDate></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Pflicht des Amtmanns oder Kellers, Gericht abzuhalten, wird in der Offnung von <placeName ref="loc010875">Wipkingen</placeName> erwähnt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_036">SSRQ ZH NF II/11, Nr. 36</ref>, Art. 13</bibl>). 
+Die Ansprüche auf Bewirtung zu verschiedenen Anlässen jedoch nicht.</p>
+<p>Einer der Konflikte, welche die Gemeinde <placeName ref="loc010875">Wipkingen</placeName> mit dem Keller austrug, betraf die Nutzung des <placeName ref="loc012117">Gehürsts</placeName>; am 24. April 1532 hatte die Gemeinde vor dem Rat gegen die Nutzung des 
+<placeName ref="loc012117">Gehürsts</placeName> durch den Keller geklagt, aber verloren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_055">SSRQ ZH NF II/11, Nr. 55</ref></bibl>). Am 6. August 1532 appellierte die Gemeinde <placeName ref="loc010875">Wipkingen</placeName> 
+gegen diesen Entscheid, wurde aber abgewiesen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14148">StArZH I.A.620</ref></bibl>), worauf sie am 8. Mai 1533 zum zweiten Mal appellierte, aber wieder abgewiesen und vom Rat zum 
+Gehorsam ermahnt wurde (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14154">StArZH I.A.625</ref></bibl>).</p>
+<p>Das Gericht des Kelnhofs von <placeName ref="loc010875">Wipkingen</placeName> wurde schliesslich am 31. Oktober 1586 vom <orgName ref="org004016"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> fast beiläufig abgeschafft (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_099">SSRQ ZH NF II/11, Nr. 99</ref></bibl>).
+Vermutlich wurde in diesem Zusammenhang die Urkunde mit einem Einschnitt als ungültig gekennzeichnet.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

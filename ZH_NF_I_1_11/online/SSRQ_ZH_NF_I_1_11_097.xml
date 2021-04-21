@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_097</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3581064">StAZH III AAb 1.16, Nr. 45</idno></msIdentifier><head>Tabelle und Verordnung der Stadt Zürich betreffend Lohntaxen für Fuhrleute</head><msContents><summary>Infolge der Teuerung, die auch das Fuhrwesen betrifft, erhöht die Zürcher Obrigkeit den Fuhrlohn für Zwölferholz aus dem Sihlamt um 4 Schilling pro Klafter. Ausserdem wird verordnet, dass die obrigkeitlich bestimmte Lieferungstaxe dieses Holzes durch einen Druck öffentlich bekannt gemacht wird. Es folgt eine Tabelle der Lieferungstaxe für bestimmte Streckenabschnitte.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 1 Bl.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.0"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1795-03-25"/></origin></history></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000524">Holz</term><term ref="key000212">Löhne</term><term ref="key000781">Teuerung</term><term ref="key000983">Warenverkehr</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_16__Nr__45__r_.tif"/>
+<p>
+<lb/><choice><abbr>MGHHerren</abbr><expan>Meine Gnaͤdigen Hohen Herren</expan></choice> haben, in Betrachtung der ausserordentlichen Theure aller
+ <lb/>auf das Fuhrwesen Bezug habender Artikel, den gewoͤhnlichen Fuhrlohn des
+ <lb/>Zwoͤlferholzes aus dem <orgName ref="org004999">Sihlamt</orgName> fuͤr dieß Jahr um <measure type="currency" unit="ß" quantity="4">4 ß</measure> per <measure type="volume" unit="Klafter" quantity="1" commodity="wood">Klafter</measure> zu
+ <lb/>erhoͤhen geruhet; und zugleich verordnet, daß die <choice><abbr>Obrigkeitl</abbr><expan>Obrigkeitlich</expan></choice> bestimmte Lie<lb break="no"/>ferungstax
+ von besagtem Holz zu maͤnniglichs wissenhaftem Verhalt durch den
+ <lb/>Druck oͤffentlich bekannt gemacht werde.
+</p>
+<table>
+<row><cell/><cell role="label"></cell><cell role="label"></cell></row>
+<row><cell><lb/>Aussert dem <placeName ref="loc010644">Rennweger</placeName>- und <placeName ref="loc010481">Kazenthor</placeName>, <placeName ref="loc010742">Sihlbrugg</placeName>, und <placeName ref="loc010385">Blei<lb break="no"/>kerweg</placeName>,</cell><cell/><cell><measure type="currency" unit="ß" quantity="24">24</measure>.</cell></row>
+<row><cell><placeName ref="loc010737">Kleine Stadt</placeName> bis zur <placeName ref="loc010758">Bruͤgge</placeName>,</cell><cell/><cell><measure type="currency" unit="ß" quantity="28">28</measure>.</cell></row>
+<row><cell><placeName ref="loc010736">Grosse Stadt</placeName>,</cell><cell/><cell><measure type="currency" unit="ß" quantity="32">32</measure>.</cell></row>
+<row><cell><placeName ref="loc010443">Kirchgaß</placeName>, <placeName ref="loc008762">Neustadt</placeName>, <placeName ref="loc010815">hinter Zeunen</placeName>, <placeName ref="loc010369">Graͤbli</placeName>,</cell><cell/><cell><measure type="currency" unit="ß" quantity="33">33</measure>.</cell></row>
+<row><cell><placeName ref="loc010471">Hirschengraben</placeName>,</cell><cell/><cell><measure type="currency" unit="ß" quantity="33">33</measure>.</cell></row>
+<row><cell><placeName ref="loc011717">Kronenporten</placeName> und <placeName ref="loc011718">Berg</placeName>,</cell><measureGrp><cell><measure type="currency" unit="fl" quantity="1">1</measure>.</cell><cell><measure type="currency" unit="ß" quantity="9">9</measure>.</cell></measureGrp></row>
+<row><cell>Ausser dem <placeName ref="loc010568">Oberdoͤrfler</placeName>- und <placeName ref="loc010563">Niederdoͤrfler-Thor</placeName> bis zur Porte,</cell><cell/><cell><measure type="currency" unit="ß" quantity="33">33</measure>.</cell></row>
+</table>
+<p><lb/><hi rend="font change">Signatum</hi>
+<origDate when="1795-03-25">Mittwochs den 25. Merz 1795</origDate>.</p>
+<p><lb/><orgName ref="org005015">Canzley der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_16__Nr__45__v_.tif
+"/>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_026</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435249">StAZH C II 12, Nr. 401</idno></msIdentifier><head>Einigung zwischen Hans Rudolf von Landenberg von Greifensee und dem Abt des Klosters Rüti über den Kirchensatz von Uster</head><msContents><summary>Hans Rudolf von Landenberg von Greifensee, der den Kirchensatz von Uster mit Widum und Zehnten an das Prämonstratenserkloster Rüti abgetreten hat, wofür ihm Abt und Konvent gemäss einer besiegelten Notiz 2200 Gulden versprochen haben, beurkundet, dass es zwischen ihm und dem Kloster zu Streit gekommen seiüber die Frage, ob eine auf dem Kirchensatz lastende Schuld von 170 Gulden gegenüber Kaspar von Bonstetten von der Kaufsumme abgezogen werden darf oder nicht. Auf Vermittlung von Rudolf von Steinach, Schultheiss von Wil, Hug von Hegi, Konrad Rümbeli, Hofammann von Wil, und Jos Berger, Stadtschreiber von Winterthur, einigen sich die Parteien darauf, dass die Schuld nicht abgezogen werden darf, dass sich dafür aber die Kaufsumme auf 2100 Gulden reduziert. Von diesem Betrag stehen noch 450 Gulden aus. Bis zur vollständigen Zahlung erhält der Landenberger jährlich als Zins den vierten Teil der Einkünfte des Kirchensatzes abzüglich 5 Stuck sowie 11 Viertel Kernen für die noch auf dem Kirchensatz lastende Schuld. Ausserdem verspricht er, beim Bischof von Konstanz die Befreiung von der Quart zu erwirken. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="31.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="absent"><persName role="sigillant">Hans Rudolf von Landenberg von Greifensee</persName></seal></sealDesc></physDesc><history><origin><origDate when="1441-06-26"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 6, Nr. 8695; REC, Bd. 4, Nr. 10135</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000017">Inkorporation</term><term ref="key000369">Kauf</term><term ref="key000032">Patronat</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg><lb/>Ich, <persName role="issuer" ref="per013276">Hans Ruͦdolf von Landenberg von Griffense</persName>, vergich mit disem brief, alz ich vormaͧls dem erwirdigen, minem lieben
+<lb/>herren, her <persName ref="per013876">Hansen</persName>, abtt des <orgName ref="org004897">gotzhus ze <placeName ref="loc008350">Ru̍ti</placeName></orgName>, und sinem gotzhus durch gottes willen geben hab den kilchensatz ze <placeName ref="loc006198">Ustern</placeName>
+<lb/>mit widem, mit zechenden und mit aller zuͦgehoͤrtt und her wider umb habent mir dieselben <orgName ref="org004897">abtt <persName ref="per013876">Johans</persName> und convent
+<lb/>des <choice><abbr>vorgn</abbr><expan>vorgenannten</expan></choice> gotzhus ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> versprochen ze geben
+<measure type="currency" unit="fl" quantity="2200">zweyntzig und zwey hundertt guldin</measure>, alz dz der nottell, so dar umb
+<lb/>besigeltt ist, alles eigenlich und wol usswisett. So denn von der versatzung wegen, alz uff demselben kilchensatz versetztt
+<lb/>worden ist, daz sich ze loͤsen gepu̍rett mit <measure type="currency" unit="fl" quantity="170">hundertt und sibentzig guldin</measure>, dieselb losung soͤlli minem herren von <placeName ref="loc008350">Ru̍ti</placeName> und
+<lb/>sinem gotzhus zuͦstaͧn und behalten sin, alz dz der nottell oͧch merklicher begrifftt.</seg>
+<seg>Da meynnt min herr von <placeName ref="loc008350">Ru̍ti</placeName>,
+<lb/>dz im und sinem gotzhus dieselben <measure type="currency" unit="fl" quantity="170">hundertt und sibentzig guldin</measure>
+an der bezalung der <measure type="currency" unit="fl" quantity="2200">zweyntzig hundertt und
+zwey<lb break="no"/>hundertt guldin</measure> abgaͧn soͤlltint. Da wider aber ich, <choice><abbr>vorgntr</abbr><expan>vorgenannter</expan></choice>
+von <persName ref="per013276">Landenberg</persName>, redtt und meynn, wye dz es nit also sye,
+<lb/>denn mir gepu̍rent die <measure type="currency" unit="fl" quantity="2200">zweyntzig hundertt und die zweyhundertt guldin</measure> und bestande mich die losung nicht, denn
+<lb/>wellent si loͤsen, daz mugent si tuͦn, denn dieselb losung der <measure type="currency" unit="fl" quantity="170">hundertt und sibentzig guldin</measure> soͤllent mir an miner
+<lb/><unclear>summen</unclear> der <measure type="currency" unit="fl" quantity="2200">zweyntzig hundertt und zweyhundertt guldin</measure> nit abgaͧn.</seg>
+<seg>Dar under nu die vesten und wisen <persName ref="per013909">Ruͦdolff von
+<lb/>Steinach</persName>, <choice><abbr>schulths</abbr><expan>schultheis</expan></choice> ze <placeName ref="loc000840">Wil</placeName>,
+<persName ref="per013499">Hug von Hegi</persName>, <persName ref="per013907">Cuͦnratt Ru̍melli</persName>, hofaman ze <placeName ref="loc000840">Wil</placeName>,
+und <persName ref="per013295">Jos Berger</persName>, stattschriber ze <placeName ref="loc000849">Winterthur</placeName>,
+<lb/>alz undertedinger geredt, sich so wit dar in getaͧn und uns beydersyt umb soͤlich obgeruͤrtt unser spenn betedingot
+<lb/>und berichtt hant in maͧsen, alz hernaͧch geschriben staͧt.</seg>
+<seg>Des ersten, dz min herr von <placeName ref="loc008350">Ru̍ti</placeName>, sin gotzhus und ir 
+nach<lb break="no"/>komen mir und minen erben fu̍r die <choice><abbr>egntn</abbr><expan>egenannten</expan></choice>
+<measure type="currency" unit="fl" quantity="2200">zweyntzig hundertt und zweyhundertt guldin</measure> geben sont <measure type="currency" unit="fl" quantity="2100">eins und zweyntzig
+<lb/>hundertt guldin</measure>. Und mag min herr von <placeName ref="loc008350">Ru̍ti</placeName> und sin gotzhus mit den <choice><abbr>egn</abbr><expan>egenannten</expan></choice>
+<measure type="currency" unit="fl" quantity="170">hundertt und sibentzig guldin</measure> loͤsen, wenn
+<lb/>si wend, von <persName ref="per004819">Caspern von Bonstetten</persName> naͧch innehalt sins brieffs,
+und sol mir, dem <choice><abbr>vorgnen</abbr><expan>vorgenannten</expan></choice>
+<persName ref="per013276">Ruͦdolffen von Landenberg</persName>,
+<lb/>derselben <measure type="currency" unit="fl" quantity="170">hundertt und sibentzig guldin</measure> an den <measure type="currency" unit="fl" quantity="2100">eins und zweyntzighundertt guldin</measure> nichts abgaͧn.</seg>
+<seg>Ich, <choice><abbr>vorgntr</abbr><expan>vorgenannter</expan></choice>
+<lb/><persName ref="per013276">Hansruͦdolf von Landenberg</persName>, bekenn oͧch fu̍ro vestenklich in disem brief,
+daz mir der <choice><abbr>vorgn</abbr><expan>vorgenannt</expan></choice> min herr von <placeName ref="loc008350">Ru̍ti</placeName>
+<lb/>und sin gotzhus bi den <choice><abbr>egn</abbr><expan>egenannten</expan></choice>
+<measure type="currency" unit="fl" quantity="2100">eins und zweyntzig hundertt guldin</measure> und bi allen dingen noch nit me schuldig beliben
+<lb/>denn <measure type="currency" unit="lb" quantity="450">fu̍nffthalb hundert guldin</measure>. Und die wil mir die nit bezaltt sint, so sol mir <date dur="R/P1Y">jerlich</date> da von ze zinß
+ge<lb break="no"/>volgen ein <num value="0.25">vierdenteil</num> der nu̍tz des kilchensatzes gantz minder <measure type="undefined" unit="Stuck" quantity="5">fu̍nf stuck</measure>. Mir sol oͧch fu̍ro zuͦ dem, alle die
+<lb/>wil ich der <measure type="currency" unit="lb" quantity="450">fu̍nffthalb hundertt guldin</measure> nit bezaltt bin, 
+von der obgeschriben versatzung gevolgen <date dur="R/P1Y">jaͤrlich</date>
+<measure type="volume" unit="Viertel" quantity="11" commodity="spelt">einliff
+<lb/>fierteil kernen</measure>.</seg>
+<seg>Ich sol oͧch unverzogenlich dazuͦ tuͦn alz von der anspraͧch wegen der quartt, alz min gnediger
+<lb/>herr von <placeName ref="loc000923">Costentz</placeName> die in anspraͧch haͧt, daz die ledig und los gemacht werdi, minem herren von <placeName ref="loc008350">Ru̍ti</placeName> und sinem
+<lb/>gotzhus aͧn schaden, aͧn alle <choice><sic>geved</sic><corr>geverd</corr></choice>.<note>Tatsächlich willigte der Bischof von <placeName ref="loc000923">Konstanz</placeName>,
+<persName ref="per000519">Heinrich von Hewen</persName>, am 19. November 1441 ein, die Kirche <placeName ref="loc008647">Uster</placeName> von der Quartpflicht (<orig>quartalis</orig>) zu lösen
+und stattdessen lediglich die Abgabe der ersten Früchte (<orig>primi fructus</orig>, <orig>primalis</orig>) zu verlangen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435300">StAZH C II 12, Nr. 404</ref></bibl>).</note></seg>
+<seg>Des alles ze urku̍nd hab ich,
+<choice><abbr>vorgntr</abbr><expan>vorgenannter</expan></choice>
+<persName role="sigillant" ref="per013276">Hansruͦdolf von Landenberg von
+<lb/>Griffense</persName>, min eigen insigel fu̍r mich und min erben gedrucktt in disen brieff ze end dirr geschrifftt, geben uff
+<lb/><date when="1441-06-26"><orgName ref="org004874"><persName ref="per012711">Johannis</persName> et <persName ref="per012712">Pauli</persName></orgName> anno xxxxj<hi rend="sup">mo</hi></date>
+<abbr>etc</abbr>.</seg></p>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/>Item der <persName ref="per013912">Stoll</persName> von <placeName ref="loc010478">Yssikon</placeName> haͧt geben
+<lb/>junkhern <persName ref="per013276">Hans Ruͦdolffen von Landenberg</persName>
+<lb/><measure type="currency" unit="fl" quantity="50">fu̍nffzig guldin.</measure>
+<lb/>Item <persName ref="per013506">Herdegen von Hunwile</persName> haͧt im gewert
+<lb/><measure type="currency" unit="fl" quantity="3">iij guldin</measure>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/><placeName ref="loc006198">Uster</placeName>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/><orgName ref="org004874"><persName ref="per012711">Johan</persName> et <persName ref="per012712">Paul</persName></orgName> 1<subst><del>3</del><add place="overwritten">4</add></subst>41,
+<lb/>den 26<hi rend="sup">ten</hi> junii</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Der Kirchensatz in <placeName ref="loc006198">Uster</placeName> war besitzrechtlich mit dem dortigen <placeName ref="loc008761">Laubishof</placeName> verbunden
+und gehörte ursprünglich zur Herrschaft <placeName ref="loc000348">Greifensee</placeName>.
+Zusammen mit dieser gelangte er im Jahr 1300 an die Herren von <orgName ref="org002752">Landenberg</orgName>
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_001">SSRQ ZH NF II/3, Nr. 1</ref></bibl>).
+Als diese die Herrschaft <placeName ref="loc000348">Greifensee</placeName> 1369 an die Grafen von <orgName ref="org000144">Toggenburg</orgName> verkauften,
+nahmen sie den Kirchensatz jedoch ausdrücklich vom Verkauf aus
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_004">SSRQ ZH NF II/3, Nr. 4</ref></bibl>).
+Stattdessen gelangte der Kirchensatz mit dem <placeName ref="loc008761">Laubishof</placeName> zwischenzeitlich an die Herren von <orgName ref="org000928">Bonstetten</orgName>,
+die ihn aber bereits 1371 wieder an die <orgName ref="org002752">Landenberger</orgName> zurückverkauften
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=346391">StAZH C II 10, Nr. 132</ref></bibl>).
+Als generationenübergreifende Grablege und Pfründe für geistliche Familienmitglieder hatte die Kirche <placeName ref="loc008647">Uster</placeName>
+zweifellos einen hohen Wert für die Herren von <orgName ref="org002752">Landenberg</orgName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 84-88</bibl>).
+</p>
+<p>Erst am 15. April 1438 vergabte <persName ref="per013276">Hans Rudolf von Landenberg</persName> die Kollatur mit allen Einkünften dem Kloster <placeName ref="loc008350">Rüti</placeName>
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434839">StAZH C II 12, Nr. 385</ref></bibl>),
+während gleichzeitig der <placeName ref="loc006198">Ustermer</placeName> Priester <persName ref="per013488">Niklaus Grüter</persName>
+auf sein Amt verzichtete, um dieses sodann vom Kloster <placeName ref="loc008350">Rüti</placeName> wieder zu empfangen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434840">StAZH C IV 2.3, Nr. 22</ref></bibl>).
+Zwei Tage später bestätigte der Bischof von <placeName ref="loc000923">Konstanz</placeName> die Übergabe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434841">StAZH C II 12, zu Nr. 385</ref></bibl>).
+Am 23. Juni 1438 wurde diese bischöfliche Bestätigung durch den Notar <persName ref="per013374">Johannes Fietz</persName> bestätigt und zugleich eine weitere Urkunde aufgesetzt,
+worin das Kloster <placeName ref="loc008350">Rüti</placeName> bestätigte, dass <persName ref="per013276">Hans Rudolf von Landenberg</persName>
+die Besetzung der Kaplaneipfründen seinem Bruder <persName ref="per013683">Beringer</persName> und weiteren Verwandten vorbehalten habe
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434864">StAZH C II 12, Nr. 387</ref>
+und <ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434863">388</ref></bibl>).
+Nachdem dieser Vorbehalt schriftlich bestätigt worden war, stimmte schliesslich auch <persName ref="per013683">Beringer von Landenberg</persName>
+am 11. Juli 1438 der Übergabe des Kirchensatzes an das Kloster <placeName ref="loc008350">Rüti</placeName> zu
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434877">StAZH C II 12, Nr. 390</ref></bibl>).
+</p>
+<p>Während die Urkunden von 1438 alle von einer Schenkung sprechen, geht erst aus der vorliegenden, drei Jahre später ausgestellten Urkunde hervor,
+dass das Kloster <placeName ref="loc008350">Rüti</placeName> für den Kirchensatz eigentlich die stattliche Summe von 2200 Gulden versprochen
+und davon bereits 1650 Gulden bezahlt hatte. Vermutlich hatten die Parteien die Übergabe zunächst als Schenkung getarnt,
+weil der Gütererwerb geistlicher Gemeinschaften von der weltlichen Obrigkeit ab dem 15. Jahrhundert zunehmend eingeschränkt wurde
+(<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964</ref>, S. 89-90</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_110_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=907815">StAZH A 43.1.4, Nr. 4</idno></msIdentifier><head>Verbot des Tragens geschlitzter Hosen und langer Hosenlätze für Stadt und Landschaft Zürich</head><msContents><summary>Bürgermeister sowie Kleiner und Grosser Rat der Stadt Zürich verbieten das Herstellen und Tragen von geschlitzten Kleidern und langen Lätzen an den Hosen auf dem Gebiet der Stadt Zürich sowie innerhalb ihres Territoriums. Dies gilt für Bürger, Hintersässen, Bewohner der Landschaft sowie Dienstboten, Fremde und Einheimische. Wer solche Kleidungsstücke nicht ändern lässt, sondern weiterhin trägt oder herstellt, wird zu einer Busse von 1 Pfund und 5 Schilling verurteilt. Für den Import dieser Kleidung ist die doppelte Strafe vorgesehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="14.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1520-01-01" to="1520-12-31">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000213">Kleidung</term><term ref="key005392">Luxus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_A_43_1_4__Nr__4__r_.tif"/>
+<p>
+<lb/>Unser herren <orgName ref="org002406">bürgermeister, radt und der groß radt, so man nempt 
+<lb/>die zweyhundert, der stat <placeName ref="loc000065">Zürich</placeName></orgName> hand angesehen unnd <app><lem>geordnet,</lem><rdg wit="StAZH A 42.2.1, Nr. 19">wellennt</rdg></app> das hinfür 
+<lb/>niemans, er syge bürger, hindersäß, lantman, <app><lem>oder</lem><rdg wit="StAZH A 42.2.1, Nr. 19"/></app> dienst knecht, frömbd
+<lb/>oder heimscher, in unnßer herren statt, land noch gepietten, solle tragen, machen
+<lb/>noch machen lassen keine zerhouwne cleider noch ouch so groß <app><lem>unnd</lem><rdg wit="StAZH A 42.2.1, Nr. 19"/></app>
+<lb/>unwesenlich letz an den hosen, als man jetz treit, sonder so sol ein jeder 
+<lb/>sine cleider, so zerhowen sind, ob er die wil tragen, wider <app><lem>lassen</lem><rdg wit="StAZH A 42.2.1, Nr. 19"/></app> zesamen neyen,
+<lb/>des glich die grossen unwesenlichen letz an den hoßen laßen abnemmen 
+<lb/>unnd recht gestaltsam machen. Unnd ob jemats darüber sölliche zerhowne 
+<lb/>kleider unnd unzimlich letz an den hosen truͤge, machte oder liesse machen,
+<lb/>da sol der traget unnd der es ladt machen unnd der schnider, so söllichs 
+<lb/>machet, jeder geben <measureGrp><measure type="currency" unit="lb" quantity="1">j </measure>
+<measure type="currency" unit="ß" quantity="5">v </measure></measureGrp><note>Der genannte Betrag wurde in fast allen Verboten von geschlitzten Kleidern 
+bis zum Jahr 1572 wiederholt. Einzig die Fassung des Erlasses vom 28. August 1520 nennt die wesentlich höhere Busse von 1 respektive 2 Mark (<bibl>
+<ref target="/startseite/literaturverzeichnis">Zürcher Kirchenordnungen</ref></bibl>, Bd. 1, Nr. 10).</note> on alle gnad zuͦ straff unnd buͦß. 
+<lb/>Unnd ob einer sölliche cleider oder letz usserthalb unnser herren piett
+<lb/>machen unnd zerhowen liesse, der sol <measure type="currency" unit="lb" quantity="2.5">iiɉ </measure>, das ist zwyfache 
+<lb/>buß, geben.
+</p>
+<pb n="v" facs="StAZH_A_43_1_4__Nr__4__v_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>Die Verbreitung von Kleidungsstücken mit Schlitzen in der äusseren Stoffschicht, durch welche ein darunter liegender und meist andersfarbiger Stoff sichtbar wurde, wurde in der <placeName ref="loc000153">Eidgenossenschaft</placeName> des frühen 16. Jahrhunderts 
+wesentlich durch die aus <placeName ref="loc010567">Oberitalien</placeName> heimkehrenden  
+Söldner gefördert und ist insofern vergleichbar mit dem Auftauchen der Farbe Gelb in der Kleidermode dieser Zeit, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Simon-Muscheid 1995</ref></bibl>. </p>
+<p> 
+Während erste <placeName ref="loc000065">Zürcher</placeName> Kleidervorschriften für beide Geschlechter bereits aus dem 14. Jahrhundert datieren 
+(<bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 1, Nr. 236</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/1, S. 185-187, Nr. 372</bibl>), 
+wurden die meisten Verbote geschlitzter Kleidung  im ersten Drittel des 16. Jahrhunderts erlassen. In diesem Zeitraum lässt sich auch das vorliegende Stück chronologisch situieren.</p><p>
+Neben den Schlitzen wurden auch zu lange Hosenlätze verboten, andere Erlasse verbanden dies zusätzlich mit Bestimmungen gegen das Tanzen, das Spielen sowie verschwenderische 
+Lebensführung. Das vorliegende Mandat ist in einer zweiten Ausfertigung überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1172972">StAZH A 42.2.1, Nr. 19</ref></bibl>), zwischen 1520 und 1530 erneuerten <orgName ref="org002406">Bürgermeister und Rat</orgName> ihr Verbot mehrfach (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Kirchenordnungen</ref>, Bd. 1, Nr. 12, 24, 41</bibl>). 
+ Zudem sah die Obrigkeit sich veranlasst, auch auf der Landschaft anlässlich der Befragung zur <placeName ref="loc000020">Badener</placeName> Disputation daran zu erinnern (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3569728">StAZH A 95.1, Nr. 8.3</ref></bibl>).
+ Zum letzten Mal erwähnt wurden geschlitzte Kleider in <placeName ref="loc000065">Zürich</placeName> in einem Mandat des Jahres 1572 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_012">SSRQ ZH NF I/1/11, Nr. 12</ref></bibl>).
+Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Spillmann-Weber 1997</ref>, S. 153-156</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Zehnder 1976</ref>, S. 85-87</bibl>; 
+ <bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1966</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Vincent 1935</ref>, S. 47-51</bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

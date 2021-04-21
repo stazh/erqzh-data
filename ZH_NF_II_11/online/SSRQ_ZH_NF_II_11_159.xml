@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_159</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25629">StArZH VI.WP.A.10.:138</idno></msIdentifier><head>Erlass der Bergherren vom Käferberg betreffend Holzauflesen und Holzfrevel, die durch Kinder verübt werden</head><msContents><summary>Weil viele Kinder von ihren Eltern in den Wald geschickt werden, um Holz aufzulesen, aber dort Schäden anrichten, verbieten die Bergherren des Käferbergs das Auflesen von Holz im Käferberg und belegen es mit einer Busse. Weil auch viele Kinder und Jugendliche zur Zeit des Winterhaus in den Wald gehen, Schäden anrichten und Holz von den Beigen entwenden, soll den Kindern, deren Eltern keinen Anteil am Holz haben, das Betreten des Waldes verboten sein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="36.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1746-06-16"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000524">Holz</term><term ref="key004196">Kinder/Jugendliche</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p>
+<seg><lb/>Nachdeme die verordneten herren bergherren in dem <placeName ref="loc012136">Käferberg</placeName>
+<lb/>durch ihre beammtete vernehmen müßen, daß zuwider den schon offt ver<lb break="no"/>lesenen
+mandaten nichtsdestoweniger ville elteren ihre kinder in das holtz zu<lb break="no"/>schiken
+sich erkühnind unter dem vorwand, daß dürre reiß und anderes holtz daselbst auf<lb break="no"/>zulesen,
+danzumahlen aber ville unfugen und frefel von selbigen verübet werdind. Als
+<lb/>haben benante herren bergherren ihr mandat dahin wider zuerneüeren <add place="above">nöthig gefunden</add>, daß hiemit alles
+<lb/>holtz auflesen in dem <placeName ref="loc012136">Käferberg</placeName> bey <add place="above" hand="other hand"><measure type="currency" unit="lb" quantity="25">25 </measure></add><note>Dieser nachträglich eingefügte Bussbetrag ist auffällig hoch. Ältere Holzordnungen, wie jene von 1573 für <placeName ref="loc009859">Schwamendingen</placeName>, erhoben maximal eine Busse von 5 Pfund (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_089">SSRQ ZH NF II/11, Nr. 89</ref></bibl>). Wahrscheinlich ist hier eigentlich 2.5 Pfund gemeint.<!-- Könnte evtl. 2.5 Pfund gemeint sein? PS: ja, sehr wahrscheinlich--></note>
+<choice><abbr>oberkeitl</abbr><expan>oberkeitlicher</expan></choice> straff solle verbotten und abgekennet
+<lb/>seyn.</seg>
+<seg>Und weilen mann seit etwelchen jahren gewahrnt, daß zur zeit, da die winter hauw ge<lb break="no"/>schnitten
+werden, ville kinder, auch halb gewachsene knaben in das holtz lauffend, obwohlen
+<lb/>sie dorten keine geschäfft zuverrichten haben, von welchen dann dem weg nach vill
+<lb/>holtz muthwillig beschädiget und unnütz gemachet, auch etwann ab den beigen entwendet
+<lb/>worden, so solle denjennigen kinderen und knaben, deren elteren kein antheil an dem 
+<lb/>holtz und hiemit alldort nichts zuschaffen haben, diseres in das holtz lauffen für das
+<lb/>könfftige bey der buß abgekennet seyn, wornach sich ein jeder zurichten und
+<lb/>von schaden und straff zu seyn wol wüßen wird. <origDate when="1746-06-16">Donstags, den 16. brachmonath
+<lb/>1746</origDate>.</seg></p>
+<p>
+<lb/><choice><abbr>Act</abbr><expan>Actum</expan></choice>
+<choice><abbr>praes</abbr><expan>praesentibus</expan></choice> herren obman <persName ref="per002906">Landolt</persName> und übrigen verordneten <abbr>hh</abbr>
+<lb/>bergherren des <placeName ref="loc012136">Käferbergs</placeName>.
+</p>
+</div>
+<pb n="2"/>
+<pb n="3"/>
+<pb n="4"/>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Mandat von <date when="1746">1746</date>
+<lb/><choice><abbr>betr</abbr><expan>betreffend</expan></choice> holtzauflesen im <placeName ref="loc012136">Käferberg</placeName>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>
+Für die Holznutzung auf dem <placeName ref="loc012136">Käferberg</placeName> war 1671 nach einem Streit mehrerer Anspruchsberechtigter eine Ordnung erlassen worden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_128">SSRQ ZH NF II/11, Nr. 128</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

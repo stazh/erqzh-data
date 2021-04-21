@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_083_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=891254">StAZH C III 8, Nr. 3</idno></msIdentifier><head>Urteil in einem Streit über das Fischen in den Gräben am Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich beurkunden einen Streit zwischen Niklaus Huser aus Fällanden sowie Klaus Pfister und seinen Brüdern aus Greifensee über das Fischen in den Gräben am Greifensee. Huser klagt, dass die Gebrüder Pfister in ihrer Wiese am Greifensee einen Graben angelegt haben und darin mit Reusen fischen, sodass sie ihm als Inhaber der Fischenz die Fische wegfangen. Nachdem eine Delegation des Rats vor Ort einen Augenschein genommen hat, urteilt der Rat, dass keine neuen Gräben bewilligt werden. Die Gebrüder Pfister sowie Ulrich und Klaus Ochsner müssen ihre erst kürzlich erstellten Gräben daher wieder zuschütten. Weiterhin bestehen bleiben dürfen die älteren Gräben, die auch als Grenze gedient haben, nämlich der oberste Graben, der Thomann Ochsner gehört und der Altfriedgraben genannt wird, sowie der unterste Graben, den Erhard Meier und seine Brüder von Fällanden besitzen und der Altglattgraben genannt wird. Hier dürfen die jeweiligen Besitzer ausserhalb der Schonzeiten weiterhin fischen und die Fische verkaufen. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="58.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Sekretsiegel der Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1569-12-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000748">Augenschein</term><term ref="key000536">Fischerei</term><term ref="key000683">Urteil</term><term ref="key000716">Wasserführung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeister unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thund khunndt menngklichem mitt disem brieff, als sich irrtung unnd spann zugetragen zwüschennt <persName ref="per014843">Niclaußen Hußer</persName> von <placeName ref="loc008651">Fellannden</placeName> einns unnd <persName ref="per014802">Claußen Pfister</persName>
+<lb/>sampt synen brüderen von <placeName ref="loc008569">Gryffensee</placeName> annderstheyls von deßwegen, das gemelter <persName ref="per014843">Niclauß Hußer</persName> sich mit sampt synem bystannd erclagt, das gedachter <persName ref="per014802">Clouß Pfister</persName> unnd syne brüderen inn irer wißen am
+<placeName ref="loc008718">Gryffen<lb break="no"/>see</placeName>, so glych by syner vischenntzen unnd fachen, so er im <placeName ref="loc008718">Gryffensee</placeName> hette, gelëgen were, einen graben gemacht, dieselbig damitt umbschlagen unnd bißhar beren daryn gesetzt unnd ime die visch vor synen fachen mitt söllichem
+<lb/>unnd annderm züg darinn gefanngen. Unnd diewyl aber syn vischenntzen von synem lieben vatter selligen thür erkoufft, ouch er die selbig von ime ererpt unnd dann der <orgName ref="org000325">Pfistern</orgName> fürnëmmen, damitt sy ime an dem vischfanng ein
+<lb/>großen mercklichen schaden thättinnd, ein nüwerung, so vorhar nie gebrucht, so verhoffte er, das sy des vischenns unnd berensetzens genntzlichen abgewyßt werden solten. Wa inen der graben aber sonnst zu guttem irer
+<lb/>wißen diennen, des möchte er inen wol gonnen.</seg>
+<seg>Daruf <persName ref="per014802">Claus Pfister</persName> sampt synem bystannd für sich selbs unnd innamen syner brüderen antwurten laßen, das er unnd syne brüderen obangetzeigte wißen von irenn
+<lb/>elteren ererpt unnd die selbig von wegen ville des wassers mitt einem graben umbfaren müssen, ouch alwegen zu gepürlichen zythen beren inn den selben graben gesetzt, visch darinn gefanngen unnd inen dasselbig
+nie<lb break="no"/>mant gespert noch gewert. Unnd diewyl dann sölliche gerechtigkeit erblich an sy kommen, ouch ire wißen gen <placeName ref="loc008569">Gryffensee</placeName> unnd nit gen <placeName ref="loc008651">Fellannden</placeName> gehordte, so gethruwten sy, by sollichem alten harkommen zubelyben unnd des
+<persName ref="per014843">Hu<lb break="no"/>ßers</persName> vorderung unnd ansprach ledig erkennt zwerden.</seg>
+<seg>Welliches spanns halb sy einannderen vor unnserm unndervogt unnd gericht zu <placeName ref="loc008569">Gryffensee</placeName> zu rëchtvertigen unnderstannden unnd aber daselbs dannenn
+<lb/>für unns als die recht ordennlich oberhannd zu rechtlichem entscheyd gewyßt. Unnd wann nun wir sy, die parthygen, inn obvermelter irer clag unnd antwurt, so sy mitt den unnd vil mer worten eroffnet, gnugsamlich
+<lb/>gehördt unnd ouch darnebennt verstannden, das die unnßern, <orgName ref="org004896"><persName ref="per014800">Thoman</persName>, ouch <persName ref="per014801">Ulrich</persName>, deßglychen <persName ref="per014799">Claus</persName>, die Ochßnern</orgName>, sodenne <persName ref="per014798">Erhart Meyger</persName> unnd syne brüderen von <placeName ref="loc008651">Fellannden</placeName> glych der selben ennden inn iren wißen am
+<placeName ref="loc008718">Gry<lb break="no"/>fensee</placeName> ouch gräben haben unnd das die <orgName ref="org004896">Ochßnere</orgName> ire besonnders nüwlich gemacht, darinne vischen unnd man sich ab den selbigen ouch erclage, habennt wir zu mererm bericht aller hanndlung etlich von unnserm rath
+<lb/>ußgeschossen unnd verordtnet mitt dem bevelch, das sy hinuß gen <placeName ref="loc008569">Gryfensee</placeName> keeren unnd daselbs aller obgemelter personen gräben besichtigen, ouch derenhalben eigenntliche nachfrag unnd erkonndigunng haben unnd wie
+<lb/>unnd wellichermaßen sy die sachen gestaltet syn befinnden, unns desselben zuverstenndigen, unns volgenntz fürer harinne nach der gepür zehalten wüssind, wellichem unnßerm bevelch sy, unnßere verordtnetenn
+<lb/>mitreth, statt gethan.</seg>
+<seg>Unnd als sy unns demnach aller sachen berichtet unnd wir ouch daruf obvermelte personen jeden besonnders inn synem fürwennden, wellicher gestalt sy vermelte gräben gemacht unnd die an sy
+ko<lb break="no"/>men, sampt iren brieffen unnd kunndtschafften gnugsamlich unnd nach aller nothurfft abermalen verhördt, habennt wir unns jüngst uff ir, der parthygen, gethanen rechtsatz zu recht erkennt unnd gesprochen
+<lb/>namlich:</seg>
+<seg>Diewyl wir inn aller hanndlung befinnden, das der oberist graben, so <persName ref="per014800">Thoman Ochßner</persName> innhat, alwëgen gweßen unnd der <placeName ref="loc008705">Alt Fridgraben</placeName> genempt worden, ouch den weydtganng unnd etliche gütter
+zwü<lb break="no"/>schennt denen von <placeName ref="loc008569">Gryffensee</placeName> unnd <placeName ref="loc008652">Schwertzenbach</placeName> scheydet, deßglychen das der unnderist graben, so <persName ref="per014798">Erhart Meyger</persName> unnd syne brüderen von <placeName ref="loc008651">Fellannden</placeName> besitzen unnd von inen sampt der vischenntzen luth irer
+haben<lb break="no"/>den brieff unnd siglen erkoufft, deßglychen zu jedertzyth der <placeName ref="loc008706">Alt Glattgraben</placeName> genempt unnd deren von <placeName ref="loc008651">Fellannden</placeName> unnd <placeName ref="loc008652">Schwertzenbach</placeName> weydtganng unnd güttere von einanndern sonnderet, zu dem das ouch inn söllich
+<lb/>beiden gräbnen von inen, den innhaberen, bißhar one inred gevischet worden, so sollen sy beydersydts by söllichen iren gräbnen unnd altem harkomen fürer belyben.</seg>
+<seg>Doch alßo unnd mitt sollicher erlütherung, das
+<lb/>sy zu der zyth, das der visch im leych ist, als namlich von <date type="deadline" when="--04-16">mittem apprellen</date> biß zu <date type="deadline" when="--05-31">ußgenndem meygen</date> (ald so der leych früger ald spätter syn wurde, das dann ein jeder unnßer vogt zu <placeName ref="loc000348">Gryffensee</placeName> gwalt haben, ein
+insë<lb break="no"/>chen zethunnd, sollich zill zekürtzeren oder zuverlenngeren unnd inen maß unnd anleytung zegëben, wie sy sich mitt dem vischen halten sollinnd, dem sy ouch als dann statt thun <abbr>etc</abbr>) mitt dheinem züg, wie dasselbig namen
+<lb/>haben möchte, inn söllichen gräbnen gar nitt vischen, sonnder den visch, alle diewyl er im leych unnd brüt ist, ungefanngen unnd rüwig lassen. Aber nach verschynung der selbigen zyth möginnd sy inn dißen beyden
+gräb<lb break="no"/>nen wol vischen, doch ouch mitt dheinem anndern züg, dann wie der vischeinung zu <placeName ref="loc000348">Gryffensee</placeName> dasselbig zulaßt, innhalt unnd vermag.</seg>
+<seg>Unnd was sy ouch als dann für visch fachend unnd nitt inn iren hüßeren selbs
+bru<lb break="no"/>chennd oder etwan einem irem nachpuren ein essen darvon, des sy dann gwalt haben, zekouffen gebent, die sollind sy alhar inn unnßer statt unnd sonnst niennderthin zu merckt tragen noch verkouffen, mitt dem
+<lb/>heytern anhanng, wellicher unnder inen wider das, so obstat, hanndle unnd ungehorsam erschine, der sölle jedes mals, so dick das beschicht, unns <measure type="currency" unit="lb" quantity="10">zechen pfunnd</measure> zu buß verfallen syn unnd von unnßern vögten zu <placeName ref="loc000348">Gryffensee</placeName>
+<lb/>von inen one nachlaß ingetzogen werden.</seg>
+<seg>Deßglychen, das sy ouch inn söllichen beyden gräbnen dem wasser unnd visch den frygen yn- unnd ußganng laßen unnd daran dhein verhinderung thun. Unnd so dann
+<persName ref="per014800">To<lb break="no"/>man Ochßner</persName> synen graben oben am schlund unnd ynganng vom <placeName ref="loc008718">Gryffensee</placeName> umb etwas erwyteret, solle er den selben umb sovil widerumb yntzüchen unnd nitt breyter machen noch haben, dann wie er von alterhar
+<lb/>gwëßen syge.</seg>
+<seg>Sovil unnd aber die anndern <num value="3">dryg</num> gräben, so zwüschennt obvermelten beyden gräbnen gelegen, antrifft, da namlich <orgName ref="org004896"><persName ref="per014801">Ulrich</persName> unnd <persName ref="per014799">Clauß</persName> die Ochßner</orgName> bekanntlich, das sy ire beyd gräben erst by kurtzer
+<lb/>zyth nüwlich unnd <persName ref="per014802">Clauß Pfisters</persName> unnd syner brüderen graben vermog etlicher ingenomner kunndtschafft ouch erst by kurtzen jaren gemacht unnd merentheyls zu dem vischfanng unnd sonnst zu dheinem sonnderen
+<lb/>nutz ald unnderschidigung der gütteren diennent, so söllennt die selben von inen <num value="3">drygen</num> widerumb ingetzogen, ouch verwachßen laßen unnd der selben ennden dheine gräben mer gemacht noch geduldet werden,
+<lb/>sonnder sy, die <orgName ref="org004896">Ochßner</orgName> unnd <orgName ref="org000325">Pfistere</orgName>, ire gütter daselbs innhaben unnd besitzen, wie die vor unnd eemalen dißere gräben alda gweßen, besessen worden sygen. Ouch by der peen unnd straff, der <measure type="currency" unit="lb" quantity="10">zechen pfunnden</measure> buß,
+<lb/>als obstat. Sonnst aber solle <persName ref="per014843">Niclauß Hußer</persName> by syner vischenntzen unnd fachen belyben wie von alterhar, von menngklichem unverhinnderet inn alweg, doch das er ouch mitt dheinem anndern züg darinn vische, dann wie
+<lb/>der vischeinung inhalt unnd ußwyßt.</seg>
+<seg>Alles inchrafft diß brieffs, daran wir des zu urkunndt unnßer statt <placeName ref="loc000065">Zürich</placeName> secret insigel offennlich henncken laßen, <origDate when="1569-12-14">mitwuchs, den viertzechennden tag wolffmonats
+<lb/>nach der gepurt Christi getzallt funnfftzechenhunndert sechtzig unnd nün jarr</origDate>.</seg>
+</p>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><add place="above" hand="other hand"><lb/>Urthelbrieff
+<lb/>zwüschendt</add>
+<lb/><persName ref="per014843">Niclaußen Hußer</persName> zu <placeName ref="loc008651">Fellannden</placeName>
+<add place="below" hand="other hand">und
+<lb/>den <orgName ref="org000325">Pfisteren</orgName> zu <placeName ref="loc008569">Griffensee</placeName>,
+<lb/>anno <origDate when="1569">1569</origDate></add></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Urteilbrieff</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c?"><lb/><placeName ref="loc008718">Greiffensee</placeName></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die Uferzone als Übergang von Land und Wasser war zwischen den Fischern und den Bauern ständig umstritten.
+Bereits 1549 hatten sich die Bürger von <placeName ref="loc008569">Greifensee</placeName> beklagt,
+dass der Fischer <persName ref="per014798">Klein-Erhard Meier</persName> aus <placeName ref="loc008651">Fällanden</placeName>
+mit seinen Fanganlagen ihr Weidegebiet in der <placeName ref="loc010389">Böschen</placeName> verwüste
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=946903">PGA Greifensee I A 11</ref></bibl>;
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=919932">StAZH A 85, Nr. 10</ref></bibl>).
+Umgekehrt beklagte sich 1569 der Fischer <persName ref="per014843">Niklaus Hauser</persName> aus <placeName ref="loc008651">Fällanden</placeName>,
+dass die Bauern aus <placeName ref="loc008569">Greifensee</placeName> ihrerseits Fanganlagen erstellten und damit seinen eigenen Ertrag schmälerten.
+Darüber wurde am 1. September 1569 Kundschaft aufgenommen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=920510">StAZH A 85, Nr. 18</ref></bibl>),
+bevor der Rat am 14. Dezember das vorliegende Urteil fällte und damit bestimmte,
+dass die älteren Gräben bestehen bleiben und zum Fischfang genutzt werden dürfen,
+während die neu erstellten Anlagen zugeschüttet werden mussten.
+</p>
+<p>Erneut zu Streit kam es 1749, weil sich die gewerbemässigen Fischer beklagten,
+dass die Bauern bei Überschwemmungen auf den Feldern Karpfen fingen und dadurch ihre Erträge schmälerten.
+Das Gericht urteilte, dass die Bauern dies weiterhin tun dürfen, sofern sie dafür kein Fischereiwerkzeug verwenden
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_109">SSRQ ZH NF II/3, Nr. 109</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

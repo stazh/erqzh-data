@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_055_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14145">StArZH I.A.618.</idno></msIdentifier><head>Ratsurteil im Konflikt zwischen der Gemeinde Wipkingen und dem Keller des Fraumünsteramts betrefffend die Einzäunung und Nutzung des Gehürsts durch denselben</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich urteilen im Konflikt zwischen der Gemeinde Wipkingen sowie Hans Meyer, dem Keller des Fraumünsteramts, um die Nutzung eines Guts namens Gehürst. Während die Gemeinde Wipkingen das Gehürst als ihr Eigentum ansieht, erklärt Meyer, dass sein Vorgänger, Heinrich Habersaat, vor sechzehn Jahren von den Wipkingern das Recht erlangt habe, dieses Gut jeweils bis zum Verenatag (1. September) zu nutzen. Da Meyer der Kelnhof zu denselben Bedingungen verliehen worden sei, stehe dieses Recht jetzt ihm zu. Unter Verweis auf ein Urteil vom 21. Oktober 1516, wonach die Nutzung jeweils bis zum Verenatag dem Keller, danach aber der Gemeinde Wipkingen zustehe, entscheidet der Rat, dass dieses Urteil gültig sein soll und die Passage im Wipkinger Gemeinderodel, die das Gehürst als ihr Eigentum bezeichnet, gestrichen werden soll. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="25.0"/><width unit="cm" quantity="37.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1532-04-24"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004966">Gemeinde</term><term ref="key003752">Kelnhof</term><term ref="key000012">Offnung</term><term ref="key000237">Tausch</term><term ref="key000683">Urteil</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, <orgName role="issuer" ref="org002406">burgermeyster unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, tuͦnd kund mengklichem mit diserm brieff, das für uns zuͦ recht kommen sind die unsern
+<lb/>von <placeName ref="loc010875">Wypchingen</placeName> eyns, unnd <persName ref="per024576">Hanns Meyger</persName>, der keller daselbs, mit bystand der pflegern unnd deß ammans zum <orgName ref="org004908">Frowen Münster</orgName> alhie <placeName ref="loc000065">Zürich</placeName>,
+<lb/>siner leechen herren, annders theyls, deßwegen, das die gedachten von <placeName ref="loc010875">Wypchingen</placeName> vermeynen wolten, sidtenmal das guͦt unnd die
+<lb/>weyd, so mann nempt das <placeName ref="loc012117">Gehürst</placeName>, inn irem dorffrodel bestimpt unnd vergriffen, ouch ir eygenthuͦmb unnd sy von altem haͤr inn be<lb break="no"/>sitzung
+unnd nutzung gewesen unnd noch werind, solliche weyd mit irem vech, von dem keller daran ungesumpt, zebruchen, zenutzen
+<lb/>unnd zenyeßen, unnd doch gedacher keller sollichs inzuͦzünen, dar inn zebuwen unnd inen an sollichem weydgang und irer gerecht<lb break="no"/>igkeyt
+widerbillichs, ouch wider gedachten iren geschwornnen rodel unnd andere gewarsami, so sy darumb hetten, intrag zethuͦn. Das
+<lb/>er dann von sinem fürnemmen zestan unnd sy an sollicher weyd fürer ungesumpt zelassen, ouch die wyter nit inzuͦzünen noch darinn
+<lb/>zebuwen mit recht gewisen werden soͤlte.</seg>
+<seg>Dargegen aber genanter keller, mit bystand wievor, erzelt, das wylendt sin vorfar
+<lb/><persName ref="per024575">Heyni Habersadt</persName> selig gedacht guͦt unnd weyde, das er die wol inhagen unnd friden, ouch <date dur="R/P1Y">jerlich</date>
+<date type="deadline" when="--09-01">untz zuͦ sant <persName ref="per000474">Frenen</persName> tag</date> nach siner nodt<lb break="no"/>urfft
+buwen, nutzen unnd bruchen moͤchte, den gemelten von <placeName ref="loc010875">Wipchingen</placeName> wol vor <date dur="P16Y">sechstzechen jaren</date> mit recht aberlangt, ouch
+<lb/>sollich guͦt darvor unnd sidhaͤr inn ruͤwiger besitzung, nutzung, gwalt unnd geweer ingehept unnd von denen von <placeName ref="loc010875">Wipchingen</placeName>
+<lb/>unnd sunst menngklichem daran ungesumpt genutzt unnd genossen hette, inn hoffnung, sidtenmal ime der hof mit allen den rechten
+<lb/>unnd zuͦgehoͤrungen, wie gemelter sin vorfaar <persName ref="per024575">Heyni Habersadt</persName> den besessen, gelichen und zuͦgestelt worden, das dann eyn <orgName ref="org007945">gemeyn von
+<lb/><placeName ref="loc010875">Wipchingen</placeName></orgName> in ouch billich by vilgesagtem guͦt, so mann nempt<!-- Nasalstrich ignoriert. PS: OK --> das <placeName ref="loc012117">Gehürst</placeName>, ouch desselben besitzung und nutzung, deßglychen siner
+<lb/>altherbrachter, mit recht erlangter gerechtigkeyt belyben zelassen schuldig sin, ouch mit urteyl billich daran gewisen wurde.</seg>
+<seg>Unnd so
+<lb/>nun wir die parthygen inn wytern iren clegten, anndtwurt, red unnd widerreden, deßglychen den ingelegten brieffen und gewarsa<lb break="no"/>minen
+unnd allem irem fürwand mit wytern wordten, hie alls zemelden überflüßig, gnuͦgsammlich unnd nach aller nodturfft ver<lb break="no"/>hört
+unnd uß deren von <placeName ref="loc010875">Wipchingen</placeName> ingeleytenn urteylbrieff, deß dann wyset <date when="1516-10-21">zinstags, der <orgName ref="org005010">eylfftusent maͤgden</orgName> tag nach Cristi gepurt 
+<lb/>gezelt tusent fünffhundert unnd im sechßzechenden jar</date>, wol verstannden, das vor den selben zyten eyn tusch unnd wechssel zwischen
+<lb/>denen von <placeName ref="loc010875">Wipchingen</placeName> unnd dem besitzer deß hofes daselbs gedachten <placeName ref="loc012117">Gehürsts</placeName> halb beschechen, da die von <placeName ref="loc010875">Wipchingen</placeName> demselben besitzer
+<lb/>das <placeName ref="loc012117">Gehürsth</placeName> tuschswyß zuͦo gestelt unnd sich mit anderem dargegen vernügen lassen, deßhalb domaln zwischen inen und gemeltem
+<lb/><persName ref="per024575">Habersadt</persName> eyn urteyl uff die meynung vor uns ergangen, das die <orgName ref="org007945">gemeynd von <placeName ref="loc010875">Wipchingen</placeName></orgName> alweg nach <date when="--09-01">sant <persName ref="per000474">Frenen</persName> tag</date> mit irem gemey<lb break="no"/>nen
+vech wol in das <placeName ref="loc012117">Gehürst</placeName> faren unnd den weydgang am selben end, wie das von altemhaͤr brucht ist, haben, nutzen und bruchen soͤlle.
+<lb/>Soferr aber <persName ref="per024575">Habersat</persName> sollichs nit erlyden unnd den tusch, wie der von denen von <placeName ref="loc010875">Wipchingen</placeName> beschechen ist, lieber welle laßen nüdt sin, das
+<lb/>er das ouch thuͦn unnd jeder theyl by dem, das vor sollichem tusch sin gewesen, belyben moͤge.<note>Das Urteil ist in den Rats- und Richtbüchern überliefert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4334454">StAZH B VI 246, fol. 101v</ref></bibl>)</note></seg>
+<seg>Da so haben wir uns uff beyder theylen beschech<lb break="no"/>enen
+rechtsatz zuͦ recht erkenth unnd gesprochen, sidtenmaln uß jetzgemelten urteyln unnd brieffen wol zuͦverstan, das das <placeName ref="loc012117">Gehürst</placeName> abgewechß<lb break="no"/>let
+unnd billich inn deren von <placeName ref="loc010875">Wipchingen</placeName> rodel domaln ußgethan worden sin solt, das dann der artikel inn jetzgemeltem rodel das
+<lb/><placeName ref="loc012117">Gehürst</placeName> belangendt, doch dem zinß der <measure type="currency" unit="ß" quantity="30">drissig schilligen</measure> unvergriffen, uß und durch gethan werden unnd die ersternempten brieff und
+<lb/>urteyln, so im <date when="1516">sechßzechenden jare</date> vorernempt zwischen der gemeynd unnd dem <persName ref="per024575">Habersadt</persName> gangen, by crefften unnd beyd parthygenn
+<lb/>by denselben belyben, ouch denen geleben unnd benantlich ye zuͦ zyten eyn keller gemelt guͦt unnd <placeName ref="loc012117">Gehürst</placeName>
+<date dur="R/P1Y">jerlich</date>
+<date type="deadline" when="--09-01">untz sant <persName ref="per000474">Frenen</persName>
+<lb/>tag</date> wol inzünen, schirmen unnd nach siner nodturfft unnd gefallen buwen, nutzen und bruchen, daran im die gemeynd untz zurselben
+<lb/>zyt keynen intrag thuͦn. So erst aber <date when="--09-01">sant <persName ref="per000474">Frenen</persName> tag</date> herüber unnd verschinen ist, alßdenn die gemeynd dasselb <placeName ref="loc012117">Gehürst</placeName> unnd den weyd<lb break="no"/>gang,
+wie obstat unnd obgeseyte urteyl zuͦgipt, bruchen unnd nutzen unnd ir gemeyn vech darinn weyden söllen unnd mögen, als das von 
+<lb/>altem harkommen unnd brucht ist, von dem keller, so ye zuͦ zyten da wonen unnd den hof innhaben wirdt, gantz ungesumpt und inn alweg
+<lb/>unverhynndert.</seg>
+<seg>Inn crafft diß briefs, der gemeltem keller uff sin beger mit unnser statt angehengktem secret insigel verwaret und geben
+<lb/>ist deß <origDate when="1532-04-24">nechsten mitwuchs nach dem sontag jubilate nach ostern, nach Cristi gepurt gezelt tusent fünffhundert und darnach im
+<lb/>zweyunddrissegesten jare</origDate>.</seg>
+</p>
+<pb n="v"/>
+</div>
+</body>
+<back>
+<div>
+<p>Es ist nicht klar, auf welchen Gemeinderodel sich die Klage der <orgName ref="org007945">Gemeinde <placeName ref="loc010875">Wipkingen</placeName></orgName> stützt. Die Offnung von ca. 1481 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_036">SSRQ ZH NF II/11, Nr. 36</ref></bibl>),
+die um die Reformationszeit erneuert wurde (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=283419">StArZH III.B.37., fol. 17r-19r</ref></bibl>), enthält keine entsprechende Bestimmung. Ohnehin enthalten die Offnungen von 
+<placeName ref="loc010875">Wipkingen</placeName> keine Regelungen zum Weidgang; diese Themen scheinen an anderer Stelle geregelt worden zu sein (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_050">SSRQ ZH NF II/11, Nr. 50</ref></bibl>). 
+Das Urteil vom 21. Oktober 1516 findet sich in den Rats- und Richtbüchern (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4334454">StAZH B VI 246, fol. 101v</ref></bibl>), nähere Angaben zum Tausch zwischen <placeName ref="loc010875">Wipkingen</placeName> und <persName ref="per024575">Habersaat</persName> oder die erwähnte Urkunde von 1516 sind hingegen nicht überliefert.</p>
+<p>Die Gemeinde <placeName ref="loc010875">Wipkingen</placeName> akzeptierte die Niederlage gegen den Keller um die Nutzung des <placeName ref="loc012117">Gehürsts</placeName> nicht und appellierte am 6. August 1532 an den <orgName ref="org002406">Rat</orgName>, wurde aber abgewiesen (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14148">StArZH I.A.620</ref></bibl>). 
+Am 8. Mai 1533 rekurrierte <placeName ref="loc010875">Wipkingen</placeName> abermals gegen das Urteil des <orgName ref="org004016">Rates</orgName>, wurde aber ein zweites Mal abgewiesen und vom <orgName ref="org002406">Rat</orgName> zum Gehorsam ermahnt (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=14154">StArZH I.A.625</ref></bibl>). 
+Endgültig beigelegt wurde der Streit erst im August 1536 oder 1537, als die Gemeinde <placeName ref="loc010875">Wipkingen</placeName> auf alle Weiderechte im <placeName ref="loc012117">Gehürst</placeName> verzichtete und im Tausch dafür von den Pflegern des <orgName ref="org004934">Fraumünsteramts</orgName> 
+4 Jucharten Acker bei der Allmend und ½ Mannmad Heuwachs im <placeName ref="loc012681">Letten</placeName> erhielt. Allerdings ist das Exemplar des <orgName ref="org004934">Fraumünsteramts</orgName> auf Montag nach Bartholomäus 1537 datiert 
+(<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=14178">StArZH I.A.647</ref></bibl>), während laut der ansonsten gleichlautenden Ausfertigung für die Gemeinde dieser Tausch schon am selben Tag des vorangehenden Jahres 
+stattfand (<bibl><ref target="https://amsquery.stadt-zuerich.ch/detail.aspx?id=25625">StArZH VI.WP.A.1.:7</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

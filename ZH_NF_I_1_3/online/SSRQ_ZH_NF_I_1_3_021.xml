@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_021</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3743759">StAZH B II 10, S. 14</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Einsetzung zweier Pfleger für das Kloster Oetenbach</head><msContents><summary>Bürgermeister Heinrich Röist und beide Räte der Stadt Zürich beschliessen die Einsetzung zweier ständiger Pfleger für das Frauenkloster Oetenbach. Diese sind zur Prüfung der Jahresrechnungen des Klosters verpflichtet. Den Klosterschwestern soll es in Zukunft nicht mehr erlaubt sein, ohne Zustimmung der beiden Pfleger Rechnung abzulegen oder in weltlichen Angelegenheiten irgendwelche Geschäfte zu tätigen. Zu Pflegern ernannt werden Hans Waldmann und Felix Keller der Ältere. Darüber hinaus sollen die Klosterschwestern ermahnt werden, das ständige Schicken von Dingen an die Dominikanermönche sowie allen unziemlichen Lebenswandel zu vermeiden. Die Dominikaner ihrerseits sollen angewiesen werden, ihre Besuche im Frauenkloster einzuschränken. Dazu verordnet werden Bürgermeister Heinrich Röist, Meister Johannes Reuchlin und Meister Ulrich Widmer.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Ludwig Ammann, Stadtschreiber von Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="11.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1486-08-21"/></origin></history><additional><listBibl><head>Edition</head><bibl>Gagliardi, Waldmann, Bd. 1, S. 286-287</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004009">Kirchengut</term><term ref="key000010">Kloster</term><term ref="key003732">Orden</term><term ref="key000574">Rechnungswesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="14"/>
+<p><lb/>Uff <origDate when="1486-08-21">mentag vor <persName ref="per000861">Bartho<lb break="no"/>lomei</persName></origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice> her burger<lb break="no"/>meister 
+<persName ref="per001546">Roeist</persName><!-- Heinrich Röist, Ratslisten: S. 227-240 --> und <orgName ref="org004016">beyd raͤt</orgName></p>
+<p><lb/>Es haben sich <orgName ref="org004016">beyd raͤtt</orgName> erkennt, das 
+<lb/>die frowen an <orgName ref="org002666">Oͤttembach</orgName> fu̍rerhin
+<lb/>zwen pflaͤger haben, die by <sic>irrnn</sic>
+<lb/>rechnungen <date dur="R/P1Y">jerlich</date> sitzen und die
+<lb/>frowen aͧn sy kein rechnung tuͦn, 
+<lb/>noch in welltlichen sachen, was 
+<lb/>irs <orgName ref="org002666">gotshus</orgName> sachen und geschefft
+<lb/>beruͤrt, u̍tzit fu̍rnemen noch
+<lb/>hanndellnn soͤllen, aͧn der selben 
+<lb/>pflaͤger raͧt, wu̍ssen und willen.
+<lb/>Und das sölichs unablaͤsslich 
+<lb/>bliben und bestaͧn sol und 
+<lb/>sind daͧruff zuͦ pflaͤgern ge<lb break="no"/>ordnet:</p>
+<p>
+<lb/>her burgermeister <persName ref="per000814">Waldman</persName>,
+<lb/><persName ref="per000814">Felix Keller der ellter</persName><!-- Ratslisten: S. 221-246; S. 255-269 -->
+</p>
+<p>
+<lb/>Und sol mit den frowen an <orgName ref="org002666">Oͤttenbach</orgName>
+<lb/>geredt werden, dem also naͧch zuͦ 
+<lb/>kommen, darzuͦ das schicken, so 
+<lb/>sy u̍ber <time period="byDay">tag</time> den <orgName ref="org004925">bredygern</orgName> in
+<lb/>haͤffnen und suß tuͦnd und allen
+<lb/>unzimlichen hanndel und wandel 
+<lb/>miden. Desglich sol mit den 
+<lb/><orgName ref="org004925">bredygern</orgName> ouch geredt werden,
+<lb/>das geloͧuff und u̍berfaren
+<lb/>an <orgName ref="org002666">Oͤttembach</orgName> zuͦ miden. Zuͦ
+<lb/>soͤlichem sind geordnet:</p>
+<p><lb/>herr burgermeister <persName ref="per001546">Roeist</persName>,
+<lb/>meister <persName ref="per015396">Roeichli</persName><!-- Johanns Röuchli, Ratslisten: S. 213-247 -->,
+<lb/>meister <persName ref="per013819">Widmer</persName><!-- Ulrich Widmer, Ratslisten: S. 204-246 --></p>
+</div>
+</body>
+<back>
+<div>
+<p>Erstmals ist die Einsetzung städtischer Pfleger für das <orgName ref="org002666">Dominikanerinnenkloster Oetenbach</orgName> im Jahr 1372 belegt (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, S. 235, Nr. 26</bibl>). Bis zum Erlass der vorliegenden Ordnung sind keine weiteren Namen von Pflegern überliefert.</p>
+<p>Die vorliegende Ordnung illustriert eine allgemeine Tendenz, wonach der <orgName ref="org002406">Zürcher Rat</orgName> während des letzten Viertels des 15. Jahrhunderts seinen Einfluss auf die Wirtschaftsführung der Klöster innerhalb der Stadt sowie im <placeName ref="loc000066">Zürcher</placeName> Herrschaftsgebiet zu intensivieren begann. Dabei ist hervorzuheben, dass in diesem Fall die Einsetzung von Pflegern nicht nur temporär, sondern ausdrücklich unbefristet war. Auch weitere Klöster wurden in diesem Zeitraum unter die Aufsicht von Pflegern gestellt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4231135">StAZH B II 16, S. 88</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4231161">StAZH B II 16, S. 90</ref></bibl>). In den Urkunden über Käufe und Verkäufe sowie den Lehensbriefen des <orgName ref="org002666">Klosters Oetenbach</orgName> treten in dieser Zeit jedoch weiterhin alleinig die Priorin und der Klosterschaffner als aktiv Handelnde auf, während sich die Pfleger auf ihre Aufsichtsfunktion beschränkt zu haben scheinen (<bibl><ref target="/startseite/literaturverzeichnis">Halter 1956</ref>, S. 94</bibl>).</p>
+<p> Neben wirtschaftlichen Belangen rückte auch die Lebensführung der Geistlichkeit in den Bereich der obrigkeitlichen Regulierungsbemühungen. Hinsichtlich des Kontakts mit den Dominikanern ist anzumerken, dass diese zur Anwesenheit im <orgName ref="org002666">Kloster Oetenbach</orgName> legitimiert waren, da eine Bulle von Papst <persName ref="per012251">Innozenz IV.</persName> sie zu täglicher Seelsorge und Visitation der Schwestern verpflichtete (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 623</bibl>).</p>
+<p>Eine vergleichbare Ordnung, welche die Lebensführung der Chorherren im <orgName ref="org004352">Grossmünster</orgName> zu regulieren suchte, war kurz vor der vorliegenden Aufzeichnung erlassen worden (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_020">SSRQ ZH NF I/1/3, Nr. 20</ref></bibl>). Im Zuge der Reformation erliess der <orgName ref="org002406">Rat</orgName> weitere Bestimmungen das <orgName ref="org002666">Kloster Oetenbach</orgName> betreffend, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3743760">StAZH B VI 247, fol. 279v-280r</ref></bibl>.</p>
+<p>Für die Bedeutung der städtischen Pfleger für das <orgName ref="org002666">Kloster Oetenbach</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Halter 1956</ref>, S. 83-96</bibl>; für das Verhältnis zum <orgName ref="org004925">Predigerkloster</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wehrli-Johns 1980</ref>, S. 94-99</bibl>; allgemein zur städtischen Kirchenpolitik im späten 15. Jahrhundert vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dörner 1996</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bless-Grabher 1995</ref>, S. 456-458</bibl>.
+
+
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+     Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
+     Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Sandra Reisinger</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-04-01"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_11_081</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3578910">StAZH III AAb 1.14, Nr. 87</idno></msIdentifier><head>Verordnung der Stadt Zürich betreffend Masse und Gewichte des Mehls (Abgabe der Mehlprobe)</head><msContents><summary>Mit der obrigkeitlichen Mehlprobe werden verbindliche Hohlmasse und Gewichtsangaben von drei verschiedenen Qualitätssorten des entspelzten Dinkels (Kernen) sowie der Kleie (Krüsch) festgelegt. Dabei werden nicht nur die Zürcher Masse, sondern auch die Winterthurer Masse aufgeführt. Diese Angaben beinhalten bereits den Abzug des Mahllohns sowie des Sackpreises. Bei der mittleren Qualität gelten die Angaben ausserdem gemäss der obrigkeitlichen Veranschlagung des Mehlpreises (Mehlschlag).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1778-11-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000350">Getreide</term><term ref="key000687">Gewerbe</term><term ref="key000252">Mass und Gewicht</term><term ref="key000047">Mühlen</term><term ref="key000882">Nahrungsmittel</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_III_AAb_1_14__Nr__87__r_.tif"/>
+<p><figure type="copper engraving"/></p>
+<head type="title"><lb/>Maͤhl-Prob</head>
+<head type="subtitle"><lb/>Mit <origDate when="1778-11-11"><persName ref="per000141">Martini</persName> Anno 1778</origDate></head>
+<div><p>
+<lb/><measure type="volume" unit="Mütt" commodity="spelt" quantity="1" origin="ZH">1 Muͤtt des allerbesten dießjaͤhrigen Kernens</measure>, so <measure type="weight" unit="Pfund" quantity="111" origin="ZH" commodity="spelt">hundert und eilf
+ <lb/>Pfund</measure> netto gewogen, giebt an Zuͤricher-Gewicht und Maͤß,
+ <lb/>nach Abzug des Muͤlle-Lohns und des Sacks,</p>
+<p><lb/>An Maͤhl <measureGrp><measure type="volume" unit="Mütt" quantity="1" commodity="flour" origin="ZH">ein Muͤtt</measure>, <measure type="volume" unit="Viertel" commodity="flour" quantity="1" origin="ZH">ein Viertel</measure>, <measure type="volume" unit="Vierling" commodity="flour" quantity="3" origin="ZH">drey Vierling</measure> und <measure type="volume" unit="Mässli" commodity="flour" quantity="2" origin="ZH">zwey
+ <lb/>Maͤßli</measure></measureGrp>, wigt <measureGrp><measure type="weight" unit="Pfund" quantity="94" commodity="flour" origin="ZH">vier und neunzig Pfund</measure>, <measure type="weight" unit="Vierling" quantity="3.5" origin="ZH" commodity="flour">drey und ein halben <choice><abbr>Vrlg</abbr><expan>Vierling</expan></choice></measure></measureGrp>.</p>
+<p><lb/>An Kruͤsch <measure type="volume" unit="Vierling" origin="ZH" quantity="3.5" commodity="bran">drey und ein halben Vierling</measure> aufgehaͤufet, wigt
+ <lb/><measure type="weight" unit="Pfund" quantity="9" origin="ZH" commodity="bran">9 Pfund</measure>.</p>
+<p><lb/>Nach dem Winterthurer-Maͤß wigt das Maͤhl <measure type="weight" unit="Pfund" origin="Winterthur" quantity="107.5" commodity="flour">hundert sieben und ein
+ <lb/>halb Pfund</measure>, und das Kruͤsch <measure type="weight" unit="Pfund" quantity="10.5" origin="Winterthur" commodity="bran">zehen und ein halb Pfund</measure>.</p></div>
+<div><p>
+<lb/><measure type="volume" unit="Mütt" origin="ZH" quantity="1" commodity="spelt">1 Muͤtt des mittelmaͤßigen Kernens</measure>, so <measure type="weight" unit="Pfund" origin="ZH" quantity="108" commodity="spelt">hundert und acht Pfund</measure> ge<lb break="no"/>wogen,
+ giebt</p>
+<p><lb/>An Maͤhl <measureGrp><measure type="volume" unit="Mütt" origin="ZH" commodity="flour" quantity="1">ein Muͤtt</measure>, <measure type="volume" unit="Viertel" origin="ZH" commodity="flour" quantity="2">zwey Viertel</measure></measureGrp>, wigt <measure type="weight" unit="Pfund" origin="ZH" quantity="89.75" commodity="flour">neun und achtzig und
+ <lb/>drey Quart Pfund</measure>.</p>
+<p><lb/>An Kruͤsch <measureGrp><measure type="volume" unit="Vierling" commodity="bran" origin="ZH" quantity="3">drey Vierling</measure>, <measure type="volume" unit="Mässli" origin="ZH" quantity="3" commodity="bran">drey Maͤßli</measure></measureGrp>, wigt <measure type="weight" unit="Pfund" origin="ZH" quantity="10" commodity="bran">zehen Pfund</measure>.</p>
+<p><lb/>Nach dem Winterthurer-Maͤß wigt das Maͤhl <measure type="weight" unit="Pfund" origin="Winterthur" quantity="101.75" commodity="flour">hundert und ein
+ <lb/>und drey Quart Pfund</measure>, und das Kruͤsch <measure type="weight" unit="Pfund" commodity="bran" origin="Winterthur" quantity="10.5">zehen und ein halb <choice><abbr>Pf</abbr><expan>Pfund</expan></choice></measure>.</p>
+<p><lb/><choice><abbr>NB</abbr><expan>Nota Bene</expan></choice> Es sollen also <measure type="weight" unit="Pfund" quantity="89.75" origin="ZH">neun und achtzig und drey Quart Pfund</measure> am
+  <lb/>Gewicht, und <measureGrp><measure type="volume" unit="Mütt" quantity="1" origin="ZH">ein Muͤtt</measure>, <measure type="volume" unit="Viertel" quantity="2" origin="ZH">zwey Viertel</measure></measureGrp> am Maͤß, nebst <measureGrp><measure type="volume" unit="Vierling" quantity="3" commodity="bran" origin="ZH">drey
+   <lb/>Vierling</measure>
+<measure type="volume" unit="Mässli" quantity="3" commodity="bran" origin="ZH">drey Maͤßli Kruͤsch</measure></measureGrp>, am Gewicht <measure type="weight" unit="Pfund" quantity="10" commodity="bran" origin="ZH">zehen Pfund</measure>, allen
+ <lb/>denjenigen gegeben werden, die das Maͤhl nach dem Maͤhlschlag
+ <lb/>bezahlen.
+</p></div>
+<div><p>
+<lb/><measure type="volume" unit="Mütt" quantity="1" commodity="spelt" origin="ZH">1 Muͤtt des allergeringsten Kernens</measure>, so <measure type="weight" unit="Pfund" origin="ZH" quantity="104.5" commodity="spelt">hundert vier und ein halb
+ <lb/>Pfund</measure> netto gewogen, giebt</p>
+<p><lb/>An Maͤhl <measureGrp><measure type="volume" unit="Mütt" commodity="flour" origin="ZH" quantity="1">ein Muͤtt</measure>, <measure type="volume" unit="Viertel" origin="ZH" commodity="flour" quantity="1">ein Viertel</measure>, <measure type="volume" unit="Vierling" origin="ZH" commodity="flour" quantity="3">drey Vierling</measure>, <measure type="volume" unit="Mässli" commodity="flour" origin="ZH" quantity="2.5">zwey und ein
+ <lb/>halb Maͤßli</measure></measureGrp>, wigt <measureGrp><measure type="weight" unit="Pfund" origin="ZH" quantity="86" commodity="flour">sechs und achtzig Pfund</measure> und <measure type="weight" unit="Vierling" origin="ZH" quantity="0.5" commodity="flour">ein halben <choice><abbr>Vrlg</abbr><expan>Vierling</expan></choice></measure></measureGrp>.</p>
+<p><lb/>An Kruͤsch <measure type="volume" unit="Viertel" origin="ZH" commodity="bran" quantity="1">ein Viertel</measure>, wigt <measure type="weight" unit="Pfund" origin="ZH" quantity="9.75" commodity="bran">neun und drey Quart Pfund</measure>.</p>
+<p><lb/>Nach dem Winterthurer-Maͤß wigt das Maͤhl <measure type="weight" unit="Pfund" origin="Winterthur" commodity="flour" quantity="98.75">acht und neunzig
+ <lb/>und drey Quart Pfund</measure>, und das Kruͤsch <measure type="weight" unit="Pfund" origin="Winterthur" commodity="bran" quantity="10.375">zehen und drey ach<lb break="no"/>tels
+ Pfund</measure>.
+</p></div>
+<p><lb/><orgName ref="org005015">Canzley <placeName ref="loc000065">Zuͤrich</placeName></orgName>.</p>
+<pb n="v" facs="StAZH_III_AAb_1_14__Nr__87__v_.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc000065">Zürich</placeName> wurde Getreide bis zum 19. Jahrhundert anhand seines Volumens gemessen. Zum Schutze der Konsumenten und zur Verhinderung des Betruges durch die Müller verordnete die Obrigkeit regelmässig Probemahlgänge. Diese sogenannten Mehlproben werden bereits in der Müllerordnung von 1530 erwähnt (Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 266</bibl>). Dabei kauften Amtleute je ein Mütt vom entspelzten Dinkel (Kernen) mit unterschiedlichen Qualitäten, um es zu mahlen und das Volumen des hergestellten Mehls und der Kleie (Krüsch) zu ermitteln. Zudem wurden im 18. Jahrhundert in den Mehlproben häufig auch Gewichtsangaben für das Mehl gemacht, was mit den obrigkeitlichen Bemühungen zur Einführung von Waagen als Messinstrumente für Mehl zusammenhing (vgl. Ordnung betreffend Brotverkauf auf der Landschaft von 1774: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_075">SSRQ ZH NF I/1/11, Nr. 75</ref></bibl>). Um repräsentative Werte zu erhalten, wurden die Mehlproben in unterschiedlichen Mühlen der Stadt <placeName ref="loc000065">Zürich</placeName> durchgeführt. Die Ergiebigkeit des Getreides hing dabei nicht nur von der Getreidequalität, sondern auch von dessen Feuchtigkeit, der Luftfeuchtigkeit, der Temperatur, dem Wasserstand auf dem Mühlrad sowie der Schärfe der Mühlesteine ab (<bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Klaassen 1996</ref>, S. 27-49</bibl>).</p>
+<p>Gedruckte Exemplare der obrigkeitlichen Mehlproben sind seit dem 17. Jahrhundert überliefert, wobei die erste gedruckte Mehlprobe von 1610 stammt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928908">StAZH III AAb 1.2, Nr. 6</ref></bibl>). Der Grossteil der gedruckten Mehlproben ist jedoch aus der zweiten Hälfte des 18. Jahrhunderts, beispielsweise von 1758 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3565646">StAZH III AAb 1.12, Nr. 11</ref></bibl>), 1762 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3565671">StAZH III AAb 1.12, Nr. 36</ref></bibl>), 1770 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3576846">StAZH III AAb 1.13, Nr. 81</ref></bibl>) und 1787 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579395">StAZH III AAb 1.15, Nr. 48</ref></bibl>). Zwischen 1758 und 1797 sind in der Mandatsammlung des <orgName ref="org005141">Staatsarchivs Zürich</orgName> 45 gedruckte Exemplare überliefert. Mehlproben wurden gemäss Müllerordnung von 1774 jeweils zwei Mal jährlich, im Mai und am 11. November (Martini) durchgeführt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293173">StAZH III AAb 1.14, Nr. 39</ref></bibl>). Überliefert sind aber auch andere Daten, an denen die Mehlproben stattfanden. Laut Saskia Klaassen lässt sich eine regelmässige Durchführung von Mehlproben nur für das 18. Jahrhundert belegen (<bibl><ref target="/startseite/literaturverzeichnis">Klaassen 1996</ref>, S. 49</bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

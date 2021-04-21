@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_082_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1916654">StAZH B III 6, fol. 20v-21r</idno></msIdentifier><head>Regelung der Aufforderung des Ratsschreibers der Stadt Zürich zur Eidleistung gegenüber Bürgermeister und Rat</head><msContents><summary>Der Ratsschreiber soll nach der Wahl von Bürgermeister und Rat noch am selben Tag, eine Stunde nach dem Mittag, einen Umritt in der Stadt tätigen, an den folgenden Orten innehalten und alle männlichen Mitglieder der Bürgerschaft über 16 Jahren für den darauffolgenden Tag zur Eidleistung im Grossmünster auffordern: in der rechtsufrigen Stadt vor dem Haus zum Elsässer im Niederdorf, am Neumarkt, vor der Trinkstube der Schiffleute Auf Dorf; in der linksufrigen Stadt auf dem Münsterhof beim Fraumünster, vor dem Kornhaus und vor dem Haus zum Widder am Rennweg. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000133">Bürgermeister</term><term ref="key000179">Eid</term><term ref="key000364">Rat</term><term ref="key000051">Schreiber</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="20v" facs="StAZH_B_III_6__fol__20_v_.tif"/>
+<head><lb/>Wie der ratschryber sol ru̍ffen und verku̍nden, 
+<lb/>einem <orgName ref="org002406">burgermeister und rat</orgName> zeschwerren</head>
+<p><lb/>Unnd so man allweg also lut unnsers geschwornen briefs<note>Vgl. dazu die Geschworenen Briefe der Jahre 1489 und 1498
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>; 
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_058">SSRQ ZH NF I/1/3, Nr. 58</ref></bibl>).</note> und 
+<lb/>bestimpts eids, einen <orgName ref="org002406">bu̍rgermeister unnd rat</orgName> hat erwelt
+<lb/>unnd erkoßen, so sol unnser ratschriber desselben tag ungevar<lb break="no"/>lich
+umb die <time when="13:00:00">erst stund nach mittag</time> in unnser statt <placeName ref="loc000065">Zu̍rich</placeName>
+<lb/>harumb ryten unnd an disen bletzen unnd enden still halten,
+<lb/>namlich vor dem <placeName ref="loc010421">Elsesser</placeName> in <placeName ref="loc009854">Niderndorff</placeName> und zuͦ <placeName ref="loc010561">Nuwmerckt</placeName>
+<pb n="21r" facs="StAZH_B_III_6__fol__21_r_.tif
+"/>
+<lb/>an beiden enden uff dem bach, <placeName ref="loc008762">Uff Dorff</placeName> bi der <placeName ref="loc010455"><orgName ref="org005079">Schiflu̍ten</orgName> Stuben</placeName>,
+<lb/>bi dem <placeName ref="loc000090">Frowen Mu̍nster</placeName> am <placeName ref="loc010559">Hof</placeName> in der <placeName ref="loc010737">Cleinen Statt</placeName>, in dem <placeName ref="loc010597">Korn<lb break="no"/>
+huß</placeName> unnd am <placeName ref="loc010643">Rennweg</placeName> bi dem <placeName ref="loc010482">Wider</placeName> ru̍ffen unnd verku̍nden,
+<lb/><app><lem>das man morndes zuͦ dem <placeName ref="loc007562">Mu̍nster</placeName> zur <orgName ref="org004352">brobsty</orgName> kom unnd 
+<lb/>einem <orgName ref="org002406">bu̍rgermeister unnd rat</orgName> schwerre</lem><rdg wit="StAZH B III 5, fol. 30r">also</rdg></app>.</p>
+<p><lb/><q>Hert, hert, min her, der vogt, min her, der bu̍rgermeister, min heren 
+<lb/>die <orgName ref="org004016">rët</orgName>, min herren, die <orgName ref="org005086">zunftmeister</orgName>, unnd min herren, die <orgName ref="org004906">bu̍rger</orgName>,
+<lb/>der <orgName ref="org004906">groß rat, so man nempt die zweyhundert der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, ver<lb break="no"/>ku̍ndent
+unnd gebiettend allen iren bu̍rgern, mans personen,
+<lb/>die <app><lem><subst><del><date dur="P14Y">vierzehen</date></del><add place="left margin" type="sign"><date dur="P16Y">xvj</date></add></subst></lem><rdg wit="StAZH B III 5, fol. 30r"><date dur="P16Y">sechszechen</date></rdg></app> jar alt unnd elter sind, das sy morn kumint zum 
+<lb/><placeName ref="loc000065">Grossen Mu̍nster</placeName>, so man verlu̍t, unnd da einem <orgName ref="org004352">bu̍rgermeister 
+<lb/>unnd rat</orgName> schwerint. Und wer das nit tuͦt, beschicht im u̍dt, man 
+<lb/>richt im nu̍dt, tuͦt er aber etwern <app><lem/><rdg wit="StAZH B III 5, fol. 30r">etwas</rdg></app>, man richt im zum hertisten.</q></p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Ordnung lässt sich dem Schreiber des zwischen 1515 und 1518 erstellten Satzungsbuches der Stadt <placeName ref="loc000065">Zürich</placeName> zuordnen, woraus sich ihre Datierung ergibt. Der Umritt des Ratsschreibers fand zwei Mal jährlich im Juni und im Dezember im Zusammenhang mit den Eidleistungen gegenüber dem erneuerten Regiment statt (zum Schwörtag selbst vgl. die Beschreibung von dessen Ablauf, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>). Die Einberufung der Bürger durch den Ratsschreiber wird auch im Bericht des <persName ref="per014238">Hans Asper</persName> über die mit seinem Amt verbundenen Aufgaben beschrieben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_104">SSRQ ZH NF I/1/3, Nr. 104</ref></bibl>). Ihm zufolge wurde der Ratsschreiber bei seinem Umritt durch die Stadt von Kindern begleitet, die er im Juni mit Kirschen und im Dezember mit Nüssen entlöhnte.</p>
+<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 20-21</bibl>; für den Eid der <orgName ref="org001187">Bürgergemeinde</orgName> vgl.
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

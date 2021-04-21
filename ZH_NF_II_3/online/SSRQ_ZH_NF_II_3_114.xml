@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_114</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4304072">StAZH B VII 14.20, S. 41</idno></msIdentifier><head>Aufruf zur Wachsamkeit gegenüber aufrührerischen Tendenzen</head><msContents><summary>Auf Befehl des Zürcher Rats trägt Landvogt Andreas Schmid allen Amtsträgern auf, wachsam zu sein gegenüber den auf der Landschaft zirkulierenden aufrührerischen, verleumderischen Druckschriften und sämtliche Personen, die zu deren Verbreitung beitragen, festzunehmen und zu bestrafen. Dieser Befehl wird mit dem Amtsboten an alle Untervögte versendet.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Kanzlei Greifensee</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1798-01-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005373">Druckschriften</term><term ref="key005471">Revolution</term><term ref="key000668">Unruhen</term><term ref="key005374">Zensur</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="41"/>
+<p><lb/>In folge ergangener hohen raths erkantnus wird von <choice><abbr>tit</abbr><expan>titulo</expan></choice> junker landvogt
+<lb/><persName ref="per010908">Schmidt</persName> zu <placeName ref="loc000348">Greifensee</placeName> allen unterbeamteten anbefohlen, ein möglichst genaues
+<lb/>augenmerk auf mancherley auf hiesiger landschafft herumgehende,
+aufrüeh<lb break="no"/>rerische und verlaümderische drukschrifften zurichten und die bekant
+werden<lb break="no"/>den verbreiter derselben gefänglich anzuhalten und zu verdienter
+<lb/>straaffe einzuliefern.
+</p>
+<p><lb/>Geben den <origDate when="1798-01-18">18. jenner 1798</origDate></p>
+<p><lb/><orgName ref="org004910">Canzley <placeName ref="loc008569">Greifensee</placeName></orgName>
+</p>
+<p><lb/>Durch den amts botten an alle untervögte
+<lb/>versandt.
+</p></div>
+</body>
+<back>
+<div>
+<p>Im Gefolge der <placeName ref="loc000281">Französischen</placeName> Revolution wurden die Ideen von Freiheit und Gleichheit mittels Druckschriften
+auch auf dem Gebiet der <placeName ref="loc001012">Schweiz</placeName> verbreitet und die herrschenden Zustände teils vehement kritisiert
+(<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/017216">Französische Revolution</ref></bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/017217">Helvetische Revolution</ref></bibl>).
+Der vorliegende Aufruf zur Wachsamkeit gegenüber solchen Schriften vom Januar 1798 ist einer der letzten Einträge im Missivenbuch des Landvogts,
+bevor das Ancien Régime in den darauf folgenden Wochen zusammenbrach.
+In das gleiche Buch wurden ab März 1798 die Protokolle der Gemeindeversammlung eingetragen,
+an denen die nunmehr souveränen Bürger ihre Vertreter und Beamten selber wählen konnten
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_115">SSRQ ZH NF II/3, Nr. 115</ref> und
+<ref target="/suche/detail/SSRQ_ZH_NF_II_3_116">Nr. 116</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

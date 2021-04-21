@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_012</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1399815">StAZH B II 3, fol. 33r</idno></msIdentifier><head>Entscheid über die Nachfolge des im Amt verstorbenen Vogts von Greifensee</head><msContents><summary>Bürgermeister und Rat der Stadt Zürich entscheiden nach dem Tod ihres Vogts Rudolf Bitziner, dass dessen Bruder Johannes Bitziner die Herrschaft Greifensee für den Rest der Amtsperiode verwalten soll. Wie sein Bruder soll er die Burg hüten, Zinsen und Gülten sowie sämtliche Bussen gewissenhaft an den Rat abliefern und ohne Wissen und Willen des Rats mit niemandem über Bussen verhandeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1416-03-21"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 2/1, S. 51-52, Nr. 76</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005361">Amtsübergabe</term><term ref="key000184">Bussen</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="33r"/>
+<head>
+<lb/><persName ref="per013298">Bitziner</persName>
+</head>
+<p><seg><lb/>Als uff dis zit <persName ref="per013298">Ruͦdolff Bitziner</persName>, unser vogt ze <placeName ref="loc000348">Griffense</placeName>, von
+<lb/>todes wegen abgangen ist, da hand wir, der <orgName ref="org002406">burgermeister, die
+<lb/>raͤt, die zunftmeister und der groß raͧt, den man nemmet die zweihundert,</orgName>
+<lb/><del>da ha</del> die selben vesti enpfolhen <persName ref="per013297">Johannsen Bitziner</persName>, ûnserm burger,
+<lb/><del>und hat ouch der selb <persName ref="per013297">Johanns Bitz</persName></del> dis gegenwûrtig jar ûs,
+<lb/>won der <choice><abbr>egen</abbr><expan>egenant</expan></choice> sin bruͦder selig von <date from="1415-12-06" to="1416-03-21">sant <persName ref="per001536">Niclaus</persName> tag untz uff dis
+<lb/>zit</date> dz hus inne gehept und in dis jâr als verr gedienet
+<lb/>hât, und also so hât ouch der selb <persName ref="per013297">Johanns Bitziner</persName> vor ûns, dem
+<lb/><orgName ref="org002406">burgermeister und den raͤten</orgName>, gesworn ze den heiligen, dz hus ze
+<lb/>vergoͧment und sin bestes und wegstes ze tuͦn und des huses zins
+<lb/>und gûlt in aller wise und mâsse, als ouch sin bruͦder selig des
+<lb/>gebunden was, her in ûns ze antwûrten, und darzuͦ was
+<lb/>buͦssen bisher da gefallen sind, die noch uss stand, und die
+<lb/>buͦssen, so noch da fallent, einem raͧt fûr ze bringen und ze leiden
+<lb/>und mit nieman umb kein buͦss ze taͤdingen aͧn ûnser, des <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+<lb/>rates, wissen und willen. </seg>
+<seg><foreign xml:lang="la">Actum <origDate when="1416-03-21">sabbato ante oculi anno cccc<hi rend="sup">o</hi> xvj<hi rend="sup">o</hi></origDate>.</foreign></seg></p>
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per013298">Rudolf Bitziner</persName> amtierte von 1411 bis zu seinem Tod 1416 als Vogt in <placeName ref="loc000348">Greifensee</placeName>
+(<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 216</bibl>). Wegen dieses ungeplanten Wechsels verschob sich anschliessend die reguläre Neubesetzung der Vogtstelle
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_013">SSRQ ZH NF II/3, Nr. 13</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_031</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480767">ERKGA Fällanden I A 4</idno></msIdentifier><head>Aufruf zur Spendensammlung für den Wiederaufbau der Kapelle Fällanden</head><msContents><summary>Der Propst Matthäus Nithart und das Kapitel des Grossmünsterstifts in Zürich empfehlen allen Lesern des vorliegenden Schreibens, Almosen zu spenden für den Wiederaufbau der Kapelle in Fällanden. Die Kapelle, die innerhalb der Grenzen der Propstei liege und der Jungfrau Maria sowie den heiligen Märtyrern Johannes dem Täufer und Urban geweiht sei, war in den vergangenen Kriegen beschädigt worden. Weil der Wiederaufbau die Dorfbewohner und ihre Nachbarn finanziell überlaste, werden Heinrich Heuberger und Heinrich Hofmeier in die Kirchen gesandt, um Spenden zu sammeln. Es wird daran erinnert, dass sämtliche Spenden zugunsten der Kapelle mit einem 40-tägigen Ablass belohnt werden, den sechs Bischöfe für die Kapelle ausgestellt haben. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Latein</textLang><author role="scribe">Johannes Kaltschmid, Notar (Schuler 1976, Nr. 345)</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="34.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Propst Matthäus Nithart</persName></seal></sealDesc></physDesc><history><origin><origDate when="1455-10-10"/><origPlace>Zürich</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 7, Nr. 10105; REC, Bd. 4, Nr. 11923</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003372">Ablass</term><term ref="key005402">Kirchengebäude</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="ERKGA_Fällanden_I_A_4__r_.tif"/>
+<p><seg><lb/>Universis et singulis ecclesiarum prelatis, rectoribus, plebanis, viceplabanis necnon locatenentibus eorundem ceterisque personis ecclesiasticis et secularibus
+<lb/>ubilibet constitutis, ad quos presentes pervenerint, <persName ref="per013882">Matheus Nithart</persName>, decretorum doctor, <orgName ref="org004352">prepositus totusque capitulum ecclesie sanctorum <orgName ref="org004873"><persName ref="per012644">Felicis</persName> et
+<lb/><persName ref="per000143">Regule</persName></orgName> prepositure <placeName ref="loc007562">Thuricensis</placeName></orgName>, <orgName ref="org000056"><placeName ref="loc000923">Constanciensis</placeName> diocesis</orgName>,
+quidquid poterimus grate complacencie et honoris cum noticia subscriptorum indubitata.</seg>
+<seg>Gratum
+<lb/>deo reddimus pariter et acceptum impendere famulatum,<!-- Fachstelle Latein: Vermischung zweier ähnlicher Formeln: "reddimus famulatum" und "volumus impendere famulatum" (o.ä.). --> cum christifideles ad caritatis et pietatis opera incitamus, per que salus anime
+<lb/>felici commercio procuratur.</seg>
+<seg>Cum itaque cappella in villagio <placeName ref="loc008651">Faͤllanden</placeName>, infra dicte ecclesie nostre limites sita, ob honorem et laudem
+<lb/>gloriosissime virginis <persName ref="per000169">Marie</persName> beatorumque <persName ref="per000049">Johannis Baptiste</persName> et <persName ref="per000352">Urbani</persName> martirum consecrata et pridem in litibus et gwerris
+<lb/>in istis partibus duranter egenata<!-- Fachstelle Latein: egenata = egena bzw. egens facta, Partizip Präsens von egenare, selten. --> et in suis edificiis deteriorata, pronunc in suis structuris et ornamentis necnon aliis pro
+<lb/>sustentacione sacerdotis ibidem residentis et divina in eadem celebrantis per villanos et circumvicinos ibidem non sine magnorum
+<lb/>sumptuum et expensarum pretericione reformata sit et, deo dante, permelius restaurabitur in futurum, quorum quidem <choice><sic>suptuum</sic><corr>sumptuum</corr></choice> pariter et expensarum
+<lb/>pronunc habitorum et habendorum occasione dicti villani et circumvicini debitorum honeribus pregravati sunt multorum. Et quia eidem cappelle,
+<lb/>prout vere scimus, ad huiusmodi debita solvenda proprie non suppetunt rerum facultates, quocirca vestras caritates pie deprecamur salubri
+<lb/>cum in domino exhortacione nostrique servicii ob respectum vobis precibus, quibus valemus, insistimus seriosis, quatenus honestos et discretos
+<lb/>viros, <persName ref="per013916">Heinricum Hoͤberger</persName> et <persName ref="per013917">Heinricum Hofmeyer</persName>, certos presentium exhibitores, ad petendum, levandum et ad dicte cappelle necessitatem
+<lb/>puram elemosinam colligendum deputatos, cum ad vos venerint, huiusmodi christifidelium elemosinas et alia subsidia caritativa petituri, in
+<lb/>ecclesiis vestris et extra promoveatis atque <damage agent="fold"><unclear>recomendatos</unclear></damage> habeatis diligencia maiori qua possitis, ut hec et alia bona, que inspirante
+<lb/>domino feceritis, in die calamitatis et miserie, cum in districto examine pietatis opera de singulorum manibus requiruntur, vobis
+<lb/>in absolucionem veniant et convertantur peccatorum, advertentes, quod quicumque christifidelis contritus et confessus ad dictam cappellam
+<lb/>suas elemosinas fuerit elargitus, etiam quotienscumque hoc fecerit, a <num value="6">sex</num> episcopis et eorum quolibet <date dur="P40D">quadraginta dies</date> indulgenciarum de
+<lb/>iniunctis eis penitenciis in domino misericorditer relaxentur,<note>Gemeint ist der älteste Ablassbrief der Kapelle <placeName ref="loc012457">Fällanden</placeName> aus dem Jahr 1325
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_002">SSRQ ZH NF II/3, Nr. 2</ref></bibl>).</note>
+vos etiam omnes et singulos in ea parte auxiliantes oracionum, ieiuniorum, vigiliarum, missarum,
+<lb/>et aliorum <damage agent="fold"><unclear>pyorum</unclear></damage> operum in eadem cappella peragendorum, quantum cum deo possumus,
+fore participes affectamus.</seg>
+<seg>Datum <placeName ref="loc000065">Thuregi</placeName>, <origDate when="1455-10-10">anno domini millesimo
+<lb/>quadringentesimo quinquagesimo quinto, mensis octobris die decima, indictione tercia</origDate>, sub sigillo nostro secreto presentibus appenso
+<lb/>in testimonium evidens premissorum.</seg></p>
+<pb n="v" facs="ERKGA_Fällanden_I_A_4__v_.tif"/>
+<div>
+<ab type="chancery notation" place="plica"><lb/><persName ref="per013815"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> Kaltschmid</persName>
+<lb/>notarius <choice><abbr>sst</abbr><expan>scripsit</expan></choice>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Indulgentia</ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Wie andere Kirchen der Region war auch die Kapelle in <placeName ref="loc008651">Fällanden</placeName> durch die Plünderungszüge
+der <orgName ref="org000531">Eidgenossen</orgName> während des Alten Zürichkriegs arg in Mitleidenschaft gezogen worden.
+Grössere Bauarbeiten an der Kapelle sind allerdings erst für 1488 belegt
+(<bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2002</ref>, S. 63-67</bibl>).
+Im Anschluss an diese Renovation wurde die Kapelle 1492 zur Pfarrkirche erhoben,
+und die Bewohner von Fällanden erhielten das Recht, ihren Priester selber zu wählen
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_042">SSRQ ZH NF II/3, Nr. 42</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

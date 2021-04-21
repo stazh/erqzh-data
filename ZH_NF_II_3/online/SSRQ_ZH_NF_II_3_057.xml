@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_057</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=255805">StAZH C II 1, Nr. 949.1</idno></msIdentifier><head>Entscheid in einem Streit zwischen dem Zürcher Grossmünsterstift und der Gemeinde Fällanden über die Entschädigung des dortigen Priesters</head><msContents><summary>Die Dorfleute von Fällanden begehren, dass ihrem Priester das Wegfallen der Messopfer und weiterer Einnahmen aus dem Zehnten des Zürcher Grossmünsterstifts entschädigt wird. Das Grossmünster hat dafür einen Drittel seines halben Zehnten angeboten, die Leute verlangen indessen die Hälfte, was von Propst und Kapitel abgelehnt wird. Von Bürgermeister und Rat der Stadt Zürich werden daher Meister Berger und Meister Ochsner abgeordnet, um den Streit zu schlichten. Sie legen fest, dass der Priester die Hälfte des Zehntenanteils des Grossmünsters erhalten und bei der Verleihung der Zehnten mitbestimmen soll.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Zettel aufgeklebt auf Einzelblatt</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.5"/><width unit="cm" quantity="11.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1524-02-03"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003745">Filialkirche</term><term ref="key000212">Löhne</term><term ref="key000301">Pfarrer</term><term ref="key000049">Zehnten</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_1__Nr__949_1.tif"/>
+<p><seg><lb/>Als dann die dorfflüt von <placeName ref="loc008651">Vellanden</placeName> vor <orgName ref="org004352">capitel</orgName> sich hant beklagt ireß
+prie<lb break="no"/>sterß abgang ann opfer und andren zuͦ faͤlen, mit begaͤru̍ng, den uß
+<lb/>dem zenden ze ersetzen, h<subst><del>e</del><add place="overwritten">i</add></subst>erumb <add place="above" type="sign">von</add>
+<orgName ref="org004352">propst und capitel</orgName> sich <del>durch</del> die
+ver<lb break="no"/>ordneten begeben, woltent dem priester ze besserung noch lassen
+<lb/>den iij teil irenß halben teilß und <unclear>ij<hi rend="sup">t</hi>
+<subst><del>m</del><add place="overwritten">h</add></subst>aber</unclear>,
+<measure type="currency" unit="ß" quantity="8">viij </measure> und <del>z</del> den zimpel
+<lb/>tag<!-- rhr: Ostermontag bzw. das an diesem Tag gegebene Geschenk, Geldgabe an Amtsträger (Idiotikon, Bd. 12, Sp. 1061). -->
+<del><unclear>l</unclear></del>
+<del>nachlassen</del>,
+daran sy aber nit ein vernuͤgen han woltent,
+be<lb break="no"/>sunder begertent denn halbenteil unserß teilß, deß aber die verordneten
+<lb/>nit bestatten woltent.</seg>
+<seg>Und so sy soͤmlichs hindersich für <orgName ref="org004352">capitel</orgName>
+<lb/>brachtent und <orgName ref="org004352"><choice><abbr>p</abbr><expan>propst</expan></choice> und <choice><abbr>cap</abbr><expan>capitel</expan></choice></orgName>
+des priesterß abgang und <choice><abbr>m</abbr><expan>meister</expan></choice>
+<persName ref="per005064">Bergerß</persName>
+<lb/>und <choice><abbr>m</abbr><expan>meister</expan></choice>
+<persName ref="per013617">Ochsnerß</persName> gbit,
+alß von herrn <orgName ref="org002406"><choice><abbr>b</abbr><expan>burgermeister</expan></choice> und rat</orgName> hiezuͦ verordneten,
+<lb/>vernament, hant sy iren verordneten gwalt geben, dem
+prie<lb break="no"/>ster von <placeName ref="loc008651">Vellanden</placeName> hinfür ze lassen den halben teil irenß teilß deß
+<lb/>zehenden ze <placeName ref="loc008651">Vellanden</placeName>, <unclear>mit</unclear> zuͦ lassen, wann sy hinfür den zehenden
+<lb/>verlihent, dz der genant priester by inen sitzent, ouch syn willen
+<lb/>offnen soͤlle und moͤge.</seg>
+<seg>Also ist eß ouch den vorgenannten von
+<lb/><placeName ref="loc008651">Vellanden</placeName> vergu̍nt, in bywaͤßen <choice><abbr>m</abbr><expan>meister</expan></choice>
+<persName ref="per005064">Bergerß</persName> und <persName ref="per013617">Ochsnerß</persName>, uff den
+<lb/><origDate when="1524-02-03">iij tag hornung anno 1524</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits am 22. Juni 1523 hatten sich die Leute von <placeName ref="loc008651">Fällanden</placeName>
+und weiteren Gemeinden vor dem <orgName ref="org002406">Zürcher Rat</orgName> über die Zehntabgaben
+an das <orgName ref="org004352">Grossmünsterstift</orgName> beschwert
+und darauf hingewiesen, dass ihr Priester von seiner Pfründe kaum leben könne
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=698114">StAZH A 123.1, Nr. 87</ref></bibl>).
+Der Rat schützte das Stift jedoch in seinen Rechten
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4159666">StAZH B VI 249, fol. 44r</ref></bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 368</bibl>).
+Mit dem vorliegenden Entscheid kam der Rat den Dorfleuten immerhin entgegen,
+indem ein Teil der Zehntabgaben zugunsten des Priesters verwendet werden musste.
+Mit dem Mandat vom 14. August 1528 legten <orgName ref="org002406">Bürgermeister und Rat</orgName>
+schliesslich für das gesamte <placeName ref="loc000066">Zürcher Herrschaftsgebiet</placeName> fest,
+dass die Zehntabgaben weiterhin zu bezahlen seien, dass die Obrigkeit jedoch über die zweckgemässe Verwendung der Kirchenzehnten wachen
+und den Gemeinden beim Auskauf behilflich sein werde
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_128">SSRQ ZH NF I/1/3, Nr. 128</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

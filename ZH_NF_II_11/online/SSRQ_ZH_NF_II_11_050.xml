@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_050</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=12871">StArZH I.A.2454.</idno></msIdentifier><head>Ratsurteil betreffend die von der Gemeinde Wipkingen bestimmte Einschränkung der Stückzahl Vieh auf der Allmende</head><msContents><summary>Bürgermeister und Rat urkunden, dass Anthonius Thalhamer vom Franziskanerkloster, Johannes Berger, Pfleger dieses Klosters, die Bürger Jakob von Cham und Jos Oesenbry und etliche von Wipkingen vor dem Rat gegen die Vorgesetzten von Wipkingen und eine von diesen erlassene Ordnung geklagt hätten. Die neue Ordnung, welche bestimmt, wieviel Vieh jeder auf die Allmend bringen dürfe, sei ungerecht. Einer, der 15 Kinder habe, dürfe nur zwei Kühe auf die Allmende treiben wie andere, die nur eine Frau oder nur Frau und Kind hätten. Die Gemeindevertreter antworten, die Allmend sei übernutzt. Die Gemeinde habe - mit einer Ausnahme - zugestimmt und auch die Äbtissin habe die neue Ordnung bestätigt. Bürgermeister und Rat entscheiden, dass die Wipkinger die neue Ordnung aufgeben müssen und die alten Gewohnheiten bestehen bleiben. Die Aussteller siegeln mit dem Sekretsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="47.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Stadt Zürich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1517-05-13"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term>Allmend</term><term>Gemeindeversammlung</term><term ref="key000335">Nutzungsrecht</term><term ref="key000468">Rechtsgewohnheit</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und raht der stat <placeName ref="loc000065">Zurich</placeName></orgName>, bekennen und thund kunt mengklichem mit disem brieff, das fur uns zurecht komen sind der wurdig
+<lb/>und geisthlich, unser besonder lieber, andechtiger<!-- Zeichen? ignoriert PS: OK--> her <persName ref="per024289">Annthonius Talhamer</persName> dess <orgName ref="org004932">gotzhus zuͦn Parfuͦssen</orgName>, mit dem ersamen, wisen, unnserm getruwen
+<lb/>lieben ratzfruͦnd <persName ref="per024286">Johansenn Bergern</persName>, desselben gotzhuses pfleger, und die fromen, vesten, unnser lieb buͦrger <persName ref="per024287">Jacoben von Cham</persName> und <persName ref="per024288">Jos Eusenbry</persName> sampt
+<lb/>etlichen von den unnsern von <placeName ref="loc010875">Wipkingen</placeName> all eins-, unnd andersteils der unnsern einer <orgName ref="org007945">gemeind von <placeName ref="loc010875">Wipkingen</placeName></orgName> anweldt.</seg>
+<seg>Unnd habennt sich die ob<lb break="no"/>gemelten
+her gardi<!-- Guardian ist der Titel des Vorstehers der Franziskaner --> und sin mithafften vor unns erclagt, alls sy dann ouch hoff und guter zuͦ <placeName ref="loc010875">Wipkingen</placeName> und ir fich uff das feld und allment, wie
+<lb/>von alterhar gewesen wer, geschlagen hetten, so sigint doch die unnsern ein <orgName ref="org007945">gemeind von <placeName ref="loc010875">Wipkingen</placeName></orgName> daruber gesessen und hetint dess fichs halb ein
+<lb/>nuͦwen uffsatz gemacht und jetlichem uffgelegt, wievil er fichs uff das veld und allment schlachen und gon lasen solte und nit mer. Welcher
+<lb/>uffsatz inen unlidlich und zu schweͣr, us der ursach, das deshalben ein ungliche ufflegung von inen gemacht sige, dann etlichem von <placeName ref="loc010875">Wipkingen</placeName>,
+<lb/>so jetz da gegenwurtig stuͦnde und <num value="15">fuͦnffzechen</num> kind hette, zuͦ denen er vor <num value="3">dry</num> kuͦgen gehept, dem habint sy ein kuͦ dannen thon und im allein
+<lb/><num value="2">zwo</num> nachgelassen. Und dagegen etlichem, der niemandts dann ein frowen oder darzuͦ nuͦn ein kindlin hette, dem habint sy ouch <num value="2">zwo</num> kugen nachgelassen,
+<lb/>das dann unglich zuͦgannge <abbr>etc</abbr>. Mit ernstlichem annsuͦchen, wir weltind by den unnsern von <placeName ref="loc010875">Wipkingen</placeName> verschaffen, dess nuͦwen uffsatzess
+<lb/>abzuͦston und den alten bruͦch, wie sy den vornacher mit irem fich uff das feld und allment habint gehept, lassen zuͦbliben.</seg>
+<seg>Unnd dagegen der
+<lb/>unnsern einer <orgName ref="org007945">gemeind von <placeName ref="loc010875">Wipkingen</placeName></orgName> anweldt vermeinten, das sy bishar mit dem fich uff ir feld und allment ubersetzt gewesen und
+<lb/>werint all us ir gemeind gemeinlich daruͦbergesessen untz allein an einen mann. Wiewol etlich us ir gemeind jetz da wider sy stunden und
+<lb/>je einer den andern im nachgelechen, so hettint sy doch inen gehuͦllffen den annslag machen und werint also umb ires gemeinen nuͦtzes
+<lb/>willen ra̍ttig und eins worden und <num value="5">fünff</num> man usgeschossen, das dieselben by irn eiden deshalben ein ordnung machen und jederman ufflegen
+<lb/>soͤlten, nach dem si bedunckte irer gemeind nuͦtz und fuͦg sin und ir feld oder allment ertragen moͤchte. Sollichs sige also von den bemelten
+<lb/><num value="5">funff</num> mannen beschechen, und hettint dieselben jetlichem je nach gstalt der sach und und irem guͦten beduncken by iren eids pflichten uffgelegt
+<lb/>und were ouch semlich uffleggung von unser gnedigen frowen der abtissin zuͦ der abtie nachgelassen, besta̍t und gevestnet, das es daby bliben
+<lb/>und si soͤllich ordnung also soͤlten bruͦchen, mit pit wir weltind sy daby hanndthaben.</seg>
+<seg>Und so wir beid parthigen in irn clegten,
+<lb/>antwurten, red und widerreden in den und vil mer worten, unot<!-- unnötig --> alle zuͦ melden, gnuͦgsamclich und nach nottuͦrfft verhort und verstannden,
+<lb/>so habent wir uns uff irn gethonen rechtsatz zuͦ recht erkennt und gesprochen, das die unsern von <placeName ref="loc010875">Wipkingen</placeName> irs nuͦwen uffsatzes ab<lb break="no"/>ston
+und den alten bruch, wie sy den vornachen mit irem fich uff das feld und allment habent gehept, sollent lassen bliben.</seg>
+<seg>Diser unser
+<lb/>rechtlichen erkandtnus begerten her gardyan und die gemelten sin mithafften eins brieffs, den wir inen verwilgt und daran dess zuͦ ur<lb break="no"/>kund
+unser stat secret innsigel offenlich henncken lassen habent an <origDate when="1517-05-13">mitwuͦch vor der crutz wuͦchen nach <persName ref="per000353">Crists</persName> geburt gezellt fuͦnff
+<lb/>zechenhundert und im sibenzechenden jar<!-- Datierung? Im AIS wird als Datum der 21.5.1517 angegeben, welcher ein Donnerstag war. Die Kreuzwoche ist jene Woche, in die Christi Himmelfahrt fällt. Auffahrt 1517 am 21.5., Mittwoch der Vorwoche wäre dann der 13.5. PS: Korrekt  --></origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso">Von dem weidgang zu <placeName ref="loc010875">Wipkingen</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso">Gardian, <persName ref="per024288">Joß Osenbry</persName></ab><!-- Der Guardian ist der Vorsteher der Franziskaner, also Antonius Thalhammer, vgl. https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3568829. Warum Jos Oesenbry steht, ist unklar - war er der prominenteste der übrigen Kläger (Mitglied diverser Ratskommissionen, Hauptmann im Diijon-Feldzug 1513, 1517 Junker)? Zu Jos Oesenbry (Onkel von Jodok Oesenbry, der das Kunst-, Weydny- und Vogelbuch verfasst hat) vgl. Gasser, Kunst-, Weydny- oder Vogelbuch 2016, S. 221-222.  -->
+</div>
+</body>
+<back>
+<div>
+<p>Die Offnung von <placeName ref="loc010875">Wipkingen</placeName> enthält keine Bestimmungen zum Weidgang. Das vorliegende Urteil zeigt aber, dass ausserhalb der Offnung entsprechende Regelungen bestanden. Der Versuch der <orgName ref="org007945">Gemeinde <placeName ref="loc010875">Wipkingen</placeName></orgName>,
+diese Weidgangsbestimmungen eigenmächtig zu ändern, scheiterte, obwohl sie ihre neue Ordnung von der Äbtissin des <orgName ref="org004908">Fraumünsters</orgName> hatte bestätigen lassen. Erfolgversprechender war die Strategie, solche neuen Ordnungen vor dem Obervogt und mit Bewilligung des <orgName ref="org004016">Rates</orgName> zu erlassen, wie <placeName ref="loc009865">Wollishofen</placeName>
+dies einige Jahre später tat (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_054">SSRQ ZH NF II/11, Nr. 54</ref></bibl>). 
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

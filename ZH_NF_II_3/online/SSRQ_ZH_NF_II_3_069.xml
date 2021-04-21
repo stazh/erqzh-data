@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_069</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=716021">StAZH A 123.2, Nr. 69</idno></msIdentifier><head>Schreiben des Vogts von Greifensee über die Einkünfte des Schlosses Greifensee</head><msContents><summary>Der Vogt von Greifensee, Hans Jakob Meiss, schickt dem Bürgermeister und Rat der Stadt Zürich auf deren Befehl ein Verzeichnis über die Einkünfte, die zum Schloss Greifensee gehören, worüber der Vogt nicht Rechnung ablegt. Das beiliegende Einkünfteverzeichnis nennt zuerst den halben Zehnten in Greifensee an Korn, Roggen, Hafer, Bohnen, Gersten, Hirse, Erbsen und Hanf, sowie an Heu, sodann die Burghut, das jährliche Holzgeld mit Verweis auf das Urbar, einen Zins von 600 Albelen von den Fischern und Weidleuten, die Grafenwiese beim Schloss, weitere Wiesen und Wälder, den Krautgarten sowie den Bach namens Mülibach.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Jakob Meiss, Vogt von Greifensee</author><filiation type="current">Original (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="papered seal" nontei:shape="round" nontei:attachment="applied" nontei:condition="absent"><persName role="sigillant">Hans Jakob Meiss</persName></seal></sealDesc></physDesc><history><origin><origDate when="1551-06-13">Datum nachträglich hinzugefügt</origDate><origPlace>Greifensee</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000536">Fischerei</term><term ref="key000350">Getreide</term><term ref="key000524">Holz</term><term ref="key000049">Zehnten</term><term ref="key000154">Zinsen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1"/>
+<p><lb/>Gestrengen, frommen, vesten, fürsichtigenn und
+<lb/>wyßen, innsonders gnedigen, lieben herren,
+<lb/>min underthenig gehorsam, willig dienst sigind
+<lb/>üwer wyßheitt allzyt bereytt zuͦ vor. Wie mir
+<lb/>dan <unclear>üwer</unclear> gnad zum nechster verschinen tagen
+<lb/>enpfolchent hat uff zeschriben, was zum schloß
+<lb/><placeName ref="loc008719">Griffennsee</placeName> zuͦ gehorunng sig und was hab, darumb
+<lb/>ein vogt nüt rechnung gyt, schickt ich üwer
+<lb/>gnad hie byligendt, wil mich hie mit min
+<lb/>gehorsam gantz guͦt willig diennst alzit befolchent
+<lb/>han, uß <placeName ref="loc008569">Griffennsee</placeName> des <origDate when="1551-06-13">xiij tags brachet anno
+<lb/><abbr>etc</abbr> 1551</origDate>.
+</p>
+</div>
+<div><signed><lb/>Uwer <choice><abbr>g w</abbr><expan>gnad und wysheit</expan></choice>
+<lb/>allzytt
+<lb/><persName ref="per013921">Hanns Jacob Meys</persName>,
+<lb/>vogt zuͦ <placeName ref="loc000348">Griffennsee</placeName>
+</signed>
+</div>
+<pb n="2"/>
+<div>
+<pb n="3"/>
+<add place="above" hand="later hand"><placeName ref="loc000348">Gryfensee</placeName></add>
+<seg n="1"><p><lb/>Zum erstenn den halben zëchen<add place="overwritten" rend="other ink">d</add>en zuͦ <placeName ref="loc008569">Griffennsee</placeName>,
+<lb/>was dan der zuͦ gmeinden jaren erthreyt, als
+<lb/>har nach statt, an früchten:
+</p>
+<table>
+<row><cell>An korn</cell><cell><num value="19">xviiij</num> ald <num value="20">xx</num> seck vol unngfarlich</cell></row>
+<row><cell>An rogen</cell><cell><measure type="volume" unit="Mütt" quantity="3" commodity="rye">iij <abbr>m<hi rend="sup">t</hi></abbr></measure> ald <measure type="volume" unit="Mütt" quantity="2.5" commodity="rye">iiɉ <abbr>m<hi rend="sup">t</hi></abbr></measure> unngfarlich</cell></row>
+<row><cell>An haber</cell><cell>by <measure type="volume" unit="Malter" quantity="4" commodity="oat">iiij malter</measure></cell></row>
+<row><cell>An bonen</cell><cell><measure type="volume" unit="Viertel" quantity="2" commodity="bean">ij <abbr>vt</abbr></measure></cell></row>
+<row><cell>An gersten</cell><cell><measure type="volume" unit="Viertel" quantity="3.5" commodity="barley">iiiɉ <abbr>vt</abbr></measure></cell></row>
+<row><cell>An hirs</cell><cell><measure type="volume" unit="Viertel" quantity="1" commodity="millet">j <abbr>vt</abbr></measure></cell></row>
+<row><cell>An erbschen</cell><cell><measure type="volume" unit="Viertel" quantity="1.5" commodity="pea">iɉ <abbr>vt</abbr></measure></cell></row>
+<row><cell>An hanff</cell><cell>by <num value="10">x</num> wüschen</cell></row>
+</table>
+<p><lb/>Item an hoüw ungefarlich by <measure type="undefined" unit="Fuder" quantity="3" commodity="hay">iij fuͦder</measure>.
+</p></seg>
+<seg n="2"><p><lb/>An burghuͦt hatt ein vogt zuͦ <placeName ref="loc000348">Griffennsee</placeName>:
+</p>
+<table>
+<row><cell>An haber</cell><cell><measure type="volume" unit="Malter" quantity="10" commodity="oat">x malter</measure></cell></row>
+<row><cell>An gelt</cell><cell><measure type="currency" unit="lb" quantity="22">xxij </measure></cell></row>
+</table></seg>
+<pb n="4"/>
+<seg n="3"><p><lb/>Ann holtzgelt git man <date dur="R/P1Y">jerlich</date> einem vogt:<note>Von
+dieser Abgabe kauften sich die Gemeinden 1604 los
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_090">SSRQ ZH NF II/3, Nr. 90</ref></bibl>).</note>
+</p>
+<table>
+<row><cell>An gelt</cell><cell><measure type="currency" unit="fl" quantity="9">viiij </measure></cell></row>
+</table></seg>
+<seg n="4"><p><lb/>Me git man <measure type="currency" unit="ß" quantity="18">xviij </measure>, für mën<add place="inline" rend="other ink">n</add>tagwen zuͦ <placeName ref="loc008816">Nënykon</placeName>,
+<lb/>aber gend sy <measure type="currency" unit="lb" quantity="1">j </measure> für <measure type="undefined" unit="Fuder" quantity="1" commodity="hay">ein fuͦder höw</measure>.<note>Diese
+Angabe stimmt überein mit dem Urbar von 1416 und seinen Nachfolgern
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref>, Art. 25.2</bibl>).</note>
+</p>
+<p><lb/><measure type="currency" unit="lb" quantity="3">iij </measure> gend die vonn <placeName ref="loc008815">Hegnow</placeName> für <measure type="undefined" unit="Fuder" quantity="2" commodity="hay">zwey fuͦder höuw</measure>.<note>Diese
+Angabe stimmt überein mit dem Urbar von 1416 und seinen Nachfolgern
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref>, Art. 25.1</bibl>).</note>
+</p>
+<p><lb/>Man ist ouch schuldig <date dur="R/P1Y">alle jar</date>
+<measure type="undefined" unit="Fuder" quantity="7.5" commodity="hay">viiɉ zins fuͦder</measure> nach
+<lb/>lut des urbars, git man für eins <measure type="currency" unit="bz" quantity="5">v batzen</measure>.
+</p></seg>
+<seg n="5"><p><lb/>Me sol man ouch <date dur="R/P1Y">jerlich</date> nach lut des urbars, darumb
+<lb/>ein vogt nüt rechnung <unclear>gyt</unclear>:
+</p>
+<table>
+<row><cell>An rogen</cell><cell><measure type="volume" unit="Mütt" quantity="6" commodity="rye">vj müt</measure></cell></row>
+<row><cell>An fastmuͦß</cell><cell><measure type="volume" unit="Mütt" quantity="3" commodity="pulses">iij <abbr>m<hi rend="sup">t</hi></abbr></measure></cell></row>
+<row><cell>An nu̍ßen</cell><cell><measure type="volume" unit="Mütt" quantity="1" commodity="nuts">j <abbr>m<hi rend="sup">t</hi></abbr></measure></cell></row>
+<row><cell>An eyer</cell><cell><num value="260">cclx</num></cell></row>
+</table></seg>
+<seg n="6"><p><lb/>So git man ouch seezins by <num value="600">vj<hi rend="sup">c</hi></num> albellenn.<note>Diese
+Angabe stimmt überein mit dem Urbar von 1416 und seinen Nachfolgern
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref>, Art. 26</bibl>).</note>
+</p>
+<p><lb/>So git ouch jetlich gar<add place="inline" rend="other ink">n</add>
+<date dur="R/P1W">alwuchen</date>, wen mann
+<lb/>fischet, für <measure type="currency" unit="ß" quantity="1">j </measure> fisch, wen man die wicht.<note>Diese
+Angabe ist angelehnt an das Urbar von 1416, wo indessen von 80 Fischen pro Jahr die Rede ist
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF II/3, Nr. 11</ref>, Art. 27</bibl>).</note>
+</p>
+<p><lb/>So gennd die weidlu̍t alle jar <date dur="R/P1Y">jerlich</date> zuͦ diennst:
+</p>
+<table>
+<row><cell>An gelt ungfarlich by</cell><cell><measureGrp><measure type="currency" unit="lb" quantity="4">iiij </measure>
+<measure type="currency" unit="ß" quantity="18">xviij </measure></measureGrp>.</cell></row>
+</table></seg>
+<pb n="5"/>
+<seg n="7"><p><lb/>Me ein wyß, gehört ouch zum schloß, ist by
+<lb/><measure type="area" unit="Tagwen" quantity="10">x tagwen</measure>, so man nempt <placeName ref="loc008879">Graffenwyß</placeName>, gitt
+<lb/>ungfarlich zuͦ gmeinden jaren <measure type="undefined" unit="Fuder" quantity="7" commodity="hay">vij</measure> oder <measure type="undefined" unit="Fuder" quantity="8" commodity="hay">viij fuͦder
+<lb/>höuw</measure><note>Diese Angabe stimmt inhaltlich überein mit der Verkaufsurkunde von 1369, wo von acht Stuck die Rede ist
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_004">SSRQ ZH NF II/3, Nr. 4</ref></bibl>).</note>.
+</p>
+<p><lb/>Me ein hanffbünt, ist by <measure type="volume" unit="Viertel" quantity="11">xj fiertel</measure> sätt, und
+<lb/>ein wyßblëtz daran, ist <measure type="area" unit="Vierling" quantity="3">dry fierling</measure>.
+</p>
+<p><lb/>Me ein wyßblätz genant <placeName ref="loc010380"><app><lem>Bodel</lem><rdg wit="StAZH A 94.1, Nr. 10">Bendel</rdg></app> Garten</placeName>, ist bin <measure type="area" unit="Vierling" quantity="0.5">eim
+<lb/>halben fierling</measure>, l<subst><del>i</del><add place="overwritten" rend="other ink">y</add></subst>t ann der gmeind guͤter.
+</p>
+<p><lb/>Me der krutgarten.
+</p>
+<p><lb/>Unnd denn bach genampt den <placeName ref="loc010799">Mülly
+<lb/>Bach</placeName>, dar inn wenig ist.
+</p>
+<p><lb/>Und holtzes gnuͦg zum schloß, w<del rend="rubbing"><gap unit="word" quantity="1" reason="illegible"/></del><add place="inline" rend="other ink">elcher es</add> inn s<subst><del>i</del><add place="overwritten" rend="other ink">y</add></subst>n
+<lb/>costen uff macht unnd hei<subst><del>n</del><add place="inline" rend="other ink">m</add></subst> fuͤrt.
+</p></seg>
+<p><add place="below" rend="other ink"><lb/>Geschach den <origDate when="1551-06-13">xiij tag brachets lj jar</origDate>.
+</add></p>
+<pb n="6"/>
+<div>
+<ab type="dorsal" place="next page" hand="hand18c"><lb/><origDate when="1551">1551</origDate></ab>
+</div>
+<pb n="7"/>
+<pb n="8"/>
+<div>
+<ab type="address" place="verso"><lb/>Den gestrenngen, fromen, vesten, 
+für<lb break="no"/>sichtigen und wysen herren <orgName ref="org002406">burger
+<lb/>meyster und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+<lb/>minen innsunders gnedigen und
+<lb/>gepiettenden, lieben herrenn</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><origDate when="1551">1551</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Beschreibung des zehendens der vogtey <placeName ref="loc000348">Gryfensee</placeName>, <origDate when="1551">1551</origDate></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Vogtey <placeName ref="loc000348">Gryfensee</placeName></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits kurz nach der Übernahme der Herrschaft <placeName ref="loc000348">Greifensee</placeName>
+hatte der <orgName ref="org002406">Zürcher Rat</orgName> 1404 bestimmt,
+wie der von der Obrigkeit delegierte Vogt für seine Amtsausübung zu entlöhnen war
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_008">SSRQ ZH NF II/3, Nr. 8</ref></bibl>).
+Das vorliegende Stück weist demgegenüber noch diverse weitere Einnahmen aus,
+die direkt an den Vogt gingen, ohne dass dieser Rechnung darüber ablegen musste.
+Es gab also durchaus gewisse Möglichkeiten für den Vogt,
+sich persönlich zu bereichern oder zumindest schadlos zu halten,
+während er andererseits mit seinem Privatvermögen für Ausfälle haftete,
+wie aus den Rechnungen der Herrschaft <placeName ref="loc000348">Greifensee</placeName> hervorgeht
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_062">SSRQ ZH NF II/3, Nr. 62</ref></bibl>).
+</p>
+<p>Dass der Vogt von <placeName ref="loc000348">Greifensee</placeName> den Rat über seine Einkünfte unterrichtete,
+ging einher mit allgemeinen Bestrebungen der Obrigkeit,
+sich einen Überblick über die Finanzmittel der Vögte zu verschaffen.
+Aus diesem Grund erstellten die Rechenherren um 1551 für alle äusseren Vogteien eine Übersicht,
+die für <placeName ref="loc000348">Greifensee</placeName> weitgehend mit dem hier edierten Stück übereinstimmt,
+aber präzisiert, dass der Vogt die Zehnteinnahmen und Abgaben der Fischer auf eigene Kosten einziehen müsse.
+Ebenso wird präzisiert, dass ein Wald namens <placeName ref="loc008843">Jungholz</placeName> zum Schloss gehöre,
+aus dem sich der Vogt mit dem nötigen Holz versorgen könne
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943767">StAZH A 94.1, Nr. 10</ref></bibl>).
+Im gleichen Zug erstellten die Rechenherren Auszüge aus den Rechnungen der Vogteien
+und listeten Missbräuche beziehungsweise Kostenüberschreitungen auf.
+Für die Herrschaft <placeName ref="loc000348">Greifensee</placeName> wurde festgestellt,
+dass sich die Ausgaben für Zehrung bei der Rechnungslegung
+in den vergangenen zehn Jahren verdreifacht haben
+und auch die Löhne der Richter in <placeName ref="loc008569">Greifensee</placeName>
+und <placeName ref="loc006198">Uster</placeName> erheblich gestiegen seien
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943768">StAZH A 94.1, Nr. 11</ref></bibl>).
+In den folgenden Jahren wurden wiederholt Visitationen in den Vogteien durchgeführt
+und verschiedene Massnahmen zur Behebung von Mängeln beschlossen
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943770">StAZH A 94.1, Nr. 12</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943772">Nr. 13</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943784">Nr. 14</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943825">Nr. 16</ref></bibl> und
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=943827">Nr. 18</ref></bibl>).
+Die gleichen Punkte wurden bei der Rechnungsführung des Vogts von <placeName ref="loc000348">Greifensee</placeName>
+indessen auch 1647 wieder bemängelt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_096">SSRQ ZH NF II/3, Nr. 96</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

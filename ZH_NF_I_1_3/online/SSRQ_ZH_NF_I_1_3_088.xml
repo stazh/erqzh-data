@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
+Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Schaffner</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2017-01-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_1_3_088</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917101">StAZH B III 6, fol. 66r-v</idno></msIdentifier><head>Eid des Kaufhausschreibers der Stadt Zürich</head><msContents><summary>Der Kaufhausschreiber soll schwören, das im Kaufhaus abgelegte Gut getreulich zu verwahren und die darauf fälligen Abgaben wie Zoll, Hausgeld und Ungeld zuhanden der Stadt einzunehmen, auch den Zoll zur Schnelli und den Klotener Zoll einzunehmen und den städtischen Salzkauf zu tätigen, und sämtliche Einnahmen den Säckelmeistern der Stadt zu übergeben. Der Schreiber hat gegenüber allen Handeltreibenden im Kaufhaus gerecht zu handeln. Ihm ist untersagt, mit jemandem eine Geschäftsgemeinschaft einzugehen, mit der ihm anvertrauten Handelsware Gewerbe zu treiben und ohne Wissen von Bürgermeister und Rat daraus etwas zu verleihen. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1515-01-01" to="1518-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc>
+</profileDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term><term ref="key004536">Finanzen</term><term ref="key000983">Handel</term><term ref="key000051">Schreiber</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="66r"/>
+<head><lb/>Eydt, den ein kouffhußschriber unnd <lb/>zoller an der <placeName ref="loc010661">Schnelli</placeName> sol schweren</head>
+<p>
+<seg><lb/>Es sol unnser kouffhußschryber schwëren, unnsers <placeName ref="loc010627">Kouff<lb break="no"/>huses</placeName>
+zuͦ warten, das guͦt, so dar innn geleit wirt, zum besten
+<lb/>zu besorgen, <add place="right margin" hand="later hand">den saltz zoll</add><hi rend="underline" hand="later hand">davon zoll, hußgelt, umgelt unnd anders, das
+<lb/>unnser gmeinen statt zuͦgehort, ouch den zoll zur <placeName ref="loc010661">Schnelli</placeName><note>Der Zoll zur <placeName ref="loc010661">Schnelli</placeName> befand sich am Limmatufer beim Haus zum <placeName ref="loc010447">Rüden</placeName>. Zur Bezeichnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bluntschli 1742</ref></bibl>, S. 406.</note>, <del hand="later hand">den
+<lb/>zoll zue <placeName ref="loc008727">Clotten</placeName></del>, zoll unnd umgelt, so im geleit wirt, nach sag
+<lb/>der rödlen</hi> in zenemen unnd inzuͦziehen<note>Zu den erwähnten Zöllen vgl.
+ <bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 68-80; 105-109</bibl>;
+ <bibl><ref target="/startseite/literaturverzeichnis">Schnyder 1938</ref>, S. 154-157; 183-185</bibl> sowie die Ordnung betreffend Ausdehnung der Zollfreiheit in der Grafschaft <placeName ref="loc000012">Kyburg</placeName> auf <placeName ref="loc000849">Winterthur</placeName> und <placeName ref="loc010469">Hettlingen</placeName>
+ (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_121">SSRQ ZH NF I/2/1, Nr. 121</ref></bibl>).</note> unnd dartzu den
+<lb/>saltz kouff<note>Zum städtischen Salzkauf vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 42-46</bibl>.</note> von gmeiner unnser statt wëgen zuͦ vertigen, lut
+<lb/>unnser ordnung unnd darinn unnser gmeinen statz nutz
+<lb/>unnd fromen zefu̍rdren unnd schaden zuwënden, so ferr er
+<lb/>kan unnd mag, unnd das, so er uffnimpt unnd in zücht <del>oder</del>
+<pb n="66v"/>
+<lb/>oder von der saltzkoufs wegen<del>t</del> gewu̍nt unnd also unser statt
+<lb/>gefalt unnd zuͦgehort, alles unnser statt secklern zeantwortten.</seg>
+<seg><lb/>Unnd mëniglichem in dem <placeName ref="loc010627">Kouffhuß</placeName> glich unnd gmein zesind
+<lb/>unnd einem nit fu̍rer dann dem andren fu̍r zeschieben und
+<lb/>sonderlich keinen gwerb mit guͦt, das in das <placeName ref="loc010627">Kouffhuß</placeName> zuͦ
+<lb/>verkouffen gefuͤrt unnd gleit wirt, zetriben. Unnd niemas
+<lb/>gemeinder zesind, der den gwërb, so das <placeName ref="loc010627">Kouffhuß</placeName> beru̍rt, tribt
+<lb/>unnd von den gesten keins geͣltz zekomen an unnßer buͤrger,
+<lb/>sonder das von dem guͦt zenëmen, daruff er lihet, unnd
+<lb/>besonnder ouch uß der statt unnd <placeName ref="loc010627">Kouffhußes</placeName> guͦt niemant
+<lb/>nudzit zelihen, on eins <orgName ref="org002406">bu̍rgermeister unnd rats</orgName> wu̍ssen
+<lb/>unnd befelch, alles getruwlich unnd unngefarlich.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Aufzeichnung basiert auf einem Eid aus der Mitte des 15. Jahrhunderts (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1928839">StAZH B II 4, Teil II, fol. 20v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S. 192-193, Nr. 97</bibl>). Der neue Eid wurde für das 1515-1518 entstandene Satzungsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> verschriftlicht. Gegenüber der älteren Fassung erwähnt er zusätzlich zum Salzzoll und dem <placeName ref="loc008727">Klotener</placeName> Zoll auch denjenigen an der <placeName ref="loc010661">Schnelli</placeName>. Die Version des Eides des Jahres 1604 hingegen enthält nur noch den Verweis auf den Salzzoll
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4338650">StAZH B III 5, fol. 192r</ref></bibl>). Die Einrichtung eines städtischen Kaufhauses wurde im Jahr 1412 beschlossen. Baulich umfasste das <placeName ref="loc010627">Kaufhaus</placeName> eine ganze Gebäudegruppe rund um den <placeName ref="loc010453">Hottingerturm</placeName> gegenüber der <placeName ref="loc010451">Wasserkirche</placeName>, wobei auch das <placeName ref="loc010628">Salzhaus</placeName> zu diesem Komplex gehörte.</p>
+<p>Zum <placeName ref="loc010627">Kaufhaus</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">KdS ZH NA I</ref>, S. 265-266</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 80-87</bibl>; für eine exemplarische Kaufhausordnung vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3769622">StAZH A 58.1, Nr. 15</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_148</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1196213">StAZH G I 8, Nr. 151</idno></msIdentifier><head>Entscheid des Stadtgerichts in einem Konflikt um das Zugrecht des Grossmünsterstifts im Zusammenhang mit dem Kauf der Volmarshube in Schwamendingen</head><msContents><summary>Das Stadtgericht entscheidet im Streit zwischen Heinrich Weber von Schwamendingen sowie Stiftsverwalter Wolf und dem Grossmünsterstift, vertreten durch Ratsprokurator Albrecht und Stiftsschreiber Bodmer, weil das Stift beim Verkauf der Volmarshube von Heinrich Weber an Kaspar Wüst ein Vorkaufsrecht geltend machte. Nach Berücksichtigung des durch Bodmer aufgesetzten Kaufscheins, des Protests von Statthalter Hirzel als Gläubiger einer auf diesem Hof liegenden Schuld gegen den Fall des Hofs an die Tote Hand sowie weiterer Aussagen von Kaspar Wüst und Pfarrer Köchli entscheidet das Stadtgericht, dass das Grossmünster beim Kauf bleiben kann. Sollte es jedoch vom Kauf zurücktreten, soll Weber die bereits erhaltene Anzahlung als Reuegeld behalten dürfen. Das Stift erhält acht Tage Bedenkzeit.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gerichtssschreiber am Stadtgericht Zürich</author><filiation type="current">Original (Doppelbatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1707-03-30"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005094">Gerichtsstand</term><term ref="key000369">Kauf</term><term ref="key004009">Kirchengut</term><term ref="key004428">Liegenschaft</term><term ref="key000058">Schulden</term><term ref="key000683">Urteil</term><term>Zugrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="1"/>
+<p>
+<lb/>In der streitigkeit entzwüschent <persName ref="per026217">Heinrich Wäberen</persName> von <placeName ref="loc008714">Schwamendingen</placeName>
+<lb/>ein-, und <abbr>hr</abbr> rathsprocurator <persName ref="per026212">Albrechten</persName>, mit zu thun herren
+<lb/>stifftschreiber <persName ref="per026213">Bodmers</persName>, innammen <abbr>hr</abbr> verwalter <persName ref="per026158">Wolffen</persName> und
+<lb/><choice><abbr>sambt</abbr><expan>sambtlicher</expan></choice> wolehrwürdiger <orgName ref="org004352">stifft zum Großenmünster</orgName> alhier ander<lb break="no"/>seits,
+<unclear><choice><abbr>belgde</abbr><expan>belangende</expan></choice></unclear><!-- Abkürzung? Aber wofür? belangende? PS: Ja, macht Sinn --> die haltung deß zugs, so ein wol ehrwürdiger
+<lb/><orgName ref="org004352">stifft</orgName> um den zwüschent obbemeldtem <persName ref="per026217">Heinrich Wäberen</persName> als verkaüffer
+<lb/>und <persName ref="per026218">Caspar Wuest</persName> als vorgegebnem kaüfferen deß so <choice><abbr>gnt</abbr><expan>genanten</expan></choice>
+<sic><placeName ref="loc012841">Voll<lb break="no"/>mats<!-- sic? Müsste wohl  eigentlich 'Vollmars' heissen. PS: sic darf gesetzt werden  -->
+Hueb</placeName></sic> hoffs zu <placeName ref="loc009859">Schwamendingen</placeName> um <measure type="currency" unit="fl" quantity="3600">3600 </measure> getroffenen
+<lb/>kauff gethan habe, ward nach ersehung eines von vorbemeldtem 
+<lb/><abbr>hr</abbr> stifft schreiber <persName ref="per026213">Bodmeren</persName> aufgesetzten kauffscheins vom <date when="1707-01-28"><unclear>28.</unclear>
+<lb/>januarii</date> letzthin; demnach herren <choice><abbr>landsch<hi rend="sup">r</hi></abbr><expan>landschreiber</expan></choice>
+<persName ref="per026159">Wuesten</persName>, innammen meines hoch<lb break="no"/>geachten
+herren <choice><abbr>statthltr</abbr><expan>statthalter</expan></choice>
+<persName ref="per026214">Hirtzels</persName>, als creditoris einer uff dieserem
+<lb/>hoff in <measure type="currency" unit="fl" quantity="900">900 </measure>
+<choice><abbr>cap</abbr><expan>capital</expan></choice> bestehenden schuld, wider dieseren in todten
+<lb/>hand fallenden kauff-zug abgelegten protestation und hierum er<lb break="no"/>theilten
+weitläuffigen bericht; demnach hierüber alles abge<lb break="no"/>legten
+klag und antwort sambt deß angeregten <persName ref="per026218">Caspar Wuesten</persName>
+<lb/>persöhnlicher ußag und herren pfarrer <persName ref="per026216">Köchlis</persName> uff das an
+<lb/>ihne gethane angelegenliche begehren eröffneten nachricht um
+<lb/>die an <persName ref="per026217">Heinrich Wäberen</persName> von obwolvermeldtem herrn verwalter
+<lb/><persName ref="per026158">Wolffen</persName> ihme jüngsthin übergeben commission, verhör und be<lb break="no"/>trachtung
+einhellig erkennt, es solle einer wol ehrwürdigen
+<lb/>stifft dieser kauffs-zug eintweders verbleiben oder aber selbige
+<lb/>im widerigen fahl dem <persName ref="per026217">Heinrich Wäber</persName> die an den kauffschilling <pb n="2"/>
+<lb/>bereits avancierten <measure type="currency" unit="fl" quantity="325">325 </measure> als ein wendschatz nachzusehen
+<lb/>schuldig sein, mithin innert <date dur="P8D">acht tagen</date> zeit sich an dieserem
+<lb/>orth deß eint- oder anderen zu erklähren habe.</p>
+<p>
+<lb/>Actum an einem ehrsamben freyen <orgName ref="org005052">stattgericht</orgName> in <origPlace ref="loc000065">Zürich</origPlace>,
+<lb/><origDate when="1707-03-30">mitwuchs, den 30. martii anno 1707</origDate>.</p>
+<p><lb/>Grichtschreiber <choice><abbr>sst</abbr><expan>scripsit</expan></choice>
+</p><pb n="3"/><pb n="4"/>
+</div>
+<div><ab type="dorsal" place="verso">
+<lb/>Herren verwalter <persName ref="per026158">Wolffen</persName>
+<lb/>zu hochgeehrten <choice><abbr>hd</abbr><expan>handen</expan></choice>
+</ab></div>
+<div>
+<ab type="dorsal" place="verso">
+<lb/>Grichtsurthel betrefend
+<lb/><persName ref="per026217"><choice><abbr>Heinr</abbr><expan>Heinrich</expan></choice> Wäbers</persName> güeter ver<lb break="no"/>kauf.
+</ab></div>
+</body>
+<back>
+<div>
+<p>Unter der Signatur <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1195572">StAZH G I 8, Nr. 143</ref></bibl> findet sich ein Entwurf für eine Verleihung der <placeName ref="loc012841">Volmarshube</placeName> an <persName ref="per026218">Kaspar Wüst</persName> als Handlehen. Zum <orgName ref="org005052">Stadtgericht</orgName> 
+vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_119">SSRQ ZH NF II/11, Nr. 119</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_155">SSRQ ZH NF II/11, Nr. 155</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1940</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

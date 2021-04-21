@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich.</title>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2015-10-18"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_11_155</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4547718">StAZH B II 824, S. 66-68</idno></msIdentifier><head>Aberkennung der Rechtssprechung des Stadtgerichts in Kauf- und Zugsachen zugunsten der Obervögte von Wiedikon</head><msContents><summary>Nachdem die Obervögte von Wiedikon und das Stadgericht sich nicht gütlich einigen konnten darüber, wem die Jurisdiktion über die Zugstreitigkeit zwischen Heinrich Steinbrüchel und David Esslinger um die Zureichsche Bleiche gebührt, ist das Geschäft zur Beurteilung an den Zürcher Rat gelangt. Das Stadtgericht argumentiert, dass der Zug eines Kaufs als Schuldsache zu betrachten sei und somit in seine Jurisdiktion gehöre, zumal es sich um einen Streit zwischen zwei Stadtbürgern handle. Dagegen halten die Obervögte von Wiedikon den Fall nicht für eine Schuldsache, und da die Beurteilung von Kauf- und Zugstreitigkeiten nur in den an das Vogteigericht gehörenden Gemeinden dem Stadtgericht zustehe, falle diese Sache in die Jurisdiktion der Obervögte. Der Rat ruft die in den Ausstand getretenen Ratsherren, die Güter in Wiedikon besitzen, wieder herein und entscheidet, dass in diesem Fall die Obervögte von Wiedikon zuständig seien.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="37.0"/><width unit="cm" quantity="11.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1739-02-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003412">Ausstand</term><term ref="key005094">Gerichtsstand</term><term ref="key005403">Kompetenz</term><term ref="key000058">Schulden</term><term ref="key000036">Vogtei</term><term>Zugrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div><pb n="66"/>
+<head><lb/><origDate when="1739-02-10">Zinnstags, den 10. <choice><abbr>febr</abbr><expan>februar</expan></choice></origDate>,
+<lb/><choice><abbr>prntb</abbr><expan>presentibus</expan></choice> herren <orgName ref="org002406">burgermei<lb break="no"/>ster
+<persName ref="per015060">Hirzel</persName>, räth und burger</orgName></head>
+<p>
+<seg><lb/>Nachdem die <abbr>hh</abbr> obervögte
+<lb/>zu <placeName ref="loc009863">Wiedikon</placeName> und <placeName ref="loc010356">Albisrieden</placeName> ei<lb break="no"/>ner-
+und ein frey <choice><abbr>lob</abbr><expan>lobliches</expan></choice>
+<orgName ref="org005052">statt<lb break="no"/>gericht</orgName>
+allhier anderseits, nach
+<lb/>deme von <abbr>mnghhrn</abbr> den klei<lb break="no"/>nen
+räthen sub <date when="1738-12-17">17. decembris lest
+<lb/>abgewichenen jahrs</date> gehegten ge<lb break="no"/>danken<note>Vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4572766">StAZH B II 822, S. 255</ref></bibl>.</note>
+über die einanderen
+<lb/>widersprochene <foreign xml:lang="la">competentiam
+<lb/>fori</foreign> in der zwüschent <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+<lb/><persName ref="per026396">Heinrich Steinbrüchel</persName> und <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+<lb/><persName ref="per026395">David Eßlinger</persName>, beyderseits
+<lb/>hiesig verbürgerten, obwal<lb break="no"/>tenden
+zugsstreitigkeit der
+<lb/>einten helffte der <persName ref="per027228">Zureichischen</persName><!-- Hans Jakob Zureich, vgl. StAZH A 154, Nr. 118 -->
+<lb/>bleiki bey dem <placeName ref="loc012834">Nakenden
+<lb/>Mann</placeName> sich nicht mit einand<lb break="no"/>ren
+vergleichen konnen, sondern
+<lb/>dises geschäfft zu hoher beur<lb break="no"/>theilung 
+an <abbr>mn ghhr</abbr> gewach<lb break="no"/>sen.</seg>
+<seg>Und zu solchen und vor
+<lb/>hochgedacht denen selben heüte
+<lb/>beyde theil als wolvorgedachte
+<lb/><abbr>hh</abbr> obervögte zu <placeName ref="loc009863">Wiedikon</placeName>
+<lb/>und herr schultheiß <persName ref="per002906">Lan<lb break="no"/>dolt</persName>,
+in zustand <choice><abbr>samt</abbr><expan>samtlicher</expan></choice> der<lb break="no"/>mahligen 
+<abbr>hh</abbr> beysizeren eines
+<lb/>frey <choice><abbr>lob</abbr><expan>loblichen</expan></choice>
+<orgName ref="org005052">stattgerichts</orgName>, <foreign xml:lang="la">in
+<lb/>contradictorio</foreign> erschinen und
+<lb/>ihre darüber zu haben ver<lb break="no"/>meinende
+befugsamme persöhn<lb break="no"/>lich
+des mehreren und zwah<lb break="no"/>ren
+kürzlich dahin gehende
+<lb/>vorgestellt, daß ein <pb n="67"/>
+<lb/>frey <choice><abbr>lob</abbr><expan>lobliches</expan></choice>
+<orgName ref="org005052">stattgericht</orgName> den <foreign xml:lang="la">ques<lb break="no"/>tionirenden</foreign>
+streit um den zug
+<lb/> eines kauffs als eine schuldsach,
+<lb/>und danahen zwüschent burgern
+<lb/>waltend, vermög einich allegirten
+<lb/>articula des stattrechtens seiner
+<lb/>judicatur unterworffen ansihet.
+<lb/>Die <abbr>hh</abbr> obervögte zu <placeName ref="loc009863">Wiedikon</placeName>
+<lb/>hingegen selbigen als keine
+<lb/>schuldsach halten und ihm, wei<lb break="no"/>len
+in dem stattrecht <abbr>pag</abbr> 20
+<lb/>§ 17<note>Es handelt sich um das Stadtrecht und Landrecht (Stadtgerichtsordnung) von Zürich, <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3301904">StAZH III PPb 5/1</ref></bibl>; abgedruckt auch in <bibl><ref target="/startseite/literaturverzeichnis">SBPOZH</ref>, Bd. 1, Nr. 1, S. 1-176, hier S. 28-29</bibl>.<!-- Vgl. dazu auch Weibel, Stadtstaat, S. 53f (in Kantonsgeschichte ZH Bd. 2) --></note> dem frey <choice><abbr>lob</abbr><expan>loblichen</expan></choice>
+<orgName ref="org005052">stattgericht</orgName>
+<lb/>nur in denen an das vogt<lb break="no"/>gericht 
+gehörigen gemeinden die
+<lb/>beurtheilung der streitigkeiten
+<lb/>um kaüff und zug zu denen
+<lb/>kaüffen oder verkaüffen zu<lb break="no"/>geeignet
+werden <unclear>seye</unclear>, vor
+<lb/>sie in solch ganz verschiedenem
+<lb/>fahl gehörend glauben <abbr>etc</abbr>.</seg>
+<seg><lb/>Haben <abbr>mn ghhrn</abbr> bevorderst
+<lb/>den außstand auf den ge<lb break="no"/>wohnlichen
+zunfft außstand
+<lb/>reglirt und diejenige <abbr>hh</abbr> aus
+<lb/>dero hohen mittel, so landgu<lb break="no"/>ter
+in denen gerichten <placeName ref="loc009863">Wiedikon</placeName>
+<lb/>haben, wider hineinzuberuffen
+<lb/>gutbefunden, und sodanne in
+<lb/>erwegung und reifflicher
+<lb/>erdaurung der ihnen sowol
+<lb/>mündlich vorgetragenen als
+<lb/>in <unclear>belesener</unclear> dißfähliger ge<lb break="no"/>richtlicher
+weisung und von
+<lb/>denen <abbr>hh</abbr> obervögten zu <placeName ref="loc009863">Wie<lb break="no"/>dikon</placeName>
+darüber eingegebenem
+<lb/>beantwortungs memoriale
+<lb/>enthaltenen beydseitigen gründen <pb n="68"/>
+<lb/>mit recht erkennt, daß die ju<lb break="no"/>dicatur
+angezognen zugsstreits
+<lb/>denen <abbr>hh</abbr> obervögten zu <placeName ref="loc009863">Wie<lb break="no"/>dikon</placeName>
+zugehören solle.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Am 17. Dezember 1738 hatte der <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> entschieden, dass die Jurisdiktionsstreitigkeit zwischen dem <orgName ref="org005052">Stadtgericht</orgName> und den Obervögten von <placeName ref="loc009863">Wiedikon</placeName> vom <orgName ref="org002406">Rat</orgName> entschieden werden sollte, wenn sie sich nicht 
+gütlich einigen könnten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4572766">StAZH B II 822, S. 255</ref></bibl>). Das <orgName ref="org005052">Stadtgericht</orgName> beanspruchte die Zuständigkeit, weil es sich seiner Ansicht nach um eine Schuldsache und einen 
+Streit zwischen Stadtbürgern handelte. Hingegen bestritten die Obervögte, dass der Fall eine Schuldsache sei und argumentierten, dass die Beurteilung von Kauf- und Zugstreitigkeiten dem <orgName ref="org005052">Stadtgericht</orgName> nur in den ihm zugeordneten Vogteien zustehe. Tatsächlich gehörte <placeName ref="loc009863">Wiedikon</placeName> 
+als  einzige der direkt an die Stadt angrenzenden Gemeinden weder zum <orgName ref="org005052">Stadtgericht</orgName> im engeren Sinne, dem unter anderem die <placeName ref="loc010140">Vier Wachten</placeName> mit <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010476">Hottingen</placeName>, <placeName ref="loc010816">Unterstrass</placeName> und <placeName ref="loc010574">Oberstrass</placeName> 
+unterstanden, noch zum sogenannten <orgName ref="org005053">Vogtgericht</orgName>, dem <placeName ref="loc010647">Riesbach</placeName> und die Vogtei <placeName ref="loc010425">Enge</placeName> unterstellt worden waren (vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 136-150</bibl>). Möglicherweise war dies das
+ausschlaggebende Argument, denn in anderen Fällen urteilte das <orgName ref="org005052">Stadtgericht</orgName> auch in Zugstreitigkeiten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_148">SSRQ ZH NF II/11, Nr. 148</ref></bibl>). Das Gericht von <placeName ref="loc009863">Wiedikon</placeName>
+hatte sich schon 1647 gegen einen Eingriff des Stadtgerichts in seine Jurisdiktion gewehrt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_119">SSRQ ZH NF II/11, Nr. 119</ref></bibl>).</p>
+<p>Das Gericht von <placeName ref="loc009863">Wiedikon</placeName> unter dem Vorsitz der Obervögte entschied am 21. Februar 1739, dass <persName ref="per026395">Esslinger</persName> berechtigt war, ein Zugrecht auszuüben. <persName ref="per026396">Steinbrüchel</persName> gab sich mit diesem Urteil nicht zufrieden und appellierte an 
+den Rat, weshalb ihm am 9. März 1739 ein Appellationsrezess ausgestellt wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=757746">StAZH A 154, Nr. 118</ref></bibl>). Der <orgName ref="org002406">Rat</orgName> wies die Appellation am 16. März 1739 jedoch ab und bestätigte das Urteil der Obervögte
+(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4572764">StAZH B II 824, S. 112-113</ref></bibl>).</p>
+<p>Zu einem ähnlichen Kompetenzstreit zwischen dem <orgName ref="org005052">Stadtgericht</orgName> und den Obervögten von <placeName ref="loc010875">Wipkingen</placeName>, in dem der <orgName ref="org002406">Rat</orgName> entschied, dass die Jurisdiktion dem <orgName ref="org005052">Stadtgericht</orgName> zustehe, vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4572787">StAZH B II 856, S. 60-61</ref></bibl>. 
+Zu den Kompetenzstreitigkeiten zwischen <orgName ref="org005052">Stadtgericht</orgName> und Obervögten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1940</ref></bibl>; zum <orgName ref="org005052">Stadtgericht</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref></bibl>.
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

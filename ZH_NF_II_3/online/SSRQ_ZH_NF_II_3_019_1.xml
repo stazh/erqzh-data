@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 3: Die Landvogtei
+Greifensee</title>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Rainer Hugener</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2021-07-01"/>
+<date type="print" when="2021-07-01"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_II_3_019_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=433927">StAZH C I, Nr. 2503, S. 9</idno>
+</msIdentifier>
+<head>Bestimmungen über die Fischerei auf dem Greifensee</head>
+<msContents>
+<summary>Bürgermeister und Rat der Stadt Zürich haben vernommen, dass die Fischer vom Greifensee nicht umgehend alle Fische auf den
+städtischen Markt liefern, sondern sie teilweise in Netzen, an Schnüren oder in Gefässen auf ihren Schiffen zurückbehalten. Solche alten,
+gequälten Fische würden allerhand Krankheiten verursachen. Um dies zu verhindern, sollen die Fischer schwören, dass sie die gefangenen
+Fische umgehend auf den städtischen Morgenmarkt oder Abendmarkt liefern. Einen solchen Eid hätten sie am Heiligkreuztag (3. Mai) in
+Anwesenheit der Vögte Johannes von Isnach und Rüdger Studler geleistet. Wer dagegen verstösst, soll beim Vogt angezeigt werden und für jeden
+Verstoss eine Busse von einer halben Mark Silber bezahlen.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Zeitgenössische Abschrift aus dem Stadtbuch</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Pergament</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="30.0"/>
+<width unit="cm" quantity="24.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate when="1431-05-02"/></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>Zürcher Stadtbücher, Bd. 3/2, S. 138-139, Nr. 21 (auf der Grundlage des Stadtbuchs)</bibl>
+</listBibl>
+<listBibl>
+<head>Regest</head>
+<bibl>URStAZH, Bd. 6, Nr. 7365</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000591">Anzeigepflicht</term>
+<term ref="key000179">Eid</term>
+<term ref="key000536">Fischerei</term>
+<term ref="key005405">Konsumentenschutz</term>
+<term ref="key000793">Markt</term>
+<term ref="key004022">Satzung</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="9" facs="StAZH_C_I__Nr__2503__S__09_.tif"/>
+<p><seg><lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und die raͤt der statt <placeName ref="loc000065"
+>Zu̍rich</placeName></orgName>, tuͦn kunt und ze wissen mit <lb/>disem brieff, das uns uff des <origDate when="1431-05-02">heilgen cru̍tzes
+aͧbend im meyen</origDate> begegnott ist von der <lb/>vischer und weidlu̍ten wegen, so in dem <placeName ref="loc008718"
+>Griffense</placeName> vischent, das dieselben vischer so <lb/>sy vil vischen vachent, soͤlich visch nit fu̍rderlich her in unser statt ze
+markt senden, <lb/>dann das sy dero ein teil in das wasser in baͤrren und an schnuͤren laussen und ze ver<lb break="no"/>kouffen senden je
+ein oder zwein kratten nach dem andern, so inen das fuͦklich sye, da <lb/>doch wol schinber ist, das sy nit als guͦt sint, als so sy des
+ersten gevangen werdent und <lb/>dz durch semlichs richen und armen, so dann soͤlich erblaget und alt gevangen visch <lb/>kouffent, da von
+siechtag, kumber und grosser gebrest moͤcht komen.</seg>
+<seg>Und semlichen <lb/>unwissenden zuͦfallenden gebresten ze versechen, haben wir uns bekennet und <lb/>ist gantz unser meinung, das alle
+vischer und weidlu̍t, so in dem <placeName ref="loc008718">Griffense</placeName> vischent, swe<lb break="no"/>ren sullent, alz sy ouch
+getaͧn hand, uff des <date when="1431-05-03">heilgen cru̍tzes tag ze meyen</date> in gegen<lb break="no"/>wu̍rtikeit <persName
+ref="per013901">Johansen von Isnachs</persName> und <persName ref="per013899">Ruͤdger Stuͦdlers</persName>, unsers vogt, die von unsers
+<lb/>bevelchens wegen, da mit und by sint gewesen, gelert eid ze gott und den heilgen, wie <lb/>vil vischen sy fu̍rbas hin vachent, die sy
+verkouffen wellent, dz sy dieselben visch, die <lb/>sy an dem aͧbend, in der naͧcht oder fruͤ gegen tag vachent, fruͤ uff den morgenmarkt
+her <lb/>in unser statt ze verkouffen schiken sullent. Und was vischen ouch sy vor mittem tag oder <lb/>darnaͧch vachent, die sy uff den
+aͧbend markt her in schiken mugent, die sullent sy ouch <lb/>by denselben iren eiden her in senden ze verkouffen, und die u̍ber nacht nit
+behalten <lb/>und fu̍rbashin kein visch mer weder in berren, an schnuͤren noch in flossschiffen noch <lb/>gransen in das wasser laussen,
+tuͦn noch behalten, an all widerred, ungevarlich.</seg>
+<seg>Were aber, <lb/>das jeman diser vorgeschribnen stuken deheines u̍berfuͤre und nit staͤt hielte, der sol <lb/>u̍nser gemeinen statt ze
+buͦß geben und verfallen sin <measure type="currency" unit="M" quantity="0.5">ein halb march silbers</measure>, alz dik dz <lb/>ze schulden
+kunt, aͧn all gnaͧden. Und sol ouch jeklicher den andern unserm vogt ze <placeName ref="loc000348">Griffense</placeName>
+<lb/>leiden by dem eid, so er gesworn haͧt. Und <damage agent="fold"><unclear cert="high">sol</unclear></damage> ouch unser vogt die buͦss
+by sinem eid inzu̍chen, <lb/>aͧn all gnaͧd.</seg>
+<seg><app>
+<lem>Actum als vor, anno <abbr>etc</abbr>
+<origDate when="1431">xxxj <damage agent="fold"><unclear cert="high">m<hi rend="sup">o</hi></unclear></damage></origDate>.</lem>
+<rdg wit="StAZH A 85, Nr. 7, S. 8-9">Und alls ouch <lb/>bißhar gebrucht ist, das etlich am <placeName ref="loc008718">Griffennse</placeName>
+<lb/>habent fisch koufft und uff ander merckt tragen, <!-- Seitenumbruch: <pb n="9"/> --><lb/>da sol hinfu̍r <sic>niemas</sic> mer die fisch
+am <placeName ref="loc008718">Griffen<lb break="no"/>se</placeName> verkouffen, sunder ein jeder sine visch, die <lb/>er hat gefanngen, bi
+sinem knecht gen <placeName ref="loc000065">Zu̍rich</placeName> uff den merckt schicken. Wol mag einer sinem <lb/>nachpuren ungevarlich ein
+essen visch geben. <lb/>Und wer das nit hielt, der sol den einung <lb/>verfallen haben und die buͦß von im on gnad <lb/>ingezogen
+werden.</rdg>
+</app></seg></p>
+</div>
+</body>
+<back>
+<div>
+<p>Der vorliegende Text wurde zur Verkündigung auf der letzten Seite im Heft der Fischereinung eingetragen. Es handelt sich um eine
+Abschrift der Verordnung im Stadtbuch mit dem Titel <orig>Von der fischer wegen von <placeName ref="loc008569">Griffensew</placeName>, wie
+die ir fisch an unsern maͤrkt fuͤren soͤllend</orig> (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd.
+3/2, S. 138-139, Nr. 21</bibl>). Am gleichen Tag bestimmte der Rat, dass die Fischverkäufer der Stadt <placeName ref="loc000065"
+>Zürich</placeName> die Fische, die ihnen aus dem <placeName ref="loc008718">Greifensee</placeName> oder anderen Gewässern geliefert werden,
+unmittelbar zum Verkauf anbieten müssen (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S.
+140-141, Nr. 23</bibl>). Eine knappe Woche später wurde diese Bestimmung auf Bitte der Fischer für kleinere Fänge gelockert, was wiederum im
+Stadtbuch sowie im Heft der Fischereinung vermerkt wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_3_020">SSRQ ZH NF II/3, Nr.
+20</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>
