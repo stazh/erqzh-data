@@ -3,117 +3,290 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
      Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
      Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-04-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_11_046</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3552798">StAZH III AAb 1.9, Nr. 12</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend fremde und einheimische Krämer sowie Hausierer</head><msContents><summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erlassen aufgrund von Klagen der Zunft zur Saffran über die Krämer und Hausierer ein Mandat. Zunächst wird verordnet, dass die Krämer im Umkreis von einer Stunde um die Stadt Zürich herum ihre Geschäfte nicht betreiben dürfen. Künftig sollen die Krämer ihre Waren bei den städtischen Bürgern einkaufen. Es wird zwar nicht verboten, dass die Krämer ihre Waren auf dem Zurzacher Markt oder anderswo ausserhalb des zürcherischen Gebietes einkaufen, jedoch muss für die Waren im städtischen Kaufhaus der fällige Zoll bezahlt werden. Des Weiteren wird festgelegt, dass die Krämer der Landschaft ihre Waren nur in den eigenen Gemeinden verkaufen dürfen und dass eine bestimmte Verkaufsmenge nicht überschritten werden soll. Fremde Krämer und verdächtige Personen dürfen sich mit Ausnahme der Jahrmärkte nicht auf zürcherischem Gebiet aufhalten. Kesslern ist es nur erlaubt, diejenigen Waren zu verkaufen, welche in ihren obrigkeitlichen Bewilligungsscheinen (Freiheitsbriefen) aufgeführt sind. Zuletzt werden die Aufgaben des Waagmeisters im Kaufhaus sowie das Verfahren bei zuwiderhandelnden Krämern und Kesslern erläutert.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Einblattdruck</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Heidegger und Rahn?)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="45.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1722-09-24"/></origin></history><additional><listBibl><head>Edition</head><bibl>SBPOZH, Bd. 2, Nr. 15, S. 277-283</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 972, Nr. 1488 (unrichtig mit Überschrift)</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key001004">Bescheinigung</term><term ref="key000990">Fahrende</term><term ref="key000983">Handel</term><term ref="key001040">Hausierer</term><term ref="key000793">Markt</term><term ref="key004038">Verkaufsbeschränkung</term><term ref="key000199">Zoll</term><term ref="key003068">Zunft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="StAZH_III_AAb_1_9__Nr__12__r_.tif"/>
-<p><seg><lb/>Wir <orgName ref="org002406">Burgermeister / Klein und Grosse Raͤthe /
- <lb/>so man nennet die Zweyhundert der Stadt <placeName ref="loc000065">Zuͤrich</placeName></orgName> / Entbiethen allen und jeden Unseren Angehoͤrigen
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-04-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_11_046</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3552798"
+       >StAZH III AAb 1.9, Nr. 12</idno>
+     </msIdentifier>
+     <head>Mandat der Stadt Zürich betreffend fremde und einheimische Krämer sowie Hausierer</head>
+     <msContents>
+      <summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erlassen aufgrund von Klagen der Zunft zur Saffran über die Krämer und Hausierer ein Mandat. Zunächst wird verordnet, dass die Krämer im Umkreis von einer Stunde um die Stadt Zürich herum ihre Geschäfte nicht betreiben dürfen. Künftig sollen die Krämer ihre Waren bei den städtischen Bürgern einkaufen. Es wird zwar nicht verboten, dass die Krämer ihre Waren auf dem Zurzacher Markt oder anderswo ausserhalb des zürcherischen Gebietes einkaufen, jedoch muss für die Waren im städtischen Kaufhaus der fällige Zoll bezahlt werden. Des Weiteren wird festgelegt, dass die Krämer der Landschaft ihre Waren nur in den eigenen Gemeinden verkaufen dürfen und dass eine bestimmte Verkaufsmenge nicht überschritten werden soll. Fremde Krämer und verdächtige Personen dürfen sich mit Ausnahme der Jahrmärkte nicht auf zürcherischem Gebiet aufhalten. Kesslern ist es nur erlaubt, diejenigen Waren zu verkaufen, welche in ihren obrigkeitlichen Bewilligungsscheinen (Freiheitsbriefen) aufgeführt sind. Zuletzt werden die Aufgaben des Waagmeisters im Kaufhaus sowie das Verfahren bei zuwiderhandelnden Krämern und Kesslern erläutert.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Einblattdruck</filiation>
+       <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Heidegger und Rahn?)</publisher></docImprint>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="35.0"/>
+          <width unit="cm" quantity="45.5"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1722-09-24"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Edition</head>
+       <bibl>SBPOZH, Bd. 2, Nr. 15, S. 277-283</bibl>
+      </listBibl>
+      <listBibl>
+       <head>Nachweis</head>
+       <bibl>Schott-Volm, Repertorium, S. 972, Nr. 1488 (unrichtig mit Überschrift)</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key001004">Bescheinigung</term>
+     <term ref="key000990">Fahrende</term>
+     <term ref="key000983">Handel</term>
+     <term ref="key001040">Hausierer</term>
+     <term ref="key000793">Markt</term>
+     <term ref="key004038">Verkaufsbeschränkung</term>
+     <term ref="key000199">Zoll</term>
+     <term ref="key003068">Zunft</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="r" facs="StAZH_III_AAb_1_9__Nr__12__r_.tif"/>
+      <p><seg><lb/>Wir <orgName ref="org002406"
+          >Burgermeister / Klein und Grosse Raͤthe /
+ <lb/>so man nennet die Zweyhundert der Stadt <placeName
+          ref="loc000065"
+         >Zuͤrich</placeName></orgName> / Entbiethen allen und jeden Unseren Angehoͤrigen
  <lb/>in Unseren Landen / Gerichten und Gebiethen wohnhafft / Unseren gnaͤdigen geneigten Willen / Grus und alles Guts /
- <lb/>auch darbey zuvernemmen: Demenach Uns Unsere getreue liebe Mit-Raͤthe und samtliche Zuͤnffter zur <orgName ref="org005078">Saffran</orgName> klagend vorgetragen / welcher
+ <lb/>auch darbey zuvernemmen: Demenach Uns Unsere getreue liebe Mit-Raͤthe und samtliche Zuͤnffter zur <orgName
+         ref="org005078"
+         >Saffran</orgName> klagend vorgetragen / welcher
  <lb/>gestalten zu ihrem hoͤchsten Nachtheil und Beschwerd einerseiths sich die Anzahl der Kraͤmeren auf Unserer Landschafft / sonderlich auch nach um Unsere Stadt
  <lb/>herumb nicht nur vermehren / sondern auch diesere / an statt sie vormahlen und bis an kurze Zeit ihre Kraͤmer-Wahren allhier von hiesigen verburgerten Kraͤmeren
- <lb/>eingekaufft; nun solche auf dem <placeName ref="loc000959">Zurzacher</placeName> Markt und von anderen froͤmden Orthen erkauffen und anschaffen / zumahlen meistens den Uns schuldigen Zoll ab<lb break="no"/>zufuͤhren
+ <lb/>eingekaufft; nun solche auf dem <placeName
+         ref="loc000959"
+         >Zurzacher</placeName> Markt und von anderen froͤmden Orthen erkauffen und anschaffen / zumahlen meistens den Uns schuldigen Zoll ab<lb
+         break="no"
+         />zufuͤhren
  also außweichen thuͤgind; anderseiths aber nun wider Unsere zum oͤffteren wiederholte Mandat und Verbott abermahl viel froͤmde und einheimsche
  <lb/>Hausierer und Land-streichende Kraͤmer sich in Unserem Land befinden / welche ihnen so wol an dem Verschlies ihrer Wahren merklichen Abbruch gethan / als auch
- <lb/>ehrliche Leuth vielmahlen betrogen und angesetzet haben: Daß Wir eine ohnvermeidenliche Nothdurfft zuseyn erachtet / um Abhebung fehrnerer danahen erwach<lb break="no"/>sender
- Ungelegenheit und taͤglichen Klaͤgden / dieseren in allweg beschwerlichen und so wol Unserem Zoll-<hi rend="font change">Regali</hi> als auch Unseren Angehoͤrigen zu Stadt und Land
+ <lb/>ehrliche Leuth vielmahlen betrogen und angesetzet haben: Daß Wir eine ohnvermeidenliche Nothdurfft zuseyn erachtet / um Abhebung fehrnerer danahen erwach<lb
+         break="no"
+         />sender
+ Ungelegenheit und taͤglichen Klaͤgden / dieseren in allweg beschwerlichen und so wol Unserem Zoll-<hi
+         rend="font change"
+        >Regali</hi> als auch Unseren Angehoͤrigen zu Stadt und Land
  <lb/>nicht wenig nachtheilig eingeriessenen Mißbraͤuchen moͤglichst vorzukommen / und Unseren Obrigkeitlichen Befehl / Will und Meinung hieruͤber zu dem End aller
  <lb/>Orthen Unserer Bottmaͤssigkeit hiemit offentlich verkuͤndigen zulassen;</seg>
-<seg>Daß / gleichwie Wir Niemandem <time dur="PT1H">eine Stund</time> weit um Unsere Stadt herumb Kraͤmerey zu<lb break="no"/>treiben
+       <seg>Daß / gleichwie Wir Niemandem <time dur="PT1H"
+         >eine Stund</time> weit um Unsere Stadt herumb Kraͤmerey zu<lb break="no"
+         />treiben
  gestatten / also Uns zu denen uͤbrigen auf Unserer von der Stadt entfehrnten Landschafft befindlichen Kraͤmeren gnaͤdig versehen wollen / daß sie wie vorhin / also
- <lb/>auch in das koͤnfftige ihre noͤthige Kraͤmer-Wahren wiederum von Unseren verburgerten Kraͤmeren und nicht anderwerths an froͤmden Orthen anschaffen und ein<lb break="no"/>kauffen
- werden / jedoch auch auß Gnaden und auf Zusehen hin denenselben / allenfahls sie um ihres besseren Nutzens und Kommlichkeit willen / etwan<del rend="blackened">n</del> solcherley
- <lb/>Wahren auf denen <placeName ref="loc000959">Zurzacher</placeName> Maͤrkten einkauffen wolten; solches nicht verbotten haben wollen / in der außtruckenlichen Meinung jedoch / daß sie hierbey die ge<lb break="no"/>buͤhrende
- Bescheidenheit beobachten und keine Gefahr gebrauchen / zumahlen bey <hi rend="font change">Confiscation</hi> der Wahr und weiter zuerwarten habender Straff / die auf beyden
- <lb/>Seithen Unsers <placeName ref="loc000127">Sees</placeName> und sonst Unserer Stadt nachgelegnen Orthen sich aufhaltende Kraͤmer solch also erkauffende Wahren in allhiesiges <placeName ref="loc010627">Kauffhauß</placeName> fuͤhren / die
- <lb/>von Unserer Stadt an entlegenen Orthen seßhaffte aber ihre <hi rend="font change">Conti</hi>, Kauff- und Waag-Zedul in ermeldtes <placeName ref="loc010627">Kauffhauß</placeName> bringen / und die eint und andere darvon
+ <lb/>auch in das koͤnfftige ihre noͤthige Kraͤmer-Wahren wiederum von Unseren verburgerten Kraͤmeren und nicht anderwerths an froͤmden Orthen anschaffen und ein<lb
+         break="no"
+         />kauffen
+ werden / jedoch auch auß Gnaden und auf Zusehen hin denenselben / allenfahls sie um ihres besseren Nutzens und Kommlichkeit willen / etwan<del
+         rend="blackened">n</del> solcherley
+ <lb/>Wahren auf denen <placeName ref="loc000959"
+         >Zurzacher</placeName> Maͤrkten einkauffen wolten; solches nicht verbotten haben wollen / in der außtruckenlichen Meinung jedoch / daß sie hierbey die ge<lb
+         break="no"
+         />buͤhrende
+ Bescheidenheit beobachten und keine Gefahr gebrauchen / zumahlen bey <hi
+         rend="font change"
+         >Confiscation</hi> der Wahr und weiter zuerwarten habender Straff / die auf beyden
+ <lb/>Seithen Unsers <placeName
+         ref="loc000127"
+         >Sees</placeName> und sonst Unserer Stadt nachgelegnen Orthen sich aufhaltende Kraͤmer solch also erkauffende Wahren in allhiesiges <placeName
+         ref="loc010627"
+         >Kauffhauß</placeName> fuͤhren / die
+ <lb/>von Unserer Stadt an entlegenen Orthen seßhaffte aber ihre <hi
+         rend="font change">Conti</hi>, Kauff- und Waag-Zedul in ermeldtes <placeName
+         ref="loc010627"
+        >Kauffhauß</placeName> bringen / und die eint und andere darvon
  <lb/>den gebuͤhrenden Zoll gehorsamlich abfuͤhren und bezahlen sollen.</seg>
-<seg>Worbey dann Unsere fehrnere Meinung waltet / daß ermeldte Kraͤmer auf Unserer Landschafft /
+       <seg>Worbey dann Unsere fehrnere Meinung waltet / daß ermeldte Kraͤmer auf Unserer Landschafft /
  <lb/>welche an dem eint oder anderen Orth Gemeinds-genoͤssig sind / mit ihrem Krahm nicht ausserhalb ihre Gemeinden / allwo sie seßhafft sind / weder in hiesige Unsere
- <lb/>Haupt-Stadt noch in die Flecken und Doͤrffer Unserer Gerichten und Gebiethen / allein jedes Orths gewohnliche Jahr-Markt außbedungen: gehen / fahren / viel<lb break="no"/>weniger
- allda feil haben / zumahl gar und gaͤnzlich und zu keiner Zeit einiche erkauffende Wahr zu ganzen Kisten / Ballen und Fassen wieder verkauffen noch ver<lb break="no"/>tauschen
+ <lb/>Haupt-Stadt noch in die Flecken und Doͤrffer Unserer Gerichten und Gebiethen / allein jedes Orths gewohnliche Jahr-Markt außbedungen: gehen / fahren / viel<lb
+         break="no"
+         />weniger
+ allda feil haben / zumahl gar und gaͤnzlich und zu keiner Zeit einiche erkauffende Wahr zu ganzen Kisten / Ballen und Fassen wieder verkauffen noch ver<lb
+         break="no"
+        />tauschen
  moͤgen / sondern dieselbige allein Stuck- Ellen- oder Pfund-weise wieder verkauffen und außzuschneiden befuͤgt seyn sollen.</seg>
-<seg>Was aber so dann weiters an<lb break="no"/>sehen
+       <seg>Was aber so dann weiters an<lb break="no"
+         />sehen
  wil die froͤmde Kraͤmer / Gewuͤrz- und Kraͤtzen-Trager / Scheidenmacher / auch all anders dergleichen verdaͤchtiges Gesind / so nicht Unsere Unterthanen oder
  <lb/>Uns mit gehoͤriger Eydspflicht verwandt sind: ist derselben halber Unser ernstlicher Befehl / Will und Meinung / daß selbige alle gleich von Stund an Unsere Stadt /
  <lb/>Landschafft / Gericht und Gebiethe allenthalben / und zwahren bey Verliehrung ihres Krahms und Wahren raumen / darauß ziehen / und fehrners kein Aufenthalt
  <lb/>darinn suchen noch haben / vorbehalten die gewohnliche Jahr-Maͤrkt zu Stadt und Land / so ein jeder auf bestimmte Zeit wol besuchen / und darinn / wie von Alter
  <lb/>her / seinen Krahm feil haben und verkauffen moͤgen / auch diejenigen Keßler / welche Kupfer und Zinnernen Geschirs halber Obrigkeitliche Freyheits-Brieff haben /
- <lb/>derselben zwahr auf zusehen hin / fehrner geniessen / jedoch auch ihnen das herumtragen und verkauffen aller anderer Wahren / wie sie immer Nammen haͤtten / gaͤnz<lb break="no"/>lich
+ <lb/>derselben zwahr auf zusehen hin / fehrner geniessen / jedoch auch ihnen das herumtragen und verkauffen aller anderer Wahren / wie sie immer Nammen haͤtten / gaͤnz<lb
+         break="no"/>lich
  abgestrickt und verbotten seyn solle.</seg>
-<seg>Gleichwie Wir nun in Ansehung Unserer Angehoͤrigen in dem gnaͤdigen Vertrauen stehen sie dieserem Unserem wol und
+       <seg>Gleichwie Wir nun in Ansehung Unserer Angehoͤrigen in dem gnaͤdigen Vertrauen stehen sie dieserem Unserem wol und
  <lb/>ernstlich gemeinten Ansinnen und Befehl mit Einkauff der Wahren in Unserer Stadt oder pflichtiger Zufuhr und Angebung / auch gehoͤriger Verzollung derselben
- <lb/>in Unserem <placeName ref="loc010627">Kauffhauß</placeName> gehorsame Folg leisten werden / also haben Wir auch Unserem in das <placeName ref="loc010627">Kauffhauß</placeName> verordneten Waagmeister den ernstlichen Befehl ertheilt /
+ <lb/>in Unserem <placeName
+         ref="loc010627"
+         >Kauffhauß</placeName> gehorsame Folg leisten werden / also haben Wir auch Unserem in das <placeName
+         ref="loc010627"
+         >Kauffhauß</placeName> verordneten Waagmeister den ernstlichen Befehl ertheilt /
  <lb/>unter der Ober-Aufsicht Unserer verordneten Seckelmeisteren hierauf gefliessenes Aufsehen zuhalten / zumahlen ihme den Gewalt gegeben / wann er oder jemand
- <lb/>ander einichen Verdacht haͤtte / daß der eint oder andere Kraͤmer seine <hi rend="font change">Conti</hi>, Kauff- und Waag-Zedel nicht recht angegeben; durch den dortigen Obrigkeitlichen Be<lb break="no"/>amteten
+ <lb/>ander einichen Verdacht haͤtte / daß der eint oder andere Kraͤmer seine <hi
+         rend="font change"
+         >Conti</hi>, Kauff- und Waag-Zedel nicht recht angegeben; durch den dortigen Obrigkeitlichen Be<lb
+         break="no"
+        />amteten
  die Nachfrag und Untersuchung / ob ein solcher Kraͤmer nicht mehrere oder andere Wahr / als er angegeben / bey handen habe und verkauffe? thun zulassen.</seg>
-<seg><lb/>Die froͤmden Land-streichenden Kraͤmer und Hausierer aber / welche in Unserer Haupt-Stadt hierwider fehlbar betretten / oder so einiche Keßler unerlaubter Dingen /
+       <seg><lb/>Die froͤmden Land-streichenden Kraͤmer und Hausierer aber / welche in Unserer Haupt-Stadt hierwider fehlbar betretten / oder so einiche Keßler unerlaubter Dingen /
  <lb/>auch die so mit Bewilligungs-Brieffen versehen / ihre gesetzte Schranken uͤberschreiten und Gefahr brauchen wurden: wollen Wir Unseren besonders getreuen lieben
- <lb/>Mit-Raͤthen und Vorgesetzten obbemeldter <orgName ref="org005078">Zunfft zur Saffran</orgName> vor sich zur Verantwortung zubeschicken / und nach gewohnlichen Gebraͤuchen mit ihnen zuver<lb break="no"/>fahren
+ <lb/>Mit-Raͤthen und Vorgesetzten obbemeldter <orgName
+         ref="org005078"
+         >Zunfft zur Saffran</orgName> vor sich zur Verantwortung zubeschicken / und nach gewohnlichen Gebraͤuchen mit ihnen zuver<lb
+         break="no"
+          />fahren
  uͤberlassen / und deren halber / so auf der Landschafft wider obig Unseren Befehl fehlbar befunden wurden / denen von gleich besagt Unseren besonders getreuen
-  <lb/>lieben Mit-Raͤthen zu derselben Aufsuch- und Vertreibung von Zeit zu Zeit außsendenden Zuͤnffteren<note>Gemeint sind die sogenannten Krämervertreiber (vgl. eine Übersicht über deren Aktivitäten zwischen 1674 bis 1715, <bibl>StAZH W I 6.39.2</bibl><!-- VE's der Saffranzunft in Scope nur rudimentär verzeichnet. -->).</note> / jederweilen von Unserer <orgName ref="org005015">Cantzley</orgName> ein Bewilligungs-<hi rend="font change">Patent</hi>
-<lb/>zustellen lassen / daß sie vermittlest eines Obrigkeitlichen Beamteten auf die Wahren dergleichen dieserem Mandat zuwider handlenden einen Arrest legen / und selbi<lb break="no"/>ge
+  <lb/>lieben Mit-Raͤthen zu derselben Aufsuch- und Vertreibung von Zeit zu Zeit außsendenden Zuͤnffteren<note>Gemeint sind die sogenannten Krämervertreiber (vgl. eine Übersicht über deren Aktivitäten zwischen 1674 bis 1715, <bibl>StAZH W I 6.39.2</bibl><!-- VE's der Saffranzunft in Scope nur rudimentär verzeichnet. -->).</note> / jederweilen von Unserer <orgName
+         ref="org005015">Cantzley</orgName> ein Bewilligungs-<hi rend="font change">Patent</hi>
+        <lb/>zustellen lassen / daß sie vermittlest eines Obrigkeitlichen Beamteten auf die Wahren dergleichen dieserem Mandat zuwider handlenden einen Arrest legen / und selbi<lb
+         break="no"
+         />ge
  folglich dortigen Orths Ober- oder Land-Voͤgten laͤiden moͤgen sollen / welche dann dieselbe ohne alle Gnad anfangs mit einer empfindlichen Gelt-Buß zubelegen /
- <lb/>auf fehrneres Verbrechen aber ihnen ihre Wahren abnemmen zulassen und zu<hi rend="font change">confisci</hi>eren / zumahlen obbedeut außsendenden Personen alle Obrigkeitliche Huͤlffs<lb break="no"/>hand
+ <lb/>auf fehrneres Verbrechen aber ihnen ihre Wahren abnemmen zulassen und zu<hi
+         rend="font change"
+         >confisci</hi>eren / zumahlen obbedeut außsendenden Personen alle Obrigkeitliche Huͤlffs<lb
+         break="no"
+        />hand
  zu ihrem Vorhaben zubieten hiemit erinneret / die Untervoͤgt / Weibel und Provosen aber auf dergleichen Leuth geflissene Achtung zugeben und sie gefaͤnglich
  <lb/>anzuhalten bey ihren Eyden und unterlassenden fahls ernstafft zuerwarten habender Straff befelchnet seyn sollen.</seg></p>
-<p>
-<lb/>Geben <origDate when="1722-09-24">Donstags den Vier und Zwanzigsten Tag Herbstmonats / von der Gnadenreichen
+      <p>
+       <lb/>Geben <origDate when="1722-09-24"
+        >Donstags den Vier und Zwanzigsten Tag Herbstmonats / von der Gnadenreichen
  <lb/>Geburt Christi unsers Heilands gezehlet / Eintausent / Siebenhundert / Zwanzig
  <lb/>und Zwey Jahr</origDate>.
 </p>
-<p><lb/><orgName ref="org005015">Cantzley der Stadt <placeName ref="loc000065">Zürich</placeName></orgName>.</p>
-<pb n="v" facs="StAZH_III_AAb_1_9__Nr__12__v_.tif
+      <p><lb/><orgName ref="org005015">Cantzley der Stadt <placeName ref="loc000065"
+         >Zürich</placeName></orgName>.</p>
+      <pb n="v" facs="StAZH_III_AAb_1_9__Nr__12__v_.tif
 "/>
-<div><ab type="dorsal" place="verso above right"><lb/>Mandat wider die fremden <lb/>krämer und hausierer de anno <date when="1722">17<damage agent="clipping"><supplied resp="srr">22</supplied></damage></date></ab></div>
-</div>
-</body>
-<back>
-<div>
-<p>Krämer und Hausierer durchreisten das <placeName ref="loc000153">eidgenössische</placeName> Gebiet spätestens seit dem Spätmittelalter und deckten damit einen Teil der Nachfrage nach gewerblichen Dienstleistungen und Gütern ab. Zu ihren Waren zählten beispielsweise Geschirr, Uhren, Bürsten, Knöpfe, Papier, Gewürze und Arzneimittel. Obrigkeitlich erlaubt war zwar nur die Verkaufstätigkeit an den offiziellen Jahrmärkten und Messen, aber die herumziehenden Krämer waren für die ländliche Bevölkerung wichtig, da sie verschiedene gewerbliche, handwerkliche und unterhaltende Bedürfnisse erfüllten. Schon seit dem 15. und vor allem im 16. Jahrhundert wurde das verbotene Hausieren wiederholt mit Mandaten bekämpft (vgl. beispielsweise das Mandat von 1539, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_175">SSRQ ZH NF I/1/3, Nr. 175</ref></bibl>), wobei sich die Differenzierung zwischen erlaubten Marktfahrern sowie zünftischen Krämern einerseits und den illegalen Hausierern andererseits oftmals als schwierig herausstellte.</p>
-<p>Um ihre wirtschaftlichen Interessen gegenüber den nichtzünftischen, einheimischen und fremden Krämern und Hausierern zu verteidigen, reichten städtische Kaufleute, insbesondere aus der <orgName ref="org005078">Zunft zur Saffran</orgName>, vielfach vor dem Rat Klage ein. Um 1700 häuften sich die Beschwerden und es kam zu wiederholten Krämermandaten (beispielsweise in den Jahren 1696, 1701, 1705, 1708 und 1710. Vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550842">StAZH III AAb 1.6, Nr. 36</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551132">StAZH III AAb 1.7, Nr. 2</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551217">StAZH III AAb 1.7, Nr. 33</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551244">StAZH III AAb 1.7, Nr. 60</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551633">StAZH III AAb 1.8, Nr. 5</ref></bibl>). Spätestens seit 1674 stellte die <orgName ref="org005078">Zunft zur Saffran</orgName> aus ihren eigenen Mitgliedern mehrere sogenannte Krämervertreiber, welche die Aufgabe hatten, die zuwiderhandelnden Krämer zu vertreiben (<bibl>StAZH W I 6.39.2</bibl><!-- VE's der Saffranzunft in Scope nur rudimentär verzeichnet. -->). Ausserdem erhielten die Krämervertreiber seit dem Ratsbeschluss vom 11. Mai 1720 die Erlaubnis, zusammen mit einem Amtmann verbotene Krämerwaren zu konfiszieren (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008">StAZH B II 748</ref>, S. 122-123</bibl>). Die Anliegen der <orgName ref="org005078">Zunft zur Saffran</orgName> deckten sich aber nicht immer mit den Interessen des Rates. Im November 1719 beschlossen die Ratsmitglieder, dass infolge einer mündlichen und schriftlichen Beschwerde der Zunft einige Verordnete der <orgName ref="org005095">Fabrikkommission</orgName> ein Gutachten und Ratschlag über die Krämer verfassen sollten (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245006">StAZH B II 746</ref>, S. 150-151</bibl>). Knapp einen Monat später erfolgte das Gutachten, worin die <orgName ref="org005095">Fabrikkommission</orgName> empfahl, das Krämermandat von 1710 zu erneuern. Güterkonfiskationen durch die Zunftmitglieder selbst sowie ein absolutes Verkaufsverbot der Krämer innerhalb der Stadt wurden im Gutachten jedoch abgelehnt. Hingegen empfahlen die Kommissionsmitglieder, dass alle Krämer der Landschaft ihre eingeführten Waren im städtischen <placeName ref="loc010627">Kaufhaus</placeName> anmelden sollten, wo dann auch der Zoll entrichtet werden müsse (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188786">StAZH A 77.8</ref>, Nr. 1</bibl>). Im Mai 1720 wurde das Gutachten verlesen und in einer weiteren Sitzung vom 13. Juni 1720 wurde zusammen mit den Zunftmitgliedern das künftige Vorgehen besprochen, wobei insbesondere der Punkt zu den Krämern der Landschaft und deren Entrichtung des Zolls Anlass zu Diskussionen gab. Schliesslich wurden die Kommissionsverordneten erneut aufgefordert, eine Untersuchung zu den Landkrämern durchzuführen und ein neues Gutachten zu erstellen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008">StAZH B II 748</ref>, S. 122-123</bibl> und <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008">StAZH B II 748</ref>, S. 147</bibl>). Das Gutachten vom 31. August 1722 wiederholte dieselben Punkte wie das frühere Gutachten, schlug allerdings die Mitführpflicht von Bewilligungsscheinen für fremde Krämer vor (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188786">StAZH A 77.8</ref>, Nr. 1</bibl>). Am 24. September 1722 wurde das Gutachten schliesslich von den Ratsherren gutgeheissen und als vorliegendes Mandat gedruckt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245018">StAZH B II 758</ref>, S. 54</bibl>).</p>
-<p>Im Jahre 1737 wurden die Bestimmungen des vorliegenden Mandats weitgehend wiederholt, allerdings durften die Amtleute neu fehlbare Krämer und Hausierer gefangen nehmen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3558388">StAZH III AAb 1.10, Nr. 38</ref></bibl>). 1774 wurde das Krämermandat wiederum erneuert, wobei den Ober- und Landvögten die Pflicht auferlegt wurde, ein Verzeichnis aller Krämer in ihren Verwaltungsgebieten zu erstellen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3578373">StAZH III AAb 1.14, Nr. 50</ref></bibl>). Schliesslich erfolgte mit dem Mandat von 1788 die Einführung von ökonomischen Kriterien zur Beurteilung der Krämer, was eine drastische Verschärfung des obrigkeitlichen Umgangs mit Krämern und Hausierern zur Folge hatte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579794">StAZH III AAb 1.15, Nr. 61</ref></bibl>).</p>
-<p>
-  Zu den Krämern und Hausierern sowie dem obrigkeitlichen Umgang mit ihnen vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D14033.php">Hausierer</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ebnöther 2013</ref>, S. 175-177 und 211-212</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier/Frei 2005</ref>, Bd. 2, S. 133-134</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Meier 1986</ref>, S. 385-397</bibl>. 
+      <div>
+       <ab type="dorsal" place="verso above right"
+         ><lb/>Mandat wider die fremden <lb/>krämer und hausierer de anno <date when="1722"
+          >17<damage agent="clipping"><supplied resp="srr">22</supplied></damage></date></ab>
+      </div>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Krämer und Hausierer durchreisten das <placeName ref="loc000153"
+         >eidgenössische</placeName> Gebiet spätestens seit dem Spätmittelalter und deckten damit einen Teil der Nachfrage nach gewerblichen Dienstleistungen und Gütern ab. Zu ihren Waren zählten beispielsweise Geschirr, Uhren, Bürsten, Knöpfe, Papier, Gewürze und Arzneimittel. Obrigkeitlich erlaubt war zwar nur die Verkaufstätigkeit an den offiziellen Jahrmärkten und Messen, aber die herumziehenden Krämer waren für die ländliche Bevölkerung wichtig, da sie verschiedene gewerbliche, handwerkliche und unterhaltende Bedürfnisse erfüllten. Schon seit dem 15. und vor allem im 16. Jahrhundert wurde das verbotene Hausieren wiederholt mit Mandaten bekämpft (vgl. beispielsweise das Mandat von 1539, <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_175"
+       >SSRQ ZH NF I/1/3, Nr. 175</ref></bibl>), wobei sich die Differenzierung zwischen erlaubten Marktfahrern sowie zünftischen Krämern einerseits und den illegalen Hausierern andererseits oftmals als schwierig herausstellte.</p>
+      <p>Um ihre wirtschaftlichen Interessen gegenüber den nichtzünftischen, einheimischen und fremden Krämern und Hausierern zu verteidigen, reichten städtische Kaufleute, insbesondere aus der <orgName
+        ref="org005078"
+         >Zunft zur Saffran</orgName>, vielfach vor dem Rat Klage ein. Um 1700 häuften sich die Beschwerden und es kam zu wiederholten Krämermandaten (beispielsweise in den Jahren 1696, 1701, 1705, 1708 und 1710. Vgl. <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550842"
+         >StAZH III AAb 1.6, Nr. 36</ref></bibl>; <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551132"
+         >StAZH III AAb 1.7, Nr. 2</ref></bibl>; <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551217"
+         >StAZH III AAb 1.7, Nr. 33</ref></bibl>; <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551244"
+         >StAZH III AAb 1.7, Nr. 60</ref></bibl>; <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3551633"
+         >StAZH III AAb 1.8, Nr. 5</ref></bibl>). Spätestens seit 1674 stellte die <orgName
+        ref="org005078"
+        >Zunft zur Saffran</orgName> aus ihren eigenen Mitgliedern mehrere sogenannte Krämervertreiber, welche die Aufgabe hatten, die zuwiderhandelnden Krämer zu vertreiben (<bibl>StAZH W I 6.39.2</bibl><!-- VE's der Saffranzunft in Scope nur rudimentär verzeichnet. -->). Ausserdem erhielten die Krämervertreiber seit dem Ratsbeschluss vom 11. Mai 1720 die Erlaubnis, zusammen mit einem Amtmann verbotene Krämerwaren zu konfiszieren (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008"
+        >StAZH B II 748</ref>, S. 122-123</bibl>). Die Anliegen der <orgName ref="org005078"
+        >Zunft zur Saffran</orgName> deckten sich aber nicht immer mit den Interessen des Rates. Im November 1719 beschlossen die Ratsmitglieder, dass infolge einer mündlichen und schriftlichen Beschwerde der Zunft einige Verordnete der <orgName
+        ref="org005095"
+         >Fabrikkommission</orgName> ein Gutachten und Ratschlag über die Krämer verfassen sollten (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245006"
+        >StAZH B II 746</ref>, S. 150-151</bibl>). Knapp einen Monat später erfolgte das Gutachten, worin die <orgName
+        ref="org005095"
+        >Fabrikkommission</orgName> empfahl, das Krämermandat von 1710 zu erneuern. Güterkonfiskationen durch die Zunftmitglieder selbst sowie ein absolutes Verkaufsverbot der Krämer innerhalb der Stadt wurden im Gutachten jedoch abgelehnt. Hingegen empfahlen die Kommissionsmitglieder, dass alle Krämer der Landschaft ihre eingeführten Waren im städtischen <placeName
+        ref="loc010627"
+         >Kaufhaus</placeName> anmelden sollten, wo dann auch der Zoll entrichtet werden müsse (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188786"
+        >StAZH A 77.8</ref>, Nr. 1</bibl>). Im Mai 1720 wurde das Gutachten verlesen und in einer weiteren Sitzung vom 13. Juni 1720 wurde zusammen mit den Zunftmitgliedern das künftige Vorgehen besprochen, wobei insbesondere der Punkt zu den Krämern der Landschaft und deren Entrichtung des Zolls Anlass zu Diskussionen gab. Schliesslich wurden die Kommissionsverordneten erneut aufgefordert, eine Untersuchung zu den Landkrämern durchzuführen und ein neues Gutachten zu erstellen (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008"
+        >StAZH B II 748</ref>, S. 122-123</bibl> und <bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245008"
+        >StAZH B II 748</ref>, S. 147</bibl>). Das Gutachten vom 31. August 1722 wiederholte dieselben Punkte wie das frühere Gutachten, schlug allerdings die Mitführpflicht von Bewilligungsscheinen für fremde Krämer vor (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=188786"
+        >StAZH A 77.8</ref>, Nr. 1</bibl>). Am 24. September 1722 wurde das Gutachten schliesslich von den Ratsherren gutgeheissen und als vorliegendes Mandat gedruckt (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=245018"
+        >StAZH B II 758</ref>, S. 54</bibl>).</p>
+      <p>Im Jahre 1737 wurden die Bestimmungen des vorliegenden Mandats weitgehend wiederholt, allerdings durften die Amtleute neu fehlbare Krämer und Hausierer gefangen nehmen (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3558388"
+         >StAZH III AAb 1.10, Nr. 38</ref></bibl>). 1774 wurde das Krämermandat wiederum erneuert, wobei den Ober- und Landvögten die Pflicht auferlegt wurde, ein Verzeichnis aller Krämer in ihren Verwaltungsgebieten zu erstellen (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3578373"
+         >StAZH III AAb 1.14, Nr. 50</ref></bibl>). Schliesslich erfolgte mit dem Mandat von 1788 die Einführung von ökonomischen Kriterien zur Beurteilung der Krämer, was eine drastische Verschärfung des obrigkeitlichen Umgangs mit Krämern und Hausierern zur Folge hatte (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3579794"
+         >StAZH III AAb 1.15, Nr. 61</ref></bibl>).</p>
+      <p>
+  Zu den Krämern und Hausierern sowie dem obrigkeitlichen Umgang mit ihnen vgl. <bibl><ref
+         target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+         target="http://www.hls-dhs-dss.ch/textes/d/D14033.php">Hausierer</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Ebnöther 2013</ref>, S. 175-177 und 211-212</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Brühlmeier/Frei 2005</ref>, Bd. 2, S. 133-134</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Meier 1986</ref>, S. 385-397</bibl>. 
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>

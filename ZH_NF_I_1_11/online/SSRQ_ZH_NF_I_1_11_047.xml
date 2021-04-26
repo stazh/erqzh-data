@@ -3,66 +3,137 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
      Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
      Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-04-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_11_047</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3552996">StAZH III AAb 1.9, Nr. 56</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Refugianten aus Frankreich und anderen Ländern</head><msContents><summary>Da sich die Sünden und Laster, insbesondere beim Luxus und beim Tragen von Kleidern, jeden Tag vermehren, erlässt die Zürcher Obrigkeit ein Mandat für alle Bürger, Untertanen und für unter ihrem Schutz stehende Personen. Das Mandat soll in der französischen Kirche publiziert werden. Verboten werden zunächst die Gotteslästerung und das Fluchen. Falls sich die zuwiderhandelnden Personen weigern, solche Praktiken zu unterlassen, werden sie bestraft (1). Des Weiteren verordnet die Obrigkeit, dass der Sonntag geheiligt werden soll. Die Morgen- und Mittagspredigt sowie der Katechismus am Abend müssen gewissenhaft besucht werden. An Sonntagen soll sich niemand in den Weinstuben (cabarets) aufhalten. Ausserdem soll wieder vermehrt an Predigten unter der Woche teilgenommen werden (2). Um sich vor Gott und in der Kirche demütig zu zeigen, verordnet die Obrigkeit, dass sich alle Personen bescheiden und anständig kleiden. Es folgen detaillierte Vorschriften für Frauen und Mädchen bezüglich verbotener Stoffe, Kleider, Schmuckstücke und diversen nicht erlaubten Zubehörs (3). Da unanständige Frisuren und liederliche Kleider die Keuschheit und Bescheidenheit der Mädchen verletzen, sollen sie sich an die für Deutsche und Refugianten vorgeschriebenen Regeln halten. Zuständig für die Überwachung der Kleider- und Luxusvorschriften sind die verordneten Herren des Konsistoriums (consistoire) der französischen Kirche (4). Schliesslich verbietet die Zürcher Obrigkeit das Anbieten von Tabak in der Kirche sowie alle Karten- und Würfelspiele (5). Zuletzt ermahnt die Obrigkeit die französischen Refugianten zu respektvoller Unterwerfung und Gehorsam in allen Belangen. Bei Zuwiderhandlungen wird die entsprechende Person vor die Reformationskammer zitiert, wo eine angemessene finanzielle Busse verhängt wird. Denjenigen Personen, die eine Pension geniessen, wird bei Zuwiderhandlung die Pension entzogen. Das Konsistorium muss über alle Besucher der französischen Kirche, seien es Bürger, Refugianten oder andere Personen, wachen und Übertretungen anzeigen.</summary><msItem><textLang>Französisch</textLang><filiation type="current">Druckschrift, 7 S.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.0"/><width unit="cm" quantity="15.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1728-12-04"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 980, Nr. 1527</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000482">Blasphemie</term><term ref="key000841">Feiertage</term><term ref="key004380">Fluchen/Schwören</term><term ref="key000149">Gottesdienst</term><term ref="key005401">Katechismus</term><term ref="key000213">Kleidung</term><term ref="key005392">Luxus</term><term ref="key000767">Spiel</term><term ref="key000396">Tabak</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1" facs="StAZH_III_AAb_1_9__Nr__56__S__1_.tif"/><head><lb/>EDIT <lb/>DU <lb/>LOUABLE <lb/>MAGISTRAT <lb/>DE <lb/><placeName ref="loc000065">ZURICH</placeName>. <lb/>Pour <lb/>Les <orgName ref="org004933">François</orgName> Refugiez &amp; autres Etrangers <lb/>qui sont recueillis dans Leur Etat</head>
-<p><figure type="copper engraving"/></p>
-<p><lb/><hi rend="italic">Imprimé l’An</hi>
-<date when="1728">1728</date>.</p>
-<pb n="2" facs="StAZH_III_AAb_1_9__Nr__56__S__2_.tif"/>
-<pb n="3" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__3_.tif"/>
-<p>
-<lb/>Leurs <orgName ref="org002406">Excellençes les Souverains &amp;
- <lb/>Gratieux Seigneurs de la Republi<lb break="no"/>que
- de <placeName ref="loc000065">Zurich</placeName></orgName>, aïant fait de serieuses
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-04-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_11_047</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3552996"
+       >StAZH III AAb 1.9, Nr. 56</idno>
+     </msIdentifier>
+     <head>Mandat der Stadt Zürich betreffend Refugianten aus Frankreich und anderen Ländern</head>
+     <msContents>
+      <summary>Da sich die Sünden und Laster, insbesondere beim Luxus und beim Tragen von Kleidern, jeden Tag vermehren, erlässt die Zürcher Obrigkeit ein Mandat für alle Bürger, Untertanen und für unter ihrem Schutz stehende Personen. Das Mandat soll in der französischen Kirche publiziert werden. Verboten werden zunächst die Gotteslästerung und das Fluchen. Falls sich die zuwiderhandelnden Personen weigern, solche Praktiken zu unterlassen, werden sie bestraft (1). Des Weiteren verordnet die Obrigkeit, dass der Sonntag geheiligt werden soll. Die Morgen- und Mittagspredigt sowie der Katechismus am Abend müssen gewissenhaft besucht werden. An Sonntagen soll sich niemand in den Weinstuben (cabarets) aufhalten. Ausserdem soll wieder vermehrt an Predigten unter der Woche teilgenommen werden (2). Um sich vor Gott und in der Kirche demütig zu zeigen, verordnet die Obrigkeit, dass sich alle Personen bescheiden und anständig kleiden. Es folgen detaillierte Vorschriften für Frauen und Mädchen bezüglich verbotener Stoffe, Kleider, Schmuckstücke und diversen nicht erlaubten Zubehörs (3). Da unanständige Frisuren und liederliche Kleider die Keuschheit und Bescheidenheit der Mädchen verletzen, sollen sie sich an die für Deutsche und Refugianten vorgeschriebenen Regeln halten. Zuständig für die Überwachung der Kleider- und Luxusvorschriften sind die verordneten Herren des Konsistoriums (consistoire) der französischen Kirche (4). Schliesslich verbietet die Zürcher Obrigkeit das Anbieten von Tabak in der Kirche sowie alle Karten- und Würfelspiele (5). Zuletzt ermahnt die Obrigkeit die französischen Refugianten zu respektvoller Unterwerfung und Gehorsam in allen Belangen. Bei Zuwiderhandlungen wird die entsprechende Person vor die Reformationskammer zitiert, wo eine angemessene finanzielle Busse verhängt wird. Denjenigen Personen, die eine Pension geniessen, wird bei Zuwiderhandlung die Pension entzogen. Das Konsistorium muss über alle Besucher der französischen Kirche, seien es Bürger, Refugianten oder andere Personen, wachen und Übertretungen anzeigen.</summary>
+      <msItem>
+       <textLang>fr</textLang>
+       <filiation type="current">Druckschrift, 7 S.</filiation>
+       <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="20.0"/>
+          <width unit="cm" quantity="15.0"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1728-12-04"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Nachweis</head>
+       <bibl>Schott-Volm, Repertorium, S. 980, Nr. 1527</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000482">Blasphemie</term>
+     <term ref="key000841">Feiertage</term>
+     <term ref="key004380">Fluchen/Schwören</term>
+     <term ref="key000149">Gottesdienst</term>
+     <term ref="key005401">Katechismus</term>
+     <term ref="key000213">Kleidung</term>
+     <term ref="key005392">Luxus</term>
+     <term ref="key000767">Spiel</term>
+     <term ref="key000396">Tabak</term>
+     <term ref="key000758">Wirtshaus</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="1" facs="StAZH_III_AAb_1_9__Nr__56__S__1_.tif"/>
+      <head><lb/>EDIT <lb/>DU <lb/>LOUABLE <lb/>MAGISTRAT <lb/>DE <lb/><placeName ref="loc000065"
+        >ZURICH</placeName>. <lb/>Pour <lb/>Les <orgName ref="org004933"
+       >François</orgName> Refugiez &amp; autres Etrangers <lb/>qui sont recueillis dans Leur Etat</head>
+      <p><figure type="copper engraving"/></p>
+      <p><lb/><hi rend="italic">Imprimé l’An</hi>
+       <date when="1728">1728</date>.</p>
+      <pb n="2" facs="StAZH_III_AAb_1_9__Nr__56__S__2_.tif"/>
+      <pb n="3" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__3_.tif"/>
+      <p>
+       <lb/>Leurs <orgName ref="org002406"
+         >Excellençes les Souverains &amp;
+ <lb/>Gratieux Seigneurs de la Republi<lb break="no"
+         />que
+ de <placeName ref="loc000065"
+        >Zurich</placeName></orgName>, aïant fait de serieuses
  <lb/>Reflexions sur les grandes Benedictions temporelles
  <lb/>&amp; spirituelles que Dieu de sa pure Bonté a accordé
  <lb/>depuis une longue suite d’années à Leur Etat, &amp;
  <lb/>aiant d’ailleurs remarqué avec une extréme douleur,
  <lb/>que les Pechés &amp; les Crimes s’y multiplient tous les
- <lb/>jours, que le Luxe sur tout &amp; la Superfluite des Ha<lb break="no"/>bits
- &amp; autres choses y gagne insensiblement le des<lb break="no"/>sus,
+ <lb/>jours, que le Luxe sur tout &amp; la Superfluite des Ha<lb
+        break="no"/>bits
+ &amp; autres choses y gagne insensiblement le des<lb break="no"
+        />sus,
  &amp; que l’Ingratitude envers Dieu s’y augmente
  <lb/>de plus en plus; ce qui attire sa juste Colere sur
- <lb/>Leurs Païs, &amp; le menaçe, non obstant l’Abondan<lb break="no"/>çe
- dont Dieu l’a richement couronné depuis plu<lb break="no"/>sieurs
+ <lb/>Leurs Païs, &amp; le menaçe, non obstant l’Abondan<lb
+        break="no"/>çe
+ dont Dieu l’a richement couronné depuis plu<lb break="no"
+        />sieurs
  années, d’une grande Misére pendant que ses
- <lb/>terribles Jugemens se sont sentir dans le Monde tan<pb n="4" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__4_.tif"/><lb break="no"/>tôt
+ <lb/>terribles Jugemens se sont sentir dans le Monde tan<pb
+        n="4" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__4_.tif"/><lb break="no"
+       />tôt
  d’un coté tantôt de l’autre, &amp; donnent tout
  <lb/>lieu de craindre que Dieu ne fonde enfin sur nous
  <lb/>par ses Fleaux, &amp; ne tourne ses biens en maux &amp; ses
@@ -71,133 +142,261 @@
  <lb/>le Mépris brutal que nous faisons de ses grandes
  <lb/>Bontez.
 </p>
-<p>
-<lb/>A ces Causes, &amp; pour prévenir un si grand mal<lb break="no"/>heur
+      <p>
+       <lb/>A ces Causes, &amp; pour prévenir un si grand mal<lb break="no"
+        />heur
  Leurs Excellences ont bien voulu faire dresser un
- <lb/>Edit pour le bien de leur Bourgeoisie, de leurs Su<lb break="no"/>jets
+ <lb/>Edit pour le bien de leur Bourgeoisie, de leurs Su<lb
+        break="no"
+          />jets
  &amp; de tous ceux qui, jouïssent de leur gratieuse
- <lb/>Protection &amp; ordonner d’en tirer l’Extrait suivant,<note>Gemeint ist ein Ausschnitt aus dem Grossen Mandat von 1727 (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293896">StAZH III AAb 1.9, Nr. 45</ref></bibl>).</note>
-<lb/>pour être publié dans <orgName ref="org005098">l’Eglise <placeName ref="loc000281">Françoise</placeName></orgName>.
+ <lb/>Protection &amp; ordonner d’en tirer l’Extrait suivant,<note>Gemeint ist ein Ausschnitt aus dem Grossen Mandat von 1727 (<bibl><ref
+          target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293896"
+          >StAZH III AAb 1.9, Nr. 45</ref></bibl>).</note>
+       <lb/>pour être publié dans <orgName ref="org005098">l’Eglise <placeName ref="loc000281"
+         >Françoise</placeName></orgName>.
 </p>
-<p>
-<seg n="1"><lb/>Prémiérement <choice><abbr>L L Exc Exc</abbr><expan>Leurs Excellençes</expan></choice> defendent trés<lb break="no"/>severement
+      <p>
+       <seg n="1"><lb/>Prémiérement <choice>
+         <abbr>L L Exc Exc</abbr>
+         <expan>Leurs Excellençes</expan>
+        </choice> defendent trés<lb break="no"
+         />severement
  tout Blasphéme, Serment &amp; Jurement
- <lb/>temeraire que la Loy de Dieu condamne, &amp; exhor<lb break="no"/>tent
+ <lb/>temeraire que la Loy de Dieu condamne, &amp; exhor<lb
+         break="no"
+         />tent
  les Personnes qui les entendront à reprendre
  <lb/>chrétiennement tous ceux qui les auront proferez, &amp; à
- <lb/>denonçer ensuite à ceux auxquels il apartient, les Ju<lb break="no"/>reurs
- de Profession, en cas qu’ils refusent de se cor<lb break="no"/>riger
- de leur mechante Habitude, ou qu’ils y per<lb break="no"/>sevérent
+ <lb/>denonçer ensuite à ceux auxquels il apartient, les Ju<lb
+         break="no"/>reurs
+ de Profession, en cas qu’ils refusent de se cor<lb break="no"
+         />riger
+ de leur mechante Habitude, ou qu’ils y per<lb break="no"
+        />sevérent
  obstinément.</seg>
-</p>
-<p>
-<seg n="2"><lb/><choice><abbr>L L Exc Exc</abbr><expan>Leurs Excellençes</expan></choice> ordonnent ensuite, que le Jour
- <lb/>du <date dur="R/P1WD">Dimanche</date> soit sanctifié tant en public qu’en par<lb break="no"/>ticulier
+      </p>
+      <p>
+       <seg n="2"><lb/><choice>
+         <abbr>L L Exc Exc</abbr>
+         <expan>Leurs Excellençes</expan>
+        </choice> ordonnent ensuite, que le Jour
+ <lb/>du <date dur="R/P1WD"
+         >Dimanche</date> soit sanctifié tant en public qu’en par<lb break="no"
+         />ticulier
  par, la Lecture, l’ouïe &amp; la meditation de la
- <pb n="5" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__5_.tif"/>
-<lb/>Parole de Dieu pour cet éfet Elles prétendent que la
- <lb/>Prédication du <time period="morning">Matin</time>, le Serviçe du <time period="noon">Midi</time> &amp; le Ca<lb break="no"/>techisme
- au <time period="evening">Soir</time>, soient frequentez assidument de cha<lb break="no"/>cun,
- &amp; que Personne ne s’en absente sans de legi<lb break="no"/>times
+ <pb n="5" type="original"
+         facs="StAZH_III_AAb_1_9__Nr__56__S__5_.tif"/>
+        <lb/>Parole de Dieu pour cet éfet Elles prétendent que la
+ <lb/>Prédication du <time
+         period="morning">Matin</time>, le Serviçe du <time period="noon">Midi</time> &amp; le Ca<lb
+         break="no"/>techisme
+ au <time period="evening"
+         >Soir</time>, soient frequentez assidument de cha<lb break="no"
+         />cun,
+ &amp; que Personne ne s’en absente sans de legi<lb break="no"
+         />times
  raisons; de plus, qu’on s’abstienne de toutes
- <lb/>les Visites inutiles qui sont le Tombeau de la Devo<lb break="no"/>tion
+ <lb/>les Visites inutiles qui sont le Tombeau de la Devo<lb
+         break="no"
+         />tion
  &amp; étoufent la bonne Semençe de la Parole de
  <lb/>Dieu; &amp; sur tout de la Frequentation des Cabarets
  <lb/>non seulement, pendant les Exerciçes de Pieté, mais
- <lb/>aussi pendant <time period="byDay">tout le Jour</time>, de peur de profaner le Jour
+ <lb/>aussi pendant <time
+         period="byDay"
+         >tout le Jour</time>, de peur de profaner le Jour
  <lb/>du Repos contre le Commandement exprés de Dieu.
- <lb/>Leur Volonté est aussi qu’on soit plus assidu à la Pré<lb break="no"/>dication
+ <lb/>Leur Volonté est aussi qu’on soit plus assidu à la Pré<lb
+         break="no"
+        />dication
  &amp; aux Priéres qui se font sur Semaine que
  <lb/>l’on n’a êté par le passé.</seg>
-</p>
-<p>
-<seg n="3"><lb/>Et comme le grand Dieu demande l’Humilité
- <lb/>dans toutes nos Actions, mais principalement lors<lb break="no"/>que
+      </p>
+      <p>
+       <seg n="3"
+         ><lb/>Et comme le grand Dieu demande l’Humilité
+ <lb/>dans toutes nos Actions, mais principalement lors<lb
+         break="no"/>que
  nous nous présentons devant Lui en sa Maison,
- <lb/><choice><abbr>L L Exc Exc</abbr><expan>Leurs Excellençes</expan></choice> ordonnent qu'on y vienne en Habits
+ <lb/><choice>
+         <abbr>L L Exc Exc</abbr>
+         <expan>Leurs Excellençes</expan>
+        </choice> ordonnent qu'on y vienne en Habits
  <lb/>deçens &amp; modestes, dans cette vuë Elles defendent
  <lb/>aux Femmes &amp; Filles d’y venir les Cheveux frisez
- <lb/>&amp; avec des Habits de Soye, soit Manteaux, ou Ju<lb break="no"/>pes
+ <lb/>&amp; avec des Habits de Soye, soit Manteaux, ou Ju<lb
+         break="no"
+         />pes
  ou Robes de Chambre, ou Doublures de Soye
  <lb/>dans les Habits d’autres Etoffes, dont la Couleur doit
  <lb/>être modeste &amp; non voïante. Elles defendent de plus
  <lb/>les Habits de demi-soye, excepté les Etoffes dont
  <lb/>la Chaîne est de Fleuret, &amp; le Tissu de Laine ou de Fil
- <lb/>de Chameau, pareillement les Coëffes, Colliers &amp; Bor<pb n="6" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__6_.tif"/><lb break="no"/>dures
- des Velours ou de Peluche, les Rubans de Cou<lb break="no"/>leur,
+ <lb/>de Chameau, pareillement les Coëffes, Colliers &amp; Bor<pb
+         n="6" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__6_.tif"/><lb break="no"
+         />dures
+ des Velours ou de Peluche, les Rubans de Cou<lb break="no"
+         />leur,
  les devant de Corps de Brocard, ou brodez
- <lb/>ou éclatans en couleur; Les Toiles fleuries ou bro<lb break="no"/>dées,
+ <lb/>ou éclatans en couleur; Les Toiles fleuries ou bro<lb
+         break="no"
+         />dées,
  les Persiennes, les Corsets &amp; les Jupes brodées
  <lb/>ou piquées où à cercles, toute sorte de Dentelles
- <lb/>grandes &amp; petites, lesquelles on ne mettra pas mê<lb break="no"/>me
+ <lb/>grandes &amp; petites, lesquelles on ne mettra pas mê<lb
+         break="no"
+         />me
  aux Enfans. Les Perles fines ou fausses, les
- <lb/>Boucles, les Pendans d’Oreille, les bijoux de pier<lb break="no"/>reries
+ <lb/>Boucles, les Pendans d’Oreille, les bijoux de pier<lb
+         break="no"
+         />reries
  de quelque Prix qu’ils soient. Il ne sera pas
  <lb/>même permis d’attacher quoique ce soit aux petits
- <lb/>Coliers permis, ni de porter aucune Etoffe &amp; Ou<lb break="no"/>vrage
- où il y a du fil d’Or ou d’Argent,quand mê<lb break="no"/>me
+ <lb/>Coliers permis, ni de porter aucune Etoffe &amp; Ou<lb
+         break="no"/>vrage
+ où il y a du fil d’Or ou d’Argent,quand mê<lb break="no"
+        />me
  il seroit faux.</seg>
-</p>
-<p>
-<seg n="4"><lb/><choice><abbr>L L Exc Exc</abbr><expan>Leurs Excellençes</expan></choice> prohibent encore une Fois pour
- <lb/>toutes les Coiffures indecentes des Filles Etrangé<lb break="no"/>res
+      </p>
+      <p>
+       <seg n="4"><lb/><choice>
+         <abbr>L L Exc Exc</abbr>
+         <expan>Leurs Excellençes</expan>
+        </choice> prohibent encore une Fois pour
+ <lb/>toutes les Coiffures indecentes des Filles Etrangé<lb
+         break="no"
+         />res
  &amp; generalement tous les Habillements licencieux
  <lb/>qui blessent la Pudeur &amp; la Modestie; Et ces Filles
  <lb/>seront obligées à se conformer en tout à ce qui a
- <lb/>ête prescrit aux <orgName ref="org005722">Allemandes</orgName> ou aux Refugiées. Et
- <lb/>enfin que ces Réglemens soient d’autant mieux ob<lb break="no"/>servez
- Nos Seigneurs enjoignent au <orgName ref="org005115">Consistoire de
- <lb/>l’Eglise <placeName ref="loc000281">Françoise</placeName></orgName> de prendre Garde qu’il ne s’intro<lb break="no"/>duise
- parmi leur Troupeau de nouvelles Modes in<lb break="no"/>decentes
+ <lb/>ête prescrit aux <orgName
+         ref="org005722"
+         >Allemandes</orgName> ou aux Refugiées. Et
+ <lb/>enfin que ces Réglemens soient d’autant mieux ob<lb
+         break="no"/>servez
+ Nos Seigneurs enjoignent au <orgName ref="org005115"
+          >Consistoire de
+ <lb/>l’Eglise <placeName ref="loc000281"
+         >Françoise</placeName></orgName> de prendre Garde qu’il ne s’intro<lb break="no"
+         />duise
+ parmi leur Troupeau de nouvelles Modes in<lb break="no"
+        />decentes
  qui tendent à rétablir ou à flater le Luxe &amp;
  <lb/>la vaine Pompe des Habits.</seg>
-</p>
-<p>
-<seg n="5"><lb/>L’Intention de Nos Seigneurs est aussi qu’on
- <pb n="7" type="original" facs="StAZH_III_AAb_1_9__Nr__56__S__7_.tif"/>
-<lb/>s’abstienne dans l’Eglise de presenter du Tabac à ses
+      </p>
+      <p>
+       <seg n="5"><lb/>L’Intention de Nos Seigneurs est aussi qu’on
+ <pb n="7" type="original"
+         facs="StAZH_III_AAb_1_9__Nr__56__S__7_.tif"/>
+        <lb/>s’abstienne dans l’Eglise de presenter du Tabac à ses
  <lb/>Voisins. Enfin ils interdisent trés expressément les
  <lb/>Jeux de Cartes &amp; de Dez qui consument le Temps,
  <lb/>ruïnent ceux qui s’y attachent &amp; ne peuvent être
  <lb/>agréables a Dieu.</seg>
-</p>
-<p>
-<lb/>Tels sont les Ordres de Nos Souverains &amp;
+      </p>
+      <p>
+       <lb/>Tels sont les Ordres de Nos Souverains &amp;
  <lb/>Gratieux Seigneurs qui s’attendent de la part du
- <lb/>Troupeau <placeName ref="loc000281">François</placeName> à une respectueuse Soumission
- <lb/>&amp; à une Obeïssançe ponctuelle à tous égards. Ce<lb break="no"/>pendant
+ <lb/>Troupeau <placeName
+        ref="loc000281"
+        >François</placeName> à une respectueuse Soumission
+ <lb/>&amp; à une Obeïssançe ponctuelle à tous égards. Ce<lb
+        break="no"
+        />pendant
  si contre toute attente il y en eut qui y
  <lb/>contrevinssent tôt ou tard, on les fera citer à la
- <lb/><orgName ref="org005135">Chambre de la Reforme</orgName>, où ceux qui vivent de
- <lb/>leur Travail seront condamnez à des Amendes pecu<lb break="no"/>niaires,
+ <lb/><orgName
+        ref="org005135"
+        >Chambre de la Reforme</orgName>, où ceux qui vivent de
+ <lb/>leur Travail seront condamnez à des Amendes pecu<lb
+        break="no"
+         />niaires,
  proportionnées à leur desobeïssançe &amp; ceux
  <lb/>qui jouïssent de la Pension en seront entiérement
- <lb/>privez.<note>Gemeint sind <placeName ref="loc000281">französische</placeName> Refugianten, die nicht in obrigkeitlich eingerichteten Herbergen, wie beispielsweise im <placeName ref="loc007756">Selnau</placeName>, untergebracht wurden, sondern eine Pension in Geld- oder Naturalienform erhielten. Die Pension diente für die Bezahlung der gemieteten Wohnung und des Unterhalts (<bibl><ref target="/startseite/literaturverzeichnis">Barbatti 1957</ref></bibl>, S. 52).</note> La Compagnie du <orgName ref="org005115">Consistoire</orgName> aura aussi
- <lb/>Soin de veiller exactement sur la Bourgeoisie qui fre<lb break="no"/>quente
- <orgName ref="org005098">l’Eglise <placeName ref="loc000281">Françoise</placeName></orgName>, &amp; transgresse les Or<lb break="no"/>donnançes
+ <lb/>privez.<note>Gemeint sind <placeName
+         ref="loc000281"
+         >französische</placeName> Refugianten, die nicht in obrigkeitlich eingerichteten Herbergen, wie beispielsweise im <placeName
+         ref="loc007756"
+          >Selnau</placeName>, untergebracht wurden, sondern eine Pension in Geld- oder Naturalienform erhielten. Die Pension diente für die Bezahlung der gemieteten Wohnung und des Unterhalts (<bibl><ref
+          target="/startseite/literaturverzeichnis"
+        >Barbatti 1957</ref></bibl>, S. 52).</note> La Compagnie du <orgName ref="org005115"
+        >Consistoire</orgName> aura aussi
+ <lb/>Soin de veiller exactement sur la Bourgeoisie qui fre<lb
+        break="no"/>quente
+ <orgName ref="org005098">l’Eglise <placeName ref="loc000281"
+         >Françoise</placeName></orgName>, &amp; transgresse les Or<lb break="no"
+       />donnançes
  qu’ils viennent de publier, pour que les
  <lb/>Delinquans soit Bourgeois, ou Refugiez ou autres
  <lb/>leurs soient denonçez &amp; punis à proportion de leurs
  <lb/>fautes.
 </p>
-<p><lb/>Fait le <origDate when="1728-12-04">4. Decembre 1728</origDate>.</p>
-<p><pb n="8" facs="StAZH_III_AAb_1_9__Nr__56__S__8_.tif
+      <p><lb/>Fait le <origDate when="1728-12-04">4. Decembre 1728</origDate>.</p>
+      <p><pb n="8" facs="StAZH_III_AAb_1_9__Nr__56__S__8_.tif
 "/></p>
-</div>
-</body>
-<back>
-<div>
-<p>Nachdem der <placeName ref="loc000281">französische</placeName> König <persName ref="per012679">Ludwig XIV.</persName> das Edikt von <placeName ref="loc010539">Nantes</placeName> im Jahre 1685 widerrief, kam es in <placeName ref="loc000065">Zürich</placeName> zu einer Einwanderungswelle <placeName ref="loc000281">französischer</placeName> Protestanten (Hugenotten). Der <placeName ref="loc000065">Zürcher</placeName>
-<orgName ref="org004016">Rat</orgName> setzte daher einen Ausschuss ein, der als <orgName ref="org005094">Exulantenkommission</orgName> bezeichnet wurde. Die Kommission sammelte Kollekten (Liebessteuern), die für Geld, Unterkunft, Lebensmittel, Kleider, Unterricht und für den <placeName ref="loc000281">französischen</placeName> Gottesdienst verwendet wurden. Als jedoch in den folgenden Jahren die Anzahl der ankommenden Flüchtlinge, sogenannte Refugianten, stark anstieg, wurden zunehmend arbeitsunwillige und unerwünschte Personen ausgewiesen. 1699 liess der <placeName ref="loc000065">Zürcher</placeName>
-<orgName ref="org002406">Rat</orgName> auf Druck der städtischen Kaufleute alle vermögenden <placeName ref="loc000281">französischen</placeName> Händler, Fabrikanten und Handwerker ausweisen.</p>
-<p>Im November des Jahres 1685 schufen <orgName ref="org005093">Examinatorenkonvent</orgName> und <placeName ref="loc000065">Zürcher</placeName>
-<orgName ref="org002406">Rat</orgName> das <orgName ref="org005115">Konsistorium</orgName> der <placeName ref="loc000281">französischen</placeName> Kirche (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244869">StAZH B II 610</ref>, S. 95-96</bibl>). Die personelle Zusammensetzung bestand zur einen Hälfte aus <orgName ref="org002811">Zürchern</orgName> und zur anderen Hälfte aus <orgName ref="org004933">Franzosen</orgName>: Zwei <placeName ref="loc000065">Zürcher</placeName> Ratsherren, zwei <placeName ref="loc000065">Zürcher</placeName> Geistliche, zwei weltliche Refugianten und zwei <placeName ref="loc000281">französische</placeName> Pfarrer. Das <orgName ref="org005115">Konsistorium</orgName> war für die Überwachung des Kultus und für die Behandlung kleinerer Disziplinarfälle zuständig. Durchgeführt wurde der <placeName ref="loc000281">französische</placeName> Gottesdienst zunächst im Sommerhörsaal (Collegium aestivum) des <orgName ref="org004907">Chorherrenstifts</orgName>, von 1685 bis 1713 in der <placeName ref="loc010596">Fraumünsterkirche</placeName> und ab 1713 erneut im Sommerhörsaal, jeweils am Sonntag nach der deutschen Predigt. Falls <orgName ref="org002811">Zürcher und Zürcherinnen</orgName> dem französischen Gottesdienst beiwohnen wollten, war für sie der hintere Teil des Kirchenschiffes vorgesehen.</p>
-<p>Bereits am 30. Mai 1695 erliess die <placeName ref="loc000065">Zürcher</placeName> Obrigkeit ein Kleidermandat für <orgName ref="org004933">Französinnen</orgName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=308482">StAZH E I 25.15</ref></bibl>). Anlass zur Kritik gaben die für <placeName ref="loc000065">zürcherischen</placeName> Verhältnisse unsittlichen und prunkvollen Kleider der Refugianten. Die im vorliegenden Mandat aufgeführten Kleidervorschriften für <placeName ref="loc000281">französische</placeName> Frauen sind jedoch nicht als singuläres Phänomen, sondern als Teil des obrigkeitlichen Kampfes gegen nicht standesgemässe Kleidung, Unsittlichkeit und Verschwendung anzusehen (vgl. die detaillierten Luxusbestimmungen im Grossen Mandat von 1680: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_030">SSRQ ZH NF I/1/11, Nr. 30</ref></bibl>). Bereits im Grossen Mandat des Jahres 1727 finden sich ausführliche Kleidervorschriften sowie das ausdrückliche Gebot des Tragens von sittengemässen und bescheidenen Kleidungsstücken während den <orig>Haubt-Predigen, Fruͤh-Predigen, Abend-Gebaͤtten</orig> und während den <orig>Frantzoͤsische Predigen</orig> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293896">StAZH III AAb 1.9, Nr. 45</ref>, S. 14</bibl>).</p>
-<p>Zur Geschichte der <placeName ref="loc000281">französischen</placeName> Refugianten in <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D26884.php">Protestantische Glaubensflüchtlinge</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stucki 1990a</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Barbatti 1957</ref></bibl>.
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Nachdem der <placeName ref="loc000281">französische</placeName> König <persName
+        ref="per012679">Ludwig XIV.</persName> das Edikt von <placeName ref="loc010539"
+        >Nantes</placeName> im Jahre 1685 widerrief, kam es in <placeName ref="loc000065"
+        >Zürich</placeName> zu einer Einwanderungswelle <placeName ref="loc000281"
+        >französischer</placeName> Protestanten (Hugenotten). Der <placeName ref="loc000065"
+        >Zürcher</placeName>
+       <orgName ref="org004016">Rat</orgName> setzte daher einen Ausschuss ein, der als <orgName
+        ref="org005094"
+        >Exulantenkommission</orgName> bezeichnet wurde. Die Kommission sammelte Kollekten (Liebessteuern), die für Geld, Unterkunft, Lebensmittel, Kleider, Unterricht und für den <placeName
+        ref="loc000281"
+        >französischen</placeName> Gottesdienst verwendet wurden. Als jedoch in den folgenden Jahren die Anzahl der ankommenden Flüchtlinge, sogenannte Refugianten, stark anstieg, wurden zunehmend arbeitsunwillige und unerwünschte Personen ausgewiesen. 1699 liess der <placeName
+        ref="loc000065">Zürcher</placeName>
+       <orgName ref="org002406"
+        >Rat</orgName> auf Druck der städtischen Kaufleute alle vermögenden <placeName
+        ref="loc000281">französischen</placeName> Händler, Fabrikanten und Handwerker ausweisen.</p>
+      <p>Im November des Jahres 1685 schufen <orgName ref="org005093"
+        >Examinatorenkonvent</orgName> und <placeName ref="loc000065">Zürcher</placeName>
+       <orgName ref="org002406">Rat</orgName> das <orgName ref="org005115"
+        >Konsistorium</orgName> der <placeName ref="loc000281"
+         >französischen</placeName> Kirche (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=244869"
+        >StAZH B II 610</ref>, S. 95-96</bibl>). Die personelle Zusammensetzung bestand zur einen Hälfte aus <orgName
+        ref="org002811">Zürchern</orgName> und zur anderen Hälfte aus <orgName ref="org004933"
+        >Franzosen</orgName>: Zwei <placeName ref="loc000065"
+        >Zürcher</placeName> Ratsherren, zwei <placeName ref="loc000065"
+        >Zürcher</placeName> Geistliche, zwei weltliche Refugianten und zwei <placeName
+        ref="loc000281">französische</placeName> Pfarrer. Das <orgName ref="org005115"
+        >Konsistorium</orgName> war für die Überwachung des Kultus und für die Behandlung kleinerer Disziplinarfälle zuständig. Durchgeführt wurde der <placeName
+        ref="loc000281"
+        >französische</placeName> Gottesdienst zunächst im Sommerhörsaal (Collegium aestivum) des <orgName
+        ref="org004907">Chorherrenstifts</orgName>, von 1685 bis 1713 in der <placeName
+        ref="loc010596"
+        >Fraumünsterkirche</placeName> und ab 1713 erneut im Sommerhörsaal, jeweils am Sonntag nach der deutschen Predigt. Falls <orgName
+        ref="org002811"
+       >Zürcher und Zürcherinnen</orgName> dem französischen Gottesdienst beiwohnen wollten, war für sie der hintere Teil des Kirchenschiffes vorgesehen.</p>
+      <p>Bereits am 30. Mai 1695 erliess die <placeName ref="loc000065"
+        >Zürcher</placeName> Obrigkeit ein Kleidermandat für <orgName ref="org004933"
+        >Französinnen</orgName> (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=308482"
+        >StAZH E I 25.15</ref></bibl>). Anlass zur Kritik gaben die für <placeName ref="loc000065"
+        >zürcherischen</placeName> Verhältnisse unsittlichen und prunkvollen Kleider der Refugianten. Die im vorliegenden Mandat aufgeführten Kleidervorschriften für <placeName
+        ref="loc000281"
+         >französische</placeName> Frauen sind jedoch nicht als singuläres Phänomen, sondern als Teil des obrigkeitlichen Kampfes gegen nicht standesgemässe Kleidung, Unsittlichkeit und Verschwendung anzusehen (vgl. die detaillierten Luxusbestimmungen im Grossen Mandat von 1680: <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_11_030"
+        >SSRQ ZH NF I/1/11, Nr. 30</ref></bibl>). Bereits im Grossen Mandat des Jahres 1727 finden sich ausführliche Kleidervorschriften sowie das ausdrückliche Gebot des Tragens von sittengemässen und bescheidenen Kleidungsstücken während den <orig>Haubt-Predigen, Fruͤh-Predigen, Abend-Gebaͤtten</orig> und während den <orig>Frantzoͤsische Predigen</orig> (<bibl><ref
+         target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3293896"
+         >StAZH III AAb 1.9, Nr. 45</ref>, S. 14</bibl>).</p>
+      <p>Zur Geschichte der <placeName ref="loc000281"
+        >französischen</placeName> Refugianten in <placeName ref="loc000065"
+         >Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+         >HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D26884.php"
+         >Protestantische Glaubensflüchtlinge</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Stucki 1990a</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Barbatti 1957</ref></bibl>.
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>
