@@ -3,68 +3,131 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
      Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
      Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-04-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_11_066</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3693191">StAZH III DDb 1, S. 3-8</idno></msIdentifier><head>Mandat der Stadt Zürich betreffend Militärordnung der Landmiliz</head><msContents><summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erlassen als Einleitung zur Militärordonnanz ein Mandat. Grund dafür ist, dass aufgrund der langen Friedenszeit viele Bürger der Meinung sind, dass eine Verbesserung des Kriegswesens nicht nötig sei. Jedoch hat die Erfahrung gezeigt, dass das Kriegswesen am besten während Friedenszeiten erlernt und geübt wird. Aus diesem Grund sollen alle aus fremden Diensten zurückkehrenden Offiziere und Soldaten pflichtgemäss Kriegsdienst leisten und die in der Ordonnanz vorgeschriebenen Aspekte beachten. Die Obrigkeit erlässt nicht bestimmte Strafen gegen Zuwiderhandlungen, sondern Übertreter sollen während der periodisch vorkommenden Bereinigungen entsprechend geahndet werden. Damit alle von der obrigkeitlichen Meinung überzeugt werden, ist der Militärdienst auf die leichtmöglichste Art eingerichtet worden. Des Weiteren wird Offizieren untersagt, etwas am vorgeschriebenen Manual, an den Kriegsübungen oder an der Montur und Armatur zu verändern. Im obrigkeitlich errichteten Magazin kann die benötigte Montur und Armatur in bester Qualität zu geringen Preisen erworben werden. Ausgesprochene Bussen dienen einzig zum Vorteil des Militärwesens. Um ihr Ansehen und ihre Motivation zu steigern, erhalten alle Offiziere Bestallungsbriefe (Brevets). Schliesslich wird verordnet, dass zur Vermeidung übersteigerten Aufwands und hoher Kosten die Verordnung, insbesondere was die Ausstattung anbelangt, für die Zukunft gilt. Das bedeutet, dass alle Vorgesetzten darauf achten sollen, dass sich ihre Untergebenen nicht mit neuer Montur oder Armatur ausstatten müssen. Dies darf lediglich gewährt werden, wenn die Neuausstattung aus freiem Willen geschieht und es die finanziellen Umstände der entsprechenden Person erlauben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Druckschrift, 6 S.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="19.5"/><width unit="cm" quantity="12.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1770-01-01" to="1770-12-31"/></origin></history></msDesc></sourceDesc>
-</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000213">Kleidung</term><term ref="key005392">Luxus</term><term ref="key003016">Militär</term><term ref="key004082">Solddienst</term><term ref="key000902">Waffen</term><term ref="key001101">Wehrdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1" facs="StAZH_III_DDb_1__S__1_.tif"/><head type="title">Militaͤr-Ordonanz <lb/>für die <lb/>Land-Militz <lb/>der <lb/>Republik <placeName ref="loc000066">Zürich</placeName></head>
-<p>
-<figure type="copper engraving"/>
-</p>
-<pb n="2" facs="StAZH_III_DDb_1__S__2_.tif"/>
-<pb n="3" type="original" facs="StAZH_III_DDb_1__S__3_.tif"/><head type="subtitle">Mandat und Einleitung</head>
-<p>
-<seg><lb/>Wir <orgName ref="org002406">Burgermeister, der Rath, und der
+        <respStmt>
+          <persName>Sandra Reisinger</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Sandra Reisinger</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date type="electronic" when="2021-04-01"/>
+        <date type="print" when="2018-12-31"/>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Sammlung Schweizerischer Rechtsquellen</title>
+        <respStmt>
+          <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>SSRQ_ZH_NF_I_1_11_066</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3693191"
+              >StAZH III DDb 1, S. 3-8</idno>
+          </msIdentifier>
+          <head>Mandat der Stadt Zürich betreffend Militärordnung der Landmiliz</head>
+          <msContents>
+            <summary>Bürgermeister sowie Grosser und Kleiner Rat der Stadt Zürich erlassen als Einleitung zur Militärordonnanz ein Mandat. Grund dafür ist, dass aufgrund der langen Friedenszeit viele Bürger der Meinung sind, dass eine Verbesserung des Kriegswesens nicht nötig sei. Jedoch hat die Erfahrung gezeigt, dass das Kriegswesen am besten während Friedenszeiten erlernt und geübt wird. Aus diesem Grund sollen alle aus fremden Diensten zurückkehrenden Offiziere und Soldaten pflichtgemäss Kriegsdienst leisten und die in der Ordonnanz vorgeschriebenen Aspekte beachten. Die Obrigkeit erlässt nicht bestimmte Strafen gegen Zuwiderhandlungen, sondern Übertreter sollen während der periodisch vorkommenden Bereinigungen entsprechend geahndet werden. Damit alle von der obrigkeitlichen Meinung überzeugt werden, ist der Militärdienst auf die leichtmöglichste Art eingerichtet worden. Des Weiteren wird Offizieren untersagt, etwas am vorgeschriebenen Manual, an den Kriegsübungen oder an der Montur und Armatur zu verändern. Im obrigkeitlich errichteten Magazin kann die benötigte Montur und Armatur in bester Qualität zu geringen Preisen erworben werden. Ausgesprochene Bussen dienen einzig zum Vorteil des Militärwesens. Um ihr Ansehen und ihre Motivation zu steigern, erhalten alle Offiziere Bestallungsbriefe (Brevets). Schliesslich wird verordnet, dass zur Vermeidung übersteigerten Aufwands und hoher Kosten die Verordnung, insbesondere was die Ausstattung anbelangt, für die Zukunft gilt. Das bedeutet, dass alle Vorgesetzten darauf achten sollen, dass sich ihre Untergebenen nicht mit neuer Montur oder Armatur ausstatten müssen. Dies darf lediglich gewährt werden, wenn die Neuausstattung aus freiem Willen geschieht und es die finanziellen Umstände der entsprechenden Person erlauben.</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Druckschrift, 6 S.</filiation>
+              <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(s. n.)</publisher></docImprint>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><material>Papier</material></support>
+                <extent><dimensions type="leaves">
+                    <height unit="cm" quantity="19.5"/>
+                    <width unit="cm" quantity="12.0"/>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin><origDate when="1770-02-22"/></origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key000213">Kleidung</term>
+          <term ref="key005392">Luxus</term>
+          <term ref="key003016">Militär</term>
+          <term ref="key004082">Solddienst</term>
+          <term ref="key000902">Waffen</term>
+          <term ref="key001101">Wehrdienst</term>
+        </keywords>
+      </textClass>
+      <particDesc default="false"/>
+      <settingDesc default="false"/>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="1" facs="StAZH_III_DDb_1__S__1_.tif"/>
+            <head type="title"
+                >Militaͤr-Ordonanz <lb/>für die <lb/>Land-Militz <lb/>der <lb/>Republik <placeName
+                ref="loc000066">Zürich</placeName></head>
+            <p>
+              <figure type="copper engraving"/>
+            </p>
+            <pb n="2" facs="StAZH_III_DDb_1__S__2_.tif"/>
+            <pb n="3" type="original" facs="StAZH_III_DDb_1__S__3_.tif"/>
+            <head type="subtitle">Mandat und Einleitung</head>
+            <p>
+              <seg><lb/>Wir <orgName ref="org002406"
+                    >Burgermeister, der Rath, und der
  <lb/>große Rath, der Stadt und Souverainen
- <lb/>Republik <placeName ref="loc000065">Zuͤrich</placeName></orgName>, geben hiermit zu vernehmen, daß
+ <lb/>Republik <placeName
+                    ref="loc000065">Zuͤrich</placeName></orgName>, geben hiermit zu vernehmen, daß
  <lb/>in Fortsetzung Unserer Landesvaͤterlichen Sorgfalt, auf
  <lb/>alles das, so zu Beybehaltung Unserer hoͤchst-begluͤckten
  <lb/>Staatsverfassung, und durch dieselbige, geniessenden
  <lb/>unschaͤtzbaren Freyheit und Wohlstands, gereichen
- <lb/><choice><sic>kanu</sic><corr>kann</corr></choice>; Uns veranlaßet befunden, eine bestimmte Ein<lb break="no"/>richtung
+ <lb/><choice>
+                  <sic>kanu</sic>
+                  <corr>kann</corr>
+                </choice>; Uns veranlaßet befunden, eine bestimmte Ein<lb break="no"
+                  />richtung
  Unsers ganzen Militarwesens zu verfassen,
- <lb/>und alle deßwegen erforderliche Befehle und Verord<lb break="no"/>nungen,
+ <lb/>und alle deßwegen erforderliche Befehle und Verord<lb
+                  break="no"/>nungen,
  die bishero, nach Maßgeb der Umstaͤnden
- <pb n="4" type="original" facs="StAZH_III_DDb_1__S__4_.tif"/>
-<lb/>und Zeiten, stuͤckweise errichtet worden, zu sammeln,
- <lb/>hin und wieder nach Erforderniß der Zeiten zu ver<lb break="no"/>bessern,
- zu ergaͤnzen, und in Form einer Militari<lb break="no"/>schen
+ <pb n="4"
+                  type="original" facs="StAZH_III_DDb_1__S__4_.tif"/>
+                <lb/>und Zeiten, stuͤckweise errichtet worden, zu sammeln,
+ <lb/>hin und wieder nach Erforderniß der Zeiten zu ver<lb
+                  break="no"/>bessern,
+ zu ergaͤnzen, und in Form einer Militari<lb break="no"
+                />schen
  Ordonanz zusammen drucken und publiciren zu
  <lb/>lassen.</seg>
-<seg>Wir achten selbiges um so da noͤthiger, als
+              <seg>Wir achten selbiges um so da noͤthiger, als
  <lb/>Wir wahrgenommen, daß durch den, aus Gnaden
  <lb/>des Hoͤchsten geniessenden langen Frieden, (den Wir
  <lb/>auch durch Seine Huͤlfe zu erhalten, Uns bestreben
@@ -72,139 +135,188 @@
  <lb/>Landleuten, die hoͤchst unbegruͤndte und schaͤdliche
  <lb/>Meynung entstanden, die ununterbrochene Uebung,
  <lb/>und moͤglichste Verbesserung des Kriegswesens seye
- <lb/>eben nicht so noͤthig; deßwegen sich dann eine ziem<lb break="no"/>liche
- Nachlaͤßigkeit in demselben, hin und wieder er<lb break="no"/>aͤussert hat.</seg>
-</p>
-<p>
-<seg><lb/>Da doch gleichwohl die Erfahrung aller Zeiten
+ <lb/>eben nicht so noͤthig; deßwegen sich dann eine ziem<lb
+                  break="no"/>liche
+ Nachlaͤßigkeit in demselben, hin und wieder er<lb break="no"
+                />aͤussert hat.</seg>
+            </p>
+            <p>
+              <seg><lb/>Da doch gleichwohl die Erfahrung aller Zeiten
   <lb/>unwidersprechlich darthut, daß man nur im Frieden
-  <lb/>zu Erlernung dessen, so man im Krieg selbs, pflicht<lb break="no"/>maͤßig
+  <lb/>zu Erlernung dessen, so man im Krieg selbs, pflicht<lb
+                  break="no"
+                  />maͤßig
   ausuͤben soll, den besten und leichtesten Anlaß
   <lb/>hat, und daß alle diejenigen Voͤlker, die solches aus
   <lb/>Weichlichkeit oder Leichtsinn verabsaͤumt, hernach
-  <lb/>weder Muth noch Geschicklichkeit gehabt, sich selb<lb break="no"/>sten
+  <lb/>weder Muth noch Geschicklichkeit gehabt, sich selb<lb
+                  break="no"
+                />sten
   zu beschuͤtzen, sonder allemal dem ersten Feind
   <lb/>zur Beute geworden sind.</seg>
-<seg>Damit aber, der hier<lb break="no"/>durch
+              <seg>Damit aber, der hier<lb break="no"
+                  />durch
   abzweckende Nutzen ohnfehlbar erreicht werde,
   <lb/>so versehen Wir Uns vor allem aus zu allen Unsern
   <lb/>Verburgerten und Angehoͤrigen, insbesonder auch,
-  <lb/>zu allen aus fremden Diensten zuruͤckgekommenen Of<lb break="no"/>ficieren
+  <lb/>zu allen aus fremden Diensten zuruͤckgekommenen Of<lb
+                  break="no"/>ficieren
   und Soldaten, daß keiner aus ihnen, was
-  <pb n="5" type="original" facs="StAZH_III_DDb_1__S__5_.tif"/>
-<lb/>Standes er immer seye, sich des, dem Vaterland
+  <pb n="5"
+                  type="original" facs="StAZH_III_DDb_1__S__5_.tif"/>
+                <lb/>Standes er immer seye, sich des, dem Vaterland
   <lb/>schuldigen Dienstes, auf was Weise, und unter was
-  <lb/>Vorwand es immer seyn moͤchte, zu entziehen trach<lb break="no"/>ten,
+  <lb/>Vorwand es immer seyn moͤchte, zu entziehen trach<lb
+                  break="no"
+                  />ten,
   sonder vielmehr, das in der Kriegs-Ordonanz
   <lb/>vorgeschriebene gruͤndlich erlernen, und bey allen sich
   <lb/>ergebenden Anlaͤßen freudigst ausuͤben werde. Nicht
-  <lb/>nur die, Unserer bestgemeinten Verordnung gebuͤh<lb break="no"/>rende
+  <lb/>nur die, Unserer bestgemeinten Verordnung gebuͤh<lb
+                  break="no"
+                  />rende
   Achtung, sonder auch, selbs die Sorge fuͤr
   <lb/>seine und der Seinigen Wohlfahrt, werde ohnfehlbar
   <lb/>jeden treuen Angehoͤrigen dahin leiten, und ihne von
   <lb/>selbsten erkennen machen, daß ein einiges Beyspiel
-  <lb/>von Ausnahme, hierinn großen Schaden und Nach<lb break="no"/>theil bringen koͤnnte.</seg>
-</p>
-<p>
-<lb/>In der ungezweifelten Hoffnung nun, daß jeder<lb break="no"/>mann
+  <lb/>von Ausnahme, hierinn großen Schaden und Nach<lb
+                  break="no"/>theil bringen koͤnnte.</seg>
+            </p>
+            <p>
+              <lb/>In der ungezweifelten Hoffnung nun, daß jeder<lb break="no"
+                />mann
  diesen heilsamen Absichten entsprechen werde,
- <lb/>unterlassen Wir, gegen Uebertretere, bestimmte Stra<lb break="no"/>fen
+ <lb/>unterlassen Wir, gegen Uebertretere, bestimmte Stra<lb
+                break="no"
+                />fen
  zu verordnen, und begnuͤgen Uns zu erklaͤhren,
  <lb/>daß, wenn bey den, von Zeit zu Zeit, zu Stadt
- <lb/>und Land, vorgenommen werden sollenden Bereini<lb break="no"/>gungen,
+ <lb/>und Land, vorgenommen werden sollenden Bereini<lb
+                break="no"
+              />gungen,
  sich dergleichen Faͤlle erzeigten, Wir, solche
  <lb/>gegen alle Fehlbare, ohne Ansehen der Person, auf
  <lb/>die, fuͤr sie empfindlichste Weise ahnden, und Unsern
  <lb/>gerechten Unwillen zu erkennen geben wuͤrden.
 </p>
-<p>
-<lb/>Jedermann aber, von Unserer Gnaͤdigen Wohl<lb break="no"/>meynung
+            <p>
+              <lb/>Jedermann aber, von Unserer Gnaͤdigen Wohl<lb break="no"
+                />meynung
  zu uͤberzeugen, haben Wir, wie solches
- <lb/>die Ordonanz selbst zeigen wird, den ganzen Mi<lb break="no"/>litardienst,
+ <lb/>die Ordonanz selbst zeigen wird, den ganzen Mi<lb
+                break="no"
+              />litardienst,
  auf die leichtest-moͤgliche Art einrichten
  <lb/>lassen.
 </p>
-<pb n="6" type="original" facs="StAZH_III_DDb_1__S__6_.tif"/>
-<p>
-<lb/>Zu dem Ende hin, Wir auch allen Unsern Of<lb break="no"/>ficieren,
- von was Rang selbige <choice><sic>innner</sic><corr>immer</corr></choice> seyen, befeh<lb break="no"/>len,
+            <pb n="6" type="original" facs="StAZH_III_DDb_1__S__6_.tif"/>
+            <p>
+              <lb/>Zu dem Ende hin, Wir auch allen Unsern Of<lb break="no"/>ficieren,
+ von was Rang selbige <choice>
+                <sic>innner</sic>
+                <corr>immer</corr>
+              </choice> seyen, befeh<lb break="no"
+                />len,
  weder in dem vorgeschriebenen Manual und
- <lb/>Kriegsuͤbungen, noch auch, an der Mont- und Ar<lb break="no"/>matur
+ <lb/>Kriegsuͤbungen, noch auch, an der Mont- und Ar<lb
+                break="no"
+                />matur
  ohne Unsern ausdruͤcklichen Befehl, nicht das
- <lb/>mindeste zu veraͤndern, und hierdurch den Unsern un<lb break="no"/>noͤthige
- Muͤhe und Kosten zu verursachen. Wir wol<lb break="no"/>len
+ <lb/>mindeste zu veraͤndern, und hierdurch den Unsern un<lb
+                break="no"/>noͤthige
+ Muͤhe und Kosten zu verursachen. Wir wol<lb break="no"
+                />len
  auch, daß fuͤrohin, jedermann, in dem deßwegen
  <lb/>errichteten Magazin, alles benoͤthigte an Mont- und
  <lb/>Armatur, es seye einzeln oder sammethaft, von bester
- <lb/>Qualitaͤt, und in ringst moͤglichen Preisen sich an<lb break="no"/>zuschaffen finde.
+ <lb/>Qualitaͤt, und in ringst moͤglichen Preisen sich an<lb
+                break="no"/>zuschaffen finde.
 </p>
-<p>
-<lb/>Wir verordnen fehrner, daß fuͤrs kuͤnftige alle
+            <p>
+              <lb/>Wir verordnen fehrner, daß fuͤrs kuͤnftige alle
  <lb/>fallende Bußen (von den Quartier-Hauptleuten,
  <lb/>Chefs d’Escadrons der Dragoner, Hauptleuten von
  <lb/>der Artillerie, und der Jaͤger, unter Aufsicht und
  <lb/>Anordnung der General-Inspectoren, und bey den
  <lb/>Jaͤgern unter ihres Chefs) allein zu dem Vortheil,
- <lb/>und Aufnahm des Militarwesens, und also zu allge<lb break="no"/>meinem
+ <lb/>und Aufnahm des Militarwesens, und also zu allge<lb
+                break="no"/>meinem
  Besten angewendet werden.
 </p>
-<p>
-<lb/>Den Officieren, welche die, ihnen anvertrauten
+            <p>
+              <lb/>Den Officieren, welche die, ihnen anvertrauten
  <lb/>Stellen, ohne deßwegen von Uns zu machende neue
  <lb/>Verordnung, sowohl in Friedens- als Kriegszeiten,
- <lb/>behalten, wollen Wir, zu Vermehrung ihres Anse<lb break="no"/>hens
- und Lusts zu dem Kriegswesen, Brevets zustel<lb break="no"/>len
+ <lb/>behalten, wollen Wir, zu Vermehrung ihres Anse<lb
+                break="no"/>hens
+ und Lusts zu dem Kriegswesen, Brevets zustel<lb break="no"
+                />len
  lassen, und uͤberhaupt alles dahin einschlagende
  <lb/>so einrichten, daß jedermann erkennen muß, Unsere
  <lb/>Absichten zielen einig und allein auf die Befoͤrderung
- <pb n="7" type="original" facs="StAZH_III_DDb_1__S__7_.tif"/>
-<lb/>des Wohlstands des ganzen Staates, und aller Un<lb break="no"/>serer
+ <pb
+                n="7" type="original" facs="StAZH_III_DDb_1__S__7_.tif"/>
+              <lb/>des Wohlstands des ganzen Staates, und aller Un<lb break="no"
+              />serer
  werthen Angehoͤrigen.
 </p>
-<p>
-<lb/>Damit auch aller, das Vermoͤgen des eint oder
+            <p>
+              <lb/>Damit auch aller, das Vermoͤgen des eint oder
  <lb/>andern der Unsrigen, uͤbersteigende Aufwand und
- <lb/>unnoͤthige Zumuthung, auch bishero etwann eingeris<lb break="no"/>sene
- willkuͤhrliche Neuerungen bestens abgehebt wer<lb break="no"/>den,
- auch niemandem aus Anlaß dieser neuen Ordo<lb break="no"/>nanz, 
+ <lb/>unnoͤthige Zumuthung, auch bishero etwann eingeris<lb
+                break="no"/>sene
+ willkuͤhrliche Neuerungen bestens abgehebt wer<lb break="no"
+                />den,
+ auch niemandem aus Anlaß dieser neuen Ordo<lb break="no"
+                />nanz, 
  und darinn bestimmten Mont- und Armatur
  <lb/>beschwerliche Zumuthungen gemachet werden, so wird
  <lb/>zu maͤnniglichs Verhalt bekannt gemachet, daß diese
  <lb/>Verordnungen, nur allein auf die Zukunft gemeynt
- <lb/>seyen, in der Meynung, daß alle General-Inspecto<lb break="no"/>res,
- Quartier-Hauptleute, Chefs d’Escadrons, Haupt<lb break="no"/>leute
+ <lb/>seyen, in der Meynung, daß alle General-Inspecto<lb
+                break="no"/>res,
+ Quartier-Hauptleute, Chefs d’Escadrons, Haupt<lb break="no"
+                />leute
  von der Artillerie, Infanterie und Jaͤgern, ja
- <lb/>uͤberhaupt alle Ober- und Unter-Officiers auf das ge<lb break="no"/>naueste
- dahin sehen, und unter keinem Vorwand ge<lb break="no"/>statten
+ <lb/>uͤberhaupt alle Ober- und Unter-Officiers auf das ge<lb
+                break="no"/>naueste
+ dahin sehen, und unter keinem Vorwand ge<lb break="no"
+                />statten
  sollen, daß ihre Untergebene, die sich entweder
  <lb/>von neuem gaͤnzlich, oder nur stuͤckweise mit neuer
  <lb/>Mont- und Armatur versehen muͤssen, es anderst,
  <lb/>als Unserer Vorschrift gemaͤß thun; so ist hingegen
  <lb/>selbigen saͤmmtlich hierdurch aufgetragen, von der
- <lb/>wirklich dienenden Mannschaft, die dieser neuen Ver<lb break="no"/>ordnung
+ <lb/>wirklich dienenden Mannschaft, die dieser neuen Ver<lb
+                break="no"
+                />ordnung
  nicht voͤllig Uniform, Mont- und Armiert
  <lb/>ist, keine Abaͤnderungen, als die aus ganz freyem
- <lb/>Willen geschehen, zu begehren, und wollen Wir, freund<lb break="no"/>liches
- Zureden hierinnfalls gestatten, doch soll alle<lb break="no"/>mal,
+ <lb/>Willen geschehen, zu begehren, und wollen Wir, freund<lb
+                break="no"/>liches
+ Zureden hierinnfalls gestatten, doch soll alle<lb break="no"
+              />mal,
  sonderlich auf desjenigen Mannes, dem man
  <lb/>zureden will, sein Vermoͤgen und Umstaͤnde gesehen
  <lb/>werden.
 </p>
-<pb n="8" type="original" facs="StAZH_III_DDb_1__S__8_.tif
+            <pb n="8" type="original" facs="StAZH_III_DDb_1__S__8_.tif
 "/>
-<p>
-<lb/>Wir versehen uns hierbey zu allen Unsern Ver<lb break="no"/>burgerten
- und Angehoͤrigen, des bereitwilligsten Ge<lb break="no"/>horsams,
+            <p>
+              <lb/>Wir versehen uns hierbey zu allen Unsern Ver<lb break="no"
+                />burgerten
+ und Angehoͤrigen, des bereitwilligsten Ge<lb break="no"
+              />horsams,
  und bitten Gott, daß Er das ganze werthe
  <lb/>Vaterland fehrner im Frieden und Segen erhalten
  <lb/>wolle.
 </p>
-<p>
-<lb/>Geben den <origDate when="1770-02-22">22sten Hornung 1770</origDate>.
+            <p>
+              <lb/>Geben den <origDate when="1770-02-22">22sten Hornung 1770</origDate>.
 </p>
-</div>
-</body>
-</text>
-</group>
-</text>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
 </TEI>
