@@ -2,7 +2,7 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
-<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
 <teiHeader>
 <fileDesc>
@@ -54,7 +54,7 @@ Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
 <lb/>und die schuldforderer <del>nit</del> von des selben burgers, uff den der uffal bescheche,
 <lb/>eigenem guͦt <add type="sign" place="above">nit</add> bezalt und vernuͤgt werden moͤchten, haͧt dann der selb
 <lb/>burger ein efrowen, die mit inn zuͦ banck oder gaden in gwu̍n oder
-<lb/>gwerb, welicherley handtierung und gwerbs sich joch der selb <add type="sign" place="above"><del>burger</del></add> gebrucht haͧt,
+    <lb/>gwerb, welicherley handtierung und gwerbs sich joch der selb <del><add type="sign" place="above">burger</add></del> gebrucht haͧt,
 <lb/>gestanden ist, so sol ouch der selb siner efrowen guͦt allencklich, es sig
 <lb/>ir zugebracht guͦt, ir morgengab, <del>oder</del> ererbt oder sunst u̍berkommen guͦt,
 <lb/>in dem gantz nu̍tz ußgenommen, umb soͤlich irs mans schulden behaft
