@@ -3,324 +3,406 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
-xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 11: Die Obervogteien um die
-Stadt Zürich</title>
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-19"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_II_11_008_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3056709">StAAG U.38/0587 (Urk. 2)</idno>
-</msIdentifier>
-<head>Verkauf der Vogtei über Höngg mit Zubehör durch die von Seen an das Kloster Wettingen</head>
-<msContents>
-<summary>Ritter Johann von Seen und seine Söhne Rudolf, Hartmann und Gottfried, Kirchherr in Wülflingen, verkaufen für sich sowie für
-Egbrecht und Johann Ulrich, ebenfalls Söhne des Johann von Seen, zur Tilgung ihrer Schulden für 520 Gulden die Vogtei in Höngg mit allen
-Gerichten über Diebstahl, Frevel und Übergriffe auf offener Strasse sowie allen dazu gehörenden Rechten an das Kloster Wettingen. Ferner
-beinhaltet der Verkauf die Fischenz in der Limmat, die Mühlehofstatt und das Mühlerecht mit allen dortigen Flussinseln, Wasserläufen und
-alles übrige, was sie in Höngg besitzen. Die Hofstätte, die das Kloster beim Kauf des Kirchensatzes den von Seen zur Nutzung als Gerichtsort
-überlassen hat, gelangt nun ebenfalls an das Kloster. Ausgenommen von dem Verkauf sind ihre Leibeigenen, die Mannlehen und ein Weingarten am
-Kilchsteig. Die von Seen verpflichten sich, beim Lehenherren, der Herrschaft Österreich, zu bewirken, dass das Kloster Wettingen die Rechte
-in Höngg zu Eigentum erhält. Die Aussteller siegeln.</summary>
-<msItem>
-<textLang>Deutsch</textLang>
-<filiation type="current">Original (A 1)</filiation>
-</msItem>
-</msContents>
-<physDesc>
-<objectDesc>
-<supportDesc>
-<support><material>Pergament</material></support>
-<extent><dimensions type="leaves">
-<height unit="cm" quantity="55.5"/>
-<width unit="cm" quantity="30.5"/>
-</dimensions><dimensions type="plica">
-<width unit="cm" quantity="4.0"/>
-</dimensions></extent>
-</supportDesc>
-</objectDesc>
-<sealDesc>
-<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round"
-nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
-<persName>en der Siegler auf der Plica): 1. Johann von Seen</persName>
-</seal>
-<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round"
-nontei:attachment="sealed on a parchment tag" nontei:condition="damaged">
-<persName>Rudolf von Seen</persName>
-</seal>
-<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:material="wax" nontei:shape="round"
-nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
-<persName>Hartmann von Seen</persName>
-</seal>
-<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4" nontei:material="wax" nontei:shape="oval"
-nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
-<persName>Gottfried von Seen</persName>
-</seal>
-</sealDesc>
-</physDesc>
-<history>
-<origin><origDate when="1365-05-12"/><origPlace>Baden</origPlace></origin>
-</history>
-<additional>
-<listBibl>
-<head>Regest</head>
-<bibl>URStAZH, Bd. 1, Nr. 1688 (nach Abschrift)</bibl>
-</listBibl>
-</additional>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
-</editorialDecl>
-</encodingDesc>
-<profileDesc>
-<textClass default="false">
-<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
-<term ref="key000536">Fischerei</term>
-<term ref="key000369">Kauf</term>
-<term ref="key000010">Kloster</term>
-<term ref="key000084">Leibeigenschaft</term>
-<term ref="key000047">Mühlen</term>
-<term ref="key000036">Vogtei</term>
-</keywords>
-</textClass>
-<particDesc default="false"/>
-<settingDesc default="false"/>
-</profileDesc>
-</teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r"/>
-<p>
-<seg><lb/>Allen den, die disen brief ansehent oder hoͤrent lesen, ku̍nde ich <persName ref="per023530">Johans von Sehain</persName>, ritter,
-und wir <persName ref="per023656">Ruͦdolf</persName>, <persName ref="per023654">Hartman</persName> und phaff <persName ref="per023653"
->Goͤtfrid</persName>, kilchherre ze <placeName ref="loc010888">Wu̍flingen</placeName>, gebruͦdere <orgName ref="org007932">von
-Sehain</orgName>, des selben hern <persName ref="per023530">Johans von <lb/>Sehain</persName> su̍ne, und vergehen offenlich mit disem
-gegenwu̍rtigen brief fu̍r uns selber, darzuͦ fu̍r <persName ref="per023652">Egbrechten</persName> und <persName ref="per023655">Johans
-Uͦlrichen von Sehain</persName>, oͧch min, des egenanten <persName ref="per023530">Johans von Sehain</persName>, su̍ne und unser, der
-egenemten <lb/><orgName ref="org007932">von Sehain</orgName>, bruͦder, und fu̍r unser erben, daz wir gemainlich und ainhelleklich ze rate
-worden und mit guͦtter vorbetrachtunge u̍ber ain komen syen, durch unsern anstanden schaden und noch meren ku̍nftigen schaden <lb/>ze
-verkomenne, also daz wir den erwurdigen gaistlichen herren, dem <orgName ref="org000030">abte und dem convente gemainlich ze dem kloster ze
-<placeName ref="loc000074">Wettingen</placeName></orgName> des <orgName ref="org005242">ordens von <placeName ref="loc005629"
->Zitels</placeName></orgName> und dem selben gotshus, gelegen in <orgName ref="org000056"><placeName ref="loc000008">Costentzere</placeName>
-bystuͦme</orgName>, <lb/>recht und redlich und ane alle geverde hingelazzen und ze koͧffenne gegeben haben du̍ vogtay ze <placeName
-ref="loc009768">Hoͤngge</placeName> mit gerichten u̍ber du̍b und frevenden und u̍bergriffe uff offenner strazze und mit allen andern
-<lb/>rechten, frihaiten, diensten, nu̍tzen und gewonhaiten, benemt und unbenemt, so darzuͦ oder da rin gehoͤrent, als wir du̍ selben vogtay
-und du̍ gerichte da selbs untz her bracht und gehebt hant ane geverde. Du̍selb vogtay <lb/>jeͣrlich ze rechter vogtstu̍r giltet <measure
-type="volume" commodity="spelt" unit="Mütt" quantity="12">zwelf mutte kernen</measure>, <measure type="volume" commodity="oat" unit="Malter"
-quantity="3" origin="ZH">dru̍ malter habern Zu̍richer mess</measure>, <measureGrp><measure type="currency" origin="ZH" quantity="2"
-unit="lb">zwai phunt</measure> und <measure type="currency" origin="ZH" quantity="17" unit="ß">sibenzehen schilling phenning Zu̍richer
-mu̍ntz</measure></measureGrp> und jeklichu̍ husroͧki da selbs ain vasnacht huͦn.<note>Mit der Stadt <placeName ref="loc000065"
->Zürich</placeName> als späterer Inhaberin der Vogtei über <placeName ref="loc009768">Höngg</placeName> lösen die Bewohner von Höngg am
-<date when="1408-11-28">28. November 1408</date> die Vogtsteuer um den Betrag von <measureGrp><measure quantity="254" type="currency"
-unit="fl">254 Gulden</measure> und <measure quantity="6" type="currency" unit="lb">6 Pfund Pfennigen</measure></measureGrp> ab (<bibl><ref
-target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3251564">StAZH B II 2, fol. 117v</ref></bibl>; Edition: <bibl><ref
-target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 1/2, Nr. 226, S. 372-373</bibl>).</note></seg>
-<seg>Darzuͦ haben <lb/>wir in ze koͧffenne geben du̍ vischantz<note>Die Fischenz in <placeName ref="loc009768">Höngg</placeName> war ein
-Erblehen des Grossmünsterstifts, so stimmten Propst und Konvent am <date when="1365-06-23">23. Juni 1365</date> dem Verkauf von Vogtei und
-Fischenzen an das <orgName ref="org000030">Kloster Wettingen</orgName> unter dem Vorbehalt ihrer Herrschaftsrechte zu (<bibl>StAAG
-U.38/0589</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1700</bibl>) und verliehen
-demselben im Anschluss die dortigen Fischereirechte (<bibl>StAAG U.38/0590</bibl>; Regest: <bibl><ref
-target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1701</bibl>).</note> ze <placeName ref="loc009768">Hoͤngge</placeName>
-uff der <placeName ref="loc000075">Lintmag</placeName> und an der <placeName ref="loc000075">Lintmag</placeName>, du̍ u̍nser gewesen ist,
-mit allen nu̍tzen, rechten und zuͦgehoͤrungen, du̍ vahet an ze <placeName ref="loc000082">Gallen Werde</placeName><note>Betreffend die
-beiden Inseln in der Limmat, <placeName ref="loc012113">Gallenwerd</placeName> genannt, vgl. <bibl><ref
-target="/suche/detail/SSRQ_ZH_NF_II_11_022">SSRQ ZH NF II/11, Nr. 22</ref></bibl>; Regest: <bibl><ref
-target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 5, Nr. 6543</bibl>.</note> nebent der <placeName ref="loc012742"
->Rebwis</placeName> und <lb/>gat du̍ richti u̍ber, als die markstain stant, untz an des <persName ref="per000325">Manessen</persName> guͦt
-im <placeName ref="loc012125">Harde</placeName> und nidsich ab in <placeName ref="loc012080">Braiten Wag</placeName> under du̍ <placeName
-ref="loc012743">Risi</placeName>, giltet jeͣrlich ze zinse <measure type="currency" unit="lb" quantity="2" origin="ZH">zwai phunt phenning
-Zu̍richere mu̍ntz</measure> und ain lachs, sol <lb/>gelten <measure type="currency" unit="ß" quantity="10">zehen schilling
-phenning</measure> der selben mu̍ntz.<note>Zur Fischerei in <placeName ref="loc009768">Höngg</placeName> vgl. <bibl><ref
-target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S. 153-157</bibl>.</note></seg>
-<seg>Darzuͦ du̍ mu̍li statt und daz mu̍li recht da selbs ze <placeName ref="loc009768">Hoͤngge</placeName> uff der <placeName
-ref="loc000075">Lintmag</placeName> und an der <placeName ref="loc000075">Lintmag</placeName> mit allen rechten, nu̍tzen und alle die werde,
-wasser und <lb/>giessen mit usgengen und ingengen, die unser gewesen sint an der <placeName ref="loc000075">Lintmag</placeName> und da bi
-gelegen, und was wir ze <placeName ref="loc009768">Hoͤngge</placeName> hatten, benemt und unbenemt.<note>Zur Lage der Mühle in <placeName
-ref="loc009768">Höngg</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sibler 1998</ref>, S.
-129-130</bibl>.</note></seg>
-<seg>Oͧch haben wir inen in disen koͧff gelazzen und geben du̍ aigen<lb break="no"/>schaft ainer hofstat, die u̍ns vor mals von dem gotshus
-usse gelazzen was in dem koͧffe des kilchensatzes ze <placeName ref="loc009768">Hoͤngge</placeName>,<note>Die Urkunden im Zusammenhang mit
-dem Verkauf von 1359 (vgl. Kommentar) nennen keine vorbehaltenen Güter respektive eine Weiternutzung durch die von Seen (<bibl>StAAG
-U.38/0529</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1316</bibl>; <bibl>StAAG
-U.38/0537</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1350</bibl>).</note> daz wir
-urtailen dar uffe su̍nderren<!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007752 --> moͤchten, daz inen du̍ oͧch nu ledig
-sin sol.</seg>
-<seg>Dis alles, du̍ <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice>
-<lb/>vogtay und guͤtter, als vorbeschaiden ist, haben wir in ze koͧffenne geben umb <measure quantity="520" type="currency" unit="fl"
-origin="Florenz">fu̍nf hundert guldin und umb zwainzig guldin guͦtter von Florentz</measure> mit voller gewicht, der wir gar und gantzlich
-von dem <orgName ref="org000030">abte <lb/>und dem convente des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> klosters ze <placeName ref="loc000074">Wettingen</placeName></orgName> gewert sint, und die in unsern beweͣrten nutz verkeret hant
-und unser gu̍ltan da mit abgerichtet haben, da taͤglichs grosser schade ufgieng.<note>Bereits der Verkauf von 1359 (vgl. Kommentar)
-erfolgte, <orig>darumb, das er [Johann von Seen] großes schadens enntladen wu̍rde</orig> (<bibl><ref
-target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=344568">StAZH F II a 458, fol. 82r-84r</ref></bibl>, hier fol. 82r; Regest:
-<bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr.
-1316</bibl><!-- ahh: später zu ersetzen mit dem Wortlaut des Original: StAAG U.38/0529 -->).</note></seg>
-<seg>Und haben u̍ns verzigen <lb/>und verzihen u̍ns mit disem brief fu̍r uns und alle unser erben und nachkomen zuͦ des abtes und des
-conventes handen gemainlich des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice>
-<orgName ref="org000030">gotshus ze <placeName ref="loc000074">Wettingen</placeName></orgName> und zuͦ ir nachkomen und des selben ir
-gotshuses <lb/>wegen aller vordrunge und ansprach und alles rechten und gerichten, gaistlicher und weltlicher, stattrecht, lantrecht,
-burgrecht, bu̍ntnu̍st, aller frihait und gnaden, so wir erwerben moͤchten von unserm hailigen <lb/>vatter, dem babste, oder von thainem
-sinem nachkomen ku̍nftigen beͣbsten oder von andern gaistlichen oder weͣltlichen richtern, aller fu̍rzu̍g und funden, geschriben und
-ungeschriben, und sunderlich des rechten, daz da spricht <lb/><quote>gemain verzihunge vervahet nit</quote><note>Zum Sprichwort vgl.
-<bibl><ref target="/startseite/literaturverzeichnis">Wander 1867-1880</ref>, <ref
-target="http://www.woerterbuchnetz.de/Wander?lemma=verzicht"
->Verzicht</ref></bibl>.</note><!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007744 -->, und aller andere sach, so jeman
-jetz ald in ku̍nftigen ziten erdenken oder vinden kan, da mit wir oder unser erben <orgName ref="org000030">den abt und den convent des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> klosters ze <placeName ref="loc000074">Wettingen</placeName></orgName> oder <lb/>ir nachkomen oder daz selb gotshus an der <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> vogtay und guͤttern, als vorbeschaiden ist, oder an thainer ir rechtunge alder ir zuͦ gehoͤrde jemer beku̍mberen oder besweͣren
-moͤchten in kaine wise. Und setzen si der <lb/>selben vogtay und guͤtter in recht nutzlich gewer. Und haben in gelopt und loben mit disem
-brief, fu̍r uns und unser erben, gemainlich und unverschaidenlich, were, daz du̍ <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenante</expan>
-</choice> vogtay oder du̍ guͤtter jena oder gegen <lb/>jemanne verku̍mbert
-<!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007743 -->weren oder <app>
-<lem><sic>verrigen</sic></lem>
-<rdg wit="StAZH F II a 458, fol. 115r-118v">vorigen</rdg>
-</app><note>Gemäss freundlicher Auskunft der Mitarbeitenden des Idiotikons sind Wort und Bedeutung unbekannt. Auch der Kopist des 16.
-Jahrhunderts scheint das Wort nicht verstanden zu haben.</note>, daz wir in du̍ selben vogtay und guͤtter <app>
-<lem>entrihen</lem>
-<rdg wit="StAZH F II a 458, fol. 115r-118v">entrichten</rdg>
-</app>, ledig und losmachen su̍lnt, ane irn schaden unverzogenlich, ane alle geverde. Weͣre oͧch, daz thain brief oder urku̍nde <lb/>u̍ber
-kurtz ald u̍ber lang von der <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> vogtay und guͤtter wegen funden ald fu̍rgezogen wurden, die uns nu̍tzen moͤchten und dem <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> gotshus scheͣdlich weren, der brief oder die brief und urku̍nde, ir <lb/>sye ainr oder me, su̍lnt u̍ns und unsern erben tod und
-unnu̍tz sin und ensu̍lnt dem abte noch dem convente des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> klosters noch irn nachkomenen noch dem selben gothus an der <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> vogtay und guͤttern <lb/>niemer schaden bringen in kain wise, ane alle geverde.</seg>
-<seg>Und won du̍ <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> vogtay und guͤtter unser lehen gewesen sint von u̍nserr gnedigen herschaft, den <orgName ref="org000088">hertzogen von <placeName
-ref="loc000589">Oͤsterrich</placeName></orgName>, so haben wir in gelopt, <lb/>daz wir in u̍rku̍nde und sicherhait von der selben unserr
-herschaft mit ir briefen und insigeln besorgen und schaffen su̍lnt, daz du̍ selb unser herschaft dem <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> gotshus du̍ aigenschaft der vorgenanten <lb/>vogtay und guͤttern geͣbe durch gott und ir haile, daz da mit du̍ selb vogtay und
-guͤtter eweklich des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> gotshus ledig aigen syen ane alle geverde.</seg>
-<seg>Wir, die egenanten <orgName ref="org007932">von Sehain</orgName>, haben oͧch uns selber <lb/>behalten und in disem koͧffe usse gelazzen
-den wingarten an <placeName ref="loc012092">Kilchstaig</placeName>, ist vil bi <measure type="area" unit="Juchart" quantity="1">ain
-juchart</measure> und alle die lu̍te da selbe ze <placeName ref="loc009768">Hoͤngg</placeName>, die unser sint von dem libe, und alle die
-mannlehen, die wir von der hand ze <lb/>lihenne haben, daz die in dem <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> koͧffe nit vergriffen sint und daz si uns und unsern erben zuͦ gehoͤren su̍lnt ane geverde.</seg>
-<seg>Und des alles ze warem urku̍nde und sicherhait, alles das, so vor an disem briefe <lb/>verschriben stat, haben wir, die obgenanten
-<orgName ref="org007932">von Sehain</orgName>, alle viere, dem <orgName ref="org000030">abte und dem convente des <choice>
-<abbr>vorgen</abbr>
-<expan>vorgenanten</expan>
-</choice> klosters ze <placeName ref="loc000074">Wettingen</placeName></orgName> und ir nachkomen disen brief versigelt mit unsern
-anhangenden insigeln. <lb/>Der brief wart geben ze <origPlace ref="loc000020">Baden</origPlace>, <origDate when="1365-05-12">an sant
-<persName role="saint" ref="per004136">Pancracii</persName> tag, do man zalte von Kristi geburte dru̍zehen hundert jar, dar nach in dem
-fu̍nf und sechtzigesten jare</origDate>.</seg>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-19"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_II_11_008_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3056709"
+                            >StAAG U.38/0587 (Urk. 2)</idno>
+                    </msIdentifier>
+                    <head>Verkauf der Vogtei über Höngg mit Zubehör durch die von Seen an das Kloster Wettingen</head>
+                    <msContents>
+                        <summary>Ritter Johann von Seen und seine Söhne Rudolf, Hartmann und Gottfried, Kirchherr in Wülflingen, verkaufen für sich sowie für Egbrecht und Johann Ulrich, ebenfalls Söhne des Johann von Seen, zur Tilgung ihrer Schulden für 520 Gulden die Vogtei in Höngg mit allen Gerichten über Diebstahl, Frevel und Übergriffe auf offener Strasse sowie allen dazu gehörenden Rechten an das Kloster Wettingen. Ferner beinhaltet der Verkauf die Fischenz in der Limmat, die Mühlehofstatt und das Mühlerecht mit allen dortigen Flussinseln, Wasserläufen und alles übrige, was sie in Höngg besitzen.  Die Hofstätte, die das Kloster beim Kauf des Kirchensatzes den von Seen zur Nutzung als Gerichtsort überlassen hat, gelangt nun ebenfalls an das Kloster. Ausgenommen von dem Verkauf sind ihre Leibeigenen, die Mannlehen und ein Weingarten am Kilchsteig. Die von Seen verpflichten sich, beim Lehenherren, der Herrschaft Österreich, zu bewirken, dass das Kloster Wettingen die Rechte in Höngg zu Eigentum erhält.  Die Ausst</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Original (A 1)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="55.5"/>
+                                        <width unit="cm" quantity="30.5"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="4.0"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName>Johann von Seen</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="damaged">
+                                <persName>Rudolf von Seen</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName>Hartmann von Seen</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+                                nontei:material="wax" nontei:shape="oval"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName>Gottfried von Seen</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1365-05-12"/><origPlace>Baden</origPlace></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Regest</head>
+                            <bibl>URStAZH, Bd. 1, Nr. 1688 (nach Abschrift)</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000536">Fischerei</term>
+                    <term ref="key000369">Kauf</term>
+                    <term ref="key000010">Kloster</term>
+                    <term ref="key000084">Leibeigenschaft</term>
+                    <term ref="key000047">Mühlen</term>
+                    <term ref="key000036">Vogtei</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r"/>
+                        <p>
+                            <seg><lb/>Allen den, die disen brief ansehent oder hoͤrent lesen, ku̍nde ich <persName
+                                    ref="per023530"
+                                    >Johans von Sehain</persName>, ritter, und wir <persName
+                                    ref="per023656">Ruͦdolf</persName>, <persName ref="per023654"
+                                    >Hartman</persName> und phaff <persName ref="per023653"
+                                    >Goͤtfrid</persName>, kilchherre ze <placeName ref="loc010888"
+                                    >Wu̍flingen</placeName>, gebruͦdere <orgName ref="org007932"
+                                    >von Sehain</orgName>, des selben hern <persName ref="per023530"
+                                    >Johans von <lb/>Sehain</persName> su̍ne, und vergehen offenlich mit disem gegenwu̍rtigen brief fu̍r uns selber, darzuͦ fu̍r <persName
+                                    ref="per023652">Egbrechten</persName> und <persName
+                                    ref="per023655"
+                                    >Johans Uͦlrichen von Sehain</persName>, oͧch min, des egenanten <persName
+                                    ref="per023530"
+                                    >Johans von Sehain</persName>, su̍ne und unser, der egenemten <lb/><orgName
+                                    ref="org007932"
+                                    >von Sehain</orgName>, bruͦder, und fu̍r unser erben, daz wir gemainlich und ainhelleklich ze rate worden und mit guͦtter vorbetrachtunge u̍ber ain komen syen, durch unsern anstanden schaden und noch meren ku̍nftigen schaden <lb/>ze verkomenne, also daz wir den erwurdigen gaistlichen herren, dem <orgName
+                                    ref="org000030"
+                                        >abte und dem convente gemainlich ze dem kloster ze <placeName
+                                        ref="loc000074">Wettingen</placeName></orgName> des <orgName
+                                    ref="org005242">ordens von <placeName ref="loc005629"
+                                        >Zitels</placeName></orgName> und dem selben gotshus,
+gelegen in <orgName
+                                    ref="org000056"><placeName ref="loc000008"
+                                        >Costentzere</placeName> bystuͦme</orgName>, <lb/>recht und redlich und ane alle geverde hingelazzen und ze koͧffenne gegeben haben du̍ vogtay ze <placeName
+                                    ref="loc009768"
+                                    >Hoͤngge</placeName> mit gerichten u̍ber du̍b und frevenden und u̍bergriffe uff offenner strazze und mit allen andern <lb/>rechten, frihaiten, diensten, nu̍tzen und gewonhaiten, benemt und unbenemt, so darzuͦ oder da rin gehoͤrent, als wir du̍ selben vogtay und du̍ gerichte da selbs untz her bracht und gehebt hant ane geverde. Du̍selb vogtay <lb/>jeͣrlich ze rechter vogtstu̍r giltet <measure
+                                    type="volume" commodity="spelt" unit="Mütt" quantity="12"
+                                    >zwelf mutte kernen</measure>, <measure type="volume"
+                                    commodity="oat" unit="Malter" quantity="3" origin="ZH"
+                                    >dru̍ malter habern Zu̍richer mess</measure>, <measureGrp><measure
+                                        type="currency" origin="ZH" quantity="2" unit="lb"
+                                        >zwai phunt</measure> und <measure type="currency"
+                                        origin="ZH" quantity="17" unit="ß"
+                                        >sibenzehen schilling phenning Zu̍richer mu̍ntz</measure></measureGrp> und jeklichu̍ husroͧki da selbs ain vasnacht huͦn.<note>Mit der Stadt <placeName
+                                        ref="loc000065"
+                                        >Zürich</placeName> als späterer Inhaberin der Vogtei über <placeName
+                                        ref="loc009768"
+                                        >Höngg</placeName> lösen die Bewohner von Höngg am <date
+                                        when="1408-11-28"
+                                            >28. November 1408</date> die Vogtsteuer um den Betrag von <measureGrp><measure
+                                            quantity="254" type="currency" unit="fl"
+                                            >254 Gulden</measure> und <measure quantity="6"
+                                            type="currency" unit="lb"
+                                        >6 Pfund Pfennigen</measure></measureGrp> ab (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3251564"
+                                            >StAZH B II 2, fol. 117v</ref></bibl>; Edition: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Zürcher Stadtbücher</ref>, Bd. 1/2, Nr. 226, S. 372-373</bibl>).</note></seg>
+                            <seg>Darzuͦ haben <lb/>wir in ze koͧffenne geben du̍ vischantz<note>Die Fischenz in <placeName
+                                        ref="loc009768"
+                                        >Höngg</placeName> war ein Erblehen des Grossmünsterstifts, so stimmten Propst und Konvent am <date
+                                        when="1365-06-23"
+                                        >23. Juni 1365</date> dem Verkauf von Vogtei und Fischenzen an das <orgName
+                                        ref="org000030"
+                                        >Kloster Wettingen</orgName> unter dem Vorbehalt ihrer Herrschaftsrechte zu (<bibl>StAAG U.38/0589</bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 1700</bibl>) und verliehen demselben im Anschluss die dortigen Fischereirechte (<bibl>StAAG U.38/0590</bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 1701</bibl>).</note> ze <placeName
+                                    ref="loc009768">Hoͤngge</placeName> uff der <placeName
+                                    ref="loc000075">Lintmag</placeName> und an der <placeName
+                                    ref="loc000075"
+                                    >Lintmag</placeName>, du̍ u̍nser gewesen ist, mit allen nu̍tzen, rechten und zuͦgehoͤrungen, du̍ vahet an ze <placeName
+                                    ref="loc000082"
+                                        >Gallen Werde</placeName><note>Betreffend die beiden Inseln in der Limmat, <placeName
+                                        ref="loc012113"
+                                            >Gallenwerd</placeName> genannt, vgl. <bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_II_11_022"
+                                            >SSRQ ZH NF II/11, Nr. 22</ref></bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 5, Nr. 6543</bibl>.</note> nebent der <placeName
+                                    ref="loc012742"
+                                    >Rebwis</placeName> und <lb/>gat du̍ richti u̍ber, als die markstain stant, untz an des <persName
+                                    ref="per000325">Manessen</persName> guͦt im <placeName
+                                    ref="loc012125">Harde</placeName> und nidsich ab in <placeName
+                                    ref="loc012080">Braiten Wag</placeName> under du̍ <placeName
+                                    ref="loc012743"
+                                    >Risi</placeName>, giltet jeͣrlich ze zinse <measure
+                                    type="currency" unit="lb" quantity="2" origin="ZH"
+                                    >zwai phunt phenning Zu̍richere mu̍ntz</measure> und ain lachs, sol <lb/>gelten <measure
+                                    type="currency" unit="ß" quantity="10"
+                                    >zehen schilling phenning</measure> der selben mu̍ntz.<note>Zur Fischerei in <placeName
+                                        ref="loc009768">Höngg</placeName> vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Sibler 1998</ref>, S. 153-157</bibl>.</note></seg>
+                            <seg>Darzuͦ du̍ mu̍li statt und daz mu̍li recht da selbs ze <placeName
+                                    ref="loc009768">Hoͤngge</placeName> uff der <placeName
+                                    ref="loc000075">Lintmag</placeName> und an der <placeName
+                                    ref="loc000075"
+                                    >Lintmag</placeName> mit allen rechten, nu̍tzen und alle die werde, wasser und <lb/>giessen mit usgengen und ingengen, die unser gewesen sint an der <placeName
+                                    ref="loc000075"
+                                    >Lintmag</placeName> und da bi gelegen, und was wir ze <placeName
+                                    ref="loc009768"
+                                        >Hoͤngge</placeName> hatten, benemt und unbenemt.<note>Zur Lage der Mühle in <placeName
+                                        ref="loc009768">Höngg</placeName> vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Sibler 1998</ref>, S. 129-130</bibl>.</note></seg>
+                            <seg>Oͧch haben wir inen in disen koͧff gelazzen und geben du̍ aigen<lb
+                                    break="no"
+                                    />schaft ainer hofstat, die u̍ns vor mals von dem gotshus usse gelazzen was in dem koͧffe des kilchensatzes ze <placeName
+                                    ref="loc009768"
+                                        >Hoͤngge</placeName>,<note>Die Urkunden im Zusammenhang mit dem Verkauf von 1359 (vgl. Kommentar) nennen keine vorbehaltenen Güter respektive eine Weiternutzung durch die von Seen (<bibl>StAAG U.38/0529</bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 1316</bibl>; <bibl>StAAG U.38/0537</bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 1350</bibl>).</note> daz wir urtailen dar uffe su̍nderren<!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007752 --> moͤchten, daz inen du̍ oͧch nu ledig sin sol.</seg>
+                            <seg>Dis alles, du̍ <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice>
+                                <lb/>vogtay und guͤtter, als vorbeschaiden ist, haben wir in ze koͧffenne geben umb <measure
+                                    quantity="520" type="currency" unit="fl" origin="Florenz"
+                                    >fu̍nf hundert guldin und umb zwainzig guldin guͦtter von Florentz</measure> mit voller gewicht, der wir gar und gantzlich von dem <orgName
+                                    ref="org000030">abte <lb/>und dem convente des <choice>
+                                        <abbr>vorgen</abbr>
+                                        <expan>vorgenanten</expan>
+                                    </choice> klosters ze <placeName ref="loc000074"
+                                        >Wettingen</placeName></orgName> gewert sint, und die in unsern beweͣrten nutz verkeret hant und unser gu̍ltan da mit abgerichtet haben, da taͤglichs grosser schade ufgieng.<note>Bereits der Verkauf von 1359 (vgl. Kommentar) erfolgte, <orig>darumb, das er [Johann von Seen] großes schadens enntladen wu̍rde</orig> (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=344568"
+                                            >StAZH F II a 458, fol. 82r-84r</ref></bibl>, hier fol. 82r; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 1316</bibl><!-- ahh: später zu ersetzen mit dem Wortlaut des Original: StAAG U.38/0529 -->).</note></seg>
+                            <seg>Und haben u̍ns verzigen <lb/>und verzihen u̍ns mit disem brief fu̍r uns und alle unser erben und nachkomen zuͦ des abtes und des conventes handen gemainlich des <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice>
+                                <orgName ref="org000030">gotshus ze <placeName ref="loc000074"
+                                        >Wettingen</placeName></orgName> und zuͦ ir nachkomen und des selben ir gotshuses <lb/>wegen aller vordrunge und ansprach und alles rechten und gerichten, gaistlicher und weltlicher, stattrecht, lantrecht, burgrecht, bu̍ntnu̍st, aller frihait und gnaden, so wir erwerben moͤchten von unserm hailigen <lb/>vatter, dem babste, oder von thainem sinem nachkomen ku̍nftigen beͣbsten oder von andern gaistlichen oder weͣltlichen richtern, aller fu̍rzu̍g und funden, geschriben und ungeschriben, und sunderlich des rechten, daz da spricht <lb/><quote>gemain verzihunge vervahet nit</quote><note>Zum Sprichwort vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Wander 1867-1880</ref>, <ref
+                                            target="http://www.woerterbuchnetz.de/Wander?lemma=verzicht"
+                                            >Verzicht</ref></bibl>.</note><!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007744 -->, und aller andere sach, so jeman jetz ald in ku̍nftigen ziten erdenken oder vinden kan, da mit wir oder unser erben <orgName
+                                    ref="org000030">den abt und den convent des <choice>
+                                        <abbr>vorgen</abbr>
+                                        <expan>vorgenanten</expan>
+                                    </choice> klosters ze <placeName ref="loc000074"
+                                        >Wettingen</placeName></orgName> oder <lb/>ir nachkomen oder daz selb gotshus an der <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> vogtay und guͤttern, als vorbeschaiden ist, oder an thainer ir rechtunge alder ir zuͦ gehoͤrde jemer beku̍mberen oder besweͣren moͤchten in kaine wise. Und setzen si der <lb/>selben vogtay und guͤtter in recht nutzlich gewer. Und haben in gelopt und loben mit disem brief, fu̍r uns und unser erben, gemainlich und unverschaidenlich, were, daz du̍ <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenante</expan>
+                                </choice> vogtay oder du̍ guͤtter jena oder gegen <lb/>jemanne verku̍mbert <!-- https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007743 -->weren oder <app>
+                                    <lem><sic>verrigen</sic></lem>
+                                    <rdg wit="StAZH F II a 458, fol. 115r-118v">vorigen</rdg>
+                                </app><note>Gemäss freundlicher Auskunft der Mitarbeitenden des Idiotikons sind Wort und Bedeutung unbekannt. Auch der Kopist des 16. Jahrhunderts scheint das Wort nicht verstanden zu haben.</note>, daz wir in du̍ selben vogtay und guͤtter <app>
+                                    <lem>entrihen</lem>
+                                    <rdg wit="StAZH F II a 458, fol. 115r-118v">entrichten</rdg>
+                                </app>, ledig und losmachen su̍lnt, ane irn schaden unverzogenlich, ane alle geverde. Weͣre oͧch, daz thain brief oder urku̍nde <lb/>u̍ber kurtz ald u̍ber lang von der <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> vogtay und guͤtter wegen funden ald fu̍rgezogen wurden, die uns nu̍tzen moͤchten und dem <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> gotshus scheͣdlich weren, der brief oder die brief und urku̍nde, ir <lb/>sye ainr oder me, su̍lnt u̍ns und unsern erben tod und unnu̍tz sin und ensu̍lnt dem abte noch dem convente des <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> klosters noch irn nachkomenen noch dem selben gothus an der <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> vogtay und guͤttern <lb/>niemer schaden bringen in kain wise, ane alle geverde.</seg>
+                            <seg>Und won du̍ <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> vogtay und guͤtter unser lehen gewesen sint von u̍nserr gnedigen herschaft, den <orgName
+                                    ref="org000088">hertzogen von <placeName ref="loc000589"
+                                        >Oͤsterrich</placeName></orgName>, so haben wir in gelopt, <lb/>daz wir in u̍rku̍nde und sicherhait von der selben unserr herschaft mit ir briefen und insigeln besorgen und schaffen su̍lnt, daz du̍ selb unser herschaft dem <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> gotshus du̍ aigenschaft der vorgenanten <lb/>vogtay und guͤttern geͣbe durch gott und ir haile, daz da mit du̍ selb vogtay und guͤtter eweklich des <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> gotshus ledig aigen syen ane alle geverde.</seg>
+                            <seg>Wir, die egenanten <orgName ref="org007932"
+                                    >von Sehain</orgName>, haben oͧch uns selber <lb/>behalten und in disem koͧffe usse gelazzen den wingarten an <placeName
+                                    ref="loc012092">Kilchstaig</placeName>, ist vil bi <measure
+                                    type="area" unit="Juchart" quantity="1"
+                                    >ain juchart</measure> und alle die lu̍te da selbe ze <placeName
+                                    ref="loc009768">Hoͤngg</placeName>, die unser sint von dem libe, und alle die mannlehen, die wir von der hand ze <lb/>lihenne haben, daz die in dem <choice>
+                                    <abbr>vorgen</abbr>
+                                    <expan>vorgenanten</expan>
+                                </choice> koͧffe nit vergriffen sint und daz si uns und unsern erben zuͦ gehoͤren su̍lnt ane geverde.</seg>
+                            <seg>Und des alles ze warem urku̍nde und sicherhait, alles das, so vor an disem briefe <lb/>verschriben stat, haben wir, die obgenanten <orgName
+                                    ref="org007932">von Sehain</orgName>, alle viere, dem <orgName
+                                    ref="org000030">abte und dem convente des <choice>
+                                        <abbr>vorgen</abbr>
+                                        <expan>vorgenanten</expan>
+                                    </choice> klosters ze <placeName ref="loc000074"
+                                        >Wettingen</placeName></orgName> und ir nachkomen disen brief versigelt mit unsern anhangenden insigeln. <lb/>Der brief wart geben ze <origPlace
+                                    ref="loc000020">Baden</origPlace>, <origDate when="1365-05-12"
+                                        >an sant <persName role="saint" ref="per004136"
+                                        >Pancracii</persName> tag, do man zalte von Kristi geburte dru̍zehen hundert jar, dar nach in dem fu̍nf und sechtzigesten jare</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v"/>
+                    <div>
+                        <ab place="verso" type="dorsal"><lb/><choice>
+                                <abbr>Lra</abbr>
+                                <expan>Littera</expan>
+                            </choice>
+                            <choice>
+                                <abbr>sup</abbr>
+                                <expan>super</expan>
+                            </choice> advoc<damage agent="faded ink"
+                                ><unclear>atiam</unclear></damage><!-- ahh: advocatiam steht auf dem Doppel mit Dorsualvermerk aus gleicher Zeit.--> in <placeName
+                                ref="loc009768">Hoͤngge</placeName></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c"><lb/>
+                            <placeName ref="loc009768">Hoͤng</placeName>
+                        </ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand16c"
+                                ><lb/>Gehören schwager <persName ref="per023660"
+                                >Jakob Stappffer</persName></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Kauffbrief. <orgName
+                                ref="org000030">Wettingen</orgName> erkaufft von <lb/><persName
+                                ref="per023530">Johan von Sehen</persName> die vogtey zu <placeName
+                                ref="loc009768"
+                                >Höng</placeName>, die <lb/>jährliche vogtstëwr gilt <lb/>12 müt kernen, <lb/>3 malter haber, <lb/>2  17  pfennig <lb/>und jeder hausstokh ein fasnacht huon. <lb/>Item die vischenzen in der <placeName
+                                ref="loc000075"
+                                >Limmat</placeName>, <lb/>item das mülirecht umb 520 . <lb/>Anno 1365.<add
+                                place="inline" hand="later hand">den 12. meyen</add></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Bereits <date when="1359">1359</date> hatte das <orgName ref="org000030"
+                                    >Kloster <placeName ref="loc000074"
+                                >Wettingen</placeName></orgName>
+                            <persName ref="per023530"
+                                >Johannes von Seen</persName> und dessen Söhnen den Meierhof <placeName
+                                ref="loc012100"
+                                >Ennetwies</placeName> und den dazugehörenden Kirchensatz in <placeName
+                                ref="loc009768"
+                                >Höngg</placeName> mit den Filialkapellen in
+<placeName
+                                ref="loc012704">Niederregensdorf</placeName> und <placeName
+                                ref="loc012775">Watt</placeName> für <measure type="currency"
+                                quantity="725" unit="M"
+                                >725 Mark Silber</measure> abgekauft, womit Wettingen in den Besitz des ehemals zentralen Güterbesitzes des <orgName
+                                ref="org000581">Klosters <placeName ref="loc000082"
+                                    >St. Gallen</placeName></orgName> im <placeName ref="loc010547"
+                                >Furt- und Limmattal</placeName> gekommen war (<bibl>StAAG U.38/0529</bibl>; Regest: <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >URStAZH</ref>, Bd. 1, Nr. 1316</bibl>; <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Wernli 1948</ref>, S. 92</bibl>; <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >KdS ZH NA V</ref>, S. 220-221</bibl>).</p>
+                    </div>
+                    <div>
+                        <p>Als weitere geistliche Grundherren in <placeName ref="loc009768"
+                                >Höngg</placeName> sind das <orgName ref="org000577"
+                                    >Kloster <placeName ref="loc000085"
+                                >Einsiedeln</placeName></orgName>, die <orgName ref="org004908"
+                                >Fraumünsterabtei</orgName> und vor allem das <orgName
+                                ref="org004352"
+                                >Grossmünsterstift</orgName> zu nennen, das über den anderen <placeName
+                                ref="loc012687"
+                                    >Höngger Meierhof</placeName> verfügte und die niedere Gerichtsbarkeit über das ganze Dorf ausübte (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Ganz 1925</ref>, S. 69</bibl>; <bibl><ref
+                                    target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+                                    target="http://www.hls-dhs-dss.ch/textes/d/D3138.php"
+                                    >Höngg</ref></bibl>; vgl. auch <bibl><ref
+                                    target="/suche/Detail/SSRQ_ZH_NF_II_11_002"
+                                    >SSRQ ZH NF II/11, Nr. 2</ref></bibl>). Diese Gerichte gingen später an die Stadt <placeName
+                                ref="loc000065">Zürich</placeName> über (<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_II_11_011"
+                                    >SSRQ ZH NF II/11, Nr. 11</ref></bibl> und <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_II_11_053"
+                                    >SSRQ ZH NF II/11, Nr. 53</ref></bibl>).
 </p>
-</div>
-<pb n="v"/>
-<div>
-<ab place="verso" type="dorsal"><lb/><choice>
-<abbr>Lra</abbr>
-<expan>Littera</expan>
-</choice>
-<choice>
-<abbr>sup</abbr>
-<expan>super</expan>
-</choice> advoc<damage agent="faded ink"
-><unclear>atiam</unclear></damage><!-- ahh: advocatiam steht auf dem Doppel mit Dorsualvermerk aus gleicher Zeit.--> in <placeName
-ref="loc009768">Hoͤngge</placeName></ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c"><lb/>
-<placeName ref="loc009768">Hoͤng</placeName>
-</ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand16c"><lb/>Gehören schwager <persName ref="per023660">Jakob Stappffer</persName></ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand18c"><lb/>Kauffbrief. <orgName ref="org000030">Wettingen</orgName> erkaufft von <lb/><persName
-ref="per023530">Johan von Sehen</persName> die vogtey zu <placeName ref="loc009768">Höng</placeName>, die <lb/>jährliche vogtstëwr gilt
-<lb/>12 müt kernen, <lb/>3 malter haber, <lb/>2  17  pfennig <lb/>und jeder hausstokh ein fasnacht huon. <lb/>Item die vischenzen in der
-<placeName ref="loc000075">Limmat</placeName>, <lb/>item das mülirecht umb 520 . <lb/>Anno 1365.<add place="inline" hand="later hand">den
-12. meyen</add></ab>
-</div>
-</body>
-<back>
-<div>
-<p>Bereits <date when="1359">1359</date> hatte das <orgName ref="org000030">Kloster <placeName ref="loc000074"
->Wettingen</placeName></orgName>
-<persName ref="per023530">Johannes von Seen</persName> und dessen Söhnen den Meierhof <placeName ref="loc012100">Ennetwies</placeName> und
-den dazugehörenden Kirchensatz in <placeName ref="loc009768">Höngg</placeName> mit den Filialkapellen in <placeName ref="loc012704"
->Niederregensdorf</placeName> und <placeName ref="loc012775">Watt</placeName> für <measure type="currency" quantity="725" unit="M">725 Mark
-Silber</measure> abgekauft, womit Wettingen in den Besitz des ehemals zentralen Güterbesitzes des <orgName ref="org000581">Klosters
-<placeName ref="loc000082">St. Gallen</placeName></orgName> im <placeName ref="loc010547">Furt- und Limmattal</placeName> gekommen war
-(<bibl>StAAG U.38/0529</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1316</bibl>;
-<bibl><ref target="/startseite/literaturverzeichnis">Wernli 1948</ref>, S. 92</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
->KdS ZH NA V</ref>, S. 220-221</bibl>).</p>
-</div>
-<div>
-<p>Als weitere geistliche Grundherren in <placeName ref="loc009768">Höngg</placeName> sind das <orgName ref="org000577">Kloster <placeName
-ref="loc000085">Einsiedeln</placeName></orgName>, die <orgName ref="org004908">Fraumünsterabtei</orgName> und vor allem das <orgName
-ref="org004352">Grossmünsterstift</orgName> zu nennen, das über den anderen <placeName ref="loc012687">Höngger Meierhof</placeName> verfügte
-und die niedere Gerichtsbarkeit über das ganze Dorf ausübte (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>, S.
-69</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D3138.php"
->Höngg</ref></bibl>; vgl. auch <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_002">SSRQ ZH NF II/11, Nr. 2</ref></bibl>). Diese Gerichte
-gingen später an die Stadt <placeName ref="loc000065">Zürich</placeName> über (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_011">SSRQ
-ZH NF II/11, Nr. 11</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>). </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
