@@ -3,22 +3,22 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
-xml:lang="de">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 11: Die Obervogteien um die
-Stadt Zürich</title>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
 <respStmt>
 <persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
 <resp key="transcript"/>
 </respStmt>
 <respStmt>
 <persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
 <resp key="tagging"/>
-</respStmt>
-</titleStmt>
+</respStmt></titleStmt>
 <publicationStmt>
 <date type="electronic" when="2021-05-19"/>
 <date type="print" when="2018-12-31"/>
@@ -32,148 +32,86 @@ Stadt Zürich</title>
 <idno>SSRQ_ZH_NF_II_11_030</idno>
 </seriesStmt>
 <sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=891562">StAZH W I 1, Nr. 2419 (Insert 2)</idno>
-</msIdentifier>
-<head>Bestätigung eines Vergleichs in einem Weiderechtskonflikt zwischen der Gemeinde im Niederdorf und der Wacht Unterstrass</head>
-<msContents>
-<summary>Bürgermeister und Rat von Zürich bestätigen den Vergleich, den die Ratsabgeordneten Rüdiger Studler, Johannes Bluntschli und
-Heinrich Meier in einem Konflikt um das Weiderecht zwischen der Gemeinde im Niederdorf und der Wacht Unterstrass vermittelt haben. Die
-Vertreter von Unterstrass klagten, die Leute im Niederdorf trieben ihr Vieh unrechtmässig auf ihre Weide, nämlich auf den Spitalhof, den sie
-gegen einen erheblichen Zins vom Spital als Erblehen empfangen hätten. Die Vertreter des Niederdorfs fanden dagegen, sie hätten ihr Vieh
-seit jeher zusammen mit denen von Unterstrass auf die Weide gebracht und wollten dies auch in Zukunft tun. Es wird bestimmt, dass die von
-Unterstrass einen Viehhirten anzustellen haben und das Vieh der Leute im Niederdorf auf dem Spitalhof und auf ihren übrigen Weideflächen
-weiden lassen sollen. Die Leute im Niederdorf sollen dafür einen jährlichen Zins von einem halben Viertel Kernen pro Kuh entrichten und den
-Lohn des Hirten bezahlen. Ausstehenden Zins dürfen die von Unterstrass vor geistlichem Gericht einfordern. Um dem Spital den Zins leichter
-bezahlen zu können, sollen die von Unterstrass die 10 Juchart des Spitalhofs bebauen; was vom Hof nicht weiterverliehen ist, soll Weide
-bleiben. In der Wacht Unterstrass Ansässige, die dort keine Steuern zahlen, jedoch ihr Vieh auf die Weide führen wollen, haben den Zins wie
-die Leute im Niederdorf zu entrichten. Die Aussteller siegeln mit dem Sekretsiegel.</summary>
-<msItem>
-<textLang>Deutsch</textLang>
-<filiation type="current">Insert</filiation>
-<filiation type="original"><origDate when="1452-06-22"/></filiation>
-</msItem>
-</msContents>
-<physDesc>
-<objectDesc>
-<supportDesc>
-<support><material>Pergament</material></support>
-<extent><dimensions type="leaves">
-<height unit="cm" quantity="45.0"/>
-<width unit="cm" quantity="71.0"/>
-</dimensions><dimensions type="plica">
-<width unit="cm" quantity="9.5"/>
-</dimensions></extent>
-</supportDesc>
-</objectDesc>
-</physDesc>
-<history>
-<origin><origDate when="1547-05-28"/></origin>
-</history>
-<additional>
-<listBibl>
-<head>Regest</head>
-<bibl>URStAZH, Bd. 7, Nr. 9769</bibl>
-</listBibl>
-</additional>
-</msDesc>
-</sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=891562">StAZH W I 1, Nr. 2419 (Insert 2)</idno></msIdentifier><head>Bestätigung eines Vergleichs in einem Weiderechtskonflikt zwischen der Gemeinde im Niederdorf und der Wacht Unterstrass</head><msContents><summary>Bürgermeister und Rat von Zürich bestätigen den Vergleich, den die Ratsabgeordneten Rüdiger Studler, Johannes Bluntschli und Heinrich Meier in einem Konflikt um das Weiderecht zwischen der Gemeinde im Niederdorf und der Wacht Unterstrass vermittelt haben.  Die Vertreter von Unterstrass klagten, die Leute im Niederdorf trieben ihr Vieh unrechtmässig auf ihre Weide, nämlich auf den Spitalhof, den sie gegen einen erheblichen Zins vom Spital als Erblehen empfangen hätten. Die Vertreter des Niederdorfs fanden dagegen, sie hätten ihr Vieh seit jeher zusammen mit denen von Unterstrass auf die Weide gebracht und wollten dies auch in Zukunft tun.  Es wird bestimmt, dass die von Unterstrass einen Viehhirten anzustellen haben und das Vieh der Leute im Niederdorf auf dem Spitalhof und auf ihren übrigen Weideflächen weiden lassen sollen. Die Leute im Niederdorf sollen dafür einen jährlichen Zins von einem halben Viertel Kernen pro Kuh entrichten und den Lohn des Hirten bezahlen. Ausstehenden </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Insert</filiation><filiation type="original"><origDate when="1452-06-22"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="45.0"/><width unit="cm" quantity="71.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="9.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1547-05-28"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 7, Nr. 9769</bibl></listBibl></additional></msDesc></sourceDesc>
 </fileDesc>
-<encodingDesc>
-<editorialDecl>
-<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
-</editorialDecl>
-</encodingDesc>
-<profileDesc>
-<textClass default="false">
-<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
-<term ref="key000119">Erbleihe</term>
-<term ref="key004966">Gemeinde</term>
-<term ref="key003292">Nutzungskonflikt</term>
-<term ref="key000157">Steuern</term>
-<term ref="key005444">Tierhaltung</term>
-<term ref="key000048">Weiderecht</term>
-</keywords>
-</textClass>
-<particDesc default="false"/>
-<settingDesc default="false"/>
-</profileDesc>
-</teiHeader>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000119">Erbleihe</term><term ref="key004966">Gemeinde</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000157">Steuern</term><term ref="key005444">Tierhaltung</term><term ref="key000048">Weiderecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
 <text>
 <group>
 <text>
 <body corresp="Sigle1">
 <pb n="r" facs="StAZH_W_I_1__Nr__2419__r_.tif"/>
-<div>
-<p><seg><lb/><gap reason="irrelevant"/><note>Vidimus (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480442">StAZH W
-I 1, Nr. 2419</ref></bibl>) und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_026">SSRQ ZH NF II/11, Nr. 26</ref></bibl>.</note></seg>
-<seg>Wir, der <orgName role="issuer" ref="org002406">burgermeyster unnd rath der statt <placeName ref="loc000065"
->Zürich</placeName></orgName>, thuͦnd kunth allermenngklichem mit disem brieff, das für unns pracht hannd <persName ref="per013899">Ruͤdger
-Stuͦdler</persName>, <persName ref="per024221">Johanns Bluͤntschli</persName> unnd <persName ref="per024223">Heynrich Meyger</persName>,
-unnser rathsgesellen, nach <lb/>dem wir sy zuͦ den stoͤßenn unnd speͤnnen, so da geweͣsen sind zwischennt eyner ganntzen <orgName
-ref="org007848">gemeynnde inn <placeName ref="loc009854">Niderdorff</placeName></orgName> inn unnser statt an eynem unnd der ganntzen
-<orgName ref="org007938">wacht an der <placeName ref="loc010816">Unndern Straaß</placeName></orgName> vor unnser meeren statt an dem
-annderntheyl, geschiben unnd inen bevolchen heygint, beyd theyl zuͦhoͤren, unnd ob wir <lb/>moͤchtind, sy miteynanndern umb ir stoͤß
+<div><p><seg><lb/><gap reason="irrelevant"/><note>Vidimus (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480442">StAZH W I 1, Nr.
+2419</ref></bibl>) und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_026">SSRQ ZH NF II/11, Nr.
+26</ref></bibl>.</note></seg>
+<seg>Wir, der <orgName role="issuer" ref="org002406">burgermeyster unnd rath der statt <placeName ref="loc000065">Zürich</placeName></orgName>, thuͦnd
+kunth allermenngklichem mit disem brieff, das für unns pracht hannd <persName ref="per013899">Ruͤdger Stuͦdler</persName>,
+<persName ref="per024221">Johanns Bluͤntschli</persName> unnd <persName ref="per024223">Heynrich Meyger</persName>, unnser rathsgesellen, nach
+<lb/>dem wir sy zuͦ den stoͤßenn unnd speͤnnen, so da geweͣsen sind zwischennt eyner ganntzen <orgName ref="org007848">gemeynnde inn
+<placeName ref="loc009854">Niderdorff</placeName></orgName> inn unnser statt an eynem unnd der ganntzen <orgName ref="org007938">wacht an der
+<placeName ref="loc010816">Unndern Straaß</placeName></orgName> vor unnser meeren statt an dem annderntheyl, geschiben unnd
+inen bevolchen heygint, beyd theyl zuͦhoͤren, unnd ob wir <lb/>moͤchtind, sy miteynanndern umb ir stoͤß
 zuͦentscheydenn, das sy da beyd theyl gehoͤrt.</seg>
-<seg>Unnd die an der <placeName ref="loc010816">Unndernstraaß</placeName> hettind sich von denen inn <placeName ref="loc009854"
->Niderdorff</placeName> erclagt, sy fuͤrind inen mit irem vich uff das ir zuͦ weyd unnd namlichen uff <placeName ref="loc012756">Spitaler
-Hoff</placeName>, den sy aber umb eyn schweͣren <date dur="R/P1Y">jerlichen</date>
-<lb/>zynns<note>Zur Höhe des Erblehenszinses vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_026">SSRQ ZH NF II/11, Nr.
-26</ref></bibl>.</note> dem genannten <orgName ref="org005088">spital</orgName> davon zegeben entpfanngen hettint, uͤber das unnd sy
-soͤllichs nit thuͦn soͤltind unnd nit recht geweͣsenn were. Darwider aber die inn <placeName ref="loc009854">Niderdorff</placeName> rettind,
-sy werind yeweltenhar mit ir vich mit dero an der <placeName ref="loc010816">Unndern Straaß</placeName> vich zuͦweyd gefarenn, gethruwtind,
-sy <lb/>soͤltind das fürbaßhin als unntzhar aber thuͦn unnd die an der <placeName ref="loc010816">Unndernstraaß</placeName> soͤltind inen
-deß nit vorsin.</seg>
-<seg>Also nach verhoͤrung beydertheylen, so hettind sy inn der sach sovyl gearbeytet, das sy beyd obgenannt theyl mit irem wüßen unnd willen
-umb obgenannt ir stoͤß gericht unnd geeynt hettind, <lb/>inmaaßen unnd das hienach eygenntlich geschriben staat:</seg>
+<seg>Unnd die an der <placeName ref="loc010816">Unndernstraaß</placeName> hettind sich von denen inn <placeName ref="loc009854">Niderdorff</placeName>
+erclagt, sy fuͤrind inen mit irem vich uff das ir zuͦ weyd unnd namlichen uff <placeName ref="loc012756">Spitaler Hoff</placeName>,
+den sy aber umb eyn schweͣren <date dur="R/P1Y">jerlichen</date>
+<lb/>zynns<note>Zur Höhe des Erblehenszinses vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_026">SSRQ ZH NF II/11, Nr. 26</ref></bibl>.</note> dem genannten <orgName ref="org005088">spital</orgName> davon zegeben entpfanngen hettint,
+uͤber das unnd sy soͤllichs nit thuͦn soͤltind unnd nit recht geweͣsenn were. Darwider aber die inn
+<placeName ref="loc009854">Niderdorff</placeName> rettind, sy werind yeweltenhar mit ir vich mit dero an der <placeName ref="loc010816">Unndern
+Straaß</placeName> vich zuͦweyd gefarenn, gethruwtind, sy <lb/>soͤltind das fürbaßhin als unntzhar aber thuͦn unnd
+die an der <placeName ref="loc010816">Unndernstraaß</placeName> soͤltind inen deß nit vorsin.</seg>
+<seg>Also nach verhoͤrung beydertheylen, so hettind sy inn der sach sovyl gearbeytet, das sy beyd obgenannt theyl mit irem
+wüßen unnd willen umb obgenannt ir stoͤß gericht unnd geeynt hettind, <lb/>inmaaßen unnd das hienach eygenntlich
+geschriben staat:</seg>
 <seg>Dem were also, das die an der <placeName ref="loc010816">Unndernstraaß</placeName>
-<date dur="R/P1Y">jeͣrlichen</date> eynen hirtten deß vichs zuͦhuͤten dynngen unnd sy die inn <placeName ref="loc009854"
->Niderdorff</placeName> mit irem vich uff den obgenannten hoff, so sy von dem <orgName ref="org005088">spital</orgName> entpfanngenn hannd,
-unnd an anndere eͣnnd, dahin sy dann <lb/>zuͦweyd farennd, weyden laßen soͤltint. Unnd alle die, so inn <placeName ref="loc009854"
->Niderdorff</placeName> werint unnd ir vich mit dero an der <placeName ref="loc010816">Unndernstraaß</placeName> vich zuͦ weyd gan ließind,
-soͤltint denen an der <placeName ref="loc010816">Unndern Straaß</placeName>
-<date dur="R/P1Y">jeͣrlichenn</date> von yeder kuͦg nach marchzal, als eyner dann sin vich laßet fürgaan, darvon <measure quantity="0.5"
-commodity="spelt" type="volume" unit="Viertel">eynhalb viertheyl kernnen</measure>
-<lb/>zynns unnd dem hirtten sin lon geben. Were aber, das yeman an soͤlichem zynnß zuͦgebenn sümnüße haben woͤlte, so moͤchtint die an der
-<placeName ref="loc010816">Unndernstraaß</placeName> soͤllichen iren zynnse mit geystlichenn gerichtenn nach zynnßes recht inzüchenn. Die
-genannten an der <placeName ref="loc010816">Unndernstraaß</placeName> mochtind ouch <date dur="R/P1Y">jerlichen</date>
-<lb/>deß obgenannten hofs <measure quantity="10" unit="Juchart" type="area">zechen juchart</measure> buwenn umb deß willenn, das sy dem
-<orgName ref="org005088">spital</orgName> sinen zynnß davon desterbaß geben mochtind, was ouch uß unnd von dem obgenannten hof verlichen
-unnd verbriefet ist. Daby soll yegklicher, wie im dann das gelichen ist, belybenn, von beyden obgenannten theylen unbekuͤmbert. <lb/>Unnd
-<damage agent="faded ink"><supplied resp="ahh">was di</supplied></damage>ß <damage agent="faded ink"><supplied resp="ahh"
->ob</supplied></damage>genannten hoffs no<damage agent="faded ink"><supplied resp="ahh">ch nit</supplied></damage> verlichenn ist, das soll
-fürbaßhin weyd sin unnd belybenn. Were ouch, das yemanndt inn der <orgName ref="org007938">wacht an der <placeName ref="loc010816"
->Unndernstraaß</placeName></orgName> geseßen were, der nit stür noch bruch mit in<damage agent="faded ink"><supplied resp="ahh">en
-g</supplied></damage>ebe unnd doch mit sinem vich <damage agent="faded ink"><supplied resp="ahh">mit</supplied></damage> i<damage
-agent="faded ink"><supplied resp="ahh">nen</supplied></damage> zuͦ weyd fuͤ<damage agent="faded ink"><supplied resp="ahh"
->re</supplied></damage>, dieselben sollennt alle von irem vich, <lb/>von yeder kuͦg denen an der <placeName ref="loc010816"
->Unndernstraaß</placeName> geben unnd thuͦn, zuͦglycherwyße al<damage agent="faded ink"><supplied resp="ahh">sd</supplied></damage>ie inn
-<placeName ref="loc009854">Niderdorff</placeName> thuͦnd, als das hievor staat. Unnd damit soͤltint sy zuͦ beydersyt umb obgeruͤrt ir speͣnn
-gericht unnd entscheydenn sin unnd by diser richtung nun unnd hienach belybenn, dem nachgaan unnd gnuͦg thuͦn, als <lb/>sy inen das
-zethuͦnde mit guͦten thrüwenn gelopt unnd versprochenn hettend.</seg>
-<seg>Unnd als unnser obgenannten rathsgesellen diß ir entscheydung vor unns eygenntlichen erzaltennd, da batend unns <damage
-agent="faded ink"><supplied resp="ahh">di</supplied></damage>e ab der <placeName ref="loc010816">Unndernstraaß</placeName> unnd die inn
-<placeName ref="loc009854">Niderdorff</placeName>, das wir zuͦ soͤllicher richtung unnsern gunst <lb/>unnd willen gebind unnd die mit
-unnserm brieff zuͦbestedtenn geruͤchen woͤltint, umb das es nun unnd hienach daby one inthrag soͤlte bestaan, sidmaalen unnd die sach von
-unnsern rathsgesellenn, so <damage agent="mildew"><supplied resp="ahh">von u</supplied></damage>ns darzuͦ geschiben, also betragen unnd
-gericht were.</seg>
-<seg>Also von ir ernnstlicher bitt wegen, so geben <lb/>wir harzuͦ unnsern willen unnd gunst unnd bestaͤdten ouch diße sach mit disem
-unnserm brieff, daran wir zuͦ waarem urkhund unnser statt secret insigel offennlich hannd laßen henngkenn, der geben ist uff <origDate
-when="1452-06-22">dornstag vor sannct <persName ref="per000049">Johanns</persName> tag ze sunngichten nach Cristi <lb/>gepurt, do man zalt
-vierzechenhunndert fünnffzig unnd zwey jare</origDate>.</seg></p>
+<date dur="R/P1Y">jeͣrlichen</date> eynen hirtten deß vichs zuͦhuͤten dynngen unnd sy die inn
+<placeName ref="loc009854">Niderdorff</placeName> mit irem vich uff den obgenannten hoff, so sy von dem <orgName ref="org005088">spital</orgName>
+entpfanngenn hannd, unnd an anndere eͣnnd, dahin sy dann <lb/>zuͦweyd farennd, weyden laßen soͤltint. Unnd alle die,
+so inn <placeName ref="loc009854">Niderdorff</placeName> werint unnd ir vich mit dero an der <placeName ref="loc010816">Unndernstraaß</placeName> vich
+zuͦ weyd gan ließind, soͤltint denen an der <placeName ref="loc010816">Unndern Straaß</placeName>
+<date dur="R/P1Y">jeͣrlichenn</date> von yeder kuͦg nach marchzal, als eyner dann sin vich laßet fürgaan, darvon
+<measure quantity="0.5" commodity="spelt" type="volume" unit="Viertel">eynhalb viertheyl kernnen</measure>
+<lb/>zynns unnd dem hirtten sin lon geben. Were aber, das yeman an soͤlichem zynnß zuͦgebenn sümnüße haben woͤlte, so
+moͤchtint die an der <placeName ref="loc010816">Unndernstraaß</placeName> soͤllichen iren zynnse mit geystlichenn gerichtenn nach
+zynnßes recht inzüchenn. Die genannten an der <placeName ref="loc010816">Unndernstraaß</placeName> mochtind ouch <date dur="R/P1Y">jerlichen</date>
+<lb/>deß obgenannten hofs <measure quantity="10" unit="Juchart" type="area">zechen juchart</measure> buwenn umb deß
+willenn, das sy dem <orgName ref="org005088">spital</orgName> sinen zynnß davon desterbaß geben mochtind, was ouch uß unnd von dem
+obgenannten hof verlichen unnd verbriefet ist. Daby soll yegklicher, wie im dann das gelichen ist, belybenn, von
+beyden obgenannten theylen unbekuͤmbert. <lb/>Unnd <damage agent="faded ink"><supplied resp="ahh">was
+di</supplied></damage>ß <damage agent="faded ink"><supplied resp="ahh">ob</supplied></damage>genannten hoffs
+no<damage agent="faded ink"><supplied resp="ahh">ch nit</supplied></damage> verlichenn ist, das soll fürbaßhin
+weyd sin unnd belybenn. Were ouch, das yemanndt inn der <orgName ref="org007938">wacht an der
+<placeName ref="loc010816">Unndernstraaß</placeName></orgName> geseßen were, der nit stür noch bruch mit in<damage agent="faded ink"><supplied resp="ahh">en g</supplied></damage>ebe unnd doch mit sinem vich <damage agent="faded ink"><supplied resp="ahh">mit</supplied></damage> i<damage agent="faded ink"><supplied resp="ahh">nen</supplied></damage> zuͦ weyd fuͤ<damage agent="faded ink"><supplied resp="ahh">re</supplied></damage>,
+dieselben sollennt alle von irem vich, <lb/>von yeder kuͦg denen an der <placeName ref="loc010816">Unndernstraaß</placeName> geben
+unnd thuͦn, zuͦglycherwyße al<damage agent="faded ink"><supplied resp="ahh">sd</supplied></damage>ie inn
+<placeName ref="loc009854">Niderdorff</placeName> thuͦnd, als das hievor staat. Unnd damit soͤltint sy zuͦ beydersyt umb obgeruͤrt
+ir speͣnn gericht unnd entscheydenn sin unnd by diser richtung nun unnd hienach belybenn, dem nachgaan unnd gnuͦg
+thuͦn, als <lb/>sy inen das zethuͦnde mit guͦten thrüwenn gelopt unnd versprochenn hettend.</seg>
+<seg>Unnd als unnser obgenannten rathsgesellen diß ir entscheydung vor unns eygenntlichen erzaltennd, da batend unns
+<damage agent="faded ink"><supplied resp="ahh">di</supplied></damage>e ab der <placeName ref="loc010816">Unndernstraaß</placeName>
+unnd die inn <placeName ref="loc009854">Niderdorff</placeName>, das wir zuͦ soͤllicher richtung unnsern gunst <lb/>unnd willen gebind
+unnd die mit unnserm brieff zuͦbestedtenn geruͤchen woͤltint, umb das es nun unnd hienach daby one inthrag soͤlte
+bestaan, sidmaalen unnd die sach von unnsern rathsgesellenn, so <damage agent="mildew"><supplied resp="ahh">von
+u</supplied></damage>ns darzuͦ geschiben, also betragen unnd gericht were.</seg>
+<seg>Also von ir ernnstlicher bitt wegen, so geben <lb/>wir harzuͦ unnsern willen unnd gunst unnd bestaͤdten ouch diße
+sach mit disem unnserm brieff, daran wir zuͦ waarem urkhund unnser statt secret insigel offennlich hannd laßen
+henngkenn, der geben ist uff <origDate when="1452-06-22">dornstag vor sannct <persName ref="per000049">Johanns</persName> tag ze
+sunngichten nach Cristi <lb/>gepurt, do man zalt vierzechenhunndert fünnffzig unnd zwey jare</origDate>.</seg></p>
 </div>
 </body>
 <back>
 <div>
-<p>Auf dieses Urteil beruft sich am <date when="1636-04-09">9. April 1636</date> die <orgName ref="org007938">Gemeinde <placeName
-ref="loc010816">Unterstrass</placeName></orgName> in einem erneuten Konflikt mit Stadtbürgern um das Weiderecht in <placeName
-ref="loc010816">Unterstrass</placeName>. Der Zins, den die Stadtbürger gemäss Urteil pro weidendes Stück Vieh zu entrichten haben, bleibt
-dabei unverändert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2657664">StAZH W I 1, Nr. 2461</ref></bibl>; vgl.
-<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_131">SSRQ ZH NF II/11, Nr. 131</ref></bibl>, Anm. 8).</p>
-<p>Unterschiedliche Ansichten zwischen den Angehörigen der verschiedenen Wachten und Gemeinden vor der Stadt und Bürgern von <placeName
-ref="loc000065">Zürich</placeName> über Pflichten und Rechte Letzterer führten regelmässig zu Konflikten (<bibl><ref
-target="/suche/detail/SSRQ_ZH_NF_II_11_060">SSRQ ZH NF II/11, Nr. 60</ref></bibl>).</p>
+<p>Auf dieses Urteil beruft sich am <date when="1636-04-09">9. April 1636</date> die <orgName ref="org007938">Gemeinde
+<placeName ref="loc010816">Unterstrass</placeName></orgName> in einem erneuten Konflikt mit Stadtbürgern um das Weiderecht in
+<placeName ref="loc010816">Unterstrass</placeName>. Der Zins, den die Stadtbürger gemäss Urteil pro
+weidendes Stück Vieh zu entrichten
+haben, bleibt dabei unverändert (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2657664">StAZH W I
+1, Nr. 2461</ref></bibl>; vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_131">SSRQ ZH NF II/11, Nr.
+131</ref></bibl>, Anm. 8).</p>
+<p>Unterschiedliche Ansichten zwischen den Angehörigen der verschiedenen Wachten und Gemeinden vor der Stadt und Bürgern von
+<placeName ref="loc000065">Zürich</placeName> über Pflichten und
+Rechte Letzterer führten
+regelmässig zu Konflikten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_060">SSRQ ZH NF II/11, Nr. 60</ref></bibl>).</p>
 </div>
 </back>
 </text>
