@@ -3,12 +3,13 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
-Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 11: Die Obervogteien um die
+Stadt Zürich</title>
 <respStmt>
 <persName>Ariane Huber Hernández</persName>
 <persName>Michael Nadig</persName>
@@ -33,550 +34,592 @@ Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
 <idno>SSRQ_ZH_NF_II_11_024_1</idno>
 </seriesStmt>
 <sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=679971">StAZH G I 102, fol. 23r-29v</idno></msIdentifier><head>Rechte des Grossmünsterstifts in Fluntern</head><msContents><summary>Die Rechte des Grossmünsterstifts enthalten verschiedene Bestimmungen im Zusammenhang mit seinemHof in Fluntern im Bereich des Gerichtswesens (1-6, 10, 19, 22, 41-42, 46, 52), der Pfändung (7), der Abgaben und Bussen (11-12, 24-25, 30-32, 38, 41-43, 49), der Amtleute, nämlich des Weibels (8-9), des Kellers (7, 33, 35-37, 39), des Kammerers (7, 34-36), des Bannwarts (13, 32-34, 38, 43, 49-50) und des Hirten (14-18, 50), sowie eine Zusammenstellung von Rechten und Pflichten der vom Grossmünster abhängigen Hausgenossen und Lehenleute in Fluntern und Sankt Leonhard (20-32, 35-38, 40, 43-48, 51-52). Das Stift hält sowohl die Niedergerichtsbarkeit, als auch die Hochgerichtsbarkeit in Fluntern inne (1). Den übrigen Höfen und Dörfern des Grossmünsters dient der Hof in Fluntern in zweitinstanzlichen Belangen als Gerichtsort (4-6). Auf den zur Weibelhube gehörigen Gütern, genannt im Loch, werden die Blutgerichtsurteile vollstreckt (2-3). Ein Weibel führt als Inhaber der Weibelhube die Taverne </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift (Grundtext)</filiation><filiation type="original"><origDate from="1424-01-01" to="1436-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Vorlage nach 1424 (aufgrund der enthaltenen Bestimmungen eines Schiedsspruchs aus diesem Jahr, vgl. StAZH C II 1, Nr. 532) respektive nach 1427/36 (aufgrund des erwähnten Ratsentscheids während der Amtszeit von Bürgermeister Felix Manesse)</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz, UB Schwamendingen, Anhang, Nr. 6 (auf der Grundlage von StAZH G I 103); Ott, Rechtsquellen, Teil 2, S. 136-145</bibl></listBibl></additional></msDesc></sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=679971">StAZH G I 102, fol. 23r-29v</idno>
+</msIdentifier>
+<head>Rechte des Grossmünsterstifts in Fluntern</head>
+<msContents>
+<summary>Die Rechte des Grossmünsterstifts enthalten verschiedene Bestimmungen im Zusammenhang mit seinem Hof in Fluntern im Bereich des
+Gerichtswesens (1-6, 10, 19, 22, 41-42, 46, 52), der Pfändung (7), der Abgaben und Bussen (11-12, 24-25, 30-32, 38, 41-43, 49), der
+Amtleute, nämlich des Weibels (8-9), des Kellers (7, 33, 35-37, 39), des Kammerers (7, 34-36), des Bannwarts (13, 32-34, 38, 43, 49-50) und
+des Hirten (14-18, 50), sowie eine Zusammenstellung von Rechten und Pflichten der vom Grossmünster abhängigen Hausgenossen und Lehenleute in
+Fluntern und Sankt Leonhard (20-32, 35-38, 40, 43-48, 51-52). Das Stift hält sowohl die Niedergerichtsbarkeit, als auch die
+Hochgerichtsbarkeit in Fluntern inne (1). Den übrigen Höfen und Dörfern des Grossmünsters dient der Hof in Fluntern in zweitinstanzlichen
+Belangen als Gerichtsort (4-6). Auf den zur Weibelhube gehörigen Gütern, genannt im Loch, werden die Blutgerichtsurteile vollstreckt (2-3).
+Ein Weibel führt als Inhaber der Weibelhube die Taverne (8). Die Hausgenossen und Lehenleute wählen jeweils vor Weihnachten einen Bannwart
+und einen Hirten aus ihrer Mitte (13-14); im Mai und Herbst haben sie ab einer gewissen Besitzgrösse an den Gerichtstagen auf dem Kelnhof
+teilzunehmen (19).</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<filiation type="current">Abschrift (Grundtext)</filiation>
+<filiation type="original"><origDate from="1424-01-01" to="1436-12-31"/></filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Pergament</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="32.5"/>
+<width unit="cm" quantity="18.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate from="1500-01-01" to="1500-12-31">Vorlage nach 1424 (aufgrund der enthaltenen Bestimmungen eines Schiedsspruchs aus diesem
+Jahr, vgl. StAZH C II 1, Nr. 532) respektive nach 1427/36 (aufgrund des erwähnten Ratsentscheids während der Amtszeit von Bürgermeister
+Felix Manesse)</origDate></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>Hotz, UB Schwamendingen, Anhang, Nr. 6 (auf der Grundlage von StAZH G I 103); Ott, Rechtsquellen, Teil 2, S. 136-145</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
 </fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key000065">Amtleute</term><term ref="key000490">Bauwesen</term><term>Begräbnis</term><term ref="key000479">Dienstpflicht</term><term ref="key000061">Ehegenossame</term><term ref="key000274">Ehrschatz</term><term>Erblehen</term><term ref="key000597">Erbrecht</term><term ref="key000183">Fall</term><term ref="key003931">Fertigung</term><term ref="key000305">Grenze</term><term ref="key000593">Hausfriedensbruch</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key003752">Kelnhof</term><term ref="key004414">Landwirtschaft</term><term ref="key000022">Lehen</term><term ref="key000084">Leibeigenschaft</term><term ref="key000212">Löhne</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000012">Offnung</term><term ref="key000027">Pfändung</term><term ref="key004677">Richtstätte</term><term ref="key005444">Tierhaltung</term><term ref="key005448">Verjährung</term><term ref="key000249">Wald</term><term ref="key000048">Weiderecht</term><term ref="key000129">Wein</term><term ref="key003746">Weinbau</term><term ref="key005460">Winkelwirtschaft</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000307">Allmende</term>
+<term ref="key000065">Amtleute</term>
+<term ref="key000490">Bauwesen</term>
+<term>Begräbnis</term>
+<term ref="key000479">Dienstpflicht</term>
+<term ref="key000061">Ehegenossame</term>
+<term ref="key000274">Ehrschatz</term>
+<term>Erblehen</term>
+<term ref="key000597">Erbrecht</term>
+<term ref="key000183">Fall</term>
+<term ref="key003931">Fertigung</term>
+<term ref="key000305">Grenze</term>
+<term ref="key000593">Hausfriedensbruch</term>
+<term ref="key003994">Hochgerichtsbarkeit</term>
+<term ref="key003752">Kelnhof</term>
+<term ref="key004414">Landwirtschaft</term>
+<term ref="key000022">Lehen</term>
+<term ref="key000084">Leibeigenschaft</term>
+<term ref="key000212">Löhne</term>
+<term ref="key000151">Niedergerichtsbarkeit</term>
+<term ref="key000012">Offnung</term>
+<term ref="key000027">Pfändung</term>
+<term ref="key004677">Richtstätte</term>
+<term ref="key005444">Tierhaltung</term>
+<term ref="key005448">Verjährung</term>
+<term ref="key000249">Wald</term>
+<term ref="key000048">Weiderecht</term>
+<term ref="key000129">Wein</term>
+<term ref="key003746">Weinbau</term>
+<term ref="key005460">Winkelwirtschaft</term>
+<term ref="key000758">Wirtshaus</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
 <text>
 <group>
 <text>
 <body corresp="Sigle1">
 <pb n="23r" facs="StAZH_G_I_102__fol__23_r_.tif"/>
-<div><head>
-<lb/><placeName ref="loc008707">Fluͦntren</placeName><note>Eine Rubrizierung des Wortes <quote>Fluͦntren</quote> befindet sich an jedem Kopf der
-Rekto-Seiten. Die erste ist in der Farbe des Textes mit roter
-Einfärbung des Schafts der Initiale geschrieben, die übrigen sind gänzlich in roter Farbe gehalten. Auch die anderen Orte, deren
-Rechte im Band enthalten sind, weisen eine Rubrizierung auf. Im
-Text sind ebenfalls einige Initialen zu Beginn eines Abschnitts oder auch mitten
-im Text mit roter Farbe versehen. Rote Punkte schliessen meist auch die römischen
-Ziffern bei Geldwerten und Gewichten ein.</note></head>
-<head><lb/>Dis sind die <app><lem>rechtung</lem><rdg wit="StAZH G I 103, fol. 18r-24r">rechtungen</rdg></app> mines herren, des 
-<lb/><orgName ref="org004352">probstes, und des cappittels <placeName ref="loc000065">Zu̍rich</placeName></orgName> zuͦ 
-<lb/>dem hofe ze <placeName ref="loc008707">Fluͦntren</placeName>
+<div>
+<head>
+<lb/><placeName ref="loc008707">Fluͦntren</placeName><note>Eine Rubrizierung des Wortes <quote>Fluͦntren</quote> befindet sich an jedem Kopf
+der Rekto-Seiten. Die erste ist in der Farbe des Textes mit roter Einfärbung des Schafts der Initiale geschrieben, die übrigen sind gänzlich
+in roter Farbe gehalten. Auch die anderen Orte, deren Rechte im Band enthalten sind, weisen eine Rubrizierung auf. Im Text sind ebenfalls
+einige Initialen zu Beginn eines Abschnitts oder auch mitten im Text mit roter Farbe versehen. Rote Punkte schliessen meist auch die
+römischen Ziffern bei Geldwerten und Gewichten ein.</note></head>
+<head><lb/>Dis sind die <app>
+<lem>rechtung</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">rechtungen</rdg>
+</app> mines herren, des <lb/><orgName ref="org004352">probstes, und des cappittels <placeName ref="loc000065">Zu̍rich</placeName></orgName>
+zuͦ <lb/>dem hofe ze <placeName ref="loc008707">Fluͦntren</placeName>
 </head>
 <div>
 <p><seg n="1">
-<lb/>Des ersten, so sind tu̍p und fraͤfin, twing 
-<lb/>und benn und alle gericht mines herren, 
-<lb/>des <orgName ref="org004352">probstes, und des cappittels</orgName>.<note>Die früheste Nennung der Hochgerichtbarkeit des Stifts in <placeName ref="loc008707">Fluntern</placeName> findet sich gemäss <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 353</bibl>, in einer Urkunde vom 1. Mai 1256 über den Verzicht von Propst <persName ref="per024143">Werner von Zürich</persName> auf die bisher vom Kornhaus bezogenen zehn Mütt Weizen, wofür er sich ebensoviel aus dem Vogtrecht in <placeName ref="loc010356">Albisrieden</placeName> vorbehielt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=583162">StAZH C II 1, Nr. 29</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 3, Nr. 964</bibl>).</note></seg></p>
-<p><seg n="2"><lb/>Item die jetzgenanten min herren haͧnd ein 
-<lb/>hoffstatt, die man nemmet die <placeName ref="loc012776">Weibelhuͦb</placeName>. 
-<lb/>Uff der selben huͦb sol man vinden
-bereit<lb break="no"/>schaft, das man alle toͤd, wie man die verschult 
-<lb/>haͧt, volfuͤren und <app><lem>an</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> thuͦn mug naͧch dem, 
-<lb/>als denn <app><lem>gericht und urteil</lem><rdg wit="StAZH G I 103, fol. 18r-24r">urteil und gericht</rdg></app> git.</seg></p>
-<p><seg n="3"><lb/>Item die wisen und der akker, das man alles 
-<lb/>nempt in dem <placeName ref="loc012685">Loche</placeName><note>Das Stift hatte am <date when="1362-11-07">7. November 1362</date> die Äcker im <placeName ref="loc012685">Loch</placeName> zurückgekauft (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273800">StAZH C II 1, Nr. 338</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1540</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 370-371</bibl>;
-<bibl><ref target="/startseite/literaturverzeichnis">Vögelin/Nüscheler 1878-1890</ref>, Bd. 2, S. 562-563</bibl>). In einem späteren Kaufbrief des Jahres 1555 wird von einer <placeName ref="loc012686">Loch</placeName>- oder <placeName ref="loc012109">Galgenwiese</placeName>
-gesprochen, die offenbar auch den <placeName ref="loc012686">Lochacker</placeName> umfasst haben muss (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2264327">StAZH G I 147, fol. 75r, Eintrag
-5</ref></bibl>).</note>, hoͤrent zuͦ der <choice><abbr>jetzgen</abbr><expan>jetzgenanten</expan></choice>
-<lb/><placeName ref="loc012776">Weibelhuͦb</placeName>, also, das man uff dem selben guͦt 
-<lb/>henken, blenden und enthoͧpten und alle toͤde
-<lb/>tuͦn sol, als si dann verschult werdent.<note>Zum Henkersamt in <placeName ref="loc008707">Fluntern</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_020">SSRQ ZH NF II/11, Nr. 20</ref></bibl>.</note></seg></p>
-<p><seg n="4"><lb/>Item die hoͤfe, die min herren haͧnd, es sige 
-<lb/><placeName ref="loc009841">Meilan</placeName>, <placeName ref="loc012237">Ru̍fers</placeName>, <placeName ref="loc008713">Ruͤstlikon</placeName>, <placeName ref="loc010356">Rieden</placeName>, <placeName ref="loc009768">Hoͤngg</placeName>
-<lb/>und <placeName ref="loc009859">Schwaͧmedingen</placeName>, die selben hoͤfe ge<lb break="no"/>hoͤrent 
-alle in den hoff ze <placeName ref="loc008707">Fluͦntren</placeName> und 
-<lb/>oͧch alle ander miner herren hoͤfe.<note>Diese ersten Artikel wurden <date when="1489">1489</date> nach einem Konflikt mit der Stadt <placeName ref="loc000065">Zürich</placeName> um Gerichtsrechte des <orgName ref="org004352">Grossmünsterstifts</orgName> in <placeName ref="loc008707">Fluntern</placeName> auch ins Ratsmanual übertragen (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1154531">StAZH B II 15, S. 62</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 298-299, 317</bibl>, mit unrichtiger Seitenangabe). Das Ende wurde dabei sinngemäss angepasst von <orig>miner herren hóf</orig> zu <orig>ir hóff</orig>. Der Eintrag kam zustande, nachdem der Rat am <date when="1489-01-27">27. Januar 1489</date> sechs Männer für einen Augenschein betreffend das Hochgericht in <placeName ref="loc008707">Fluntern</placeName> bestimmt hatte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935692">StAZH B II 15, S. 7</ref></bibl>).</note></seg></p>
-<p><seg n="5"><lb/>Item alle urteilen, so uff den vorgenanten
-<lb/>miner herren hoͤfen stoͤssig werdent, die sol
-<lb/>man us richten und usscheiden uff dem 
-<lb/>egenanten kelnhoff ze <placeName ref="loc008707">Fluͦntren</placeName>.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>, Art. 25 und 26</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943</ref></bibl>, S. 11. Gegen diese Bestimmungen verstiessen im Jahr <date when="1377">1377</date> die beiden Meier von <placeName ref="loc009768">Höngg</placeName>, die ein strittiges Urteil in einem Konflikt mit dem <orgName ref="org004352">Grossmünsterstift von <placeName ref="loc000065">Zürich</placeName></orgName> vor den <orgName ref="org002406"><placeName ref="loc000065">Zürcher</placeName> Rat</orgName> zogen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_010">SSRQ ZH NF II/11, Nr. 10</ref></bibl>).</note> Were oͧch, 
-<lb/>das die hussgenoͧssen umb ein urteil stoͤssig 
-<lb/>wurdin, so su̍llent si die selben urteil ziechen 
-<lb/>fu̍r min herren und das <orgName ref="org004352">cappittel</orgName> und sol oͧch 
-<lb/>mit namen die urteil vor den selben beliben.</seg></p>
-<p><seg n="6"><lb/>Item waͤre <app><lem/><rdg wit="StAZH G I 103, fol. 18r-24r">ouch</rdg></app>, das in den vorgenanten hoͤfen 
-<lb/>des gotzhus jeman verschulte, das man in 
-<lb/>vaͧchen soͤlte von geltschuld wegen oder 
-<lb/>von deheiner ander sach wegen, den sol 
-<pb n="23v" facs="StAZH_G_I_102__fol__23_v_.tif"/>
-<lb/>min herr, der probst, vaͧchen<!-- gefangen nehmen, vgl. Iditotikon, Bd. 1, Sp. 716f. --> und behalten. Und be<lb break="no"/>darff 
-er hilff dar zuͦ, so sol er manen die hus<lb break="no"/>genoͧssen 
-<app><lem>ze <placeName ref="loc008707">Fluͦntren</placeName></lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> und ze <placeName ref="loc010656">Sant Lienhart</placeName>, 
-<lb/>die die lechen buwent, als vil er der
-selben be<lb break="no"/>darff, 
-die soͤllent im des helffen bi dem eide.</seg></p>
-<p><seg n="7"><lb/>Item min herren haͧnd das recht, das keller 
-<lb/><app><lem>oder</lem><rdg wit="StAZH G I 103, fol. 18r-24r">und</rdg></app> ir kamrer in allen iren hoͤfen zins vor<lb break="no"/>dren 
-und in nemen su̍llent. Waͤre aber, das 
-<lb/>man inen danne den zins nit richte noch gaͤbe,
-<lb/>darumb su̍llent si pfender nemen. Woͤlte man 
-<lb/>aber inen nit pfender geben, so soͤllent si 
-<lb/>aber widerumb farn gen <placeName ref="loc008707">Fluͦntren</placeName> und gen 
-<lb/><placeName ref="loc010656">Sant Lienhart</placeName> und da der husgenoͧssen zuͦ 
-<lb/>inen nemen, als mengen si danne dunket, das 
-<lb/>si dar zuͦ bedu̍rffent, und wider umb farn. 
-<lb/>Und sol danne der keller oder der kamrer pfen<lb break="no"/>der, 
-rinder oder ross entbinden und den hus<lb break="no"/>genoͧssen 
-fu̍rschlachen, die su̍llent denn die
-<lb/>selben pfender triben gen <placeName ref="loc008707">Fluͦntren</placeName> in den 
-<lb/>kelnhoff und su̍llent da staͧn <date dur="P8D">acht tag</date> dem 
-<lb/>keller unschaͤdlich. Und naͧch den <date dur="P8D">acht tagen</date>
-<lb/>sol man die pfender uff den markt triben 
-<lb/>und verkoͧffen und dem keller vor ab richten 
-<lb/>sin recht. Und sol man husgenoͧssen enthalb 
-<lb/>der <placeName ref="loc010439">Glatt</placeName>
-<measure type="currency" quantity="6" unit="d">sechs pfenning</measure> und ein imbis geben 
-<lb/>und hie disent <app><lem/><rdg wit="StAZH G I 103, fol. 18r-24r">der</rdg></app>
+<lb/>Des ersten, so sind tu̍p und fraͤfin, twing <lb/>und benn und alle gericht mines herren, <lb/>des <orgName ref="org004352">probstes,
+und des cappittels</orgName>.<note>Die früheste Nennung der Hochgerichtbarkeit des Stifts in <placeName ref="loc008707">Fluntern</placeName>
+findet sich gemäss <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1965</ref>, S. 353</bibl>, in einer Urkunde vom 1. Mai 1256
+über den Verzicht von Propst <persName ref="per024143">Werner von Zürich</persName> auf die bisher vom Kornhaus bezogenen zehn Mütt Weizen,
+wofür er sich ebensoviel aus dem Vogtrecht in <placeName ref="loc010356">Albisrieden</placeName> vorbehielt (<bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=583162">StAZH C II 1, Nr. 29</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 3, Nr. 964</bibl>).</note></seg></p>
+<p><seg n="2"><lb/>Item die jetzgenanten min herren haͧnd ein <lb/>hoffstatt, die man nemmet die <placeName ref="loc012776"
+>Weibelhuͦb</placeName>. <lb/>Uff der selben huͦb sol man vinden bereit<lb break="no"/>schaft, das man alle toͤd, wie man die verschult
+<lb/>haͧt, volfuͤren und <app>
+<lem>an</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> thuͦn mug naͧch dem, <lb/>als denn <app>
+<lem>gericht und urteil</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">urteil und gericht</rdg>
+</app> git.</seg></p>
+<p><seg n="3"><lb/>Item die wisen und der akker, das man alles <lb/>nempt in dem <placeName ref="loc012685">Loche</placeName><note>Das Stift
+hatte am <date when="1362-11-07">7. November 1362</date> die Äcker im <placeName ref="loc012685">Loch</placeName> zurückgekauft (<bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273800">StAZH C II 1, Nr. 338</ref></bibl>; Regest: <bibl><ref
+target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 1540</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ruoff
+1965</ref>, S. 370-371</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Vögelin/Nüscheler 1878-1890</ref>, Bd. 2, S.
+562-563</bibl>). In einem späteren Kaufbrief des Jahres 1555 wird von einer <placeName ref="loc012686">Loch</placeName>- oder <placeName
+ref="loc012109">Galgenwiese</placeName> gesprochen, die offenbar auch den <placeName ref="loc012686">Lochacker</placeName> umfasst haben
+muss (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2264327">StAZH G I 147, fol. 75r, Eintrag
+5</ref></bibl>).</note>, hoͤrent zuͦ der <choice>
+<abbr>jetzgen</abbr>
+<expan>jetzgenanten</expan>
+</choice>
+<lb/><placeName ref="loc012776">Weibelhuͦb</placeName>, also, das man uff dem selben guͦt <lb/>henken, blenden und enthoͧpten und alle toͤde
+<lb/>tuͦn sol, als si dann verschult werdent.<note>Zum Henkersamt in <placeName ref="loc008707">Fluntern</placeName> vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_020">SSRQ ZH NF II/11, Nr. 20</ref></bibl>.</note></seg></p>
+<p><seg n="4"><lb/>Item die hoͤfe, die min herren haͧnd, es sige <lb/><placeName ref="loc009841">Meilan</placeName>, <placeName
+ref="loc012237">Ru̍fers</placeName>, <placeName ref="loc008713">Ruͤstlikon</placeName>, <placeName ref="loc010356">Rieden</placeName>,
+<placeName ref="loc009768">Hoͤngg</placeName>
+<lb/>und <placeName ref="loc009859">Schwaͧmedingen</placeName>, die selben hoͤfe ge<lb break="no"/>hoͤrent alle in den hoff ze <placeName
+ref="loc008707">Fluͦntren</placeName> und <lb/>oͧch alle ander miner herren hoͤfe.<note>Diese ersten Artikel wurden <date when="1489"
+>1489</date> nach einem Konflikt mit der Stadt <placeName ref="loc000065">Zürich</placeName> um Gerichtsrechte des <orgName ref="org004352"
+>Grossmünsterstifts</orgName> in <placeName ref="loc008707">Fluntern</placeName> auch ins Ratsmanual übertragen (<bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1154531">StAZH B II 15, S. 62</ref></bibl>; vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 298-299, 317</bibl>, mit unrichtiger Seitenangabe). Das Ende wurde dabei
+sinngemäss angepasst von <orig>miner herren hóf</orig> zu <orig>ir hóff</orig>. Der Eintrag kam zustande, nachdem der Rat am <date
+when="1489-01-27">27. Januar 1489</date> sechs Männer für einen Augenschein betreffend das Hochgericht in <placeName ref="loc008707"
+>Fluntern</placeName> bestimmt hatte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935692">StAZH B II 15, S.
+7</ref></bibl>).</note></seg></p>
+<p><seg n="5"><lb/>Item alle urteilen, so uff den vorgenanten <lb/>miner herren hoͤfen stoͤssig werdent, die sol <lb/>man us richten und
+usscheiden uff dem <lb/>egenanten kelnhoff ze <placeName ref="loc008707">Fluͦntren</placeName>.<note>Vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>, Art. 25 und 26</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943</ref></bibl>, S. 11. Gegen diese Bestimmungen verstiessen im Jahr <date when="1377"
+>1377</date> die beiden Meier von <placeName ref="loc009768">Höngg</placeName>, die ein strittiges Urteil in einem Konflikt mit dem <orgName
+ref="org004352">Grossmünsterstift von <placeName ref="loc000065">Zürich</placeName></orgName> vor den <orgName ref="org002406"><placeName
+ref="loc000065">Zürcher</placeName> Rat</orgName> zogen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_010">SSRQ ZH NF II/11, Nr.
+10</ref></bibl>).</note> Were oͧch, <lb/>das die hussgenoͧssen umb ein urteil stoͤssig <lb/>wurdin, so su̍llent si die selben urteil ziechen
+<lb/>fu̍r min herren und das <orgName ref="org004352">cappittel</orgName> und sol oͧch <lb/>mit namen die urteil vor den selben
+beliben.</seg></p>
+<p><seg n="6"><lb/>Item waͤre <app>
+<lem/>
+<rdg wit="StAZH G I 103, fol. 18r-24r">ouch</rdg>
+</app>, das in den vorgenanten hoͤfen <lb/>des gotzhus jeman verschulte, das man in <lb/>vaͧchen soͤlte von geltschuld wegen oder <lb/>von
+deheiner ander sach wegen, den sol <pb n="23v" facs="StAZH_G_I_102__fol__23_v_.tif"/>
+<lb/>min herr, der probst, vaͧchen<!-- gefangen nehmen, vgl. Iditotikon, Bd. 1, Sp. 716f. --> und behalten. Und be<lb break="no"/>darff er
+hilff dar zuͦ, so sol er manen die hus<lb break="no"/>genoͧssen <app>
+<lem>ze <placeName ref="loc008707">Fluͦntren</placeName></lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> und ze <placeName ref="loc010656">Sant Lienhart</placeName>, <lb/>die die lechen buwent, als vil er der selben be<lb break="no"
+/>darff, die soͤllent im des helffen bi dem eide.</seg></p>
+<p><seg n="7"><lb/>Item min herren haͧnd das recht, das keller <lb/><app>
+<lem>oder</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">und</rdg>
+</app> ir kamrer in allen iren hoͤfen zins vor<lb break="no"/>dren und in nemen su̍llent. Waͤre aber, das <lb/>man inen danne den zins nit
+richte noch gaͤbe, <lb/>darumb su̍llent si pfender nemen. Woͤlte man <lb/>aber inen nit pfender geben, so soͤllent si <lb/>aber widerumb
+farn gen <placeName ref="loc008707">Fluͦntren</placeName> und gen <lb/><placeName ref="loc010656">Sant Lienhart</placeName> und da der
+husgenoͧssen zuͦ <lb/>inen nemen, als mengen si danne dunket, das <lb/>si dar zuͦ bedu̍rffent, und wider umb farn. <lb/>Und sol danne der
+keller oder der kamrer pfen<lb break="no"/>der, rinder oder ross entbinden und den hus<lb break="no"/>genoͧssen fu̍rschlachen, die su̍llent
+denn die <lb/>selben pfender triben gen <placeName ref="loc008707">Fluͦntren</placeName> in den <lb/>kelnhoff und su̍llent da staͧn <date
+dur="P8D">acht tag</date> dem <lb/>keller unschaͤdlich. Und naͧch den <date dur="P8D">acht tagen</date>
+<lb/>sol man die pfender uff den markt triben <lb/>und verkoͧffen und dem keller vor ab richten <lb/>sin recht. Und sol man husgenoͧssen
+enthalb <lb/>der <placeName ref="loc010439">Glatt</placeName>
+<measure type="currency" quantity="6" unit="d">sechs pfenning</measure> und ein imbis geben <lb/>und hie disent <app>
+<lem/>
+<rdg wit="StAZH G I 103, fol. 18r-24r">der</rdg>
+</app>
 <placeName ref="loc010439">Glatte</placeName>
 <measure type="currency" quantity="4" unit="d">vier ₰</measure> aͧn imbiss.</seg></p>
 <p><seg n="8"><lb/>Item der weibel, oder der uff der <placeName ref="loc012776">Weibelhuͦb</placeName>
-<lb/>sitzet, <app><lem>ein offen taverne haben sol</lem><rdg wit="StAZH G I 103, fol. 18r-24r">sol ein offen taverne haben</rdg></app>, das er 
-<lb/>veile habe win und broͧt und ander kost, und 
-<lb/>das alt mess an win aͧne ungelt haben sol, 
-<lb/>und sol oͧch herbergen burger und gest, huͦren 
-<lb/>und buͦben, und sol oͧch darumb nemen aller<lb break="no"/>ley 
-pfender, aͧn bluͦtige pfender und kilchen<lb break="no"/>schatz 
-und aͧne nasse phender.<note>Die Hube, auf der das Wirtshaus in <placeName ref="loc008707">Fluntern</placeName> steht, wird in der lateinischen Fassung der Stiftsrechte in <placeName ref="loc008707">Fluntern</placeName> nicht als <placeName ref="loc012776">Weibelhuͦb</placeName>, sondern als  <placeName ref="loc012776">Weidhuͦb</placeName> bezeichnet; der Artikel beschränkt sich des Weiteren auf die Nennung des dort geltenden alten Weinmasses (<bibl><ref target="http://dx.doi.org/10.7891/e-manuscripta-47119">ZBZ Ms C 10a</ref>, fol. 135r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 156</bibl>).</note></seg></p>
-<p><seg n="9"><lb/>Item ein weibel sol ouch <date dur="R/P1Y">jaͤrlich</date> von minen
-<pb n="24r" facs="StAZH_G_I_102__fol__24_r_.tif"/>
-<lb/>herren <measure type="currency" unit="d" quantity="4">vier schilling phennig</measure> haben an dem 
-<lb/><date type="deadline_holiday" when="--12-24">heiligen aͧbent ze den wiennechten</date> und oͧch 
-<lb/>den win, so dar zuͦ gehoͤret.<note>Die einstige Entlöhnung in Form von Fleisch wird hier nicht mehr erwähnt, während die Aufzeichnung in den auf das Jahr <date when="1346">1346</date> datierenden Statutenbüchern betreffend den Henker diese noch aufführt: <orig>Et ob hoc annuatim in vigilia nativitatis domini dantur eidem lictori per cellerarium claustralem nomine carnium porcalium, que olim dabantur, 4 sol. denariorum et 4 staupe rubei vini</orig> (zitiert nach <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 67</bibl>). Im älteren Kelleramturbar von <date notBefore="1333" notAfter="1334">1333/1334</date> sind dagegen lediglich die vier Schilling aufgeführt, wobei eine Hand nachträglich präzisiert, diese würden anstelle des Fleisches bezahlt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317327">StAZH G I 135</ref>, fol. 31r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Urbare und Rödel Zürich</ref>, S. 240</bibl>). Dies legt widerum nahe, dass die Vorlage der lateinischen Version auf die Zeit <date notAfter="1333">vor 1333</date> zu datieren wäre.</note></seg></p>
-<p><seg n="10"><lb/>Item wer u̍ber des <placeName ref="loc012618">Hertzogen Bach</placeName> und oͧch 
-<lb/>u̍ber den <placeName ref="loc000067">Oͤtenbach</placeName> in kumt, also das er in 
-<lb/>mines herren gerichten <date dur="P1Y">jaͧr und tag</date> gesessen 
-<lb/>ist, den sol min herr mit sinem gerichte schirmen, 
-<lb/>er waͤre denn eins herren eigen. Der selbe 
-<lb/>herre mag sinem eignen man naͧch gaͧn als 
-<lb/>im dann fuͤget.</seg></p>
-<p><seg n="11"><lb/>Item wer der ist, der hinder minem herren mit 
-<lb/>husroͤki sitzet, der sol im ze der <date type="deadline_floating holiday">vasnacht</date>
-<lb/><num value="1">ein</num> huͦn geben und sol oͧch da mit gedienet 
-<lb/>haͧn, den sol oͧch min herr vor bennen schirmen 
-<lb/>und sol ein recht von im bieten und sol 
-<lb/>oͧch der selbe das minen herren naͧch dem man<lb break="no"/>brieff 
-oder <sic>ladbrieff</sic> zitlich vor den bennen <lb/>kunt tuͦn.</seg></p>
-<p><seg n="12"><lb/>Item ob der naͧchgeburen, der gebursami oder 
-<lb/>der husgenoͧssen <num value="2">zwen</num> oder <num value="3">dry</num> mitenandren 
-<lb/>stoͤssig wurdin, kriegten und <app><lem>eander</lem><rdg wit="StAZH G I 103, fol. 18r-24r">enanden</rdg></app> wun<lb break="no"/>daten 
-untz uff den toͧd, belibet das von 
-<lb/>beiden teilen ungeklagt, so haͧt min herr 
-<lb/>da mit nu̍tz ze schaffen, es waͤre denn 
-<lb/>ein toͧdschlag. Wirt aber das minem herren 
-<lb/>klegt von einem teil oder <app><lem>von</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> beiden, so 
-<lb/>ist minen herren die buͦsse mit namen <app><lem>gevallen</lem><rdg wit="StAZH G I 103, fol. 18r-24r">verfallen</rdg></app>.</seg></p>
-<p><seg n="13"><lb/>Item ze den <date type="deadline_holiday" when="--12-25">wienachten</date> sol man den 
-<lb/>husgenoͧssen ze sament gebieten, das si 
-<lb/>einen banwart uff den eid kiesent, der 
-<lb/>dem gotzhus, den husgenoͧssen und den 
-<lb/>usschidlingen aller nu̍tzlichest wesen 
-<lb/>muge. Und wer da die meren volge 
-<lb/>under inen gewu̍nnet, dem sol 
-<pb n="24v" facs="StAZH_G_I_102__fol__24_v_.tif"/>
-<lb/>min herr das banwart ampt lichen. Waͤre aber, das 
-<lb/>si glich wurden, so sol min herre lichen, wederm teil 
-<lb/>er will, und git oͧch der banwart minem herren 
-<lb/>darumb <app><lem>nicht</lem><rdg wit="StAZH G I 103, fol. 18r-24r">nu̍tz</rdg></app>.<note>Vgl. den Bannwartseid aus späterer Zeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72</ref></bibl>).</note></seg></p>
-<p><seg n="14"><lb/>Item die vorgenanten husgenoͧssen su̍llent ze den 
-<lb/><date type="deadline_holiday" when="--12-25">wiennechten</date> ze samen sitzen und ein hirten 
-<lb/>kiesen under inen. Und welhen die husgenoͧssen 
-<lb/>erkiesent, der sol das hirtuͦm von minem herren 
-<lb/>gewu̍nnen und erwerben, als er denn mag und 
-<lb/>sol aber min herr bescheidenlich gen im tuͦn.</seg></p>
+<lb/>sitzet, <app>
+<lem>ein offen taverne haben sol</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">sol ein offen taverne haben</rdg>
+</app>, das er <lb/>veile habe win und broͧt und ander kost, und <lb/>das alt mess an win aͧne ungelt haben sol, <lb/>und sol oͧch herbergen
+burger und gest, huͦren <lb/>und buͦben, und sol oͧch darumb nemen aller<lb break="no"/>ley pfender, aͧn bluͦtige pfender und kilchen<lb
+break="no"/>schatz und aͧne nasse phender.<note>Die Hube, auf der das Wirtshaus in <placeName ref="loc008707">Fluntern</placeName> steht,
+wird in der lateinischen Fassung der Stiftsrechte in <placeName ref="loc008707">Fluntern</placeName> nicht als <placeName ref="loc012776"
+>Weibelhuͦb</placeName>, sondern als <placeName ref="loc012776">Weidhuͦb</placeName> bezeichnet; der Artikel beschränkt sich des Weiteren
+auf die Nennung des dort geltenden alten Weinmasses (<bibl><ref target="http://dx.doi.org/10.7891/e-manuscripta-47119">ZBZ Ms C 10a</ref>,
+fol. 135r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S.
+156</bibl>).</note></seg></p>
+<p><seg n="9"><lb/>Item ein weibel sol ouch <date dur="R/P1Y">jaͤrlich</date> von minen <pb n="24r" facs="StAZH_G_I_102__fol__24_r_.tif"/>
+<lb/>herren <measure type="currency" unit="d" quantity="4">vier schilling phennig</measure> haben an dem <lb/><date type="deadline_holiday"
+when="--12-24">heiligen aͧbent ze den wiennechten</date> und oͧch <lb/>den win, so dar zuͦ gehoͤret.<note>Die einstige Entlöhnung in Form
+von Fleisch wird hier nicht mehr erwähnt, während die Aufzeichnung in den auf das Jahr <date when="1346">1346</date> datierenden
+Statutenbüchern betreffend den Henker diese noch aufführt: <orig>Et ob hoc annuatim in vigilia nativitatis domini dantur eidem lictori per
+cellerarium claustralem nomine carnium porcalium, que olim dabantur, 4 sol. denariorum et 4 staupe rubei vini</orig> (zitiert nach
+<bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 67</bibl>). Im älteren Kelleramturbar von <date
+notBefore="1333" notAfter="1334">1333/1334</date> sind dagegen lediglich die vier Schilling aufgeführt, wobei eine Hand nachträglich
+präzisiert, diese würden anstelle des Fleisches bezahlt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317327"
+>StAZH G I 135</ref>, fol. 31r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Urbare und Rödel Zürich</ref>, S.
+240</bibl>). Dies legt widerum nahe, dass die Vorlage der lateinischen Version auf die Zeit <date notAfter="1333">vor 1333</date> zu
+datieren wäre.</note></seg></p>
+<p><seg n="10"><lb/>Item wer u̍ber des <placeName ref="loc012618">Hertzogen Bach</placeName> und oͧch <lb/>u̍ber den <placeName
+ref="loc000067">Oͤtenbach</placeName> in kumt, also das er in <lb/>mines herren gerichten <date dur="P1Y">jaͧr und tag</date> gesessen
+<lb/>ist, den sol min herr mit sinem gerichte schirmen, <lb/>er waͤre denn eins herren eigen. Der selbe <lb/>herre mag sinem eignen man
+naͧch gaͧn als <lb/>im dann fuͤget.</seg></p>
+<p><seg n="11"><lb/>Item wer der ist, der hinder minem herren mit <lb/>husroͤki sitzet, der sol im ze der <date
+type="deadline_floating holiday">vasnacht</date>
+<lb/><num value="1">ein</num> huͦn geben und sol oͧch da mit gedienet <lb/>haͧn, den sol oͧch min herr vor bennen schirmen <lb/>und sol ein
+recht von im bieten und sol <lb/>oͧch der selbe das minen herren naͧch dem man<lb break="no"/>brieff oder <sic>ladbrieff</sic> zitlich vor
+den bennen <lb/>kunt tuͦn.</seg></p>
+<p><seg n="12"><lb/>Item ob der naͧchgeburen, der gebursami oder <lb/>der husgenoͧssen <num value="2">zwen</num> oder <num value="3"
+>dry</num> mitenandren <lb/>stoͤssig wurdin, kriegten und <app>
+<lem>eander</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">enanden</rdg>
+</app> wun<lb break="no"/>daten untz uff den toͧd, belibet das von <lb/>beiden teilen ungeklagt, so haͧt min herr <lb/>da mit nu̍tz ze
+schaffen, es waͤre denn <lb/>ein toͧdschlag. Wirt aber das minem herren <lb/>klegt von einem teil oder <app>
+<lem>von</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> beiden, so <lb/>ist minen herren die buͦsse mit namen <app>
+<lem>gevallen</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">verfallen</rdg>
+</app>.</seg></p>
+<p><seg n="13"><lb/>Item ze den <date type="deadline_holiday" when="--12-25">wienachten</date> sol man den <lb/>husgenoͧssen ze sament
+gebieten, das si <lb/>einen banwart uff den eid kiesent, der <lb/>dem gotzhus, den husgenoͧssen und den <lb/>usschidlingen aller
+nu̍tzlichest wesen <lb/>muge. Und wer da die meren volge <lb/>under inen gewu̍nnet, dem sol <pb n="24v" facs="StAZH_G_I_102__fol__24_v_.tif"/>
+<lb/>min herr das banwart ampt lichen. Waͤre aber, das <lb/>si glich wurden, so sol min herre lichen, wederm teil <lb/>er will, und git oͧch
+der banwart minem herren <lb/>darumb <app>
+<lem>nicht</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">nu̍tz</rdg>
+</app>.<note>Vgl. den Bannwartseid aus späterer Zeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr.
+72</ref></bibl>).</note></seg></p>
+<p><seg n="14"><lb/>Item die vorgenanten husgenoͧssen su̍llent ze den <lb/><date type="deadline_holiday" when="--12-25">wiennechten</date>
+ze samen sitzen und ein hirten <lb/>kiesen under inen. Und welhen die husgenoͧssen <lb/>erkiesent, der sol das hirtuͦm von minem herren
+<lb/>gewu̍nnen und erwerben, als er denn mag und <lb/>sol aber min herr bescheidenlich gen im tuͦn.</seg></p>
 <p><seg n="15"><lb/>Item der selbe hirt sol die wacht ze <placeName ref="loc013316">Nu̍nmarkt</placeName>
-<lb/>ußtriben und mit der selben schweig sol der 
-<lb/>hirt farn bi dem <placeName ref="loc010528">Letzgraben</placeName> uff <app><lem>und sol
-<lb/>der hirt oͧch</lem><rdg wit="StAZH G I 103, fol. 18r-24r">da sol er</rdg></app> einen staͤten weg han untz an 
-<lb/>der messereren<note>Damit ist wahrscheinlich das Gut des Frühmessers, eines Priesters am <orgName ref="org004352">Grossmünsterstift</orgName>, gemeint.</note> guͦt. Were aber, das der weg 
-<lb/>deheinest in brech oder deheinem gebresten 
-<lb/>gewunne, so sol man fu̍rlich in dasselb guͦt 
-<lb/>brechen und in griffen, so verre, das man 
-<lb/>einen wegen da fu̍rsich uf haben mug. 
-<lb/>Und darumbe sol man wu̍ssen, das ir, der 
-<lb/>almende des gotzhus guͦtes, oben nider so vil 
-<lb/>geben wart, das man den weg staͤtenklich 
-<lb/>haben mug. Und der hirt sol oͧch farn mit 
-<lb/>der sweig untz an das <placeName ref="loc012689">Inre Mos</placeName> fu̍r des <placeName ref="loc012618">Hert<lb break="no"/>zogen 
-Bach</placeName> uf. Er sol oͧch farn, wenne die 
-<lb/>stroffel weide kumt, bi dem selben mos uff, 
-<lb/>und durch dasselbe mos an <placeName ref="loc012760">Sant Lieben Kilchen</placeName>
-<lb/>und von dannen hin u̍ber die <placeName ref="loc012097">Eich Halden</placeName> und 
-<lb/>an die port des <orgName ref="org006252">gotzhus uff dem <placeName ref="loc010892">Zu̍richberg</placeName></orgName>
-<lb/>und dannenhin ze <placeName ref="loc009859">Swaͧmendingen</placeName> an die kilchen, 
-<lb/>und dannenhin ze <placeName ref="loc010598">Oͤrlikon</placeName> an die kilchen.</seg></p>
-<p><seg n="16"><lb/>Der hirte sol oͧch den husgenoͧssen, die 
-<lb/><num value="0.5">halb</num> pfruͦnden hand, eins hoͧptz huͤten 
-<lb/>ze <date dur="P4W">vier wuchen</date> umb <measure type="currency" quantity="1" unit="d">ein pfenning</measure> und 
-<lb/>den husgenoͧssen, die gantze pfruͦnd hant, 
-<pb n="25r" facs="StAZH_G_I_102__fol__25_r_.tif"/>
-<lb/>gentzlich umb sust mit einem hoͧpte, aber 
-<lb/>burgern und usschidlingen
-ze <date dur="P14D">viertzechen 
-<lb/>tagen</date> umb <measure type="currency" quantity="1" unit="d">ein pfenning</measure>.</seg></p>
+<lb/>ußtriben und mit der selben schweig sol der <lb/>hirt farn bi dem <placeName ref="loc010528">Letzgraben</placeName> uff <app>
+<lem>und sol <lb/>der hirt oͧch</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">da sol er</rdg>
+</app> einen staͤten weg han untz an <lb/>der messereren<note>Damit ist wahrscheinlich das Gut des Frühmessers, eines Priesters am <orgName
+ref="org004352">Grossmünsterstift</orgName>, gemeint.</note> guͦt. Were aber, das der weg <lb/>deheinest in brech oder deheinem gebresten
+<lb/>gewunne, so sol man fu̍rlich in dasselb guͦt <lb/>brechen und in griffen, so verre, das man <lb/>einen wegen da fu̍rsich uf haben mug.
+<lb/>Und darumbe sol man wu̍ssen, das ir, der <lb/>almende des gotzhus guͦtes, oben nider so vil <lb/>geben wart, das man den weg
+staͤtenklich <lb/>haben mug. Und der hirt sol oͧch farn mit <lb/>der sweig untz an das <placeName ref="loc012689">Inre Mos</placeName> fu̍r
+des <placeName ref="loc012618">Hert<lb break="no"/>zogen Bach</placeName> uf. Er sol oͧch farn, wenne die <lb/>stroffel weide kumt, bi dem
+selben mos uff, <lb/>und durch dasselbe mos an <placeName ref="loc012760">Sant Lieben Kilchen</placeName>
+<lb/>und von dannen hin u̍ber die <placeName ref="loc012097">Eich Halden</placeName> und <lb/>an die port des <orgName ref="org006252"
+>gotzhus uff dem <placeName ref="loc010892">Zu̍richberg</placeName></orgName>
+<lb/>und dannenhin ze <placeName ref="loc009859">Swaͧmendingen</placeName> an die kilchen, <lb/>und dannenhin ze <placeName ref="loc010598"
+>Oͤrlikon</placeName> an die kilchen.</seg></p>
+<p><seg n="16"><lb/>Der hirte sol oͧch den husgenoͧssen, die <lb/><num value="0.5">halb</num> pfruͦnden hand, eins hoͧptz huͤten <lb/>ze
+<date dur="P4W">vier wuchen</date> umb <measure type="currency" quantity="1" unit="d">ein pfenning</measure> und <lb/>den husgenoͧssen, die
+gantze pfruͦnd hant, <pb n="25r" facs="StAZH_G_I_102__fol__25_r_.tif"/>
+<lb/>gentzlich umb sust mit einem hoͧpte, aber <lb/>burgern und usschidlingen ze <date dur="P14D">viertzechen <lb/>tagen</date> umb <measure
+type="currency" quantity="1" unit="d">ein pfenning</measure>.</seg></p>
 <p><seg n="17"><lb/>Der hirte sol oͧch farn uff der <placeName ref="loc008759">Spanweid</placeName>
-<lb/>untz an das grabenmaͧl, das man nemmet 
-<lb/><placeName ref="loc008817">Waͤrikoms Ort</placeName>. Es sol den selben hirten uff 
-<lb/>der selben weide nieman irren und sol ouch 
-<lb/>er kein schind ve<!-- ahh: Schindvëch: Vieh, das abgetan werden muss, vgl. Idiotikon Bd. 1, Sp. 651. --><note>Auf diese Bestimmung verwiesen die Bewohner von <placeName ref="loc008707">Fluntern</placeName> in einem Konflikt mit <persName ref="per024140">Heinrich Notz</persName> und <persName ref="per024142">Hans Seeholzer</persName>, die ihre Pferde auf die Allmende trieben, obwohl es sich dabei um Schindvieh handle, also Vieh, das abgetan werden muss (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2297688">StAZH B V 3, fol. 225r</ref></bibl>).</note> dar uff triben.</seg></p>
-<p><seg n="18"><lb/>Item min herre sol den selben hirten schirmen 
-<lb/>uff der weide und oͧch im den hirtenloͧn in 
-<lb/>gewu̍nnen, also das man im von den, so 
-<lb/>hinder minem herren sesshaft sind, pfender 
-<lb/>in gewu̍nnen sol, und von den burgern 
-<lb/>und von andren, so in das gericht nit ge<lb break="no"/>hoͤrent, 
-von den sol der hirte den loͧn uff 
-<lb/>der weide nemen an ir viche.</seg></p>
-<p><seg n="19"><lb/>Item wer der ist, der <measure type="area" quantity="7" unit="Schuh">siben schuͦch</measure> wit und 
-<lb/>breit hindersich und fu̍rsich hinder minem 
-<lb/>herren haͧt, der sol <date when="--05">ze meyen</date> und <date period="fall">ze herbst</date>
-<lb/>in den kelnhoff ze <placeName ref="loc008707">Fluͦntren</placeName> vor minem 
-<lb/>herren sin.<note>Diese Passage ist wortwörtlich aus der älteren lateinischen Fassung übernommen (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 318, Anm. 74</bibl>).</note> Ist er ein husgenoͧss, so sol er 
-<lb/>von erst, so der richter gesitzett, in dem raͧte 
-<lb/>sin oder er buͤsset minem herren <measure type="currency" quantity="3" unit="ß">iij  ₰</measure>. 
-<lb/>Ist er aber burger oder usschidling, so 
-<lb/>sol er in der offnung sin die will, so man 
-<lb/>offnet. Kumt er aber naͧch der offnung, 
-<lb/>so sol er buͤssen minem herren <app><lem><measure type="currency" quantity="3" unit="ß">iij </measure></lem><rdg wit="StAZH G I 103, fol. 18r-24r">iij  ₰</rdg></app>.</seg></p>
-<p><seg n="20"><lb/>Item wirt des guͦtes icht verkoͧffet, das 
-<lb/>von dem gotzhus erblechen ist, das sol 
-<lb/>man fertigen an mines herren hand. <add place="right margin" hand="later hand"><abbr>NB</abbr></add> Waͤre 
-<lb/>aber, das es <date dur="P1Y">jaͧr und tag</date> ungevertiget 
-<lb/>stuͤnd, so sol das guͦt minem herren gantzlich 
-<lb/>ledig sin, es waͤre dann, das es in krieg 
-<lb/>stuͤnde.<note>Das Fertigungsrecht des Stifts wurde nach der Reformation von Seiten der Bewohner <placeName ref="loc008707">Flunterns</placeName> missachtet respektive in Frage gestellt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_061">SSRQ ZH NF II/11, Nr. 61</ref></bibl>).</note></seg></p>
+<lb/>untz an das grabenmaͧl, das man nemmet <lb/><placeName ref="loc008817">Waͤrikoms Ort</placeName>. Es sol den selben hirten uff <lb/>der
+selben weide nieman irren und sol ouch <lb/>er kein schind
+ve<!-- ahh: Schindvëch: Vieh, das abgetan werden muss, vgl. Idiotikon Bd. 1, Sp. 651. --><note>Auf diese Bestimmung verwiesen die Bewohner
+von <placeName ref="loc008707">Fluntern</placeName> in einem Konflikt mit <persName ref="per024140">Heinrich Notz</persName> und <persName
+ref="per024142">Hans Seeholzer</persName>, die ihre Pferde auf die Allmende trieben, obwohl es sich dabei um Schindvieh handle, also Vieh,
+das abgetan werden muss (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2297688">StAZH B V 3, fol.
+225r</ref></bibl>).</note> dar uff triben.</seg></p>
+<p><seg n="18"><lb/>Item min herre sol den selben hirten schirmen <lb/>uff der weide und oͧch im den hirtenloͧn in <lb/>gewu̍nnen, also das
+man im von den, so <lb/>hinder minem herren sesshaft sind, pfender <lb/>in gewu̍nnen sol, und von den burgern <lb/>und von andren, so in das
+gericht nit ge<lb break="no"/>hoͤrent, von den sol der hirte den loͧn uff <lb/>der weide nemen an ir viche.</seg></p>
+<p><seg n="19"><lb/>Item wer der ist, der <measure type="area" quantity="7" unit="Schuh">siben schuͦch</measure> wit und <lb/>breit
+hindersich und fu̍rsich hinder minem <lb/>herren haͧt, der sol <date when="--05">ze meyen</date> und <date period="fall">ze herbst</date>
+<lb/>in den kelnhoff ze <placeName ref="loc008707">Fluͦntren</placeName> vor minem <lb/>herren sin.<note>Diese Passage ist wortwörtlich aus
+der älteren lateinischen Fassung übernommen (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 318, Anm.
+74</bibl>).</note> Ist er ein husgenoͧss, so sol er <lb/>von erst, so der richter gesitzett, in dem raͧte <lb/>sin oder er buͤsset minem
+herren <measure type="currency" quantity="3" unit="ß">iij  ₰</measure>. <lb/>Ist er aber burger oder usschidling, so <lb/>sol er in der
+offnung sin die will, so man <lb/>offnet. Kumt er aber naͧch der offnung, <lb/>so sol er buͤssen minem herren <app>
+<lem><measure type="currency" quantity="3" unit="ß">iij </measure></lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">iij  ₰</rdg>
+</app>.</seg></p>
+<p><seg n="20"><lb/>Item wirt des guͦtes icht verkoͧffet, das <lb/>von dem gotzhus erblechen ist, das sol <lb/>man fertigen an mines herren
+hand. <add place="right margin" hand="later hand"><abbr>NB</abbr></add> Waͤre <lb/>aber, das es <date dur="P1Y">jaͧr und tag</date>
+ungevertiget <lb/>stuͤnd, so sol das guͦt minem herren gantzlich <lb/>ledig sin, es waͤre dann, das es in krieg <lb/>stuͤnde.<note>Das
+Fertigungsrecht des Stifts wurde nach der Reformation von Seiten der Bewohner <placeName ref="loc008707">Flunterns</placeName> missachtet
+respektive in Frage gestellt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_061">SSRQ ZH NF II/11, Nr.
+61</ref></bibl>).</note></seg></p>
 <pb n="25v" facs="StAZH_G_I_102__fol__25_v_.tif"/>
-<p><seg n="21"><lb/>Item was der guͤter ist, die zuͦ dem gotzhus ge<lb break="no"/>hoͤrent, 
-<app><lem>das min herren das recht haͧnd</lem><rdg wit="StAZH G I 103, fol. 18r-24r">da hand min herren das recht</rdg></app>, das 
-<lb/>man die guͤter den geteilen des ersten veil 
-<lb/>bieten sol. Woͤlten aber die nit koͧffen, dar 
-<lb/>naͧch sol <app><lem>mans</lem><rdg wit="StAZH G I 103, fol. 18r-24r">man sy</rdg></app> minen herren feil bieten. Woͤltin
-<lb/>die oͧch nit koͧffen, <app><lem>dar naͧch mag</lem><rdg wit="StAZH G I 103, fol. 18r-24r">so mag dar nach</rdg></app> jederman 
-<lb/>verkoͧffen, als es im fuͤget.</seg></p>
-<p><seg n="22"><lb/>Item umb die selben guͤter sol nieman recht 
-<lb/>sprechen, denn der des hofs <measure type="area" quantity="7" unit="Schuh">siben schuͦch</measure>
-<lb/>wit und breit hindersich und fu̍rsich haͧt, 
-<lb/>und sunderlich umb die lechen sol niemand 
-<lb/>reden denn die husgenoͧssen.</seg></p>
-<p><seg n="23"><lb/>Item wenn deheiner der husgenoͧssen oder 
-<lb/>lenlu̍ten mit sinem herren wu̍nnen wil, das 
-<lb/>sol er sinem herren verku̍nden und danne
-<lb/>der herr bi sinem schuͦler oder knecht dem 
-<lb/>lenman in die trotten win und broͧt und 
-<lb/>das man denn essen sol, ungevaͧrlich, als dz
-<lb/>des herren ere ist und des lenmans nutz ist, 
-<lb/>schikken sol, und das da mit der herre 
-<lb/>des beltzes und des roks an die staͧglen ze
-<lb/>henken ledig sin und dem lenman, da von 
-<lb/>nit ze antwurden haben sol.<note>Diese Bestimmung ist aufgrund des Schiedspruchs vom <date when="1424-04-09">9. April 1424</date> in den Rechtstext aufgenommen worden. Er ist dort etwas ausführlicher formuliert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 3</bibl>). Zum betont reziproken Charakter des Austauschs zwischen Herren und Bauern in den neuen Bestimmungen für <placeName ref="loc008707">Fluntern</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 325</bibl>.</note></seg></p>
-<p><seg n="24"><lb/><choice><abbr>It</abbr><expan>Item</expan></choice> der leman sol dem herren sin teil des 
-<lb/>wines trotten und indrent der ringgmure
-<lb/>in sin herberg aͧn allen sin schaden antwurten. 
-<lb/>Und wenn er dem herren den hindrosten win 
-<lb/>heinbringt, als recht ist, denn so sol im
-<lb/>der selb herre <num value="2">zwey</num> husbroͧt in das vasse 
-<lb/>oder in den zuber geben, dar inn er im den 
-<lb/>win haͧt heingefuͤrt, an widerred.</seg></p>
-<p><seg n="25"><lb/><add place="left margin" hand="later hand"><abbr>N</abbr></add>Item wenn der husgnoͧssen einer ab stirbet, 
-<lb/>er sige man oder froͧwe, so ist das beste 
-<lb/>hoͧpt sinem herren gevallen, das er gelaͧssen
-<lb/>haͧt. Waͤre aber, das der husgenoͧss nicht
-<pb n="26r" facs="StAZH_G_I_102__fol__26_r_.tif"/>
-<lb/>hoͧpt hinder im gelaͧssen hette, so ist dem herren 
-<lb/>das beste gewand, als er ze kilchen gaͧt, ge<lb break="no"/>vallen, 
-aͧn gevaͤrde.</seg></p>
-<p><seg n="26"><lb/>Item wenne miner herren der chorherren einer 
-<lb/>abstirbet, das sol man den husgenoͧssen kunt 
-<lb/>tuͦn. Die selben su̍llent denn zuͦ des abge<lb break="no"/>storben 
-herren herberg komen und den herren 
-<lb/>zuͦ der kilchen und von der kilchen zuͦ dem 
-<lb/>grab tragen, als gewonlich ist, und darumb 
-<lb/>sol man inen allen geben <measure type="currency" quantity="36" unit="ß">sechs und drissig
-<lb/>schilling phennig</measure> von des abgestorben herren 
-<lb/>guͦt. Dar an su̍llent oͧch die selben husgenoͧssen 
-<lb/>gentzlich ein benuͤgen han.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 2</bibl>.</note></seg></p>
-<p><seg n="27"><lb/>Item wenn der herre des nit enbern wil, so 
-<lb/>sol der leman, er sige man oder froͧwe, mit 
-<lb/>husroͤki uff dem lechen sitzen und oͧch mit 
-<lb/>einem hoͧpte, dar umb, das der buw, so da 
-<lb/>von kunt, in das lechen geleit werde, aͧne
-<lb/>gevaͤrde. Und haͧt das lechen <app><lem>nu̍t</lem><rdg wit="StAZH G I 103, fol. 18r-24r">nit</rdg></app> ein hus, 
-<lb/>wenn denn der herre den leman ermant, so 
-<lb/>sol der leman <date dur="P1Y">indrent jaͧres frist</date> ein hus 
-<lb/>buwen uff das lechen. Tuͦt er das nit, so 
-<lb/>git er dem herren <measure type="currency" quantity="3" unit="lb">iij pfunt</measure> ze buͦss und sol 
-<lb/>dennocht das hus uff dz lechen buwen.</seg></p>
-<p><seg n="28"><lb/>Item beschaͤch es deheinest, das die reben, die 
-<lb/>zuͦ den pfruͦnden gehoͤrent, erfrurent
-<lb/>oder unwetter und ungewaͤchst kaͤme, da von 
-<lb/>die reben gebresten enpfiengen, woͤlte dann 
-<lb/>ein herre, dem die selben reben zuͦgehoͤrent, 
-<lb/>einem leman und hussgenoͧssen helffen, als 
-<lb/>ander erber lu̍te iren lenlu̍ten helffent, 
-<lb/>des su̍llent sich die husgenoͧssen laͧssen be<lb break="no"/>nuͤgen 
-und inen dann die hoͤltzer ungewuͤst
-<lb/>laͧssen. Woͤlte aber denn ein herre dem selben 
-<pb n="26v" facs="StAZH_G_I_102__fol__26_v_.tif"/>
-<lb/>sinem leman nit helffen, so mag der leman usser 
-<lb/>dem holtz, das zuͦ der pfruͦnd gehoͤret, da oͧch 
-<lb/>die reben hin gehoͤrent, holtz verkoͧffen umb 
-<lb/><measure type="currency" quantity="4" origin="ZH" unit="d">vier</measure> oder umb <measure type="currency" quantity="5" origin="ZH" unit="d">fu̍nf pfunt Zu̍richer pfenning</measure>
-<lb/>und da mit danne die reben widerbringen 
-<lb/>und bessren ungevaͧrlich. Doch so mugent die
-<lb/>egenanten husgenoͧssen das holtz, so zuͦ der 
-<lb/>pfruͦnd lechen gehoͤrt, zuͦ iren hu̍sren ze 
-<lb/>brennholtz, ze stagelholtz<!-- ahh: Holz zu Stangen oder Stützen, vgl. Idiotikon Bd. 2, Sp. 1261f --> und ze zu̍nen bruchen, 
-<lb/>als sy ungevaͧrlich noͧtdurftig sind, und 
-<lb/>su̍llent das holtz dann fu̍rbasser in alle 
-<lb/>weg ungewuͤst laͧssen.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 4</bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1110023">StAZH G I 33 a, S. 1249-1252</ref></bibl>.</note></seg></p>
-<p><seg n="29"><lb/>Item min herren hand dz recht, das si ze 
-<lb/>allen bu̍wen, kein usgelaͤssen, in ir guͤter senden 
-<lb/>mugent, die ze besechen, ob si in eren gehebt 
-<lb/>und der buw dar in geleit werde, als dann 
-<lb/>die husgenoͧssen von rechtes <app><lem>wegen</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> tuͦn su̍l<lb break="no"/>lent, 
-und da wider su̍llent sich oͧch die 
-<lb/>husgenoͧssen nit setzen. Und waͤre dann, 
-<lb/>das der husgenoͧssen deheiner keinen missbuw 
-<lb/>getaͧn hette, den selben missebuw soͤllent dann 
-<lb/>die husgenoͧssen schêtzen, wie man den 
-<lb/>ablegen soͤlle, und wes sich danne die hus<lb break="no"/>genoͧssen 
-<app><lem>dar umb</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> erkennent, also sol man 
-<lb/>dann die missbu̍w ablegen, als das von
-<lb/>alter her komen ist<note>Zur Einschätzung der gehäuften Verweise auf altes Herkommen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 326-327</bibl>.</note>, aͧn wider red und aͧn 
-<lb/>alle gevaͤrde.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 5</bibl>.</note></seg></p>
-<p><seg n="30"><lb/>Item die vaden sol man <date dur="R/P0.5Y">zwu̍rent in dem 
-<lb/>jaͧr</date> gebieten und <date dur="P8D">ze acht tagen</date><!-- ahh: Während 8 tagen oder nach 8 Tagen? Oder wieder in der Bedeutung Gerichtstag, Banntag? PS Grenze; Nutzung der Zelgen wohl während 8 Tagen--> sol man 
-<lb/>die schoͧwen. Und were mit der vade ver<lb break="no"/>leidet 
-wirt, der buͤsset minem herren <measure type="currency" quantity="3" unit="ß">dri schilling</measure>, 
-<lb/>und naͧch dem gebu̍tet man im fu̍rbass 
-<lb/>als dike, so es versessen wirt, so sind dem 
+<p><seg n="21"><lb/>Item was der guͤter ist, die zuͦ dem gotzhus ge<lb break="no"/>hoͤrent, <app>
+<lem>das min herren das recht haͧnd</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">da hand min herren das recht</rdg>
+</app>, das <lb/>man die guͤter den geteilen des ersten veil <lb/>bieten sol. Woͤlten aber die nit koͧffen, dar <lb/>naͧch sol <app>
+<lem>mans</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">man sy</rdg>
+</app> minen herren feil bieten. Woͤltin <lb/>die oͧch nit koͧffen, <app>
+<lem>dar naͧch mag</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">so mag dar nach</rdg>
+</app> jederman <lb/>verkoͧffen, als es im fuͤget.</seg></p>
+<p><seg n="22"><lb/>Item umb die selben guͤter sol nieman recht <lb/>sprechen, denn der des hofs <measure type="area" quantity="7"
+unit="Schuh">siben schuͦch</measure>
+<lb/>wit und breit hindersich und fu̍rsich haͧt, <lb/>und sunderlich umb die lechen sol niemand <lb/>reden denn die husgenoͧssen.</seg></p>
+<p><seg n="23"><lb/>Item wenn deheiner der husgenoͧssen oder <lb/>lenlu̍ten mit sinem herren wu̍nnen wil, das <lb/>sol er sinem herren
+verku̍nden und danne <lb/>der herr bi sinem schuͦler oder knecht dem <lb/>lenman in die trotten win und broͧt und <lb/>das man denn essen
+sol, ungevaͧrlich, als dz <lb/>des herren ere ist und des lenmans nutz ist, <lb/>schikken sol, und das da mit der herre <lb/>des beltzes und
+des roks an die staͧglen ze <lb/>henken ledig sin und dem lenman, da von <lb/>nit ze antwurden haben sol.<note>Diese Bestimmung ist aufgrund
+des Schiedspruchs vom <date when="1424-04-09">9. April 1424</date> in den Rechtstext aufgenommen worden. Er ist dort etwas ausführlicher
+formuliert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 3</bibl>). Zum betont reziproken
+Charakter des Austauschs zwischen Herren und Bauern in den neuen Bestimmungen für <placeName ref="loc008707">Fluntern</placeName> vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 325</bibl>.</note></seg></p>
+<p><seg n="24"><lb/><choice>
+<abbr>It</abbr>
+<expan>Item</expan>
+</choice> der leman sol dem herren sin teil des <lb/>wines trotten und indrent der ringgmure <lb/>in sin herberg aͧn allen sin schaden
+antwurten. <lb/>Und wenn er dem herren den hindrosten win <lb/>heinbringt, als recht ist, denn so sol im <lb/>der selb herre <num value="2"
+>zwey</num> husbroͧt in das vasse <lb/>oder in den zuber geben, dar inn er im den <lb/>win haͧt heingefuͤrt, an widerred.</seg></p>
+<p><seg n="25"><lb/><add place="left margin" hand="later hand"><abbr>N</abbr></add>Item wenn der husgnoͧssen einer ab stirbet, <lb/>er sige
+man oder froͧwe, so ist das beste <lb/>hoͧpt sinem herren gevallen, das er gelaͧssen <lb/>haͧt. Waͤre aber, das der husgenoͧss nicht <pb
+n="26r" facs="StAZH_G_I_102__fol__26_r_.tif"/>
+<lb/>hoͧpt hinder im gelaͧssen hette, so ist dem herren <lb/>das beste gewand, als er ze kilchen gaͧt, ge<lb break="no"/>vallen, aͧn
+gevaͤrde.</seg></p>
+<p><seg n="26"><lb/>Item wenne miner herren der chorherren einer <lb/>abstirbet, das sol man den husgenoͧssen kunt <lb/>tuͦn. Die selben
+su̍llent denn zuͦ des abge<lb break="no"/>storben herren herberg komen und den herren <lb/>zuͦ der kilchen und von der kilchen zuͦ dem
+<lb/>grab tragen, als gewonlich ist, und darumb <lb/>sol man inen allen geben <measure type="currency" quantity="36" unit="ß">sechs und
+drissig <lb/>schilling phennig</measure> von des abgestorben herren <lb/>guͦt. Dar an su̍llent oͧch die selben husgenoͧssen <lb/>gentzlich
+ein benuͤgen han.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art.
+2</bibl>.</note></seg></p>
+<p><seg n="27"><lb/>Item wenn der herre des nit enbern wil, so <lb/>sol der leman, er sige man oder froͧwe, mit <lb/>husroͤki uff dem lechen
+sitzen und oͧch mit <lb/>einem hoͧpte, dar umb, das der buw, so da <lb/>von kunt, in das lechen geleit werde, aͧne <lb/>gevaͤrde. Und haͧt
+das lechen <app>
+<lem>nu̍t</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">nit</rdg>
+</app> ein hus, <lb/>wenn denn der herre den leman ermant, so <lb/>sol der leman <date dur="P1Y">indrent jaͧres frist</date> ein hus
+<lb/>buwen uff das lechen. Tuͦt er das nit, so <lb/>git er dem herren <measure type="currency" quantity="3" unit="lb">iij pfunt</measure> ze
+buͦss und sol <lb/>dennocht das hus uff dz lechen buwen.</seg></p>
+<p><seg n="28"><lb/>Item beschaͤch es deheinest, das die reben, die <lb/>zuͦ den pfruͦnden gehoͤrent, erfrurent <lb/>oder unwetter und
+ungewaͤchst kaͤme, da von <lb/>die reben gebresten enpfiengen, woͤlte dann <lb/>ein herre, dem die selben reben zuͦgehoͤrent, <lb/>einem
+leman und hussgenoͧssen helffen, als <lb/>ander erber lu̍te iren lenlu̍ten helffent, <lb/>des su̍llent sich die husgenoͧssen laͧssen be<lb
+break="no"/>nuͤgen und inen dann die hoͤltzer ungewuͤst <lb/>laͧssen. Woͤlte aber denn ein herre dem selben <pb n="26v"
+facs="StAZH_G_I_102__fol__26_v_.tif"/>
+<lb/>sinem leman nit helffen, so mag der leman usser <lb/>dem holtz, das zuͦ der pfruͦnd gehoͤret, da oͧch <lb/>die reben hin gehoͤrent,
+holtz verkoͧffen umb <lb/><measure type="currency" quantity="4" origin="ZH" unit="d">vier</measure> oder umb <measure type="currency"
+quantity="5" origin="ZH" unit="d">fu̍nf pfunt Zu̍richer pfenning</measure>
+<lb/>und da mit danne die reben widerbringen <lb/>und bessren ungevaͧrlich. Doch so mugent die <lb/>egenanten husgenoͧssen das holtz, so zuͦ
+der <lb/>pfruͦnd lechen gehoͤrt, zuͦ iren hu̍sren ze <lb/>brennholtz, ze
+stagelholtz<!-- ahh: Holz zu Stangen oder Stützen, vgl. Idiotikon Bd. 2, Sp. 1261f --> und ze zu̍nen bruchen, <lb/>als sy ungevaͧrlich
+noͧtdurftig sind, und <lb/>su̍llent das holtz dann fu̍rbasser in alle <lb/>weg ungewuͤst laͧssen.<note>Vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 4</bibl>; <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1110023">StAZH G I 33 a, S. 1249-1252</ref></bibl>.</note></seg></p>
+<p><seg n="29"><lb/>Item min herren hand dz recht, das si ze <lb/>allen bu̍wen, kein usgelaͤssen, in ir guͤter senden <lb/>mugent, die ze
+besechen, ob si in eren gehebt <lb/>und der buw dar in geleit werde, als dann <lb/>die husgenoͧssen von rechtes <app>
+<lem>wegen</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> tuͦn su̍l<lb break="no"/>lent, und da wider su̍llent sich oͧch die <lb/>husgenoͧssen nit setzen. Und waͤre dann, <lb/>das der
+husgenoͧssen deheiner keinen missbuw <lb/>getaͧn hette, den selben missebuw soͤllent dann <lb/>die husgenoͧssen schêtzen, wie man den
+<lb/>ablegen soͤlle, und wes sich danne die hus<lb break="no"/>genoͧssen <app>
+<lem>dar umb</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> erkennent, also sol man <lb/>dann die missbu̍w ablegen, als das von <lb/>alter her komen ist<note>Zur Einschätzung der gehäuften
+Verweise auf altes Herkommen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 326-327</bibl>.</note>, aͧn
+wider red und aͧn <lb/>alle gevaͤrde.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art.
+5</bibl>.</note></seg></p>
+<p><seg n="30"><lb/>Item die vaden sol man <date dur="R/P0.5Y">zwu̍rent in dem <lb/>jaͧr</date> gebieten und <date dur="P8D">ze acht
+tagen</date><!-- ahh: Während 8 tagen oder nach 8 Tagen? Oder wieder in der Bedeutung Gerichtstag, Banntag? PS Grenze; Nutzung der Zelgen wohl während 8 Tagen-->
+sol man <lb/>die schoͧwen. Und were mit der vade ver<lb break="no"/>leidet wirt, der buͤsset minem herren <measure type="currency"
+quantity="3" unit="ß">dri schilling</measure>, <lb/>und naͧch dem gebu̍tet man im fu̍rbass <lb/>als dike, so es versessen wirt, so sind dem
 <lb/>herren <measure type="currency" quantity="3" unit="ß">dry schilling</measure> verfallen.</seg></p>
 <pb n="27r" facs="StAZH_G_I_102__fol__27_r_.tif"/>
 <p><seg n="31">
-<lb/>Item waͤre, das die husgenoͧssen deheinen einung 
-<lb/>u̍ber sich selber satztin<!-- ahh: Bussen verhängen --> unbetwungenlich, der 
-<lb/>selb einung sol mit namen <num value="0.5">halber</num> mines herren 
-<lb/>sin und der ander <num value="0.5">halbteil</num> der gebursami.</seg></p>
-<p><seg n="32"><lb/>Item der einung, so in dem holtze von dem 
-<lb/>banwarten verleidet wirt, der gilt <measure type="currency" quantity="4" unit="ß">vier </measure>. 
-<lb/>Des wirdet minen herren <measure type="currency" quantity="1" unit="ß">ein schilling</measure>, dem ban<lb break="no"/>wart 
-<measure type="currency" quantity="1" unit="ß">ein schilling</measure> und den husgenoͧssen <measure type="currency" quantity="2" unit="ß">ij </measure>.</seg></p>
-<p><seg n="33"><lb/>Item der banwart haͧt das recht, was von 
-<lb/>im bi dem eid verleidet wirt, das da wider 
-<lb/>nieman reden sol. Es sol oͧch miner herren
-<lb/>kelner dem banwart <date dur="R/P1Y">jaͤrlich</date> geben <measure type="volume" quantity="3" unit="Mütt" commodity="oat">dry mu̍t 
-<lb/>habern</measure> und <measure type="volume" quantity="2" unit="Mütt" commodity="spelt">zwen mu̍t kernen</measure> und an dem 
-<lb/>heiligen aͧbent ze <date type="deadline_holiday" when="--12-24">wienacht</date>
+<lb/>Item waͤre, das die husgenoͧssen deheinen einung <lb/>u̍ber sich selber satztin<!-- ahh: Bussen verhängen --> unbetwungenlich, der
+<lb/>selb einung sol mit namen <num value="0.5">halber</num> mines herren <lb/>sin und der ander <num value="0.5">halbteil</num> der
+gebursami.</seg></p>
+<p><seg n="32"><lb/>Item der einung, so in dem holtze von dem <lb/>banwarten verleidet wirt, der gilt <measure type="currency" quantity="4"
+unit="ß">vier </measure>. <lb/>Des wirdet minen herren <measure type="currency" quantity="1" unit="ß">ein schilling</measure>, dem ban<lb
+break="no"/>wart <measure type="currency" quantity="1" unit="ß">ein schilling</measure> und den husgenoͧssen <measure type="currency"
+quantity="2" unit="ß">ij </measure>.</seg></p>
+<p><seg n="33"><lb/>Item der banwart haͧt das recht, was von <lb/>im bi dem eid verleidet wirt, das da wider <lb/>nieman reden sol. Es sol
+oͧch miner herren <lb/>kelner dem banwart <date dur="R/P1Y">jaͤrlich</date> geben <measure type="volume" quantity="3" unit="Mütt"
+commodity="oat">dry mu̍t <lb/>habern</measure> und <measure type="volume" quantity="2" unit="Mütt" commodity="spelt">zwen mu̍t
+kernen</measure> und an dem <lb/>heiligen aͧbent ze <date type="deadline_holiday" when="--12-24">wienacht</date>
 <measureGrp><measure type="currency" quantity="3" unit="ß">iij </measure>
 <measure type="currency" quantity="4" unit="d">iiij ₰</measure></measureGrp>
-<lb/>fu̍r schwinin fleisch und <measure type="volume" unit="Becher" commodity="wine" quantity="3.5">vierthalben stoͧff
-<lb/>roͧtes wines</measure> uff den vorgenanten aͧbende ze 
-<lb/><date type="deadline_holiday" when="--12-24">wienacht</date>.</seg></p>
+<lb/>fu̍r schwinin fleisch und <measure type="volume" unit="Becher" commodity="wine" quantity="3.5">vierthalben stoͧff <lb/>roͧtes
+wines</measure> uff den vorgenanten aͧbende ze <lb/><date type="deadline_holiday" when="--12-24">wienacht</date>.</seg></p>
 <p><seg n="34"><lb/>Item dar zuͦ git miner herren kamrer <date dur="R/P1Y">jaͤrlich</date>
 <lb/>einem vorster <measureGrp><measure type="currency" quantity="1" unit="lb" origin="ZH">j </measure>
 <measure type="currency" quantity="2" unit="ß" origin="ZH">ij  Zu̍richer phenning</measure></measureGrp>.</seg></p>
-<p><seg n="35"><lb/>Item fu̍r das kru̍sche und das griese, so von 
-<lb/>miner herren broͧt etwen vor ziten gevallen
-<lb/>ist, sol miner herren kamrer den husgenoͧssen 
-<lb/>geben <measureGrp><measure type="currency" quantity="11" unit="lb">xj <abbr>lib</abbr></measure>
-<measure type="currency" quantity="11" unit="ß">xj  phenning</measure></measureGrp>. Das selb gelt 
-<lb/>sol teilen miner herren kamrer under die
-<lb/>husgenoͧssen, als das her ist komen und ge<lb break="no"/>wonlich 
-ist gesin von altar her.</seg></p>
-<p><seg n="36"><lb/>Item miner herren kelner sol ouch <date dur="R/P1Y">alle jar</date> den 
-<lb/>husgenoͧssen ze <date type="deadline_holiday" when="--12-25">wienacht</date>
+<p><seg n="35"><lb/>Item fu̍r das kru̍sche und das griese, so von <lb/>miner herren broͧt etwen vor ziten gevallen <lb/>ist, sol miner
+herren kamrer den husgenoͧssen <lb/>geben <measureGrp><measure type="currency" quantity="11" unit="lb">xj <abbr>lib</abbr></measure>
+<measure type="currency" quantity="11" unit="ß">xj  phenning</measure></measureGrp>. Das selb gelt <lb/>sol teilen miner herren kamrer
+under die <lb/>husgenoͧssen, als das her ist komen und ge<lb break="no"/>wonlich ist gesin von altar her.</seg></p>
+<p><seg n="36"><lb/>Item miner herren kelner sol ouch <date dur="R/P1Y">alle jar</date> den <lb/>husgenoͧssen ze <date
+type="deadline_holiday" when="--12-25">wienacht</date>
 <measure type="volume" quantity="6" unit="Viertel" commodity="spelt">sechs viertel kernen</measure>
-<lb/><app><lem>und</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> ze <date type="deadline_floating holiday">ostren</date>
-<measure type="volume" quantity="6" unit="Viertel" commodity="spelt">vj fiertel kernen</measure> und ze 
-<lb/><date type="deadline_holiday">u̍nser herren tag</date>
-<measure type="volume" quantity="6" unit="Viertel" commodity="spelt">sechs viertel kernen</measure> an 
-<lb/>miner herren pfister weren. Den selben kernen 
-<lb/>sol der selb pfister bachen und das broͧt 
-<lb/>under die husgenoͧssen teilen, als das ge<lb break="no"/>wonlich
-ist. Und ze gelicher wis, so sol 
-<lb/><date dur="R/P1Y">jaͤrlich</date> miner herren kamrer uff das <date type="deadline_floating holiday">hoͧchzit
+<lb/><app>
+<lem>und</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> ze <date type="deadline_floating holiday">ostren</date>
+<measure type="volume" quantity="6" unit="Viertel" commodity="spelt">vj fiertel kernen</measure> und ze <lb/><date type="deadline_holiday"
+>u̍nser herren tag</date>
+<measure type="volume" quantity="6" unit="Viertel" commodity="spelt">sechs viertel kernen</measure> an <lb/>miner herren pfister weren. Den
+selben kernen <lb/>sol der selb pfister bachen und das broͧt <lb/>under die husgenoͧssen teilen, als das ge<lb break="no"/>wonlich ist. Und
+ze gelicher wis, so sol <lb/><date dur="R/P1Y">jaͤrlich</date> miner herren kamrer uff das <date type="deadline_floating holiday">hoͧchzit
 <pb n="27v" facs="StAZH_G_I_102__fol__27_v_.tif"/>
-<lb/>ze den pfingsten</date> den husgenoͧssen <measure type="volume" quantity="5" unit="Viertel" commodity="spelt">fu̍nf viertel 
-<lb/>kernen</measure> geben. Das sol oͧch miner herren pfister 
-<lb/>bachen und teilen, als dz gemeinlich ist gewesen.</seg></p>
-<p><seg n="37"><lb/>Item miner herren keller sol oͧch an dem <date type="deadline_holiday" when="--12-24">wienacht 
-<lb/>aͧbent</date> den husgenoͧssen den roͧten win teilen, 
-<lb/>als das von alter har ist komen. Das ist einem 
-<lb/>husgenoͧssen, der gantze pfruͦnd haͧt, sol er 
-<lb/>geben <measure type="volume" quantity="3.5" commodity="wine" unit="Kopf">iiiɉ kopff wins</measure> und einem, der <num value="0.5">halbe</num>
-<lb/>pfruͦnd haͧt, sol er geben <measureGrp><measure type="volume" quantity="1" unit="Kopf" commodity="wine">j kopff</measure> und <measure type="volume" quantity="3" unit="Quart" commodity="wine">dru̍ quaͤrtli wins</measure></measureGrp>.</seg></p>
-<p><seg n="38"><lb/>Item min herren und die husgenoͧssen <app><lem>und</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> oͧch burger 
-<lb/>und usschidling haͧnd hoͤltzer, die einhalb an 
-<lb/><placeName ref="loc009859">Swaͧmedinger</placeName> holtz und feld stoͧssent, ander<lb break="no"/>halb 
-an der <placeName ref="loc012693">Mu̍lihalder</placeName> holtz und veld, das 
-<lb/>so verre gebannen, in gevangen und geschir<lb break="no"/>met 
-ist und mit geswornen eiden bewiset und 
-<lb/>behept ist, was von veche dar inn begriffen 
-<lb/>wirt, das da jeklich hoͧpt den husgenoͧssen 
-<lb/><measure type="currency" quantity="4" unit="ß">vier schilling</measure> sol geben, dem herren <measure type="currency" quantity="1" unit="ß">j </measure>, dem 
-<lb/>banwart <measure type="currency" quantity="1" unit="ß">j </measure> und den husgenoͧssen <measure type="currency" quantity="2" unit="ß">ij </measure>.</seg></p>
-<p><seg n="39"><lb/>Item <app><lem>ein</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> keller haͧt das recht, das man im 
-<lb/>under <time period="byDay">tag</time> und <time period="byNight">nacht</time> von je dem hoͧpt <measure type="currency" quantity="6" unit="d">sechs 
-<lb/>pfenning</measure> geben sol.</seg></p>
-<p><seg n="40"><lb/>Item es su̍llent die husgenoͧssen oder ir botten 
-<lb/>an <date when="--09-10">sant <persName ref="per000143">Reglen</persName> aͧbende</date> jeglicher mit einer 
-<lb/>burde gras in den umbegang komen und
-<lb/>den umbegang fu̍rwen und wu̍schen<!-- ahh: Den Kreuzgang fegen und wischen, vgl. Idiotikon Bd. 2, Sp. 342 (2d). Bei Teuscher (Kompilation, S. 325f) steht, das Gras sei für die Betten der Stiftsherren und dies geschehe zweimal pro Jahr - woher hat er das?-->, als 
-<lb/>untz her gewonlich gewesen ist. Dar umb sol 
-<lb/>man inen geben <measure type="currency" quantity="4" unit="ß">iiij  ₰</measure>.</seg></p>
-<p><seg n="41"><lb/>Es ist oͧch ze wu̍ssen, das umb fraͤfne und 
-<lb/>umb buͦsse, so verschult werdent, da ist die 
-<lb/>groͤste buͦsse minem herren <measure type="currency" quantity="3" unit="lb">iij </measure> und dem kleger 
-<lb/><measure type="currency" quantity="9" unit="ß">viiij </measure>, und dar zuͦ dem kleger ablegen 
-<lb/>schaden und laster, als denne die, so in dem 
-<lb/>selben hoff gesessen sint, us scheident.</seg></p>
-<pb n="28r" facs="StAZH_G_I_102__fol__28_r_.tif"/><p><seg n="42">
-<lb/>Item der <time period="byNight">nacht</time> schaͧch und heimsuͦche ist die 
-<lb/>hoͤchste buͦss minem herren <measure type="currency" quantity="9" unit="lb">nu̍n pfunt</measure> und dem 
-<lb/>kleger <measure type="currency" quantity="3" unit="lb">iij </measure>, und dar zuͦ ablegen schaden und 
-<lb/>laster, als vor geschriben staͧt.</seg></p>
-<p><seg n="43"><lb/>Item der holtz einung ist also gesetzet: Wer in 
-<lb/>den einung gehoͤret oder da holtz haͧt, er oder 
-<lb/>sin hindersaͤss, ist, das er in gandes ein wid 
-<lb/>oder ein achselstab hoͧwet, der buͤsset <measure type="currency" quantity="4" unit="ß">iiij </measure>. 
-<lb/>Was oͧch er sust in froͤmdem holtz hoͧwet, da 
-<lb/>git er von je dem stumpen <measure type="currency" quantity="4" unit="ß">iiij </measure>. Ist aber 
-<lb/>er an dem usgange, also das im ein wid, ein 
-<lb/>achselstab oder ein richtholtz brichet, das 
-<lb/>mag er wol hoͧwen, also das er dar umb 
-<lb/>nicht buͤsset. Wen oͧuch min herr darumb ze pfenden 
-<lb/>haͧt, den sol er pfenden. Ist er aber, das in min 
-<lb/>herr nicht ze phenden haͧt, er sig burger 
-<lb/>oder usschidling, dem sol man sin holtz uss 
-<lb/>dem einung laͧssen und uss dem banne. Waͤr 
-<lb/>aber, das er wider in den einung und in den 
-<lb/>banne woͤlte komen, das sol er an den hus<lb break="no"/>genoͧssen gewinnen, als er mag. Wer oͧch 
-<lb/>der ist, der dem banwart sin loͧn nit richt 
-<lb/>ze den ziten, als der loͧn gevallet, oder mit 
-<lb/>zu̍nen und mit friden nu̍t liden woͤlte, das 
-<lb/>den hoͤltzern nu̍tz und guͦt waͤre, der belibet 
-<lb/>usser banne und usser dem einunge, als vor 
-<lb/>geschriben staͧt.</seg>
+<lb/>ze den pfingsten</date> den husgenoͧssen <measure type="volume" quantity="5" unit="Viertel" commodity="spelt">fu̍nf viertel
+<lb/>kernen</measure> geben. Das sol oͧch miner herren pfister <lb/>bachen und teilen, als dz gemeinlich ist gewesen.</seg></p>
+<p><seg n="37"><lb/>Item miner herren keller sol oͧch an dem <date type="deadline_holiday" when="--12-24">wienacht <lb/>aͧbent</date> den
+husgenoͧssen den roͧten win teilen, <lb/>als das von alter har ist komen. Das ist einem <lb/>husgenoͧssen, der gantze pfruͦnd haͧt, sol er
+<lb/>geben <measure type="volume" quantity="3.5" commodity="wine" unit="Kopf">iiiɉ kopff wins</measure> und einem, der <num value="0.5"
+>halbe</num>
+<lb/>pfruͦnd haͧt, sol er geben <measureGrp><measure type="volume" quantity="1" unit="Kopf" commodity="wine">j kopff</measure> und <measure
+type="volume" quantity="3" unit="Quart" commodity="wine">dru̍ quaͤrtli wins</measure></measureGrp>.</seg></p>
+<p><seg n="38"><lb/>Item min herren und die husgenoͧssen <app>
+<lem>und</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> oͧch burger <lb/>und usschidling haͧnd hoͤltzer, die einhalb an <lb/><placeName ref="loc009859">Swaͧmedinger</placeName> holtz und
+feld stoͧssent, ander<lb break="no"/>halb an der <placeName ref="loc012693">Mu̍lihalder</placeName> holtz und veld, das <lb/>so verre
+gebannen, in gevangen und geschir<lb break="no"/>met ist und mit geswornen eiden bewiset und <lb/>behept ist, was von veche dar inn
+begriffen <lb/>wirt, das da jeklich hoͧpt den husgenoͧssen <lb/><measure type="currency" quantity="4" unit="ß">vier schilling</measure> sol
+geben, dem herren <measure type="currency" quantity="1" unit="ß">j </measure>, dem <lb/>banwart <measure type="currency" quantity="1"
+unit="ß">j </measure> und den husgenoͧssen <measure type="currency" quantity="2" unit="ß">ij </measure>.</seg></p>
+<p><seg n="39"><lb/>Item <app>
+<lem>ein</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> keller haͧt das recht, das man im <lb/>under <time period="byDay">tag</time> und <time period="byNight">nacht</time> von je dem hoͧpt
+<measure type="currency" quantity="6" unit="d">sechs <lb/>pfenning</measure> geben sol.</seg></p>
+<p><seg n="40"><lb/>Item es su̍llent die husgenoͧssen oder ir botten <lb/>an <date when="--09-10">sant <persName ref="per000143"
+>Reglen</persName> aͧbende</date> jeglicher mit einer <lb/>burde gras in den umbegang komen und <lb/>den umbegang fu̍rwen und
+wu̍schen<!-- ahh: Den Kreuzgang fegen und wischen, vgl. Idiotikon Bd. 2, Sp. 342 (2d). Bei Teuscher (Kompilation, S. 325f) steht, das Gras sei für die Betten der Stiftsherren und dies geschehe zweimal pro Jahr - woher hat er das?-->,
+als <lb/>untz her gewonlich gewesen ist. Dar umb sol <lb/>man inen geben <measure type="currency" quantity="4" unit="ß">iiij 
+₰</measure>.</seg></p>
+<p><seg n="41"><lb/>Es ist oͧch ze wu̍ssen, das umb fraͤfne und <lb/>umb buͦsse, so verschult werdent, da ist die <lb/>groͤste buͦsse minem
+herren <measure type="currency" quantity="3" unit="lb">iij </measure> und dem kleger <lb/><measure type="currency" quantity="9" unit="ß"
+>viiij </measure>, und dar zuͦ dem kleger ablegen <lb/>schaden und laster, als denne die, so in dem <lb/>selben hoff gesessen sint, us
+scheident.</seg></p>
+<pb n="28r" facs="StAZH_G_I_102__fol__28_r_.tif"/>
+<p><seg n="42">
+<lb/>Item der <time period="byNight">nacht</time> schaͧch und heimsuͦche ist die <lb/>hoͤchste buͦss minem herren <measure type="currency"
+quantity="9" unit="lb">nu̍n pfunt</measure> und dem <lb/>kleger <measure type="currency" quantity="3" unit="lb">iij </measure>, und dar zuͦ
+ablegen schaden und <lb/>laster, als vor geschriben staͧt.</seg></p>
+<p><seg n="43"><lb/>Item der holtz einung ist also gesetzet: Wer in <lb/>den einung gehoͤret oder da holtz haͧt, er oder <lb/>sin
+hindersaͤss, ist, das er in gandes ein wid <lb/>oder ein achselstab hoͧwet, der buͤsset <measure type="currency" quantity="4" unit="ß">iiij
+</measure>. <lb/>Was oͧch er sust in froͤmdem holtz hoͧwet, da <lb/>git er von je dem stumpen <measure type="currency" quantity="4"
+unit="ß">iiij </measure>. Ist aber <lb/>er an dem usgange, also das im ein wid, ein <lb/>achselstab oder ein richtholtz brichet, das
+<lb/>mag er wol hoͧwen, also das er dar umb <lb/>nicht buͤsset. Wen oͧuch min herr darumb ze pfenden <lb/>haͧt, den sol er pfenden. Ist er
+aber, das in min <lb/>herr nicht ze phenden haͧt, er sig burger <lb/>oder usschidling, dem sol man sin holtz uss <lb/>dem einung laͧssen und
+uss dem banne. Waͤr <lb/>aber, das er wider in den einung und in den <lb/>banne woͤlte komen, das sol er an den hus<lb break="no"/>genoͧssen
+gewinnen, als er mag. Wer oͧch <lb/>der ist, der dem banwart sin loͧn nit richt <lb/>ze den ziten, als der loͧn gevallet, oder mit
+<lb/>zu̍nen und mit friden nu̍t liden woͤlte, das <lb/>den hoͤltzern nu̍tz und guͦt waͤre, der belibet <lb/>usser banne und usser dem
+einunge, als vor <lb/>geschriben staͧt.</seg>
 </p>
-<p><seg n="44"><note>Beim anschliessenden Abschnitt handelt es sich um einen nachträglich aufgenommenen Ratsentscheid betreffend die Allmend. Er ist aufgrund der Amtszeit von Bürgermeister <persName ref="per013787">Felix Manesse</persName> in die Zeit zwischen <date notBefore="1427" notAfter="1436">1427 und 1436</date> anzusiedeln.</note>
-<lb/>Sunderlich sol man wu̍ssen, als die hus<lb break="no"/>genoͧssen 
-und die usschidlinge, so weid ge<lb break="no"/>noͧssami 
-under den hirten ze <placeName ref="loc008707">Fluͦntren</placeName> ze 
-<lb/>samen hant, stoͤsse und irrung mit enander 
-<lb/>gehebt haͧnd von der alment und vor der 
-<lb/>weide wegen, das dar zuͦ die erwirdigen 
-<lb/>herren, der <orgName ref="org004352">probst und die chorherren ze der 
-<lb/>probsty <placeName ref="loc000065">Zu̍rich</placeName></orgName>, ir <app><lem>erbern</lem><rdg wit="StAZH G I 103, fol. 18r-24r">erbere</rdg></app> bottschaft ge<lb break="no"/>schiket haͧnd von irem cappittel und 
-<pb n="28v" facs="StAZH_G_I_102__fol__28_v_.tif"/>
-<lb/>die fu̍rsichtigen wisen, der <orgName ref="org002406">burgermeister und der 
-<lb/>raͧt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, ouch ir erbern bottschaft 
-<lb/>von irem raͧt, namlich min herren, den <choice><sic>meisen</sic><corr>weisen</corr></choice><!-- mng: Es ist unklar, was hier gemeint ist. Im Schiedsspruch vom 9. April 1424 (SSRQ ZH NF II/11, Nr. 23) waren der Altbürgermeister Heinrich Meiss und Felix Manesse zwei der sechs Schiedsleute, der erstgenannte war allerdings Bürgermeister Jakob Glentner und diese Bestimmung ist auch nicht enthalten. Gab es noch ein zweites Urteil ohne Glentner? Nichts dazu gefunden, und die Bezeichnung 'der Meiss' ohne Vorname wäre auch etwas seltsam. Die spätere Abschrift dieses Artikels in StAZH G I 6, Nr. 82, S. 33-35, (von Stiftsverwalter Ulrich, im Amt 1623-1638) korrigiert diese Passage zu 'min herren, den wysen burgermeister' PS: Ja, hier handelt es sich eindeutig um einen Verschrieb: es müsste ein w anstelle des m stehen --> bur<lb break="no"/>germeister <persName ref="per013787">Felix Manaͧssen</persName>, und ander, dar
-<lb/>zuͦ geben und geschikt haͧnd, die vorgenanten 
-<lb/>stoͤsse ze beschoͧwen und ze verhoͤrende und dz 
-<lb/>si danne beid teil herumb mit enander slecht 
-<lb/>machen und berichten soͤltin. Das si ouch 
-<lb/>naͧch kuntschaft, naͧch marchsteinen, nach beder 
-<lb/>teilen red und widerred gar fru̍ntlich getaͧn 
-<lb/>und si mit enandern geeinbert<!-- ahh: eigentlich auseinander. PS: ok --> haͧnd in aller 
-<lb/>der wis, als hie naͧch geschriben staͧt:</seg></p>
-<p><seg n="44.1"><lb/>Des ersten, das die alment beliben sol inen 
-<lb/>allen in rechter gemeinschaft, wie sie von alter 
-<lb/>har komen ist, und als die marchstein und 
-<lb/>grabenmaͧl wisent, und dz si ouch usser der 
-<lb/>alment holtz, stok und studen dannen rumen 
-<lb/>und ru̍ten soͤltin und die weid su̍bren untz 
-<lb/>an die marchstein umb und umb untz an 
-<lb/>das <placeName ref="loc012700">Nider Mos</placeName>, das sind wisen untz an 
-<lb/>des <placeName ref="loc012618">Hertzogen Bach</placeName>.</seg>
-<seg n="44.2">Und was ungemarkter 
-<lb/>hoͤltzer sind und doch in ir weid gehoͤrent,  
-<lb/>in den selben hoͤltzern su̍llent die weidgenoͧssen 
-<lb/>hoͧwen zu̍nholtz allerley, aͧn allein buͦchen, 
-<lb/>eichen, kriesboͧm und aspen, das soͤllent si nit 
-<lb/>hoͧwen. Wer oͧch in den vorgenanten hoͤltzern 
-<lb/>einen hoͧwe machet, den hoͧw mag er in zu̍nen 
-<lb/><date dur="P5Y">fu̍nf jaͧr</date> und nit lenger mit einem guͦten zun, 
-<lb/>das kein vich da durch komen muge. Waͤr oͧch, das 
-<lb/>deheiner, des der hoͧw je dann ist, sin vich in den 
-<lb/>hoͧw taͤti, so sol der zun dannen gebrochen 
-<lb/>werden und sol inen allen offen sin.</seg>
-<seg n="44.3">Und was 
-<lb/>stroffel weide ist, die sol oͧch inen allen glich 
-<lb/>offen sin, als der rodel wiset und seit, aͧn 
-<lb/>all wider rede.</seg>
+<p><seg n="44"><note>Beim anschliessenden Abschnitt handelt es sich um einen nachträglich aufgenommenen Ratsentscheid betreffend die
+Allmend. Er ist aufgrund der Amtszeit von Bürgermeister <persName ref="per013787">Felix Manesse</persName> in die Zeit zwischen <date
+notBefore="1427" notAfter="1436">1427 und 1436</date> anzusiedeln.</note>
+<lb/>Sunderlich sol man wu̍ssen, als die hus<lb break="no"/>genoͧssen und die usschidlinge, so weid ge<lb break="no"/>noͧssami under den
+hirten ze <placeName ref="loc008707">Fluͦntren</placeName> ze <lb/>samen hant, stoͤsse und irrung mit enander <lb/>gehebt haͧnd von der
+alment und vor der <lb/>weide wegen, das dar zuͦ die erwirdigen <lb/>herren, der <orgName ref="org004352">probst und die chorherren ze der
+<lb/>probsty <placeName ref="loc000065">Zu̍rich</placeName></orgName>, ir <app>
+<lem>erbern</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">erbere</rdg>
+</app> bottschaft ge<lb break="no"/>schiket haͧnd von irem cappittel und <pb n="28v" facs="StAZH_G_I_102__fol__28_v_.tif"/>
+<lb/>die fu̍rsichtigen wisen, der <orgName ref="org002406">burgermeister und der <lb/>raͧt der statt <placeName ref="loc000065"
+>Zu̍rich</placeName></orgName>, ouch ir erbern bottschaft <lb/>von irem raͧt, namlich min herren, den <choice>
+<sic>meisen</sic>
+<corr>weisen</corr>
+</choice><!-- mng: Es ist unklar, was hier gemeint ist. Im Schiedsspruch vom 9. April 1424 (SSRQ ZH NF II/11, Nr. 23) waren der Altbürgermeister Heinrich Meiss und Felix Manesse zwei der sechs Schiedsleute, der erstgenannte war allerdings Bürgermeister Jakob Glentner und diese Bestimmung ist auch nicht enthalten. Gab es noch ein zweites Urteil ohne Glentner? Nichts dazu gefunden, und die Bezeichnung 'der Meiss' ohne Vorname wäre auch etwas seltsam. Die spätere Abschrift dieses Artikels in StAZH G I 6, Nr. 82, S. 33-35, (von Stiftsverwalter Ulrich, im Amt 1623-1638) korrigiert diese Passage zu 'min herren, den wysen burgermeister' PS: Ja, hier handelt es sich eindeutig um einen Verschrieb: es müsste ein w anstelle des m stehen -->
+bur<lb break="no"/>germeister <persName ref="per013787">Felix Manaͧssen</persName>, und ander, dar <lb/>zuͦ geben und geschikt haͧnd, die
+vorgenanten <lb/>stoͤsse ze beschoͧwen und ze verhoͤrende und dz <lb/>si danne beid teil herumb mit enander slecht <lb/>machen und berichten
+soͤltin. Das si ouch <lb/>naͧch kuntschaft, naͧch marchsteinen, nach beder <lb/>teilen red und widerred gar fru̍ntlich getaͧn <lb/>und si
+mit enandern geeinbert<!-- ahh: eigentlich auseinander. PS: ok --> haͧnd in aller <lb/>der wis, als hie naͧch geschriben staͧt:</seg></p>
+<p><seg n="44.1"><lb/>Des ersten, das die alment beliben sol inen <lb/>allen in rechter gemeinschaft, wie sie von alter <lb/>har komen ist,
+und als die marchstein und <lb/>grabenmaͧl wisent, und dz si ouch usser der <lb/>alment holtz, stok und studen dannen rumen <lb/>und ru̍ten
+soͤltin und die weid su̍bren untz <lb/>an die marchstein umb und umb untz an <lb/>das <placeName ref="loc012700">Nider Mos</placeName>, das
+sind wisen untz an <lb/>des <placeName ref="loc012618">Hertzogen Bach</placeName>.</seg>
+<seg n="44.2">Und was ungemarkter <lb/>hoͤltzer sind und doch in ir weid gehoͤrent, <lb/>in den selben hoͤltzern su̍llent die weidgenoͧssen
+<lb/>hoͧwen zu̍nholtz allerley, aͧn allein buͦchen, <lb/>eichen, kriesboͧm und aspen, das soͤllent si nit <lb/>hoͧwen. Wer oͧch in den
+vorgenanten hoͤltzern <lb/>einen hoͧwe machet, den hoͧw mag er in zu̍nen <lb/><date dur="P5Y">fu̍nf jaͧr</date> und nit lenger mit einem
+guͦten zun, <lb/>das kein vich da durch komen muge. Waͤr oͧch, das <lb/>deheiner, des der hoͧw je dann ist, sin vich in den <lb/>hoͧw taͤti,
+so sol der zun dannen gebrochen <lb/>werden und sol inen allen offen sin.</seg>
+<seg n="44.3">Und was <lb/>stroffel weide ist, die sol oͧch inen allen glich <lb/>offen sin, als der rodel wiset und seit, aͧn <lb/>all
+wider rede.</seg>
 </p>
-<pb n="29r" facs="StAZH_G_I_102__fol__29_r_.tif"/><p><seg n="45">
-<lb/>Item wer <subst><del>kein</del><add place="above">dehein</add></subst> guͦt <date dur="P9Y">nu̍n loͧbrise</date><!-- ahh: Laubris = Zeit des Laubfalls, Herbst, häufig als Terminangabe mit den Zahlen 3, 9 (wie vorliegend), 10, vgl. https://digital.idiotikon.ch/idtkn/id6.htm#!page/61359/mode/2up --> und me behebt 
-<lb/>mit guͦtem gericht unansprͣechig, das denne 
-<lb/>des hofs recht also staͧt, das er dasselb guͦt da 
-<lb/>mit behabe, der kleger w<subst><del>e</del><add place="inline">aͤ</add></subst>re danne usswendig 
-<lb/>dem bystuͦm gewesen.</seg></p>
-<p><seg n="46"><lb/>Item miner herren recht staͧt also: Wer den keln<lb break="no"/>hoff oder der pfruͦndlechen eines haben wil, 
-<lb/>das der des gotzhus genoͧss wesen sol und 
-<lb/>der gotzhu̍sern, so dar zuͦ gehoͤrent, das ist 
-<lb/>der <orgName ref="org004908">apty ze <placeName ref="loc000065">Zu̍rich</placeName></orgName>, in der <placeName ref="loc000087">Richenoͧw</placeName>, ze 
-<lb/><placeName ref="loc000083">Sant Gallen</placeName> und ze den <placeName ref="loc000085">Einsidellen</placeName>.</seg></p>
-<p><seg n="47"><lb/>Item wer der ist, der hinder dem
-<lb/>gotzhus sitzet, was dem wines wachset, der 
-<lb/>mag in wol schenken, also das er nieman 
-<lb/>dar umb fu̍rchtet. Was <app><lem>aber er</lem><rdg wit="StAZH G I 103, fol. 18r-24r">er aber</rdg></app> wines koͧffet, 
-<lb/>den sol er aͧn urlob nicht schenken und sol 
-<lb/>ouch der husgenoͧssen deheiner kein ungelt 
-<lb/>geben.</seg></p>
-<p><seg n="48"><lb/>Item wer du̍ lechen koͧffet, dem sol si min herr,  
-<lb/>der probst, lichen, doch dem herren, des dz lechen 
-<lb/>ist, unschaͤdlich an sinem erschatz, das ist 
-<lb/><measure type="currency" quantity="3" unit="lb">dru̍ pfunt</measure>. Mag der leman nit bas getaͤdingen, 
-<lb/>woͤlte im aber min herr, der probst, nit lichen, 
-<lb/>so sol der leman zwen hentschuͦch uff froͧn 
-<lb/>alter legen und da mit sol er das lechen 
-<lb/>enpfangen han.</seg></p>
-<p><seg n="49"><lb/>Es sol <app><lem>ouch</lem><rdg wit="StAZH G I 103, fol. 18r-24r"/></app> ein banwart von hus gaͧn 
-<lb/><time period="morning">mit dem morgensternen</time> und ze <date period="summer">sumer zit</date>
-<lb/>mit dem hirten wider hein und sol en<lb break="no"/>bissen<note>Zu Mittag essen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id7.htm#!page/71769/mode/1up">Bd. 7, Sp. 1769</ref></bibl>.</note>, aͧn gevaͤrde, und sol da mit wider 
-<lb/>ze holtze gaͧn und <time period="evening">mit dem aͧbent sterne</time>
+<pb n="29r" facs="StAZH_G_I_102__fol__29_r_.tif"/>
+<p><seg n="45">
+<lb/>Item wer <subst><del>kein</del><add place="above">dehein</add></subst> guͦt <date dur="P9Y">nu̍n
+loͧbrise</date><!-- ahh: Laubris = Zeit des Laubfalls, Herbst, häufig als Terminangabe mit den Zahlen 3, 9 (wie vorliegend), 10, vgl. https://digital.idiotikon.ch/idtkn/id6.htm#!page/61359/mode/2up -->
+und me behebt <lb/>mit guͦtem gericht unansprͣechig, das denne <lb/>des hofs recht also staͧt, das er dasselb guͦt da <lb/>mit behabe, der
+kleger w<subst><del>e</del><add place="inline">aͤ</add></subst>re danne usswendig <lb/>dem bystuͦm gewesen.</seg></p>
+<p><seg n="46"><lb/>Item miner herren recht staͧt also: Wer den keln<lb break="no"/>hoff oder der pfruͦndlechen eines haben wil, <lb/>das
+der des gotzhus genoͧss wesen sol und <lb/>der gotzhu̍sern, so dar zuͦ gehoͤrent, das ist <lb/>der <orgName ref="org004908">apty ze
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, in der <placeName ref="loc000087">Richenoͧw</placeName>, ze <lb/><placeName
+ref="loc000083">Sant Gallen</placeName> und ze den <placeName ref="loc000085">Einsidellen</placeName>.</seg></p>
+<p><seg n="47"><lb/>Item wer der ist, der hinder dem <lb/>gotzhus sitzet, was dem wines wachset, der <lb/>mag in wol schenken, also das er
+nieman <lb/>dar umb fu̍rchtet. Was <app>
+<lem>aber er</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">er aber</rdg>
+</app> wines koͧffet, <lb/>den sol er aͧn urlob nicht schenken und sol <lb/>ouch der husgenoͧssen deheiner kein ungelt <lb/>geben.</seg></p>
+<p><seg n="48"><lb/>Item wer du̍ lechen koͧffet, dem sol si min herr, <lb/>der probst, lichen, doch dem herren, des dz lechen <lb/>ist,
+unschaͤdlich an sinem erschatz, das ist <lb/><measure type="currency" quantity="3" unit="lb">dru̍ pfunt</measure>. Mag der leman nit bas
+getaͤdingen, <lb/>woͤlte im aber min herr, der probst, nit lichen, <lb/>so sol der leman zwen hentschuͦch uff froͧn <lb/>alter legen und da
+mit sol er das lechen <lb/>enpfangen han.</seg></p>
+<p><seg n="49"><lb/>Es sol <app>
+<lem>ouch</lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r"/>
+</app> ein banwart von hus gaͧn <lb/><time period="morning">mit dem morgensternen</time> und ze <date period="summer">sumer zit</date>
+<lb/>mit dem hirten wider hein und sol en<lb break="no"/>bissen<note>Zu Mittag essen, vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id7.htm#!page/71769/mode/1up">Bd.
+7, Sp. 1769</ref></bibl>.</note>, aͧn gevaͤrde, und sol da mit wider <lb/>ze holtze gaͧn und <time period="evening">mit dem aͧbent
+sterne</time>
 <lb/>wider hein <add place="inline" hand="other hand" rend="other ink">gaͧn</add>.</seg>
 </p>
-<p><seg n="50"><lb/>Es su̍llent <num value="2">zwen</num> banwart <date from="--11-13" to="--02-06">vor wienacht 
-<pb n="29v" facs="StAZH_G_I_102__fol__29_v_.tif
+<p><seg n="50"><lb/>Es su̍llent <num value="2">zwen</num> banwart <date from="--11-13" to="--02-06">vor wienacht <pb n="29v"
+facs="StAZH_G_I_102__fol__29_v_.tif
 "/>
 <lb/>sechs wuchen und oͧch dar naͧch sechs wuchen</date>
-<lb/>ze holtze gaͧn. Wurde aber dar u̍ber kein un<lb break="no"/>gewonlicher schade gehoͧwen, dar zuͦ sol man 
-<lb/>der husgenoͧssen nemen, die den schaden schoͧwen 
-<lb/>und kiesen su̍llent, und was oͧch die danne 
-<lb/>kiesent, das sol ein banwart usrichten.</seg>
+<lb/>ze holtze gaͧn. Wurde aber dar u̍ber kein un<lb break="no"/>gewonlicher schade gehoͧwen, dar zuͦ sol man <lb/>der husgenoͧssen nemen,
+die den schaden schoͧwen <lb/>und kiesen su̍llent, und was oͧch die danne <lb/>kiesent, das sol ein banwart usrichten.</seg>
 </p>
-<p><seg n="51"><lb/><add place="left margin" hand="later hand"><abbr>N</abbr></add> Es ist ouch ze wu̍ssen, das die husgenoͧssen 
-<lb/><placeName ref="loc010656">Sant Lienhart</placeName>, die uff miner herren lechen 
-<lb/>sitzent, die su̍llent mit ertagwen mit ze 
-<lb/>gerichte gaͧn und mit allen andren sachen 
-<lb/>dienen und tuͦn in den hoff gen <placeName ref="loc008707">Fluͦntren</placeName>, als 
-<lb/>ander, die in dem <app><lem>hoff ze <placeName ref="loc008707">Fluͦntren</placeName></lem>
-<rdg wit="StAZH G I 103, fol. 18r-24r">selben</rdg></app> gesessen 
-<lb/>und da selbs husgenoͧssen sind, aͧn 
-<lb/>alle gevaͤrde.<note>Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 1</bibl>.</note></seg>
+<p><seg n="51"><lb/><add place="left margin" hand="later hand"><abbr>N</abbr></add> Es ist ouch ze wu̍ssen, das die husgenoͧssen
+<lb/><placeName ref="loc010656">Sant Lienhart</placeName>, die uff miner herren lechen <lb/>sitzent, die su̍llent mit ertagwen mit ze
+<lb/>gerichte gaͧn und mit allen andren sachen <lb/>dienen und tuͦn in den hoff gen <placeName ref="loc008707">Fluͦntren</placeName>, als
+<lb/>ander, die in dem <app>
+<lem>hoff ze <placeName ref="loc008707">Fluͦntren</placeName></lem>
+<rdg wit="StAZH G I 103, fol. 18r-24r">selben</rdg>
+</app> gesessen <lb/>und da selbs husgenoͧssen sind, aͧn <lb/>alle gevaͤrde.<note>Vgl. <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 1</bibl>.</note></seg>
 </p>
-<p><seg n="52"><lb/>Es ist oͧch ze wu̍ssen, wenne der husgenoͧssen 
-<lb/>einer abstirbet, haͧt er nit eliche kind, so 
-<lb/>erbt das lechen sin vatter, ist er sin genoͧss. 
-<lb/>Haͧt er nit ein vatter, so erbt das lechen 
-<lb/>sin naͤchster fru̍nd, er sig man oder froͧw, 
-<lb/>untz an das ander gelid und nit ferrer.
-<lb/>Haͧt er aber nit erben zuͦ dem ersten oder 
-<lb/>zuͦ dem andern gelid, so ist das erblechen 
-<lb/>sinem herren verfallen, aͧn alle wider red.<note>Das Recht des <orgName ref="org004352">Stifts</orgName> auf Rückfall wird 1538 zugunsten des allgemeinen Erbrechts aufgegeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_061">SSRQ ZH NF II/11, Nr. 61</ref></bibl>).</note></seg>
+<p><seg n="52"><lb/>Es ist oͧch ze wu̍ssen, wenne der husgenoͧssen <lb/>einer abstirbet, haͧt er nit eliche kind, so <lb/>erbt das lechen
+sin vatter, ist er sin genoͧss. <lb/>Haͧt er nit ein vatter, so erbt das lechen <lb/>sin naͤchster fru̍nd, er sig man oder froͧw, <lb/>untz
+an das ander gelid und nit ferrer. <lb/>Haͧt er aber nit erben zuͦ dem ersten oder <lb/>zuͦ dem andern gelid, so ist das erblechen
+<lb/>sinem herren verfallen, aͧn alle wider red.<note>Das Recht des <orgName ref="org004352">Stifts</orgName> auf Rückfall wird 1538
+zugunsten des allgemeinen Erbrechts aufgegeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_061">SSRQ ZH NF II/11, Nr.
+61</ref></bibl>).</note></seg>
 </p>
 </div>
 </div>
 </body>
 <back>
 <div>
-<p>Die ältesten überlieferten Hofrechte des <orgName ref="org004352">Grossmünsterstifts</orgName> bilden die Aufzeichnungen in den Statutenbüchern aus dem Jahr <date when="1346">1346</date> in lateinischer Sprache (<bibl><ref target="http://dx.doi.org/10.7891/e-manuscripta-47119">ZBZ Ms C 10a</ref></bibl> und <bibl>ZBZ Ms C 10b</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 149-169</bibl>; 
-zur Entstehung und dem Verhältnis der einzelnen dörflichen Rechtstexte untereinander vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 306-329</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2007</ref>, S. 230-239</bibl>). Davon gehen wiederum einige<!-- ahh: Höngg und Schwamendingen --> 
-auf frühere Vorlagen zurück (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 309</bibl>).</p>
-<p>Bei der jüngeren Fassung der Rechte in deutscher Sprache handelt es sich im Fall von <placeName ref="loc008707">Fluntern</placeName> jedoch anders als bei <placeName ref="loc009768">Höngg</placeName> und <placeName ref="loc009859">Schwamendingen</placeName> nicht lediglich um eine Übersetzung dieser älteren Fassung ins Deutsche. 
-Sie lehnt sich teils an bestehende Vorlagen an, enthält aber eine Vielzahl neuer Regelungen, weshalb sie auch wesentlich umfangreicher ausfällt als ihre lateinische Vorgängerin (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 317-318, 325</bibl>).</p>
-<p>Die Tatsache, dass einerseits die 36 Schilling zugunsten der Lehenmänner zwecks Entschädigung für das letzte Geleit für den Lehenherren bereits festgehalten sind (Art. 26) und andererseits die Entlöhnung mit dem besten Rock des verstorbenen Herrn keine Erwähnung (mehr) findet, spricht für eine Datierung 
-  der Rechte auf die Zeit <date notBefore="1425">nach 1424</date>, als ein Schiedsurteil in dieser Angelegenheit Klärung brachte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 2</bibl>). Auch die Abgabe von Pelz und Rock durch den Lehenherren 
-  an den Lehenmann zu Beginn der Weinlese ist nicht mehr üblich (Art. 23); darin bestand <date when="1424">1424</date> ebenfalls noch Regelungsbedarf (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 3</bibl>).</p>
-<p>Bei den Hausleuten oder Hausgenossen handelte es sich ursprünglich um Leibeigene des Stifts; der Begriff meint Leute, die Leibeigene desselben Gotteshauses beziehungsweise in dasselbe Gericht gehörig sind (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref> IV, Sp. 821</bibl>). 
-In <placeName ref="loc008707">Fluntern</placeName> war die Leibeigenschaft des Stifts besonders ausgeprägt, vor allem unter den Inhabern der Pfrundreben (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>, S. 86-87</bibl>). Mit der Zeit besserte sich aber ihre Stellung und der Begriff bezeichnete 
-dann eher die Lehenleute des Stifts; eine Ordnung des Stifts sprach sie um 1600 auch als Hausgenossen und Lehenleute von <placeName ref="loc008707">Fluntern</placeName> an, während in der Fassung um die Mitte des 16. Jahrhunderts noch lediglich von Hausgenossen die Rede war (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72</ref></bibl>).
-Die <orig>usschidling</orig> sind Personen, die anderswohin steuer- oder gerichtspflichtig sind als dort, wo sie wohnen (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref> VIII, Sp. 268-269</bibl>). Im vorliegenden Stück handelt es sich wohl um Personen, die ausserhalb der Stadt wohnen,
-aber nicht auf Land des <placeName ref="loc007562">Grossmünsters</placeName>. In einer Notiz im 1645 durch Stiftsverwalter <persName ref="per011353">Johann Jakob Fries</persName> angelegten Stiftsprotokoll werden die <orig>usschidling</orig> als <orig>hindersessen zuͦ Fluͦnteren</orig> charakterisiert, die dort zwar haushablich seien, aber 
-keinen Anteil an der <orig>rechtung und einung</orig> der Hausgenossen hätten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317216">StAZH G I 30</ref>, S. 477</bibl>). Ganz geht davon aus, dass die <orig>usschidling</orig> gemeinsam mit den <orig>burgern</orig> jene Gruppe 
-bilden, die in der lateinischen Fassung als <orig>extranei</orig> bezeichnet werden (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>, S. 88-89</bibl>).
+<p>Die ältesten überlieferten Hofrechte des <orgName ref="org004352">Grossmünsterstifts</orgName> bilden die Aufzeichnungen in den
+Statutenbüchern aus dem Jahr <date when="1346">1346</date> in lateinischer Sprache (<bibl><ref
+target="http://dx.doi.org/10.7891/e-manuscripta-47119">ZBZ Ms C 10a</ref></bibl> und <bibl>ZBZ Ms C 10b</bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 149-169</bibl>; zur Entstehung und dem Verhältnis der einzelnen
+dörflichen Rechtstexte untereinander vgl. <bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 306-329</bibl>;
+<bibl><ref target="/startseite/literaturverzeichnis">Teuscher 2007</ref>, S. 230-239</bibl>). Davon gehen wiederum
+einige<!-- ahh: Höngg und Schwamendingen --> auf frühere Vorlagen zurück (<bibl><ref target="/startseite/literaturverzeichnis">Teuscher
+2001</ref>, S. 309</bibl>).</p>
+<p>Bei der jüngeren Fassung der Rechte in deutscher Sprache handelt es sich im Fall von <placeName ref="loc008707">Fluntern</placeName>
+jedoch anders als bei <placeName ref="loc009768">Höngg</placeName> und <placeName ref="loc009859">Schwamendingen</placeName> nicht lediglich
+um eine Übersetzung dieser älteren Fassung ins Deutsche. Sie lehnt sich teils an bestehende Vorlagen an, enthält aber eine Vielzahl neuer
+Regelungen, weshalb sie auch wesentlich umfangreicher ausfällt als ihre lateinische Vorgängerin (<bibl><ref
+target="/startseite/literaturverzeichnis">Teuscher 2001</ref>, S. 317-318, 325</bibl>).</p>
+<p>Die Tatsache, dass einerseits die 36 Schilling zugunsten der Lehenmänner zwecks Entschädigung für das letzte Geleit für den Lehenherren
+bereits festgehalten sind (Art. 26) und andererseits die Entlöhnung mit dem besten Rock des verstorbenen Herrn keine Erwähnung (mehr)
+findet, spricht für eine Datierung der Rechte auf die Zeit <date notBefore="1425">nach 1424</date>, als ein Schiedsurteil in dieser
+Angelegenheit Klärung brachte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr. 23</ref>, Art. 2</bibl>). Auch
+die Abgabe von Pelz und Rock durch den Lehenherren an den Lehenmann zu Beginn der Weinlese ist nicht mehr üblich (Art. 23); darin bestand
+<date when="1424">1424</date> ebenfalls noch Regelungsbedarf (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_023">SSRQ ZH NF II/11, Nr.
+23</ref>, Art. 3</bibl>).</p>
+<p>Bei den Hausleuten oder Hausgenossen handelte es sich ursprünglich um Leibeigene des Stifts; der Begriff meint Leute, die Leibeigene
+desselben Gotteshauses beziehungsweise in dasselbe Gericht gehörig sind (<bibl><ref target="/startseite/literaturverzeichnis"
+>Idiotikon</ref> IV, Sp. 821</bibl>). In <placeName ref="loc008707">Fluntern</placeName> war die Leibeigenschaft des Stifts besonders
+ausgeprägt, vor allem unter den Inhabern der Pfrundreben (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>, S.
+86-87</bibl>). Mit der Zeit besserte sich aber ihre Stellung und der Begriff bezeichnete dann eher die Lehenleute des Stifts; eine Ordnung
+des Stifts sprach sie um 1600 auch als Hausgenossen und Lehenleute von <placeName ref="loc008707">Fluntern</placeName> an, während in der
+Fassung um die Mitte des 16. Jahrhunderts noch lediglich von Hausgenossen die Rede war (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72</ref></bibl>). Die <orig>usschidling</orig> sind Personen, die
+anderswohin steuer- oder gerichtspflichtig sind als dort, wo sie wohnen (<bibl><ref target="/startseite/literaturverzeichnis"
+>Idiotikon</ref> VIII, Sp. 268-269</bibl>). Im vorliegenden Stück handelt es sich wohl um Personen, die ausserhalb der Stadt wohnen, aber
+nicht auf Land des <placeName ref="loc007562">Grossmünsters</placeName>. In einer Notiz im 1645 durch Stiftsverwalter <persName
+ref="per011353">Johann Jakob Fries</persName> angelegten Stiftsprotokoll werden die <orig>usschidling</orig> als <orig>hindersessen zuͦ
+Fluͦnteren</orig> charakterisiert, die dort zwar haushablich seien, aber keinen Anteil an der <orig>rechtung und einung</orig> der
+Hausgenossen hätten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=317216">StAZH G I 30</ref>, S. 477</bibl>).
+Ganz geht davon aus, dass die <orig>usschidling</orig> gemeinsam mit den <orig>burgern</orig> jene Gruppe bilden, die in der lateinischen
+Fassung als <orig>extranei</orig> bezeichnet werden (<bibl><ref target="/startseite/literaturverzeichnis">Ganz 1925</ref>, S. 88-89</bibl>).
 </p>
 </div>
 </back>
