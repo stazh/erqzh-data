@@ -3,12 +3,13 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
-Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der Landschaft. Band 11: Die Obervogteien um die
+Stadt Zürich</title>
 <respStmt>
 <persName>Ariane Huber Hernández</persName>
 <resp key="transcript"/>
@@ -31,86 +32,184 @@ Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
 <idno>SSRQ_ZH_NF_II_11_053_1</idno>
 </seriesStmt>
 <sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935006">StAZH G I 1, Nr. 113</idno></msIdentifier><head>Gutachten der Ratsabgeordneten betreffend die Übernahme des Stiftsarchivs und die Abtretung der Gerichte des Stifts an die Stadt Zürich</head><msContents><summary>Je drei Abgeordnete des Kleinen und Grossen Rats von Zürich berichten, wie sie das Archiv des Grossmünsters in der dortigen Sakristei von Propst und Kapitel zuhanden des Rats übernommen haben. Die Schlüssel zur nun verschlossenen Sakristei, in welche die Ratsabgeordneten auch das Schriftgut überführt haben, das sich noch beim Stiftspropst befand, mag die Obrigkeit bei Gelegenheit an sich nehmen und an die noch zu bestimmenden künftig zuständigen Ratsherren aushändigen. Die Ratsabgeordneten empfehlen, dass Kämmerer und Keller des Grossmünsters, nachdem diese von Eid und Verpflichtungen gegenüber Propst und Kapitel befreit worden sind, gemäss deren Bitte den künftigen Inhabern der Schlüssel unterstellt werden, damit die Fortsetzung ihrer Arbeit gewährleistet ist. Kämmerer und Keller sowie die Amtleute des Fraumünsters sollen den Eid auf Bürgermeister und Rat von Zürich ablegen.  Nach einer Aufzählung der vom Grossmünsterstift an die Stadt übergebenen Gerichtskompetenzen in Albisrieden, </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich (Nachtrag)</author><filiation type="current">Original, Heft (16 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1526-02-03" to="1526-12-29">Datierung aufgrund Entwurf (G I 1, Nr. 108) und nachträglicher Bestätigung durch den Rat</origDate></origin></history><additional><listBibl><head>Nachweis</head><bibl>Egli, Actensammlung, Nr. 922</bibl></listBibl></additional></msDesc></sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935006">StAZH G I 1, Nr. 113</idno>
+</msIdentifier>
+<head>Gutachten der Ratsabgeordneten betreffend die Übernahme des Stiftsarchivs und die Abtretung der Gerichte des Stifts an die Stadt
+Zürich</head>
+<msContents>
+<summary>Je drei Abgeordnete des Kleinen und Grossen Rats von Zürich berichten, wie sie das Archiv des Grossmünsters in der dortigen
+Sakristei von Propst und Kapitel zuhanden des Rats übernommen haben. Die Schlüssel zur nun verschlossenen Sakristei, in welche die
+Ratsabgeordneten auch das Schriftgut überführt haben, das sich noch beim Stiftspropst befand, mag die Obrigkeit bei Gelegenheit an sich
+nehmen und an die noch zu bestimmenden künftig zuständigen Ratsherren aushändigen. Die Ratsabgeordneten empfehlen, dass Kämmerer und Keller
+des Grossmünsters, nachdem diese von Eid und Verpflichtungen gegenüber Propst und Kapitel befreit worden sind, gemäss deren Bitte den
+künftigen Inhabern der Schlüssel unterstellt werden, damit die Fortsetzung ihrer Arbeit gewährleistet ist. Kämmerer und Keller sowie die
+Amtleute des Fraumünsters sollen den Eid auf Bürgermeister und Rat von Zürich ablegen. Nach einer Aufzählung der vom Grossmünsterstift an
+die Stadt übergebenen Gerichtskompetenzen in Albisrieden, Höngg, Niederglatt und Nöschikon, Schwamendingen, Meilen, Rüschlikon und Rengg
+sowie Fluntern und Sankt Leonhard wird der Reihe nach die Zugehörigkeit dieser Örtlichkeiten entweder zum städtischen Stangengericht oder zu
+weiterhin bestehenden eigenen Gerichten einerseits und die Unterstellung unter den jeweiligen Obervogt andererseits geregelt. Dabei werden
+die bisher dem Propst entrichteten gerichtlichen Abgaben den zuständigen Obervögten und die Bussgelder der Stadt Zürich zugesprochen. Die
+übrigen Rechte und Pflichten sollen gemäss den bei dieser Gelegenheit bestätigten Hofrechten und Rödeln der genannten Orte Bestand haben. In
+einem datierten Nachtrag genehmigen Bürgermeister und Rat von Zürich das Gutachten der Ratsabgeordneten.</summary>
+<msItem>
+<textLang>Deutsch</textLang>
+<author role="scribe">Werner Beyel, Stadtschreiber von Zürich (Nachtrag)</author>
+<filiation type="current">Original, Heft (16 Blätter)</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Papier</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="32.5"/>
+<width unit="cm" quantity="22.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin><origDate from="1526-02-03" to="1526-12-29">Datierung aufgrund Entwurf (G I 1, Nr. 108) und nachträglicher Bestätigung durch den
+Rat</origDate></origin>
+</history>
+<additional>
+<listBibl>
+<head>Nachweis</head>
+<bibl>Egli, Actensammlung, Nr. 922</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
 </fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003308">Archiv</term><term ref="key000179">Eid</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000151">Niedergerichtsbarkeit</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000065">Amtleute</term>
+<term ref="key003308">Archiv</term>
+<term ref="key000179">Eid</term>
+<term ref="key003994">Hochgerichtsbarkeit</term>
+<term ref="key000151">Niedergerichtsbarkeit</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
 <text>
 <group>
 <text>
 <body corresp="Sigle1">
 <div>
-<div><p><!-- ahh: In diesem Stück hat es teilweise Auszeichnungen in Anmerkungen, die, sobald der Text aus <add hand= other hand> im Text stehen wird, korrekt dargestellt sein sollten. Im Moment hat es aber die Folge, dass die alphabetische Ordnung der Anm. durcheinander gerät, vgl. Anm. g  -->
+<div>
+<p><!-- ahh: In diesem Stück hat es teilweise Auszeichnungen in Anmerkungen, die, sobald der Text aus <add hand= other hand> im Text stehen wird, korrekt dargestellt sein sollten. Im Moment hat es aber die Folge, dass die alphabetische Ordnung der Anm. durcheinander gerät, vgl. Anm. g  -->
 <pb n="1" facs="StAZH_G_I_1__Nr__113__S__01_.tif"/>
-<lb/><app><lem>Die verordnotten von <orgName ref="org001217">kleinen <lb/>und grǒssen raͤtten</orgName> in der
-<orgName ref="org004352">stifft <lb/>zuͤ der bropstig</orgName> hanndel sind</lem><rdg wit="StAZH G I 1, Nr. 108">Anbringen der verordneten</rdg></app>:</p></div>
-<div><p>
+<lb/><app>
+<lem>Die verordnotten von <orgName ref="org001217">kleinen <lb/>und grǒssen raͤtten</orgName> in der <orgName ref="org004352">stifft
+<lb/>zuͤ der bropstig</orgName> hanndel sind</lem>
+<rdg wit="StAZH G I 1, Nr. 108">Anbringen der verordneten</rdg>
+</app>:</p>
+</div>
+<div>
+<p>
 <lb/><abbr>m</abbr>
-<persName ref="per014719">Thumisen</persName><!-- ahh: Rudolf Thumeisen, vgl. Bsp B VI 249, fol. 143 v. -->, <supplied resp="ahh">vom <orgName ref="org004016">kleinen rǎt</orgName></supplied>, 
-<lb/><abbr>m</abbr>
-<persName ref="per015527"><choice><abbr>Uͦ</abbr><expan>Uͦlrich</expan></choice> Trinckler</persName>, vom <orgName ref="org004016">kleinen rǎt</orgName>, 
-<lb/><abbr>m</abbr>
-<persName ref="per014721">Truͤb</persName>, <supplied resp="ahh">vom <orgName ref="org004016">kleinen rǎt</orgName></supplied>, 
-</p></div>
-<div><p>
-<lb/><choice><abbr>m</abbr><expan>meister</expan></choice>
-<persName ref="per005065">Wingarter</persName>, <supplied resp="ahh">vom <orgName ref="org004906">grossen rǎt</orgName></supplied>, 
-<lb/><choice><abbr>m</abbr><expan>meister</expan></choice>
-<persName ref="per024297">Cuͦnrat Gul</persName>, vom <orgName ref="org004906">grossen rǎt</orgName>, 
- <lb/><choice><abbr>m</abbr><expan>meister</expan></choice>
-<persName ref="per024296">Uͤli Funck</persName>, <supplied resp="ahh">vom <orgName ref="org004906">grossen rǎt</orgName></supplied>. 
-</p></div>
+<persName ref="per014719">Thumisen</persName><!-- ahh: Rudolf Thumeisen, vgl. Bsp B VI 249, fol. 143 v. -->, <supplied resp="ahh">vom
+<orgName ref="org004016">kleinen rǎt</orgName></supplied>, <lb/><abbr>m</abbr>
+<persName ref="per015527"><choice>
+<abbr>Uͦ</abbr>
+<expan>Uͦlrich</expan>
+</choice> Trinckler</persName>, vom <orgName ref="org004016">kleinen rǎt</orgName>, <lb/><abbr>m</abbr>
+<persName ref="per014721">Truͤb</persName>, <supplied resp="ahh">vom <orgName ref="org004016">kleinen rǎt</orgName></supplied>, </p>
+</div>
+<div>
+<p>
+<lb/><choice>
+<abbr>m</abbr>
+<expan>meister</expan>
+</choice>
+<persName ref="per005065">Wingarter</persName>, <supplied resp="ahh">vom <orgName ref="org004906">grossen rǎt</orgName></supplied>, <lb/><choice>
+<abbr>m</abbr>
+<expan>meister</expan>
+</choice>
+<persName ref="per024297">Cuͦnrat Gul</persName>, vom <orgName ref="org004906">grossen rǎt</orgName>, <lb/><choice>
+<abbr>m</abbr>
+<expan>meister</expan>
+</choice>
+<persName ref="per024296">Uͤli Funck</persName>, <supplied resp="ahh">vom <orgName ref="org004906">grossen rǎt</orgName></supplied>. </p>
+</div>
 <pb n="2" facs="StAZH_G_I_1__Nr__113__S__02_.tif"/>
 <pb n="3" facs="StAZH_G_I_1__Nr__113__S__03_.tif"/>
 <p>
-<lb/>Her burgermeister, frǒmen, vesten, fu̍rsichtigen, 
-<lb/>ersamen und wisen gneͣdigen herren, als dann 
-<lb/>u̍wer wisheit unns von <orgName ref="org001217">kleinen und grǒssen 
-<lb/>raͤtten</orgName> verordnet und inbefelch geben haben, 
-<lb/>das wir von herren <orgName ref="org004352">bropst und capitel</orgName> die schlu̍sel 
-<lb/>zuͦ der sacrastig erfordern und die zuͤ unnsern 
-<lb/>hannden neͣmen, das von unns also beschechen 
-<lb/>ist. Und als wir u̍ber ire gehalter<!-- ahh: gehalt = Aufbewahrungsort (für Schriftstücke); lem005190 --> kǒmen sind, 
-<lb/>haben wir erfunden, das daselbs mer brieffen und 
-<lb/>fryheiten bliben, dan u̍wer wisheit u̍ber antwurt 
-<lb/>ist worden. Und zuͦ dem selben haben wir erfaren, 
-<lb/>das herr bropst<note>Propst und Verwalter des <orgName ref="org004352">Grossmünsterstifts</orgName> war zu dieser Zeit <persName ref="per011263">Felix Fry</persName> (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D12624.php">Frei, Felix</ref></bibl>).</note> ouch brieff, urber und buͤcher in 
-<lb/>sinem gewalt hab, die gemelter <orgName ref="org004352">stifft</orgName> zuͦgehoͤrig 
-<lb/>sigen.<note><persName ref="per011263">Fry</persName> war vorgeworfen worden, Dokumente
-unterschlagen zu haben. Man setzte ihn deswegen am <date when="1526-11-12">12. November
-1526</date> für einige Tage in Haft (<bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1032 und 1069</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HS II/2</ref>, S. 595</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 188</bibl>).</note> Die selben brieff, urber und buͤcher haben 
-<lb/>wir an herrn bropst erfordert und zuͦ anndern 
-<lb/>brieffen in die sacrastig behalten und ver<lb break="no"/>schlossen, und die schlu̍ssel haben wir ver<lb break="no"/>ordnotten in unnserm gewalt, die mag <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice>
-<lb/>andern rǎtsfru̍nden geben nǎch irem gefallen.<note>Im Entwurf schlugen die Verordneten für die Archive von <placeName ref="loc007562">Grossmünster</placeName> und <placeName ref="loc000090">Fraumünster</placeName> je zwei Männer vor. Der Rat kam dieser Empfehlung offenbar nach; ein Nachtrag von anderer Hand hält fest: <orig>min herren hand disen artigkel bestet unnd <abbr>m</abbr>
+<lb/>Her burgermeister, frǒmen, vesten, fu̍rsichtigen, <lb/>ersamen und wisen gneͣdigen herren, als dann <lb/>u̍wer wisheit unns von
+<orgName ref="org001217">kleinen und grǒssen <lb/>raͤtten</orgName> verordnet und inbefelch geben haben, <lb/>das wir von herren <orgName
+ref="org004352">bropst und capitel</orgName> die schlu̍sel <lb/>zuͦ der sacrastig erfordern und die zuͤ unnsern <lb/>hannden neͣmen, das von
+unns also beschechen <lb/>ist. Und als wir u̍ber ire gehalter<!-- ahh: gehalt = Aufbewahrungsort (für Schriftstücke); lem005190 --> kǒmen
+sind, <lb/>haben wir erfunden, das daselbs mer brieffen und <lb/>fryheiten bliben, dan u̍wer wisheit u̍ber antwurt <lb/>ist worden. Und zuͦ
+dem selben haben wir erfaren, <lb/>das herr bropst<note>Propst und Verwalter des <orgName ref="org004352">Grossmünsterstifts</orgName> war
+zu dieser Zeit <persName ref="per011263">Felix Fry</persName> (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+target="http://www.hls-dhs-dss.ch/textes/d/D12624.php">Frei, Felix</ref></bibl>).</note> ouch brieff, urber und buͤcher in <lb/>sinem gewalt
+hab, die gemelter <orgName ref="org004352">stifft</orgName> zuͦgehoͤrig <lb/>sigen.<note><persName ref="per011263">Fry</persName> war
+vorgeworfen worden, Dokumente unterschlagen zu haben. Man setzte ihn deswegen am <date when="1526-11-12">12. November 1526</date> für einige
+Tage in Haft (<bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1032 und 1069</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">HS II/2</ref>, S. 595</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weisz
+1939-1940</ref>, S. 188</bibl>).</note> Die selben brieff, urber und buͤcher haben <lb/>wir an herrn bropst erfordert und zuͦ anndern
+<lb/>brieffen in die sacrastig behalten und ver<lb break="no"/>schlossen, und die schlu̍ssel haben wir ver<lb break="no"/>ordnotten in
+unnserm gewalt, die mag <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice>
+<lb/>andern rǎtsfru̍nden geben nǎch irem gefallen.<note>Im Entwurf schlugen die Verordneten für die Archive von <placeName ref="loc007562"
+>Grossmünster</placeName> und <placeName ref="loc000090">Fraumünster</placeName> je zwei Männer vor. Der Rat kam dieser Empfehlung offenbar
+nach; ein Nachtrag von anderer Hand hält fest: <orig>min herren hand disen artigkel bestet unnd <abbr>m</abbr>
 <persName ref="per014719">Thumysen</persName>, <abbr>m</abbr>
 <persName ref="per015527">Drinkler</persName>, <abbr>m</abbr>
-<persName ref="per005065">Wingarter</persName> und <persName ref="per024297">Cuͦnraten Gullen</persName> sollichs befolchen</orig> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 3</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. I.1, S. 436</bibl>). Zur konfliktiven Übergabe des Stiftarchivs und deren symbolischen Komponente vgl. <bibl><ref target="/startseite/literaturverzeichnis">Figi 1951</ref>, S. 62-65</bibl>.</note>
-<lb/>Und als der <orgName ref="org004352">stifft</orgName> amptlu̍t, keller unnd 
-<lb/>camerer, ir eiden und verschribungen erlasen<!-- ahh: vom geleisteten Eid / Verpflichtungen gegenüber dem Propst und Kapitel befreit, vgl. DRW "erlassen" I 5 b: http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?db=drw&index=lemmata&darstellung=u&term=erlassen#erlassen-1.5.2 -->
-<lb/>sind, ist ir beger, das <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> inen, die, so die schlu̍sel 
-
-<pb n="4" facs="StAZH_G_I_1__Nr__113__S__04_.tif"/><lb/>zuͦ der <orgName ref="org004352">stifft</orgName> brieffen haben werden, in 
-<lb/>befelch und gewalt geben welle, mit inen 
-<lb/>zuͦ hanndlen, was je zuͤ zitten zinslu̍ten 
-<lb/>und brieffen halb not ist, damit <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> nit 
-<lb/>allwegen gehelliget werde. So dann be<lb break="no"/>dunckt unns, die verordnotten, guͦt sin, das 
-<lb/>die beid amptman, keller und camerer, 
-<lb/><choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> schwerrind, desglichen ǒuch die 
-<lb/>amptlu̍t zum <placeName ref="loc000090">Frǒwen Mu̍nster</placeName>.<note>Dieser Abschnitt ist gegenüber dem Entwurf ausführlicher (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 108</ref>, S. 15</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. IV, S. 438-439</bibl>).</note>
+<persName ref="per005065">Wingarter</persName> und <persName ref="per024297">Cuͦnraten Gullen</persName> sollichs befolchen</orig>
+(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 3</bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. I.1, S. 436</bibl>). Zur konfliktiven Übergabe des
+Stiftarchivs und deren symbolischen Komponente vgl. <bibl><ref target="/startseite/literaturverzeichnis">Figi 1951</ref>, S.
+62-65</bibl>.</note>
+<lb/>Und als der <orgName ref="org004352">stifft</orgName> amptlu̍t, keller unnd <lb/>camerer, ir eiden und verschribungen erlasen<!-- ahh: vom geleisteten Eid / Verpflichtungen gegenüber dem Propst und Kapitel befreit, vgl. DRW "erlassen" I 5 b: http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?db=drw&index=lemmata&darstellung=u&term=erlassen#erlassen-1.5.2 -->
+<lb/>sind, ist ir beger, das <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> inen, die, so die schlu̍sel <pb n="4" facs="StAZH_G_I_1__Nr__113__S__04_.tif"/><lb/>zuͦ der <orgName ref="org004352"
+>stifft</orgName> brieffen haben werden, in <lb/>befelch und gewalt geben welle, mit inen <lb/>zuͦ hanndlen, was je zuͤ zitten zinslu̍ten
+<lb/>und brieffen halb not ist, damit <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> nit <lb/>allwegen gehelliget werde. So dann be<lb break="no"/>dunckt unns, die verordnotten, guͦt sin, das <lb/>die beid amptman,
+keller und camerer, <lb/><choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> schwerrind, desglichen ǒuch die <lb/>amptlu̍t zum <placeName ref="loc000090">Frǒwen Mu̍nster</placeName>.<note>Dieser Abschnitt
+ist gegenüber dem Entwurf ausführlicher (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 108</ref>,
+S. 15</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. IV, S.
+438-439</bibl>).</note>
 </p>
 <p>
-<lb/>Und als die gemelten herren, <orgName ref="org004352">bropst und 
-<lb/>capitel</orgName>, <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> u̍ber geben haben 
-<lb/>der <orgName ref="org004352">stifft</orgName> hochen und nidern gericht, 
-<lb/>wie sy dan die bishar ingehept, genutzet 
-<lb/>und gebrucht haben, namlich zuͦ 
-<lb/><placeName ref="loc010356">Rieden</placeName><note><placeName ref="loc010356">Albisrieden</placeName>.</note>, zuͦ <placeName ref="loc009768">Hoͤnngg</placeName>, zuͦ <placeName ref="loc012174">Niderglat</placeName> und 
-<lb/>zuͦ <placeName ref="loc012142">Noͤschikon</placeName>, zuͤ <placeName ref="loc009859">Schwamendingen</placeName>, 
-<lb/>zuͦ <placeName ref="loc000509">Meylen</placeName>, zuͦ <placeName ref="loc008713">Ruͤschlikon</placeName>, zuͦ <placeName ref="loc012745">Renngg</placeName>
-<lb/>und zuͦ <placeName ref="loc008707">Fluͦntren</placeName>, also haben wir, 
-<lb/>die verordnetten, uns jedes gerichtz halb
-<lb/>insonders diser nachfolgenden meynungen 
-<lb/>entschlossen bis uff <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> wyter erlu̍tren.<note>Zur Geschichte der Archivbestände des <orgName ref="org004352">Grossmünsterstifts</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS II/2</ref>, S. 567-568</bibl>. Dieser Abschnitt ist ediert in <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_232">Nr. 98</ref></bibl> und <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.rechtsquellen.ch/online/ZH_AF_I_1/index.html#p_121">IX, Nr. 5</ref></bibl>.</note>
+<lb/>Und als die gemelten herren, <orgName ref="org004352">bropst und <lb/>capitel</orgName>, <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> u̍ber geben haben <lb/>der <orgName ref="org004352">stifft</orgName> hochen und nidern gericht, <lb/>wie sy dan die bishar
+ingehept, genutzet <lb/>und gebrucht haben, namlich zuͦ <lb/><placeName ref="loc010356">Rieden</placeName><note><placeName ref="loc010356"
+>Albisrieden</placeName>.</note>, zuͦ <placeName ref="loc009768">Hoͤnngg</placeName>, zuͦ <placeName ref="loc012174">Niderglat</placeName>
+und <lb/>zuͦ <placeName ref="loc012142">Noͤschikon</placeName>, zuͤ <placeName ref="loc009859">Schwamendingen</placeName>, <lb/>zuͦ
+<placeName ref="loc000509">Meylen</placeName>, zuͦ <placeName ref="loc008713">Ruͤschlikon</placeName>, zuͦ <placeName ref="loc012745"
+>Renngg</placeName>
+<lb/>und zuͦ <placeName ref="loc008707">Fluͦntren</placeName>, also haben wir, <lb/>die verordnetten, uns jedes gerichtz halb <lb/>insonders
+diser nachfolgenden meynungen <lb/>entschlossen bis uff <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> wyter erlu̍tren.<note>Zur Geschichte der Archivbestände des <orgName ref="org004352">Grossmünsterstifts</orgName> vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">HS II/2</ref>, S. 567-568</bibl>. Dieser Abschnitt ist ediert in <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_232"
+>Nr. 98</ref></bibl> und <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref
+target="http://www.rechtsquellen.ch/online/ZH_AF_I_1/index.html#p_121">IX, Nr. 5</ref></bibl>.</note>
 </p>
 <pb n="5" facs="StAZH_G_I_1__Nr__113__S__05_.tif"/>
 <div>
@@ -118,41 +217,71 @@ unterschlagen zu haben. Man setzte ihn deswegen am <date when="1526-11-12">12. N
 <lb/><placeName ref="loc010356">Rieden</placeName>
 </head>
 </div>
-<p><lb/>Als <placeName ref="loc010356">Rieden</placeName> mit hochen und nidern gerichten 
-<lb/>der <orgName ref="org004352">stifft</orgName> zuͤ gehoͤrt hat, haben wir, die 
-<lb/>verordnetten, uns <placeName ref="loc010356">Rieden</placeName> halb entschlossen, 
-<lb/>das sy einem oberfogt von <placeName ref="loc009863">Wiedikon</placeName>
+<p><lb/>Als <placeName ref="loc010356">Rieden</placeName> mit hochen und nidern gerichten <lb/>der <orgName ref="org004352">stifft</orgName>
+zuͤ gehoͤrt hat, haben wir, die <lb/>verordnetten, uns <placeName ref="loc010356">Rieden</placeName> halb entschlossen, <lb/>das sy einem
+oberfogt von <placeName ref="loc009863">Wiedikon</placeName>
 <date dur="R/P1Y">jerlich</date>
-<lb/>schweren und dem gehorsam sin und hinfu̍r 
-<lb/>ein anndern an der statt <orgName ref="org005053">gericht an der stangen</orgName><note>Der Begriff <orgName ref="org005053">Stangengericht</orgName> leitet sich von den Gerichtsschranken ab, in deren Schutz das Gericht tagt (<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Zürcherische Rechtsquellen</ref>, S. 115, Anm. 2</bibl>, vgl. auch die folgende Anm.).</note>
-<lb/>rechtferttigen soͤllen wie ander der statt umsaͤssen.<note>Die <placeName ref="loc010356">Albisrieder</placeName> hatten sich fortan wie andere Bewohner im näheren Umkreis der Stadt bei Rechtshändeln an das Stadtgericht zu wenden. 
-Wenn das <placeName ref="loc000065">Zürcher</placeName> Stadtgericht über Belange der ausserhalb der Stadt wohnhaften Vogteileute urteilte, was üblicherweise montags geschah, wurde das Gericht als Montag-, Vogt- oder Stangengericht bezeichnet. 
-Behandelte das Gericht Fälle der Stadtbürger, hiess es dagegen Stadt- oder Schultheissengericht, da in diesen Fällen nicht ein (Ober-)Vogt, sondern der Schultheiss dem Gericht vorsass (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 75-77</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1932</ref>, S. 16</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Zürcherische Rechtsquellen</ref>, S. 115, Anm. 2</bibl>). Zur Entwicklung und der Zuständigkeit der verschiedenen Gerichte vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref></bibl>.</note>
-<lb/>Und als die von <placeName ref="loc010356">Rieden</placeName> eines underfogtz usser 
-<lb/>ir gemeind begerend, mǒgent sy drig man von 
-<lb/>ir gemeind erwellen und die <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> anzoͤigen, welichen 
-<lb/>dan <choice><abbr>u̍ w</abbr><expan>u̍wer wisheit</expan></choice> zuͤ einem underfogt annimpt, der sol es 
-<lb/>als dan bliben.<note>Zur Wahl des Untervogts allgemein vgl. <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_111">SSRQ ZH NF II/11, Nr. 111</ref></bibl>. Verschiedene Dreiervorschläge aus dem 17. und 18. Jahrhundert für die Untervogtstelle in <placeName ref="loc010356">Albisrieden</placeName> finden sich im Bestand <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=189083">StAZH A 154</ref></bibl>.</note> Und sust soͤllent die von <placeName ref="loc010356">Rieden</placeName>
-<lb/>in aller mas gehalten werden wie ander die 
-<lb/>u̍wern. Die gemelten von <placeName ref="loc010356">Rieden</placeName> soͤllent 
-<lb/>ǒch die vogtstu̍r, zins und zechenden, och alles 
-<lb/>das, so sy gemelter <orgName ref="org004352">stifft</orgName>
-<app><lem>ze geben schuldig gewesen 
-<lb/>sind, nǎch sag irs rodels</lem><rdg wit="StAZH G I 1, Nr. 108">ze geben schǔldig sind, es sy holtz, hoͤw, huͤner, eyer, wie dan ir hofrodel zuͦgit,</rdg></app> fu̍rer geben wie von 
-<lb/>alter har, usgeschlossen die eyer, so man nempt 
-<lb/>die kuͤ eyer<!-- ahh: Kuhgeld, Jahressteuer für Rindvieh, vgl. DRW Bd. VIII, Sp. 48f. --><note>Dem Propst standen gemäss deutschsprachiger Offnung jeweils an Pfingsabend vier Eier pro Mutterkuh zu. Von einer <orig>mansikuͦe</orig>, einer Kuh, die man längere Zeit nicht trächtig werden liess (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id3.htm#!page/30091/mode/2up">Bd. 3, Sp. 94</ref></bibl>), schuldete man dem Propst dagegen eine Abgabe von lediglich zwei Eiern (vgl. <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_117">IX, Nr. 4, Art. 13, S. 117</ref></bibl>). Die ältere lateinische Offnung von <date notBefore="1296" notAfter="1346">vor 1346</date> sah die halbierte Abgabe dagegen für Ziegen vor (vgl. <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_111">IX, Nr. 1, Art. 11, S. 111</ref></bibl>).</note>, soͤllend inen nǎchgelasen sin. Und 
-<lb/>was huͤnern bishar einem bropst worden sind, 
+<lb/>schweren und dem gehorsam sin und hinfu̍r <lb/>ein anndern an der statt <orgName ref="org005053">gericht an der
+stangen</orgName><note>Der Begriff <orgName ref="org005053">Stangengericht</orgName> leitet sich von den Gerichtsschranken ab, in deren
+Schutz das Gericht tagt (<bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Zürcherische Rechtsquellen</ref>, S. 115, Anm.
+2</bibl>, vgl. auch die folgende Anm.).</note>
+<lb/>rechtferttigen soͤllen wie ander der statt umsaͤssen.<note>Die <placeName ref="loc010356">Albisrieder</placeName> hatten sich fortan
+wie andere Bewohner im näheren Umkreis der Stadt bei Rechtshändeln an das Stadtgericht zu wenden. Wenn das <placeName ref="loc000065"
+>Zürcher</placeName> Stadtgericht über Belange der ausserhalb der Stadt wohnhaften Vogteileute urteilte, was üblicherweise montags geschah,
+wurde das Gericht als Montag-, Vogt- oder Stangengericht bezeichnet. Behandelte das Gericht Fälle der Stadtbürger, hiess es dagegen Stadt-
+oder Schultheissengericht, da in diesen Fällen nicht ein (Ober-)Vogt, sondern der Schultheiss dem Gericht vorsass (<bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 75-77</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Largiadèr 1932</ref>, S. 16</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Zürcherische Rechtsquellen</ref>, S.
+115, Anm. 2</bibl>). Zur Entwicklung und der Zuständigkeit der verschiedenen Gerichte vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref></bibl>.</note>
+<lb/>Und als die von <placeName ref="loc010356">Rieden</placeName> eines underfogtz usser <lb/>ir gemeind begerend, mǒgent sy drig man von
+<lb/>ir gemeind erwellen und die <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> anzoͤigen, welichen <lb/>dan <choice>
+<abbr>u̍ w</abbr>
+<expan>u̍wer wisheit</expan>
+</choice> zuͤ einem underfogt annimpt, der sol es <lb/>als dan bliben.<note>Zur Wahl des Untervogts allgemein vgl. <bibl><ref
+target="/suche/Detail/SSRQ_ZH_NF_II_11_111">SSRQ ZH NF II/11, Nr. 111</ref></bibl>. Verschiedene Dreiervorschläge aus dem 17. und 18.
+Jahrhundert für die Untervogtstelle in <placeName ref="loc010356">Albisrieden</placeName> finden sich im Bestand <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=189083">StAZH A 154</ref></bibl>.</note> Und sust soͤllent die von <placeName
+ref="loc010356">Rieden</placeName>
+<lb/>in aller mas gehalten werden wie ander die <lb/>u̍wern. Die gemelten von <placeName ref="loc010356">Rieden</placeName> soͤllent
+<lb/>ǒch die vogtstu̍r, zins und zechenden, och alles <lb/>das, so sy gemelter <orgName ref="org004352">stifft</orgName>
+<app>
+<lem>ze geben schuldig gewesen <lb/>sind, nǎch sag irs rodels</lem>
+<rdg wit="StAZH G I 1, Nr. 108">ze geben schǔldig sind, es sy holtz, hoͤw, huͤner, eyer, wie dan ir hofrodel zuͦgit,</rdg>
+</app> fu̍rer geben wie von <lb/>alter har, usgeschlossen die eyer, so man nempt <lb/>die kuͤ
+eyer<!-- ahh: Kuhgeld, Jahressteuer für Rindvieh, vgl. DRW Bd. VIII, Sp. 48f. --><note>Dem Propst standen gemäss deutschsprachiger Offnung
+jeweils an Pfingsabend vier Eier pro Mutterkuh zu. Von einer <orig>mansikuͦe</orig>, einer Kuh, die man längere Zeit nicht trächtig werden
+liess (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref
+target="https://digital.idiotikon.ch/idtkn/id3.htm#!page/30091/mode/2up">Bd. 3, Sp. 94</ref></bibl>), schuldete man dem Propst dagegen eine
+Abgabe von lediglich zwei Eiern (vgl. <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref
+target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_117">IX, Nr. 4, Art. 13, S. 117</ref></bibl>). Die ältere lateinische
+Offnung von <date notBefore="1296" notAfter="1346">vor 1346</date> sah die halbierte Abgabe dagegen für Ziegen vor (vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_111"
+>IX, Nr. 1, Art. 11, S. 111</ref></bibl>).</note>, soͤllend inen nǎchgelasen sin. Und <lb/>was huͤnern bishar einem bropst worden sind,
 <lb/>die soͤllen hinfu̍r einem oberfogt von <placeName ref="loc009863">Wiedickon</placeName>
-<lb/>werden. Und die buͦsen soͤllen gemeiner 
-<lb/>statt zuͤgehoͤren und sust sol es in allen 
-<lb/>andern irs dorffs rechtungen by iro, dero von 
-<lb/><placeName ref="loc010356">Rieden</placeName>, hof rodel<note><bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=600304">StAZH G I 102, fol. 30v-32v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_115">IX, Nr. 4, S. 115-121</ref></bibl>.</note> bliben.<note>Dieser Abschnitt floss in die erneuerte deutsche Offnung vom <date when="1561-11-03">3. November 1561</date> ein (Abschrift: <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=602606">StAZH A 97.1, Nr. 12</ref></bibl>, versetzt von <bibl>C II 1, Nr. 1067</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_128">IX, Nr. 9</ref></bibl>, hier unrichtig als C II 1, Nr. 1068; <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Beiträge</ref>, Bd. 2, S. 135-157</bibl>).</note>
-<add place="inline" hand="other hand"><!-- ahh:  Lässt sich diese Abfuhr belegen? ev. in B V 4-6? Dann liesse sich auch der Nachtrag datieren -->Doch haben inenn 
-<lb/>min hern abgeschlagen, das si die fraͤfel, 
-<lb/>so zwu̍schen den vier waͤnnden beschaͤchen, 
-<lb/>nit selbs <del rend="strikethrough">soͤllen</del><!-- ahh: Wird zurzeit doppelt angezeigt. Hängt mit noch fehlender Umsetzung von "other hand" im Editionstext zusammen. --> richtten, sunders in clagen 
-<lb/>stellen und dieselben dem obervogt, wie ander 
-<lb/>hindersaͤssen thuͦnd, u̍berantwurten soͤllen.</add><note>Der Nachtrag von der Hand des Stadtschreibers nimmt wahrscheinlich Bezug auf den Artikel der Offnung des 15. Jahrhunderts, wonach Frevel <orig>mit worten, mit streichen oder mit stichen</orig> noch gleichentags vor die Vierer zu bringen seien, <orig>so hǎt ein probst nǎch der fraͤveli nit ze frǎgen</orig> (zitiert nach <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_117">IX, Nr. 4, Art. 12, S. 117</ref></bibl>)<!-- ahh: Hier setzt das Portal die Hinzufügung von anderer Hand noch nicht in den Haupttext, womit das "Streichung" fälschlichererweise im Text der Fussnote erscheint. Ist zu prüfen, sobald es JL nach unseren Wünschen umgesetzt hat. -->.</note></p>
+<lb/>werden. Und die buͦsen soͤllen gemeiner <lb/>statt zuͤgehoͤren und sust sol es in allen <lb/>andern irs dorffs rechtungen by iro, dero
+von <lb/><placeName ref="loc010356">Rieden</placeName>, hof rodel<note><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=600304">StAZH G I 102, fol. 30v-32v</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_115"
+>IX, Nr. 4, S. 115-121</ref></bibl>.</note> bliben.<note>Dieser Abschnitt floss in die erneuerte deutsche Offnung vom <date
+when="1561-11-03">3. November 1561</date> ein (Abschrift: <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=602606"
+>StAZH A 97.1, Nr. 12</ref></bibl>, versetzt von <bibl>C II 1, Nr. 1067</bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH AF I/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_128"
+>IX, Nr. 9</ref></bibl>, hier unrichtig als C II 1, Nr. 1068; <bibl><ref target="/startseite/literaturverzeichnis">Schauberg,
+Beiträge</ref>, Bd. 2, S. 135-157</bibl>).</note>
+<add place="inline" hand="other hand"
+><!-- ahh:  Lässt sich diese Abfuhr belegen? ev. in B V 4-6? Dann liesse sich auch der Nachtrag datieren -->Doch haben inenn <lb/>min hern
+abgeschlagen, das si die fraͤfel, <lb/>so zwu̍schen den vier waͤnnden beschaͤchen, <lb/>nit selbs <del rend="strikethrough"
+>soͤllen</del><!-- ahh: Wird zurzeit doppelt angezeigt. Hängt mit noch fehlender Umsetzung von "other hand" im Editionstext zusammen. -->
+richtten, sunders in clagen <lb/>stellen und dieselben dem obervogt, wie ander <lb/>hindersaͤssen thuͦnd, u̍berantwurten
+soͤllen.</add><note>Der Nachtrag von der Hand des Stadtschreibers nimmt wahrscheinlich Bezug auf den Artikel der Offnung des 15.
+Jahrhunderts, wonach Frevel <orig>mit worten, mit streichen oder mit stichen</orig> noch gleichentags vor die Vierer zu bringen seien,
+<orig>so hǎt ein probst nǎch der fraͤveli nit ze frǎgen</orig> (zitiert nach <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH AF
+I/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_AF_I_1/index.html#p_117">IX, Nr. 4, Art. 12, S.
+117</ref></bibl>)<!-- ahh: Hier setzt das Portal die Hinzufügung von anderer Hand noch nicht in den Haupttext, womit das "Streichung" fälschlichererweise im Text der Fussnote erscheint. Ist zu prüfen, sobald es JL nach unseren Wünschen umgesetzt hat. -->.</note></p>
 <pb n="6" facs="StAZH_G_I_1__Nr__113__S__06_.tif"/>
 <div>
 <head>
@@ -160,124 +289,149 @@ Behandelte das Gericht Fälle der Stadtbürger, hiess es dagegen Stadt- oder Sch
 </head>
 </div>
 <p>
-<lb/>Als die von <placeName ref="loc009768">Hoͤnngg</placeName> ir gericht zuͦ 
-<lb/><placeName ref="loc009768">Hoͤnngg</placeName> haben und der hofmeyer, 
-<lb/>weibel und richter <date dur="R/P1Y">jerlich</date> einem bropst 
-<lb/><app><lem>hand muͤssen schweren</lem><rdg wit="StAZH G I 1, Nr. 108">geschworen haben</rdg></app>, desselben 
-<lb/>eids soͤllen sy erlasen sin und hinfu̍r 
-<lb/>einem oberfogt innamen u̍wer, unser 
-<lb/>herren und obern, schweren.<note>Vgl. die Eide von Hofmeier, Weibel und Richter in <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_38">Nr. 9-12</ref></bibl>.<!-- ahh: Hier ist die Rede davon, dass dem Gericht zu schwören sei. Wieso wird hier nicht der Obervogt erwähnt? Es scheint, als ob der Eid nach wie vor dem Propst geleistet worden wäre. Oder geht es hier um ein anderes Gericht? --> Das Hofgericht von <placeName ref="loc009768">Höngg</placeName> blieb auch nach der Übertragung der Gerichte bestehen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943</ref>, S. 22</bibl>).</note> Und was 
-<lb/>huͤnern sy von <placeName ref="loc009768">Hoͤnngg</placeName> einem bropst 
-<lb/>geben haben, die soͤllent einem oberfogt 
-<lb/>hinfu̍r zuͤ gehoͤren, und <app><lem>die buͦsen zuͤ 
-<lb/>gemeiner statt hannden inzogen werden</lem><rdg wit="StAZH G I 1, Nr. 108">aber die buͦsen und anders, so zuͦ <placeName ref="loc009768">Hoͤnngg</placeName> sich verloffen wurde, sol zuͦ gemeiner stat handen geantwurt werden </rdg></app>. 
-<lb/>Und sol hiemit dero von <placeName ref="loc009768">Hoͤnngg</placeName> hof<lb break="no"/> rodel nu̍tz dester minder in sinen krefften 
-<lb/>bliben.<note>Stiftsoffnung von <date when="1338">1338</date> in Latein (<bibl>ZBZ Ms C 10a, fol. 131r-133v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 149-154</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_4">Nr. 1, linke Spalte</ref></bibl>) und Deutsch (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=602078">StAZH G I 102, fol. 16v-22v</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_4">Nr. 1, rechte Spalte</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Grimm, Weisthümer</ref>, Bd. 1, S. 5-11</bibl>).</note>
+<lb/>Als die von <placeName ref="loc009768">Hoͤnngg</placeName> ir gericht zuͦ <lb/><placeName ref="loc009768">Hoͤnngg</placeName> haben und
+der hofmeyer, <lb/>weibel und richter <date dur="R/P1Y">jerlich</date> einem bropst <lb/><app>
+<lem>hand muͤssen schweren</lem>
+<rdg wit="StAZH G I 1, Nr. 108">geschworen haben</rdg>
+</app>, desselben <lb/>eids soͤllen sy erlasen sin und hinfu̍r <lb/>einem oberfogt innamen u̍wer, unser <lb/>herren und obern,
+schweren.<note>Vgl. die Eide von Hofmeier, Weibel und Richter in <bibl><ref target="/startseite/literaturverzeichnis">Stutz,
+Rechtsquellen</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_38">Nr.
+9-12</ref></bibl>.<!-- ahh: Hier ist die Rede davon, dass dem Gericht zu schwören sei. Wieso wird hier nicht der Obervogt erwähnt? Es scheint, als ob der Eid nach wie vor dem Propst geleistet worden wäre. Oder geht es hier um ein anderes Gericht? -->
+Das Hofgericht von <placeName ref="loc009768">Höngg</placeName> blieb auch nach der Übertragung der Gerichte bestehen (<bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943</ref>, S. 22</bibl>).</note> Und was <lb/>huͤnern sy von <placeName ref="loc009768"
+>Hoͤnngg</placeName> einem bropst <lb/>geben haben, die soͤllent einem oberfogt <lb/>hinfu̍r zuͤ gehoͤren, und <app>
+<lem>die buͦsen zuͤ <lb/>gemeiner statt hannden inzogen werden</lem>
+<rdg wit="StAZH G I 1, Nr. 108">aber die buͦsen und anders, so zuͦ <placeName ref="loc009768">Hoͤnngg</placeName> sich verloffen wurde, sol
+zuͦ gemeiner stat handen geantwurt werden </rdg>
+</app>. <lb/>Und sol hiemit dero von <placeName ref="loc009768">Hoͤnngg</placeName> hof<lb break="no"/> rodel nu̍tz dester minder in sinen
+krefften <lb/>bliben.<note>Stiftsoffnung von <date when="1338">1338</date> in Latein (<bibl>ZBZ Ms C 10a, fol. 131r-133v</bibl>; Edition:
+<bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 149-154</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref
+target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_4">Nr. 1, linke Spalte</ref></bibl>) und Deutsch (<bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=602078">StAZH G I 102, fol. 16v-22v</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Stutz, Rechtsquellen</ref>, <ref
+target="https://www.ssrq-sds-fds.ch/online/ZH_Hoengg_1/index.html#p_4">Nr. 1, rechte Spalte</ref></bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Grimm, Weisthümer</ref>, Bd. 1, S. 5-11</bibl>).</note>
 </p>
 <pb n="7" facs="StAZH_G_I_1__Nr__113__S__07_.tif"/>
 <div>
 <head><lb/><placeName ref="loc012174">Niderglat</placeName>
 </head>
 </div>
-<p><gap source="SSRQ ZH NF II/1, Nr. 98"/><note>Der Abschnitt betreffend <placeName ref="loc012141">Niederglatt</placeName> und <placeName ref="loc012142">Nöschikon</placeName>, die zum <placeName ref="loc009842">Neuamt</placeName> gehören, ist ediert in <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_233">Nr. 98, S. 233</ref></bibl><!-- ahh an PS: Das sind redundante Angaben, aber innerhalb von <gap source> kann man ja keinen Link mit <ref>? Das müssten wir besprechen.-->.</note></p>
+<p><gap source="SSRQ ZH NF II/1, Nr. 98"/><note>Der Abschnitt betreffend <placeName ref="loc012141">Niederglatt</placeName> und <placeName
+ref="loc012142">Nöschikon</placeName>, die zum <placeName ref="loc009842">Neuamt</placeName> gehören, ist ediert in <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_233"
+>Nr. 98, S.
+233</ref></bibl><!-- ahh an PS: Das sind redundante Angaben, aber innerhalb von <gap source> kann man ja keinen Link mit <ref>? Das müssten wir besprechen.-->.</note></p>
 <pb n="8" facs="StAZH_G_I_1__Nr__113__S__08_.tif"/>
 <div>
-<head><lb/><placeName ref="loc009859">Schwamendingen</placeName><note>Der Entwurf hat teilweise <orig><placeName ref="loc009859">Schwabendingen</placeName></orig>.</note></head>
+<head><lb/><placeName ref="loc009859">Schwamendingen</placeName><note>Der Entwurf hat teilweise <orig><placeName ref="loc009859"
+>Schwabendingen</placeName></orig>.</note></head>
 </div>
 <p>
-<lb/><placeName ref="loc009859">Schwamendingen</placeName> ist der <orgName ref="org004352">stifft</orgName> mit den 
-<lb/>gerichten bishar och verpflicht gewesen, 
-<lb/>also das sy hand muͤssen den potten und 
-<lb/>verbotten <add place="left margin">eines bropsts</add>
-gehorsam und gewertig sin, 
-<lb/>och das recht geben und nemen vor eines 
-<lb/>bropsts stab, namlich vor <placeName ref="loc012759">Sannt Cristoffel</placeName>.<note>Zum Gericht des <placeName ref="loc007562">Grossmünsters</placeName> vor <placeName ref="loc012759">Sankt Christoffel</placeName> und zur Nennung desselben in den Quellen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943</ref></bibl><!-- ahh: Bauhofer kann die Frage nach Organisation, Zuständigkeit und Verhältnis zu den einzelnen Hofgerichten, zum Hofgericht Fluntern sowie zu Propst und Kapitel auch nicht abschliessend klären, vgl. sein Schlusswort: Bauhofer 1943, S. 23. -->.</note>
-<lb/>Also haben wir, die verordnoten, unns 
-<lb/>entschlossen, das sy von <placeName ref="loc009859">Schwamendingen</placeName>
-<lb/>ein andern an der statt gericht an der stangen 
-<lb/>berechtigten soͤllind und einem oberfogt 
-<lb/>mit bott und verbott innamen u̍wer, unser 
-<lb/>herren<note>Die Bezugnahme auf die Obrigkeit an dieser Stelle fehlt im Entwurf.</note>, gehorsam und gewertig sin. Und 
-<lb/>was huͤnern bishar <app><lem/><rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg></app> einem bropst worden  
-<lb/>sind, die soͤllent hinfu̍r einem oberfogt 
-<lb/>werden, und die buͤsen und fraͤffel ge<lb break="no"/>meiner statt zuͤgehoͤren. Und sust 
-<lb/>sol ir offnung rodel in allen krefften 
-<lb/>sin und bliben.<note>Edition dieses Abschnitts in <bibl><ref target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 42</bibl>.</note>
+<lb/><placeName ref="loc009859">Schwamendingen</placeName> ist der <orgName ref="org004352">stifft</orgName> mit den <lb/>gerichten bishar
+och verpflicht gewesen, <lb/>also das sy hand muͤssen den potten und <lb/>verbotten <add place="left margin">eines bropsts</add> gehorsam
+und gewertig sin, <lb/>och das recht geben und nemen vor eines <lb/>bropsts stab, namlich vor <placeName ref="loc012759">Sannt
+Cristoffel</placeName>.<note>Zum Gericht des <placeName ref="loc007562">Grossmünsters</placeName> vor <placeName ref="loc012759">Sankt
+Christoffel</placeName> und zur Nennung desselben in den Quellen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer
+1943</ref></bibl><!-- ahh: Bauhofer kann die Frage nach Organisation, Zuständigkeit und Verhältnis zu den einzelnen Hofgerichten, zum Hofgericht Fluntern sowie zu Propst und Kapitel auch nicht abschliessend klären, vgl. sein Schlusswort: Bauhofer 1943, S. 23. -->.</note>
+<lb/>Also haben wir, die verordnoten, unns <lb/>entschlossen, das sy von <placeName ref="loc009859">Schwamendingen</placeName>
+<lb/>ein andern an der statt gericht an der stangen <lb/>berechtigten soͤllind und einem oberfogt <lb/>mit bott und verbott innamen u̍wer,
+unser <lb/>herren<note>Die Bezugnahme auf die Obrigkeit an dieser Stelle fehlt im Entwurf.</note>, gehorsam und gewertig sin. Und <lb/>was
+huͤnern bishar <app>
+<lem/>
+<rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg>
+</app> einem bropst worden <lb/>sind, die soͤllent hinfu̍r einem oberfogt <lb/>werden, und die buͤsen und fraͤffel ge<lb break="no"/>meiner
+statt zuͤgehoͤren. Und sust <lb/>sol ir offnung rodel in allen krefften <lb/>sin und bliben.<note>Edition dieses Abschnitts in <bibl><ref
+target="/startseite/literaturverzeichnis">Hotz, UB Schwamendingen</ref>, Teil 1, Nr. 42</bibl>.</note>
 </p>
 <pb n="9" facs="StAZH_G_I_1__Nr__113__S__09_.tif"/>
 <div>
 <head>
-<lb/><placeName ref="loc000509">Meylen</placeName><note><placeName ref="loc009841">Meilen</placeName> gehört nicht zu dieser Editionseinheit.</note></head>
+<lb/><placeName ref="loc000509">Meylen</placeName><note><placeName ref="loc009841">Meilen</placeName> gehört nicht zu dieser
+Editionseinheit.</note></head>
 </div>
-<p><lb/>Die von <placeName ref="loc009841">Meylen</placeName> sind ǒch mit den <app><lem/><rdg wit="StAZH G I 1, Nr. 108">kleinen</rdg></app> gerichten 
-<lb/>nach irs rodels sag der <orgName ref="org004352">stifft</orgName> verwandt<!-- ahh: im Sinne von zugehörig, vgl. Idiotikon Bd. 16, Sp. 722, I a: http://digital.idiotikon.ch/idtkn/id16.htm#!page/160719/mode/2up -->, da 
-<lb/>haben wir, die verordnotten, unns entschlossen, 
-<lb/>das die von <placeName ref="loc009841">Meylen</placeName> hinfu̍r ir gericht 
-<lb/>bruchen und volfuͤren soͤllind uff befelch 
-<lb/>und innamen u̍wer, unnser herren und 
-<lb/>obern, und was huͤnern einem bropst <app><lem/><rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg></app> worden 
-<lb/>sind, die soͤllent hinfu̍r einem oberfogt 
-<lb/>zuͦgehoͤren.<note>Das <placeName ref="loc007562">Grossmünster</placeName> hatte seine Rechte und die <date when="1384">1384</date> von König <persName ref="per000439">Wenzel</persName> gewährte Blutgerichtsbarkeit bereits <date when="1424">1424</date> an <placeName ref="loc000065">Zürich</placeName> übergeben (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D9423.php">Meilen (Vogtei)</ref></bibl>).</note></p>
+<p><lb/>Die von <placeName ref="loc009841">Meylen</placeName> sind ǒch mit den <app>
+<lem/>
+<rdg wit="StAZH G I 1, Nr. 108">kleinen</rdg>
+</app> gerichten <lb/>nach irs rodels sag der <orgName ref="org004352">stifft</orgName>
+verwandt<!-- ahh: im Sinne von zugehörig, vgl. Idiotikon Bd. 16, Sp. 722, I a: http://digital.idiotikon.ch/idtkn/id16.htm#!page/160719/mode/2up -->,
+da <lb/>haben wir, die verordnotten, unns entschlossen, <lb/>das die von <placeName ref="loc009841">Meylen</placeName> hinfu̍r ir gericht
+<lb/>bruchen und volfuͤren soͤllind uff befelch <lb/>und innamen u̍wer, unnser herren und <lb/>obern, und was huͤnern einem bropst <app>
+<lem/>
+<rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg>
+</app> worden <lb/>sind, die soͤllent hinfu̍r einem oberfogt <lb/>zuͦgehoͤren.<note>Das <placeName ref="loc007562">Grossmünster</placeName>
+hatte seine Rechte und die <date when="1384">1384</date> von König <persName ref="per000439">Wenzel</persName> gewährte Blutgerichtsbarkeit
+bereits <date when="1424">1424</date> an <placeName ref="loc000065">Zürich</placeName> übergeben (<bibl><ref
+target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D9423.php">Meilen
+(Vogtei)</ref></bibl>).</note></p>
 <pb n="10" facs="StAZH_G_I_1__Nr__113__S__10_.tif"/>
 <div>
 <head>
-<lb/><placeName ref="loc008713">Ruͤschlikon</placeName><note><placeName ref="loc008713">Rüschlikon</placeName> gehört nicht zu dieser Editionseinheit.</note>
+<lb/><placeName ref="loc008713">Ruͤschlikon</placeName><note><placeName ref="loc008713">Rüschlikon</placeName> gehört nicht zu dieser
+Editionseinheit.</note>
 </head>
 </div>
-<p><lb/>Die <orgName ref="org004352">stifft</orgName> hǎt zuͤ <placeName ref="loc008713">Ruͤschlikon</placeName> ouch die kleinen 
-<lb/>gericht an etlichen ortten und ennden, da 
-<lb/>haben wir, die verordnotten, unns entschlossen, 
-<lb/>das soͤlich, der <orgName ref="org004352">stifft</orgName> rechtung zuͦ <placeName ref="loc008713">Ruͤschlikon</placeName>, 
-<lb/>unnder einen ober- und unndervogt dienen 
-<lb/>und die selben soͤlichs innamen <choice><abbr>u̍</abbr><expan>u̍wer</expan></choice> wisheit 
-<lb/>verwalten soͤllent vor irem stab. Unnd was 
-<lb/>einem bropst <app><lem/><rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg></app>
-<app><lem>von huͤnern</lem><rdg wit="StAZH G I 1, Nr. 108"/></app> worden ist, 
-<lb/><app><lem>die</lem><rdg wit="StAZH G I 1, Nr. 108"/></app> soͤllent einem oberfogt hinfu̍r zuͦgehoͤren.
-</p>
+<p><lb/>Die <orgName ref="org004352">stifft</orgName> hǎt zuͤ <placeName ref="loc008713">Ruͤschlikon</placeName> ouch die kleinen
+<lb/>gericht an etlichen ortten und ennden, da <lb/>haben wir, die verordnotten, unns entschlossen, <lb/>das soͤlich, der <orgName
+ref="org004352">stifft</orgName> rechtung zuͦ <placeName ref="loc008713">Ruͤschlikon</placeName>, <lb/>unnder einen ober- und unndervogt
+dienen <lb/>und die selben soͤlichs innamen <choice>
+<abbr>u̍</abbr>
+<expan>u̍wer</expan>
+</choice> wisheit <lb/>verwalten soͤllent vor irem stab. Unnd was <lb/>einem bropst <app>
+<lem/>
+<rdg wit="StAZH G I 1, Nr. 108">der gerichten halb</rdg>
+</app>
+<app>
+<lem>von huͤnern</lem>
+<rdg wit="StAZH G I 1, Nr. 108"/>
+</app> worden ist, <lb/><app>
+<lem>die</lem>
+<rdg wit="StAZH G I 1, Nr. 108"/>
+</app> soͤllent einem oberfogt hinfu̍r zuͦgehoͤren. </p>
 <p>
-<lb/>Die von <placeName ref="loc012745">Renngg</placeName> soͤllen dienen in den 
-<lb/>gerichtzwanng, da hin sy von alter har 
-<lb/>gehoͤrt haben, mit allem rechten wie 
-<lb/>anndere gericht vorgemelt.
-</p>
+<lb/>Die von <placeName ref="loc012745">Renngg</placeName> soͤllen dienen in den <lb/>gerichtzwanng, da hin sy von alter har <lb/>gehoͤrt
+haben, mit allem rechten wie <lb/>anndere gericht vorgemelt. </p>
 <pb n="11" facs="StAZH_G_I_1__Nr__113__S__11_.tif"/>
-<div><head><lb/><placeName ref="loc008707">Fluͤntren</placeName></head></div>
+<div>
+<head><lb/><placeName ref="loc008707">Fluͤntren</placeName></head>
+</div>
 <p>
-<lb/>Als die hǔsgnossen zuͦ <placeName ref="loc008707">Fluͤntren</placeName> mit 
-<lb/>sampt denen zuͤ <placeName ref="loc010656">Sannt Liennhart</placeName>
-<lb/>mit hochen und nidern gerichten der 
-<lb/><orgName ref="org004352">stifft</orgName> verwanndt sind, da haben wir,
-<lb/>die verordnotten, unns entschlossen, das 
-<lb/>die gemelten huͧsgnossen an u̍wer, unser 
-<lb/>herren und obern, gericht an die stanngen 
-<lb/>dienen und ein andern daselbs, wie ander 
-<lb/>der statt umbsaͤssen berechtigen soͤllen, aber 
-<lb/>daby vorbehalten, was den huͧsgnossen 
-<lb/>von alterhar von der <orgName ref="org004352">stifft</orgName> ze geben gebu̍rt 
-<lb/>hat, es sige brot, win oder gelt, das es inen 
-<lb/>fu̍rer aber verlanngen soͤlle. Dagegen 
-<lb/>soͤllen die husgnossen der <orgName ref="org004352">stifft</orgName> und den 
-<lb/><orgName ref="org004352">chorherren</orgName> iro lechen halb ǒch tuͦn, das 
-<lb/>sy nach sag irs rodels ze tuͦn schuldig 
-<lb/>und pflichtig sind.<note>Älteres Hofrecht in Latein: <bibl>ZBZ Ms C 10a, fol. 134v-135v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz, Statutenbücher</ref>, S. 154-157</bibl>; jüngeres Hofrecht in deutscher Sprache: <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_024">SSRQ ZH NF II/11, Nr. 24</ref></bibl>. Im 16. Jahrhundert werden die Rechte und Pflichten der Stiftshausgenossen auf diesem Gebiet in einer Ordnung festgehalten (<bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72</ref></bibl>).</note> Und sust soͤllen 
-<lb/>sy dienen <app><lem/><rdg wit="StAZH G I 1, Nr. 108">und gehoͤren</rdg></app> unnder ire oberfoͤgt 
-<lb/>und dero gebotten und verbotten, gehorsam 
-<lb/>und gewaͤrttig sin.
-</p>
+<lb/>Als die hǔsgnossen zuͦ <placeName ref="loc008707">Fluͤntren</placeName> mit <lb/>sampt denen zuͤ <placeName ref="loc010656">Sannt
+Liennhart</placeName>
+<lb/>mit hochen und nidern gerichten der <lb/><orgName ref="org004352">stifft</orgName> verwanndt sind, da haben wir, <lb/>die verordnotten,
+unns entschlossen, das <lb/>die gemelten huͧsgnossen an u̍wer, unser <lb/>herren und obern, gericht an die stanngen <lb/>dienen und ein
+andern daselbs, wie ander <lb/>der statt umbsaͤssen berechtigen soͤllen, aber <lb/>daby vorbehalten, was den huͧsgnossen <lb/>von alterhar
+von der <orgName ref="org004352">stifft</orgName> ze geben gebu̍rt <lb/>hat, es sige brot, win oder gelt, das es inen <lb/>fu̍rer aber
+verlanngen soͤlle. Dagegen <lb/>soͤllen die husgnossen der <orgName ref="org004352">stifft</orgName> und den <lb/><orgName ref="org004352"
+>chorherren</orgName> iro lechen halb ǒch tuͦn, das <lb/>sy nach sag irs rodels ze tuͦn schuldig <lb/>und pflichtig sind.<note>Älteres
+Hofrecht in Latein: <bibl>ZBZ Ms C 10a, fol. 134v-135v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schwarz,
+Statutenbücher</ref>, S. 154-157</bibl>; jüngeres Hofrecht in deutscher Sprache: <bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_024">SSRQ
+ZH NF II/11, Nr. 24</ref></bibl>. Im 16. Jahrhundert werden die Rechte und Pflichten der Stiftshausgenossen auf diesem Gebiet in einer
+Ordnung festgehalten (<bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_072">SSRQ ZH NF II/11, Nr. 72</ref></bibl>).</note> Und sust soͤllen
+<lb/>sy dienen <app>
+<lem/>
+<rdg wit="StAZH G I 1, Nr. 108">und gehoͤren</rdg>
+</app> unnder ire oberfoͤgt <lb/>und dero gebotten und verbotten, gehorsam <lb/>und gewaͤrttig sin. </p>
 <pb n="12" facs="StAZH_G_I_1__Nr__113__S__12_.tif"/>
-<p><lb/><handShift scribe="per006166"/><!-- Schreiber ist Werner Beyel/Bygel/Bigel --><origDate when="1526-12-29" calendar="natal">Sampstag nach der kindlinen tag 
-<lb/>anno <abbr>etc</abbr> xxvii</origDate>
-<choice><abbr>pnt</abbr><expan>presentibus</expan></choice> her <orgName ref="org002406"><choice><abbr>burg</abbr><expan>burgermeister</expan></choice>
+<p><lb/><handShift scribe="per006166"/><!-- Schreiber ist Werner Beyel/Bygel/Bigel --><origDate when="1526-12-29" calendar="natal">Sampstag
+nach der kindlinen tag <lb/>anno <abbr>etc</abbr> xxvii</origDate>
+<choice>
+<abbr>pnt</abbr>
+<expan>presentibus</expan>
+</choice> her <orgName ref="org002406"><choice>
+<abbr>burg</abbr>
+<expan>burgermeister</expan>
+</choice>
 <lb/><persName ref="per012669">Roͤst</persName>, raͤt unnd burger</orgName></p>
 <p>
-<lb/>Min hern haben das, so harinn der 
-<lb/>chorhern und irer gerichtten halb stǎt, angenommen 
-<lb/>unnd bestaͤt <abbr>etc</abbr>.
-</p>
+<lb/>Min hern haben das, so harinn der <lb/>chorhern und irer gerichtten halb stǎt, angenommen <lb/>unnd bestaͤt <abbr>etc</abbr>. </p>
 <p>
-<lb/>Stattschriber<note>Dieser Nachtrag kann aufgrund der Wahl <persName ref="per012630">Werner Beyels</persName> zum Stadtschreiber <placeName ref="loc000065">Zürichs</placeName>
-<date notBefore="1529">frühestens 1529</date> erfolgt sein. Er ist auszugsweise ediert in <bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_233">Nr. 98, S. 233</ref></bibl>.</note>
+<lb/>Stattschriber<note>Dieser Nachtrag kann aufgrund der Wahl <persName ref="per012630">Werner Beyels</persName> zum Stadtschreiber
+<placeName ref="loc000065">Zürichs</placeName>
+<date notBefore="1529">frühestens 1529</date> erfolgt sein. Er ist auszugsweise ediert in <bibl><ref
+target="/startseite/literaturverzeichnis">SSRQ ZH NF II/1</ref>, <ref target="http://www.ssrq-sds-fds.ch/online/ZH_NF_II_1/index.html#p_233"
+>Nr. 98, S. 233</ref></bibl>.</note>
 </p>
 </div>
 <pb n="13" facs="StAZH_G_I_1__Nr__113__S__13_.tif"/>
@@ -285,37 +439,82 @@ gehorsam und gewertig sin,
 <pb n="15" facs="StAZH_G_I_1__Nr__113__S__15_.tif"/>
 <pb n="16" facs="StAZH_G_I_1__Nr__113__S__16_.tif
 "/>
-<div><ab type="dorsal" place="cover" hand="hand16c"><lb/><orgName ref="org004352">Gestifft mu̍nster</orgName></ab></div>
-<div><ab type="dorsal" place="cover" hand="hand17c" scribe="per011353"><!-- Schreiber ist Hans Jakob Fries --><lb/>Copiert - 976 fol.<note>Verweis auf die Abschrift im Stiftsprotokoll <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935596">StAZH G I 30, S. 976-983</ref></bibl>.</note></ab></div>
+<div>
+<ab type="dorsal" place="cover" hand="hand16c"><lb/><orgName ref="org004352">Gestifft mu̍nster</orgName></ab>
+</div>
+<div>
+<ab type="dorsal" place="cover" hand="hand17c" scribe="per011353"><!-- Schreiber ist Hans Jakob Fries --><lb/>Copiert - 976
+fol.<note>Verweis auf die Abschrift im Stiftsprotokoll <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935596">StAZH
+G I 30, S. 976-983</ref></bibl>.</note></ab>
+</div>
 </body>
 <back>
-<div n="1"><p>Die Reinschrift des Gutachtens wird zwischen dem im Entwurf
-(vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922</bibl>) genannten <date when="1526-02-03">3. Februar 1526</date> und der (im Nachtrag erwähnten) Bestätigung durch den <orgName ref="org002406">Rat von <placeName ref="loc000065">Zürich</placeName></orgName> am Samstag nach dem Kindleintag 1527 (Natalstil), also dem <date when="1526-12-29">29. Dezember 1526</date>, entstanden sein.</p>
-<p>Das vorliegende Gutachten ist nicht lediglich eine Reinschrift des Entwurfs von gleicher Hand, sondern weicht sowohl sprachlich als auch inhaltlich von der Vorlage ab. Die inhaltlichen Abweichungen sind im Editionstext dokumentiert respektive im Kommentar aufgeführt. Abweichungen in der Syntax werden nicht wiedergegeben, hingewiesen sei lediglich auf die abgeänderte Anrede der Obrigkeit mit <orig>u̍wer wisheit</orig> gegenüber <orig>unser herren und oberen</orig> beziehungsweise <orig>u̍wern</orig> gegenüber <orig>miner herren</orig> im Entwurf. Ausserdem ist der Bericht, welcher der Edition zu Grunde liegt, aus der Perspektive der Ratsverordneten geschrieben (<orig>wir, die verordnetten</orig>), der Entwurf erwähnt diese dagegen in der dritten Person (<orig>mine herren, die verordnoten</orig>).</p></div>
-<div n="2"><p>Obwohl die ersten Pfleger für das reformierte <orgName ref="org004352">Grossmünsterstift</orgName> bereits Ende des Jahres <date when="1523">1523</date> bestimmt worden waren und anfangs <date when="1524">1524</date> ein Mandat über die Ersetzung der geistlichen Gerichte durch die weltliche Gerichtsbarkeit ergangen war, zogen sich die Verhandlungen zur Abtretung der Gerichte an die Zürcher Obrigkeit bis Herbst <date when="1526">1526</date> hin (<bibl><ref target="/startseite/literaturverzeichnis">Figi 1951</ref>, S. 56-59</bibl>). Gemäss der Aufzählung in der an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> gerichteten Klageschrift des
-Stiftspropsts <persName ref="per011263">Felix Fry</persName> aus dem Jahr <date when="1545">1545</date> hatte das <orgName ref="org004352">Stift</orgName> demnach folgende Gerichtskompetenzen
-innegehabt: hohe und niedere Gerichte in <placeName ref="loc008707">Fluntern</placeName>, <placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc009841">Meilen</placeName>,
-<placeName ref="loc008713">Rüschlikon</placeName> und <placeName ref="loc012237">Rufers</placeName> (Stiftshof <placeName ref="loc012237">Rüschlikon-Rufers</placeName>), hingegen in <placeName ref="loc012745">Rengg</placeName>
-(Stiftshof), <placeName ref="loc009768">Höngg</placeName>, <placeName ref="loc009859">Schwamendingen</placeName>, <placeName ref="loc012142">Nöschikon</placeName> und <placeName ref="loc012141">Niederglatt</placeName> sowie in
-<placeName ref="loc012717">Oberhausen</placeName> und <placeName ref="loc012256">Stettbach</placeName> lediglich die <orig>kleinen gerichten, mit zwängen,
-bännbußen und was die gricht antrifft</orig> (zitiert nach <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 79</bibl>). 
-Die Darstellung in <persName ref="per011263">Frys</persName> späterem Schreiben von <date when="1555">1555</date> an <orgName ref="org002406">Bürgermeister und
-Räte von <placeName ref="loc000065">Zürich</placeName></orgName> wird dagegen unrichtig sein (<bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 173-175</bibl>; zur zeitlichen Abweichung von
-Abfassung und Datierung durch <persName ref="per011263">Fry</persName> vgl. S. 172-173). Darin weicht er von obiger
-Aufzählung insofern ab, als das <orgName ref="org004352">Stift</orgName> in <placeName ref="loc012745">Rengg</placeName>, <placeName ref="loc009768">Höngg</placeName> und
-<placeName ref="loc012256">Stettbach</placeName> über die kleinen, in allen übrigen jedoch über beide Gerichte
-verfügt haben soll. Ausserdem führt der Propst neuerdings <placeName ref="loc010474">Hofstetten</placeName> (bei <placeName ref="loc000509">Meilen</placeName>) separat auf.</p>
-<p>Das <orgName ref="org004352">Stift</orgName> behielt sich bei der Abtretung der Gerichte als
- Einkommensgrundlage seine übrigen Güter ausdrücklich vor und zwar in Form von
-<orig>zechenden, zins, rent und gült, frächten, wydum, lechen, huben,
-schupessen, höf, holtz, veld, thäl, ehrschätz, fertigungen, güter und
-nutzungen, wie die genampt sind und gemelte rödel, unsre urbar und brief
-uns zugebend, mit sampt der vogtstür zu <placeName ref="loc010356">Rieden</placeName>, die mit barem gelt
-erkauft ist</orig> (zitiert nach <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 79</bibl>; so auch in <bibl><ref target="/startseite/literaturverzeichnis">Bullinger, Reformationsgeschichte</ref>, Bd. 1, Nr. 72</bibl> wiedergegeben und ähnlich im letzten Schreiben <persName ref="per011263">Frys</persName>, vgl.
-<bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 174</bibl>). Die von Propst <persName ref="per011263">Fry</persName> hervorgehobene Vogtsteuer in <placeName ref="loc010356">Albisrieden</placeName>, deren Einnahme dem <orgName ref="org004352">Stift</orgName> unter Auflagen belassen wurde, führte später zu Unsicherheiten auf Seiten der Obervögte von <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref target="/suche/Detail/SSRQ_ZH_NF_II_11_080">SSRQ ZH NF II/11, Nr. 80</ref></bibl>).
-</p>
-<p>Im Entwurf schlagen die Ratsverordneten auch eine Verringerung der Anzahl der Pfründen des <orgName ref="org004352">Stifts</orgName> und der Abtei vor. Ausserdem ist eine Klage der Amtleute beider Stifte betreffend die Schwierigkeit des Einzugs zu vieler kleiner Zinsen wiedergegeben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 3-4</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. I.2-4, S. 436</bibl>). Der Entwurf regelt zudem die Kompetenzen der niederen Gerichte in <placeName ref="loc008730">Rümlang</placeName>, <placeName ref="loc010666">Seebach</placeName> und <placeName ref="loc010875">Wipkingen</placeName>, die bisher von einem Amtmann der <orgName ref="org004908">Fraumünsterabtei</orgName> wahrgenommen wurden. Während <placeName ref="loc008730">Rümlang</placeName> und <placeName ref="loc010875">Wipkingen</placeName> in dieser Hinsicht einem Obervogt unterstellt wurden, kamen <placeName ref="loc010666">Seebach</placeName> (mit Verweis auf <placeName ref="loc010598">Oerlikon</placeName> und <placeName ref="loc009859">Schwamendingen</placeName>) an das Stadtgericht an den Stangen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 79, Anm. 277a</bibl> mit Verweis auf <bibl>S. 83-84, Anm. 292</bibl>, vermutet, darunter sei wohl «das Stadtgericht im engeren Sinne [Schultheissengericht] zu verstehen, und nicht das allerdings wenige Jahrzehnte später "Stangengericht" genannte Vogtgericht im neueren Sinne.»). Die Bussgelder aller drei Orte sollten künftig an die Stadt fallen und der übrige Inhalt der jeweiligen Offnungs- und Hofrodel wurde bestätigt (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 5-6</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. II.1-3, S. 436-437</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 79</bibl>). Auf diese Bestimmungen folgt ein Nachtrag von anderer Hand über die am <date when="1526-02-03">3. Februar 1526</date> von den beiden <orgName ref="org002406">Räten</orgName> ergangene Bestätigung der vorangehenden Artikel.
-</p></div>
+<div n="1">
+<p>Die Reinschrift des Gutachtens wird zwischen dem im Entwurf (vgl. <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref></bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922</bibl>) genannten <date when="1526-02-03">3. Februar
+1526</date> und der (im Nachtrag erwähnten) Bestätigung durch den <orgName ref="org002406">Rat von <placeName ref="loc000065"
+>Zürich</placeName></orgName> am Samstag nach dem Kindleintag 1527 (Natalstil), also dem <date when="1526-12-29">29. Dezember 1526</date>,
+entstanden sein.</p>
+<p>Das vorliegende Gutachten ist nicht lediglich eine Reinschrift des Entwurfs von gleicher Hand, sondern weicht sowohl sprachlich als auch
+inhaltlich von der Vorlage ab. Die inhaltlichen Abweichungen sind im Editionstext dokumentiert respektive im Kommentar aufgeführt.
+Abweichungen in der Syntax werden nicht wiedergegeben, hingewiesen sei lediglich auf die abgeänderte Anrede der Obrigkeit mit <orig>u̍wer
+wisheit</orig> gegenüber <orig>unser herren und oberen</orig> beziehungsweise <orig>u̍wern</orig> gegenüber <orig>miner herren</orig> im
+Entwurf. Ausserdem ist der Bericht, welcher der Edition zu Grunde liegt, aus der Perspektive der Ratsverordneten geschrieben (<orig>wir, die
+verordnetten</orig>), der Entwurf erwähnt diese dagegen in der dritten Person (<orig>mine herren, die verordnoten</orig>).</p>
+</div>
+<div n="2">
+<p>Obwohl die ersten Pfleger für das reformierte <orgName ref="org004352">Grossmünsterstift</orgName> bereits Ende des Jahres <date
+when="1523">1523</date> bestimmt worden waren und anfangs <date when="1524">1524</date> ein Mandat über die Ersetzung der geistlichen
+Gerichte durch die weltliche Gerichtsbarkeit ergangen war, zogen sich die Verhandlungen zur Abtretung der Gerichte an die Zürcher Obrigkeit
+bis Herbst <date when="1526">1526</date> hin (<bibl><ref target="/startseite/literaturverzeichnis">Figi 1951</ref>, S. 56-59</bibl>). Gemäss
+der Aufzählung in der an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName>
+gerichteten Klageschrift des Stiftspropsts <persName ref="per011263">Felix Fry</persName> aus dem Jahr <date when="1545">1545</date> hatte
+das <orgName ref="org004352">Stift</orgName> demnach folgende Gerichtskompetenzen innegehabt: hohe und niedere Gerichte in <placeName
+ref="loc008707">Fluntern</placeName>, <placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc009841">Meilen</placeName>,
+<placeName ref="loc008713">Rüschlikon</placeName> und <placeName ref="loc012237">Rufers</placeName> (Stiftshof <placeName ref="loc012237"
+>Rüschlikon-Rufers</placeName>), hingegen in <placeName ref="loc012745">Rengg</placeName> (Stiftshof), <placeName ref="loc009768"
+>Höngg</placeName>, <placeName ref="loc009859">Schwamendingen</placeName>, <placeName ref="loc012142">Nöschikon</placeName> und <placeName
+ref="loc012141">Niederglatt</placeName> sowie in <placeName ref="loc012717">Oberhausen</placeName> und <placeName ref="loc012256"
+>Stettbach</placeName> lediglich die <orig>kleinen gerichten, mit zwängen, bännbußen und was die gricht antrifft</orig> (zitiert nach
+<bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 79</bibl>). Die Darstellung in <persName ref="per011263"
+>Frys</persName> späterem Schreiben von <date when="1555">1555</date> an <orgName ref="org002406">Bürgermeister und Räte von <placeName
+ref="loc000065">Zürich</placeName></orgName> wird dagegen unrichtig sein (<bibl><ref target="/startseite/literaturverzeichnis">Weisz
+1939-1940</ref>, S. 173-175</bibl>; zur zeitlichen Abweichung von Abfassung und Datierung durch <persName ref="per011263">Fry</persName>
+vgl. S. 172-173). Darin weicht er von obiger Aufzählung insofern ab, als das <orgName ref="org004352">Stift</orgName> in <placeName
+ref="loc012745">Rengg</placeName>, <placeName ref="loc009768">Höngg</placeName> und <placeName ref="loc012256">Stettbach</placeName> über
+die kleinen, in allen übrigen jedoch über beide Gerichte verfügt haben soll. Ausserdem führt der Propst neuerdings <placeName
+ref="loc010474">Hofstetten</placeName> (bei <placeName ref="loc000509">Meilen</placeName>) separat auf.</p>
+<p>Das <orgName ref="org004352">Stift</orgName> behielt sich bei der Abtretung der Gerichte als Einkommensgrundlage seine übrigen Güter
+ausdrücklich vor und zwar in Form von <orig>zechenden, zins, rent und gült, frächten, wydum, lechen, huben, schupessen, höf, holtz, veld,
+thäl, ehrschätz, fertigungen, güter und nutzungen, wie die genampt sind und gemelte rödel, unsre urbar und brief uns zugebend, mit sampt der
+vogtstür zu <placeName ref="loc010356">Rieden</placeName>, die mit barem gelt erkauft ist</orig> (zitiert nach <bibl><ref
+target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S. 79</bibl>; so auch in <bibl><ref
+target="/startseite/literaturverzeichnis">Bullinger, Reformationsgeschichte</ref>, Bd. 1, Nr. 72</bibl> wiedergegeben und ähnlich im letzten
+Schreiben <persName ref="per011263">Frys</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weisz 1939-1940</ref>, S.
+174</bibl>). Die von Propst <persName ref="per011263">Fry</persName> hervorgehobene Vogtsteuer in <placeName ref="loc010356"
+>Albisrieden</placeName>, deren Einnahme dem <orgName ref="org004352">Stift</orgName> unter Auflagen belassen wurde, führte später zu
+Unsicherheiten auf Seiten der Obervögte von <placeName ref="loc009863">Wiedikon</placeName> (<bibl><ref
+target="/suche/Detail/SSRQ_ZH_NF_II_11_080">SSRQ ZH NF II/11, Nr. 80</ref></bibl>). </p>
+<p>Im Entwurf schlagen die Ratsverordneten auch eine Verringerung der Anzahl der Pfründen des <orgName ref="org004352">Stifts</orgName> und
+der Abtei vor. Ausserdem ist eine Klage der Amtleute beider Stifte betreffend die Schwierigkeit des Einzugs zu vieler kleiner Zinsen
+wiedergegeben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 3-4</bibl>;
+Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. I.2-4, S. 436</bibl>). Der Entwurf
+regelt zudem die Kompetenzen der niederen Gerichte in <placeName ref="loc008730">Rümlang</placeName>, <placeName ref="loc010666"
+>Seebach</placeName> und <placeName ref="loc010875">Wipkingen</placeName>, die bisher von einem Amtmann der <orgName ref="org004908"
+>Fraumünsterabtei</orgName> wahrgenommen wurden. Während <placeName ref="loc008730">Rümlang</placeName> und <placeName ref="loc010875"
+>Wipkingen</placeName> in dieser Hinsicht einem Obervogt unterstellt wurden, kamen <placeName ref="loc010666">Seebach</placeName> (mit
+Verweis auf <placeName ref="loc010598">Oerlikon</placeName> und <placeName ref="loc009859">Schwamendingen</placeName>) an das Stadtgericht
+an den Stangen (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 79, Anm. 277a</bibl> mit Verweis auf <bibl>S.
+83-84, Anm. 292</bibl>, vermutet, darunter sei wohl «das Stadtgericht im engeren Sinne [Schultheissengericht] zu verstehen, und nicht das
+allerdings wenige Jahrzehnte später "Stangengericht" genannte Vogtgericht im neueren Sinne.»). Die Bussgelder aller drei Orte sollten
+künftig an die Stadt fallen und der übrige Inhalt der jeweiligen Offnungs- und Hofrodel wurde bestätigt (<bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=935528">StAZH G I 1, Nr. 108</ref>, S. 5-6</bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 922, Art. II.1-3, S. 436-437</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 79</bibl>). Auf diese Bestimmungen folgt ein Nachtrag von anderer Hand
+über die am <date when="1526-02-03">3. Februar 1526</date> von den beiden <orgName ref="org002406">Räten</orgName> ergangene Bestätigung der
+vorangehenden Artikel. </p>
+</div>
 </back>
 </text>
 </group>
