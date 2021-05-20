@@ -3,189 +3,496 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Zweiter Teil: Rechte der
 Landschaft. Band 11: Die Obervogteien um die Stadt Zürich</title>
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-19"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_II_11_012_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356550">StAZH C II 1, Nr. 432 a</idno></msIdentifier><head>Rechte und Pflichten des Kustos des Grossmünsterstifts in Oberhausen und Stettbach sowie der Eigenleute</head><msContents><summary>Der Kustos des Grossmünsters hat das Niedergericht in Oberhausen und Stettbach inne. Die Rechte des Kustos und jene der Eigenleute der beiden Höfe regeln das Maiengericht und Herbstgericht (1, 9, 18), beschränken das Recht des Müllers von Glattbrugg auf Viehhaltung (3) und nennen die Zuständigkeiten für das Niedergericht mit Twing und Bann (Kustos) und das Hochgericht (Vogt von Kyburg) (2, 4).  Der Kustos vertritt die Leute von Oberhausen bei Geldschulden vor geistlichen Gerichten (5). Er hält Aufsicht, dass die Leute von Oberhausen der Stadt Zürich keine Steuern bezahlen (6).  Weiter werden geregelt: Bussen (7, 14), Aufsicht über die Zäune (8, 19), Weinabgaben und Fallpflicht zuhanden des Kustos (10, 11), Fischereirechte der Leute von Oberhausen (12, 13), Erbrecht der in Oberhausen wohnhaften Eigenleute aufgrund der Ehegenossame unter den Klöstern Einsiedeln, Reichenau, Sankt Gallen und Fraumünster (15), Abzug (16), Öffnung der Ehgräben (17), Allmendnutzung (20).</summary><msItem><textLang>Deutsch, Latein</textLang><filiation type="current">Aufzeichnung, Rodel (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="57.0"/><width unit="cm" quantity="26.5"/></dimensions></extent><condition>Partielle Übermalung mit einer weisslichen carbonathaltigen Substanz, anschliessendes Auftupfen einer braunen Substanz</condition></supportDesc></objectDesc></physDesc><history><origin><origDate from="1393-01-01" to="1393-12-31">Der Nachtrag datiert vom 31. Mai 1523.</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Grimm, Weisthümer, Bd. 4, S. 302-304</bibl><bibl>Schauberg, Beiträge, Bd. 2, S. 223-234</bibl></listBibl><listBibl><head>Regest</head><bibl>URStAZH, Bd. 3, Nr. 3676</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000307">Allmende</term><term ref="key000184">Bussen</term><term ref="key000061">Ehegenossame</term><term ref="key000183">Fall</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000012">Offnung</term><term ref="key000151">Niedergerichtsbarkeit</term><term ref="key000335">Nutzungsrecht</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="StAZH_C_II_1__Nr__432_a__r_.tif"/>
-<p><delSpan spanTo="#del1" rend="blackened"/><lb/><foreign xml:lang="la">Anno <choice>
-<abbr>dni</abbr>
-<expan>domini</expan>
-</choice>
-<origDate when="1393">m<hi rend="sup">o</hi> ccc<hi rend="sup">o</hi> lxxxxiij</origDate> ego, <persName ref="per023963">Wernherus de
-Gerwil</persName><note>Ab dem Jahr <date when="1393">1393</date> war <persName ref="per023963">Diethelm Snelli von
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <persName>Michael Nadig</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <persName>Michael Nadig</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-19"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_II_11_012_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356550"
+                            >StAZH C II 1, Nr. 432 a</idno>
+                    </msIdentifier>
+                    <head>Rechte und Pflichten des Kustos des Grossmünsterstifts in Oberhausen und Stettbach sowie der Eigenleute</head>
+                    <msContents>
+                        <summary>Der Kustos des Grossmünsters hat das Niedergericht in Oberhausen und Stettbach inne. Die Rechte des Kustos und jene der Eigenleute der beiden Höfe regeln das Maiengericht und Herbstgericht (1, 9, 18), beschränken das Recht des Müllers von Glattbrugg auf Viehhaltung (3) und nennen die Zuständigkeiten für das Niedergericht mit Twing und Bann (Kustos) und das Hochgericht (Vogt von Kyburg) (2, 4).  Der Kustos vertritt die Leute von Oberhausen bei Geldschulden vor geistlichen Gerichten (5). Er hält Aufsicht, dass die Leute von Oberhausen der Stadt Zürich keine Steuern bezahlen (6).  Weiter werden geregelt: Bussen (7, 14), Aufsicht über die Zäune (8, 19), Weinabgaben und Fallpflicht zuhanden des Kustos (10, 11), Fischereirechte der Leute von Oberhausen (12, 13), Erbrecht der in Oberhausen wohnhaften Eigenleute aufgrund der Ehegenossame unter den Klöstern Einsiedeln, Reichenau, Sankt Gallen und Fraumünster (15), Abzug (16), Öffnung der Ehgräben (17), Allmendnutzung (20).</summary>
+                        <msItem>
+                            <textLang>Deutsch, Latein</textLang>
+                            <filiation type="current">Aufzeichnung, Rodel (Einzelblatt)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="57.0"/>
+                                        <width unit="cm" quantity="26.5"/>
+                                    </dimensions></extent>
+                                <condition>Partielle Übermalung mit einer weisslichen carbonathaltigen Substanz, anschliessendes Auftupfen einer braunen Substanz</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate from="1393-01-01" to="1393-12-31"
+                                >Der Nachtrag datiert vom 31. Mai 1523.</origDate></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl>Grimm, Weisthümer, Bd. 4, S. 302-304</bibl>
+                            <bibl>Schauberg, Beiträge, Bd. 2, S. 223-234</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Regest</head>
+                            <bibl>URStAZH, Bd. 3, Nr. 3676</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000273">Abgaben</term>
+                    <term ref="key000307">Allmende</term>
+                    <term ref="key000184">Bussen</term>
+                    <term ref="key000061">Ehegenossame</term>
+                    <term ref="key000183">Fall</term>
+                    <term ref="key003994">Hochgerichtsbarkeit</term>
+                    <term ref="key000012">Offnung</term>
+                    <term ref="key000151">Niedergerichtsbarkeit</term>
+                    <term ref="key000335">Nutzungsrecht</term>
+                    <term ref="key000157">Steuern</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="StAZH_C_II_1__Nr__432_a__r_.tif"/>
+                        <p><delSpan spanTo="#del1" rend="blackened"/><lb/><foreign xml:lang="la">Anno <choice>
+                                    <abbr>dni</abbr>
+                                    <expan>domini</expan>
+                                </choice>
+                                <origDate when="1393">m<hi rend="sup">o</hi> ccc<hi rend="sup"
+                                        >o</hi> lxxxxiij</origDate> ego, <persName ref="per023963"
+                                    >Wernherus de
+Gerwil</persName><note>Ab dem Jahr <date
+                                        when="1393">1393</date> war <persName ref="per023963"
+                                        >Diethelm Snelli von
 Görwihl</persName> Kustos des
-<orgName ref="org004352">Grossmünsters von <placeName ref="loc000065">Zürich</placeName></orgName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356895">StAZH C II 2, zu
-Nr. 289</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>,
-Bd. 3, Nr. 4392</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Meyer 1986</ref>,
-S. 536</bibl>). <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Beiträge</ref>, Bd. 2, S. 224</bibl>, liest <quote>Wernherus</quote>.
-<persName ref="per023950">Werner von
+<orgName
+                                        ref="org004352">Grossmünsters von <placeName ref="loc000065"
+                                            >Zürich</placeName></orgName> (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=356895"
+                                            >StAZH C II 2, zu
+Nr. 289</ref></bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>,
+Bd. 3, Nr. 4392</bibl>; <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Meyer 1986</ref>,
+S. 536</bibl>). <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Schauberg, Beiträge</ref>, Bd. 2, S. 224</bibl>, liest <quote>Wernherus</quote>.
+<persName
+                                        ref="per023950"
+                                        >Werner von
 Rinach</persName> war der Amtsvorgänger (<bibl>StAZH G I 140, fol. 78v</bibl>). In der als
-Abschrift überlieferten lateinischen Version der Rechte des Kustos und der Hofleute von <date when="1370">1370</date> wird eingangs <persName ref="per023950">Werner von Rinach</persName> genannt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_009">SSRQ ZH NF II/11, Nr. 9</ref></bibl>).<!-- ahh: Gemäss URStAZH Diethelm von Gerwil. Selbst wenn Diethelmus inhaltlich korrekt ist, hat sein Name keinen Platz. --></note>,
+Abschrift überlieferten lateinischen Version der Rechte des Kustos und der Hofleute von <date
+                                        when="1370">1370</date> wird eingangs <persName
+                                        ref="per023950"
+                                            >Werner von Rinach</persName> genannt (<bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_II_11_009"
+                                            >SSRQ ZH NF II/11, Nr. 9</ref></bibl>).<!-- ahh: Gemäss URStAZH Diethelm von Gerwil. Selbst wenn Diethelmus inhaltlich korrekt ist, hat sein Name keinen Platz. --></note>,
 thesaurarius <choice>
-<abbr>Thur</abbr>
-<expan>Thuricensis</expan>
-</choice>, habui iudicium <choice>
-<abbr>gnale</abbr>
-<expan>generale</expan>
-</choice> in <lb/><placeName ref="loc012717">Obernhusen</placeName> et in <placeName ref="loc012256">Stettbach</placeName>, in vulgari</foreign>
-<date when="--05">meyen</date> und <date period="fall">herpst</date> taͤding.<note>Anstelle dieser Einleitung setzen die
+                                    <abbr>Thur</abbr>
+                                    <expan>Thuricensis</expan>
+                                </choice>, habui iudicium <choice>
+                                    <abbr>gnale</abbr>
+                                    <expan>generale</expan>
+                                </choice> in <lb/><placeName ref="loc012717"
+                                    >Obernhusen</placeName> et in <placeName ref="loc012256"
+                                    >Stettbach</placeName>, in vulgari</foreign>
+                            <date when="--05">meyen</date> und <date period="fall"
+                                    >herpst</date> taͤding.<note>Anstelle dieser Einleitung setzen die
 anderen Überlieferungen eigene Überschriften. Eine ungefähr zeitgleich entstandene Abschrift oder Aufzeichnung ist in
 einer Sammlung von Bestimmungen betreffend das Amt des Kustos enthalten und entkoppelt die für
-<placeName ref="loc012717">Oberhausen</placeName> und <placeName ref="loc012256">Stettbach</placeName> gültigen Bestimmungen ebenfalls von einem
-konkreten Amtsinhaber: <orig>Von den rechten, twingen und baͤnnen ze <placeName ref="loc012717">Oberhusen</placeName>, die einem
-custer <placeName ref="loc000065">Zu̍rich</placeName>
-zuͦhorent</orig> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1203626">StAZH G I 134.1,
+<placeName
+                                    ref="loc012717">Oberhausen</placeName> und <placeName
+                                    ref="loc012256"
+                                        >Stettbach</placeName> gültigen Bestimmungen ebenfalls von einem
+konkreten Amtsinhaber: <orig>Von den rechten, twingen und baͤnnen ze <placeName
+                                        ref="loc012717"
+                                        >Oberhusen</placeName>, die einem
+custer <placeName
+                                        ref="loc000065"
+                                        >Zu̍rich</placeName>
+zuͦhorent</orig> (<bibl><ref
+                                        target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1203626"
+                                        >StAZH G I 134.1,
 fol. 6r-7r</ref></bibl>). Die in den textkritischen Anmerkungen aufgeführten Abweichungen sind allenfalls
 ein Hinweis auf eine abweichende
-Vorlage. Die <date when="1541">1541</date> von der Hand des Stiftsverwalters <persName ref="per011263">Felix Fry</persName> entstandene Kopie nennt im Titel
-dagegen sowohl das Datum als auch den Namen des Kustos: <orig><placeName ref="loc012717">Oberhuser</placeName> dingrodel, wie den
-custer <persName ref="per023963">von Gerwil</persName> gbrucht hat anno <date when="1393">1393</date></orig>. Diese Abschrift
-folgt mit unbedeutenden Abweichungen dem Textlaut des Rodels (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200932">StAZH G I 140, fol. 79
+Vorlage. Die <date
+                                    when="1541"
+                                    >1541</date> von der Hand des Stiftsverwalters <persName
+                                    ref="per011263"
+                                        >Felix Fry</persName> entstandene Kopie nennt im Titel
+dagegen sowohl das Datum als auch den Namen des Kustos: <orig><placeName
+                                        ref="loc012717"
+                                        >Oberhuser</placeName> dingrodel, wie den
+custer <persName
+                                        ref="per023963">von Gerwil</persName> gbrucht hat anno <date
+                                        when="1393"
+                                        >1393</date></orig>. Diese Abschrift
+folgt mit unbedeutenden Abweichungen dem Textlaut des Rodels (<bibl><ref
+                                        target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200932"
+                                        >StAZH G I 140, fol. 79
 r-v</ref></bibl>).</note></p>
-<p><seg n="1"><lb/>Item ze dem ersten, wenn ein kuster <date when="--05">meyen</date> ald <date period="fall">herbst</date> taͤding haben wil, so sol
-er es verkunden <lb/><date dur="P8D">acht tag</date>
+                        <p><seg n="1"><lb/>Item ze dem ersten, wenn ein kuster <date when="--05"
+                                    >meyen</date> ald <date period="fall"
+                                    >herbst</date> taͤding haben wil, so sol
+er es verkunden <lb/><date
+                                    dur="P8D"
+                                >acht tag</date>
 vor ald man ist im enheins rechten
 gehorsam.</seg></p>
-<p><seg n="2"><lb/>Item ein kuster hat ze <placeName ref="loc012717">Obernhusen</placeName> twing und ban von dem <placeName ref="loc010666">Sebach</placeName> untz <measure type="area" quantity="3" unit="Klafter">dru klafter</measure> nider<lb break="no"/>halb <placeName ref="loc012119">Glattbrug</placeName> und sol man den von <placeName ref="loc012717">Obernhusen</placeName> du̍ selben <measure type="area" quantity="3" unit="Klafter">dru klafter</measure> uf tuͦn, wenn  
+                        <p><seg n="2"><lb/>Item ein kuster hat ze <placeName ref="loc012717"
+                                    >Obernhusen</placeName> twing und ban von dem <placeName
+                                    ref="loc010666">Sebach</placeName> untz <measure type="area"
+                                    quantity="3" unit="Klafter">dru klafter</measure> nider<lb
+                                    break="no"/>halb <placeName ref="loc012119"
+                                    >Glattbrug</placeName> und sol man den von <placeName
+                                    ref="loc012717">Obernhusen</placeName> du̍ selben <measure
+                                    type="area" quantity="3" unit="Klafter"
+                                >dru klafter</measure> uf tuͦn, wenn  
 <lb/>si wend ald si notdu̍rftig sint. Taͤt man des nu̍t, so mu̍gent si es selber uf tuͦn aͧne 
 <lb/>menlichs straffung.</seg></p>
-<p><seg n="3"><lb/>Item der mu̍ller ze <placeName ref="loc012119">Glattbrugg</placeName> sol nu̍t me haben denn ein hund und ein katzen 
-<lb/>und anders einkein vich, das den von <placeName ref="loc012717">Obernhusen</placeName> schaͤdlich sige.</seg></p><anchor xml:id="del1"/>
-<p><seg n="4"><lb/>Item elli kleini gericht ze <placeName ref="loc012717">Obernhusen</placeName> sind eines kusters, aͧn tu̍b und fraͤvel, du̍ 
-<lb/>hoͤrent einem vogt von <placeName ref="loc000012">Kyburg</placeName> an.<add place="inline" hand="hand15c">Nu hinfu̍r die statt von <placeName ref="loc000065">Zu̍rich</placeName>.</add><note>Dieser Nachtrag ist in den Abschriften nicht enthalten.</note></seg></p>
-<p><seg n="5"><lb/>Item ladet die von <placeName ref="loc012717">Obernhusen</placeName> jeman an geistliche gericht umb geltschult, so si im das 
+                        <p><seg n="3"><lb/>Item der mu̍ller ze <placeName ref="loc012119"
+                                    >Glattbrugg</placeName> sol nu̍t me haben denn ein hund und ein katzen 
+<lb/>und anders einkein vich, das den von <placeName
+                                    ref="loc012717"
+                            >Obernhusen</placeName> schaͤdlich sige.</seg></p>
+                        <anchor xml:id="del1"/>
+                        <p><seg n="4"><lb/>Item elli kleini gericht ze <placeName ref="loc012717"
+                                    >Obernhusen</placeName> sind eines kusters, aͧn tu̍b und fraͤvel, du̍ 
+<lb/>hoͤrent einem vogt von <placeName
+                                    ref="loc000012">Kyburg</placeName> an.<add place="inline"
+                                    hand="hand15c">Nu hinfu̍r die statt von <placeName
+                                        ref="loc000065"
+                                    >Zu̍rich</placeName>.</add><note>Dieser Nachtrag ist in den Abschriften nicht enthalten.</note></seg></p>
+                        <p><seg n="5"><lb/>Item ladet die von <placeName ref="loc012717"
+                                    >Obernhusen</placeName> jeman an geistliche gericht umb geltschult, so si im das 
 <lb/>verku̍ndent, so sol er si verstan. Verku̍ndent si im nu̍t, so verstanden sich selber.</seg></p>
-<p><seg n="6"><lb/>Item ein kuster sol inen vor sin, das si <app><lem/><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">ze</rdg></app>
-<placeName ref="loc000065">Zu̍rich</placeName> kein ymi noch ungelt gebent.</seg></p>
-<p><seg n="7"><lb/>Item wenn si einung machent umb zünen, umb schniden oder umb ander ding, do <app><lem>nimmet</lem><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">sol</rdg></app> der 
+                        <p><seg n="6"><lb/>Item ein kuster sol inen vor sin, das si <app>
+                                    <lem/>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">ze</rdg>
+                                </app>
+                                <placeName ref="loc000065"
+                                >Zu̍rich</placeName> kein ymi noch ungelt gebent.</seg></p>
+                        <p><seg n="7"><lb/>Item wenn si einung machent umb zünen, umb schniden oder umb ander ding, do <app>
+                                    <lem>nimmet</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">sol</rdg>
+                                </app> der 
 <lb/>kuster den dritten pfenning. Vordront aber si, das er inen helf, die zwen teil der einung in 
 <lb/>gewu̍nnen, das sol er inen helfen, ê er sinen dritten pfenning in naͤme.</seg></p>
-<p><seg n="8"><lb/>Item die evaden sint all eins kusters <date when="--05">ze meyen</date> und <date period="fall">ze herbst</date>.</seg></p>
-<p><seg n="9"><lb/>Item ein kuster sol <date when="--05-01" type="deadline">ze meyen an dem ersten tag</date>
-<app><lem>und oͧch <date period="fall" type="deadline">ze herbst</date></lem><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/></app> richten maͤnlichem umb 
+                        <p><seg n="8"><lb/>Item die evaden sint all eins kusters <date when="--05"
+                                    >ze meyen</date> und <date period="fall"
+                            >ze herbst</date>.</seg></p>
+                        <p><seg n="9"><lb/>Item ein kuster sol <date when="--05-01" type="deadline"
+                                    >ze meyen an dem ersten tag</date>
+                                <app>
+                                    <lem>und oͧch <date period="fall" type="deadline"
+                                            >ze herbst</date></lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/>
+                                </app> richten maͤnlichem umb 
 <lb/>eigen, umb erb, umb steg und umb weg und dur das jar umb geltschult.</seg></p>
-<p><seg n="10"><lb/>Item die Obernhusen su̍llent den win, der tuͦt <measure commodity="wine" quantity="2.5" unit="Viertel" type="volume">fu̍nf halbi
+                        <p><seg n="10"><lb/>Item die Obernhusen su̍llent den win, der tuͦt <measure
+                                    commodity="wine" quantity="2.5" unit="Viertel" type="volume"
+                                    >fu̍nf halbi
 viertal</measure>
-oder me oder minder, <app><lem>des besten <lb/><add place="overwritten">ân ein
+oder me oder minder, <app>
+                                    <lem>des besten <lb/><add place="overwritten"
+                                            >ân ein
 zapfen</add></lem>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">lantwins</rdg>
-</app>, den si einem kuster sond, <app>
-<lem>den selben win sond si</lem>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/>
-</app> geben <date when="--12-26" type="deadline">an sant <persName ref="per003068">Steffans</persName> tag</date>, <lb/>und sol er
-inen des tages ein mal geben und des selben wins ze trinken.<note>Am <date when="1532-11-19">19. November 1532</date>
-begehrt die Bauernschaft der Gehöfte <placeName ref="loc012256">Stettbach</placeName> und <placeName ref="loc012717">Oberhausen</placeName>, von
-der Bezahlung des Weinzinses an die Kustorei des <orgName ref="org004352">Grossmünsterstifts</orgName> befreit zu werden. Sie
-berufen sich auf den Übergang der Gerichtsbarkeit über die Stiftshöfe im Jahr <date when="1526">1526</date> an
-<placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1202134">StAZH G I 140, fol. 84 r-v</ref></bibl>).</note></seg></p>
-<p><seg n="11"><lb/>Item wer <app>
-<lem>oͧch des gotzhus guͦt besitzet</lem>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">uff des gotzhus guͦt sitzet</rdg>
-</app>
-<measure type="length" quantity="7" unit="Schuh">siben schuͦch</measure>
-<app>
-<lem>breit oder lang</lem>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">lang und breit</rdg>
-</app> oder der kustry, <lb/>stu̍rbet der, so sol er einem kuster ein val geben, das best hoͧbt aͧn ein hoͧbt oder
-<del rend="strikethrough">das</del>
-<lb/>das best gewant oder <app>
-<lem/>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">den besten</rdg>
-</app> harnatsch, ald sin erben sont mit im anders u̍ber ein kommen nach <lb/>gnad und das
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">lantwins</rdg>
+                                </app>, den si einem kuster sond, <app>
+                                    <lem>den selben win sond si</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/>
+                                </app> geben <date when="--12-26" type="deadline">an sant <persName
+                                        ref="per003068"
+                                        >Steffans</persName> tag</date>, <lb/>und sol er
+inen des tages ein mal geben und des selben wins ze trinken.<note>Am <date
+                                        when="1532-11-19"
+                                        >19. November 1532</date>
+begehrt die Bauernschaft der Gehöfte <placeName
+                                        ref="loc012256">Stettbach</placeName> und <placeName
+                                        ref="loc012717"
+                                        >Oberhausen</placeName>, von
+der Bezahlung des Weinzinses an die Kustorei des <orgName
+                                        ref="org004352"
+                                        >Grossmünsterstifts</orgName> befreit zu werden. Sie
+berufen sich auf den Übergang der Gerichtsbarkeit über die Stiftshöfe im Jahr <date
+                                        when="1526">1526</date> an
+<placeName ref="loc000065"
+                                        >Zürich</placeName> (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1202134"
+                                            >StAZH G I 140, fol. 84 r-v</ref></bibl>).</note></seg></p>
+                        <p><seg n="11"><lb/>Item wer <app>
+                                    <lem>oͧch des gotzhus guͦt besitzet</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"
+                                        >uff des gotzhus guͦt sitzet</rdg>
+                                </app>
+                                <measure type="length" quantity="7" unit="Schuh"
+                                    >siben schuͦch</measure>
+                                <app>
+                                    <lem>breit oder lang</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"
+                                        >lang und breit</rdg>
+                                </app> oder der kustry, <lb/>stu̍rbet der, so sol er einem kuster ein val geben, das best hoͧbt aͧn ein hoͧbt oder
+<del
+                                    rend="strikethrough">das</del>
+                                <lb/>das best gewant oder <app>
+                                    <lem/>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">den besten</rdg>
+                                </app> harnatsch, ald sin erben sont mit im anders u̍ber ein kommen nach <lb/>gnad und das
 tuͦn der eltost
 erb; es si danne, das si von einander geteilt haben, so su̍llent <lb/>si beid vellig sin. Erbt ein frow, du̍ git enkein
 val.</seg></p>
-<p><seg n="12"><lb/>Item die von <placeName ref="loc012717">Obernhusen</placeName> mügent vischen in des kusters twingen in der <placeName ref="loc010439">Glatt</placeName> du̍r das jar, was 
-<lb/>si bedürfent, an verkoffen. <date type="deadline_floating holiday">In der vasten</date> mügent si vischen und die essen und verkoͧffen und tuͦn, 
-<lb/>wie si wend.<note>Die Fischenz war <date when="1342">1342</date> an das <orgName ref="org006252">Augustiner Chorherrenstift auf dem <placeName ref="loc010892">Zürichberg</placeName></orgName> verliehen worden (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273867">StAZH C II 10, Nr. 92</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 311</bibl>); vgl. Anm. zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_015">SSRQ ZH NF II/11, Nr. 15</ref>, Art. 47</bibl>). In Bezug auf die Fischereirechte der Leute von <placeName ref="loc012717">Oberhausen</placeName> vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1550209">StAZH C II 10, Nr. 563, S. 3-4</ref></bibl>; <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1550210">StAZH C II 10, Nr. 563, S. 7-11</ref></bibl>.</note></seg></p>
-<p><seg n="13"><lb/>Item si hant ein
+                        <p><seg n="12"><lb/>Item die von <placeName ref="loc012717"
+                                    >Obernhusen</placeName> mügent vischen in des kusters twingen in der <placeName
+                                    ref="loc010439"
+                                    >Glatt</placeName> du̍r das jar, was 
+<lb/>si bedürfent, an verkoffen. <date
+                                    type="deadline_floating holiday"
+                                        >In der vasten</date> mügent si vischen und die essen und verkoͧffen und tuͦn, 
+<lb/>wie si wend.<note>Die Fischenz war <date
+                                        when="1342">1342</date> an das <orgName ref="org006252"
+                                            >Augustiner Chorherrenstift auf dem <placeName
+                                            ref="loc010892"
+                                            >Zürichberg</placeName></orgName> verliehen worden (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273867"
+                                            >StAZH C II 10, Nr. 92</ref></bibl>; Regest: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                        >URStAZH</ref>, Bd. 1, Nr. 311</bibl>); vgl. Anm. zu <bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_II_11_015"
+                                            >SSRQ ZH NF II/11, Nr. 15</ref>, Art. 47</bibl>). In Bezug auf die Fischereirechte der Leute von <placeName
+                                        ref="loc012717">Oberhausen</placeName> vgl. <bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1550209"
+                                            >StAZH C II 10, Nr. 563, S. 3-4</ref></bibl>; <bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1550210"
+                                            >StAZH C II 10, Nr. 563, S. 7-11</ref></bibl>.</note></seg></p>
+                        <p><seg n="13"
+                                        ><lb/>Item si hant ein
 langwatt<!-- ahh: eine seichte Stelle zum Fischen, vgl. Bd. 16, Sp. 2208 https://www.idiotikon.ch/Register/faksimile.php?band=16&spalte=2208&hl=299643 -->
 in dem
 ebach<!-- ahh: ebendiese Stelle im Idiotikon angegeben unter langwatt, dort aber fälschlicherweise als Sebach transkribiert. Unter ewbach steht die gleiche Stelle zitiert, diesmal korrekt als ebach = Dorfbach, vgl. https://www.idiotikon.ch/Register/faksimile.php?band=4&spalte=954&hl=109333. In einem Lehenbrief von 1623 steht sogar: "den eegraben, so man die Langwatt nennt" (Schauberg, Beiträge, Bd. 2, S. 226-227, Anm. 2.) -->,
 da mügent si vischen, wie und wenn sie wend, <lb/>und die verkoͧffen oder essen und sol si dar an nieman irren.
 Vindent oͧch si jeman andern <lb/>dar inne vischen, dem sont si werren und sol inen des ein kuster helfen und dar uff
-schirmen.<note>Dieser Artikel wird bei einer Fischenzverleihung <date when="1623">1623</date> erläutert
-(<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1477101">StAZH G I 6,
-Nr. 16</ref></bibl>; Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Schauberg, Beiträge</ref>, Bd. 2,
-S. 226-227, Anm. 2</bibl>; vgl. <bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=928107">StAZH A 85,
+schirmen.<note>Dieser Artikel wird bei einer Fischenzverleihung <date
+                                        when="1623">1623</date> erläutert
+(<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1477101"
+                                            >StAZH G I 6,
+Nr. 16</ref></bibl>; Teiledition: <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Schauberg, Beiträge</ref>, Bd. 2,
+S. 226-227, Anm. 2</bibl>; vgl. <bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=928107"
+                                            >StAZH A 85,
 Nr. 36</ref></bibl>).</note></seg></p>
-<p><seg n="14"><lb/>Item wer der ist, der <measure type="length" quantity="7" unit="Schuh">siben schuͦ</measure> lang oder breit
-hat von einem kuster, dem der <date when="--05-01" type="deadline">erst tag ze <lb/>meijen</date> oder <date period="fall">ze herbst</date> verku̍ndet ist <date dur="P8D">acht tag</date> vor, künt der nu̍t uff den tag, der
-ist einem <lb/>kuster vervallen ein einung, das sint <measure type="currency" quantity="3" unit="ß">iij  ₰</measure>.</seg></p>
-<p><seg n="15"><lb/>Item was lu̍ten ze <placeName ref="loc012717">Obernhusen</placeName> ist, si sin der gotzhu̍sern ze
-<orgName ref="org000577">Einsidellen</orgName>, uss der <orgName ref="org000360">Richen Ow</orgName>, ze <lb/><orgName ref="org000581">Sant
-Gallen</orgName>, <orgName ref="org004352">Sant Reglen</orgName> (ân verlent lu̍te), die sint
+                        <p><seg n="14"><lb/>Item wer der ist, der <measure type="length"
+                                    quantity="7" unit="Schuh"
+                                    >siben schuͦ</measure> lang oder breit
+hat von einem kuster, dem der <date
+                                    when="--05-01" type="deadline"
+                                    >erst tag ze <lb/>meijen</date> oder <date period="fall"
+                                    >ze herbst</date> verku̍ndet ist <date dur="P8D"
+                                    >acht tag</date> vor, künt der nu̍t uff den tag, der
+ist einem <lb/>kuster vervallen ein einung, das sint <measure
+                                    type="currency" quantity="3" unit="ß"
+                            >iij  ₰</measure>.</seg></p>
+                        <p><seg n="15"><lb/>Item was lu̍ten ze <placeName ref="loc012717"
+                                    >Obernhusen</placeName> ist, si sin der gotzhu̍sern ze
+<orgName
+                                    ref="org000577">Einsidellen</orgName>, uss der <orgName
+                                    ref="org000360">Richen Ow</orgName>, ze <lb/><orgName
+                                    ref="org000581">Sant
+Gallen</orgName>, <orgName ref="org004352"
+                                    >Sant Reglen</orgName> (ân verlent lu̍te), die sint
 <sic>einr</sic><!-- ahh: Hier wurde das r wohl fälschlicherweise nicht hochgestellt wie bei den anderen Wörtern u.a. in diesem Abschnitt. -->
 ander genoss und sond ein ander erben, <lb/>und hant si enhein nachwendigen fru̍nd, so sol si ir naͤchster nachgebur
-erben und nu̍t <lb/>der vogt.<note>Zum freien Erbrecht der Eigenleute vgl. <bibl><ref target="/startseite/literaturverzeichnis">Müller 1974</ref>, S. 84</bibl>.</note></seg></p>
-<p><seg n="16"><lb/>Item was der selben lu̍ten hie ist, die mugent <app>
-<lem>ziehen hinnnan</lem>
-<rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">hinnan ziehen</rdg>
-</app>, war si wend, und wenn si <lb/>fu̍r die <placeName ref="loc012613">Grossen Fluͤ</placeName>
-<!-- mng: Hans Kläui ist in der Ortsgeschichte ("Opfikon - Glattbrugg - Oberhausen einst und jetzt", Dc O 40 Fol; S. 16) der Meinung, dass sich die Familiennamen "Uf der Fluo" und "Flouman" vermutlich von der "Geländerippe [...], die sich vom Bubenholz bis in das Dorf Opfikon erstreckt" ableiten. 
+erben und nu̍t <lb/>der vogt.<note>Zum freien Erbrecht der Eigenleute vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Müller 1974</ref>, S. 84</bibl>.</note></seg></p>
+                        <p><seg n="16"><lb/>Item was der selben lu̍ten hie ist, die mugent <app>
+                                    <lem>ziehen hinnnan</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">hinnan ziehen</rdg>
+                                </app>, war si wend, und wenn si <lb/>fu̍r die <placeName
+                                    ref="loc012613">Grossen Fluͤ</placeName>
+                                <!-- mng: Hans Kläui ist in der Ortsgeschichte ("Opfikon - Glattbrugg - Oberhausen einst und jetzt", Dc O 40 Fol; S. 16) der Meinung, dass sich die Familiennamen "Uf der Fluo" und "Flouman" vermutlich von der "Geländerippe [...], die sich vom Bubenholz bis in das Dorf Opfikon erstreckt" ableiten. 
 --> in koment, so su̍llent si einem vogt nu̍t me gebunden sin
-ze dienenne, <lb/>es weri denn, das ir einer dem vogt ein einung schuldig weri ald ein buͦss verschult hetti, dar<lb break="no"/>umb mag er in an
+ze dienenne, <lb/>es weri denn, das ir einer dem vogt ein einung schuldig weri ald ein buͦss verschult hetti, dar<lb
+                                    break="no"
+                                />umb mag er in an
 griffen, untz er sich
 mit im gerichte.</seg></p>
-<p><seg n="17"><lb/>Item der êgrab sol allweg offen stan, ob wasser wurden us gan, das die schirmen hettin. 
+                        <p><seg n="17"
+                                ><lb/>Item der êgrab sol allweg offen stan, ob wasser wurden us gan, das die schirmen hettin. 
 <lb/>Aber die, die der egrab an hoͤret, hant si in nu̍t offen, das sond si bessran nach des dorfes 
 <lb/>gewonheit und des twings.</seg></p>
-<p><seg n="18"><lb/>Item wenn ein kuster vindet ein von <placeName ref="loc012717">Obernhusen</placeName> ze <placeName ref="loc000065">Zu̍rich</placeName> oder anderschwa, dem mag er ge<lb break="no"/>bieten, das er <app><lem>tag verku̍nd und gerichti</lem><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">verku̍nd tag und gericht</rdg></app>, die ein kuster haben wil <date when="--05">ze meyen</date> oder <date period="fall">ze herbst</date>.</seg></p>
-<p><seg n="19"><lb/>Item er mag ir jeklichem <app><lem>oͧch</lem><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/></app> gebieten evaden ze schowen. Taͤt er des nu̍t, so sol er 
-<lb/>bessran mit <measure type="currency" quantity="3" unit="ß">drin schillingen ₰</measure>.</seg></p>
-<p><seg n="20"><lb/>Item enkeiner umb saͤss dero von <placeName ref="loc012717">Obernhusen</placeName> sol uff ir wunn noch uff ir weid <app><lem/><rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">nu̍t</rdg></app> varn 
-<lb/>mit sinem vich, es beschaͤch denn mit ir guͦten willen.<add place="bottom" hand="hand16c"><lb/><date when="1523-05-31">1523 <choice><abbr>dnica</abbr><expan>dominica</expan></choice>, die ultima maii</date>, coram <persName ref="per015533">Heinrico Utinger</persName>, custode, 
-<lb/><choice><abbr>dnis</abbr><expan>dominis</expan></choice>
-<unclear>camere</unclear>
-<persName ref="per015559">Anthonie Walder</persName> et <persName ref="per023962">Heinrico Schwartzmurer</persName>, <choice><abbr>can</abbr><expan>canonici</expan></choice>,  <orgName ref="org004352"><choice><abbr>ppture</abbr><expan>prepositure</expan></choice>
-<lb/><placeName ref="loc000065">Thuricensis</placeName></orgName>, <persName ref="per023961">Bernhardus Reinhart</persName><note><persName ref="per023961">Bernhard Reinhard</persName> wird in der deutschen Fassung als Keller aus <placeName ref="loc010397">Bülach</placeName> bezeichnet (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200944">StAZH G I 140, fol. 80r</ref></bibl>).</note> legit hunc rotulum coram <lb/><choice><abbr>subdit</abbr><expan>subditis</expan></choice> per fidem desuper <choice><abbr>stipulan</abbr><expan>stipulantis</expan></choice> in hospicio an der <placeName ref="loc010439">Glatt</placeName>.</add><note>In der deutschen Version steht anschliessend geschrieben, später hätten <orgName ref="org004352">Propst und Kapitel</orgName> sowie der Kustos dieses Gericht zusammen mit jenen anderer Höfe unter Vorbehalt sämtlicher Nutzungsrechte an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> übergeben (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200944">StAZH G I 140, fol. 80r</ref></bibl>; zur Vereinbarung mit dem Kustos vgl. <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1897</bibl>).</note></seg>
-</p>
-</div>
-<pb n="v" facs="StAZH_C_II_1__Nr__432_a__v_.tif
+                        <p><seg n="18"><lb/>Item wenn ein kuster vindet ein von <placeName
+                                    ref="loc012717">Obernhusen</placeName> ze <placeName
+                                    ref="loc000065"
+                                    >Zu̍rich</placeName> oder anderschwa, dem mag er ge<lb
+                                    break="no"/>bieten, das er <app>
+                                    <lem>tag verku̍nd und gerichti</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"
+                                        >verku̍nd tag und gericht</rdg>
+                                </app>, die ein kuster haben wil <date when="--05"
+                                    >ze meyen</date> oder <date period="fall"
+                                >ze herbst</date>.</seg></p>
+                        <p><seg n="19"><lb/>Item er mag ir jeklichem <app>
+                                    <lem>oͧch</lem>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r"/>
+                                </app> gebieten evaden ze schowen. Taͤt er des nu̍t, so sol er 
+<lb/>bessran mit <measure
+                                    type="currency" quantity="3" unit="ß"
+                                    >drin schillingen ₰</measure>.</seg></p>
+                        <p><seg n="20"><lb/>Item enkeiner umb saͤss dero von <placeName
+                                    ref="loc012717">Obernhusen</placeName> sol uff ir wunn noch uff ir weid <app>
+                                    <lem/>
+                                    <rdg wit="StAZH G I 134, Teil I, fol. 6r-7r">nu̍t</rdg>
+                                </app> varn 
+<lb/>mit sinem vich, es beschaͤch denn mit ir guͦten willen.<add
+                                    place="bottom" hand="hand16c"><lb/><date when="1523-05-31">1523 <choice>
+                                            <abbr>dnica</abbr>
+                                            <expan>dominica</expan>
+                                        </choice>, die ultima maii</date>, coram <persName
+                                        ref="per015533">Heinrico Utinger</persName>, custode, 
+<lb/><choice>
+                                        <abbr>dnis</abbr>
+                                        <expan>dominis</expan>
+                                    </choice>
+                                    <unclear>camere</unclear>
+                                    <persName ref="per015559"
+                                        >Anthonie Walder</persName> et <persName ref="per023962"
+                                        >Heinrico Schwartzmurer</persName>, <choice>
+                                        <abbr>can</abbr>
+                                        <expan>canonici</expan>
+                                    </choice>,  <orgName ref="org004352"><choice>
+                                            <abbr>ppture</abbr>
+                                            <expan>prepositure</expan>
+                                        </choice>
+                                        <lb/><placeName ref="loc000065"
+                                        >Thuricensis</placeName></orgName>, <persName
+                                        ref="per023961"
+                                            >Bernhardus Reinhart</persName><note><persName
+                                            ref="per023961"
+                                            >Bernhard Reinhard</persName> wird in der deutschen Fassung als Keller aus <placeName
+                                            ref="loc010397"
+                                                >Bülach</placeName> bezeichnet (<bibl><ref
+                                                target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200944"
+                                                >StAZH G I 140, fol. 80r</ref></bibl>).</note> legit hunc rotulum coram <lb/><choice>
+                                        <abbr>subdit</abbr>
+                                        <expan>subditis</expan>
+                                    </choice> per fidem desuper <choice>
+                                        <abbr>stipulan</abbr>
+                                        <expan>stipulantis</expan>
+                                    </choice> in hospicio an der <placeName ref="loc010439"
+                                        >Glatt</placeName>.</add><note>In der deutschen Version steht anschliessend geschrieben, später hätten <orgName
+                                        ref="org004352"
+                                        >Propst und Kapitel</orgName> sowie der Kustos dieses Gericht zusammen mit jenen anderer Höfe unter Vorbehalt sämtlicher Nutzungsrechte an <orgName
+                                        ref="org002406">Bürgermeister und Rat von <placeName
+                                            ref="loc000065"
+                                            >Zürich</placeName></orgName> übergeben (<bibl><ref
+                                            target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200944"
+                                            >StAZH G I 140, fol. 80r</ref></bibl>; zur Vereinbarung mit dem Kustos vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Egli, Actensammlung</ref>, Nr. 1897</bibl>).</note></seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="StAZH_C_II_1__Nr__432_a__v_.tif
 "/>
-<div><ab type="dorsal" place="verso" hand="hand19c?"><lb/>Rechte <choice><abbr>u</abbr><expan>und</expan></choice> pflichten, welche ein <lb/>custos zu <placeName ref="loc012717">Oberhausen</placeName> hat.</ab></div>
-</body>
-<back>
-<div n="1"><p>Gemäss freundlicher Auskunft von Ines Rauschenbach, Leiterin Beständeerhaltung StAZH, im Sommer 2016, wurde nach 1523 (Nachtrag) auf manche Zeilen eine weissliche Substanz aufgetragen. Auf die ersten Artikel wurde zusätzlich eine zweite Substanz aufgetupft, die sich allenfalls erst später bräunlich verfärbte. Möglicherweise handelt es sich um eine Tilgung im Zusammenhang mit der Abtretung des Niedergerichts über die beiden Meierhöfe in <placeName ref="loc012717">Oberhausen</placeName> und jenen in <placeName ref="loc012256">Stettbach</placeName> durch den Kustos des <orgName ref="org004352">Grossmünsterstifts</orgName> an <placeName ref="loc000065">Zürich</placeName>; <placeName ref="loc012717">Oberhausen</placeName> gehörte nach der Reformation an das Stadtgericht (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 81, 84</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1897</bibl>).</p></div>
-<div n="2"><p>Die Inhaber der Stiftshöfe in <placeName ref="loc012717">Oberhausen</placeName> traten am <date when="1580-04-20">20. April 1580</date> vor die <orgName ref="org004352">Pfleger des Grossmünsterstifts von <placeName ref="loc000065">Zürich</placeName></orgName> und baten aufgrund des Verlusts ihres Offnungsexemplars um eine Abschrift aus dem Urbar, womit das Kelleramtsurbar des <orgName ref="org004352">Grossmünsters</orgName> von <date when="1541">1541</date> gemeint sein könnte (<bibl><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200932">StAZH G I 140, fol. 79r-v</ref></bibl>). Ohne das Schriftstück war es zu vielen Konflikten mit den Nachbarn gekommen, da die Nutzungsansprüche nicht belegt werden konnten. Die Offnung wurde bei dieser Gelegenheit vom <orgName ref="org004352">Stift</orgName> bestätigt. Sowohl die Gewährung der Abschrift als auch diese selbst sind <date when="1778">1778</date> als Kopie in einem Papierheft der <orgName ref="org007852">Gemeinde <placeName ref="loc012717">Oberhausen</placeName></orgName> überliefert (<bibl>PGA Opfikon, Zivilgemeinde Oberhausen-Opfikon, Nr. 2, S. 3-8</bibl>). Ebenfalls im Kelleramtsurbar ist zudem eine ältere, lateinische Fassung der vorliegenden Offnung überliefert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_009">SSRQ ZH NF II/11, Nr. 9</ref></bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand19c?"><lb/>Rechte <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> pflichten, welche ein <lb/>custos zu <placeName
+                                ref="loc012717">Oberhausen</placeName> hat.</ab>
+                    </div>
+                </body>
+                <back>
+                    <div n="1">
+                        <p>Gemäss freundlicher Auskunft von Ines Rauschenbach, Leiterin Beständeerhaltung StAZH, im Sommer 2016, wurde nach 1523 (Nachtrag) auf manche Zeilen eine weissliche Substanz aufgetragen. Auf die ersten Artikel wurde zusätzlich eine zweite Substanz aufgetupft, die sich allenfalls erst später bräunlich verfärbte. Möglicherweise handelt es sich um eine Tilgung im Zusammenhang mit der Abtretung des Niedergerichts über die beiden Meierhöfe in <placeName
+                                ref="loc012717">Oberhausen</placeName> und jenen in <placeName
+                                ref="loc012256">Stettbach</placeName> durch den Kustos des <orgName
+                                ref="org004352">Grossmünsterstifts</orgName> an <placeName
+                                ref="loc000065">Zürich</placeName>; <placeName ref="loc012717"
+                                >Oberhausen</placeName> gehörte nach der Reformation an das Stadtgericht (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Bauhofer 1943a</ref>, S. 81, 84</bibl>; <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                    >Egli, Actensammlung</ref>, Nr. 1897</bibl>).</p>
+                    </div>
+                    <div n="2">
+                        <p>Die Inhaber der Stiftshöfe in <placeName ref="loc012717"
+                                >Oberhausen</placeName> traten am <date when="1580-04-20"
+                                >20. April 1580</date> vor die <orgName ref="org004352"
+                                    >Pfleger des Grossmünsterstifts von <placeName ref="loc000065"
+                                    >Zürich</placeName></orgName> und baten aufgrund des Verlusts ihres Offnungsexemplars um eine Abschrift aus dem Urbar, womit das Kelleramtsurbar des <orgName
+                                ref="org004352">Grossmünsters</orgName> von <date when="1541"
+                                >1541</date> gemeint sein könnte (<bibl><ref
+                                    target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1200932"
+                                    >StAZH G I 140, fol. 79r-v</ref></bibl>). Ohne das Schriftstück war es zu vielen Konflikten mit den Nachbarn gekommen, da die Nutzungsansprüche nicht belegt werden konnten. Die Offnung wurde bei dieser Gelegenheit vom <orgName
+                                ref="org004352"
+                                >Stift</orgName> bestätigt. Sowohl die Gewährung der Abschrift als auch diese selbst sind <date
+                                when="1778">1778</date> als Kopie in einem Papierheft der <orgName
+                                ref="org007852">Gemeinde <placeName ref="loc012717"
+                                    >Oberhausen</placeName></orgName> überliefert (<bibl>PGA Opfikon, Zivilgemeinde Oberhausen-Opfikon, Nr. 2, S. 3-8</bibl>). Ebenfalls im Kelleramtsurbar ist zudem eine ältere, lateinische Fassung der vorliegenden Offnung überliefert (<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_II_11_009"
+                                    >SSRQ ZH NF II/11, Nr. 9</ref></bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
 <?oxy_options track_changes="on"?>
