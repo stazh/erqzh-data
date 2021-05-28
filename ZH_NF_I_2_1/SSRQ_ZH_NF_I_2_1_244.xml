@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_244</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AC 27/10</idno></msIdentifier><head>Siechenhausordnung der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur erlassen eine Ordnung für das Sondersiechenhaus. Sie legen fest, welche Leistungen den Pfründnern bezüglich Beleuchtung, Heizung, Verpflegung, Körperpflege und Betreuung zustehen (1.1-1.9) und welche Leistungen Gäste in Anspruch nehmen können bezüglich Übernachtung, Verpflegung, Krankenpflege und Betreuung (2.1-2.2). Sie definieren die Pflichten der Pfründner respektive der Gäste bezüglich Vereidigung (3), Geldspiel (3.1), Zuwendungen und Spenden (3.2, 3.17-3.19), Austragung von Konflikten mit dem Pfleger und untereinander (3.3, 3.15, 3.16), Eheschliessung (3.4), aussereheliche Kontakte (3.5-3.7), Sozialverhalten (3.8-3.9, 3.15-3.16), Waffentragen (3.10), Einhaltung der Nachtruhe (3.11-3.12), Tischgebet (3.13), Handhabung von offenem Feuer und Wasserzubern (3.14, 3.27), Betteln (3.20-3.21), Besuch der Stadt (3.22), gemeinschaftliches Trinken und Essen (3.23-3.24), Beherbergung von gesunden Bettlern und Landstreichern (3.25).</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Aufzeichnung, Heft (6 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent><condition>Feuchtigkeitsschäden (mit Textverlust)</condition></supportDesc></objectDesc></physDesc><history><origin><origDate when="1528-06-05"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hauser 1901, Beilage 3, S. 59-62</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005343">Ausserehelicher Geschlechtsverkehr</term><term ref="key004465">Badstube</term><term ref="key000184">Bussen</term><term ref="key000179">Eid</term><term ref="key004380">Fluchen/Schwören</term><term ref="key003009">Gebet</term><term ref="key003944">Siechenhaus</term><term ref="key000767">Spiel</term><term ref="key000187">Unterhalt</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="STAW_AC_27_10_S.1.jpg"/>
+<div><head><lb/>Ordnung und satzung der armen <orgName ref="org007453">sonder<lb break="no"/>siechen und kinden am veld</orgName>
+<add place="below" hand="hand18c">Anno <date when="1528">1528</date></add>
+</head>
+</div>
+<div><pb n="2" facs="STAW_AC_27_10_S.2.jpg"/></div>
+<div><pb n="3" facs="STAW_AC_27_10_S.3.jpg"/></div>
+<div>
+<p><lb/>Dis sind die satzung und <choice><sic>ordungen</sic><corr>ordnungen</corr></choice>,
+ <lb/>wie die <orgName ref="org007453">armen kind am feld</orgName>, es siginn
+<lb/>froͤmd oder heimsch, soͤllen gehaltenn
+<lb/>werden und hinwiderumb was sy zethuͦn
+<lb/>schuldig sin soͤllen. Habent mine heren
+<lb/><orgName ref="org007943">schultheis und rǎtt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> bestaͤtt
+<lb/>uff <origDate when="1528-06-05">frittag vor unsers hergots tag, anno xxviij<hi rend="sup">o</hi></origDate>.
+ </p>
+<head><lb/><seg n="1">Zem ersten, was man den verpfru̍enden kinden
+<lb/>in gedachten hus zethuͦn schuldig sig</seg></head>
+<p><seg n="1.1">
+<lb/>Item des ersten soll man inen gen für und liecht zuͦ rechter notturfftt.
+</seg></p>
+<p><seg n="1.2">
+<lb/>Item am anderen soll man jetlichem <date dur="R/P1W">alle wochen</date> gaͤben <measure type="weight" unit="Pfund" quantity="3" commodity="meat">iij ℔
+ <lb/>fleisch</measure>.</seg></p>
+<p><seg n="1.3">
+<lb/>Item <num value="2">zwey</num> gmu̍es, wen nitt fleischtag sind, und inen drüg
+ <lb/>mall eins <date dur="R/P1D">tags</date> gaͤben.</seg></p>
+<p><seg n="1.4">
+<lb/>Item man soll jetlichem <date dur="R/P1W">alle wochen</date>
+<subst><del><num value="4">iiij</num></del><add place="left margin" type="sign" hand="later hand"><num value="3">3</num> brott</add></subst> brott gaͤbe<damage agent="water spot"><supplied resp="bf">n</supplied></damage>.<note>Die Brotration wurde anlässlich der Revision der Satzung am 6. Februar 1587 von vier auf drei Laibe reduziert, da manche Insassen offenbar Brot verkauft hatten (<bibl>STAW AC 27/21</bibl>).</note></seg></p>
+<p><seg n="1.5">
+<lb/>Item man soll inen alwagen in <date dur="R/P3W">dryen wochen</date> ein<damage agent="water spot"><gap unit="cm" quantity="1"/></damage>
+<lb/>badstuben heitzen, doch soͤllen sy den bader in irem cos<damage agent="water spot"><supplied resp="bf">ten</supplied></damage>
+<lb/>one des huß schaden halten.</seg></p>
+<p><seg n="1.6">
+<lb/>Item me soll man inen on iren costen ein junckfruͦw<damage agent="water spot"><supplied resp="bf">en</supplied></damage>
+<lb/>halten und haben.
+ </seg></p>
+<p><seg n="1.7">
+<lb/>Item ouch soll einem <choice><sic>eltlichen</sic><corr>jetlichen</corr></choice>
+<date dur="R/P1D">alle tag</date> gaͤben werden <measure type="volume" unit="Mass" quantity="0.5" commodity="wine">einn
+ <lb/>halb maß winn</measure>.
+ </seg></p>
+<p><seg n="1.8">
+<lb/>Item me soll man einem jetlichen zuͦ <date type="deadline_floating holiday">osteren</date> für sine oster<lb break="no"/>eyer geben <measure type="currency" unit="ß" quantity="5">v  haller</measure>.<note>An Feiertagen gab es extra Rationen an Fleisch, Milchprodukten, Eiern, Früchten und Wein oder auch Geld, wie aus einer undatierten Aufstellung des Siechenpflegers hervorgeht (<bibl>STAW AC 27/3</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, Beilage 4, S. 63-64</bibl>).</note>
+</seg></p>
+<p><seg n="1.9">
+<lb/>Item so soll man inen an der <date dur="R/P4WD">mitwuchen</date> pachen schnitenn
+ <lb/>machen und am <date dur="R/P6WD">fritag</date> einem zuͦ <time period="evening">nacht</time>
+<num value="1">ein</num> paches und am
+ <lb/><date dur="R/P7WD">sambstag</date> zuͦ <time period="evening">nacht</time><!-- oder im Sinne von Nachtessen? PS: Ja, hier ist das Nachtessen gemeint, daher Abends. --> einem <num value="2">zwey</num> paches gaͤben, oͤb man inen nit
+<lb/>darfür visch gibtt. Doch wen man paches macht oder sunst
+ <lb/>ku̍echlett, soͤllen sy die eiger darzuͦ gaͤben.
+</seg></p>
+<pb n="4" facs="STAW_AC_27_10_S.4.jpg"/>
+<head><seg n="2"><lb/>Was man den froͤmden kinden geben und
+<lb/>wie man sy halten soͤlle<note>Dieser Artikel ist auch auf die Rückseite einer Abschrift des Vertrags zwischen dem <orgName ref="org007943">Schultheissen und Rat der Stadt <placeName ref="loc000849">Winterthur</placeName></orgName> und dem Bleichmeister vom 30. Juli 1526 notiert worden (<bibl>STAW AH 98/1/2 Bl, S. 4</bibl>).</note></seg>
+</head>
+<p><seg n="2.1">
+<lb/>Item so ein froͤmd kind in das huß kompt, so soll man das
+<lb/>darin zuͦ der <date dur="P1W">wochen</date> einest uber <time period="byNight">nacht</time> halten und
+ <lb/>im <time period="evening">am abentt</time> zuͦ dem nachtmall gaͤben <num value="1">ein</num> stuck gesoten
+ <lb/>fleisch und <num value="2">zwey</num> gmu̍es, des glichen mornadis zuͦ imbis
+ <lb/>ouch <num value="1">ein</num> stuck gesoten fleisch und <num value="2">zwey</num> gmu̍es, und ob es aber
+<lb/>alls dan nitt ein fleischtag wer, zuͦ den selben <num value="2">zweyen</num> mallen
+ <lb/>jedem insonder <num value="1">ein</num> gebaches mitt <num value="2">zweyen</num> gmu̍esen on allen
+ <lb/>abgang gaͤben. Aber in der <date type="deadline_floating holiday">fasten</date> soll in der <date dur="P1W">wochenn</date>
+<lb/>dem selben gast nitt mer den ein mall mitt <num value="1">einem</num> hering
+ <lb/>und <num value="2">zweyen</num> gmu̍esen gaͤben waͤrden. Waͤr aber sach, das
+<lb/>unzimlich ragen waͤter oder schne in fielle, soͤllent die froͤm<lb break="no"/>den <orgName ref="org007453">armen kind</orgName> ungevarlich witer den nun <num value="1">ein</num>
+<time period="byNight">nacht</time> beha<lb break="no"/>lten waͤrden, sunder sy früntlich und tugenlich beherb<lb break="no"/>ergen, bitz sy vor waͤter wider wandlen moͤgin.<note>Anlässlich der Revision der Satzung vom 6. Februar 1587 ordneten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> an, dass Gäste, die über Nacht blieben, das Siechenhaus erst nach einem Monat wieder aufsuchen durften (<bibl>STAW AC 27/21</bibl>).</note>
+</seg></p>
+<p><seg n="2.2">
+<lb/>Item wer ouch sach, das ein arms kind, eins oder <damage agent="water spot"><add hand="other hand" place="overwritten">mer, in das</add></damage>
+<lb/>gennantt huse zuͦ gast kaͤm, zuͦ woͤlicher zit das <damage agent="water spot"><add hand="other hand" place="overwritten">were, und</add></damage>
+<lb/>mitt kranckheitt beladen würde soͤlicher mǎß, das <damage agent="water spot"><add hand="other hand" place="overwritten">daß</add></damage><lb break="no"/>saͤlb siech nitt mer riten, gan oder wandlen moͤchte, s<damage agent="water spot"><supplied resp="bf">o</supplied></damage>
+<lb/>soll der pflaͤger desselben krancken kinds barschafft zuͦ s<damage agent="water spot"><supplied resp="bf">inen</supplied></damage>
+<lb/>handen naͤmen. Und so im die <num value="2">zwey</num> mall, wie vorgemaͤl<damage agent="water spot"><supplied resp="bf">t</supplied></damage>,
+ <lb/>zuͦ nachtmall und imbis gereicht waͤrden, soll danenthin 
+ <lb/>der pflaͤger dasselbig arm, kranck kind uß der bennaͤmpten
+ <lb/>siner barschafft spisen und versaͤchen, so lang die waͤrt. Und
+ <lb/>so die verthan, mitt im verbrucht und nitt mer darvͦn
+ <lb/>verhanden ist, alls dan soll man soͤlich kranck siechen
+ <lb/>in dem gemaͤlten huse mitt herberg und esenn versaͤchen,
+ <lb/>darzuͦ <date dur="R/P1D">all tag</date> ouch <measure type="volume" unit="Mass" quantity="0.5" commodity="wine">ein halb maß win</measure> gaͤben<note>In seinem Testament vom 20. Februar 1514 vermachte der kinderlose <persName ref="per026911">Erhard von Hunzikon</persName> die eine Hälfte seines Vermögens der städtischen Pfarrkirche und die andere Hälfte dem <orgName ref="org007453"><placeName ref="loc000849">Winterthurer</placeName> Siechenhaus</orgName>. Eine Bestimmung seiner vier Jahre zuvor erfolgten Stiftung (<bibl>STAW URK 1937</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, S. 28-30</bibl>) aufgreifend, setzte er sich dafür ein, dass kranke Gäste, die nicht mehr reisen konnten, versorgt wurden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_213">SSRQ ZH NF I/2/1, Nr. 213</ref></bibl>).</note> und mitt aller
+ <lb/>notturfftiger pflaͤg versaͤchen, alls lang bitz er widerumb zuͦ
+ <lb/>gesontheitt komen ist, namlich so vermu̍genlich, das er
+ <lb/>riten, gan oder wandlen mag. Deßhalb soll ouch den
+ <lb/>froͤmden kinden, gsonden und siechen, die zuͦ versaͤchen und
+ <lb/>zepflaͤgen, on iren costen ein eigne junckfruͦ gehalten
+ <lb/>werden.
+</seg></p>
+<pb n="5" facs="STAW_AC_27_10_S.5.jpg"/>
+<head><seg n="3">
+<lb/>Dis sind die verpfru̍endentt kind und froͤmde
+ <lb/>zethuͦn schuldig</seg>
+</head>
+<p>
+<lb/>Mine heren <orgName ref="org007943">schultheis und raͤtt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> habentt
+ <lb/>angesaͤchen, das ein jedes verpfru̍end kind soͤlle schweren
+ <lb/>einen eide liblich zuͦ gott dem almaͤtigen, des huß nutz und
+ <lb/>er zefurden<!-- hier keine Striche über dem u --> und sinen schaden zuͦ waͤnden, ouch ditz nach
+ <lb/>geschriben stuck und artickell zuͦ <add place="left margin" type="sign">halten</add> oder die straffen, so umb jetlichen
+ <lb/>artickell anzelegen sind, zuͦ tulden.
+ </p>
+<p><seg n="3.1">
+<lb/>Item zem ersten soͤllen dheine kind, es sigin fremd oder heimi<lb break="no"/>sch, weder umb haller, pfaͤnnig noch hallers waͤrt nitt kar<lb break="no"/>ten oder spillen.
+ </seg></p>
+<p><seg n="3.2">
+<lb/>Item ein jetlicher, der verpfru̍endt ist, der soll dem huß
+ <lb/>lausen werden alles, so im umb gotzwillen wirt, es sig kleins
+ <lb/>oder groß, und das nitt verthuͦn anders dan zuͦ sins libs nottur<lb break="no"/>fftt und narung, by miner heren straff.</seg></p>
+<p><seg n="3.3">
+<lb/>Item die kind soͤllen ouch keinen pflaͤger verklagen
+ <lb/>dan vor einem schultheisen oder statthalter, wer <damage agent="water spot"><add hand="other hand" place="overwritten">dis ye zuͦ</add></damage>
+<lb/><placeName ref="loc000849">Winterthur</placeName> sind, by straff eines pflagers.
+ </seg></p>
+<p><seg n="3.4">
+<lb/>Item es soll sich im huß noch ußwaͤndig niemand end<damage agent="water spot"><supplied resp="bf">ern</supplied></damage>
+<lb/>zuͦ den eren by verlieren siner pfruͦnd uff gnad mine<damage agent="water spot"><supplied resp="bf">r</supplied></damage>
+<lb/>heren.
+</seg></p>
+<p><seg n="3.5">
+<lb/>Es soll sich ouch ir keines vereinigen zuͦ den uneren, dan
+ <lb/>von wem das beschach und offenbar wurde, die saͤlben sollen
+ <lb/>ouch verloren haben ire pfru̍enden uff gnad miner heren.
+ </seg></p>
+<p>
+<seg n="3.6">
+<lb/>Wen ouch ein mans und fruͦwenbild sich uff die gutschenn
+ <lb/>zuͦ samen legen, soͤllent sy <date dur="P1W">ein gantze wuchen</date> win manglen.
+ <lb/>Und wer under inen soͤlichs sichtt und nitt leidett, der soll oͧch
+ <lb/><date dur="P1W">ein gantze wuchen</date> win manglenn.
+</seg></p>
+<p><seg n="3.7">
+<lb/>Item <num value="2">zwey</num> menschen, die mit einandern sindt verlu̍mbdett,
+ <lb/>soͤllenn nitt allein mitt einanderen in die kameren oder
+<pb n="6" facs="STAW_AC_27_10_S.6.jpg"/>
+<lb/>stubenn wandlen by verlierung <date dur="P1W">einer gantzen wuchenn</date>
+<lb/>irer pfru̍enden.
+ </seg></p>
+<p><seg n="3.8">
+<lb/>Es soll ouch keins dhein unfuͦr triben mitt schweren, <subst><del>ufug</del><add place="above" type="sign">üpigen</add></subst>
+<lb/>worten oder der glichen, sonder ouch dheins, es sig
+ <lb/>geistlich oder waͤltlich, das ander heisen lügen und dem
+ <lb/>anderen an sin er reden. Und wer das nitt hieltt, kuntlich
+ <lb/>uff in wurd, den saͤlbigen soll ein pflager straffen je
+ <lb/>nach sinem verdiennen. Und weliches kind soͤlichs von
+ <lb/>eim horty und das dem pflager nitt anzoigte, dasselbig soll
+ <lb/><date dur="P1W">ein gantze wochen</date> gstrafftt werden von dem win und brott,
+ <lb/>das man im von der pfruͦnd gibtt.
+</seg></p>
+<p><seg n="3.9">
+<lb/>Item es soll ouch dheins das ander schlahen mit d<damage agent="water spot"><supplied resp="bf">en</supplied></damage>
+<lb/>funsten<!-- Idiotikon: fust oder funst = Faust --> oder geweren, und oͤb das beschaͤch, darumb s<damage agent="water spot"><supplied resp="bf">ollen</supplied></damage>
+<lb/>mine heren die buͦß schoͤpfen.
+</seg></p>
+<p><seg n="3.10">
+<lb/>Keinn mans bild soll dheinen tagen<!-- Degen! --> an sim lib od<damage agent="water spot"><supplied resp="bf">er in</supplied></damage>
+<lb/>den haͤnden tragen, weder im huß noch in der stuben<damage agent="water spot"><supplied resp="bf">n</supplied></damage>,
+ <lb/>sonder soͤllen sy ir taͤgen in iren kameren lausen, sy
+ <lb/>woͤlind dan uber feld, und allein mit brott maͤseren zum
+ <lb/>tisch gan.
+</seg></p>
+<p><seg n="3.11">
+<lb/><date period="summer">Sumers ziten</date>
+<time notAfter="20:00:00">nach den aͤchten</time> und <date period="winter">winters ziten</date>
+<time notAfter="21:00:00">nach
+ <lb/>den nünen</time> soll niemants mer weder esen noch trinckenn,
+ <lb/>sonder alls dan jederman an sinem bett ligen, ruͦw haben
+ <lb/>und ruͦw lausen by verlu̍ren <date dur="P1W">ein gantze wuchen</date> eins jeden
+ <lb/>pfruͦnds, der das uberfu̍ere, ußgennomen kranck lu̍tt
+ <lb/>oder lu̍tt, die by den krancken sigenn und die so ir früntschafft
+ <lb/>by inen haben. Doch soͤllen die saͤlben still und zimlich byein<lb break="no"/>ander sitzen und niemantt weder mitt worten, wercken
+ <lb/>noch sunst in keinen waͤg bekümeren.
+ </seg></p>
+<p><seg n="3.12">
+<lb/>Item wen ein kind schlaffen will gan, so soll es heimlich
+<pb n="7" facs="STAW_AC_27_10_S.7.jpg"/>
+<lb/>sin mitt worten und mitt gan und den anderen ruͦw lon
+ <lb/>by der buͦß eins pflaͤgers.
+</seg></p>
+<p><seg n="3.13">
+<lb/>Item es soll ouch ein jetlichs kind, so man esen will, ein
+ <lb/>Pater Noster uber tisch, und so man gaͤsen hatt, ein Vater Unser
+ <lb/>ab tisch baten, gott dem heren zuͦ lob und er, ouch danck
+ <lb/>sagung. <del>Des glichen, so man das Ave Maria<!-- v hat ü-Striche wie sonst manche u --> lütt, soll ein
+  <lb/>jetlichs <num value="3">drüg</num> Ave<!-- v hat ü-Striche wie sonst manche u --> Maria baͤten.</del>
+</seg></p>
+<p><seg n="3.14">
+<lb/>Item es soll kein kind uff die herdstatt gan oder kochen by
+ <lb/>dem für, wen die haͤffen by dem für sind, by <measure type="currency" unit="ß" quantity="1">j </measure> buͦß.
+ <lb/>Es soll kein kind uber die wasser gelten<!-- Waschzuber --> gan by <measure type="currency" unit="ß" quantity="1">j  haller</measure> buͦß.
+</seg></p>
+<seg n="3.15"><p>
+<lb/>Item oͤb unfrid, nid und haß ufferstu̍end under etlichen kinden
+ <lb/>und das min heren oder ein pflaͤger zuͦ frid braͤchtin und ein
+ <lb/>spruch daru̍ber gaͤbin, den soll man halten. Wer das nitt
+ <lb/>taͤtt und ein witter verklagty, der selb soll miner heren <damage agent="water spot"><supplied resp="bf">und</supplied></damage>
+<lb/>eins pflagers straff darumb erwarten.
+</p>
+<p><seg n="3.16"><lb/>Die kind soͤllen ouch gegen einander und gegen den junck<lb break="no"/>fruͦwen züchtiger worten und werchen sin und besonder
+ <lb/>an unluterkeitt, und wer das nitt hiellt, der soll eins pflagers
+ <lb/>straff erwarten.</seg></p>
+</seg>
+<p><seg n="3.17">
+<lb/>Item wen almuͦsen wirt gaͤben in das huß den <orgName ref="org007453">armen kinden</orgName>,
+ <lb/>die verpfru̍endt sind, wer das empfachtt, der soll das in <damage agent="water spot"><add hand="other hand" place="overwritten">die</add></damage>
+<lb/>büchs stosen, das es <orgName ref="org007453">gmeinen kinden</orgName> waͤrd. Und wer daran su̍mig
+ <lb/>waͤr, der soll eins pflaͤgers straff warten.
+</seg></p>
+<p><seg n="3.18">
+<del rend="crossout" hand="later hand">
+<lb/>Item was inen an dem <date type="deadline" when="--01-01">nu̍wen jarstag</date> wirt, ab den stuben alder
+ <lb/>sunst uß der statt, das soͤllen <orgName ref="org007453">gemeine kind</orgName>, so uff den selben
+ <lb/>tag des guͦten jars wartend, mit einanderen und mit den junck<lb break="no"/>fruͦwen oder diensten teillen und niessen.</del>
+</seg></p>
+<p><seg n="3.19">
+<lb/>Item wen die <num value="2">zwen</num>
+<placeName ref="loc000959">Zurtzich</placeName> maͤrckt sind, wer vor dem huß
+<pb n="8" facs="STAW_AC_27_10_S.8.jpg"/>
+<lb/>uff dem gseß sitzt, die soͤnd das gaͤllt teillen mit denen, die da
+ <lb/>bett siech sind.
+</seg></p>
+<p><seg n="3.20">
+<del rend="crossout" hand="later hand"><lb/>Item wen ein froͤmd kind in der statt betlen will, so soll es vor
+  <lb/>und ee zuͦ einem pflaͤger umb erlu̍bnuß gan. Und danenthin
+  <lb/>soll das selbig arm kind <date dur="P1M">einen monnat</date> lang nitt mer
+ <lb/>in der statt baͤtlen by der straff eines pflaͤgers.
+ </del><note>Vermutlich wurde dieser Artikel im Rahmen der Revision der Satzung des <orgName ref="org007453">Siechenhauses</orgName> am 6. Februar 1587 gestrichen, da nun der Aufenthalt der Gäste im Haus auf eine Übernachtung pro Monat beschränkt werden sollte und auswärtigen Leprosen verboten wurde, überhaupt in die Stadt zu kommen (<bibl>STAW AC 27/21</bibl>).</note>
+</seg></p>
+<p><seg n="3.21">
+<lb/><del rend="crossout" hand="later hand">Item woͤliches froͤmd kind in der statt baͤtlate, ee es uff das
+ <lb/>huß kompt, das sond <orgName ref="org007453">gmein huß kind</orgName> straffen. Wo sy das
+ <lb/>nitt thuͦnd, so soll ein pflaͤger sy straffen.</del>
+</seg></p>
+<p><seg n="3.22">
+<lb/>Item es soll dhein kind on erlu̍pnus eins pflaͤgers in die statt
+ <lb/>gan by <measure type="currency" unit="ß" quantity="5">v  haller</measure> buͦß.
+</seg></p>
+<p><seg n="3.23">
+<lb/>Item es soll dhein kind, froͤmd oder heimsch, nitt <damage agent="water spot"><add hand="other hand" place="overwritten">zuͦ trincken</add></damage>
+<lb/>oder eins dem anderen bringen by <measure type="currency" unit="lb" quantity="1">j  haller</measure>
+<damage agent="water spot"><add hand="other hand" place="overwritten">buͦß</add></damage>.
+</seg></p>
+<p><seg n="3.24">
+<lb/>Mine heren haben sich ouch erkaͤntt, wer fürhin, <damage agent="water spot"><supplied resp="bf">der gesond</supplied></damage><note>Diese Lesung schlägt auch <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, S. 62</bibl>, in Anlehnung an die <placeName ref="loc000065">Zürcher</placeName> Siechenhausordnung von 1518 (<bibl>STAW AC 27/7</bibl>) vor.</note>
+<lb/>ist, mitt den krancken isett und trinckt, der soll, so offtt
+  <lb/>das beschicht, minen heren zuͦ buͦß verfalen sin <measure type="currency" unit="ß" quantity="10">zaͤche<damage agent="water spot"><supplied resp="bf">n</supplied></damage>
+<lb/>schiling haller</measure>
+<damage agent="hole"><supplied resp="bf">on</supplied></damage> gnad.
+ </seg></p>
+<p><seg n="3.25">
+<lb/>Deß glichen soͤllen die kind oder dienst dheinen ges<damage agent="water spot"><add hand="other hand" place="overwritten">ond</add></damage><lb break="no"/>en baͤtler oder landstricher nitt beherbergen by der buͦß
+  <lb/>eins pflaͤgers.
+</seg></p>
+<p><seg n="3.26">
+<lb/>Es soͤllennd die froͤmden armen lütt, so lang sy im huß sind,
+ <lb/>all obgeschriben artikell halten by angezoͤigten buͦssenn
+ <lb/>wie die <orgName ref="org007453">huß kind</orgName>. Sy soͤllenn ouch umb <time when="21:00:00">nüny</time> am bett
+ <lb/>ligen by <measure type="currency" unit="ß" quantity="5">v  haller</measure> buͦß. Und woͤlicher froͤmd maͤnsch sich
+ <lb/>der buͦßen, so er vorfiell, welte speren, so soll man im das
+ <lb/>huß verbieten so lang, untz er sin verschult buͦssenn
+ <lb/>hatt bezallt.
+ </seg></p>
+<pb n="9" facs="STAW_AC_27_10_S.9.jpg"/>
+<p><seg n="3.27">
+<lb/>Item es soll ouch dhein gast oder froͤmd kind ein liechtt
+ <lb/>in den stall oder in sin schlaff kamer mitt im tragen by
+ <lb/>straff eins pflaͤgers.
+ </seg></p>
+</div>
+<pb n="10" facs="STAW_AC_27_10_S.10.jpg"/>
+<pb n="11" facs="STAW_AC_27_10_S.11.jpg"/>
+<pb n="12" facs="STAW_AC_27_10_S.12.jpg"/>
+<div>
+<ab type="dorsal" place="cover" hand="hand16c"><lb/>Ordnung der <orgName ref="org007453">kinden</orgName></ab>
+</div>
+<div>
+<ab type="dorsal" place="cover" hand="hand16c"><lb/>Der <orgName ref="org007453">armen kinden</orgName>
+<lb/>ordnung und zuͦ <unclear>laͤsen</unclear></ab>
+</div>
+<div>
+<ab type="dorsal" place="cover" hand="hand18c"><lb/>Ordnung
+<lb/>der <orgName ref="org007453">sonder siechen am feld</orgName></ab>
+</div>
+<div>
+<ab type="dorsal" place="cover" hand="hand19c"><lb/><date>1528</date></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>Die erste erhaltene Satzung für das <orgName ref="org007453"><placeName ref="loc000849">Winterthurer</placeName> Siechenhaus</orgName> stammt aus der zweiten Hälfte des 15. Jahrhunderts (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_095">SSRQ ZH NF I/2/1, Nr. 95</ref></bibl>). Die Bestimmungen der erneuerten und erweiterten Siechenhausordnung orientieren sich teilweise wörtlich an der in <placeName ref="loc000849">Winterthur</placeName> überlieferten Satzung für das <orgName ref="org005000">Siechenhaus St. Jakob in <placeName ref="loc000065">Zürich</placeName></orgName> vom 14. Juli 1518 (<bibl>STAW AC 27/7</bibl>), namentlich die Artikel 3.4-7 (Verbot sexueller Kontakte), 3.9-10 (Verbot der Anwendung von körperlicher Gewalt und des Tragens von Waffen), 3.11 (Nachtruhe), 3.14 (Gebot, sich vom Herd und Wasserzuber fernzuhalten), 3.23 (Verbot des gemeinsamen Speisens zwischen Gesunden und Leprosen), 3.25 (Verpflichtung der Gäste zur Einhaltung der Hausordnung). 1587 wurde die Satzung des <orgName ref="org007453">Siechenhauses</orgName> einer Revision unterzogen (<bibl>STAW AC 27/21</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

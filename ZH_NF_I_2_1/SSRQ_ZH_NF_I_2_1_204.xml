@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_204</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/6, S. 247 (Eintrag 2)</idno></msIdentifier><head>Verordnung über den Wert der Geschenke zur Hochzeit und Taufe in der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur ordnen an, dass alle Bürger, die zu einer Hochzeit eingeladen werden, nicht mehr als 3 Schilling Haller schenken sollen. Diese Beschränkung gilt nicht für Eltern, Verwandte bis zum dritten Grad oder Patinnen und Paten. Am Kirchgang dürfen nur die Hochzeitsgäste teilnehmen. Geschenke der Patinnen und Paten für den Täufling sollen höchstens 3 Schilling, Geschenke für die Mutter im Kindbett nicht mehr als 4 Schilling wert sein. Wer diese Bestimmungen nicht einhält, muss 1 Pfund Haller Busse zahlen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1506-10-09"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key003401">Geschenke</term><term ref="key000869">Hochzeit</term><term ref="key003408">Taufe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="247"/>
+<p><lb/>Coram <choice><abbr>schulth</abbr><expan>schultheis</expan></choice>
+<persName ref="per027413">Hetlinger</persName>, <lb/><origDate when="1506-10-09">fritag vor <persName ref="per000455">Galli</persName></origDate></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgt ein Eintrag über eine Stiftung.</note>
+</p>
+<p>
+<lb/><seg>Item es haben min herren von des gmeinen nutzes wēgen angesaͤhen,
+<lb/>das fu̍rohin alle <subst><del>die</del><add place="above">unser burger</add></subst>, so allhie uff hochziten geladt werden, nitmer geben
+<lb/>soͤllen dann <measure type="currency" unit="ß" quantity="3">iij  ħ</measure>, ußgnommen vatter und muͦter, ouch die
+<lb/>fru̍ndschaft, so in die dritten lingen verfru̍ndet sind, desglichen goͤttin und
+<lb/>goͤttinen <unclear>mu̍gen</unclear> nach irem gefallen <add place="above">mer</add> geben. Es sol ouch niemands uff
+<lb/>soͤlch hochziten zum kilchgang geladt werden dann die, so sunst zuͦ der
+<lb/>hochzit beruͤfft werden.</seg>
+<seg>Und von der kinden wegen us dem toufft<!-- Idiotikon XII, Sp. 576: Tauffet (n) -->
+<lb/>gehept werden, soͤllen ouch weder goͤttin noch gotten dem kind nitmer inbinden
+ <lb/>dann <measure type="currency" unit="ß" quantity="3">iij </measure>.<note>In der Verordnung von 1417 war der zulässige Wert der Patengeschenke noch auf 2 Schilling beschränkt gewesen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_050">SSRQ ZH NF I/2/1, Nr. 50</ref></bibl>).</note> Desglichen zuͦ der kindbetterin besaͤhung sol ouch niemands mer
+<lb/>geben noch schencken <del>dann <measure type="currency" unit="ß" quantity="3">iij </measure></del>, es sige an gelt, an win oder <unclear>bar</unclear> oder
+<lb/>andren, <add place="left margin" type="sign"><lb/>dann <measure type="currency" unit="ß" quantity="4">iiij </measure>
+<lb/>wert</add>.</seg>
+<seg>Unnd woͤlch<del>er</del> der stucken eins oder mer u̍bersaͤhend, so dick das
+ <lb/>beschicht, soͤllend <measure type="currency" unit="lb" quantity="1">j  haller</measure> ōn gnad geben gmeiner statt.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Reduzierung des Aufwands bei Hochzeitsfeiern und Taufen auf Seiten der Gastgeber wie der Gäste war immer wieder Gegenstand obrigkeitlicher Verordnungen, vgl. für <placeName ref="loc000065">Zürich</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Spillmann-Weber 1997</ref>, S. 135-140, 147-149</bibl>. Die erste überlieferte Bestimmung der Stadt <placeName ref="loc000849">Winterthur</placeName> betreffend Zahl der Gäste und Höhe der Geschenke bei Tauffeiern respektive Trauerfeiern für verstorbene Kinder datiert von 1417 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_050">SSRQ ZH NF I/2/1, Nr. 50</ref></bibl>).
+1489 wurde festgelegt, dass bei Hochzeiten nur ortsfremde Gäste abends in die Trinkstube zum Essen eingeladen werden durften. Hochzeitsgeschenke sollten nicht mehr als 3.5 Schilling wert sein, ausgenommen von dieser Beschränkung waren nur die nächsten Angehörigen (STAW B 2/5, S. 379; Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Schmid 1934</ref>, Anhang Nr. 3, S. 70</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

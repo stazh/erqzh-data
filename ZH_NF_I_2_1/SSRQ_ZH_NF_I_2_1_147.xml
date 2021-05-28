@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_147</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 152 (Eintrag 1)</idno></msIdentifier><head>Einsetzung und Eid der Weinzieher in Winterthur</head><msContents><summary>Klaus Hafner und Heinrich Rosenegger wurden als Weinzieher in Winterthur eingesetzt. Sie sollen Auswärtigen und Einheimischen ihre Dienste zur Verfügung stellen und keine anderen Vergütungen ausser ihrem Lohn verlangen. Dieser beträgt pro Saum Wein, den sie in den oder aus dem Keller verladen, 4 Haller von Bürgern und 6 Haller von Auswärtigen und pro Saum Wein, den sie von einem Keller zum anderen transportieren, 1 Schilling Haller. Nur die Weinzieher dürfen Wein auf- und abladen. Sie sind nicht verpflichtet, mehr als 6 Saum Wein mit ihren Gerätschaften zu transportieren, sofern der Kunde nicht für den Verlust haftet. Sie sind überdies für die Eichung zuständig und sollen diese Aufgabe korrekt ausführen. Pro Saum erhalten sie 1 Pfennig Lohn. Beide haben geschworen, diese Tätigkeit nach bestem Vermögen auszuüben. Rosenegger soll künftig ohne Erlaubnis des Rats nicht mehr jagen und Vögel fangen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1485-10-22"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000351">Jagd</term><term ref="key000252">Mass und Gewicht</term><term ref="key000129">Wein</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="152" facs="STAW_B_2_5_S.152.jpg
+"/>
+<div>
+<ab type="marginal note" place="left margin"><lb/>Winziher ampt</ab>
+</div>
+<p><lb/>Actum uff <origDate when="1485-10-22">samstag nach <persName ref="per000455">Galli</persName>, anno <abbr>etc</abbr> lxxxv<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><seg>habend mine herren <persName ref="per027830">Clausen Hafner</persName> unnd <persName ref="per027582">Heinrich Rosnegker</persName>
+<lb/>das winzieher ampt gelihen also, das sy soͤlch ampte nach irem
+<lb/>vermu̍gen zum aller besten versaͤhen und mengklichem
+<lb/>froͤmbden und heimschen vlisig warten, sich guͦtz willens bruchen
+<lb/>und von niemand keinen win, essen noch anders nit vordern
+<lb/>dann ir zimlichen lon, von <measure type="volume" unit="Saum" quantity="1" commodity="wine">j sōm</measure> in und uss dem keller
+<lb/>ziehen <measure type="currency" unit="h" quantity="4">iiij haller</measure> von einem burger und von froͤmbden <measure type="currency" unit="h" quantity="6">vj haller</measure>,
+ <lb/>und von einem keller zum andern ziehen von <measure type="volume" unit="Saum" quantity="1" commodity="wine">j sōm</measure>
+<measure type="currency" unit="ß" quantity="1">j  haller</measure>.<note>Diesen Tarif sah bereits ein Ratsbeschluss vom 11. Oktober 1471 vor (<bibl>STAW B 2/2, fol. 22v</bibl>). Später wurde kein Unterschied mehr gemacht zwischen Bürgern und Auswärtigen, das Verladen des Weins in den oder aus dem Keller kostete nun für alle 6 Haller pro Saum (<bibl>STAW B 2/6, S. 22</bibl>, zu 1497).</note>
+<lb/>Es sol ouch sunst niemand anders win uff noch ab laden
+<lb/>denn allein die winzieher. Sy soͤllen ouch nu̍t schuldig sin,
+<lb/>keinem u̍ber <measure type="volume" unit="Saum" quantity="6" commodity="wine">vj sōm</measure> mit irem geschier win uff noch ab
+<lb/>ziehen, der, des der win sige, woͤlle dann den win mit sinem
+ <lb/>verlust dartuͦn.</seg>
+<seg>Me habend sy inen die sinn<!-- vgl. Idiotikon VII, Sp. 1077-1080: Eichung, Eichstätte, Normmass, Eichzeichen --> gelihen
+<lb/>und enpfolhen, das sy der sinn getru̍wlich warten und
+ <lb/>die zum aller besten, wie die zeichen in dem sōm stēnd, vlisig
+<lb/>versaͤhen, das mengklichem recht beschaͤhe, und von <measure type="volume" unit="Saum" quantity="1" commodity="wine">j sōm</measure>
+<lb/><measure type="currency" unit="d" quantity="1">j ₰</measure> zuͦ irem lon nēmen.</seg>
+<seg>Uff das habend sy beid
+<lb/>geschworn, die aͤmpter mit gedingen, wie obstaut, zum
+<lb/>besten <del>ver</del> ze versaͤhen. Und sonderlich sol <persName ref="per027582">Rosnegker</persName>
+<lb/>fu̍roh<supplied reason="omitted" resp="bf">i</supplied>n nit mer jagen, voglen<!-- Idiotikon I, Sp. 698: Vögeln nachstellen --> noch sperwer vahen denn mit
+<lb/>willen eins <orgName ref="org005587">rautz</orgName>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Schon in den 1470er Jahren übten die Weinzieher in <placeName ref="loc000849">Winterthur</placeName> die Aufgaben eines Eichmeisters aus (<bibl>STAW B 2/3, S. 379</bibl>). Anlässlich der Vergabe des Amts mussten sie sich verpflichten, für verursachte Schäden zu haften und sich nicht an den Vorräten in den Kellern zu bedienen (<bibl>STAW B 2/3, S. 371</bibl>). Die Weinzieher konnten den sogenannten Ablässer vertreten, der bei Kaufgeschäften den Wein abmass und die Tarife für Zoll und Weinsteuer ansetzte, vgl. die Eidformeln des Ablässers und des Weinziehers in den <placeName ref="loc000849">Winterthurer</placeName> Eidbüchern des 17. Jahrhunderts: <bibl>winbib Ms. Fol. 241, fol. 12r, 13v-14r</bibl>; <bibl>STAW B 3a/10, S. 30-31, 36-37</bibl>.</p>
+<p>Tarife für das Eichen der Masse, das <orig>sinnen</orig> oder <orig>fechten</orig>, sind bereits für das Jahr 1405 überliefert. In <placeName ref="loc000849">Winterthur</placeName> waren demnach folgende Masse in Gebrauch: Viertel, halbes Viertel, Vierdung<!-- Lexer: als Getreidemass Viertel eines Viertels --> und Immi als Trockenmasse; Saum, Mass und halbe Mass für Flüssigkeiten (<bibl>STAW B 2/1, fol. 7v</bibl>). Eine Tarifliste der Sinner aus den 1520er Jahren nennt ausserdem noch halbes Saum, Zuber, Eimer und Vierling als Masse für Wein (<bibl>STAW B 2/2, fol. 69r</bibl>). Um zu verhindern, dass Hohlmasse nach der Eichung in betrügerischer Absicht verändert wurden, verboten die <orgName ref="org002406">Zürcher</orgName> die Verwendung von Massen aus Kupfer, die man ausbeulen konnte. In ihrem Schreiben vom 21. März 1555 stellten sie den <orgName ref="org007943">Winterthurern</orgName> zwar frei, welche Masse sie in ihrer Stadt zulassen wollten, doch sollten sie nur hölzerne und keine kupfernen Hohlmasse für die Landschaft eichen lassen (<bibl>STAW AH 97/1</bibl>; Entwurf: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1106235">StAZH B IV 19, fol. 126v</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

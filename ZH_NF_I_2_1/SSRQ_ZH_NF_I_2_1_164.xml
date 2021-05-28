@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_164</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 537 (Eintrag 4)</idno></msIdentifier><head>Eid und Pflichten des Waldförsters der Stadt Winterthur</head><msContents><summary>Knüssli ist als Waldförster der Stadt Winterthur angestellt worden und hat geschworen, gewissenhaft Aufsicht im Wald zu führen. Er soll an Werktagen morgens und mittags in den Wald gehen und Verstösse gegen die Waldverordnungen dem Schultheissen melden. Er soll nur mit Erlaubnis des Schultheissen und Rats oder der Holzgeber und nur an Stellen, die sie bestimmt haben, Holz schlagen lassen. Er darf nur so viel Holz für den Eigenbedarf oder den Verkauf nehmen, wie ihm gemäss den Bestimmungen des Förster-Rödels zusteht.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1495-01-05"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000591">Anzeigepflicht</term><term ref="key000179">Eid</term><term ref="key000524">Holz</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="537"/>
+<p><lb/><origDate when="1495-01-05">Vigilia <sic>drium</sic> regum, anno <abbr>etc</abbr> lxxxxv<hi rend="sup">o</hi></origDate></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgen Einträge über die Einsetzung des Kuhhirten, des Turmwächters und des Mesmers.</note>
+</p>
+<p>
+<lb/>Item das <persName ref="per027846">Knu̍ßli</persName> ist zuͦ waldvorster angenomen. Der haut
+<lb/>geschworn, den wald zum besten zuͦ verhuͤten, namlich alle
+<lb/><add place="left margin">werck</add> tag <del>ab</del>
+<time period="morning">morgens</time> und <time period="noon">mittagzite</time> vlislichdarin ze gan <subst><del><gap reason="illegible" unit="word" quantity="1"/></del><add place="above" type="sign">und zuͦ verhuͤten</add></subst>, <lb/>die, <add place="left margin" type="sign">so die</add> bott und verbott, so mine herren uff den wald legen,
+<lb/>u̍bersaͤhend, einem schultheiß ze ruͤgen und niemands
+<lb/>darinne u̍bersaͤhen, ouch niemands fu̍r sich selbs kein holtz
+<lb/>ze hoͧwen erlouben dann das, so ein <orgName ref="org007943">schultheiß und raut</orgName>
+<lb/>oder die holtzgaͤber in sonder vergu̍nsten, ouch im selbs
+<lb/>kein holtz ze bruchen noch ze verkouffen nit nēmen dann
+<lb/>das, so im nach lut des vorsters rodel zuͦgehoͤrt,<note>Demnach durfte er das <orig>abholtz</orig> behalten, wenn für den Bedarf der Stadt geschlagen wurde, ferner Abfälle von Bauholz sowie dürre Tannen und Sturmholz (<bibl>STAW B 2/2, fol. 26v</bibl>). Später wurden ihm jährlich 12 Klafter Holzscheite für den Eigenbedarf zugestanden. Was nach einem Jahr davon noch übrig war, durfte er weiterverkaufen (<bibl>STAW B 2/8, S. 216</bibl>, zu 1539).</note> ouch niemands
+<lb/>an keinem end im wald ze holtzen vergu̍nen, dann alda <subst><del rend="overwritten"><unclear>im</unclear></del><add place="overwritten">er</add></subst>
+<lb/>des von einem schultheiß oder holtzgaͤbern bescheiden wirt.<note>Diese Bestimmungen entsprechen inhaltlich denjenigen, die 1484 anlässlich der Besetzung des Amts aufgezeichnet wurden (<bibl>STAW B 2/5, S. 62</bibl>). Hierauf basiert die um einen Zusatz ergänzte Eidformel des Waldförsters im ältesten Eidbuch der Stadt <placeName ref="loc000849">Winterthur</placeName> aus den 1620er Jahren (<bibl>winbib Ms. Fol. 241, fol. 15r</bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der Wald war eine städtische Allmende, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_017">SSRQ ZH NF I/2/1, Nr. 17</ref></bibl>. Die Nutzung der Ressourcen war reglementiert. Die Bürger durften ihren Bedarf an Bauholz und Brennholz nur mit Erlaubnis der vom <orgName ref="org005587">Rat</orgName> eingesetzten Holzgeber decken und nur zugewiesenes Holz schlagen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_094">SSRQ ZH NF I/2/1, Nr. 94</ref></bibl>. Die Aufsicht übte der Waldförster aus, der von Steuer, Dienstpflicht und Wachdienst befreit war (<bibl>STAW B 2/2, fol. 26v</bibl>). Amtsmissbrauch wurde hart bestraft (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_296">SSRQ ZH NF I/2/1, Nr. 296</ref></bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

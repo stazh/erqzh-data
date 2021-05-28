@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_067</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 92r-v</idno></msIdentifier><head>Strafgerichtsordnung der Stadt Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur legen fest: Bei der Vernehmung von Personen, die wegen eines Kapitalverbrechens inhaftiert sind, sollen Mitglieder des Rats, ebenso viele Zeugen und der Stadtschreiber anwesend sein. Der Schreiber soll das Geständnis und die Namen der Zeugen aufschreiben. Wurde die verdächtige Person auf Betreiben der Stadt verhaftet, soll der oberste Ratsknecht, andernfalls diejenigen, welche die Inhaftierung beantragt haben, vor beiden Räten Klage erheben. Beide Räte setzen in Anbetracht der Tat und des Geständnisses und nach Anhörung der Zeugen die Strafe fest. Wird die Todesstrafe verhängt, soll das Urteil aufgezeichnet und, wenn beide Räte es anordnen, öffentlich in Gegenwart des Verurteilten verlesen werden, bevor man diesen dem Henker übergibt. Wenn eine inhaftierte Person kein Geständnis ablegt, können beide Räte Folter anordnen. Es steht beiden Räten zu, die Gefangenen nach Ermessen vorzuladen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1436-01-01" to="1436-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Gut 1995, Anhang 1, S. 374</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003037">Gerichtsverfahren</term><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key000604">Todesstrafe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="92r"/>
+<head><lb/><hi rend="underline">Umb mißtaͤtig lu̍t ze richten</hi></head>
+<p>
+<seg><lb/>Item <orgName ref="org007944">beid raͤt, der klein und gros raͧt, die viertzig</orgName>, hant
+<lb/>sich vereynt, hin fu̍r ze richten u̍ber daz bluͦt u̍ber schaͤdlich,
+<lb/>verlu̍mdot, mißtaͤtig lu̍t, naͧch dem und wir gefrygt syen.</seg>
+<seg><lb/>Des ersten welher oder welhe umb mistaͤten angefallen werden
+<lb/>und gefangen, wib oder man, von u̍ns ald u̍nser statt
+<lb/>wegen ald von u̍nser clag ald von froͤmden lu̍ten, zuͦ dem sol
+ <lb/><add place="left margin">man</add> senden von einem <orgName ref="org005587">raͧt</orgName> erber lu̍t in den turn und sovil <add place="right margin">erber</add>
+<lb/><subst><del><gap/></del><add place="overwritten">lu̍ten</add></subst> zuͦ gezu̍gen oͧch da zuͦ beruͤffen und nemen und oͧch
+<lb/>einen schriber da zuͦ geben. Und sol man den gefangen
+<lb/>fraͧgen und gichtigen umb die sachen, und waz er denn
+<lb/>vergicht, daz sol der schriber ze stett beschriben und
+<lb/>da zuͦ die zu̍gen, mit namen die man denn je da zuͦ
+<lb/>nympt, und sol denn der statt obrester raͧtz knecht,
+<lb/>ob er von der statt gefangen waͤr, naͧch der vergicht
+ <lb/>vor <orgName ref="org007944">beiden raͤten</orgName>, <add place="above">wenn die <orgName ref="org005587">raͤtt</orgName> daz fu̍rnemen went,</add> clagen und denn soͤlich clag erzu̍gen.
+<lb/>Hetten aber froͤmd lu̍t also jeman gefangen, die soͤlten
+<lb/>oͧch denn die clag fuͤren und soͤlich sach bezu̍gen, alles
+ <lb/>in maͧs als ob staͧt.</seg>
+<seg>Und wes sach denn <orgName ref="org007944">beid raͤt</orgName> also
+<lb/>naͧch getaͧt und vergicht und naͧch verhoͤrung der zu̍gen
+<lb/>zuͦm rechten erkennen, zuͦm tod ald zuͦm leben
+<lb/><add place="above">oder mit was tod</add> oder an geliden zestraͤffen und zeletzen, daz sol oͧch vergaͧn,
+ <lb/>ald waz denn die straͧff ist ald erkent wirtt naͧch ge<lb break="no"/>taͧt und gestalt der sach. Und wenn denn die erkantnu̍ß
+<lb/>beschicht, welhem denn der tod erteilt wirtt, da sol man
+<lb/>sin schuld beschriben und da zuͦ die urteil, welher tod
+<lb/>im ze tuͤnt erteilt ist, beschriben und in denn uss dem
+<lb/>turn nemen und da sin schuld und die urteil vor den
+ <lb/>lu̍ten, ob es <orgName ref="org007944">beid raͤt</orgName> naͧch gestalt der sach je bedunkt
+<lb/>ze tuͦnt, offenlich lesen und in dem naͧch rihter enpfelhen.
+ <lb/>Wol ob es <orgName ref="org007944"><subst><del>einen</del><add place="above">beid</add></subst> raͧt</orgName> naͧch gestalt der sach je bedunkti,
+<lb/>ald nit also gestalt ald an der zit waͤri, daz also offenlich
+<lb/>ze lesen ald ze verku̍nden und sust dem <add place="above">nach</add>richter ze enpfelhen
+ <lb/><add place="left margin">waͤr</add>, daz behalten die <orgName ref="org005587">raͤt</orgName> inen selb je darinne ze tuͤnt naͧch
+ <lb/>gestalt der sach.</seg>
+<seg>Welher oder welhe gefangen je <choice><sic>in dem
+  <pb n="92v"/>
+<lb/>in dem</sic><corr>in dem</corr></choice><note>Auf den Seitenumbruch wird mit der Anweisung <orig>verte</orig> am unteren Blattrand hingewiesen.</note> turn nit verjechen woͤltin, so moͤchte ein
+  <lb/><orgName ref="org005587">raͧt</orgName> sy je fu̍ro heissen gichtigen und fraͤgen mit folt<lb break="no"/>ran mit wogen<!-- = wagen = Foltergerät -->, alz denn da zuͦ gehoͤrt, ob es <orgName ref="org007944">beid
+ <lb/>raͤt</orgName> je naͧch dem lu̍mden bedunkt. Und daz behalten
+<lb/>sy oͧch inen selber je dar inne naͧch gestalt der sach
+<lb/>ze tuͦnt, daz sy besser dunkt getaͧn denn vermitten.</seg>
+<seg><lb/>Item und ob den gefangnen vor ze verku̍nden
+<lb/>ald tag zese<unclear>tz</unclear>en <del>sy</del> ald ze nemen sye, so <del><unclear>vi</unclear></del> man von
+ <lb/>inen richten welli, daz behaben <orgName ref="org007944">beid raͤt</orgName> oͧch inen
+<lb/>selb oͧch je dar inne zetuͦnt naͧch gestalt der sach.</seg>
+</p>
+</div>
+</body>
+<back>
+<div><p>Am 25. November 1417 bewilligte König <persName ref="per000712">Sigmund</persName> der Stadt <placeName ref="loc000849">Winterthur</placeName> die Ausübung der hohen und niederen Gerichtsbarkeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_051">SSRQ ZH NF I/2/1, Nr. 51</ref></bibl>). Zuvor hatte die Stadtherrschaft, die <orgName ref="org000088">Herzöge von Österreich</orgName>, und ihr Vertreter vor Ort, der Vogt von <placeName ref="loc000012">Kyburg</placeName>, dieses Recht besessen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_031">SSRQ ZH NF I/2/1, Nr. 31</ref></bibl>. Der Älteste des <orgName ref="org005587">Rats</orgName> verlieh seither dem Schultheissen, der die Gerichtssitzungen leitete, den Blutbann (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_101">SSRQ ZH NF I/2/1, Nr. 101</ref></bibl>). Das Gerichtsverfahren gegen inhaftierte geständige Delinquenten fand in der Regel in geschlossenen Räumen und in Abwesenheit des Angeklagten statt (<bibl>STAW B 2/2, fol. 29r</bibl>; <bibl>STAW B 2/5, S. 247</bibl>), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kabus 2000</ref>, S. 38-43</bibl>. Appellationen gegen Urteile des Blutgerichts waren nicht zugelassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_235">SSRQ ZH NF I/2/1, Nr. 235</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=678305">StAZH A 155.1, Nr. 69</ref></bibl>). Zum <placeName ref="loc000849">Winterthurer</placeName> Blut- oder Malefizgericht vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1960</ref>, S. 282-285</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1958</ref>, S. 273-274</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schmid 1934</ref>, S. 54-60</bibl>. Zum Verfahrensablauf vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_253">SSRQ ZH NF I/2/1, Nr. 253</ref></bibl>. Manche Delinquenten entgingen einem Gerichtsverfahren, sie mussten nach ihrer Haftentlassung eine Urfehdeerklärung leisten und wurden der Stadt verwiesen, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.</p>
+<p>Die Praxis, Personen, die eines Kapitalverbrechens verdächtig waren, unter Folter zu einem Geständnis zu zwingen, führte unweigerlich auch zur Verurteilung Unschuldiger. Der Fall der <persName ref="per027719">Elisabeth von Bach</persName> aus dem Jahr 1488, die beschuldigt wurde, gemeinsam mit <persName ref="per027721">Heimbrand Trub</persName>, den sie später heiratete, ihren ersten Ehemann aus niederem Adel vergiftet zu haben, und durch <persName ref="per027721">Trubs</persName> Aussagen belastet wurde, zeigt jedoch, dass es möglich war, diese Prozedur zu überstehen. <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> liessen <persName ref="per027719">Elisabeth</persName> trotz der Intervention der Verwandtschaft des Verstorbenen und seines Dienstherrn, des <persName ref="per027720">Markgrafen Christoph von Baden</persName>, gegen eine Urfehdeerklärung mit der Auflage, die Stadt nicht unerlaubt zu verlassen, frei (<bibl>STAW URK 1644</bibl>), weil sie der Folter <orig>mit den aller scherpffsten dumysen, mit brennen, mit der waug am seil uff ze zihen, ouch mit dem faͤssli zum dickermāl unnd sonderlich zuͦ letst mit rechtem toͤdtlichem zwang ettlich wil under dem wasser gebunden durch den nachrichter gehept, glich als ob sy dartzuͦ mit urtail erkennt unnd ir nit anders dann ze sterben wu̍ssend was</orig>, widerstand (<bibl>STAW URK 3264, S. 17</bibl>) und ihre Gegner die Anschuldigungen nicht vor Gericht in <placeName ref="loc000849">Winterthur</placeName> erhoben (<bibl>STAW URK 3264, S. 25</bibl>). Zu diesem Fall vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 173</bibl>, mit weiterführender Literatur; zur Folterpraxis in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gut 1995</ref>, S. 137-143</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

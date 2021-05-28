@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_254</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/8, S. 135-136</idno></msIdentifier><head>Anstellung und Eid des Läufers der Stadt Winterthur</head><msContents><summary>Hans Frank wurde als Stadtläufer von Winterthur angestellt. Er hat geschworen, die Aufträge des Schultheissen und Rats geheim zu halten, gewissenhaft alle Briefe, die ihm der Schultheiss, die Räte, Bürger oder Auswärtige übergeben, ungeöffnet den Adressaten zu überbringen und das ihm anvertraute Geld den Empfängern zu übergeben. Er soll jedem zu Diensten stehen, für eine Strecke von 1 Meile kann er einen Lohn von 3 Schilling Haller verlangen, muss er warten, erhält er 6 Schilling Haller für Lohn und Spesen. Verliert Frank die Läuferbüchse, haftet der Stadtschreiber, der für ihn gebürgt hat.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1530-02-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key004830">Boten</term><term ref="key000179">Eid</term><term ref="key000212">Löhne</term><term ref="key005418">Postwesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="135"/>
+<p><lb/>Actum <origDate when="1530-02-14">mentag, waß <persName ref="per000323"><sic>Valentine</sic></persName>, <lb/>anno xxx<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><seg>Mine heren haben <persName ref="per028044">Hansen Francken</persName> das statt loͤifer ampt
+ geli<lb break="no"/>chen. Daruff hatt er geschworen zuͦ gott, alles das, so im von
+  <orgName ref="org007943">sch<lb break="no"/>ultheisen und rate</orgName> in befaͤlch gaͤben wirtt, das er
+ dassaͤlbig in saͤlbs <lb/>behalten und gen niemants sich nützett welly losen mercken, dan
+ gen <lb/>dem oder denen er das enden und ußrichten soll. Deßglichen soll <lb/>er ouch alle
+ die brieff, so im von <orgName ref="org007943">schultheis und raͤten</orgName> oder ande<pb n="136"/><lb break="no"/>ren burgeren oder froͤmbden gaͤben und uberantwurtt waͤrden, <lb/>getru̍wlich,
+ on alles uffbraͤchen uberantwurten dem oder denen, <lb/>dan soͤlich <del>gaͤllt</del> brieff
+ gehoͤrtt. Ouch alles das gaͤllt, so im je <lb/>uffgaͤben wirdtt, soll er alwagen, on alles
+ veraberwanden,<!-- Idiotikon XVI, Sp. 399: abhanden kommen lassen, veruntreuen --> an
+ <lb/>die ortt und end uberantwurten, dahin dan soͤlich gelt gehoͤrt.</seg>
+<lb/><seg>Und ist sin lon von <measure type="length" unit="Meile" quantity="1">einer mill
+ wags</measure>
+<measure type="currency" unit="ß" quantity="3">iij  haller</measure>. Und wan er geschaͤ<lb break="no"/>fften halb still ligen muͦß, soll im von dem saͤlben stilligendenn <lb/>tag für
+ spis und lon <measure type="currency" unit="ß" quantity="6">vj  haller</measure> und nitt
+ mer gaͤben waͤrden. Es woͤle <lb/>im dan einer guͦts willens ethwas schencken, mag er thuͦn,
+ sunst <lb/>soll er nitt mer naͤmen. Uff das soll er also menglichem
+ <lb/>umb soͤlichen lon zeluͦffen und zegan gwaͤrtig sin.</seg>
+<seg>Item die <lb/>buchs, ob sy <persName ref="per028044">Franck</persName> verliederty oder
+ vertaͤt, hat stattschriber <lb/>darumb wandell zethuͦn fertroͤst.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der Eid, den der Läufer zu leisten hatte, unterscheidet sich von der Eidformel des Stadtboten von <placeName ref="loc000849">Winterthur</placeName>, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_169">SSRQ ZH NF I/2/1, Nr. 169</ref></bibl>; <bibl>winbib Ms. Fol. 241, fol. 27v-28r</bibl>; <bibl>STAW B 3a/10, S. 79-80</bibl>. Es mussten nicht zwei Personen für ihn bürgen, seine Aussenkontakte scheinen gering gewesen zu sein, kostspielige mehrtägige Reisen waren offenbar nicht vorgesehen. Daraus lässt sich schliessen, dass der Läufer auf kürzeren Distanzen und für kleinere Aufträge eingesetzt wurde.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_195_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AG 91/1/29</idno></msIdentifier><head>Intervention der Stadt Zürich bei der Stadt Winterthur zugunsten der Inhaberinnen der Burg Hettlingen</head><msContents><summary>Bürgermeister und Rat von Zürich berichten dem Schultheissen und Rat von Winterthur über die Klagen der Töchter des verstorbenen Wenzlaus Reigel von Hettlingen und fordern sie auf, deren Burg in Hettlingen, die ein Freisitz und Lehen der Grafschaft Kyburg ist, nicht mehr ihrer Gebotsgewalt zu unterwerfen, die Magd ihres verstorbenen Bruders zum Verlassen der Burg anzuweisen und die Beschlagnahmung von Gütern, die einzelne Personen veranlasst haben, aufzuheben. Die Töchter sind bereit dazu, Ansprüche an ihr Erbe von den Zürchern als der Obrigkeit prüfen zu lassen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross</author><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.5"/><width unit="cm" quantity="32.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="wrapping-tie" nontei:condition="absent"><orgName role="sigillant">Stadt Zürich</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1501-09-02"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005367">Beschlagnahmung</term><term ref="key005094">Gerichtsstand</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Unsern gu̍nstigen, guͦten willen zuͦvor, ersamen, wisen, lieben getru̍wen.</seg>
+<seg>U̍ns bringen fu̍r <persName ref="per027575">Wentzlaͧw Reigels</persName> von
+<lb/><placeName ref="loc010469">Hettlingen</placeName> seligen elich tochtern, das ir inen u̍ber das burgsaͤs <placeName ref="loc010469">Hettlingen</placeName> (wie wol das ein fryer sitz und von
+ <lb/>u̍ns als u̍nser grafschaft <placeName ref="loc000012">Kiburg</placeName> wegen lehen sye)<note>Am 25. Mai 1472 belehnte der Bürgermeister von <placeName ref="loc000065">Zürich</placeName>
+<persName ref="per027575">Wenzlaus Reigel</persName> und seine Frau <persName ref="per027573">Agnes Hoppler</persName> unter anderem mit Burgsäss und Schloss in <placeName ref="loc010469">Hettlingen</placeName> samt Zubehör, darunter der dort verlaufende Bach, sowie der Hälfte des Kelnhofs (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=2713176">StAZH F I 51, fol. 10r-v</ref></bibl>). Am 21. November 1498 erhielt <persName ref="per027574">Hans Reigel</persName> das Lehen (<bibl>STAW URK 1815</bibl>), seine Schwestern und Erbinnen <persName ref="per027572">Adelheid</persName> und <persName ref="per027573">Agnes</persName> wurden am 4. September 1501 belehnt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=943348">StAZH B V 1, Heft 2, fol. 7v</ref></bibl>). Zur Besitzgeschichte der Burg <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 71-75</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 284-287</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stauber 1949</ref>, S. 87-97</bibl>.</note> etlich gepott und verpott thuͦn laͧsen haben. Zuͦ dem etlich
+<lb/>sundrig personen umb ir vermeint spru̍ch inen das ir zuͦ <placeName ref="loc010469">Hettlingen</placeName> och hefften und bsonder irs bruͦders
+<lb/>seligen jungfrow vermeyne, das sy ir da uss zuͦ recht stillstanden<!-- Soll wohl heissen, dass die Winterthurer gerichtlich eine einstweilige Verfügung erlassen haben, dass sie nicht ausziehen muss -->. Desselben des genannten <persName ref="per027575">Reigels</persName>
+<lb/>tochtern sich beschwaͤren und u̍ns deshalb anruͤffen, sy bi der billicheit zuͦ handthaben, damit sy nit
+<lb/>wider alt harkomen getrengt werden. Dann wer zuͦ inen zuͦ spreͣchen hab, dem wellen sy vor u̍ns
+<lb/>als der oberkeit (da ein jeder erbfal billich gereͣchtfertigt sol werden) reͣchtz gehorsamb<!-- vgl. STAW AG 91/1/35: harumb--> sin und statt tuͦn.</seg>
+<seg>
+<lb/>Also und demnaͧch ist u̍nser pitt gar ernstlicher begeͣr, ir wellen u̍ber das burgsaͤss <placeName ref="loc010469">Hettlingen</placeName>, die wil das
+<lb/>ein fryer sitz ist, dhein gepott noch verpott thuͦn, zuͦ dem die jungfrowen daran wisen und halten, das
+<lb/>sy us der burg <placeName ref="loc010469">Hettlingen</placeName> zu̍he, als wir ire das zuͦ tuͦn gepieten, und die erben darinn ungesumm<damage agent="hole"><supplied resp="bf">p</supplied></damage>t und
+<lb/>ungeirrt laͧse, och die sundrigen personen daselbs irer verpoten und haͤfften abzuͦstellen. Haben
+<lb/>dann ir oder sy einich spru̍ch zuͦ den erben, sind sy urpu̍tig, u̍ch darumb rechtz und der
+ <lb/>billicheit vor u̍ns als der oberkeit nit vor ze sind.</seg>
+<seg>Datum <origDate when="1501-09-02">donstag nach <persName ref="per000474">Verene</persName>, anno <abbr>etc</abbr> primo</origDate>.</seg>
+</p>
+<p>
+<lb/><orgName ref="org002406">Burgermeister und
+<lb/>raͧt der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="address" place="verso">
+<lb/>Den ersamen, wisen, u̍nsern lieben getru̍wen,
+<lb/><orgName ref="org007943">schultheisen und raͧt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>
+</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die <placeName ref="loc000065">Zürcher</placeName> Obrigkeit billigte den von ihr belehnten und in die <orgName ref="org004959">Gesellschaft zur Constaffel</orgName> integrierten Burgbesitzern auf der Landschaft gewisse Vorrechte zu und erwartete im Gegenzug die Instandhaltung der Anlagen und militärische Dienste (<bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014a</ref>, S. 104-107</bibl>). Zur ursprünglich <orgName ref="org000088">habsburgischen</orgName> Lehensherrschaft in <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_043">SSRQ ZH NF I/2/1, Nr. 43</ref></bibl>.</p>
+<p>Zwischen der <orgName ref="org007823">Gemeinde <placeName ref="loc010469">Hettlingen</placeName></orgName> und der Stadt <placeName ref="loc000849">Winterthur</placeName> einerseits und den Inhabern der Burg andererseits kam es immer wieder zu Kompetenzstreitigkeiten und Nutzungskonflikten. So wehrte sich die Gemeinde, als <persName ref="per027575">Wenzlaus Reigel</persName> die Taverne, die er im Januar 1482 hatte verganten lassen (<bibl>STAW B 2/3, S. 482</bibl>), in die Burg verlegen wollte. <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> verglichen beide Seiten am <date when="1483-12-19">19. Dezember 1483</date> und räumten den Bauern ein, selbst Weinschenken zu unterhalten, wenn <persName ref="per027575">Reigel</persName> die Taverne nicht im Dorf betreiben würde (<bibl>STAW B 2/5, S. 58</bibl>). Auch die Nutzung der Allmende und des Dorfbrunnens durch die Burgbesitzer rief den Widerstand der Gemeinde hervor (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_197">SSRQ ZH NF I/2/1, Nr. 197</ref></bibl>; <bibl>STAW URK 2031</bibl>). Dagegen wandten sich die Inhaber der Burg gegen die Bestrebungen der Gemeinde, sie ihrer Gebots- und Gerichtsgewalt zu unterwerfen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_209">SSRQ ZH NF I/2/1, Nr. 209</ref></bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

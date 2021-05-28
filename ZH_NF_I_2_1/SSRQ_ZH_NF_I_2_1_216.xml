@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_216</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AE 41/2 </idno></msIdentifier><head>Anordnung des Verbots von Solddiensten in Winterthur durch die Stadt Zürich</head><msContents><summary>Bürgermeister, Rat und Zweihundert der Stadt Zürich weisen den Schultheissen und Rat von Winterthur an, öffentlich den Solddienst zu verbieten, wie an der eidgenössischen Tagsatzung in Luzern beschlossen worden ist. Wird ein Anwerber aufgegriffen, wollen ihn die Zürcher richten, entzieht er sich durch Flucht, soll sein Besitz beschlagnahmt und seine Familie ausgewiesen werden. Ebenso wollen die Zürcher den Besitz von Söldnern konfiszieren, deren Familie ausweisen und sie nach der Rückkehr nach ihrem Ermessen bestrafen. Verdächtige sollen festgenommen und den Zürchern übergeben werden.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.0"/><width unit="cm" quantity="32.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="wrapping-tie" nontei:condition="absent"><orgName role="sigillant">Stadt Zürich</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1517-03-07"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004082">Solddienst</term><term ref="key004393">Verbot</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="STAW_AE_41_2_S.1.jpg"/>
+<p>
+<lb/><seg>Unnsern gunstigen, guten willen voran, ersamen, wyßen, besonnders lieben und getruwen.</seg>
+<lb/><seg>Uff ansehen und verabscheiden unnser <placeName ref="loc000153">Eidtgnoschafft</placeName>, so jetz zu <placeName ref="loc000088">Lucern</placeName> ist zu tagen ver<lb break="no"/>samelt geweßen,<note>Vgl. den Beschluss der <orgName ref="org005057">Tagsatzung</orgName> der <orgName ref="org000531">Eidgenössischen Orte</orgName> vom 3. März 1517 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=262162">StAZH B VIII 87</ref>, fol. 140r, Nr. 12</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">EA</ref>, <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/217354">Bd. 3/2, Nr. 699m</ref></bibl>).</note> bevelchent wir u̍ch, das ir in uwer stat offennlich lassent ver<lb break="no"/>ku̍nden, das <sic>niemas</sic> zu einichem herrn niendert hin solle zu reiß louffen, riten noch
+<lb/>gon, keins wegs, sonder ein jeder anheimsch bliben und uff uns warten. Dann
+<lb/>welcher das wurde ubersehen, ist er uffwigler, wirt er betretten<!-- Idiotikon XIV, Sp. 1486: aufgegriffen -->, so wellent
+<lb/>wir zu sinem lib, leben und gut richten, und wo er entru̍ndt, sin gut nu̍tzit
+<lb/>desterminder alls ein verfallen gut zu gemeiner unser stat handen nemen
+<lb/>und im sin wib und kind, ob er die hat, nach schicken. Ist er der gemeinen
+<lb/>hinlouffenden knechten, wellent wir glicher gestallt sin gut zu gemeiner unser
+<lb/>stat handen nemen und im sin wib und kind, ob er die hat, och nach schicken
+<lb/>und inn demnach, wo er wider zu land kem und betretten wird, witer
+ <lb/>straffen nach unserm beduncken und gelegenheit der sachen. Und sol allen<lb break="no"/>thalb uff sollich uffwigler und hinlouffend, si sigint, woher si wellint,
+<lb/>acht gehept werden und, woman die argkwenig findt und betretten mag,
+<lb/>fengklich annemen und uns zu unsern handen uberantwurten. Dar<lb break="no"/>nach soͤlle sich mengklicher wussen zu richten. Daran thund ir unser
+ <lb/><choice><sic>ensthlich</sic><corr>ernsthlich</corr></choice> meinung.</seg>
+<seg>Datum <origDate when="1517-03-07">sambstags vor dem sontag reminiscere,
+<lb/>anno <abbr>etc</abbr> xvij</origDate>.</seg>
+</p>
+<p>
+<lb/><orgName ref="org002406">Burgermeister, rat und der groß rat, genant
+<lb/>die zweihundert, der statt <placeName ref="loc000065">Zurich</placeName></orgName>
+</p>
+<pb n="2" facs="STAW_AE_41_2_S.2.jpg
+"/>
+<div>
+<ab type="address" place="verso"><lb/>Den ersamen, wyßen, unsern besonders <lb/>lieben und getruwen <orgName ref="org007943">schulthes <lb/>und rat zu <placeName ref="loc000849">Wintherthur</placeName></orgName></ab>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>In rein innerstädtischen Angelegenheiten konnten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> weitgehend eigenständig agieren. Die Stadtherrschaft der <orgName ref="org002406">Zürcher</orgName> wirkte sich besonders auf den Bereich der Aussenbeziehungen aus. Dieser Anspruch manifestiert sich beispielsweise in den obrigkeitlichen Anweisungen zur Bekämpfung des Söldnerwesens, wobei den <orgName ref="org007943">Winterthurern</orgName> durchaus Gestaltungsmöglichkeiten in dem von <placeName ref="loc000065">Zürich</placeName> vorgegebenen Rahmen blieben, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">SSRQ ZH NF I/2/1, Nr. 171</ref></bibl> und <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_276">SSRQ ZH NF I/2/1, Nr. 276</ref></bibl>. Doch wurde die Meinung der <orgName ref="org007943">Winterthurer</orgName> im Rahmen der Befragung der <orgName ref="org002406">Zürcher</orgName> Untertanen zum Pensionenwesen und dem Bund mit <placeName ref="loc000281">Frankreich</placeName> eingeholt (<bibl>StAZH A 95.1, Nr. 2, S. 26-27</bibl>; <bibl>StAZH A 95.1, Nr. 3, S. 19-20</bibl>; <bibl>StAZH A 95.2, Nr. 5</bibl>).</p>
+<p>Bei der Transkription des Textes wurden die Bögen über dem Buchstaben <q>u</q> durchweg als Distinktionszeichen aufgefasst, eine Unterscheidung zwischen den Lauten <q>u</q> und <q>uͦ</q> ist nicht möglich.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

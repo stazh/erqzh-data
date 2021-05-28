@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_183_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 59r (Eintrag 4)</idno></msIdentifier><head>Eid der Spitalpfleger der Stadt Winterthur</head><msContents><summary>Die Spitalpfleger der Stadt Winterthur sollen schwören, gewissenhaft Aufsicht zu führen, den Nutzen des Spitals zu fördern und Schaden abzuwenden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="59r" facs="STAW_B_2_2_59_r.jpg
+"/>
+<head><lb/><orgName ref="org007934">Spitals</orgName> pflēger<app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r">eid</rdg></app></head>
+<p>
+<lb/>Item <app><lem>des <orgName ref="org007934">spitals</orgName> pflēgere</lem><rdg wit="STAW B 3a/10, S. 12">die spittalpflegere</rdg></app> soͤllend schwēren, uff den <orgName ref="org007934">spital</orgName>
+<app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r">ein</rdg></app>
+<lb/>getru̍w uff saͤhen zu haben und des <orgName ref="org007934">spitals</orgName> nutz ze fu̍rdern
+<lb/>und schaden ze wenden nach irem vermu̍gen und besten verstentnuß.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Mit der Verwaltung des <orgName ref="org007934">Spitals der Stadt <placeName ref="loc000849">Winterthur</placeName></orgName> waren zwei Mitglieder des <orgName ref="org005587">Kleinen Rats</orgName> beauftragt, die sogenannten Pfleger. Sie schlichteten Konflikte, stellten das Personal ein und führten die jährliche Abrechnung durch, wie aus den Aufzeichnungen des <persName ref="per026892">Hans Ernst</persName> von 1692 hervorgeht (<bibl>winbib Ms. Fol. 264, S. 146</bibl>). Dieses städtische Amt ist erstmals 1317 belegt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3482</bibl>. Spätestens seit den 1380er Jahren gab es eine Abteilung für mittellose Pflegebedürftige (<orgName ref="org009236">Unteres Spital</orgName>) unter der Leitung eines eigenen Pflegers, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_124">SSRQ ZH NF I/2/1, Nr. 124</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_187">SSRQ ZH NF I/2/1, Nr. 187</ref></bibl> (Eidformel). Zur Spitalverwaltung in <placeName ref="loc000849">Winterthur</placeName> vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_032">SSRQ ZH NF I/2/1, Nr. 32</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

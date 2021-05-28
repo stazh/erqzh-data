@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_139_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=650490">PGA Hettlingen I A 2</idno></msIdentifier><head>Urteil im Streit um das Weiderecht zwischen der Gemeinde Hettlingen und den Einwohnern von Hünikon, Aesch und Riet</head><msContents><summary>Felix Schwarzmurer, Landvogt von Kyburg, verkündet in Oberwinterthur das Urteil im Streit um das Weiderecht zwischen der Gemeinde Hettlingen einerseits und den Einwohnern von Hünikon, Aesch und Riet andererseits. Diese hatten den Hettlingern die Berechtigung abgesprochen, ihr Vieh auf den an das Dorf grenzenden Wiesen zu weiden. Vielmehr sei die bisherige Nutzung der Weiden nur aus gutem Willen geduldet worden. Vor dem Gericht der Grafschaft Kyburg wurden fünf Männer mit der Prüfung des Sachverhalts beauftragt. Nach Anhörung der Männer entscheiden die Richter einmütig, dass jede Partei den von ihr beanspruchten Teil des Riets einzäunen, der anderen Seite jedoch zu bestimmten Zeiten Wegrecht einräumen solle. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="38.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><persName role="sigillant">Felix Schwarzmurer</persName></seal></sealDesc></physDesc><history><origin><origDate when="1484-03-17"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000748">Augenschein</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000683">Urteil</term><term ref="key000606">Wegrecht</term><term ref="key000048">Weiderecht</term><term ref="key000519">Zaun</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="PGA_Hettlingen_I_A_2__r_.tif"/>
+<p><!-- Unterscheidung zwischen uͦ und uͤ̍ ist schwierig -->
+<lb/><seg>Ich, <persName role="issuer" ref="per027609">Feilix Schwartzmurer</persName>, ritter, der strengen, fu̍rsichtigen unnd wisen <orgName ref="org002406">burgermeisters unnd raͤte der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, miner lieben
+ <lb/>heren, vogt zuͦ <placeName ref="loc000012">Kyburg</placeName>, tuͦn kund menglichem mit disem brieve:</seg>
+<seg>Als sich ettwas zit vordrung unnd spru̍ch gehalten haben zwu̍schen
+ <lb/><orgName ref="org007823">vogt, richtern unnd gantzer gemeind gemeinlich des dorfs zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName> an einem unnd den insaͤssen gemeinlichen der <num value="3">dryen</num>
+<lb/>flecken <placeName ref="loc013154">Hu̍nikon</placeName>, <placeName ref="loc013066">Aͤsch</placeName> unnd <placeName ref="loc013183">Riet</placeName> an dem andernteil, darruͤ̍rende ettlicher getrǎt<!-- = Tratt = Weidgang --> unnd vichweid halb, so die yetzgemelten
+ <lb/><num value="3">dryg</num> flecken in wisen halb, die an <placeName ref="loc010469">Hettlinger</placeName> wisen anstoͤssig sind, den selben von <placeName ref="loc010469">Hettlingen</placeName> mit irem vaͤhe zuͦ nutzen unnd
+ <lb/>zuͦ gepruchen verbotten, dargegen aber die von <placeName ref="loc010469">Hettlingen</placeName> vermeint haben, inen soͤlch verbott unbillich beschaͤhen sin,
+ <lb/>dann sy unnd ir vorfarn yewelten vermelter weide mit irem vihe genossen unnd genutzet, das sy daran niemand
+ <lb/>gesumpt hab, das aber die vorgenanten <num value="3">dryg</num> flecken verantwurtend, die von <placeName ref="loc010469">Hettlingen</placeName> hetten des kein gerechtikeit,
+ <lb/>sonnder wer inen soͤlcher gebruch von inen unnd iren vorfarn uß guͦttem willen unnd keiner ander meinung <app><lem>zuͦge<lb break="no"/>laussen</lem><rdg wit="ZGA Hünikon I A 5">nachgelaussen</rdg></app>
+<abbr>etc</abbr>, darumb sy dann zuͦ beidersit vor mir unnd der genanten miner herren graufschafft gericht zuͦ recht gewesen
+<lb/>sind unnd danntzemal nach clag, antwurt, red unnd widerrede mit urteil erkennt worden ist, das <num value="5">fu̍nff</num> erber man
+<lb/>usser dem gerichte uff den vermelten spann sich fuͤgen unnd demnach gstalt der ding besichtigen unnd beder obgemelten
+<lb/>parthyen gerechtikeit daruff ermessen, unnd wie sy die sachen spennig erfu̍nden, soͤlchs widerumb fu̍r gericht ze
+<lb/>bringen, innhalt der selben urteil <abbr>etc</abbr>.</seg>
+<seg>Unnd als ich uff hu̍t datum abermǎls an statt unnd innamen der genanten
+ <lb/>miner herren zuͦ <placeName ref="loc008882">Oberwinterthur</placeName> offennlich zuͦ gericht gesessen bin unnd die vorgeschriben fu̍nffman vermelten spann
+ <lb/>fu̍r offenn gericht gepraucht unnd by iren geschworen eiden eroffnet, wie sy die sachen erfunden unnd nach iren verstent<lb break="no"/>nu̍ß ermessen, daruff nun die obgenanten parthyen beidersit die sachen zuͦ recht gesetzt unnd der urteil mit entlichem
+<lb/>entscheid begert haben. Also haben sich die richter des vermelten gerichtz nach miner frauge uff beiderteil clag,
+ <lb/>antwurt, ouch verhoͤrung der bedauchten fu̍nffman einhellenklich zuͦ recht erkennt, das die obgenanten von <placeName ref="loc010469">Hett<lb break="no"/>lingen</placeName>, desglichen <app><lem>die</lem><rdg wit="ZGA Hünikon I A 5"/></app> insaͤssen zuͦ <placeName ref="loc013154">Hu̍nikon</placeName>, <placeName ref="loc013066">Aͤsch</placeName> unnd <placeName ref="loc013183">Riet</placeName> yederteil ir vichweide, daruff sy unnd niemand ander
+<lb/>zefaren gerechtikeit vermeinen zehaben, vor dem andern nach billichen dingen inzu̍nen unnd nach soͤlchem zu̍nen
+<lb/>enandern demnach daran mit irem veͣhe vermelter weidhalb ungesumpt laussen soͤlle. Doch sol yederteil dem andern
+ <lb/>u̍ber die selben ingezu̍nten wisen zuͦ billichen zitten, wann sich das notturftlich gepu̍rt, weͤg unnd steg geben.</seg>
+<seg>Diser urteil
+ <lb/>begerten die obgenanten von <app><lem><placeName ref="loc010469">Hettlingen</placeName></lem><rdg wit="ZGA Hünikon I A 5"><placeName ref="loc013154">Hu̍nikon</placeName></rdg></app> einen urteilbrieff, der inen zegeben mit urteil erkennt ward.</seg>
+<seg>Hierumb
+ <lb/>zuͦ offem urkund hab ich min insigel von des gerichtz wegen, den obgenanten minen herren von <placeName ref="loc000065">Zu̍rich</placeName> an ir
+<lb/>herlicheit unvergriffen, ouch mir unnd minen erben ǒne schaden, offennlich gehengkt an disen brieff, der mit
+<lb/>urteil geben ist uff <origDate when="1484-03-17">mitwochen vor dem sonntag oculi in der vasten, nach Cristi gepu̍rt viertzehenhundert
+ <lb/>achtzig unnd vier jare</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="PGA_Hettlingen_I_A_2__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><placeName ref="loc010469">Hettlingen</placeName></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits 1481 hatte sich die Gemeinde <placeName ref="loc010469">Hettlingen</placeName> im Streit mit dem <orgName ref="org002665">Kloster <placeName ref="loc000980">Töss</placeName></orgName> um den Weidgang einem Schiedsurteil unterworfen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_114">SSRQ ZH NF I/2/1, Nr. 114</ref></bibl>). In der Offnung von <placeName ref="loc010469">Hettlingen</placeName> aus dem Jahr 1538 wurden die beanspruchten Weiderechte festgehalten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_280">SSRQ ZH NF I/2/1, Nr. 280</ref>, Artikel 8</bibl>).</p>
+<p>Die von dem Schreiber verwendeten diakritischen Zeichen lassen sich nicht immer zweifelsfrei unterscheiden. Zur besseren Lesbarkeit des Textes wurde in Zweifelsfällen gemäss Standarddeutsch normalisiert.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_184_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 59v (Eintrag 1)</idno></msIdentifier><head>Eid der Eigengeber der Stadt Winterthur</head><msContents><summary>Die Eigengeber der Stadt Winterthur sollen schwören, in Streitfällen, die ihnen der Rat zur Entscheidung überträgt, unparteiisch und nach bestem Wissen zu richten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000057">Gericht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="59v" facs="STAW_B_2_2_59_v.jpg
+"/>
+<head><lb/>Der eigengeber eide</head><!-- Idiotikon II, Sp. 95: Art Friedensrichter in Winterthur -->
+<p>
+<lb/><app><lem>Item</lem><rdg wit="STAW B 3a/10, S. 9"/></app> die eigengeber soͤllen schwēren, in spennigen sachen,
+<lb/>darumb sy von lu̍ten umb entscheidung angefochten<!-- ??? so auch im Eidbuch STAW B 3a/10, dort aber von anderer Hand korrigiert in "angesprochen" -->
+<lb/>unnd vom <orgName ref="org005587">raut</orgName> dartzu verordnet werden, das sy
+<lb/>nach besichtigung unnd nach gelegenhait des <app><lem>spans</lem><rdg wit="winbib Ms. Fol. 241, fol. 4r; STAW B 3a/10, S. 9">gespans</rdg></app>
+<lb/>mengklichem glich richter sin unnd also einem
+<lb/>jegklichen geben das, so sy by iren eiden unnd gewu̍ssne
+<lb/>nach ir besten verstentnuß beduncket, dem selben zuͦ ge<lb break="no"/>hoͤrig ze sin, oͤn geverde.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Kommission der Eigengeber setzte sich in der ersten Hälfte des 15. Jahrhunderts in der Regel aus zwei Mitgliedern des neuen oder alten <orgName ref="org005587">Rats</orgName> sowie aus dem Werkmeister zusammen, vgl. beispielsweise das Ämterverzeichnis für das Jahr 1421 (<bibl>STAW B 2/1, fol. 65r-66r</bibl>). Seit Ende der 1440er Jahre begegnen drei Mitglieder des <orgName ref="org005587">Kleinen Rats</orgName> in dieser Funktion (vgl. <bibl>STAW B 2/1, fol. 106v-107r</bibl>), darunter seit dem 16. Jahrhundert sporadisch und später regelmässig der amtierende Baumeister, während seine beiden Kollegen durch den <orgName ref="org007944">Grossen und Kleinen Rat</orgName> gewählt wurden (<bibl>winbib Ms. Fol. 4, S. 36</bibl>). Die Eigengeber entschieden Baustreitigkeiten (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_071">SSRQ ZH NF I/2/1, Nr. 71</ref></bibl>) respektive Konflikte um unbewegliche Güter (vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3975446">StAZH F II a 462, fol. 28v-29r</ref></bibl>). Appellationsinstanz waren der <orgName ref="org007943">Schultheiss und der Kleine Rat</orgName> (vgl. <bibl>STAW AG 91/2/33</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_273">SSRQ ZH NF I/2/1, Nr. 273</ref></bibl>). Darüber hinaus überprüften sie Strassen und Wege innerhalb des städtischen Gerichtsbezirks (<bibl>STAW B 2/7, S. 676</bibl>; <bibl>STAW B 2/8, S. 295</bibl>; vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=694950">StAZH A 155.1, Nr. 179</ref></bibl>).</p>
+<p>Zu den <placeName ref="loc000849">Winterthurer</placeName> Eigengebern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1958</ref>, S. 275</bibl>; zur vergleichbaren Baumeisterkommission der Stadt <placeName ref="loc000065">Zürich</placeName> im 15. Jahrhundert vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Sutter 2002</ref>, S. 212-215</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

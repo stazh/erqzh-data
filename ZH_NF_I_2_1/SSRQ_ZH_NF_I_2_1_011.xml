@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_011</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 37</idno></msIdentifier><head>Organisation der Bauaufsicht in der Stadt Winterthur</head><msContents><summary>Rudolf von Trostberg, Vogt von Kyburg, Schultheiss Egbrecht Gevetterli, Ulrich von Sal, Wetzel Schultheiss, Rudolf Steheli, Johannes von Schaffhausen, Arnold von Hinwil, Ulrich Nägeli und Walter Verro, Mitglieder des Rats, sowie der alte Rat und die Gemeinde der Stadt Winterthur haben eine Bauordnung erlassen und eine dreiköpfige Kommission, bestehend aus Johannes Schultheiss, Ulrich von Sal und Ulrich Nägeli, zur Beaufsichtigung des Bauwesens eingesetzt. Den Anordnungen der Kommission ist bei der Errichtung von Gebäuden aus Holz oder Stein Folge zu leisten. Sie legt den Lohn für Maurer, Ziegler, Zimmerleute, Säger und andere Werkleute fest. Wenn ein Mitglied stirbt oder kann seine Aufgabe nicht mehr erfüllen kann, soll der Rat einen Nachfolger bestimmen. Es siegeln der Vogt von Kyburg im Namen seiner Herrschaft sowie Schultheiss, Rat und Gemeinde von Winterthur mit dem Stadtsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="13.0"/><width unit="cm" quantity="25.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Rudolf von Trostberg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary"><orgName role="sigillant">Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1312-12-30"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH, Bd. 9, Nr. 3184</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000490">Bauwesen</term><term ref="key000179">Eid</term><term ref="key000212">Löhne</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, her <persName role="issuer" ref="per027049">Ruͦdolf von Trosberg</persName>, vogit ze <placeName ref="loc000012">Kiburg</placeName><!-- Meyer, Verwaltungsorganisation, kennt auch nur diese Belegstelle -->, <persName ref="per026920">Egebreht Gevetterli</persName>, sculthaisse, <persName ref="per026945">Uͦlrich von Sala</persName>, <persName ref="per027009">Wezzel der Schulthaisse<!-- Name --></persName>,
+ <lb/><persName ref="per027048">Ruͦdolf Stehelli</persName>, <persName ref="per027047">Johans von Schafhusen</persName>, <persName ref="per027038">Arnolt von Hu̍nwile</persName>, <persName ref="per027042">Uͦlrich Negelli</persName> und <persName ref="per027035">Walther der Verre</persName>, der <orgName role="issuer" ref="org007943">rat ze <placeName ref="loc000849">Winterture</placeName></orgName>, und mit
+ <lb/>den der <orgName role="issuer" ref="org005587">alt rat</orgName> und allu̍ du̍ <orgName role="issuer" ref="org004474">gemainde ze <placeName ref="loc000849">Winterture</placeName></orgName>, kundin allen, die disen brief ansehent oder hoͤrent lesen, ain erkantnuste der nach
+<lb/>gesribenon dinge.</seg>
+<seg>Wissin alle, den es zewissinne beschiht, das wir ainwelleklich mit besintem und bewertem rate durch unser herren
+<lb/>und unser stat êlichen<!-- Zirkumflex über dem e, sieht anders aus als -er/re-Abk. !!! --> nuz und noturft ain ordenunge, wie man u̍nser stat bu̍wen su̍le, vur verderbenu̍ste und grossen schaden u̍nserre stat
+<lb/>getan habin. Und darumbe so habin wir gesezzet die erberen lu̍te hern <persName ref="per027014">Johansen den Schulthaissen<!-- Name --></persName>, hern <persName ref="per026945">Uͦlrichen von Sala</persName>, hern <persName ref="per027042">Uͦlrichen
+ <lb/>Negellin</persName>. Und habent die durch u̍nser gebot und u̍nser bet gesworn ze den hailigen, das su̍ haissin bu̍wen uffen ir aide dur alle die
+ <lb/>stat, baidu̍ mit gemu̍re und zimber, nach des mannes stat, als nôturftdig ist unser stat. Und habin wir darumbe allesament<!-- allesamt mit Nasalstrich, aber eher über dem -et als über dem -m- --> gelopt, <choice><sic>z</sic><corr>g</corr></choice>e<lb break="no"/>horsame ze sinne und gehulfig aller der ordenunge, so su̍ ze dem buwe haissent tuͦn uffen ir aide. Und darzuͦ stat uffen den selben uffe
+<lb/>ir aid, das su̍ haissin baidu̍, mûrerre, zieglerre, zimberlu̍te und segerre und alle werchlu̍te, den lôn nemen, den su̍ haissent. Wir
+<lb/>habin oͧch gesezzet, swele under den <num value="3">drin</num> sturbe oder unnu̍z wurde, so sol ain <orgName ref="org005587">rat</orgName>, swele denne rat ist, ainen andern geben uffen
+<lb/>den aid an des unnu̍zzen stat, angeverde. Und darumbe so habin wir gelopt, swer under u̍ns rat werde, das der der selbun ordenunge gebun<lb break="no"/>den und gehulfig sie als och wir. Und swenne er den <orgName ref="org005587">rat</orgName> swêrre, das er das selbe in sinen aid vahe als och wir.</seg>
+<seg>Und ze ainer
+<lb/>bestêtenuste dirre geseztde so hab ich, der vorgenande her <persName role="sigillant" ref="per027049">Ruͦdolf von Trostberg</persName>, vogit ze <placeName ref="loc000012">Kiburg</placeName>, disen brief an miner herren stat
+ <lb/>bevestet und besigelt mit minem insigel. Und darzuͦ so habin wir, der <orgName ref="org007943">schulthaisse und der rat und allu̍ du̍ gemainde ze Win<lb break="no"/>terture</orgName>, u̍nser stat insigel zuͦ des vorgenanden u̍nsers vogtes insigel gegeben an disen brief ze ainer behu̍gnuste<note>Erinnerung (<bibl><ref>Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/162670">Bd. 2, Sp. 1087</ref></bibl>).</note> und gewerem ur<lb break="no"/>ku̍nde aller der vorgesribenon dinge.</seg>
+<seg>Disu̍ ordenunge und disu̍ gesezte geschach ze <origPlace ref="loc000849">Winterture</origPlace>, do von gottes geburte waren
+<lb/><origDate when="1312-12-30" calendar="natal">dru̍zehenhundert jar, darnach in dem drizehenden jare, an dem nehsten samstage nach der kindelin tage</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><persName ref="per027049">Rudolf von Trostberg</persName>, vogt zu <placeName ref="loc000012">Kyburg</placeName>,
+ <lb/>und des <orgName ref="org005587">raths zu <placeName ref="loc000849">Winterthur</placeName></orgName>
+<lb/>verordnung, <lb/>wie mann die statt bauen soll, <date when="1312-12-29"><add place="inline" hand="hand19c">29 <choice><abbr>Dec</abbr><expan>December</expan></choice></add> anno 131<subst><del>3</del><add place="overwritten" hand="hand19c">2</add></subst></date>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Nachdem er sich zunächst durch den Vogt von <placeName ref="loc000012">Kyburg</placeName> hatte vertreten lassen, gab <persName ref="per000342">Herzog Leopold von Österreich</persName> im August 1313 seine stadtherrliche Zustimmung zur Organisation der städtischen Bauaufsicht in <placeName ref="loc000849">Winterthur</placeName> (<bibl>STAW URK 38</bibl>, Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3230</bibl>). Im folgenden Jahr erliessen <orgName ref="org007943">Schultheiss und Rat</orgName> eine Ordnung, in der sie sich die Aufsicht über das Bauwesen vorbehielten und die Besitzverhältnisse zwischen den Eigentümern der Grundstücke und denen, die diese als Leibgeding nutzten, regelten (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3251</bibl>). Baupolizeiliche Standards, etwa im Bereich des Brandschutzes, liessen sich nicht nur mittels Verordnungen durchsetzen, sondern auch durch die Förderung der Verwendung feuersicherer Baumaterialien, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_211">SSRQ ZH NF I/2/1, Nr. 211</ref></bibl>. Zu baupolizeilichen Vorschriften städtischer Obrigkeiten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 463-465</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Binding 1993</ref>, S. 93-101</bibl>.</p>
+<p>Versäumten die Besitzer notwendige Unterhaltsmassnahmen, konnten baufällige Häuser zur Gefahrenabwehr beschlagnahmt werden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_198">SSRQ ZH NF I/2/1, Nr. 198</ref></bibl>). Im Ämterverzeichnis des Jahres 1523 werden die drei Verordneten des <orgName ref="org005587">Kleinen Rats</orgName>, <orig>so alle buw besechen soͤllen</orig>, darunter der amtierende Baumeister, erstmals aufgeführt (<bibl>STAW B 2/7, S. 377</bibl>). Zur Baumeisterkommission in der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sutter 2002</ref>, S. 212-215</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

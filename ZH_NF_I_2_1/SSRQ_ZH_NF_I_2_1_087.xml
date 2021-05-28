@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_087</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1073</idno></msIdentifier><head>Urfehde des Hans Scholl, vormals Spitalpfleger in Winterthur, wegen Kindesmissbrauchs</head><msContents><summary>Hans Scholl, Schwertfeger, Mesmer in Egg im Bregenzerwald, schwört dem Schultheissen und Rat von Winterthur Urfehde. Er hatte als Pfleger im Unteren Spital ein zehnjähriges Mädchen sexuell missbraucht und war deshalb inhaftiert worden. Nach Gnadenbitten wurde er vor die Wahl gestellt, sich einem Gerichtsverfahren zu stellen oder eine vom Schultheissen und Rat verhängte Strafe anzunehmen, auf die Spitalpfrund und seinen Besitz mit Ausnahme von Kleidung und Werkzeug zu verzichten, eine Urfehde zu schwören, Zeit seines Lebens nicht mehr über den Rhein zu kommen und sich bis auf vier Meilen der Stadt nicht zu nähern. Scholl nimmt diese Strafe an und verzichtet im Namen seiner Erben auf alle Ansprüche. Forderungen an die Stadt soll er gerichtlich vor Vertretern der Herzöge von Österreich oder vor dem Bürgermeister und Rat der Stadt Konstanz austragen, Forderungen an Bürger, Bürgerinnen oder Hintersassen von Winterthur soll er durch einen Bevollmächtigten vor dem städtischen Gericht austragen. Er verzichtet auf alle Rechtsmittel. Auf seine Bitte siegeln Hug von Hegi und Heinrich von Rümlang.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Engelfried</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.5"/><width unit="cm" quantity="44.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Hug von Hegi</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:attachment="sealed on a parchment tag" nontei:condition="absent"><persName role="sigillant">Heinrich von Rümlang</persName></seal></sealDesc></physDesc><history><origin><origDate when="1463-01-13"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hauser 1912, S. 139-141</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000590">Delinquenz</term><term ref="key000959">Vergewaltigung</term><term ref="key000480">Urfehde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Ich, <persName role="issuer" ref="per027764">Hanns Scholl</persName>, der schwertfeger, meßner an der <placeName ref="loc013134">Egg</placeName> im <placeName ref="loc013134">Bregentzer Wald</placeName>, vergich offennlich und tuͦn kunt allermenngklich mit disem briefe:</seg>
+<seg>Als ich denn ettwas
+<lb/>zytes der armen, du̍rrfftigen und siechen menschen undenan im <orgName ref="org007934">spittal zuͦ <placeName ref="loc000849">Wintterthur</placeName></orgName> verseher und pfleger gewesen bin von der ersamen, wysen, miner gnaͤdigen, lieben herren, eins
+<lb/><orgName ref="org007943"><choice><abbr>schulthn</abbr><expan>schultheisen</expan></choice> und rautz daselbz zuͦ <placeName ref="loc000849">Wintterthur</placeName></orgName>, heissens und emphelhens wegen und ouch by tru̍wen an eins geschwornen eydes statt geloͤpt und versprochen hatt, des <orgName ref="org007934">spittals</orgName> nutz und
+<lb/>ere ze fu̍rdern und sinen schaden und unere ze wenden,<note>Vgl. die Eidformel des Pflegers des <orgName ref="org009236">Unteren Spitals</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_187">SSRQ ZH NF I/2/1, Nr. 187</ref></bibl>).</note> in dem ich mich aber leider u̍bersehen und mit eim tochterlin, das ein arms weißlin und noch ein kinde ist by <measure type="age" unit="year" quantity="10">zechen jaren
+<lb/>alt</measure> und das mir empholhen was als sim vatter von des <orgName ref="org007934">spittals</orgName> wegen ze erziehen und das best und erlichest zetuͦn, <unclear>do</unclear> berlich geunfuget hab, mich uber es geleit und understanden,
+<lb/>im sin reinikeit und junckfroͤwlikeit ze nemen, und das digk und vil understanden, darumb denn die vorgenanten mine herren von <placeName ref="loc000849">Wintterthur</placeName> zuͦ mir gegriffen und mich in
+<lb/>ir gefengknu̍sse genommen hant und deßhalb sy mich fu̍r recht gestelt und mir widerfaren lassen haben woltent, was mir denn das recht geben hette nach minem verdienen.</seg>
+<seg><lb/>Wann ich aber frommer, erberer lu̍ten bitt, edeler und unedeler, priester und anderer, die denn so ernstlich fu̍r mich gebetten hant, darinn genossen han in solicher maͧß,
+<lb/>das dieselben mine herren von <placeName ref="loc000849">Wintterthur</placeName> mir ein wall uffgetan haben also, ob mir das recht lieber sige oder ob ich mich in ir straff geben welle. Die sige also,
+<lb/>das ich mich miner pfruͦnd im <orgName ref="org007934">spittal</orgName> und alles mins gutz, gelt, schulden und anders, wie das genant ist, nu̍tzit ußgenommen, denn allein mine kleyder und den spengel<lb break="no"/>zu̍g, vertzihen, den pfruͦndbriefe herußgeben und dartzuͦ ein urfecht u̍ber <placeName ref="loc008199">Rin</placeName>
+<measure type="length" unit="Meile" quantity="4">vier mil wegs</measure> schweren welle uff gnade, und als hernach in der urfecht eygentlich
+<lb/>geschriben ist, und by demselben eyde der urfecht alles des <orgName ref="org007934">spittals</orgName> und min guͦt, gelt, schulden und anders, als <unclear>verre</unclear> ich das wiß, in geschrifft geben, ane
+<lb/>geverde, weders mir da das lieber sige. Da hab ich mich bedachtenklich in solich obgemaͤlt ir straff geben und mich also miner bedachten pfruͦnd und alles vorge<lb break="no"/>schribens mins gutz luter und gantz vertzigen und vertzihe mich ouch des yetzo wissentlich fu̍r mich und alle min erben mit dem briefe also, das weder ich
+<lb/>noch min erben kein vordrung noch ansprach dartzuͦ nyemermer gehaben oder gewynnen soͤllen noch moͤgen, weder mit recht, geistlichem noch weltlichem,
+<lb/>noch ane recht, in keinen wege, so yemand erdencken kan, alles by dem naͧchgeschriben minem geschwornen eyde.</seg>
+<seg>Und hieruff so hab ich ouch, obge<lb break="no"/>nanter <persName ref="per027764">Hanns Scholl</persName>, ledig aller bande, ungebunden und ungetwungen, geschworn einen gelerten eyde, liplich zuͦ gott und den heiligen, mit uffgehepten vingern
+<lb/>und gelerten worten, von der gefengknu̍ße und sach wegen und was sich darunder und damitt verloffen hat, ein gantz, redelich, schlecht, einfaltig und ungevarlich urfecht yemer ewi<lb break="no"/>klich ze halten und soͤlich gefengknu̍ße und straff nyemermer ze aͤffern, ze rechen noch schaffen geaͤffert oder gerochen werden noch dawider zetuͦnd durch mich selbz oder ander, heym<lb break="no"/>lich noch offennlich, weder mit gericht, geistlichem oder weltlichem, noch ane gericht, weder mit worten noch wercken, raͤten oder getaͤten noch in keinen wege, gegen den <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+<lb/>minen herren von <placeName ref="loc000849">Wintterthur</placeName> noch gegen nyemant, der dartzuͦ hilff, raut oder getat getan haͧt oder dartzuͦ gewandt oder darunder <unclear>verdaͧcht</unclear> ist, in kein wege. Und han oͧch in den<lb break="no"/>selben minen eyde genommen, uber <placeName ref="loc008199">Rin</placeName> ze gand <measure type="length" unit="Meile" quantity="4">vier mil wegs</measure> von <placeName ref="loc000849">Wintterthur</placeName> und yetzent von stundan anzeheben recht tagreiß ze tuͦnd, als ich denn das vermag, ungevarlich,
+<lb/><unclear>unge</unclear><note>Vermutlich irrtümliche Wiederholung.</note>, das ich daru̍ber und <measure type="length" unit="Meile" quantity="4">vier mil wegs</measure> wyt von <placeName ref="loc000849">Wintterthur</placeName> kom, und ennent dem <placeName ref="loc008199">Rin</placeName> ze beliben und nyemermer heru̍ber noch <measure type="length" unit="Meile" quantity="4">vier mil wegs</measure> wyt neher gen <placeName ref="loc000849">Wintterthur</placeName>
+<lb/>ze komend by zit mins lebens, uff gnaͧd.</seg>
+<seg>Und ob es were, daz ich mit gemeiner statt <placeName ref="loc000849">Wintterthur</placeName> oder mit deheinem burger oder burgerin, hindersaßen oder yemant, der inen ze ver<lb break="no"/>sprechen stu̍nd, er were geistlich oder weltlich, u̍tzit ze schaffen hett oder gewunn, warumb das were, da sol und wil mich uff und by demselben minem geschwornen eyde rechtz lassen
+<lb/>benu̍gen und das suchen, nemblich von genenter statt <placeName ref="loc000849">Wintterthur</placeName> wegen vor der hochgebornen, miner genaͤdigen <orgName ref="org000088">herrschafft von Oͤsterrich</orgName> oder vor iren gnaden raͤten oder lant<lb break="no"/>vogt in disem lande oder vor den fu̍rsichtigen, wisen <orgName ref="org001936">burgermeister und raͤten der statt <placeName ref="loc000008">Costentz</placeName></orgName>, minen lieben herren, zuͦ solichem rechten, als gen <placeName ref="loc000008">Costentz</placeName> mir denn uber <placeName ref="loc008199">Rin</placeName> ze koment
+<lb/>erlopt solt werden, ane geverde, und von gemeiner burger oder hindersaßen wegen daselbz zuͦ <placeName ref="loc000849">Wintterthur</placeName> vor einem geschwornen stab und gericht und das suchen und vollenden,
+<lb/>besunder das recht zu <placeName ref="loc000849">Wintterthur</placeName> durch min gewiß bottschafft mit minem vollen verschriben gewalt ze gewynn und verlust und das nyergent andersschwahin ziehen noch vordern,
+<lb/>in kein wege.</seg>
+<seg>Und were es, das gott nit enwelle, daz ich so schwach und licht an minen eren wu̍rde und dis urfecht und den vorgeschriben eide oder u̍tzit, so an dißem briefe geschriben staͧt, u̍ber<lb break="no"/>fu̍re und nit hielt, es were an einem stuck, puncten, artickel oder mer, so setz ich uff mich selbz, daz ich an alle gnade ein verurteilter, <sic>rechtloßler</sic>, erloser, meyneidiger, verzalter und toter mann heißen
+<lb/>und sin sol an allen gerichten und vor allen richtern und lu̍ten, geistlichen und weltlichen, und sust allenthalben und in alle weg. Und davor sol noch mag mich nit schirmen weder babstlich,
+<lb/>keiserlich noch kuniglich gebott, gnaͧd, wider insetzen noch sust nu̍tzit, daz yemant dawider erwerben, erdencken kan oder geben mag, in kein wege, wann ich mich des alles und ir yegklichs insunders uff den
+<lb/>vorgeschriben minen eyde vertzigen hab mit rechtem wissen und gutem willen, gentzlich, in all weg, alle arglist, funde und geverde hierinn vermitten.</seg>
+<seg>Des allez zuͦ warem urkund hab ich erbeten die fromen,
+<lb/>vesten, junckherr <persName role="sigillant" ref="per013499">Hugen von Hegy</persName> und junckherr <persName role="sigillant" ref="per027591">Heinrichen von Ru̍mlang</persName>, das sy ir insigele, mich dirre ding ze besagent, gehenckt hant an den briefe, inen und iren erben an schaden.</seg>
+<seg>Geben uff <origDate when="1463-01-13">durnstag
+<lb/>vor sant <persName ref="per000795">Anthongen</persName> tag, nach Crists geburt viertzechenhundert und im dru̍ und sechtzigisten jarn</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c" scribe="per027325"><lb/>Urfecht von <persName ref="per027764">Hansen Schollen</persName>, <lb/>dem swertfeger, uß dem <lb/><placeName ref="loc006434">Bregentzerwald</placeName>
+<abbr>etc</abbr>
+<add place="inline" hand="hand18c">wegen verübter leicht<lb break="no"/>fertigkeit an einem mägdlin von 10 jahren <lb/>im <orgName ref="org007934">spittal</orgName> alhier, alwo er verseher oder <lb/>pfleger der siechen <unclear>were</unclear>, seines diensts <lb/><unclear>entsetst</unclear>, anno <date when="1463">1463</date>.</add></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><lb/><date when="1463-01-13">13 <choice><abbr>Jän</abbr><expan>Jänner</expan></choice> 1463</date>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zu der Praxis, Delinquenten auszuweisen statt einem Gerichtsverfahren zu unterziehen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

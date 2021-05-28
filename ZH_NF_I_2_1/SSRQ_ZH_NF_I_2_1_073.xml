@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_073</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 815</idno></msIdentifier><head>Urfehde des Hans Modrer und des Götz Gengenbach wegen unbefugten Zutritts zur Stadt Winterthur</head><msContents><summary>Der Schultheiss von Winterthur Heinrich Zingg beurkundet die Urfehde der beiden Schuhmacher Hans Modrer von Winterthur und Götz Gengenbach von Stockach, die in Haft waren, weil sie sich während einer Bürgerversammlung über den Burggraben Zutritt in die verschlossene Stadt verschafft hatten. Obwohl sie sich schuldig bekannten, wurden sie aufgrund der Gnadenbitten ehrbarer Leute nicht vor Gericht gestellt. Binnen acht Tagen sollen sie sich für ein halbes Jahr in die Verbannung über den Rhein begeben, sofern nicht Schultheiss und Rat ihnen die Erlaubnis zur Rückkehr geben. Forderungen an die Stadt sollen sie in Konstanz, Rapperswil oder Wil gerichtlich austragen. Ansprüche an einzelne Bürger oder Bürgerinnen, seien diese geistlichen oder weltlichen Standes, in der Stadt oder ausserhalb ansässig, sollen sie gerichtlich in Winterthur verfolgen oder an der Stelle, wohin sie durch Urteil gewiesen werden. Für die Dauer ihrer Verbannung sollen sie sich durch Boten vertreten lassen. Man hat ihnen zudem ein Bussgeld von jeweils 10 Pfund Haller auferlegt. Der Aussteller siegelt mit seinem Gerichtssiegel, für Modrer und Gengenbach siegelt Hermann von Landenberg von Werdegg.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="33.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Schultheiss Heinrich Zingg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Hermann von Landenberg von Werdegg</persName></seal></sealDesc></physDesc><history><origin><origDate when="1442-06-25"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000590">Delinquenz</term><term ref="key000593">Unbefugter Zutritt</term><term ref="key000480">Urfehde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Ich, <persName role="issuer" ref="per027672">Heinrich Zingg</persName>, schultheis ze <placeName ref="loc000849">Wintterthur</placeName>, vergich offenlich mit disem brieff, daz fu̍r mich komen sint in gerichtz
+<lb/>wiß <persName ref="per027731">Hans Modrer</persName> von <placeName ref="loc000849">Wintterthur</placeName> und <persName ref="per027371">Goͤtz Gengenbach</persName> von <placeName ref="loc007029">Stokach</placeName>, beid schuͦmacher, offnotten da durch iren fuͤrsprechen,
+<lb/>als sy in der statt von <placeName ref="loc000849">Wintterthur</placeName> vangnu̍zz komen syen von des wegen, als sy sich in derselben statt burggraben ge<lb break="no"/>laͧssen und gangen syen und uss dem burgraben u̍ber in in die statt klummen<!-- Lemma: https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem007745 --> und gangen zuͦ den ziten, als ir statt
+<lb/>tor beschlossen gewesen und gemein burger by enander gewesen syen. Dar inne sy wol bekennint, daz sy dar inne un<lb break="no"/>recht getaͧn habint und daz inen die straͤff ze hoch und ze hertt gangen waͤre. Wan aber nu die von <placeName ref="loc000849">Wintterthur</placeName> ange<lb break="no"/>sechen habint erber, fromer herren und erber lu̍t bett, edler und unedler, und oͧch ir ernstlich bett, daz sy daz naͧch gnaden 
+<lb/>und miltekeit vor ab durch gottes willen angesechen, sy nit swarlich an lib noch an gelidern gestraͤfft noch in recht
+<lb/>gestelt haͧnt, also dar umb und daz man sy nit in recht stellen muͤst, wan es inen zeswaͤr gangen waͤr.<note>Ein um 1480 verfasster Bericht der Stadt <placeName ref="loc000849">Winterthur</placeName> schildert das Begnadigungsverfahren im Fall <persName ref="per027732">Konrad Strassers</persName>, der beschuldigt wurde, Salz unterschlagen zu haben. <orgName ref="org007943">Schultheiss und beide Räte</orgName> lehnten wiederholt die Gesuche der Angehörigen um eine Begnadigung ab, verzichteten jedoch zuletzt auf eine Anklage. <persName ref="per027732">Strasser</persName> kam frei und erhielt eine Pfrund im <orgName ref="org007934">Spital</orgName>, wo er offenbar unter Hausarrest stand. Schliesslich bot er an, die Pfrund gegen eine Abschlagssumme aufzugeben und dauerhaft in die Verbannung zu gehen, was <orgName ref="org007944">beide Räte</orgName> bewilligten (<bibl>STAW URK 1589.48</bibl>). Vgl. zu diesem Fall <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2005</ref>, S. 93-95</bibl>.</note></seg>
+<seg>Also dar umb
+<lb/>so wellint sy unbetwungenlich sweren dise naͧchgeschriben stuk zehalten und ze volfuͤren und stuͦnden oͧch also vor mir
+<lb/>ledig, los, ungepunden und ungevangen und swuͦrent da jeklicher einen eid mit uffgehabten handen liblich zuͦ gott und den
+<lb/>heilgen des ersten ein gantz urfech von der sach und vangnu̍z wegen, niemer nyemant sy noch nieman von ir wegen dar umb
+<lb/>vechen, hassen, besweren noch beku̍mbren mit wortten noch mit werchen, mit gerichten noch aͧn gericht, und daz durch nieman
+<lb/>schaffen getaͧn. Und daz sy oͧch by demselben irem geswornen eid nu hin fu̍r wider gemein statt <placeName ref="loc000849">Wintterthur</placeName> niemer gesin noch
+<lb/>getuͦn sollen, aͧn alle gevaͤrd. Und ob daz waͤre, daz sy beid oder ir deweder zuͦ gemeiner statt <orgName ref="org004474">gemeinen burgern ze <placeName ref="loc000849">Wintterthur</placeName></orgName> jemer
+<lb/>icht, umb waz sach daz waͤr, nicht ussgenomen, zu schaffen hetten ald meyntin zesprechen zehaben, da sont sy sich mit recht benuͦgen
+<lb/>laͧssen in der <num value="3">dryer</num> stett einer, <placeName ref="loc000008">Costentz</placeName>, <placeName ref="loc000108">Rappreswil</placeName> oder ze <placeName ref="loc000840">Wil</placeName> im <placeName ref="loc000777">Thurgoͧw</placeName>, wa sy des wellen, und sont da die von <orgName ref="org004474"><placeName ref="loc000849">Wintter<lb break="no"/>thur</placeName> gemein burger</orgName> nit wyter noch anders ersuͦchen, fu̍rnemen noch beku̍mbren mit gerichten noch aͧn gericht. Sy sont oͧch
+ <lb/>also inwendig <date dur="P8D">acht tagen</date>, den nechsten, ungevarlich, komen und gaͧn u̍ber den <placeName ref="loc008199">Ryn</placeName> und inwendig einem <date dur="P6M">halben jaͧr</date>, dem nechsten,
+<lb/>her u̍ber noch in die statt <placeName ref="loc000849">Wintterthur</placeName> nit komen. Wol haben die von <placeName ref="loc000849">Wintterthur</placeName> daz inen selber behebt, daz sy inen erloben und daz
+ <lb/>stuk endren moͤchtin, ob ein <orgName ref="org007943">schultheis und ein raͧt</orgName> woͤlen, alles aͧn gevaͧrd.</seg>
+<seg>Waͤr oͧch sach, daz sy beid oder ir deweder zuͦ deheinem
+<lb/>burger ald burgerin von <placeName ref="loc000849">Wintterthur</placeName>, frowen ald mannen, geistlichen ald weltlichen lu̍ten, inwendig ald usswendig der statt
+<lb/>sesshafft, jemer icht zesprechen hettin ald gewinnint, umb waz sach daz waͤr, dar umb sont sy allweg recht suͦchen, vordren
+<lb/>und nemen ze <placeName ref="loc000849">Wintterthur</placeName> und by erkantnu̍z des rechten beliben und niemant anders wyter ersuͦchen noch beku̍mbren mit
+<lb/>gerichten noch aͧn gericht an deheinen enden. Es waͤr denn, daz es umb dehein sach also waͤr, daz es ze <placeName ref="loc000849">Wintterthur</placeName> mit urteil
+ <lb/>anderswa gewist wurdy, dem soͤlten sy aber denn naͧchgaͧn. Und waz sich also machty in dem <date dur="P6M">halben jaͧr</date><!-- Wird im Portal mit dem Tooltip "Datum" dargestellt! -->, daz soͤlten sy tuͦn durch
+<lb/>ir botten. Aber dannenhin moͤchtin sy selber dar zuͦ keren ald botten senden, als sy daz alles zehalten gesworn und in iren
+<lb/>eid genomen haben, alles aͧn gevaͤrd. Inen ist oͧch uffgeleit ze straͤff der statt zegeben jeklichem <measure type="currency" unit="lb" quantity="10">zechen pfund haller</measure>.</seg>
+<seg>Des alles ze
+<lb/>warem, offem urku̍nd, so hab ich, <choice><abbr>vorgn</abbr><expan>vorgenannter</expan></choice> schultheis, min insigel, so ich bruch von des gerichtz wegen, offenlich gehenkt an disen
+<lb/>brieff. Dar uff so verjechen wir, die <choice><abbr>egen</abbr><expan>egenannten</expan></choice>
+<persName ref="per027731">Hans Modrer</persName> und <persName ref="per027371">Goͤtz</persName> von <placeName ref="loc007029">Stok<unclear>ach</unclear></placeName>, einer warheit aller vorgeschriben dingen und des zuͦ
+ <lb/>rechter und merer gezu̍gnu̍z haben wir beid erbetten den strengen und vesten riter, her <persName ref="per027311">Herman von Landenberg von Werdegg</persName>, u̍nsern 
+<lb/>gnedigen herren, daz er sin insigel fu̍r u̍ns offenlich gehenkt haͧt an disen brieff. Daz oͧch ich, derselb <persName role="sigillant" ref="per027311">von Landenberg</persName>, also getaͧn hab
+<lb/>von ir beider bett wegen, doch mir und minen erben aͧn schaden.</seg>
+<seg>Geben uff <origDate when="1442-06-25">mentag naͧch sant <persName ref="per027322">Albans</persName> tag, naͧch Cristz gepu̍rt vier<lb break="no"/>zechenhundert jaͧr, dar naͧch in dem zwey und viertzigesten jaͧr <abbr>etc</abbr></origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/>Urfecht</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><persName ref="per027731">Hans Modrer</persName> von <placeName ref="loc000849">Winterthur</placeName>
+<lb/>und <persName ref="per027371">Gotz Gengenbach</persName> von <placeName ref="loc007029">Stockach</placeName>
+<lb/>einhalb jahr verbannisirt,
+ <lb/>weil sie durch den burggraben
+ <lb/>in die statt klummen,
+<lb/>anno 1442 <add place="inline" hand="hand19c">
+<subst><del>5. März</del><add place="below"> 25. <choice><abbr>Brachm</abbr><expan>Brachmonat</expan></choice></add></subst></add>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Wie im vorliegenden Fall kam es immer wieder vor, dass Delinquenten, die notorischer oder gravierender Normverletzungen überführt waren, gegen einen Urfehdeeid, verbunden mit der Stadtverweisung oder anderen Auflagen wie Wirtshausverbot und nächtlicher Ausgangssperre oder Waffenverbot, aus der Haft entlassen wurden, beispielsweise Personen, die sich gegen die Obrigkeit aufgelehnt hatten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_228">SSRQ ZH NF I/2/1, Nr. 228</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_154">SSRQ ZH NF I/2/1, Nr. 154</ref></bibl>), die ihre Dienstpflichten verletzt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_070">SSRQ ZH NF I/2/1, Nr. 70</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_296">SSRQ ZH NF I/2/1, Nr. 296</ref></bibl>) und Amtsgeheimnisse verraten hatten (<bibl>STAW URK 1170b</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Schmid 1934</ref>, Anhang Nr. 8, S. 74</bibl>) oder die sich der Blasphemie (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_110">SSRQ ZH NF I/2/1, Nr. 110</ref></bibl>), der Zauberei (<bibl>STAW B 2/8, S. 330-331</bibl>), der Missachtung des gebotenen Friedens (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_144">SSRQ ZH NF I/2/1, Nr. 144</ref></bibl>), des (Falsch-)Spiels (<bibl>STAW URK 654</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_146">SSRQ ZH NF I/2/1, Nr. 146</ref></bibl>), der Steuerhinterziehung (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_289">SSRQ ZH NF I/2/1, Nr. 289</ref></bibl>), des Diebstahls (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_295">SSRQ ZH NF I/2/1, Nr. 295</ref></bibl>), des Ehebruchs (<bibl>STAW URK 1767</bibl>; <bibl>STAW B 2/6, S. 270</bibl>) oder des sexuellen Missbrauchs von Kindern (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_087">SSRQ ZH NF I/2/1, Nr. 87</ref></bibl>) schuldig gemacht hatten. Um den Preis der sozialen Isolation entgingen sie auf diese Weise einem Gerichtsverfahren, in welchem sie zu einer Körperstrafe oder zum Tod verurteilt worden wären, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 514-515</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 2000</ref>, S. 248-249</bibl>. </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

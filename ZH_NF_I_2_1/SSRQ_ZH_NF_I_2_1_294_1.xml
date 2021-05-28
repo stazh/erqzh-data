@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_294_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AH 98/1/7 Bä.1, S. 3-4 </idno></msIdentifier><head>Festsetzung der Bussen für die Übertretung der Brotordnung der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur setzten Bussen für die Übertretung der Bäckerordnung fest: Das Gewicht von Brot zu 1 Pfennig darf maximal 1.5 Lot, das von Brot zu 2 Pfennigen maximal 2 Lot, das Brot zu 1 Kreuzer maximal 3 Lot, das Weissbrot zu 1 Schilling sowie das Brot aus geschrotetem Mehl zu 1 Schilling oder 2 Schillingen maximal 4 Lot leichter sein als vorgeschrieben, sonst wird ein Bussgeld von 10 Schilling erhoben, das sich für jedes weitere Lot um jeweils 5 Schilling erhöht (1-4). Für andere Qualitätsmängel behalten sich Schultheiss und Rat weitere Bussen vor (5). Wenn man Brot zu 1 Pfennig produziert, soll man kein Brot zu 1 Kreuzer backen (6). Wenn der Getreidepreis mehr als 4 Pfund beträgt, soll man Brot zu 4 Pfennigen und zu 1 Kreuzer backen (7). Die Bestimmungen der alten Brotordnung über das Brotgewicht in Abhängigkeit vom Getreidepreis bleiben in Kraft (8).</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Christoph Hegner</author><filiation type="current">Aufzeichnung, Heft (5 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1546-12-20"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000849">Handwerk</term><term ref="key005405">Konsumentenschutz</term><term ref="key000882">Nahrungsmittel</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="3" facs="STAW_AH_98_1_7_Bä.1_S.3.jpg"/>
+<head><app><lem>Die milterung der gwicht</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1"/></app></head>
+<p>
+<seg n="1"><lb/><app><lem>Item</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1">Es ist uff den <origDate when="1546-12-20">xx tag decembris, anno xv<hi rend="sup">c</hi>lvj</origDate>, von minen heren <orgName ref="org007943">schultheis und rath</orgName> zwüschend den pfisteren dise erkanthnus beschehen, das namlichen</rdg></app> so <measure type="currency" unit="d" quantity="1">ein pfenig</measure> wertig brott uber <measure type="weight" unit="Lot" quantity="1.5">anderhalb
+ <lb/>lot</measure> und ein <measure type="currency" unit="d" quantity="2">zwey pfenig</measure> wärtig brott über <measure type="weight" unit="Lot" quantity="2">zwey
+ <lb/>lot</measure> manglete, so sölle die straff <measure type="currency" unit="ß" quantity="10">zechen schilling</measure> sin.
+<lb/>Wan es aber mer loden darüber, dan wie <app><lem>gmelt</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1">yetzgemeldet</rdg></app>, manglen
+<lb/>wurde, <app><lem>also</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1">als</rdg></app>, dan so meng lot es antrifft,
+<lb/>sy von jedem lot, als vil dero ist, von jedem <app><lem/><rdg wit="STAW AH 98/1/7 Bä.2, S. 1">besonder</rdg></app>
+<measure type="currency" unit="ß" quantity="5">fünff
+ <lb/>schiling haller</measure>
+<app><lem>zestraff und buß</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1">ze buß und straff</rdg></app> geben söllen.</seg>
+</p>
+<p>
+<seg n="2"><lb/>So dene des <measure type="currency" unit="xr" quantity="1">krützer</measure> wertigen brots, so es über <measure type="weight" unit="Lot" quantity="3">drü
+ <lb/>lot</measure> mang<lb break="no"/>lote, als dan die straff <measure type="currency" unit="ß" quantity="10">zechen schiling</measure> sin.
+<lb/>Manglet es aber witer und mer loden, als dan
+<lb/>die straff, so meng lot es minder were, von jedem <measure type="currency" unit="ß" quantity="5">fünf
+ <lb/>schiling</measure> die straff und buͦss sin söle.</seg>
+</p>
+<p>
+<seg n="3"><lb/>Item des wissen <measure type="currency" unit="ß" quantity="1">schiling</measure> wärtigen, so es über <measure type="weight" unit="Lot" quantity="4">vier
+ <lb/>lot</measure> manglen wurde, als dan die straff <measure type="currency" unit="ß" quantity="10">zechen schiling</measure> sin,
+<lb/>manglete es aber witer und mer loden darüber, als
+<lb/>dan die straff ouch, so meng lot es manglete, von jedem
+<lb/><measure type="currency" unit="ß" quantity="5">fünff schiling haller</measure> die buͦss sin sölle.</seg>
+</p>
+<p>
+<seg n="4"><lb/>Und des <measure type="currency" unit="ß" quantity="1">ein schiling</measure> und <measure type="currency" unit="ß" quantity="2">zwey schiling</measure> wärtigen
+<lb/>griess brots halben, so es uber <measure type="weight" unit="Lot" quantity="4">vier lot</measure> manglen
+<lb/>wurde, als dan die straff <measure type="currency" unit="ß" quantity="10">zechen schiling</measure> sin, mang<lb break="no"/>lete es aber fürer unnd witer loden darüber, als dan
+<lb/>die straff, so meng lot es minder were, von jedem
+<lb/><measure type="currency" unit="ß" quantity="5">fünff schilling haller</measure> die straff sin sölle.</seg>
+</p>
+<p>
+<seg n="5"><lb/>Darbi söllen sy ouch sechen und luͦgen, das sölich
+<lb/>brot in rächter ordnung gepachen werde. Dan
+<lb/>so etwan, wie bißher beschechen, einer <app><lem>ein</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 1"/></app> brot, das
+<lb/>zeschwer oder so grob und das es sonst nit rächt ge<lb break="no"/>pachen wurde, als dan min heren inen die straff
+<lb/>vorbehalten, je nach irem gut bedencken und nach dem
+<lb/>sy achten, die notturfft erforderen sin, straffen
+<lb/>mögen.</seg>
+</p>
+<pb n="4" facs="STAW_AH_98_1_7_Bä.1_S.4.jpg
+"/>
+<p>
+<seg n="6"><lb/>So sy ouch <measure type="currency" unit="d" quantity="1">pfenig</measure> wertigs brot bachen, söllend sy kein
+<lb/><measure type="currency" unit="xr" quantity="1">krützer</measure> wärtigs pachen.</seg>
+</p>
+<p>
+<seg n="7"><lb/>Item wan <app><lem>der kernen</lem><rdg wit="STAW AH 98/1/7 Bä.2, S. 2">er</rdg></app> uber <measure type="currency" unit="lb" quantity="4">vier pfund</measure> gilt, so solen
+<lb/>sy <measure type="currency" unit="d" quantity="4">vierer</measure> und <measure type="currency" unit="xr" quantity="1">krützer</measure> wertigs bachen.</seg>
+</p>
+<p>
+<seg n="8"><lb/>Sonst lassend min heren es by der alten satzung, wie
+<lb/>die des gwichts halb, je und nochdem der kernen sin
+ <lb/>louff hat, lüterung thuͦt, gentzlichen darbi blibenn.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die vorliegende Verordnung über die Bussen bei Unterschreitung des Mindestgewichts für Brot bezieht sich auf die Brotordnung von 1531 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_259">SSRQ ZH NF I/2/1, Nr. 259</ref></bibl>). Damals wurden Abweichungen von 1 Lot zu Lasten des Konsumenten generell mit einer Strafe von 10 Schilling belegt, grössere Differenzen wurden mit einem Bussgeld von 2 Pfund geahndet. Von der Verordnung liegt eine Abschrift vor, bei der das Datum nachgetragen worden ist (<bibl>STAW AH 98/1/7 Bä.2</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

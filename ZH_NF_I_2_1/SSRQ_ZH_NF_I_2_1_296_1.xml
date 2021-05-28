@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_296_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 2412</idno></msIdentifier><head>Urfehde des ehemaligen Waldförsters der Stadt Winterthur Hans Steiger</head><msContents><summary>Hans Steiger, Bürger von Winterthur, hatte ungeachtet seines Eids, den er als Waldförster der Stadt Winterthur geleistet hat, Holz aus dem städtischen Wald veruntreut, Personen nicht angezeigt, die sich des Waldfrevels schuldig gemacht haben, und sich abgesetzt. Auf Bitte seiner Angehörigen wurde ihm sicheres Geleit für die gerichtliche Verhandlung gewährt. Er hat sich vor den Schultheissen und die beiden Räte begeben, sich des Amtsmissbrauchs schuldig bekannt und Gnade statt Recht erbeten, worauf ihm die Todesstrafe erlassen wurde. Stattdessen werden ihm alle Ehren aberkannt und eine Busse von 200 Pfund Haller, zahlbar innerhalb eines Monats, auferlegt. Er darf nie wieder den Wald betreten. Steiger schwört Urfehde. Hält er sie nicht ein, soll man ihn hinrichten. Er verzichtet auf alle Rechtsmittel. Für Hans Steiger siegelt Andreas Steiner, Herr von Wülflingen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Christoph Hegner</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.5"/><width unit="cm" quantity="36"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Andreas Steiner</persName></seal></sealDesc></physDesc><history><origin><origDate when="1548-11-23"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key005372">Ehrlosigkeit</term><term ref="key000524">Holz</term><term ref="key000957">Meineid</term><term ref="key000480">Urfehde</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<lb/><seg>Ich, <persName role="issuer" ref="per027616">Hans Steyger</persName>, burger zuͦ <placeName ref="loc000849">Wintterthur</placeName>, bekenn offenlich mit disem brieffe:</seg>
+<seg>Demnach ich der fromen, ersamen, wy<lb break="no"/>sen <orgName ref="org007943">schultheis und rath der statt <placeName ref="loc000849">Wintterthur</placeName></orgName>, miner gnedigen herren, waldvorster gwesen, wellich ampt ich inen mit trüwen zuͦversechen
+ <lb/>und darin kein gfar noch argenlyst zegepruchen geschworen,<note>Eid des Waldförsters: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_164">SSRQ ZH NF I/2/1, Nr. 164</ref></bibl>.</note> wellichen eyd aber ich gar wenig bedacht, den grösslich übersechen, namlichen das
+ <lb/>ich uss minem selbsmuͦt und wyllen in söllichem irem wald vil holtz hab lassen uffmachen, das verkoufft, etlich stend<!-- stehend --> thanen ouch glichermasen
+ <lb/>hingeben, zuͦ dem das ich von dem holtz, so die selben min herren iren amptlüten und anderen iren armen uss ir statt seckel lassen uffmachen, un<lb break="no"/>erloupt davon ouch heimgefürt und öthwan uss schuldiger pflicht mins eyds etlich personen, so in dem wald gefräfflet, wie brüchig, nit gleidet,
+ <lb/>sonder inen fürgangen und das nit angeben <abbr>etc</abbr>, von wellicher misshandlung ich abtretten und gewychen bin, aber nachvolgentz uff
+ <lb/>ansuͦchen und pite miner eerlichen fründtschafft die selben min herren mir zuͦ und vom rächten ein frig, sicher gleit gegeben haben, also uff
+ <lb/>das ich hüt datum mit sampt miner eerlichen fründtschafft vor <orgName ref="org007943">schultheis, clein und gross räte</orgName> erschinen, sy umb gnad und barmhertzigkeit
+ <lb/>gepetten, mich damit obgesagter misshandlung schuldig sin bekenth, haben die selben min herren, nach dem sy wol macht und guͦt gwalt
+ <lb/>ghept, mich an minem lyb und leben zestraffen, uff das treffenlich pitt, für mich beschächen, und ich ouch für mich selbs in der sach kein rächt,
+ <lb/>sonderlichen gnad begärt, mir sollich verdiente straff in gnad und barmhertzigkeit bewendt und mich nach gnaden gstrafft, söllicher gstalt,
+ <lb/>das er, <persName ref="per027616">Hans Steiger</persName>, aller siner eeren entsetzt und beroupt sin sölle zuͦ dem, das er minen herren zuͦ rächter straff und buͦss <date dur="P1M">in monats frist</date>
+<lb/>ussrichten und geben soll <measure type="currency" unit="lb" quantity="200">zweihundert pfund haller</measure>, und eigner person in wald zuͦ keiner zit nit me komen.</seg>
+<seg>Desshalb ich mit wolbedachtem
+  <lb/>muͦt zuͦgsagt und versprochen, söllich sach, und was sich darunder verlouffen hat, gegen gemelten minen herren <orgName ref="org007943">schultheis und rät</orgName> unnd
+  <lb/>allen burgeren gemeinlich zuͦ <placeName ref="loc000849">Wintterthur</placeName>, ouch allen, denen so inen zuͦversprechen stand, sampt oder sonders, nit zeanden, zeäfferen noch
+  <lb/>zeüblen, weder mit worten, wärchen, räten, gethäten, heimlich noch offenlich, weder durch mich selbs noch jemands anderen von minen wegen
+  <lb/>zethuͦn nit gestatten, weder mit oder one rächt, in dhein wyss. Und wo ich fürohin also lichtfertig an mir selbs wurde, das ich disenn min<lb break="no"/>enn zuͦsag und urfechd mit siner inhalt in einem oder mer artickel nit hielte (das got allwäg wende), als dann setz ich wolbedacht uff mich
+  <lb/>selbs, das ich ein verurtheilter man heisen und sin soll, zuͦ dem die gemelten min herren und ir nachkomen in allen gfrigten und un<lb break="no"/>gefrigten stetten und enden grifen, fachen und als ein übelthatigen, verurtheilten man on alle gnad vom leben zem tod richten lassen
+  <lb/>mügen. Hievor allem als dann mich dhein geistlich noch weltlich frigheit, gnad, gleit, indult, dispensation noch mit namen gar
+  <lb/>nützet, überal nit, weder friden, frigen, fristen, schützen noch schirmen soll in dhein wyse, dann ich mich aller behelff, schyrm und frig<lb break="no"/>ung für mich und alle mine fründ und fründs fründ gar und gentzlich verzigen und begeben hab, wüssentlich, in crafft dis brieffs,
+  <lb/>geverd und arglyst hierine gentzlich abgescheiden.</seg>
+<seg>Und des zuͦ warem, offem urkhund so hab ich, obgemelter <persName ref="per027616">Hans Steiger</persName>,
+  <lb/>erpetten den fromen, ersamen, wysen <persName role="sigillant" ref="per028072">Anderessen Steiner</persName>, her zuͦ <placeName ref="loc010888">Wülfflingen</placeName>, min lieben herren, das der sin eigen insigell,
+  <lb/>mich hiemit aller vorgeschribner dingen zeübersagende, doch im und sinen erben in allwäg one schaden, gehenckt hat an disenn
+  <lb/>brieffe, der geben ist an <origDate when="1548-11-23">fritag vor sant <persName ref="per000793">Kathrinen</persName> tag, nach Christi gepürt gezalt fünffzechenhundert viertzig
+<lb/>und acht jare</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Urfed, <date when="1548">1548</date>, <lb/><persName ref="per027616">Hansen Steiger</persName>, waldforster alhier</ab></div>
+</body>
+<back>
+<div>
+<p>Zur städtischen Praxis, Delinquenten gegen einen Urfehdeeid und unter gewissen Auflagen auf freien Fuss zu setzen, statt sie vor Gericht zu stellen und zu einer körperlichen Strafe oder gar der Todesstrafe zu verurteilen, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

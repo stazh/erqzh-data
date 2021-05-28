@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_179_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 58v (Eintrag 3)</idno></msIdentifier><head>Eid der Zöllner der Stadt Winterthur</head><msContents><summary>Die Zöllner der Stadt Winterthur sollen schwören, von jedem den korrekten Tarif gemäss Zollverzeichnis zu erheben, die Erträge in der Zollkasse zu verwahren und an die Ungeldkasse abzuliefern.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="58v" facs="STAW_B_2_2_58_v.jpg
+"/>
+<head><lb/>Zoller eid</head>
+<p>
+<lb/>Item die zoller soͤllend schwēren, flissig uff saͤhen
+<lb/>uff die zoͤll ze haben und die von mengklichem nach
+<lb/>inhalt der zoͤll roͤdel in ze nēmen und soͤlch zollgelt
+<lb/>in die bu̍chsen ze tuͦn und die <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 3v; STAW B 3a/10, S. 7">wol</rdg></app> zuͦ versaͤhen unnd
+<lb/>allwēgen an das ungelt trāgen und antwurten.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Ausgeführte Waren unterlagen in <placeName ref="loc000849">Winterthur</placeName> einer Zollgebühr, auch <orig>ungelt</orig> genannt, die an den Toren eingenommen wurde. Zum städtischen Zoll vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_272">SSRQ ZH NF I/2/1, Nr. 272</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_016</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=272454">StAZH C I, Nr. 3146</idno></msIdentifier><head>Schiedsspruch des Hauptmanns der Herzöge von Österreich im Konflikt der Städte Zürich und Winterthur wegen der Übergriffe ihrer Knechte</head><msContents><summary>Hermann von Landenberg, Hauptmann der Herzöge von Österreich im Thurgau, Aargau und Elsass, fällt einen Schiedsspruch im Konflikt zwischen den Städten Zürich und Winterthur wegen der Gewalttätigkeiten ihrer Knechte und den daraus resultierenden Übergriffen, nachdem sich beide Seiten seinem Entscheid unterworfen hatten. Die Konfliktparteien sollen versöhnt sein und einander Beistand leisten gegen diejenigen, welche diesen Spruch nicht einhalten wollen. Die Stadt Zürich soll bis zum 2. Februar 50 Pfund Pfennige an die Herzöge von Österreich als Wiedergutmachung für den in ihren Gebieten an ihren Untertanen begangenen Totschlag bezahlen. Die Stadt Winterthur soll 30 Pfund Pfennige an die Herzöge bezahlen als Wiedergutmachung für den in ihren Gebieten an den Zürcher Knechten begangenen Totschlag und den ohne Erlaubnis erfolgten Angriff. Beiden Seiten wird der Spruch verbrieft. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="17.5"/><width unit="cm" quantity="34.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Hermann von Landenberg</persName></seal></sealDesc></physDesc><history><origin><origDate when="1343-12-16"/></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 1, Nr. 414</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key001117">Schiedsspruch</term><term ref="key000225">Totschlag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3146__r_.tif"/>
+<p>
+<lb/><seg>Ich, <persName role="issuer" ref="per000348">Herman von Landenberg</persName>, miner gnedigen herren, der .. <orgName ref="org000088">hertzogen von Oͤsterrich</orgName>, houbtman in iren landen ze <placeName ref="loc000777">Thurgoͤu</placeName>, ze <placeName ref="loc010971">Argoͤu</placeName> und in <placeName ref="loc000140">Elsazze</placeName>, tuͦn kunt
+<lb/>offenlich mit disem brief:</seg>
+<seg>Umbe die sachen, die missehelli und die stoͤsse, so die fromen und wisen, der .. <orgName ref="org002406">burgermeister, der rat und die .. burger von
+ <lb/><placeName ref="loc000065">Zu̍rich</placeName></orgName> ze eim teil und der .. <orgName ref="org007943">schultheisse, der rat und die .. burger von <placeName ref="loc000849">Wintterthur</placeName></orgName> zem andern teil, miteinander hatten von der ufloͤuffen und tot<lb break="no"/>schlegen wegen, so die von .. <placeName ref="loc000849">Wintterthur</placeName> an der burgern von <placeName ref="loc000065">Zu̍rich</placeName> knehten taten und ouch der burgern knehte von <placeName ref="loc000065">Zu̍rich</placeName> darnach an dien von
+<lb/><placeName ref="loc000849">Wintterthur</placeName> taten, und umb alle ufloͤuffe, die davon ufgestanden sint, es si von phandungen oder von andern sachen, der si ze beden teilen uf mich
+<lb/>als uf einen gemeinen man komen sint und uf mich gesetzet hand nach minne oder nach dem rechten, darumbe uszesprechende, und ouch si ze beden
+ <lb/>teilen gelobt hand, bi guͦten tru̍wen stete ze habende, des si ouch ir offenen briefe gen einander gegeben hand,<note>Die <placeName ref="loc000065">Zürcher</placeName> Ausfertigung des sogenannten Anlassbriefs datiert vom 8. Dezember 1343 (<bibl>STAW URK 91</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Landenberg</ref>, S. 5-6</bibl>).</note> was ich darumbe ussage und si ze
+<lb/>beden teilen darumbe heisse, das ich darumbe uspriche und ussage also, das der .. <orgName ref="org002406">burgermeister, der rat und die .. burger von <placeName ref="loc000065">Zu̍rich</placeName></orgName> und alle,
+<lb/>die dieselben sachen ze irem teil ane gand, es si von sipschaft oder von andern sachen, und ouch der .. <orgName ref="org007943">schultheisse, der rat und die .. burger
+ <lb/>von <placeName ref="loc000849">Wintterthur</placeName></orgName> und alle, die die sachen ze irem teil ane gand, von welen sachen das si, umb die selben totschleg und ufloͤuffe guͦt fru̍nde
+<lb/>gen einander sin su̍llent und ein lutern suͦne darumbe zwisschent inen sin sol. Und su̍llent ouch die suͦne ze beden teilen stete haben mit guͦten tru̍wen
+<lb/><add place="inline">und</add>, als si darumbe gelobt hand, von disem tage hin jemer mer.</seg>
+<seg>Were aber ze dewederm teil jeman, der dise richtunge und dise suͦne nit stete
+<lb/>haben wolte oder da wider tete, da su̍llent die vorgenanten stette, rete und .. burger ze beden teilen einander behulffen sin gen dem oder gen
+<lb/>dien, die da wider sin woltin, jetwederu̍ stat, als ob es ir sunder sache were, mit guͦten tru̍wen, ane geverde.</seg>
+<seg>Ich spreche ouch und heisse den ..
+<lb/><orgName ref="org002406">burgermeister und den rat und die .. burger von <placeName ref="loc000065">Zu̍rich</placeName></orgName> den vorgenanten minen <orgName ref="org000088">herren von Oͤsterrich</orgName> und mir an ir stat geben ze besser<lb break="no"/>unge hinnan ze dem nehsten <date type="deadline" when="--02-02">u̍nser frowen tag zer liechtmes</date>, der nu kumt, <measure type="currency" unit="lb" quantity="50" origin="ZH">fu̍nftzig phunt phennigen guͦter und geber Zu̍richer mu̍ntze</measure>,
+<lb/>wan ir knehte die totschlege in miner herren lande an iren lu̍ten taten. So heisse ich den <orgName ref="org007943">schultheissen, den rat und die .. burger von <placeName ref="loc000849">Wintter<lb break="no"/>thur</placeName></orgName> denselben minen .. herren und mir an ir stat ze besserunge geben <measure type="currency" unit="lb" quantity="30" origin="ZH">drissig phunt phennigen der selben mu̍ntze</measure> darumbe, das si die
+<lb/>totschlege taten an der burger knehten von <placeName ref="loc000065">Zu̍rich</placeName> in miner herren lande und das si ane miner .. herren amptlu̍ten urloub u̍ber der burgern
+ <lb/>von <placeName ref="loc000065">Zu̍rich</placeName> knehte zogen.</seg>
+<seg>Und ze einem urku̍nde diz usspruches hab ich in geben dirre briefen <num value="2">zwene</num>, gelich geschriben,<note>Die zweite, für <placeName ref="loc000849">Winterthur</placeName> bestimmte Ausfertigung ist nicht überliefert.</note> besigelt
+<lb/>mit minem ingesigel, an dem <origDate when="1343-12-16">zinstag nach sant <persName ref="per000631">Lucien</persName> tage, do von Christes gebu̍rtte ergangen warent dru̍tzehenhundert
+<lb/>und viertzig jar, darnach in dem dritten jar</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3146__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/><date when="1343">1343</date>. <lb/>Du̍ richtung von den von <lb/><placeName ref="loc000849">Wintertur</placeName>
+<add place="inline" hand="hand16c">und <placeName ref="loc000065">Zu̍rich</placeName> etlichr uf<lb break="no"/>louf und dotschlegen halb <abbr>etc</abbr></add></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c">Ingrossiert</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Wie aus dem Anlassbrief hervorgeht, durch den sich <orgName ref="org002406">Bürgermeister <persName ref="per019557">Rudolf Brun</persName>, Rat und Bürger der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> am 8. Dezember 1343 einem schiedsrichterlichen Urteilsspruch unterwarfen, waren die Übergriffe auf ihre Knechte in <placeName ref="loc000849">Winterthur</placeName> eine Folge der Auseinandersetzungen <placeName ref="loc000065">Zürichs</placeName> mit den <orgName ref="org004021">Herren von Tengen</orgName> und der mit ihnen verbündeten Stadt <placeName ref="loc000701">Schaffhausen</placeName>. Die Knechte übten Vergeltung, indem sie <placeName ref="loc000849">Winterthurer</placeName> Bürger angriffen (<bibl>STAW URK 91</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Landenberg</ref>, S. 5-6</bibl>). Zu den Hintergründen dieses Konflikts vgl. <bibl><ref target="/startseite/literaturverzeichnis">Largiadèr 1936</ref>, S. 79-80</bibl>.</p>
+<p>Im Bereich der Aussenbeziehungen unterlagen die <orgName ref="org005980">Winterthurer</orgName> Restriktionen. Sie durften ohne Erlaubnis der Herrschaft keine Fehden führen, um zu verhindern, dass die Fehdegegner andere <orgName ref="org000088">habsburgische</orgName> Untertanen schädigten. Auch Bündnisse und Burgrechtsabkommen bedurften der Genehmigung des Stadtherrn, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_040">SSRQ ZH NF I/2/1, Nr. 40</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

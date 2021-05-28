@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_227</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AH 98/3/1 Ge</idno></msIdentifier><head>Urteil im Konflikt zwischen den Meistern des Gerberhandwerks in Winterthur und einem Gerber um die Beitragsgebühr</head><msContents><summary>Schultheiss und Rat von Winterthur sitzen zu Gericht im Konflikt zwischen den Meistern des Gerberhandwerks als Klägern und Bartholomäus Windler um die Beitragsgebühr. Die Meister argumentieren, dass jeder, der in der Stadt wohnhaft sei und das Gerberhandwerk ausübe, den Meistern und Gesellen 8 Pfund und 5 Schilling zu zahlen habe, Windlers Beitrag aber noch ausstehe. Windler weist diese Forderung zurück, da es nicht üblich sei, von denen, die in einen Handwerksbetrieb einheiraten, den Beitrag zu fordern. Auf Antrag des Gerichts haben die Meister ein altes Verzeichnis vorgelegt, das ihre Position stützen soll, und auf das Beispiel des Sohns des Bürgers Laurenz Gisler verwiesen, der ebenfalls eine Gerberstochter geheiratet und den Beitrag geleistet habe. Schultheiss und Rat erkennen diese Beweise an und urteilen, dass Windler die Summe bezahlen solle. Auf Windlers Antrag wird das Urteil verbrieft, er kündigt Appellation an den Grossen Rat an. Die Aussteller siegeln mit dem Sekretsiegel des Rats der Stadt Winterthur.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="43.0"/><width unit="cm" quantity="32.0"/></dimensions></extent><condition>Loch an der Stelle des Siegels</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="applied" nontei:condition="absent"><orgName role="sigillant">Rat der Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1522-02-28"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000849">Handwerk</term><term ref="key005441">Stubengesellschaft</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_AH_98_3_1_Ge_S.1.jpg"/>
+<p>
+<lb/><seg>Wir, <orgName role="issuer" ref="org007943">schultheiß unnd rate zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, thuͦnd kund mit
+<lb/>disem brieve, das fu̍r u̍ns zum rechten komen sind die <orgName ref="org007815">meyster des
+<lb/>gerber handt wercks</orgName> alhie, clegere, eins-, und liesent wider <persName ref="per027648">Bartlime Windler</persName>,
+<lb/>anderteils, zuͦ recht fu̍rwenden, wie wol ir bruch bitzhar und vornaher all<lb break="no"/>wegen gewesen und noch sige, welcher sich allher hushablich setze und
+ <lb/>soͤlich antwerck bruchen, sige der selbig den meyster und xellen <measureGrp><measure type="currency" unit="lb" quantity="8">acht
+ <lb/>pfund</measure> und <measure type="currency" unit="ß" quantity="5">fu̍nff schilling</measure></measureGrp> an iren bu̍w<!-- mit u̍ ?? --> zegeben schuldig. Das sy an in
+<lb/>guͤtlich haben laussen erfordern, aber soͤlichs geltz nit mu̍gen von im
+ <lb/>bezalt werden, darum sy verhoffen welten, daß er sy umb soͤlich su̍m<!-- mit u̍ ?? -->
+<lb/>geltz us<damage agent="hole"><supplied resp="bf">r</supplied></damage>ichten und bezalen soͤlte.</seg>
+<seg>Dartzuͦ <persName ref="per027648">Bartlime</persName> reden lies, soͤlich
+<lb/>ir clag neme in froͤmbd, angesaͤhen, das er nit gestaͤndig sig, das der bruch
+<lb/>je gewesen sig, welcher ein tochter des handtwercks neme, das der
+<lb/>selbig schuldig sige, soͤlich su̍m geltz inen zegeben, als ob sy des handtwercks
+<lb/>nit sige<!-- letzter Buchstabe ein e? -->. Er gestande ouch inen deß keinß wegs nit, bringent sy aber
+<lb/>das us zuͦ recht gnuͦgsam, müse er darum laussen beschaͤhen, sovil unnd
+ <lb/>recht sige, verhoffende, er soͤlte von <unclear>der</unclear><!-- ?? --> anclag ledig erkent werden.</seg>
+<seg>Und
+  <lb/>als sy darmit ire sachen zum rechten gesetzt, uff das haben wir u̍nns
+<lb/>har ine zuͦ recht erkent, das die meyster soͤllen verbringen, das es der
+  <lb/>alt bruch gewesen und noch si<damage agent="hole"><supplied resp="bf">g</supplied></damage>e, welcher eins gerbers tochter neͣ<damage agent="hole"><supplied resp="bf">m</supplied></damage>e,
+  <lb/>das der selbig schuldig sige, die su̍m geltz inen zegeben, und sy tuͤgent<!-- ??? -->
+<lb/>das oder nit, soͤlle fu̍rter beschaͤhen, das recht sig.</seg>
+<seg>Und als sy uff
+<lb/>disen hu̍ttigen tag abermalß vor u̍ns erschinen, leytent die meyster
+<lb/>einen alten rodel vor u̍ns dar, dar in clarlich erfunden ward, wie
+<lb/>das einer nach dem andern soͤlich gelt geben habe bitz uff disen hu̍ttigen
+<lb/>tag. Daruff die meyster reden liesen, die wil es sich erfunden, das
+<lb/>unsers burgers <persName ref="per027381">Larentz Gislers</persName> su̍n, das ouch eins gerbers tochter
+<lb/><choice><abbr>genom</abbr><expan>genommen</expan></choice> habe, muͤsen soͤlich gelt gen, so welten sy verhoffen, das sy ire sachen
+<lb/>gnuͦgsam us gebracht hetten und er sy umb soͤlich gelt usrichten soͤlte.</seg>
+<seg><lb/>Uff das <persName ref="per027648">Bartlime</persName> reden lies, den alten rodel, so sy dargeleit, lausse
+  <lb/>er ein unu̍tze geschrifft sin, verhoffende, er solte nit gnuͦgsam zuͦ einem
+<lb/>usbringen, sonder crafftlos erkent werden.</seg>
+<seg>Und als sy abermals ire sachen
+<lb/>damit zum rechten gesetzt, uff das haben wir u̍ns har ine zuͦ recht
+  <lb/>erkent, das die meyster ire sachen gnuͦgsam usgebracht und <damage agent="hole"><supplied resp="bf">da</supplied></damage>ruff
+  <lb/><persName ref="per027648">Bartlime</persName> sy umb soͤlich su̍m <damage agent="hole"><supplied resp="bf">ge</supplied></damage>ltz usrichten und bezalen soͤlle.</seg>
+<seg>Welcher
+<lb/>urtail <persName ref="per027648">Bartlime</persName> eins briefs begert, so wir im zegeben erkent, und tett
+<lb/>sich von soͤlicher urtail als beschwaͤrd fu̍r unsern <orgName ref="org009293">grosen rat</orgName> beruͤffen und
+<lb/>appellieren. Und des zuͦ offen urkund haben wir unsers <orgName role="sigillant" ref="org005587">ratz</orgName> secret innsigel
+  <lb/>har in getruckt.</seg>
+<seg>Geben mit <choice><abbr>urt</abbr><expan>urtail</expan></choice> an <origDate when="1522-02-28">fritag nach <persName ref="per000375">Mathie</persName>, anno xxij<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_AH_98_3_1_Ge_S.2.jpg
+"/>
+<div>
+<ab type="dorsal" place="verso" scribe="per027315"><lb/><persName ref="per027648">Bartlime Windlers</persName>
+<lb/><unclear><choice><abbr>app<!-- mit Schnörkel, der aussieht wie ein Majuskel-S - ???--></abbr><expan>appellaz<!-- wie auflösen ??? --></expan></choice></unclear>
+<choice><abbr>br</abbr><expan>brief</expan></choice><note>Aufgrund der Appellation des Beklagten wurde das verbriefte Urteil der ersten Instanz zurückgegeben und gelangte in das städtische Archiv.</note></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c">Anno <date when="1522">1522</date></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><date when="1522-09-26">1522 Freitag nach Matthäustag<note><orig><persName ref="per000375">Matthie</persName></orig> (24. Februar) und <orig><persName ref="per000340">Matthei</persName></orig> (21. September) werden häufig verwechselt.</note>
+<add place="below" hand="hand20c"><abbr>Sept</abbr> 26</add></date></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Berufständische Anliegen gegenüber der Obrigkeit und den Angehörigen des eigenen Handwerks vertrat das <orig>bott</orig>, die Versammlung der Meister. So stellten die Meister der Rotgerber von <placeName ref="loc000849">Winterthur</placeName> 1640 eine Handwerksordnung auf, die Fragen betreffend Ausbildung, Betriebsgrösse, Vergütung, Versammlung der Meister, Strafkompetenz, Qualitätssicherung, Materialeinkauf und Handel regelte, und liessen sie durch den <orgName ref="org007943">Schultheissen und Rat</orgName> bestätigen (<bibl>STAW AH 98/3/7 Ge</bibl>). Zu den Handwerksversammlungen in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 229-230</bibl>.</p>
+<p>Der vorliegende Fall verweist auf die soziale Funktion der Handwerksverbände, vgl. auch den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_107">SSRQ ZH NF I/2/1, Nr. 107</ref></bibl>. Erwerb und Unterhalt der Versammlungslokale finanzierten die Mitglieder gemeinschaftlich, etwa über Eintrittsgebühren oder Jahresbeiträge. Oftmals schlossen sich mehrere Verbände zu einer Trinkstubengesellschaft zusammen, wie die Schuhmacher und Gerber von <placeName ref="loc000849">Winterthur</placeName>, wobei die ursprünglichen Organisationsstrukturen bis zu einem gewissen Grad beibehalten wurden, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_162">SSRQ ZH NF I/2/1, Nr. 162</ref></bibl>. Die Leitung der <orgName ref="org007873">Gesellschaft der Schuhmacher und Gerber</orgName> war zumindest im 18. Jahrhundert paritätisch besetzt, jede Berufsgruppe stellte einen Rechenherrn und drei Vorstände, dazu kamen drei Meister (<bibl>winbib Ms. Fol. 30, S. 149</bibl>). Endgültig aufgelöst wurde die Gesellschaft im Jahr 1838, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rozycki 1946</ref>, S. 117-119</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

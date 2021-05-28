@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_283</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2a/32.2 (r, Eintrag 5)</idno></msIdentifier><head>Verbot des Verkaufs von Liegenschaften innerhalb des Winterthurer Friedkreises an Auswärtige</head><msContents><summary>Schultheiss und Rat von Winterthur verbieten bei Strafe, innerhalb des Friedkreises gelegene Grundstücke an Auswärtige zu verkaufen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Christoph Hegner</author><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1538-07-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000325">Fremde</term><term ref="key004428">Liegenschaft</term><term ref="key004393">Verbot</term><term ref="key004038">Verkaufsbeschränkung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="4"/>
+<p>
+<lb/>Actum <origDate when="1538-07-26">fritag nechst nach sant
+<lb/><persName ref="per000208">Jacobs</persName>, des heligen appostels, tag
+<lb/>anno 1538</origDate>
+</p>
+<p>
+<gap reason="irrelevant"/><note>Es folgen Einträge über einen Ratsbeschluss betreffend die Bürgeraufnahme und die Abhaltung eines Markts.</note>
+</p>
+<p>
+<lb/>Aber haben sich mine heren, <orgName ref="org007943">schultheis, clein und groß raͤte</orgName>,
+<lb/>entschlosen, das fürohin dhein burger mer, alß dan we<damage agent="faded ink"><supplied>re</supplied></damage>
+<lb/>beschehen<del rend="blackened">h</del>, guͤter uß dem frydkreiß verkuͦffe<del>n</del>, besonder die, so
+<lb/>zuͦ verkuͦffen wilens waͤri, einem bürger <del>die</del> zuͦ kuͦffen geben und
+<lb/>keinem froͤmbden, <add place="left margin" type="sign">oder aber selbs behalten</add>. Dan von wem das ubersaͤchen und nit gehalten we<damage agent="faded ink"><!-- eigentlich auch noch eingerissen am Rand, aber wie auszeichnen? PS: Ich würde es so lassen. --><supplied>rde</supplied></damage>,
+<lb/>den welend mine heren straffen.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Am 21. Februar 1551 erneuerten und erweiterten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> dieses Verbot bei Strafe der Stadtverweisung. Wer aus einer Notlage heraus Güter veräussern musste und keinen Käufer unter den Bürgern fand, sollte sich an beide <orgName ref="org007944">Räte</orgName> wenden (<bibl>STAW B 2/10, S. 243</bibl>). Gegenüber <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> rechtfertigten sich die <orgName ref="org007943">Winterthurer</orgName> später, sie hätten mittels dieser Anordnung lediglich verhinderen wollen, dass Bürger durch ihren verschwenderischen Lebenswandel ihren Besitz verlieren. Um sich nicht das Missfallen der <orgName ref="org002406">Zürcher</orgName> und den Unmut der Bürger und Nachbarn zuzuziehen, zeigten sie sich aber zur Aufhebung des Verbots bereit (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=694943">StAZH A 155.1, Nr. 172</ref></bibl>).
+In einer Aufzeichnung verschiedener Ordnungen aus dem Jahr 1589 findet sich jedoch bald wieder eine einschlägige Bestimmung (<bibl>STAW AF 59/2, S. 7-8</bibl>).
+Beschränkungen des Immobilienbesitzes von Nichtbürgern finden sich auch andernorts, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2002</ref>, S. 229</bibl>.<!--vgl. STAW AH 96/6 (1560 + 1752): Verordnung des Rats betr. Verkauf von Ehaften und Liegenschaften an Fremde --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

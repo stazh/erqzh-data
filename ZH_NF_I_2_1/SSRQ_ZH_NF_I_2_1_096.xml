@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_096</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=650282">PGA Hettlingen I A 1</idno></msIdentifier><head>Urteil im Konflikt um die Wassernutzung zwischen der Gemeinde Hettlingen und dem Inhaber der Eichmühle</head><msContents><summary>Schultheiss und Rat von Winterthur urteilen im Konflikt zwischen der Gemeinde Hettlingen, vertreten durch Bertschi Rappolt, Klaus Sulzer und Kueni Stocker, und Hans Müller von Eich um die Nutzung der Quellwasserleitung nach Hettlingen und des Bachs, der zur Eichmühle fliesst. Auf Seiten der Gemeinde wurde vorgebracht, dass Müller das Wasser zur Mühle leite, obwohl man mit Einwilligung der Inhaber der Güter, der Familie Hoppler, die Quelle gefasst und nach Hettlingen geleitet habe, und dass Müller sich weigere, den Bach zur Mühle dreimal am Tag nach Hettlingen zu leiten, damit man das Vieh tränken könne. Müller entgegnete, die Quelle auf seinem Grundstück liefere ihm seit jeher Trinkwasser und halte im Winter das Mühlrad in Betrieb, und berief sich auf die Konditionen, zu welchen ihm die Mühle gegeben worden sei. Den Anspruch der Gemeinde auf die Ableitung des Bachs wies er zurück, da in den zehn Jahren, seit er die Mühle in Besitz habe, noch nie derartige Forderungen an ihn gestellt worden seien. Nach Anhörung von Zeugen und Konsultation des Kaufvertrags über die Mühle sprechen Schultheiss und Rat das Urteil, dass Hans Müller das Quellwasser nutzen dürfe wie bisher und dass jeder Inhaber der Mühle den Bach dreimal am Tag nach Hettlingen leiten solle, sofern die Gemeinde nicht freiwillig darauf verzichten würde. Beide Seiten erhalten auf Wunsch eine Ausfertigung des Urteils. Die Aussteller siegeln mit dem Ratssiegel der Stadt Winterthur.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.5"/><width unit="cm" quantity="44.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="slit" nontei:condition="absent"><orgName role="sigillant">Rat der Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1469-06-28"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000047">Mühlen</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000716">Wasserführung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="PGA_Hettlingen_I_A_1__r_.tif"/>
+<p><seg>
+<lb/>Wir, der <orgName role="issuer" ref="org007943">schultheiß und der rǎt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, tuͦnd kunt allermenglichem mit disem brieff:</seg>
+<seg>Als von der spēnn, stoͤß und uneinikeit wegen ent<lb break="no"/>zwu̍schen den erbern, unsern lieben getruwen, <orgName ref="org007823">gemeinen nachpuren zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName>, einer und <persName ref="per027546">Hansen Mu̍ller</persName> von <placeName ref="loc013135">Eich</placeName> der andern sydten uferstanden, antreffend den brunnen,
+<lb/>so gen <placeName ref="loc010469">Hettlingen</placeName> getu̍chlet ist, und den bach, so dann an die mu̍li zuͦ <placeName ref="loc012097">Eich</placeName> rindt, darumb sy dann vormaln vor uns inrecht gestanden und clag und widerred nach irem
+ <lb/>benuͦgen gegen ein andern volfuͤren gewesen sind, und namlich die von <placeName ref="loc010469">Hettlingen</placeName> in ir clag vermeinten, <persName ref="per027546">Ha<damage agent="ink blot"><unclear cert="high">ns</unclear></damage> Mu̍ller</persName> nēm inen den genanten brunnen und fuͦrti den
+<lb/>uff die mu̍li zuͦ <placeName ref="loc012097">Eich</placeName>, anders dann billich wēr, wǒn sy den selben <damage agent="ink blot"><unclear cert="high">br</unclear></damage>unnen mit <damage agent="ink blot"><unclear cert="high">tu̍c</unclear></damage>hlen, stuben und andern nottdurfftigen dingen gen <placeName ref="loc010469">Hettlingen</placeName> geleittet hetten mit swaͤ<lb break="no"/>rem costen, als inn ouch soͤlichs von den <orgName ref="org007828">Hopplern</orgName>, dero der brunn und die guͦtter gewesen weren, vor langer zitt vergu̍nst worden sig, dartzuͦ so soͤlti der bach, der uff
+ <lb/>die mu̍li zuͦ <placeName ref="loc012097">Eich</placeName> gieng, <date dur="R/P1D">alle tag</date> drystund durch den genanten <persName ref="per027546">Mu̍ller</persName>, und wer die mu̍li innhett, gen <placeName ref="loc010469">Hettlingen</placeName> zegǒn abgelaussen werden, namlich am <time period="morning">morgen</time>, zuͦ
+ <lb/><time period="noon">mittag</time> und zuͦ <time period="evening">abentz</time>, damit sy ir vich getrencken und des halben gehalten moͤchten, des sich der <persName ref="per027546">Mu̍ller</persName> ouch widroti, begerten, den selben <persName ref="per027546">Mu̍ller</persName> guͤttlich, und ob das
+<lb/>nit guͤttlich gesin moͤcht, rechtlich ze underwisen, sy an dem brunnen ungeirt und inen den genanten bach drystund des tags gen <placeName ref="loc010469">Hettlingen</placeName> gǒn zelǎussen, als
+<lb/>sy hofften billich sin, angesehen, das das dorff <placeName ref="loc010469">Hettlingen</placeName> nit wol ein dorff moͤcht sin, wo inn soͤlich wasser nit zuͦgelǎussen soͤlt werden, als es aber von billichem da<lb break="no"/>hin gǒn soͤlt. Und ob sy dawider reden woͤlten, begerten sy kuntschafft darumb zeverhoͤren.</seg>
+<seg>Dawider aber <persName ref="per027546">Hans Mu̍ller</persName> in siner antwurt reden ließ, er nēm inn den ge<lb break="no"/>dachten brunnen nit anders dann als von alterher<!-- wohl irrtümlich ein er-/re-Kürzungsstrich angehängt - nach PS kann man es weglassen--> zuͦ trinckwasser und imm <date period="winter">winter</date> an das rad, das im das nit gefru̍ri, als im die mu̍li ouch geben sig. Der bru<damage agent="faded ink"><unclear cert="high">nn</unclear></damage>
+<lb/>lig ouch in dem sinen und truwt, er soͤlt den nuttzen und niessen, wenn er und die sinen des nottdurfftig weren zetrincken ald uff die mu̍li. Das er ouch schuldig
+ <lb/>wer, den bach gen <placeName ref="loc010469">Hettlingen</placeName> zelaussen, als die von <placeName ref="loc010469">Hettlingen</placeName> vermeinten, getruwt er nit, dann er das wasser gǒn lǎussen oder schwellen moͤcht, weders er woͤlt.
+ <lb/>Hett ouch die mu̍li inngehept by <date dur="P10Y">zehen jarn</date>, das soͤlichs im rechtlich nie angesprochen wēr, getruwt wol, man ließ inn daby beliben. Und als die von <placeName ref="loc010469">Hettlingen</placeName>
+<lb/>kuntschafft botten hetten, begert er sin kouff brieff und ouch kuntschafft zeverhoͤren.</seg>
+<seg>Und nach dem sy dis sach dotzemalen zuͦ bedersydt mit mer worten fu̍r uns
+<lb/>getragen, unnu̍ttz alle zemelden, zuͦ recht und unser erkantnu̍ß gesatzten und wir den genanten kouffbrieff, der da wist, wie die <orgName ref="org007828">Hoppler</orgName> die mu̍li inngehept und
+<lb/>von vatter und muͦter ererbt hettint, das sy die dem <persName ref="per027546">Mu̍ller</persName> zekouffen geben habint, mit sampt der kuntschafft zuͦ bedenteiln dargepotten rechtlich verhoͤrdt, haben
+  <lb/>wir uff das, so <persName ref="per027571">Bertschi Rapolt</persName>, <persName ref="per027636">Clauß Sultzer</persName> und <persName ref="per027771">Cuͤni Stocker</persName> fu̍r sich selbs und <orgName ref="org007823">gemein nachpuren zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName> und <persName ref="per027546">Hans Mu̍ller</persName> zuͦ <placeName ref="loc012097">Eich</placeName> fu̍r sich selbs und sin erben
+<lb/>gelopt und versprochen hand, wes wir uns erkennen und zwu̍schen inen ussprēchen, das sy dem nachkomen und gnuͦg tuͦn wellen, yetz und hernach, uns uff
+<lb/>hu̍ttigen tag, datum dis brieffs, nach clag, antwurt, red und widerred, ouch uff verhoͤrung des genanten brieffs und der besseren kuntschafft von einem an das ander
+  <lb/>gnuͤgsamklich usgemessen nach unser besten verstentnu̍ß zuͦ recht erkennt und sprechent yetz mit disem brieff:</seg>
+<seg>Des ersten von des brunnen wegen, das <persName ref="per027546">Hans
+ <lb/>Mu̍ller</persName> wasser usser dem genanten brunnen zuͦ <date period="winter">winterzitt</date>, so er des frostes halb zehaben bedoͤrffen ist, nach siner nottdurfft nēmen und sich sunst trinckwassers halb
+<lb/>daruß bewaͤsseren moͤg. So dann von des bachs wegen erkennen wir uns ouch zuͦ recht uff alle vorgemelt verhandlung, das ein yeder mu̍ller, so die genanten
+  <lb/>mu̍li innhǎt, den geruͤrten bach <date dur="R/P1D">alle tag</date> drystund gen <placeName ref="loc010469">Hettlingen</placeName> abe gon lǎussen sol, namlich am <time period="morning">morgen</time>, zuͦ <time period="noon">mittag</time> und des <time period="evening">ǎbentz</time>. Es sig dann sach, das ein
+  <lb/>mu̍ller an den von <placeName ref="loc010469">Hettlingen</placeName> haben moͤge, das sy guͤttlich davon standint.</seg>
+<seg>Dis unsers spruchs begerten bedteil brieff, die wir inen mit unsers <orgName role="sigillant" ref="org005587">rǎts</orgName> insigel,
+<lb/>gemeiner unser statt onschaden, besigelt geben haben an <origDate when="1469-06-28">mittwuͦch vor sant <orgName ref="org001652"><persName ref="per000438">Peter</persName> und <persName ref="per000351">Pǎuls</persName></orgName>, der heiligen zwoͤlffpotten, tag, nach Cristi gepu̍rt vier<lb break="no"/>tzehenhundert sēchszig und nu̍n jǎr</origDate>.<note>Neben dem Eintrag zu dem Urteilsspruch im Ratsbuch ist vermerkt, dass zwei Urkunden ausgefertigt wurden (<bibl>STAW B 2/3, S. 42</bibl>). Dass sich das Gerichtsverfahren mit der Anhörung der Streitparteien, der Vernehmung der Zeugen, der Konsultation der Beweise sowie dem Fällen des Urteils über mehrere Sitzungen erstreckte, schlägt sich ebenfalls in entsprechenden Einträgen nieder. Der Eintrag über die Einreichung der Klage und die Klageerwiderung ist nicht datiert, aber vor dem 12. Juni 1469 anzusetzen (<bibl>STAW B 2/3, S. 40</bibl>).</note></seg>
+</p>
+</div>
+<pb n="v" facs="PGA_Hettlingen_I_A_1__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Betrift d<unclear>eß</unclear>
+<unclear><persName ref="per027770">Gu̍lg</persName></unclear> brunnen zu <placeName ref="loc013135">Eich</placeName></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die ausserhalb des Dorfes <placeName ref="loc010469">Hettlingen</placeName> gelegene Eichmühle war ein Lehen der <orgName ref="org000360">Abtei Reichenau</orgName>, die 1540 in das <orgName ref="org002902">Hochstift <placeName ref="loc013505">Konstanz</placeName></orgName> inkorporiert wurde. Seither war der Bischof von <placeName ref="loc000923">Konstanz</placeName> Lehensherr der Mühle. Zwischen den Inhabern der Mühle und der Gemeinde kam es wiederholt zu Nutzungskonflikten, vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 103-105</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

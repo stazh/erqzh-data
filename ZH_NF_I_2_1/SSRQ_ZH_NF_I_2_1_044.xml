@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_044</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=366040">StAZH C II 13, Nr. 413</idno></msIdentifier><head>Belehnung des Hermann von Adlikon mit der Vogtei über das Widem von Hettlingen durch Herzog Friedrich von Österreich</head><msContents><summary>Herzog Friedrich von Österreich belehnt Hermann von Adlikon und seine Erben im Rahmen der Neuverleihung seiner Lehen mit der Vogtei über das Widem von Hettlingen. Er soll sie nach Lehensrecht und Landesrecht innehaben und nutzen und die dem Lehensherrn schuldigen Pflichten leisten.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="13.0"/><width unit="cm" quantity="28.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Herzog Friedrich von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1412-05-20"/><origPlace>Baden</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 4, Nr. 5775</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004009">Kirchengut</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg>
+<lb/>Wir, <persName role="issuer" ref="per000346">Fridreich, von gots gnaden hertzog ze <placeName ref="loc000589">Oͤsterreich</placeName>, ze <placeName ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454">Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>, graf ze <placeName ref="loc000780">Tyrol</placeName></persName>
+<abbr>etc</abbr>,
+<lb/>tuͦn kunt:</seg>
+<seg>Als wir unsere lehen von newen dingen beru̍ft haben zeverlihen, also haben wir unserm lieben
+<lb/>getrewen <persName ref="per027168">Herman von Adlikon</persName> die vogty u̍ber den widem ze <placeName ref="loc010469">Hettlingen</placeName> im und sin erben verlihen und lihen
+<lb/>inen auch die also wissentleich mit dem brief, was wir in zereht daran leihen sullen oder mu̍gen,
+<lb/>die von uns in lehens weis innezehaben und ze niessen, als lehens und landes reht ist, und uns davon
+<lb/>tuͤn als lehensleut irem lehenherren pflichtig und gepunden sind, getrewleich, angeverde.</seg>
+<seg>Mit urkunt ditz
+<lb/>briefs, geben ze <origPlace ref="loc000020">Baden</origPlace> an <origDate when="1412-05-20">freytag vor pfingsten, anno domini <abbr>etc</abbr> quadringentesimo duodecimo</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/><choice><abbr>D</abbr><expan>Dominus</expan></choice> dux
+<lb/><choice><abbr>p</abbr><expan>per</expan></choice> se</ab>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/><persName ref="per027169">Anna von Adlikon</persName>, <lb/>ist lehen von der <measure type="currency" unit="ß" quantity="10">x </measure>
+<lb/>von der widem.<note><persName ref="per027169">Anna von Adlikon</persName> war Priorin des <orgName ref="org002665">Klosters <placeName ref="loc000980">Töss</placeName></orgName> (<bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 930</bibl>). 1465 hatte sie von ihrem Bruder <persName ref="per027170">Hans von Adlikon</persName> Einkünfte von 10 Schilling sowie ein Fasnachtshuhn von dessen Lehengut, der Vogtei über das Widem in <placeName ref="loc010469">Hettlingen</placeName>, um 12 Pfund Haller erworben. Auf der Rückseite der Urkunde ist vermerkt, dass die <orig>x  an daz liecht in der nu̍wen stuben und an unser frowen metti</orig> gefallen waren (<bibl>StAZH C II 13, Nr. 561</bibl>). Infolge dieser Stiftung gelangte wohl auch die vorliegende Lehensurkunde in das Archiv des Klosters, das nach der Reformation durch <placeName ref="loc000065">Zürcher</placeName> Amtleute verwaltet wurde. Zur Geschichte des Klosterarchivs vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 923</bibl>.</note></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/><measure type="currency" unit="fl" quantity="1">j </measure></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Neben dem Widem, dem der Versorgung von Kirche und Pfarrer dienenden Pfarrgut, das oft gegen Zins verliehen war, bezog der Inhaber der Pfarrpfründe Einkünfte aus dem Zehnten, erhielt Opfergaben (Oblationen) während der Messfeiern und erhob Gebühren bei Amtshandlungen wie Taufen oder Trauungen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Arend 2003</ref>, S. 39-46, 51-61</bibl>.</p>
+<p>Zu den Besitzverhältnissen des Pfarrguts in <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 114-115, 128-129</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 208-210</bibl>. Gemäss Lehensverzeichnis <persName ref="per000335">Herzog Rudolfs IV. von Österreich</persName> aus dem Jahr 1361 war <persName ref="per027171">Rudolf von Adlikon</persName> mit der Vogtei über die Kirche von <placeName ref="loc010469">Hettlingen</placeName> belehnt worden (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/1, S. 494</bibl>). Vermutlich handelte es sich jedoch um die Vogtei über das Pfarrgut, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 114-115</bibl>. Später gelangte das Widem in den Besitz des <orgName ref="org005027">Klosters Paradies</orgName> bei <placeName ref="loc000701">Schaffhausen</placeName> und <persName ref="per027308">Wolfs von Breitenlandenberg</persName>, die sich das Patronatsrecht der Pfarrkirche in <placeName ref="loc011172">Neftenbach</placeName> teilten, deren Filiale die Kirche in <placeName ref="loc010469">Hettlingen</placeName> war, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_226">SSRQ ZH NF I/2/1, Nr. 226</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

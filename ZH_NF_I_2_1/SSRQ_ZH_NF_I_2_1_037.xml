@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_037</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 407</idno></msIdentifier><head>Verordnung über den gerichtlichen Instanzenzug in Winterthur</head><msContents><summary>Schultheiss und beide Räte von Winterthur legen fest, dass bis auf Widerruf gegen Urteile des Gerichts nicht mehr wie früher an den Rat der Stadt Konstanz appelliert werden soll, sondern an den Rat von Winterthur, um die Kosten für die Bürger zu reduzieren und die Verfahrensdauer zu beschleunigen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Abschrift (Einzelblatt)</filiation><filiation type="original"><origDate when="1406-11-22"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1483-01-01" to="1513-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000287">Appellation</term><term ref="key003383">Instanzenzug</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<head>
+<lb/>Statsatzung unnd ordnung von unnser <lb/>eltern vorfāren, <orgName ref="org007943">schultheis u̍nnd raͤten
+ <lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, angesaͤhen vor <date dur="P150Y">iɉ<hi rend="sup">c</hi> jāren</date>,
+<lb/>in nach volgenden worten gesetzt<note>Die vorliegende Aufzeichnung datiert in die Amtszeit des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per027307">Konrad Landenberg</persName> (1483-1513).</note>
+</head>
+<p>
+<lb/>Wir haben ouch gesetzt, was urtailn an u̍nnserm
+<lb/>gericht ze hellent, die man zu̍hen sol, das man die
+<lb/>fu̍r den amman in den <orgName ref="org001936">rāt zuͦ <placeName ref="loc000008">Costentz</placeName></orgName> zu̍hen sol und
+<lb/>niendert anderschwa.<note>Verordnung des <orgName ref="org007943">Schultheissen und Rats von <placeName ref="loc000849">Winterthur</placeName></orgName> vom 6. Oktober 1324 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_012">SSRQ ZH NF I/2/1, Nr. 12</ref>, Artikel 3</bibl>).</note>
+</p>
+<p>
+<lb/>Unnd die yͤtzgemelt ordnung ist von <orgName ref="org007943">schultheis unnd
+ <lb/>raͤten</orgName>, u̍nsern altvordern, widerumb abgetan und
+<lb/>von des gemeinen nutzes wegen diß nachvolgend
+<lb/>satzung und ordnung dargegen wider angesaͤhen
+<lb/>und in nachvolgenden worten gesetzt im jār, als
+<lb/>von der gepurt Cristi gezelt ward <origDate when="1406">m<hi rend="sup">o</hi> cccc sexto</origDate>, und
+<lb/>also bitz uff ditz gegenwirtig zit unverletzt beliben, von
+<lb/>einer herschaft unnd mengklichem ungeirrt.
+ </p>
+<p>
+<lb/>Item der <orgName ref="org007943">schultheis unnd rāt, nu̍wer und alter, unnd die
+<lb/>vierzig zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> hond geordnet unnd gesetzt,
+<lb/>was urtailn man untzher von der stang gen
+<lb/><orgName ref="org001936"><placeName ref="loc000008">Costentz</placeName> in den raut</orgName> gezogen hāt, das man die alle
+<lb/>nun hinenthin in einen <orgName ref="org005587">rāt ze <placeName ref="loc000849">Wintertur</placeName></orgName> ziehen sol,
+<lb/>alle dwil ein <orgName ref="org007943">schultheis und raͤt und die viertzig zuͦ
+<lb/><placeName ref="loc000849">Winterthur</placeName></orgName> das nit wideruͤffent oder verendrent.
+<lb/>Und ist ditz also gesetzt darumb, das die burger dester
+<lb/>minder cost haben und das recht dester ee ein end habe.
+<seg><lb/>Actum an <origDate when="1406-11-22">mentag vor sant <persName ref="per000793">Katherina</persName> tag, anno domini
+<lb/>m<hi rend="sup">o</hi> ccc sexto</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ordnung der appellationen <lb/>halber von anno <date when="1406">1406</date></ab>
+</div>
+</body>
+<back>
+<div>
+<p><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> hatten 1324 die Appellation gegen Urteile des städtischen Gerichts vor dem <orgName ref="org001936">Rat von <placeName ref="loc000008">Konstanz</placeName></orgName> zugelassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_012">SSRQ ZH NF I/2/1, Nr. 12</ref>, Artikel 3</bibl>). Nun löste der <orgName ref="org005587"><placeName ref="loc000849">Winterthurer</placeName> Rat</orgName> diesen als Appellationsinstanz ab. Der <orgName ref="org001936"><placeName ref="loc000008">Konstanzer</placeName> Rat</orgName> behielt zunächst noch eine (schieds-)gerichtliche Funktion: Wer das <placeName ref="loc000849">Winterthurer</placeName> Bürgerrecht aufgab und Ansprüche gegen die Stadtgemeinde geltend machte, konnte sich an die Städte <placeName ref="loc000008">Konstanz</placeName>, <placeName ref="loc000065">Zürich</placeName> oder <placeName ref="loc000701">Schaffhausen</placeName> wenden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_069">SSRQ ZH NF I/2/1, Nr. 69</ref></bibl>).</p>
+<p>Die Hürden für Appellationen waren relativ hoch. Wer gegen ein Urteil des Stadtgerichts an den <orgName ref="org005587">Kleinen Rat</orgName> appellierte und abgewiesen wurde, musste 3 Pfund Pfennig <orig>zu buͦß geben</orig> (<bibl>STAW B 2/6, S. 137</bibl>, zu 1502). Appellationen gegen Urteile des <orgName ref="org005587">Kleinen Rats</orgName> an den <orgName ref="org007944">Grossen Rat</orgName> mussten binnen 10 Tagen erfolgen und kosteten eine Gebühr (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_208">SSRQ ZH NF I/2/1, Nr. 208</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

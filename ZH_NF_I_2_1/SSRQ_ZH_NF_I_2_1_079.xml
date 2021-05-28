@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_079</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 111r (Eintrag 1)</idno></msIdentifier><head>Aufnahme des Konrad Rümmeli in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Konrad Rümmeli hat folgende Vereinbarung mit dem Rat von Winterthur getroffen: Solange er Bürger und in der Stadt ansässig ist, soll er jährlich am 11. November 9 Gulden Steuer von seinem Vermögen und dem seiner Frau zahlen, die üblichen Pflichten wie Arbeitsdienst, Wachdienst und Wehrdienst leisten sowie die Verbrauchssteuer entrichten. Bei einem Wegzug aus der Stadt wird eine Abzugsgebühr von 100 Pfund Haller fällig. Rümmeli hat geschworen, Nutzen und Ehre der Herrschaft, der Herzöge von Österreich, und der Stadt zu fördern und Schaden von ihnen abzuwenden. In einem Nachtrag wird vermerkt, dass nach Rümmelis Tod seine Frau und sein Sohn bei der Vereinbarung betreffend Steuer und Abzug bleiben sollen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Engelfried</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1448-10-18" to="1459-06-19">Der Eintrag datiert vom 18. Oktober 1448, der Nachtrag vom 19. Juni 1459.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000134">Bürgerrecht</term><term ref="key000479">Dienstpflicht</term><term ref="key000179">Eid</term><term ref="key000157">Steuern</term><term ref="key000580">Wachdienst</term><term ref="key001101">Wehrdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="111r"/>
+<p><seg>
+<lb/>Item <persName ref="per027734">Cuͦnrat Ru̍milin</persName> ist mit einem gantzen <orgName ref="org005587">rat
+<lb/>zuͦ <placeName ref="loc000849">Wintterthur</placeName></orgName> u̍berkommen und guͤtlich eins worden
+<lb/>also, das er <date dur="R/P1Y">alle jar</date>, die wyle und er zuͦ <placeName ref="loc000849">Wintterthur</placeName>
+<lb/>seßhafft <add place="left margin" type="sign"> und burger</add> ist, von sin und siner hußfrowen guͦt <date type="deadline" when="--11-11">uff
+ <lb/>sant <persName ref="per000141">Martins</persName> tag</date> zuͦ stu̍r geben sol <measure type="currency" unit="fl" quantity="9">nu̍n guldin</measure>
+<lb/>und nit me. Und sol sich aber sust mit tagwan,
+<lb/>wachen, reyßen <subst><del>und andern sachen</del><add place="above">und ungelt</add></subst> verdienen als
+<lb/>ein ander burger. Und weͣre sach, das derselb <persName ref="per027734">Conrat
+ <lb/>Ru̍milin</persName>, es were u̍ber kurtz oder lang, von <placeName ref="loc000849">Wintter<lb break="no"/>thur</placeName> ziehen woͤlte, so sol er von sin und sins
+<lb/>wibs guͦt ze abzug geben <measure type="currency" unit="lb" quantity="100">hundert pfunt haller</measure>
+<lb/>und ouch nit me. Und hat daruff geschworn
+<lb/>unser gnaͤdigen <orgName ref="org000088">herschafft von Oͤsterrich</orgName> und
+<lb/>der statt <placeName ref="loc000849">Wintterthur</placeName> nutz und ere ze fu̍rdern
+<lb/>und iren schaden ze wenden, getru̍wlich und
+<lb/>ane alle geverde.</seg>
+<seg><foreign xml:lang="la">Actum <origDate when="1448-10-18">feria sexta post festum
+ <lb/>sancti <persName ref="per000455">Galli</persName>, anno <abbr>etc</abbr> xl octavo</origDate></foreign>.</seg>
+<seg><add place="inline">Und ob
+ <lb/>derselb <persName ref="per027734">Cuͦnrat Ru̍milin</persName> abgieng, so sollen
+ <lb/>sin hußfrow und sin sun by solichem uberkomen
+ <lb/>ouch beliben mit stu̍r und mit abzug</add>
+<lb/><add place="bottom" type="sign">und sin anzal geben. Und ist dis
+  <lb/>beschechen uff <origDate when="1459-06-19">zinstag <del>nach</del> vor
+<lb/>sant <persName ref="per000049">Johanns</persName> tag des toffers im
+<lb/>lix jar</origDate>.</add></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Rechten und Pflichten der Bürger gegenüber der Gemeinde vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_038">SSRQ ZH NF I/2/1, Nr. 38</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

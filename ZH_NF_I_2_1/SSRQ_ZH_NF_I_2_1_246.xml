@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_246</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/8, S. 119 (Eintrag 2)</idno></msIdentifier><head>Urteil im Konflikt zwischen der Stubengesellschaft der Weber in Winterthur und zwei Frauen um die Ausübung des Schwärzens</head><msContents><summary>Beide Räte der Stadt Winterthur urteilen im Konflikt zwischen der Gesellschaft der Weberstube, Klägerin, und Barbara, Ehefrau des Hans Kaufmann, und Anna, Ehefrau des Hans Rapold, Beklagte, um die Ausübung des Handwerks. Solange die beiden Frauen nur Zwilch, Leinen und alte Stoffe und keine Textilien, die in den Bereich des Tuchschererhandwerks gehören, schwärzen, soll die Gesellschaft der Weberstube sie gewähren lassen. Für beide Frauen ist wie bei Näherinnen die Mitgliedschaft in der Gesellschaft obligatorisch.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1529-02-01"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000924">Arbeit</term><term ref="key000849">Handwerk</term><term ref="key005441">Stubengesellschaft</term><term ref="key003022">Textilien</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="119"/>
+<p><lb/>Coram <orgName ref="org007944">beden raͤten</orgName>, actum <origDate when="1529-02-01">mendag <lb/><choice><sic>vor liechtmaͤs vor liechtmaͤs</sic><corr>vor liechtmaͤs</corr></choice>, <lb/>anno xxviiij</origDate></p>
+<p>
+<lb/>Zwischentt den meisteren der <orgName ref="org007941">waͤber stuben</orgName>, claͤger, eins-, <persName ref="per027437">Barb<lb break="no"/>all</persName>, <persName ref="per027439">Hans Kuͦffmans</persName> elich husfruͦw, ouch <persName ref="per027568">Anna</persName>, <persName ref="per027569">Hans Rapoltenn</persName>
+<lb/>elich husfruͦw, bed antwurter, anderteills, ist erkaͤntt: Die <del>die</del>
+<lb/>will die gedachten <num value="2">zwo</num> fruͦwen <choice><sic>mitt</sic><corr>nit</corr></choice><!-- einfacher i-Punkt auf dem Wort, kann also nicht "nütt" heissen --> anders dan zwilchis, linis und
+<lb/>alt ding gschwērtzt, das dan die <orgName ref="org007941">gselschafft der waͤber stubenn</orgName>
+<lb/>sy fürfaren und schwertzen <add place="above" type="sign">lasen</add> soͤllin, doch daß sy dehin barchett, sch<lb break="no"/>muͦtzen oder der glichen, so in das duͦchschaͤrer hantwerch
+<lb/>dienett, bruchen. Zuͦ dem, dwill <persName ref="per027439">Hans Kuͦffmans</persName> fruͦw das schwertz<lb break="no"/>en von <del>siner</del> irem vorigen man glertt, das dan sy fur <add place="above">hin</add>
+<date dur="R/P1Y">alle jar</date>, dwill
+<lb/>sy soͤlich schwertzen brucht, sich, <del>uff stuben</del> wie ein negerin<!-- Näherin --> zethuͦn
+<lb/>pflichtig, uff die gedacht <orgName ref="org007941">weber stuben</orgName> verdienen soͤlle. Ouch das
+<lb/>des <persName ref="per027569">Rapolten</persName> fruͦw mitt der hauß<note>Beitrittsgebühr (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/246733">Bd. 2, Sp. 1679-1680</ref></bibl>).</note> und anderer dingen, wie ein naͤ<lb break="no"/>gerin zethuͦn schuldig, sich uff die offt gemaͤlt stuben verdienen
+<lb/>soͤlle.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Ein Ratsbeschluss aus dem Jahr 1477 schrieb vor, dass jeder, der ein Handwerk ausübte, der dazugehörigen Stubengesellschaft beitreten sollte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_107">SSRQ ZH NF I/2/1, Nr. 107</ref></bibl>). Diese Korporationen vertraten berufsständische Interessen und erfüllten soziale und religiöse Funktionen. Die textilproduzierenden und -verarbeitenden Gewerbe in <placeName ref="loc000849">Winterthur</placeName> hatten sich zur <orgName ref="org007941">Gesellschaft der Weberstube</orgName> zusammengeschlossen. Zu dieser Gesellschaft, die sich 1836 endgültig auflöste, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rozycki 1946</ref>, S. 119-122</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

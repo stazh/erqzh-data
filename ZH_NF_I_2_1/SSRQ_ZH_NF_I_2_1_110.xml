@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_110</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1471</idno></msIdentifier><head>Urfehde des Winterthurer Bürgers Calixtus Hebstrit wegen blasphemischer Äusserungen</head><msContents><summary>Der Winterthurer Bürger Calixtus Hebstrit, Bader, von Kempten, der wegen blasphemischer Äusserungen in der Gefangenschaft des Schultheissen und Rats von Winterthur gewesen war und auf Gnadenbitte freigelassen wurde, schwört Urfehde. Falls er den Eid nicht halten sollte, können sie ihn als meineidigen, ehrlosen Mann, der Leib und Leben verwirkt hat, richten. Er verzichtet auf alle Rechtsmittel. Auf Bitte des Ausstellers siegelt Rudolf Bruchli.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.5"/><width unit="cm" quantity="33.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Rudolf Bruchli</persName></seal></sealDesc></physDesc><history><origin><origDate when="1479-10-20"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000482">Blasphemie</term><term ref="key000590">Delinquenz</term><term ref="key000480">Urfehde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_1471_r.jpg"/>
+<p><seg>
+<lb/>Ich, <persName role="issuer" ref="per027403">Calixtus Hebstrit</persName>, der bader,<note>1477 wurde ihm für ein Jahr die obere Badstube in <placeName ref="loc000849">Winterthur</placeName> verliehen gegen einen wöchentlichen Zins von 12 Schilling (<bibl>STAW B 2/2, fol. 29r</bibl>).</note> von <placeName ref="loc013155">Kempten</placeName>, burger zuͦ <placeName ref="loc000849">Wintterthur</placeName>, bekenn offenlich mit disem brieff:</seg>
+<seg>Nach dem und ich in der
+<lb/>fu̍rsichtigen und wysen <orgName ref="org007943">schultheiß und raǔtz zuͦ <placeName ref="loc000849">Wintterthur</placeName></orgName>, miner lieben herren, vaͤnckniß und strǎff, umb daz ich gott ge<lb break="no"/>scholten und sin liden und gelider schantlich uffgehept hab, kommen bin,<note>Am 20. August 1479 wurde im Ratsbuch vermerkt, dass der Bader <persName ref="per027403">Calixtus</persName> 5 Pfund Busse zahlen sollte (<bibl>STAW B 2/3, S. 410</bibl>), die Gründe dafür werden nicht genannt. Am 12. November räumte man ihm ein, in der Stadt bleiben zu dürfen, solange er sich wohlgefällig verhalte, andernfalls sollte er die verdiente Strafe erhalten (<bibl>STAW B 2/3, S. 417</bibl>).</note> und aber durch min und andern miner lieben herren
+<lb/>und guͦtten fru̍nden ernstlicher pitt willen mich der vaͤnckniß ledig gelaǔssen hand, also hab ich darnach frys willens,
+<lb/>unbetzwungen einen eid mit uffgehepten vingern offenlich zuͦ gott und den heiligen gesworn, soͤlich gefangenschafft, und waz
+<lb/>sich darinn und dartzwu̍schen gemacht und erlǒffen hǎt, gegen minen herren von <placeName ref="loc000849">Wintterthur</placeName> und allen den iren und gegen
+<lb/>denenn, so daran schuld, raǔt oder getǎtt gehept und gethǒn haben, weder mit wortten noch mit wercken, heimlich noch
+<lb/>offenlich, in unguͦtt niemer mer zuͦ aͤfern noch zuͦ anden noch schaffen gethǒn zuͦ werden durch mich selbs noch yemann
+<lb/>anderem, in keinen weͣg, sunder dis urfeͣcht uffreͣchtlich und getru̍wlich zuͦ halten unnd niemer nu̍tz, das dawider sin
+<lb/>oder mich darvon geabsolvieren moͤcht, zuͦ werben oder zetuͦnnd.</seg>
+<seg>Dann wo ich dis min eid unnd ere u̍berseͣh und nit
+ <lb/>hielt, da gott vor sin welle, als dann sol ich ein meineider unnd erlǒser, verurteilter mann heissen und sin, der
+ <lb/>besser von der welt gethǒn, dann daby verlaǔssen ist. Unnd moͤchten oǔch als dann die genantten min gneͣdig herren, oder
+ <lb/>weͣr inn des helffen woͤlt, zuͦ mir richten als zuͦ eym u̍beltaͤttigen, erlǒsen, vertzalten und mit dem rechten verurteilten
+ <lb/>man, der sin lib unnd leben mit untaͤtten verlorn und wol verschuldt haǔt. Davor mich gar nicht schirmenn sol de<lb break="no"/>heiner ley freyheit, gleit noch gnad, gericht noch recht, geistlichs noch weltlichs, der herren, der stett noch der lender noch
+ <lb/>sunst nicht u̍berall, so yemann her wider zehilff unnd schirm gehaben oder u̍berkommen moͤcht, in dehein wiß, ǒngeveͣrd.</seg>
+<seg>
+<lb/>Unnd des zuͦ warem urku̍nd so hab ich, obgenantter <persName ref="per027403">Calixtus Hebstrit</persName>, mit ernst erbetten den vesten junckher <persName role="sigillant" ref="per027339">Ruͦ<lb break="no"/>dolffen Bruchlin</persName>, minen lieben junckherren, das der sin eigen insigel, dǒch im und sinen erben ǒnschaden, fu̍r mich
+ <lb/>unnd min erben offenlich gehenckt haǔt an disen brieff, der geben ist an <origDate when="1479-10-20">mitwuͦch nach sant <persName ref="per000455">Gallen</persName> tag, nach
+ <lb/>Cristz gepurt gezalt vierzehenhundert sybentzig unnd in dem nu̍nden jarre</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_URK_1471_v.jpg
+"/>
+<div>
+<ab place="verso" type="dorsal" hand="hand15c"><lb/>Urfecht <persName ref="per027403">Calixtus</persName>, <lb/>bader, von <placeName ref="loc013155">Kempten</placeName></ab></div>
+<div>
+<ab place="verso" type="dorsal" hand="hand18c"><lb/>Urfehd <persName ref="per027403">Calixtus Hebstrit</persName> von <placeName ref="loc000849">Winterthur</placeName>,
+<lb/>wegen gottslästrung gethürnt, anno <date when="1479">1479</date></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Blasphemie zählte zu den <orig xml:lang="la">crimina mixta</orig>, die sowohl vor geistlichem Gericht als auch vor weltlichem Gericht zur Anklage gebracht werden konnten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schwerhoff 2005</ref>, S. 127-129</bibl>. In einem vermutlich zeitgenössischen Bussenverzeichnis der Stadt <placeName ref="loc000849">Winterthur</placeName> wird zwischen im Affekt erfolgter und vorsätzlicher Gotteslästerung unterschieden. Im ersten Fall wurde ein Bussgeld von 5 Schilling verhängt, im zweiten Fall drohten Körperstrafen oder Vermögensstrafen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_194">SSRQ ZH NF I/2/1, Nr. 194</ref></bibl>). Auch in anderen Städten reichten die Strafen für anstössige Schwüre von Geldbussen und Ehrenstrafen bis hin zu Körperstrafen oder sogar der Todesstrafe, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schwerhoff 2005</ref>, S. 132-147</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

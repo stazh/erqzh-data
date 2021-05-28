@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_192</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 61v-62r</idno></msIdentifier><head>Pflichten der Inhaber von Pfründen an der Pfarrkirche in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur beschliessen, dass künftig jeder Priester und Kaplan, dem eine Pfründe verliehen wird, die Einhaltung folgender Bestimmungen schriftlich versichern soll: Er soll die Bestimmungen der Urkunde über die Dotation der Pfründe einhalten (1). Er soll sich angemessen verhalten und mit keiner Konkubine oder Dienstmagd zusammenwohnen (2). Er soll sein Pfründhaus instand halten (3). Er soll ohne Zustimmung des Rats seine Pfründe nicht einem anderen Priester abtreten, tauschen oder auf andere Weise verändern (4). In einem Nachtrag wird hinzugefügt: Er soll 50 Gulden Kaution stellen für den Fall, dass er diese Bestimmungen nicht einhalte und der Stadt dadurch Kosten entstünden (5). Wenn jemand diese Bestimmungen übertritt, kann der Rat ihm die Pfründe entziehen und einem anderen Priester verleihen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg; Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1522-12-31">Der undatierte Eintrag des Stadtschreibers Konrad Landenberg datiert vermutlich um 1500, der Nachtrag von der Hand seines Nachfolgers Gebhard Hegner um 1522 vor der Einführung der Reformation.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005343">Ausserehelicher Geschlechtsverkehr</term><term ref="key000301">Pfarrer</term><term ref="key000193">Pfründe</term><term ref="key000187">Unterhalt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="61v"/>
+<head>
+<lb/>Artikel von verlihung<!-- mit Nasalstrich --> der caplanyenpfruͦnden
+<lb/>alhie in u̍nser pfarkilchen angesaͤhen
+ </head>
+<p>
+<lb/>Es haben mine herren<!-- Kürzungsstrich nach n: Verdopplung des r ?? -->
+<orgName ref="org007943">schulthaiß unnd<!-- es fehlt eine Haste --> raͤte</orgName>
+<lb/>umb besser fu̍rdrung goͤtlicher diensten uß
+<lb/>sonder guͦter meinung angesaͤhen, das fu̍rohin
+<lb/>allwaͤgen ein jeder priester und caplan, dem
+<lb/>alhie ein pfruͦnd verlihen wirt, sich glouphaftig
+<lb/>verinstrumentieren sol, dise nachvolgende
+<lb/>artiklen unnd puncten ze halten.
+</p>
+<p><seg n="1">
+<lb/>Nemmlich<!-- Nasalstrich --> des ersten, das er alle unnd jegklich
+<lb/>puncten unnd artiklen nach inhalt siner pfruͦnd<lb break="no"/>dotation mit allem begriff halten woͤlle.
+ </seg></p>
+<p><seg n="2">
+<lb/>Zum andern, das er <choice><sic>sin sin</sic><corr>sin</corr></choice> wesen in allen zu̍chten
+<lb/>und erberkait priesterlich als einem froͤmen priester
+<lb/>zimpt, sich halten, insonder ouch kein offen concubin,
+<lb/>dienstemagt oder ander arwaͤnig wiplich perso<lb break="no"/>nen nit by im haben noch enthalten woͤlle, in<lb break="no"/>dhein wise.
+ </seg></p>
+<p><seg n="3">
+<lb/>Zum dritten, das er siner pfruͦnd hus in guͦten
+<lb/>eren unnd wesenlichen bu̍wen halten welle.
+ </seg></p>
+<p><seg n="4">
+<lb/>Zum vierden, das er soͤlch sin pfruͦnd yemands
+<lb/>andern priester nit uffgeben, verwechslen noch 
+<lb/>gantz kein ander endrung one verwilligung eins
+<lb/><orgName ref="org005587">rautz</orgName> damit tuͦn woͤlle.
+ </seg></p>
+<p>
+<seg n="5">
+<lb/><add place="left margin" scribe="per014937">Zem fu̍nfften soll
+ <lb/>er ein trostung geben
+ <lb/>umb <measure type="currency" unit="fl" quantity="50">fu̍nfftzig guldin</measure>,
+ <lb/>oͤb er soͤlich artickel
+ <lb/>nit hielte und dardurch
+ <lb/>aber wir in kosten
+ <lb/>kemend, alß dann soll
+ <lb/>der selbig troͤster die
+ <lb/><measure type="currency" unit="fl" quantity="50">fu̍nfftzig guldin</measure>
+<lb/>unß ze geben schuldig sin.</add><note>Diese Summe diente dem <orgName ref="org005587">Rat</orgName> als Sicherheit für Auslagen bei einem etwaigen Verfahren an der <orgName ref="org000056"><placeName ref="loc000008">Konstanzer</placeName> Kurie</orgName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, S. 55</bibl>. Der Nachtrag von der Hand des Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> erfolgte wohl bald nach seinem Amtsantritt im Jahr 1522.</note></seg></p>
+<p>
+<lb/>Unnd in woͤlchen hievor benanten stucken und
+<lb/>artiklen er sich u̍bersaͤhe und die nit hielte und das
+<lb/>kuntlich uff in gepraͧcht wurde, das er alsdann
+<pb type="original" n="62r"/>
+<lb/>die selben sin pfruͦnd mit der getaut entsetzt unnd
+<lb/>beroubet, also das die widerumb einem <orgName ref="org005587">raͤte</orgName> alhie
+<lb/>ledig heimgefallen sin unnd demnach von einem
+<lb/><orgName ref="org005587">raͤte</orgName> einem andern priester verlihen werden sol,
+<lb/>daran von im und mengklichem ungeirrt.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Im Jahr 1488 hatten sich <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> und die Kapläne der Pfarrkirche auf eine Gottesdienstordnung verständigt, nachdem es immer wieder zu Auseinandersetzungen zwischen der städtischen Obrigkeit oder dem Rektor und den Kaplänen aufgrund mangelnder Pflichterfüllung gekommen war, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_152">SSRQ ZH NF I/2/1, Nr. 152</ref></bibl>. Im gleichen Jahr drohten <orgName ref="org005587">Schultheiss und Rat</orgName> dem Prädikanten <persName ref="per027664">Lukas Wüst</persName> aufgrund seines Lebenswandels den Entzug seiner Pfründe an, die Angelegenheit zog sich über Jahre hin (<bibl>STAW B 2/5, S. 335, 496, 558-559</bibl>); vgl. zu diesem Fall <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, S. 69-72</bibl>. Die Strafkompetenz bei normabweichendem Verhalten von Geistlichen war dem Bischof von <placeName ref="loc000008">Konstanz</placeName> vorbehalten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Neumann 2008</ref>, S. 58, 60</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Albert 1998</ref>, S. 46, 100</bibl>.</p>
+<p>Der vorliegende Pflichtenkatalog für die Inhaber der Pfründen an der Pfarrkirche datiert vermutlich um 1500. Ein Eintrag in einem Ratsbuch vom 10. März 1507 über die Verleihung der Heiliggeistpfründe im <orgName ref="org007934">Spital</orgName> an <persName ref="per028186">Rudolf Weber</persName> nimmt Bezug auf diese <orig>artikel, so in das ratzbuͦch, ander caplaͤnen halb ze verinstrumentieren, geschriben staͧt</orig> (<bibl>STAW B 2/6, S. 260</bibl>). 1519 zeigten <orgName ref="org007943">Schultheiss und Rat</orgName>
+<persName ref="per028186">Weber</persName> bei dem Offizial der <placeName ref="loc000008">Konstanzer</placeName> Kurie an, da er mit seiner Dienstmagd ein Kind gezeugt und es nach der Geburt nicht ausreichend versorgt hatte (<bibl>STAW AM 182/20</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, Beilage 5, S. 96</bibl>). Bis zur Reformation mussten sich die Kapläne bei ihrer Einsetzung in die Pfründe zur Einhaltung dieser Bestimmungen verpflichten, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_217">SSRQ ZH NF I/2/1, Nr. 217</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

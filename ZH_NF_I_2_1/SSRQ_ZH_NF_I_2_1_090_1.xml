@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_090_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249820">StAZH C I, Nr. 3153</idno></msIdentifier><head>Verpfändung der Stadt Winterthur an die Stadt Zürich durch Herzog Sigmund von Österreich</head><msContents><summary>Herzog Sigmund von Österreich verpfändet die Stadt Winterthur mit allen obrigkeitlichen und herrschaftlichen Rechten, Lehen und allem anderen Zubehör dem Rat und der Gemeinde der Stadt Zürich um 10000 Gulden. Dies geschieht zur Entlastung Winterthurs in Anbetracht der Treue und des Gehorsams, die Schultheiss, Rat und Gemeinde dem Herzog und seinen Vorfahren erwiesen haben, sowie angesichts ihrer Standhaftigkeit in Kriegszeiten, durch die sie in Schulden geraten sind. Von dieser Summe wurden den Winterthurern 8000 Gulden zur Ablösung ihrer Schulden und dem Herzog 2000 Gulden bar bezahlt. Die Zürcher sollen Winterthur mit allen Einkünften und Zubehör innehaben wie der Herzog unter der Bedingung, dass sie den Schultheissen, den Rat und die Gemeinde von Winterthur und alle, die zu ihnen gehören, bei den Rechten, Freiheiten und Gnaden, die sie von römischen Kaisern und Königen und auch von seinen Vorfahren und von ihm selbst erhalten haben, und bei ihrem alten Herkommen belassen und nicht darin bedrängen. Vielmehr sollen sie die Winterthurer gegen alle Widersacher schützen. Der Herzog behält sich und seinen Nachfahren die Auslösung der Pfandschaft um 10000 Gulden, zahlbar nach Konstanz, vor. Die Zürcher haben sich verpflichtet, der Auslösung binnen acht Tagen stattzugeben und die Stadt Winterthur von ihren Gelübden und Eiden zu befreien.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="28.5"/><width unit="cm" quantity="48.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="7.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Herzog Sigmund von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1467-08-31"/><origPlace>Villingen</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>Ganz 1966, S. 21-23</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003737">Herrschaftsrechte</term><term ref="key000441">Pfand</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_I__Nr__3153__r_.tif"/>
+<p><seg>
+<lb/>Wir, <persName role="issuer" ref="per003136">Sigmund</persName>, von gots gnaden hertzog zu <placeName ref="loc000589">Osterreich</placeName>, zu <placeName ref="loc000759">Steyr</placeName>, zu <placeName ref="loc000454">Kërnden</placeName> und ze <placeName ref="loc000220">Krayn</placeName>, grave zu
+<lb/><placeName ref="loc000780">Tirol</placeName>
+<abbr>etc</abbr>, bekennen fu̇r<!-- es scheint, dass ein Punkt über dem u steht, analog zu den i-Punkten, wie umsetzen? - PS hat einen Punkt über dem u vorgeschlagen --> uns, unser erben und nachkomen und tun kund allermeniklich, daz wir haben angesehen und betracht die manigveltige trew
+<lb/>und gehorsam, so unser getrew lieben <orgName ref="org007943">schultheyss, rat und gemainde unsrer stat <placeName ref="loc000849">Winttertaur</placeName></orgName> unsern vordern und uns beweyst und in kriegsleüffen
+<lb/>trostlich und als khekch, frum leüt gestannden und vil dranngs williklich gelyden haben, deshalben sy in merklich schulde komen sein.</seg>
+<seg>Und damit
+<lb/>sy der ainstails entladen werden, so haben wir die obemelt unser stat <placeName ref="loc000849">Wintertaur</placeName> mit allen iren rännten, gülten, zinnsen, gerichten, zwinngen,
+<lb/>bännen, holtz, velden, wässern, vischentzen und allen andern öbrikaiten, herlikhaiten, gewaltsam, lehenschefften und allen andern zugehorungen, wie
+ <lb/>wir die üntzher ynngehabt haben und uns und unserm <orgName ref="org000088">haws Österreich</orgName> von alter recht und gewonhait daran zugehört, den ersamen, weysen,
+ <lb/>unsern lieben besundern <orgName ref="org002406">burgermaister, rate und gemainde der stat <placeName ref="loc000065">Zürch</placeName></orgName> umb ain summa gelts, benänntlich <measure type="currency" unit="fl" origin="Rh" quantity="10000">zehentausent Reinischer gul<lb break="no"/>den</measure>, der sy uns <measure type="currency" unit="fl" origin="Rh" quantity="8000">achttausent</measure> zu hannden der gemelten von <placeName ref="loc000849">Wintertaur</placeName><note>Die Schuldverschreibung der Stadt <placeName ref="loc000065">Zürich</placeName> gegenüber <placeName ref="loc000849">Winterthur</placeName> datiert vom 14. September 1467 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=249826">StAZH C I, Nr. 3165, Beilage 2, S. 6-7</ref></bibl>).</note> durch unser verwilligung und zu ablosung irer schuld und die andern <measure type="currency" unit="fl" quantity="2000">zwaytau<lb break="no"/>sent</measure> zu unsern hannden<note>Am 4. September 1467 verpflichteten sich die <orgName ref="org002406">Zürcher</orgName>, diesen Betrag dem Juden <persName ref="per026947">Salomon</persName>, ihrem Bürger, anstelle des Herzogs zu bezahlen (<bibl><ref target="/startseite/literaturverzeichnis">Thommen, Urkunden</ref>, Bd. 4, Nr. 379 II</bibl>). Zu <persName ref="per026947">Salomon</persName> und seinen Beziehungen zu <placeName ref="loc000849">Winterthur</placeName>
+  vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2005a</ref>, S. 107-111</bibl>.</note> also bar und berayt ausgericht, gewërt und betzalt, zu ainem rechten phannde und in phanndsweyse yngesetzt, verphenndt und ver<lb break="no"/>schriben, setzen in, verphennden und verschreiben in die hiemit in krafft ditz briefs also, daz sy die obgemelt unser stat <placeName ref="loc000849">Wintertaur</placeName> mit allen oberürten
+<lb/>nützen, gülten und zugehörungen umb solch obgeschriben summa gelts ynnhaben, nützen, nyessen und gebrauchen sullen und mügen, wie wir sy üntzher yngehabt,
+ <lb/>genützt und gebraucht haben, also doch und mit der lautern underschaid, daz die obenanten von <placeName ref="loc000065">Zürch</placeName> die egemelten von <placeName ref="loc000849">Wintertaur</placeName>, <orgName ref="org007943">schultheyssen,
+ <lb/>rat und gemainde</orgName> und alle die, so zu in gehören, bey allen iren rechten, freyhaiten und gnaden, so sy von <placeName ref="loc000672">Romischen</placeName> kaysern und künigen, auch unsern
+<lb/>vordern und uns haben, und bey iren alten loblichen herkomen gerüblich beleyben lassen und dawider nicht dringen, sunder dabey vor andern, die darwider
+ <lb/>tëten oder tun wolten, hannthaben, schützen und schirmen sullen nach allem irem vermügen.</seg>
+<seg>Und in solcher verphenndung, verschreibung und ynant<lb break="no"/>wurtung haben wir uns und allen unsern erben und nachkomen mit lauter klarer maynung zu ewigen zeiten vorbehalten und ausgenomen,
+<lb/>behalten vor und nemen aus, daz wir, unser erben und nachkomen die obgemelt unser stat <placeName ref="loc000849">Wintertaur</placeName> mit allen und yeglichen iren zugehörungen,
+  <lb/>leüten und gütern, wie oben gemeldt ist, gantz, nichts ausgenomen, widerumb von den von <placeName ref="loc000065">Zürch</placeName>, wann oder welch zeit wir im jar wellen, mit
+<lb/><measure type="currency" unit="fl" origin="Rh" quantity="10000">zehentausent gulden Reinischen</measure>
+<choice><sic>in in</sic><corr>in</corr></choice> die stat <placeName ref="loc000008">Costentz</placeName> an allen iren schaden und abgang zeantwurten, an uns lösen, ledigen und bringen
+<lb/>mügen. Und wann wir das also tun wellen und in das <date dur="P8D">achttag</date><!-- erscheint im Portal als "Datum" --> vor durch unser botschafft oder schrifft verkünden, so sullen die obgemelten
+  <lb/><orgName ref="org002406">burgermaister, rat und die gantz gemainde der stat <placeName ref="loc000065">Zürch</placeName></orgName> uns, unsern erben oder nachkomen solcher widerlosung gehorsam und willig sein,
+<lb/>stattun und alsdann von stund, an all intrag, irrung und beswërd, die obgenante stat <placeName ref="loc000849">Wintertaur</placeName> ynantwurten, ubergeben und abtreten,
+<lb/>irer gelübd und ayd ledig zelen und alle verschreibungen der sachen halben dem, der die geben hett, oder iren erben und nachkomen widerumb
+  <lb/>heraus geben, als sy sich des gegen uns auch notdurfftiklich verschriben haben,<note>Der Pfandrevers des <orgName ref="org002406">Bürgermeisters, der Räte und der Gemeinde der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> datiert vom 2. September 1467 (<bibl><ref target="/startseite/literaturverzeichnis">Thommen, Urkunden</ref>, Bd. 4, Nr. 379 I</bibl>).</note> alles getrewlich und angeverde.<note>Wie Aufzeichnungen im Rahmen der Vorverhandlungen zu entnehmen ist, setzte man sich auf habsburgischer Seite für folgende Bestimmungen des Pfandvertrags ein: Die Garantie der Freiheiten, guten Gewohnheiten sowie Lehen und Pfandschaften der Stadt <placeName ref="loc000849">Winterthur</placeName>, das Auslösungsrecht der <orgName ref="org000088">Herzöge von Österreich</orgName> sowie die erforderliche Zustimmung des Kaisers als des Ältesten des Hauses (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671413">StAZH A 155.1, Nr. 33</ref></bibl>).</note></seg>
+<seg>Mit urkund des briefs, geben
+  <lb/>zu <origPlace ref="loc007443">Villingen</origPlace>, an <origDate when="1467-08-31">mantag vor sand <persName ref="per000474">Verenen</persName> tag, nach Crists geburde im viertzehenhundert und sybenundsechtzigisten jare</origDate>.<note>Formal befand sich <placeName ref="loc000849">Winterthur</placeName> noch im Besitz der Herzogin <persName ref="per027766">Eleonore</persName>, daher erklärte sie am folgenden Tag ihr Einverständnis zu dem Pfandgeschäft ihres Mannes (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_091">SSRQ ZH NF I/2/1, Nr. 91</ref></bibl>).</note></seg></p>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica" xml:lang="la">
+<lb/><choice><abbr>D</abbr><expan>Dominus</expan></choice>
+<choice><abbr>d</abbr><expan>dux</expan></choice>
+<choice><abbr>p</abbr><expan>per</expan></choice> se <choice><abbr>ipm</abbr><expan>ipsum</expan></choice> in <choice><abbr>conso</abbr><expan>consilio</expan></choice>
+</ab>
+</div>
+<pb n="v" facs="StAZH_C_I__Nr__3153__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><date when="1487">1487</date>, Pfandbrief umb <placeName ref="loc000849">Winterthur</placeName>,
+<lb/>wie die uns verpfaͤndt sind</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Hintergründen der Verpfändung <placeName ref="loc000849">Winterthurs</placeName> an <placeName ref="loc000065">Zürich</placeName> durch <persName ref="per003136">Herzog Sigmund von Österreich</persName> nach dem Verlust des <placeName ref="loc000777">Thurgaus</placeName> im Jahr 1460 vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 113-121</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stercken 2006</ref>, S. 70-71</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2002</ref>, S. 25-27</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Köhn 1993</ref>, S. 70-83</bibl>.</p>
+<p>Angehörige der <placeName ref="loc000849">Winterthurer</placeName> Führungsschicht blieben noch längere Zeit den <orgName ref="org000088">Habsburgern</orgName> verbunden, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996a</ref>, S. 155-160</bibl>. Auch der <orgName ref="org005587">Rat</orgName> der Stadt unterhielt weiterhin Beziehungen zum vorländischen Hof, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2005</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996a</ref>, S. 162-165, 169-170</bibl>. Wiederholt liessen sich die <orgName ref="org007943">Winterthurer</orgName> ohne Wissen der <placeName ref="loc000065">Zürcher</placeName> Obrigkeit von den <orgName ref="org000088">Habsburgern</orgName> das Recht der Pfandlösung zusichern (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_199">SSRQ ZH NF I/2/1, Nr. 199</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>).</p>
+<p>Zur Kennzeichnung der Umlaute verwendet der Schreiber ein diakritisches Zeichen ähnlich der Tilde, dieser Systematik entsprechend wird in der Transkription das moderne Umlautzeichen für ä, ö und ü verwendet.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

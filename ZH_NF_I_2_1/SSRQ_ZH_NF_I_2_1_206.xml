@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_206</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1472947">StAZH C II 16, Nr. 546</idno></msIdentifier><head>Bestätigung der den Dominikaner-Terziarinnen von Winterthur gewährten Freiheiten durch Papst Julius II.</head><msContents><summary>Papst Julius II. nimmt die Priorin und die Schwestern des dritten Ordens des heiligen Dominikus in Winterthur auf ihre Bitte hin in seinen Schutz und bestätigt alle ihnen von seinen Vorgängern gewährten Freiheiten und Immunitäten, ferner die von Königen und Fürsten und anderen zugestandenen Befreiungen von weltlichen Abgaben sowie die Zehnten, Ländereien, Häuser, Weinberge, Gärten und alle anderen Güter, die sie rechtmässig besitzen. Er droht Zuwiderhandelnden die Ungnade Gottes und der Apostel Petrus und Paulus an.</summary><msItem><textLang>Latein</textLang><author role="scribe">Petrus Delius</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.5"/><width unit="cm" quantity="39.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="bulle" nontei:shape="round" nontei:attachment="sealed on laces" nontei:condition="well-preserved"><persName role="sigillant">Papst Julius II.</persName></seal></sealDesc></physDesc><history><origin><origDate when="1508-08-23"/><origPlace>Ostia</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key004009">Kirchengut</term><term ref="key000010">Kloster</term><term ref="key005377">Immunität</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_16__Nr__546__r_.tif"/>
+<p>
+<lb/><seg><persName role="issuer" ref="per002350">Julius</persName> episcopus servus servorum dei dilectis in Christo filiabus <orgName role="recipient" ref="org007864">priorisse et sororibus domus opidi <placeName ref="loc000849">Wintherturensis</placeName> tertii
+ <lb/>ordinis beati <persName ref="per027872">Dominici</persName> de penitentia alias de congregatione</orgName> nuncupati <placeName ref="loc000008">Constantiensis</placeName> diocesis provincie <placeName ref="loc005800">Maguntinensis</placeName> salutem et apostolicam benedictionem.</seg>
+<seg>Cum a nobis
+<lb/>petitur, quod iustum est et honestum, tam vigor equitatis quam ordo exigit rationis, ut id per solicitudinem officii nostri ad debitum perducatur effectum,
+ <lb/>eapropter dilecte in domino filie vestris iustis supplicationibus grato concurrentes assensu personas vestras et locum, in quo divino estis obsequio manci<lb break="no"/>pate, cum omnibus bonis, que impresentiarum rationabiliter possidetis aut in futurum iustis modis prestante domino poteritis adipisci, sub beati <persName ref="per000438">Petri</persName> et
+ <lb/>nostra protectione suscipimus et omnes libertates ac immunitates a predecessoribus nostris <placeName ref="loc000076">Romanis</placeName> pontificibus sive per privilegia vel per alia indul<lb break="no"/><subst><del rend="rubbing">gentias</del><add place="inline" hand="other hand">ta</add></subst> vobis et domui vestre concessas ac exemptiones secularium exactionum a regibus et principibus et aliis christifidelibus rationabi<lb break="no"/>liter vobis et domui predicte indultas necnon decimas, terras, domos, vineas, ortos et alia bona vestra, sicut ea omnia iuste et pacifice possidetis,
+ <lb/>vobis et per vos domui prefate auctoritate apostolica confirmamus salva in predictis decimis moderatione concilii generalis.</seg>
+<seg>Nulli ergo omnino
+  <lb/>hominum liceat hanc paginam nostre susceptionis et confirmationis infringere vel ei ausu temerario contraire, siquis autem hoc attemptare pre<lb break="no"/>sumpserit, indignationem omnipotentis dei ac beatorum <orgName ref="org001652"><persName ref="per000438">Petri</persName> et <persName ref="per000351">Pauli</persName></orgName>, apostolorum, eius se noverit incursurum.</seg>
+<seg>Datum <origPlace ref="loc010895">Ostie</origPlace>,
+  <lb/><origDate when="1508-08-23">anno incarnationis dominice millesimo quingentesimo octavo, decimo kalendas septembris, pontificatus nostri anno quinto</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="computatio" place="sub plica"><lb/><date when="--08"><choice><abbr>Au</abbr><expan>Augustus</expan></choice></date><note>Monat der Komputierung, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 111</bibl>.</note></ab>
+</div>
+<div><ab type="tax" place="sub plica"><lb/><measure type="currency" unit="Grossi" quantity="3"><choice><abbr>≡</abbr><expan> 3 grossi</expan></choice></measure><note>Taxvermerk, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 110-111</bibl>.</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/><persName role="rescribendario" ref="per028078"><choice><abbr>E</abbr><expan>Emanuel</expan></choice> Balbus</persName><note>Unterschrift des Reskribendars (<bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 110, Tabelle 1, S. 469)</bibl>.</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/><persName role="computator" ref="per028082"><choice><abbr>W</abbr><expan>Wilhelmus</expan></choice> de Enckenvoirt</persName><note>Unterschrift des Komputators (<bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 110, Tabelle 1, S. 469</bibl>).</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="left plica"><lb/>Posui in <choice><abbr>cpi<hi rend="sup">a</hi></abbr><expan>copia</expan></choice> ad <choice><abbr>v</abbr><expan>quinternum</expan></choice><note>Vermerk des Auskultators über die Eintragung in ein Kanzleiheft, freundlicher Hinweis von Prof. Dr. Ludwig Schmugge.</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="right plica"><lb/><persName role="scriptor" ref="per028080"><choice><abbr>P</abbr><expan>Petrus</expan></choice> Delius</persName><note>Unterschrift des Schreibers (<bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 426, Nr. 1877</bibl>).</note></ab>
+</div>
+<pb n="v" facs="StAZH_C_II_16__Nr__546__v_.tif
+"/>
+<div>
+<ab type="chancery notation" place="verso above left"><lb/><persName role="protonotarius" ref="per027861"><choice><abbr>N</abbr><expan>Nicolaus</expan></choice> Lipomanus</persName> protonotarius<note>Unterschrift des Protonotars (<bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 146, S. 415, Nr. 1730</bibl>).</note>
+</ab>
+</div>
+<div>
+<ab type="chancery notation" place="verso above middle"><lb/><persName role="audentiaprocurator" ref="per028079"><abbr>A</abbr> de Cianis</persName><note>Unterschrift des Audientiaprokurators, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 147</bibl>.</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="verso above right"><lb/><persName role="procurator" ref="per027862"><choice><abbr>D</abbr><expan>Dominicus</expan></choice> Scaputius</persName><note>Unterschrift des Prokurators (<bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 318, Nr. 605</bibl>). Freundlicher Hinweis von Prof. Dr. Ludwig Schmugge.</note></ab>
+</div>
+<div>
+<ab type="chancery notation" place="verso bottom middle"><lb/><persName role="corrector" ref="per015916"><choice><abbr>F</abbr><expan>Franciscus</expan></choice></persName>
+<choice><abbr>cor</abbr><expan>corrector</expan></choice><note>Korrektorenvermerk des <persName ref="per015916">Franciscus de Parma</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frenz 1986</ref>, S. 148-149, S. 332, Nr. 757</bibl>.</note></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Der <orgName ref="org007864">Schwesternkonvent in <placeName ref="loc000849">Winterthur</placeName></orgName> unterstand der geistlichen Aufsicht des <orgName ref="org002666">Dominikanerklosters in <placeName ref="loc000065">Zürich</placeName></orgName> und der weltlichen Aufsicht des <orgName ref="org007943">Schultheissen und Rats</orgName>, die einen <orig>pfleger</orig> als Verwalter einsetzten, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_010">SSRQ ZH NF I/2/1, Nr. 10</ref></bibl>. Um 1500 kam es zu Auseinandersetzungen zwischen den Schwestern und der städtischen Obrigkeit, die ihren Einfluss auf die klösterliche Frauengemeinschaft verstärken wollte. Die Schwestern sollten keine Mitsprache bei der Einsetzung des Verwalters haben, darüber hinaus sahen sie sich mit Verdächtigungen konfrontiert, <orig>des ingangs halb, den ir gantz unzimlich und unordenlich gehalten werden vermeinend <gap reason="irrelevant"/> mit fil schmechlicher wortten, die ir unß zuͦ geleit und beser vermitten denn geredt werend</orig>, wie sie in einer Rechtfertigungsschrift gegenüber dem <orgName ref="org007943">Schultheissen und Rat</orgName> darlegten (<bibl>STAW AM 193/2</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, Beilage 6, S. 97-98</bibl>). Das päpstliche Privileg diente dazu, ihre Position zu festigen. Zu dem Konflikt, der auch in den folgenden Jahren andauerte und beinahe zur Verlegung des <orgName ref="org007864">Konvents</orgName> nach <placeName ref="loc011173">Flaach</placeName> führte, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1010-1011</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1906</ref>, S. 15-20</bibl>.</p>
+<p>Ihrem Anspruch auf grössere Eigenständigkeit entsprach die Eingabe der Schwestern bei dem Bischof von <placeName ref="loc000923">Konstanz</placeName>, vor Ort eine Begräbnisstätte einrichten zu dürfen, statt wie bisher ihre Toten im <orgName ref="org002665">Kloster <placeName ref="loc000980">Töss</placeName></orgName> zu bestatten. Dies wurde ihnen am 14. September 1518 erlaubt (<bibl>EAF Ha 322, fol. 150r-151r</bibl>). 1523 wurde die <orgName ref="org007864">Sammlung</orgName> im Zuge der Reformation aufgelöst. Die Frauen erhielten ihr eingebrachtes Vermögen zurück und das Konventsgebäude wurde entsprechend dem Wunsch der Stifterfamilie dem <orgName ref="org007934">Spital</orgName> übergeben, wie der zeitgenössische Chronist <persName ref="per027172">Laurenz Bosshart</persName> berichtet (<bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 95, 325-326</bibl>). Wie aus den Quittungen über die Rückgabe der Güter aus den Jahren 1524 und 1525 ersichtlich, hatten damals bereits mehrere Frauen Ehen geschlossen (<bibl>STAW URK 2134</bibl>). Das Archiv der religiösen Gemeinschaft ging mit Ausnahme einiger Urkunden und Rödel, die heute im Staatsarchiv Zürich liegen, wie das vorliegende Dokument, in den Besitz der Stadt <placeName ref="loc000849">Winterthur</placeName> über, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1014</bibl>. Zur Aufhebung des <placeName ref="loc000849">Winterthurer</placeName>
+<orgName ref="org007864">Frauenkonvents</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_241">SSRQ ZH NF I/2/1, Nr. 241</ref></bibl> sowie <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1011</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1906</ref>, S. 22-23</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_168</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/6, S. 7 (Eintrag 1) </idno></msIdentifier><head>Einsetzung des Heinrich Petenhuser als Spitalmeister der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur setzen Heinrich Petenhuser für drei Jahre als Spitalmeister ein. Er erhält jährlich 5 Gulden Lohn sowie Bekleidung und Schuhe für sich und seine Frau. Beide erhalten lebenslanges Wohnrecht in eigenen Räumlichkeiten im Spital. Das Heizmaterial wird ihnen gestellt, als Pfründner sollen sie weiterhin am Tisch der Pfründner und Meister verpflegt werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1497-01-25"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="7"/>
+<div><ab type="marginal note" place="left margin"><lb/><persName ref="per027563">Heini
+<lb/>Peten<lb break="no"/>huser</persName> im
+<lb/><orgName ref="org007934">spital</orgName></ab>
+</div>
+<p><origDate when="1497-01-25"><lb/>Actum mitwochen nach
+ <lb/><persName ref="per000267">Agnetis</persName>, anno <abbr>etc</abbr> lxxxx vij<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><seg>Item mine herren habend sich mit <persName ref="per027563">Heini Petenhuser</persName> im <orgName ref="org007934">spital</orgName>
+<lb/>vertrāgen also, das er <date dur="P3Y">dru̍ jār</date>, die naͤchsten, das spitalmeister
+<lb/>ampt versaͤhen sol nach sinem besten vermu̍gen und nach
+<lb/>des spitals nutz. Dargēgen sol im <date dur="R/P1Y">jedes jār</date> zuͦ siner beloͤnung
+ <lb/>volgan <measure type="currency" unit="fl" quantity="5">v </measure>, dartzuͦ im ein grāwen rock, ein par hosen
+<lb/>und ein wamsel und ouch im und siner frōwen schuͦch
+<lb/>zuͦ ir noturft, desglichen der frōwen und im hembter.</seg>
+<seg>Item
+<lb/>mer habend mine herren inen beiden zuͦgesagt, sy mit einem
+<lb/><del><unclear>jeg</unclear></del> eigen gemecht<!-- laut Idiotikon 4, 69, auch Stockwerk (Gemach) --> an stuben und kammer zuͦ versaͤhen also,
+<lb/>wann der gemelt <persName ref="per027563">Heini</persName> nitmer spitalmeister ist, alsdann soͤllen
+ <lb/>er und die genannt sin husfrōw die zit ir beider leben lang
+<lb/>in soͤlchen eigen stuben und kammer, wie inen das gebuwen
+<lb/>wirt, einig beliben und dar ine mit holtz, stuben ze heitzen,
+<lb/>versaͤhen und daruß ir leben lang nit geendert werden,
+<lb/>sonder geruͤwig dar in beliben. Doch soͤllen sy ir pfruͦnd
+<lb/>mit essen und trincken an der ander pfruͤndner und meisters
+ <lb/>tisch fu̍ro, wie bitzhar, nutzen und niessen.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der Spitalmeister war für den wirtschaftlichen Betrieb der Einrichtung und die Beaufsichtigung der Insassen verantwortlich. Grössere Baumassnahmen, Erwerbungen und Veräusserungen bedurften der Zustimmung der Spitalpfleger als Aufsichtsorgan (Eidformel: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_183">SSRQ ZH NF I/2/1, Nr. 183</ref></bibl>) oder des <orgName ref="org007943">Schultheissen und Rats</orgName>. Über die Einnahmen und Ausgaben mussten die Spitalmeister Rechnung legen. Oftmals wurden sie aus den Reihen der Pfründner rekrutiert, wobei auch die Ehefrauen Aufgaben übernahmen, etwa den Hausrat und die Lebensmittelvorräte des <orgName ref="org007934">Spitals</orgName> zu verwalten (<bibl>STAW B 2/3, S. 366</bibl>; <bibl>STAW AA 4/3, fol. 457r-v</bibl>; <bibl>STAW AC 24/1/19</bibl>; <bibl>STAW AC 24/1/20</bibl>; <bibl>STAW AC 24/1/25</bibl>). Vgl. zu den Verhältnissen in Winterthur <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1912</ref>, S. 97-101, 146-147</bibl>, und allgemein <bibl><ref target="/startseite/literaturverzeichnis">Reicke 1932</ref>, 2. Teil, S. 95-116</bibl>.</p>
+<p>Der Spitalmeister hatte dafür zu sorgen, dass die den Pfründnern vertraglich zugesagten Leistungen eingehalten wurden. Gemäss einer Verordnung von 1481 sollten diese etwaige Forderungen zunächst an den Spitalmeister richten, würde er nichts unternehmen, sollten sie die Pfleger beiziehen. Wollten sich auch diese nicht der Angelegenheit annehmen, konnte man sich an den <orgName ref="org007943">Schultheissen und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> wenden (<bibl>STAW B 2/3, S. 474</bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

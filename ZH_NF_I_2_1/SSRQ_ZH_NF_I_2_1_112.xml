@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_112</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/3, S. 427 (Eintrag 1)</idno></msIdentifier><head>Kompetenzabgrenzung zwischen Rat und Gericht der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur beschliessen, dass Fertigungen von Zinsgeschäften, Darlehen oder Käufen und Konflikte um Erb und Eigen nicht mehr vor dem Rat, sondern nur noch vor dem Gericht durchgeführt und ausgetragen werden sollen. Der Rat soll nur noch über Fälle urteilen, die durch Gerichtsurteil an ihn verwiesen werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Georg Bappus</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1480-02-28"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003931">Fertigung</term><term ref="key001030">Erbstreit</term><term ref="key003383">Instanzenzug</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="427"/>
+<head><lb/>Von des gerichtz wegen</head>
+<p>
+<seg><lb/>Min herren habent sich vereint umb besser ruͤw willen,
+<lb/>wann doch soͤlichs auch von alter herkomen ist, das sy
+<lb/>nit mer wollen haben, das kein sach vor <orgName ref="org005587">rǎt</orgName> umb zinß,
+<lb/>schulden, kouffen und verkouffen aller verttgungen halb
+<lb/>ussgericht ald fu̍r genomen sol werden, des glich, ob
+<lb/>einer dem andern umb erb und eigen woͤlt ansprechen, sol
+<lb/>ouch <subst><del>fu̍r</del><add place="above">vor</add></subst> gericht fu̍rgenomen werden. Was dann fu̍r <orgName ref="org005587">rǎt</orgName>
+<lb/>mit <choice><abbr>urt</abbr><expan>urteil</expan></choice> gewist <unclear>wirt</unclear>, darumb wellen min herren sprechen
+<lb/>und sunst nicht. Und haben soͤlichs zehalten krefftiklich
+<lb/>fu̍r sich genomen on abgang.</seg>
+<seg>Actum an <origDate when="1480-02-28">mentag
+<lb/>nach reminiscere, anno <abbr>etc</abbr> lxxx<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Wie strikt die Kompetenzabgrenzung zwischen <orgName ref="org005587">Rat</orgName> und städtischem Gericht in <placeName ref="loc000849">Winterthur</placeName> eingehalten wurde, muss offen bleiben. Gemäss der Rechtsaufzeichnung von 1497 mussten Handänderungen vor dem <orgName ref="org005587">Rat</orgName> oder dem Gericht erfolgen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_170">SSRQ ZH NF I/2/1, Nr. 170</ref>, Teil III, Artikel 2.10</bibl>). Diesen Grundsatz bestätigten die Stadtschreiberordnung von 1520 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref>, Artikel 9</bibl>) und die Betreibungsordnung von 1530 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_257">SSRQ ZH NF I/2/1, Nr. 257</ref>, Artikel 10</bibl>). Darüber hinaus fungierte der <orgName ref="org005587">Rat</orgName> als Appellationsinstanz des Gerichts (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_037">SSRQ ZH NF I/2/1, Nr. 37</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

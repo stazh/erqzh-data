@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_002_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4224049">StAZH C II 13, Nr. 29.1</idno></msIdentifier><head>Verkauf eines Ackers an das Kloster Töss durch die Stadt Winterthur</head><msContents><summary>Der Schultheiss und die Bürgerschaft von Winterthur haben der Priorin und dem Konvent des Klosters Töss einen Acker bei der Tössbrücke, ein Eigengut ohne Zinslasten, verkauft. Zur Bestätigung des Kaufgeschäfts haben sie den Vertrag in Gegenwart des Stadtherrn Graf Hartmann von Kyburg öffentlich verkündet. Er hat den Acker den Käuferinnen übertragen. Als Zeugen fungierten Schultheiss Rudolf, Volmar Gluro, E., der Bruder des verstorbenen Schultheissen, Ber Zweiherr, C. Gulzi, H. Goltweber, H. Rösti und Werner, Sohn des Wetzel. Es siegeln Graf Hartmann von Kyburg und die Gemeinde von Winterthur.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="10.5"/><width unit="cm" quantity="16.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="1.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Graf Hartmann von Kyburg</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="peltade" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><orgName role="sigillant">Gemeinde Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1253-04-21"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH, Bd. 2, Nr. 859</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003931">Fertigung</term><term ref="key000369">Kauf</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_13__Nr__29_1__r_.tif"/>
+<p>
+<seg><lb/>Universis christifidelibus presentes litteras inspecturis <orgName role="issuer" ref="org007943"><persName ref="per026852"><choice><abbr>R</abbr><expan>Rudolfus</expan></choice></persName><note>Vgl. das Verzeichnis der Schultheissen bei <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 84</bibl>.</note>, scultetus, et universitas burgensium de <placeName ref="loc000849">Winterture</placeName></orgName> salutem
+<lb/>et noticiam subscriptorum.</seg>
+<seg>Quoniam ea, que fiunt cottidie, a memoria hominum de facili dilabuntur, antiquorum prioritas hoc
+<lb/>invenit, ut facta, que ab hominibus geruntur utiliter, ne a noticia excidant futurorum, litteris commendentur.</seg>
+<seg>Notum sit igitur
+<lb/>omnibus tam presentibus quam futuris, quod nos de communi consilio et consensu agrum, situm iuxta pontem lapideum fluvii, qui
+<lb/>vocatur <placeName ref="loc000783">Tozze</placeName>, ad nos titulo proprietatis pertinentem, vendidimus .. <orgName ref="org002665">priorisse et sororibus monasterii sancte <persName ref="per000169">Marie</persName> in Tozze<lb break="no"/>brugge</orgName><note>Das 1233 gegründete <orgName ref="org002665">Frauenkloster <placeName ref="loc010810">Töss</placeName></orgName> lag an der <placeName ref="loc013752">Tössbrücke</placeName> nahe der Stadt <placeName ref="loc000849">Winterthur</placeName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Eugster 2015</ref>, S. 34-35</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 902</bibl>.</note> pro quadam summa peccunie perpetuo possidendum libere et absque omni onere censuali. Predictam siquidem vendi<lb break="no"/>tionem stabilire volentes et omnimodis confirmare, predictum contractum in presentia illustris domini nostri <persName ref="per000014"><choice><abbr>H</abbr><expan>Hartmanni</expan></choice> comitis senioris
+<lb/>de Kyburgh</persName> sumus publice protestati, qui iamdictis sororibus <choice><sic>eumdem</sic><corr>eundem</corr></choice> agrum manu sua pleno iure tradidit possidendum.</seg>
+<seg><lb/>Acta sunt hec in civitate <origPlace ref="loc000849">Winterture</origPlace>, anno domini <origDate when="1253-04-21">m<hi rend="sup">o</hi> cc<hi rend="sup">o</hi> liii<hi rend="sup">o</hi>, feria secunda in ebdomada pasche</origDate>.</seg>
+<seg>Testes autem, qui huic
+<lb/>contractui interfuerunt, sunt hii: <persName role="testis" ref="per026852"><choice><abbr>R</abbr><expan>Rudolfus</expan></choice></persName>, scultetus, <persName role="testis" ref="per026846">Volmarus dictus Gluro</persName>, <persName role="testis" ref="per026850"><abbr>E</abbr></persName>, frater quondam sculteti, <persName role="testis" ref="per026855"><abbr>Ber</abbr> dictus Zwiherre</persName>, <persName role="testis" ref="per026848"><abbr>C</abbr> Gulzi</persName>,
+<lb/><persName role="testis" ref="per026847"><abbr>H</abbr> Goltweber</persName>, <persName role="testis" ref="per026851"><abbr>H</abbr> Roͧsti</persName>, <persName role="testis" ref="per026853">Wernherus</persName>, filius <persName ref="per026854">Wezilonis</persName>.</seg>
+<seg>Ut autem hec vendicio non possit in posterum ab aliquo cavillari,
+<lb/>predicits sororibus presentem cartulam sigillo domini nostri <persName role="sigillant" ref="per000014"><choice><abbr>H</abbr><expan>Hartmanni</expan></choice> comitis de Kyburg</persName> et nostre communitatis dedimus consignatam.</seg>
+</p>
+<pb n="v" facs="StAZH_C_II_13__Nr__29_1__v_2.tif"/>
+</div>
+</body>
+<back>
+<div>
+<p>Die Entwicklung <placeName ref="loc000849">Winterthurs</placeName> unter der Herrschaft der <orgName ref="org000010">Grafen von Kyburg</orgName> von der Siedlung zur Stadt lässt sich vor allem anhand archäologischer Befunde nachvollziehen. Im Jahr 1180 erlangte Graf <persName ref="per026808">Hartmann III.</persName> die Bestätigung der pfarrkirchlichen Funktion der dortigen <orig>capella</orig> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_001">SSRQ ZH NF I/2/1, Nr. 1</ref></bibl>). In jener Zeit wurde die erste Befestigung, vermutlich in Form eines Grabens mit einem Wall, errichtet, ein Stadtbachsystem angelegt und die Bautätigkeit erheblich ausgeweitet. Kaufleute und Handwerker hatten sich niedergelassen, die Oberschicht wohnte in repräsentativen Steinhäusern, vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 58-63</bibl>.</p>
+<p>In den ersten Jahrzehnten des 13. Jahrhunderts bildeten sich städtische Verwaltungsstrukturen heraus. In einer Urkunde des Grafen <persName ref="per000014">Hartmann IV.</persName> aus dem Jahr 1230 wird erstmals ein Schultheiss von <placeName ref="loc000849">Winterthur</placeName> erwähnt (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 1, Nr. 459</bibl>). 1252 bestätigten der Schultheiss und die Bürger von <placeName ref="loc000849">Winterthur</placeName> an der Seite des Grafen ein Kaufgeschäft mit einem eigenen Siegel (<bibl>StAZH C II 4, Nr. 61</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 838</bibl>). Bald danach setzen die ersten Belege für die Existenz eines <orgName ref="org005587">Rats</orgName> ein. Nur mehr als Abschrift in einem <placeName ref="loc000065">Zürcher</placeName> Kopialbuch (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=254294">StAZH B III 2</ref></bibl>) überliefert ist eine Vereinbarung aus dem Jahr 1254 zwischen dem <orgName ref="org005587">Rat</orgName> und den Bürgern von <placeName ref="loc000065">Zürich</placeName> und dem <orgName ref="org005587">Rat</orgName> und den Bürgern von <placeName ref="loc000849">Winterthur</placeName> über die wechselseitige Zulassung der Bürger als Zeugen vor Gericht und den Verzicht auf Schuldpfändung (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 901</bibl>). 1263 übertrugen der <orgName ref="org007943">Schultheiss und die Räte (<orig>consules</orig>)</orgName> durch die Hand ihres Herrn Graf <persName ref="per000014">Hartmann IV.</persName> einen Acker an eine Pfründe des <orgName ref="org007820">Chorherrenstifts <placeName ref="loc013010">Heiligberg</placeName></orgName> und erhielten dafür das Nutzungsrecht an einem Steinbruch (<bibl>STAW URK 4</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 3, Nr. 1213</bibl>). Zu diesen Entwicklungen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 63-64</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1964a</ref>, S. 42-43</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

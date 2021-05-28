@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_076</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2a/1, Teil II, S. 23-24</idno></msIdentifier><head>Fleischverordnung der Stadt Winterthur</head><msContents><summary>Nach einer Viehseuche sind zwei Monate abzuwarten, bevor man Fleisch von Tieren kaufen darf, die auf benachbarten Weiden standen. Man soll weder Vieh, das eine Hirnkrankheit hat, noch Stiere vor dem 24. August schlachten. Schlachtkälber dürfen nicht jünger als drei Wochen sein. Der Verkauf von Vieh mit gebrochenen Beinen soll nicht im Schlachthaus, sondern unter den Toren erfolgen. Mit Finnen befallenes Fleisch und Fleisch von Mutterschweinen soll man nicht auf den Metzgerbänken verkaufen. An Samstagen soll man das geschlachtete Vieh nicht weiter zerteilen als in Viertel und vor Mittag nicht verkaufen. Man soll nur taxiertes Fleisch verkaufen. Was geprüft ist, soll man verkaufen und nicht selbst einsalzen. Fleisch, das nicht verkehrsfähig ist, darf nicht verkauft werden. Man soll Fleisch nicht teurer verkaufen, als der Schätzwert besagt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="10.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1446-06-11">Der vorige Eintrag datiert auf den 11. Juni 1446 (Samstag vor Fronleichnam).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000346">Fleisch</term><term ref="key005405">Konsumentenschutz</term><term ref="key000764">Preise</term><term ref="key005445">Tierseuchen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="23"/>
+<p>
+<lb/>Item dehein fleischß ze <choice><abbr>k</abbr><expan>koffen</expan></choice>, da der sterbet
+<lb/><choice><sic>ist <add place="above">des vehs ist</add></sic><corr>des vehs ist</corr></choice>, da die weiden zuͦ samen stoßent,
+<lb/>da daz vaͤch zuͦ samen gaut,
+<lb/><del>und</del> die wil und der gebraͤst waͤret
+<lb/>und <date dur="P2M">zwen manot</date> dar nach.<note><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> trafen auch aktiv Massnahmen zur Eindämmung von Tierseuchen. So verboten sie 1482, <orig>bresthafftige roß mit dem wurm oder sunst ander mercklicher gepresten</orig> an den Brunnen zu tränken, und ordneten Stallpflicht für kranke Pferde an, von denen eine Ansteckungsgefahr ausging (<bibl>STAW B 2/3, S. 494</bibl>).</note>
+</p>
+<p>
+<lb/>Item si sont dehein sturm<!-- verrückt, der Sinne nicht mächtig --> oder
+<lb/>hirnwütig vaͤch nit metzgen,
+<lb/>noch dehein pfaren vor <date type="deadline_holiday" when="--08-24">sant <persName ref="per000861"><choice><abbr>Bartlom</abbr><expan>Bartholomei</expan></choice></persName>
+<lb/>tag</date>.
+ </p>
+<p>
+<lb/>Item dehein kalb koffen noch
+<lb/>metzgen, es sye denn <measure type="age" unit="week" quantity="3">dry wochen</measure>
+<lb/>alt oder elter.
+ </p>
+<p>
+<lb/>Item si sont oͧch dehein beynnbrüchel
+<lb/>in der metzt <add place="above">nit</add> verkoffen denn under
+<lb/>den toren, alz daz von alter her
+<lb/>komen ist.
+ </p>
+<p>
+<lb/>Item <subst><del>von</del><add place="above">um</add></subst>
+<unclear>pfinngs</unclear> fleischs und losen<!-- Mutterschwein -->,
+<lb/>wenn si hant, daz sont <del>si metzgen
+<lb/>nit uff den metzgen benken, sunnder
+<lb/><unclear>dar</unclear> naͤ</del>
+<pb n="24"/>
+<lb/>si ußstellen <del>und <unclear>sol</unclear></del> in den
+<lb/>bach <del>und</del>
+<add place="above">und neben <del>d</del> den <unclear>banck</unclear>
+<del>alz</del></add> daz <choice><abbr>vk</abbr><expan>verkoffen</expan></choice>, alz daz von alter
+<lb/>herkomen ist.<!-- Vgl. HU (ed. QZWG I, Nr. 79): Bäcker verkaufen gegen 10 Schilling Konzession ihr Brot entlang des Bachs, der durch Winterthur führt, sowie gegen 6 Schilling Konzession in den Gassen oder Vorstädten -->
+</p>
+<p>
+<lb/>Item am <date period="P7WD">samstag</date> sont si daz fleisch
+<lb/>nit höwen <add place="above">witer denn an lid<!-- Idiotikon III, Sp. 1087: Stück Fleisch, Viertel eines geschlachteten Tiers --></add> noch <choice><abbr>vk</abbr><expan>verkoffen</expan></choice>
+<time notAfter="12:00:00">vor mitem
+<lb/>tag</time> und dehein fleisch niemer
+<lb/><choice><abbr>vk</abbr><expan>verkoffen</expan></choice>, es sie inen denn geschaͤtzt.
+<lb/>Und waz <del>einem</del> inen geschaͤtzt wirt,
+<lb/>daz sont si oͧch verkoͧffen, daz si es
+<lb/>selbs nit saltzen sont.
+ </p>
+<p>
+<lb/>Item waz oͧch inen in der schatzung
+<lb/><del><unclear>et</unclear></del> hingetan wurde, daz des markts
+<lb/>nit wirdig ist, daz sont si oͧch
+<lb/><choice><abbr>dannenh</abbr><expan>dannenhin</expan></choice> nieman geben ze <choice><abbr>k</abbr><expan>koffen</expan></choice>,
+<lb/>waͤder in der metzg noch daheim.
+ </p>
+<p>
+<lb/>Item si sont och dehein fleisch nit
+<lb/>türer geben, denn es inen geschetzt
+<lb/>wirt.<note>Die Preise wurden in der Metzgerordnung festgelegt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_270">SSRQ ZH NF I/2/1, Nr. 270</ref></bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Im Rahmen der Marktaufsicht erliess die städtische Obrigkeit Vorschriften zur Gewährleistung der Lebensmittelsicherheit. Sie definierte Qualitätsstandards, bestrafte Verstösse (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_157">SSRQ ZH NF I/2/1, Nr. 157</ref></bibl>) und zog verdorbene Ware aus dem Verkehr (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_263">SSRQ ZH NF I/2/1, Nr. 263</ref></bibl>), sie setzte Preis und Gewicht für Grundnahrungsmittel fest (für Fleisch: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_270">SSRQ ZH NF I/2/1, Nr. 270</ref></bibl>; für Brot: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_259">SSRQ ZH NF I/2/1, Nr. 259</ref></bibl>) und führte Kontrollen durch (Eid der Fleischschätzer: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_186">SSRQ ZH NF I/2/1, Nr. 186</ref></bibl>; Eid der Brotbeschauer: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_185">SSRQ ZH NF I/2/1, Nr. 185</ref></bibl>; Eid der Kornmesser: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_191">SSRQ ZH NF I/2/1, Nr. 191</ref></bibl>). Mastschweine und für die Zucht bestimmte Schweine (<orig>fassell schwynn</orig>) wurden vor dem Verkauf durch die <orig>süw schauwer</orig> begutachtet und insbesondere auf <orig>pfynen uff der zungen</orig> hin untersucht (Eidformel des Schweinebeschauers: <bibl>STAW AA 4/3, fol. 452r</bibl>; <bibl>winbib Ms. Fol. 241, fol. 30v</bibl>).</p>
+<p>Die Metzger durften nur gesunde Tiere ins Schlachthaus bringen und unbeanstandetes Fleisch auf den Verkaufsständen, den sogenannten Bänken, anbieten, so dass niemand unwissentlich minderwertiges oder infektiöses Fleisch kaufte. Wurde zu Beginn des 15. Jahrhunderts noch die <orig>obre metzi</orig> und die <orig>nidre metzi</orig> voneinander unterschieden, wie aus dem <placeName ref="loc000849">Winterthurer</placeName> Ämterverzeichnis des Jahres 1405 hervorgeht (<bibl>STAW B 2/1, fol. 5v</bibl>)<!-- bzw. 1417 der Fleischbeschauer am "nidermarkt" und am "obern markt" (STAW B 2/1, fol. 57r) -->, wird später nur mehr ein Schlachthaus erwähnt, in welchem nach der Mittelmesse, die um 6 Uhr morgens begann<!-- Bosshart, Chronik, S. 327 -->, die Fleischbeschau erfolgen sollte, wie der <orgName ref="org005587">Rat</orgName> im Jahr 1480 festlegte (<bibl>STAW B 2/3, S. 440</bibl>). Die Metzger zahlten wie die Bäcker und Wirte für die Ausübung ihres Gewerbes einen Zins zuhanden der Stadtherrschaft oder desjenigen, dem die Einkünfte verpfändet waren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_004">SSRQ ZH NF I/2/1, Nr. 4</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250544">StAZH C I, Nr. 1967 b</ref></bibl>; <bibl>STAW URK 2154</bibl>).</p>
+<p>Zum Metzgerhandwerk im Mittelalter allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/013993/2010-11-11/">Metzgerei</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">LexMA</ref>, Bd. 4, Fleisch, Fleischer, Sp. 541-544</bibl>; zu den Metzgern in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rozycki 1946</ref>, S. 37-42</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

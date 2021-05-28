@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_059</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 80v (Eintrag 3)</idno></msIdentifier><head>Selbstverpflichtung eines Pfründners des Winterthurer Spitals, keine ausserehelichen Beziehungen einzugehen</head><msContents><summary>Konrad Hoppler und seine Frau haben eine Pfrund im Spital der Stadt Winterthur erworben. Da Hoppler Affären mit anderen Frauen, insbesondere mit Else Schach, nachgesagt werden, hat er sich verpflichtet, künftig keine ausserehelichen Beziehungen einzugehen. Sollten Schultheiss und Rat erfahren, dass er sich nicht daran halte, droht ihm der Entzug der Pfrund ohne Entschädigung, jedoch ohne Nachteile für seine Frau.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1431-01-17"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000116">Altersversorgung</term><term ref="key000611">Ehebruch</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="80v"/>
+<p><seg>
+<lb/>Item alz <persName ref="per026908">Cuͤni Hoppler</persName> sich verpfruͤndt haͧt mit sinem
+<lb/>wib in u̍nsern <orgName ref="org007934">spitaͧl</orgName>, da haͧt er sich begeben vor
+<lb/>einem offen <orgName ref="org005587">raͧt</orgName>, alz er vormaͧls lang zit in red
+<lb/>gestanden sye, wie daz er unbillichen gewaͤrb und unfuͦc
+<lb/>mit andern froͤwen denn mit sinem elichen wib, mit <persName ref="per027716">Elßen<!-- an PS: soll die nach links verlängerte untere Schlaufe evtl. eine Abkürzung (für -en) bedeuten? PS: Ja. -->
+<lb/>Schachinen</persName>, getriben hab, daz nit zimlich und grosser
+<lb/>schad und su̍nd dar an g<damage agent="ink blot"><supplied>an</supplied></damage>gen sye, daz er da dieselben
+<lb/>sach hin fu̍r myden und daz nit me tuͤn welle. Waͤre aber,
+<lb/>daz er daz nit taͤte und keinen soͤlichen unbillichen gewaͤrb
+<lb/>ald geschaͤfft mit derselben <persName ref="per027716">Schachinen</persName> ald mit andern wiben
+<lb/>fuͤrte und sich daz <choice><abbr>merk</abbr><expan>merklich</expan></choice> funde, daz einen <orgName ref="org007943"><choice><abbr>schult</abbr><expan>schultheiss</expan></choice> und raͧt</orgName>
+<lb/>des benuͤgti und bedunkte, daz er daz u̍ber faren hette,
+<lb/>daz er denn ze stett aͧn fu̍rwortt von der pfruͤnd, die er koͧfft
+<lb/>haͧt, gantzlich sin und daz im der <orgName ref="org007934">spitaͧl</orgName> umb daz gelt, so er dar
+<lb/>umb geben haͧt, nicht ze antwurten haben soͤlle, doch sinem
+<lb/>wib an ir pfruͤnd unschaͤdlich.</seg>
+<seg>Actum <origDate when="1431-01-17">quarta feria post
+ <lb/><persName ref="per001805">Hylary</persName>, anno xxxj<hi rend="sup"><choice><sic>co</sic><corr>mo</corr></choice></hi></origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Sexuelle Kontakte ausserhalb der Ehe waren lediglich im Bordell toleriert, das unter Aufsicht des sogenannten Frauenwirts stand (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_116">SSRQ ZH NF I/2/1, Nr. 116</ref></bibl>). Gesellige Zusammenkünfte von jungen Männern und Frauen zu später Stunde versuchte man zu unterbinden, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_137">SSRQ ZH NF I/2/1, Nr. 137</ref></bibl>. Eine Verordnung aus dem Jahr 1527 verpflichtete Ehebrecher, einem Mädchen für den Verlust der Jungfräulichkeit (<orig>bluͦmen</orig>) 5 Schilling oder ein Paar Schuhe zu geben und 10 Gulden Bussgeld zuhanden der Obrigkeit zu zahlen (<bibl>STAW B 2/8, S. 101</bibl>). Da bisher <orig>dhein sonder ordnung und satzung</orig> aufgestellt worden war und sich derartige Zwischenfälle in letzter Zeit gehäuft hatten, legten <orgName ref="org007943">Schultheiss und Rat</orgName> im Jahr 1574 fest, dass ledige junge Männer, die ein Mädchen verführten und nicht heiraten wollten, drei Tage und Nächte inhaftiert und mit einer Busse von 10 Pfund belegt werden sollten (<bibl>STAW B 2/8, S. 339</bibl>).</p>
+<p>Neben diesen allgemeinen Verordnungen regelten Hausordnungen das Verhalten der Bewohnerinnen und Bewohner städtischer Versorgungseinrichtungen. Im <orgName ref="org007453"><placeName ref="loc000849">Winterthurer</placeName> Siechenhaus</orgName> durften nur Männer und Frauen in einem Bett schlafen, die miteinander verheiratet waren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_095">SSRQ ZH NF I/2/1, Nr. 95</ref>, Artikel 4</bibl>). Verdächtige Paare büssten ihre Wochenration ein, wenn sie ohne Begleitung beisammen waren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_244">SSRQ ZH NF I/2/1, Nr. 244</ref>, Artikel 3.7</bibl>). Eine entsprechende Hausordnung für das <orgName ref="org007934"><placeName ref="loc000849">Winterthurer</placeName> Spital</orgName> ist nicht überliefert.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_062_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 713</idno></msIdentifier><head>Schirmmandat Kaiser Sigmunds zugunsten der Stadt Winterthur betreffend die Rechte am Wald Eschenberg und dem Bach Eulach</head><msContents><summary>König Sigmund fordert alle Untertanen des Reichs auf, den Schultheissen und Rat von Winterthur, die über die Beeinträchtigung ihrer Rechte geklagt hatten, nicht länger an der Nutzung des Waldes Eschenberg und des Baches Eulach zwischen Waltenstein und der Stadt zu behindern.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="26.0"/><width unit="cm" quantity="40.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="applied" nontei:condition="damaged"><persName role="sigillant">König Sigmund</persName></seal></sealDesc></physDesc><history><origin><origDate when="1433-11-05"/><origPlace>Basel</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>URStAZH, Bd. 6, Nr. 7625; RI XI/2, Nr. 9766</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000715">Gewässer</term><term ref="key000335">Nutzungsrecht</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Wir, <persName role="issuer" ref="per000712">Sigmund</persName>, von gotes genaden <placeName ref="loc000076">Roͤmischer</placeName> keyser, zuͤ allenziten merer des <orgName ref="org004134">reichs</orgName> und zuͤ <placeName ref="loc000798">Hungern</placeName>, zuͤ <placeName ref="loc006386">Behem</placeName>
+<abbr>etc</abbr> kuͤnig, embieten
+<lb/>allen und yglichen graven, freyen herren, rittern, knechten, vogten, amptluͤten, burgermeistern, schulthessen, ammannen, reten
+<lb/>und gemeynden aller und iglicher stett, merkt und dorffere und sust allen anderen unsern und des <orgName ref="org004134">reichs</orgName> undertanen und getruen, dem
+<lb/>diser brief geczaiget wirt, unser genad und alles guͤt.</seg>
+<seg>Edeln und lieben getruen, uns haben furbracht unsere und des <orgName ref="org004134">reichs</orgName> liebe getruen,
+<lb/>der <orgName ref="org007943">schulthess und rat der stat zuͤ <placeName ref="loc000849">Winterthuͤr</placeName></orgName>, wie sy offt in irem wald <placeName ref="loc013008">Aschenberg</placeName> beschedigt und an dem bach <placeName ref="loc013077">Ollach</placeName>, der bei derselben
+<lb/>statt abgaͧt, gehindert werden und in derselb bach offt abgegraben wirt, das der vorgenanten stat <placeName ref="loc000849">Wintertuͤr</placeName> grossen schaden und un<lb break="no"/>gemach brenge, wiewol sy den obgenanten wald und auch den bach von <placeName ref="loc013734">Waltenstal</placeName> biß an die stat von altersher also redlich herbracht
+<lb/>haben, als wir vernemen, das sy daran billich unbetrengt und unbeschedigt beliben solten. Darumb so gebieten wir euch allen und
+<lb/>ewͤr yglichem besunder von <placeName ref="loc000076">Romischer</placeName> keyserlicher macht und gewalt in krafft diss briefs, das ir die obgenanten von <placeName ref="loc000849">Winterteur</placeName> an solich<lb break="no"/>em wald und bach, alsferre sy die redlich herbracht, und an den rechten, die sy darzuͤ haben, unbeschedigt und ungeyrret und sy
+<lb/>der zuͤ irer und irer statt notdurfft ungehindert nuͤtzen und niessen lasset, als lieb euch unser und des <placeName ref="loc000672">reichs</placeName> swere ungnad zuͤvermeyden sey.</seg>
+<seg><lb/>Geben zuͤ <origPlace ref="loc000161">Basel</origPlace>, am <origDate when="1433-11-05">donerstag nach allerselen tag, unser riche des <placeName ref="loc000798">Hungrischen</placeName>
+<abbr>etc</abbr> im xlvij, des <placeName ref="loc000672">Romischen</placeName> im xxiiij, des
+<lb/><placeName ref="loc006386">Behemischen</placeName> im xiiij und des keysertumbs im ersten jaren</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="right plica"><lb/>Ad mandatum domini imperatoris <lb/><persName ref="per005139">Caspar Sligk</persName>, cancellarius<note>Zu <persName ref="per005139">Kaspar Schlick</persName>, Kanzler unter Kaiser <persName ref="per000712">Sigmund</persName> und seinen Nachfolgern <persName ref="per003282">Albrecht II.</persName> und <persName ref="per000794">Friedrich III.</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">NDB</ref>, Bd. 23, S. 77-78, <ref target="https://www.deutsche-biographie.de/pnd118795139.html#ndbcontent">Schlick, Kaspar</ref></bibl>.</note></ab>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/>Gebiet brieff umb den wald <lb/>und <placeName ref="loc013077">Oͤlach</placeName></ab>
+</div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Von kaißer <persName ref="per000712">Sigmund</persName>
+<lb/>der statt <placeName ref="loc000849">Winterthur</placeName> geben, <lb/>anno 1433 <add place="inline" hand="hand19c">5 November</add></ab></div>
+</body>
+<back>
+<div>
+<p>Die <placeName ref="loc013077">Eulach</placeName> war von grosser Bedeutung für die <placeName ref="loc000849">Winterthurer</placeName> Wirtschaft, da sie den Betrieb von Mühlen, Säge- und Hammerwerken sowie Schleifereien ermöglichte. Darüber hinaus wurde sie für die Fischerei genutzt und diente der Bewässerung. Unterschiedliche Nutzungsinteressen führten oft zu Konflikten unter den Anrainern, vgl. allgemein <bibl><ref target="/startseite/literaturverzeichnis">Petersen/Reitemeier 2017</ref></bibl>. Am 20. Dezember 1430 forderte König <persName ref="per000712">Sigmund</persName> die <orgName ref="org007943">Winterthurer</orgName> infolge der Klage des <orgName ref="org002665">Klosters <placeName ref="loc010810">Töss</placeName></orgName> auf, ihre Bürger zur Entfernung aller Vorrichtungen zu veranlassen, die den Wasserlauf zur Klostermühle behinderten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=394019">StAZH C II 13, Nr. 458</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 5, Nr. 7307</bibl>). Im Januar 1433 kam es zu einem gütlichen Vergleich (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_060">SSRQ ZH NF I/2/1, Nr. 60</ref></bibl>).</p>
+<p><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> liessen die vorliegende Urkunde am 4. November 1532 durch <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> des <orig>intrags wegen, so inen an gemeltem bach begegnote</orig>, vidimieren (<bibl>STAW URK 2270.1</bibl>). Bereits im Juli 1528 hatten sie sich auf ihre verbrieften Besitzrechte berufen, als ein Schiedsgericht unter dem Vorsitz des Landvogts von <placeName ref="loc000012">Kyburg</placeName> zwischen ihnen und den Anrainern der <placeName ref="loc013077">Eulach</placeName>, die für eigene Zwecke Wasser entnahmen, einen Kompromiss schloss (<bibl>STAW URK 2191</bibl>).</p>
+<p>Mit den Nutzungsrechten waren Instandhaltungspflichten verbunden. Die Mühlenbetreiber von <placeName ref="loc000849">Winterthur</placeName> hatten die regelmässige Begehung der <placeName ref="loc013077">Eulach</placeName> zu organisieren, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_201">SSRQ ZH NF I/2/1, Nr. 201</ref></bibl>. In städtischen Abrechnungen finden sich Einträge über Brückenarbeiten bei <placeName ref="loc013734">Waltenstein</placeName> und über Arbeiten an der <placeName ref="loc013077">Eulach</placeName> (<bibl>STAW Se 26.98, S. 15</bibl>; <bibl>STAW Se 26.99, S. 14-15</bibl>).</p>
+<p>Zum <placeName ref="loc013074">Eschenberger Wald</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_017">SSRQ ZH NF I/2/1, Nr. 17</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

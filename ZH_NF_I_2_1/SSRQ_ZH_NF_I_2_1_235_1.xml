@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_235_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 67r</idno></msIdentifier><head>Erläuterung des Zürcher Stadtschreibers betreffend den gerichtlichen Instanzenzug in Winterthur</head><msContents><summary>Gemäss Aufzeichnung des alten Stadtschreibers von Zürich gilt folgender Instanzenzug bei Gerichtsverfahren in Winterthur: Bei Beteiligung von stadtsässigen Winterthurer Bürgern verläuft der Instanzenzug bei Appellationen von dem Gericht zum Kleinen Rat und von dort zum Grossen Rat, keineswegs kann an die Zürcher appelliert werden. Bei Gerichtsverfahren mit Beteiligung von Zürcher Untertanen, die nicht in Winterthur wohnen, oder von Auswärtigen mit einem Streitwert von 50 Pfund verläuft der Instanzenzug bei Appellationen vom Gericht zum Kleinen Rat und von dort zum Grossen Rat und zuletzt nach Zürich. Bei Strafverfahren ist keine Appellation möglich.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1525-01-01" to="1525-12-31">Undatiert, die Einträge auf der folgenden Seite datieren von 1525.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000287">Appellation</term><term ref="key000057">Gericht</term><term ref="key003383">Instanzenzug</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="67r"/>
+<head>Wie wir appelieren soͤllen, ist vom <lb/>alten statschriber <placeName ref="loc000065">Zu̍rich</placeName> uff ein <lb/>bapiris briefflin geschriben, das selbig <lb/>lit im <sic>gwelbw</sic></head>
+<p>
+<lb/>Oͤb rechtvertung<!-- mit ü --> geschicht zuͦ <placeName ref="loc000849">Winterthur</placeName><!-- mit ü -->, umb was
+<lb/>sach das ist, zwischent burgeren<!-- mit ü -->, so iren sitz in der stat
+<lb/>haben, die selben moͤgen ir appelatz und zug<!-- mit ü --> vom gericht
+<lb/>in den <orgName ref="org005587">kleinen rat</orgName> und da danen für iren <orgName ref="org009293">grossen ratt</orgName>
+<lb/>tuͦn und nit witer, und also umb kein sach für unser heren
+<lb/>von <placeName ref="loc000065">Zu̍rich</placeName> nit appelieren.
+ </p>
+<p>
+<lb/>Beschicht aber rechtvertung<!-- mit ü über v und u --> von unseren heren von
+<lb/><placeName ref="loc000065">Zu̍rich</placeName> underthanen, ussert der statt <placeName ref="loc000849">Winterthur</placeName><!-- mit ü --> ge<lb break="no"/>ssessen, oder von einem gast gegen <sic>burgereren</sic><!-- mit ü --> obgenant
+<lb/>ald zwischent gesten, da die ansprach ist ob <measure type="currency" unit="lb" quantity="50">fu̍nfftzig pfunden</measure><!-- mit ü --><note>Die <orgName ref="org002406">Zürcher</orgName> hatten die Streitsumme von vornherein so hoch angesetzt, damit in Bagatellfällen keine unverhältnismässig hohen Kosten für die Beteiligten anfielen (<bibl>winbib Ms. Quart 102, fol. 40r-v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Geilfus 1870</ref>, S. 9</bibl>).</note>
+<lb/>hoch, das sig umb waß sach das welle, wirt da jem<lb break="no"/>ant mit urtall beschwert, der mag das appelieren oder
+<lb/>züchen vom gericht in den <orgName ref="org005587">kleinen rat</orgName>, da danenn
+<lb/>für den <orgName ref="org009293">grossen rat</orgName> und darnach am letsten für unser
+<lb/>heren von <placeName ref="loc000065">Zu̍rich</placeName> alls die oberhand.
+</p>
+<p>
+<lb/>Ußgenomen, was das mallefitz beru̍ert, ouch<!-- mit ü --> umb fra<lb break="no"/>effell und buͦssen, darumb<!-- mit ü --> soll kein appelatz geschehen.<note>Diesen Standpunkt vertraten die <orgName ref="org007943">Winterthurer</orgName> denn auch gegenüber <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=678305">StAZH A 155.1, Nr. 69</ref></bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Bereits im Jahr 1506 hatten die <orgName ref="org007943">Winterthurer</orgName> die <orgName ref="org002406">Zürcher</orgName> gebeten, Appellationen gegen Urteilssprüche zurückzuweisen, die vor ihrem Gericht ergangen waren. Vermutlich war ihnen in diesem Zusammenhang das erwähnte Schreiben des <placeName ref="loc000065">Zürcher</placeName> Stadtschreibers übergeben worden, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_205">SSRQ ZH NF I/2/1, Nr. 205</ref></bibl>. Auch wenn der Bestand <bibl>A 155.1</bibl> des Staatsarchivs Zürich zahlreiche Urteile aus dem 16. Jahrhundert umfasst, die in <placeName ref="loc000849">Winterthur</placeName> gefällt worden waren und gegen die in <placeName ref="loc000065">Zürich</placeName> Berufung eingelegt wurde, liessen die <orgName ref="org007943">Winterthurer</orgName> nicht jede Appellation auswärtiger Prozessteilnehmer zu, wie obrigkeitliche Ermahnungen nahelegen, vgl. <bibl>STAW AG 91/1/45</bibl> (1518); <bibl>STAW AG 92/1/77</bibl> (1523); <bibl>StAZH B IV 16, fol. 34r</bibl> (1546). Dass die <orgName ref="org007943">Winterthurer</orgName> ihre richterliche Autonomie nicht nur in Strafsachen, sondern auch in allen zivilen Rechtsstreitigkeiten ungeachtet der Herkunft der Streitparteien wahren wollten, zeigt das Privileg, das sie 1544 von Kaiser Karl V. erwarben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref>, Artikel 4</bibl>). Doch die <orgName ref="org002406">Zürcher</orgName> bestanden auf der bisherigen Praxis, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250824">StAZH C I, Nr. 3165 (Beilage 7)</ref></bibl>. Zum Instanzenzug in <placeName ref="loc000849">Winterthur</placeName> und den geltenden Appellationsfristen und -gebühren vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_208">SSRQ ZH NF I/2/1, Nr. 208</ref></bibl>.</p>
+<p>In einem <placeName ref="loc000849">Winterthurer</placeName> Kopialbuch des 18. Jahrhunderts wird auf dieses Schreiben verwiesen, das 1770 <orig>ohnvermuthet in einem privathauß alhier wieder zum vorschein gekommen</orig> und zu der Abschrift des Schreibens in das <orig>stadtbuch</orig> gelegt worden sei (<bibl>STAW B 1/1, fol. 113v</bibl>). Vermutlich ist hiermit das Kopial- und Satzungsbuch gemeint, das der <placeName ref="loc000849">Winterthurer</placeName> Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> 1535 angelegt hatte und das nur mehr in einer Abschrift des 18. Jahrhunderts überliefert ist. Darin ist unter der Überschrift <orig>Diß folgend erläuterung in denen appellationen ist uns von unseren herren von <placeName ref="loc000065">Zürich</placeName> geben worden</orig> ebenfalls eine Abschrift des Schreibens enthalten (<bibl>winbib Ms. Fol. 27, S. 405</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

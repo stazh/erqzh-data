@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_064_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 724</idno></msIdentifier><head>Hintersassenvertrag der Stadt Winterthur mit Hans von Sal und seiner Frau Agnes</head><msContents><summary>Nach Aufgabe des Bürgerrechts und Entrichtung der Abzugsgebühr treffen der Kleine und der Grosse Rat von Winterthur mit Hans von Sal, der lange Zeit als Schultheiss amtiert hatte, und seiner Frau Agnes folgende Vereinbarung: Hans und Anna von Sal geniessen den Schutz der Stadt und haben dort ihren Wohnsitz, dafür zahlen sie jährlich 4 Gulden Steuern, von weiteren Verpflichtungen und Diensten sind sie befreit. Wein, den sie ausschenken, müssen sie versteuern. Beide Seiten können diese Abmachung jederzeit aufkündigen. Hans und Anna von Sal dürfen abzugsfrei aus der Stadt ziehen, vorbehaltlich der Rechte ihrer Gläubiger. Solange beide in Winterthur ansässig sind, soll er helfen, Nutzen und Ehre der Stadt zu fördern und Schaden von ihr abzuwenden, insbesondere die Stadtmauern zu verteidigen und geraubtes Gut zu retten. Geraten beide mit jemandem aus der Bürgerschaft von Winterthur in Konflikt, sollen sie diesen vor dem Gericht oder dem Rat der Stadt austragen. Wenn Hans von Sal mit einem Auswärtigen in Feindschaft gerät, solange er in Winterthur wohnt, darf er ohne Bewilligung des Rats von dort aus niemanden angreifen, sondern muss einen Monat vorher die Stadt verlassen. Die Aussteller siegeln mit dem Stadtsiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.0"/><width unit="cm" quantity="29.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.5"/></dimensions></extent><condition>Entwertungsschnitte</condition></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><orgName role="sigillant">Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1434-05-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000134">Bürgerrecht</term><term ref="key005094">Gerichtsstand</term><term ref="key000314">Hintersassen</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_724_r.jpg"/>
+<p><seg>
+<lb/>Wir, der <orgName role="issuer" ref="org007944">kleyn und der gross raͧt, die viertzig, ze <placeName ref="loc000849">Wintterthur</placeName></orgName>, verjechentt offenlich und tuͦndt kunt menglichem
+<lb/>mit disem brieff:</seg>
+<seg>Alz der vest <persName ref="per026931">Hans von Sal</persName>, der untz haͤr u̍nser burger und oͧch schultheis vil zites gewesen
+<lb/>ist, und oͧch froͧw <persName ref="per026926">Agnes</persName>, sin elich wib, sich mit irem burgerrechten von u̍ns und der statt <placeName ref="loc000849">Wintterthur</placeName> erledgotten,
+<lb/>uffgeben und oͧch alles ir guͦtt verabzugett hand <abbr>etc</abbr>, da syent wir mit inen und sy mit u̍ns alz von gemeyner
+ <lb/>statt wegen fru̍nttlich u̍berkomen durch der statt bessern nutzes willen also, das wir sy in u̍nsern getru̍wen
+<lb/>fru̍nttlichen schierm und fu̍rdrung genomen haben und daz sy hinfu̍r in u̍nser statt mitt huß sitzen und ir weßen
+<lb/>und wonung by u̍ns haben und u̍ns nu hin fu̍r <date dur="R/P1Y">alle jaͧr</date> eynnost, so man u̍nser statt stu̍r in nympt, geben
+<lb/>sond <measure type="currency" unit="fl" origin="Rh" quantity="4">vier Rinsch guldin</measure> und nit me. Und soͤllen sich oͧch denn je da mit verdienott haben fu̍r alle stu̍ren, fu̍r tagwen, fu̍r
+<lb/>reysen, fu̍r wachten, fu̍r alle dienst und fu̍r alle sachen, wol ussgenomen, ob si jemer win schanktint in u̍nser statt,
+ <lb/>den sont si allweg verungeltten alz ander lu̍t iren win verungeltent, ungevarlich.</seg>
+<seg>Doch wenn es ir fuͦg also nit
+<lb/>me by u̍ns waͤre, so moͤchtint sy allweg, wenn sy woͤltint, von u̍ns ziechen aͧn abzug, doch den schuldnern unschaͤd<lb break="no"/>lich, alz das der brieff wisett, den si denn in sunder oͧch habent.<note>Am gleichen Tag hatte sich <persName ref="per026931">Hans von Sal</persName> um 500 Pfund Haller <orig>von hafft des burgerrechten</orig> und von der Abzugsgebühr befreien lassen (<bibl>STAW B 2/1, fol. 87r</bibl>).</note> Geschaͤch oͧch jemer, daz u̍ns ald u̍nser naͧchkomen bedunkte,
+ <lb/>daz es u̍nser fuͦg oͧch nit were, so moͤchtint wir si oͧch von u̍ns heissen ziechen und inen daz absagen, alles ungevarlich.</seg>
+<seg>
+<lb/>Oͧch sol derselb <persName ref="per026931">Hans von Sal</persName>, die wil si also by u̍ns sesshafftt sindt, u̍nser statt nutz und er fu̍rdern und schaden
+  <lb/>helffen wenden, u̍nser statt muren und roͧb helffen retten, alles getru̍wlich, aͧn gevaͤrd.</seg>
+<seg>Waz oͧch dieselben <persName ref="per026931">Hans
+ <lb/>von Sal</persName>, froͧw <persName ref="per026926">Agnes</persName>, sin elich wib, nu hin fu̍r, sy syent in u̍nser statt sesshafftig ald anderswa, mit jemantt der
+<lb/>u̍nsern, froͧwen ald mannen, der burger ze <placeName ref="loc000849">Wintterthur</placeName> were, ze schaffen hettint ald gewinnintt, dar umb soͤllen sy
+  <lb/>allweg recht nemmen und geben ze <placeName ref="loc000849">Wintterthur</placeName> vor gericht ald vor <orgName ref="org005587">raͧt</orgName> und sich des rechten da benuͤgen laͧssen, alz si daz
+  <lb/>alles ze tuͦndt versprochen hand, aͧn alle gevaͤrd.</seg>
+<seg>Waͤre oͧch sach, daz derselb <persName ref="per026931">Hans von Sal</persName> mit jemant usswendig vientt<lb break="no"/>schafftt ald krieg gewunne, die wil si by u̍ns waͤrint, da sol er uss u̍nser statt aͧn u̍nser wissen und willen deheynen
+<lb/>angriff zuͦ nyemant tuͦn. Denn wenn er also kriegen ald zuͦ jemant angriff tuͦn woͤlti, so soͤllti er allweg vor rumen und
+<lb/><date dur="P1M">eynen gantzen manott</date> vor uss u̍nser statt sin, aͧn alle gevaͤrd.</seg>
+<seg><app><lem>Des alles ze waͧrem urku̍nd, so haben wir u̍nser ge<lb break="no"/>meynen statt insigel fu̍r u̍ns und u̍nser naͧchkomen offenlich gehenkt an disen brieff</lem><rdg wit="STAW B 2/1, fol. 87r-v">Dis ist inen besigelt mit u̍nser gemeynen statt insigel</rdg></app>, der geben ist uff <origDate when="1434-05-14">fritag vor dem
+ <lb/>heilgen tag ze pfingsten, naͧch Cristz gepu̍rtt vierzechenhundertt jaͧr, drissig jaͧr, daͧr naͧch in dem vierden jaͧr</origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_URK_724_v.jpg
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/><add place="inline" hand="hand19c">14 Mai</add> Anno 1434,
+<lb/>hintersäß-brieff
+<lb/>für
+<lb/><persName ref="per026931">Hans von Sal</persName>, gewesenen
+<lb/>schultheißen alhier,
+<lb/>und seiner ehefrau <abbr>etc</abbr></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Hintersassen genossen gleich den Bürgern den Schutz der Gemeinde, wurden besteuert und zu militärischen Diensten und Arbeitseinsätzen herangezogen. Solange sie in der Stadt wohnten, durften sie ohne Erlaubnis des Rats keine Fehden führen, welche die Gemeinde und ihre Bürger in Mitleidenschaft ziehen konnten. Zur Stellung der Hintersassen einer Stadt vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/015998/2014-12-05/">Hintersassen</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 148</bibl>.</p>
+<p><persName ref="per026931">Hans von Sal</persName> und seine Frau lebten nach der Aufgabe ihres Bürgerrechts und nach Entrichtung der Abzugsgebühr weiterhin in <placeName ref="loc000849">Winterthur</placeName>. Vermutlich wollte sich <persName ref="per026931">Hans von Sal</persName>, der lange Jahre das Amt des Schultheissen bekleidet hatte und Mitglied des <orgName ref="org005587">Rats</orgName> gewesen war, von den städtischen Ämtern, zu deren Übernahme er als Bürger verpflichtet gewesen wäre, zurückziehen. Dass Amtspflichten mitunter als Belastung empfunden wurden, analysiert <bibl><ref target="/startseite/literaturverzeichnis">Landolt 2005</ref></bibl>.</p>
+<p>Die Urkunde weist Kanzellierungsschnitte auf.<!-- Kann im AIS des STAW nicht unter "Erhaltungszustand" eingetragen werden, da dort eine Auswahlliste hinterlegt ist. --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_135</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 62 (Eintrag 5)</idno></msIdentifier><head>Einsetzung und Eid des Schweinehirten in Winterthur</head><msContents><summary>Göschel wird für ein Jahr die Schweineherde in Winterthur anvertraut. Er hat sich verpflichtet, die Schweine pünktlich hinaus und hinein zu treiben, sie gewissenhaft zu hüten und nicht zu misshandeln.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1484-01-05"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key005444">Tierhaltung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="62"/>
+<p><lb/>Actum <origDate when="1484-01-05">vigilia <sic>drium</sic> regum, <lb/>anno <abbr>etc</abbr> lxxxiiij<hi rend="sup">o</hi></origDate></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgen Einträge über die Einsetzung des Mesmers, der Wächter und des Försters.</note>
+</p>
+<div>
+<ab type="marginal note" place="left margin"><lb/><persName ref="per027394">Goͤschel</persName>, schwin<lb break="no"/>hirt</ab>
+</div>
+<p>
+<lb/>Item <persName ref="per027394">Goͤschel</persName> ist die herd der schwinen gelihen <date dur="P1Y">ein jar</date>. Der
+<lb/>haut gelopt, die schwin zuͦ rechter zit us unnd in ze triben
+<lb/>unnd die getru̍wlich zuͦ huͤten, <del>od</del> ouch die nit werffen noch
+<lb/>schlahen anders dann mit ruͦten.<note>Die Eidformel im ältesten erhaltenen Eidbuch der Stadt <placeName ref="loc000849">Winterthur</placeName> aus den 1620er Jahren ist inhaltlich identisch, weicht aber in der Formulierung ab (<bibl>winbib Ms. Fol. 241, fol. 15r</bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Viehhaltung in der Stadt war reglementiert. Vieh frei weiden zu lassen, war bei Strafe verboten, auch wenn es keinen Schaden anrichtete (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_081">SSRQ ZH NF I/2/1, Nr. 81</ref></bibl>; <bibl>STAW B 2/3, S. 444</bibl>, zu 1480), die Stadtknechte sollten freilaufende Tiere einfangen (<bibl>STAW B 2/5, S. 330</bibl>). Ausser den Hirten durfte niemand Vieh in den Stadtgraben treiben (<bibl>STAW B 2/2, fol. 20v</bibl>, zu 1470). 1480 wurde überdies die Ziegenhaltung verboten. Man gestand den Ziegenhaltern zu, die Tiere noch eine Zeitlang im Haus zu mästen, sie durften aber nicht ins Freie gelassen werden (<bibl>STAW B 2/3, S. 444</bibl>). 1561 wurde dieses Verbot erneuert, wie aus den Aufzeichnungen des <placeName ref="loc000849">Winterthurer</placeName> Ratsherrn <persName ref="per027306">Ulrich Meyer</persName> hervorgeht (<bibl>winbib Ms. Quart 102, fol. 133v</bibl>). Durch diese Massnahmen wollte man nicht nur Sachschaden und Unfälle vermeiden, sondern auch Verunreinigungen durch Fäkalien verhindern, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Fuhrmann 2014</ref>, S. 208-209</bibl>.</p>
+<p>Der Schweinehirt wurde jeweils am 5. Januar eingesetzt und erhielt in der ersten Jahreshälfte 1 Viertel <orig>vesan</orig> (nicht entspelztes Getreide, namentlich Dinkel) pro Schwein als Lohn, nach dem 24. Juni wurde diese Ration halbiert (<bibl>STAW B 2/3, S. 318</bibl>, zu 1477). 1538 sprach man dem Schweinehirten noch eine zusätzliche Vergütung von 4 Mütt Dinkel und 6 Mütt Hafer zu, zahlbar aus Mitteln des Prokureiamts (<bibl>STAW B 2/8, S. 213</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

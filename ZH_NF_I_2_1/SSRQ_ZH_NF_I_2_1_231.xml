@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_231</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=678313">StAZH A 155.1, Nr. 77</idno></msIdentifier><head>Mannrecht für Stefan Landenberg von Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur bitten Bürgermeister und Rat von Zürich um die Aufnahme des Stefan Landenberg von Winterthur als Bürger, da er sich dort bessere Absatzchancen für sein Handwerk und Gewerbe erhofft. Sie stellen ihm ein Zeugnis über seine Qualifizierung, seine eheliche Geburt und sein Wohlverhalten aus.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.5"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="wrapping-tie" nontei:condition="absent"><orgName role="sigillant">Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1523-10-23"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003820">Mannrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><lb/><seg>Strengenn, fromen, fu̍rsichtigenn, wisenn, gnedigenn, lieben herren, u̍ch sigenn unnser gehorsam, willig dienste 
+ <lb/>allzit zevor.</seg>
+<seg>Gnedigenn herren, <persName ref="per027316">Stephan Landemberg</persName>, u̍nnser stattkind, zouͤgt u̍nns an, wie er sines handt<lb break="no"/>wercks unnd gewerbe inn u̍wer, u̍nnser herren, statt zuͦ <placeName ref="loc000065">Zu̍rich</placeName> ein bessern sitze das sin zuͦvertriben, dann er 
+<lb/>inn u̍nnser statt haben moͤge, unnd u̍nns deßhalb umb gu̍nstlich fu̍rdernus an u̍ch, u̍nnser herren, zegebenn
+<lb/>ernstlich angeruͤfft. Dwil wir nu im (als u̍nnserm stattkind) zuͦ gu̍nstlicher fu̍rdrung gantz wolgeneigt,
+<lb/>deßglichenn haben wir wu̍ssen, das er sines handtwercks gantz wolbericht, dartzuͦ von vatter unnd muͤter
+<lb/>eelich geborn unnd sich by u̍nns erlich unnd wol (wie sich dann einem fromen gezimpt) gehaltenn
+<lb/>hǎt. Hierumb so ist an u̍wer streng wißheit als unnser gnedig, lieb herren unnser gar undertaͤnig 
+<lb/>ernstlich bitte, ir woͤllen genanten <persName ref="per027316">Stephan Landenberg</persName> also inn u̍wer statt zuͦ einem burger annemen
+<lb/>unnd inn allweg gnedigklich bevolhenn haben.<note><persName ref="per027316">Stefan Landenberg</persName> wurde am <date when="1523-10-24">24. Oktober 1523</date> gegen eine Gebühr von <measure type="currency" unit="fl" quantity="3">3 Gulden</measure> als Bürger in <placeName ref="loc000065">Zürich</placeName> aufgenommen (<bibl>StArZH III.A.1, fol. 328r</bibl>). Zum Verfahren der Bürgeraufnahme in Zürich vgl. <bibl><ref target="/startseite/literaturverzeichnis">Koch 2002</ref>, S. 69-72</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sieber 2001</ref>, S. 26-28</bibl>.</note> Das woͤllen wir umb u̍ch, unnser herren, alltzit
+ <lb/>willigklich zuͦverdienen, deren wir u̍nns och zuͦ allen zitten undertaͤnigklich bevolhen habenn woͤllenn.</seg>
+<lb/><seg>Datum <origDate when="1523-10-23">fritag vor <orgName ref="org001531"><persName ref="per001498">Symonis</persName> unnd <persName ref="per001499">Jude</persName></orgName>, apostolorum, anno <abbr>etc</abbr> xxiij</origDate>.</seg>
+</p>
+<p>
+<lb/><orgName ref="org007943">Schultheis unnd raͤte
+ <lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="address" place="verso">
+<lb/><unclear cert="high">Dinn</unclear> strengen, fromen, fursichtigen, ersamen
+<lb/>unnd wisenn <orgName ref="org002406">burgermeister unnd raͤte
+ <lb/>der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, u̍nnsern gnedigenn unnd
+<lb/> liebenn herren</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/><placeName ref="loc000849">Winterthur</placeName>, <date when="1523">1523</date></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Schrybenn für <persName ref="per027316">Steffan
+<lb/>Landenberg</persName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Intercession für <persName ref="per027316">Stäphan Landenberger</persName>, welcher alhier sich haus<lb break="no"/>hablich setzen wollen, <date when="1523"/>1523</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Um andernorts als Bürger aufgenommen zu werden, war die Bescheinigung der ehelichen Geburt und des guten Leumunds durch den Herkunftsort, der sogenannte Mannrechtbrief, erforderlich. Im ältesten Formularbuch der <placeName ref="loc000849">Winterthurer</placeName> Kanzlei ist das Muster eines Mannrechtbriefs aus dem Jahr 1537 enthalten (<bibl>STAW B 3a/1, fol. 125v</bibl>). War der Lebenswandel der betreffenden Person jedoch zu beanstanden, wurde das entsprechend vermerkt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_297">SSRQ ZH NF I/2/1, Nr. 297</ref></bibl>.</p>
+<p>Wie sie Wegzugswilligen den guten Leumund bescheinigten, so liessen sich <orgName ref="org007943">Schultheiss und Rat</orgName> entsprechende Zeugnisse vorlegen, wenn jemand das <placeName ref="loc000849">Winterthurer</placeName> Bürgerrecht erwerben wollte, wie der Ratsbeschluss vom 22. April 1493 vorschrieb (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_160">SSRQ ZH NF I/2/1, Nr. 160</ref></bibl>). Als die <orgName ref="org007943">Winterthurer</orgName> im Jahr 1544 einen Mannrechtsbrief von <persName ref="per027889">Kaspar Schmidli</persName>, Sohn eines <placeName ref="loc000065">Zürcher</placeName> Bürgers, verlangten, reagierten <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> allerdings ungehalten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1102471">StAZH B IV 11, fol. 143r</ref></bibl>). Zum Anforderungsprofil von Neubürgern allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2002</ref>, S. 214, 238-239</bibl>.<!-- Zu Mannrechtbriefen vgl. künftig Editionseinheit von cs: Zürcher Ratsbeschluss von 1539/40 in B III 4 (fol. 35 v). --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

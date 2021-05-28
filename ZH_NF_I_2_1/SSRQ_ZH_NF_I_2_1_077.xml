@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_077</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AH 99/2 Zü</idno></msIdentifier><head>Statuten der Herrenstube in Winterthur</head><msContents><summary>Die Statuten der Herrenstube in Winterthur regeln die Zahlung der Zeche (1), die Übernahme des Wirtsamts (3) und die Erhebung von Bussgeldern bei Verstössen gegen die Verhaltensnormen (4-6). Mitglieder und Gäste, die in Streit geraten und sich nicht beruhigen lassen, können aus der Gesellschaft ausgeschlossen werden (7). Gleiches gilt für diejenigen, die Spielschulden nicht begleichen, wobei Spielen bei Gewitter untersagt ist (2). Zerbrochene Gläser und andere Schäden müssen ersetzt werden (8). Die Mitglieder können Personen, die kein Stubenrecht besitzen, aus triftigen Gründen den Zutritt verwehren (9). Den Statuten geht eine Mitgliederliste voraus.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Engelfried</author><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="42.0"/><width unit="cm" quantity="29.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1448-01-01" to="1458-12-31">Der Schreiber amtiert in diesem Zeitraum.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000482">Blasphemie</term><term ref="key000285">Ehrverletzung</term><term ref="key004022">Satzung</term><term ref="key000767">Spiel</term><term ref="key005441">Stubengesellschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb/>
+<!-- 1. Spalte -->
+<head><handShift/><add place="top">Diß sond wirt sin</add><note>Die Namen sind in zwei Spalten angeordnet, in der linken sind die Personen weltlichen Stands, in der rechten die geistlichen Stands aufgeführt. Möglicherweise bezieht sich dieser Titel nur auf die Namen in der linken Spalte.</note></head>
+<p>
+<seg><handShift scribe="per027344"/><add place="interlinear"><lb/>Her <persName ref="per027446">Hanns von Clingenberg</persName><note>Ritter <persName ref="per027446">Hans von Klingenberg</persName> amtierte 1452 und 1453 als Landvogt der <orgName ref="org000088">Herzöge von Österreich</orgName> im <placeName ref="loc000777">Thurgau</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Meyer 1933</ref>, S. 286</bibl>).</note></add>,
+ <lb/>schultheis <persName ref="per026899">Hoppler</persName><note><persName ref="per026899">Jakob Hoppler</persName> ist für die Amtsjahre 1448/1449, 1452/1453, 1453/1454, 1454/1455 und 1457/1458 als Schultheiss von <placeName ref="loc000849">Winterthur</placeName> belegt (<bibl>STAW B 2/1, fol. 109r, 117r, 121r</bibl>; <bibl>STAW URK 914</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=480682">StAZH C II 13, Nr. 511</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10015</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=480719">StAZH C I, Nr. 2538</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10057</bibl>; <bibl>STAW URK 985</bibl>; <bibl>STAW URK 988</bibl>; <bibl>STAW URK 991</bibl>). </note>,
+ <lb/><del hand="later hand"><persName ref="per026936">Joͤrg von Sal</persName></del>,
+ <lb/>jungkher <persName ref="per027389">Hanns von Goldenberg</persName>,
+ <lb/><persName ref="per027339">Rudolff Bruchli</persName>,
+ <lb/>alt schultheis <persName ref="per027588">Rudger</persName><note><persName ref="per027588">Heinrich Rüdger</persName> amtierte letztmals 1446/1447 als Schultheiss von <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 89</bibl>).</note>,
+<lb/>stattschriber,
+ <lb/><persName ref="per027756">Uͤlrich Walsperg</persName>,
+ <lb/><persName ref="per027431">Hanns Karrer</persName>,
+ <lb/><persName ref="per027579">Reynbolt</persName>,
+ <lb/><persName ref="per027741">Hanns Brechter</persName>,
+ <lb/><persName ref="per027135">Ruͤdy Lochli</persName>,
+ <lb/><persName ref="per027757">Hanns Waͤber</persName>,
+ <lb/><persName ref="per027746">Furter</persName>,
+ <lb/><persName ref="per027623">Stugkly</persName>,
+ <lb/><del hand="later hand"><persName ref="per027324">Steffan Altenburg</persName></del>,
+ <lb/><persName ref="per027745">Jos Eytlinger</persName>,
+ <lb/><persName ref="per027414">Huͤber von Wagenberg</persName>,
+ <lb/><persName ref="per027747">Hegnoͤwer</persName>,
+ <lb/><persName ref="per027755">Ruͤsperg</persName>,
+ <lb/><persName ref="per027744">Hanns Cristan</persName>,
+ <lb/><persName ref="per027750">Losser</persName>,
+ <lb/><persName ref="per027743">Buͤhelman</persName>.</seg>
+</p><!-- 2. Spalte -->
+<p><seg><lb/><add place="inline" scribe="per027344">Priester:</add> Tegen<note>Vermutlich ist hiermit der Dekan des <orgName ref="org007844"><placeName ref="loc000849">Winterthurer</placeName> Landkapitels</orgName> gemeint. Um 1450 ist der Leutpriester von <placeName ref="loc008882">Oberwinterthur</placeName>, <persName ref="per027739">Simon Bomhart</persName>, in dieser Funktion belegt (<bibl>STAW URK 874</bibl>, zu 1449; <bibl>STAW URK 909</bibl>, zu 1452; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1968</ref>, S. 284</bibl>). Zum Amt des Dekans und seinen Aufgaben vgl. <bibl><ref target="/startseite/literaturverzeichnis">Pfaff 1990</ref>, S. 239-240</bibl>.</note>,
+ <lb/><del hand="later hand">tegen <handShift/><add place="inline">alten</add></del>,
+ <lb/>her <persName ref="per027075">Heinrich Balber</persName><note>Kaplan des Altars des <persName ref="per004014">Johannes evangelista</persName> in der Pfarrkirche in <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">REC</ref>, Bd. 4, Nr. 10197</bibl>; <bibl>STAW URK 772</bibl>).</note>,
+ <lb/>her <persName ref="per027751">Uͤlrich Muntigel</persName><note>Leutpriester der Kirche St. Jakob auf dem <placeName ref="loc013078">Heiligberg</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=480026">StAZH C II 16, Nr. 335</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 9334</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480184">StAZH C II 16, Nr. 339</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 9500</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Thommen</ref>, Bd. 5, Nr. 134</bibl>).</note>,
+ <lb/>her <persName ref="per027736">Uͤlrich Binder</persName><note>Leutpriester der Kirche in <placeName ref="loc011252">Dinhard</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=481048">StAZH C IV 2.1 a</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10394</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">REC</ref>, Bd. 4, Nr. 12266</bibl>).</note>,
+ <lb/>her <persName ref="per027752">Ruͤpprecht</persName><note>Für das Jahr 1431 ist ein Kaplan des Nikolausaltars in der Pfarrkirche in <placeName ref="loc000849">Winterthur</placeName> namens <persName ref="per027752">Ruprecht</persName> belegt (<bibl>STAW URK 674</bibl>), 1454 war <persName ref="per027752">Ruprecht Kieffer</persName> Kaplan des Katharinenaltars (<bibl>STAW URK 934</bibl>).</note>,
+ <lb/>her <persName ref="per027749">Hanns Lindoͤw</persName><note>Kaplan der Kirche in <placeName ref="loc001005">Elgg</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434481">StAZH C I, Nr. 2233 c</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 6, Nr. 7924</bibl>)</note>,
+ <lb/>her <persName ref="per027103">Hanns Moͤrgenli</persName>,
+ <lb/>her <persName ref="per027737">Hanns Bircher</persName><note>Kaplan der Pfarrkirche in <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">UBSG</ref>, Bd. 6, Nr. 5976</bibl>).</note>,
+ <lb/>her <persName ref="per027742">Hanns Brun</persName><!-- Johannes Brun 1448 als Leutpriester von Thalwil belegt, StAZH C II 7, Nr. 146 (passt aber nicht zu Winterrhur) -->.</seg>
+</p>
+<p><seg n="1">
+<handShift/><add place="below"><lb/>Item wenn man die u̍rten, so sol ein stubenmeister, ein <del>alter</del> nu̍wer oder alter,
+<lb/>da by sin mitt sampt dem wirt, die oͤch nu̍t hinderlegen sond <del>denn</del> zuͦ den
+<lb/>eren<!-- auf ehr = auf Kredit, Idiotikon I, Sp. 391 --> nach ir erkennen und den fu̍rling<!-- Vorteil, Profit, Idiotikon I, Sp. 969, mit ebendiesem Bsp. --> glich in die bu̍chs legen. Und
+<lb/>wer sust hinder leiti ze <time period="byNight">nacht</time> oder des <time period="byDay">tags</time>, der sol es selb geben. Und sol
+<lb/>der knecht allwegen am <time period="evening">abent</time> sagen dem, der wirt mornendes sol sin,
+<lb/>und wenn er es nu̍t teͣt, so sol er die pen fu̍r inn geben.</add></seg>
+</p>
+<p>
+<seg n="2"><add place="below"><lb/>Wenn oͤch einer mitt dem andern spilet <del>in oder</del> uff dem breͣtt oder susst
+<lb/>naͤch gewonheit der stuben, waz denn einer verlu̍rt, daz sol er geben oder
+ <lb/>die stuben miden biß er es betzalt.</add>
+<add place="inline" scribe="per027344">Ouch wenn men <del>gen <unclear>dem</unclear></del>
+<add place="above"><unclear>fur daz</unclear></add>
+<lb/>wetter lutet, so sol man alle spil miden.<!-- vgl. "über Wetter läuten" in Idiotikon III, Sp. 1507f. bzw. "für das Wetter läuten" in Idiotikon XVI, Sp. 2252 --></add></seg>
+</p>
+<p><seg n="3"><handShift scribe="per027344"/>
+<lb/>Item dis vorbenempten gesellen sol ye einer nah dem andern wirt sin, als digk und
+<lb/>als vil es an inn kompt. Wellicher aber das nit tuͤt, der sol ze pen gen <measure type="currency" unit="h" quantity="6">vj ħ</measure> oder
+<lb/>einer moͤge sich denn entschulgen, das er sachen ze schaffenn hab, die in iren<!-- = irren? Dritte Haste des letzten Buchstabens durchgestrichen? --> und
+<lb/>er soͤlichs nit tuͤn moͤg, <handShift/><add place="left margin" type="sign"><lb/>oder einen andren <lb/>an sin statt <lb/>erbitten<!-- ??? --></add>.</seg>
+<seg n="4">Ouch so sint die herren und gesellen luter mit einander
+<lb/>eins worden, wellicher der ist, der einen schwuͤr tuͤt, der sye klein oder groß,
+ <lb/>der sol gestrafft werden nach erkantnu̍ß der gesellen, ouch nach dem und er
+<lb/>einen schwuͤr tuͤtt. Wellicher aber im schwuͤr nempt <q>verch</q><!-- mhd. Leib, Leben, tödliche Wunde -->, der gitt an all gnad
+<lb/><measure type="currency" unit="ß" quantity="1">einen schilling haller</measure>.</seg>
+<seg n="5">Ouch wellicher den andren heist lu̍gen, der sol die stuben
+<lb/>miden nach erkantnu̍ß der gesellen.</seg>
+<seg n="6">Ouch wellicher uff dem <sic>tist</sic><!-- Troll: Tisch --> lit, so win da
+<lb/>ist, der git <measure type="currency" unit="d" quantity="1">j pfenning</measure>, als digk er es tuͤt.</seg>
+<seg n="7">Wellicher ouch mit dem andren haderet<!-- hadret mit -er-Abkürzung -->
+<lb/><handShift/><add place="bottom" type="sign"><lb/>und einer stuben recht hat und der ander nu̍t, wenn man denn den, der nu̍t stubenrecht haͤt, heist schwigen und er es nu̍t <lb/>tuͦtt, den sol man heissen die stuben miden. Hand si aber bed stubenreͣcht</add>, <lb/><del>und</del> wenn mann <handShift/><add place="above">denn</add> einen heist schwigen <handShift/><add place="above" type="sign">oder bed</add> und er solichs nit tuͤn wil, der sol ouch
+<lb/>die stuben miden nach erkantnu̍ß der gesellen.</seg>
+<seg n="8">Wellicher ouch u̍tzit zerbricht
+<lb/>uff der stuben, es sye glesser oder anders, der sol es bezalen, weß es denn wert
+<lb/>ist.</seg>
+</p>
+<p>
+<seg n="9"><handShift/><add place="bottom"><lb/>Wer oͧch sach, daz jeman heruff gieng, der nu̍t stuben recht hetti und einen oder mer der stuben gesellen missvellig
+<lb/>wer umb redlich sach, den sol man heissen da niden sin.</add></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In vielen Städten gab es neben den Trinkstuben der Handwerksverbände respektive Zünfte auch Versammlungslokale für die sogenannten Müssiggänger, Angehörige des niederen Adels und Geistliche aus der Stadt und dem Umland sowie hochrangige Amtsträger. Die Gründung einer Trinkstube für die Oberschichten konnte eine Reaktion auf den wachsenden Einfluss neuer Gruppen innerhalb der städtischen Führung sein, doch nicht immer lässt sich ein solcher Zusammenhang herleiten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kälble 2003</ref>, S. 34-45</bibl>. Wann und aus welchen Motiven die <orgName ref="org007822"><placeName ref="loc000849">Winterthurer</placeName> Herrenstube</orgName> entstand, ist nicht bekannt. Der erste Hinweis auf ihre Existenz datiert aus dem Jahr 1405 (<bibl><ref target="/startseite/literaturverzeichnis">Kläui 1956</ref>, S. 107</bibl>). Ihre Organisationsform entsprach derjenigen vergleichbarer Gesellschaften in anderen Städten: Unter den Vorstehern der Trinkstube, hier <orig>stubenmeister</orig> genannt, wechselten sich die Mitglieder (<orig>gesellen</orig>) bei der Bewirtung ab. Die Trinkstuben hatten eigene Bedienstete (<orig>stubenknechte</orig>). Verhaltensnormen wurden verschriftlicht und kollektiv überwacht. Besondere Anlässe wie Feiertage oder die Wahl der Stubenmeister wurden mit Festbanketten begangen. Vgl. allgemein <bibl><ref target="/startseite/literaturverzeichnis">Rogge 2003</ref>, S. 103-109</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Cordes 1993</ref>, S. 105-107, 112-113, 130-131</bibl>; zu <placeName ref="loc000849">Winterthur</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Ziegler/Kläui 1956</ref>, S. 31-37, 55-64</bibl>.</p>
+<p>Der <orgName ref="org007822"><placeName ref="loc000849">Winterthurer</placeName> Herrenstube</orgName> gehörten 1521 Pfarrer und Kapläne aus den Dekanaten <placeName ref="loc000849">Winterthur</placeName> und <placeName ref="loc001005">Elgg</placeName>, die Äbte von <placeName ref="loc006235">Petershausen</placeName>, <placeName ref="loc010429">Fischingen</placeName> und <placeName ref="loc008350">Rüti</placeName>, der Hofmeister des <orgName ref="org002665">Frauenklosters <placeName ref="loc000980">Töss</placeName></orgName>, das <orgName ref="org007802">Kloster <placeName ref="loc013067">Beerenberg</placeName></orgName>, die <orgName>Chorherrenstifte <placeName ref="loc013073">Embrach</placeName></orgName> und <orgName ref="org007820"><placeName ref="loc013078">Heiligberg</placeName></orgName>, eine Reihe Adliger sowie der Schultheiss, der Spitalmeister, der Stadtschreiber und der Schulmeister an, wie aus einem Verzeichnis in dem zu Beginn der 1540er Jahre angelegten Mitglieder- und Rechnungsbuch hervorgeht (<bibl>STAW Dep. 22/1, S. 3-6</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1956</ref>, S. 113-115</bibl>), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1956</ref>, S. 108-109, 116-121</bibl>. Nach der Aufhebung der Klöster im Zuge der Reformation übernahmen die Verwalter der <placeName ref="loc000065">Zürcher</placeName> Klosterämter <placeName ref="loc013506">Töss</placeName>, <placeName ref="loc013736">Winterthur</placeName> und <placeName ref="loc013735">Embrach</placeName> das Stubenrecht (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1124777">StAZH B IV 27, fol. 200v-201r</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=745463">StAZH A 156.1, Nr. 43</ref></bibl>). Im Jahr 1608 bestätigten <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> die Verpflichtung der Prädikanten des <orgName ref="org007844"><placeName ref="loc000849">Winterthurer</placeName> Kapitels</orgName>, ihren Mitgliedsbeitrag von 10 Schilling und alle ausstehenden Beträge zu entrichten, und wiesen ihre Amtleute an, die Ausstände gegebenenfalls vom Pfründeinkommen der säumigen Zahler zu begleichen (Entwurf: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4272899">StAZH B V 44, fol. 23v-24r</ref></bibl>; Abschrift: <bibl>STAW URK 2803</bibl>; vgl. den <placeName ref="loc000065">Zürcher</placeName> Ratsbeschluss vom 10. Februar 1608 in <bibl>StAZH B II 303, S. 14, Eintrag 3</bibl>). Seit Mitte des 16. Jahrhunderts wurde von Geistlichen, die das Bürgerrecht besassen, die Mitgliedschaft in der <orgName ref="org007822">Herrenstube</orgName> erwartet, auch wenn sie nicht dem <orgName ref="org007844"><placeName ref="loc000849">Winterthurer</placeName> Kapitel</orgName> angehörten (<bibl>STAW Dep. 22/1, S. 73-74, 102</bibl>). Aus der vorliegenden Namensliste, die aufgrund der Amtszeit des Schultheissen <persName ref="per026899">Jakob Hoppler</persName> in den Zeitraum 1448 bis 1458 zu datieren ist, lässt sich schliessen, dass auch Mitglieder des <orgName ref="org005587">Kleinen</orgName> und des <orgName ref="org009293">Grossen Rats</orgName> der <orgName ref="org007822">Herrenstube</orgName> angehörten wie <persName ref="per026936">Jörg von Sal</persName>, <persName ref="per027339">Rudolf Bruchli</persName>, alt Schultheiss <persName ref="per027588">Heinrich Rüdger</persName>, <persName ref="per027431">Hans Karrer</persName>, <persName ref="per027579">Konrad Reinbolt</persName>, <persName ref="per027741">Hans Brechter</persName>,
+<persName ref="per027135">Rudolf Lochli</persName>, <persName ref="per027757">Hans Weber</persName>, <persName ref="per027620">Bartholomäus Stuckli</persName>, <persName ref="per027324">Stefan Altenburg</persName>, <persName ref="per027745">Jos Eitlinger</persName>, <persName ref="per027414">Ruedi Huber von Wagenberg</persName>, <persName ref="per027747">Hegnauer</persName> und <persName ref="per027750">Losser</persName> (<bibl>STAW B 2/1, fol. 109r, 117r, 121r</bibl>). Doch war die Mitgliedschaft qua Amt noch längere Zeit nicht institutionalisiert, wie ein Urteil des <orgName ref="org002406">Rats</orgName> im Streit zwischen Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName>, der das Stubenrecht der <orgName ref="org007854">Oberstube</orgName> von seinen Vorfahren geerbt hatte, und den Meistern der <orgName ref="org007822">Herrenstube</orgName> aus dem Jahr 1529 zeigt. Solange diese nicht nachweisen konnten, dass <persName ref="per014937">Hegner</persName> als Stadtschreiber ihrer Stube beitreten müsse, durfte er weiterhin in der <orgName ref="org007854">Oberstube</orgName> verbleiben (<bibl>STAW B 2/8, S. 123</bibl>). Gemäss den Beitragslisten gehörten 1564 Schultheiss, Stadtschreiber, Spitalmeister und Verwalter der Prokurei <orig>ampts halben uff die herrenstuben</orig> (<bibl>STAW Dep. 22/1, S. 100</bibl>) und 1570 auch die elf Ratsherren (<bibl>STAW Dep. 22/1, S. 134</bibl>). Zur Mitgliederstruktur der <orgName ref="org007822">Herrenstube</orgName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler/Kläui 1956</ref>, S. 28-29, 42-46</bibl>.</p>
+<p>Die <orgName ref="org007822"><placeName ref="loc000849">Winterthurer</placeName> Herrenstube</orgName> bestand bis ins Jahr 1798 fort, dann wurde sie aufgelöst und ihr Vermögen unter die Mitglieder verteilt. Doch schon wenige Jahre später erfolgte die Neugründung, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler/Kläui 1956</ref>, S. 65-71</bibl>. Heute befindet sich das Archiv der <orgName ref="org007822">Herrenstubengesellschaft</orgName> als Depositum im Stadtarchiv Winterthur. Ein Wappenbuch der Gesellschaft aus dem 16. Jahrhundert hat sich in der Sammlung Winterthur der Winterthurer Bibliotheken erhalten (<bibl>winbib Ms. Fol. 138</bibl>).</p>
+<p>Bei der vorliegenden Stubenordnung lassen sich drei Redaktionsstufen unterscheiden, die erste von der Hand des Stadtschreibers <persName ref="per027344">Hans Engelfried</persName> in Kanzleischrift, die zweite von der Hand eines unbekannten Schreibers sowie die dritte in <persName ref="per027344">Engelfrieds</persName> Konzeptschrift. Auf der Rückseite des Blatts befinden sich Urkundenentwürfe aus dem Jahr 1454 von seiner Hand.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

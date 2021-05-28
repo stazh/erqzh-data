@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_154</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1657</idno></msIdentifier><head>Urfehde des Hans Seli von Winterthur wegen Ungehorsams gegenüber der Obrigkeit</head><msContents><summary>Hans Seli, Bürger von Winterthur, schwört dem Schultheissen und Rat von Winterthur Urfehde. Er hatte die Schultheissen Erhard von Hunzikon, Hans Ramensperg und Josua Hettlinger verleumdet, ihm ein Rechtsverfahren vorenthalten zu haben. Darüber hinaus hatte er den Schultheissen und Rat wahrheitswidrig beschuldigt, ihn zu Unrecht inhaftiert zu haben, bezüglich des Schmalzkaufs im Spital den gemeinen Nutzen ausser Acht zu lassen, im Prozess zwischen Jakob Napfer und den Henau parteiisch gewesen zu sein und ihn selbst zum Eid gezwungen zu haben, sich im Konflikt mit Hugo Müller dem Urteil des städtischen Gerichts zu unterwerfen. Er hatte beabsichtigt, seine Klagen vor der Gemeinde zu erheben, wodurch Aufruhr hätte entstehen können. Durch die Fürsprache des Abts von Rheinau, der städtischen Priesterschaft, des Hugo von Hegi und anderer Personen, durch die Bitten seiner Frau und Kinder, und weil er Gnade statt Recht erbeten hat, ist er der Anklage wegen Meineids entgangen und aus der Haft entlassen worden. Er verzichtet auf Vergeltung und verpflichtet sich, nichts mehr gegen den Schultheissen, den Rat oder die Stadt zu unternehmen und ohne Erlaubnis nicht mehr vor die Tore zu gehen. Hält er sich nicht an diese Auflagen, soll man ihn hinrichten. Er verzichtet auf alle Rechtsmittel. Auf seine Bitte siegelt Hugo von Hegi.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="27.0"/><width unit="cm" quantity="39.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Hugo von Hegi</persName></seal></sealDesc></physDesc><history><origin><origDate when="1489-06-27"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key001001">Ungehorsam</term><term ref="key000480">Urfehde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<seg><lb/>Ich, <persName role="issuer" ref="per027610">Hanns Seli</persName>, burger zuͦ <placeName ref="loc000849">Winterthur</placeName>, bekenn offenlich mit disem briefe:</seg>
+<seg>Als ich in der ersamen, wisen <orgName ref="org007943">schulthais und
+ <lb/>raute zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, miner gnedigen herren, vangknuß kommen bin sāchenhalb, das ich us fraͤffenlichem, frigen willen
+<lb/>geredt hab, ire <num value="3">drig</num> schulthaißen, namblich <persName ref="per026911">Erhart von Huntzikon</persName>, <persName ref="per027564">Hanns Ramensperg</persName> und <persName ref="per027413">Josue Hetlinger</persName>, haben mich recht<lb break="no"/>loß gelaussen, desglichen <orgName ref="org007943">schulthais und raͤte</orgName> gemeinlich haben mich zum drittenmaln mit gewalt, wider got, er und recht
+<lb/>getu̍rnt. Sy sigen ouch nit so frōm, das sy den gemeinen nutz betrachten, wie es umb den schmaltzkouff im <orgName ref="org007934">spital</orgName> gange. Sy
+<lb/>sigen ouch in der sach des rechten zwu̍schen <persName ref="per027803">Jacoben Napfer</persName> und den <orgName ref="org009438">Henōw</orgName> unglich richter gewēsen und ouch mich ge<lb break="no"/>zwungen an geschworner eid statt, das recht zuͦ <placeName ref="loc000849">Winterthur</placeName> gegen <persName ref="per027549">Hugen Mu̍ller</persName> ōn ferer wēgrung ze nēmen und darby
+ <lb/>zuͦ beliben. Das alles ich unwarlich von inen geredt und us eigner boshait willen gehept hab, soͤlichs vor einer gantzer <orgName ref="org004474">gemeind
+<lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, wō ich des bistand erfunden, von den genanten <orgName ref="org007943">schulthaiß und raͤtten</orgName> mich zuͦ erclagnen, daruß merglicher
+ <lb/>unwillen und vindschaft zuͦ schaͤdlicher uffruͦr dienende zwu̍schen den selben <orgName ref="org005587">raͤten</orgName> und <orgName ref="org004474">gemeinden</orgName> erwachsen moͤchte sin.
+<lb/>Sonder mich ouch wolbedachtlich damit zum drittenmaln meineidig worden sin erkennt, deshalb sy mich fu̍r recht gestelt
+<lb/>und mir widerfaren lassen wolten haben, was recht gewēsen waͤre, dann das der erwirdig geistlich herrn <persName ref="per027838">Johans Conrat, apte
+ <lb/>zuͦ <placeName ref="loc000981">Rinow</placeName></persName>, ouch die wirdig <orgName ref="org007858">priesterschaft zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, min gnedige herren, durch ir botschaft, desglichen der edel junkherr
+<lb/><persName ref="per013499">Hug von Hegi</persName> und vil wirdig und erber lieb frōwen, edel und unedel, ouch ander erber personen, durch anruͤffen miner
+<lb/>elichen husfrōwen und kinden, so ernstlich und flislich fu̍r mich gebetten, ich ouch fu̍r mich selbs in sachen gnad und nit rechtz
+<lb/>begert, das die genannten min gnedige herren von <placeName ref="loc000849">Winterthur</placeName> mich desselben rechten erlaussen und vorab durch got und
+<lb/>gemelter bitt willen mir gnad und barmhertzikait mitgeteilt und usser soͤlcher vangknuß ledig gelaussen.</seg>
+<seg>Darum so hab
+<lb/>ich frig, ledig aller banden, unbezwungen, fu̍r mich, all min erben, fu̍r fru̍nd und fru̍nds fru̍nd, die alle vestenklich hertzuͦ verbunden,
+<lb/>ein uffrecht, redlich urfecht liplich zuͦ got und den hailgen geschwōren ze halten, soͤlche vangknuß und sach, und was sich darunder
+<lb/>verlouffen haut, gegen den obgenannten <orgName ref="org007943">schulthaisen und raͤte</orgName> gemeinlich und gmeiner statt <placeName ref="loc000849">Winterthur</placeName>, allen den iren
+<lb/>noch gegen den, so an miner vangknuß schuld, raut oder getaut gehept, nieman usgescheiden, niemermer ze anden, ze aͤffern
+ <lb/>noch ze rechen durch mich selbs noch yͤmand andern ze tuͦnd gestatten mit worten, wercken, raͤten, getaͤtten, heimlich noch offenlich,
+<lb/>weder mit gericht noch ōne gericht, geistlichem noch weltlichem, suß noch so, in dhein wise. Sonder hab ich ouch in disen eid genommen,
+<lb/>fu̍rohin zuͦ ewigen ziten wider die obgenannten mine herren <orgName ref="org007943">schulthais, raͤte</orgName> und gemeine statt <placeName ref="loc000849">Winterthur</placeName> mit worten
+ <lb/>noch wercken niemermer ze tuͦnd, ouch usser der statt <placeName ref="loc000849">Winterthur</placeName> fu̍r die thār ōn ir gunst und wu̍ssen nitmer ze gōnd noch mich
+<lb/>in dhein wise daruß ze fuͤgen.</seg>
+<seg>Wēr aber sach, das got nit woͤlle, das ich an mir selbs so lichtfertig und disen minen eid und urfecht
+<lb/>in einem oder mer puncten und artikel nit hielti, wie sich das fuͦgte, so setz ich, obgenannter <persName ref="per027610">Hanns Seli</persName>, wolbedachtlich uff mich
+<lb/>selbs, das ich alsdann aber ein meineider boͤswicht und ein erloser, u̍beltaͤttiger, verurteilter man heissen und sin sol und das
+<lb/>ouch die obgenannten min gnedig herren, <orgName ref="org007943">schulthais und raͤte zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, und ire nachkomen, oder wēm sy das ze tuͦnd
+<lb/>bevēlhen, zuͦ mir griffen, anfallen und vāhen mu̍gen in gefrigten oder ungefrigten cloͤstern, frighaiten, stetten, doͤrffern,
+ <lb/>landen, uff wasser, wō und an woͤlchen enden sy mich betretten mu̍gen, mich hinrichten, schaffen und tuͦn laussen
+<lb/>vom leben zum tod als einen u̍beltaͤttigen, erlosen, verzalten und mit dem rechten verurtailten menschen, der dann sin lib
+<lb/>und leben mit untaͤtten verwu̍rckt und verloren haut. Und sol mich ouch noch alle die minen hievor nu̍tzet schirmen, dhein
+<lb/>unnser antwurt, dhein frighait, recht noch gesatzt, dhein indult, dispensacion, uffhebung, absolvierung, dhein landtfrid, trostung,
+<lb/>reformacion, gleit, stett- noch landtrecht noch sunst, mit nammen nu̍tzetu̍berall, so ich oder yemand ander von mintwāgen
+<lb/>hierinne zuͦ schirm fu̍rziehen, erdencken, ouch hiewider geniessen moͤchten, dann ich mich des alles hierinne gentzlich
+<lb/>verzigen und begeben hab, mit urkund, incraft ditz briefs, geverd und arglist hierinne gantz abgescheiden.</seg>
+<seg>Unnd
+<lb/>des alles zuͦ guͦter, vester sicherhait so hab ich, <persName ref="per027610">Hanns Seli</persName>, obgenant, mit flis erbetten den obgenannten junkher <persName role="sigillant" ref="per013499">Hugen
+ <lb/>von Hegi</persName>, minen gnedigen, lieben junkherrn, das er sin eigen insigel fu̍r mich, all min erben und nachkommen,
+<lb/>doch im und sinen erben in allwēg unschaͤdlich, getān hencken haut an disen brief.</seg>
+<seg>Geben an <origDate when="1489-06-27">samstag vor
+<lb/>sant <persName ref="per000356">Uͦlrichs</persName> tag, nach Cristi gepu̍rt viertzehenhundert achtzig unnd nu̍n jāre</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c" scribe="per027307"><lb/><persName ref="per027610">Selis</persName> urfecht</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Urphed <persName ref="per027610">Hans Seli</persName> zu <placeName ref="loc000849">Winterthur</placeName> wegen
+ <lb/>lästeren und schmählens über seine obrigkeit,
+ <lb/>nimmermehr vor die thür aushin zu gehen,
+<lb/>anno <date when="1489">1489 <add place="inline" hand="hand19c"><date when="1489-06-27">27 Juni</date></add></date>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Im Zuge der Unruhen auf der <placeName ref="loc000065">Zürcher</placeName> Landschaft, die 1489 zum Sturz des Bürgermeisters <persName ref="per000814">Hans Waldmann</persName> führten (vgl. hierzu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_016">SSRQ ZH NF I/1/3, Nr. 16</ref></bibl>),<!-- Verweis auf den noch zu schreibenden Kommentar zu einem Stück betr. Waldmannhandel in der EE SSRQ ZH NF I 1 3--> ereigneten sich auch in <placeName ref="loc000849">Winterthur</placeName> mehrere Fälle des Widerstands gegen die Obrigkeit (vgl. <bibl>STAW URK 1654</bibl>; <bibl>STAW URK 1661</bibl>; <bibl>STAW B 2/5, S. 365, Eintrag 1</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Gagliardi, Waldmann</ref>, Bd. 2, Nr. 287</bibl>; <bibl>STAW B 2/5, S. 365, Eintrag 2</bibl>). Zentrale Vorwürfe gegen die Amtsträger waren Bereicherung und Parteilichkeit bei der Rechtsprechung. Die innerstädtischen Konflikte konnten unterdrückt werden, die Autorität des <orgName ref="org007943">Schultheissen und Rats</orgName> blieb letztlich ungefährdet. Zur politischen Lage in der Stadt Ende der 1480er Jahre vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 131, 140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996</ref>, S. 171-191</bibl>; vgl. auch den Überblick über die Haltung der Stadt im sogenannten Waldmannhandel bei <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1972</ref></bibl>.</p>
+<p>Der in den Eidbüchern des 17. Jahrhunderts erstmals überlieferte Bürgereid verpflichtete die Bürger von <placeName ref="loc000849">Winterthur</placeName> zu Gehorsam gegenüber dem <orgName ref="org007943">Schultheissen und Rat</orgName> (<bibl>winbib Ms. Fol. 241, fol. 1r-v</bibl>; <bibl>STAW B 3a/10, S. 1-2</bibl>). Illoyalität gegenüber der Obrigkeit wurde als Eidbruch gewertet, die Betreffenden galten als <orig>meineidig</orig>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ebel 1958</ref>, S. 37, 40, 134, 137, 158</bibl>. Zur städtischen Praxis, Delinquenten gegen einen Urfehdeeid, verbunden mit der Stadtverweisung oder anderen Auflagen, aus der Haft zu entlassen, statt sie vor Gericht zu stellen, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

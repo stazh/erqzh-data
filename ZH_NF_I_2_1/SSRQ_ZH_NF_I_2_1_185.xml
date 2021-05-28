@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_185</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 59v (Eintrag 2)</idno></msIdentifier><head>Eid der Brotbeschauer der Stadt Winterthur</head><msContents><summary>Die Brotbeschauer der Stadt Winterthur sollen schwören, zweimal wöchentlich das Brot der Weissbrotbäcker zu kontrollieren. Sind die Brote zu klein oder weisen sonstige Mängel auf, sollen sie Brote im Wert von 3 Schilling konfiszieren und dem Spital zukommen lassen sowie die betreffenden Bäcker dem Schultheissen melden, damit er ihnen eine Busse auferlegt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key005405">Konsumentenschutz</term><term ref="key000882">Nahrungsmittel</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="59v" facs="STAW_B_2_2_59_v.jpg
+"/>
+<head><lb/>Brotschower eide</head>
+<p>
+<lb/>Item die brotschoͤwer soͤllend schwēren, alle <date dur="R/P1W">wochen</date>,
+ <lb/><subst><del>zuͦ zweyenmaln</del><add place="left margin" type="sign" hand="other hand"><lb/>so dick sy von <lb/>den knechten <lb/>erfordert werden</add></subst>, jegklichem wisbrotbecken sin brot
+ <lb/>nach iren gewu̍ssne unnd besten verstentnuß
+ <lb/>glichlich <add place="left margin" hand="other hand" type="sign"><lb/>in der lowen <lb/>und in iren hu̍<lb break="no"/>sern</add> ze schoͤwen. Unnd woͤlches brot sy zuͦ clein
+ <lb/>oder sunst unordenlich gepachen erfinden, das
+ <lb/>sy von soͤlchem brot allwegen <measure type="currency" unit="ß" quantity="2"><subst><del rend="strikethrough" hand="other hand">drig</del><add place="above" hand="other hand">zwen</add></subst> schilling</measure> wert
+ <lb/>nēmen und in den <orgName ref="org007934">spital</orgName> armenlu̍ten zuͦ ordnen,<note>1479 hatten beide <orgName ref="org007944">Räte der Stadt <placeName ref="loc000849">Winterthur</placeName></orgName> vereinbart, bei minderwertiger Ware Brot im Wert von 5 Schilling zugunsten des <orgName ref="org007934">Spitals</orgName> zu konfiszieren (<bibl>STAW B 2/3, S. 399</bibl>).</note>
+<lb/>dartzuͦ den selben brotbecken umb die gewonlichen
+ <lb/>strauff<note>In einem Ratsbeschluss von 1478 ist die Rede von 2 Pfund Bussgeld neben der Konfiszierung von Brot im Wert von 3 Schilling (<bibl>STAW B 2/3, S. 384</bibl>).</note> einem schulthaiß oͤn verzug leiden soͤllen,
+ <lb/>so dick das beschicht.<note>Der Eid der Brotbeschauer findet sich in modifizierter Form auch in den Eidbüchern der Stadt <placeName ref="loc000849">Winterthur</placeName> des 17. Jahrhunderts (<bibl>winbib Ms. Fol. 241, fol. 4r</bibl>; <bibl>STAW B 3a/10, S. 9</bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die städtische Obrigkeit praktizierte Konsumentenschutz, indem sie Qualitätsstandards festlegte und Kontrollen durchführen liess. Brotbeschauer werden erstmals in der Ämterliste von 1410 erwähnt (<bibl>STAW B 2/1, fol. 33r</bibl>), sie gehörten dem <orgName ref="org005587">Kleinen</orgName> und dem <orgName ref="org009293">Grossen Rat</orgName> an (<bibl>winbib Ms. Fol. 27, S. 497</bibl>). Die in der Eidformel enthaltenen Bestimmungen finden sich bereits in einem Ratsbeschluss vom 20. Juni 1487. Damals wurde zudem angeordnet, dass der Schultheiss von den Bäckern, deren Brot ein zu geringes Gewicht aufwies, 10 Schilling und von denen, die eine Verknappung des Angebots verschuldeten, 1 Pfund Busse einziehen solle (<bibl>STAW B 2/5, S. 255</bibl>). Eine Aufstellung des vorgeschriebenen Gewichts von Broten verschiedener Preisklassen in Abhängigkeit von Getreidepreis und Mehlsorte enthält die Brotordnung von 1531 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_259">SSRQ ZH NF I/2/1, Nr. 259</ref></bibl>). Die Bäcker mussten sich gemäss einer Eidformel aus dem Jahr 1498 ferner dazu verpflichten, Weissbrot mit <orig>hab</orig> zu backen, einer Hefeart, die sie zweimal pro Woche frisch anzusetzen hatten (<bibl>STAW B 2/6, S. 40</bibl>). Später wurden weitere Verordnungen über Art und Umfang der Produktion und Ahndung von Qualitätsmängeln erlassen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_262">SSRQ ZH NF I/2/1, Nr. 262</ref></bibl>.</p>
+<p>Zum Bäckerhandwerk allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/013994/2009-04-16/">Bäckerei</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">LexMA</ref>, Bd. 1, Bäcker, Sp. 1325-1327</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">LexMA</ref>, Bd. 2, Brot, Sp. 719-720</bibl>; zu den Bäckern in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rozycki 1946</ref>, S. 32-36</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

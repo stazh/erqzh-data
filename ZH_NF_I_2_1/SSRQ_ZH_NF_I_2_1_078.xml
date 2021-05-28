@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_078</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 110v (Eintrag 3)</idno></msIdentifier><head>Einführung einer Kopfsteuer in Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur beschliessen, dass von jetzt an bis auf Widerruf jede Person, die älter als 12 Jahre alt ist, in der Stadt ansässig ist oder ausserhalb wohnt und zu ihr gehört, eine wöchentliche Steuer von 1 Pfennig zahlen soll.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Engelfried</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1448-09-22"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003648">Geistlichkeit</term><term ref="key003288">Mündigkeit</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="110v"/>
+<p>
+<lb/>Anno <abbr>etc</abbr>
+<origDate when="1448-09-22">xlviij<hi rend="sup">vo</hi> dominica post <persName ref="per000340">Mathie</persName></origDate><note>Aufgrund der chronologischen Reihenfolge der Einträge scheint der Evangelist <persName ref="per000340">Matthäus</persName> und nicht der Apostel <persName ref="per000375">Matthias</persName> gemeint zu sein.</note> hant <orgName ref="org009293">beide
+<lb/>raͤte, der klein und der groß, die viertzig, ze <placeName ref="loc000849">Wintterthur</placeName></orgName>,
+<lb/>geordent und uffgesetzt durch der statt anligende
+<lb/>notdurfft willen, das ein yegkliche person, sy sie
+<lb/>geistlich<note>Gemäss kanonischem Recht waren Kleriker von weltlichen Steuern und Diensten befreit (privilegium immunitatis). Beruhte die Besteuerung von Geistlichen zunächst noch auf bilateralen Vereinbarungen, wurde die Steuerpflicht allmählich auf den Stadtklerus ausgedehnt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 152-153, 616-619</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 2002a</ref>, S. 160-163</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Moeller 1972</ref>, S. 196, 200-202, 217-218</bibl>.</note> oder weltlich, frow oder mann, so denn u̍ber
+<lb/><measure type="age" unit="year" quantity="12">zwoͤlff jar alt</measure> und zuͦ <placeName ref="loc000849">Wintterthur</placeName> wonhafft
+<lb/>oder ußwendig und inen zuͦgehoͤrende ist, <date dur="R/P1W">alle
+ <lb/>wuͦchen wuͤchenlich</date>
+<measure type="currency" unit="d" quantity="1">einen <choice><abbr>phen</abbr><expan>phenning</expan></choice></measure> geben sol.
+<lb/>Und sol ouch also bestan uff der <orgName ref="org005587">raͤten</orgName>
+<lb/>widerruffen. Und ist ouch der phenning
+<lb/>uff disen tag angehept ze geben.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc000849">Winterthur</placeName> wurden Haushalte mit einer Vermögenssteuer belegt
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_266">SSRQ ZH NF I/2/1, Nr. 266</ref></bibl>)
+und Verbrauchssteuern auf Wein und Getreide erhoben
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_267">SSRQ ZH NF I/2/1, Nr. 267</ref></bibl>).
+Bei Bedarf wurde darüber hinaus eine ausserordentliche Kopfsteuer angesetzt wie in den 1440er Jahren,
+als die Stadt hochverschuldet und durch kriegerische Ereignisse bedroht war.
+Zusätzlich zu den Verbindlichkeiten, die aus Pfandgeschäften der <orgName ref="org000088">Herzöge von Österreich</orgName> resultierten,
+belasteten damals Ausgaben im Zusammenhang mit dem Alten Zürichkrieg
+(vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/008877/2015-05-04/">Alter Zürichkrieg</ref></bibl>) den städtischen Haushalt.
+In <placeName ref="loc000849">Winterthur</placeName> waren <orgName ref="org000088">habsburgische</orgName> Truppen stationiert,
+wiederholt war ein städtisches Aufgebot im Einsatz und man lieferte Proviant. Zu dieser Krisensituation vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2006a</ref></bibl>.
+Auch andernorts wurden damals Kopfsteuern eingeführt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Landolt 2007</ref>, S. 110-118</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

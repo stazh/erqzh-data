@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_158</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 485 (Eintrag 2)</idno></msIdentifier><head>Befreiung der Stadt Winterthur und ihrer Bürger vom Zoll bei Kloten und Rorbas durch die Stadt Zürich</head><msContents><summary>Bürgermeister und Rat von Zürich haben auf Bitten des Schultheissen und Rats von Winterthur die Stadt und ihre Bürger vom Zoll bei Kloten und Rorbas befreit, solange die Verpfändung Winterthurs an Zürich durch das Haus Österreich währt. Schultheiss und Rat von Winterthur haben daraufhin gegenüber dem Zürcher Rat erklärt, dass diese Zollbefreiung gnadenhalber erfolgt sei und nicht aufgrund einer rechtlichen Verpflichtung, dass sie nur für die Dauer des Pfandverhältnisses bestehe und dass sie die Zürcher Herrschaftsrechte an dem Zoll nicht beeinträchtige. Diese Erklärung wurde bei dem Zürcher Rat in Form einer mit dem Winterthurer Sekretsiegel versehenen Urkunde hinterlegt wie andere Urkunden, welche die Stadt betreffen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1491-07-24"/></origin></history><additional><listBibl><head>Regest</head><bibl>QZWG, Bd. 2, Nr. 1501</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005295">Privilegien</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="485" facs="STAW_B_2_5_S.485.jpg
+"/>
+<head><lb/>Frigheit vom zoll zuͦ <placeName ref="loc011182">Rorbis</placeName> und <placeName ref="loc008727">Cloten</placeName></head>
+<p>
+<lb/><seg>Item mine herren <orgName ref="org002406">burgermeister unnd rate <placeName ref="loc000065">Zu̍rich</placeName></orgName> haben uff bitt
+<lb/>miner herren <orgName ref="org007943">schulthaiß und raͤten</orgName> alhie den zoll zuͦ <placeName ref="loc008727">Cloten</placeName> unnd
+<lb/><placeName ref="loc011182">Rorbis</placeName> von gnaden nachgelaussen unnd gmeine statt und burgere
+<lb/>alhie desselben zols gefrigt, als lang wir inen der pfandunghalb
+ <lb/>vom <orgName ref="org000088">hus von Oͤsterich</orgName> wie yͤtzo zuͦ versprēchen stoͧnd. Uff das haben
+ <lb/>die gemelten mine herren <orgName ref="org007943">schultheiß und rāt</orgName> einen bekantnußbriefe
+ <lb/>inen gen <placeName ref="loc000065">Zu̍rich</placeName> u̍berantwurt, so alda <placeName ref="loc000065">Zu̍rich</placeName> hinder einen <orgName ref="org001217">rat</orgName> wie
+ <lb/>ander briefe gmeiner ir statt zuͦgehoͤrende geleit ist, wisende in nach<lb break="no"/>gemelter fōrm:</seg>
+<seg><quote><seg>Wir, <orgName role="issuer" ref="org007943">schulthais und rāte zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, bekennen
+<lb/>offenlich mit disem briefe, als die strengen, fu̍rsichtigen und wisen
+<lb/><orgName ref="org002406">burgermeister und rāte der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, unser gnedig und lieb herren,
+<lb/>uff unnser ernstlich und flissig bitt unns und unnser burgere gemeinlich
+<lb/>und sonderlich des zols zuͦ <placeName ref="loc008727">Cloten</placeName> und <placeName ref="loc011182">Rorbis</placeName> in ir graufschaft <placeName ref="loc000012">Kiburg</placeName>,
+<lb/>so inen zuͦgehoͤrt, von gnaden gefrigt, das wir darumb incraft ditz
+<lb/>briefs bekennen fu̍r unns und alle unnser nachkomen, das sy unns soͤlch
+<lb/>frigheit desselben zols us keiner schuldiger gerechtikeit, sonder allein von
+<lb/>gnaden und sunder gu̍nstigem willen nachgelaussen und unns des
+<lb/>gefrigt haben, als lang wir und gmeine unnser statt <placeName ref="loc000849">Winterthur</placeName> inen
+ <lb/>der pfandung halb vom loblichen <orgName ref="org000088">hus Oͤsterich</orgName> wie yͤtzo zuͦversprēchen
+<lb/>stoͧnd, doch inen und iren nachkommen an ir oberkeit desselben zols halb
+ <lb/>und sunst in all anderwegen undschaͤdlich und unvergriffen.</seg>
+<seg>Hierumb
+  <lb/>zuͦ offem urkund, so haben wir unnser statt gemein secret in<lb break="no"/>sigel fu̍r unns und unnser nachkommen gehenckt an disen briefe.<note>Die Ausfertigung ist nicht überliefert.</note></seg>
+<seg><lb/>Datum an <origDate when="1491-07-24">sant <persName ref="per000208">Jacobs</persName> abend, apostoli, anno <abbr>etc</abbr> m cccc lxxxx <subst><del>secundo</del>
+<lb/><add place="below">primo</add></subst></origDate>.</seg></quote></seg><!-- Umsetzungsproblem: ausgezeichnet gemäss Wiki: inserierte Urkunde mit <quote> und <note>, Binnenstrukturierung der Urkunde mit <seg> - daher stehen im Tester die Anführungszeichen auf einer Leerzeile oberhalb und unterhalb des Textes. -->
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die <orgName ref="org007943">Winterthurer</orgName> hatten 1482 für sich und ihre Untertanen von <placeName ref="loc010469">Hettlingen</placeName> dieselben Zollvergünstigungen für den Warentransport nach <placeName ref="loc000959">Zurzach</placeName> beansprucht, welche den Bewohnern der Grafschaft <placeName ref="loc000012">Kyburg</placeName> eingeräumt worden waren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_121">SSRQ ZH NF I/2/1, Nr. 121</ref></bibl>). Offenbar aufgrund dieses Zugeständnisses verweigerten sie an der Zollstelle bei <placeName ref="loc011182">Rorbas</placeName> die Zahlung (<bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1560 h</bibl>), so dass nun eine bilaterale Regelung getroffen wurde. Um sicherzustellen, dass die <orgName ref="org007943">Winterthurer</orgName> keine fremde Ware als die eigene ausgaben und der Verzollung entzogen, wurde der Zöllner instruiert, Verstösse dem Landvogt von <placeName ref="loc000012">Kyburg</placeName> zu melden (<bibl><ref target="/startseite/literaturverzeichnis">Schnyder 1938</ref>, Beilage Nr. 20, S. 183-184</bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_034</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 4v (Eintrag 3)</idno></msIdentifier><head>Wahl des Götz Schultheiss unterm Schopf zum Schultheissen der Stadt Winterthur</head><msContents><summary>Die Bürger der Stadt Winterthur haben Götz Schultheiss unterm Schopf zum Schultheissen gewählt. Am 24. Juni 1406 soll er sein Amt niederlegen, es sei denn die Bürger wählen ihn wieder mehrheitlich zum Schultheissen. Er hat den üblichen Amtseid geleistet. Tags darauf hat ihn der Herzog von Österreich im Amt bestätigt und ihm den Bann verliehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1405-06-28" to="1405-06-29">Die Wahl erfolgte am 28. Juni 1405, die Bestätigung im Amt am 29. Juni 1405.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key005361">Amtsübergabe</term><term ref="key004284">Bann</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="4v"/>
+<p><lb/><hi rend="underline">Anno <origDate when="1405">m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> quinto</origDate></hi></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgen zwei Einträge über die Vereinbarung mit einem Bürger betreffend Weinsteuer und über die Einsetzung eines Wächters.</note>
+</p>
+<p>
+<lb/><seg>An dem naͤhsten <origDate when="1405-06-28">sunnentag vor <orgName ref="org001652">sant <persName ref="per000438">Peters</persName> und sant <persName ref="per012712">Pauls</persName></orgName> tag</origDate>
+<lb/>do hant die <orgName ref="org005980">burger gemainlich ze <placeName ref="loc000849">Winterthur</placeName></orgName>
+<persName ref="per026948">Goͤtzen Schultheissen
+ <lb/>underm Schopff</persName> ze einem hopt und schultheissen erwelt also, daz er uff
+<lb/>den naͤchstku̍nftigen <date when="1406-06-24">sant <persName ref="per000049">Johans</persName> tag ze sunnwendi</date> den stab und den
+<lb/>gewalt uffgeben sol und daz er noch nieman ander von sinen wegen uber
+<lb/>dasselb schultheissen ampt in dehein wis nit fu̍ro stellen noch werben
+<lb/>sol, es sye denn, daz er von den burgern gemeinlich oder von dem merteil
+ <lb/>der burger fu̍ro dar zuͦ erwelt werdi, alz er ôch jetz erwelt ist.<note><persName ref="per026948">Götz Schultheiss unterm Schopf</persName> war der Nachfolger von <persName ref="per026939">Laurenz von Sal</persName>, der in der Schlacht am <placeName ref="loc013089">Stoss</placeName> zwischen den Truppen <persName ref="per000346">Herzog Friedrichs von Österreich</persName> und den aufständischen <orgName ref="org000425">Appenzellern</orgName> am 17. Juni 1405 umgekommen war. <persName ref="per026948">Götz</persName> absolvierte zwei Amtsjahre, danach scheint er bei der Herrschaft in Ungnade gefallen zu sein und wurde angeblich ertränkt. Zu den Hintergründen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2004</ref>, S. 46-48</bibl>.</note></seg>
+<seg>Und
+<lb/>hett ôch do zestett den eid getân, den ein schultheis gewonlich
+ <lb/>swert.<note>Die Formel des Schultheisseneids ist erstmals im ältesten Eidbuch der Stadt aus den 1620er Jahren überliefert und lautet folgendermassen: <orig>Der schultheiß soll schweren einem <orgName ref="org002406">burgermeister und rath und dem großen rath, genant die zweyhundert, der statt <placeName ref="loc000065">Zürich</placeName></orgName> thrüw und warheit. Ouch einem <orgName ref="org007943">schultheißen und rathe</orgName> alhie ghorsam zesind, sin stür und umbgelt zegeͣben uff zill und tag, wie daß je im bruch ist, und kein <orgName ref="org009293">großen rath</orgName> haben, er sige dann zuͦvor von dem <orgName ref="org005587">cleinen rath</orgName> zehaben angesëhen. Deßglichen ouch keinen brieff mit der statt secret besiglen, sige dann zuͦvor von einem ersamen <orgName ref="org005587">rath</orgName> zuͦbesiglen erkent. Ouch die pfruͦnden und den wald beschirmen und gmeiner statt nutz fürderen und iren schaden wenden nach sinem besten vermögen.</orig> (<bibl>winbib Ms. Fol. 241, fol. 1r</bibl>; wörtlich gleichlautend: <bibl>STAW B 3a/10, S. 1</bibl>).</note></seg>
+<seg>Und enmornend an <date when="1405-06-29">sant <persName ref="per000438">Peters</persName> tag</date> do hett in min herr
+<lb/>von <placeName ref="loc000589">Oͤsterrich</placeName> ze schultheissen bestaͤtigot und hett im den ban ze
+<lb/><placeName ref="loc000849">Winterthur</placeName> verlihen.</seg>
+</p>
+</div>
+<div>
+<ab type="marginal note" place="left margin" hand="hand19c"><lb/>Schultheiß <lb/><persName ref="per026948">Götz</persName></ab>
+</div>
+<div>
+<ab type="marginal note" place="left margin" hand="hand19c"><lb/><placeName ref="loc000589">Österreichische</placeName>
+<lb/>Bestätigung <lb/>&amp; Verleihung <lb/>des Banns</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Wahl des Schultheissen durch die Bürger und ihre Bestätigung durch den Stadtherrn wird bereits in der <placeName ref="loc000849">Winterthurer</placeName> Rechtsaufzeichnung von 1297 erwähnt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr. 7</ref>, Teil I, Artikel 3</bibl>). Innerstädtische Unruhen führten im Jahr 1342 dazu, dass ihnen dieses Recht vorübergehend entzogen wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_015">SSRQ ZH NF I/2/1, Nr. 15</ref>, Artikel 2</bibl>). Ob die Bürger mit der Wahl von <persName ref="per026948">Götz Schultheiss</persName> die Schwäche der <orgName ref="org000088">habsburgischen</orgName> Herrschaft im Zuge der Appenzellerkriege ausnutzten, um den stadtherrlichen Einfluss auf die Besetzung dieses Amts zurückzudrängen, wie es in <placeName ref="loc000108">Rapperswil</placeName> zu beobachten ist (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ SG II/2/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/SG_II_2_1/index.html#p_85">Nr. 43</ref></bibl>), oder ob sie das Wahlrecht schon zu einem früheren Zeitpunkt wieder ausüben konnten, lässt sich nicht mehr klären. Zu den Auswirkungen der Appenzellerkriege auf die Stadt <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2004</ref></bibl>. In der Folgezeit erliessen <orgName ref="org007943">Schultheiss und Rat</orgName> mehrere Verfügungen über die Ämterbesetzung. So ordneten sie 1406 an, dass jeder, der unentschuldigt der Wahl fernblieb, 5 Pfund Pfennig Busse zahlen sollte (<bibl>STAW B 2/1, fol. 10v</bibl>), setzten im Jahr darauf das Annuitätsprinzip bei gleichzeitigem Verbot der Ämterkumulation für bestimmte Ämter fest (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_039">SSRQ ZH NF I/2/1, Nr. 39</ref></bibl>) und zogen 1408 Vertreter der Handwerke zur Rechnungsprüfung heran (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_041">SSRQ ZH NF I/2/1, Nr. 41</ref></bibl>). Auch in anderen <orgName ref="org000088">habsburgischen</orgName> Landstädten setzte sich allmählich die Wahl des Schultheissen durch die Gemeinde durch, wobei sich die Amtsträger oft durch enge Bindungen zur Herrschaft auszeichneten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stercken 2006</ref>, S. 169-174</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Meyer 1933</ref>, S. 208-213</bibl>.
+ </p>
+<p>Das heute verlorene Kopial- und Satzungsbuch, das 1535 von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegt und von dessen Nachfolgern fortgesetzt wurde, enthielt Angaben zur Ämterbesetzung, angefangen mit der Wahl des Schultheissen (<bibl>winbib Ms. Fol. 27, S. 492-493</bibl>). Anhand <persName ref="per027189">Johann Jakob Goldschmids</persName> Abschrift aus dem 18. Jahrhundert ist eine Datierung aufgrund der Schrift nicht mehr möglich, so dass sich die Jahresangabe 1510 bei <bibl><ref target="/startseite/literaturverzeichnis">Troll 1840-1850</ref>, Bd. 5, S. 90-91</bibl>, nicht verifizieren lässt. Dieser Aufzeichnung zufolge wurde zunächst der Amtsinhaber vor den versammelten Bürgern am 21. Juni, dem Albanstag, in der grossen Stube des Rathauses von seinem Eid entbunden und entliess seinerseits <orgName ref="org007944">beide Räte</orgName> und die Gemeinde aus ihren Eiden. Der oberste Stadtknecht fragte nacheinander den alt Schultheissen, die Mitglieder des <orgName ref="org005587">Kleinen </orgName> und des <orgName ref="org007944">Grossen Rats</orgName> sowie die Bürger nach Vorschlägen für die Nachfolge. Die öffentliche Wahl fand in Abwesenheit der Kandidaten und ihrer Verwandten statt. Danach leistete die Gemeinde dem neuen Schultheissen den obligatorischen Eid und die drei Stadtknechte übergaben ihm das Amtsinsigne, den Gerichtsstab. Zuletzt begleiteten ihn die Mitglieder des <orgName ref="org005587">Kleinen Rats</orgName>, die Stadtknechte, die Trompeter, die Wächter und der Stadtbote nach Hause und wurden dort bewirtet. Dieser Ablauf war vermutlich schon 1543 gängige Praxis, als Ausgaben für die Erneuerung der Ordnung der Schultheissenwahl abgerechnet wurden, da das alte Dokument unleserlich geworden war (<bibl>STAW Se 27.21, S. 16</bibl>), vgl. auch die Schilderung der Schultheissenwahl bei <bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 306</bibl>. Ein Verzeichnis der Schultheissen von <placeName ref="loc000849">Winterthur</placeName> ist zusammengestellt bei <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 84-98</bibl>.
+ </p>
+<p>Der Schultheiss galt gemäss der Ämterbeschreibung des <persName ref="per026892">Hans Ernst</persName> von 1692 als Oberhaupt der Stadt (<bibl>winbib Ms. Fol. 264, S. 131</bibl>), war aber an die Mehrheitsbeschlüsse des <orgName ref="org005587">Rats</orgName> gebunden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_129">SSRQ ZH NF I/2/1, Nr. 129</ref></bibl>). Er sass dem städtischen Gericht vor und siegelte die Urteile mit dem Gerichtssiegel (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_132">SSRQ ZH NF I/2/1, Nr. 132</ref></bibl>). Ihm verlieh der Ratsälteste anstelle des Königs den Blutbann (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_101">SSRQ ZH NF I/2/1, Nr. 101</ref></bibl>). War der Schultheiss abwesend, vertrat ihn sein Statthalter, ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName> (<bibl>winbib Ms. Fol. 264, S. 132</bibl>; <bibl>winbib Ms. Fol. 27, S. 703</bibl>). Bis in die 1430er Jahre war es üblich, dass die Bürger dem Schultheissen an Weihnachten mit Geschenken aufwarteten, während dieser an Ostern eine Fleischspeise, das sogenannte <orig>gehaͤk</orig>, ausgab und an Feiertagen die Ratsknechte und andere Personen bewirtete. Danach wurde dieser Brauch abgeschafft und dem Schultheissen ein jährliches Gehalt aus der Stadtkasse zugewiesen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_063">SSRQ ZH NF I/2/1, Nr. 63</ref></bibl>). Zu den Kompetenzen des <placeName ref="loc000849">Winterthurer</placeName> Schultheissen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 129-130, 139</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 63-64</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1960</ref>, S. 244-247</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_262</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AH 98/1/5 Bä.2</idno></msIdentifier><head>Nachtrag zur Brotordnung der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur bestätigen und präzisieren die Bestimmungen der Brotordnung über die Beschaffenheit des Mehls und des Backtriebmittels. Die Bestimmungen über Gewicht und Qualität des Brots bleiben in Kraft. Bäcker, deren Brot bei der Kontrolle beanstandet wird, sollen gemäss der Ordnung bestraft werden. Jeder darf so viel backen, wie er möchte, aber niemand soll einem anderen seinen Ofen zur Verfügung stellen. Schultheiss und Rat behalten sich Änderungen vor. Es folgt eine Aufstellung der gebüssten Bäcker.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1532-07-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000849">Handwerk</term><term ref="key005405">Konsumentenschutz</term><term ref="key000882">Nahrungsmittel</term><term ref="key004022">Satzung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="3" facs="STAW_AH_98_1_5_Bä.2.jpg
+"/>
+<p>
+<seg><lb/>Uff das mine heren hütztag von des gmeinen nutzes wagen in dem pfister hant<lb break="no"/>waͤrch zuͦ handlen gsaͤsen und sy alles das in soͤlichem handwerch abzuͦstellen
+<lb/>oder zuͦ uffnen ordinett, haben sy ze guͦtt dem gmeinen nutz angesaͤchen und
+<lb/>erkentt, das hinfür die pfister die letst satzing, wie inen die von minen
+<lb/>heren zuͦ bachen gaͤben, fürhin soͤlintt bachen, wie inen die saͤlbig ordnung
+<lb/>zuͦ bachen <subst><del>gheisen</del><add place="above">angaͤben</add></subst> ist, namlich das sy uff der wißmu̍lly und nitt uff der
+ <lb/>kernen mu̍lly soͤlint lasen mallen, deßglichen an den fürteig<note>Vorteig auf Hefebasis, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/217379">Bd. 12, Sp. 1112</ref></bibl>.</note> und nitt mer
+ <lb/>an das hab bachen. Doch ist inen hierin nach gelāsen, daß sy woll den hebell<note>Sauerteig, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/131830">Bd. 2, Sp. 924</ref></bibl>.</note>
+<lb/>mitt dem hab, esich, pranten win oder wor mitt einer sich deß getru̍wtt zuͦ geni<lb break="no"/>sen, ansetzen moͤg.<note>1497 ordneten <orgName ref="org007944">beide Räte</orgName> an, dass <orig>hab</orig> als Triebmittel für Weissbrot verwendet werden sollte (<bibl>STAW B 2/6, S. 27</bibl>, vgl. <bibl>STAW B 2/6, S. 40</bibl>, mit Hinweisen zur Herstellung). Hierbei handelte es sich um eine Hefeart im Gegensatz zum <orig>hebel</orig>, dem Sauerteig (<bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 154</bibl>).</note></seg>
+<seg>Doch das hierin der satzung, es sig deß gwichts oder
+ <lb/>unordenliche der paͤch, nützett abgang, dan woͤlicher an der schuͦw<note>Brotbeschauer prüften regelmässig die Qualität der Ware (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_185">SSRQ ZH NF I/2/1, Nr. 185</ref></bibl>).</note> nitt nach
+<lb/>lutt der satzung, es sig gwichtts oder der paͤchtthalb, erfunden, wurden mine
+ <lb/>heren ein jeden, so dick das beschichtt, nach lutt der satzung straffen.<add place="left margin" type="sign"><lb/>Und es moͤchtt einer so gar unordelich <add place="above">im</add> pachen <subst><del><gap reason="illegible" unit="word" quantity="1"/></del><add place="above">sich</add></subst> uber<lb break="no"/>saͤchen, mine heren würdintt densaͤlbigen <lb/>zuͦ pachen ein gantz <date dur="P1Y">jar</date>
+<add place="above" type="sign">lang</add> still stellen.</add></seg>
+<seg>Dar<lb break="no"/>zuͦ ist das miner heren ansaͤchen, das einer hinfür moͤge bachen, so vill
+ <lb/>er tru̍w zuͦ vertriben, und <add place="above">das</add> dheiner <unclear>dem</unclear> ander firen<note>Möglicherweise verschrieben für <orig>fu̍ren</orig> im Sinne von Feuer machen.</note> soͤlle. Darzuͦ habenn
+<lb/>mine heren inen saͤlber vorbehalt<subst><del>ung</del><add place="above">enn</add></subst>, soͤlichs zuͦ bruchen, auch minderen und
+<lb/>meren, so lang es inen gfelig sin will.</seg>
+<seg>Actum <origDate when="1532-07-08">mentag nach <persName ref="per000356">Uͦlrice</persName>, anno
+ <lb/>xxxij</origDate>.</seg>
+</p>
+<p>
+<seg><lb/><persName ref="per027641">Ruͦdolff Sultzer</persName>
+<measure type="currency" unit="lb" quantity="2">ij </measure>
+<add place="inline">um sin ubertraͤtung, <lb/>das brott zuͦ klein <lb/>gsin ist.</add><note>Vermutlich bezieht sich der Zusatz auf alle in der ersten Spalte aufgeführten Personen.</note></seg>
+<seg><lb/><persName ref="per028052">Clauß Pfister</persName>
+<measure type="currency" unit="ß" quantity="10">x </measure></seg>
+<seg><lb/><persName ref="per028050">Weltin Hedinger</persName>
+<measure type="currency" unit="lb" quantity="2">ij </measure></seg>
+<seg><lb/><persName ref="per027458">Marx Custer</persName>
+<measure type="currency" unit="lb" quantity="2">ij </measure></seg>
+<seg><lb/><persName ref="per027654">Laurentz Winman</persName>
+<measure type="currency" unit="lb" quantity="2">ij </measure></seg>
+<seg><lb/><persName ref="per027182">Laurentz Boßhartt</persName>
+<measure type="currency" unit="ß" quantity="10">x </measure></seg>
+</p>
+<p>
+<add place="bottom" hand="other hand"><seg><lb/><persName ref="per028052">Claus Pfister</persName> pfennig wertig
+ <lb/>manglott <measure type="weight" unit="Lot" quantity="1">j lott</measure>.</seg>
+<seg><lb/><persName ref="per028050">Welty Hedinger</persName> kru̍tzer wertig
+ <lb/>manglott <measure type="weight" unit="Lot" quantity="2.5">iiɉ lott</measure>.</seg>
+<seg><lb/><persName ref="per027458">Marx Küster<del rend="blackened">r</del></persName> kru̍tzer <sic>wergtig</sic>
+<lb/>manglott <measure type="weight" unit="Lot" quantity="2.5">iiɉ lott</measure>.</seg>
+<seg><lb/><persName ref="per027654">Larentz Wiman</persName> kru̍tzer <sic>wergtig</sic>
+<lb/>manglott <measure type="weight" unit="Lot" quantity="5">v lott</measure>.</seg>
+<seg><lb/><persName ref="per027182">Larentz Boshartt</persName> kru̍tzer <sic>wergtig</sic>
+<lb/>manglott <measure type="weight" unit="Lot" quantity="1">j lott</measure>.</seg></add><note>Die zweite Spalte steht auf dem Kopf.</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Obrigkeit ging restriktiv gegen Bäcker vor, deren Brote nicht den Vorgaben entsprachen. Betrügerische Absichten waren nicht immer der Grund für diese Abweichungen, sie konnten auch auf den Backprozess oder die Getreidequalität zurückzuführen sein, vgl. <bibl><ref target="/startseite/Literaturverzeichnis">Rozycki 1946</ref>, S. 34-35</bibl>.</p>
+<p>Dieser Nachtrag wurde zusammen mit der Bäckerordnung von 1531 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_259">SSRQ ZH NF I/2/1, Nr. 259</ref></bibl>) zu einem späteren Zeitpunkt zu einem Heft formiert, wobei die Reihenfolge der Seiten nicht beachtet wurde.<!-- Man sieht es an einem Wasserfleck auf der Seitenkante der Brotordnung, die auf diesem Blatt fehlt. --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

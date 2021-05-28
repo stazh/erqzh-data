@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_203</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/6, S. 235 (Eintrag 1) </idno></msIdentifier><head>Urfehde des Hensli Walter wegen gewinnorientierten Kleinhandels in der Stadt Winterthur</head><msContents><summary>Hensli Walter ist in Haft gekommen, weil er unter Missachtung des Verbots des Schultheissen und Rats von Winterthur auf dem Markt Hanfsamen zum Weiterverkauf erworben hat. Vor einigen Jahren hatte man ihn aus denselben Gründen verhaftet und auf Bitte des Herdegen von Hinwil und anderer seiner Verwandten gegen Urfehde freigelassen. Hensli hat sich freiwillig einer Bestrafung durch den Rat unterworfen und auf ein Rechtsverfahren verzichtet. Schultheiss und Rat haben ihn auf Bitte seiner Verwandten abermals gegen Urfehde aus der Haft entlassen. Er hat sich verpflichtet, alle Anordnungen des Rats betreffend die Märkte einzuhalten. Ihm wird eine Busse von 20 Gulden auferlegt. Als Zeugen der Urfehde fungieren Klaus Hofmann, Heini Sinner, Hensli Mongwiler und drei seiner Brüder.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1506-04-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key000792">Fürkauf</term><term ref="key000793">Markt</term><term ref="key000480">Urfehde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="235"/>
+<p><lb/>Actum <origDate when="1506-04-18">samstag vor <persName ref="per000270">Jeory</persName>, anno <abbr>etc</abbr> vj<hi rend="sup">to</hi></origDate></p>
+<p>
+<lb/><seg>Item als <persName ref="per027860">Hennsli Walther</persName> in miner herren vangknuß kommen ist von des wēgen,
+<lb/>das er wider miner herren verbott unnd angesaͤhen ordnung uff offen marcktage
+<lb/>ettlich hanfsamen uff pfragnery koufft, desglichen vor ettlichen jāren ouch
+ <lb/>also wider unnser statt satzung und ordnung uff <choice><sic>pfargnery</sic><corr>pfragnery</corr></choice> koufft,<note>Der gewerbsmässige Weiterverkauf von Waren unterlag gewissen Einschränkungen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_117">SSRQ ZH NF I/2/1, Nr. 117</ref></bibl>.</note> darumb er
+<lb/>ouch in vangknuß komen und uff bitt des <persName ref="per013506">Herdegens von Hu̍nwil</persName> unnd
+<lb/>ander siner fru̍nden bitt ōn entgeltnuß ledig gelaussen ist uff ein urfecht,
+<lb/>dar in er geschwōren haͧt under anderm, wider mine herren unnd gmeine
+<lb/>statt mit worten und wercken nitmer ze handlen <abbr>etc</abbr>, unnd als sich gemelter
+<lb/><persName ref="per027860">Hensli</persName> umb soͤlch u̍bersaͤhen in eins <orgName ref="org005587">rautz</orgName> strauff guͤtlich begeben unnd nit rechtz
+<lb/>begert haut, uff das haben mine herren in wider usser der vangknuß
+<lb/>uff treffenlich siner fru̍ndschaft bitt ledig gelaussen uff ein urfecht,
+<lb/>die er ze halten friglich geschworn haut, solch vangknuß gegen einem
+<lb/><orgName ref="org005587">raut</orgName> und gmeiner statt unnd allen unnsern burgern und die, so unns ze
+<lb/>versprechen stond, mit worten noch wercken nitmer ze anden noch ze u̍blen
+<lb/>noch ze rechen in dhein wise, sonder ouch in disen eid genommen alle
+<lb/>bott und verbott, wie die von einem <orgName ref="org005587">raut</orgName> ir maͤrckten halb offenlich
+<lb/>an<add place="above">ge</add>saͤhen <add place="above">werden</add>, getru̍wlich ze halten. Unnd umb soͤlch u̍bersaͤhen ist er umb
+ <lb/><measure type="currency" unit="fl" quantity="20">xx </measure> gestrauft.</seg>
+<seg>Unnd by diser urfecht sind gewaͤsen <persName ref="per026894" role="testis">Claus Hofman</persName>,
+<lb/><persName ref="per027859" role="testis">Haini Sinner</persName>, <persName ref="per027858" role="testis">Hensli Mongwiler</persName> unnd <num value="3">drig</num> sine bruͤder.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Zur Praxis, delinquente Personen gegen Urfehde aus der Haft zu entlassen statt ein Gerichtsverfahren gegen sie zu eröffnen, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_122_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1518</idno></msIdentifier><head>Vergleich zwischen der Stadt Winterthur und dem Rektor der Pfarrkirche Peter Kaiser</head><msContents><summary>Hartmann Rordorf, Ritter, und Heinrich Stapfer, Mitglieder des Rats von Zürich, schliessen einen Vergleich zwischen dem Schultheissen und Rat von Winterthur und dem Rektor der Pfarrkirche Peter Kaiser. Sie handeln im Auftrag des Bürgermeisters und Rats von Zürich als Inhaber des Patronats der Pfarrkirche Winterthur. Der Rektor soll eine geeignete Person als Leutpriester oder Helfer einsetzen (1). Der Leutpriester und abwechselnd einer der drei Priester, die dem Rektor zu Diensten sind, sollen in der Adventszeit täglich Beichte abnehmen (2). In der Fastenzeit soll täglich die erste Beichte von dem Leutpriester und einem der drei Priester und die zweite Beichte von allen vier abgenommen werden. Bei Bedarf soll der Rektor zwei weitere Priester zur Unterstützung beiziehen. Jeder von ihnen kann sein Beichtgeld behalten (3). Die Kapläne in der Pfarrkirche dürfen die Opfergaben behalten. Wer seine Pflichten gegenüber der Kirche nicht einhält, den kann der Rektor bestrafen und mit dem Bann belegen, bis er gehorsam ist, gegebenenfalls kann der Rektor den Schultheissen und Rat um Unterstützung bitten (4). Der Rektor soll sich dafür einsetzen, dass der Streit wegen der Orgel beigelegt wird (5). Die Aussteller siegeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="24.0"/><width unit="cm" quantity="48.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="6.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Hartmann Rordorf</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Heinrich Stapfer</persName></seal></sealDesc></physDesc><history><origin><origDate when="1482-05-02"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000900">Beichte</term><term ref="key000113">Pfarrkirche</term><term ref="key000751">Vergleich</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_1518_r.jpg"/>
+<p>
+<seg><lb/>Wir, dis nachbenempten <persName role="issuer" ref="per013919">Hartman Rordorff</persName>, ritter, und <persName role="issuer" ref="per023980">Heinrich Stapffer</persName>, beid des <orgName ref="org004016">raͧts <placeName ref="loc000065">Zu̍rich</placeName></orgName>, tuͦnd kunt allermenglichem mit disem brieff:</seg>
+<seg>Als sich zwu̍schent den fromen, wisen <orgName ref="org007943">schult<lb break="no"/>hessen und raͧt ze <placeName ref="loc000849">Wintterthur</placeName></orgName> an einem und dem wirdigen und ersamen hern <persName ref="per027154">Petter Keiser</persName>, kilchherren daselbs ze <placeName ref="loc000849">Wintterthur</placeName>, an dem andern teile ettlich irrung, spenn und stoͤss, die ge<lb break="no"/>nanten kilchherye beru̍rende, und wie die an inen selbs gewesen sind, begeben und gemacht hand und mit denen sy fu̍r die strengen, fu̍rsichtigen, ersamen und wisen <orgName ref="org002406">burgermeister
+ <lb/>und raͤte der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, unser lieben und gnedigen herren, und als lechenherren der genanten kilchherye komen, von denen gnu̍gsamklich und eigenlich, und wie jede parthy des gegen
+<lb/>der andern rechtlich getru̍wt zegeniessen, in soͤlichem gehoͤrt, und wir von den selben unsern herren von <placeName ref="loc000065">Zu̍rich</placeName> zu inen und der sach geschiben<!-- Idiotikon VIII, Sp. 60: abordnen --> sind mit ernstlicher bevelhnisse zwu̍schen
+<lb/>inen ze arbeiten und allen vliss anzekerent, ob wir sy in soͤlichen iren spennen gu̍tlich und mit irem wissen und willen gerichten und betragen moͤchtent, von des wegen wir beid
+<lb/>obgenant parthyen fu̍r uns genomen und je sovil zwu̍schent inen gesuͦcht und gearbeit, das wir sy in dem mit ir wu̍ssen und willen gericht und vereynt hand in form
+ <lb/>und maͧss, als hie nach von stuck ze stuck eigenlich begriffen wirt und dem also ist:</seg>
+<seg n="1">Des ersten, das der genant kilchherr zuͦ einem lu̍tpriester oder helffer hinfu̍r einen priesterlichen,
+ <lb/>verstandnen, wissenhafften und togenlichen selsorger und versecher zuͦ dem leben und zuͦ dem tod nemen sol, des er und die statt <placeName ref="loc000849">Wintterthur</placeName> gen gott und der welt ere, lob und nutz habint und
+ <lb/>damit die fromen lu̍t gen gott und der welt wol besorgt syent.</seg>
+<seg n="2">Zuͦ dem andern, das sin lu̍tpriester oder helffer in dem <date type="deadline">advent</date>
+<date dur="R/P1D">alle tag</date> zuͦ bicht sitzen und bicht hoͤren und der <num value="3">dryer</num> priestern
+ <lb/>einer, die dem kilchherren wartten soͤllent, och also <date dur="R/P1D">tegenlichen</date> zuͦ bicht sitzen und die hoͤren, und das under den selben <num value="3">dry</num> priestern umb gaͧn, das es je <date dur="R/P3D">am dritten tag</date> an ir einen komen
+  <lb/>sol.<note>Nach <persName ref="per027182">Laurenz Bosshart</persName> handelte es sich bei diesen drei Priestern um die Inhaber der Nikolaus-Pfründe, der Heiliggeist-Pfründe und der Marienpfründe (<bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 327</bibl>).</note></seg>
+<seg n="3">Zuͦ dem dritten so soͤllent der lu̍tpriester oder helffer und der <num value="3">dryer</num> einer in der <date type="deadline">vasten</date> die ersten bicht <date dur="R/P1D">teglichen</date>, wie vorstaͧt, bicht zehoͤren sitzen und zuͦ der andern bicht in der <date type="deadline">vasten</date>
+<lb/>soͤllent der lu̍tpriester oder helffer und die <num value="3">dry</num> vorgemelten, sy alle, bicht zehoͤren sitzen. Und ob es an den <num value="4">vieren</num> nit gnuͦg were, die lu̍t ußzerichten, das der kilchherr zuͦ den <num value="4">vieren</num>
+<lb/><num value="2">zwen</num> setzen, die mit den letsten bichten die lu̍t versechint und helffint usrichten. Und was jeglichem zuͦ bichtgelt geben wirt, das im das beliben sol.</seg>
+<seg n="4">Zuͦ dem vierden, das den
+  <lb/>capplaͤnen der kilchen das, so inen geopffert wirt, beliben und nit genomen werden sol. Und ob dero deheiner anders taͤtte, denn er der kilchen schuldig wer zetuͤnd, umb das
+  <lb/>mag ein kilchherr die straͧffen und mit dem bann gehorsam machen, das sy tuͤgint, was jeglicher schuldig sye. Und ob im der ban nit eben zebruchen wer, das er denn ein <orgName ref="org007943">schulthesse
+  <lb/>und raͧt</orgName> mag anruͤffen, im helffen die gehorsam ze machen, das sy tuͤgint, das sy schuldig sind, und im och die, so er das an sy vordret, hilfflich sin soͤllent, sy gehorsam ze machen.</seg>
+<seg n="5"><lb/>Und zuͦ dem fu̍nfften haͧt sich der kilchherr begeben von der orgulen wegen, darinne das best zetuͤnd nach sinem vermoͤgen, und das sy da mit einandern gericht
+ <lb/>und betragen sin soͤllent. Und ob sich dehein unwille in dem begeben hett, das der ab wesen und diser u̍bertrag anderm, so das instrument innhalt, unvergriffenlich
+ <lb/>und unschedlich sin sol.</seg>
+<seg>Und des alles zuͦ warem, vestem urku̍nd so habent wir, obgenanten <persName role="sigillant" ref="per013919">Hartman Rordorff</persName>, ritter, und <persName role="sigillant" ref="per023980">Heinrich Stapffer</persName>, unsre insigel als taͤd<lb break="no"/>inglu̍t offennlich gehenckt an disen brieff, der geben ist uff den <origDate when="1482-05-02">andern tag des manods meyen, do man zallt von Cristi, unsers lieben herren, gepurt viertzechen<lb break="no"/>hundert achtzig und zwey jaͧre</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_URK_1518_v.jpg
+"/>
+<div>
+<ab type="dorsal" place="verso" scribe="per027662"><lb/>Der vertragsbrieff vonn unnsern herren vonn <placeName ref="loc000065">Zu̍rich</placeName> geben,
+ <lb/>antreffendt unnsern herren, den kilcherren.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1482">1482</date>
+<add place="inline" hand="hand19c"><date when="1482-05-02">2 Mai</date></add></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Ende April 1463 wurden <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> von der Stadtherrschaft beauftragt, nach dem Tod des Rektors <persName ref="per027156">Konrad von Reischach</persName> dem Bischof von <placeName ref="loc000923">Konstanz</placeName>
+<persName ref="per027154">Peter Kaiser</persName> aus <placeName ref="loc013155">Kempten<!-- Wetzikon ZH --></placeName> als Nachfolger zu präsentieren (<bibl>TLA Libri fragmentorum, Bd. 5, fol. 119r</bibl>). Bald darauf wies der Bischof den Dekan des <orgName ref="org007844"><placeName ref="loc000849">Winterthurer</placeName> Kapitels</orgName> an, <persName ref="per027154">Kaiser</persName> einzusetzen, der ihm nun aber nicht von städtischer Seite, sondern durch Ritter <persName ref="per027788">Jakob Trapp</persName> präsentiert worden war, den Landvogt <persName ref="per027766">Eleonores</persName>, der Frau <persName ref="per003136">Herzog Sigmunds von Österreich</persName> (<bibl><ref target="/startseite/literaturverzeichnis">Krebs, Investiturprotokolle</ref>, S. 994</bibl>). Ihr war <placeName ref="loc000849">Winterthur</placeName> 1457 als Pfand verschrieben worden (<bibl><ref target="/startseite/literaturverzeichnis">Thommen, Urkunden</ref>, Bd. 4, Nr. 209</bibl>). Herzog <persName ref="per000811">Albrecht</persName> hatte aber die Pfarrkirche mit Zustimmung seines Bruders, Kaiser <persName ref="per000794">Friedrichs III.</persName>, und seines Cousins, Herzog <persName ref="per003136">Sigmunds</persName>, schon im Jahr 1456 der von ihm gegründeten <orgName ref="org009337">Universität <placeName ref="loc006439">Freiburg im Breisgau</placeName></orgName> inkorporiert (<bibl>UAF A1/0120</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Riegger 1773</ref>, S. 423-426</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">REC</ref>, Bd. 4, Nr. 12697</bibl>). Daher musste <persName ref="per003136">Sigmund</persName> der Universität eine Abfindung zahlen (<bibl>UAF A1/0162</bibl>). Am 26. Mai 1464 gelobte <persName ref="per027154">Peter Kaiser</persName> als neuer Rektor die Einhaltung seiner Pflichten gegenüber dem <orgName ref="org007943">Schultheissen und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> (<bibl>STAW URK 1108</bibl>).</p>
+<p>Zwischen dem neuen Rektor und den Kaplänen der Pfarrkirche kam es bald zu Differenzen. Er warf ihnen mangelnde Pflichterfüllung vor, kritisierte ihr Benehmen in der Kirche (<orig>geschwaͤtz</orig> und <orig>unfuͦr</orig>) und ihren Lebenswandel. Auch der <orgName ref="org005587">Rat</orgName> fürchtete die Beeinträchtigung des Gottesdiensts und der Seelsorge durch nachlässige Kapläne, intervenierte beim Bischof (<bibl>STAW B 2/3, S. 7</bibl>) und billigte disziplinarische Massnahmen des Rektors wie den Entzug der Opfergelder (<bibl>STAW B 2/3, S. 189</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, S. 67</bibl>). Auch Anfang der 1480er Jahre führte <persName ref="per027154">Kaiser</persName> vor dem Generalvikar der <orgName ref="org002902"><placeName ref="loc000923">Konstanzer</placeName> Kurie</orgName> Prozesse gegen mehrere Kapläne um den Bezug der Opfergelder, die er ihnen nur zugestehen wollte, wenn sie bei den Messfeiern assistierten (<bibl>STAW AM 182/5</bibl>). Nun wollte die städtische Obrigkeit solche Konfiszierungen nicht mehr tolerieren. Sie forderte den Rektor auf, ungehorsame Kapläne zu melden, und versprach, diese zur Erfüllung ihrer Aufgaben anzuhalten. Den Mesmer wies sie an, ohne ihre Erlaubnis keinem Priester das Opfer vom Altar zu nehmen (<bibl>STAW B 2/3, S. 469</bibl>). In der Gottesdienstordnung von 1488 wurden die Pflichten der Kapläne schliesslich detailliert geregelt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_152">SSRQ ZH NF I/2/1, Nr. 152</ref></bibl>). Zu diesen Konflikten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, S. 66-76</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

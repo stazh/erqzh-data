@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_251_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 2207</idno></msIdentifier><head>Belehnung der Stadt Winterthur mit dem Heiligberg durch den Bürgermeister von Zürich</head><msContents><summary>Heinrich Walder, Bürgermeister von Zürich, belehnt den Schultheissen, den Rat und die Bürger von Winterthur namens der Stadt mit dem Heiligberg samt Zubehör und den Holzrechten. Diese Güter waren vormals in Besitz der dortigen Chorherren und sind nun Lehen der Grafschaft Kyburg. Als Lehensträger fungiert der Winterthurer Schultheiss Hans Huser, der auch den üblichen Lehenseid geschworen hat. Stirbt er oder kann diese Funktion nicht mehr ausüben, sollen die Winterthurer innerhalb eines Monats einen Nachfolger stellen. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="37.5"/><width unit="cm" quantity="20.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="polished"><persName role="sigillant">Bürgermeister Heinrich Walder</persName></seal></sealDesc></physDesc><history><origin><origDate when="1529-10-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Ich, <persName role="issuer" ref="per001584">Heinrich Walder</persName>, diser zit burgermeyster der statt <placeName ref="loc000065">Zürich,</placeName><note>Zwei Entwürfe der Belehnungsurkunde aus dem ersten Halbjahr 1529 nennen noch <persName ref="per012669">Diethelm Röist</persName> als Bürgermeister von <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=744885">StAZH A 156.1, Nr. 12</ref></bibl>; <bibl>STAW URK 2183.5</bibl>).</note> thuͦn kunt offennlich mit disem brieff, das ich als burgermeyster unnd inna<lb break="no"/>mmen bemelter statt <placeName ref="loc000065">Zürich</placeName> den ersammen, wysen <orgName ref="org007943">schultheis, raͤtt unnd burgern gmeynlich zuͦ <placeName ref="loc000849">Winterthur</placeName> als zuͦ einner statt <placeName ref="loc000849">Winterthur</placeName></orgName> handenn
+<lb/>zuͦ einem reͣchten lechen gelichen hab den berg genant der <placeName ref="loc013078">Heylig Beͣrg</placeName>, by <placeName ref="loc000849">Winterthur</placeName> geleͣgenn, sambt den hüssern, geͣrten unnd matten, ouch dem holtz<lb break="no"/>reͣchtenn, wie dann söllichs die pfruͦndherren daselbs ingehebt unnd besessenn unnd jetz von der statt <placeName ref="loc000065">Zürich</placeName> als ir graffschafft <placeName ref="loc000012">Kyburg</placeName> weͣgen leͣchen
+<lb/>ist. Lich innen ouch söllichs mit aller ir zuͦ gehördt unnd begryffung, was ich innen von gmeyner statt waͤgen daran ze lichen hab, lichen sol, kan
+<lb/>unnd mag, inn chrafft dis brieffs also, das sy innammen gmeyner statt <placeName ref="loc000849">Winterthur</placeName> den genanten beͣrg mit aller siner zuͦ gehörd von gmeyner
+<lb/>statt <placeName ref="loc000065">Zürich</placeName> inn lechens wyß inhabenn, nutzen, niessen, besetzen unnd entsetzen söllen und mögen, als lechen unnd landsrecht ist.</seg>
+<seg>Die benambten
+ <lb/>von <placeName ref="loc000849">Winterthur</placeName> haben ouch uber söllich lechenn zuͦ reͣchtem lechen trager geͣbenn den ersammen, wysen <persName ref="per027422">Hansen Huser</persName>, schultheis daselbs, der
+<lb/>ouch by sinen guͦten trüwen gelobt unnd einen eyd zuͦ gott geschworen hatt, eynem <orgName ref="org002406">burgermeyster unnd ratt, ouch gmeyner statt und lands
+ <lb/><placeName ref="loc000065">Zürich</placeName></orgName> von dem vorgenanten leͣchen zuͦ diennen, zewarten und zethuͦnd, allßdann ein jetlicher lechen trager sinem leechenherren vom lechen
+<lb/>billich von recht unnd gwonheit dienen, thuͦn unnd warten soll, unnd sonderlich, ob er lechen wüßte oder vernaͤmme, die von der statt <placeName ref="loc000065">Zürich</placeName> lechen
+<lb/>unnd nit eͣnpfanngen weͣren, die mir oder dem, so ye zuͦ zitenn burgermeyster <placeName ref="loc000065">Zu̍rich</placeName> ist, an zuͦ zoigenn, ungfarlich. Unnd wann der vorge<lb break="no"/>nant trager abgadt ald sunst zuͦ trager unütz wu̍rde, so söllenn die benambten von <placeName ref="loc000849">Winterthur</placeName> unnd ir nachkommen hinfüro allweͣg, so offt
+ <lb/>sich das fuͦgte, einen anderen trager an des abganngnen ald unützen statt uber das vorgenant lechenn inn <date dur="P1M">monets frist</date>, dem neͣchsten, on alle
+<lb/>widerred gebenn. Der selb trager sol dann ouch das vorgesagt lechenn je zuͦ zitenn von einem burgermeyster der statt <placeName ref="loc000065">Zu̍rich</placeName> empfachenn
+<lb/>unnd darumb loben unnd schweͣren, alles das zethuͦnd, so der abganngen ald unütz trager inn diser sach gelobt unnd geschworen hatt, one
+ <lb/>all gfeͣrd.</seg>
+<seg>Unnd des zuͦ warem urkündt hab ich, <persName role="sigillant" ref="per001584">Heinrich Walder</persName>, burgermeyster obgenant, myn eigen innsigel offennlich lassen
+<lb/>henkenn an disenn brieff, doch gmeyner statt <placeName ref="loc000065">Zürich</placeName> unnd ir graffschafft <placeName ref="loc000012">Kyburg</placeName> an allen irenn oberkeitenn, herligkeiten, frigheiten,
+<lb/>recht unnd gerechtigkeiten, zins unnd zenden, ouch mir unnd mynen erbenn inn allweg unvergriffennlich unnd gantz unschedlichenn,
+ <lb/>der gebenn ist <origDate when="1529-10-18">mentags nach sant <persName ref="per000455">Gallen</persName> tag, nach der geburt Christi gezallt fu̍nfftzehenhundert zwentzig und nün jar</origDate>.<note>Vgl. den Lehensrevers der Stadt <placeName ref="loc000849">Winterthur</placeName> gleichen Datums (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_252">SSRQ ZH NF I/2/1, Nr. 252</ref></bibl>).</note></seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Lechen brieff <placeName ref="loc013078">Heligberg</placeName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1529">1529</date></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Konditionen des Erwerbs des <placeName ref="loc013078">Heiligbergs</placeName> durch <placeName ref="loc000849">Winterthur</placeName> als Lehen der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_249">SSRQ ZH NF I/2/1, Nr. 249</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

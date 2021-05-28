@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_124_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 3e/53, S. 1-2</idno></msIdentifier><head>Ausstattung und Aufnahmeverfahren des Unteren Spitals in Winterthur</head><msContents><summary>Heinrich Löninger hat Einkünfte von Höfen in Wiesendangen und Oberseen und vom Zehnten in Gachnang gestiftet, die eine Magd im Unteren Spital der Stadt Winterthur finanzieren. Mechthild Frei im Winkel hat Einkünfte von einem Gut in Niederwil für die Beleuchtung des Unteren Spitals gestiftet. Von den Einkünften vom Hof in Zinzikon und der Scheune an Nägelis Tor, die Hans Steinkeller gestiftet hat, wird das halbe Mass Wein bezahlt, das die Insassen des Unteren Spitals montags, mittwochs und freitags erhalten sollen. Wenn der Rat von Winterthur anordnet, dass jemand wegen seiner Krankheit oder Armut in das Untere Spital aufgenommen werden soll, wird die betreffende Person in einem Korb vor die Kirchtüre gesetzt, damit sie sich 1 Pfund Haller erbetteln kann. Dann wird ihr eine Pfrund in der Siechenstube zugewiesen. Die Summe dient zur Aufbesserung der Mahlzeiten der Insassen sowie zur Bezahlung der Bestattungskosten. Das Spital hat von Kannengiesser 60 Pfund Haller für eine Kuh und 30 Pfund Haller für Heu erhalten, die Hert hat eine eigene Kuh geschenkt. Von der Gabe der Spengler soll man, wenn die Kuh vor dem Kalben oder aus anderen Gründen keine Milch gibt, eine andere Kuh melken. Es folgt ein Verzeichnis der Zinseinkünfte des Unteren Spitals.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="28.0"/><width unit="cm" quantity="13.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1482-05-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005358">Armenversorgung</term><term ref="key004079">Spenden</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="1" facs="STAW_B_3e_53_S.1.jpg"/>
+<head><lb/>Assit <choice><sic>inpricipio</sic><corr>in principio</corr></choice> sancta <persName ref="per000169">Maria</persName> meo</head><!-- Invokationsformel -->
+<p>
+<lb/><seg>Disser rodel wist unnd seit dem <orgName ref="org009236">undren
+<lb/>hus im spital</orgName> zuͦ <placeName ref="loc000849">Winterthur</placeName> von
+<lb/>allen sachen, so denn <orgName ref="org009236">kinden</orgName> zuͦ gehoͤrt,
+ <lb/>unnd oͧch von allen zinssen unnd ist gemacht
+ <lb/>am <origDate when="1482-05-21">zinstag vor pfinsten <abbr>etc</abbr> im lxxxij jar</origDate>.</seg>
+</p>
+<seg>
+<p>
+<lb/>Item <persName ref="per027162">Heinrich Loͤninger</persName> haut geben denn
+<lb/>hoff zuͦ <placeName ref="loc011190">Wissendangen</placeName> unnd den zaͤchenden
+<lb/>zuͦ <placeName ref="loc013445">Gachnung</placeName> umb ein bestette junckfroͧwen,
+<lb/>das sy denn <orgName ref="org009236">kinden</orgName> pflaͤge. Item er haut aber
+ <lb/>geben ein hoff zuͦ <placeName ref="loc013448">Obersechen</placeName>, umb daz die ob<lb break="no"/>geschriben <sic>ordnug</sic> nit abgang. Item die ob
+<lb/>geschriben junckfroͧw sol denn <orgName ref="org009236">kinden</orgName> warten
+ <lb/>unnd nit dem <orgName ref="org007851">obren hus</orgName>
+<abbr>etc</abbr>.<note><persName ref="per027162">Heinrich Löninger</persName> starb 1386, vgl. den entsprechenden Eintrag im <placeName ref="loc000849">Winterthurer</placeName> Jahrzeitbuch (<bibl>STAW Ki 50, S. 122 b</bibl>).</note>
+</p>
+<p>
+<lb/>Item <persName ref="per027362">Maͤchilt Frigin</persName> im <placeName ref="loc013441">Winckel</placeName> haut
+<lb/>geben dem <orgName ref="org007934">spital</orgName> ein guͦt, gelaͤgen zuͦ <placeName ref="loc013446">Nider<lb break="no"/>wil</placeName>, gilt <date dur="R/P1Y">jaͤrlich</date>
+<measure type="volume" unit="Mütt" quantity="4" commodity="spelt">iiij mut kernen</measure> unnd <measure type="volume" unit="Mütt" quantity="1" commodity="oat">j mut
+<lb/>haber</measure>, das der spitalmeister denn <orgName ref="org009236">kinden</orgName>
+<lb/>da unden im <orgName ref="org007934">spitall</orgName> alle <time period="byNight">nacht</time> ein liecht
+ <lb/>gaͤben sol <abbr>etc</abbr>.<note>Vgl. den entsprechenden Eintrag im <placeName ref="loc000849">Winterthurer</placeName> Jahrzeitbuch (<bibl>STAW Ki 50, S. 121 f</bibl>).</note>
+</p>
+<p>
+<lb/>Item <persName ref="per027065">Hanns Steinkeller</persName> haut geben denn
+<lb/>hoff zuͦ <placeName ref="loc013447">Zincikon</placeName> unnd die schu̍r an <placeName ref="loc013468">Naͤgellis
+<lb/>Tor</placeName> gelaͤgen, daz man den <orgName ref="org009236">kinden</orgName> inn der
+<lb/>understuben sol geben am <date period="P2WD">mendag</date>, <date period="P4WD">mitwuch</date>
+<lb/>unnd <date period="P6WD">frytag</date> jetlichem <measure type="volume" unit="Mass" quantity="0.5" commodity="wine">ein halb maͧß winß</measure>
+<abbr>etc</abbr>.
+<lb/>Item der hoff ist verkoͧff unnd dar umb sol man
+<lb/>die obgeschriben <sic>ordnug</sic> uss dem huss usrichten.<note>Vgl. den entsprechenden Eintrag im <placeName ref="loc000849">Winterthurer</placeName> Jahrzeitbuch (<bibl>STAW Ki 50, S. 127 a</bibl>).</note>
+</p>
+</seg>
+<seg>
+<p>
+<lb/>Item es ist zuͦ wu̍ssen, das es das alt
+<lb/>harkoͧmen ist des <orgName ref="org007934">spitals</orgName>, wenn ein <orgName ref="org005587">raut</orgName>
+<lb/>sich erkennt eins maͤnschen kranckheit oder
+<lb/>armuͦt, daz man es durch gott inn das
+<lb/><orgName ref="org009236">under hus</orgName> wil nemen, so sol man es in
+<pb n="2" facs="STAW_B_3e_53_S.2.jpg
+"/>
+<lb/>ein grossen korb fu̍r die kilchtu̍rren setzen,
+<lb/>biß das es <measure type="currency" unit="lb" quantity="1">ein pfund haller</measure> erbettlot. So
+<lb/>sol man es daͧnn inn der siechen stuben
+<lb/>traͧgen, da sol es ein pfruͦnd han als
+<lb/>ein ander kind. Das gelt sol beliben den
+<lb/><orgName ref="org009236">kinden</orgName> zuͦ einer bessrung irs tischs. Unnd
+<lb/>wen daz obgenant mensch stirbt, so erben
+<lb/>die <orgName ref="org009236">armen kind</orgName> es unnd bestattend es
+<lb/>dar mit <abbr>etc</abbr>.
+</p>
+</seg>
+<seg>
+<p>
+<lb/>Item der <persName ref="per027792">Kanttengiesser</persName> haut gen dem
+<lb/><orgName ref="org007934">spital</orgName>
+<measure type="currency" unit="lb" quantity="60">lx  haller</measure> umb ein erriny kuͦ,
+<lb/>die sol die best sin on einy,<note>Die Wendung eherne oder auch eiserne Kuh weist auf eine dauerhafte Verpflichtung zur Haltung einer Kuh hin, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/146470">Bd. 3, Sp. 91</ref></bibl>. Die Formel <orig>die best on einy</orig> bedeutet die zweitbeste, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/103450">Bd. 1, Sp. 262</ref></bibl>, hier im Sinne eines Qualitätsanspruchs verstanden. Freundlicher Hinweis von Dr. phil. Hans-Peter Schifferle.</note> den <orgName ref="org009236">armen kinden</orgName>
+<lb/>zuͦ einer hilff unnd irs mals. Item aber
+ <lb/>so haut er geben der obgenanten kuͦ
+<lb/>dem <orgName ref="org007934">spital</orgName>
+<measure type="currency" unit="lb" quantity="30">xxx  haller</measure> umb hoͤw. Item
+ <lb/>dar nach so haut die <persName ref="per027791">Herttein</persName> geben
+<lb/>ein eigny kuͦ dar umb, das die <choice><abbr>obgnt</abbr><expan>obgenant</expan></choice>
+<lb/>kuͦ nit abgang. Item wer es ouch sach,
+ <lb/>das die gemelt kuͦ nit milch gaͤb,
+ <lb/>als ob sy entliesse<!-- vgl. Idiotikon III, Sp. 1406: vor dem Kalben stehen. (Zitat dieses Satzes nach Winterthurer Neujahrsblatt 1765 (Studienbibliothek Winterthur Hdb_230) - Edition?) --> oder von ander saͧch
+ <lb/>waͤgen, so sol man innen ein andry
+ <lb/>kuͦ maͤlchen, biß das sy wider milch
+<lb/>git. Das haut die <persName ref="per027794">Spenglerin</persName> erkoufft <abbr>etc</abbr>.<note>Hier bricht die Abschrift in <persName ref="per027793">Bernhard Lindovers</persName> Aufzeichnungen ab (<bibl>ZBZ Ms B 13</bibl>).</note><!-- es folgt noch ein Satz: Item der spitalmeister sol jar gaͤben dem underen spital einen zyger. Wo steht der in der Vorlage??? -->
+</p>
+</seg>
+<div>
+<head><lb/>Daz ist der zinns der <orgName ref="org009236">armen kind</orgName></head>
+</div>
+<div><p>
+<lb/>Item <persName ref="per027790">Hanns Herr</persName> inn der <placeName ref="loc013170">Nu̍wenstatt</placeName>
+<lb/>git <date dur="R/P1Y">alle jar</date>
+<measure type="volume" unit="Viertel" quantity="1" commodity="spelt">ein fiertel kernen</measure>, gaut
+<lb/>ab sim hus <abbr>etc</abbr>.
+ </p>
+<p><gap reason="irrelevant"/><note>Es folgen weitere Einträge zu den Zinseinkünften des <orgName ref="org009236">Unteren Spitals</orgName>.</note></p></div>
+</div>
+</body>
+<back>
+<div>
+<p>Die frühesten Belege für die Einrichtung eines <orgName ref="org007934">Spitals</orgName> in <placeName ref="loc000849">Winterthur</placeName> datieren Anfang des 14. Jahrhunderts. Spätestens seit den 1380er Jahren gab es eine Abteilung für mittellose Pflegebedürftige, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_032">SSRQ ZH NF I/2/1, Nr. 32</ref></bibl>. Das <orgName ref="org009236">Untere Spital</orgName> wurde seit 1408 durch einen eigenen Pfleger verwaltet, den der <orgName ref="org005587">Kleine Rat</orgName> aus seinen eigenen Reihen wählte (<bibl>winbib Ms. Fol. 264, S. 148</bibl>; Edition der Eidformel: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_187">SSRQ ZH NF I/2/1, Nr. 187</ref></bibl>). Der Bettelvogt führte mit Unterstützung seiner Frau, der Köchin, die Aufsicht über die Insassen des <orgName ref="org009236">Unteren Spitals</orgName>, teilte die vom <orgName ref="org007851">Oberen Spital</orgName> erhaltenen Lebensmittel an die Bedürftigen und die Pfrundinhaber aus und kaufte die Fleischrationen für die Pfründner ein (<bibl>STAW AC 24/1/14</bibl>; <bibl>STAW AC 24/1/19</bibl>; <bibl>STAW AC 24/1/21</bibl>; <bibl>STAW AC 24/1/22</bibl>; <bibl>STAW AC 24/1/23</bibl>).</p>
+<p>Im <orgName ref="org009236">Unteren Spital</orgName> wurden neben kranken, gebrechlichen oder behinderten Bedürftigen und Waisen auch delinquente Personen untergebracht (<bibl><ref target="/startseite/literaturverzeichnis">Sassnick Spohn 2002</ref>, S. 16, 18, 22-29, 35-55</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1912</ref>, S. 105-117, 136-144</bibl>). Die Insassen waren angehalten, mehrmals täglich für die Wohltäterinnen und Wohltäter der Einrichtung zu beten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_118">SSRQ ZH NF I/2/1, Nr. 118</ref></bibl>). Auswärtige Bedürftige wie Handwerksgesellen konnten dort übernachten und sich verpflegen oder erhielten eine Brotration und den <orig>zehrpfenig</orig> (<bibl>STAW AC 24/1/23</bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

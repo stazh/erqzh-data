@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_282</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2a/32.2 (r, Eintrag 3)</idno></msIdentifier><head>Beschränkung der Bürgeraufnahmen in Winterthur</head><msContents><summary>Der Schultheiss, der Kleine und der Grosse Rat von Winterthur haben beschlossen, in den nächsten sechs Jahren nur noch Personen in das Bürgerrecht aufzunehmen, die wegen ihres Handwerks oder aus anderen Gründen gebraucht werden. Über die Aufnahmen entscheidet der Kleine Rat, schwierige Fälle kann er beiden Ratsgremien vorlegen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Christoph Hegner</author><filiation type="current">Aufzeichnung</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1538-07-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000849">Handwerk</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="4"/>
+<p>
+<lb/>Actum <origDate when="1538-07-26">fritag nechst nach sant
+<lb/><persName ref="per000208">Jacobs</persName>, des heligen appostels, tag,
+<lb/>anno 1538</origDate>
+</p>
+<p>
+<lb/>Mine heren, <orgName ref="org007943">schultheis, <add place="above" type="sign">clein</add> und <add place="above" type="sign">groß</add> raͤt</orgName>, habenn der burger annemung
+<lb/>halb sich also erkenth, das in <date dur="P6Y">saͤchs jaren</date> dhein burger mer
+<lb/>soͤlle angenomen werden, es were dan sach, das man eins <del>be</del>
+<lb/><del>des</del> handwerchs halb oder anderer dingen halb eins notwendig
+<lb/>sin und bedoͤrffen wurde, das dan ein <orgName ref="org005587">cleinen raͧt</orgName> darüber sitz<damage agent="clipping"><supplied resp="bf">e</supplied></damage>
+<lb/>und, oͤb inen <add place="above" type="sign">je</add> der handel zuͦ schwer sin, <del> das dan</del> sy das für <orgName ref="org007944">bed
+<lb/>raͤt</orgName>
+<del>wol</del> wysen moͤgind.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Von Restriktionen bei der Verleihung des Bürgerrechts berichtet auch der <placeName ref="loc000849">Winterthurer</placeName> Ratsherr <persName ref="per027306">Ulrich Meyer</persName> in seinen chronikalischen Aufzeichnungen. Demnach wurde im Jahr 1550 der Antrag eines Bürgers abgelehnt, seinen Schwiegersohn, einen Weber, als Bürger aufzunehmen, da sonst zu viele in der Stadt dieses Handwerk ausüben würden (<bibl>winbib Ms. Quart 102, fol. 47v-48r</bibl>). Mit der Sorge um verstärkte Konkurrenz unter den Gewerbetreibenden und in der Nutzung der Allmende begründete der <orgName ref="org005587">Rat</orgName> entsprechende Massnahmen (<bibl>STAW AF 59/1a, S. 1</bibl>). <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> hatten gegen die Beschränkung der Bürgeraufnahme in <placeName ref="loc000849">Winterthur</placeName> prinzipiell nichts einzuwenden, sofern die eigenen Bürger nicht davon betroffen waren. Sie intervenierten aber 1540 zugunsten <persName ref="per027889">Kaspar Schmidlis</persName>, Sohn eines <placeName ref="loc000065">Zürcher</placeName> Bürgers, der eine Bürgerin von <placeName ref="loc000849">Winterthur</placeName> geheiratet hatte und bei ihr wohnte (<bibl>STAW B 4/2, fol. 120r</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1102158">StAZH B IV 11, fol. 40r-v</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

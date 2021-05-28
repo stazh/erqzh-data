@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_125</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/3, S. 519 (Eintrag 1)</idno></msIdentifier><head>Anstellung eines Latrinenputzers in Winterthur</head><msContents><summary>Hans Fütterer der Ältere hat mit dem Schultheissen und Rat von Winterthur einen Vertrag geschlossen über die Reinigung der Latrinen. Für diese Arbeit erhält er pro Tag 4 Schilling und seine Frau 3 Schilling zuzüglich Verpflegung. Wer seine Latrine nicht selbst reinigt, darf keinen anderen als ihn damit beauftragen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Wügerli</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1483-01-30"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000717">Abfall</term><term ref="key000924">Arbeit</term><term ref="key000212">Löhne</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="519"/>
+<div>
+<ab type="marginal note" place="left margin"><lb/>Eegruͦben <lb/>ze rumen <lb/>lon</ab>
+</div>
+<p><lb/>Actum an <origDate when="1483-01-30"><subst><del rend="overwritten">m</del><add place="overwritten">d</add></subst>onstag nach <sic>coversio</sic> sancti <persName ref="per000351">Pauli</persName>, anno <abbr>etc</abbr> lxxxiij<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><persName ref="per027796">Hanns Fuͤtterer</persName><note>Möglicherweise identisch mit dem 1492 erwähnten Totengräber <persName ref="per027795">Hans Futer</persName>, der die Gräber nicht tief genug ausgehoben hatte (<bibl>STAW B 2/5, S. 485</bibl>). Für den Totengräber scheint in <placeName ref="loc000849">Winterthur</placeName> die Bezeichnung <orig>futerer</orig> gebräuchlich gewesen zu sein, wie dem ältesten überlieferten Eidbuch aus den 1620er Jahren zu entnehmen ist (<bibl>winbib Ms. Fol. 241, fol. 30r</bibl>). Vgl. zur Begrifflichkeit auch <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/117827">Bd. 1, Sp. 1138-1139</ref></bibl>.</note>, der elter, haut mit minen herren, <orgName ref="org007943">schultheis unnd raͤtten</orgName>, ein vertrag
+<lb/>der priveten halb zuͦ rumen gethon der maͧß, das man im <date dur="R/P1D">taͤglich</date> vonn einer gruͦben
+<lb/>zuͦ rumen <measure type="currency" unit="ß" quantity="4">iiij </measure> unnd siner frowen <measure type="currency" unit="ß" quantity="3">iij </measure> geben sol unnd dar zuͦ essen unnd trincken.
+<lb/>Unnd sol im sunst nieman dar an schaden tuͦn noch gruͦben rumen, dann welcher
+<lb/>im selbs sin eegruͦben<!-- Grimm: Kloake, Ableitungsgrube des Unrats --> rumen wil unnd sunst mit dheinen froͤmden lu̍ten.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Hausabfälle und Fäkalien wurden in Latrinengruben entsorgt, die von Zeit zu Zeit geleert werden mussten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Frascoli 1997</ref>, S. 25-26</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 1987</ref>, S. 35-38</bibl>. Zur obrigkeitlich organisierten Säuberung sanitärer Anlagen in den Städten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Fuhrmann 2014</ref>, S. 206-208</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kamber/Keller 1996</ref>, S. 14-17</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dirlmeier 1988</ref>, S. 105-107</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Dirlmeier 1981</ref>, S. 141-142</bibl>.<!-- Vgl. Windler 2014, S. 60: In Winterthur gab es keine Ehgräben wie in Zürich. --></p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

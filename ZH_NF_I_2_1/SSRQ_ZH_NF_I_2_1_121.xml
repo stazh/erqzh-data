@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_121</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671414">StAZH A 155.1, Nr. 34</idno></msIdentifier><head>Ausdehnung der Zollfreiheit der Zürcher Untertanen in der Grafschaft Kyburg auf Winterthur und Hettlingen</head><msContents><summary>Bürgermeister und Rat von Zürich räumen auf Bitten der Schultheissen von Winterthur Erhard von Hunzikon und Hans Ramensperg, die für die Zürcher Untertanen in der Grafschaft Kyburg geltende Zollfreiheit für den Warentransport nach Zurzach auch Winterthur und Hettlingen ein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1482-05-02"/></origin></history><additional><listBibl><head>Edition</head><bibl>QZWG, Bd. 2, Nr. 1385</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000983">Warenverkehr</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p>
+<lb/><seg>Als der unsern von <placeName ref="loc000849"><sic>Winthertur</sic></placeName> raͧtzbotschafft, schultheis
+ <lb/><persName ref="per026911">Huntzikon</persName><note><persName ref="per026911">Erhard von Hunzikon</persName> (<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 90</bibl>).</note> und schultheis <persName ref="per027564">Ramlisperg</persName><note><persName ref="per027564">Hans Ramensperg</persName> (<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 90</bibl>).</note>, <del>vor u̍ns komen</del>
+<lb/>fu̍r u̍ns, <orgName ref="org002406">burgermeister und rätt der statt <placeName ref="loc000065">Zurich</placeName></orgName>, komen
+ <lb/>sind und vor u̍ns erscheint <del>sind</del> hand, u̍nser zoller
+ <lb/>vorderent an die iren und die von <placeName ref="loc010469">Hettlingen</placeName> zoll
+ <lb/>von guͤt, das sy gen <placeName ref="loc000959">Zurtzach</placeName><note>Zum Messestandort <placeName ref="loc000959">Zurzach</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/013740/2008-06-09/">Messen</ref></bibl>.</note> fuͤrint und tragint,
+ <lb/>und won die u̍nsern in u̍nser graffschafft <placeName ref="loc000012">Kiburg</placeName>
+<lb/>soͤlichen zol nit gebint und sy so wol als dieselben <lb/>die u̍nsern syent, u̍ns gebetten, sy mit soͤlichem zol
+ <lb/>zehalten, denn nit zegebent als ander <add place="above">die</add> unsern, dar
+ <lb/>uf <del>i</del> von u̍ns inen die antwurt gegeben ist,
+ <lb/>als sy bekantlich das sy so wol die u̍nsern als die
+ <lb/><del>v</del> inn unser graffschafft <placeName ref="loc000012">Kiburg</placeName> syent, so wellent
+ <lb/>wir sy oͧch mit dem zol halten wie die u̍nsern
+ <lb/>in der vorgenannten graffschafft <placeName ref="loc000012">Kiburg</placeName>.</seg>
+<seg>Actum
+  <lb/>am <del>meyen</del>
+<del><unclear>ta</unclear></del>
+<origDate when="1482-05-02">donstag naͧch dem meyen
+  <lb/>tag, anno <abbr>etc</abbr> lxxxij</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand17c"><lb/>Bericht wegen zolls, welchen die von <placeName ref="loc000849">Winterthur</placeName>
+<lb/>und <placeName ref="loc010469">Hettlingen</placeName> bezahlen muͤssen, <date when="1482">1482</date>.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Vom Warenverkehr in der Region profitierten die <orgName ref="org002406">Zürcher</orgName>, seit sie den Zoll bei <placeName ref="loc008727">Kloten</placeName> von den <orgName ref="org000088">Herzögen von Österreich</orgName> erworben hatten. Weitere Zollstellen richteten sie unter anderem bei <placeName ref="loc011182">Rorbas</placeName> und im <placeName ref="loc010890">Zürcher Oberland</placeName> ein, vgl. <bibl><ref target=" /startseite/literaturverzeichnis">Hüssy 1946</ref>, S. 105-109</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schnyder 1938</ref>, S. 154-157, 183-185</bibl>.</p>
+<p>Für den überregionalen Markt wurden in <placeName ref="loc000849">Winterthur</placeName> allenfalls Textilien produziert. So belieferten die <orgName ref="org005587">Winterthurer</orgName> beispielsweise die <placeName ref="loc008459">Frankfurter</placeName> Messe mit Leinen (<bibl><ref target="/startseite/literaturverzeichnis">Ammann 1937</ref>, Beilage Nr. 11, S. 56-58, Nr. 12, S. 58-61</bibl>) und exportierten Tuch nach <placeName ref="loc000780">Tirol</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1419</bibl>), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schnyder 1938</ref>, S. 136, 150</bibl>. Die ausdrückliche Befreiung von den Zöllen bei <placeName ref="loc011182">Rorbas</placeName> und <placeName ref="loc008727">Kloten</placeName> erlangten die <orgName ref="org005587">Winterthurer</orgName> erst im Jahr 1491 (<bibl>STAW B 2/5, S. 485</bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1501</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

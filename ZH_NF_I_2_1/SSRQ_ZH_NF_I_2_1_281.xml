@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_281</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/10, S. 10 (Eintrag 2)</idno></msIdentifier><head>Begnadigung des Heinrich Tischmacher, der in Winterthur Zürcher Ratsgesandte beleidigte</head><msContents><summary>Schultheiss und beide Räte von Winterthur haben Heinrich Tischmacher, der die Ratsgesandten der Stadt Zürich beleidigt hatte, auf Bitten seiner Angehörigen begnadigt und die Rückkehr nach Winterthur unter folgenden Auflagen erlaubt. Er wird für sechs Tage und Nächte in den Turm gelegt und muss nach seiner Freilassung 25 Pfund Busse zahlen. Er darf keinen Degen tragen, keine öffentlichen Wirtshäuser oder Trinkstuben mehr besuchen und nachts sein Haus nicht mehr verlassen. Als Büchsenschütze ist ihm gestattet, zum Schiessen zu gehen. Heinrich Tischmacher soll Bürgen stellen, die bei der Missachtung dieser Auflagen 100 Pfund Haller zahlen oder ihn dem Gericht übergeben.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Christoph Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1538-05-06"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000984">Amnestie</term><term ref="key000499">Bürgschaft</term><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key000285">Ehrverletzung</term><term ref="key000334">Gefängnis</term><term ref="key003233">Obrigkeit</term><term ref="key000948">Schandstrafen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="10"/>
+<p>
+<lb/>Coram <orgName ref="org007944">beden raͤten</orgName>, actum <origDate when="1538-05-06">mentag <lb/>nechst nach suntag<!-- mit ü --> miserycordia, anno 38</origDate>
+</p>
+<p><seg>
+<lb/>Mine heren, <orgName ref="org007943">schultheis, clein und groß raͤte</orgName>, haben <persName ref="per028018">Heinrichen
+<lb/>Dischmacher</persName> uff pit siner fromen, ersamen früntschafft, für
+<lb/>in beschehen, von wegen siner mißhandlung, die er vor oͤth<lb break="no"/>was zitenn unseren heren <orgName ref="org001217">raͧts</orgName> poten von <placeName ref="loc000065">Zürich</placeName> mit singen
+<lb/>und anderen dingen geschmaͤcht, widerumb begnadet und
+<lb/>die stat uffthan, doch mit der straff, das er <date dur="P6D">saͤchs <subst><del>wuchen</del>
+<add place="inline">tag</add></subst>
+<lb/>und saͤchs naͤcht</date> im thurn ligen und <measure type="currency" unit="lb" quantity="25">xxv </measure> zuͦ buͦß unablaͤs<lb break="no"/>lich, <subst><del>verfallen sin</del><add place="above" type="sign">ob er uß dem thurn glasen wirt</add></subst>, geben. Ouch das er hinfüro bitz uff miner heren
+<lb/>gnad dheinen taͤgen tragen, in dhein offen wirtzhuß oder trinck<lb break="no"/>stuben zuͦ zeren nit gan, anders, dwill er vornacher oͤthwann
+<lb/>ein büchsen schütz gwaͤsen ist, mag er woll dahin, so er schiessen
+ <lb/>will, gan.<note>Zu Schiessveranstaltungen im Spätmittelalter vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/008701/2015-03-09/">Schützenwesen</ref></bibl>.</note> Deßglichenn zuͦ bet glocken in sin huß keren
+<lb/>und nit wider daruß kommen bitz mornadis zuͦ bet glockenn. <lb/>Ouch das er vertroͤsten soͤlle <measure type="currency" unit="lb" quantity="100">j<hi rend="sup">c</hi>  <choice><abbr>hal</abbr><expan>haller</expan></choice></measure>, oͤb er in soͤlichen oder der
+<lb/>glichen und anderen sachen sich mer vertieffen und übersaͤchenn
+<lb/>wurde, das die selbigen troͤster in zem raͤchten stellen welind
+ <lb/>oder aber die <measure type="currency" unit="lb" quantity="100">j<hi rend="sup">c</hi> </measure> verfallenn sin.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Herabwürdigung der Repräsentanten <placeName ref="loc000065">Zürichs</placeName> wurde in <placeName ref="loc000849">Winterthur</placeName> ebenso bestraft wie Widerstand gegen den <orgName ref="org007943">Schultheissen und Rat</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_154">SSRQ ZH NF I/2/1, Nr. 154</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_228">SSRQ ZH NF I/2/1, Nr. 228</ref></bibl>), zumal der <placeName ref="loc000849">Winterthurer</placeName> Bürgereid auch Loyalität (<orig>thrüw und warheit</orig>) gegenüber der Stadtherrschaft einforderte, vgl. die in Eidbüchern des 17. Jahrhunderts überlieferte Eidformel (<bibl>winbib Ms. Fol. 241, fol. 1r-v</bibl>; <bibl>STAW B 3a/10, S. 1-2</bibl>). 1566 verhafteten die <orgName ref="org007943">Winterthurer</orgName> einen Müller aus <placeName ref="loc010469">Hettlingen</placeName> aufgrund <orig>öthwas ungeschickter und ungepürlicher reden <gap reason="irrelevant"/> von <placeName ref="loc000451">Kappeller</placeName> kriegs wegen</orig>, die gegen <placeName ref="loc000065">Zürich</placeName> gerichtet waren. Nach fünf Tagen liess man ihn gegen Bezahlung von 18 Pfund, verbunden mit einem Wirtshaus- und Waffenverbot, frei (<bibl>STAW B 2/8, S. 298</bibl>).</p>
+<p>Zu derartigen Ehrenstrafen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_144">SSRQ ZH NF I/2/1, Nr. 144</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_228">SSRQ ZH NF I/2/1, Nr. 228</ref></bibl>. Zur städtischen Praxis, Delinquenten gegen einen Urfehdeeid, verbunden mit der Stadtverweisung oder anderen Auflagen, aus der Haft zu entlassen, statt sie vor Gericht zu stellen, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

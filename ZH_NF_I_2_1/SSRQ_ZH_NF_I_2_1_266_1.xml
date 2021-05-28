@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_266_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3417768">ZGA Elgg IV A 3a, fol. 93v-94v</idno></msIdentifier><head>Steuerordnung der Stadt Winterthur</head><msContents><summary>Der Kleine und der Grosse Rat von Winterthur erlassen folgende Steuerordnung: Die Bürger von Winterthur sollen ihr bewegliches und unbewegliches Vermögen zu einem Steuertarif von 0.5 Prozent versteuern. Sie können ihren Besitz selbst taxieren oder schätzen lassen, wer unter 11 Schilling Steuern zahlt, darf sich nicht selbst einschätzen. Der Steuertermin fällt auf den Sonntag nach dem 25. November und wird vierzehn Tage sowie eine Woche vorher durch den Stadtknecht auf der Kanzel verkündet. In diesem Zeitraum können die Bürger gruppenweise vor den Kleinen Rat kommen, wo der Stadtschreiber ihre Steuereinschätzung aufnimmt. Anschliessend leisten sie den Steuereid. Am Freitag vor dem Steuertermin sucht der Stadtschreiber in Begleitung der drei Stadtknechte alle Bewohner auf, die nicht im Steuerbuch aufgeführt sind. Am folgenden Tag wird bei denjenigen, die das Bürgerrecht besitzen, die Steuerschätzung vorgenommen, alle anderen müssen die Stadt verlassen oder Quartier bei Wirten nehmen. Stellt sich heraus, dass jemand eine geringere Summe deklariert hat, als geschätzt wurde, nimmt man ihm die Schlüssel ab und pfändet seinen Besitz. Am Steuertermin fordert der Stadtknecht Bürger und Einwohner in der Kirche auf, die Steuern dem Säckelmeister zu bezahlen oder Stadt und Friedkreis zu verlassen, bis die Steuerschuld beglichen ist. Der Säckelmeister untersteht der Aufsicht der beiden Schultheissen und des Stadtschreibers.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1534-01-01" to="1534-12-31">Undatiert, Datierung aufgrund des Vermerks auf fol. 119r betreffend die Übermittlung von Winterthurer Satzungen im Jahr 1534</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005369">Buchführung</term><term ref="key000179">Eid</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="93v" facs="ZGA_Elgg__IV_A_3a__fol__93_v_.tif"/>
+<head><lb/><hi rend="underline">Satzung und ordnung<!-- mit ü-Strichen --> zestüren, <lb/>die soll volgender wyse gepr<lb/>ucht<!-- mit ü --> werden</hi></head>
+<p>
+<lb/>Bed, <orgName ref="org007944">klein und groß raͤt</orgName>, haben angesaͤchen, das alle
+<lb/>burger<!-- mit ü --> zuͦ <placeName ref="loc000849">Winterthur</placeName><!-- mit ü --> ir guͦt, ligentz und varentz,
+<lb/>soͤllen verstüren nach der march, und namlich alwaͤgen
+<lb/>von <measure type="currency" unit="fl" quantity="100">hundert<!-- mit ü --> guldin</measure><!-- mit ü --> ein <measure type="currency" unit="fl" quantity="0.5">halben guldin</measure><!-- mit ü --> zuͦ stür gaͤben.<note>1491 wurde der Steuersatz von 1 Prozent oder 1 Pfund von 100 Pfund halbiert (<bibl>STAW B 2/5, S. 456</bibl>; vgl. auch <bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 65</bibl>, zu 1490). Diesem Tarif entspricht ein Ratsbeschluss von 1527, dass gemäss bestehender Praxis bei einer Leibrente, die für 100 Gulden erworben worden war, 1 Pfund Haller Steuer bezahlt werden musste (<bibl>STAW B 2/8, S. 104</bibl>). 1536 wurde der Steuertarif nochmals gesenkt auf 10 Schilling pro 100 Gulden, weitere Reduktionen bis zu 1 Schilling folgten (<bibl>winbib Ms. Fol. 27, S. 413</bibl>).</note>
+</p>
+<p>
+<lb/>Der lybtinger halb ist ouch<!-- mit ü --> von ernaͤmpten <orgName ref="org007944">beden raͤthen</orgName>
+<lb/>entschlossenn, das das libting nach dem huͦptguͦt und
+<lb/>nit nach den stücken, also alwaͤg von <measure type="currency" unit="fl" quantity="100">hundert<!-- mit ü --> guldin<!-- mit ü --></measure>
+<lb/><measure type="currency" unit="fl" quantity="0.5">ein halben guldin<!-- mit ü --></measure> gestürt werdenn.
+ </p>
+<p>
+<lb/>Es mag ouch<!-- mit ü --> ein yeder burger<!-- mit ü -->, so nit under <measure type="currency" unit="ß" quantity="11">einliff schiling</measure>
+<lb/>zestür gibt, selber stüren oder sich lassen tüncken. Was aber
+<lb/>under <measure type="currency" unit="ß" quantity="11">einliff schilling</measure> stüret, mag sich saͤlb nit stüren, son<lb break="no"/>der der selb wirt düncket.
+ </p>
+<p>
+<lb/>Die ordnung<!-- mit ü --> des stürens ist also: <seg>Uff den naͤchstenn
+<lb/><date period="P1WD">suntag</date><!-- mit ü --> nach <date when="--11-25">sant <persName ref="per000793">Kathrinen</persName> tag</date> soll die stür bezallt
+ <lb/>werden. Deßwaͤgen verkündt man <date dur="P14D">vierzaͤchen tag</date> vorhin
+<lb/>durch<!-- mit ü --> den statknaͤcht, so die gant versicht, an der kantzell
+ <pb n="94r" facs="ZGA_Elgg__IV_A_3a__fol__94_r_.tif"/>
+<lb/>also: Alle, die by der march stüren wellen, die moͤgen für min
+<lb/>heren komen, da wellen mine herren warten. Am an<lb break="no"/>deren <date period="P1WD">suntag</date><!-- mit ü-Strichen -->, alls <date dur="P8D">achttag</date> nach dem vorigen, verkündt
+<lb/>man aber durch<!-- mit ü --> den genaͤmpten knaͤcht: Alle die, so by der
+<lb/>march stüren wellen, soͤllen sich dis tag zuͦ hin machen, dan
+<lb/>min heren wellen an <date period="P7WD">sambstag</date> tüncken und niemand mer
+<lb/>hoͤren. Nun<!-- mit ü-Strichen --> die <date dur="P14D">vierzaͤchenn tag</date> moͤgen die burger<!-- mit ü-Strichen -->,
+<lb/>wan es inen gelaͤgen ist, zestüren komen. Die ersten <date dur="P8D">achtag</date>
+<lb/>fragt man alle <orgName ref="org005587">ratz</orgName> tag hinuß<!-- mit ü-Strichen --> uff luͦbenn, oͤb oͤthwar
+<lb/>da sig, der stüren woͤll, deßglichenn thuͦt man die letst
+<lb/><date dur="P1W">wochenn</date>, in deren man dem stüren zuͦ lieb <date dur="R/P1D">alle tag</date> rath
+<lb/>halt, ouch<!-- mit ü-Strichen --> also.</seg>
+<seg>Und wenn burger<!-- mit ü --> zestüren komen, nimpt
+ <lb/>man iren an <num value="20">zwentzig</num> oder <num value="30">drissig</num> inhin für den <orgName ref="org005587">kleinenn
+<lb/>raͧt</orgName>, der selbig allein zuͦ stüren sitzt, und fragt der statschriber
+<lb/>einen nach dem anderen, was er zuͦ stür geben woͤll, und
+ <lb/>schribt also eins yeden stür nach dem anderen uff.<note>Steuerverzeichnisse liegen seit 1468 vor (<bibl>STAW B 3f</bibl>). Sie geben nicht nur einen Überblick über die Vermögensverhältnisse in der Stadt, sondern auch über die Sozialtopografie, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 143-147</bibl>.</note> Und so sy
+ <lb/>alle, so denzemall in der stuben<!-- mit ü-Strichen --> sind, also uffgeschriben werden,
+ <lb/>gibt inen daruff<!-- mit ü --> der schultheis<!-- mit ü --> den eyd: <q>Also ir wer<lb break="no"/>den schweren, das ir aller u̍wer guͦt, deßglichen uwer wyber
+<lb/>guͤtter, ligentz unnd varentz, nützet ußgenomen, verstüret
+ <lb/>haben, alls lyeb es u̍ch sig.</q> Derglichen brucht<!-- mit ü-Strichen --> man es
+<lb/>für und für, bitz alle die, so selbs stüren wellend, gestüret
+<lb/>habend.</seg>
+<seg>Am naͤchsten <date period="P6WD">fritag</date> vor der stür gaͧt der statsch<lb break="no"/>riber mit den <num value="3">drig</num> statknaͤchten umb, suͦchen alle hußlütt<!-- mit ü -->
+<lb/>und insaͤsen, so vormals nit in dem stür buͦch begriffen sind,
+<lb/>schribend die selben uff, bringend das selbig mornadis, <date period="P7WD">sam<lb break="no"/>stag</date>, am tüncktag für. Welle dan burger<!-- u mit i-Strich drüber --> darunder<!-- mit ü --> sind, die
+ <lb/>tünckt man, den anderen, so nit burger<!-- u mit i-Strich drüber --> sind, püt man uss
+<lb/>der stat oder an eim offnen wirt zuͦ zeren. Mornadis,
+<lb/><date period="P7WD">sambstag</date>, setzend sich min heren, die <orgName ref="org005587">kleinen raͤt</orgName>, naͤmenn
+<lb/>die <num value="3">drig</num> statknaͤcht zuͦ inen sitzend und facht man vornen
+<pb n="94v" facs="ZGA_Elgg__IV_A_3a__fol__94_v_.tif
+"/>
+<lb/>im stürbuͦch an. Unnd woͤlicher nit gestüret hat
+<lb/>oder sich nit stüren mag, den tünckt man nach sinem hab
+<lb/>oder guͦt, legt man im uff oder nimpt im ab. Dan zevor ee
+<lb/>und man zetüncken anfacht, verschafft der schultheis<!-- mit ü-Strichen -->
+<lb/>mit den <orgName ref="org005587">raͤthen</orgName> und knaͤchten bim eyd, einen yeden zuͦ
+<lb/>tüncken, im uff oder abzelegen, darnach und eins yedenn
+<lb/>vermoͤgen sig. Unnd so also alle burger<!-- mit ü --> lut<!-- mit ü --> des stür
+<lb/>buͦchs uß und uß gestüret wordenn, uberlist man daruff<!-- mit ü -->
+<lb/>das stür buͦch, oͤb da oͤthwar wer, der gestüret hete minder, dan
+ <lb/>aber sin guͦt were. Und so einer also verhannden sin, ver<lb break="no"/>ordnnet ein <orgName ref="org005587">rat</orgName> zuͦ dem selben, nimpt im sin schlüssel ab, besch<lb break="no"/>lüst im sin hus<!-- mit ü -->, nimpt des guͦt zuͦ gmeiner stat handenn
+ <lb/>und bezalt ein <orgName ref="org005587">rat</orgName> dem, also vill er verstüret hat.<note>Zu obrigkeitlichen Massnahmen gegen säumige Steuerzahler allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 541-542</bibl>.</note></seg>
+<seg>Morn<lb break="no"/>adis, <date period="P1WD">suntag</date>,<!-- mit ü --> alls uff den stür tag, thuͦt man durch<!-- mit ü --> den
+<lb/>genanten knaͤcht den driten ruͦff in der kilchen, also
+<lb/>das alle burger<!-- u mit i-Strich drüber --> und insaͤsen ire stüren soͤllen by der <time period="byDay">tag
+<lb/>zit</time> dem seckelmeister gaͤben oder ussert der stat unnd
+<lb/>fridkreis gan und nit mer darin komen, sy habind dan
+<lb/>zevor ire stüren bezalt.</seg>
+<seg>Es soll ouch<!-- mit ü --> alwaͤg by eim
+<lb/>seckelmeister von miner heren waͤgen an der stür sitzen
+ <lb/>bed schultheisen<!-- mit ü-Strichen --> und der statschriber, ouch<!-- mit ü --> wen ein seckel<lb break="no"/>meister sunst<!-- mit ü-Strichen --> für sich selbs das gaͤlt zuͦ zellen wil haben,
+<lb/>und die stür nach lut<!-- mit ü --> dem stürbuͦch innaͤmen und niemantz
+<lb/>nützet nachlassen an siner stür.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Steuerordnung der Stadt <placeName ref="loc000849">Winterthur</placeName> ist im Satzungsbuch der Gemeinde <placeName ref="loc001005">Elgg</placeName> überliefert, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_265">SSRQ ZH NF I/2/1, Nr. 265</ref></bibl>. Sie wurde auch in das Kopial- und Satzungsbuch aufgenommen, das Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> 1535 anlegte und das nur mehr in der Abschrift <persName ref="per027189">Johann Jakob Goldschmids</persName> aus dem 18. Jahrhundert vorliegt (<bibl>winbib Ms. Fol. 27, S. 412-413</bibl>). Beide Texte sind weitgehend identisch. Johann Conrad Troll gibt die Steuerordnung ohne Angabe der Quelle sprachlich überarbeitet wieder und datiert sie ins Jahr 1401 (<bibl><ref target="/startseite/literaturverzeichnis">Troll 1840-1850</ref>, Bd. 6, S. 67-69</bibl>), ebenso Kaspar Hauser, der Herausgeber der Chronik des <persName ref="per027172">Laurenz Bosshart</persName> (<bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 65, Anm. 1</bibl>).</p>
+<p>Der Bürger- und Hintersasseneid verpflichtete die Einwohner zur Steuerzahlung (Eidformel der Bürger: <bibl>winbib Ms. Fol. 241, fol. 1r-v</bibl>; <bibl>STAW B 3a/10, S. 1-2</bibl>; zur Stellung der Hintersassen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_064">SSRQ ZH NF I/2/1, Nr. 64</ref></bibl>). Ende der 1420er Jahre ordneten <orgName ref="org007943">Schultheiss und beide Räte</orgName> an, dass die Steuerpflichtigen über ihr bewegliches und unbewegliches Vermögen Auskunft geben mussten (<bibl>STAW B 2/1, fol. 74r</bibl>). 1452 legte man für säumige Zahler Verzugsgebühren pro Tag in Höhe der Steuersumme fest (<bibl>STAW B 2/1, fol. 118v</bibl>). 10 Jahre später wurde die Ausweisung und Pfändung der Betroffenen bei Zahlungsverzug beschlossen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_086">SSRQ ZH NF I/2/1, Nr. 86</ref></bibl>). Bürger, die nicht in der Stadt wohnten, sogenannte Ausbürger, verloren ihr Bürgerrecht, wenn sie den Steuertermin nicht einhielten (<bibl>STAW B 2/5, S. 326</bibl>, zu 1488). Ein Fall von Steuerhinterziehung ist für das Jahr 1544 dokumentiert. Als sich Zweifel über die Angaben eines Steuerpflichtigen nach gründlicher Überprüfung bestätigten und dieser des Meineids überführt war, wurde ihm auf Bitten seiner Verwandten zwar die Todesstrafe erlassen, doch verlor er sein Bürgerrecht und musste die übliche Abzugsgebühr von 20 Prozent seines Vermögens bezahlen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_289">SSRQ ZH NF I/2/1, Nr. 289</ref></bibl>).</p>
+<p>Eine Mitte der 1490er Jahre entstandene Aufzeichnung des Stadtschreibers <persName ref="per027307">Konrad Landenberg</persName> präzisiert die Vermögenssteuerpflicht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_166">SSRQ ZH NF I/2/1, Nr. 166</ref>, Artikel 1</bibl>). 1469 wurden der Schultheiss, ein Mitglied des <orgName ref="org005587">Kleinen</orgName> und zwei Mitglieder des <orgName ref="org009293">Grossen Rats</orgName> damit beauftragt, die Selbstdeklarationen über das Vermögen entgegenzunehmen. Strittige Fälle sollten sie dem <orgName ref="org005587">Kleinen Rat</orgName> vorlegen (<bibl>STAW B 2/2, fol. 17r</bibl>; <bibl>STAW B 2/3, S. 106</bibl>). Bei erhöhtem Finanzbedarf erhob der <orgName ref="org005587">Rat</orgName> ausserordentliche Kopftsteuern (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_078">SSRQ ZH NF I/2/1, Nr. 78</ref></bibl>, zu 1448). Darüber hinaus wurden aber auch mit einzelnen Bürgern individuelle Absprachen getroffen, etwa eine pauschale Steuersumme vereinbart oder Steuerfreiheit gewährt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 142</bibl>. Zum städtischen Steuerwesen im Mittelalter allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 526-542</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

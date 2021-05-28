@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_267_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3417770">ZGA Elgg IV A 3a, fol. 96r-98r</idno></msIdentifier><head>Verordnung über die Verbrauchssteuern für Wein und Mehl in Winterthur</head><msContents><summary>In der Stadt Winterthur gelten folgende Verbrauchssteuern für Wein und Mehl: Bürger müssen pro Saum ausgeschenkten Weins 10 Schilling Steuer zahlen, wenn sie 10 Haller für das Mass verlangen, für Auswärtige verdoppelt sich der Betrag (1). Bei importierten Weinen wird ein Aufschlag von 50 Prozent erhoben (3). Ist der Wein im Fass verdorben, muss der Weinschätzer die Menge des konsumierten Weins feststellen und die Steuer dafür festlegen. Wein, der nicht mehr ausgeschenkt werden kann, unterliegt nicht der Steuer. Wird ein Fass geöffnet, muss der Weinschätzer den Wein schätzen und das Fass versiegeln. Nur der Weinschätzer darf das Siegel wieder vom leeren Fass entfernen (4). Wer die Steuer nicht pünktlich zahlt, soll von den Steuereinnehmern dem Schultheissen gemeldet werden, der die Ausweisung aus der Stadt anzuordnen hat. Steuerschuldner, die in der Stadt oder im Friedkreis aufgegriffen werden, sollen unter Arrest gestellt werden (5). Für ein Mütt Dinkel, das gemahlen wurde, beträgt der Steuersatz 4 Haller (2). Die Müller dürfen erst Getreide zum Mahlen entgegennehmen oder Mehl an Kunden liefern, wenn zuvor die Verbrauchssteuer entrichtet worden ist (6, 7).</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1534-01-01" to="1534-12-31">Undatiert, Datierung aufgrund des Vermerks auf fol. 119r betreffend die Übermittlung von Winterthurer Satzungen im Jahr 1534</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000350">Getreide</term><term ref="key000047">Mühlen</term><term ref="key000882">Nahrungsmittel</term><term ref="key000157">Steuern</term><term ref="key000129">Wein</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="96r" facs="ZGA_Elgg__IV_A_3a__fol__96_r_.tif"/>
+<head><hi rend="underline">Des unngaͤlts ordnung</hi><!-- mit ü-Strichen --></head>
+<p><seg n="1">
+<lb/>Ein yeder burger<!-- mit ü-Strichen -->, der sig joch, wer er woͤll, soll den win,
+<lb/>so er ye vom zapffen schenckt, zeverungelten<!-- ü über v, mit ü-Strichen bei u --> schuldig<!-- mit ü --> sin
+<lb/>und von yedem <measure type="volume" unit="Saum" quantity="1" commodity="wine">soum<!-- mit ü-Strichen --> win</measure> besonder, alß mengen haller
+<lb/>er die <measure type="volume" unit="Mass" quantity="1" commodity="wine">maͧß</measure> gibt, alls mengen schilling, also, als wen
+<lb/>er den win <measure type="volume" unit="Mass" quantity="1" commodity="wine">ein maͧß</measure> umb <measure type="currency" unit="h" quantity="10">zaͤchen haller</measure> gaͤb, <measure type="currency" unit="ß" quantity="10">zaͤchen schil<lb break="no"/>ing haller</measure> darvͦn zebezallen verbunden<!-- mit ü --> sin.<note>Diese Bestimmung übernahmen <orgName ref="org009298"> Vogt, Rat und Elf der Gemeinde <placeName ref="loc001005">Elgg</placeName></orgName>, vgl. <bibl>ZGA Elgg IV A 3a, fol. 11r-v</bibl>.</note> So aber
+<lb/>ein froͤmbder, der nit burger<!-- mit ü --> wer, (alls vor alten ziten
+<lb/>oͤthwan beschehen) allhie zuͦ <placeName ref="loc000849">Winterthur</placeName> win woͤllte
+<lb/>vom zapffen schencken, das alßdan der von beden boͤden<!-- vgl. Idiotikon IV, Sp. 1028: Belegstelle für Wein mit 2 Böden aus Basel, Vermutung: fremder Wein -->
+<lb/>allsnamlich zwifach ungaͤlt darvͦn gaͤben soͤlle.</seg>
+</p>
+<p><seg n="2">
+<lb/>Das mülly ungaͤlt soll ouch<!-- mit ü-Strichen --> ein yeder burger<!-- mit ü -->, nam<lb break="no"/>lich von <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">einem müt kernen</measure>, so der gemallen ist, <measure type="currency" unit="h" quantity="4">vier
+<lb/>haller</measure>, von einem yeden <measure type="volume" unit="Viertel" quantity="1">vierttell</measure>
+<measure type="currency" unit="h" quantity="1">ein haller</measure> zegeben
+<lb/>pflichtig sin.</seg>
+</p>
+<pb n="96v" facs="ZGA_Elgg__IV_A_3a__fol__96_v_.tif"/>
+<head><hi rend="underline">Winkoͤifferen satzung<!-- mit ü-Strichen --></hi></head>
+<p><seg n="3">
+<lb/>Der winkoͤifferenn halb, so win usserthalb unser
+<lb/>stat von froͤmbden ortten inhin fuͤren, deren halb
+<lb/>ist also geordnet, das der, so soͤlichen froͤmbden win
+<lb/>schenckt, noch halb alß vill, als er sunst<!-- mit ü-Strichen --> darvͦn zuͦ ungaͤlt
+<lb/>gaͤben muͤst, gaͤben soͤlle, namlich also: Wen einer sunst<!-- mit ü-Strichen -->
+<lb/><measure type="currency" unit="ß" quantity="10">zaͤchen schilling</measure> von <measure type="volume" unit="Saum" quantity="1" commodity="wine">einem soum<!-- mit ü-Strichen --></measure> muͤst gaͤben, noch <measure type="currency" unit="ß" quantity="5">fuͤnff
+<lb/>schilling</measure> zuͦ ungaͤlt gaͤben soͤlle. Unnd das ouch<!-- mit ü-Strichen --> die, so
+<lb/>sunst<!-- mit ü-Strichen --> win, der froͤmbd wer, samenthafft one verschenckt
+<lb/>hinuß<!-- mit ü-Strichen --> uß der stat verkuͦfftend, von einem yeden <measure type="volume" unit="Saum" quantity="1" commodity="wine">soum<!-- mit ü-Strichen --></measure>
+<lb/>besonder <measure type="currency" unit="ß" quantity="5">fünff schilling</measure> gmeiner stat ze ungaͤlt gaͤben
+<lb/>soͤllend, doch soͤlichs zuͦ minderen oder meren, ye dar<lb break="no"/>nach die jargeng sigend, vorbehaltenn.</seg>
+</p>
+<p><seg n="4">
+<lb/>Des unngaͤltz im schencken halb da haben unser
+<lb/>herren, wie oben gemaͤldt, also darin zehandlen gesetzt,
+<lb/>namlich so ein burger<!-- mit ü --> einen win zuͦ schencken uffgethan
+<lb/>und der selbig uffgethaner win deßhalb, das der brochen
+<lb/>oder seiger<!-- Idiotikon VII, Sp. 483: Fäden ziehend --> worden waͤr, gstat also, das er den nitt ver<lb break="no"/>schenncken, sonder wider zuͦ schlachen muͦß, das er soͤlichs
+<lb/>wol thuͦn, also das er nach dem schaͤtzer schickenn,
+<lb/>der schaͤtzer im den win abbeillen<!-- Idiotikon IV, Sp. 1165: amtlich messen --> und den, so der schaͤtzer
+<lb/>vindt verschenckt<!-- Idiotikon VIII, Sp. 953: ausgeschenkt --> sin, den selbigen win verungelten<!-- ü-Striche -->
+<lb/>und den win, so da unverschenckt<!-- ü-Striche über dem v --> blipt, nit zuͦ verungelten<!-- ü-Striche -->
+<lb/>schuldig<!-- ü-Striche --> sin soͤlle. Unnd das die besiglung<!-- ü-Striche --> der fassen
+<pb n="97r" facs="ZGA_Elgg__IV_A_3a__fol__97_r_.tif"/>
+<lb/>unnd soͤlichs von fillerley ursachen waͤgen untrüw
+<lb/>zuͦ verhuͤtenn, widerumb an dhand soͤlle gnomen werden,
+<lb/>namlich also, wen einer einen win zeschencken will
+<lb/>uffthuͦn, das der selbig zevor, ee und er den win uffthuͦt,
+<lb/>den schaͤtzer beschicken, der selbig im den win schaͤtzenn
+<lb/>und das faß besiglen soͤlle, der selbig ouch<!-- mit ü -->, wen der
+<lb/>win schon uß und verschennckt ist, das sigel nit wider
+<lb/>ab dem vaß thuͦn, sonder den schaͤtzer beschicken, das der die
+<lb/>besiglung<!-- mit ü --> wider ab dem vaß thuͤge.<note>Diese Bestimmung übernahmen <orgName ref="org009298"> Vogt, Rat und Elf der Gemeinde <placeName ref="loc001005">Elgg</placeName></orgName>, vgl. <bibl>ZGA Elgg IV A 3a, fol. 11r-v</bibl>.</note></seg>
+</p>
+<head>Innzug<!-- mit ü-Strichen --> des win ungaͤlts<note>Die folgenden Artikel sind in der Abschrift der Ungeldordnung im Kopial- und Satzungsbuch des <persName ref="per014937">Gebhard Hegner</persName> (<bibl>winbib Ms. Fol. 27, S. 416</bibl>) nicht berücksichtigt.</note></head>
+<p><seg n="5">
+<lb/>Vonn bezallung<!-- mit ü --> wegen des ungaͤltz ist von gmeiner
+<lb/>statt nutz<!-- mit ü --> und noturfft<!-- mit ü --> waͤgen angesaͤchen, namlich, das
+<lb/>fürhin mencklich sin ungaͤlt uff den tag, so das ungaͤltt
+<lb/>zegaͤben geruͤfft wirt, sich vor den ungaͤlteren erzoͤige<damage agent="clipping"><supplied resp="bf">n</supplied></damage>,
+<lb/>und ob der win ußgeschenckt waͤre, den selben tag sin un<lb break="no"/>gaͤlt zebezallen schuldig<!-- mit ü --> sin. Wo das nit beschehe, soͤlle<damage agent="clipping"><supplied resp="bf">n</supplied></damage>
+<lb/>die ungaͤlter by iren eyden schuldig<!-- mit ü --> sin,<note>Vgl. Eidformel des Ungelters im ältesten überlieferten Eidbuch der Stadt <placeName ref="loc000849">Winterthur</placeName> aus den 1620er Jahren (<bibl>winbib Ms. Fol. 241, fol. 11r</bibl>).</note> die selbenn
+<lb/>ungehorsamen an einem zaͤdell dem schultheisen<!-- mit ü --> anzeg<lb break="no"/>eben. Der selbig schultheis<!-- mit ü --> soll dan ouch<!-- mit ü --> by sinem
+<lb/>eyd schuldig<!-- mit ü --> sin, die saͤlben der <time period="byDay">tag zite</time> usser der
+<lb/>stat zwing und baͤn verschaffen zegand und darin nie<pb n="97v" facs="ZGA_Elgg__IV_A_3a__fol__97_v_.tif"/><lb break="no"/>mer zekomen, er habe dan zevor sin ungaͤlt gaͤbenn.
+<lb/>Und wo er darüber in der stat und fridkreiß ergriffen
+<lb/>würde, soll er in den thurn<!-- mit ü-Strichen --> gelegt werdenn. Wo
+<lb/>aber der win uff den bedachten tag nit ußgeschenckt
+<lb/>waͤre, so soll soͤlich ungaͤlte uff das nechst komend ung<lb break="no"/>aͤlte, wie obstaͧt, bezalt werdenn.<note>Diese Bestimmung entspricht im Wortlaut dem Ratsbeschluss vom 26. Oktober 1486 (<bibl>STAW B 2/5, S. 214</bibl>).</note></seg>
+</p>
+<head><lb/><hi rend="underline">Mülly ungaͤllt</hi></head>
+<p><seg n="6">
+<lb/>Mine herren habend angesaͤchen, das fürohin kein
+<lb/>müller von niemands weder kernen noch korn zemalen
+<lb/>nit empfachen, ouch<!-- mit ü --> in der mülly zemallen nit ufschüten,
+<lb/>er habe dan zevor das ungaͤlt in der büchsen, deßglichen
+<lb/>soͤlchs iren wiberen, kinder noch ehalten, geschworen.<note>Diese Bestimmung entspricht im Wortlaut dem Ratsbeschluss vom 18. November 1491 (<bibl>STAW B 2/5, S. 470</bibl>; <bibl>STAW AJ 126/1r</bibl>).</note></seg>
+</p>
+<p><seg n="7">
+<lb/>Ein <orgName ref="org007943">schultheis<!-- mit ü -->, bed, clein und groß, raͤt</orgName> hand gesetzt,
+<lb/>das ein yeder müller, so er dem kunden<!-- mit ü --> das maͤl bri<lb break="no"/>ngt, zevor oder ee er von dem kunden<!-- mit ü --> scheidt, soͤlle das
+<pb n="98r" facs="ZGA_Elgg__IV_A_3a__fol__98_r_.tif
+"/>
+<lb/>unngaͤlt inziechenn und das zestund<!-- mit ü --> in die zoll büchsen
+<lb/>stossen. Unnd oͤb im der kund<!-- mit ü --> das ungaͤlt nit bezalte, so sol
+<lb/>er das maͤll mit im widerumb heimfuͤren und das dem
+<lb/>konden nit gaͤbenn, er bezalle inen dan zevor das ungaͤlt.<note>Diese Bestimmung entspricht im Wortlaut einem undatierten Ratsbeschluss (<bibl>STAW AJ 126/1r</bibl>).</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die sogenannte Ungeldordnung der Stadt <placeName ref="loc000849">Winterthur</placeName> ist im Satzungsbuch der Gemeinde <placeName ref="loc001005">Elgg</placeName> überliefert, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_265">SSRQ ZH NF I/2/1, Nr. 265</ref></bibl>. Sie wurde auch in das von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> 1535 anlegte Kopial- und Satzungsbuch aufgenommen, das nur mehr in der Abschrift <persName ref="per027189">Johann Jakob Goldschmids</persName> aus dem 18. Jahrhundert überliefert ist (<bibl>winbib Ms. Fol. 27, S. 416</bibl>).</p>
+<p>Neben Vermögenssteuern waren Verbrauchssteuern, beispielsweise auf Wein oder Mehl, eine zentrale Einnahmequelle mittelalterlicher Städte, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/026199/2015-07-23/">Ungeld</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 525-527</bibl>. 1452 setzte der <orgName ref="org005587"><placeName ref="loc000849">Winterthurer</placeName> Rat</orgName> fest, dass jeder, der Wein ausschenkte, die Weinsteuer zu festgelegten Terminen bar bezahlen oder andernfalls einen Aufschlag in Höhe der Steuersumme akzeptieren musste. Anders als bei der Vermögenssteuer beliess man es jedoch nicht bei der Selbstdeklaration, sondern schickte Weinschätzer und Ungeldschreiber in die Keller, um die für den Ausschank bestimmten Weinvorräte zu erheben (<bibl>STAW B 2/1, fol. 119r</bibl>; vgl. Eidformel des Weinschätzers: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_141">SSRQ ZH NF I/2/1, Nr. 141</ref></bibl>). Diese Verordnung wurde 1470 bestätigt (<bibl>STAW B 2/2, fol. 20r</bibl>). Darüber hinaus erliess der Rat regelmässig Verbote, undeklarierte Fässer für den Weinausschank anzustechen (<bibl>STAW B 2/3, S. 286</bibl>, zu 1476; <bibl>STAW B 2/2, fol. 29r</bibl>, ca. 1476/1477; <bibl>STAW B 2/5, S. 405</bibl>, zu 1490; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_166">SSRQ ZH NF I/2/1, Nr. 166</ref>, Artikel 3</bibl>, zwischen 1495 und 1497). Die Wirte wurden zur Einhaltung dieser Anweisung verpflichtet (<bibl>STAW B 2/2, fol. 31r</bibl>; <bibl>STAW B 2/3, S. 365</bibl>, zu 1478).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

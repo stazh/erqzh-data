@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_273</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/8, S. 183 (Eintrag 2)</idno></msIdentifier><head>Verurteilung zweier Prozessgegner wegen Missachtung eines Urteils in Winterthur</head><msContents><summary>Der Kleine Rat von Winterthur urteilt im Konflikt zwischen Martin Frei einerseits und Heinrich Knus und dessen Sohn Kaspar andererseits, dass die Äusserungen auf beiden Seiten nicht ehrverletzend sein sollen und dass es wegen des Wegs und der Birnen bei dem durch den Kleinen Rat bestätigten Urteil der Eigengeber bleiben solle. Weil beide Seiten das Urteil nicht beachtet und unangemessene Worte zueinander gesagt haben, wird eine Busse von 30 Pfund gegen Vater und Sohn Knus und eine Busse von 5 Pfund Haller gegen Martin Frei verhängt. Beide Seiten sollen ihre Kosten selbst tragen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1535-10-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key000285">Ehrverletzung</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="183"/>
+<p><lb/>Coram <orgName ref="org005587">kleinen raͤten</orgName>, actum <lb/><origDate when="1535-10-18">mentag nach sant <persName ref="per000455">Gallen</persName> tag, anno xxxv</origDate></p>
+<p>
+<lb/>Zwischend <persName ref="per027361">Marthin Frigen</persName> eins- und <persName ref="per027449">Heinrich Knusen</persName>, <add place="left margin" type="sign"><lb/>ouch <persName ref="per027451">Caspar <lb/>Knusen</persName>, sinen <lb/>sun</add>, ander<lb break="no"/>theills ist erkentt, das die wortt, zwischend inen ver<lb break="no"/>loffen, hin und ab und enthwederem theill an sinen
+<lb/>eren nützett schaden soͤlle, zem anderen deß waͤgs, ouch
+<lb/>der biren halb, das es <del>by</del> deßhalb by vor angangner
+<lb/>urtaill, so von <orgName ref="org007809">eigengaͤberen</orgName><note>Die Eigengeber urteilten in Baustreitigkeiten und Streitfällen um unbewegliche Güter, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_184">SSRQ ZH NF I/2/1, Nr. 184</ref></bibl>.</note> gfeltt und demnach von <orgName ref="org005587">kleinen
+<lb/>raͤten</orgName> bestett worden, beliben soͤlle. Und umb deßwillen
+<lb/>sy der selben urtaill zuͦ beden theillen nitt statt gethan <add place="left margin" type="sign">und glaͤpt</add>,
+<lb/>ouch von der <sic>ungschitkten</sic> worten sy gegen einander
+<lb/>geprucht, haben mine heren <persName ref="per027449">Heinrich Knusen</persName>
+<add place="left margin" type="sign">und sin sun</add> unab<lb break="no"/>laͤslich gstrafftt, namlich umb <measure type="currency" unit="lb" quantity="30">xxx </measure>, ouch <persName ref="per027361">Marthin
+ <lb/>Frigen</persName> umb <measure type="currency" unit="lb" quantity="5">v  haller</measure>. Und soll jeder theill sin er<lb break="no"/>litnen costen an im saͤlber haben.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>In der vormodernen Gesellschaft war die persönliche Ehre konstitutiv für den sozialen Status eines Individuums. Ehrverletzungen gefährdeten die Reputation der Betroffenen und mussten abgewehrt werden. Die Diskreditierung einer anderen Person bezweckte häufig die Steigerung des eigenen Ansehens, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Loetz 2002</ref>, S. 274-281</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 125-134</bibl>. Ehrverletzende Beleidigungen und Diffamierungen konnten leicht in handgreifliche Auseinandersetzungen übergehen, so dass sicherheitspolitische Interessen der Obrigkeit tangiert waren, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dülmen 1999</ref>, S. 1-17</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

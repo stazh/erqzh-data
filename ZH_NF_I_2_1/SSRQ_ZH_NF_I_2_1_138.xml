@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_138</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 76 (Eintrag 4)</idno></msIdentifier><head>Vereinbarung mit Meister Heinrich Goldschmid über die Eichung der Masse und Gewichte in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur haben mit Meister Heinrich Goldschmid vereinbart, dass er künftig alle Gewichte mit dem städtischen Normgewicht vergleichen und bei Übereinstimmung mit dem städtischen Zeichen markieren soll. Er erhält pro Stück 1 Pfennig Lohn. Ebenso soll er zum vereinbarten Lohn die Hohlmasse kontrollieren. Heinrich hat geschworen, die Eichung ordnungsgemäss durchzuführen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1484-03-17"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000700">Beaufsichtigung</term><term ref="key000179">Eid</term><term ref="key000252">Mass und Gewicht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="76"/>
+<p><lb/>Actum <origDate when="1484-03-17">mitwochen vor oculi</origDate></p>
+<p><gap reason="irrelevant"/><note>Es folgen zwei Einträge über Urteilssprüche.</note></p>
+<p>
+<lb/>Mine herren haben mit meister <persName ref="per027391">Heinrich Goldschmid</persName><note>Er war im Vorjahr als Bürger aufgenommen worden und übte das Goldschmiedehandwerk aus (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_133">SSRQ ZH NF I/2/1, Nr. 133</ref></bibl>).</note> der gewichthalb
+<lb/>ein u̍berkomen getān, also das er fu̍rohin alle gewicht, die im zuͦ
+<lb/>handen kaͤmend, recht unnd ordenlich fēchten und soͤlch gewichte
+<lb/>der statt recht gewichte ordenlich verglichen und sich keiner geverde darinne
+<lb/>gepruchen. Und was er also recht gefochten haut, dar<subst><del rend="overwritten"><unclear>inn</unclear></del><add place="overwritten">uff</add></subst> sol er der
+<lb/>statt zeichen schlāhen. Unnd sol im darvon zuͦ sinem lone werden
+ <lb/>ye von einem stuck <measure type="currency" unit="d" quantity="1">j ₰</measure>. Deßglichen sol er die viertail ouch nach rechter
+<lb/>ordnung vaͤchten in dem lon, wie vormals daruff ze geben geordnet ist. Uff das haut
+<lb/>er gesworn, vermelte vechtung recht und ordenlich ane geverde ze tund <abbr>etc</abbr>.
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc000065">Zürich</placeName> galt bereits seit 1424 das Pfund zu 36 Lot als massgebliches Handelsgewicht (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 2/1, S. 178, Nr. 210</bibl>). 1487 führten die <orgName ref="org007943">Winterthurer</orgName> dieses schwerere Pfund ein (<bibl>STAW B 2/5, S. 255</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1443</bibl>). 1514 wurde entschieden, diese Praxis beizubehalten (<bibl>STAW B 2/7, S. 124</bibl>).</p>
+<p>Im Jahr 1565 stellten <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> bei einer Überprüfung der Gewichte auf der Landschaft Unregelmässigkeiten in <placeName ref="loc000849">Winterthur</placeName> und <placeName ref="loc001005">Elgg</placeName>, dessen Gewichte ebenfalls in <placeName ref="loc000849">Winterthur</placeName> geeicht wurden, fest. <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> erklärten daraufhin, dass in ihrer Stadt wie in <placeName ref="loc000065">Zürich</placeName> ein vereidigter Schlosserwerkmeister Waagen und Gewichte prüfe (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3359190">StAZH B II 133, S. 11</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1124517">StAZH B IV 25, fol. 72v</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=690156">StAZH A 155.1, Nr. 42</ref></bibl>). Diese Aussage korrespondiert mit dem Ämterverzeichnis des Kopial- und Satzungsbuchs, das Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> 1535 angelegt hatte und das nur in einer späten Abschrift überliefert ist. Dort ist vermerkt, dass der städtische Schlosserwerkmeister und ein Küfer für das Eichen der Masse und Gewichte zuständig ist (<bibl>winbib Ms. Fol. 27, S. 503</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

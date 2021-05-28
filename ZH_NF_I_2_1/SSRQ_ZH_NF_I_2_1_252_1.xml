@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_252_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250577">StAZH C I, Nr. 3155</idno></msIdentifier><head>Revers der Stadt Winterthur über die Belehnung mit dem Heiligberg durch die Stadt Zürich</head><msContents><summary>Schultheiss, Rat und Bürger der Stadt Winterthur erklären, dass Bürgermeister und Rat von Zürich ihnen den Heiligberg samt Häusern, Gärten und Matten und Holzrecht, wie es die dortigen Pfründherren in Besitz hatten, zu einem rechten Lehen verliehen haben und dass der Schultheiss von Winterthur Hans Huser das Lehen als Träger empfangen hat. Sie verpflichten sich, bei Bedarf innerhalb eines Monats einen neuen Lehensträger zu stellen, der sich in gleicher Weise verpflichten wird wie sein Vorgänger. Die Aussteller siegeln mit dem Sekretsiegel der Stadt Winterthur.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.0"/><width unit="cm" quantity="38.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><orgName role="sigillant">Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1529-10-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Wir, <orgName role="issuer" ref="org007943">schultheis, reͣt und die burger gmeynlich zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, thuͦnd kunt allermeͣngklichem mit disem brieff, das unns die frommen,
+<lb/>vesten, fursichtigen, ersamen und wysen <orgName ref="org002406">burgermeister unnd ratt der statt <placeName ref="loc000065">Zürich</placeName></orgName>, unser gnedig, lieb herren, zuͦ einem rechten lechen ge<lb break="no"/>lichen unnd verlichen, wie ouch das durch den ersamen, wysen, unsern getru̍wen, lieben schultheisen <persName ref="per027422">Hansen Huser</persName> als unsern und
+<lb/>gmeyner unnser statt trager eͣmpfangen, der darumb gwonliche lechens pflicht gethan hat, namlich den berg genant der <placeName ref="loc013010">Hey<lb break="no"/>lig Berg</placeName>, by unser statt <placeName ref="loc000849">Winterthur</placeName> gelegen, sambt den hu̍sern, geͣrten unnd matten, ouch dem holtzrecht, wie dann das die pfruͦnd<lb break="no"/>herren daselbs ingehebt und beseͣssen haben.</seg>
+<seg>Darumb so gereden und versprechen wir hiemit, so unnd wann der vorgenannt
+ <lb/>trager abgadt ald sunst unu̍tz wu̍rde, so söllen wir unnd unser nachkommen hinfu̍r jemer den genanten unnsern gnedigen herren
+ <lb/>von <placeName ref="loc000065">Zu̍rich</placeName> und iren nachkommen ein anderen erberen man an des abgangnen ald unützen statt uber das vorgeseit lechen inn
+<lb/><date dur="P1M">einem monet</date>, dem nechsten, zuͦ trager geben, der ouch sollich leechen empfachen solle, wie lechens unnd landsreͣcht ist, on alle wi<lb break="no"/>derred, und das derselbig trager harumb lob unnd schwere alles das, so der obgenant abgangen ald unu̍tz trager inn diser sach
+ <lb/>gelobt und geschworen hat, alles by unnsern guten tru̍wen, ungfarlich.</seg>
+<seg>Des zuͦ urkundt unnd stetter sicherheit haben
+ <lb/>wir unser statt <placeName ref="loc000849">Winterthur</placeName> secret insigel offenlich lassen henken an disen brieff, der geͣbenn ist <origDate when="1529-10-18">mentags nach sanntt
+  <lb/><persName ref="per000455">Gallen</persName> tag, nach der geburt Christi gezallt funfftzehenhundert zwentzig und nün jar</origDate>.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Verschribung dero von
+<lb/><placeName ref="loc000849">Winterthur</placeName> von des le<lb break="no"/>chens weͣgen des <placeName ref="loc013078">Heil<lb break="no"/>gen Beͣrgs</placeName>
+<abbr>etc</abbr>, <date when="1529">1529</date></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingroßiert</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die Stadt <placeName ref="loc000849">Winterthur</placeName> erwarb den <placeName ref="loc013010">Heiligberg</placeName> von der Stadt <placeName ref="loc000065">Zürich</placeName> als Lehen der Grafschaft <placeName ref="loc000012">Kyburg</placeName>, vgl. den Kaufvertrag (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_249">SSRQ ZH NF I/2/1, Nr. 249</ref></bibl>) und die Urkunde über die Belehnung durch den Bürgermeister von <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_251">SSRQ ZH NF I/2/1, Nr. 251</ref></bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

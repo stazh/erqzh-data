@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_132</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 52 (Eintrag 2)</idno></msIdentifier><head>Verordnung über die Ausfertigung von Urkunden in der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur ordnen an, dass Ruedi Huber und alle seine Nachfolger als Richter die Urkunden, die gemäss Gerichtsurteil auszufertigen sind, durch den Fürsprecher dem Stadtschreiber unverzüglich in Auftrag geben und durch den Schultheissen mit dem Gerichtssiegel siegeln lassen sollen. Der Stadtschreiber soll den Inhalt der Urkunden in das Ratsbuch eintragen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1483-12-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000057">Gericht</term><term ref="key000383">Kanzlei</term><term ref="key000471">Schriftlichkeit</term><term ref="key003025">Urkunde</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="52"/>
+<p><lb/>Uff <origDate when="1483-12-10">mitwochen nach <lb/><persName ref="per001536">Nicolai</persName>, anno <abbr>etc</abbr> lxxxiij<hi rend="sup">o</hi></origDate></p>
+<p><seg>
+<lb/>habend sich mine herren vereint, das <persName ref="per027419">Ruͤdi Huͦber</persName> und ein jeglicher
+<lb/>richter, der ye zuͦ ziten ist, alle brieff, so vor gericht gehandlet oder ze geben
+<lb/>erkent werden, dem statschriber mit dem fu̍rsprechen, der dantzemal
+<lb/>in sachen wēre, von stundan nach ergangen urtail angegeben unnd
+<lb/>soͤlich brieffe, <add place="left margin" type="sign"><lb/>was in gerichtz <lb/>wise vor gericht <lb/>oder dem richter <lb/>gehandelt wirt,</add> niemand anders dann ein schulthais mit des gerichtz
+<lb/>insigel versiglen, ouch die brieffe von jͤmand andern dann einem statschriber
+<lb/>geschriben soͤllen werden. Unnd der gastbrieffen halb, die sol der richter
+<lb/>ouch von stundan, wann die ze geben erkennt werden, dem schriber ze schriben
+<lb/>angeben.</seg>
+<seg>Unnd was also von brieffen dem schriber angeben werdent,
+<lb/>die sol der schriber mit irem inhalt in des <orgName ref="org005587">rautz</orgName> buͦch zeichnen.<note>Es handelt sich hierbei um die Bände der Serie <bibl>STAW B 2</bibl>.</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Beurkundung privater Rechtsgeschäfte war in vielen Städten dem Stadtschreiber vorbehalten. Einerseits bezog dieser seine Einkünfte zum grossen Teil aus solchen Aufträgen, vgl. die <placeName ref="loc000849">Winterthurer</placeName> Gebührenordung von 1520 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref></bibl>), andererseits diente diese Praxis der Rechtssicherheit, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Burger 1960</ref>, S. 130-132, 152-158</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

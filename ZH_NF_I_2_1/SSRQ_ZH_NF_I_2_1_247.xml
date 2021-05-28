@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_247</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 3a/1, fol. 96v (Eintrag 1)</idno></msIdentifier><head>Manumission des Martin Huber, wohnhaft in Winterthur, durch den Abt von Fischingen</head><msContents><summary>Abt Heinrich von Fischingen erklärt, dass Martin Huber aus Fischingen, jetzt wohnhaft in Winterthur, mit seinen Nachkommen auf Bitten des Schultheissen und Rats der Stadt Winterthur aus der Leibeigenschaft entlassen worden sei. Der Aussteller siegelt mit dem Sekretsiegel der Abtei.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1529-10-10"/><origPlace>Winterthur</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000084">Leibeigenschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="96v"/>
+<head>
+<lb/>Ledig sagung, so ein her einem sinem
+<lb/>eigen man uß pitt und gnaden thuͦtt
+ </head>
+<p>
+<lb/><seg>Wir, <persName ref="per028043">Heinrich</persName>, von gotes gnaden apt des <orgName ref="org007812">closters zuͦ <placeName ref="loc000937">Vischingenn</placeName></orgName>,
+ <lb/>bekenen mit disem brieff, das <persName ref="per027417">Marthin Huͦber</persName> von <placeName ref="loc000937">Vischingen</placeName>, jetz
+ <lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName> wonende, uff der ersamen, wisen <orgName ref="org007943">schultheis und
+ <lb/>raͤt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> ernstlich pit von uns der graͤchtikeitt, so wir zuͦ
+ <lb/>sinem lib und guͦt libeigenschafft halb gehebt haben, ledig gelausen ist.</seg>
+<seg>
+<lb/>Darumb mit allen wisen, forme und macht wir das krefftigist zuͦ raͤ<lb break="no"/>cht thuͦn kenen, soͤllen und moͤgen, künden, lausen und sagenn
+ <lb/>wir den benanten <persName ref="per027417">Marthin Huͦber</persName>, alle sine kind und geschlaͤcht,
+ <lb/>so uß sinen linien abstigtt, der libeigenschafft und aller graͤchtikeitt
+ <lb/>und raͤchten, damitt sy uns zuͦ ku̍nfftigen ziten hinfür jemer
+ <lb/>pflichtig gewaͤsen ist, gar und gantz fry, unanspraͤchlich, ledig und
+ <lb/>loß gezellt und gelausen haben mitt krafft und urkund dis un<lb break="no"/>sers offen brieffs mit unserem anhangendem apty secrett insi<lb break="no"/>gell versiglett und gaͤben zuͦ <origPlace ref="loc000849">Winterthur</origPlace>, uff <origDate when="1529-10-10">suntig vor sant
+  <lb/><persName ref="per000455">Gallen</persName> tag, anno 29</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Eine Bedingung für die Aufnahme in das Bürgerrecht der Stadt <placeName ref="loc000849">Winterthur</placeName> war der Freikauf von leibherrlichen Bindungen, wie aus einem Gerichtsurteil von 1540 hervorgeht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_286">SSRQ ZH NF I/2/1, Nr. 286</ref></bibl>). Eine Satzung von 1560 sah vor, dass Bürger, die eine Leibeigene heirateten, diese freikaufen sollten (<bibl>STAW AF 59/1a, S. 5</bibl>). Zur Frage der Vereinbarkeit von Leibeigenschaft und Bürgerrecht vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2002</ref>, S. 230-232.</bibl></p>
+<p>Die vorliegende Manumissionserklärung ist im Formularbuch des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> überliefert (<bibl>STAW B 3a/1</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

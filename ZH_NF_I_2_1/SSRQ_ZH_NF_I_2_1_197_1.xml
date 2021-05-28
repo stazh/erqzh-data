@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_197_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1875/1</idno></msIdentifier><head>Urteil im Konflikt zwischen der Gemeinde Hettlingen und dem Inhaber des Schlosses wegen Einzugsgebühr und Allmendnutzung</head><msContents><summary>Bürgermeister und Rat von Zürich fällen ein Urteil im Konflikt zwischen der Gemeinde Hettlingen und Sigmund Murer, Inhaber des dortigen Schlosses, um die Zahlung der Einzugsgebühr und die Nutzung der Allmende. Seitens der Gemeinde wurde die Forderung erhoben, dass Sigmund Murer die übliche Einzugsgebühr von 5 Pfund Haller zahlen solle oder die Allmende und den Dorfbrunnen nicht mitbenutzen dürfe. Murer wandte ein, im Schloss, einem Lehen der Grafschaft Kyburg, zu wohnen, und daher nicht wie ein Dorfbewohner Einzugsgebühren entrichten zu müssen, zumal diese Gebühr von seinen Vorgängern nicht gefordert worden sei, und leitete die Freiheit des Dorfs und die Brunnennutzung vom Schloss ab. Nach Anhörung beider Seiten sprechen Bürgermeister und Rat Sigmund Murer von den gegen ihn erhobenen Ansprüchen frei und ordnen an, dass man ihn wie die früheren Inhaber des Schlosses behandeln solle. Auf Bitten Murers wird das Urteil verbrieft. Die Aussteller siegeln mit dem Sekretsiegel der Stadt Zürich.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.5"/><width unit="cm" quantity="34.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="3.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><orgName role="sigillant">Stadt Zürich</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1504-05-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000307">Allmende</term><term ref="key004132">Einzug</term><term ref="key000022">Lehen</term><term ref="key003292">Nutzungskonflikt</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r"/>
+<p><seg>
+<lb/>Wir, der <orgName role="issuer" ref="org002406">burgermeister und raͧt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, thuͦnnd kunnd meͣngklichem mit disem brief, das fu̍r u̍nns zuͦ reͣcht kommen sind
+<lb/>u̍nnser lieben getru̍wen, der <orgName ref="org007823">gemeind zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName>, anweͣlt eins und annders teils der ersam, u̍nnser lieber getru̍wer <persName ref="per027556">Sig<lb break="no"/>mund Murer</persName> zuͦ <placeName ref="loc010469">Hettlingen</placeName><note>Der Eintrag über diesen Rechtsentscheid im <placeName ref="loc000065">Zürcher</placeName> Ratsmanual gibt <placeName ref="loc008760">Grüningen</placeName> als Herkunftsort <persName ref="per027556">Sigmund Murers</persName> an (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1236055">StAZH B II 35, S. 14</ref></bibl>).</note>, deßweͣgen, das die <orgName ref="org007823">gemeind von <placeName ref="loc010469">Hetlingen</placeName></orgName> vermeint, es weͣre ir altharkommen und gewonter
+<lb/>bruche, weͣr von ussen zuͦ inen gen <placeName ref="loc010469">Hetlingen</placeName> in ir dorff zuge, das der inen an ir gemeinweͣrch und zuͦ der gemeind nutz
+<lb/>geben soͤlte <measure type="currency" unit="lb" quantity="5">fu̍nnf pfunnd haller</measure>.<note>Die Höhe der Einzugsgebühr wurde im sogenannten Einzugsbrief geregelt. Der erste überlieferte Einzugsbrief für <placeName ref="loc010469">Hettlingen</placeName> vom <date when="1522-10-19">19. Oktober 1522</date> sah die Erhöhung der Gebühr von 5 auf 10 Pfund vor (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_230">SSRQ ZH NF I/2/1, Nr. 230</ref></bibl>).</note> Nun so der genannt <persName ref="per027556">Sigmund</persName> ouch zuͦ inen gezogen weͣre und sy die <measure type="currency" unit="lb" quantity="5">fu̍nf pfunnd</measure>
+<lb/>an inn erfordertind, widerti er sich dero und welte inen die nit geben. Baten und begeͣrtten, wir weltten mit im ver<lb break="no"/>schaffen, das er die usrichte und taͤte als ein anndrer inseͣß, oder aber das er mit sinem fech nit uf ir gemein weͣrch fuͤre,
+<lb/>desglich des dorfs brunnen nit nutzeti.</seg>
+<seg>Dawider der bemelt <persName ref="per027556">Sigmund Murer</persName> fu̍rwanndt, es weͣre waͧr, er hette
+<lb/>sinen sitz im huß oder schloß <placeName ref="loc010469">Hettlingen</placeName> und das von u̍nns zuͦ lechen empfanngen, als ouch das von unns als von
+ <lb/>weͣgen u̍nnser graͧfschaft <placeName ref="loc000012">Kyburg</placeName> lechen weͣre.<note>Die Verleihung von Burgsäss, Schloss, dem halben Kelnhof und der Bünt<!-- Vgl. Idiotikon IV, Sp. 1401: Eingezäuntes Gebiet ausserhalb der Allmende - PS: Man kann Bünt oder Pünt schreiben; ich hätte nach dem Idiotikon mit B normalisiert (https://lemma-db.ssrq-sds-fds.ch//views/view-lemma.xq?id=lem000528). --> in <placeName ref="loc010469">Hettlingen</placeName> durch den Bürgermeister von <placeName ref="loc000065">Zürich</placeName> an <persName ref="per027556">Sigmund Murer</persName> nach Lehensaufgabe der Vorbesitzer, den Erben des <persName ref="per027574">Hans Reigel</persName>, datiert vom <date when="1504-07-01">1. Juli 1504</date> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=2704524">StAZH F I 51, fol. 101v</ref></bibl>).</note> Und meinty nit, das er inen die <measure type="currency" unit="lb" quantity="5">fu̍nf pfund</measure> ze geͣben schuldig weͣre,
+<lb/>dann er weͣre nit im dorff ein insaͤß als iro einer, sonnder hette er sinen sitz im schloß, dahar ouch das dorff sin friheit
+<lb/>und den brunnen hette. Und welich je im schloß gesessen, die weͣren umb soͤliche <measure type="currency" unit="lb" quantity="5">fu̍nnf pfunnd</measure> nie angelangt
+<lb/>und hetten mit irem fech moͤgen faren uf ir allmend und deßglich ir brunnen nutzen. Hofte ouch, es soͤlte von
+<lb/>u̍nns erkenndt weͣrden, das er ir anspraͧch ledig weͣre und sy inn halten und bliben lassen soͤlten, wie annder sin
+ <lb/>vorfaren und innhaber des schlosses <placeName ref="loc010469">Hettlingen</placeName> byßhar von inen gehalten worden weͣren.</seg>
+<seg>Und als jederteil mit mer
+<lb/>wortten, unnot ze melden, sines vermeinens ist pliben und sy das zuͦ u̍nns zuͦ reͣcht satzten, haben wir demnach
+<lb/>unns zuͦ reͣcht erkenndt und gesprochen, das <persName ref="per027556">Sigmund Murer</persName> soͤlicher clag ledig sin, ouch gehalten und bliben
+ <lb/>soͤlle, wie annder sin vorfaren, innhaber des schlosses <placeName ref="loc010469">Hettlingen</placeName>, byßhar von inen gehalten sind worden.</seg>
+<seg>Diser urteil
+ <lb/>begeͣrt der obgenant <persName role="recipient" ref="per027556">Sigmund Murer</persName> eins briefs, den wir im zuͦgeben erkenndt und daͧran des zuͦ urkunnd u̍nser
+  <lb/>statt secret insigel offennlich heͣnncken laͧssen haben, der geben ist an <origDate when="1504-05-21">zinstag vor pfingsten nach Crists <choice><sic>gepurtt ge<lb break="no"/>burt</sic><corr>gepurtt</corr></choice> gezalt fu̍nfzechenhunndert und vier jaͧre</origDate><!-- wohl Schlussschnörkel und keine etc.-Abkürzung -->.</seg>
+</p>
+</div>
+<pb n="v"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/><add place="left margin" hand="hand18c"><abbr>EE</abbr><!-- PS: Sind das nicht zwei E? Im Sinne von evtl. EINE EHRSAME--> gemeind <placeName ref="loc010469">Hetlingen</placeName> contra</add>
+<persName ref="per027556">Sigmund Murer</persName>
+<add place="inline" hand="hand18c">anno 1504</add><!-- Wie den mehrteiligen resp. zusammengesetzten Dorsualvermerk taggen??? Evtl. Hettlingen stillschweigend in einen <add place="left margin">-Tag integrieren? PS: Ja, sonst müsste addSpan verwendet werden.-->
+</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Spruchbrieff betreffend das einzugsgeldt</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Auseinandersetzungen zwischen den Inhabern der Burg <placeName ref="loc010469">Hettlingen</placeName>, einem Lehen der Stadt <placeName ref="loc000065">Zürich</placeName>, und der <orgName ref="org007823">Gemeinde <placeName ref="loc010469">Hettlingen</placeName></orgName> respektive der Stadt <placeName ref="loc000849">Winterthur</placeName>, ihrer Obrigkeit, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_195">SSRQ ZH NF I/2/1, Nr. 195</ref></bibl> sowie <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_209">SSRQ ZH NF I/2/1, Nr. 209</ref></bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

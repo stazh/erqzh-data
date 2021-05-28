@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_117</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/3, S. 472 (Eintrag 8)</idno></msIdentifier><head>Verordnung über die Marktzeiten in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur legen die Marktzeiten fest. Der Markt beginnt mit dem Läuten der Glocke um 11 Uhr, vorher darf keine Ware angeboten werden. Der Erwerb von Waren zum Weiterverkauf ist erst ab 14 Uhr gestattet, wenn die Einkäufe für den Eigenbedarf getätigt sind.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Wügerli</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1481-10-17"/></origin></history><additional><listBibl><head>Edition</head><bibl>QZWG, Bd. 2, Nr. 1376</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000792">Fürkauf</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="472" facs="STAW_B_2_3_S.472.jpg
+"/>
+<p>Actum an <origDate when="1481-10-17">mitwoch nach sannt <persName ref="per000455">Gallen</persName> tag</origDate></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgt ein Eintrag über den Lohn der Tagelöhner.</note>
+</p>
+<p>
+<lb/><seg>Schrib den marckt brieff, das nieman nu̍tz kouffe noch verkouffe, dann
+ <lb/>wie vonn alter her komen ist.<note>Dieser Eintrag veranschaulicht die Funktion der Ratsbücher. Der Stadtschreiber notierte sich den Auftrag, eine entsprechende Urkunde oder ein Mandat aufzusetzen, das in diesem Fall nicht überliefert ist.</note></seg>
+<seg>Unnd das nieman nu̍tz uff den pfragen
+<lb/>fu̍r koffe, der sol das tuͦn erst zuͦ den <time when="14:00:00">zweynten stund</time> unnd nit ee.
+<lb/>Unnd man sol allwegen die marckt glogen lu̍ten umb die <time when="11:00:00">xj stund</time>.
+ <lb/>Unnd <del>ni</del> sol nieman nu̍tz vor der selben glogen zuͤ kouff felsen<note>Zum Kauf anbieten, vgl. <orig>feilsen</orig> (<bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/110599">Bd. 1, Sp. 815</ref></bibl>).</note> noch
+<lb/>kouffen noch uff den kouff besehen zuͤ kouffen <add place="above">werben</add>, untz das man die
+ <lb/>selben glogen gelu̍t.<note>Im September 1482 verhängten <orgName ref="org007943">Schultheiss und Rat</orgName> ein Bussgeld in Höhe von 5 Schilling für die Übertretung des Verbots, den Handel auf den Jahrmärkten und Wochenmärkten in der Stadt vorzeitig zu beginnen (<bibl>STAW B 2/3, S. 505</bibl>).</note> Unnd wer oder welche die sind, die uff den
+<lb/>pfrangen kouffen, soͤllent sy tuͤn dann erst umb die <time when="14:00:00">zwey</time>, da yederman
+<lb/>koufft haut.</seg>
+<seg>Wie <space quantity="0.75" unit="line"/>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der gewerbsmässige Weiterverkauf (<orig>pfragnery</orig>, <orig>fürkauf</orig>) konnte zur künstlichen Verknappung des Angebots und zur Verteuerung der Ware führen und wurde daher durch die städtische Obrigkeit eingeschränkt. So verboten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> 1480 den <orig>maͤrtzlern</orig>, die Kleinhandel betrieben, in der Stadt Schmalz zum Weiterverkauf zu erwerben (<bibl>STAW B 2/3, S. 427</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1361</bibl>). Sogenannte <orig>Grempler</orig>, ebenfalls Kleinhändler, durften gemäss einem Ratsbeschluss aus dem Jahr 1505 zu ihrem Angebot keine Ware mehr hinzukaufen (<bibl>STAW B 2/6, S. 207</bibl>). Zuwiderhandelnde wurden bestraft, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_203">SSRQ ZH NF I/2/1, Nr. 203</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

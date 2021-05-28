@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_263_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AF 79/1 (r)</idno></msIdentifier><head>Bescheinigung des Schultheissen und Rats von Winterthur über die Vernichtung verdorbener Heringe</head><msContents><summary>Schultheiss und Rat von Winterthur bescheinigen, dass die vereidigten Heringsprüfer und andere Mitglieder des Rats ein Fass Heringe, die Hans Biedermann, Bürger von Winterthur, von Alexander Offenburger, Bürger von Schaffhausen, gekauft hatte, beanstandet und nicht zum Verzehr geeignet befunden haben. Um gesundheitliche Risiken auszuschliessen, wurde angeordnet, das Fass samt Inhalt zu verbrennen. Der Fassboden weist ein Kölner Brandzeichen auf, das unten aufgezeichnet ist. Die Aussteller siegeln mit dem Sekretsiegel der Stadt Winterthur.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Entwurf (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.0"/><width unit="cm" quantity="33.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1533-03-21"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005405">Konsumentenschutz</term><term ref="key000882">Nahrungsmittel</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb facs="STAW_AF_79_1_S.1.jpg"/>
+<p>
+<lb/><seg>Wir, <orgName role="issuer" ref="org007943">schultheis unnd raͤt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, thuͦnd kund mit dissem brieff, das wir uß
+<lb/>empfangnem argkwon, kranckheit unnd sorg zuͦ verkomend, etliche unnser mit raͤtt<!-- Miträte -->
+<lb/>sampt der stat geschwornenn heringschower, die ouch unnser ratsfründ sind,<note>Zu den Fischbeschauern vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_109">SSRQ ZH NF I/2/1, Nr. 109</ref></bibl></note> unserenn
+<lb/>burger, dem erberenn <persName ref="per028049">Hanns Bidermann</persName>, ein thonn hering, die er sagt vonn dem
+<lb/>ersamen <persName ref="per028051">Allixannder Offennburger</persName>, burger zuͦ <placeName ref="loc000701">Schaffhusenn</placeName>, gekuͦfft, besichtigenn unnd
+<lb/>schouwenn lasenn. Die habenn dasselb gethann unnd unns widerumb by irenn rats pflich<lb break="no"/>tenn annbrachtt unnd zuͦ erkennen gebenn, das sy gemelte thonn hering nach eigennlicher
+<lb/>besichtigung boßfull, unnguͦt unnd dem menschenn schedlich oder sorgsam zuͦ niessenn
+<lb/>fundenn, und by gemeltenn irenn <app><lem><sic>pflichtigenn</sic></lem><rdg wit="STAW B 4/2, fol. 58r (Entwurf)">pflichtenn</rdg></app> erkennt unnd geachtt habenn, guͦt unnd
+<lb/>nutz oder noturfft sin, dieselb thonn mitt heringen, daruß gar nichts verkuͦfft ist, zuͦ
+<lb/>verbrennen, damit niemands mit krannckheit beladenn werde.</seg>
+<seg>Dasselb wir uff unnser
+ <lb/>guͦt beduncken irer verhoͤrung nach ouch erkaͤnnt unnd zuͦ thuͦnd befolchenn habenn.
+ <lb/>Unnd ist gemelter thon bodenn einer <choice><sic>gezeichnnett unnd gemerckt gwaͤsenn zuͦ einem <placeName ref="loc008437">koͤ<lb break="no"/>lschenn</placeName> brannd wie hie unnden gezeichnet unnd gemerckt gwaͤsenn zuͦ einem koͤlschenn
+ <lb/>brannd, wie hie unnden</sic><corr>gezeichnet unnd gemerckt gwaͤsenn zuͦ einem <placeName ref="loc008437">koͤlschenn</placeName>
+<lb/>brannd, wie hie unnden</corr></choice> nebennd dem sigell <supplied reason="omitted" source="STAW B 4/2, fol. 58r (Entwurf)">statt</supplied>,<note>Vermutlich wurde das Schreiben wegen dieser fehlerhaften Passage nicht ausgefertigt, so dass das angekündigte Siegel und die Zeichnung der Marke fehlen. Am linken Rand des Schreibens ist der Schluss eines rückseitig aufgezeichneten Urkundenkonzepts notiert.</note> on geverd.<note>In <placeName ref="loc008437">Köln</placeName>, einem zentralen Umschlagplatz für den Heringshandel, kennzeichneten die sogenannten Heringsröder begutachtete Fässer mit einem Brandzeichen, dem sogenannten <placeName ref="loc008437">Kölner</placeName> Brand, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brill 1960</ref>, S. 46-49 und Abb. 4</bibl>.</note></seg>
+<seg>Zuͦ warem urkund mit unnser
+<lb/>stat <placeName ref="loc000849">Winterthur</placeName> uffgetrucktem secret, uns unnd der stat one schadenn, obgenantem <persName ref="per028049">Hans
+<lb/>Biderman</persName> uff sin begaͤr besiglat gebenn uff <origDate when="1533-03-21">fritag vor mitvasten, genant Letare, <app><lem>nach
+ <lb/>Christy <sic>gevurt</sic> gezallt fünffzaͤchennhundert drissig unnd druy jar</lem><rdg wit="STAW B 4/2, fol. 58r (Entwurf)">anno 33</rdg></app></origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die städtische Obrigkeit führte die Marktaufsicht, liess die angebotenen Produkte, insbesondere Lebensmittel, kontrollieren und beanstandete Ware aus dem Verkehr ziehen, vgl. allgemein <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 460-462, 467-468</bibl>. Im konkreten Fall war offenbar eine Lieferung Heringe, die in <placeName ref="loc008437">Köln</placeName> begutachtet worden war, während des Transports verdorben. Mit der vorliegenden Bescheinigung konnte der <placeName ref="loc000849">Winterthurer</placeName> Bürger gegenüber seinem Zwischenhändler Anspruch auf Schadensersatz geltend machen. Einen derartigen Nachweis konnte ein <placeName ref="loc000849">Winterthurer</placeName> Ehepaar im Jahr 1530 nicht erbringen, als ein <placeName ref="loc000065">Zürcher</placeName> Bürger vor <orgName ref="org007943">Schultheiss und Rat</orgName> auf Begleichung der Kaufsumme für 33 Pfund Schweinefleisch, das Pfund zu 4 Kreuzern, klagte. Das Ehepaar hatte die Hälfte des Fleischs verbraucht, dann festgestellt, dass es <orig>pfinnig</orig> war, und weigerte sich nun zu zahlen. Das Urteil ordnete die Bezahlung des bereits konsumierten Fleischs an, den Rest sollte der Metzger zurücknehmen (<bibl>STAW AG 92/1/145</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

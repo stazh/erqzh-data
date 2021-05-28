@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_189_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 60v (Eintrag 1)</idno></msIdentifier><head>Eid der Feuerschauer in der Stadt Winterthur</head><msContents><summary>Die Feuerschauer der Stadt Winterthur sollen schwören, alle 14 Tage bis drei Wochen die Feuerstellen wie Öfen, Herde und Kamine in jedem Haus zu kontrollieren und potenzielle Gefahren zu beseitigen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key005368">Brandschutz</term><term ref="key000179">Eid</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="60v" facs="STAW_B_2_2_60_v.jpg
+"/>
+<head><lb/>Fu̍rschoͤwer eide</head>
+<p>
+<lb/>Item die fu̍rschoͤwer soͤllend schwēren, <app><lem>ob <date dur="P14D">xiiij tagen</date>
+<lb/>unnd under <date dur="P3W">drigen woͤchen</date></lem><rdg wit="winbib Ms. Fol. 241, fol. 6r">allwëgen in monats frischt</rdg><rdg wit="winbib Ms. Fol. 241, fol. 6r (Nachtrag); STAW B 3a/10, S. 14">allwegen zue allen <date type="deadline">fronfasten</date></rdg></app> in alle hu̍sere
+<lb/>ze gand, das fu̍r unnd alle fu̍rstett <app><lem/><rdg wit="STAW B 3a/10, S. 14">sovill müglich</rdg></app> ordenlich
+<lb/>zuͦ besaͤhen, es sige an oͤffen, herdstatten unnd
+<lb/>keminen, <app><lem/><rdg wit="STAW B 3a/10, S. 14 (Nachtrag)">innglychen<!-- so auch Eidformel in STAW B 3a/11, f. 6r --> tollen<!-- dito --> und badstüblinen</rdg></app> unnd was sy sorgklichs darinne
+<lb/>erfinden, dasselbig verschaffen ze versaͤhen
+<lb/>unnd dar inne niemands schōnen.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Brandschutzmassnahmen waren angesichts vieler offener Feuerstellen und der baulichen Situation in den Städten immer wieder Gegenstand obrigkeitlicher Verordnungen, so auch in <placeName ref="loc000849">Winterthur</placeName>. Bereits die erste erhaltene Ämterliste aus dem Jahr 1405 führt sogenannte Feuerschauer auf, die folgenden Bezirken zugeordnet waren: <orig>vor dem <placeName ref="loc013454">Nidern Tor</placeName></orig>, <orig>an dem markt</orig>, <orig>hie disent am markt</orig>, <orig>vor dem <placeName ref="loc013451">Obern Tor</placeName></orig>, <orig>in der <placeName ref="loc013170">Nu̍wen Statt</placeName></orig>, <orig>am <placeName ref="loc013218">Graben</placeName></orig>, <orig>an der <placeName ref="loc013064">Obrengassen</placeName></orig>, <orig>an der <placeName ref="loc013472">Hindren Gassen</placeName></orig>, <orig>hie disent an derselben gassen</orig> und <orig>an der <placeName ref="loc013527">Nidren Gassen</placeName></orig> (<bibl>STAW B 2/1, fol. 5v</bibl>).<!-- Hintergasse, Niedergasse, Königstürli (Tor in der Stadtmauer gegen den Rindermarkt hin) = heute Steinberggasse --> Darüber hinaus befassten sich vier Mitglieder <orgName ref="org007944">beider Räte</orgName> mit der Inspektion von Küchen. Ohne ihre Erlaubnis durfte in Privathäusern keine Wäsche im heissen Laugenbad gewaschen werden (<orig>sechten</orig>) (<bibl>STAW B 2/3, S. 174</bibl>, zu 1472). Ferner wurde die Verwendung von Ziegeln statt Holzschindeln beim Dachdecken gefördert (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_211">SSRQ ZH NF I/2/1, Nr. 211</ref></bibl>).</p>
+<p>Brach Feuer aus, war rasches Eingreifen entscheidend. Die Turmwächter mussten nachts Ausschau nach Bränden innerhalb der Stadt und in der Umgebung halten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_223">SSRQ ZH NF I/2/1, Nr. 223</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_268">SSRQ ZH NF I/2/1, Nr. 268</ref></bibl>). Kam in der Nacht Wind auf, hatten die Wächter die <orig>geordneten</orig> zu wecken, damit diese auf den Gassen patrouillierten, bis die Gefahr vorüber war (<bibl>STAW B 2/6, S. 9</bibl>). Wer einen Brand in seinem Haus nicht sofort meldete, wurde mit einem Bussgeld belegt (<bibl>ZGA Elgg IV A 3a, fol. 115r</bibl>). Später regelte die Feuerordnung detailliert das Vorgehen in einem Brandfall von der Sicherung der Tore und dem Ausrücken einer Einsatzgruppe bis zur Sicherstellung der Wasserzufuhr (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_300">SSRQ ZH NF I/2/1, Nr. 300</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

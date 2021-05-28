@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_088_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=925700">StAZH B II 4, Teil II, fol. 25v (Eintrag 3)</idno></msIdentifier><head>Erlaubnis zur Wiederaufrichtung des auf dem Territorium der Grafschaft Kyburg befindlichen Galgens der Stadt Winterthur</head><msContents><summary>Auf Gesuch der beiden Schultheissen von Winterthur, Laurenz von Sal und Erhard Hunzikon, bewilligen Bürgermeister und Rat von Zürich unter Vorbehalt der Rechte der Grafschaft Kyburg die Wiederaufrichtung des auf deren Territorium befindlichen Galgens der Stadt Winterthur, der umgestürzt war.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1464-03-12"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 3/2, S. 208, Nr. 121</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000297">Bewilligung</term><term ref="key004677">Richtstätte</term><term ref="key000649">Territorium</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="25v"/>
+<p>
+<seg><lb/>Uff <origDate when="1464-03-12">mentag naͧch dem sunntag letare anno <abbr>etc</abbr> lxiiij</origDate> sind fu̍r
+<lb/>unns, <orgName ref="org002406">burgermeister und raͧt der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, kommen <persName ref="per026941">Lorentz von
+<lb/>Sal</persName> und <persName ref="per026911">Erhart Huntzikon</persName>, <choice><abbr>schulthn</abbr><expan>schultheissen</expan></choice> zuͦ <placeName ref="loc000849">Winterthur</placeName>, als botten
+<lb/>der von <placeName ref="loc000849">Winterthur</placeName> und haben unns gebetten, iren herren
+ <lb/>zuͦ goͧnnen, das galgen gericht, so sy byßhar in unnser graͧff<lb break="no"/>schafft <placeName ref="loc000012">Kyburg</placeName> gehebt haben und der nider gevallen sye, wider
+<lb/>laͧn uff zuͦrichten, unns und unnser genannten graffschafft an
+<lb/>allen unnsern herlykeitten und gerechtikeiten unschedlich.</seg>
+<seg>Also
+<lb/>haben wir angesechen ir bitte und inen gegoͧnnen, das ge<lb break="no"/>mellt gericht, den galgen, da wider uff zuͦ richten, doch unns
+<lb/>an unnser graffschafft <placeName ref="loc000012">Kyburg</placeName> herlykeiten, rechtdungen und
+<lb/>gerichten genntzlich unschedlich. Und des zuͦ gedaͤchtnu̍sse
+ <lb/>haben wir das in diß unnser statt buͦch lassen schriben.<note>Ratsbuch des <orgName ref="org004016">Kleinen Rats der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=243962">StAZH B II 4</ref></bibl>).</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>König <persName ref="per000712">Sigmund</persName> verlieh 1417 den <orgName ref="org007943">Winterthurern</orgName> die Blutsgerichtsbarkeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_051">SSRQ ZH NF I/2/1, Nr. 51</ref></bibl>), zuvor hatten die Stadtherren, die <orgName ref="org000088">Herzöge von Österreich</orgName>, als Inhaber der Landgrafschaft <placeName ref="loc000777">Thurgau</placeName> dieses Recht ausgeübt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_031">SSRQ ZH NF I/2/1, Nr. 31</ref></bibl>. Daher befand sich der <placeName ref="loc000849">Winterthurer</placeName> Galgen zunächst noch auf <placeName ref="loc000012">kyburgischem</placeName> Gebiet, bis König <persName ref="per000794">Friedrich III.</persName> im Jahr 1442 den städtischen Friedkreis erweiterte und die Richtstätte ausdrücklich einbezog (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_074">SSRQ ZH NF I/2/1, Nr. 74</ref></bibl>). Damals hatten die <orgName ref="org002406">Zürcher</orgName> die Herrschaft <placeName ref="loc000012">Kyburg</placeName>, die sie seit 1424 als Pfand besessen hatten, den <orgName ref="org000088">Habsburgern</orgName> wieder zurückgeben. Zehn Jahre später gelangte <placeName ref="loc000012">Kyburg</placeName> endgültig in den Besitz der <orgName ref="org002406">Zürcher</orgName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/007829/2008-11-06/">Kyburg (Grafschaft, Burg)</ref></bibl>. In der Folgezeit erhoben sie offenbar Ansprüche auf das Gebiet, das dem <placeName ref="loc000849">Winterthurer</placeName> Friedkreis zugeteilt worden war. Nach der Verpfändung der Stadt <placeName ref="loc000849">Winterthur</placeName> an <placeName ref="loc000065">Zürich</placeName> und der Anerkennung ihrer Rechte durch die neue Obrigkeit im Jahr 1467 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_092">SSRQ ZH NF I/2/1, Nr. 92</ref></bibl>) war die Ausdehnung des Friedkreises und der Standort des Galgens nicht mehr umstritten.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

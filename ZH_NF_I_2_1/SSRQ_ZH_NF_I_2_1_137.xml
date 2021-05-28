@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_137</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 68</idno></msIdentifier><head>Verbote und Beschränkungen betreffend Ausgang in der Nacht, Tanz, Fluchen, Geldspiel und Kleidung in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur verbieten den nächtlichen Besuch von Lichtstuben durch männliche Personen, Ruhestörung, Vermummung und Tanz sowie den Ausgang ohne Licht. Sie untersagen blasphemisches Fluchen, das Spielen um Geld ab einem gewissen Einsatz, den Betrieb von Gastwirtschaften in Lichtstuben und das Tragen kurzer Kleidung. Zuwiderhandelnde sind dem Schultheissen anzuzeigen. Wer diese Bestimmungen nicht einhält, soll nach dem Ermessen des Rats bestraft werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1484-01-18"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000482">Blasphemie</term><term ref="key000184">Bussen</term><term ref="key004380">Fluchen/Schwören</term><term ref="key000213">Kleidung</term><term ref="key000767">Spiel</term><term ref="key000768">Tanzen</term><term ref="key004393">Verbot</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="68" facs="STAW_B_2_5_S.68.jpg
+"/>
+<div>
+<ab type="marginal note" place="left margin">Verbott</ab>
+</div>
+<p><lb/>Actum uff <origDate when="1484-01-18">sontag nach <lb/><persName ref="per001805">Hilarii</persName>, anno <abbr>etc</abbr> lxxxiiij<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><seg>verbiettend mine herren, das fu̍rohin kein mans person, weder
+ <lb/>jung noch alt, <time period="byNight">nachtz</time> inkein liechstuben<note>Unter Lichtstuben sind gesellige Zusammenkünfte in Privathäusern zu verstehen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 93-96</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 264-266</bibl>. Besonders beargwöhnt wurden nächtliche Treffen unverheirateter Männer und Frauen (für <placeName ref="loc000065">Zürich</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">Spillmann-Weber 1997</ref>, S. 181-182</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Lutz 1957</ref>, S. 18-20</bibl>). Bereits 1472 gestatteten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> lediglich den drei nächsten Nachbarn den nächtlichen Besuch von Lichtstuben, andernfalls drohte eine Busse von 10 Schilling (<bibl>STAW B 2/3, S. 171</bibl>).</note> gān, ouch niemand uff
+<lb/>der gassen kein ungewonlich gesang noch geschrey noch
+<lb/>einicherley ander unfuͦr mit keinen dingen nicht tuͦn noch haben,
+<lb/>ouch <time period="byNight">nachtz</time> niemand inbutzen<!-- verkleiden (Butzen und Böggen)?--> oder ander verdeckterwise nit gān
+<lb/>unnd nach der bettglocken <add place="left margin" type="sign"><lb/><del>noch</del> keinerley <lb/>pfiffen noch boͤcken<!-- vermummen, Scherz treiben -->
+<lb/>nit bruchen, <del>soͤllen</del>
+<lb/>ouch niemand</add> nit tantzen sol. Es ensol ouch
+ <lb/>niemand nach der winglocken<note>Um 21 Uhr, wie aus einem Ratsbeschluss von 1529 hervorgeht, dass man <orig>dheinen win nach den <time when="21:00:00">nu̍n</time> hollen oder geben soͤlle</orig> (<bibl>STAW B 4/2, fol. 26v</bibl>).</note> ōn ein offenn bru̍nnend liecht
+ <lb/>uff der gassen gān.</seg>
+<seg>Me sol niemand by gottes noch ander
+<lb/>siner lieben hailgen liden unnd gemeinlich keinerley ungewōnlich
+<lb/>swēren nicht tuͦn. Dann woͤlcher das von dem hoͤrte, der sol
+<lb/>das by sinem gesworen eide einem schulthaiß eroffnen unnd
+ <lb/>dieselben gotzlesterer ruͤgen.<note>Zur Bandbreite dieser anstössigen Schwüre vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schwerhoff 2005</ref>, S. 200-206</bibl>.</note></seg>
+<seg>Me sol fu̍rohin niemand mit
+<lb/>dem andern einicherley spil, weder mit wu̍rfflen noch karten,
+<lb/>nit anders dann umb <measure type="currency" unit="h" quantity="1">ein haller</measure> oder <measure type="currency" unit="d" quantity="1">pfennig</measure> machen also,
+  <lb/>das keiner <time period="byDay">tag</time> unnd
+  <time period="byNight">nacht</time> u̍ber <measure type="currency" unit="ß" quantity="10">x  ħ</measure> weder gewu̍nen
+ <lb/>noch verlieren sol. Unnd woͤlcher also <subst><del>mitten</del><add place="above">mit dem</add></subst> andern<!-- ursprünglich mittenandern als ein Wort, dann "mitten" gestrichen--> spilte,
+<lb/>der sol das nit anders dann in gemelter wise mit barem gelt
+<lb/>unnd weder uff kriden, bu̍rgen noch uff pfande tuͦn noch
+<lb/>machen. Unnd gebietend daruff allen stubenknechten, ouch
+<lb/>allen andern in deren hu̍sere soͤlch spil beschaͤhend, wie das
+<lb/>anders, dann obstaut, gehalten wurde, das sy die selben
+<lb/>ungehorsamen by iren gesworen eiden ruͤgen unnd einem
+ <lb/>schulthaiß eroffnen soͤllen.<note>Am folgenden Tag erliessen <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> ein entsprechendes Verbot von Geldspielen mit Einsätzen von über 1 Haller oder 1 Pfennig und verkündeten es auf den Trinkstuben (<bibl>STAW B 2/5, S. 64</bibl>). Als Busse setzte man 1492 10 Schilling fest (<bibl>STAW B 2/5, S. 491</bibl>). </note></seg>
+<seg>Unnd woͤlcher obgemelte verbott eins
+<lb/>oder mer in der meinung, wie obstaut, nicht hieltend, die selben
+<lb/>u̍bertretter woͤllen mine herren by der pen nach erkantnuß
+<lb/>strauffen, die selben pen inen darnach unablaͤslich zuͦ bezalen.</seg>
+</p>
+<p>
+<add place="below"><lb/>Item es sol niemandmer in liechtstuben keinerley u̍rten noch
+<lb/>wirtschaft nit haben.</add>
+</p>
+<p>
+<add place="below"><lb/>Item der kurtzen cleider halb verbietend mine herren, das fu̍rohin
+<lb/>niemands, jung noch alt, keine <add place="above">kurtze</add> cleider tragen sol dann zimlich und
+<lb/>erberlich also, das einen hinden und vornen wol verdecken.</add>
+</p>
+</div>
+</body><!-- Wohl alles von Konrad Landenberg geschrieben trotz unterschiedlicher Schrift -->
+<back>
+<div>
+<p>Das Verhalten der Stadtbewohnerinnen und Stadtbewohner wurde von der Obrigkeit reglementiert (<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/043742/2014-01-14/">Unzucht</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/016552/2012-12-19/">Sittenmandate</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 468-473</bibl>; für <placeName ref="loc000065">Zürich</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">Casanova 2007</ref>, S. 67-140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Wehrli 1963</ref>, S. 5-19</bibl>; für <placeName ref="loc000849">Winterthur</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 204-209</bibl>). So verboten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> im Jahr 1470, nach dem Läuten der Weinglocke ohne Licht auf die Strasse zu gehen. Wer tagsüber oder nachts in einem Haus oder im Freien <orig>mit geschray und unzimlichem singen</orig> Anstoss erregte, wurde bestraft (<bibl>STAW B 2/2, fol. 20v</bibl>; <bibl>STAW B 2/3, S. 117</bibl>). 1472 wurde ein Bussgeld von 1 Pfund Pfennig für Verstösse festgelegt (<bibl>STAW B 2/3, S. 155</bibl>). Das Spielen auf den Trinkstuben nach Läuten der Weinglocke wurde einem Ratsbeschluss von 1471 zufolge mit 5 Pfund Pfennigen gebüsst (<bibl>STAW B 2/3, S. 146</bibl>). 1482 erliess der <orgName ref="org005587">Rat</orgName> ein Tanzverbot, untersagte männlichen Personen bei Nacht den Besuch der Lichtstuben, verbot den Weinausschank nach dem Läuten der Weinglocke und die nächtliche Ruhestörung, erlaubte Geldspiele nur bis zu einem Höchsteinsatz von 1 Pfennig und stellte gotteslästerliches Fluchen unter Strafe (<bibl>STAW B 2/3, S. 480</bibl>). 1529 wurde das Verbot der Gotteslästerung, des Tanzens, des Besuchs von Lichtstuben durch Männer und des Weinausschanks nach 21 Uhr erneuert (<bibl>STAW B 4/2, fol. 26v</bibl>). Die nachts durch die Gassen patrouillierenden Scharwächter hatten Verstösse dem Schultheissen zu melden (<bibl>STAW B 2/7, S. 45</bibl>).</p>
+<p>Als erzieherische Massnahme gegen einen <orig>heyllossen, liederlichen, verthüegigen</orig> Lebenswandel (exzessiver Alkoholkonsum, Verschwendung des Vermögens, Vernachlässigung der Erwerbstätigkeit, Misshandlung der Ehefrau und der Kinder) konnten Wirtshausverbote und nächtliche Ausgangssperren verhängt (<bibl>STAW B 2/8, S. 370-372</bibl>) oder das Weintrinken untersagt werden (<bibl>STAW B 2/8, S. 281</bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

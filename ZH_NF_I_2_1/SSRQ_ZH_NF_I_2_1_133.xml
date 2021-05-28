@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_133</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 53 (Eintrag 1)</idno></msIdentifier><head>Aufnahme eines Goldschmieds in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Meister Heinrich Goldschmid hat bei der Aufnahme in das Bürgerrecht der Stadt Winterthur den üblichen Eid geleistet und sich darüber hinaus verpflichtet, verdächtiges Gold und Silber dem Schultheissen zu zeigen und unrechtmässig im Umlauf sich befindende Goldmünzen und Silbermünzen zu entwerten und aus dem Verkehr zu ziehen. Er soll nur einwandfreies Silber und Gold veräussern, nur das geeichte städtische Gewicht, das man ihm gegeben hat, verwenden und sein Handwerk ordnungsgemäss ausüben. Er ist drei Jahre lang von Steuern befreit.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1483-12-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000849">Handwerk</term><term ref="key000157">Steuern</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="53"/>
+<div><ab type="marginal note" place="left margin"><lb/>Goldschmid</ab></div>
+<p><lb/>Actum <origDate when="1483-12-10">mitwochen nach <lb/><persName ref="per001536">Nicolai</persName>, anno <abbr>etc</abbr> lxxxiij<hi rend="sup">o</hi></origDate></p>
+<p>
+<seg><lb/>haut meister <persName ref="per027391">Heinrich Goldschmid</persName> das burgrecht, wie ander burger
+<lb/>das ze tuͦnd pflegend, gesworn unnd ouch in den eid genommen,
+<lb/>was im von silber <add place="above">oder gold</add> zu handen ze arbaiten oder sunst in sin
+<lb/>schmidten geantwurt wurde, das argwenig wēre, das selbig
+<lb/>silber <add place="above">oder gold</add> sol er von stundan dem schulthaiß alhie zoͤgen. Ouch was im
+<lb/>von silber oder guldin mu̍ntz zuͦ handen kommet, <del>das</del> die nit gerecht
+<lb/>weͣre, durch soͤlch mu̍ntz sol er ein loch machen und sunst von handen
+<lb/>nit laussen.</seg>
+<seg>Er sol ouch <del>kein</del> niemand kein silber noch gold
+<lb/>usser siner schmidten nit ußwēgen noch geben, dann das gerecht und
+<lb/>guͦt ist. Deßglichen <del>sol</del> das er <subst><del>sol <gap reason="illegible" unit="character" quantity="1"/></del><add place="above">ouch</add></subst> kein ander gewicht dann der statt
+<lb/>gewicht, wie im das u̍berantwurt und von alter her geprucht unnd
+<lb/>rechtlich gefochten ist, sich gepruchen, unnd namblich kein ander valsch
+<lb/>mit sinem handwerck nit ze triben, sunder sich des uffrechtlich, redlich
+<lb/>zuͦ gepruchen und allen obgenannten puncten nach ze komen, getru̍wlich,
+<lb/>ōn all geverde.</seg>
+<seg>Uff das habend in mine herren <date dur="P3Y">iij jār</date>, die
+<lb/>nechsten, frigg gesetzt.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Diese Selbstverpflichtung stimmt wörtlich überein mit der Eidformel der Goldschmiede (<bibl>STAW AA 4/3, fol. 451r-v</bibl>). Zu <persName ref="per027391">Heinrich Goldschmid</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rittmeyer 1962</ref>, S. 7-10, 66</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

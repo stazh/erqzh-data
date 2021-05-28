@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_223</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/7, S. 331</idno></msIdentifier><head>Anstellung des Turmwächters der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur nehmen einen neuen Turmwächter für ein Jahr zu folgenden Konditionen in Dienst: Er erhält einen Platz am Tisch des Kellers im Spital, eine Wohnung und 8 Klafter Holz sowie wöchentlich 5 Batzen Lohn. Er soll schwören, vom Abend bis zum Morgen auf dem Turm zu bleiben und diesen ohne Erlaubnis des Schultheissen nicht zu verlassen. Er soll den Abend und den Morgen sowie alle Stunden melden und die Uhr instand halten. Wenn Feuer in der Stadt ausbricht, soll er die Glocke läuten, Feuer auf dem Land soll er mit dem Horn melden. Wenn er etwas Verdächtiges in der Stadt oder auf dem Land bemerkt, soll er durch die Scharwächter den Schultheissen benachrichtigen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1520-08-06"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000580">Wachdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="331" facs="STAW_B_2_7_S.331.jpg
+"/>
+<p><lb/>Actum <origDate when="1520-08-06">mentag ante <lb/><persName ref="per000268">Laurenty</persName>, anno <abbr>etc</abbr> xx<hi rend="sup">o</hi></origDate></p>
+<p>
+<lb/><seg>Item mine heren haben den nu̍wen wachter
+<lb/><date dur="P1Y">ein jar</date> ze versuͦchen <add place="above" type="sign">uff den turn</add> angenomen mit ding
+<lb/>und underscheid, wie haͤrnach volgt:</seg>
+<seg>Zum
+<lb/>ersten sol er den tisch im <orgName ref="org007934">spital</orgName> an des kellers
+<lb/>tisch <add place="above" type="sign">han</add>, wie der keller <add place="above" type="sign">den</add> haut. Zum andern sond
+<lb/>mine heren im das <date dur="P1Y">jar</date> eigne behusung unnd
+<lb/>dartzuͦ <measure type="volume" unit="Klafter" commodity="wood" quantity="8">viij clafter holtz</measure> gen. Zum dritten soͤllen
+ <lb/>sy im gen <date dur="R/P1W">alle wochen</date>
+<measure type="currency" unit="bz" quantity="5">v batzen</measure> fu̍r sin lon.</seg>
+<lb/><seg>Dargegen sol er in sin eid nemen, all <time period="evening">abent</time> nach
+<lb/>der bett gloggen uff den turn und am <time period="morning">morgen</time>
+<lb/>nach der bett gloggen widerum herab zegan und
+ <lb/>sich nit ab dem turn ze u̍ssren<!-- ??? -->, es werde im dann
+<lb/>von einem <choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> erloupt, und also die halb
+ <lb/><time period="byNight">nacht</time> ze wachen, damit die burger in der statt und
+ <lb/>die uff dem land desterbas versaͤhen werden. Des
+ <lb/>glichen sol er all <time period="evening">abent</time> die <time period="byNight">nacht</time> und <time period="morning">morgens</time>
+<lb/>den <time period="byDay">tag</time> anblasen und all stunden melden.
+<lb/>Desglichen sol er ouch schuldig sin, das zit<!-- = Uhr --> ordenlich
+<lb/>nach sinem besten verstentnus ze versehen und richten,
+<lb/>darmit es allwegen glich gange. Desglichen, ob
+ <lb/>fu̍r<!-- Feuer --> in der statt uffgienge, dasselbig mit der gloggen,
+<lb/>und ob es uff dem land uffginge, mit dem horn
+ <lb/>zemelden.<note>Vgl. die Bestimmungen der <placeName ref="loc000849">Winterthurer</placeName> Feuerordnung um 1550 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_300">SSRQ ZH NF I/2/1, Nr. 300</ref></bibl>).</note> Und was er argwenigs saͤhe oder horte, es
+<lb/>sige <del>uff</del> in der statt oder uff dem land, dasselbig
+ <lb/>einem <choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> on ver zug zeleiden durch die schar wachter.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Stadttore in <placeName ref="loc000849">Winterthur</placeName> waren nachts verschlossen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_178">SSRQ ZH NF I/2/1, Nr. 178</ref></bibl>), Turmwächter und Gassenwächter bezogen ihre Posten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_268">SSRQ ZH NF I/2/1, Nr. 268</ref></bibl>). Zu den Abläufen der Stadtbewachung nach Einbruch der Dunkelheit vgl. <bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 248-250</bibl>. Bei Pflichtversäumnis drohten den Wächtern harte Strafen, wie 1439 der Fall des <persName ref="per027580">Hans Rickenbach</persName> dokumentiert. Er war im Dienst eingeschlafen und hatte einen Feuerausbruch nicht bemerkt und somit seinen Amtseid gebrochen, daher wurde er in Haft genommen. <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> verzichteten auf ein Gerichtsverfahren, das zu einem Todesurteil hätte führen können, und liessen ihn unter der Auflage frei, die Stadt zu verlassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_070">SSRQ ZH NF I/2/1, Nr. 70</ref></bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

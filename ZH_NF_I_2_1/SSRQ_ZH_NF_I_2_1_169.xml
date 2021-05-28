@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_169</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/6, S. 14 (Eintrag 1) </idno></msIdentifier><head>Einsetzung des Stadtboten von Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur haben Hans Altorf als Stadtboten angenommen. Er hat geschworen, seine Aufträge im Dienst der Stadt oder einzelner Bürger gewissenhaft auszuführen, und sich zur Verschwiegenheit verpflichtet. Ohne Anordnung des Schultheissen und Rats darf er sich nicht mit auswärtigen Angelegenheiten befassen. Erfährt er, dass sich etwas gegen den Rat und die Stadt richtet, muss er dies melden. Als Bürgen für ihn stellen sich Hans Böni und Heini Sulzer zur Verfügung. Sie haften, falls er Geld veruntreut, unterwegs Wirtshausrechnungen nicht bezahlt oder seine silberne Büchse veräussert.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1497-05-29"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004830">Boten</term><term ref="key000499">Bürgschaft</term><term ref="key000179">Eid</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="13"/>
+<p>
+<lb/>Actum <origDate when="1497-05-29">mentag post <persName ref="per000352">Urbani</persName>, anno <abbr>etc</abbr> lxxxx vij<hi rend="sup">o</hi></origDate>
+</p>
+<p>
+<gap reason="irrelevant"/><note>Es folgt ein Eintrag über eine Bürgeraufnahme.</note>
+</p>
+<pb n="14"/>
+<div>
+<ab type="marginal note" place="left margin"><lb/>Statbott</ab>
+</div>
+<p>
+<seg><lb/>Item mine herren habend <persName ref="per027847">Hennsli Altorf</persName> zuͦ gmeiner statt botten
+<lb/>angenomen. Der hāt geschworn, die botschaften, so im von
+<lb/>gmeiner statt oder den burgern in sonder bevolhen wurden,
+<lb/>ze enden<!-- Idiotikon I, Sp. 318: vollbringen, ausrichten -->, soͤlchs zum tru̍chlichisten ze werben und alle
+<lb/>heimlichait, so im bevolhen wirt, zuͦ verschwigen, ouch alles
+<lb/>gelt und anders, das im uffgeben wirt, tru̍wlich denen, so das
+<lb/>zuͦ gehoͤrt, zuͦ <choice><abbr>u̍berant</abbr><expan>u̍berantwurten</expan></choice>. Und niemands usserthalb lands
+ <lb/>froͤmbder sachen mit worten noch wercken ōn eins <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schultheissen</expan></choice>
+<lb/>und rautz</orgName> sonder bevelch sich nit annemmen noch zuͦ beladen. Und
+<lb/>was er zuͦ ziten vernēme, so wider ein <orgName ref="org005587">raute</orgName> und gmeine statt
+<lb/>dienete, soͤlchs allwegen einem <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> und raute</orgName> zuͦ
+<lb/>eroffnen, ōn geverde.</seg>
+<seg>Uff das haben <persName ref="per027334">Hanns
+ <lb/>Boͤni</persName> und <persName ref="per027635">Heini Sultzer</persName> fu̍r in vertroͤst also: Wō er gelt oder
+<lb/>anders, das im uffgeben wurde, denen, so das zuͦ gehoͤrte, nit u̍ber<lb break="no"/>antwurte oder den wirten usserthalb nit bezalung taͤtte oder
+<lb/>die silbri bu̍chs vertaͤtte, das sy dann soͤlchs abtragen soͤllen.
+<lb/>Es wēre dann, das im soͤlch guͦt mit gewalt genommen und
+<lb/>sich das warlich erfunde, darumb solten sy in disem fal
+<lb/>diser trostung nit gepunden sin.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Zu den Aufgaben der vereidigten Boten einer Stadt gehörte die Überbringung von mündlichen und schriftlichen Mitteilungen, Geldbeträgen, Geschenken und dergleichen, wobei sie in der Regel zu Fuss unterwegs waren. Sie erfüllten nicht nur Aufträge von Amts wegen, sondern durften ihre Dienstleistungen auch Privatleuten anbieten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hübner 2007</ref>, S. 305-308</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Heimann 1992</ref>, S. 265-266</bibl>. Neben ihrer Amtskleidung legitimierte die Läuferbüchse die amtlichen Boten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Heimann 1992</ref>, S. 281-284</bibl>.</p>
+<p>Diese Bestimmungen entsprechen weitgehend dem Wortlaut der Eidformel des Stadtboten, die in den ältesten Eidbüchern von <placeName ref="loc000849">Winterthur</placeName> aus dem 17. Jahrhundert überliefert ist (<bibl>winbib Ms. Fol. 241, fol. 27v-28r</bibl>; <bibl>STAW B 3a/10, S. 79-80</bibl>). Auf kürzeren Distanzen und für kleinere Aufträge wurde offenbar ein einfacher Läufer eingesetzt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_254">SSRQ ZH NF I/2/1, Nr. 254</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_116</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/3, S. 467 (Eintrag 2)</idno></msIdentifier><head>Eid des Bordellbetreibers in Winterthur</head><msContents><summary>Wilhelm Spiler von Königseggerberg wurde ins Bürgerrecht der Stadt Winterthur aufgenommen und hat den üblichen Eid geleistet. Daraufhin hat man ihm das Bordell (Frauenhaus) um 4 Pfund pro Jahr, zahlbar in vierteljährlichen Raten, verliehen. Er hat sich verpflichtet, in den Nächten nach Samstagen und bestimmten Feiertagen den Bordellbetrieb einzustellen. Er soll kein Falschspiel dulden noch selbst praktizieren. Er muss dieselben Wachdienste auf dem Turm oder bei Gefangenen leisten wie die Stadtknechte, wobei er sich vorbehalten hat, keine Folter anzuwenden. Er soll dem Rat dienstbar sein und melden, wenn in seinem Haus etwas Unrechtes geschieht. Er soll Kindern von Bürgern kein Geld leihen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Wügerli</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1481-08-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000179">Eid</term><term ref="key005421">Prostitution</term><term ref="key000767">Spiel</term><term ref="key000580">Wachdienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="467" facs="STAW_B_2_3_S.467.jpg
+"/>
+<p><lb/>Actum an <origDate when="1481-08-11">sampstag nach sannt <persName ref="per000268">Laurentzen</persName> tag, anno im lxx<subst><del rend="overwritten">j</del><add place="overwritten">x</add></subst></origDate><note>Der Schreiber hat die irrtümliche Jahresangabe <orig>lxxj</orig> zu <orig>lxxx</orig> korrigiert statt zu <orig>lxxxj</orig>. Die Einträge der vorigen und der folgenden Seite datieren von 1481.</note></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgt ein Eintrag zu einem Testament.</note>
+</p>
+<p>
+<lb/><seg><persName ref="per027785">Wilhelm Spiler</persName> vom <placeName ref="loc013157">Ku̍ngseggerberg</placeName><!-- Weiler Königsegg, heute eingemeindet in Guggenhausen RV --> haut das burggrecht <choice><sic>geschorn</sic><corr>geschworn</corr></choice>
+<lb/>als ein ander burger, unnsern herren von <placeName ref="loc000065">Zu̍rich</placeName>, deßglichen einem <orgName ref="org007943">schultheißen
+ <lb/>unnd raut zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> tru̍w unnd warheit, ir nutz zuͦ fu̍rderen
+<lb/>unnd schaden zuͦ wenden unnd zuͦ warnen, das schaffen gethan werden,
+ <lb/>unnd in kein reiß noch u̍ber niemans zuͦ reisen ǒn eins <orgName ref="org007943">schultheißen
+ <lb/>unnd rautz</orgName> erloben, wissen unnd willen.<note>Am 18. Oktober gab <persName ref="per027785">Wilhelm Spiler</persName> das Bürgerrecht bereits wieder auf (<bibl>STAW B 2/3, S. 473</bibl>).</note></seg>
+<seg>Und deß selben tags so haben
+<lb/>im mine herren das gemein frowen huß uf dem <placeName ref="loc013218">Graben</placeName> gelihen, so lang
+<lb/>er unnser burger ist, <date dur="R/P1Y">eins jeglichen jars</date> umb <measure type="currency" unit="lb" quantity="4">vier <subst><del>guldin</del>
+<add place="inline">pfund</add></subst></measure>, gebu̍rt all
+<lb/><date type="deadline_floating holiday">fronvasten</date>
+<measure type="currency" unit="lb" quantity="1"> ein pfund</measure> zuͦ geben. Er haut ouch in den selben eid genomen, den
+<lb/>er darumb liplich zuͦ got unnd den heilgen mit ufgehepten vingern geschworn
+ <lb/>haut, das er alle <date period="P7WD">sampstag</date>
+<time period="byNight">zuͦ nacht</time>, an aller <date>unnser lieben frowen abent</date>
+<time period="byNight">ze
+ <lb/>nacht</time> noch an dheinen <date type="holiday">zwoͤlffbotten abent</date>
+<time period="byNight">ze nacht</time>, und man der glich fest
+ <lb/>halten ist, an dheinen <date>vier hohzit abent</date>
+<time period="byNight">ze nacht</time>
+<del><gap unit="character" quantity="1" reason="illegible"/>v and</del> noch an der <date type="floating holiday">uffart</date> noch
+ <lb/>uff u̍nnsers herren <date type="floating holiday">fronlichams abent</date>
+<time period="byNight">ze nacht</time> suber unnd on alle unluterkeit der
+ <lb/><sic>unkunscheit</sic>
+<add place="left margin" type="sign"><lb/>zuͦ unnd be<lb break="no"/>schlossen</add> zuͦ halten noch <add place="above">u̍tzit</add> lausen zuͦ gon,<note>Zur Reglementierung der Öffnungszeiten des städtischen Bordells vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1995</ref>, S. 131-133</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 61-64</bibl>.</note> es sige dann, das ein ander frowen<lb break="no"/>wirt mit siner eignen frowen koͤm, <sic>der</sic> mag er zuͦ sinem wip lausen ligen und sust nit.</seg>
+<seg><lb/>Unnd sol dhein valsch spil noch valsch wu̍rffel legen noch bruchen, das nit ge<lb break="no"/>statten schaffen gethon werden. Unnd alles das schuldig sin zetuͦnd, das denn
+<lb/>unnser statt knecht pflichtig unnd tuͤnd, es sige uf dem turn, zuͦ den gefangen
+<lb/>oder sust, wo hin man vonn einer statt schickt oder man heist werben, das
+ <lb/>tuͤn. Doch haut er vorbehalten, nieman zuͦ pingen<!-- Idiotikon IV, Sp. 1308: peinigen, strafen -->, noͤtten noch kestigen an der wǎg<!-- Idiotikon XV, Sp. 672f.: Foltergerät -->
+<lb/>in dem turn, wann er soͤllichs umb gotz willen gelopt hab, wol zuͦ tuͦnd, darby zu
+ <lb/>sind.<note>Auch in anderen Städten wurden den Bordellbetreibern weitere Aufgaben übertragen (<bibl><ref target="/startseite/literaturverzeichnis">Schuster 1995</ref>, S. 108-110, 114, 116</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 105</bibl>).</note></seg>
+<seg>Und zuͦ aller zit des <orgName ref="org005587">rautz</orgName> warten unnd sagen, was unfuͦg in sinem huß be<lb break="no"/>gangen werd, unnd dheinem unser burger kinden gelt <add place="above"><del><unclear>geld</unclear></del></add> lichen, weder uff
+<lb/>pfender noch sust.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Frauenwirte oder auch Frauenwirtinnen betrieben das als <orig>frowen huß</orig> bezeichnete städtische Bordell in <placeName ref="loc000849">Winterthur</placeName>. Prostitution oder Kuppelei ausserhalb dieser Einrichtung wurde nicht geduldet. Frauen, die verdächtigt wurden, <orig>unku̍schait</orig> in ihren Häusern Vorschub zu leisten, drohte die Ausweisung aus der Stadt, wie ein Fall aus dem Jahr 1493 zeigt. Mehrere der involvierten Frauen waren verheiratet, die anderen offenbar ledig oder verwitwet (<bibl>STAW B 2/5, S. 505c</bibl>). Auch in anderen Städten wurde seit der zweiten Hälfte des 15. Jahrhundert private Prostitution zunehmend bekämpft (<bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 156-168</bibl>). Spätere Verordnungen, das <placeName ref="loc000849">Winterthurer</placeName> Frauenhaus betreffend, weisen seuchenpolizeiliche Bestimmungen auf, so musste sich der Frauenwirt 1503 verpflichten, <orig>kein unsuber frōwen von den blatren im hus nit ze halten</orig> (<bibl>STAW B 2/6, S. 175</bibl>), vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1995</ref>, S. 342-350</bibl>, <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 186-187</bibl>. Das Frauenhaus war ein Ort der Geselligkeit (<bibl><ref target="/startseite/literaturverzeichnis">Schuster 1995</ref>, S. 122-123</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 66-69</bibl>). Unter Aufsicht des Frauenwirts waren bestimmte Formen des Glücksspiels erlaubt, ihm stand ein Anteil am Gewinn zu (<bibl>STAW B 2/5, S. 198</bibl>, zu 1486).</p>
+<p>Institutionalisierte Prostitution in städtischen Bordellen begegnet vor allem vor der Reformation, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 31-42</bibl>, <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1991</ref>, S. 174-176</bibl>. In den <placeName ref="loc000849">Winterthurer</placeName> Ämterverzeichnissen der Jahre 1531 bis 1535 findet sich noch ein <orig>vogtt uber das fruwen huß</orig> (<bibl>STAW B 2/7, S. 448, 456, 464, 472, 480</bibl>) und auch in der Abschrift eines 1535 angelegten und nicht mehr im Original erhaltenen Kopial- und Satzungsbuchs wird <orig>ein pfleger über das fruwen huß</orig> erwähnt, den der <orgName ref="org005587">Kleine Rat</orgName> zu Beginn des Amtsjahrs aus den eigenen Reihen bestimmte (<bibl>winbib Ms. Fol. 27, S. 498</bibl>), bevor das Bordell aus den Quellen verschwindet. Es scheint geschlossen worden zu sein; eine Entwicklung, die sich auch andernorts beobachten lässt (<bibl><ref target="/startseite/literaturverzeichnis">Landolt 2013</ref>, S. 127-131</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1995</ref>, S. 358-377</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schuster 1992</ref>, S. 189-194</bibl>). Zum <placeName ref="loc000849">Winterthurer</placeName> Bordell vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 171-172</bibl>, <bibl><ref target="/startseite/literaturverzeichnis">Guddal 2003</ref></bibl>, <bibl><ref target="/startseite/literaturverzeichnis">Gut 1995</ref>, S. 184</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_171_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 47r (Eintrag 2)</idno></msIdentifier><head>Verordnung über die Bestrafung von Söldnern in Winterthur</head><msContents><summary>Der Kleine und der Grosse Rat von Winterthur ordnen an, dass Bürger, die ohne Bewilligung als Söldner in fremde Dienste treten, vor ihrer Rückkehr in die Stadt 20 Pfund Busse zahlen müssen. Die Strafe erhöht sich, wenn sich jemand an Kriegen, die gegen die Stadt und ihre Herrschaft gerichtet sind, beteiligt. Schultheiss und Rat können Söldnern, die länger als vier Monate fortbleiben, eine Abzugsgebühr auferlegen und ihre Frauen und Kinder aus der Stadt weisen. Wird die Abzugsgebühr bezahlt, entfällt das Bussgeld. Der Rat behält sich jedoch vor, nach eigenem Ermessen zu handeln. Diese Verordnung gilt auch für Hettlingen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1497-06-19"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000598">Ausweisung</term><term ref="key000184">Bussen</term><term ref="key004082">Solddienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="47r"/>
+<head>
+<lb/>Ordnung der uslendigen kriegen halb,
+<lb/>von <orgName ref="org007944">beiden raͤten</orgName> ze halten angesaͤhen
+ </head>
+<div>
+<ab type="marginal note" place="left margin"><lb/>Von uß<lb break="no"/>lendigen
+ <lb/>kriegen</ab>
+</div>
+<p>
+<lb/><seg>Item als vormals unnser gmeiner burgereid ingehalten
+ <lb/>hāt, das kein burger ōn urlob und wu̍ssen eins <orgName ref="org007943">schulthaiß und
+ <lb/>rautz</orgName> in uswendig krieg louffen soͤlle,<note>Vgl. beispielsweise die Selbstverpflichtung des <persName ref="per027443">Hans Kempter</persName> bei seiner Aufnahme ins Bürgerrecht im Jahr 1469 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_099">SSRQ ZH NF I/2/1, Nr. 99</ref></bibl>).</note> also haben <orgName ref="org007944">beid raͤt</orgName> von
+ <lb/>gmeiner statt besser nutz den selben artikel nachgelāssen<note>Ratsbeschluss vom 3. Juni 1489 (<bibl>STAW B 2/2, fol. 41r</bibl>; <bibl>STAW B 2/5, S. 368</bibl>).</note> und
+<lb/>sich diser ordnung ein <orgName ref="org005587">kleiner raut</orgName> uff bevelch der <orgName ref="org009293">grossen raͤte</orgName>
+<lb/>fu̍rohin ze halten vereint also:</seg>
+<seg>Woͤlcher burger fu̍rohin in
+ <lb/>froͤmbd krieg ōn urlōb eins <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schulthaißen</expan></choice> und rautz</orgName> louffet, der gibt
+ <lb/>zuͦ buͦß, emals er in die statt gange, <measure type="currency" unit="lb" quantity="20">xx </measure> ōn ablaͧß.<note>Später wurde die Busse wieder von 20 auf 10 Pfund Haller reduziert, wie einem Nachtrag zu diesem Beschluss in dem von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegten Kopial- und Satzungsbuch zu entnehmen ist. <persName ref="per014937">Hegners</persName> Aufzeichnungen sind nur mehr in der Abschrift <persName ref="per027189">Johann Jakob Goldschmids</persName> überliefert (<bibl>winbib Ms. Fol. 27, S. 435</bibl>).</note> Und ob
+<lb/>die krieg, dar in er kaͤme, wider gmeine unnser statt und ander
+<lb/>u̍nser herren und obren diente, so sol der selb fu̍rer gestraufft werden
+ <lb/>nach sinem verdienen. Und wēre ouch, das der, so also in
+ <lb/>krieg luffe<!-- ? in STAW B 2/2, f. 56r: lüffe -->, u̍ber <date dur="P4M">iiij mōnat</date> usser der statt wēre, so sol es an
+<lb/>einem <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schulthaißen</expan></choice> und raute</orgName> stān, im uff sin guͦt ain
+<lb/>abzug ze legen und sin wib und kinder usser der statt
+<lb/>ze schicken. Und so soͤlcher abzug angeleit wirt und der statt
+ <lb/>bezalt, so sollen die <measure type="currency" unit="lb" quantity="20">xx </measure> buͦß absin, doch sol das allwegen an einem
+ <lb/><orgName ref="org007944">raut</orgName> stān ze handlen dantzmal. Was sy besser bedunckte getān
+ <lb/>denn vermitten, <add place="left margin" type="sign">das sol gehalten</add> sin.<note>Bis hierhin inhaltlich identisch, wenn auch mit abweichender Formulierung, ist ein in demselben Band enthaltener, nachträglich gestrichener Ratsbeschluss aus dem Jahr 1497 ohne Tagesdatum (<bibl>STAW B 2/2, fol. 56r</bibl>).</note></seg>
+<seg>Es sol ouch dise ordnung glicherwise
+  <lb/>die u̍nseren von <placeName ref="loc010469">Hetlingen</placeName> binden.<note>Während die Stadt <placeName ref="loc000849">Winterthur</placeName> obrigkeitliche Rechte in der Gemeinde <placeName ref="loc010469">Hettlingen</placeName> geltend machte, reklamierten <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> die Kompetenz, Reisläuferei zu bestrafen, für sich, da das Dorf in ihrer Landvogtei <placeName ref="loc000012">Kyburg</placeName> lag (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_161">SSRQ ZH NF I/2/1, Nr. 161</ref></bibl>).</note></seg>
+<seg>Actum <origDate when="1497-06-19">mentag vor <persName ref="per027322">Albani</persName>, anno <abbr>etc</abbr>
+<lb/>lxxxxvij<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Ein Ratsbeschluss vom 3. Juni 1489 sah noch ein Bussgeld von 10 Pfund Haller vor, wenn <placeName ref="loc000849">Winterthurer</placeName> Bürger entgegen ihrem Eid ohne Erlaubnis auswärtige Solddienste leisteten. Alternativ konnten sie die Strafe im Turm bei Wasser und Brot absitzen. Darüber hinaus galten sie als ehrlos und meineidig (<bibl>STAW B 2/2, fol. 41r</bibl>; <bibl>STAW B 2/5, S. 368</bibl>). Mit der vorliegenden Satzung formulierten <orgName ref="org007943">Schultheiss und Rat</orgName> erstmals ein explizites Reislaufverbot. Die Massnahmen zur Bekämpfung des Söldnerwesens wurden später weiter verschärft, namentlich auf Anweisung der <placeName ref="loc000065">Zürcher</placeName> Obrigkeit (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_216">SSRQ ZH NF I/2/1, Nr. 216</ref></bibl>), die zunächst die Strafpraxis in <placeName ref="loc000849">Winterthur</placeName> als zu mild kritisierte (<bibl>STAW AE 42/7</bibl>). Daher forderten die <orgName ref="org002406">Zürcher</orgName> zur Übernahme ihrer eigenen Satzungen auf, so beispielsweise im Juli 1513 (Satzung: <bibl>STAW AE 42/3</bibl>; Begleitschreiben an die Stadt <placeName ref="loc000849">Winterthur</placeName>: <bibl>STAW AE 42/4</bibl>). Im Dezember 1536 erliessen <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> ein neues Solddienstverbot, das den Verlust des Bürgerrechts für Zuwiderhandelnde vorsah (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_276">SSRQ ZH NF I/2/1, Nr. 276</ref></bibl>). Zuvor wurde die vorliegende Verordnung in das 1535 angelegte Kopial- und Satzungsbuch aufgenommen, das nur in einer späten Abschrift überliefert ist (<bibl>winbib Ms. Fol. 27, S. 435</bibl>).</p>
+<p>Zum Söldnerwesen in der <placeName ref="loc000153">Eidgenossenschaft</placeName> und zur Bekämpfung des Solddienstes durch die Obrigkeiten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Fuhrer/Eyer 2006</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Körner 1997</ref></bibl>; für <placeName ref="loc000065">Zürich</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">Romer 1997</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Romer 1997a</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Romer 1995</ref>, S. 39-44, 50-57, 86-89, 137-139</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

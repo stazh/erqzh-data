@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_259_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AH 98/1/5 Bä.1</idno></msIdentifier><head>Brotordnung der Stadt Winterthur</head><msContents><summary>Schultheiss und beide Räte von Winterthur ändern auf Ersuchen der Bäcker Bestimmungen der Brotordnung, damit sie ein besseres Auskommen haben, und legen das Brotgewicht fest. Wer sich nicht an diese Vorgaben hält, soll gebüsst werden. Eine Abweichung von 1 Lot wird mit 10 Schilling Haller geahndet, bei grösseren Differenzen beträgt die Busse 2 Pfund Haller. Die seitens der Brotbeschauer beanstandeten Brote dürfen nur zu dem Preis verkauft werden, der ihrem tatsächlichen Gewicht entspricht. Es folgen Angaben zum Normgewicht des Brots in Abhängigkeit von dem Getreidepreis und der Mehlsorte.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1531-04-26"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000849">Handwerk</term><term ref="key005405">Konsumentenschutz</term><term ref="key000882">Nahrungsmittel</term><term ref="key004022">Satzung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<div>
+<pb n="1" facs="STAW_AH_98_1_5_Bä_1_S.1.jpg"/>
+<p>
+<lb/><seg>Alls dan <orgName ref="org007943">schultheis und raͤtt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName> verschiner tagen
+<lb/>iren burgeren des pfister handwaͤrchs ein ordnung, wie sy nach
+<lb/>dem gewicht paͤchen, zuͦ gestellt, sind doch die saͤlben pfister
+<lb/>uff hütt, <origDate when="1531-04-26">den saͤchs und zwentzgisten tag apprellens</origDate>, vor minen
+ <lb/>heren, <orgName ref="org007944">beden, clein und grosen, raͤten</orgName> erschinen, sy pitlich angsuͦcht,
+ <lb/><choice><sic>inen inen</sic><corr>inen</corr></choice> gnaͤdige milterung in <sic>vorgedacher</sic> ordnung mitt zuͦ<lb break="no"/>theillen, dwill doch sy nütt dan guͦtt arm gsellen und mitt vill
+ <lb/>kleiner kinden beladen, ouch ein jeglicher arbeiter sins lons nott<lb break="no"/>urfftig sig.</seg>
+<seg>Hieruff sind vorgemaͤlte min heren alß die gnaͤ<lb break="no"/>digen uff der iren pitt in angeregter ordnu<supplied reason="omitted" resp="bf">n</supplied>g ethwas gwichenn
+<lb/>und milterung gethan, ouch ordnung des gwichts gesetztt, wie
+ <lb/>das brott fürhin halten soͤlle, so es anders an der gepaͤcht ordenlich
+<lb/>gepachen ist. Deßglichen haben ouch die selben min herenn
+<lb/>uff der gemaͤlten pfisteren, iren burgeren, begaͤren uff soͤliche ord<lb break="no"/>nung, von wem die nitt gehalten, ein straff gesetzt, naͤmlich,
+ <lb/>oͤb einer <measure type="weight" unit="Lot" quantity="1">eins lotts</measure> minder, dan dis ordnung ußwist, an ein brott
+ <lb/>bachen würd, das alß dan fur dassaͤlbig oͤrst<!-- ebenso Elgg, winbib: erst --> lott, alß wen der
+ <lb/>kernen <measure type="currency" unit="lb" quantity="6">vj </measure> gillt, an einem <measure type="currency" unit="d" quantity="4">fierer</measure> waͤrtigen brott nun <measure type="weight" unit="Lot" quantity="9">nu̍n
+<lb/>lott</measure> were (also es ouch durch ordnung uß und uß gehalten worden),
+<lb/>so soll die straff <measure type="currency" unit="ß" quantity="10">x  haller</measure> sin. Oͤb aber ein brott mer dan nun
+ <lb/><measure type="weight" unit="Lot" quantity="1">ein lott mangell</measure> haben würd, alß dan sol die straff <measure type="currency" unit="lb" quantity="2">zwey pfund
+<lb/>haller</measure> sin. Darzuͦ wie vill mangell am brott funden wirtt, der
+<lb/>gstalt, so die daran manglaten lott <measure type="currency" unit="h" quantity="1">ein haller</measure>, <measure type="currency" unit="d" quantity="1">ein pfenig</measure> oder mer
+<lb/><choice><sic>brigen</sic><corr>bringen</corr></choice>, also vill soͤllentt die brottschetzer das mangelhafftt brott
+<lb/>abschaͤtzen und mitt dem pfister, der das hatt, also vill verschaffen,
+<lb/>das er das selbig nütt thürer und umb mer gaͤllt soͤlle<del><unclear>e</unclear></del> geben, dan
+<lb/>wie daran nach dem gwichtt erfunden es wertt ist, und soͤlichs
+ <lb/>on angesaͤchen nützett desterminder die <measure type="currency" unit="lb" quantity="2">ij  haller</measure> straff gaͤbenn.</seg>
+<seg><lb/>Actum uff datum, wie obstaͧtt, <origDate when="1531-04-26">anno <choice><abbr>dni</abbr><expan>domini</expan></choice> xv<hi rend="sup">c</hi> xxxj<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+<p><lb/>Hienach volgett das waͤge
+<lb/>des wissen brots, ein <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">mütt <choice><abbr>k</abbr><expan>kernen</expan></choice></measure> umb <measure type="currency" unit="lb" quantity="6">vj </measure>:<note>Eine Aufzeichnung aus dem Jahr 1546 übernimmt diese Vorgaben für das Brotgewicht mit geringen Abweichungen, wobei Brot im Wert von 1 Pfennig und einem Gewicht von 5 Lot bereits bei einem Preis von 6 Pfund pro Mütt vorgesehen war (<bibl>STAW AH 98/1/7 Bä.1, S. 5-9</bibl>). Die der Gemeinde <placeName ref="loc001005">Elgg</placeName> übermittelte Abschrift wurde nachträglich um die Preiskategorien von 7 bis 11 Pfund ergänzt (<bibl>ZGA Elgg IV A 3a, fol. 102v</bibl>).</note></p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="30">xxx lott</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ qu̍ntly</measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell>waͤrtigen brott</cell>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="20">xx lott</measure>
+<measure type="weight" unit="Quentli" quantity="1">j qu̍ntly</measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="10">x lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ qu̍ntly</measure></measureGrp></cell>
+</row>
+</table>
+<pb n="2" facs="STAW_AH_98_1_5_Bä_1_S.2.jpg"/>
+<p><lb/>Nemlich wan ein <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">mütt kernen</measure>
+<lb/><measure type="currency" unit="lb" quantity="5.5">vɉ </measure> gillt, soͤllen die brott wegen:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell/>
+<cell><measure type="weight" unit="Lot" quantity="33">xxxiij lott</measure></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell>waͤrtigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="21">xxj lott</measure>
+<measure type="weight" unit="Quentli" quantity="3.5">iiiɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="10">x lott</measure>
+<measure type="weight" unit="Quentli" quantity="3.5">iiiɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="5">fünff pfund</measure> giltett:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="36">xxxvj lott</measure>
+<measure type="weight" unit="Quentli" quantity="1">j <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell>waͤrtigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="24">xxiiij lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell/>
+<cell><measure type="weight" unit="Lot" quantity="12">xij lott</measure></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="4.5">ꝟ </measure> gilltett:<note>Diese Preiskategorie fehlt in der Abschrift des 1535 angelegten Kopial- und Satzungsbuchs (<bibl>winbib Ms. Fol. 27, S. 549-551</bibl>).</note></p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="40">xxxx lott</measure>
+<measure type="weight" unit="Quentli" quantity="2">ij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measure type="weight" unit="Lot" quantity="27">xxvij lott</measure></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="13">xiij lott</measure>
+<measure type="weight" unit="Quentli" quantity="2">ij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="4">iiij </measure> giltett:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="9">viiij lott</measure>
+<measure type="weight" unit="Quentli" quantity="2">ij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="30">xxx lott</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell/>
+<cell>wertigs brott</cell>
+<cell/>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="15">xv lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measure type="weight" unit="Lot" quantity="7.5">viiɉ lott</measure></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="3.5">iiiɉ </measure> giltett:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell/>
+<cell><measure type="weight" unit="Lot" quantity="33.5">xxxiiiɉ lott</measure></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="17">xvij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1">j <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Lot" quantity="8">viij lott</measure>
+<measure type="weight" unit="Quentli" quantity="2.5">iiɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><pb n="3"/>
+<pb n="4"/><gap reason="irrelevant"/><note>Das Doppelblatt mit der Brotordnung wurde später mit einem Einzelblatt, auf das ein Nachtrag vom 8. Juli 1532 notiert ist (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_262">SSRQ ZH NF I/2/1, Nr. 262</ref></bibl>), zu einem Heft formiert, wobei die korrekte Seitenfolge nicht beachtet wurde: Auf den Seiten 1, 2 und 5 steht die Brotordnung, auf S. 3 der Nachtrag, S. 4 ist unbeschrieben.</note></p>
+<pb n="5" facs="STAW_AH_98_1_5_Bä_1_S.5.jpg"/>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="3">iij </measure> gillt:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crutzer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="4.5">ꝟ lott</measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ ℔</measure>
+<measure type="weight" unit="Lot" quantity="2">ij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1">j <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>f</abbr><expan>fierling</expan></choice><!-- Viertelpfund --></measure>
+<measure type="weight" unit="Lot" quantity="1">j lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="2.5">iiɉ </measure> gillt:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crützer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="12">xij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row><cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ ℔</measure>
+<measure type="weight" unit="Lot" quantity="6">vj lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>f</abbr><expan>fierling</expan></choice><!-- Viertelpfund --></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lott</measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="2">ij </measure> gilltett:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crutzer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="14">xxiiij lott</measure>
+<measure type="weight" unit="Quentli" quantity="3">iij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ ℔</measure>
+<measure type="weight" unit="Lot" quantity="12">xij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>f</abbr><expan>fierling</expan></choice><!-- Viertelpfund --></measure>
+<measure type="weight" unit="Lot" quantity="6">vj lott</measure>
+<measure type="weight" unit="Quentli" quantity="0.5">ɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="ß" quantity="30">xxx </measure> giltett:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crutzer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="2">ij ℔</measure>
+<measure type="weight" unit="Vierling" quantity="1">j <choice><abbr>f</abbr><expan>fierling</expan></choice><!-- = Viertelpfund --></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="4.5">ꝟ lott</measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="0.5">ɉ ℔</measure>
+<measure type="weight" unit="Lot" quantity="2">ij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1">j <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<p><lb/>So er <measure type="currency" unit="lb" quantity="1">j </measure> gillt:</p>
+<table>
+<row>
+<cell/>
+<cell><measure type="currency" unit="xr" quantity="1">crutzer</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="3">iij ℔</measure>
+<measure type="weight" unit="Lot" quantity="13">xiij lott</measure>
+<measure type="weight" unit="Quentli" quantity="2">ij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="d" quantity="4">vierer</measure></cell>
+<cell>wertigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1.5">iɉ ℔</measure>
+<measure type="weight" unit="Lot" quantity="6">vj lott</measure>
+<measure type="weight" unit="Quentli" quantity="3">iij <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+<row>
+<cell/>
+<cell><measure type="currency" unit="Angster" quantity="1">angster</measure></cell>
+<cell/>
+<cell><measureGrp><measure type="weight" unit="Vierling" quantity="3">iij <choice><abbr>f</abbr><expan>fierling</expan></choice></measure>
+<measure type="weight" unit="Lot" quantity="3">iij lott</measure>
+<measure type="weight" unit="Quentli" quantity="1.5">iɉ <choice><abbr>q</abbr><expan>qu̍ntly</expan></choice></measure></measureGrp></cell>
+</row>
+</table>
+<pb n="6" facs="STAW_AH_98_1_5_Bä_1_S.6.jpg"/>
+<p><lb/>Hienach volgtt das waͤge <lb/>des gries brots.<note>Brot aus gröber gemahlenem Mehl, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/127582">Bd. 2, Sp. 801</ref></bibl>.</note></p>
+<p><lb/>So ein <measure type="volume" unit="Mütt" quantity="1" commodity="spelt">mütt kernen</measure>
+<measure type="currency" unit="lb" quantity="6">vj </measure> giltett:<note>In der Abschrift der Brotordnung im <placeName ref="loc001005">Elgger</placeName> Satzungsbuch folgen die weiteren Preiskategorien für 1 Mütt bis zu einem Betrag von 30 Schilling, wobei bis zu einem Getreidepreis von 4 Pfund nicht nur Brot zu 1 Schilling, sondern auch zu 1 Sechser angeboten werden sollte. Die jeweiligen Gewichtsangaben für das <orig>gries brot</orig> sind nicht eingetragen worden, offenbar hatte man zum Zeitpunkt der Niederschrift noch keine Werte festgelegt (<bibl>ZGA Elgg IV A 3a, fol. 101v-102r</bibl>). Diese Ergänzungen finden sich auch in der Fassung in dem 1535 angelegten, nur mehr abschriftlich überlieferten Kopial- und Satzungsbuch von <placeName ref="loc000849">Winterthur</placeName>, wobei lediglich für die Preiskategorie 3 Pfund pro Mütt Gewichtsnormen angegeben sind: Ein gröberes Brot zu 1 Schilling musste 2 Pfund 4 Lot schwer sein, eines zu 1 Sechser 1 Pfund 2 Lot (<bibl>winbib Ms. Fol. 27, S. 551</bibl>).</note></p>
+<table>
+<row>
+<cell>Ein</cell>
+<cell><measure type="currency" unit="ß" quantity="1">schiling</measure></cell>
+<cell>waͤrtigs brott</cell>
+<cell><measureGrp><measure type="weight" unit="Pfund" quantity="1">j ℔</measure>
+<measure type="weight" unit="Lot" quantity="2">ij lott</measure></measureGrp></cell>
+</row>
+</table>
+</div>
+<div><ab type="dorsal" place="below"><lb/>Der statt ordnung <lb/>von der pfisteren wagen</ab></div>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc000849">Winterthur</placeName> kontrollierten vereidigte Brotbeschauer regelmässig Gewicht und Qualität der zum Verkauf angebotenen Backwaren (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_185">SSRQ ZH NF I/2/1, Nr. 185</ref></bibl>). Bald nachdem <orgName ref="org002406">Bürgermeister und Rat der Stadt <placeName ref="loc000065">Zürich</placeName></orgName> eine Brotordnung mit Vorgaben zum Gewicht von Brot zu 1 Schilling, 1 Kreuzer, 4 Haller und 1 Angster in Relation zum Getreidepreis erlassen hatten (<bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 274</bibl>, zu 1530), scheint in <placeName ref="loc000849">Winterthur</placeName> eine Backprobe durchgeführt worden zu sein. Sie ergab, dass aus 1 Mütt Dinkel Winterthurer Mass zu einem Preis von 5 Pfund 5 Schilling, das man zur Hälfte zu Weissmehl und zur Hälfte zu grobem Mehl vermahlen hatte, ein Erlös von 6 Pfund und 2 Schilling erzielt werden konnte. So liessen sich aus einem Viertelmütt Weissmehl beispielsweise 45 Brote zu 1 Kreuzer mit einem Gewicht von jeweils 29 Lot backen. Dabei wurde das Brotgewicht höher angesetzt als in <placeName ref="loc000065">Zürich</placeName>, da das dort für das Mütt verwendete Mass ein geringeres Volumen aufwies. Zunächst wurde ein Gewicht von 33 Lot für ein Brot zu 1 Schilling, 22 Lot für ein Brot zu 1 Kreuzer und 11 Lot für ein Brot zu 4 Pfennig bei einem Dinkelpreis von 6 Pfund festgelegt (<bibl>STAW AH 98/1/4 Bä</bibl>, undatiert). Auf Intervention der Bäcker wurde das jeweilige Mindestgewicht in der vorliegenden Brotordnung verringert.</p>
+<p>Die <placeName ref="loc000849">Winterthurer</placeName> Brotordnung von 1531 ist auch in dem Kopial- und Satzungsbuch enthalten, das der Stadtschreiber <persName ref="per014937">Gebhard Heger </persName>1535 anlegte und seine Nachfolger fortführten. Von dem Original ist nur ein Fragment erhalten, der Band ist in einer späten Abschrift überliefert (<bibl>winbib Ms. Fol. 27, S. 549-551</bibl>). Der Text weist geringfügige Abweichungen auf. Nach dieser Vorlage wurde die Brotordnung der Gemeinde <placeName ref="loc001005">Elgg</placeName> übermittelt. Dort fand er unter der Überschrift <orig>Ordnung der pfisteren zuͦ bachen an das gwicht, von <orgName ref="org007944">beden, clein und grossen, raͤten</orgName> nachvolgender wyse zehalten angesaͤchen</orig> Eingang in ein Satzungsbuch (<bibl>ZGA Elgg IV A 3a, fol. 99r-102v</bibl>).</p>
+<p>Da sich der Brotpreis nicht änderte, mussten sich sinkende Getreidepreise in einem höheren Brotgewicht niederschlagen und umgekehrt. So bewilligten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> 1593 auf Ersuchen der Bäckermeister eine Reduzierung des Brotgewichts um 0.5 Lot bei Brot zu 4 Hallern, um 1 Lot bei Brot zu 1 Kreuzer, um 1.5 Lot bei Brot zu 1 Schilling und um 3 Lot bei Brot zu 2 Schilling mit der Begründung, dass die Preise für Getreide, Salz, Holz und Unschlitt in den vergangenen 30 Jahren gestiegen seien (<bibl>STAW AH 98/1/10 Bä</bibl>). Ein Nachtrag der Abschrift der Brotordnung im <placeName ref="loc001005">Elgger</placeName> Satzungsbuch berücksichtigt die höheren Getreidepreise und listet das Brotgewicht für die Preiskategorien von 7 bis 11 Pfund pro Mütt Dinkel auf (<bibl>ZGA Elgg IV A 3a, fol. 102v</bibl>). Diese Angaben fehlen in der Abschrift des 1535 angelegten Kopial- und Satzungsbuchs von <placeName ref="loc000849">Winterthur</placeName>.</p>
+<p>Zur obrigkeitlichen Preis- und Lohnpolitik, der Festlegung des Getreidepreises und der Preisentwicklung am Beispiel <placeName ref="loc000065">Zürichs</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 271-283</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

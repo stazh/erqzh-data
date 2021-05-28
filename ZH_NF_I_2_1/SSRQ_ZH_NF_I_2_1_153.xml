@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_153</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/5, S. 370 (Eintrag 1)</idno></msIdentifier><head>Aufstellung der Handwerkergesellschaften bei der Fronleichnamsprozession in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur legen die Aufstellung der Kerzenträger bei der Fronleichnamsprozession fest: Dem Sakrament folgen die Kerze der Wollweber und die beiden Kerzen der Oberstubengesellschaft von den Müllern, Metzgern und Bäckern, dem Sakrament voraus gehen zunächst die Kerze der Kürschner, die beiden Kerzen der Leinenweber, die beiden Kerzen der Rebleute, die beiden Kerzen der Schuhmacher und die beiden Kerzen der Zimmerleute und Schmiede. Diesen Kerzen voran sollen Wandelkerzen und Beinkerzen von allen Gesellschaften in derselben Reihenfolge gehen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1489-06-10"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003450">Prozession</term><term ref="key005353">Rangordnung</term><term ref="key005441">Stubengesellschaft</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="369"/>
+<p><lb/>Coram <orgName ref="org007944">beiden raͤten</orgName> an <origDate when="1489-06-10">mitwochen <lb/>in pfinst firtagen, anno <abbr>etc</abbr> lxxxviiij<hi rend="sup">o</hi></origDate></p>
+<p>
+<gap reason="irrelevant"/><note>Es folgen Einträge über eine Urfehdeerklärung und ein Pfändungsverfahren.</note>
+</p>
+<pb n="370"/>
+<p>
+<lb/>Mine herren haben angesaͤhen zuͦ lob und ere dem <lb/>hailgen, wirdigen sacrament des
+cru̍tzgangs halb, so <lb/>gehalten wirt uff unnsers herren <date type="floating holiday">fronlichnamstag</date><note>Das Fronleichnamsfest fiel 1489 auf den 18. Juni.</note>
+<lb/>also, das der wullwēber kertzen in soͤlchem kru̍tzgang <lb/>die naͤchsten hinden uff das
+sacrament und uff die selben <lb/>von der <orgName ref="org007854">oberstuben geselschaft</orgName>, mu̍ller,
+metzger und pfister, <num value="2">zwo</num> kertzen<!-- zur Bandmitte hin, schlecht lesbar -->
+<lb/>und vornen naͤchst uff sacrament <del>liniweber mit <num value="2">zweyen</num><!-- zur Bandmitte hin, schlecht lesbar -->
+<lb/>kertzen und uff die selben</del>
+<choice>
+<sic>di<subst><del>e</del><add place="overwritten">r</add></subst></sic>
+<corr>der</corr>
+</choice> ku̍rsenen kertzen mit laternen <lb/>und
+schellen, <add place="left margin" type="sign"><lb/>uff die selben <lb/>der liniweber
+ <lb/><num value="2">zwo</num> kertzen</add> und uff die selben reblu̍ten <num value="2">zwey</num> kertzen <lb/>und uff die selben der schuͦchmacher <num value="2">zweyen</num>
+kertzen <lb/>und uff die selben der zimerlu̍ten und schmiden <num value="2">zweyen</num>
+<lb/>kertzen. Und vor denen kertzen allen soͤllen gān <lb/>wandel kertzen und
+ <unclear>bein</unclear><!-- aus Knochen hergestelltes Fett kann zur Kerzen- und Seifenproduktion verwendet werden: https://books.google.ch/books?id=E_hbAAAAcAAJ&pg=PA284&dq=kerzenproduktion+knochenfett&hl=de&sa=X&ved=0ahUKEwizyZur6J7eAhXBblAKHXpUCeUQ6AEILDAB#v=onepage&q=kerzenproduktion%20knochenfett&f=false -->
+kertzen von allen geselschaften <lb/>in der ordnung, wie obstaut. </p>
+</div>
+</body>
+<back>
+<div>
+<p>Nach Darstellung des Chronisten <persName ref="per027182">Laurenz Bosshart</persName> wurde die Fronleichnamsprozession in <placeName ref="loc000849">Winterthur</placeName> im Jahr 1344 eingeführt und im Zuge der Reformation 1524 wieder abgeschafft (<bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 12, 100-101</bibl>). Zur Begehung des Fronleichnamsfests in der Stadt vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 139-140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1933</ref>, S. 25</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1900</ref>, S. 23</bibl>.</p>
+<p>Die religiöse Fundierung der städtischen Verfassung, in der Forschung mit dem Begriff <quote>Sakralgemeinschaft</quote> charakterisiert (<bibl><ref target="/startseite/literaturverzeichnis">Löther 1999</ref>, S. 1</bibl>), wurde durch Prozessionen sowie die Stiftung von Messen und Wallfahrten zum Ausdruck gebracht. Die wochenlange Belagerung <placeName ref="loc000849">Winterthurs</placeName> durch die <orgName ref="org000531">eidgenössischen Orte</orgName> während ihrer Auseinandersetzungen mit den <orgName ref="org000088">Habsburgern</orgName> im Jahr 1460 bewog den <orgName ref="org007943">Schultheissen und die beiden Räte</orgName> sechs Jahre später zur Stiftung einer Wallfahrt von der Pfarrkirche zu der Kirche in <placeName ref="loc011186">Veltheim</placeName>, die jedes Jahr am 2. Juli und 8. Dezember stattfinden sollte und an der sich jeder Haushalt mit mindestens einer Person zu beteiligen hatte (<bibl>STAW B 2/2, fol. 6v-7r</bibl>, vgl. dazu den Eintrag im Jahrzeitbuch der <placeName ref="loc000849">Winterthurer</placeName> Pfarrkirche <bibl>STAW Ki 50, S. 188</bibl>). Zu den Ereignissen und Hintergründen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2008</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2002</ref></bibl>.</p>
+<p>Über ihre religiöse Funktion hinaus dienten obrigkeitlich organisierte Prozessionen der Visualisierung der politischen und sozialen Ordnung, vgl. zu <placeName ref="loc000065">Zürich</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Dörner 1996</ref>, S. 172-179</bibl>, und allgemein <bibl><ref target="/startseite/literaturverzeichnis">Rogge 2003a</ref>, S. 205-207</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Löther 1999</ref>, S. 2, 172, 232-233, 248, 265-266</bibl>. Die Reihenfolge der teilnehmenden Gruppen korrespondiert mit dem jeweiligen Status. Im Zusammenhang mit den Unruhen auf der <placeName ref="loc000065">Zürcher</placeName> Landschaft war es 1489 auch in <placeName ref="loc000849">Winterthur</placeName> zu innerstädtischen Konflikten gekommen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_154">SSRQ ZH NF I/2/1, Nr. 154</ref></bibl>. Vermutlich motivierten Rangstreitigkeiten unter den Handwerksgesellschaften den vorliegenden Ratsbeschluss, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 140</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996</ref>, S. 179-180</bibl>. Zu den Handwerkergesellschaften in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_107">SSRQ ZH NF I/2/1, Nr. 107</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_162">SSRQ ZH NF I/2/1, Nr. 162</ref></bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

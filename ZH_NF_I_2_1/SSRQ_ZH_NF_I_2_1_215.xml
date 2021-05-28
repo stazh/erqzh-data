@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_215</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/7, S. 167 (Eintrag 2)</idno></msIdentifier><head>Niederlassungsbewilligung für den Juden Lazarus in Winterthur</head><msContents><summary>Der Schultheiss, der Kleine und der Grosse Rat von Winterthur bewilligen dem Juden Lazarus, weiterhin in der Stadt unter ihrem Schutz ansässig zu sein. Sie können diese Bewilligung jederzeit mit einer Frist von einem halben Jahr aufkündigen. Lazarus soll seinen Sohn Moses und seine Frau anweisen, auf ihre Worte zu achten und auf dem Markt nur das zu berühren, was sie kaufen wollen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1515-11-07"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000755">Juden</term><term ref="key000330">Niederlassung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="167"/>
+<p>
+<lb/>Actum <origDate when="1515-11-07">mitwochen ante
+<lb/><persName ref="per000141">Martini</persName>, anno xv jare</origDate>
+</p>
+<p>
+<gap reason="irrelevant"/><note>Es folgt ein Eintrag über die Weinrechnung.</note>
+</p>
+<p>
+<seg>
+<lb/>Item mine heren, <del>haben</del>
+<orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schultheis</expan></choice>, clein und gros raͤt</orgName>, habent
+ <lb/><persName ref="per027464">Lazarus</persName> juden widerum in irem schirm alhie laussen beliben,
+<lb/>doch mit geding und vorbehaltnus, wann und zuͦ welcher zit,
+<lb/>es sige u̍ber kurtz oder lang, oder im jar, wann sy wellen, so
+<lb/>mu̍gen sy im soͤlichen schirm widerum abku̍nden. Doch wann sy
+<lb/>soͤlichs thuͦn wellen, soͤllen sy im soͤlichs allwegen <date dur="P6M">einhalb jar</date>
+<lb/>zevor wu̍ssen thuͦn. Desglichen sol er ouch mit sinem su̍n
+ <lb/><persName ref="per027491">Mosse</persName> und siner hus <choice><abbr>fr</abbr><expan>frowen</expan></choice> verschaffen und daran sin, das sy irer
+<lb/>reden behuͦtsam sigen und am marckt nu̍tzet angriffint,
+ <lb/>sy wellends dann kouffen.</seg>
+<seg><foreign xml:lang="la">Actum ut supra</foreign>.
+ </seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Anhand des vorliegenden Ratsbeschlusses wird deutlich, wie jüdische Einwohnerinnen und Einwohner auch in <placeName ref="loc000849">Winterthur</placeName> stigmatisiert und ausgegrenzt wurden. Am 15. November 1518 wurde die Schutzzusage für <persName ref="per027464">Lazarus</persName> erneuert. Bei Wohlverhalten wollte man sie ihm auf Lebenszeit gewähren, doch behielt sich der <orgName ref="org005587">Rat</orgName> vor, sie aufzukündigen, sollten Klagen über ihn laut werden. Der jüdischen Familie wurden weitere Auflagen erteilt, so war <persName ref="per027491">Moses</persName>, dem Arzt, nur in Ausübung seines Berufs der Umgang mit christlichen Mitbürgern erlaubt (<bibl>STAW B 2/7, S. 264</bibl>). Vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2005a</ref>, S. 106-107</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2001</ref>, S. 143-144</bibl>. Derartigen Restriktionen waren <orgName ref="org003818">Juden</orgName> aber auch andernorts unterworfen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 2009</ref>, S. 45-46</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Willoweit 2003</ref>, S. 2185-2187</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

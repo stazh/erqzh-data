@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_100_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/2, fol. 19r (Eintrag 2)</idno></msIdentifier><head>Bestrafung der Missachtung von Gerichtsurteilen in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur ordnen an, dass jemand, der vor Gericht geht und das Urteil missachtet, in Turmhaft genommen und nach ihrem Ermessen bestraft werden soll.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Georg Bappus</author><filiation type="current">Eintrag (A 1)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1470-07-14"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000334">Gefängnis</term><term ref="key000057">Gericht</term><term ref="key000683">Urteil</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb type="original" n="19r"/>
+<div>
+<ab type="marginal note" place="left margin"><lb/>Grichtz<lb break="no"/>stab</ab>
+</div>
+<p>
+<seg><lb/>Item welher an des gerichtz stab griffet, <app><lem>umb was sach ist</lem><rdg wit="STAW B 2/3, S. 87">worumb das ist</rdg></app>,
+<lb/>das sol ein yettlicher halten. Welher das u̍bersehe, den wellen
+<lb/>min herren in ein thurn legen lǎussen <app><lem>und in strǎff nemen, als
+ <lb/>sy bedunckt</lem><rdg wit="STAW B 2/3, S. 87"/></app>.</seg>
+<seg>Actum <app><lem>von <orgName ref="org007943"><choice><abbr>schulths</abbr><expan>schultheis</expan></choice> und raͤten</orgName></lem><rdg wit="STAW B 2/3, S. 87"/></app> an <origDate when="1470-07-14">sambstag
+<lb/>vor <persName ref="per000365">Margrethe</persName>, anno <abbr>etc</abbr> lxx</origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Der Gerichtsstab symbolisierte die richterliche Gewalt. Gelöbnisse vor Gericht wurden durch Berühren des Gerichtsstabs vollzogen und die Nichteinhaltung sanktioniert, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 33-46, 79-83, 93-94</bibl>. Auch bei Handänderungen erfolgte die Übergabe des Objekts durch das Ergreifen des Gerichtsstabs seitens der Verkäuferin oder des Verkäufers, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_026">SSRQ ZH NF I/2/1, Nr. 26</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_258">SSRQ ZH NF I/2/1, Nr. 258</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 12-25, 33-46, 74-75</bibl>.</p>
+<p>Mit der vorliegenden Verordnung korrespondiert der Ratsbeschluss vom 22. Mai 1489, dass ein Schuldner, der <orig>umb gichtige schuld bezalung ze tuͦnd verheißt und das an stab gelopt</orig> hatte, aber nicht fristgemäss seine Schulden bezahlte oder Pfänder stellte, wegen seines Ungehorsams und der nicht eingehaltenen Verpflichtung bis zur Bezahlung in Turmhaft genommen und zusätzlich bestraft werden sollte (<bibl>STAW B 2/2, fol. 40v</bibl>; <bibl>STAW B 2/5, S. 363</bibl>).</p>
+<p>Der Stadtschreiber trug den vorliegenden Beschluss in ein weiteres Ratsbuch ein (<bibl>STAW B 2/3, S. 87</bibl>). Unter der Überschrift <orig>Wie die gelüpten an stab beschehen und was, der sollich gelübd bricht, zu buß verfallen ist</orig> wurde er auch in das 1535 angelegte Kopial- und Satzungsbuch aufgenommen, das nur in einer Anschrift des 18. Jahrhunderts überliefert ist (<bibl>winbib Ms. Fol. 27, S. 409</bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

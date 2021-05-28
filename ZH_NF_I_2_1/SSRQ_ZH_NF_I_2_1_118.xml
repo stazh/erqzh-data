@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_118</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 3e/53, S. 16</idno></msIdentifier><head>Verpflichtung der Insassen des Unteren Spitals in Winterthur zu täglichen Gebeten</head><msContents><summary>Eine Magd soll dem Pfleger des Unteren Spitals der Stadt Winterthur geloben, alle Insassen zu melden, welche die Gebete vor und nach dem Essen zum Seelenheil der Lebenden und Toten, die sie unterstützt haben, versäumen. Der Pfleger soll sie mit Weinentzug bestrafen. Wenn sich ein Insasse gegen diese Ordnung wendet, kann der Pfleger ihm die Pfrund entziehen, bis Schultheiss und Rat ihn begnadigen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="28.0"/><width unit="cm" quantity="13.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1482-01-01" to="1482-12-31"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003009">Gebet</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="16" facs="STAW_B_3e_53_S.16.jpg
+"/>
+<p><seg>
+<lb/>Item es sol ein jetliche junckfroͧw der <orgName ref="org007934">armen
+ <lb/>kinden</orgName> loben eim pflaͤger, das sy melden
+<lb/>und sagen welle, welches kind sin ge<lb break="no"/>bett nu̍t verbring, wie eß ein <orgName ref="org007943">schultheis 
+ <lb/>und raut</orgName> angesaͤchen hant, namlich
+<lb/><num value="5">fu̍nff</num> Pater Noster und <num value="5">fu̍nff</num> Ave Maria
+<lb/>uff den knu̍wen, wen sy u̍ber tisch well<lb break="no"/>end gan, welche daz verbringen moͧgent, 
+<lb/>und nach dem ess<del rend="overwritten">h</del>en inn die kaͧppel
+<lb/>und aber uff den knu̍wen wie vor
+<lb/>aber spraͤchen <num value="5">fu̍nff</num> Patter Noster und
+ <lb/><num value="5">fu̍nff</num> Ave Maria <choice><sic>dem dem</sic><corr>dem</corr></choice> liden
+<lb/>unssres herren und siner wirdigen
+<lb/>muͦtter und zuͦ hilff und troͧst den
+<lb/>gloͤibigen seillen, die ir heillig armuͦss<lb break="no"/>en innen mit getailt hand oder stu̍r 
+<lb/>ald hilff dar zuͦ getaͧn hett, sy sigint
+<lb/>laͤbbendig oder tod, fu̍r die lebendigen,
+<lb/>das innen gott verlich lengrung irs
+<lb/>laͤbens und nach dissem leben daz
+<lb/>ewig leben, denn totten die ewigen
+ <lb/>ruͦw.<note>Zuwendungen an das <orgName ref="org009236">Untere Spital</orgName> erwähnt bereits der Eintrag im <placeName ref="loc000849">Winterthurer</placeName> Jahrzeitbuch für den 1386 verstorbenen <persName ref="per027162">Heinrich Löninger</persName> (<bibl>STAW Ki 50, S. 122 b</bibl>). Zur Ausstattung der Einrichtung vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_124">SSRQ ZH NF I/2/1, Nr. 124</ref></bibl>.</note></seg>
+<seg>Item welches soͤillich vorgemelt
+<lb/>gebett nu̍t verbringt und einem pf<lb break="no"/>leger fu̍r koͧmpt, so habend <orgName ref="org007943">schultheiß 
+ <lb/>und raͤtt</orgName> angesaͤchen, das sy ein pfleger
+<lb/>straͧffen sol mit dem win abbraͤchen,
+ <lb/>alß lang biß sich ein <orgName ref="org005587">raut</orgName> erkent, das
+  <lb/>es gnuͦg sig.</seg>
+<seg>Item es moͤchty ouch ein
+<lb/>kind alß frefenlich wider disse ordnung
+<lb/>reden oder tuͦn, der pflaͤger moͤcht
+  <lb/>im die pfruͦnd gar ab sch<supplied resp="bf" reason="omitted">l</supplied>aͧchen<!-- PS: Wohl Verschrieb für abschlagen? --> biß
+  <lb/>an gnaͧd einß <orgName ref="org007943">schultheissen und rautz</orgName>.</seg>
+<lb/><seg>Und ist die ordnung gemacht inn
+ <lb/>dem jar, do man zalt <origDate when="1482">1482</origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Das Leben im Spital war religiös geprägt. Der oftmals eingeschränkten Mobilität der Insassen wurde Rechnung getragen, indem in den Schlafsälen Altäre aufgestellt und in der angegliederten Kapelle Messen zelebriert wurden. Gebetszeiten strukturierten den Tagesablauf, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Auge 2007</ref>, S. 104-106, 116-118</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Mischlewski 1987</ref>, S. 162-165</bibl>. Für die seelsorgerische Betreuung der Insassen des <orgName ref="org007934"><placeName ref="loc000849">Winterthurer</placeName> Spitals</orgName> war ein eigener Kaplan zuständig, vgl. den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_032">SSRQ ZH NF I/2/1, Nr. 32</ref></bibl>.</p>
+<p>Diese Vorschrift ist in einer Aufzeichnung über die Ausstattung und Einkünfte des <orgName ref="org009236">Unteren Spitals</orgName> der Stadt <placeName ref="loc000849">Winterthur</placeName> enthalten, das vor allem Bedürftige aufnahm, die auf Unterstützung angewiesen waren, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_124">SSRQ ZH NF I/2/1, Nr. 124</ref></bibl>. 
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_222</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW AG 95/1/16, S. 4-5</idno></msIdentifier><head>Verurteilung der Adelheid Villand in Winterthur wegen Diebstahls </head><msContents><summary>Adelheid Villand hat in der Haft gestanden, der Tochter des Jakob Matzinger Garn aus der Wäsche gestohlen zu haben, das der Frau des Berthold Matzinger gehörte, im Zeitraum von 16 Jahren mehrmals Garn von der Bleiche entwendet und mehrere Stücke gesottenes Fleisch an sich genommen zu haben, als sie die Matzingerin pflegte. Beide Räte der Stadt Winterthur haben ihr auf Bitten auswärtiger und einheimischer Personen die Todesstrafe erlassen und sie zur Abschreckung dazu verurteilt, den Lästerstein um die Stadt zu ziehen. Sie soll ferner öffentlich bekennen, Jakob Matzingers Tochter Unrecht getan zu haben, und darf keine Bleiche mehr betreten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Abschrift, Heft (12 Blätter)</filiation><filiation type="original"><origDate when="1520-07-30"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1522-01-01" to="1537-12-31">Der Schreiber amtiert in diesem Zeitraum.</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000984">Amnestie</term><term ref="key000590">Delinquenz</term><term ref="key000291">Diebstahl</term><term ref="key000948">Schandstrafen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="4" facs="STAW_AG_95_1_16_S.4.jpg"/>
+<head><lb/><persName ref="per027888">Adelheitt Villandin</persName> vergicht, <lb/>actum <origDate when="1520-07-30">mentag vor <persName ref="per027887">Sixty</persName>, anno xx<hi rend="sup">o</hi></origDate></head>
+<p>
+<lb/>Alls <persName ref="per027888">Adelheit Villand</persName> in miner heren faͤngknus komen ist,
+<lb/>hat sy sich frig, ledig aller bandenn bekent, das sy des <persName ref="per027474">Jacob Ma<lb break="no"/>zingers</persName> tochter habe verstolenn <num value="2">ij</num> unnder band garn uß der
+<lb/>woͤsch, die <persName ref="per027473">Berchtolds Matzingers</persName> frowen gewesen sind.
+ </p>
+<p>
+<lb/>Item me hat sy sich bekennt, das sy by den <date dur="P16Y">xvj jaren</date> lang
+<lb/>ungevarlich <date dur="R/P1Y">alle jar</date> insonder verstolenn hab ab der bleike
+<lb/>den lütenn an der zilenten <num value="6">sechs</num> underband garns, ungev<lb break="no"/>arlich eins minder oder mer.
+ </p>
+<p>
+<lb/>Item me hat sy sich bekent, als sy der <persName ref="per027475">Matzingerin</persName> pflegenn,
+<lb/>hab sy <num value="6">vj</num> malenn alle mall iren verstollen etwan <num value="3">drüg</num>
+<lb/>oder <num value="4">viere</num> stuck fleisch, die gesotenn gewesenn und iren nit ge<lb break="no"/>ben sigent wordenn.
+ </p>
+<p>
+<lb/>Uff soͤlich ir begangen diebstall unnd ouch uff das grose
+<lb/>mergkliche bit, uff hüt von geistlichenn, weltlichenn, froͤ<lb break="no"/>mbdenn und anheimschenn für sy beschaͤchenn, ist sy irs
+<lb/>lebens gesichert und habenn sich daruff mine heren, <orgName ref="org007944">cleinn
+<lb/>und groß rat</orgName>, uff ir eid und er erkent, das die arm frouw
+<lb/>an soͤlichem begangenn diebstal unrecht getan und sy
+<lb/>daruff der nachrichter zuͦ sinenn handenn nemenn,
+<lb/>irenn den lastersteinn an ein seil hefftten und irenn
+<pb n="5" facs="STAW_AG_95_1_16_S.5.jpg
+"/>
+<lb/>soͤlich seil an irn arm binden und den selben lasterstein umb die
+<lb/>stat ziehenn soͤlle, darmit mengenn ein erschrecken darab enpfa<lb break="no"/>hint.<note>Zu der Ehrenstrafe des Steinetragens vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dülmen 1999</ref>, S. 74-75</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gut 1995</ref>, S. 211</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schwerhoff 1993</ref>, S. 167, 171</bibl>.</note> Witer habenn sich ouch mine heren erkent, das die arm frow
+<lb/><persName ref="per027474">Jacob Matzingers</persName> tochter offenlich der <num value="2">zweyen</num> underband garns
+<lb/>halb glich von stund an in fuͦßstapffen ein widerruff thuͦn soͤlle mit
+<lb/>denen wortenn: Sy habe iren unrecht gethan und wissi nützet
+<lb/>dan liebs und guͦts von irenn und sig ein frome frow. Deßglichen
+<lb/>habent ouch mine herenn sich erkent, das die arm frow zuͦ ew<lb break="no"/>igen ziten nit mer uff kein bleicke nit gan soͤlle, darmit bider<lb break="no"/>blüt irs argwans gen ir absigennt.
+ </p>
+</div>
+</body>
+<back>
+<div>
+<p>Das vorliegende Urteil ist in einer Sammlung von Urteilen und Geständnissen in Blutgerichtsfällen überliefert, die der <placeName ref="loc000849">Winterthurer</placeName> Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> zusammengestellt hat.</p>
+<p>Die öffentliche Zurschaustellung delinquenter Personen hatte erhebliche Folgen für die Betroffenen, ihr sozialer Status war gefährdet, ihnen drohte Ausgrenzung. Wer einen Ruf zu verlieren hatte und über finanzielle Mittel verfügte, bemühte sich um die Umwandlung der Ehrenstrafe in eine Geldbusse. Oft versuchte auch das soziale Umfeld eine Begnadigung zu erreichen, um nicht selbst diskreditiert zu werden, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dülmen 1999</ref>, S. 72-76</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schwerhoff 1993</ref>, S. 174-176, 180-183</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_091_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1158</idno></msIdentifier><head>Zustimmung Herzogin Eleonores von Österreich zur Verpfändung der Stadt Winterthur an Zürich</head><msContents><summary>Eleonore von Schottland, Herzogin von Österreich, die von Herzog Sigmund, ihrem Mann, die Stadt Winterthur als Wittum erhalten hatte, erteilt ihre Zustimmung zur Verpfändung Winterthurs an Bürgermeister und Rat von Zürich. Sie entbindet den Schultheissen, den Rat und die Gemeinde von den Eiden, die sie ihr geleistet haben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="18.5"/><width unit="cm" quantity="35.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="7.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Herzogin Eleonore von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1467-09-01"/><origPlace>Villingen</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000441">Pfand</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_1158_r.jpg"/>
+<p>
+<seg><lb/>Wir, <persName role="issuer" ref="per027766">Elienor, geborn von <placeName ref="loc008757">Schotten</placeName>, von gots gnaden hertzogin zuͦ <placeName ref="loc000589">Osterreich</placeName>, zuͦ <placeName ref="loc000759">Steir</placeName>, zuͦ <placeName ref="loc000454">Kernnden</placeName> und zuͦ <placeName ref="loc000220">Krain</placeName>,
+ <lb/>grevin zuͦ Tirol</persName>
+<abbr>etc</abbr>, bekennen:</seg>
+<seg>Als der hochgeborn fu̍rst, unnser lieber herr und gemahel hertzog <persName ref="per003136">Sigmund</persName>, hertzog und
+<lb/>grave der obgemelten lannde, die stat <placeName ref="loc000849">Winterthaur</placeName> mit allem irem zuͦgehörn, darauf wir dann verwidembt ge<lb break="no"/>wesen sein, den ersamen, weysen, unnsern lieben besundern <orgName ref="org002406">burgermaister und ratte zuͦ <placeName ref="loc000065">Zurich</placeName></orgName> in phanndsweys
+<lb/>ingeben hat nach laut der brief, deshalben darumb vorhannden, das daz mit unnserm guͦten willen und wissen be<lb break="no"/>scheen und zuͦganngen ist, verwilligen und gehelen auch darein wissentlich mit und in krafft des briefs also, daz wir,
+<lb/>unnser erben und nachkomen dawider nicht reden, hanndeln noch tuͦn noch des yemands annderm von unnsern wegen
+<lb/>gestatten noch verhenngen su̍llen, so auch die verschreybung, die unnser lieber herre und gemahl den von <placeName ref="loc000065">Zurich</placeName>
+<lb/>und die von <placeName ref="loc000065">Zurich</placeName> herwiderumb seiner lieb geben söllen, aufgericht, geferttiget und yedem tail zuͦ seinen sichern handen
+<lb/>geantwu̍rdt worden sind.</seg>
+<seg>Alsdann sagen wir die erbern, weysen, unnser getrew lieb <orgName ref="org007943">schultheyss, reͣt und gemain der
+<lb/>stat <placeName ref="loc000849">Winterthaur</placeName></orgName>, ir erben und nachkomen irer ayd, gelubd, phlicht und verschreybung, damit sy unns verwandt
+<lb/>gewesen sind, ledig und los, getrewlich und ungeverlich.</seg>
+<seg>Mit urkund des briefs, geben zuͦ <origPlace ref="loc007443">Villingen</origPlace>, an <origDate when="1467-09-01">eritag,
+<lb/>sant <persName ref="per000474">Verenen</persName> tag, nach Cristi geburde viertzehenhundert und in dem sibenundsechtzigisten jaren</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/><choice><abbr>D</abbr><expan>Domina</expan></choice>
+<choice><abbr>d</abbr><expan>ducissa</expan></choice> per se ipsam</ab>
+</div>
+<pb n="v" facs="STAW_URK_1158_v.jpg
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>Herzogin <persName ref="per027766">Eleonore</persName> einwilligungsbrieff <lb/>wegen verpfändung der statt <placeName ref="loc000849">Winterthur</placeName>
+<lb/>an <placeName ref="loc000065">Zürich</placeName>, darauf sie verwidmet gewesen, <lb/>und loßsagung des eids und pflichten gegen ihro, <lb/>anno <date when="1467">1467</date>.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><lb/><date when="1467-09-01">1 September 1467</date></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Herzog <persName ref="per003136">Sigmund von Österreich</persName> hatte seiner Frau <persName ref="per027766">Eleonore von Schottland</persName> am 22. November 1457 die Herrschaft <placeName ref="loc000012">Kyburg</placeName> sowie Städte und Herrschaften im <placeName ref="loc000777">Thurgau</placeName> verschrieben, darunter auch <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Thommen, Urkunden</ref>, Bd. 4, Nr. 209</bibl>). Die Herzogin bestätigte am 23. August 1458 die Freiheiten der Stadt (<bibl>STAW URK 998</bibl>). Aus diesem Grund erklärte sie ihr Einverständnis zu der Verpfändung <placeName ref="loc000849">Winterthurs</placeName> an <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_090">SSRQ ZH NF I/2/1, Nr. 90</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

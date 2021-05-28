@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_104</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2477324">StAZH C II 13, Nr. 591</idno></msIdentifier><head>Versteigerung der Werdmühle in Winterthur auf Antrag des Amtmanns des Klosters Töss</head><msContents><summary>Schultheiss und Rat von Winterthur beurkunden auf Antrag des Amtmanns des Klosters Töss Konrad Schmid, dass bei der von ihm im Namen der Priorin und des Konvents veranlassten Versteigerung der Werdmühle Aberli Bosshart das höchste Gebot abgegeben habe und die Versteigerung verfahrensgemäss durchgeführt worden sei. Sie bestätigen das Verfügungsrecht des Konvents über die Mühle. Der Grundzins und das Mühlenrecht bleiben von der Versteigerung unberührt. Der Schultheiss siegelt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Georg Bappus</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.0"/><width unit="cm" quantity="35.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Schultheiss Josua Hettlinger</persName></seal></sealDesc></physDesc><history><origin><origDate when="1475-05-08"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000047">Mühlen</term><term ref="key000412">Versteigerung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="StAZH_C_II_13__Nr__591__r_.tif"/>
+<p>
+<seg><lb/>Wir, der <orgName role="issuer" ref="org007943">schultheis und der rǎtt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, tuͦnd kundt allermengklichem mit disem brieve, das fu̍r uns
+<lb/>kǒmen ist der wolbescheiden <persName ref="per027602">Conrat Schmid</persName>, amman zuͦ <placeName ref="loc000980">Toͤss</placeName>, offembart vor uns, als er dann innamen und von
+ <lb/>wegen der erwirdigen geistlichen frǒwen, <orgName ref="org002665">priorin und convent des gotzhus ze <placeName ref="loc000980">Toͤss</placeName></orgName>, uff unnser gannt zuͦ <placeName ref="loc000849">Winter<lb break="no"/>thur</placeName> gericht hab die <placeName ref="loc013502">Werdmu̍li</placeName> mitt aller zuͦgehoͤrdt, also hab im nǔn <persName ref="per027173">Aberlin Boßhartt</persName> daruff gebotten uff offner
+<lb/>ganntt <measure type="volume" unit="Mütt" commodity="spelt" origin="Winterthur" quantity="12">zwoͤlff mu̍tt kernens Winterthur meß</measure>. Sige auch damit der groͤst an dem gebott gewesen und die gannt damit vol<lb break="no"/>ganngen. Und bat im an einer urteil ze erfaren, wie die fu̍rbas zuͦ den genannten sinen gnedigen frǒwen hannden
+ <lb/>kaͤme, daran si habend weren.</seg>
+<seg>Da haben wir uns erkenntt, wenn unnser statknecht, der den ruͤff gethǒn habe,
+ <lb/>darumb sag by sinem eid, das die vorgenannt mu̍lin also uff unnser gannt kǒmen, nǎch ganntrecht geruͤffet
+<lb/>worden und das der genanntt <persName ref="per027173">Aberli Boßhartt</persName> der groͤst an dem gebott gewesen sig, das si dann billich daby
+<lb/>bliben soͤllen. Und nǎch soͤllicher unnser erkanntnuͤß da saͤitt auch vor uns <persName ref="per027781">Hanns Ulmer</persName>, unnser statt ge<lb break="no"/>schworner knecht, by sinem eid, das er die vorgenannte <placeName ref="loc013502">Werdmu̍li</placeName> geruͤfft hab <date dur="P3D">drey tag</date> uff offner ganntt
+<lb/>nǎch ganndt rechtt, dem gruntzinß und mu̍lrechten ǒn schaden, und das der obgemelt <persName ref="per027173">Aberli Boßhartt</persName> dem vor<lb break="no"/>beruͤrten <persName ref="per027602">Cuͤnraten Schmid</persName> als von wegen der genanten frǒwen, <orgName ref="org002665">priorin und convent ze <placeName ref="loc000980">Toͤss</placeName></orgName>, daruff gebotten
+<lb/>hab <measure type="volume" unit="Mütt" commodity="spelt" quantity="12">zwoͤlff mu̍tt kernens obberuͤrtes meß</measure>. Sige auch damit der groͤst an dem gebott gewesen und die
+ <lb/>ganndt damit vollganngen.</seg>
+<seg>Daruff wir uns nun fu̍rrer erkennt hannd, dem selben <persName ref="per027602">Cuͤnraten Schmid</persName>
+<lb/>nǎch siner bitt innamen der dickgenannten frǒwen des brief und urku̍ndt ze geben, und das in auch also
+<lb/>die obgenannt <placeName ref="loc013502">Werdmuli</placeName> mit aller zuͦgehoͤrdt bliben und si und ir nǎchkǒmen damit tuͦn soͤllen und muͤgenn,
+<lb/>was si woͤllen als mit annderem irem guͦtt, dem gruntzinß und mu̍lrechten ǒne schaden, ǒne geverde.</seg>
+<seg>Und
+<lb/>des zuͦ urku̍ndtt hab ich, <persName role="sigillant" ref="per027413">Josuwe Hettlinger</persName>, schultheis, min insigel, so ich bruch von gerichtz wegen, nǎch
+<lb/>erkanntnu̍ß eins <orgName ref="org005587">rǎtz</orgName> offenlich gehennckt an disen brief, der geben ist an <origDate when="1475-05-08">mentag nǎch unnserm lieben
+ <lb/>herren uffarttag, nǎch siner heiligen gepurt gezalt vierzehenhundert sibentzig und im fu̍nfften jare</origDate>.<note>Die Versteigerung ist im Ratsbuch vermerkt (<bibl>STAW B 2/3, S. 268</bibl>).</note></seg>
+</p>
+</div>
+<pb n="v" facs="StAZH_C_II_13__Nr__591__v_.tif
+"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand15c"><lb/><orgName ref="org002665">Frǒwen zuͦ <placeName ref="loc000980">Toͤss</placeName></orgName></ab><!-- derselbe Schreiber -->
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Gant brief</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Disser brief <sic>siet</sic> von der mu̍lli, <lb/>wie <add place="above">si</add> gantet ist.</ab>
+</div>
+</body>
+<back>
+<div>
+<p>Öffentliche Versteigerungen fanden regelmässig statt, doch sind ihre Beurkundungen, die sogenannten Gantbriefe, selten überliefert. Erhalten sind in der Regel Entwürfe der städtischen Kanzlei oder Ausfertigungen im Besitz von Institutionen, deren Archive noch vorhanden sind. Anhand der wenigen Dokumente lässt sich die Entwicklung des Gantverfahrens in <placeName ref="loc000849">Winterthur</placeName> nicht lückenlos nachvollziehen. Der Ablauf der Versteigerung, der in der vorliegenden Urkunde beschrieben wird, entspricht der Satzung über das Betreibungsverfahren aus dem Jahr 1531. Demnach wurde dem Gläubiger nach dreimaliger Ladung des Schuldners und nach Ablauf einer Frist von sechs Wochen und drei Tagen per Urteil das Verfügungsrecht über das versteigerte Objekt zuerkannt. War der Erlös höher als die Schuldforderung, erhielt der Schuldner die Differenz erstattet, war der Erlös geringer, standen dem Gläubiger weitere Pfänder zu (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_261">SSRQ ZH NF I/2/1, Nr. 261</ref></bibl>). Die Veräusserung des Objekts vor Gericht erfolgte in einem weiteren Schritt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_022">SSRQ ZH NF I/2/1, Nr. 22</ref></bibl>. Eine Urkunde des <orgName ref="org007943">Schultheissen und Rats von <placeName ref="loc000849">Winterthur</placeName></orgName> aus dem Jahr 1418 dokumentiert, wie der Meistbietende auf Antrag in den Besitz des versteigerten Objekts gesetzt wurde (<bibl>STAW URK 537</bibl>).</p>
+<p>Die Werdmühle in <placeName ref="loc000849">Winterthur</placeName> war ein Erblehen des <orgName ref="org002665">Klosters <placeName ref="loc000980">Töss</placeName></orgName>, vgl. beispielsweise <bibl>StAZH C II 13, Nr. 149</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 6, Nr. 2394</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=274125">StAZH C II 13, Nr. 249</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1, Nr. 586</bibl>. 1458 betrug der jährliche Zins 18 Mütt Kernen und 1 Pfund Haller (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=480958">StAZH C II 13, Nr. 523</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10296</bibl>). Vermutlich veranlasste das Kloster die Versteigerung der Mühle wegen ausstehender Zinszahlungen. Über den weiteren Verlauf des Gantverfahrens ist nichts bekannt. Im Februar 1476 verkaufte das Kloster die Mühle für 300 Pfund Haller an den <placeName ref="loc000849">Winterthurer</placeName> Bürger <persName ref="per027613">Hans Sirnacher</persName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4293593">StAZH C II 13, Nr. 592</ref></bibl>). Zu den Mühlen in <placeName ref="loc000849">Winterthur</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1960</ref>, S. 340-342</bibl>.
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

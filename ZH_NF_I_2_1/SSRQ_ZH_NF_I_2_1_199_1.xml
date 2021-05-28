@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_199_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 1884</idno></msIdentifier><head>Bevollmächtigung der an Zürich verpfändeten Stadt Winterthur zur Pfandlösung durch König Maximilian</head><msContents><summary>König Maximilian erklärt, die Stadt Winterthur, die durch die Herzöge von Österreich um 10000 Gulden an Bürgermeister und Rat der Stadt Zürich verpfändet worden war, nicht ohne ihr Wissen dem Haus Österreich entfremden zu wollen. Er räumt dem Schultheissen, dem Rat und der Gemeinde das Recht ein, die Pfandschaft um diese Summe auszulösen und sich dem Schutz einer anderen Obrigkeit zu unterstellen. Er behält sich und seinen Erben das Auslösungsrecht vor. Der Aussteller siegelt.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="41.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="8.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">König Maximilian</persName></seal></sealDesc></physDesc><history><origin><origDate when="1505-03-09"/><origPlace>Konstanz</origPlace></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000390">Loskauf</term><term ref="key000441">Pfand</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_1884_r.jpg"/>
+<p>
+<lb/><seg>Wir, <persName role="issuer" ref="per000812">Maximilian</persName>, von gots gnaden <placeName ref="loc000076">Römischer</placeName> kunig, zuͦ allen zeitten merer des <orgName ref="org004134">reichs</orgName>, zuͦ <placeName ref="loc000798">Hungern</placeName>, <placeName ref="loc000226">Dalmatien</placeName>,
+<lb/><placeName ref="loc000223">Croatien</placeName>
+<abbr>etc</abbr> kunig, ertzhertzog zuͦ <placeName ref="loc000589">Österreich</placeName>, hertzog zuͦ <placeName ref="loc005628">Burgundi</placeName>, zuͦ <placeName ref="loc013069">Brabannt</placeName> und phalltzgraf <abbr>etc</abbr>, bekennen
+<lb/>offennlich mit disem brief fur unns, unser erben und nachkomen und thun kunt allermenigklich:</seg>
+<seg>Alls
+<lb/>unnser vordern, <orgName ref="org000088">fursten zuͦ Österreich</orgName>, unser und unsers <orgName ref="org000088">hauss Osterreich</orgName> statt <placeName ref="loc000849">Winterthawr</placeName>
+<choice><sic>unnsern
+<lb/>unsern</sic><corr>unsern</corr></choice> und des <supplied reason="omitted" resp="bf"><orgName ref="org004134">reichs</orgName></supplied>lieben getreuen, <orgName ref="org002406">burgermaister und rat der stat <placeName ref="loc000065">Zurch</placeName></orgName>, umb <measure type="currency" unit="fl" quantity="10000">zehen tausent guldin</measure> auff
+<lb/>widerlosung versetzt und verpfenndt, das wir demnach umb der annemen, getreuen, nutzlichen dienste,
+ <lb/>die uns und unnserm <orgName ref="org000088">hauss Österreich</orgName> unser getrew, lieb <orgName ref="org007943">schulthaiss, rat und gemaind daselbst zuͦ <placeName ref="loc000849">Winter<lb break="no"/>thawr</placeName></orgName> und ir vorfaren in manigfeltig weiss oft willigklich getan und erzaigt haben und sy hinfuro in kunftig zeit
+<lb/>wol thun mogen und sollen, denselben von <placeName ref="loc000849">Winterthawr</placeName> und iren nachkomen dise besonder gnad und freyhait
+<lb/>getan und gegeben haben, tuͦnd geben inen die als regierender herr und lanndsfurst zuͦ <placeName ref="loc000589">Österreich</placeName> aus aigner
+<lb/>bewegnus und rechter wissen in craft diss briefs also, das wir die gemelt unser statt <placeName ref="loc000849">Wintherthawr</placeName> bey
+<lb/>uns und unserm <orgName ref="org000088">hauss Österreich</orgName> ewigklichen behalten und die niemands anderm zuaignen noch die
+<lb/>davon verendern söllen noch wellen, es beschehe dann mit derselben von <placeName ref="loc000849">Winterthawr</placeName> guͦttem wissen
+<lb/>und willen, das ouch die gemelten <orgName ref="org007943">schulthais, rat und gemaind zuͦ <placeName ref="loc000849">Winterthawr</placeName></orgName>, wann inen das gefelt,
+<lb/>von den gemelten von <placeName ref="loc000065">Zurch</placeName> umb den obberurten pfandtschilling <measure type="currency" unit="fl" quantity="10000">zehen tausent guldin</measure> an unser alls
+<lb/><orgName ref="org000088">ertzhertzogen zuͦ Osterreich</orgName> statt fur sich selbst lösen und all rennt, nutz und gult mit aller oberkhait, herlich<lb break="no"/>hait, gerechtigkait und zugehörd pfandtweiss innhaben, nutzen und niessen alles, solang bis wir, unser erben
+ <lb/>und nachkomen dieselb statt um den obgemelten phantschilling von inen widerumb gelöst, des sy unns
+<lb/>auch zuͦ ainer yeden zeitt auf unser ervordern zuͦgestatten schuldig sein. Und wann sy sich selbst also gelöst haben,
+<lb/>das sy alsdann zuͦ irer auffenthaltung, schutz und schirm, es sey in pfands oder pundtweys bey annder oberkait,
+<lb/>an welhen enden inen das fuglich ist, suͦchen und die annemen sollen und mögen, von allermenigklich unver<lb break="no"/>hindert, doch uns, unsern erben und unserm hauss, <orgName ref="org000088">hawss Österreich</orgName>, die losung um den berurten pfandtschilling
+<lb/><measure type="currency" unit="fl" quantity="10000">zehen tausent guldin</measure> allezeit, wie vorsteet, vorbehalten, auch uns sust an unsern oberkaiten, rechten unnd ge<lb break="no"/>rechtigkaiten unvergriffenlich und unschedlich.</seg>
+<seg>Mit urkhund diss briefs, besigelt mit unserm kunigklichen
+<lb/>anhangenden innsigel, geben zuͦ <origPlace ref="loc000008">Costenntz</origPlace>, <origDate when="1505-03-09">am neundten tag des monats marcy<note>In der Abschrift im Kopialbuch, das 1629 von <persName ref="per026914">Hans Konrad Künzli</persName> angelegt wurde, irrtümlich <orig>meyen</orig> (<bibl>winbib Ms. Fol. 49, S. 61</bibl>).</note>, nach Cristi geburt funff<lb break="no"/>zehenhundert und im funften, unnserer reiche des <placeName ref="loc000076">Römischen</placeName> im zwaintzigisten und des <placeName ref="loc000798">Hungerischen</placeName> im
+<lb/>funffzehenden jaren</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="sub plica"><lb/>Per regem <lb/><choice><abbr>p s</abbr><expan>pro se</expan></choice><!-- Moser 1977, S. 24, hat "pro se", so auch VE in LABW,auch Tennant, Habsburg chancery, S. 275, Anm. 222, argumentiert hier für "pro" statt "per" - neue RI Ausgaben der Regesten Maximilians haben teils "per se", teils "pro se" --></ab></div>
+<div><ab type="chancery notation" place="plica"><lb/>Commissio domini <lb/>regis propria <lb/><persName ref="per027856">Serntein</persName><note>Zur Karriere Zyprians von Serntein in der Kanzlei <persName ref="per000812">Maximilians</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wiesflecker 1971-1986</ref>, Bd. 5, S. 237-240</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Moser 1977</ref>, S. 33-34</bibl>.</note><!-- Moser transkribiert die Schnörkel nicht als "vidit", sondern fasst das Ganze als Unterschrift auf, so auch VE in LABW --></ab>
+</div>
+<pb n="v" facs="STAW_URK_1884_v.jpg"/>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/>König <persName ref="per000812">Maximiliani</persName> freyheits brieff, <lb/>daß die statt <placeName ref="loc000849">Winterthur</placeName> sich um 10tausend <lb/>gulden von der statt <placeName ref="loc000065">Zürich</placeName> wiederlösen <lb/>möge <abbr>etc</abbr>, anno <date when="1505">1505</date></ab></div>
+<div><ab type="dorsal" place="verso"><damage agent="faded ink"><gap unit="line" quantity="2"/></damage></ab></div>
+<div><ab type="dorsal" place="verso" hand="hand18c"><lb/><choice><abbr>N</abbr><expan>Nota bene</expan></choice>, das Siegel ligt zwahren darin, ist aber <lb/>abgeschnitten worden.</ab></div>
+<div><ab type="dorsal" place="verso" hand="hand19c?"><lb/><placeName ref="loc000849">Winterthur</placeName></ab><!-- ganz aussen am Rand - steht der Schriftzug auch auf anderen Urkunden? -->
+</div>
+</body>
+<back>
+<div>
+<p><persName ref="per003136">Herzog Sigmund von Österreich</persName> hatte die Stadt <placeName ref="loc000849">Winterthur</placeName> im Jahr 1467 unter Vorbehalt des Auslösungsrechts an <placeName ref="loc000065">Zürich</placeName> verpfändet (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_090">SSRQ ZH NF I/2/1, Nr. 90</ref></bibl>). Ohne Wissen der <placeName ref="loc000065">Zürcher</placeName> Obrigkeit liessen sich die <orgName ref="org007943">Winterthurer</orgName> von König <persName ref="per000812">Maximilian I.</persName> im Jahr 1487 (<bibl>STAW URK 1616</bibl>) und Kaiser <persName ref="per004674">Karl V.</persName> 1541 (<bibl>STAW URK 2354</bibl>) und 1544 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>) die von ihren Vorgängern gewährten Privilegien bestätigen und das Recht verbriefen, sich selbst von den <orgName ref="org002406">Zürchern</orgName> freizukaufen. Diese erfuhren erst 1549 von dem eigenmächtigen Vorgehen der <orgName ref="org007943">Winterthurer</orgName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_298">SSRQ ZH NF I/2/1, Nr. 298</ref></bibl>). Die vorliegende Pfandlösungserlaubnis wurde durch Abschneiden des Siegels, das Privileg <persName ref="per004674">Karls V.</persName> von 1544 durch Kanzellierungsschnitte ausser Kraft gesetzt. Zu den Vorgängen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996a</ref>, S. 163-164, 170</bibl>.</p>
+<p>Die nach rechts gekrümmten Häkchen über den Buchstaben <q>u</q>, <q>v</q> und <q>w</q> werden als Distinktionszeichen gelesen, ein ähnlich aussehendes Zeichen über dem Buchstaben <q>o</q> wird mit <q>ö</q> wiedergegeben.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

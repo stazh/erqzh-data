@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_050</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/1, fol. 58r (Eintrag 3)</idno></msIdentifier><head>Beschränkung der Zahl der Gäste und der Geschenke bei Taufen in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur beschliessen, die Anzahl der Gäste bei der kirchlichen Taufe zu beschränken auf die Frau, die das Kind aus der Taufe hebt, und zwei Begleiterinnen. Überzählige Gäste sollen mindestens 1 alten Plappart geben. Die Taufpaten dürfen den Täuflingen höchstens 2 Schilling Haller schenken. Vor der Mittagszeit soll man nicht tafeln. Wenn ein Kind stirbt, sollen nur die Eltern mit jeweils drei Personen als Begleitung zum Opfer in die Kirche gehen. Wer darüber hinaus mitgeht, soll mindestens 1 Plappart geben. Wer diese Bestimmungen übertritt, soll 1 Pfund Haller Busse zahlen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1417-08-12"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003038">Bestattung</term><term ref="key000184">Bussen</term><term ref="key003401">Geschenke</term><term ref="key003408">Taufe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="58r"/>
+<p>
+<lb/><seg>Item ein <orgName ref="org007943">schultheis und raͧt</orgName> sint u̍berkomen und haͤnt oͧch gesetzt, jetz und her
+ <lb/>naͧch da by ze beliben, also, wer der ist, er sye rich ald arm, dem kind in u̍nser
+ <lb/>statt werdent, dem sont nit me zuͦ dem altaͧr naͧchgaͧn, alz man kind zuͦ treyt,
+ <lb/>denn die frow, so daz kind uss toͤff gehebt haͧt, und zwo frowen mit ir, die sy darzuͦ
+<lb/>nimpt. Waͤr aber, daz jemant me gienge, der sol geben <measure type="currency" unit="plp" quantity="1">einen alten plaphartt</measure>
+<lb/>und nit minder. Und sol oͧch enweder <add place="above">die</add> gott noch der goͤtti dem kind nit me in
+ <lb/>binden<!-- Patengeschenk --> denn jeklichs <measure type="currency" unit="ß" quantity="2">zwein schilling haller</measure><note>Der zulässige Wert von Patengeschenken wurde 1506 auf 3 Schilling erhöht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_204">SSRQ ZH NF I/2/1, Nr. 204</ref></bibl>).</note> und nicht dar ob. Es sol oͧch nie
+ <lb/>man kein westerlegy<note>Gemäss <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/p/lem/209619">Bd. 3, Sp. 1200-1201</ref></bibl>, vermutlich <quote>Taufschmaus</quote>.</note> nit geben. Es sol oͧch nieman des kinds vatter noch dem,
+ <lb/>so daz kind gehebt haͤt, nit schenken noch zuͦ deheiner schenki nit gaͧn denn
+ <lb/><time notBefore="12:00:00">naͧch mittem tag</time> und vor nit.</seg>
+<seg>Sy haͤnt oͧch mit namen gesetzt, welhem
+ <lb/>ein kind stirbt, daz da nieman zuͦ opffer gaͧn sol zuͦ dem altaͧr denn vatter
+<lb/>und muͦter, jeklichs mit <num value="3">dry</num> personen und nit me. Woͤlti aber jemant
+ <lb/>fu̍ro ald me gaͧn, der sol geben <measure type="currency" unit="plp" quantity="1">einen plaphart</measure> und nit dar onder.</seg>
+<seg>Waͤr
+  <lb/>aber, daz diser stukken jemant deheins u̍berfuͤr und nit hielt <add place="above">und</add> wider dis ge<lb break="no"/>bott also taͤt, der ist verfallen der statt ze geben <measure type="currency" unit="lb" quantity="1">ein pfund haller</measure>, aͧn alle
+  <lb/>gnad und mindrung.</seg><!-- Zsh. zwischen Taufe und Beerdigung von Kindern: Sind vielleicht Kinder gemeint, die vor der Taufe gestorben sind, und soll man dazu etwas sagen? PS: Das habe ich mich auch gefragt, aber es ist nicht explizit, daher weglassen. -->
+<seg>Actum <origDate when="1417-08-12">quinta post <persName ref="per000268"><choice><abbr>Laͤr</abbr><expan>Laͤrenczi</expan></choice></persName><note>Auflösung der Abkürzung nach der Schreibweise des Namens bei einem späteren Eintrag (<bibl>STAW B 2/1, fol. 67v</bibl>).</note>, anno <abbr>etc</abbr> xvij<hi rend="sup">o</hi></origDate>
+<abbr>etc</abbr>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Regelmässig wurden in den Städten Verordnungen mit dem Ziel erlassen, den Aufwand bei Tauffeiern oder Hochzeiten zu reduzieren. Die Zahl der Gäste oder der Wert der Geschenke wurde beschränkt und Feste unterbunden, vgl. für <placeName ref="loc000065">Zürich</placeName>
+<bibl><ref target="/startseite/literaturverzeichnis">Spillmann-Weber 1997</ref>, S. 147-149</bibl>. Der <orgName ref="org007943"><placeName ref="loc000849">Winterthurer</placeName> Rat</orgName> untersagte 1487, dass Paten einander auf den Trinkstuben zum Essen einluden (<bibl>STAW B 2/5, S. 263</bibl>), nur dem Vater sollte dies erlaubt sein (<bibl>STAW B 2/5, S. 379</bibl>; Teiledition: <bibl><ref target="/startseite/literaturverzeichnis">Schmid 1934</ref>, Anhang Nr. 3, S. 70</bibl>, zu 1489). Wer die Mutter im Kindbett besuchte, durfte allenfalls Geschenke im Wert von 4 Schilling mitbringen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_204">SSRQ ZH NF I/2/1, Nr. 204</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

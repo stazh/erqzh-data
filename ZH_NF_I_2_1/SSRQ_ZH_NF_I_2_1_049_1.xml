@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_049_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 521</idno></msIdentifier><head>Bestätigung der Unveräusserlichkeit der Stadt Winterthur nach der Huldigung durch König Sigmund</head><msContents><summary>König Sigmund, der die Länder, Leute, Herrschaften, Städte, Dörfer und Burgen Herzog Friedrichs von Österreich konfisziert hat, weil dieser durch die Papst Johannes XXIII. geleistete Fluchthilfe gegen die Kirche, das Konzil von Konstanz sowie König und Reich handelte, versichert nach der Huldigung durch den Schultheissen, den Rat und die Bürger von Winterthur, die Stadt nicht verpfänden oder auf andere Weise dem Reich entfremden zu wollen und sie wie andere Reichsstädte zu behandeln und zu schützen. Der Aussteller siegelt mit dem Majestätssiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.0"/><width unit="cm" quantity="37.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a cord" nontei:condition="well-preserved"><persName role="sigillant">König Sigmund</persName></seal></sealDesc></physDesc><history><origin><origDate when="1417-03-27"/><origPlace>Konstanz</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>RI XI/1, Nr. 2153</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000215">Huldigung</term><term ref="key005295">Privilegien</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_521_r.jpg"/>
+<p>
+<lb/><seg>Wir, <persName role="issuer" ref="per000712">Sigmund</persName>, von gotes gnaden <placeName ref="loc000672">Romischer</placeName> kung, zu allenczijten merer des <orgName ref="org004134">richs</orgName> und zu <placeName ref="loc000798">Ungern</placeName>, <placeName ref="loc000226">Dalmacien</placeName>, <placeName ref="loc000223">Croacien</placeName>
+<lb/><abbr>etc</abbr> kung, bekennen und tun kunt offenbar mit disem brief allen den, die in sehen oder hoͤren lesen:</seg>
+<seg>Wann wir alle und igliche
+ <lb/>lande, lute, herschefte, slosse, stete, dorffere und anders, das herczog <persName ref="per000346">Fridrich von Oͤsterrich</persName> inngehebt hat, durch siner grossen,
+ <lb/>sweren und frevenlichen missetate willen, die er mit hinweg helffen ettwann babst <persName ref="per003810">Johansen</persName> wider die heilig kirch, das
+ <lb/>heilig <orgName ref="org009294">concilium</orgName> zu <placeName ref="loc000008">Costentz</placeName>, uns und das <orgName ref="org004134">riche</orgName> und maniche andere des <orgName ref="org004134">richs</orgName> undertanen, geistlich und werntlich, frowen
+ <lb/>und mannen, on alles rehte und gelimpf getan und begangen hat, an uns und das <orgName ref="org004134">riche</orgName> geruͤffen, braht und genomen haben,
+ <lb/>und wann ouch die <choice><abbr>vorgen</abbr><expan>vorgenanten</expan></choice> lande, lute, herschefte, slosse, stete, doͤrffere und anders von desselben <persName ref="per000346">Fridrichs</persName> gelubd, eyde, briefe
+<lb/>und insigel wegen, damit er sich gegen uns verbunden und verschriben hat und das frevenlich und offenlich gebrochen hat,
+ <lb/>an uns und das <orgName ref="org004134">riche</orgName> rehte und redlich gefallen und kommen sind, als dann das sin briefe, uns doruͤber gegeben, clerlichen
+ <lb/>beczuget, und wann uns die <orgName ref="org007943">schultheisse, rete und burgere der stat zu <placeName ref="loc000849">Winterthur</placeName></orgName> willige, gehorsame huldung und
+ <lb/>eyde doruff getan und ouch sidher uns und dem <orgName ref="org004134">riche</orgName> so getrulich und williclich gedienet haben, das sy des billich geniessen,
+<lb/>darumb mit wolbedachtem mute, gutem rate und rechter wissen haben wir in und iren nachkommen, burgern und der stat
+ <lb/><placeName ref="loc000849">Winthertur</placeName> fuͤr uns und unser nachkommen, <placeName ref="loc000672">Romisch</placeName> keyser und kung, dise besundre gnade getan und tun in die in craft
+ <lb/>diß briefs und <placeName ref="loc000672">Romischer</placeName> kunglicher maht volkommenheit, das wir und die <choice><abbr>iczgen</abbr><expan>iczgenanten</expan></choice> unser nachkommen dieselben burgere und
+ <lb/>stat <placeName ref="loc000849">Winterthur</placeName> furbassmere von uns und dem <orgName ref="org004134">riche</orgName> nit verseczen, vergeben oder empfroͤmden sollen noch wollen, in keinwis,
+ <lb/>sunder sy by uns und dem <orgName ref="org004134">riche</orgName> zu ewigen czijten behalden und beliben lassen und als andere des <orgName ref="org004134">richs</orgName> stete gnediclich
+ <lb/>hanthaben, schuͤczen und schirmen sollen und wollen, als wir beste mogen.</seg>
+<seg>Mit urkund diß briefs, versigelt mit unser kung<lb break="no"/>licher majestat insigel, geben zu <origPlace ref="loc000008">Costencz</origPlace>, <origDate when="1417-03-27">nach Crists geburt vierczehenhundert jare und dornach in dem sibenczehen<lb break="no"/>den jar, des nechsten sampztags nach unser frowentag annuncciacionis, unser richte des <placeName ref="loc000798">Ungrischen</placeName>
+<abbr>etc</abbr> in dem drissigsten
+ <lb/>und des <placeName ref="loc000672">Roͤmischen</placeName> in dem sibenden jaren</origDate>.</seg>
+</p>
+</div>
+<div>
+<ab type="chancery notation" place="right plica"><lb/>Per <choice><abbr>d</abbr><expan>dominum</expan></choice>
+<persName ref="per027607"><choice><abbr>G</abbr><expan>Guntherum</expan></choice> comitem de Swarczburg</persName>, <lb/>iudicem curie,<note>Zur Karriere des königlichen Hofrichters Graf <persName ref="per027607">Günther von Schwarzburg</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Battenberg 2002</ref>, S. 258, 261-262 mit Anm. 106 und 107</bibl>.</note>
+<persName ref="per004660">Johannes Kirchen</persName><note>Zu <persName ref="per004660">Johannes Kirchen</persName>, Schreiber der Kanzlei König <persName ref="per000712">Sigmunds</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Battenberg 1974</ref>, S. 130-148, 261-266</bibl>.</note></ab>
+</div>
+<pb n="v" facs="STAW_URK_521_v.jpg
+"/>
+<div>
+<ab type="archiving reference" place="verso"><lb/><choice><abbr>R</abbr><expan>Registrata</expan></choice></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand16c"><lb/>Fr<damage agent="faded ink"><supplied resp="BF">y</supplied></damage>heit <choice><abbr>br</abbr><expan>brief</expan></choice>, wie statt <placeName ref="loc000849">Winter<supplied resp="BF">thur</supplied></placeName>
+<lb/>an dem <damage agent="faded ink"><supplied resp="BF"><orgName ref="org004134">rich</orgName></supplied></damage> gwesen ist.</ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>König <persName ref="per000712">Sigmunds</persName> brieff, <lb/>die statt <placeName ref="loc000849">Winterthur</placeName> bey dem <lb/><orgName ref="org004134">reich</orgName> zu behalten und als an<lb break="no"/>dere reichs stätte zu schützen <lb/>und zu schirmen, anno <date when="1417">1417</date>
+<add place="inline" hand="hand19c"><date when="1417-03-27">27 März</date></add></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Die <orgName ref="org005587">Winterthurer</orgName> hatten 1415 König <persName ref="per000712">Sigmund</persName> als Stadtherrn gehuldigt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_047">SSRQ ZH NF I/2/1, Nr. 47</ref></bibl>). Seither stand die Stadt unter seiner Verfügungsgewalt und hätte wie andere Reichsstädte verpfändet werden können. Zur Rolle der Reichsstädte als Pfandobjekte vgl. <bibl><ref target="/startseite/literaturverzeichnis">Isenmann 2012</ref>, S. 299-300</bibl>. Die vorliegende Zusicherung des Königs, <placeName ref="loc000849">Winterthur</placeName> nicht veräussern zu wollen, war von grosser Bedeutung für den Ausbau der städtischen Selbstverwaltung, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2018b</ref>, S. 74-79</bibl>. Nach <placeName ref="loc000849">Winterthurs</placeName> Rückkehr unter <orgName ref="org000088">habsburgische</orgName> Stadtherrschaft mussten die <orgName ref="org000088">Herzöge von Österreich</orgName> die in den vergangenen Jahren erlangten Rechte anerkennen, ebenso die <orgName ref="org002406">Zürcher</orgName>, an welche die Stadt 1467 verpfändet wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_092">SSRQ ZH NF I/2/1, Nr. 92</ref></bibl>). 
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_275</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 2305/8, S. 16</idno></msIdentifier><head>Verfahren gegen Hans Hämler, Kaplan in Luzern, wegen Herabwürdigung des reformierten Glaubens in Winterthur</head><msContents><summary>Hans Hämler von Pfullendorf, derzeit Kaplan in Luzern, war inhaftiert worden, da er den Winterthurern vorgeworfen hatte, einem falschen, ketzerischen Glauben anzuhängen, seine Äusserungen aber nicht durch die Heilige Schrift belegen konnte. Da er um Gnade gebeten hat, beschliessen der Grosse und der Kleine Rat, dass Hämler vor dem Rathaus seine Worte, der Glaube der Zürcher und Winterthurer sei falsch und ketzerisch, widerrufen, sich für zwei Stunden in das Halseisen stellen und anschliessend Urfehde schwören müsse.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung, Heft (8 Blätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1536-09-11"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key000285">Ehrverletzung</term><term ref="key000658">Reformation</term><term ref="key000948">Schandstrafen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="16"/>
+<head>
+<seg><lb/>Erkanthnus <orgName ref="org007944">beder raten</orgName> uber her <persName ref="per027402">Hansen <lb/>Haͤmlers</persName> von <placeName ref="loc008514">Pfullendorff</placeName>, jetzund capplan
+<lb/>zuͦ <placeName ref="loc000088">Lutzern</placeName>, umb sin begangen schmach und <lb/>erverletzlichen worten, actum an <origDate when="1536-09-11">mentag, <lb/>was santt <orgName ref="org004873"><persName ref="per012644">Felix</persName> und <persName ref="per000143">Raͤgla</persName></orgName> tag, anno 1536</origDate></seg>
+</head>
+<p>
+<lb/>Alls dan her <persName ref="per027402">Hanns Haͤmler</persName> von <placeName ref="loc008514">Pfullendorff</placeName>, der hie gegen<lb break="no"/>wirtig statt, in miner heren von <placeName ref="loc000849">Winterthur</placeName> gefaͤngknus
+<lb/>komen ist, deßwaͤgen, das er unseren heligen, waren
+<lb/>christenlichen gluͦben <sic>geschnaͤcht</sic> und namlich gsagt hatt,
+<lb/>das wir ein valtschen, kaͤtzerischen gluͦben habind, und
+<lb/>soͤlichs nitt durch die helig goͤtlich gschrifft, das soͤlichs war
+<lb/>sig, woͤllen darbringen, besonder gnad und barmhertzikeit
+<lb/>begaͤrtt hatt, welich barmhertzikeitt im mine heren,
+<lb/><orgName ref="org007944">bed raͤtt</orgName>, bewisen und sich namlich erkentt haben, das
+<lb/>her <persName ref="per027402">Hans Haͤmler</persName> dahin fur das <placeName ref="loc013181">rathus</placeName> gestelltt, der
+<lb/>ouch alda unseren heren von <placeName ref="loc000065">Zürich</placeName> und uns ein wider<lb break="no"/>ruͦff thuͦn soͤll, namlich mit denen worten, wie dan
+<lb/>er gerett und gsagt hab, das unser gluͦb valtsch und katzer<lb break="no"/>isch sin soͤll, habe er minen heren von <placeName ref="loc000065">Zürich</placeName>, ouch unns
+<lb/>unraͤcht than und uns anglogen. Zuͦ dem das er uff
+<lb/>soͤlichs <time dur="PT2H">zwo stund</time> an das <sic>halissen</sic> gstelltt und demnach
+<lb/>ein verschriben urfecht uber <choice><sic>sich sich</sic><corr>sich</corr></choice> saͤlbs gaͤben und
+<lb/>darmitt gebu̍etzt soͤlle haben.<note>Am gleichen Tag schwor <persName ref="per027402">Hans Hämler</persName> Urfehde (<bibl>STAW URK 2305/1</bibl>).</note>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>In <placeName ref="loc000849">Winterthur</placeName> lässt sich Widerstand gegen die Einführung der Reformation nur vereinzelt beobachten. Einige Bürger verliessen die Stadt und liessen sich in katholischen Gebieten nieder, andere entschieden sich für das Klosterleben, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2020</ref>, S. 133-141</bibl>. Provokante Äusserungen gegen den reformierten Glauben, die den Frieden und die öffentliche Ordnung gefährden konnten, wurden von der Obrigkeit bestraft. Auch vor der Reformation waren religiöse Normverstösse verfolgt worden, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_159">SSRQ ZH NF I/2/1, Nr. 159</ref></bibl>.</p>
+<p>Im vorliegenden Fall hatten <orig>ungeschickte reden und scheltwortt</orig> und <orig>laster und schmutz reden</orig>, die <persName ref="per027402">Hans Hämler</persName>, Kaplan in <placeName ref="loc000088">Luzern</placeName>, im Wirtshaus <placeName ref="loc013750">Zum goldenen Kreuz in Winterthur</placeName> geäussert hatte, einen anwesenden <placeName ref="loc000065">Zürcher</placeName> Boten so brüskiert, dass er vom Tisch aufstand und den Raum verliess. Wie <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> gegenüber der Stadt <placeName ref="loc000088">Luzern</placeName> darlegten, habe der Kaplan wiederholt öffentlich ihren Glauben als falsch und ketzerisch bezeichnet. Dies hätten sie <orig>von oberkeitt waͤgen nitt koͤnen ungestrafft lasen für gan</orig> und daher seine Verhaftung angeordnet. Zunächst habe der Kaplan freiwillig seine Verfehlungen zugegeben und auf Knien um Gnade gebeten, kurze Zeit später sein Geständnis jedoch widerrufen und auch unter Folter auf seiner Unschuld beharrt. Daher habe man Zeugen verhört, die unter Eid gegen ihn aussagten. Man habe ihm einen Gerichtsprozess ersparen wollen und ihn schliesslich zu dem öffentlichen Widerruf und einer Urfehdeerklärung bewegen können (<bibl>STAW URK 2305/2</bibl>). Über das Verfahren gegen den Kaplan wurde ein Libell angelegt, das mehrere Zeugenaussagen und den vorliegenden Urteilsspruch enthält (<bibl>STAW URK 2305/8</bibl>). Zum Fall <persName ref="per027402">Hämler</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2020</ref>, S. 142-143</bibl>.</p>
+<p>Zur städtischen Praxis, Delinquenten gegen einen Urfehdeeid, verbunden mit Ehrenstrafen oder Ausweisung, freizulassen statt sie vor Gericht zu stellen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">SSRQ ZH NF I/2/1, Nr. 73</ref></bibl>.</p>
+<!-- vgl. StALU AKT 19B/248: 1536 (-1538?) Priester Hans Hemler, Bestrafung in Winterthur wegen Lästerung des evangelischen Glaubens und Streit mit dem Pfarrer in Horw -->
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

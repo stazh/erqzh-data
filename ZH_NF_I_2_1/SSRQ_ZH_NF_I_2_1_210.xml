@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_210</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW B 2/7, S. 39 (Eintrag 1)</idno></msIdentifier><head>Anstellung des Schlossers Jakob Hoppler als Werkmeister der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur stellen den Schlosser Jakob Hoppler mit zweimonatiger Kündigungsfrist als Werkmeister an. Er ist von der Steuerpflicht befreit. Er hat sich eidlich verpflichtet, den Nutzen der Stadt zu fördern und Schaden abzuwenden, die ihm aufgetragenen Arbeiten sorgfältig auszuführen, das ihm gestellte Metall effizient zu verwenden und Reste dem Baumeister zu übergeben. Ferner soll er Verdächtiges dem Schultheissen und Rat melden und alle anzeigen, die Dietriche machen lassen wollen. Er darf nur für vertrauenswürdige Auftraggeber Schlüssel kopieren.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1511-11-17"/></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="39"/>
+<p>
+<lb/>Actum <origDate when="1511-11-17">mentag <lb/>post <persName ref="per000141">Martini</persName></origDate>
+</p>
+<p>
+<seg><lb/>Item mine herren habent <persName ref="per027032">Jacob Hopler</persName>, den schlosser,
+<lb/>zuͦ gmeiner statt werckmeyster angenomen, doch nit
+<lb/>anders, dann das er nun allein stu̍r frig sitzen sol. Und
+<lb/>so er minen herrn nit mer fu̍gklich ist, so sond sy
+ <lb/>im das widerumb <date dur="P2M">ij mōnat</date> zevor abku̍nden.</seg>
+<seg>Uff das
+<lb/>haut er in sinen eid genomen, gmeiner statt nuͦtz
+<lb/>ze fu̍rderenn und schaden zewenden, zum andern alles, das im
+<lb/>von gmeiner statt wegen zemachen bevolhen wirt, dasselbig
+<lb/>zum tru̍wlichisten zemachen, desglichen das ysen und ply
+<lb/>zum nutzlichisten zebruchen, und was daran abgaut, dasselbig
+<lb/>widerumb der statt buwmeyster zuͦ u̍berantwurten und das<lb break="no"/>selbig in deheinen weg in sinen nutz zebruchen.</seg>
+<seg>Item unnd
+<lb/>ob im ettwas argwenigs fu̍rkaͤme, dasselbig an einen <orgName ref="org007943"><choice><abbr>s</abbr><expan>schultheissen</expan></choice> und
+<lb/>raͤte</orgName> laussen zelangen. Desglichen ob im dietrich von ettwas
+<lb/>zemachen bevolhen wurde oder sunst zuͦ kaͤmen, die selbigen
+<lb/>einem <choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> zeleiten.</seg>
+<seg>Desglichen niemand keine abtruckten
+ <lb/>schlu̍ssel zemachen, er habe dann guͦt wu̍ssen, das es ōn allen
+ <lb/>argwon zuͦ gange.<note>Auch Schlosser, die nicht in städtische Dienste traten, mussten sich verpflichten, <orig>niemand kein nachschlu̍ssel zemachen</orig> (<bibl>STAW B 2/5, S. 53</bibl>, vgl. <bibl>STAW B 2/6, S. 183</bibl>).</note></seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Die Stadt <placeName ref="loc000849">Winterthur</placeName> beschäftigte Zimmerleute, Steinmetze sowie Maurer und Schlosser als Werkmeister, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_115">SSRQ ZH NF I/2/1, Nr. 115</ref></bibl>. Oftmals wurden auswärtige Fachleute in dieser Funktion eingesetzt, zum Beispiel ein Schlosser aus <placeName ref="loc000108">Rapperswil</placeName> (<bibl>STAW B 2/3, S. 421</bibl>).</p>
+<p>Die Pflichten des Schlosserwerkmeisters, die in der vorliegenden Quelle genannt werden, weichen teilweise vom Wortlaut der Eidformel aus der zweiten Hälfte des 16. Jahrhunderts ab. Diese verpflichtete den Stadtschlosser, das ihm gestellte Metall zum Nutzen der Stadt zu verwenden und zu verwahren, ohne Erlaubnis des Baumeisters nichts auszuleihen und seine Arbeiten sorgfältig auszuführen (<bibl>STAW AA 4/3, fol. 455r-v</bibl>). Darüber hinaus kontrollierte er Waagen und Gewichte (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=690156">StAZH A 155.1, Nr. 42</ref></bibl>).
+ </p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

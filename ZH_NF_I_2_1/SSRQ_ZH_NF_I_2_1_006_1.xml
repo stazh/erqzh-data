@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Zweite Reihe:
+Die Rechtsquellen der Stadt Winterthur. Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_006_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno>STAW URK 10.1</idno>
+</msIdentifier>
+<head>Schenkung eines Grundstücks mit Kapelle und Friedhof an das Siechenhaus in Winterthur durch Herzog Rudolf von Österreich</head>
+<msContents>
+<summary>Herzog Rudolf von Österreich, der Sohn König Rudolfs, überträgt den Leprösen auf dem Feld bei der Stadt Winterthur das Grundstück,
+auf dem die Kapelle steht, und den angrenzenden Friedhof. Er erlässt denjenigen, welche die Ländereien bebauen, zwei Viertel Weizen der
+jährlich fälligen Zinsabgaben.</summary>
+<msItem>
+<textLang>Latein</textLang>
+<filiation type="current">Original</filiation>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support><material>Pergament</material></support>
+<extent><dimensions type="leaves">
+<height unit="cm" quantity="8.5"/>
+<width unit="cm" quantity="17.5"/>
+</dimensions><dimensions type="plica">
+<width unit="cm" quantity="2.0"/>
+</dimensions></extent>
+</supportDesc>
+</objectDesc>
+<sealDesc>
+<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round"
+nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved">
+<persName role="sigillant">Herzog Rudolf von Österreich</persName>
+</seal>
+</sealDesc>
+</physDesc>
+<history>
+<origin><origDate when="1287-05-24"/><origPlace>Kyburg</origPlace></origin>
+</history>
+<additional>
+<listBibl>
+<head>Edition</head>
+<bibl>UBZH, Bd. 5, Nr. 1988</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<textClass default="false">
+<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+<term ref="key000023">Schenkung</term>
+<term ref="key003944">Siechenhaus</term>
+</keywords>
+</textClass>
+<particDesc default="false"/>
+<settingDesc default="false"/>
+</profileDesc>
+</teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_10_r.jpg"/>
+<p>
+<lb/><seg><persName role="issuer" ref="per020648">Rudolfus</persName> dei <choice>
+<abbr>gra</abbr>
+<expan>gratia</expan>
+</choice>
+<placeName ref="loc000589">Austrie</placeName> et <placeName ref="loc000759">Stirie</placeName> dux,
+<placeName ref="loc000220">Karniole</placeName> et <placeName ref="loc000843">Marchie</placeName> dominus,
+comes de <placeName ref="loc000390">Habsburg</placeName> et
+de <lb/><placeName ref="loc000012">Kiburg</placeName>, <placeName ref="loc010984">Alsacie</placeName> lantgravius, serenissimi domini
+<persName ref="per000089"><choice>
+<abbr>R</abbr>
+<expan>Rudolfi</expan>
+</choice></persName>
+<orgName ref="org004134">Romanorum</orgName> regis filius, universis presentes litteras inspecturis noti<lb break="no"/>ciam subscriptorum,
+attendentes immo certum habentes, quod ea, que personis miserabilibus divine pietatis intu<lb break="no"/>itu impendimus, <choice>
+<abbr>gram</abbr>
+<expan>gratiam</expan>
+</choice> in presenti et gloriam impetrant in futuro.</seg>
+<seg>Igitur nosse volumus universos, quod nos, <lb/>miserabilium personarum leprosorum in campis prope
+<placeName ref="loc000849">Wintertur</placeName> indigentiam advertentes, eisdem aream, in
+<lb/>qua capella est edificata, cum cimiterio dicte capelle adiuncto pure
+et simpliciter propter deum con<lb break="no"/>tulimus perpetuo et pacifice possidendam. Cultoribus camporum dicte capelle et cimiterio
+adiacencium, qui <lb/>pro tempore fuerint, <date dur="R/P1Y">annuatim</date>
+<measure type="volume" unit="Viertel" quantity="2" commodity="wheat">duo quartalia tritici</measure> pro dicta area census nobis debiti
+defalcamus.<note>Diese Zinsreduktion wird auch im sogenannten Habsburgischen Urbar erwähnt (<bibl><ref
+target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 1, S. 326</bibl>).</note></seg>
+<seg><lb/>Dantes has nostras litteras in testimonium super eo, datum <origPlace ref="loc009860">Kiburg</origPlace>, <origDate
+when="1287-05-24">in vigilia penthecostes, anno domini <lb/>m<hi rend="sup">o</hi> cc<hi rend="sup">o</hi> lxxx<hi rend="sup">o</hi>
+septimo</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_URK_10_v.jpg"/>
+<div>
+<ab type="dorsal" place="verso" hand="hand14c"><lb/>De orto circa capellam sancti <persName ref="per000270">Georii</persName></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand19c"><lb/>Anno <date when="1287">1287</date></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Es war verbreitete Praxis, Aussätzige, das heisst Menschen, die an Lepra erkrankten oder vergleichbare Symptome entwickelten, in
+sogenannten Siechenhäusern von der übrigen Bevölkerung zu separieren. Verdachtsfälle mussten gemeldet werden, die Betroffenen wurden einer
+Untersuchung unterzogen. Zur Entwicklung der Leprosorien vgl. <bibl><ref target="/startseite/literaturverzeichnis">Reicke 1932</ref>, 1.
+Teil, S. 312-325</bibl>; zur vormodernen Diagnostik und Terminologie vgl. <bibl><ref target="/startseite/literaturverzeichnis">Riha
+2007</ref></bibl>. Bis in die zweite Hälfte des 15. Jahrhunderts behaupteten die Pfleger des <orgName ref="org005025">Siechenhauses in
+<placeName ref="loc010963">Kreuzlingen</placeName></orgName> mit Unterstützung der Bischöfe von <placeName ref="loc000923"
+>Konstanz</placeName> ihre Zuständigkeit für die Siechenschau im Bistum, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Müller
+2007</ref>, S. 52-53</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Sutter 1996</ref>, S. 35-39, 44-48</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Reicke 1932</ref>, 2. Teil, S. 261</bibl>. Am 14. November 1491 ordnete der <orgName
+ref="org002406">Rat von <placeName ref="loc000065">Zürich</placeName></orgName> infolge von Missbräuchen an, dass verdächtige Personen im
+städtischen Herrschaftsgebiet nur noch von den eigenen Beschauern begutachtet werden durften. Aus <placeName ref="loc000849"
+>Winterthur</placeName> sollte niemand mehr nach <placeName ref="loc000923">Konstanz</placeName> geschickt werden (<bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_1_3_052">SSRQ ZH NF I/1/3, Nr. 52</ref></bibl>). Bei einem positiven Befund (vgl. z. B. <bibl><ref
+target="/startseite/literaturverzeichnis">Hauser 1901</ref>, Beilage 2, S. 58</bibl>, aus dem Jahr 1516) wurden die Betroffenen von der
+städtischen Obrigkeit in ein <orgName ref="org007453">Siechenhaus</orgName> gewiesen. Leprose, die über eigene Mittel verfügten, erhielten
+je nach Vermögen eine einfache oder besser ausgestattete Pfrund mit entsprechender Verpflegung, vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Sutter 1996</ref>, S. 49-62</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser
+1901</ref>, S. 35-36, 44-45</bibl>. </p>
+<p>Nördlich der Stadt <placeName ref="loc000849">Winterthur</placeName>, auf freiem Feld, lag das <orgName ref="org007453"
+>Siechenhaus</orgName> mit der dem heiligen <persName ref="per000270">Georg</persName> gewidmeten Kapelle und einem Friedhof. Die Schenkung
+<persName ref="per020648">Herzog Rudolfs von Österreich</persName> ist der früheste Beleg für die Existenz dieser Einrichtung. Das
+Patronatsrecht der Kapelle verlieh <persName ref="per004951">Herzog Albrecht</persName>, <persName ref="per020648">Rudolfs</persName>
+Bruder, am 15. Juni 1298 dem <placeName ref="loc000849">Winterthurer</placeName> Bürger <persName ref="per026909">Stefan Hoppler</persName>
+(<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 7, Nr. 2445</bibl>; vgl. auch <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_043">SSRQ ZH NF I/2/1, Nr. 43</ref></bibl>). Zwei Jahre später gewährten mehrere Bischöfe in
+<placeName ref="loc000076">Rom</placeName> allen einen Ablass, welche die Kapelle an bestimmten Feiertagen aufsuchten, für ihre Ausstattung
+spendeten, die dort lebenden Kranken und Armen unterstützten oder den Priester der Kapelle, der den Kranken die Kommunion brachte,
+begleiteten (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 7, Nr. 2576</bibl>). Im Jahr 1425 übertrugen die <orgName
+ref="org007828">Hoppler</orgName> die Kapelle dem <orgName ref="org007820">Chorherrenstift Heiligberg</orgName> (<bibl>STAW URK 621</bibl>).
+Die Chorherren hielten dort wöchentlich drei Messen ab (<bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S.
+314</bibl>). Nach der Reformation sollte den Siechen sonntags und einmal unter der Woche gepredigt werden (vgl. <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1106249">StAZH B IV 19, fol. 143r</ref></bibl>). Zu der Pfründe und ihren
+Inhabern vgl. <bibl><ref target="/startseite/literaturverzeichnis">Walser 1944</ref>, S. 51-53</bibl>.</p>
+<p><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> liessen das <orgName
+ref="org007453">Siechenhaus</orgName> durch einen Pfleger verwalten, 1366 findet man beispielsweise <persName ref="per026896">Rudolf
+Hofmann</persName> von <placeName ref="loc000849">Winterthur</placeName> in dieser Funktion (<bibl>STAW URK 187</bibl>). Gemäss den Angaben
+des <persName ref="per026892">Hans Ernst</persName> aus dem Jahr 1692 besetzte der <orgName ref="org005587">Kleine Rat</orgName> dieses Amt
+aus den eigenen Reihen (<bibl>winbib Ms. Fol. 264, S. 142</bibl>). Einer Aufzeichnung des Siechenpflegers über seine Aufwendungen zufolge,
+die wohl ins letzte Drittel des 16. Jahrhunderts zu datieren ist, waren eine Köchin, eine Untermagd, eine Wäscherin und ein Schröpfer im
+<orgName ref="org007453">Siechenhaus</orgName> beschäftigt (<bibl>STAW AC 27/3</bibl>; Edition: <bibl><ref
+target="/startseite/literaturverzeichnis">Hauser 1901</ref>, Beilage 4, S. 63-64</bibl>). Viele Stiftungen waren den Siechen gewidmet, vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, S. 11-16, 20-21, 24, 26-27</bibl>. Besonders erwähnenswert sind die
+Zuwendungen des <persName ref="per026911">Erhard von Hunzikon</persName>, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_213">SSRQ
+ZH NF I/2/1, Nr. 213</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, S. 28-31</bibl>. Über die
+Einkünfte der Einrichtung gibt unter anderem ein 1479 angelegtes Verzeichnis Auskunft (<bibl>STAW B 3e/47</bibl>), vgl. die Zusammenstellung
+bei <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1901</ref>, S. 25-26</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

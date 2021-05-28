@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_161_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=925728">StAZH B II 4, Teil II, fol. 42r</idno></msIdentifier><head>Übereinkunft im Kompetenzstreit der Städte Winterthur und Zürich um die Hochgerichtsbarkeit in Hettlingen</head><msContents><summary>Schultheiss und Rat von Winterthur haben Knechte aus Hettlingen bestraft, die unerlaubt Solddienst geleistet und somit ihren Eid missachtet haben, und Bussgelder erhoben. Sie haben sich darauf berufen, dass ihnen das Dorf Hettlingen mit allen Herrschaftsrechten seit langem unterstehe und ihnen von den Herzögen von Österreich als Inhabern der Grafschaft Kyburg die Freiheit gewährt worden sei, dass niemand den Hettlingern Kriegssteuern auferlegen dürfe und dass diese nur der Stadt Winterthur Kriegsdienst leisten müssten. Ferner hätten die Leute von Hettlingen stets den Winterthurern geschworen und gehuldigt, nicht den Zürchern wie die anderen Untertanen der Grafschaft Kyburg. Die Zürcher beanspruchen die Hochgerichtsbarkeit in der Grafschaft Kyburg für sich, überlassen den Winterthurern aber aus Gnade die bisher verhängten Bussgelder.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Gross</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="40.0"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1493-10-09"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Stadtbücher, Bd. 3/2, S. 236, Nr. 160</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key004082">Solddienst</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="42r" facs="StAZH_B_II_4__Teil_II__fol__42_r_.tif
+"/>
+<p><seg>
+<lb/>Als u̍nser lieben getru̍wen, <orgName ref="org007943">schultheis und raͧt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, sich haben understanden, die knecht von
+<lb/><placeName ref="loc010469">Hettlingen</placeName>, so u̍ber ir eids pflicht in reis geloffen sind, zestraͧffen und soͤlich straͧfgelt zuͦ iren handen
+<lb/>inzenemmen und innzehaben,<note>Die Urfehdeerklärung der gefangenen Söldner gegenüber dem <orgName ref="org007943">Schultheissen und Rat der Stadt <placeName ref="loc000849">Winterthur</placeName></orgName> datiert vom 11. Dezember 1487 (<bibl>STAW URK 1620</bibl>).</note> als sy des fuͦg und recht zehaben vermeinten us der ursach, das <placeName ref="loc010469">Hettlingen</placeName>
+<lb/>das dorf mit aller gewaltsammy und herlicheit (hindan gesetzt die oberkeit der hohengerichten) vor langen
+<lb/>ziten frylich und ledigklich zuͦ der stat <placeName ref="loc000849">Winterthur</placeName> ergeben sige und also von einr <orgName ref="org000088">herschaft von Oͤsterrich</orgName>,
+<lb/>dannzuͦmaͧl herren und innhaber der graͧfschaft <placeName ref="loc000012">Kiburg</placeName>, loblich gefrygt, das uff soͤlich dorf niemands weder
+<lb/>reis noch bruch gelt nit legen, oͧch nu̍t jemannds andern dann der stat <placeName ref="loc000849">Winterthur</placeName> ze reisen pflichtig sin
+<lb/>soͤllen, innhalt der fryheit briefen, so die stat <placeName ref="loc000849">Winterthur</placeName> hab. Und als nun demnach soͤlich dorf <placeName ref="loc010469">Hetlingen</placeName>
+<lb/>in gemelter wis zuͦ iren handen komen were, so hetten sy und ir vordern das von der selben langen zit har
+<lb/>mit potten, verboten und aller gewaltsammy bis an die hohenherlicheit inngehept, ruͤwig und unansprechig,
+<lb/>und sy umb all u̍berfaren gepuͤsd und soͤlich straͧfgelt zuͦ der stat <placeName ref="loc000849">Winterthur</placeName> handen genommen. Die
+<lb/>selben von <placeName ref="loc010469">Hettlingen</placeName> weren ouch je welten von den u̍nsern us der graͧfschaft <placeName ref="loc000012">Kyburg</placeName> soͤlher maͧs gesu̍ndert
+<lb/>gewesen, das sy bishar jemands andern dann der stat <placeName ref="loc000849">Winterthur</placeName> gesworn und gehuldet haben.</seg>
+<seg>Und aber
+ <lb/>wir den bemelten von <placeName ref="loc000849">Winterthur</placeName> (wie glich wol wir inen in allen zimlichen sachen zebegegnen
+<lb/>geneigt sind) soͤlichs nit haben moͤgen gestatten inansehung des, das die oberkeit der hohen gerichten
+ <lb/>an dem end u̍nser stat <placeName ref="loc000065">Zu̍rich</placeName> graͧfschaft <placeName ref="loc000012">Kyburg</placeName> zuͦstat und soͤlich buͦsen, die mit u̍bersehung
+<lb/>der eiden verschult werden, den hohen gerichten zuͦ dienen, und wa wir soͤlichs an dem end naͧch
+<lb/>liesen, das es u̍ns und gemeiner u̍nser stat gegen andern und in andern grafschaften und herschaften
+ <lb/>ouch abbru̍chlich sin moͤcht <abbr>etc</abbr>, so habent die selben von <placeName ref="loc000849">Winterthur</placeName> u̍ns durch ir ersamm
+ <lb/>raͧtspotten in u̍nserm versamelten <orgName ref="org007944">raut</orgName> zuͦ antwurt gegeben, von der selben von <placeName ref="loc000849">Winterthur</placeName>
+<lb/>wegen, das die selben von <placeName ref="loc000849">Winterthur</placeName> u̍ns als underthenig gehorsamm lu̍t gantz geneigt sigen
+<lb/>und umb das u̍ns gegen andern kein abbruch beschehen und sy von <placeName ref="loc000849">Winterthur</placeName> gegen u̍ns
+<lb/>danckbarkeit empfahen, so welten sy das naͧchlausen also, das wir nun hinfur soͤlich reisloͤiffer
+<lb/>als ander in u̍nsern gerichten und gepieten strauffen moͤchten. Mit pitt, inen dagegen naͧch
+<lb/>zelausen, das ingenommen straͧfgelt, und so bis jetz verfallen und noch nit ingezogen were, das och
+<lb/>moͤgen inzuͦziehen und innzuͦhaben zuͦ der stat <placeName ref="loc000849">Winterthur</placeName> handen, als ouch soͤlichs von u̍ns
+ <lb/>inen us gnad und milty naͧchgelausen ist.</seg>
+<seg>Actum <origDate when="1493-10-09"> sant <persName ref="per000901">Dyonisius</persName> tag, anno domini <choice><abbr>m<hi rend="sup">o</hi></abbr><expan>millesimo</expan></choice>
+<lb/>cccc lxxxxiij<hi rend="sup">o</hi></origDate>.</seg>
+</p>
+</div>
+</body>
+<back>
+<div>
+<p>Seit 1434 ist das in der Landvogtei <placeName ref="loc000012">Kyburg</placeName> gelegene Dorf <placeName ref="loc010469">Hettlingen</placeName> im Besitz der Stadt <placeName ref="loc000849">Winterthur</placeName> nachweisbar, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 135-136</bibl>. Die Kompetenzabgrenzung zwischen ihr und der Stadt <placeName ref="loc000065">Zürich</placeName> in Bezug auf die Ausübung der Hochgerichtsbarkeit im Dorf war strittig. <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> reklamierten in ihrem Schreiben an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> vom 15. September 1493 noch die hohe Gerichtsbarkeit und insbesondere die Kompetenz, Reisläufer zu bestrafen, für sich (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671532">StAZH A 155.1, Nr. 35</ref></bibl>), konnten sich aber nicht durchsetzen.</p>
+<p>Im sogenannten Älteren Weissen Buch, einem um 1534 angelegten Kopialband der Herrschaft <placeName ref="loc000012">Kyburg</placeName>, ist vermerkt, dass die Niedergerichtsbarkeit in <placeName ref="loc010469">Hettlingen</placeName> den <orgName ref="org007943">Winterthurern</orgName> zustehe, die von ihnen ebenfalls beanspruchte Hochgerichtsbarkeit jedoch zu <placeName ref="loc000012">Kyburg</placeName> gehöre. Daher müsse die Gemeinde auf eigene Kosten einen Landrichter stellen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=921293">StAZH F II a 271, S. 136</ref></bibl>). Tatsächlich wiesen die <orgName ref="org007943">Winterthurer</orgName> im November 1494 einen Hochgerichtsfall in <placeName ref="loc010469">Hettlingen</placeName>, das gebrochene Eheversprechen eines Schmiedknechts gegenüber der Mutter seines Kindes, an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671416">StAZH A 155.1, Nr. 36</ref></bibl>). Dessen ungeachtet galten die Verfügungen des <orgName ref="org005587"><placeName ref="loc000849">Winterthurer</placeName> Rats</orgName> über die Bestrafung von Reisläufern vom 19. Juni 1497 auch für <placeName ref="loc010469">Hettlingen</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">SSRQ ZH NF I/2/1, Nr. 171</ref></bibl>).</p>
+<p>Am 31. Juli 1536 prüften die <orgName ref="org002406">Zürcher</orgName> abermals die Hoheitsrechte der <orgName ref="org007943">Winterthurer</orgName> in <placeName ref="loc010469">Hettlingen</placeName> und kamen zu dem Ergebnis, dass diesen dort die Steuern, das militärische Aufgebot, gewisse Dienste sowie die hohen und niederen Gerichte zustünden, doch müsse das Dorf weiterhin einen Richter an das Landgericht <placeName ref="loc000012">Kyburg</placeName> entsenden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_274">SSRQ ZH NF I/2/1, Nr. 274</ref></bibl>). Diese Pflicht implizierte die Anerkennung dieser Institution, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hürlimann 2000</ref>, S. 32</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 88</bibl>.</p>
+<p>Zu den Gerichtsrechten in <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 87-90</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Schmid 1934</ref>, S. 34-35</bibl>. Beispiele für die Ausübung der Blutsgerichtsbarkeit im 16. und 17. Jahrhundert durch <placeName ref="loc000849">Winterthur</placeName> finden sich bei <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 243-246</bibl>.</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

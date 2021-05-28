@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<date type="electronic" when="2011-06-16"/>
+<date type="print" when="2018-12-31"/>
+</publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1_028_1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><idno>STAW URK 245</idno></msIdentifier><head>Bestätigung der von Königen und Kaisern der Stadt Winterthur verliehenen Rechte durch König Wenzel</head><msContents><summary>König Wenzel bestätigt dem Schultheissen, dem Rat und den Bürgern der Stadt Winterthur angesichts ihrer treuen Dienste alle Rechte, die ihnen Karl IV., sein Vater, und dessen Vorgänger verliehen haben. Der Aussteller siegelt mit dem Majestätssiegel.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="17.0"/><width unit="cm" quantity="36.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="5.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">1 Siegel mit Rücksiegel: König Wenzel</persName></seal></sealDesc></physDesc><history><origin><origDate when="1379-03-23"/><origPlace>Nürnberg</origPlace></origin></history><additional><listBibl><head>Regest</head><bibl>Meyer von Knonau, Urkunden, Nr. 176</bibl></listBibl></additional></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005295">Privilegien</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<pb n="r" facs="STAW_URK_245_r.jpg"/>
+<p>
+<lb/><seg>Wir, <persName role="issuer" ref="per000439">Wentzla</persName>, von gotes gnaden <placeName ref="loc000076">Romischer</placeName> kunig, zu allen zeiten merer des <orgName ref="org004134">reichs</orgName> und kunig zu <placeName ref="loc006386">Beheim</placeName>, bekennen und
+<lb/>tun kunt offenlich mit diesem brieve allen den, die in sehent oder horent lesen, daz wir haben angesehen stete, getrewe
+<lb/>dienste, die uns und dem <orgName ref="org004134">reiche</orgName> der <orgName ref="org007943">schultheizze, der rate und die burger gemeinlich der stat zu <placeName ref="loc000849">Wintertawr</placeName></orgName> getan haben
+<lb/>und noch teglichen tun mugen und sullen in kunfftigen zeiten, und haben yn von besundern gnaden alle ire brieve, rechte und
+<lb/>vreyheit, die sie von unserm vater seligen, kaiser <persName ref="per002585">Karl</persName>, und von andern unsern vorfarn an dem <orgName ref="org004134">reiche</orgName>, <placeName ref="loc000672">Romischen</placeName> kungen und keisern,
+<lb/>an dem <orgName ref="org004134">reiche</orgName> recht und redlich herbracht haben und der sie in rechter nutzlicher gewer sin, bestetet, bevestet und confirmiret, be<lb break="no"/>steten, bevesten und confirmiren in die mit rechter wissen, von kunglicher macht und mit krafft ditz briefs in aller der masse und
+<lb/>wyse, als sie von worte zu worte in diesem brieve begriffen werden.</seg>
+<seg>Mit urkund ditz briefs, versigelt mit unserr kunglichen
+<lb/>majestat insigel, der geben ist zu <origPlace ref="loc008629">Nuremberg</origPlace>
+<origDate when="1379-03-23">nach Cristus geburte drewtzenhundert jar, darnach in dem newn und sybentzigsten
+<lb/>jare, an dem nehsten mitwochen vor unser frawen tage, den man <choice><abbr><unclear>anucciaco</unclear></abbr><expan>annunciacio</expan></choice> nennet, unserr reiche des <placeName ref="loc006386">Bemischen</placeName> in dem sechtzen<lb break="no"/>den und des <placeName ref="loc000672">Romischen</placeName> in dem dritten jare</origDate>.</seg>
+</p>
+</div>
+<pb n="v" facs="STAW_URK_245_v.jpg
+"/>
+<div>
+<ab type="chancery notation" place="right plica"><lb/>Per <choice><abbr>d</abbr><expan>dominum</expan></choice>
+<persName ref="per027137"><choice><abbr>Chunr</abbr><expan>Chunradum</expan></choice> Kreyger</persName>, <lb/>magistrum curie<note>Zu <persName ref="per027137">Konrad Kreyger</persName>, Hofmeister König <persName ref="per000439">Wenzels</persName>, als Relator vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hlaváček 1970</ref>, S. 463</bibl>.</note>, <persName ref="per000141">Martinus</persName><note>Zu diesem Schreiber der Kanzlei König <persName ref="per000439">Wenzels</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hlaváček 1970</ref>, S. 196-198</bibl>.</note></ab>
+</div>
+<div>
+<ab type="archiving reference" place="verso"><lb/><choice><abbr>R<hi rend="sup">m</hi></abbr><expan>Registratum</expan></choice><note>Vermutlich ist der hochgestellte Buchstabe als <q>m</q> zu lesen und nicht als <q>a</q>, doch fehlt eine Haste, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Rader 1999</ref>, S. 511 mit Abbildung 6 auf S. 522</bibl>.</note>
+<persName ref="per027138">Johannes Lust</persName><note>Zu <persName ref="per027138">Johannes Lust</persName>, Registrator der Kanzlei König <persName ref="per000439">Wenzels</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hlaváček 1970</ref>, S. 306-307</bibl>.</note></ab>
+</div>
+<div>
+<ab type="dorsal" place="verso" hand="hand18c"><lb/>König <persName ref="per000439">Wenzels</persName> bestättigungs<lb break="no"/>brieff aller freyheiten der statt <placeName ref="loc000849">Win<lb break="no"/>terthur</placeName>, anno <date when="1379">1379</date>
+<add place="inline" hand="hand19c"><date when="1379-03-23">23 März</date></add></ab>
+</div>
+</body>
+<back>
+<div>
+<p>Nach Antritt der Herrschaft wurden einem neuen König die von seinen Vorgängern verliehenen Privilegien zur Bestätigung vorgelegt. Die Erneuerung der Privilegien diente den Empfängern nicht nur als Legitimationsgrundlage für beanspruchte Rechte, sondern brachte auch die gegenseitige Anerkennung zum Ausdruck, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Keller 2004</ref></bibl>.</p>
+<p>Mit den in der vorliegenden Urkunde erwähnten Privilegien früherer Könige und Kaiser für die Stadt <placeName ref="loc000849">Winterthur</placeName> sind die sechs <orig>gnaden</orig> gemeint, die auf König <persName ref="per000089">Rudolf</persName> zurückgehen sollen und die erstmals in der städtischen Rechtsaufzeichnung aus dem Jahr 1297 schriftlich überliefert sind, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr. 7</ref>, Teil II</bibl>. Im Herbst 1379 befreite König <persName ref="per000439">Wenzel</persName> die Bürgerinnen und Bürger von <placeName ref="loc000849">Winterthur</placeName> ferner von Ladungen vor auswärtige Gerichte und räumte ihnen ein, Personen aufzunehmen, über welche die Acht verhängt worden war (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_029">SSRQ ZH NF I/2/1, Nr. 29</ref></bibl>).</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>
