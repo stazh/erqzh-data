@@ -1,99 +1,4 @@
-<<<<<<< HEAD
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
-<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
-
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
-xml:lang="de" type="introduction" subtype="a">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Erste Reihe:
-Stadt und Territorialstaat Zürich. Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation).</title>
-
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<persName>Michael Nadig</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Ariane Huber Hernández</persName>
-<persName>Michael Nadig</persName>
-<resp key="tagging"/>
-</respStmt></titleStmt>
-
-<publicationStmt>
-<date type="electronic" when="2020-06-01"/>
-<date type="print" when="2020-06-01"/>
-</publicationStmt>
-
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_03</idno>
-</seriesStmt>
-
-<sourceDesc>
-<listWit>
-<witness/>
-</listWit>
-</sourceDesc>
-
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
-</editorialDecl>
-</encodingDesc>
-</teiHeader>
-
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<head>Vorwort des Präsidenten der Rechtsquellenstiftung und des Staatsarchivars des Kantons Zürich</head>
-<p>Die Rechtsquellenstiftung des Schweizerischen Juristenvereins und das Staatsarchiv des Kantons Zürich freuen sich, mit dem vorliegenden
-Band und vier weiteren, gleichzeitig erscheinenden Editionseinheiten einen wertvollen Beitrag zum Verständnis der Geschichte von Stadt und
-Territorialstaat Zürich im Mittelalter und in der Frühen Neuzeit zu leisten. Unter der Leitung von Christian Sieber haben
-insgesamt sechs Bearbeiterinnen und Bearbeiter die Quellen zu den Städten Zürich und Winterthur, zur Landvogtei Greifensee sowie zu den
-Obervogteien rund um die Stadt Zürich gesichtet, zentrale Stücke ausgewählt und wissenschaftlich kommentiert. Die Quellenstücke wurden in
-digitaler Form nach den Grundsätzen der Text Encoding Initiative (TEI) aufbereitet und online publiziert. Die gedruckte Fassung dient
-demgegenüber als Referenzpublikation.</p>
-<p>Unser Dank gebührt zuallererst den Bearbeiterinnen und Bearbeitern der fünf Editionseinheiten, Dr. des. Michael Schaffner (Stadt und
-Territorialstaat Zürich), Sandra Reisinger (Gedruckte Mandate), Dr. Bettina Fürderer (Stadt Winterthur), Dr. Rainer Hugener
-(Landvogtei Greifensee) sowie Dr. Ariane Huber Hernández und Michael Nadig (Obervogteien um die Stadt Zürich). Dr. Pascale Sutter hat
-das Projekt als wissenschaftliche Leiterin der Rechtsquellenstiftung begleitet und zusammen mit den Bearbeiterinnen und Bearbeitern neue
-Richtlinien für die digitale Edition erarbeitet. Unterstützt wurde sie im Bereich der Informatik und Computerlinguistik durch Dr. Bernhard
-Ruef. Im Staatsarchiv wurden entsprechende Arbeiten durch Rebekka Plüss durchgeführt.</p>
-<p>Bei der Erfassung und Verwaltung der Literatur hat sich die Zusammenarbeit mit der Schweizerischen Nationalbibliothek bewährt, indem alle
-verwendeten Publikationen in der Bibliographie der Schweizergeschichte (BSG) verzeichnet werden. Unterstützung in linguistischen Fragen
-erhielt das Projektteam durch Dr. Hans-Peter Schifferle vom Schweizerischen Idiotikon sowie durch Dr. Philipp Roelli,
-Darko Senekovic und Severin Hof von der Fachstelle Latein der Universität Zürich.</p>
-<p>Zu danken haben wir ausserdem den beteiligten Stadtarchiven von Zürich und Winterthur, die Arbeitsplätze für unsere Bearbeiterinnen und
-Bearbeitern bereitgestellt und sie bei ihrer Arbeit tatkräftig unterstützt haben. Für das Erstellen von Digitalisaten ausgewählter
-Quellenstücke bedanken wir uns bei Romano Padeste, bei der Zentralbibliothek Zürich und bei der Fotografin Christine Seiler, Zürich.
-Die Satzarbeiten haben Dr. Pascale Sutter und Dr. Bernhard Ruef übernommen, den Druck hat in bewährter Manier die Dike-Verlag AG
-durchgeführt. Ermöglicht wurde dieses Vorhaben dank der grosszügigen Unterstützung durch den Lotteriefonds des Kantons Zürich sowie die
-Städte Zürich und Winterthur. Ihnen allen sei an dieser Stelle herzlich gedankt.</p>
-<p>Prof. Dr. Lukas Gschwend, Präsident der Rechtsquellenstiftung</p>
-<p>Dr. Beat Gnädinger, Staatsarchivar des Kantons Zürich</p>
-<p>St. Gallen/Zürich, im Frühling 2021</p>
-</div>
-</body>
-</text>
-</group>
-</text>
-</TEI>
-=======
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -131,7 +36,7 @@ Stadt und Territorialstaat Zürich. Band 3: Stadt und Territorialstaat Zürich I
 <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
 <resp>Herausgeberschaft</resp>
 </respStmt>
-<idno>SSRQ_ZH_NF_I_1_03</idno>
+<idno>SSRQ_ZH_NF_II_11_000a</idno>
 </seriesStmt>
 
 <sourceDesc>
@@ -186,4 +91,3 @@ Städte Zürich und Winterthur. Ihnen allen sei an dieser Stelle herzlich gedank
 </group>
 </text>
 </TEI>
->>>>>>> d7ff43a7f2dd4384c74d148429f88d027572d88a
