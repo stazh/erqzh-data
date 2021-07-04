@@ -4,95 +4,97 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_234_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/7, S. 390</idno></msIdentifier><head>Verordnung über den Getreidehandel in Winterthur</head><msContents><summary>Schultheiss und beide Räte von Winterthur beschränken den Getreideverkauf ausserhalb des Kaufhauses auf kleine Mengen zu den jeweils donnerstags festgelegten Getreidepreisen (1). Bürger sollen das gekaufte Getreide nicht aus Spekulationsgründen lagern (2). Getreide, das nicht verkauft wurde, soll von der Stadt erworben und bevorratet werden (3). Niemand soll im Auftrag von Auswärtigen Getreide kaufen (4). Zuwiderhandelnde werden mit einer Busse von 3 Pfund Haller belegt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1524-09-09"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000350">Getreide</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="390"/>
-<p>
-<lb/>Actum <origDate when="1524-09-09">fritag vor <sic>cruce</sic>,<!-- warum Ablativ? lateinisch "ante" wird mit dem Akk. konstruiert -->
-<lb/>anno xxiiij<hi rend="sup">o</hi></origDate>
-</p>
-<p>
-<seg n="1"><lb/>Mine heren <orgName ref="org007943">schultheis, klein und groͤs raͤte</orgName> haben von des gemeinen
-<lb/>nutz wegen angesechen und hiemit abgestelt, das <choice><sic>fru̍rohin</sic><corr>fu̍rohin</corr></choice> niemantz
-<lb/>mer soͤlle, es sige in mu̍llinen, huseren der geistlichen oder waͤltlichen,
-<lb/>kein <choice><sic>keren</sic><corr>kernen</corr></choice> oder haber mer verkouffen anders dan im kouffhus. Doch
-<lb/>oͤb sonder burger oder pfister in der <date dur="P1W">wochen</date> bedoͤrfftin, es were <measure type="volume" unit="Viertel" quantity="1">ein viertell</measure>,
-<lb/><measure type="volume" unit="Viertel" quantity="2">zwey</measure> oder einem pfister <measure type="volume" unit="Mütt" quantity="1">ein mu̍t</measure>, und keiner im kouffhuß veill ist, so mag
-<lb/>der selbig zuͦ einem mu̍ller oder <del>pfister</del> anderen, eß sige geistlich oder weltlich,
-<lb/>der do feill guͦt hat, gan und dem selbigen abkuͦffen, doch nit anders dan
-<lb/>alwegen uß erluͦptnuͦß eins schultheissen. Und so allso einer in der <date dur="P1W">wochen</date>
-<lb/>koufft, so soll der koͤiffer vom <date dur="R/P5WD">donstag</date> bitz an <date dur="R/P1WD">sontag</date> den nit thu̍rer zebe<lb break="no"/>zallen schuldig sin, dan wie er am <date period="P5WD">donstag</date> darvͦr uff dem marckt gangen
- <lb/>ist. Und so er in koufft nach dem <date period="P1WD">sontag</date>, so soll er in zallen wie er dem<lb break="no"/>nach uff den naͤchsten <date period="P5WD">donstag</date> uff dem marckt gat.</seg>
-</p>
-<p>
-<seg n="2"><lb/>Zem <choice><sic>andereren</sic><corr>anderen</corr></choice> vergunen mine heren iren burgeren ouch den frigen
-<lb/>kouff wie den froͤmden, doch nit anders, dan das der den erkuͦfften
-<lb/>kernen <add place="left margin" type="sign">oder haber</add>
-<add place="above">er</add>kofft, bitz zem naͤchsten <date period="P5WD">donstag</date> wie ein froͤmder hin weg
-<lb/>fu̍ren soll und gar nit uff gewu̍n in schu̍ten.</seg>
-</p>
-<p>
-<seg n="3"><lb/>Zem driten ist angesechen, das mine heren einen soͤllin verordnen,
-<lb/>ob kernen uiber blib, so jederman koufft hat, das der selbig von
-<lb/>gemeiner stat wegen und zuͦ gemeiner stat handen den uiber be<lb break="no"/>liben kouffen <unclear>sol<del>l</del></unclear>. Und so hernach mangell an <choice><sic>keren</sic><corr>kernen</corr></choice> im kouffhuß
-<lb/>den burgeren, es sig uff maͤrckt oder in der wochen, bresten wurd, so
-<lb/>soll er den widerum dar stellen.</seg>
-</p>
-<p>
-<seg n="4">
-<lb/>Zem vierden soͤlen alle die abgestelt werden, so denn froͤmden
- <lb/>kouffennd, sonder ein jeder sol selber kouffen.
-</seg>
-</p>
-<p>
-<lb/>Und welicher <del>oder weliche</del> soͤlicher obgemelter artikeln <del>in</del> einn
-<lb/>oder mer nit hielte, den selben wellen mine heren straffen
-<lb/>umb <measure type="currency" unit="lb" quantity="3">druy pfund haller</measure>, on gnad.
- </p>
-</div>
-</body>
-<back>
-<div>
-<p>Der Getreidehandel fand in der als Kaufhaus genutzten unteren Etage des <placeName ref="loc000849">Winterthurer</placeName> Rathauses unter Aufsicht des Kornmessers statt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_106">SSRQ ZH NF I/2/1, Nr. 106</ref></bibl>. Diese und weitere Verkaufsbeschränkungen wie das Verbot des Zwischenhandels und der Preisspekulation sowie der städtische Ankauf von Überschüssen sollten einer Verknappung des Angebots entgegenwirken. Der vorliegende Ratsbeschluss wurde unter der Überschrift <orig>Gebott des markts wegen und sollichs an das rathauß zehalten schrifftlich uffgeschlagen</orig> in das 1535 angelegte und nur mehr abschriftlich überlieferte Kopial- und Satzungsbuch eingetragen (<bibl>winbib Ms. Fol. 27, S. 437</bibl>).</p>
-<p>Wie der Aufzeichnung der Ausgaben des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> von <orig>v  umb ein bermentin verpott an das rathuß des kernen kuͦffs halb</orig> zu entnehmen ist, wurden derartige Verordnungen öffentlich ausgehängt (<bibl>STAW AA 7/2</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_234_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/7, S. 390</idno></msIdentifier><head>Verordnung über den Getreidehandel in Winterthur</head><msContents><summary>Schultheiss und beide Räte von Winterthur beschränken den Getreideverkauf ausserhalb des Kaufhauses auf kleine Mengen zu den jeweils donnerstags festgelegten Getreidepreisen (1). Bürger sollen das gekaufte Getreide nicht aus Spekulationsgründen lagern (2). Getreide, das nicht verkauft wurde, soll von der Stadt erworben und bevorratet werden (3). Niemand soll im Auftrag von Auswärtigen Getreide kaufen (4). Zuwiderhandelnde werden mit einer Busse von 3 Pfund Haller belegt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1524-09-09"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000350">Getreide</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="390"/>
+                        <p>
+                            <lb/>Actum <origDate when="1524-09-09">fritag vor <sic>cruce</sic>,<!-- warum Ablativ? lateinisch "ante" wird mit dem Akk. konstruiert -->
+                                <lb/>anno xxiiij<hi rend="sup">o</hi></origDate>
+                        </p>
+                        <p>
+                            <seg n="1"><lb/>Mine heren <orgName ref="org007943">schultheis, klein und groͤs raͤte</orgName> haben von des gemeinen
+                                <lb/>nutz wegen angesechen und hiemit abgestelt, das <choice><sic>fru̍rohin</sic><corr>fu̍rohin</corr></choice> niemantz
+                                <lb/>mer soͤlle, es sige in mu̍llinen, huseren der geistlichen oder waͤltlichen,
+                                <lb/>kein <choice><sic>keren</sic><corr>kernen</corr></choice> oder haber mer verkouffen anders dan im kouffhus. Doch
+                                <lb/>oͤb sonder burger oder pfister in der <date dur="P1W">wochen</date> bedoͤrfftin, es were <measure type="volume" unit="Viertel" quantity="1">ein viertell</measure>,
+                                <lb/><measure type="volume" unit="Viertel" quantity="2">zwey</measure> oder einem pfister <measure type="volume" unit="Mütt" quantity="1">ein mu̍t</measure>, und keiner im kouffhuß veill ist, so mag
+                                <lb/>der selbig zuͦ einem mu̍ller oder <del>pfister</del> anderen, eß sige geistlich oder weltlich,
+                                <lb/>der do feill guͦt hat, gan und dem selbigen abkuͦffen, doch nit anders dan
+                                <lb/>alwegen uß erluͦptnuͦß eins schultheissen. Und so allso einer in der <date dur="P1W">wochen</date>
+                                <lb/>koufft, so soll der koͤiffer vom <date dur="R/P5WD">donstag</date> bitz an <date dur="R/P1WD">sontag</date> den nit thu̍rer zebe<lb break="no"/>zallen schuldig sin, dan wie er am <date period="P5WD">donstag</date> darvͦr uff dem marckt gangen
+                                <lb/>ist. Und so er in koufft nach dem <date period="P1WD">sontag</date>, so soll er in zallen wie er dem<lb break="no"/>nach uff den naͤchsten <date period="P5WD">donstag</date> uff dem marckt gat.</seg>
+                        </p>
+                        <p>
+                            <seg n="2"><lb/>Zem <choice><sic>andereren</sic><corr>anderen</corr></choice> vergunen mine heren iren burgeren ouch den frigen
+                                <lb/>kouff wie den froͤmden, doch nit anders, dan das der den erkuͦfften
+                                <lb/>kernen <add place="left margin" type="sign">oder haber</add>
+                                <add place="above">er</add>kofft, bitz zem naͤchsten <date period="P5WD">donstag</date> wie ein froͤmder hin weg
+                                <lb/>fu̍ren soll und gar nit uff gewu̍n in schu̍ten.</seg>
+                        </p>
+                        <p>
+                            <seg n="3"><lb/>Zem driten ist angesechen, das mine heren einen soͤllin verordnen,
+                                <lb/>ob kernen uiber blib, so jederman koufft hat, das der selbig von
+                                <lb/>gemeiner stat wegen und zuͦ gemeiner stat handen den uiber be<lb break="no"/>liben kouffen <unclear>sol<del>l</del></unclear>. Und so hernach mangell an <choice><sic>keren</sic><corr>kernen</corr></choice> im kouffhuß
+                                <lb/>den burgeren, es sig uff maͤrckt oder in der wochen, bresten wurd, so
+                                <lb/>soll er den widerum dar stellen.</seg>
+                        </p>
+                        <p>
+                            <seg n="4">
+                                <lb/>Zem vierden soͤlen alle die abgestelt werden, so denn froͤmden
+                                <lb/>kouffennd, sonder ein jeder sol selber kouffen.
+                            </seg>
+                        </p>
+                        <p>
+                            <lb/>Und welicher <del>oder weliche</del> soͤlicher obgemelter artikeln <del>in</del> einn
+                            <lb/>oder mer nit hielte, den selben wellen mine heren straffen
+                            <lb/>umb <measure type="currency" unit="lb" quantity="3">druy pfund haller</measure>, on gnad.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Der Getreidehandel fand in der als Kaufhaus genutzten unteren Etage des <placeName ref="loc000849">Winterthurer</placeName> Rathauses unter Aufsicht des Kornmessers statt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_106">SSRQ ZH NF I/2/1, Nr. 106</ref></bibl>. Diese und weitere Verkaufsbeschränkungen wie das Verbot des Zwischenhandels und der Preisspekulation sowie der städtische Ankauf von Überschüssen sollten einer Verknappung des Angebots entgegenwirken. Der vorliegende Ratsbeschluss wurde unter der Überschrift <orig>Gebott des markts wegen und sollichs an das rathauß zehalten schrifftlich uffgeschlagen</orig> in das von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegte und nur mehr abschriftlich überlieferte Kopial- und Satzungsbuch eingetragen (<bibl>winbib Ms. Fol. 27, S. 437</bibl>).</p>
+                        <p>Wie der Aufzeichnung der Ausgaben <persName ref="per014937">Hegners</persName> von <orig>v  umb ein bermentin verpott an das rathuß des kernen kuͦffs halb</orig> zu entnehmen ist, wurden derartige Verordnungen öffentlich ausgehängt (<bibl>STAW AA 7/2</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
