@@ -4,61 +4,63 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_181_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/2, fol. 59r (Eintrag 2)</idno></msIdentifier><head>Eid der Zeugmeister der Stadt Winterthur</head><msContents><summary>Die Zeugmeister der Stadt Winterthur sollen schwören, Waffen und Munition instand und einsatzbereit zu halten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb type="original" n="59r" facs="STAW_B_2_2_59_r.jpg
-"/>
-<head><lb/>Amptlu̍t u̍ber der statt zu̍g <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r; STAW B 3a/10, S. 11">eide</rdg></app></head>
-<p>
-<lb/>Item die soͤllend schwēren, soͤlchen zu̍g allen, es
-<lb/>sige an cleinen oder grossen bu̍chsen, armbresten,
-<lb/>bu̍chsenpulfer und allen anderm zu̍ge gmeiner statt
-<lb/>zuͦ ir werinen gehoͤrende, nutzlich und in eren ze halten
-<lb/>und wol ze versaͤhen.
- </p>
-</div>
-</body>
-<back>
-<div>
-<p>Gemäss den Angaben in dem Kopial- und Satzungsbuch, das 1535 von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegt wurde und heute nur mehr abschriftlich überliefert ist, fungierten je ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName> und des <orgName ref="org009293">Grossen Rats</orgName> als Zeugmeister (<bibl>winbib Ms. Fol. 27, S. 497</bibl>). <persName>Hans Ernst</persName> präzisierte in seinen Aufzeichnungen von 1692 ihre Aufgaben: <orig>Dieselben sollen sorg haben zu dem züg hauß samt allen darinen ligenden kriegs rüstung, wo etwaß ab gieng, an die stat anders machen laßen, damit, wo es die notdurfft erforderet, man desto beßer gerüstet were</orig>. Damals war es in der Regel der Bauherr, der das Amt seitens des <orgName ref="org005587">Kleinen Rats</orgName> versah (<bibl>winbib Ms. Fol. 264, S. 161</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_181_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/2, fol. 59r (Eintrag 2)</idno></msIdentifier><head>Eid der Zeugmeister der Stadt Winterthur</head><msContents><summary>Die Zeugmeister der Stadt Winterthur sollen schwören, Waffen und Munition instand und einsatzbereit zu halten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb type="original" n="59r" facs="STAW_B_2_2_59_r.jpg
+                            "/>
+                        <head><lb/>Amptlu̍t u̍ber der statt zu̍g <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r; STAW B 3a/10, S. 11">eide</rdg></app></head>
+                        <p>
+                            <lb/>Item die soͤllend schwēren, soͤlchen zu̍g allen, es
+                            <lb/>sige an cleinen oder grossen bu̍chsen, armbresten,
+                            <lb/>bu̍chsenpulfer und allen anderm zu̍ge gmeiner statt
+                            <lb/>zuͦ ir werinen gehoͤrende, nutzlich und in eren ze halten
+                            <lb/>und wol ze versaͤhen.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Gemäss den Angaben in dem Kopial- und Satzungsbuch, das von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegt wurde und nur mehr abschriftlich überliefert ist, fungierten je ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName> und des <orgName ref="org009293">Grossen Rats</orgName> als Zeugmeister (<bibl>winbib Ms. Fol. 27, S. 497</bibl>). <persName>Hans Ernst</persName> präzisierte in seinen Aufzeichnungen von 1692 ihre Aufgaben: <orig>Dieselben sollen sorg haben zu dem züg hauß samt allen darinen ligenden kriegs rüstung, wo etwaß ab gieng, an die stat anders machen laßen, damit, wo es die notdurfft erforderet, man desto beßer gerüstet were</orig>. Damals war es in der Regel der Bauherr, der das Amt seitens des <orgName ref="org005587">Kleinen Rats</orgName> versah (<bibl>winbib Ms. Fol. 264, S. 161</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
