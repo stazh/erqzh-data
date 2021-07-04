@@ -4,77 +4,79 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_208_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/6, S. 315 (Eintrag 3)</idno></msIdentifier><head>Verordnung über den gerichtlichen Instanzenzug in Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur beschliessen: Wer gegen ein Urteil des Kleinen Rats an den Grossen Rat appellieren will, soll binnen zehn Tagen vor dem Rat um einen Termin innerhalb eines Monats bitten. Der Schultheiss soll erst den Termin ansetzen, wenn der appellierenden Partei das Urteil verbrieft wurde. Der verlierenden Partei sollen keine zusätzlichen Kosten entstehen. Die Appellationsgebühr beträgt bei einem Streitwert bis 50 Pfund 1 Pfund und über 50 Pfund 1 Gulden. Entsprechendes gilt für verbriefte Urteile des städtischen Gerichts. Wer gegen ein dort ergangenes Urteil an den Kleinen Rat appelliert, soll 5 Schilling Gebühr zahlen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1509-09-24"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000287">Appellation</term><term ref="key005387">Gebühren</term><term ref="key000057">Gericht</term><term ref="key003383">Instanzenzug</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="315"/>
-<p><lb/>Amptlu̍t besetzt uff <origDate when="1509-09-24">mentag <lb/>vor <persName ref="per000390">Michel</persName><subst><del>h</del><add place="overwritten">z</add></subst>tag, anno <abbr>etc</abbr> viiij<hi rend="sup">o</hi></origDate>
-</p>
-<p>
-<gap reason="irrelevant"/><note>Es folgen die Namen der Amtleute.</note>
-</p>
-<p>
-<lb/><seg>Item es haben sich <orgName ref="org007944">beid raͤt</orgName> einhellig geaint in appellacion sachen:</seg>
-<seg>Woͤlcher
- <lb/>vom <orgName ref="org005587">cleinen raͧt</orgName> fu̍r den <orgName ref="org009293">grossen raͧt</orgName> appelliert, das der, so appelliert,
-<lb/>soͤlch appellacion tuͦn sol vor offen raͧt in <date dur="P10D">x tag</date> nach der urtail und
-<lb/>umb tagsatzung bitten in <date dur="P1M">einem mōnat</date>, dem naͤchsten, und sol
-<lb/>der appellierend parthy vom schultheiß nit tag gesetzt werden, sy
-<lb/>habe dann der urtail, darvon geappelliert ist, <add place="above"><del>ein</del></add> sonder urtailbrief. Unnd
- <lb/>woͤlche parthy verlustig wirt, dem sol nit ander costen erkannt werden ze geben,
-<lb/>dann was von gerichtz wegen uff die sach ergangen ist, <del><unclear>vor</unclear></del> es wēre dann
- <lb/>verschribner oder versprochner cost.</seg>
-<seg>Woͤlcher ouch appelliert und die an<lb break="no"/>sprach ob <measure type="currency" unit="lb" quantity="50">l </measure> ist, der sol <measure type="currency" unit="fl" quantity="1">j </measure> in gemeiner statt seckel lēgen, emals
- <lb/>im ferer tag gesetzt werde. Und <del>under <unclear>j </unclear></del> wo die ansprach <measure type="currency" unit="lb" quantity="50">fu̍nffzig
- <lb/>pfund</measure> und darunder, sol er aber <measure type="currency" unit="lb" quantity="1">j </measure> der statt geben und der statt beliben
-<lb/>und den parthyen nit wider zuͦ erkannt werden mit anderm costen.
- <lb/>Item desglichen sol es mit den urtailbriefen von der statt gericht in appellacion
-<lb/>sachen ouch gehalten werden. Und woͤlcher vom gericht in <orgName ref="org005587">cleinen raͧt</orgName> appelliert,
-<lb/>sol <measure type="currency" unit="ß" quantity="5">v </measure> in das gericht legen.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Die Frist und die Gebühren für Appellationen an den <orgName ref="org009293">Grossen Rat</orgName> der Stadt <placeName ref="loc000849">Winterthur</placeName> hatten <orgName ref="org007944">beide Räte</orgName> bereits im Vorjahr festgelegt (<bibl>STAW B 2/6, S. 289</bibl>), sie wurden in der Folgezeit bestätigt (<bibl>STAW B 2/7, S. 259</bibl>, zu 1518). Die Gebühren für Berufungen vor den Kleinen Rat als Appellationsinstanz des Stadtgerichts betrugen 1527 bei einer Streitsumme über 50 Pfund 1 Pfund und bei einer geringeren Summe 10 Schilling (<bibl>STAW B 2/8, S. 104-105</bibl>). Der <placeName ref="loc000849">Winterthurer</placeName> Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> hat in ein Heft mit Notizen zu Gerichtsprozessen um die Mitte der 1520er Jahre eine Verordnung über die gerichtliche Appellation eingetragen, die das Verfahren präzisiert: Die Partei, die Berufung einlegen wollte, sollte sich das Urteil umgehend vom Stadtschreiber verbriefen lassen. Innerhalb der zehntägigen Appellationsfrist hatte man dem Schultheissen das Urteil vorzulegen und die Gebühr zu entrichten, das Verfahren musste innerhalb eines Monats durchgeführt werden (<bibl>STAW B 5/1a, fol. 7v</bibl>). Der vorliegende Ratsbeschluss wurde unter der Überschrift <orig>Abermahls erkantnus geschehen, wie die appellationen beschehen sollen</orig> in das 1535 angelegte Kopial- und Satzungsbuch eingetragen, das nur in einer späten Abschrift überliefert ist (<bibl>winbib Ms. Fol. 27, S. 405</bibl>).</p>
-<p>Die <placeName ref="loc000065">Zürcher</placeName> Obrigkeit bestätigte den Instanzenzug in <placeName ref="loc000849">Winterthur</placeName> vom Gericht zum <orgName ref="org005587">Kleinen Rat</orgName> und von dort zum <orgName ref="org009293">Grossen Rat</orgName>. Besassen Kläger und Beklagte das <placeName ref="loc000849">Winterthurer</placeName> Bürgerrecht und hatten ihren Wohnsitz in der Stadt, war eine weitere Appellation an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> nicht zulässig. Diese Möglichkeit bestand nur für <orgName ref="org002406">Zürcher</orgName> Untertanen, die ausserhalb <placeName ref="loc000849">Winterthurs</placeName> ansässig waren, sowie für Auswärtige (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_235">SSRQ ZH NF I/2/1, Nr. 235</ref></bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_208_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/6, S. 315 (Eintrag 3)</idno></msIdentifier><head>Verordnung über den gerichtlichen Instanzenzug in Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur beschliessen: Wer gegen ein Urteil des Kleinen Rats an den Grossen Rat appellieren will, soll binnen zehn Tagen vor dem Rat um einen Termin innerhalb eines Monats bitten. Der Schultheiss soll erst den Termin ansetzen, wenn der appellierenden Partei das Urteil verbrieft wurde. Der verlierenden Partei sollen keine zusätzlichen Kosten entstehen. Die Appellationsgebühr beträgt bei einem Streitwert bis 50 Pfund 1 Pfund und über 50 Pfund 1 Gulden. Entsprechendes gilt für verbriefte Urteile des städtischen Gerichts. Wer gegen ein dort ergangenes Urteil an den Kleinen Rat appelliert, soll 5 Schilling Gebühr zahlen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1509-09-24"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000287">Appellation</term><term ref="key005387">Gebühren</term><term ref="key000057">Gericht</term><term ref="key003383">Instanzenzug</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="315"/>
+                        <p><lb/>Amptlu̍t besetzt uff <origDate when="1509-09-24">mentag <lb/>vor <persName ref="per000390">Michel</persName><subst><del>h</del><add place="overwritten">z</add></subst>tag, anno <abbr>etc</abbr> viiij<hi rend="sup">o</hi></origDate>
+                        </p>
+                        <p>
+                            <gap reason="irrelevant"/><note>Es folgen die Namen der Amtleute.</note>
+                        </p>
+                        <p>
+                            <lb/><seg>Item es haben sich <orgName ref="org007944">beid raͤt</orgName> einhellig geaint in appellacion sachen:</seg>
+                            <seg>Woͤlcher
+                                <lb/>vom <orgName ref="org005587">cleinen raͧt</orgName> fu̍r den <orgName ref="org009293">grossen raͧt</orgName> appelliert, das der, so appelliert,
+                                <lb/>soͤlch appellacion tuͦn sol vor offen raͧt in <date dur="P10D">x tag</date> nach der urtail und
+                                <lb/>umb tagsatzung bitten in <date dur="P1M">einem mōnat</date>, dem naͤchsten, und sol
+                                <lb/>der appellierend parthy vom schultheiß nit tag gesetzt werden, sy
+                                <lb/>habe dann der urtail, darvon geappelliert ist, <add place="above"><del>ein</del></add> sonder urtailbrief. Unnd
+                                <lb/>woͤlche parthy verlustig wirt, dem sol nit ander costen erkannt werden ze geben,
+                                <lb/>dann was von gerichtz wegen uff die sach ergangen ist, <del><unclear>vor</unclear></del> es wēre dann
+                                <lb/>verschribner oder versprochner cost.</seg>
+                            <seg>Woͤlcher ouch appelliert und die an<lb break="no"/>sprach ob <measure type="currency" unit="lb" quantity="50">l </measure> ist, der sol <measure type="currency" unit="fl" quantity="1">j </measure> in gemeiner statt seckel lēgen, emals
+                                <lb/>im ferer tag gesetzt werde. Und <del>under <unclear>j </unclear></del> wo die ansprach <measure type="currency" unit="lb" quantity="50">fu̍nffzig
+                                    <lb/>pfund</measure> und darunder, sol er aber <measure type="currency" unit="lb" quantity="1">j </measure> der statt geben und der statt beliben
+                                <lb/>und den parthyen nit wider zuͦ erkannt werden mit anderm costen.
+                                <lb/>Item desglichen sol es mit den urtailbriefen von der statt gericht in appellacion
+                                <lb/>sachen ouch gehalten werden. Und woͤlcher vom gericht in <orgName ref="org005587">cleinen raͧt</orgName> appelliert,
+                                <lb/>sol <measure type="currency" unit="ß" quantity="5">v </measure> in das gericht legen.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Frist und die Gebühren für Appellationen an den <orgName ref="org009293">Grossen Rat</orgName> der Stadt <placeName ref="loc000849">Winterthur</placeName> hatten <orgName ref="org007944">beide Räte</orgName> bereits im Vorjahr festgelegt (<bibl>STAW B 2/6, S. 289</bibl>), sie wurden in der Folgezeit bestätigt (<bibl>STAW B 2/7, S. 259</bibl>, zu 1518). Die Gebühren für Berufungen vor den Kleinen Rat als Appellationsinstanz des Stadtgerichts betrugen 1527 bei einer Streitsumme über 50 Pfund 1 Pfund und bei einer geringeren Summe 10 Schilling (<bibl>STAW B 2/8, S. 104-105</bibl>). Der <placeName ref="loc000849">Winterthurer</placeName> Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> hat in ein Heft mit Notizen zu Gerichtsprozessen um die Mitte der 1520er Jahre eine Verordnung über die gerichtliche Appellation eingetragen, die das Verfahren präzisiert: Die Partei, die Berufung einlegen wollte, sollte sich das Urteil umgehend vom Stadtschreiber verbriefen lassen. Innerhalb der zehntägigen Appellationsfrist hatte man dem Schultheissen das Urteil vorzulegen und die Gebühr zu entrichten, das Verfahren musste innerhalb eines Monats durchgeführt werden (<bibl>STAW B 5/1a, fol. 7v</bibl>). Der vorliegende Ratsbeschluss wurde unter der Überschrift <orig>Abermahls erkantnus geschehen, wie die appellationen beschehen sollen</orig> in das von <persName ref="per014937">Hegner</persName> angelegte Kopial- und Satzungsbuch eingetragen, das nur in einer späten Abschrift überliefert ist (<bibl>winbib Ms. Fol. 27, S. 405</bibl>).</p>
+                        <p>Die <placeName ref="loc000065">Zürcher</placeName> Obrigkeit bestätigte den Instanzenzug in <placeName ref="loc000849">Winterthur</placeName> vom Gericht zum <orgName ref="org005587">Kleinen Rat</orgName> und von dort zum <orgName ref="org009293">Grossen Rat</orgName>. Besassen Kläger und Beklagte das <placeName ref="loc000849">Winterthurer</placeName> Bürgerrecht und hatten ihren Wohnsitz in der Stadt, war eine weitere Appellation an <orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> nicht zulässig. Diese Möglichkeit bestand nur für <orgName ref="org002406">Zürcher</orgName> Untertanen, die ausserhalb <placeName ref="loc000849">Winterthurs</placeName> ansässig waren, sowie für Auswärtige (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_235">SSRQ ZH NF I/2/1, Nr. 235</ref></bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
