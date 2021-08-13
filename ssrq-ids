@@ -1,0 +1,8 @@
+#!/bin/bash
+# Get all used SSRQ-IDS and save them in text files
+
+egrep -hor '(key\d{6})' . | sort | uniq > erqzh-keywords.txt;
+egrep -hor '(lem\d{6})' . | sort | uniq > erqzh-lem.txt;
+egrep -hor '(per\d{6})' . | sort | uniq > erqzh-persons.txt;
+egrep -hor '(org\d{6})' . | sort | uniq > erqzh-organisations.txt;
+egrep -hor '(loc\d{6})' . | sort | uniq > erqzh-places.txt;
