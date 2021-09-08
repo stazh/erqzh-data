@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Zweite Reihe:
+Die Rechtsquellen der Stadt Winterthur. Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<date type="electronic" when="2020-06-01"/>
+<date type="print" when="2020-06-01"/>
+</publicationStmt>
+
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1</idno>
+</seriesStmt>
+
+<sourceDesc>
+<listWit>
+<witness/>
+</listWit>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+</p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head type="title">Einleitung</head>
+<p>Der erste Teil der Edition ausgewählter Rechtsquellen der Stadt Winterthur umfasst den Zeitraum zwischen 1180 und 1550 und berücksichtigt
+das damalige Stadtgebiet, ohne die 1922 eingemeindeten Orte Oberwinterthur, Seen, Töss, Veltheim und Wülflingen, sowie die bis 1798 zum
+städtischen Territorium gehörende Gemeinde Hettlingen. In diesen 370 Jahren ereigneten sich mehrere Herrschaftswechsel, bildeten sich
+kommunale Verwaltungsstrukturen heraus, setzte mit dem Erwerb des Dorfes Hettlingen die, wenn auch bescheidene, territoriale Expansion
+Winterthurs ein, konnte der Pfarrsprengel auf die Vorstädte ausgedehnt werden und vollzog sich die Reformation.</p>
+<p>Den politischen, administrativen, sozialen, ökonomischen und kulturellen Entwicklungen der Stadt Winterthur widmen sich viele
+Einzelstudien und umfassende Darstellungen wie die 2014 erschienene zweibändige Stadtgeschichte. Auch zu Hettlingen liegt eine 1985
+publizierte Ortsgeschichte vor. Daher sollen im Folgenden die Rahmenbedingungen städtischen Handelns nur kurz umrissen werden. Details,
+Kontextinformationen und Literaturhinweise zu den einzelnen Aspekten finden sich in den Kommentaren zu den edierten Quellen. Abschliessend
+folgen Erläuterungen zu der Auswahl der Quellen und der Überlieferungssituation, zu den Stadtschreibern von Winterthur und der städtischen
+Kanzleipraxis sowie zu den angewandten Editionsgrundsätzen und Transkriptionsrichtlinien.</p>
+<head type="title" n="1">Rahmenbedingungen städtischen Handelns</head>
+<head type="subtitle" n="1.1">Stadtherrschaft</head>
+<p>Als Graf Hartmann III. von Kyburg im ausgehenden 12. Jahrhundert die rechtliche Stellung der Kirche in Winterthur klären liess,<note
+xml:id="ftn1"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_001">SSRQ ZH NF I/2/1, Nr. 1</ref></bibl>.</note> war der Prozess der
+Stadtwerdung in vollem Gang. Erste Befestigungen waren errichtet und ein Bachsystem angelegt worden, Kaufleute und Handwerker hatten sich
+niedergelassen.<note xml:id="ftn2"><bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 47-63</bibl>.</note> Um die
+Mitte des 13. Jahrhunderts beglaubigte die Gemeinde Rechtsgeschäfte mit einem eigenen Siegel,<note xml:id="ftn3"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_002">SSRQ ZH NF I/2/1, Nr. 2</ref></bibl>.</note> bald darauf ist ein Rat aus Bürgern
+nachweisbar.<note xml:id="ftn4"><bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 63-64</bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Kläui 1964a</ref>, S. 42-43</bibl>.</note> Urbarielle Aufzeichnungen dokumentieren die Rechte und
+Einkünfte, welche die Stadtherrschaft, zunächst die Grafen von Kyburg, dann die Herzöge von Österreich aus dem Haus Habsburg, in Winterthur
+beanspruchten.<note xml:id="ftn5"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_004">SSRQ ZH NF I/2/1, Nr. 4</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">13</ref></bibl>.</note> Anlässlich des Übergangs der Herrschaft von Graf Hartmann IV. von Kyburg
+auf Graf Rudolf IV. von Habsburg, den späteren König, wurden die in der Stadt geltenden Rechtsnormen im Jahr 1264 erstmals schriftlich
+fixiert.<note xml:id="ftn6"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref></bibl>.</note> Diese Normen
+wurden bald von städtischer Seite aus dem Lateinischen übersetzt, modifiziert und erweitert, anderen Städten mitgeteilt und regelmässig den
+sich ändernden Verhältnissen angepasst.<note xml:id="ftn7"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr.
+7</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_170">170</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_260">260</ref></bibl>.</note> Die Urkunde von 1264 definierte erstmals den städtischen Rechtsbezirk,
+den Friedkreis, der über die Stadtmauern hinausreichte. Eximiert waren die in und um Winterthur liegenden Kelnhöfe und Schupposen, die
+gegenüber der Herrschaft zinspflichtig waren und einem eigenen Hofrecht und Gericht, dem Schuppisengericht, unterstanden.<note xml:id="ftn8"
+><bibl><ref target="/startseite/literaturverzeichnis">Weymuth 1967</ref>, S. 77</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Ganz 1958</ref>, S. 262, 268-269</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 1, S.
+324-328</bibl>.</note> Schultheiss und Rat durften sich keiner Rechtsstreitigkeiten um diese Güter annehmen.<note xml:id="ftn9"><bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=685480">StAZH A 155.1, Nr. 113</ref></bibl>.</note> Ihre Inhaber mussten
+Kriegsdienst für die Herrschaft Kyburg leisten, sofern sie nicht das Winterthurer Bürgerrecht besassen.<note xml:id="ftn10">Vgl. <bibl><ref
+target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=755879">StAZH A 131.1, Nr. 12</ref></bibl>.</note> Der Friedkreis wurde 1442
+durch König Friedrich III. auf Kosten der Herrschaft Kyburg erweitert.<note xml:id="ftn11"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_074">SSRQ ZH NF I/2/1, Nr. 74</ref></bibl>. Ausdehnung und Erweiterung des Friedkreises
+veranschaulicht die Karte bei <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 116</bibl>.</note></p>
+<p>Zu den vor allem in der ersten Hälfte des 15. Jahrhunderts erweiterten Kompetenzen des Schultheissen und Rats von Winterthur<note
+xml:id="ftn12"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_015">SSRQ ZH NF I/2/1, Nr. 15</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_034">34</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_039">39</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_048">48</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_053"
+>53</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_063">63</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_129">129</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_278"
+>278</ref></bibl>.</note> zählten die Finanzverwaltung<note xml:id="ftn13"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_041">SSRQ ZH NF
+I/2/1, Nr. 41</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_175">175</ref></bibl>.</note>, die Erhebung von Steuern<note
+xml:id="ftn14"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_078">SSRQ ZH NF I/2/1, Nr. 78</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_086">86</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_141">141</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_166">166</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_266"
+>266</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_267">267</ref></bibl>.</note> und Zöllen<note xml:id="ftn15"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_140">SSRQ ZH NF I/2/1, Nr. 140</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_179"
+>179</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_272">272</ref></bibl>.</note>, die zivile Rechtspflege<note
+xml:id="ftn16"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_008">SSRQ ZH NF I/2/1, Nr. 8</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_014">14</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_021">21</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_026">26</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_032"
+>32</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_037">37</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_054">54</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_057">57</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_058">58</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_071"
+>71</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_100">100</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_104">104</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_112">112</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_132">132</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_149"
+>149</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_155">155</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_162">162</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_176">176</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_177">177</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_184"
+>184</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_205">205</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_208">208</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_213">213</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_220">220</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_227"
+>227</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_235">235</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_238">238</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_246">246</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_257">257</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_258"
+>258</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_261">261</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_279">279</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_284">284</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_285">285</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_287"
+>287</ref></bibl>.</note>, die Strafgerichtsbarkeit<note xml:id="ftn17"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_009">SSRQ ZH NF
+I/2/1, Nr. 9</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_012">12</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_051">51</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_061">61</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_067">67</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_70"
+>70</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_073">73</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_087">87</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_088">88</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_101">101</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_110"
+>110</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_144">144</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_154">154</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_155">155</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_161">161</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_166"
+>166</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">171</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_194">194</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_196">196</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_222">222</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_228"
+>228</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_253">253</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_271">271</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_273">273</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_274">274</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_275"
+>275</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_281">281</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_289">289</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_295">295</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_296">296</ref></bibl>.</note>, die Aufrechterhaltung von Ordnung und Sicherheit<note
+xml:id="ftn18"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_050">SSRQ ZH NF I/2/1, Nr. 50</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_059">59</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_081">81</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_095">95</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_116"
+>116</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_137">137</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_142">142</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_146">146</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_159">159</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_189"
+>189</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_204">204</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_223">223</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_244">244</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_245">245</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_268"
+>268</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_276">276</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_277">277</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_297">297</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_300">300</ref></bibl>.</note>, die Kontrolle von Handwerk und Handel<note xml:id="ftn19"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_036">SSRQ ZH NF I/2/1, Nr. 36</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_076">76</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_089">89</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_102">102</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_106"
+>106</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_109">109</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_111">111</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_117">117</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_131">131</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_133"
+>133</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_134">134</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_138">138</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_157">157</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_174">174</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_185"
+>185</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_186">186</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_188">188</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_191">191</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_201">201</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_203"
+>203</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_225">225</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_234">234</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_248">248</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_259">259</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_262"
+>262</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_263">263</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_264">264</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_270">270</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_293">293</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_294"
+>294</ref></bibl>.</note>, die Bauaufsicht<note xml:id="ftn20"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_011">SSRQ ZH NF I/2/1, Nr.
+11</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_198">198</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_211">211</ref></bibl>.</note>, der Betrieb des Spitals und des Siechenhauses und die Organisation des
+Fürsorgewesens<note xml:id="ftn21"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_095">SSRQ ZH NF I/2/1, Nr. 95</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_118">118</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_124">124</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_168">168</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_183"
+>183</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_187">187</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_202">202</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_221">221</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_229">229</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_236"
+>236</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_244">244</ref></bibl>.</note> sowie Aufsichtsfunktionen im kirchlichen
+Bereich<note xml:id="ftn22"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_010">SSRQ ZH NF I/2/1, Nr. 10</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_027">27</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_030">30</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_033">33</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_066"
+>66</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_075">75</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_119">119</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_130">130</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_145">145</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_156"
+>156</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_182">182</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_192">192</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_200">200</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_217">217</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_232"
+>232</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_237">237</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_241">241</ref></bibl>.</note>. Die städtischen Aussenbeziehungen unterlagen hingegen Restriktionen.
+Die Winterthurer durften keine Bündnisse eingehen und keine eigenen kriegerischen Unternehmungen durchführen, ihr militärisches Aufgebot
+stand der Stadtherrschaft zur Verfügung.<note xml:id="ftn23"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_150">SSRQ ZH NF I/2/1, Nr.
+150</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_212">212</ref></bibl>.</note> Zur Befriedung der Region trugen
+Schultheiss und Rat allerdings als Mediatoren oder Schiedsinstanz in Konflikten benachbarter Herren und Städte bei.<note xml:id="ftn24"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_031">SSRQ ZH NF I/2/1, Nr. 80</ref></bibl>.</note></p>
+<p>Bedingt durch Phasen fehlender Präsenz der habsburgischen Herrschaft vor Ort, durch die Verpfändung der Stadt an Gefolgsleute<note
+xml:id="ftn25"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_031">SSRQ ZH NF I/2/1, Nr. 31</ref></bibl>.</note> und äussere Bedrohungen
+agierten Schultheiss und Rat von Winterthur zunehmend selbstständiger. 1407 schlossen sie einen Burgrechtsvertrag mit Zürich, mussten dieses
+Abkommen jedoch wieder aufgeben.<note xml:id="ftn26"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_040">SSRQ ZH NF I/2/1, Nr.
+40</ref></bibl>.</note> Als Herzog Friedrich IV. von Österreich im Jahr 1415 bei König Sigmund in Ungnade fiel und seine Besitzungen
+eingezogen wurden, fiel Winterthur ans Reich.<note xml:id="ftn27"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_047">SSRQ ZH NF I/2/1,
+Nr. 47</ref></bibl>.</note> In dieser Zeit erwarb die Stadt das zuvor ebenfalls in habsburgischem Besitz befindliche Dorf Hettlingen.<note
+xml:id="ftn28"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_065">SSRQ ZH NF I/2/1, Nr. 65</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_068">68</ref></bibl>.</note> 1442 unterstellten sich die Winterthurer wieder der Herrschaft der
+Herzöge von Österreich und erreichten von ihnen die Anerkennung der zwischenzeitlich erlangten Rechte und weitere Zugeständnisse.<note
+xml:id="ftn29"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_072">SSRQ ZH NF I/2/1, Nr. 72</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_074">74</ref></bibl>.</note> Nachdem die Habsburger 1452 die Herrschaft Kyburg an die Stadt Zürich
+verpfändet und 1460 den Thurgau an die eidgenössischen Orte verloren hatten, trat Herzog Sigmund von Österreich im Jahr 1467 schliesslich
+auch die Stadt Winterthur für eine Pfandsumme von 10'000 Gulden an die Zürcher ab.<note xml:id="ftn30"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_090">SSRQ ZH NF I/2/1, Nr. 90</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_091"
+>91</ref></bibl>.</note> Die Verbindungen der Winterthurer Oberschicht an den habsburgischen Hof bestanden indessen fort.<note
+xml:id="ftn31"><bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2005</ref></bibl>; <bibl><ref
+target="/startseite/literaturverzeichnis">Niederhäuser 1996a</ref>, S. 155-160</bibl>.</note></p>
+<p>Unter dem Zürcher Regiment verengten sich die Handlungsspielräume des Schultheissen und Rats von Winterthur wieder. Der Prozess der
+Herrschaftsintensivierung seitens Zürichs und der Vereinheitlichung der Rechtsordnungen in den Untertanengebieten<note xml:id="ftn32">Vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/3</ref>, Einleitung, Abschnitt 1</bibl>.</note> wirkte sich auch auf
+Winterthur aus. Wiederholt wurden Schultheiss und Rat aufgefordert, Satzungen der Stadt Zürich zu übernehmen, um den inneren Frieden
+innerhalb des Zürcher Territoriums nicht zu gefährden.<note xml:id="ftn33"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_216">SSRQ ZH NF
+I/2/1, Nr. 216</ref></bibl> (Solddienstverbot), <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_256">256</ref></bibl> (Sittenmandat),
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_291">291</ref></bibl> (Feiertagsregelung).</note> Zwar hatten die Zürcher bei der
+Herrschaftsübernahme die Rechte und Freiheiten der Winterthurer bestätigt,<note xml:id="ftn34"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_092">SSRQ ZH NF I/2/1, Nr. 92</ref></bibl>.</note> doch kam es immer wieder zu Kompetenzkonflikten.
+Umstritten waren vor allem die Appellation gegen in Winterthur ergangene Urteile<note xml:id="ftn35"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_205">SSRQ ZH NF I/2/1, Nr. 205</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_235"
+>235</ref></bibl>.</note> und die Gerichtsrechte in Hettlingen<note xml:id="ftn36"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_161"
+>SSRQ ZH NF I/2/1, Nr. 161</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_195">195</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_274">274</ref></bibl>.</note>, aber auch die Bestrafung delinquenter Winterthurer Bürger ausserhalb
+des städtischen Rechtsbezirks.<note xml:id="ftn37"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_299">SSRQ ZH NF I/2/1, Nr.
+299</ref></bibl>.</note> Zudem kollidierten die Bemühungen der Stadt, ein eigenes Territorium aufzubauen, mit den Interessen der
+Landesherrschaft.<note xml:id="ftn38"><bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 198-199</bibl>.</note>
+Schon von Kaiser Maximilian hatten sich die Winterthurer das Pfandlösungsrecht bestätigen lassen.<note xml:id="ftn39"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_199">SSRQ ZH NF I/2/1, Nr. 199</ref></bibl>.</note> Das Privileg, das sie 1544 von Karl V. erwarben,
+beinhaltete darüber hinaus die Anerkennung des Grossen Rats als letzte gerichtliche Appellationsinstanz, die Bewilligung des Jagdrechts im
+Eschenberger Wald und das Zugeständnis, Konflikte mit der Stadt Zürich vor Dritten auszutragen.<note xml:id="ftn40"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>.</note> Damals scheinen die Winterthurer allerdings keine
+Chance gesehen zu haben, die eingeräumten Rechte durchzusetzen, und machten keinen Gebrauch von dem Privileg. 1549 erhielten die Zürcher
+Kenntnis davon, untersuchten den Vorfall und zogen die Urkunde ein. Schultheiss und Rat von Winterthur mussten sich verpflichten, nicht mehr
+ohne Erlaubnis der Stadt Zürich nach Freiheiten zu streben.<note xml:id="ftn41"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_298">SSRQ
+ZH NF I/2/1, Nr. 298</ref></bibl>.</note></p>
+<p>Die inneren Verhältnisse konnten Schultheiss und Rat von Winterthur hingegen weitgehend autonom regeln. Wer in der Stadt lebte, musste
+den obrigkeitlichen Verordnungen und Weisungen gehorchen und die städtische Gerichtsbarkeit anerkennen.<note xml:id="ftn42"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_165">SSRQ ZH NF I/2/1, Nr. 165</ref></bibl>.</note> Die verschiedenen Bevölkerungsgruppen, Bürger und
+Bürgerinnen, Niedergelassene, temporär in Winterthur arbeitende und wohnende Handwerksgesellen sowie Dienstbotinnen und Dienstboten, hatten
+unterschiedliche Rechte und Pflichten. Prinzipiell waren sie alle steuerpflichtig und konnten zu gewissen Dienstleistungen herangezogen
+werden. Der Zugang zum Bürgerrecht, das zumindest den Männern christlichen Glaubens die Wahl des Schultheissen und die Übernahme von Ämtern
+ermöglichte, war limitiert. Männer und Frauen konnten es erben oder durch Kauf erwerben.<note xml:id="ftn43"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_038">SSRQ ZH NF I/2/1, Nr. 38</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_079"
+>79</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_099">99</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_105">105</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_160">160</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_239">239</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_240"
+>240</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_265">265</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_282">282</ref></bibl>.</note> Zugezogene mussten ein Leumundszeugnis vorlegen.<note xml:id="ftn44"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_231">SSRQ ZH NF I/2/1, Nr. 231</ref></bibl>.</note> Auch landsässige Adlige, Geistliche
+und ganze Konvente traten in das städtische Bürgerrecht.<note xml:id="ftn45"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_113">SSRQ ZH
+NF I/2/1, Nr. 113</ref></bibl>.</note> Im Gegensatz zu ihnen unterlagen Juden und Jüdinnen, die eingebürgert wurden, erheblichen
+Einschränkungen.<note xml:id="ftn46"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_097">SSRQ ZH NF I/2/1, Nr. 97</ref></bibl>.</note>
+Darüber hinaus konnte man sich als Hintersasse in Winterthur niederlassen.<note xml:id="ftn47"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_064">SSRQ ZH NF I/2/1, Nr. 64</ref></bibl>.</note> Wer fortzog, musste eine vermögensabhängige
+Abzugsgebühr entrichten.<note xml:id="ftn48"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_269">SSRQ ZH NF I/2/1, Nr. 269</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_288">288</ref></bibl>.</note> Die Ausübung eines Handwerks oder eines Gewerbes war an die
+Mitgliedschaft in einer Stubengesellschaft gebunden.<note xml:id="ftn49"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_107">SSRQ ZH NF
+I/2/1, Nr. 107</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_162">162</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_207">207</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_220">220</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_227">227</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_246"
+>246</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_279">279</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_287">287</ref></bibl>.</note> Zünfte als politische Interessenvertretung der Handwerke konnten sich
+in Winterthur nicht etablieren.<note xml:id="ftn50"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_015">SSRQ ZH NF I/2/1, Nr.
+15</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_020">20</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_045">45</ref></bibl>.</note></p>
+<head type="subtitle" n="1.2">Kirchliche Verhältnisse</head>
+<p>Während die Anfänge von Oberwinterthur in die römische Zeit zurückreichen, wurde die Siedlung Niederwinterthur, aus der sich später die
+Stadt Winterthur entwickelte, erst im 6. Jahrhundert angelegt. Mit zeitlichem Verzug wurde auch dort eine Kirche errichtet, zunächst aus
+Holz, dann aus Stein. Bereits um das Jahr 1000 scheint sie Pfarreifunktion besessen zu haben und wurde von einer nicht zweifelsfrei zu
+identifizierenden Adelsfamilie als Grablege genutzt. Im späten 11. oder im 12. Jahrhundert wurde der Kirchenbau erweitert und übertraf
+zuletzt in seinen räumlichen Dimensionen die Pfarrkirche in Oberwinterthur, als deren Filiale die Kirche in Niederwinterthur beansprucht
+wurde. Ob der Ausbau auf die Initiative der Grafen von Kyburg geschah oder schon vor ihrem Herrschaftsantritt erfolgt war, ist unklar.<note
+xml:id="ftn51"><bibl><ref target="/startseite/literaturverzeichnis">Windler 2014</ref>, S. 28-33, 38-45, 50-56</bibl>.</note> 1180 erlangte
+Graf Hartmann III. von Kyburg die Anerkennung der Kirche als Pfarrkirche durch den Bischof von Konstanz, künftige Quartiere sollten jedoch
+weiterhin dem Sprengel von Oberwinterthur angehören.<note xml:id="ftn52"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_001">SSRQ ZH NF
+I/2/1, Nr. 1</ref></bibl>.</note> Die Integration der Vorstädte in die Pfarrgemeinde der Stadt Winterthur gelang im Jahr 1482.<note
+xml:id="ftn53"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_123">SSRQ ZH NF I/2/1, Nr. 123</ref></bibl>.</note></p>
+<p>Das Patronatsrecht der Pfarrkirche wurde durch die Stadtherrschaft ausgeübt,<note xml:id="ftn54"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_030">SSRQ ZH NF I/2/1, Nr. 30</ref></bibl>.</note> die im Laufe der Zeit von Laien oder Klerikern
+gestifteten Altarpfründen vergab der Rat.<note xml:id="ftn55"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_054">SSRQ ZH NF I/2/1, Nr.
+54</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_103">103</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_156">156</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_192">192</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_217">217</ref></bibl>.</note> Der Pfarrer und die Kapläne wurden in die Winterthurer
+Herrenstube aufgenommen, die Trinkstube für die Oberschicht.<note xml:id="ftn56"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_077">SSRQ
+ZH NF I/2/1, Nr. 77</ref></bibl>.</note> Durch die Kirchenpfleger nahm die städtische Obrigkeit Einfluss auf die Vermögensverwaltung,<note
+xml:id="ftn57"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_182">SSRQ ZH NF I/2/1, Nr. 182</ref></bibl>.</note> gleichzeitig
+reglementierte sie die Stiftungstätigkeit der Bürgerinnen und Bürger.<note xml:id="ftn58"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_066">SSRQ ZH NF I/2/1, Nr. 66</ref></bibl>.</note> Sie unterstützte auch Disziplinarmassnahmen gegen
+deviante Geistliche.<note xml:id="ftn59"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_130">SSRQ ZH NF I/2/1, Nr. 130</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_192">192</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_217"
+>217</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2020</ref>, S. 28-31</bibl>.</note> Gewisse
+Aufsichtsfunktionen leiteten Schultheiss und Rat aus dem Bürgerrecht geistlicher Personen und Institutionen ab wie bei dem einzigen in der
+Stadt ansässigen Konvent der Dominikaner-Terziarinnen.<note xml:id="ftn60"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_003">SSRQ ZH NF
+I/2/1, Nr. 3</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_010">10</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_025">25</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_206">206</ref></bibl>; vgl.
+<bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2020</ref>, S. 32-34</bibl>.</note> Anders als in Zürich, wo die
+massgeblichen kirchenpolitischen Entscheidungen getroffen wurden, fand die Reformation in Winterthur wenig Niederschlag in den Quellen. Der
+Frauenkonvent wurde aufgelöst und die Schwestern abgefunden.<note xml:id="ftn61"><bibl><ref target="/startseite/literaturverzeichnis"
+>Niederhäuser 2020</ref>, S. 103-104</bibl>.</note> Der Klerus an der Pfarrkirche, damals ohnehin im Konflikt mit dem Bischof von Konstanz,
+unterstellte sich Mitte Februar 1524 dem Rat.<note xml:id="ftn62"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_232">SSRQ ZH NF I/2/1,
+Nr. 232</ref></bibl>.</note> Das Kirchenvermögen wurde eingezogen und zur Finanzierung der Armenfürsorge verwendet.<note xml:id="ftn63"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_233">SSRQ ZH NF I/2/1, Nr. 233</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_236">236</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_237">237</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_241">241</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+>Niederhäuser 2020</ref>, S. 91-97</bibl>.</note> 1529 konnte die Stadt Winterthur die im Friedkreis gelegenen Gebäude des aufgehobenen
+Chorherrenstifts Heiligberg von der Stadt Zürich erwerben.<note xml:id="ftn64"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_249">SSRQ
+ZH NF I/2/1, Nr. 249</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_250">250</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_251">251</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_252"
+>252</ref></bibl>.</note></p>
+<head type="subtitle" n="1.3">Territorialer Besitz: Hettlingen</head>
+<p>Der Name des 886 erstmals urkundlich belegten Dorfs Hettlingen deutet auf eine Besiedlung im 6. Jahrhundert hin, um 700 besass die
+Siedlung eine Kirche. Die Besitzgeschichte des Dorfs im Früh- und Hochmittelalter lässt sich nicht mehr rekonstruieren. Ende des 9.
+Jahrhunderts war die Familie der Udalriche dort begütert, auch das Kloster St. Gallen erwarb Besitz in Hettlingen.<note xml:id="ftn65"
+><bibl><ref target="/startseite/literaturverzeichnis">UBSG</ref>, Bd. 2, Nr. 655, 713, 757</bibl>; vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 16, 29-36, 117-123</bibl>.</note> Durch die Heirat mit Adelheid, deren
+familiäre Herkunft nicht eindeutig geklärt ist, gelangte Graf Hartmann von Dillingen vor 1079 in den Besitz von Gütern um Winterthur. Die
+Nachkommen des Paars benannten sich nach Kyburg.<note xml:id="ftn66"><bibl><ref target="/startseite/literaturverzeichnis">Burlet 2015</ref>,
+S. 66-68</bibl>.</note> Sie besassen Rechte und Einkünfte in Hettlingen, die zum Teil entfremdet waren,<note xml:id="ftn67"><bibl><ref
+target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 553, 555, 556</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Habsburgisches Urbar</ref>, Bd. 2/I, S. 38-39, 42</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_004">SSRQ ZH NF I/2/1, Nr.
+4</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4099</bibl>.</note> später aber von ihren
+Nachfolgern, den Habsburgern, wieder als Lehen ausgegeben wurden.<note xml:id="ftn68"><bibl><ref target="/startseite/literaturverzeichnis"
+>Habsburgisches Urbar</ref>, Bd. 2/I, S. 474, 484-485, 494, 497, 512</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_043">SSRQ ZH
+NF I/2/1, Nr. 43</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_044">44</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_058">58</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S.
+51-52, 60-61</bibl>.</note> Mehrere Klöster und Stifte hatten Grundbesitz im Dorf, beispielsweise das Kloster St. Katharinental bei
+Diessenhofen, das Dominikanerinnenkloster Töss, der Winterthurer Schwesternkonvent, das Chorherrenstift Heiligberg und das Kloster Rüti. Im
+Zuge der Reformation zogen die Zürcher den Besitz der aufgehobenen Klöster in ihrem Territorium ein.<note xml:id="ftn69"><bibl><ref
+target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 75-78, 98-101</bibl>.</note></p>
+<p>Nach der Entmachtung Herzog Friedrichs IV. von Österreich und des Einzugs seiner territorialen Besitzungen durch König Sigmund im Jahr
+1415 fiel das Dorf Hettlingen an die Stadt Winterthur. Der Zeitpunkt und die Umstände des Erwerbs sind nicht bekannt, im Mai 1434 verwaltete
+ein städtischer Vogt das Dorf.<note xml:id="ftn70"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_065">SSRQ ZH NF I/2/1, Nr.
+65</ref></bibl>.</note> Drei Jahre danach bestätigte Sigmund diesen Besitz<note xml:id="ftn71"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_068">SSRQ ZH NF I/2/1, Nr. 68</ref></bibl>.</note> und auch König Friedrich III. aus dem Haus
+Habsburg erkannte Winterthurs Rechte in Hettlingen an.<note xml:id="ftn72"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_072">SSRQ ZH NF
+I/2/1, Nr. 72</ref></bibl>.</note> Unter den Zürchern kam es jedoch zu Konflikten um hoheitliche Kompetenzen. Infolge der Pfandnahme der
+Herrschaft Kyburg im Jahr 1452 beanspruchte Zürich in Hettlingen, das im Bezirk des Enneramts lag, die Ausübung der
+Hochgerichtsbarkeit,<note xml:id="ftn73"><bibl><ref target="/startseite/literaturverzeichnis">Zürcher Stadtbücher</ref>, Bd. 3/2, S.
+225-226, Nr. 143</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 81-82</bibl>.</note> während die
+Winterthurer die Strafgewalt in dem Dorf für sich reklamierten<note xml:id="ftn74"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_155"
+>SSRQ ZH NF I/2/1, Nr. 155</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_161">161</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">171</ref></bibl>.</note> und ihren Standpunkt letztlich behaupten konnten.<note xml:id="ftn75"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_274">SSRQ ZH NF I/2/1, Nr. 274</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_280">280</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S.
+83-90</bibl>.</note> Andererseits konnte Hettlingen von der Zollbefreiung der Herrschaft Kyburg profitieren.<note xml:id="ftn76"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_121">SSRQ ZH NF I/2/1, Nr. 121</ref></bibl>.</note> Weitere Bemühungen Winterthurs im 16. und 17.
+Jahrhundert, das städtische Territorium auszubauen, wurden von Zürich immer wieder blockiert.<note xml:id="ftn77"><bibl><ref
+target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 198-200</bibl>.</note></p>
+<p>Rechte und Pflichten der Obrigkeit und der Gemeinde definierte die Offnung von 1538.<note xml:id="ftn78"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_280">SSRQ ZH NF I/2/1, Nr. 280</ref></bibl>.</note> Schultheiss und Rat von Winterthur erliessen
+Verordnungen, verhängten Strafen und zogen Bussen ein.<note xml:id="ftn79">Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_142">SSRQ
+ZH NF I/2/1, Nr. 142</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_155">155</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">171</ref></bibl>.</note> Sie setzten einen Obervogt aus ihren Reihen und einen Untervogt aus der
+Gemeinde ein. Die Gemeinde ernannte die vier Dorfmeier und die beiden Brunnenmeister.<note xml:id="ftn80">Zu den Kompetenzen vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 145-150, 167-169</bibl>.</note> Die Offnung regelte Aufgaben wie den
+Unterhalt von Wegen und Strassen sowie von Grenzzäunen und Gattern, die Reinigung der Gräben und die Haltung der Zuchttiere. Darüber hinaus
+fixierte sie Weide- und Wegerechte, die wiederholt Gegenstand von Ausgleichsverhandlungen mit benachbarten Orten gewesen waren.<note
+xml:id="ftn81"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_114">SSRQ ZH NF I/2/1, Nr. 114</ref></bibl>, <bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_139">139</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S.
+106-107</bibl>.</note> Die Teilhabe an den kollektiv genutzten Weideflächen war auf Gemeindeangehörige beschränkt. Die Konditionen für den
+Zuzug formulierte der von der Obrigkeit ausgestellte Einzugsbrief.<note xml:id="ftn82"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_230">SSRQ ZH NF I/2/1, Nr. 230</ref></bibl>.</note> Weitere Quellen über die administrativen,
+gerichtlichen, ökonomischen und sozialen Verhältnisse in Hettlingen stammen überwiegend aus späterer Zeit, dem 17. und 18. Jahrhundert.</p>
+<p>In die Rechtsnachfolge der kyburgisch-habsburgischen Lehensherrschaft über die Burg Hettlingen<note xml:id="ftn83"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_043">SSRQ ZH NF I/2/1, Nr. 43</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+>Kläui 1985</ref>, S. 72-75</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 284-287</bibl>.</note>, den
+(kleinen) Zehnten<note xml:id="ftn84"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_058">SSRQ ZH NF I/2/1, Nr. 58</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_149">149</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui
+1985</ref>, S. 115-117</bibl>.</note>, die Taverne<note xml:id="ftn85"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_148">SSRQ ZH NF
+I/2/1, Nr. 148</ref></bibl>.</note> und andere Güter trat die Stadt Zürich ein.<note xml:id="ftn86">Vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 101-103, 115-117</bibl>.</note> Diese nahm ihre Lehensleute in Konflikten mit
+der Gemeinde in Schutz.<note xml:id="ftn87"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_195">SSRQ ZH NF I/2/1, Nr. 195</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_197">197</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_209"
+>209</ref></bibl>.</note> Zu Auseinandersetzungen kam es aber auch zwischen den Dorfbewohnern und dem Besitzer der ausserhalb Hettlingens
+liegenden Eichmühle, Lehen der Abtei Reichenau und später des Hochstifts Konstanz, um die Wasserzufuhr<note xml:id="ftn88"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_096">SSRQ ZH NF I/2/1, Nr. 96</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+>Kläui 1985</ref>, S. 103-105</bibl>.</note> oder dem Inhaber des Pfarrguts (Widem)<note xml:id="ftn89"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_226">SSRQ ZH NF I/2/1, Nr. 226</ref></bibl>.</note>, ein ursprünglich habsburgisches Lehen, das auf
+unbekannte Weise an die Kollatoren der Pfarrkirche Neftenbach gelangte.<note xml:id="ftn90"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_044">SSRQ ZH NF I/2/1, Nr. 44</ref></bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+>Kläui 1985</ref>, S. 114-115, 128-129</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S.
+208-210</bibl>.</note> Die St. Nikolaus-Kapelle in Hettlingen war eine Filialkirche dieser Pfarrkirche. Das Patronatsrecht teilten sich das
+Kloster Paradies bei Schaffhausen und Wolf von Breitenlandenberg, der seine Rechte 1540 der Stadt Zürich abtrat. Mit Winterthurs
+Unterstützung erreichte die Gemeinde im Laufe des 16. Jahrhunderts die Loslösung von der Mutterkirche und die Einrichtung einer eigenen
+Pfarrstelle in Hettlingen.<note xml:id="ftn91"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_057">SSRQ ZH NF I/2/1, Nr. 57</ref></bibl>,
+<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_226">226</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_255"
+>255</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_292">292</ref></bibl>; vgl. <bibl><ref
+target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 113, 117-135</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+>Häberle 1985</ref>, S. 190-191</bibl>.</note></p>
+<head type="title" n="2">Quellenauswahl und Überlieferung</head>
+<p>Die Auswahl der edierten Quellen bildet ein breites Spektrum ab: Konstitutionelle Aspekte berühren die von der Stadtherrschaft und von
+Königen und Kaisern verliehenen Privilegien sowie städtische Rechtsaufzeichnungen. Das Themenfeld Herrschaft umfasst stadtherrliche und
+hoheitliche Rechte sowie territoriale Abgrenzungen und Kompetenzausscheidungen gegenüber Dritten. Weitere Schwerpunkte sind die städtische
+Verwaltung (Ämterorganisation, obrigkeitliche Polizei- und Aufsichtsfunktionen sowie Finanzverwaltung) und die Rechtspflege (Straf- und
+Zivilgerichtsbarkeit, Kompetenzen der Gerichte, Verfahrensablauf, Instanzenzug und Schiedsgerichtsbarkeit). Der Komplex Bürgerrecht befasst
+sich mit dem Verhältnis zwischen Stadt und Bürgern, den beiderseitigen Rechten und Pflichten, den Konditionen der Aufnahme in das
+Bürgerrecht und der Bürgerrechtsaufgabe sowie des Wegzugs aus der Stadt, dem Problem der Leibeigenschaft und dem Status von Minderheiten wie
+den Juden. Grosser Regelungsbedarf kennzeichnet den Sektor Wirtschaft in Bezug auf Masse und Gewichte, Markt und Handel, Handwerk und
+Gewerbe sowie die Frage von Nutzungsrechten. Breiten Raum nimmt auch das Sozialwesen ein, die Fürsorge als obrigkeitliche Aufgabe und ihre
+institutionelle Verankerung in Spital und Siechenhaus sowie das soziale Engagement korporativer Vereinigungen wie den Bruderschaften und
+Stubengesellschaften. Das Themenfeld Kirche bezieht die Kirchenaufsicht, die Organisation der Seelsorge, religiöse Gemeinschaften,
+Stiftungen zugunsten der Kirche und die Erteilung von Gnadenerweisen wie den Ablässen mit ein. Doch nicht zu allen Bereichen liegen bis zur
+Mitte des 16. Jahrhunderts aussagekräftige Quellen vor, beispielsweise zum Schulwesen, zur medizinischen Versorgung, zu den
+Geschäftsordnungen der berufsständischen Verbände oder zum Militärwesen.</p>
+<p>Die thematische Bandbreite korrespondiert mit der typologischen Vielfalt der Quellen. Urbarielle Aufzeichnungen dokumentieren
+eigentumsrechtliche Ansprüche. Sofern Rechtshandlungen und Rechtsgeschäfte urkundlich vollzogen worden sind, fanden sie ihren Niederschlag
+in Gerichtsurteilen und Schiedssprüchen, Notariatsinstrumenten, Verträgen und Verfügungen. Doch nur ein Teil der ausgefertigten Urkunden ist
+überliefert, weil sie im Besitz von Institutionen waren, deren Archive erhalten sind. Dies trifft vor allem für Urkunden zu, die für die
+Stadt ausgestellt wurden, beispielsweise Privilegien und bilaterale Abkommen, oder die in einem Gerichtsverfahren als Beweismittel vorgelegt
+und einbehalten worden sind wie Testamente, Eheverträge oder erstinstanzliche Urteilssprüche. Bei Güterveräusserungen wurden in der Regel
+die noch vorhandenen Unterlagen über frühere Kaufgeschäfte übergeben und gelangten auf diese Weise in die Archive kirchlicher Einrichtungen
+oder städtischer Institutionen wie des Siechenhauses oder des Spitals. Heute befinden sich diese Dokumente in den Urkundenbeständen des
+Stadtarchivs Winterthur (STAW URK) und des Staatsarchivs des Kantons Zürich (StAZH C). Die für Hettlingen ausgestellten Urkunden werden im
+Gemeindearchiv aufbewahrt, einschlägige Dokumente sind aber auch im Stadtarchiv Winterthur und im Staatsarchiv Zürich überliefert. Von
+manchen Urkunden sind lediglich Entwürfe oder Abschriften in Kopialbüchern und Formularsammlungen der städtischen Kanzleien erhalten. Häufig
+geben nur noch Einträge in Amtsbüchern über die Ausfertigung von Urkunden Aufschluss. Hinweise auf konkrete Rechtsanwendung finden sich
+nicht zuletzt in der städtischen Korrespondenz.</p>
+<p>Obrigkeitliche Rechtsnormen wie Satzungen, Verordnungen und Verbote wurden in Amtsbüchern festgehalten oder auf Papierbögen notiert, die
+nachträglich gebunden worden sind oder nach thematischen Kriterien zu Aktenkonvoluten zusammengestellt wurden (Aktenbestände STAW AA bis AM
+und StAZH A 155). Für manche Ordnungen lassen sich Vorlagen aus anderen Städten ermitteln. Die Winterthurer Weberordnung aus den 1460er
+Jahren orientierte sich an einer Musterordnung für das Leinenweberhandwerk, die auf einem überregionalen Handwerkertreffen erarbeitet worden
+war.<note xml:id="ftn92"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_089">SSRQ ZH NF I/2/1, Nr. 89</ref></bibl>.</note> Die
+Müllerordnung von 1506 basiert auf einer Vorlage aus Schaffhausen.<note xml:id="ftn93"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_201">SSRQ ZH NF I/2/1, Nr. 201</ref></bibl>.</note> Die Siechenhausordnung von 1528 und die erste
+Metzgerordnung gehen auf Zürcher Vorlagen zurück.<note xml:id="ftn94"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_244">SSRQ ZH NF
+I/2/1, Nr. 244</ref></bibl>, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_270">270</ref></bibl>.</note></p>
+<p>Im Gegensatz zu den Dokumenten der städtischen Verwaltung, die in öffentlichen Archiven überdauert haben, sind die Überlieferungschancen
+der Aufzeichnungen von Korporationen wie den in Stubengesellschaften organisierten Handwerken oder Bruderschaften, deren Archive nach der
+Auflösung der Verbände nicht gesichert worden waren, vom Zufall abhängig.<note xml:id="ftn95"><bibl><ref
+target="/startseite/literaturverzeichnis">Rozycki 1946</ref>, S. 35</bibl>. In der Sammlung Winterthur in den Winterthurer Bibliotheken
+befinden sich einige Bände solcher Provenienzen wie das Wappenbuch der Herrenstube (<bibl>winbib Ms. Fol. 138</bibl>), Jahresrechnungen und
+Inventare der Rebleutestube (<bibl>winbib Ms. Fol. 203</bibl>, <bibl>Ms. Fol. 204</bibl>, <bibl>Ms. Quart 9</bibl>9), Zunftbücher der
+Oberstube aus dem 17. und 18. Jahrhundert (<bibl>winbib Ms. Quart 32</bibl>, <bibl>Ms. Quart 33</bibl>, <bibl>Ms. Quart 34</bibl>, <bibl>Ms.
+Quart 35</bibl>), Bände mit Handwerksordnungen und Protokollen der Versammlungen der Hafner (<bibl>winbib Ms. Quart 181</bibl>, <bibl>Ms.
+Quart 182</bibl>), Färber (<bibl>winbib Ms. Quart 210</bibl>, <bibl>Ms. Quart 211</bibl>), Weissgerber (<bibl>winbib Ms. Octav 187</bibl>)
+und Maler (<bibl>winbib Ms. Octav 388</bibl>) seit dem 17. Jahrhundert.</note></p>
+<p>Bislang existieren keine Quelleneditionen, die sich auf die Stadt Winterthur beschränken. Sämtliche Winterthurer Urkunden bis zum Jahr
+1336 sind im Urkundenbuch der Stadt und Landschaft Zürich ediert (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd.
+1-13</bibl>). Von den Urkunden und Urkundenabschriften in den Beständen des Staatsarchivs Zürich liegt für den Zeitraum von 1337 bis 1460
+eine Regestenpublikation vor (<bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 1-7</bibl>). Eine Auswahl von Quellen
+über das Winterthurer Wirtschaftsleben ist in der zweibändigen Edition der Quellen zur Zürcher Wirtschaftsgeschichte von den Anfängen bis
+1500 enthalten (<bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref></bibl>). Darüber hinaus werden in Monographien und Aufsätzen
+einzelne einschlägige Dokumente im Wortlaut wiedergegeben. In der vorliegenden Edition werden frühere Editionen jeweils in den
+Quellenbeschreibungen ausgewiesen. Nicht berücksichtigt wurden Publikationen, in denen die Texte lediglich paraphrasiert oder stark
+normalisiert abgedruckt sind.</p>
+<head type="title" n="3">Kanzlei der Stadt Winterthur</head>
+<p>Über die frühe Kanzleipraxis und das Kanzleipersonal in Winterthur lassen sich kaum Aussagen treffen. Seit 1290 wirkte ein namentlich
+nicht bekannter Schreiber in der Stadt, der ein charakteristisches Urkundenformular entwickelte und die 1264 in lateinischer Sprache
+verfasste Rechtsaufzeichnung Graf Rudolfs von Habsburg ins Deutsche übersetzte.<note xml:id="ftn96"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr. 7</ref></bibl>.</note> Dieses Formular mit der singulären Datierung nach
+<orig>Romer steuͤr jare</orig> wurde bis 1320 verwendet, auch bei Urkunden, die ausserhalb der Stadt ausgefertigt wurden.<note
+xml:id="ftn97"><bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3654</bibl>.</note> Die Winterthurer
+Stadtschreiber konnten private Aufträge annehmen und amtierten zeitweise als Landschreiber im Enneramt der Landvogtei Kyburg.<note
+xml:id="ftn98">Vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref></bibl>; <bibl>STAW AA 7/5</bibl>;
+<bibl>StAZH A 131.13, Nr. 102</bibl>.</note> Über die Stadtschreiber des 14. Jahrhunderts ist wenig bekannt, bei manchen sind die Namen
+überliefert.<note xml:id="ftn99"><bibl><ref target="/startseite/literaturverzeichnis">Burger 1960</ref>, S. 346</bibl>.</note> Ab der
+zweiten Hälfte des 15. Jahrhunderts wird die Identifizierung der Schreiberhände durch individuellere Schriften und direkte Nachweise wie
+Namensnennung, beispielsweise bei Notariatsinstrumenten, leichter. Anfang des 15. Jahrhunderts ist Werner Zehnder (Decimatoris) aus
+Pfullendorf für einige Jahre als Stadtschreiber belegt, bevor er in die Dienste des Abts von St. Gallen trat.<note xml:id="ftn100"
+><bibl><ref target="/startseite/literaturverzeichnis">Schuler 1987</ref>, Nr. 1546</bibl>.</note> Zunächst als Unterschreiber
+(<orig>subscriba</orig>)<note xml:id="ftn101"><bibl>STAW URK 440</bibl>.</note>, dann als Zehnders Nachfolger fungierte Jodok Berger
+(1410-1444). Mehrere Jahre bekleidete Hans Engelfried (1447-1468) das Amt, dann wurde er des Geheimnisverrats überführt und abgesetzt.<note
+xml:id="ftn102"><bibl>STAW URK 1170b</bibl>.</note> Auf ihn folgte Georg Bappus aus Feldkirch (1468-1481).<note xml:id="ftn103">Zu
+Stadtschreiber Georg Bappus vgl. das Empfehlungsschreiben vom 15. August 1468 (<bibl>STAW URK 1171a</bibl>). Zuvor war er Substitut in der
+Kanzlei des Abts von St. Gallen (<bibl>STAW B 2/3, S. 98</bibl>).</note> Vergleichsweise kurz in städtischen Diensten blieb Johannes Wügerli
+(1481-1483), ein <orig>stattkind</orig>. Er schied im Streit aus dem Amt und wanderte nach Rottweil aus.<note xml:id="ftn104"><bibl>STAW URK
+1559</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Schuler 1987</ref>, Nr. 1536</bibl>.</note> Ihn ersetzte Konrad
+Landenberg (1483-1513),<note xml:id="ftn105"><bibl><ref target="/startseite/literaturverzeichnis">Schuler 1987</ref>, Nr. 758</bibl>.</note>
+dessen Vater um die Mitte des 15. Jahrhundert nach Winterthur gezogen war und später in den Grossen Rat gewählt wurde.<note xml:id="ftn106"
+><bibl><ref target="/startseite/literaturverzeichnis">Hauser 1912a</ref>, S. 124-126</bibl>.</note> Unter ihm scheint vorübergehend der
+Wechsel vom Weihnachtsstil mit dem Jahresanfang 25. Dezember zum Circumcisionsstil mit dem Jahresanfang 1. Januar vollzogen worden zu sein
+(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_148">SSRQ ZH NF I/2/1, Nr. 148</ref></bibl>). Nach 30 Jahren löste ihn sein Sohn Josua
+Landenberg als Stadtschreiber ab.<note xml:id="ftn107"><bibl><ref target="/startseite/literaturverzeichnis">Schuler 1987</ref>, Nr.
+757</bibl>.</note> Einige Jahre nach Josua Landenbergs Tod im Jahr 1522 stellte sich heraus, dass er sich konspirativen Kreisen
+angeschlossen hatte, die aus dem Söldnerwesen Profit schlagen wollten.<note xml:id="ftn108"><bibl><ref
+target="/startseite/literaturverzeichnis">Hauser 1898</ref>, S. 25-37</bibl>; vgl. <bibl>STAW URK 2163</bibl>.</note> Seine Nachfolge trat
+Gebhard Hegner (1522-1537) an, der ursprünglich zum Schultheissen gewählt worden war und dann dieses Amt aufgab, um Stadtschreiber zu
+werden.<note xml:id="ftn109"><bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 133</bibl>.</note> Bei
+Abwesenheit liess er sich von seinem Sohn und späteren Nachfolger Christoph Hegner (1538-1555) vertreten.<note xml:id="ftn110"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_278">SSRQ ZH NF I/2/1, Nr. 278</ref></bibl>.</note> Andere temporäre Vertreter der Stadtschreiber
+lassen sich meist nicht identifizieren. Christoph Hegners Amtszeit endete vermutlich aufgrund einer psychischen Erkrankung, in deren Verlauf
+man ihn in Verwahrung nahm.<note xml:id="ftn111"><bibl>StAZH B IV 19, fol. 125v</bibl>.</note></p>
+<p>Bestimmte Rechtsakte bedurften der Schriftform, beispielsweise Todesurteile<note xml:id="ftn112"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_067">SSRQ ZH NF I/2/1, Nr. 67</ref></bibl>.</note> und Handänderung von Liegenschaften.<note
+xml:id="ftn113"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_257">SSRQ ZH NF I/2/1, Nr. 257</ref></bibl>.</note> Der Stadtschreiber
+musste alle Urkunden, die aufgrund eines Gerichtsurteils ausgefertigt wurden, im Ratsbuch vermerken.<note xml:id="ftn114"><bibl><ref
+target="/suche/detail/SSRQ_ZH_NF_I_2_1_132">SSRQ ZH NF I/2/1, Nr. 132</ref></bibl>.</note> Auch nicht verbriefte Urteile wurden
+registriert.<note xml:id="ftn115"><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref></bibl>.</note>
+Pfandgeschäfte wurden je nach Art der Absicherung und Zahlungsfrist in das Ratsbuch oder das Gerichtsbuch eingetragen.<note xml:id="ftn116"
+><bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_176">SSRQ ZH NF I/2/1, Nr. 176</ref></bibl>.</note> Das erste erhaltene Ratsbuch<note
+xml:id="ftn117">Für die Bände der Serie <bibl>STAW B 2</bibl> hat sich die Bezeichnung <quote>Ratsprotokolle</quote> etabliert. Sie weisen
+die von <bibl><ref target="/startseite/literaturverzeichnis">Wanner 2007</ref>, S. 370-373</bibl>, beschriebenen Strukturmerkmale auf und
+enthalten in chronologischer Abfolge Einträge zu Geschäften, die vor dem Rat verhandelt wurden. Die für die Edition herangezogenen Bände
+dieser Reihe unterscheiden sich jedoch in ihrer ursprünglichen Funktion, entsprechend lauteten die zeitgenössischen Begriffe <orig>ratz
+buͦch</orig> (<bibl>STAW B 2/1, fol. 10r</bibl>, <bibl>108r</bibl>) respektive <orig>urtail buͦch</orig> (<bibl>STAW B 2/8, S. 1</bibl>).
+Die Agenden einzelner Ratssitzungen lassen sich anhand der Aufzeichnungen nicht rekonstruieren.</note> der Stadt Winterthur (<bibl>STAW B
+2/1</bibl>) wurde 1405 begonnen und bis 1460 fortgeführt. Es enthält die Landgerichtsordnung von 1406 (<bibl>fol. 10r</bibl>), einzelne
+Ratsbeschlüsse (<bibl>fol. 10v</bibl>, <bibl>12r</bibl>, <bibl>17v</bibl>, <bibl>42v</bibl>, <bibl>45r</bibl>, <bibl>50r</bibl>,
+<bibl>58r</bibl>, <bibl>61v</bibl>, <bibl>64v</bibl>, <bibl>69r</bibl>, <bibl>71v</bibl>, <bibl>74r</bibl>, <bibl>79v</bibl>,
+<bibl>86r</bibl>, <bibl>89v</bibl>, <bibl>90r</bibl>, <bibl>92r</bibl>, <bibl>96r</bibl>, <bibl>108r</bibl>, <bibl>110v</bibl>,
+<bibl>118v-119v</bibl>, <bibl>124r</bibl>), den Gerichtseid der Juden (<bibl>fol. 51r</bibl>, <bibl>99v</bibl>), Listen der
+Verbrauchssteuertarife (<bibl>fol. 128v</bibl>) und der von Bürgern und auch Bürgerinnen zu stellenden Kriegsausrüstung (<bibl>fol.
+2r-3v</bibl>), Ämterverzeichnisse, Abrechnungen sowie Vermerke zu städtischen Kreditaufnahmen und Quittungen, zu Bürgeraufnahmen und
+Bürgerrechtsaufgaben, zu Urfehden, Urteilssprüchen und Vereinbarungen mit Einzelpersonen. Abgesehen von den Streichungen erledigter
+Abrechnungen und Ergänzungen bei den Ämterverzeichnissen ist das Schriftbild sehr sauber. Vereinzelt stösst man auf Schreibernotizen wie
+<orig>Item denk ze schriben von Hans Modrers wegen</orig>, was sich vermutlich auf eine Urfehdeerklärung bezieht (<bibl>fol.
+60v-61r</bibl>). Einträge zur Zivilgerichtsbarkeit, aber auch Verträge und Abmachungen des Rats mit einzelnen Personen sowie einige
+Verordnungen enthalten drei schmale Hefte, die sogenannten Ratsmanuale, die für den Zeitraum von 1442 bis 1464 überliefert sind (<bibl>STAW
+B 2a/1</bibl>, <bibl>B 2a/2</bibl>, <bibl>B 2a/3</bibl>).</p>
+<p>Stadtschreiber Georg Bappus legte am 12. September 1468 einen Kopialband an (<bibl>STAW B 2/2</bibl>). Auf den ersten Seiten findet sich
+die Abschrift der Rechtsaufzeichnung von 1297 in der Version von 1430 (<bibl>fol. 1r-6r</bibl>). Es folgen eine Schilderung der Belagerung
+der Stadt durch die eidgenössischen Orte im Jahr 1460 und der Stiftung einer Wallfahrt (<bibl>fol. 6v-7r</bibl>), Ratsbeschlüsse zur
+Begehung von Feiertagen und zur Verleihung von Pfründen (<bibl>fol. 7r-v</bibl>), Vorschriften zur Waldnutzung (<bibl>fol. 8r-9r</bibl>),
+die Weberordnung (<bibl>fol. 9v-10v</bibl>), die Statuten der Bruderschaft der Schmiede von 1462 (<bibl>fol. 11r-v</bibl>), eine
+Steuerordnung aus demselben Jahr (<bibl>fol. 11v</bibl>), der den Zürchern zu leistende Eid (<bibl>fol. 12r</bibl>) sowie Einträge zu
+Bürgerrechtsverträgen mit Niederadeligen (<bibl>fol. 12r-13r</bibl>). Offenbar bestand ein Bedürfnis nach der Dokumentation hergebrachter
+Rechte infolge der Verpfändung Winterthurs an die Stadt Zürich im Jahr 1467.<note xml:id="ftn118"><bibl><ref
+target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 100-101</bibl>.</note> Die weiteren Eintragungen ab 1468, überwiegend
+in chronologischer Reihenfolge angeordnet und in Konzeptschrift gehalten, weisen hingegen ein ähnliches inhaltliches Spektrum auf wie im
+ersten Ratsbuch. Es handelt sich vor allem um Verordnungen und sonstige Ratsbeschlüsse, aber auch die Eidformeln der Amtsleute (<bibl>fol.
+57v-61r</bibl>), eine Abschrift der Rechtsaufzeichnung von 1497 (<bibl>fol. 51r-53v</bibl>), Zolltarife (<bibl>fol. 62v-63r</bibl>) sowie
+bilaterale Vereinbarungen mit Individuen und Institutionen. Bappus Nachfolger Johannes Wügerli und Konrad Landenberg hielten zudem ihre
+Anstellungsbedingungen fest (<bibl>fol. 32r</bibl>, <bibl>35r-36v</bibl>). In den 1530er Jahren wurden nur noch wenige Einträge vorgenommen,
+vermutlich weil Stadtschreiber Gebhard Hegner einen neuen Kopial- und Satzungsband anlegte. 1614 wurde der Band noch einmal kurzfristig in
+Gebrauch genommen, um Ratssitzungen und die Besetzung von Ämtern zu protokollieren (<bibl>fol. 76r-78r</bibl>).</p>
+<p>Wesentlich umfangreicher ist der Band mit Einträgen vor allem zu Rechtsgeschäften und Gerichtsverfahren vor dem Rat oder dem Gericht, die
+1468 einsetzen und in der nicht sehr leserlichen Konzeptschrift des Stadtschreibers Georg Bappus abgefasst sind (<bibl>STAW B 2/3</bibl>).
+Sofern Urkunden ausgefertigt wurden, vermerkte er am Rand <orig>littera facta est</orig>. Darüber hinaus hielt er Urfehden, Bussen,
+Bürgeraufnahmen, Abzugsvereinbarungen oder Geleitzusagen fest. Eingetragen wurden ferner die festgesetzten Weinpreise und Ämterbesetzungen.
+Vereinzelt enthält der Band Brief- und Urkundenkonzepte sowie Ratsbeschlüsse, die zum Teil auch im Ratsbuch <bibl>STAW B 2/2</bibl> zu
+finden sind. Mitunter notierte Bappus seine Aufträge (<orig>schrib dem apt von Peterhusen</orig>, <bibl>S. 107</bibl>; <orig>mach zedel
+amptlu̍ten</orig>, <bibl>S. 415</bibl>) oder nahm Federproben vor (<orig>In nomine domini amen</orig> mit verzierter Initiale, <bibl>S.
+316</bibl>), was den informellen Charakter der Aufzeichnungen unterstreicht. Sein Nachfolger Johannes Wügerli setzte sie in gleicher Weise
+bis 1483 fort. Stadtschreiber Konrad Landenberg folgte dem Beispiel seiner Vorgänger (<bibl>STAW B 2/5</bibl> ab 1483, <bibl>B 2/6</bibl> ab
+1496 und <bibl>B 2/7</bibl> ab 1510). Die Ausfertigung von Urkunden markierte er mit einem Kürzel für <orig>scripsi</orig>. Josua Landenberg
+führte die Aufzeichnungen von 1513 an bis zum Ende seiner Amtszeit im Jahr 1522 weiter. Der Rest des Bandes <bibl>STAW B 2/7</bibl> enthält
+Ämterverzeichnisse bis zum Jahr 1560 sowie Aushebungslisten für militärische Einsätze.</p>
+<p>Josua Landenberg legte am 21. Mai 1520 ein <orig>urtail buͦch</orig> für Zivilprozesse an (<bibl>STAW B 2/8</bibl>). Er und seine
+Nachfolger Gebhard und Christoph Hegner nutzten es jedoch auch für andere Aufzeichnungen, beispielsweise die Rechte der Taverne in
+Hettlingen (<bibl>S. 29</bibl>), Verzeichnisse der städtischen Amtleute, die Festlegung des Weinpreises, Bürgeraufnahmen und
+Bürgerrechtsaufgaben sowie einzelne Ratsbeschlüsse. Von der Mitte des 16. Jahrhunderts an wurden auch Entscheide in Strafverfahren und
+Urfehdeerklärungen in den Band notiert, der bis 1628 in Gebrauch blieb. Später wurden jedoch kaum mehr Urteile eingetragen, sondern
+zunehmend normative Texte wie die Vorschriften für den Weinverkauf von 1579 (<bibl>S. 365</bibl>), die Schererordnung (<bibl>S.
+413-416</bibl>), die Metzgerordnung von 1591 (<bibl>S. 416-420</bibl>) sowie die Wirteordnung von 1590 (<bibl>S. 445-449</bibl>). Ein
+explizites <orig>gerichts buͦch</orig> wurde am 10. Mai 1530 begonnen und bis Ende des 18. Jahrhunderts fortgeführt (<bibl>STAW B
+5/1</bibl>). Der erste Teil des Bandes enthält Verordnungen. Im zweiten Teil folgen Einträge von Zahlungsverbindlichkeiten und Pfändungen,
+die bis zum Ende des 16. Jahrhunderts reichen, in späterer Zeit wurden lediglich die Namen der Richter vermerkt. In seinem letzten Lebens-
+und Amtsjahr, am 23. Mai 1537, legte Gebhard Hegner einen eigenen Band an, um Rechtsgeschäfte, Gerichtsurteile, Bürgeraufnahmen, Quittungen,
+Weinpreise und vereinzelt Ratsbeschlüsse zu notieren (<bibl>STAW B 2/10</bibl>). Sein Sohn Christoph setzte den Band von 1538 bis 1552 fort.
+Bei der Ausfertigung von Urkunden konnten Vater und Sohn Hegner auf ihre Formularsammlungen zurückgreifen (<bibl>STAW B 3a/1</bibl>, <bibl>B
+3a/1a</bibl>).</p>
+<p>Wie er in seiner an den Schultheissen, den Kleinen und den Grossen Rat von Winterthur adressierten Vorrede erläuterte,<note
+xml:id="ftn119">Ediert bei <bibl><ref target="/startseite/literaturverzeichnis">Hafner 1880</ref>, S. 12-13</bibl>.</note> hatte
+Stadtschreiber Gebhard Hegner die Freiheitsbriefe, Stadtrechte, Satzungen und Rechtsaufzeichnungen in grosser Unordnung vorgefunden. Aus
+diesem Grund stellte er eine Sammlung zentraler Dokumente zusammen. Dieser Kopial- und Satzungsband ist bis auf ein Fragment, das ihm
+vermutlich zuzuordnen ist (<bibl>STAW AA 4/3</bibl>),<note xml:id="ftn120">Bei dem Fragment handelt es sich um die Seiten <bibl>fol.
+451r-459v</bibl> mit Eidformeln vom Amtsleuten. Es lassen sich mehrere Hände unterscheiden. Diese Eidformeln sind nicht in Goldschmids
+Abschrift enthalten, vermutlich waren die Seiten schon vorher dem Band entnommen worden.</note> nicht im Original, sondern nur in einer
+Abschrift aus der Mitte des 18. Jahrhunderts überliefert (Diplomata Vitodurana, <bibl>winbib Ms. Fol. 27</bibl>). Angefertigt wurde sie von
+dem Winterthurer Gerbermeister und Ratsherrn Johann Jakob Goldschmid (1715-1769), der eine umfangreiche Materialsammlung zur Stadtgeschichte
+zusammentrug.<note xml:id="ftn121"><bibl><ref target="/startseite/literaturverzeichnis">Hafner 1881</ref>, S. 16-23</bibl>.</note> Die darin
+enthaltenen Aufzeichnungen umfassen den Zeitraum von 1180 bis 1738, somit hatten Hegners Nachfolger den Band fortgeführt. Bedingt durch
+diese Überlieferungssituation lassen sich undatierte Einträge nicht mehr anhand der Schrift zeitlich einordnen. Goldschmid unterliefen
+mitunter Lesefehler, so dass die Datierung der Vorrede Hegners auf den 3. September 1535 nicht zweifelsfrei gesichert ist. Goldschmid
+notierte neben der Datumszeile <orig>Datum den dritten tag des monats september anno domini xc<hi rend="sup">c</hi> xxx<hi rend="sup"
+>v</hi></orig> die Jahreszahl 1535. Statt des hochgestellten <orig>v</orig> könnte in der Vorlage ein hochgestelltes <orig>o</orig> für
+<orig>tricesimo</orig> gestanden haben, so dass Hegners Band bereits ins Jahr 1530 zu datieren wäre.</p>
+<p>Ähnliche Zierelemente wie das Fragment <bibl>STAW AA 4/3</bibl>, mit roter Tinte unterstrichene Überschriften und nachgezogene Initialen,
+jedoch sparsamer verwendet, weisen die Seiten in einem Satzungsbuch der Gemeinde Elgg mit Auszügen aus dem Satzungsbuch der Stadt Winterthur
+auf, die 1534 übermittelt worden waren, wie in einem Vermerk erläutert wird (<bibl>ZGA Elgg IV A 3a, fol. 119r</bibl>). Die Schrift ähnelt
+derjenigen Christoph Hegners, der zu Beginn seiner Tätigkeit manche charakteristischen Schreibweisen und Buchstabenformen seines Vaters
+nachahmte. Auch in späterer Zeit erhielt die Gemeinde Abschriften <orig>uß der statt Winterthur buͦch</orig>, die in den Elgger Band
+aufgenommen wurden.</p>
+<p>Die Formeln der Amtseide, die in dieser Edition wiedergegeben werden, sind den Ratsbüchern entnommen, da die ältesten überlieferten
+Eidbücher der Stadt Winterthur erst aus dem 17. Jahrhundert stammen. Das erste Eidbuch wurde nach dem 6. Mai 1625 erstellt (<bibl>winbib Ms.
+Fol. 241, fol. 32v</bibl>). Der Eid des Amtmanns der 1629 erworbenen Herrschaft Pfungen<note xml:id="ftn122"><bibl><ref
+target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 198</bibl>.</note> ist darin noch nicht enthalten. Einem Vermerk auf der
+ersten Seite zufolge stammt der Band aus dem Nachlass des Politikers und Schriftstellers Ulrich Hegner (1759-1840).<note xml:id="ftn123"
+><bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/011925/2009-11-05/">Hegner,
+Ulrich</ref></bibl>.</note> Das zweite Eidbuch wurde gegen Ende des 17. Jahrhunderts angelegt (<bibl>STAW B 3a/10</bibl>). Aus späterer Zeit
+liegen weitere Eidbücher vor (<bibl>STAW B 3a/11</bibl>, <bibl>B 3a/12</bibl>, <bibl>B 3a/13</bibl>).</p>
+<p>Von den wichtigsten Rechtsaufzeichnungen, Privilegien und Satzungen der Stadt Winterthur wurden immer wieder Abschriften angefertigt.
+1629 legte der Winterthurer Richter und spätere Schultheiss Hans Konrad Künzli einen Sammelband an, der bis Anfang des 18. Jahrhunderts
+fortgeführt wurde und neben Abschriften von Urkunden und Ordnungen auch chronikalische Aufzeichnungen, Abrechnungen und Ämterbeschreibungen
+enthält (<bibl>winbib Ms. Fol. 49</bibl>).<note xml:id="ftn124"><bibl><ref target="/startseite/literaturverzeichnis">Hafner 1881</ref>, S.
+10</bibl>.</note> Um 1667 wurden die Abschriften der städtischen Privilegien samt der in Zürich aufbewahrten Dokumente über den Konflikt um
+das Privileg Karls V. in einem Band vereinigt (<bibl>STAW B 1/32</bibl>). Am 13. September 1667 übergaben die Winterthurer der Stadt Zürich
+Abschriften ihrer Freiheitsbriefe.<note xml:id="ftn125"><bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671053"
+>StAZH A 155.1, Nr. 1</ref></bibl>, <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671071">2</ref></bibl>,
+<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671072">3</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671073">4</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671074">5</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671075">6</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671076">7</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671077">8</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671078">9</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671079">10</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671269">12</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671271">14</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434180">16</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671335">19</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=434755">20</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435346">21</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435397">22</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435398">23</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435627">26</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671408">28</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671411">31</ref></bibl>; vgl. <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=711770">StAZH B III 90, S. 337</ref></bibl>.</note> Damals war es zwischen
+beiden Städten zu Differenzen gekommen, weil die Zürcher eine Delegation zur Abnahme der Huldigung nach Winterthur entsenden wollten, was zu
+Unmut innerhalb der dortigen Bürgerschaft führte. Zehn Jahre später einigten sich beide Seiten auf den Kompromiss, dass die Vereidigung der
+Bürger von Winterthur in Gegenwart des in der Stadt ansässigen Zürcher Amtmanns, der die Klostergüter im Umland verwaltete, stattfinden
+sollte.<note xml:id="ftn126"><bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 193-197</bibl>.</note> Rund
+fünfzig Jahre später kam es zu erneuten Auseinandersetzungen, als die Zürcher die Fabrikation von Textilien in Winterthur beschränkten.<note
+xml:id="ftn127"><bibl><ref target="/startseite/literaturverzeichnis">Leonhard 2014</ref>, S. 197-198, 233-234</bibl>.</note> Wiederum
+reichten die Winterthurer Abschriften ihrer Privilegien ein, die ihren Standpunkt stützen sollten.<note xml:id="ftn128"><bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671272">StAZH A 155.1, Nr. 15</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=721189">17</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671273">18</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=721134">24</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=721140">25</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671407">27</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671409">29</ref></bibl>, <bibl><ref
+target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=671412">32</ref></bibl>.</note> Die Zürcher legten ihrerseits Sammlungen zu den
+Rechtsverhältnissen in ihrem Herrschaftsgebiet an (zu Winterthur: <bibl>StAZH B III 65</bibl> aus der Mitte des 16. Jahrhunderts und
+<bibl>StAZH B III 90</bibl> von 1677). Im 18. Jahrhundert entstanden vor allem aus historisch-wissenschaftlichem Interesse eine Reihe von
+Kopialbüchern, beispielsweise das sogenannte Corpus Werdmüllerianum des Zürcher Stadtschreibers Christoph Friedrich Werdmüller (zu
+Winterthur: StAZH B I 255), die Urkundensammlungen des Pfarrers von Pfungen Johann Jakob Meyer<note xml:id="ftn129"><bibl><ref
+target="/startseite/literaturverzeichnis">Hafner 1881</ref>, S. 25-33</bibl>.</note> (<bibl>winbib Ms. Fol. 2</bibl>, <bibl>Ms. Fol.
+4</bibl> und <bibl>Ms. Fol. 5</bibl>) und des Winterthurer Apothekers und Ratsherrn Hans Ulrich Künzli<note xml:id="ftn130"><bibl><ref
+target="/startseite/literaturverzeichnis">Hafner 1881</ref>, S. 11-12</bibl>.</note> (<bibl>winbib Ms. Fol. 50</bibl>), die nach Themen
+zusammengestellten Bände der Winterthurer Freiheitsbriefe (<bibl>STAW B 1/1</bibl>), der bilateralen Verträge (<bibl>STAW B 1/3</bibl>) und
+der kirchlichen Stiftungen (<bibl>STAW B 1/5</bibl> und <bibl>B 1/6</bibl>) oder die sogenannten Stadtbücher mit Abschriften von
+Ratsbeschlüssen und Ämterbeschreibungen (<bibl>STAW B 2b/1</bibl> bis <bibl>B 2b/4</bibl>). Mit Ausnahme von Goldschmids Diplomata
+Vitodurana, die auf Gebhards Hegners Aufzeichnungen zurückgehen, wurden in der vorliegenden Edition nur in Einzelfällen seit dem 18.
+Jahrhundert angefertigte Abschriften als Sekundärüberlieferung hinzugezogen und nachgewiesen, da mit fortschreitender zeitlicher Distanz zur
+Vorlage eine Abnahme der Qualität kopialer Überlieferung zu konstatieren ist.</p>
+<head type="title" n="4">Editionsgrundsätze und Transkriptionsrichtlinien</head>
+<p>Die vorliegende Edition folgt den Editionsgrundsätzen und Transkriptionsrichtlinien der Rechtsquellenstiftung. Für die edierten Quellen
+diente jeweils die beste Überlieferung als Grundlage, in der Regel das Original oder die älteste vollständige Textfassung. Die zeitliche
+Nähe weiterer Überlieferungen (Mehrfachausfertigungen, Entwürfe oder Abschriften) zur Vorlage und die inhaltliche Relevanz wurden als
+Kriterien für die Auszeichnung von Textvarianten herangezogen. Zugunsten der Übersichtlichkeit des textkritischen Apparats wurde darauf
+verzichtet, Abweichungen in fehlerhaften Abschriften des 16., 17. und 18. Jahrhunderts auszuweisen. </p>
+<p>Bei Schreibereigenheiten, die vor allem die Konzeptschrift betreffen und zum Teil nur temporär auftreten und deren vorlagengetreue
+Wiedergabe die Textverständlichkeit beeinträchtigen würde, wurden folgende Normalisierungen vorgenommen: Die Bögen, die Stadtschreiber Georg
+Bappus in seiner Konzeptschrift am Wortende an die Schäfte setzte, ohne dass eine systematische Unterscheidung von Zierstrichen und
+Kürzungsstrichen erkennbar wäre, wurden in Zweifelsfällen ignoriert. Bei Verdopplung des Konsonanten <q>n</q> finden sich bei Johannes
+Wügerli oft drei statt vier Hasten. In diesen Fällen wurde <q>nn</q> transkribiert. Die Vokale <q>a</q>, <q>e</q> und <q>o</q>, die Konrad
+Landenberg mit einem Zeichen markierte, das einem liegenden Majuskel-Sigma ähnelt, wurden in der Transkription mit einem Makron versehen,
+ebenso wurde bei den Vokalen <q>e</q> und <q>o</q> verfahren, über die der Schreiber zwei Punkte gesetzt hat. Alternativ für den Diphthong
+<q>au</q> verwendete Konrad Landenberg die Schreibung <q>ä</q>, die nach ihrem Lautwert mit <q>aͧ</q> wiedergegeben wird. Die nur in seiner
+Konzeptschrift vorkommenden Doppelstriche über dem Vokal <q>u</q> wurden ignoriert. In Kombinationen von <q>ze</q> und Infinitiv sind die
+Wortabstände oft so gering, dass nicht zweifelsfrei zwischen Zusammen- und Getrenntschreibung unterschieden werden kann. Aus Gründen der
+Einheitlichkeit und Lesbarkeit des Textes wird in der Transkription die Getrenntschreibung angewandt. Bei Josua Landenberg stehen Bögen über
+dem Buchstaben <q>u</q>, bei Gebhard Hegner Doppelstriche über den Buchstaben <q>u</q> und <q>v</q> und bei Christoph Hegner über dem
+Buchstaben <q>u</q>, ohne dass jeweils eine Unterscheidung zwischen Distinktionszeichen und diakritischen Zeichen ersichtlich wäre. Zur
+besseren Lesbarkeit der Texte wurden bei der Transkription die Laute <q>u</q> und <q>ü</q> gemäss Standarddeutsch normalisiert. Editorische
+Eingriffe bei einmalig vorkommenden oder unbekannten Schreibern werden im jeweiligen Kommentar vermerkt.</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>
