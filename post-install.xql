@@ -11,6 +11,6 @@ declare variable $dir external;
 (: the target collection into which the app is deployed :)
 declare variable $target external;
 
-xmldb:create-collection($target, "temp"),
-sm:chown(xs:anyURI($target || "/temp"), "rqzh"),
-sm:chgrp(xs:anyURI($target || "/temp"), "tei")
+xmldb:create-collection($target || "/data", "temp"),
+sm:chown(xs:anyURI($target || "/data/temp"), "rqzh"),
+sm:chgrp(xs:anyURI($target || "/data/temp"), "tei")
