@@ -4,77 +4,78 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_009</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 23</idno></msIdentifier><head>Anweisung König Albrechts an die Stadt Winterthur betreffend Beweiserhebung und Urteilsfindung bei Vergehen</head><msContents><summary>König Albrecht, der Auseinandersetzungen und schlechte Gewohnheiten in der Stadt ausräumen möchte, weist die Räte und Bürger von Winterthur an, dass der Vogt oder der städtische Schultheiss den Täter bei Delikten innerhalb der Stadtmauern mit zwei zuverlässigen Zeugen überführen soll. Er kritisiert die bisherige Praxis, den, der das Delikt anzeigt, bei der Untersuchung als ersten Zeugen zu behandeln. Kann der Nachweis mit zwei zuverlässigen Zeugen nicht erbracht werden, soll der Beschuldigte sich mit einem Eid reinigen können. Der König warnt davor, sich dem Urteilsspruch eines anderen anzuschliessen, ohne den Fall zu kennen und die Bedeutung des Urteils darlegen zu können. Zuwiderhandelnde sollen ihre Hand, die sie zur Zustimmung erhoben haben, verlieren oder dem Stadtherrn 10 Pfund Pfennige Busse geben. Er droht weiter jedem seine Ungnade an, der innerhalb der Stadt unter den Untertanen der Herrschaft Kyburg Zwietracht stiftet.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="12.0"/><width unit="cm" quantity="23.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="bound in linen"><persName role="sigillant">König Albrecht</persName></seal></sealDesc></physDesc><history><origin><origDate when="1302-08-02"/><origPlace>Strassburg</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH Bd. 7, Nr. 2661</bibl></listBibl><listBibl><head>Regest</head><bibl>Meyer von Knonau, Urkunden, Nr. 69</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key000905">Strafvollzug</term><term ref="key000078">Zeugen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="STAW_URK_23_r.jpg"/>
-<p><!-- Korrekturgelesen durch Fachstelle Latein -->
-<lb/><seg><persName role="issuer" ref="per004951"><choice><abbr>Alb</abbr><expan>Albertus</expan></choice></persName>, dei <choice><abbr>gra</abbr><expan>gracia</expan></choice>
-<orgName ref="org004134">Romanorum</orgName> rex semper augustus, prudentibus viris .. <orgName ref="org007944">consulibus et universis civibus in <placeName ref="loc000849">Wintertur</placeName></orgName>, fidelibus suis dilectis,
-<lb/><choice><abbr>gram</abbr><expan>graciam</expan></choice> suam et omne bonum.</seg>
-<seg>Volentes discordias et quasdam malas vestras consuetudines radicitus extirpare, fidelitati vestre seriose
-<lb/>committimus et mandamus, quatenus in criminibus vel excessibus quibuscumque inquirendis et probandis, qui <foreign xml:lang="de">vrevende</foreign> nuncupantur, hac studeatis
- <lb/>uti consuetudine sive lege, ut advocatus<note>Vermutlich ist hiermit der Vertreter der Herrschaft vor Ort, der Vogt von <placeName ref="loc000012">Kyburg</placeName>, gemeint, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 107</bibl>.</note> vel scultetus vester, qui pro tempore fuerit, crimina vel excessus quoscumque infra muros civitatis
-<lb/><placeName ref="loc000849">Wintertur</placeName> perpetratos cum <num value="2">duobus</num> testibus ydoneis, quos producere voluerit, ostendere et probare valeat indistincte, vestra detestanda con<lb break="no"/>suetudine, qua hactenus, ut nobis innotuit, voluistis, quod denunciator criminum vel excessuum huiusmodi in ipsis probandis primus testis
-<lb/>esse debeat, non obstante, que crimina vel excessus si per eumdem advocatum vel scultetum <num value="2">duorum</num> virorum ydoneorum testimonio probati
-<lb/>non fuerint vel ostensi, ex tunc is, cui sunt oppositi, solo suo sacramento de eisdem poterit se purgare.</seg>
-<seg>Volumus eciam et districte preci<lb break="no"/>pimus, ut nullus vestrum in alterius sentenciam consenciat vel eidem aliquatenus acquiescat, nisi qui <choice><abbr>cam</abbr><expan>causam</expan></choice> et merita sentencie, in quam con<lb break="no"/>sensit, scit seu novit dilucide declarare. Contrarium faciens et in figura iudicii eo nomine, quod late sentencie acquievit, extendens
-<lb/>seu levans iuxta consuetudinem manum suam, eandem manum ammittat vel domino civitatis in <measure type="currency" unit="lb" quantity="10">decem libris denariorum</measure> usualis monete
-<lb/>sine remissione qualibet condempnetur. Si quis eciam vestrum inter homines dominii <placeName ref="loc000012">Kiburch</placeName> intra civitatem <placeName ref="loc000849">Wintertur</placeName> ope vel consilio
-<lb/>scienter partes fecerit vel discordiam seminaverit aliqualem, nostram et domini sui indignacionem gravissimam se incurrisse noverit ipso facto.</seg>
-<lb/><seg>Datum in <origPlace ref="loc000022">Argentina</origPlace>, <origDate when="1302-08-02">iiii<hi rend="sup">o</hi> nonas augusti, anno domini millesimo trecentesimo secundo, indictione xv<hi rend="sup">a</hi>, regni vero nostri anno quinto</origDate>.</seg>
-</p>
-</div>
-<pb n="v" facs="STAW_URK_23_v.jpg"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand14c"><lb/>Ein brief, daz deheiner ein fraͤfi sye verfallen, <lb/>er werdi denn u̍berseit mit <num value="2">zwen</num>, ob es nit <lb/>sust kuntbar waͤr. Moͤcht er aber nit u̍berseit <lb/>werden, swert er denn, so ist er ledig. Es sol oͤch <lb/>nieman dem andern keiner urteil helffen, es <lb/>sye denn, daz er daz erlu̍tren kunne und sagen, ob er <lb/>gefragt wurdi. Koͤnd er aber daz nit, der <lb/>ist verfallen <measure type="currency" unit="lb" quantity="10">x <abbr>lib</abbr></measure>. Welher oͤch unhellikeit <lb/>und zweigung machti, der ist in des herren <lb/>ungnad.</ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1302">1302</date>
-<add place="inline" hand="hand19c"><date when="1302-08-02">2 <choice><abbr>Aug</abbr><expan>August</expan></choice></date></add>, <lb/>von kayser <persName ref="per004951">Allbrecht</persName></ab>
-</div>
-</body>
-<back>
-<div>
-<p>Gemäss dem 1264 durch Graf <persName ref="per000089">Rudolf von Habsburg</persName> kodifizierten städtischen Recht stand die Gerichtsbarkeit in <placeName ref="loc000849">Winterthur</placeName> dem Stadtherrn zu (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 9</bibl>). Auch in der Aufstellung der Rechte und Einkünfte der <orgName ref="org000088">Herzöge von Österreich</orgName>, dem sogenannten <orgName ref="org000088">Habsburgischen</orgName> Urbar, wird die Ausübung der Hohen und Niederen Gerichtsbarkeit in <placeName ref="loc000849">Winterthur</placeName> der Stadtherrschaft vorbehalten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>). Die Rechtsaufzeichnung von 1264 räumte den Bürgern die Kompetenz ein, vor Gericht über die Schuld oder Unschuld eines Angeklagten zu urteilen, das Strafmass war jedoch vorgegeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 4, 11</bibl>). Nicht nur König <persName ref="per004951">Albrecht</persName>, <persName ref="per000089">Rudolfs</persName> Sohn, griff in seiner Funktion als Stadtherr von <placeName ref="loc000849">Winterthur</placeName> in die städtische Praxis ein, Delinquenten zu überführen und zu verurteilen. Auch später konnten <orgName ref="org007943">Schultheiss und Rat</orgName> strafrechtliche Bestimmungen nur gemeinsam mit dem Vogt von <placeName ref="loc000012">Kyburg</placeName>, dem Vertreter der Stadtherrschaft vor Ort, erlassen, beispielsweise 1324, als neue Bussgelder für diverse Delikte und Zahlungsmodalitäten festgelegt wurden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_012">SSRQ ZH NF I/2/1, Nr. 12</ref>, Artikel 4</bibl>). </p>
-<p>In einem <placeName ref="loc000849">Winterthurer</placeName> Kopialbuch des späten 17. Jahrhunderts wird der Inhalt dieser Urkunde in deutscher Sprache paraphrasiert wiedergegeben (<bibl>STAW B 1/32, S. 5</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_009</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 23</idno></msIdentifier><head>Anweisung König Albrechts an die Stadt Winterthur betreffend Beweiserhebung und Urteilsfindung bei Vergehen</head><msContents><summary>König Albrecht, der Auseinandersetzungen und schlechte Gewohnheiten in der Stadt ausräumen möchte, weist die Räte und Bürger von Winterthur an, dass der Vogt oder der städtische Schultheiss den Täter bei Delikten innerhalb der Stadtmauern mit zwei zuverlässigen Zeugen überführen soll. Er kritisiert die bisherige Praxis, den, der das Delikt anzeigt, bei der Untersuchung als ersten Zeugen zu behandeln. Kann der Nachweis mit zwei zuverlässigen Zeugen nicht erbracht werden, soll der Beschuldigte sich mit einem Eid reinigen können. Der König warnt davor, sich dem Urteilsspruch eines anderen anzuschliessen, ohne den Fall zu kennen und die Bedeutung des Urteils darlegen zu können. Zuwiderhandelnde sollen ihre Hand, die sie zur Zustimmung erhoben haben, verlieren oder dem Stadtherrn 10 Pfund Pfennige Busse geben. Er droht weiter jedem seine Ungnade an, der innerhalb der Stadt unter den Untertanen der Herrschaft Kyburg Zwietracht stiftet.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="12.0"/><width unit="cm" quantity="23.5"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="bound in linen"><persName role="sigillant">König Albrecht</persName></seal></sealDesc></physDesc><history><origin><origDate when="1302-08-02"/><origPlace>Strassburg</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH Bd. 7, Nr. 2661</bibl></listBibl><listBibl><head>Regest</head><bibl>Meyer von Knonau, Urkunden, Nr. 69</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000590">Delinquenz</term><term ref="key000905">Strafvollzug</term><term ref="key000078">Zeugen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="STAW_URK_23_r.jpg"/>
+                        <p><!-- Korrekturgelesen durch Fachstelle Latein -->
+                            <lb/><seg><persName role="issuer" ref="per004951"><choice><abbr>Alb</abbr><expan>Albertus</expan></choice></persName>, dei <choice><abbr>gra</abbr><expan>gracia</expan></choice>
+                                <orgName ref="org004134">Romanorum</orgName> rex semper augustus, prudentibus viris .. <orgName ref="org007944">consulibus et universis civibus in <placeName ref="loc000849">Wintertur</placeName></orgName>, fidelibus suis dilectis,
+                                <lb/><choice><abbr>gram</abbr><expan>graciam</expan></choice> suam et omne bonum.</seg>
+                            <seg>Volentes discordias et quasdam malas vestras consuetudines radicitus extirpare, fidelitati vestre seriose
+                                <lb/>committimus et mandamus, quatenus in criminibus vel excessibus quibuscumque inquirendis et probandis, qui <foreign xml:lang="de">vrevende</foreign> nuncupantur, hac studeatis
+                                <lb/>uti consuetudine sive lege, ut advocatus<note>Vermutlich ist hiermit der Vertreter der Herrschaft vor Ort, der Vogt von <placeName ref="loc000012">Kyburg</placeName>, gemeint, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 107</bibl>.</note> vel scultetus vester, qui pro tempore fuerit, crimina vel excessus quoscumque infra muros civitatis
+                                <lb/><placeName ref="loc000849">Wintertur</placeName> perpetratos cum <num value="2">duobus</num> testibus ydoneis, quos producere voluerit, ostendere et probare valeat indistincte, vestra detestanda con<lb break="no"/>suetudine, qua hactenus, ut nobis innotuit, voluistis, quod denunciator criminum vel excessuum huiusmodi in ipsis probandis primus testis
+                                <lb/>esse debeat, non obstante, que crimina vel excessus si per eumdem advocatum vel scultetum <num value="2">duorum</num> virorum ydoneorum testimonio probati
+                                <lb/>non fuerint vel ostensi, ex tunc is, cui sunt oppositi, solo suo sacramento de eisdem poterit se purgare.</seg>
+                            <seg>Volumus eciam et districte preci<lb break="no"/>pimus, ut nullus vestrum in alterius sentenciam consenciat vel eidem aliquatenus acquiescat, nisi qui <choice><abbr>cam</abbr><expan>causam</expan></choice> et merita sentencie, in quam con<lb break="no"/>sensit, scit seu novit dilucide declarare. Contrarium faciens et in figura iudicii eo nomine, quod late sentencie acquievit, extendens
+                                <lb/>seu levans iuxta consuetudinem manum suam, eandem manum ammittat vel domino civitatis in <measure type="currency" unit="lb" quantity="10">decem libris denariorum</measure> usualis monete
+                                <lb/>sine remissione qualibet condempnetur. Si quis eciam vestrum inter homines dominii <placeName ref="loc000012">Kiburch</placeName> intra civitatem <placeName ref="loc000849">Wintertur</placeName> ope vel consilio
+                                <lb/>scienter partes fecerit vel discordiam seminaverit aliqualem, nostram et domini sui indignacionem gravissimam se incurrisse noverit ipso facto.</seg>
+                            <lb/><seg>Datum in <origPlace ref="loc000022">Argentina</origPlace>, <origDate when="1302-08-02">iiii<hi rend="sup">o</hi> nonas augusti, anno domini millesimo trecentesimo secundo, indictione xv<hi rend="sup">a</hi>, regni vero nostri anno quinto</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="STAW_URK_23_v.jpg"/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand14c"><lb/>Ein brief, daz deheiner ein fraͤfi sye verfallen, <lb/>er werdi denn u̍berseit mit <num value="2">zwen</num>, ob es nit <lb/>sust kuntbar waͤr. Moͤcht er aber nit u̍berseit <lb/>werden, swert er denn, so ist er ledig. Es sol oͤch <lb/>nieman dem andern keiner urteil helffen, es <lb/>sye denn, daz er daz erlu̍tren kunne und sagen, ob er <lb/>gefragt wurdi. Koͤnd er aber daz nit, der <lb/>ist verfallen <measure type="currency" unit="lb" quantity="10">x <abbr>lib</abbr></measure>. Welher oͤch unhellikeit <lb/>und zweigung machti, der ist in des herren <lb/>ungnad.</ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1302">1302</date>
+                            <add place="inline" hand="hand19c"><date when="1302-08-02">2 <choice><abbr>Aug</abbr><expan>August</expan></choice></date></add>, <lb/>von kayser <persName ref="per004951">Allbrecht</persName></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Gemäss dem 1264 durch Graf <persName ref="per000089">Rudolf von Habsburg</persName> kodifizierten städtischen Recht stand die Gerichtsbarkeit in <placeName ref="loc000849">Winterthur</placeName> dem Stadtherrn zu (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 9</bibl>). Auch in der Aufstellung der Rechte und Einkünfte der <orgName ref="org000088">Herzöge von Österreich</orgName>, dem sogenannten <orgName ref="org000088">Habsburgischen</orgName> Urbar, wird die Ausübung der hohen und niederen Gerichtsbarkeit in <placeName ref="loc000849">Winterthur</placeName> der Stadtherrschaft vorbehalten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>). Die Rechtsaufzeichnung von 1264 räumte den Bürgern die Kompetenz ein, vor Gericht über die Schuld oder Unschuld eines Angeklagten zu urteilen, das Strafmass war jedoch vorgegeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 4, 11</bibl>). Nicht nur König <persName ref="per004951">Albrecht</persName>, <persName ref="per000089">Rudolfs</persName> Sohn, griff in seiner Funktion als Stadtherr von <placeName ref="loc000849">Winterthur</placeName> in die städtische Praxis ein, Delinquenten zu überführen und zu verurteilen. Auch später konnten <orgName ref="org007943">Schultheiss und Rat</orgName> strafrechtliche Bestimmungen nur gemeinsam mit dem Vogt von <placeName ref="loc000012">Kyburg</placeName>, dem Vertreter der Stadtherrschaft vor Ort, erlassen, beispielsweise 1324, als neue Bussgelder für diverse Delikte und Zahlungsmodalitäten festgelegt wurden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_012">SSRQ ZH NF I/2/1, Nr. 12</ref>, Artikel 4</bibl>). </p>
+                        <p>In einem <placeName ref="loc000849">Winterthurer</placeName> Kopialbuch des späten 17. Jahrhunderts wird der Inhalt dieser Urkunde in deutscher Sprache paraphrasiert wiedergegeben (<bibl>STAW B 1/32, S. 5</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+

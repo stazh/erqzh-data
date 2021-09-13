@@ -4,84 +4,85 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_043</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 471</idno></msIdentifier><head>Belehnung des Franz Hoppler mit der Burg Hettlingen, der Kapelle auf dem Feld bei Winterthur und anderen Gütern durch Herzog Friedrich von Österreich</head><msContents><summary>Herzog Friedrich von Österreich belehnt Franz Hoppler von Winterthur und seine Erben im Rahmen der Neuverleihung seiner Lehen mit der Burg Hettlingen samt Kelnhof und dem Feld, Burgstal genannt, dem Radhof, den Gütern in Unterlangenhard, der Vogtei in Oberwil, einer Wiese sowie der Kapelle auf dem Feld bei Winterthur. Friedrich behält sich das Öffnungsrecht für die Burg Hettlingen vor, Hoppler und seine Erben sollen ihm bei Bedarf mit der Burg zu Diensten sein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="16.5"/><width unit="cm" quantity="30.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Herzog Friedrich von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1412-05-16"/><origPlace>Baden</origPlace></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000021">Burg</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r"/>
-<p>
-<lb/><seg>Wir, <persName role="issuer" ref="per000346">Friderich, von gots gnaden herczog ze <placeName ref="loc000589"><choice><abbr>Oͤsterr</abbr><expan>Oͤsterreich</expan></choice></placeName>, ze <placeName ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454">Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>, graf ze <placeName ref="loc000780">Tyrol</placeName></persName>
-<abbr>etc</abbr>, tuͦn kunt:</seg>
-<seg>Als wir yetz
-<lb/>unsre lehen von newen dingen beruͦft haben ze verleihen, also kam fu̍r uns unser lieber <choice><abbr>getwr</abbr><expan>getrewer</expan></choice><!-- analog zu "newer" -->
-<persName ref="per026904">Francz Hoppler</persName> von <placeName ref="loc000849"><choice><abbr>Wintert</abbr><expan>Winterthur</expan></choice></placeName>
-<lb/>und bat uns, daz wir im geruͤchten ze verleihen dise <choice><abbr>nachgeschr</abbr><expan>nachgeschriben</expan></choice> guͤter und lehen: des ersten die burg ze <placeName ref="loc010469">Hettlingen</placeName>
-<lb/>und das veld, genant das <placeName ref="loc013731">Burgstal</placeName>, und den kelnhoff daselbs, item der hoff ze <placeName ref="loc013733">Rod</placeName>, item die vogtey ze <placeName ref="loc013734">Waltistal</placeName><!-- angeblich heute Waltenstein/Schlatt, vgl. Index HU -->, item
-<lb/>die guͤter ze <placeName ref="loc013732">Nydern Langenhart</placeName>, item die vogtey ze <placeName ref="loc013081">Obernwyl</placeName><!-- Oberwil, OT Dägerlen -->, item <measure type="area" unit="Mannmad" quantity="1" commodity="grassland">ain mannsmad</measure> wisen, gelegen in den lant<lb break="no"/>wisen, genant der <orgName ref="org004144">von Ulm</orgName> wisen, item und die cappellen an dem veld bey <placeName ref="loc000849">Winterthur</placeName>, die er selber von der hand <choice><sic>ze
- <lb/>ze</sic><corr>ze</corr></choice> leihen hat, wan die von uns ze lehen weͣren.</seg>
-<seg>Das haben wir getan und haben also dem <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
-<persName ref="per026904">Franczen Hoppeller</persName>
-<lb/>und seinen erben die vorgeschriben guͤter und lehen mit allen iren freyhaitten, eeren, rechten, gewonhaitten und allen zuͦ<lb break="no"/>gehoͤrungen, als ir vordern die von alter her inngehebt und herbracht haben, verlihen und leihen auch wissentlich
- <lb/>mit dem brief, was wir in ze recht daran leihen su̍llen oder mu̍gen, die nuͤ fu̍rbaß von uns und unsern erben in lehens<lb break="no"/>weyse innzehaben, ze nu̍czen und ze nyessen, als lehens und lands recht ist, doch unser und meniclichs recht darinn
-<lb/>vorbehebt. Sy su̍llen uns auch die burg <placeName ref="loc010469">Hettlingen</placeName> offen halten zuͦ allen unsern notdurften, uns und die unsern
-<lb/>darin und darawß ze lassen und darinn ze enthalten wider meͣniclich, und daz sy uns davon dienstlich, <choice><abbr>getw</abbr><expan>getrew</expan></choice>, gehorsam
-<lb/>und geweͣrtig sein ze tuͦn, des lehensleͣwt irem lehenherren schuldig und gepunden sint ze tuͦn, <choice><abbr>getwlich</abbr><expan>getrewlich</expan></choice> und ane
- <lb/>geverde.</seg>
-<seg>Mit urku̍nd dicz briefs, geben ze <origPlace ref="loc000020">Baden</origPlace>, an <origDate when="1412-05-16">montag vor dem hailigen pfingsttag, nach Christs gepu̍rd
-<lb/>in dem vyerczehenhundertestem und dem zwoͤlfften jare</origDate>.</seg>
-</p>
-</div>
-<div>
-<ab type="chancery notation" place="sub plica"><lb/><choice><abbr>D</abbr><expan>Dominus</expan></choice> dux per se <lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
-<choice><abbr>conß</abbr><expan>consiliariis</expan></choice></ab>
-</div>
-<pb n="v"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand18c"><lb/>Lehenbrieff <lb/>um <lb/>die burg zu <placeName ref="loc010469">Hetlingen</placeName>
-<lb/><abbr>etc</abbr>, <lb/>anno <date when="1412">1412</date>
-<add place="inline" hand="hand19c"><date when="1412-05-16">16. Mai</date></add></ab>
-</div>
-</body>
-<back>
-<div>
-<p>Ursprünglich befand sich <placeName ref="loc010469">Hettlingen</placeName> im Besitz der <orgName ref="org000010">Grafen von Kyburg</orgName>. Graf <persName ref="per000014">Hartmann IV.</persName> verschrieb seiner Frau <persName ref="per026884">Margarethe von Savoyen</persName> 1241 unter anderem Vogtei und Eigengut (<orig>advocacia et predium</orig>) von <placeName ref="loc010469">Hettlingen</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 553</bibl>). Mit dem <orgName ref="org000010">Kyburger</orgName> Erbe kam das Dorf an die <orgName ref="org000088">Habsburger</orgName>. Zu den Besitzverhältnissen im 13. und zu Beginn des 14. Jahrhunderts vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 51-52, 61-62</bibl>. Das Lehenverzeichnis der <orgName ref="org000088">Herzöge von Österreich</orgName> aus dem Jahr 1361 nennt <persName ref="per026875">Ulrich von Hettlingen</persName> als Inhaber der dortigen Burg samt Zubehör (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/1, S. 474</bibl>), später gelangte sie durch Heirat an <persName ref="per026904">Franz Hoppler</persName>. Zu beiden Familien vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stauber 1949</ref>, S. 7-28</bibl>; zur Burg vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 71-75</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stauber 1949</ref>, S. 86-97</bibl>; zum Lehenbesitz in <placeName ref="loc010469">Hettlingen</placeName> allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 69-75</bibl>. Mit dem Pfanderwerb der Herrschaft <placeName ref="loc000012">Kyburg</placeName> im Jahr 1452 ging auch die Lehensherrschaft an die Stadt <placeName ref="loc000065">Zürich</placeName> über, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_197">SSRQ ZH NF I/2/1, Nr. 197</ref></bibl>.</p>
-<p>Die <placeName ref="loc000849">Winterthurer</placeName> Familie <orgName ref="org007828">Hoppler</orgName> besass seit Ende des 13. Jahrhunderts das Patronatsrecht der Kapelle des <orgName ref="org007453">Siechenhauses</orgName> (<bibl>STAW URK 18</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 7, Nr. 2445</bibl>; vgl. auch den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_006">SSRQ ZH NF I/2/1, Nr. 6</ref></bibl>). 1416 übertrugen <persName ref="per026904">Franz Hoppler</persName>, seine Frau <persName ref="per026897">Agnes</persName> und ihr Sohn <persName ref="per026910">Stefan</persName> dem Kaplan <persName ref="per026907">Hartmann Hoppler</persName>, ihrem Sohn respektive Bruder, Liegenschaften zur Verbesserung seines Pfründeinkommens (<bibl>STAW URK 509</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_043</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 471</idno></msIdentifier><head>Belehnung des Franz Hoppler mit der Burg Hettlingen, der Kapelle auf dem Feld bei Winterthur und anderen Gütern durch Herzog Friedrich von Österreich</head><msContents><summary>Herzog Friedrich von Österreich belehnt Franz Hoppler von Winterthur und seine Erben im Rahmen der Neuverleihung seiner Lehen mit der Burg Hettlingen samt Kelnhof und dem Feld, Burgstal genannt, dem Radhof, den Gütern in Unterlangenhard, der Vogtei in Oberwil, einer Wiese sowie der Kapelle auf dem Feld bei Winterthur. Friedrich behält sich das Öffnungsrecht für die Burg Hettlingen vor, Hoppler und seine Erben sollen ihm bei Bedarf mit der Burg zu Diensten sein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="16.5"/><width unit="cm" quantity="30.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="damaged"><persName role="sigillant">Herzog Friedrich von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1412-05-16"/><origPlace>Baden</origPlace></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000021">Burg</term><term ref="key000022">Lehen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r"/>
+                        <p>
+                            <lb/><seg>Wir, <persName role="issuer" ref="per000346">Friderich, von gots gnaden herczog ze <placeName ref="loc000589"><choice><abbr>Oͤsterr</abbr><expan>Oͤsterreich</expan></choice></placeName>, ze <placeName ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454">Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>, graf ze <placeName ref="loc000780">Tyrol</placeName></persName>
+                                <abbr>etc</abbr>, tuͦn kunt:</seg>
+                            <seg>Als wir yetz
+                                <lb/>unsre lehen von newen dingen beruͦft haben ze verleihen, also kam fu̍r uns unser lieber <choice><abbr>getwr</abbr><expan>getrewer</expan></choice><!-- analog zu "newer" -->
+                                <persName ref="per026904">Francz Hoppler</persName> von <placeName ref="loc000849"><choice><abbr>Wintert</abbr><expan>Winterthur</expan></choice></placeName>
+                                <lb/>und bat uns, daz wir im geruͤchten ze verleihen dise <choice><abbr>nachgeschr</abbr><expan>nachgeschriben</expan></choice> guͤter und lehen: des ersten die burg ze <placeName ref="loc010469">Hettlingen</placeName>
+                                <lb/>und das veld, genant das <placeName ref="loc013731">Burgstal</placeName>, und den kelnhoff daselbs, item der hoff ze <placeName ref="loc013733">Rod</placeName>, item die vogtey ze <placeName ref="loc013734">Waltistal</placeName><!-- angeblich heute Waltenstein/Schlatt, vgl. Index HU -->, item
+                                <lb/>die guͤter ze <placeName ref="loc013732">Nydern Langenhart</placeName>, item die vogtey ze <placeName ref="loc013081">Obernwyl</placeName><!-- Oberwil, OT Dägerlen -->, item <measure type="area" unit="Mannmad" quantity="1" commodity="grassland">ain mannsmad</measure> wisen, gelegen in den lant<lb break="no"/>wisen, genant der <orgName ref="org004144">von Ulm</orgName> wisen, item und die cappellen an dem veld bey <placeName ref="loc000849">Winterthur</placeName>, die er selber von der hand <choice><sic>ze
+                                    <lb/>ze</sic><corr>ze</corr></choice> leihen hat, wan die von uns ze lehen weͣren.</seg>
+                            <seg>Das haben wir getan und haben also dem <choice><abbr>obgen</abbr><expan>obgenanten</expan></choice>
+                                <persName ref="per026904">Franczen Hoppeller</persName>
+                                <lb/>und seinen erben die vorgeschriben guͤter und lehen mit allen iren freyhaitten, eeren, rechten, gewonhaitten und allen zuͦ<lb break="no"/>gehoͤrungen, als ir vordern die von alter her inngehebt und herbracht haben, verlihen und leihen auch wissentlich
+                                <lb/>mit dem brief, was wir in ze recht daran leihen su̍llen oder mu̍gen, die nuͤ fu̍rbaß von uns und unsern erben in lehens<lb break="no"/>weyse innzehaben, ze nu̍czen und ze nyessen, als lehens und lands recht ist, doch unser und meniclichs recht darinn
+                                <lb/>vorbehebt. Sy su̍llen uns auch die burg <placeName ref="loc010469">Hettlingen</placeName> offen halten zuͦ allen unsern notdurften, uns und die unsern
+                                <lb/>darin und darawß ze lassen und darinn ze enthalten wider meͣniclich, und daz sy uns davon dienstlich, <choice><abbr>getw</abbr><expan>getrew</expan></choice>, gehorsam
+                                <lb/>und geweͣrtig sein ze tuͦn, des lehensleͣwt irem lehenherren schuldig und gepunden sint ze tuͦn, <choice><abbr>getwlich</abbr><expan>getrewlich</expan></choice> und ane
+                                <lb/>geverde.</seg>
+                            <seg>Mit urku̍nd dicz briefs, geben ze <origPlace ref="loc000020">Baden</origPlace>, an <origDate when="1412-05-16">montag vor dem hailigen pfingsttag, nach Christs gepu̍rd
+                                <lb/>in dem vyerczehenhundertestem und dem zwoͤlfften jare</origDate>.</seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="chancery notation" place="sub plica"><lb/><choice><abbr>D</abbr><expan>Dominus</expan></choice> dux per se <lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
+                            <choice><abbr>conß</abbr><expan>consiliariis</expan></choice></ab>
+                    </div>
+                    <pb n="v"/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Lehenbrieff <lb/>um <lb/>die burg zu <placeName ref="loc010469">Hetlingen</placeName>
+                            <lb/><abbr>etc</abbr>, <lb/>anno <date when="1412">1412</date>
+                            <add place="inline" hand="hand19c"><date when="1412-05-16">16. Mai</date></add></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Ursprünglich befand sich <placeName ref="loc010469">Hettlingen</placeName> im Besitz der <orgName ref="org000010">Grafen von Kyburg</orgName>. Graf <persName ref="per000014">Hartmann IV.</persName> verschrieb seiner Frau <persName ref="per026884">Margarethe von Savoyen</persName> 1241 unter anderem Vogtei und Eigengut (<orig>advocacia et predium</orig>) von <placeName ref="loc010469">Hettlingen</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 2, Nr. 553</bibl>). Mit dem <orgName ref="org000010">Kyburger</orgName> Erbe kam das Dorf an die <orgName ref="org000088">Habsburger</orgName>. Zu den Besitzverhältnissen im 13. und zu Beginn des 14. Jahrhunderts vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 51-52, 60-61</bibl>. Das Lehenverzeichnis der <orgName ref="org000088">Herzöge von Österreich</orgName> aus dem Jahr 1361 nennt <persName ref="per026875">Ulrich von Hettlingen</persName> als Inhaber der dortigen Burg samt Zubehör (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/1, S. 474</bibl>), später gelangte sie durch Heirat an <persName ref="per026904">Franz Hoppler</persName>. Zu beiden Familien vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stauber 1949</ref>, S. 7-28</bibl>; zur Burg vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 71-75</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Stauber 1949</ref>, S. 86-97</bibl>; zum Lehenbesitz in <placeName ref="loc010469">Hettlingen</placeName> allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 69-75</bibl>. Mit dem Pfanderwerb der Herrschaft <placeName ref="loc000012">Kyburg</placeName> im Jahr 1452 ging auch die Lehensherrschaft an die Stadt <placeName ref="loc000065">Zürich</placeName> über, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_197">SSRQ ZH NF I/2/1, Nr. 197</ref></bibl>.</p>
+                        <p>Die <placeName ref="loc000849">Winterthurer</placeName> Familie <orgName ref="org007828">Hoppler</orgName> besass seit Ende des 13. Jahrhunderts das Patronatsrecht der Kapelle des <orgName ref="org007453">Siechenhauses</orgName> (<bibl>STAW URK 18</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 7, Nr. 2445</bibl>; vgl. auch den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_006">SSRQ ZH NF I/2/1, Nr. 6</ref></bibl>). 1416 übertrugen <persName ref="per026904">Franz Hoppler</persName>, seine Frau <persName ref="per026897">Agnes</persName> und ihr Sohn <persName ref="per026910">Stefan</persName> dem Kaplan <persName ref="per026907">Hartmann Hoppler</persName>, ihrem Sohn respektive Bruder, Liegenschaften zur Verbesserung seines Pfründeinkommens (<bibl>STAW URK 509</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+

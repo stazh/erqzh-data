@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date type="electronic" when="2020-06-01"/>
+                <date type="print" when="2020-06-01"/>
+            </publicationStmt>
+            
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1</idno>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <listWit>
+                    <witness/>
+                </listWit>
+            </sourceDesc>
+            
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <head type="title">Quellenverzeichnis</head>
+                        <div><head type="subtitle">Archiv der Politischen Gemeinde Bülach (PGA Bülach)</head>
+                            </div>
+                        <div>
+                            <listBibl>
+                                <bibl>
+                                    <idno>Urkunden auf Pergament I A</idno>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                        <div><head type="subtitle">Archiv der Politischen Gemeinde Hettlingen (PGA Hettlingen)</head>
+                        </div>
+                        <div>
+                            <listBibl>
+                                <bibl>
+                                    <idno>Urkunden auf Pergament I A</idno>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                        <div><head type="subtitle">Archiv der Zivilgemeinde Elgg (ZGA Elgg)</head>
+                        </div>
+                        <div>
+                            <listBibl>
+                                <bibl>
+                                    <idno>Bände IV A 3a</idno>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                    </div>
+                    <div><head type="subtitle">Archiv der Zivilgemeinde Hünikon (ZGA Hünikon)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Urkunden auf Pergament I A</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Archives départementales du Bas-Rhin (ADBR)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>G 377</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Bayerisches Hauptstaatsarchiv (BayHStA)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Auswärtige Staaten Literalien Tirol 19</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Bürgerarchiv Frauenfeld (BAF)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Urkunden Urk. 215</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Burgerbibliothek Bern (BBB)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Mss.h.h.VI.75</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Erzbischöfliches Archiv Freiburg (EAF)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Ha 318</idno>
+                                <idno>Ha 322</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Institut für Stadtgeschichte Frankfurt</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Handwerker: Akten 1729</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                        <div><head type="subtitle">Klosterarchiv Einsiedeln (KAE)</head></div>
+                        <div>
+                            <listBibl>
+                                <bibl>
+                                    <idno>Q.G.3</idno>
+                                    <idno>Q.G.4</idno>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                    <div><head type="subtitle">Landesarchiv Baden-Württemberg, Generallandesarchiv Karlsruhe (LABW GLAK)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>C Nr. 69</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Landesarchiv Baden-Württemberg, Hauptstaatsarchiv Stuttgart (LABW HStAS)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>H 162</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Staatsarchiv Augsburg (STAA)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Vorderösterreich und Burgau MüB 3</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Staatsarchiv des Kantons Luzern (StALU)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Urkunden URK 25/866</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Staatsarchiv des Kantons Schaffhausen (StASH)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Korrespondenzen</idno>
+                                <idno>Ordnungen A 2</idno>
+                                <idno>Urkunden 2/5485</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Staatsarchiv des Kantons Zürich (StAZH)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>A 42.1.13</idno>
+                                <idno>A 61.1</idno>
+                                <idno>A 95.1</idno>
+                                <idno>A 95.2</idno>
+                                <idno>A 131.4</idno>
+                                <idno>A 131.5</idno>
+                                <idno>A 155.1</idno>
+                                <idno>A 156.1</idno>
+                                <idno>A 184.1</idno>
+                                <idno>B I 203</idno>
+                                <idno>B II 4</idno>
+                                <idno>B II 13</idno>
+                               <idno> B II 18</idno>
+                                <idno>B II 35</idno>
+                                <idno>B II 38</idno>
+                                <idno>B II 39</idno>
+                                <idno>B II 40</idno>
+                                <idno>B II 72</idno>
+                                <idno>B II 106</idno>
+                                <idno>B II 133</idno>
+                                <idno>B II 303</idno>
+                                <idno>B III 2</idno>
+                                <idno>B III 4</idno>
+                                <idno>B III 65</idno>
+                                <idno>B III 90</idno>
+                                <idno>B IV 8</idno>
+                                <idno>B IV 11</idno>
+                                <idno>B IV 15</idno>
+                                <idno>B IV 16</idno>
+                                <idno>B IV 17</idno>
+                                <idno>B IV 19</idno>
+                                <idno>B IV 25</idno>
+                                <idno>B IV 27</idno>
+                                <idno>B IV 28</idno>
+                                <idno>B V 1</idno>
+                                <idno>B V 3</idno>
+                                <idno>B V 28</idno>
+                                <idno>B V 44</idno>
+                                <idno>B VI 246</idno>
+                                <idno>B VI 247</idno>
+                                <idno>B VI 256</idno>
+                                <idno>B VIII 87</idno>
+                                <idno>C I</idno>
+                                <idno>C II 1</idno>
+                                <idno>C II 4</idno>
+                                <idno>C II 7</idno>
+                                <idno>C II 12</idno>
+                                <idno>C II 13</idno>
+                                <idno>C II 16</idno>
+                                <idno>C IV</idno>
+                                <idno>C V</idno>
+                                <idno>E I 30.55</idno>
+                                <idno>E I 30.81</idno>
+                                <idno>E I 30.144</idno>
+                                <idno>F I 50</idno>
+                                <idno>F I 51</idno>
+                                <idno>F II a 252</idno>
+                                <idno>F II a 252 a</idno>
+                                <idno>F II a 255</idno>
+                                <idno>F II a 271</idno>
+                                <idno>F II a 411</idno>
+                                <idno>F II a 462</idno>
+                                <idno>F II a 466</idno>
+                                <idno>F II c 38</idno>
+                                <idno>F II c 39</idno>
+                                <idno>KAT 237</idno>
+                                <idno>KAT 295 b</idno>
+                                <idno>KAT 414</idno>
+                                <idno>RR I 188</idno>
+                                <idno>W I 1</idno>
+                                <idno>III Aab 1.6</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Stadtarchiv Winterthur (STAW)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>AA</idno>
+                                <idno>AB</idno>
+                                <idno>AC</idno>
+                                <idno>AF</idno>
+                                <idno>AF</idno>
+                                <idno>AG</idno>
+                                <idno>AH</idno>
+                                <idno>AJ</idno>
+                                <idno>AM</idno>
+                                <idno>B 1/1</idno>
+                                <idno>B 1/7</idno>
+                                <idno>B 1/32</idno>
+                                <idno>B 1/5</idno>
+                                <idno>B 2/1</idno>
+                                <idno>B 2/2</idno>
+                                <idno>B 2/3</idno>
+                                <idno>B 2/5</idno>
+                                <idno>B 2/6</idno>
+                                <idno>B 2/7</idno>
+                                <idno>B 2/8</idno>
+                                <idno>B 2/10</idno>
+                                <idno>B 2/11</idno>
+                                <idno>B 2/63</idno>
+                                <idno>B 2a/1</idno>
+                                <idno>B 2a/32</idno>
+                                <idno>B 2b/1</idno>
+                                <idno>B 3a/1</idno>
+                                <idno>B 3a/10</idno>
+                                <idno>B 3a/11</idno>
+                                <idno>B 3e/3c</idno>
+                                <idno>B 3e/3d</idno>
+                                <idno>B 3e/26</idno>
+                                <idno>B 3e/27</idno>
+                                <idno>B 3e/47</idno>
+                                <idno>B 3e/53</idno>
+                                <idno>B 3e/54</idno>
+                                <idno>B 3f</idno>
+                                <idno>B 4/1</idno>
+                                <idno>B 4/2</idno>
+                                <idno>B 5/1</idno>
+                                <idno>B 5/1a</idno>
+                                <idno>Ki 50</idno>
+                                <idno>Se 25</idno>
+                                <idno>Se 26</idno>
+                                <idno>Se 27</idno>
+                                <idno>Urkunden URK</idno>
+                                <idno>Depositum Dep. 22/1</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Stadtarchiv Zürich (StArZH)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>III.A.1.</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Tiroler Landesarchiv (TLA)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Libri fragmentorum, Bd. 5</idno>
+                                <idno>Urbar 245.1</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Universitätsarchiv der Albert-Ludwigs-Universität Freiburg im Breisgau (UAF)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>A1/0120</idno>
+                                <idno>A1/0162</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div>
+                        <head type="subtitle">Winterthurer Bibliotheken, Sammlung Winterthur (winbib)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Ms. Fol. 4</idno>
+                                <idno>Ms. Fol. 27</idno>
+                                <idno>Ms. Fol. 30</idno>
+                                <idno>Ms. Fol. 49</idno>
+                                <idno>Ms. Fol. 138</idno>
+                                <idno>Ms. Fol. 203</idno>
+                                <idno>Ms. Fol. 240</idno>
+                                <idno>Ms. Fol. 241</idno>
+                                <idno>Ms. Fol. 264</idno>
+                                <idno>Ms. Quart 102</idno>
+                                </bibl>
+                        </listBibl>
+                    </div>
+                    <div><head type="subtitle">Zentralbibliothek Zürich (ZBZ)</head>
+                    </div>
+                    <div>
+                        <listBibl>
+                            <bibl>
+                                <idno>Ms B 13</idno>
+                                <idno>Ms J 86</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
+
