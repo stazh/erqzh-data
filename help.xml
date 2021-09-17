@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="de">Erläuterungen zur Suche</title>
+            <title xml:lang="fr">Informations sur la recherche</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="heading">font-size: 1.2em;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="fr">
+            <div>
+               <head rendition="#heading">Recherche plein texte</head>
+               <list>
+                  <item>Recherchez-vous un mot ou un groupe de mots</item>
+                  <item>Recherchez-vous avec AND, OR ou AND NOT</item>
+                  <item>Wildcards sont possibles (p.e. wein* ou *haus)</item>
+                  <item>Recherchez-vous une expression incomplète avec un métacaractère (p.e. c*l ; * pour plusieurs caractères ; ? pour un
+                     caractère)</item>
+               </list>
+            </div>
+            <div>
+               <head rendition="#heading">Limiter la recherche à un champ ou une facette</head>
+               <p>Personnes:</p>
+               <list>
+                  <item>Nom de famille sans namelink</item>
+                  <item>Nom de famille et prénom. Les noms doivent être séparés par un espace (p.e. : Schmid Pierre)</item>
+                  <item>Personnes sans nom de famille. NN espace prénom (p.e. : NN Jean)</item>
+               </list>
+               <p>Familles/organisations; lieux; lemmes; termes:</p>
+               <list>
+                  <item>Recherche par orthographie standard</item>
+               </list>
+            </div>
+            <div>
+               <p>
+                  <ref target="https://www.ssrq-sds-fds.ch/fr/projets/sds-online/recherche-details/"
+                  >Description détaillée</ref> pour la recherche de personnes, organisations,
+               lieux et termes</p>
+            </div>
+         </div>
+         <div xml:lang="de">
+            <div>
+               <head rendition="#heading">Volltextsuche</head>
+               <list>
+                  <item>Exakte Suche eines Wortes oder einer Wortfolge</item>
+                  <item>Suche mit den Operatoren AND, OR oder AND NOT</item>
+                  <item>Wildcards für eine unscharfe Suche (z.B. wein* oder *haus)</item>
+                  <item>Platzhalter innerhalb eines Wortes (z.B. r*t; * für mehrere Zeichen; ? für ein Zeichen)</item>
+                  <!--item>Kombination von Suchbegriffen (Operatoren: AND, OR, AND NOT) FUNKTIONIERT NOCH NICHT</item-->
+               </list>
+            </div>
+            <div>
+               <head rendition="#heading">Erweiterte Suche nach Textgattung, Facetten, Felder</head>
+               <p>Personen:</p>
+               <list>
+                  <item>Nachnamen ohne Namelink</item>
+                  <item>Nachnamen und Vornamen. Namen durch Leerzeichen trennen (z.B.: Schmid Thomas)</item>
+                  <item>Personen ohne Nachnamen. NN Leerzeichen Vorname (z.B.: NN Ulrich)</item>
+               </list>
+               <p>Familien/Organisationen; Orte; Lemma; Schlagworte:</p>
+               <list>
+                  <item>Standardschreibweise eingeben</item>
+               </list>
+            </div>
+            <div>
+               <p>
+                  <ref target="https://www.ssrq-sds-fds.ch/projekte/ssrq-online/suche-details/"
+                  >Detaillierter Beschrieb</ref> zur Suche nach Personen, Organisationen, Orten
+               und Begriffen</p>
+               <p><ref target="https://www.youtube.com/watch?v=mqZJKv6SkXw&amp;t=">Tutorial</ref></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
