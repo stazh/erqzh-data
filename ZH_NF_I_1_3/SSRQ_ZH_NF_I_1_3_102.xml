@@ -3,137 +3,272 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_102</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3452122">StAZH B III 2, S. 359-360</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Besetzung der städtischen Ämter sowie der Landvogteien und der Obervogteien</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich verfügen, dass die städtischen Ämter jeweils auf Weihnachten, die Landvogteien hingegen auf den 24. Juni besetzt werden sollen. Für die Wahl der Landvögte von Kyburg, Eglisau, Grüningen, Greifensee, Andelfingen, Regensberg und im Konaueramt werden folgende Bedingungen erlassen: Wählbar sind Mitglieder des Grossen und des Kleinen Rates; gewählte Landvögte haben während der Amtsdauer ihre Mitgliedschaft im Kleinen Rat aufzugeben, sie bleiben jedoch Mitglieder des Grossen Rates; Landvögte werden für die Dauer von drei Jahren gewählt, ihre Amtszeit kann danach jährlich verlängert werden, jedoch jeweils erst nach erfolgter Prüfung der Jahresrechnung; jeder Landvogt hat gegenüber dem Kleinen Rat zwei Bürgen zu stellen. Als Vögte der gemeinen Herrschaften sowie für die Hauptmannschaft von St. Gallen sind nur Mitglieder des Kleinen Rates zugelassen, dasselbe gilt für die Obervogteien. Städtische Amtsleute haben die Ordnungen ihres jeweiligen Amtes zu beschwören.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Joachim vom Grüth, Unterschreiber der Stadt Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1516-01-01" to="1516-12-31">Datierung aufgrund der Schreiberhand</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key003866">Landesherrschaft</term><term ref="key000204">Verwaltung</term><term ref="key000036">Vogtei</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="359" facs="StAZH_B_III_2__S__359_.tif"/>
-<head><add place="top" hand="hand16c">Heb an uff eym besunderen blatt.</add>
-<lb/>Wie man der statt eͣmpter ze <date type="holiday" when="--12-25">wienechten</date><note>Verschiedene städtische Ämter wurden jeweils auf Weihnachten neu besetzt, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917100">StAZH B III 6, fol. 66r-84v</ref></bibl>. Entgegen der bei <bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 21</bibl> geäusserten Vermutung sind damit nicht zwingend die Klosteramtleute gemeint, was eine Datierung der vorliegenden Aufzeichnung nach der Reformation rechtfertigen würde, insbesondere da die Hand des Unterschreibers <persName ref="per015535">Joachim vom Grüth</persName> für einen früheren Entstehungszeitraum spricht. In einer späteren Fassung der Ordnung wurde zudem der Hinweis auf die Klosteramtleute explizit noch ergänzt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</note>,
-<lb/>deßglich die vogtyen und empter ze <date type="holiday" when="--06-24">sant
-<lb/><persName ref="per000049">Johans</persName> tag im summer</date>
-<date dur="R/P1Y">jerlich</date> sol verlihen</head>
-<p>
-<lb/><seg>Wir der <orgName role="issuer" ref="org002406">burgermeister, rat und der großrat</orgName> ordnent, setzent und woͤl<lb break="no"/>lent,
-das allweg zuͦ <date type="holiday" when="--12-25">wienechten</date> der statt eͣmpter, so man als dann
-<lb/>bißhar hat besetzt, soͤllint besetzt werden, mit lu̍ten, so darzuͦ to<lb break="no"/>genlich 
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_3_102</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3452122"
+       >StAZH B III 2, S. 359-360</idno>
+     </msIdentifier>
+     <head>Ordnung der Stadt Zürich für die Besetzung der städtischen Ämter sowie der Landvogteien und der Obervogteien</head>
+     <msContents>
+      <summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich verfügen, dass die städtischen Ämter jeweils auf Weihnachten, die Landvogteien hingegen auf den 24. Juni besetzt werden sollen. Für die Wahl der Landvögte von Kyburg, Eglisau, Grüningen, Greifensee, Andelfingen, Regensberg und im Knonaueramt werden folgende Bedingungen erlassen: Wählbar sind Mitglieder des Grossen und des Kleinen Rates; gewählte Landvögte haben während der Amtsdauer ihre Mitgliedschaft im Kleinen Rat aufzugeben, sie bleiben jedoch Mitglieder des Grossen Rates; Landvögte werden für die Dauer von drei Jahren gewählt, ihre Amtszeit kann danach jährlich verlängert werden, jedoch jeweils erst nach erfolgter Prüfung der Jahresrechnung; jeder Landvogt hat gegenüber dem Kleinen Rat zwei Bürgen zu stellen. Als Vögte der gemeinen Herrschaften sowie für die Hauptmannschaft von St. Gallen sind nur Mitglieder des Kleinen Rates zugelassen, dasselbe gilt für die Obervogteien. Städtische Amtleute haben die Ordnungen ihres jeweiligen Amtes zu beschwören.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <author role="scribe">Joachim vom Grüth, Unterschreiber der Stadt Zürich</author>
+       <filiation type="current">Eintrag</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="33.0"/>
+          <width unit="cm" quantity="24.0"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate from="1516-01-01" to="1516-12-31"
+        >Datierung aufgrund der Schreiberhand</origDate></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000065">Amtleute</term>
+     <term ref="key003866">Landesherrschaft</term>
+     <term ref="key000204">Verwaltung</term>
+     <term ref="key000036">Vogtei</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="359" facs="StAZH_B_III_2__S__359_.tif"/>
+      <head><add place="top" hand="hand16c">Heb an uff eym besunderen blatt.</add>
+       <lb/>Wie man der statt eͣmpter ze <date type="holiday" when="--12-25"
+          >wienechten</date><note>Verschiedene städtische Ämter wurden jeweils auf Weihnachten neu besetzt, vgl. <bibl><ref
+          target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917100"
+          >StAZH B III 6, fol. 66r-84v</ref></bibl>. Entgegen der bei <bibl><ref
+          target="/startseite/literaturverzeichnis"
+         >Dütsch 1994</ref>, S. 21</bibl> geäusserten Vermutung sind damit nicht zwingend die Klosteramtleute gemeint, was eine Datierung der vorliegenden Aufzeichnung nach der Reformation rechtfertigen würde, insbesondere da die Hand des Unterschreibers <persName
+         ref="per015535"
+          >Joachim vom Grüth</persName> für einen früheren Entstehungszeitraum spricht. In einer späteren Fassung der Ordnung wurde zudem der Hinweis auf die Klosteramtleute explizit noch ergänzt (<bibl><ref
+          target="/suche/detail/SSRQ_ZH_NF_I_1_3_172"
+        >SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</note>,
+<lb/>deßglich die vogtyen und empter ze <date
+        type="holiday" when="--06-24">sant
+<lb/><persName ref="per000049"
+        >Johans</persName> tag im summer</date>
+       <date dur="R/P1Y">jerlich</date> sol verlihen</head>
+      <p>
+       <lb/><seg>Wir der <orgName role="issuer" ref="org002406"
+         >burgermeister, rat und der großrat</orgName> ordnent, setzent und woͤl<lb break="no"
+         />lent,
+das allweg zuͦ <date type="holiday" when="--12-25"
+         >wienechten</date> der statt eͣmpter, so man als dann
+<lb/>bißhar hat besetzt, soͤllint besetzt werden, mit lu̍ten, so darzuͦ to<lb
+         break="no"/>genlich 
 und unser statt nutz und fuͦg sind. Deßglich allweg
-<lb/>zuͦ <date when="--06-24">sant <persName ref="per000049">Johans</persName> tag im summer</date> all vogtyen und die aͤmpter, so 
-<lb/>man alßdann bißhar ouch besetzt hat, die statt har verlihen, be<lb break="no"/>setzen 
+<lb/>zuͦ <date
+         when="--06-24">sant <persName ref="per000049"
+         >Johans</persName> tag im summer</date> all vogtyen und die aͤmpter, so 
+<lb/>man alßdann bißhar ouch besetzt hat, die statt har verlihen, be<lb
+         break="no"
+        />setzen 
 und entsetzen, wie uns bedunckt unser statt und dem land 
 <lb/>am nutzlichisten, erlichisten und loblichisten sin. Und doch
 <lb/>mit der lu̍trung als hernach volgt.</seg>
-<seg>Namlich so soͤllent
-<lb/>unser vogtyen zuͦ <placeName ref="loc000012">Kyburg</placeName>, <placeName ref="loc009832">Eglisow</placeName>, <placeName ref="loc000362">Gruͤningen</placeName>, 
-<placeName ref="loc000348">Gryfense</placeName>, <placeName ref="loc008749">Andelfin<lb break="no"/>gen</placeName>, 
-<placeName ref="loc007729">Regensperg</placeName> und in dem <placeName ref="loc010516">Fryen Ampt</placeName> zuͦ <placeName ref="loc000468">Knonow</placeName> und <placeName ref="loc010531">Ma<lb break="no"/>schwanden</placeName>
+       <seg>Namlich so soͤllent
+<lb/>unser vogtyen zuͦ <placeName ref="loc000012"
+         >Kyburg</placeName>, <placeName ref="loc009832">Eglisow</placeName>, <placeName
+         ref="loc000362">Gruͤningen</placeName>, 
+<placeName ref="loc000348"
+         >Gryfense</placeName>, <placeName ref="loc008749">Andelfin<lb break="no"
+         />gen</placeName>, 
+<placeName ref="loc007729">Regensperg</placeName> und in dem <placeName
+         ref="loc010516">Fryen Ampt</placeName> zuͦ <placeName ref="loc000468"
+         >Knonow</placeName> und <placeName ref="loc010531">Ma<lb break="no"
+         />schwanden</placeName>
 besetzt werden mit lu̍ten, die da sind von den nu̍wen 
-<lb/>und alten <orgName ref="org004016">reͣten</orgName> oder den burgern, dem <orgName ref="org004906">großen rat</orgName>. Und woͤlichem 
-<lb/>des nu̍wen regierenden und geschwornen <orgName ref="org004016">rats</orgName> ein vogty wirt 
-<lb/>gelichen, der sol nit me des nu̍wen <orgName ref="org004016">rats</orgName> weßen, sonder ein anderer
+<lb/>und alten <orgName
+         ref="org004016">reͣten</orgName> oder den burgern, dem <orgName ref="org004906"
+         >großen rat</orgName>. Und woͤlichem 
+<lb/>des nu̍wen regierenden und geschwornen <orgName
+         ref="org004016"
+         >rats</orgName> ein vogty wirt 
+<lb/>gelichen, der sol nit me des nu̍wen <orgName
+         ref="org004016"
+         >rats</orgName> weßen, sonder ein anderer
 <lb/>unverzogenlich an sin statt genomen werden, doch sol er der
-<lb/><orgName ref="org004906">burger</orgName> bliben an eins abgenden statt, umb das der regierent
-<lb/><orgName ref="org004016">rat</orgName> sin zyl uß destbaß mu̍ge byeinander sin. Und soͤllent die
+<lb/><orgName
+         ref="org004906"
+         >burger</orgName> bliben an eins abgenden statt, umb das der regierent
+<lb/><orgName
+         ref="org004016"
+         >rat</orgName> sin zyl uß destbaß mu̍ge byeinander sin. Und soͤllent die
 <lb/>voͤgt bemellter vogtyen da ussen uff den vogtyen iren sitz haben
-<lb/>und daselbst hußhallten und zuͦ keynen andren sachen geschy<lb break="no"/>ben 
+<lb/>und daselbst hußhallten und zuͦ keynen andren sachen geschy<lb
+         break="no"
+        />ben 
 und gebrucht werden, umb das die vogtyen destbaß versehen
  <lb/>und inen gewartet werd.</seg>
-<seg>Und sol allweg zuͦ <date dur="P3Y">dryen jaren</date>
-<lb/>derselben ussern voͤgten jar uß sin und einer urlob haben unnd 
+       <seg>Und sol allweg zuͦ <date dur="P3Y">dryen jaren</date>
+        <lb/>derselben ussern voͤgten jar uß sin und einer urlob haben unnd 
 <lb/>soͤllent inn die unnsern in solicher vogty, da er dann vogt wirt
 <lb/>oder ist geweßen, so er uff ald ab zu̍cht, mit siner hab vertigen.
 <lb/>Doch damit in soͤlichen vogtyen unser statt nutz destbaß gefu̍rdert
 <lb/>und die unnsern vor cost verhuͤt werdint, mag nu̍dt destminder 
-<lb/>ein yeder abgender vogt, so wir nach ußgang der <date dur="P3Y">dryen jaren</date>
-<lb/>die vogtyen wider lichent, nebent andren darumb wyder bitten,
+<lb/>ein yeder abgender vogt, so wir nach ußgang der <date
+         dur="P3Y">dryen jaren</date>
+        <lb/>die vogtyen wider lichent, nebent andren darumb wyder bitten,
 <lb/>hat er uns dann vornaher uff soͤlicher vogty gedient, das uns 
 <lb/>bedunckt, er sye gemeyner unser statt nutzlich, mu̍gent wir
-<lb/>inn wider nemen und so das <date dur="P1Y">jar</date> harumb kumpt, sol man ein
+<lb/>inn wider nemen und so das <date
+         dur="P1Y"
+         >jar</date> harumb kumpt, sol man ein
 <lb/>frag umb inn haben. Und so er aber wirt genomen, sol man 
-<lb/>dannenthin <date dur="R/P1Y">jerlich</date> allweg, wenn er zur wal kompt, umb 
+<lb/>dannenthin <date
+         dur="R/P1Y"
+         >jerlich</date> allweg, wenn er zur wal kompt, umb 
 <lb/>inn ein frag haben, doch soͤllent die rechnungen eines yeden 
-<pb n="360" facs="StAZH_B_III_2__S__360_.tif
+<pb
+         n="360" facs="StAZH_B_III_2__S__360_.tif
 "/>
-<lb/>vogts vorhin geleßen werden.</seg>
-<seg>Und was vogtygen wir mit andren 
-<lb/><orgName ref="org000531">eidgnoßen</orgName> habent zuͦbesetzen, deßglich die hoptmanschafft zuͦ 
-<lb/><placeName ref="loc000082">Sant Gallen</placeName>, die soͤllent wir besetzen uß unserm <orgName ref="org004016">kleinen rat</orgName>, es 
+        <lb/>vogts vorhin geleßen werden.</seg>
+       <seg>Und was vogtygen wir mit andren 
+<lb/><orgName ref="org000531"
+         >eidgnoßen</orgName> habent zuͦbesetzen, deßglich die hoptmanschafft zuͦ 
+<lb/><placeName
+         ref="loc000082">Sant Gallen</placeName>, die soͤllent wir besetzen uß unserm <orgName
+         ref="org004016">kleinen rat</orgName>, es 
 <lb/>sye uß dem nu̍wen oder alten.</seg>
-<seg>Und woͤlicher also von uns 
+       <seg>Und woͤlicher also von uns 
 <lb/>uff die obbemellten unser ussern vogtyen anfangs wirt genomen
 <lb/>und erwellt, der sol nit uffziehen, er habe dann uns darumb 
-<lb/>trostung geben mit <num value="2">zweyen</num> ingeseßnen burgern und dieselben
-<lb/>troͤster fu̍r unsern <orgName ref="org004016">kleinen rat</orgName> stellen, ob sy soͤlicher trostung gnuͦg 
-<lb/>beduncke und unserm <orgName ref="org004016">kleinen rat</orgName> versprechint, troͤster zesind, umb 
+<lb/>trostung geben mit <num
+         value="2">zweyen</num> ingeseßnen burgern und dieselben
+<lb/>troͤster fu̍r unsern <orgName
+         ref="org004016"
+         >kleinen rat</orgName> stellen, ob sy soͤlicher trostung gnuͦg 
+<lb/>beduncke und unserm <orgName
+         ref="org004016"
+         >kleinen rat</orgName> versprechint, troͤster zesind, umb 
 <lb/>alles das, so sich sinthalb von soͤlicher vogty wegen ufflouft. Ouch 
 <lb/>den gewonlichen eid schwerren und woͤlicher einost vertroͤst und 
 <lb/>schwert, der bedarff es nit me thuͦn, diewyl er uff soͤlicher vogty 
 <lb/>blibt und wir im die lassent, es were dann, das ein troͤster mit 
 <lb/>tod abgieng oder darzuͦ sust unnu̍tz wurde, da sol er an desselben
 <lb/>statt unverzogenlich einen andren in obgeschribner gstallt fu̍r 
-<lb/>unser <orgName ref="org004016">reͣt</orgName> stellen und geben, by sinem eid. Und darzuͦ, wenn ein 
+<lb/>unser <orgName
+         ref="org004016"
+         >reͣt</orgName> stellen und geben, by sinem eid. Und darzuͦ, wenn ein 
 <lb/>vogt den eid der vogty halb wil thuͦn, sol er schwerren vor den
- <lb/><orgName ref="org004016">reͣten</orgName>.</seg>
-<seg>Woͤliche ouch zuͦ der statt amptlu̍t genomen werdent,
+ <lb/><orgName
+         ref="org004016">reͣten</orgName>.</seg>
+       <seg>Woͤliche ouch zuͦ der statt amptlu̍t genomen werdent,
 <lb/>die soͤllent von soͤlicher eͣmpter wegen schwerren und darzuͦ die 
 <lb/>ordnungen hallten, wie das von yedem in sonderheit gesetzt ist.
-<lb/>Was ouch soͤlicher eͣmpter nu̍wen oder alten <orgName ref="org004016">reͣten</orgName> bevolhent 
+<lb/>Was ouch soͤlicher eͣmpter nu̍wen oder alten <orgName
+         ref="org004016"
+        >reͣten</orgName> bevolhent 
 <lb/>wirt, darumb soͤllent sy schwerren als ander, die deß nit sind.</seg>
-<lb/><seg>Aber die vogtyen, die wir besetzent und bißhar besetzt habennt, 
+       <lb/><seg>Aber die vogtyen, die wir besetzent und bißhar besetzt habennt, 
 <lb/>mit voͤgten in der statt, die mit irem sitz deßhalb nit muͤssent
-<lb/>hinuß ziehen, soͤllent und woͤllent wir besetzen, <date dur="R/P1Y">jerlich</date> allein 
-<lb/>mit unnsern nu̍wen oder alten <orgName ref="org004016">reͣten</orgName> und keinem des <orgName ref="org004906">großen 
-<lb/>rats</orgName>. Und doch allso woͤlicher derselben <add place="left margin" type="sign">es syge des <lb/><orgName ref="org004134">richs</orgName> oder <lb/>anderer</add> vogtyen eine <date dur="P1Y">eins jars</date>
-<lb/>hat gehept, das im des <date dur="P1Y">anndren jar</date> keine sol gelihen werden,
-<lb/>aber an dem <date dur="P1Y">dritten jar</date> mag er es wol wider weßen, ob wir
+<lb/>hinuß ziehen, soͤllent und woͤllent wir besetzen, <date
+         dur="R/P1Y">jerlich</date> allein 
+<lb/>mit unnsern nu̍wen oder alten <orgName
+         ref="org004016">reͣten</orgName> und keinem des <orgName ref="org004906"
+         >großen 
+<lb/>rats</orgName>. Und doch allso woͤlicher derselben <add place="left margin"
+         type="sign">es syge des <lb/><orgName ref="org004134"
+         >richs</orgName> oder <lb/>anderer</add> vogtyen eine <date dur="P1Y">eins jars</date>
+        <lb/>hat gehept, das im des <date dur="P1Y"
+         >anndren jar</date> keine sol gelihen werden,
+<lb/>aber an dem <date dur="P1Y"
+         >dritten jar</date> mag er es wol wider weßen, ob wir
 <lb/>im eine lihent.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Die vorliegende Ordnung befasst sich hauptsächlich mit der Besetzung der Landvogteien, während die Bestimmungen betreffend die städtischen Ämter und die Obervogteien knapp gehalten sind. Sie sind an anderer Stelle ausführlicher geregelt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_092">SSRQ ZH NF I/1/3, Nr. 92</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917100">StAZH B III 6, fol. 66r-84v</ref></bibl>). Unterschreiber <persName ref="per015535">Joachim vom Grüth</persName> übertrug die Ordnung zusammen mit weiteren Bestimmungen vermutlich aus dem von ihm erstellten Entwurf für das Satzungsbuch der Stadt Zürich (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=908773">StAZH A 43.1.5, Nr. 2</ref></bibl>), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 131</bibl>. Im Satzungsbuch selbst ist ebenfalls eine Fassung der Ordnung vorhanden, die sich jedoch gänzlich auf die Besetzung der Landvogteien beschränkt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917227">StAZH B III 6, fol. 86r-v</ref></bibl>). Für das sogenannte <q>Schwarze Buch</q> wurde die Ordnung durch Stadtschreiber <persName ref="per012630">Werner Beyel</persName>  noch einmal überarbeitet und erweitert, wobei insbesondere auch die Besetzung der seit der Reformation geschaffenen Klosteramtsstellen geregelt wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</p>
-<p>Gemäss den Bestimmungen des Vierten Geschworenen Briefs wurden die Landvögte durch den <orgName ref="org004906">Grossen Rat</orgName> gewählt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>). Zuvor hatte diesbezüglich eine uneinheitliche Praxis geherrscht (<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 20</bibl>). Erstmals wurden mit der vorliegenden Ordnung die Bedingungen für das passive Wahlrecht  der Landvögte einheitlich regelt. Bereits 1515 war deren Amtszeit auf drei Jahre, mit der jährlichen Option auf Verlängerung, eingeschränkt worden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4215550">StAZH B II 58, S. 3</ref></bibl>). Während des ersten Drittels des 16. Jahrhunderts wurde diese Verlängerung in den allermeisten Fällen gewährt. In diesem Zeitraum hatten mehrere Landvögte ihre Stelle über zehn Jahre inne (<bibl><ref target="/startseite/literaturverzeichnis">Dütsch 1994</ref>, S. 22</bibl>). Die vorliegende Verordnung geht insofern über den Beschluss von 1515 hinaus, als die jährliche Verlängerung vom erfolgreichen Ablegen der Jahresrechnung abhängig gemacht wird. Die Ordnung im <q>Schwarzen Buch</q> schränkte die Amtszeit schliesslich fix auf sechs Jahre ein (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</p>
-<p>In demselben Zeiraum wie die vorliegende Ordnung wurden zudem der Eid und die Amtspflichten der Landvögte näher geregelt, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl></p>
-</div>
-</back>
-</text>
-</group>
-</text>
+      </p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Die vorliegende Ordnung befasst sich hauptsächlich mit der Besetzung der Landvogteien, während die Bestimmungen betreffend die städtischen Ämter und die Obervogteien knapp gehalten sind. Sie sind an anderer Stelle ausführlicher geregelt (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_092"
+         >SSRQ ZH NF I/1/3, Nr. 92</ref></bibl>; <bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917100"
+         >StAZH B III 6, fol. 66r-84v</ref></bibl>). Unterschreiber <persName ref="per015535"
+        >Joachim vom Grüth</persName> übertrug die Ordnung zusammen mit weiteren Bestimmungen vermutlich aus dem von ihm erstellten Entwurf für das Satzungsbuch der Stadt Zürich (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=908773"
+         >StAZH A 43.1.5, Nr. 2</ref></bibl>), vgl. <bibl><ref
+         target="/startseite/literaturverzeichnis"
+         >Weibel 1988</ref>, S. 131</bibl>. Im Satzungsbuch selbst ist ebenfalls eine Fassung der Ordnung vorhanden, die sich jedoch gänzlich auf die Besetzung der Landvogteien beschränkt (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1917227"
+         >StAZH B III 6, fol. 86r-v</ref></bibl>). Für das sogenannte <q>Schwarze Buch</q> wurde die Ordnung durch Stadtschreiber <persName
+        ref="per012630"
+         >Werner Beyel</persName>  noch einmal überarbeitet und erweitert, wobei insbesondere auch die Besetzung der seit der Reformation geschaffenen Klosteramtsstellen geregelt wurde (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</p>
+      <p>Gemäss den Bestimmungen des Vierten Geschworenen Briefs wurden die Landvögte durch den <orgName
+        ref="org004906">Grossen Rat</orgName> gewählt (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+         >SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>). Zuvor hatte diesbezüglich eine uneinheitliche Praxis geherrscht (<bibl><ref
+         target="/startseite/literaturverzeichnis"
+         >Dütsch 1994</ref>, S. 20</bibl>). Erstmals wurden mit der vorliegenden Ordnung die Bedingungen für das passive Wahlrecht  der Landvögte einheitlich geregelt. Bereits 1515 war deren Amtszeit auf drei Jahre, mit der jährlichen Option auf Verlängerung, eingeschränkt worden (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4215550"
+         >StAZH B II 58, S. 3</ref></bibl>). Während des ersten Drittels des 16. Jahrhunderts wurde diese Verlängerung in den allermeisten Fällen gewährt. In diesem Zeitraum hatten mehrere Landvögte ihre Stelle über zehn Jahre inne (<bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Dütsch 1994</ref>, S. 22</bibl>). Die vorliegende Verordnung geht insofern über den Beschluss von 1515 hinaus, als die jährliche Verlängerung vom erfolgreichen Ablegen der Jahresrechnung abhängig gemacht wird. Die Ordnung im <q>Schwarzen Buch</q> schränkte die Amtszeit schliesslich fix auf sechs Jahre ein (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_172">SSRQ ZH NF I/1/3, Nr. 172</ref></bibl>).</p>
+      <p>In demselben Zeiraum wie die vorliegende Ordnung wurden zudem der Eid und die Amtspflichten der Landvögte näher geregelt, vgl. <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_091">SSRQ ZH NF I/1/3, Nr. 91</ref></bibl></p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>

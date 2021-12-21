@@ -3,115 +3,289 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_011</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249945">StAZH C I, Nr. 17</idno></msIdentifier><head>Verleihung des Präsentationsrechts für Chorherrenstellen, Pfründen, Propsteien und andere kirchliche Ämter an der Fraumünsterabtei, dem Grossmünsterstift und dem Chorherrenstift Embrach während der ungeraden Monate jedes Jahres durch Papst Sixtus IV. an die Stadt Zürich</head><msContents><summary>Papst Sixtus IV. erteilt Bürgermeister, Rat und Zunftmeistern der Stadt Zürich das Vorschlagsrecht für Chorherrenstellen, Pfründen, das Amt eines Propstes und andere kirchliche Ämter der Fraumünsterabtei, des Grossmünsters sowie des Stifts Embrach, die in den päpstlichen Monaten frei werden. Die auf diese Stellen Gewählten sind jedoch verpflichtet, sich innert sechs Monaten nach ihrer Einsetzung bei der apostolischen Kammer in Rom zu melden und die betreffenden Gebühren (Annaten) zu entrichten, sofern ihre jährlichen Einkünfte über 24 Gulden betragen.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.5"/><width unit="cm" quantity="54.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="bulle" nontei:shape="round" nontei:attachment="sealed on a lace" nontei:condition="well-preserved"><persName role="sigillant">Papst Sixtus IV.</persName></seal></sealDesc></physDesc><history><origin><origDate when="1479-07-08"/><origPlace>Rom, St. Peter</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>Rohrer 1878, S. 46-49</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003648">Geistlichkeit</term><term ref="key004009">Kirchengut</term><term ref="key003322">Kirchenrecht</term><term ref="key000193">Pfründe</term><term ref="key003346">Stift</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="StAZH_C_I__Nr__17__r_.tif"/>
-<p><seg><lb/><persName role="issuer" ref="per003932">Sixtus</persName> episcopus, servus servorum dei, ad perpetuam rei memoriam.
-<lb/><placeName ref="loc000076">Romanus</placeName> pontifex, <persName ref="per000438">Petri</persName> regni celestis clavigeri successor et <persName ref="per000353">Jesu Christi</persName> vicarius, illa, cum ab eo petitur, de sedis apostolice liberalitate et munificentia statuit et ordinat, per que ad eum et sedem predictam sincere gerentes devotionis 
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_1_3_011</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249945"
+                            >StAZH C I, Nr. 17</idno>
+                    </msIdentifier>
+                    <head>Verleihung des Präsentationsrechts für Chorherrenstellen, Pfründen, Propsteien und andere kirchliche Ämter an der Fraumünsterabtei, dem Grossmünsterstift und dem Chorherrenstift Embrach während der ungeraden Monate jedes Jahres durch Papst Sixtus IV. an die Stadt Zürich</head>
+                    <msContents>
+                        <summary>Papst Sixtus IV. erteilt Bürgermeister, Rat und Zunftmeistern der Stadt Zürich das Vorschlagsrecht für Chorherrenstellen, Pfründen, das Amt eines Propstes und andere kirchliche Ämter der Fraumünsterabtei, des Grossmünsters sowie des Stifts Embrach, die in den päpstlichen Monaten frei werden. Die auf diese Stellen Gewählten sind jedoch verpflichtet, sich innert sechs Monaten nach ihrer Einsetzung bei der apostolischen Kammer in Rom zu melden und die betreffenden Gebühren (Annaten) zu entrichten, sofern ihre jährlichen Einkünfte über 24 Gulden betragen.</summary>
+                        <msItem>
+                            <textLang>Latein</textLang>
+                            <filiation type="current">Original</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="33.5"/>
+                                        <width unit="cm" quantity="54.0"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="bulle" nontei:shape="round"
+                                nontei:attachment="sealed on a lace"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Papst Sixtus IV.</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1479-07-08"
+                            /><origPlace>Rom, St. Peter</origPlace></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl>Rohrer 1878, S. 46-49</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Regest</head>
+                            <bibl>REC, Bd. 5, Nr. 15194</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003648">Geistlichkeit</term>
+                    <term ref="key004009">Kirchengut</term>
+                    <term ref="key003322">Kirchenrecht</term>
+                    <term ref="key000193">Pfründe</term>
+                    <term ref="key003346">Stift</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="StAZH_C_I__Nr__17__r_.tif"/>
+                        <p><seg><lb/><persName role="issuer" ref="per003932"
+                                    >Sixtus</persName> episcopus, servus servorum dei, ad perpetuam rei memoriam.
+<lb/><placeName
+                                    ref="loc000076">Romanus</placeName> pontifex, <persName
+                                    ref="per000438"
+                                    >Petri</persName> regni celestis clavigeri successor et <persName
+                                    ref="per000353"
+                                >Jesu Christi</persName> vicarius, illa, cum ab eo petitur, de sedis apostolice liberalitate et munificentia statuit et ordinat, per que ad eum et sedem predictam sincere gerentes devotionis 
 <lb/>affectum aliis se reddere possint gratiosos, et ecclesie quecunque ydonearum personarum letentur successibus.</seg>
-<seg>Sane pro parte dilectorum filiorum <orgName role="recipient" ref="org002406">magistri civium, consulum et scabinorum communitatis opidi <placeName ref="loc000065">Turicensis</placeName></orgName>, <placeName ref="loc000923">Constantiensis 
+                            <seg>Sane pro parte dilectorum filiorum <orgName role="recipient"
+                                    ref="org002406"
+                                        >magistri civium, consulum et scabinorum communitatis opidi <placeName
+                                        ref="loc000065">Turicensis</placeName></orgName>, <placeName
+                                    ref="loc000923"
+                                    >Constantiensis 
 <lb/>diocesis</placeName> nobis nuper exhibita petitio continebat, quod si perpetuo statueretur et ordinaretur, quod quotienscunque de cetero canonicatus et prebendas ac preposituras, necon alia dignitates, personatus, administrationes et officia 
-<lb/>ac beneficia ecclesiastica sanctorum martirum <persName ref="per012644">Felicis</persName> et <persName ref="per000143">Regule</persName>
-<orgName ref="org004908">abbatie</orgName><!-- Fraumünsterabtei --> et <orgName ref="org004352">prepositure</orgName><!-- Grossmünsterpropstei --> nuncupatorum predicti opidi, necnon <orgName ref="org005051">sancti <persName ref="per000438">Petri</persName>
-<placeName ref="loc010422">Imbriacensis</placeName></orgName><!-- Embrach --> dicte diocesis ecclesiarum in mensibus apostolicis duntaxat vacare contigerit, predicti et 
-<lb/>pro tempore existentes dicti opidi <placeName ref="loc000065">Turicensis</placeName>
-<orgName ref="org002406">magister civium, consules et scabini</orgName> ad canonicatus et prebendas ac preposituras <choice><sic>dignitas</sic><corr resp="msr">dignitates</corr></choice>, personatus, administrationes et officia ac beneficia huiusmodi personas ydoneas 
+<lb/>ac beneficia ecclesiastica sanctorum martirum <persName
+                                    ref="per012644">Felicis</persName> et <persName ref="per000143"
+                                    >Regule</persName>
+                                <orgName ref="org004908"
+                                    >abbatie</orgName><!-- Fraumünsterabtei --> et <orgName
+                                    ref="org004352"
+                                    >prepositure</orgName><!-- Grossmünsterpropstei --> nuncupatorum predicti opidi, necnon <orgName
+                                    ref="org005051">sancti <persName ref="per000438"
+                                        >Petri</persName>
+                                    <placeName ref="loc010422"
+                                    >Imbriacensis</placeName></orgName><!-- Embrach --> dicte diocesis ecclesiarum in mensibus apostolicis duntaxat vacare contigerit, predicti et 
+<lb/>pro tempore existentes dicti opidi <placeName
+                                    ref="loc000065">Turicensis</placeName>
+                                <orgName ref="org002406"
+                                    >magister civium, consules et scabini</orgName> ad canonicatus et prebendas ac preposituras <choice>
+                                    <sic>dignitas</sic>
+                                    <corr resp="msr">dignitates</corr>
+                                </choice>, personatus, administrationes et officia ac beneficia huiusmodi personas ydoneas 
 <lb/>dilectis filiis dictarum ecclesiarum respective capitulis presentare ac capitula huiusmodi presentatas personas ad presentationes huiusmodi respective instituere possent et deberent, profecto ecclesia huiusmodi ydonearum personarum 
-<lb/>successibus letarentur, ac <orgName ref="org002406">magister civium, consules et scabini</orgName> predicti sibi gratis et acceptis personis gratiosos se reddere valerent.</seg>
-<seg>Quare pro parte <orgName ref="org002406">magistri civium, consulum et scabinorum</orgName> predictorum nobis fuit 
+<lb/>successibus letarentur, ac <orgName
+                                    ref="org002406"
+                                >magister civium, consules et scabini</orgName> predicti sibi gratis et acceptis personis gratiosos se reddere valerent.</seg>
+                            <seg>Quare pro parte <orgName ref="org002406"
+                                    >magistri civium, consulum et scabinorum</orgName> predictorum nobis fuit 
 <lb/>humiliter supplicatum, ut quod quotienscunque de cetero preposituras in quibusvis ac canonicatus et prebendas ac beneficia ecclesiastica necnon alia dignitates, personatus, administrationes et officia ecclesiarum huiusmodi in 
-<lb/>mensibus apostolicis duntaxat vacare contigerit, predicti et pro tempore existentes dicti opidi <placeName ref="loc000065">Turicensis</placeName>
-<orgName ref="org002406">magister civium, consules et scabini</orgName> ad canonicatus et prebendas preposituras dignitates personatus administrationes 
+<lb/>mensibus apostolicis duntaxat vacare contigerit, predicti et pro tempore existentes dicti opidi <placeName
+                                    ref="loc000065">Turicensis</placeName>
+                                <orgName ref="org002406"
+                                    >magister civium, consules et scabini</orgName> ad canonicatus et prebendas preposituras dignitates personatus administrationes 
 <lb/>et officia ac beneficia huiusmodi personas ydoneas eisdem capitulis respective presentare ac capitula huiusmodi presentatas pro tempore personas ad presentationes huiusmodi prespective instituere possint et debeant perpetuo 
 <lb/>statuere et ordinare aliasque in premissis oportune providere de benignitate apostolica dignaremur.</seg>
-<seg>Nos igitur, qui cunctis presertim nobis devotis personis continuo nos liberales exhibemus huiusmodi supplicationibus
+                            <seg>Nos igitur, qui cunctis presertim nobis devotis personis continuo nos liberales exhibemus huiusmodi supplicationibus
 <lb/>inclinati, ut quotienscunque de cetero canonicatus et prebendas ac preposituras etiam si ille in dictis ecclesiis dignitates principales fuerint et ad eas ac alias dignitates necnon personatus, administrationes et officia 
 <lb/>huiusmodi consueverint qui per electionem assumi eisque cura immineat animarum ac dignitates etiam principales, personatus, administrationes, officia et beneficia huiusmodi dispositioni apostolice etiam ex quavis alia causa 
-<lb/>reservata existant necnon alia dignitates, personatus, administrationes et officia ac beneficia ecclesiastica ecclesiarum huiusmodi quecunque, quotcunque et qualiacunque sint extra <orgName ref="org005019"><placeName ref="loc000076">Romanam</placeName> curiam</orgName> si preposituras in quibusvis
-<lb/>et alia beneficia predicta in mensibus apostolicis duntaxat vacare contigerit, predicti et pro tempore existentes dicti opidi <placeName ref="loc000065">Turicensis</placeName>
-<orgName ref="org002406">magister civium, consules et scabini</orgName> ad canonicatus et prebendas, preposituras, 
+<lb/>reservata existant necnon alia dignitates, personatus, administrationes et officia ac beneficia ecclesiastica ecclesiarum huiusmodi quecunque, quotcunque et qualiacunque sint extra <orgName
+                                    ref="org005019"><placeName ref="loc000076"
+                                    >Romanam</placeName> curiam</orgName> si preposituras in quibusvis
+<lb/>et alia beneficia predicta in mensibus apostolicis duntaxat vacare contigerit, predicti et pro tempore existentes dicti opidi <placeName
+                                    ref="loc000065">Turicensis</placeName>
+                                <orgName ref="org002406"
+                                    >magister civium, consules et scabini</orgName> ad canonicatus et prebendas, preposituras, 
 <lb/>dignitates, personatus, administrationes et officia ac beneficia predicta personas ydoneas etiam quecunque, quotcunque et qualiacunque beneficia ecclesiastica obtinentes et expectantes perinde ac si aliqua a sede predicta 
 <lb/>vel eius legatis expectative gratie aut super illis reservationes, provisiones, uniones, annexiones et incorporationes ac de reservando, uniendo, adnectendo et incorporando seu providendo mandata non emanassent vel
 <lb/>existerent eisdem capitulis respective presentare, ac capitula huiusmodi presentatas pro tempore personas ad presentationes huiusmodi respective instituere possint et debeant, auctoritate apostolica tenore presentium 
 <lb/>perpetuo statuimus et ordinamus.</seg>
-<seg>Volumus autem, quod presentande ad canonicatus et prebendas, preposituras, dignitates, personatus, administrationes, officia et beneficia predicta ac in eis instituende persone
+                            <seg>Volumus autem, quod presentande ad canonicatus et prebendas, preposituras, dignitates, personatus, administrationes, officia et beneficia predicta ac in eis instituende persone
 <lb/>super canonicatibus et prebendis, preposituris, dignitatibus, personatibus, aministrationibus, officiis et beneficiis predictis, ad que presentate et institute fuerint, si illorum fructus, redditus et proventus 
-<lb/><measure type="currency" unit="fl" quantity="24">viginti quatuor florenorum auri</measure> de camera secundum communem extimationem valorem <date dur="R/P1Y">annuum</date> excedant, infra <date dur="P6M">sex menses</date> a die institutionis de eis faciende computandos a sede predicta novas provisiones 
-<lb/>impetrare et litteras desuper expedire ac <orgName ref="org004916">camere apostolice</orgName> de illorum annata seu mediis fructibus satisfacere teneantur, alias presentatio et institutio predicte de eis facte nullius sint roboris vel momenti. 
+<lb/><measure
+                                    type="currency" unit="fl" quantity="24"
+                                    >viginti quatuor florenorum auri</measure> de camera secundum communem extimationem valorem <date
+                                    dur="R/P1Y">annuum</date> excedant, infra <date dur="P6M"
+                                    >sex menses</date> a die institutionis de eis faciende computandos a sede predicta novas provisiones 
+<lb/>impetrare et litteras desuper expedire ac <orgName
+                                    ref="org004916"
+                                    >camere apostolice</orgName> de illorum annata seu mediis fructibus satisfacere teneantur, alias presentatio et institutio predicte de eis facte nullius sint roboris vel momenti. 
 <lb/>Non obstantibus quibusvis gratiis expectativis de reservationibus, unionibus, annexionibus, incorporationibus, provisionibus ac de reservando, uniendo, annectendo, incorporando ac providendo mandatis a nobis aut
 <lb/>sede predicta pro tempore factis, que ad diginitates, etiam principales, personatus, administrationes, officia et beneficia alia ecclesiarum huiusmodi decernimus non extendi, ac constitutionibus et ordinationibus apostolicis,
 <lb/>statutis quoque et consuetudinibus ecclesiarum huiusmodi iuramento, confirmatione apostolica vel quavis firmitate alia roboratis ceterisque contrariis quibuscunque. Nos enim ex nunc irritum decernimus et inane, si secus 
 <lb/>super hiis a quoquam quavis auctoritate scienter vel ignoranter contigerit attemptari. Nulli ergo omnino hominum liceat hanc paginam nostrorum statuti, ordinationis, voluntatis et constitutionis 
-<lb/>infringere vel ei ausu temerario contraire. Si quis autem hoc attemptare presumpserit, indignationem omnipotentis dei et beatorum <orgName ref="org001652">Petri et Pauli</orgName>, apostolorum eius, se noverit incursurum.</seg>
-<seg><lb/>Datum <origPlace ref="loc000076">Rome</origPlace> apud <origPlace ref="loc005859">Sanctum Petrum</origPlace>, <origDate when="1479-07-08">anno incarnationis dominice millesimo quadringentesimo septuagesimo nono, octavo idus iulii,
-<lb/>pontificatus nostri anno octavo</origDate>.</seg></p></div>
-<div><ab type="chancery notation" place="right plica"><persName ref="per003936"><choice><abbr>G.</abbr><expan>Guido</expan></choice> Bonattus</persName></ab></div>
-<div><ab place="verso" type="dorsal"><choice><abbr>Rta</abbr><expan>Registrata</expan></choice> apud me, <persName ref="per014534">L. Grifum</persName></ab></div>
-<div><ab place="verso" type="dorsal" hand="hand16c"><choice><abbr>B</abbr><expan>Bapst</expan></choice>
-<persName ref="per003932">Sixtus</persName></ab></div>
-<pb n="v" facs="StAZH_C_I__Nr__17__v_.tif"/>
-<div>
-<ab place="verso" type="dorsal" hand="hand16c">
-<lb/>Bäpstliche frygheit, das wir zuͦ der 
-<lb/><orgName ref="org004908">appty</orgName> und <orgName ref="org004352">bropsty</orgName>
-<placeName ref="loc000065">Zu̍rich</placeName>, deßglich zuͦ
-<lb/><orgName ref="org005051">sant <persName ref="per000438">Petters</persName> gestifft</orgName> zuͦ <placeName ref="loc010422">Embrach</placeName> alle
-<lb/>bropstigen, chorherren und ander pfruͦn<lb break="no"/>den,
+<lb/>infringere vel ei ausu temerario contraire. Si quis autem hoc attemptare presumpserit, indignationem omnipotentis dei et beatorum <orgName
+                                    ref="org001652"
+                                >Petri et Pauli</orgName>, apostolorum eius, se noverit incursurum.</seg>
+                            <seg><lb/>Datum <origPlace ref="loc000076"
+                                    >Rome</origPlace> apud <origPlace ref="loc005859"
+                                    >Sanctum Petrum</origPlace>, <origDate when="1479-07-08"
+                                    >anno incarnationis dominice millesimo quadringentesimo septuagesimo nono, octavo idus iulii,
+<lb/>pontificatus nostri anno octavo</origDate>.</seg></p>
+                    </div>
+                    <div>
+                        <ab type="chancery notation" place="right plica"><persName ref="per003936"><choice>
+                                    <abbr>G.</abbr>
+                                    <expan>Guido</expan>
+                                </choice> Bonattus</persName></ab>
+                    </div>
+                    <div>
+                        <ab place="verso" type="dorsal"><choice>
+                                <abbr>Rta</abbr>
+                                <expan>Registrata</expan>
+                            </choice> apud me, <persName ref="per014534">L. Grifum</persName></ab>
+                    </div>
+                    <div>
+                        <ab place="verso" type="dorsal" hand="hand16c"><choice>
+                                <abbr>B</abbr>
+                                <expan>Bapst</expan>
+                            </choice>
+                            <persName ref="per003932">Sixtus</persName></ab>
+                    </div>
+                    <pb n="v" facs="StAZH_C_I__Nr__17__v_.tif"/>
+                    <div>
+                        <ab place="verso" type="dorsal" hand="hand16c">
+                            <lb/>Bäpstliche frygheit, das wir zuͦ der 
+<lb/><orgName ref="org004908"
+                                >appty</orgName> und <orgName ref="org004352">bropsty</orgName>
+                            <placeName ref="loc000065"
+                                >Zu̍rich</placeName>, deßglich zuͦ
+<lb/><orgName ref="org005051"
+                                    >sant <persName ref="per000438"
+                                >Petters</persName> gestifft</orgName> zuͦ <placeName
+                                ref="loc010422"
+                                >Embrach</placeName> alle
+<lb/>bropstigen, chorherren und ander pfruͦn<lb
+                                break="no"
+                                />den,
 ouch aͤmpter <abbr>etc</abbr>, inn baͤpstlichem
 <lb/>manot gfallen, verlichen sollen und 
 <lb/>mogent.
-<lb/><origDate when="1479">1479</origDate></ab>
-</div>
-<div><ab place="verso" type="dorsal"><gap reason="irrelevant"/><note>Auf der Versoseite finden sich ausführliche, später hinzugefügte Notizen in lateinischer Sprache. Diese stammen von Chorherr <persName ref="per014592">Johannes Häring</persName> und einer weiteren Hand und werden hier nicht transkribiert. Zu <persName ref="per014592">Häring</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Meyer 1986</ref>, S. 375-376</bibl>.</note></ab></div>
-</body>
-<back>
-<div>
-<p>Die vorliegende, durch Papst <persName ref="per003932">Sixtus IV.</persName> erteilte Bulle ermöglichte es dem <orgName ref="org002406">Rat</orgName> der Stadt <placeName ref="loc000065">Zürich</placeName>, fortan massgeblichen Einfluss auf die personelle Zusammensetzung dreier der wichtigsten geistlichen Körperschaften in seinem Herrschaftsbereich auszuüben. Hintergrund für diese erstarkte Stellung der Stadt war nicht zuletzt die Bündnispolitik von <persName ref="per003932">Sixtus IV.</persName>, der sich mit der Vergabe umfangreicher Privilegien die militärische Unterstützung der <orgName ref="org000531">Eidgenossen</orgName> zu sichern suchte. In diesem Zusammenhang erhielt <placeName ref="loc000065">Zürich</placeName> ebenfalls im selben Jahr vom Papst einen fünfjährigen ausserordentlichen Ablass zur baulichen Renovation von <placeName ref="loc007562">Grossmünster</placeName>, <placeName ref="loc000090">Fraumünster</placeName> und <placeName ref="loc010451">Wasserkirche</placeName> zugesprochen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_012">SSRQ ZH NF I/1/3, Nr. 12</ref></bibl>). In den 1480er Jahren folgten seitens des <orgName ref="org002406">Rates</orgName> verschiedene Vorstösse mit dem Ziel, seinen Einfluss auf die Ökonomie des <orgName ref="org004352">Grossmünsterstifts</orgName> und der städtischen Klöster sowie die Lebensführung der Geistlichkeit auszuweiten. In diesen Zusammenhang gehören die Ordnung betreffend die Amtsführung der Chorherren des <orgName ref="org004352">Grossmünsters</orgName> sowie die Einsetzung städtischer Klosterpfleger (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_020">SSRQ ZH NF I/1/3, Nr. 20</ref></bibl>;
-<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_021">SSRQ ZH NF I/1/3, Nr. 21</ref></bibl>).</p>
-<p>Zur vorliegenden Urkunde vgl. <bibl><ref target="/startseite/literaturverzeichnis">Dörner 1996</ref>, S. 29</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Meyer 1986</ref>, S. 141-142</bibl>; zur Ausübung des Präsentationsrechts durch den Rat vgl.
-<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_066">SSRQ ZH NF I/1/3, Nr. 66</ref></bibl>; zur Bündnispolitik von <persName ref="per003932">Sixtus IV.</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Stoecklin 1941</ref></bibl>.
+<lb/><origDate
+                                when="1479">1479</origDate></ab>
+                    </div>
+                    <div>
+                        <ab place="verso" type="dorsal"><gap reason="irrelevant"
+                                    /><note>Auf der Versoseite finden sich ausführliche, später hinzugefügte Notizen in lateinischer Sprache. Diese stammen von Chorherr <persName
+                                    ref="per014592"
+                                    >Johannes Häring</persName> und einer weiteren Hand und werden hier nicht transkribiert. Zu <persName
+                                    ref="per014592">Häring</persName> vgl. <bibl><ref
+                                        target="/startseite/literaturverzeichnis"
+                                    >Meyer 1986</ref>, S. 375-376</bibl>.</note></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die vorliegende, durch Papst <persName ref="per003932"
+                                >Sixtus IV.</persName> erteilte Bulle ermöglichte es dem <orgName
+                                ref="org002406">Rat</orgName> der Stadt <placeName ref="loc000065"
+                                >Zürich</placeName>, fortan massgeblichen Einfluss auf die personelle Zusammensetzung dreier der wichtigsten geistlichen Körperschaften in seinem Herrschaftsbereich auszuüben. Hintergrund für diese erstarkte Stellung der Stadt war nicht zuletzt die Bündnispolitik von <persName
+                                ref="per003932"
+                                >Sixtus IV.</persName>, der sich mit der Vergabe umfangreicher Privilegien die militärische Unterstützung der <orgName
+                                ref="org000531"
+                                >Eidgenossen</orgName> zu sichern suchte. In diesem Zusammenhang erhielt <placeName
+                                ref="loc000065"
+                                >Zürich</placeName> ebenfalls im selben Jahr vom Papst einen fünfjährigen ausserordentlichen Ablass zur baulichen Renovation von <placeName
+                                ref="loc007562">Grossmünster</placeName>, <placeName ref="loc000090"
+                                >Fraumünster</placeName> und <placeName ref="loc010451"
+                                >Wasserkirche</placeName> zugesprochen (<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_012"
+                                    >SSRQ ZH NF I/1/3, Nr. 12</ref></bibl>). In den 1480er Jahren folgten seitens des <orgName
+                                ref="org002406"
+                                >Rates</orgName> verschiedene Vorstösse mit dem Ziel, seinen Einfluss auf die Ökonomie des <orgName
+                                ref="org004352"
+                                >Grossmünsterstifts</orgName> und der städtischen Klöster sowie die Lebensführung der Geistlichkeit auszuweiten. In diesen Zusammenhang gehören die Ordnung betreffend die Amtsführung der Chorherren des <orgName
+                                ref="org004352"
+                                    >Grossmünsters</orgName> sowie die Einsetzung städtischer Klosterpfleger (<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_020"
+                                    >SSRQ ZH NF I/1/3, Nr. 20</ref></bibl>;
+<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_021"
+                                    >SSRQ ZH NF I/1/3, Nr. 21</ref></bibl>).</p>
+                        <p>Zur vorliegenden Urkunde vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Dörner 1996</ref>, S. 29</bibl>; <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Meyer 1986</ref>, S. 141-142</bibl>; zur Ausübung des Präsentationsrechts durch den Rat vgl.
+<bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_066"
+                                    >SSRQ ZH NF I/1/3, Nr. 66</ref></bibl>; zur Bündnispolitik von <persName
+                                ref="per003932">Sixtus IV.</persName> vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Stoecklin 1941</ref></bibl>.
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>

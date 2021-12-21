@@ -3,393 +3,924 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_058_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250232">StAZH C I, Nr. 543</idno></msIdentifier><head>Revidierte Verfassungsordnung der Stadt Zürich (Fünfter Geschworener Brief)</head><msContents><summary>Bürgermeister, Kleiner Rat, Zunftmeister, Grosser Rat und die ganze Gemeinde geben der Stadt Zürich eine Ordnung, wie Bürgermeister, Räte und Zunftmeister gewählt und die Gemeinde regiert werden soll, in Übereinstimmung mit den ihnen durch das Reich sowie Kaiser und Könige verliehenen Privilegien. Sämtliche Beschlüsse, die Bürgermeister, Kleiner Rat, Zunftmeister und der Grosse Rat fällen, gelten für alle. Wer dies missachtet oder sich eigenmächtig zu einer separaten Schwurgemeinschaft zusammenschliesst, gilt als meineidig und ehrlos (1). Die ganze Gemeinde soll schwören, Bürgermeister, Zunftmeister und Räte bei der Einhaltung und Durchsetzung der vorliegenden Ordnung zu unterstützen (2). Die Handwerke und Gewerbe verteilen sich folgendermassen auf Konstaffel und Zünfte: Ritter, Edelleute, Bürger und Hintersassen, die in der Stadt wohnhaft sind, aber keine Zunft haben, gehören zur Konstaffel. Goldschmiede, Seidensticker, Glaser, Gewandschneider, Salzhändler und Eisenhändler verfügen über freie Zunftwahl, Holzhauer ohne Zunftzugehörigkeit gehören hingegen zur Konstaffel (3). Folgende Handwerke bilden jeweils zusammen eine Zunft: Krämer; Weinschenke, Weinhändler, Sattler und Maler; Tuchscherer, Scheider und Kürschner; Bäcker und Müller; Wollweber, Wollenschläger, Grautuchmacher, Hutmacher, Leinenweber, Leinwandhändler und Bleicher; Schmiede, Schwertfeger, Kannengiesser, Glockengiesser, Spengler, Harnischmacher, Scherer und Bader; Gerber, Weissgerber und Pergamenter; Metzger und Viehhändler; Schuhmacher; Zimmerleute, Maurer, Wagner, Drechsler, Holzhändler, Küfer und in der Stadt wohnhafte Rebleute; Schiffleute und Seiler sowie Fuhrleute und Träger; Gärtner, Ölhändler, Hafermehlhändler, Weinzieher sowie Kleinhändler (Grempler); Kornmacher und Getreidefuhrleute bilden zusammen eine Gesellschaft ohne Zunftrecht (4). Es folgen Bestimmungen hinsichtlich der Wahl der Zunftmeister und der Mitglieder des Grossen Rates. Die Zünfte wählen halbjährlich einen Zunftmeister (5); die Konstaffel stellt 18 Mitglieder des Grossen Rates (6), die Zünfte je 12 (7). Die Gewählten werden von den Räten bestätigt (8). Als Zunftmeister und Mitglied des Kleinen oder Grossen Rats darf nur gewählt werden, wer seit mindestens 10 Jahren über das Bürgerrecht verfügt (9). Bürgermeister und Kleiner Rat werden halbjährlich in der Zeit vor dem Johannestag im Sommer und im Winter gewählt, über das passive Wahlrecht für das Bürgermeisteramt verfügen nur in der Stadt oder in ihrem Herrschaftsgebiet geborene Zürcher (10). Wer als Bürgermeister gewählt wird, soll schwören, für alle Bewohner der Stadt das Beste zu tun und ein gerechter Richter zu sein (11). Die Konstaffel stellt je drei Mitglieder in den beiden Hälften des Kleinen Rates (Natal- und Baptistalrat), die Zünfte werden durch ihre Zunftmeister sowie sechs aus dem Grossen Rat gewählte Zunftratsherren vertreten (12-13). Zusätzlich werden je drei Kleinräte frei aus Konstaffel und Zünften gewählt (14). Die Besetzung des Kleinen Rats erfolgt halbjährlich ungefähr 14 Tage vor Johannestag im Sommer und im Winter (15). Weitere Bestimmungen betreffen die Wahl des Kleinen Rates bei Abwesenheit des Bürgermeisters (16); die Ablösung der beiden Ratshälften (17); die Wartefrist von einem halben Jahr zur Wiederwahl als Bürgermeister (18); Mitglieder des Kleinen Rats bzw. die Zunftmeister sowie die Aburteilung von Freveln durch den jeweiligen Rat (Natal- und Baptistalrat) (19); Geregelt werden auch Wahl, Aufgaben und Eid der drei Oberstzunftmeister; die Kompetenzen der Zunftmeister in Angelegenheiten von Gewerbe und Handwerk sowie die Funktion des amtsältesten Oberstzunftmeisters als Stellvertreter des Bürgermeisters (20); die Sanktionierung von Bestechung bei Wahlen (21); der Weiterzug von Geschäften vom Kleinen in den Grossen Rat (22); der Eid der Bürgergemeinde (23). Alle männlichen Bürger ab 16 Jahren haben die Einhaltung dieser Ordnung zu beschwören (24). Bürgermeister, Kleiner Rat, Zunftmeister und der Grosse Rat behalten sich Änderungen vor, entsprechend den durch Kaiser und Könige verliehenen Privilegien (25). Wer gegen den Geschworenen Brief verstösst, gilt als meineidig und ehrlos und wird aus dem Bürgerrecht und der Stadt verstossen (26). Sämtliche Bestimmungen dieser Ordnung sind den Rechten des Reichs unschädlich (27). Die Aussteller siegeln. Vermerk von späterer Hand betreffend Erneuerung und Bestätigung des Geschworenen Briefs im Jahr 1654.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original, Heft (2 Doppelblätter); Zierinitiale über die ganze Höhe der ersten Seite (Rankenwerk sowie Zeichnungen von Menschen und Tieren), vereinzelt rubriziert; erste Zeile jeder Seite mit Oberlängen, letzte Zeile jeder Seite mit Unterlängen</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="35.0"/><width unit="cm" quantity="26.5"/></dimensions></extent><condition>Starke Gebrauchsspuren am rechten Heftrand (mit Textverlust)</condition></supportDesc></objectDesc></physDesc><history><origin><origDate when="1498-01-20"/></origin></history><additional><listBibl><head>Edition</head><bibl>QZZG, Bd. 1, Nr. 166 und Helvetische Bibliotheck, bestehend in historischen, politischen und critischen Beyträgen zu den Geschichten des Schweitzerlands, hg. von  Johann Jakob Bodmer und Johann Jakob Breitinger, 6. Stück, Zürich 1741, S. 30-46</bibl></listBibl><listBibl><head>Regest</head><bibl>QZZG, Bd. 1, Nr. 176</bibl><bibl>vgl. auch Bd. 2, Nr. 914</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000598">Ausweisung</term><term ref="key000133">Bürgermeister</term><term ref="key000134">Bürgerrecht</term><term ref="key000179">Eid</term><term ref="key000849">Handwerk</term><term ref="key000057">Gericht</term><term ref="key000687">Gewerbe</term><term ref="key000766">Kodifikation</term><term ref="key005403">Kompetenz</term><term ref="key000229">König/Kaiser</term><term ref="key000957">Meineid</term><term ref="key000364">Rat</term><term ref="key004022">Satzung</term><term ref="key000555">Wahlen</term><term ref="key005400">Weisung</term><term>Zünfte</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1r" facs="StAZH_C_I__Nr__543__fol__1_r_.tif"/>
-<p><seg><lb/>In dem namen der heiligen, hochgelopten drivaltikeit, gott vatters, suns und heil<lb break="no"/>gen
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_3_058_1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250232"
+       >StAZH C I, Nr. 543</idno>
+     </msIdentifier>
+     <head>Revidierte Verfassungsordnung der Stadt Zürich (Fünfter Geschworener Brief)</head>
+     <msContents>
+      <summary>Bürgermeister, Kleiner Rat, Zunftmeister, Grosser Rat und die ganze Gemeinde geben der Stadt Zürich eine Ordnung, wie Bürgermeister, Räte und Zunftmeister gewählt und die Gemeinde regiert werden soll, in Übereinstimmung mit den ihnen durch das Reich sowie Kaiser und Könige verliehenen Privilegien. Sämtliche Beschlüsse, die Bürgermeister, Kleiner Rat, Zunftmeister und der Grosse Rat fällen, gelten für alle. Wer dies missachtet oder sich eigenmächtig zu einer separaten Schwurgemeinschaft zusammenschliesst, gilt als meineidig und ehrlos (1). Die ganze Gemeinde soll schwören, Bürgermeister, Zunftmeister und Räte bei der Einhaltung und Durchsetzung der vorliegenden Ordnung zu unterstützen (2). Die Handwerke und Gewerbe verteilen sich folgendermassen auf Konstaffel und Zünfte: Ritter, Edelleute, Bürger und Hintersassen, die in der Stadt wohnhaft sind, aber keine Zunft haben, gehören zur Konstaffel. Goldschmiede, Seidensticker, Glaser, Gewandschneider, Salzhändler und Eisenhändler verfügen über freie Zunftwahl, Holzhauer ohne Zunftzugehörigkeit gehören hingegen zur Konstaffel (3). Folgende Handwerke bilden jeweils zusammen eine Zunft: Krämer; Weinschenke, Weinhändler, Sattler und Maler; Tuchscherer, Scheider und Kürschner; Bäcker und Müller; Wollweber, Wollenschläger, Grautuchmacher, Hutmacher, Leinenweber, Leinwandhändler und Bleicher; Schmiede, Schwertfeger, Kannengiesser, Glockengiesser, Spengler, Harnischmacher, Scherer und Bader; Gerber, Weissgerber und Pergamenter; Metzger und Viehhändler; Schuhmacher; Zimmerleute, Maurer, Wagner, Drechsler, Holzhändler, Küfer und in der Stadt wohnhafte Rebleute; Schiffleute und Seiler sowie Fuhrleute und Träger; Gärtner, Ölhändler, Hafermehlhändler, Weinzieher sowie Kleinhändler (Grempler); Kornmacher und Getreidefuhrleute bilden zusammen eine Gesellschaft ohne Zunftrecht (4). Es folgen Bestimmungen hinsichtlich der Wahl der Zunftmeister und der Mitglieder des Grossen Rates. Die Zünfte wählen halbjährlich einen Zunftmeister (5); die Konstaffel stellt 18 Mitglieder des Grossen Rates (6), die Zünfte je 12 (7). Die Gewählten werden von den Räten bestätigt (8). Als Zunftmeister und Mitglied des Kleinen oder Grossen Rats darf nur gewählt werden, wer seit mindestens 10 Jahren über das Bürgerrecht verfügt (9). Bürgermeister und Kleiner Rat werden halbjährlich in der Zeit vor dem Johannestag im Sommer und im Winter gewählt, über das passive Wahlrecht für das Bürgermeisteramt verfügen nur in der Stadt oder in ihrem Herrschaftsgebiet geborene Zürcher (10). Wer als Bürgermeister gewählt wird, soll schwören, für alle Bewohner der Stadt das Beste zu tun und ein gerechter Richter zu sein (11). Die Konstaffel stellt je drei Mitglieder in den beiden Hälften des Kleinen Rates (Natal- und Baptistalrat), die Zünfte werden durch ihre Zunftmeister sowie sechs aus dem Grossen Rat gewählte Zunftratsherren vertreten (12-13). Zusätzlich werden je drei Kleinräte frei aus Konstaffel und Zünften gewählt (14). Die Besetzung des Kleinen Rats erfolgt halbjährlich ungefähr 14 Tage vor Johannestag im Sommer und im Winter (15). Weitere Bestimmungen betreffen die Wahl des Kleinen Rates bei Abwesenheit des Bürgermeisters (16); die Ablösung der beiden Ratshälften (17); die Wartefrist von einem halben Jahr zur Wiederwahl als Bürgermeister (18); Mitglieder des Kleinen Rats bzw. die Zunftmeister sowie die Aburteilung von Freveln durch den jeweiligen Rat (Natal- und Baptistalrat) (19); Geregelt werden auch Wahl, Aufgaben und Eid der drei Oberstzunftmeister; die Kompetenzen der Zunftmeister in Angelegenheiten von Gewerbe und Handwerk sowie die Funktion des amtsältesten Oberstzunftmeisters als Stellvertreter des Bürgermeisters (20); die Sanktionierung von Bestechung bei Wahlen (21); der Weiterzug von Geschäften vom Kleinen in den Grossen Rat (22); der Eid der Bürgergemeinde (23). Alle männlichen Bürger ab 16 Jahren haben die Einhaltung dieser Ordnung zu beschwören (24). Bürgermeister, Kleiner Rat, Zunftmeister und der Grosse Rat behalten sich Änderungen vor, entsprechend den durch Kaiser und Könige verliehenen Privilegien (25). Wer gegen den Geschworenen Brief verstösst, gilt als meineidig und ehrlos und wird aus dem Bürgerrecht und der Stadt verstossen (26). Sämtliche Bestimmungen dieser Ordnung sind den Rechten des Reichs unschädlich (27). Die Aussteller siegeln. Vermerk von späterer Hand betreffend Erneuerung und Bestätigung des Geschworenen Briefs im Jahr 1654.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current"
+        >Original, Heft (2 Doppelblätter); Zierinitiale über die ganze Höhe der ersten Seite (Rankenwerk sowie Zeichnungen von Menschen und Tieren), vereinzelt rubriziert; erste Zeile jeder Seite mit Oberlängen, letzte Zeile jeder Seite mit Unterlängen</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Pergament</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="35.0"/>
+          <width unit="cm" quantity="26.5"/>
+         </dimensions></extent>
+        <condition>Starke Gebrauchsspuren am rechten Heftrand (mit Textverlust)</condition>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1498-01-20"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Edition</head>
+       <bibl>QZZG, Bd. 1, Nr. 166; Helvetische Bibliotheck, bestehend in historischen, politischen und critischen Beyträgen zu den Geschichten des Schweitzerlands, hg. von  Johann Jakob Bodmer und Johann Jakob Breitinger, 6. Stück, Zürich 1741, S. 30-46</bibl>
+      </listBibl>
+      <listBibl>
+       <head>Regest</head>
+       <bibl>QZZG, Bd. 1, Nr. 176</bibl>
+       <bibl>vgl. auch Bd. 2, Nr. 914</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000598">Ausweisung</term>
+     <term ref="key000133">Bürgermeister</term>
+     <term ref="key000134">Bürgerrecht</term>
+     <term ref="key000179">Eid</term>
+     <term ref="key000849">Handwerk</term>
+     <term ref="key000057">Gericht</term>
+     <term ref="key000687">Gewerbe</term>
+     <term ref="key000766">Kodifikation</term>
+     <term ref="key005403">Kompetenz</term>
+     <term ref="key000229">König/Kaiser</term>
+     <term ref="key000957">Meineid</term>
+     <term ref="key000364">Rat</term>
+     <term ref="key004022">Satzung</term>
+     <term ref="key000555">Wahlen</term>
+     <term ref="key005400">Weisung</term>
+     <term>Zünfte</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="1r" facs="StAZH_C_I__Nr__543__fol__1_r_.tif"/>
+      <p><seg><lb/>In dem namen der heiligen, hochgelopten drivaltikeit, gott vatters, suns und heil<lb
+         break="no"/>gen
 geistes, amen.</seg>
-<seg>Wir, der <orgName role="issuer" ref="org002406">burgermeister, der raͧt, die zunfftmeister, der groß raͧt und die ganntz gemeind
-<lb/>der statt <placeName ref="loc000065">Zu̍rich</placeName></orgName>, thuͦnd kund allermengklichem und verjechent offennlich mit disem brieff, naͧch dem wir 
-<lb/>dann von dem heiligen <orgName ref="org004134">rich</orgName>, <placeName ref="loc000076">Roͤmischen</placeName> keißern und ku̍ngen loblich gefrygt sind, unnser statt ordnung und 
+       <seg>Wir, der <orgName role="issuer" ref="org002406"
+          >burgermeister, der raͧt, die zunfftmeister, der groß raͧt und die ganntz gemeind
+<lb/>der statt <placeName
+          ref="loc000065"
+         >Zu̍rich</placeName></orgName>, thuͦnd kund allermengklichem und verjechent offennlich mit disem brieff, naͧch dem wir 
+<lb/>dann von dem heiligen <orgName
+         ref="org004134">rich</orgName>, <placeName ref="loc000076"
+         >Roͤmischen</placeName> keißern und ku̍ngen loblich gefrygt sind, unnser statt ordnung und 
 <lb/>regimennt, wie uns das je zuͦ zitten nutz und notdurfftig sin bedünckt, zuͦ ordnen und zuͦsetzen, das wir uß
 <lb/>krafft desselben, durch nutz, frommen und notdurfft, ouch umb friden, schirm, ruͦwen und gemachs willen,
-<lb/>richer und armer, wie unns gott geordnet haͧt, unnser statt gewalt, <orgName ref="org002406">burgermeister, raͤt und zunfftmeister</orgName>, 
-<lb/>zuͦ setzen, zuͦ kießen und zuͦ wellen, ouch unnser ganntzen <orgName ref="org001187">gemeind</orgName> ußzuͦrichten und zuͦ regieren, soͤlich satz<lb break="no"/>ung 
+<lb/>richer und armer, wie unns gott geordnet haͧt, unnser statt gewalt, <orgName
+         ref="org002406"
+         >burgermeister, raͤt und zunfftmeister</orgName>, 
+<lb/>zuͦ setzen, zuͦ kießen und zuͦ wellen, ouch unnser ganntzen <orgName
+         ref="org001187">gemeind</orgName> ußzuͦrichten und zuͦ regieren, soͤlich satz<lb break="no"
+        />ung 
 und ordnung fu̍rbaßhin zuͦhalten gemacht hannd, als hienaͧch an disem brieff von einem stuck an das 
 <lb/>annder eigennlich geschriben staͧt:</seg>
-<seg n="1">Des ersten, das alle burgere und die ganntz <orgName ref="org001187">gemeind</orgName> unnser statt <placeName ref="loc000065">Zu̍rich</placeName>
-<lb/>einhellenklich u̍ber ein sind kommen und offennlich gelert eid zuͦ gott <del rend="rubbing" hand="later hand">und den heiligen</del> geschworen hannd,
-<lb/>was sach der <orgName ref="org002406">burgermeister, die raͤt, die zunfftmeister und der groß raͧt zuͦ <placeName ref="loc000065">Zu̍rich</placeName></orgName> gemeinlich oder der merteil 
+       <seg n="1">Des ersten, das alle burgere und die ganntz <orgName ref="org001187"
+         >gemeind</orgName> unnser statt <placeName ref="loc000065">Zu̍rich</placeName>
+        <lb/>einhellenklich u̍ber ein sind kommen und offennlich gelert eid zuͦ gott <del
+         rend="rubbing" hand="later hand"
+         >und den heiligen</del> geschworen hannd,
+<lb/>was sach der <orgName ref="org002406"
+          >burgermeister, die raͤt, die zunfftmeister und der groß raͧt zuͦ <placeName
+          ref="loc000065"
+         >Zu̍rich</placeName></orgName> gemeinlich oder der merteil 
 <lb/>unnder inen hinenthin jemer richtend, ordnend oder setzent oder welicher sach sy also mit einanndern 
 <lb/>u̍ber einkoment, das die selben sachen oder ir richtung, wie sy dann je richtennd oder sy von inen geordnet,
-<lb/>gesetzt, gericht oder gesprochen werdent, genntzlich, waͧr und staͤt, aͧn alle wanndlung, soͤllend bliben und daͧ<lb break="no"/>wider
+<lb/>gesetzt, gericht oder gesprochen werdent, genntzlich, waͧr und staͤt, aͧn alle wanndlung, soͤllend bliben und daͧ<lb
+         break="no"
+        />wider
 nieman reden, werben noch tuͦn oder zetuͦnd schaffen noch verhenngen sol, mit deheinen sachen noch 
 <lb/>uffsaͤtzen.</seg>
-<seg>Were aber, das sich jeman, wer der were, daͧwider satzte und das nit staͤt halten welte, oder ob 
-<lb/>jemann daͧrumb kein gesellschafft oder samnung<note>Das Verbot der eigenmächtigen Begründung separater Schwurgemeinschaften innerhalb der Bürgerschaft findet sich auch im Eid der neuen Mitglieder des <orgName ref="org004906">Grossen Rates</orgName>
- (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_035">SSRQ ZH NF I/1/3, Nr. 35</ref></bibl>).</note> wurbe oder machte, wie der selb oder die, so <damage agent="faded ink"><supplied resp="msr">im oder inen</supplied></damage>
-<lb/>hulfind, wider des <orgName ref="org002406">burgermeisters, der raͤtten, der zunnftmeistern oder des grossen raͧts</orgName> erkanntnuß,
+       <seg>Were aber, das sich jeman, wer der were, daͧwider satzte und das nit staͤt halten welte, oder ob 
+<lb/>jemann daͧrumb kein gesellschafft oder samnung<note>Das Verbot der eigenmächtigen Begründung separater Schwurgemeinschaften innerhalb der Bürgerschaft findet sich auch im Eid der neuen Mitglieder des <orgName
+          ref="org004906">Grossen Rates</orgName>
+ (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_035"
+         >SSRQ ZH NF I/1/3, Nr. 35</ref></bibl>).</note> wurbe oder machte, wie der selb oder die, so <damage
+         agent="faded ink"><supplied resp="msr">im oder inen</supplied></damage>
+        <lb/>hulfind, wider des <orgName ref="org002406"
+         >burgermeisters, der raͤtten, der zunnftmeistern oder des grossen raͧts</orgName> erkanntnuß,
 <lb/>gericht, gesatzt oder ordnung tuͦn weltind oder taͤttindt, die selben widerspaͤnnigen und ungehorsamen 
-<lb/>und ir helffer soͤllend alle meineid und erloß und sol ir lib und guͦt unnser statt <placeName ref="loc000065">Zu̍rich</placeName> vervallen <damage agent="faded ink"><supplied resp="msr">sin</supplied></damage>.
-<lb/>Weliche aber nit ergriffen noch an lib und guͦt gekestiget wurdint, die soͤllennd ewenclich <damage agent="faded ink"><supplied resp="msr">von unser</supplied></damage>
-<lb/>statt sin. Wu̍rd aber deheiner uff der taͧt oder darnaͧch in unser statt oder in unnsern <damage agent="faded ink"><supplied resp="msr">gerichten und ge<lb break="no"/></supplied></damage>bietten
+<lb/>und ir helffer soͤllend alle meineid und erloß und sol ir lib und guͦt unnser statt <placeName
+         ref="loc000065">Zu̍rich</placeName> vervallen <damage agent="faded ink"><supplied
+          resp="msr"
+         >sin</supplied></damage>.
+<lb/>Weliche aber nit ergriffen noch an lib und guͦt gekestiget wurdint, die soͤllennd ewenclich <damage
+         agent="faded ink"><supplied resp="msr">von unser</supplied></damage>
+        <lb/>statt sin. Wu̍rd aber deheiner uff der taͧt oder darnaͧch in unser statt oder in unnsern <damage
+         agent="faded ink"><supplied resp="msr">gerichten und ge<lb break="no"
+        /></supplied></damage>bietten
 begriffen, so sol man zuͤstund von inen richten, als von meineiden, u̍beltaͤttigen lu̍tten.</seg>
-<seg n="2"><damage agent="faded ink"><supplied resp="msr">Und soͤllend</supplied></damage>
-<lb/>ouch alle unnser burger und die ganntz <orgName ref="org001187">gemeind zuͦ <placeName ref="loc000065">Zu̍rich</placeName></orgName> by iren eiden, so sy gesworen haben,
-<lb/>dem <orgName ref="org002406">burgermeister, den raͤtten, den zunfftmeistern und dem grossen raͧt</orgName> beholffen und beraͧtten <damage agent="faded ink"><supplied resp="msr">sin</supplied></damage>,
-<lb/>das sy dise vor und naͧchgeschribnen stuck, an disem brieff begriffen, erobern und volfuͤren und <damage agent="faded ink"><supplied resp="msr">uns</supplied></damage>,
+       <seg n="2"><damage agent="faded ink"><supplied resp="msr">Und soͤllend</supplied></damage>
+        <lb/>ouch alle unnser burger und die ganntz <orgName ref="org001187">gemeind zuͦ <placeName
+          ref="loc000065"
+         >Zu̍rich</placeName></orgName> by iren eiden, so sy gesworen haben,
+<lb/>dem <orgName
+         ref="org002406"
+         >burgermeister, den raͤtten, den zunfftmeistern und dem grossen raͧt</orgName> beholffen und beraͧtten <damage
+         agent="faded ink"><supplied resp="msr"
+         >sin</supplied></damage>,
+<lb/>das sy dise vor und naͧchgeschribnen stuck, an disem brieff begriffen, erobern und volfuͤren und <damage
+         agent="faded ink"><supplied resp="msr"
+        >uns</supplied></damage>,
 <lb/>ouch sich selber, daͧby schu̍tzen, schirmen und hanndthaben mu̍gind, getru̍wlich, oͧn all arglist und geverd.</seg>
-<seg><lb/>So ist dis unnser ordnung der <orgName ref="org001217">raͤtten</orgName>, der <orgName ref="org005085">zu̍nfften</orgName> und der gerichten, als wir die gesetzt und geordnet 
+       <seg><lb/>So ist dis unnser ordnung der <orgName ref="org001217"
+         >raͤtten</orgName>, der <orgName ref="org005085"
+        >zu̍nfften</orgName> und der gerichten, als wir die gesetzt und geordnet 
 <lb/>habent, und fürbashin meinent und wellent halten:</seg>
-<seg n="3">Namlich, das ritter, edellu̍t, burger und 
-<lb/>hindersässen in unnser statt <placeName ref="loc000065">Zu̍rich</placeName> wonende und saͤsshaft, so <add place="above" type="sign" hand="later hand">sonsten</add> kein zünfft haben und die ouch 
+       <seg n="3"
+         >Namlich, das ritter, edellu̍t, burger und 
+<lb/>hindersässen in unnser statt <placeName
+         ref="loc000065">Zu̍rich</placeName> wonende und saͤsshaft, so <add place="above"
+         type="sign" hand="later hand"
+         >sonsten</add> kein zünfft haben und die ouch 
 <lb/>kein gewaͤrb oder hanndtwerch tribennt und bruchen, das in der zünnfften deheine dienet oder 
-<lb/>gehoͤrtt, fürbaßhin <orgName ref="org004958">Constaͧfel</orgName> heissen und sin, ouch der statt panner wartten und dienen soͤllen. <add place="below" type="sign" hand="later hand">Nach der ordnung, wie dann solliche je nach fürfallenheit und gelägenheit 
- <lb/>der zyten für die <orgName ref="org004958">Constaffel</orgName> und hernach folgende zünft gemacht 
+<lb/>gehoͤrtt, fürbaßhin <orgName
+         ref="org004958"
+         >Constaͧfel</orgName> heissen und sin, ouch der statt panner wartten und dienen soͤllen. <add
+         place="below" type="sign" hand="later hand"
+          >Nach der ordnung, wie dann solliche je nach fürfallenheit und gelägenheit 
+ <lb/>der zyten für die <orgName
+          ref="org004958">Constaffel</orgName> und hernach folgende zünft gemacht 
 <lb/>wirdt.</add>
-<lb/>Welich aber einich gewerb oder hanndtwerch tryben und bruchen woͤllen, so in einich zunfft 
-<lb/>diennt, das die selben soͤlich zunfft annemmen und erkouffen und fürer nit inn die <orgName ref="org004958">Constaͧfel</orgName> dienen
-<lb/>noch fryg gelaͧßen werden soͤllen. Aber umb <orgName ref="org004946">goldschmid</orgName>, <orgName ref="org004997">sidensticker</orgName> und <orgName ref="org004944">glaser</orgName>, <hi rend="underline">ouch</hi>
-<orgName ref="org004943">gewannd<lb break="no"/>schnider</orgName>,
-<orgName ref="org004985">saltzlu̍t</orgName> und die ysen veilhaben, <add place="below" hand="later hand" type="sign">auch die ihres thuns, gwerbs oder handtwerchs halber <lb/>sonsten an kein gwüße zunft gebunden</add> die moͤgent in der <orgName ref="org004958">Constafel</orgName> sin oder in welicher zunfft
-<pb n="1v" facs="StAZH_C_I__Nr__543__fol__1_v_.tif"/>
-<lb/>sy wellent, also das ir gewerb deßhalb fryg sin sol. Aber <orgName ref="org004950">holtzhower</orgName>, so kein zunfft haben, soͤllen by der <orgName ref="org004958">Con<lb break="no"/>staͧfel</orgName> 
+        <lb/>Welich aber einich gewerb oder hanndtwerch tryben und bruchen woͤllen, so in einich zunfft 
+<lb/>diennt, das die selben soͤlich zunfft annemmen und erkouffen und fürer nit inn die <orgName
+         ref="org004958"
+         >Constaͧfel</orgName> dienen
+<lb/>noch fryg gelaͧßen werden soͤllen. Aber umb <orgName
+         ref="org004946">goldschmid</orgName>, <orgName ref="org004997"
+         >sidensticker</orgName> und <orgName ref="org004944">glaser</orgName>, <hi rend="underline"
+         >ouch</hi>
+        <orgName ref="org004943">gewannd<lb break="no"/>schnider</orgName>,
+<orgName ref="org004985"
+         >saltzlu̍t</orgName> und die ysen veilhaben, <add place="below" hand="later hand"
+         type="sign"
+         >auch die ihres thuns, gwerbs oder handtwerchs halber <lb/>sonsten an kein gwüße zunft gebunden</add> die moͤgent in der <orgName
+         ref="org004958">Constafel</orgName> sin oder in welicher zunfft
+<pb n="1v"
+         facs="StAZH_C_I__Nr__543__fol__1_v_.tif"/>
+        <lb/>sy wellent, also das ir gewerb deßhalb fryg sin sol. Aber <orgName ref="org004950"
+         >holtzhower</orgName>, so kein zunfft haben, soͤllen by der <orgName ref="org004958">Con<lb
+          break="no"
+           />staͧfel</orgName> 
  bliben und daͧrin dienen, wie von alltemhar kommen ist.<note>Dieser Artikel ist ausführlicher als derjenige im Vierten Geschworenen
-  Brief (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 4</bibl>).</note></seg>
-<seg n="4.1"><orgName ref="org004961">Kraͧmer</orgName> und die naͧch kraͧm irs koͧffs farend,
+  Brief (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+         >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 4</bibl>).</note></seg>
+       <seg n="4.1"><orgName ref="org004961"
+        >Kraͧmer</orgName> und die naͧch kraͧm irs koͧffs farend,
 <lb/>soͤllennt han ein zunfft und ein panner.</seg>
-<seg n="4.2"><orgName ref="org005066">Winschenncken</orgName>, <orgName ref="org005066">winkoͤiffer</orgName>, <orgName ref="org004986">sattler</orgName> und <orgName ref="org004970">maͧler</orgName> soͤllent haben 
+       <seg n="4.2"><orgName ref="org005066">Winschenncken</orgName>, <orgName ref="org005066"
+         >winkoͤiffer</orgName>, <orgName ref="org004986">sattler</orgName> und <orgName
+         ref="org004970">maͧler</orgName> soͤllent haben 
 <lb/>ein zunfft und ein panner.</seg>
-<seg n="4.3"><orgName ref="org005060">Tuͦchscherrer</orgName>, <orgName ref="org004994">schnider</orgName> und <orgName ref="org004963">ku̍rsiner</orgName> soͤllent haben ein zunfft und ein panner.</seg>
-<seg n="4.4"><lb/><orgName ref="org004920">Pfister</orgName> und <orgName ref="org004975">mu̍ller</orgName> soͤllent haben ein zunfft und ein panner.</seg>
-<seg n="4.5"><orgName ref="org005070">Wulweber</orgName>, <orgName ref="org005069">wulschlacher</orgName>, <orgName ref="org004947">graw<lb break="no"/>tuͤcher</orgName>,
-<orgName ref="org004952">huͦtter</orgName>, <orgName ref="org004965">linweber</orgName>, <orgName ref="org004966">linwaͤtter</orgName> und <orgName ref="org004923">bleicher</orgName> soͤllennt haben ein zunfft und ein panner.</seg>
-<seg n="4.6"><lb/><orgName ref="org004993">Schmid</orgName>, <orgName ref="org004996">schwertfaͤger</orgName>, <orgName ref="org004954">kanntengiesser</orgName>, <orgName ref="org004945">gloggner</orgName>, <orgName ref="org005001">spenngler</orgName>, <orgName ref="org004949">sarwürcker</orgName>, <orgName ref="org004987">scherer</orgName> und <orgName ref="org004921">bader</orgName> habent all ein zunfft
+       <seg n="4.3"><orgName ref="org005060">Tuͦchscherrer</orgName>, <orgName ref="org004994"
+         >schnider</orgName> und <orgName ref="org004963"
+        >ku̍rsiner</orgName> soͤllent haben ein zunfft und ein panner.</seg>
+       <seg n="4.4"><lb/><orgName ref="org004920">Pfister</orgName> und <orgName ref="org004975"
+         >mu̍ller</orgName> soͤllent haben ein zunfft und ein panner.</seg>
+       <seg n="4.5"><orgName ref="org005070">Wulweber</orgName>, <orgName ref="org005069"
+         >wulschlacher</orgName>, <orgName ref="org004947">graw<lb break="no"
+         />tuͤcher</orgName>,
+<orgName ref="org004952">huͦtter</orgName>, <orgName ref="org004965"
+         >linweber</orgName>, <orgName ref="org004966">linwaͤtter</orgName> und <orgName
+         ref="org004923">bleicher</orgName> soͤllennt haben ein zunfft und ein panner.</seg>
+       <seg n="4.6"><lb/><orgName ref="org004993">Schmid</orgName>, <orgName ref="org004996"
+         >schwertfaͤger</orgName>, <orgName ref="org004954">kanntengiesser</orgName>, <orgName
+         ref="org004945">gloggner</orgName>, <orgName ref="org005001">spenngler</orgName>, <orgName
+         ref="org004949">sarwürcker</orgName>, <orgName ref="org004987"
+         >scherer</orgName> und <orgName ref="org004921"
+        >bader</orgName> habent all ein zunfft
 <lb/>und ein panner.</seg>
-<seg n="4.7"><orgName ref="org004938">Gaͤrwer</orgName>, <orgName ref="org005068">wißlaͤdrer</orgName> und <orgName ref="org004980">bermentter</orgName> habennt ein zunfft und ein panner.</seg>
-<seg n="4.8"><orgName ref="org004974">Metzger</orgName> und 
- <lb/>die rinder und annder fych uff dem lannd kouffend und zuͦ der <placeName ref="loc010533">Metzg</placeName> tribend, habent ein zunfft und ein 
+       <seg n="4.7"><orgName ref="org004938">Gaͤrwer</orgName>, <orgName ref="org005068"
+         >wißlaͤdrer</orgName> und <orgName ref="org004980"
+        >bermentter</orgName> habennt ein zunfft und ein panner.</seg>
+       <seg n="4.8"><orgName ref="org004974"
+         >Metzger</orgName> und 
+ <lb/>die rinder und annder fych uff dem lannd kouffend und zuͦ der <placeName
+         ref="loc010533">Metzg</placeName> tribend, habent ein zunfft und ein 
 <lb/>panner.</seg>
-<seg n="4.9"><orgName ref="org004995">Schuͦchmacher</orgName> habent ein zunfft und ein panner.</seg>
-<seg n="4.10"><orgName ref="org005073">Zimberlu̍t</orgName>, <orgName ref="org004971">murer</orgName>, <orgName ref="org005062">wagner</orgName>, <orgName ref="org004926">traͤchsel</orgName>, 
-<lb/><orgName ref="org004951">holtzkoͤiffer</orgName>, <orgName ref="org004962">fassbinder</orgName> und darzuͦ <orgName ref="org004983">reblüt</orgName>, die in unnser statt wonnhafft sind, <add place="left margin" hand="later hand">und umb den lohn <lb/>arbeitend</add> hannd gemeinlich ein
+       <seg n="4.9"><orgName ref="org004995"
+        >Schuͦchmacher</orgName> habent ein zunfft und ein panner.</seg>
+       <seg n="4.10"><orgName ref="org005073">Zimberlu̍t</orgName>, <orgName ref="org004971"
+         >murer</orgName>, <orgName ref="org005062">wagner</orgName>, <orgName ref="org004926"
+         >traͤchsel</orgName>, 
+<lb/><orgName ref="org004951">holtzkoͤiffer</orgName>, <orgName
+         ref="org004962">fassbinder</orgName> und darzuͦ <orgName ref="org004983"
+         >reblüt</orgName>, die in unnser statt wonnhafft sind, <add place="left margin"
+         hand="later hand"
+        >und umb den lohn <lb/>arbeitend</add> hannd gemeinlich ein
 <lb/>zunfft und ein panner.</seg>
-<seg n="4.11"><orgName ref="org004930">Vischer</orgName>, <orgName ref="org004988">schiflu̍t</orgName> und <orgName ref="org004998">seiler</orgName> haben ein zunfft und ein panner, aber <orgName ref="org004956">karrer</orgName> und 
-<lb/><orgName ref="org005063">tregel</orgName>, die moͤgent daͧ zu̍nfftig sin oder nit, weders sy wellent. Welicher aber nit daͧ zu̍nfftig ist, der sol 
+       <seg n="4.11"><orgName ref="org004930">Vischer</orgName>, <orgName ref="org004988"
+         >schiflu̍t</orgName> und <orgName ref="org004998"
+         >seiler</orgName> haben ein zunfft und ein panner, aber <orgName ref="org004956"
+         >karrer</orgName> und 
+<lb/><orgName ref="org005063"
+        >tregel</orgName>, die moͤgent daͧ zu̍nfftig sin oder nit, weders sy wellent. Welicher aber nit daͧ zu̍nfftig ist, der sol 
 <lb/>dennocht daͧhin dienen mit allen sachen.</seg>
-<seg n="4.12"><orgName ref="org004937">Gaͤrtner</orgName>, <orgName ref="org004979">oͤler</orgName>, <orgName ref="org004948">habermelwer</orgName>, <orgName ref="org005067">winzu̍gel</orgName> und <orgName ref="org004957">grempler</orgName> haben
+       <seg n="4.12"><orgName ref="org004937">Gaͤrtner</orgName>, <orgName ref="org004979"
+         >oͤler</orgName>, <orgName ref="org004948">habermelwer</orgName>, <orgName ref="org005067"
+         >winzu̍gel</orgName> und <orgName ref="org004957"
+        >grempler</orgName> haben
 <lb/>ein zunfft und ein panner.</seg>
-<seg n="4.13"><hi rend="underline" hand="later hand">Aber <orgName ref="org004960">kornmacher</orgName> und <orgName ref="org004942">uffbisewer</orgName> sind <num value="2">zwey</num> hanndtwerch und soͤllent 
-<lb/>ein gesellschafft mit einanndern haben und nit ein zunfft und mit allen sachen einem <orgName ref="org002406">burgermeister,
+       <seg n="4.13"><hi rend="underline" hand="later hand">Aber <orgName ref="org004960"
+          >kornmacher</orgName> und <orgName ref="org004942">uffbisewer</orgName> sind <num
+          value="2"
+          >zwey</num> hanndtwerch und soͤllent 
+<lb/>ein gesellschafft mit einanndern haben und nit ein zunfft und mit allen sachen einem <orgName
+          ref="org002406"
+         >burgermeister,
 <lb/>den raͤtten und zunfftmeistern</orgName> wartent sin und der statt panner.</hi></seg>
-<seg n="5">Und weliche hanndtwerch <add place="above" hand="later hand">also</add> zuͦ
-<lb/>ein anndern in ein zunfft geschiben sind, daͧ <subst><del hand="later hand">mag</del><add place="above" hand="later hand">soll</add></subst> man je in eim <date dur="P6M">halben jaͧr</date> einen zunfftmeister
- <lb/>nemmen, <subst><del hand="later hand">ob</del><add place="above" hand="later hand">wie</add></subst> es <hi hand="later hand">also</hi> unnder der ganntzen zunfft das mer wirtt. Wurdint aber die gesellschafften oder
-<lb/><orgName ref="org005085">zünfft</orgName> unnder ein anndern stoͤssig umb einen zunfftmeister, so soͤllent sy <add hand="later hand" place="above">dann</add> fu̍r einen <orgName ref="org002406">burgermeister,
+       <seg n="5">Und weliche hanndtwerch <add place="above" hand="later hand"
+          >also</add> zuͦ
+<lb/>ein anndern in ein zunfft geschiben sind, daͧ <subst><del
+          hand="later hand">mag</del><add place="above" hand="later hand"
+         >soll</add></subst> man je in eim <date dur="P6M"
+          >halben jaͧr</date> einen zunfftmeister
+ <lb/>nemmen, <subst><del hand="later hand"
+          >ob</del><add place="above" hand="later hand">wie</add></subst> es <hi hand="later hand"
+         >also</hi> unnder der ganntzen zunfft das mer wirtt. Wurdint aber die gesellschafften oder
+<lb/><orgName
+         ref="org005085"
+         >zünfft</orgName> unnder ein anndern stoͤssig umb einen zunfftmeister, so soͤllent sy <add
+         hand="later hand" place="above">dann</add> fu̍r einen <orgName ref="org002406"
+         >burgermeister,
 <lb/>die raͤtt und zunfftmeister, ouch den grossen raͧtt</orgName> mit iren stoͤssen kommen, die soͤllen dann gewalt 
 <lb/>haben, sy zuͦ entscheiden und inen einen zunfftmeister zuͦ gebent, der inen und gemeiner statt 
 <lb/>aller komlichost und nützist ist, oͧn geverd.</seg>
-<seg n="6">So soͤllen haben die von der <orgName ref="org004958">Constafel</orgName>
-<num value="18">achtzechen</num> man
- <lb/>in den <orgName ref="org004906">grossen raͧt</orgName>.<note>Der Fünfte Geschworene Brief senkte die Anzahl der
-  Grossräte der <orgName ref="org004958">Konstaffel</orgName> von 24 auf 18 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
-Art. 7</bibl>).</note> Und ob unnder den selben <num value="18">achtzechen</num> mannen hinfu̍r jemer einich mit tod
-<lb/>absterbend oder sunst an das ennd un<subst><del hand="later hand">nütz</del><add place="above" hand="later hand">fehig</add></subst> wurdint, so soͤllennt die u̍brigen, so des <orgName ref="org004016">kleinen</orgName> und
-<lb/><orgName ref="org004906">grossen raͧttes</orgName> in der <orgName ref="org004958">Constafel</orgName> sind, annder an statt des abganngnen erwellen und kiessen, by 
-<lb/>den eyden, die sy beduncken <add hand="later hand" place="above">die</add> nütz<add place="above" hand="later hand">isten</add> und <subst><del hand="later hand">guͦt</del><add place="above" hand="later hand">besten</add></subst> sin.</seg>
-<seg n="7">Deßglich sol jede zunfft haben <num value="12">zwoͤlff</num> man in 
-<lb/>den <orgName ref="org004906">grossen raͧtt</orgName>. Und so unnder den selben einicher mit tod abganngen oder unnuͤtz worden <subst><del hand="later hand">ist</del><add place="above" hand="later hand">worden were</add></subst>, so
-<lb/>soͤllen die <orgName ref="org005086">zunfftmeister</orgName> und <orgName ref="org004016">raͤtt</orgName> der selben zunfft und die u̍brigen belibnen und nützen <orgName ref="org005678">zwoͤlfer</orgName>
-<lb/>an der abganngnen statt annder, die sy bedu̍ncken <add hand="later hand" place="above">die</add> nütz<add place="above" hand="later hand">isten</add> und <subst><del hand="later hand">guͦtt</del><add place="above" hand="later hand">besten</add></subst> sin, by iren eiden erwellen und 
+       <seg n="6">So soͤllen haben die von der <orgName ref="org004958">Constafel</orgName>
+        <num value="18">achtzechen</num> man
+ <lb/>in den <orgName ref="org004906"
+         >grossen raͧt</orgName>.<note>Der Fünfte Geschworene Brief senkte die Anzahl der
+  Grossräte der <orgName
+          ref="org004958">Konstaffel</orgName> von 24 auf 18 (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+         >SSRQ ZH NF I/1/3, Nr. 27</ref>,
+Art. 7</bibl>).</note> Und ob unnder den selben <num
+         value="18"
+          >achtzechen</num> mannen hinfu̍r jemer einich mit tod
+<lb/>absterbend oder sunst an das ennd un<subst><del
+          hand="later hand">nütz</del><add place="above" hand="later hand"
+         >fehig</add></subst> wurdint, so soͤllennt die u̍brigen, so des <orgName ref="org004016"
+         >kleinen</orgName> und
+<lb/><orgName ref="org004906"
+         >grossen raͧttes</orgName> in der <orgName ref="org004958"
+         >Constafel</orgName> sind, annder an statt des abganngnen erwellen und kiessen, by 
+<lb/>den eyden, die sy beduncken <add
+         hand="later hand" place="above">die</add> nütz<add place="above" hand="later hand"
+         >isten</add> und <subst><del hand="later hand">guͦt</del><add place="above"
+          hand="later hand">besten</add></subst> sin.</seg>
+       <seg n="7">Deßglich sol jede zunfft haben <num value="12"
+         >zwoͤlff</num> man in 
+<lb/>den <orgName ref="org004906"
+          >grossen raͧtt</orgName>. Und so unnder den selben einicher mit tod abganngen oder unnuͤtz worden <subst><del
+          hand="later hand">ist</del><add place="above" hand="later hand"
+         >worden were</add></subst>, so
+<lb/>soͤllen die <orgName ref="org005086"
+         >zunfftmeister</orgName> und <orgName ref="org004016"
+         >raͤtt</orgName> der selben zunfft und die u̍brigen belibnen und nützen <orgName
+         ref="org005678">zwoͤlfer</orgName>
+        <lb/>an der abganngnen statt annder, die sy bedu̍ncken <add hand="later hand" place="above"
+         >die</add> nütz<add place="above" hand="later hand">isten</add> und <subst><del
+          hand="later hand">guͦtt</del><add place="above" hand="later hand"
+        >besten</add></subst> sin, by iren eiden erwellen und 
 <lb/>kiessen.</seg>
-<seg n="8">Und wenn also ein zunfftmeister von siner zunfft oder einer des <orgName ref="org004906">grossen raͧts</orgName>, es sye 
-<lb/>von der <orgName ref="org004958">Constaͧfel</orgName> oder <orgName ref="org005085">zünnfften</orgName>, erkoßen wirt, der sol geanntwurt werden dem <orgName ref="org002406">burgermeister,
+       <seg n="8">Und wenn also ein zunfftmeister von siner zunfft oder einer des <orgName
+         ref="org004906">grossen raͧts</orgName>, es sye 
+<lb/>von der <orgName ref="org004958"
+         >Constaͧfel</orgName> oder <orgName ref="org005085"
+         >zünnfften</orgName>, erkoßen wirt, der sol geanntwurt werden dem <orgName ref="org002406"
+         >burgermeister,
 <lb/>den raͤtten und dem grossen raͧtt</orgName> und ob er also vor inen bestaͤttiget und angenommen wirt, so
 <lb/>sol er dann also bliben und der zitt bestaͤttiget sin.</seg>
-<seg n="9">Und ein jegklicher zunfftmeister und der,
-<pb n="2r" facs="StAZH_C_I__Nr__543__fol__2_r_.tif"/>
-<lb/>so des <orgName ref="org004016">kleinen</orgName> oder <orgName ref="org004906">grossen raͧtes</orgName> ist, sol sin erbrer <add place="above" hand="later hand">hernach erlüterter maassen</add>, ingesessner burger, der ere und guͦt, witz, vernunfft
-<lb/>und bescheidenheit hab. Und sol der zunfftmeister von dem merteil siner zunfft und der des <orgName ref="org004906">grossen 
-<lb/>raͧtts</orgName> von dem merteil der <orgName ref="org005086">zunfftmeistern</orgName>, der <orgName ref="org004016">kleinen</orgName> und <orgName ref="org004906">grossen raͤtten</orgName> siner zunfft, als es dann geordnet
-<lb/>ist, uff den eid erkosen und keiner darzuͦ genommen werden, der nüwlich in die statt kommen und nit <add place="above" hand="later hand">zuͦvor</add>
-<date dur="P10Y">zechen
- <lb/>jaͧr</date> ingesessner burger <placeName ref="loc000065">Zu̍rich</placeName> ist gsin, durch das unnser statt <placeName ref="loc000065">Zu̍rich</placeName> by guͦttem raͧt, guͦtten gerichten,
+       <seg n="9">Und ein jegklicher zunfftmeister und der,
+<pb n="2r"
+         facs="StAZH_C_I__Nr__543__fol__2_r_.tif"/>
+        <lb/>so des <orgName ref="org004016">kleinen</orgName> oder <orgName ref="org004906"
+         >grossen raͧtes</orgName> ist, sol sin erbrer <add place="above" hand="later hand"
+         >hernach erlüterter maassen</add>, ingesessner burger, der ere und guͦt, witz, vernunfft
+<lb/>und bescheidenheit hab. Und sol der zunfftmeister von dem merteil siner zunfft und der des <orgName
+         ref="org004906">grossen 
+<lb/>raͧtts</orgName> von dem merteil der <orgName ref="org005086"
+         >zunfftmeistern</orgName>, der <orgName ref="org004016">kleinen</orgName> und <orgName
+         ref="org004906"
+         >grossen raͤtten</orgName> siner zunfft, als es dann geordnet
+<lb/>ist, uff den eid erkosen und keiner darzuͦ genommen werden, der nüwlich in die statt kommen und nit <add
+         place="above" hand="later hand">zuͦvor</add>
+        <date dur="P10Y">zechen
+ <lb/>jaͧr</date> ingesessner burger <placeName ref="loc000065"
+         >Zu̍rich</placeName> ist gsin, durch das unnser statt <placeName ref="loc000065"
+         >Zu̍rich</placeName> by guͦttem raͧt, guͦtten gerichten,
  <lb/>guͦtten gewonheiten und by guͦttem schirm und frid beliben möge.<note>Der Artikel entspricht demjenigen im Vierten
-  Geschworenen Brief. Jedoch werden neu explizit auch die Kleinräte genannt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
+  Geschworenen Brief. Jedoch werden neu explizit auch die Kleinräte genannt (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>,
 Art. 11</bibl>).</note></seg>
-<seg>So sol man einen <orgName ref="org002406">burgermeister
-<lb/>und raͧtt</orgName> haben von rittern, von burgern, von der <orgName ref="org001187">gemeind</orgName> und den hanndtwerchen und also von der 
-<lb/><orgName ref="org004958">Constaͧfel</orgName>, den <orgName ref="org005085">zünfften</orgName> und handtwerchen erber lütt setzen in den <orgName ref="org004016">raͧtt</orgName>, wie haͤrnaͧch staͧtt:</seg>
-<seg n="10">Und 
-<lb/>namlich, so soͤllen <add place="above" hand="later hand" type="sign">gwohnlich</add> die <orgName ref="org004016">raͤtt</orgName>, die <orgName ref="org005086">zunfftmeister</orgName> und der <orgName ref="org004906">groß ratt</orgName> zuͦ jegklichem <date dur="R/P6M">halben jaͧr</date> vor <date when="--06-24">sannct
-<lb/><persName ref="per000049">Johanns</persName> tag zuͦ <sic>sumwennden</sic></date> und vor <date when="--12-27">sannct <persName ref="per004014">Johanns</persName> tag zuͦ wiennaͤchten</date> zuͦ jetwederm zil, so 
-<lb/>man <add place="above" hand="later hand" type="sign">gwohnlich</add> einen <orgName ref="org004016">raͧtt</orgName> besetzt, einen burgermeister kiesen und nemmen, der sy der nützest und best bedu̍nckt sin
+       <seg>So sol man einen <orgName ref="org002406"
+         >burgermeister
+<lb/>und raͧtt</orgName> haben von rittern, von burgern, von der <orgName
+         ref="org001187">gemeind</orgName> und den hanndtwerchen und also von der 
+<lb/><orgName
+         ref="org004958">Constaͧfel</orgName>, den <orgName ref="org005085"
+         >zünfften</orgName> und handtwerchen erber lütt setzen in den <orgName ref="org004016"
+         >raͧtt</orgName>, wie haͤrnaͧch staͧtt:</seg>
+       <seg n="10">Und 
+<lb/>namlich, so soͤllen <add place="above" hand="later hand" type="sign"
+         >gwohnlich</add> die <orgName ref="org004016">raͤtt</orgName>, die <orgName ref="org005086"
+         >zunfftmeister</orgName> und der <orgName ref="org004906"
+         >groß ratt</orgName> zuͦ jegklichem <date dur="R/P6M">halben jaͧr</date> vor <date
+         when="--06-24">sannct
+<lb/><persName ref="per000049"
+          >Johanns</persName> tag zuͦ <sic>sumwennden</sic></date> und vor <date when="--12-27"
+          >sannct <persName ref="per004014"
+         >Johanns</persName> tag zuͦ wiennaͤchten</date> zuͦ jetwederm zil, so 
+<lb/>man <add
+         place="above" hand="later hand" type="sign">gwohnlich</add> einen <orgName ref="org004016"
+         >raͧtt</orgName> besetzt, einen burgermeister kiesen und nemmen, der sy der nützest und best bedu̍nckt sin
 <lb/>der statt und dem lannd, nieman zuͦ lieb noch zuͦ leid und daͧrumb kein miet zuͦ nemmen, by iren eiden. 
 <lb/>Und doch, das keiner zuͦ burgermeister genommen und erwelt werden soͤlle, er sye dann ein erborner 
- <lb/><orgName ref="org002811">Zu̍richer</orgName> ald joch in der statt <placeName ref="loc000065">Zu̍rich</placeName> herligkeiten, gerichten und gebietten erborn.<note>Den Hintergrund für diese Bestimmung bildete die Hinrichtung des aus <placeName ref="loc010386">Blickensdorf</placeName> stammenden, 1452 eingebürgerten Bürgermeisters <persName ref="per000814">Hans Waldmann</persName>. Zur Bürgermeisterwahl vgl. auch die diesbezügliche Ordnung des Jahres 1489 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_041">SSRQ ZH NF I/1/3, Nr. 41</ref></bibl>).</note> Und wirt er ge<lb break="no"/>nommen
-von der <orgName ref="org004958">Constaͧfel</orgName>, so sol er by der <orgName ref="org004958">Constaͧfel</orgName> beliben, wirt er aber von den <orgName ref="org005085">zu̍nfften</orgName> genommen,
-<lb/>so sol er by siner zunfft bliben und nit zuͦ der <orgName ref="org004958">Constafel</orgName> gehoͤren und dienen.</seg>
-<seg n="11">Und sol ouch ein jeg<lb break="no"/>klicher
-burgermeister, der also genommen und erwelt wirt, einen gelertten eid zuͦ gott <del hand="later hand" rend="rubbing">und den heiligen</del>
-<lb/>schweren, ritter, edellu̍t, burger, die <orgName ref="org005085">zuͤnfft</orgName>, arm und rich zuͦ <placeName ref="loc000065">Zu̍rich</placeName> zuͦbehuͤtten und zebesorgent, mit 
+ <lb/><orgName
+         ref="org002811">Zu̍richer</orgName> ald joch in der statt <placeName ref="loc000065"
+         >Zu̍rich</placeName> herligkeiten, gerichten und gebietten erborn.<note>Den Hintergrund für diese Bestimmung bildete die Hinrichtung des aus <placeName
+          ref="loc010386"
+          >Blickensdorf</placeName> stammenden, 1452 eingebürgerten Bürgermeisters <persName
+          ref="per000814"
+           >Hans Waldmann</persName>. Zur Bürgermeisterwahl vgl. auch die diesbezügliche Ordnung des Jahres 1489 (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_041"
+         >SSRQ ZH NF I/1/3, Nr. 41</ref></bibl>).</note> Und wirt er ge<lb break="no"
+         />nommen
+von der <orgName ref="org004958">Constaͧfel</orgName>, so sol er by der <orgName
+         ref="org004958">Constaͧfel</orgName> beliben, wirt er aber von den <orgName ref="org005085"
+         >zu̍nfften</orgName> genommen,
+<lb/>so sol er by siner zunfft bliben und nit zuͦ der <orgName
+         ref="org004958">Constafel</orgName> gehoͤren und dienen.</seg>
+       <seg n="11">Und sol ouch ein jeg<lb break="no"
+         />klicher
+burgermeister, der also genommen und erwelt wirt, einen gelertten eid zuͦ gott <del
+         hand="later hand" rend="rubbing">und den heiligen</del>
+        <lb/>schweren, ritter, edellu̍t, burger, die <orgName ref="org005085"
+         >zuͤnfft</orgName>, arm und rich zuͦ <placeName ref="loc000065"
+           >Zu̍rich</placeName> zuͦbehuͤtten und zebesorgent, mit 
 <lb/>lib und mit guͦtt, in allen sachen, und daͧrinn zuͦtuͦnd das best, so er kan und mag, und glich zuͦ richtend 
  <lb/>dem armen als dem richen und dem richen als dem armen, on alle geverd.<note>Dieser
-  Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 3</bibl>). Für den Eid des Bürgermeisters vgl.
-  <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_028">SSRQ ZH NF I/1/3, Nr. 28</ref></bibl>.</note></seg>
-<seg n="12">Und umb das ritter,
-<lb/>edellu̍t, burger, die <orgName ref="org005085">zu̍nfft</orgName>, arm und rich zuͦ <placeName ref="loc000065">Zu̍rich</placeName> dest fürer vor gewalt beschirmpt und mit <damage agent="faded ink"><supplied resp="msr">tru̍wen</supplied></damage>
-<lb/>verhuͤt und vergoumpt werden, so sol jede zunfft <num value="2">zwen</num> zunfftmeister haben, wie von alterhar, und
-<lb/><num value="1">einen</num> des <orgName ref="org004016">kleinen raͧttes</orgName>. Und doch sol ein <orgName ref="org002406">burgermeister, der raͧtt, die zunfftmeister und der gross raͧtt</orgName>
-<lb/>also jeder zunfft iren <orgName ref="org004016">raͧtes</orgName> man zuͦgeben und zuͦerkiessen haben, von und uss den <num value="12">zwoͤlffen</num>, so jede 
-<lb/>zunfft imm <orgName ref="org004906">grossen raͧtt</orgName> sitzen haͧt.</seg>
-<seg n="13">Und daͧgegen soͤllen die von der <orgName ref="org004958">Constafel</orgName>
-<num value="4">vier</num> in den <orgName ref="org004016">kleinen 
-<lb/>raͧtt</orgName> under inen zuͦ erkiessen haben und erwellen, glich wie jede zunfft <num value="2">zwen</num> zunfftmeister haͧt, die 
-<lb/>sy by iren eiden der statt <add place="above" hand="later hand">die</add> nutzlich<add place="above" hand="later hand">isten</add> und fuͤgklich<add place="above" hand="later hand">isten</add> beduncken sin. Daͧrtzuͦ soͤllen dann ein <orgName ref="org002406">burger<lb break="no"/>meister,
-raͤtt, zunfftmeister und der groß raͧtt</orgName> uß den <num value="18">achtzechen</num>, so die von der <orgName ref="org004958">Constafel</orgName> imm <orgName ref="org004906">grossen 
- <lb/>raͧtt</orgName> sitzen haben, ouch <num value="2">zwen</num> in den <orgName ref="org004016">kleinen raͧtt</orgName> kießen, so sy by iren eyden der statt <add place="above" hand="later hand">die</add> nutzlich<add place="above" hand="later hand">isten</add> und fuͦg<lb break="no"/>klich<add place="above" hand="later hand">isten</add>
-bedu̍ncken sin, also, das die von der <orgName ref="org004958">Constafel</orgName>
-<num value="6">sechs</num> imm <orgName ref="org004016">kleinen raͧtt</orgName>, dem abgenden und dem 
+  Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+           >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 3</bibl>). Für den Eid des Bürgermeisters vgl.
+  <bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_028"
+        >SSRQ ZH NF I/1/3, Nr. 28</ref></bibl>.</note></seg>
+       <seg n="12">Und umb das ritter,
+<lb/>edellu̍t, burger, die <orgName ref="org005085"
+         >zu̍nfft</orgName>, arm und rich zuͦ <placeName ref="loc000065"
+         >Zu̍rich</placeName> dest fürer vor gewalt beschirmpt und mit <damage agent="faded ink"
+          ><supplied resp="msr">tru̍wen</supplied></damage>
+        <lb/>verhuͤt und vergoumpt werden, so sol jede zunfft <num value="2"
+         >zwen</num> zunfftmeister haben, wie von alterhar, und
+<lb/><num value="1"
+         >einen</num> des <orgName ref="org004016"
+         >kleinen raͧttes</orgName>. Und doch sol ein <orgName ref="org002406"
+         >burgermeister, der raͧtt, die zunfftmeister und der gross raͧtt</orgName>
+        <lb/>also jeder zunfft iren <orgName ref="org004016"
+         >raͧtes</orgName> man zuͦgeben und zuͦerkiessen haben, von und uss den <num value="12"
+         >zwoͤlffen</num>, so jede 
+<lb/>zunfft imm <orgName ref="org004906"
+        >grossen raͧtt</orgName> sitzen haͧt.</seg>
+       <seg n="13">Und daͧgegen soͤllen die von der <orgName ref="org004958">Constafel</orgName>
+        <num value="4">vier</num> in den <orgName ref="org004016"
+         >kleinen 
+<lb/>raͧtt</orgName> under inen zuͦ erkiessen haben und erwellen, glich wie jede zunfft <num
+         value="2">zwen</num> zunfftmeister haͧt, die 
+<lb/>sy by iren eiden der statt <add
+         place="above" hand="later hand">die</add> nutzlich<add place="above" hand="later hand"
+         >isten</add> und fuͤgklich<add place="above" hand="later hand"
+         >isten</add> beduncken sin. Daͧrtzuͦ soͤllen dann ein <orgName ref="org002406">burger<lb
+          break="no"/>meister,
+raͤtt, zunfftmeister und der groß raͧtt</orgName> uß den <num
+         value="18">achtzechen</num>, so die von der <orgName ref="org004958"
+         >Constafel</orgName> imm <orgName ref="org004906"
+         >grossen 
+ <lb/>raͧtt</orgName> sitzen haben, ouch <num value="2"
+         >zwen</num> in den <orgName ref="org004016"
+         >kleinen raͧtt</orgName> kießen, so sy by iren eyden der statt <add place="above"
+         hand="later hand">die</add> nutzlich<add place="above" hand="later hand"
+         >isten</add> und fuͦg<lb break="no"/>klich<add place="above" hand="later hand"
+         >isten</add>
+bedu̍ncken sin, also, das die von der <orgName ref="org004958"
+         >Constafel</orgName>
+        <num value="6">sechs</num> imm <orgName ref="org004016"
+        >kleinen raͧtt</orgName>, dem abgenden und dem 
 <lb/>angenden, sitzen haben soͤllen.</seg>
-<seg n="14">Und so also die <orgName ref="org004016">raͤtt</orgName> von den <orgName ref="org005085">zu̍nfftenn</orgName> und der <orgName ref="org004958">Constaͧfel</orgName>
-<lb/>genommen sind, wie vorstaͧt, habent beid <orgName ref="org004016">raͤtt</orgName> noch manngel an <num value="6">sechsen</num> in den <orgName ref="org004016">kleinen raͧtt</orgName>, den ab<lb break="no"/>gennden
-und den angennden. Daͧ soͤllen ein <orgName ref="org002406">burgermeister, die raͤtt und zunfftmeister, ouch der groß 
-<lb/>raͧtt</orgName> die selben <num value="6">sechs</num> dannenthin nemmen und erkießen von und uß denen, so imm <orgName ref="org004906">grossen raͧtt</orgName> sitzen,
-<lb/>mit fryer wal, es sye von der <orgName ref="org004958">Constaͧffel</orgName> oder den <orgName ref="org005085">zu̍nfften</orgName>, die sy dann by iren eiden der statt 
-<pb n="2v" facs="StAZH_C_I__Nr__543__fol__2_v_.tif"/>
-<lb/><add place="left margin" hand="later hand">die</add> nu̍tzlich<add hand="later hand" place="above">isten</add> und fuͦgklich<add place="above" hand="later hand">isten</add> bedunckent.</seg>
-<seg n="15">Und sol also der <orgName ref="org004016">raͧtt</orgName>
-<add place="above" hand="later hand">gwohnlich</add> besetzt werden <date dur="R/P6M">zwürend imm jar</date>, vor <date when="--06-24">sannct <persName ref="per000049">Jo<lb break="no"/>hanns</persName>
-tag zuͦ <sic>sumwenden</sic></date> und vor <date when="--12-27">sannct <persName ref="per000049">Johanns</persName> tag</date> zuͦ <date when="--12-25">wienaͤchten</date>, vor jedtwederm zil <date dur="P14D">vier<lb break="no"/>zechen
+       <seg n="14">Und so also die <orgName ref="org004016">raͤtt</orgName> von den <orgName
+         ref="org005085">zu̍nfftenn</orgName> und der <orgName ref="org004958">Constaͧfel</orgName>
+        <lb/>genommen sind, wie vorstaͧt, habent beid <orgName ref="org004016"
+         >raͤtt</orgName> noch manngel an <num value="6">sechsen</num> in den <orgName
+         ref="org004016">kleinen raͧtt</orgName>, den ab<lb break="no"
+         />gennden
+und den angennden. Daͧ soͤllen ein <orgName ref="org002406"
+         >burgermeister, die raͤtt und zunfftmeister, ouch der groß 
+<lb/>raͧtt</orgName> die selben <num
+         value="6">sechs</num> dannenthin nemmen und erkießen von und uß denen, so imm <orgName
+         ref="org004906">grossen raͧtt</orgName> sitzen,
+<lb/>mit fryer wal, es sye von der <orgName
+         ref="org004958">Constaͧffel</orgName> oder den <orgName ref="org005085"
+         >zu̍nfften</orgName>, die sy dann by iren eiden der statt 
+<pb n="2v"
+         facs="StAZH_C_I__Nr__543__fol__2_v_.tif"/>
+        <lb/><add place="left margin" hand="later hand">die</add> nu̍tzlich<add hand="later hand"
+         place="above">isten</add> und fuͦgklich<add place="above" hand="later hand"
+        >isten</add> bedunckent.</seg>
+       <seg n="15">Und sol also der <orgName ref="org004016">raͧtt</orgName>
+        <add place="above" hand="later hand">gwohnlich</add> besetzt werden <date dur="R/P6M"
+         >zwürend imm jar</date>, vor <date when="--06-24">sannct <persName ref="per000049">Jo<lb
+           break="no"/>hanns</persName>
+tag zuͦ <sic>sumwenden</sic></date> und vor <date
+         when="--12-27">sannct <persName ref="per000049">Johanns</persName> tag</date> zuͦ <date
+         when="--12-25">wienaͤchten</date>, vor jedtwederm zil <date dur="P14D">vier<lb break="no"
+         />zechen
 tag</date> mer oder minder, ungevaͧrlich, als man des dann fu̍rbaßhin zuͦ raͧtt wirtt. Und doch,
-<lb/>das ir zuͦ jedem <date dur="R/P6M">halben jaͧr</date> von den allen nit mer dann <num value="12">zwoͤlff</num> erkoßen und genommen werden
-<lb/>soͤllen in den <orgName ref="org004016">raͧtt</orgName>. Daͧrtzuͦ kiesend <num value="12">zwoͤlff</num>
-<orgName ref="org005085">zünnfft</orgName>, die wir zuͦ <placeName ref="loc000065">Zu̍rich</placeName> habent, jede zunfft ouch 
-<lb/><num value="1">einen</num> zunfftmeister, wie vorstaͧtt, und gond die <num value="12">zwoͤlff</num> zunfftmeister ouch in den <orgName ref="org002406">raͧtt</orgName>, also, das 
-<lb/><date dur="R/P6M">jerlich zwu̍rend im jaͧre</date> je <num value="24">vier und zwenntzig</num> den <orgName ref="org004016">raͧtt</orgName> schweren soͤllent, als sitt und gewonlich,
+<lb/>das ir zuͦ jedem <date
+         dur="R/P6M">halben jaͧr</date> von den allen nit mer dann <num value="12"
+         >zwoͤlff</num> erkoßen und genommen werden
+<lb/>soͤllen in den <orgName ref="org004016"
+         >raͧtt</orgName>. Daͧrtzuͦ kiesend <num value="12">zwoͤlff</num>
+        <orgName ref="org005085">zünnfft</orgName>, die wir zuͦ <placeName ref="loc000065"
+         >Zu̍rich</placeName> habent, jede zunfft ouch 
+<lb/><num value="1"
+         >einen</num> zunfftmeister, wie vorstaͧtt, und gond die <num value="12"
+         >zwoͤlff</num> zunfftmeister ouch in den <orgName ref="org002406"
+         >raͧtt</orgName>, also, das 
+<lb/><date dur="R/P6M"
+         >jerlich zwu̍rend im jaͧre</date> je <num value="24">vier und zwenntzig</num> den <orgName
+         ref="org004016"
+        >raͧtt</orgName> schweren soͤllent, als sitt und gewonlich,
 <lb/>ouch von altemhar kommen ist.</seg>
-<seg n="16">Were aber zuͦ den zitten, so man einen <orgName ref="org004016">raͧtt</orgName> kießen sol, der 
-<lb/>burgermeister nit in der statt, oder das zuͦ der zitt kein burgermeister were, ald das ein burger<lb break="no"/>meister
+       <seg n="16">Were aber zuͦ den zitten, so man einen <orgName ref="org004016"
+         >raͧtt</orgName> kießen sol, der 
+<lb/>burgermeister nit in der statt, oder das zuͦ der zitt kein burgermeister were, ald das ein burger<lb
+         break="no"
+         />meister
 zuͦ der walung nit helffen noch sich daͧrzuͦ fuͤgen welt, so soͤllent und moͤgent doch die 
-<lb/><hi rend="underline">abgennden</hi>
-<orgName ref="org004016">raͤtt</orgName>, die <orgName ref="org005086">zunfftmeister</orgName> und der <orgName ref="org004906">groß raͧtt</orgName> gewalt haben, einen nu̍wen <orgName ref="org004016">raͧtt</orgName> zuͦsetzend
+<lb/><hi
+         rend="underline">abgennden</hi>
+        <orgName ref="org004016">raͤtt</orgName>, die <orgName ref="org005086"
+         >zunfftmeister</orgName> und der <orgName ref="org004906"
+         >groß raͧtt</orgName> gewalt haben, einen nu̍wen <orgName ref="org004016"
+        >raͧtt</orgName> zuͦsetzend
 <lb/>und zuͦ kiessend, in aller wiß, form und maͧß, als ob ein burgermeister by inen were, als vorgeschriben
 <lb/>ist, oͧn alle geverd.</seg>
-<seg n="17">Es sol ouch eins jeden abgennden burgermeisters und abgenden <orgName ref="org004016">raͧttes</orgName> zil uß goͧn 
- <lb/>an sannct <persName ref="per000049">Johanns</persName> tag<note>Dies bezieht sich gleichermassen auf beide Johannestage (24. Juni und 27. Dezember).</note> zuͦ <time period="byNight">nacht</time>, es sye imm <date when="--06-24">summer</date> oder zuͦ <date when="--12-25">wiennaͤchten</date>, zuͦ <time when="00:00:00">mitternaͧcht</time>, so 
-<lb/><del rend="rubbing" hand="later hand">man zuͦ den oͤrdnen metty lu̍tt,</del> und zuͦ der selben stund sol aber des angenden <orgName ref="org002406">burgermeisters und
-<lb/>raͧts</orgName> gewalt anfaͧchen, umb das, ob dehein<add place="above" hand="later hand">ich</add> ding ufflüffe in unnser statt, des <time period="byDay">tags</time> oder <time period="byNight">nachts</time>, das man 
-<lb/>wu̍ssen mog, wer es richten oder stellen soͤlle. Und also sol man <add place="inline" hand="later hand">gmeinlich und gwonlich</add>
-<date dur="R/P6M">zwürend im jaͧr</date> den <orgName ref="org002406">burger<lb break="no"/>meister,
+       <seg n="17">Es sol ouch eins jeden abgennden burgermeisters und abgenden <orgName
+         ref="org004016">raͧttes</orgName> zil uß goͧn 
+ <lb/>an sannct <persName ref="per000049"
+         >Johanns</persName> tag<note>Dies bezieht sich gleichermassen auf beide Johannestage (24. Juni und 27. Dezember).</note> zuͦ <time
+         period="byNight">nacht</time>, es sye imm <date when="--06-24">summer</date> oder zuͦ <date
+         when="--12-25">wiennaͤchten</date>, zuͦ <time when="00:00:00"
+         >mitternaͧcht</time>, so 
+<lb/><del rend="rubbing" hand="later hand"
+         >man zuͦ den oͤrdnen metty lu̍tt,</del> und zuͦ der selben stund sol aber des angenden <orgName
+         ref="org002406"
+         >burgermeisters und
+<lb/>raͧts</orgName> gewalt anfaͧchen, umb das, ob dehein<add
+         place="above" hand="later hand">ich</add> ding ufflüffe in unnser statt, des <time
+         period="byDay">tags</time> oder <time period="byNight"
+         >nachts</time>, das man 
+<lb/>wu̍ssen mog, wer es richten oder stellen soͤlle. Und also sol man <add
+         place="inline" hand="later hand">gmeinlich und gwonlich</add>
+        <date dur="R/P6M">zwürend im jaͧr</date> den <orgName ref="org002406">burger<lb break="no"
+         />meister,
 die raͤtt und die zunfftmeister</orgName> enndern.</seg>
-<seg n="18">Und welicher <date dur="R/P6M">ein halb jaͧr</date> burgermeister, des raͧtes
- <lb/>oder zunfftmeister gewesen ist, der mag <del>es</del> denn des anndern <date dur="R/P6M">halben jaͧrs</date> nechst daͧrnaͧch nit <add hand="later hand" place="right margin">wider</add>
-<lb/><add place="left margin" hand="later hand">erwelt</add> werden, aber zuͦ dem anndern <date dur="R/P6M">halben jar</date> wirdet einer wol bu̍rgermeister, des raͧts oder zunfftmeister, 
+       <seg n="18">Und welicher <date dur="R/P6M"
+         >ein halb jaͧr</date> burgermeister, des raͧtes
+ <lb/>oder zunfftmeister gewesen ist, der mag <del>es</del> denn des anndern <date
+         dur="R/P6M">halben jaͧrs</date> nechst daͧrnaͧch nit <add hand="later hand"
+         place="right margin">wider</add>
+        <lb/><add place="left margin" hand="later hand"
+         >erwelt</add> werden, aber zuͦ dem anndern <date dur="R/P6M"
+           >halben jar</date> wirdet einer wol bu̍rgermeister, des raͧts oder zunfftmeister, 
  <lb/>ob einer daͧrtzuͦ genommen und erkoßen wirdt, als vorgeschriben staͧt.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter oben
-  (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 10</bibl>).</note></seg>
-<seg n="19">Was ouch von fraͤveln und 
-<lb/>soͤlichen sachen under einem <orgName ref="org004016">raͧtt</orgName> nit geklagt wirt, die wile er gewalt haͧt zerichten, das sol den naͧch<lb break="no"/>genden 
-<orgName ref="org004016">raͧtt</orgName> nit angaͧn zuͦrichten. Aber der abganngen <orgName ref="org004016">raͧtt</orgName>, unnder dem die selb sach ufferlouffen 
+  (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 10</bibl>).</note></seg>
+       <seg n="19">Was ouch von fraͤveln und 
+<lb/>soͤlichen sachen under einem <orgName
+         ref="org004016"
+         >raͧtt</orgName> nit geklagt wirt, die wile er gewalt haͧt zerichten, das sol den naͧch<lb
+         break="no"/>genden 
+<orgName ref="org004016"
+         >raͧtt</orgName> nit angaͧn zuͦrichten. Aber der abganngen <orgName ref="org004016"
+         >raͧtt</orgName>, unnder dem die selb sach ufferlouffen 
 <lb/>ist, der sol ouch die ußrichten.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter
-unten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 21</bibl>).</note></seg>
-<seg n="20.1"><note>Zum Oberstzunftmeister im Vierten Geschworenen Brief vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 22</bibl>.</note> Und daͧmit hinfu̍r unnser statt <placeName ref="loc000065">Zu̍rich</placeName> und alle ir bu̍rger, 
-<lb/>ouch die <orgName ref="org005085">zu̍nfft</orgName> gemeinlich und die, so daͧrin gehoͤren, by guͦttem frid und schirm, ouch die selben
-<lb/><orgName ref="org005085">zu̍nnfft</orgName> by irem wesen, wie sy angesechen und harkommen sind, bliben und gehanndthabet werden
-<lb/>mogen, so haben wir gesetzt und geordnet, das uß den <num value="12">zwoͤlff</num>
-<orgName ref="org005085">zu̍nfften</orgName> und den <num value="24">vier und 
+unten (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 21</bibl>).</note></seg>
+       <seg n="20.1"><note>Zum Oberstzunftmeister im Vierten Geschworenen Brief vgl. <bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 22</bibl>.</note> Und daͧmit hinfu̍r unnser statt <placeName
+         ref="loc000065">Zu̍rich</placeName> und alle ir bu̍rger, 
+<lb/>ouch die <orgName
+         ref="org005085"
+         >zu̍nfft</orgName> gemeinlich und die, so daͧrin gehoͤren, by guͦttem frid und schirm, ouch die selben
+<lb/><orgName
+         ref="org005085"
+         >zu̍nnfft</orgName> by irem wesen, wie sy angesechen und harkommen sind, bliben und gehanndthabet werden
+<lb/>mogen, so haben wir gesetzt und geordnet, das uß den <num
+         value="12">zwoͤlff</num>
+        <orgName ref="org005085">zu̍nfften</orgName> und den <num value="24"
+         >vier und 
 <lb/>zwenntzig</num>
-<orgName ref="org005086">zunfftmeistern</orgName>, die <date dur="R/P1Y">jerlich</date> zuͦ den beyden zilen, als obstaͧtt, genommen werden, <num value="3">dry</num>
-<lb/>der selben zuͦ obristen zunfftmeistern von <orgName ref="org002406">burgermeister, raͤtten, den zunfftmeistern und den 
+        <orgName ref="org005086">zunfftmeistern</orgName>, die <date dur="R/P1Y"
+         >jerlich</date> zuͦ den beyden zilen, als obstaͧtt, genommen werden, <num value="3"
+         >dry</num>
+        <lb/>der selben zuͦ obristen zunfftmeistern von <orgName ref="org002406"
+         >burgermeister, raͤtten, den zunfftmeistern und den 
 <lb/>zweyhunndertten, dem grossen raͧt</orgName>, die sy an wytz, vernunfft, ere und guͦtt die geschicktisten 
 <lb/>und tougenlichisten beduncken, von fryer wal erkoren und gewelt werden und die selben macht
 <lb/>und gewalt haben soͤllen, die anndern zunfftmeister gemeinlich umb die naͧchgeschribnen 
 <lb/>sachen allein, so dick es sich hoͤischt und notdu̍rfftig ist, zuͦ beruͤffen und versamlen.</seg>
-<seg n="20.2">Und nam<lb break="no"/>lich,
-was spenn, irrung oder zwytrecht den <orgName ref="org005085">zünnfften</orgName> begegnen, es sye einer zunnfft gegen
+       <seg n="20.2">Und nam<lb break="no"/>lich,
+was spenn, irrung oder zwytrecht den <orgName
+         ref="org005085"
+         >zünnfften</orgName> begegnen, es sye einer zunnfft gegen
 <lb/>der anndern oder von sundigen personen, heimschen oder froͤmbden, wer joch die sind, umb soͤlich
-<pb n="3r" facs="StAZH_C_I__Nr__543__fol__3_r_.tif"/>
-<lb/>sachen, die ir gewerb und hanndtwerch anntreffend, fu̍r sich zuͦ nemmen und die parthygen, die es antryfft,
-<lb/>gegenwu̍rttenklich vor inen zuͦ hoͤren und die dann vor inen allein uff ir eyd fürderlich und unver<lb break="no"/>zogenlich
-ußzuͦrichten und zuͦ entscheiden, also, das ein <orgName ref="org002406">burgermeister und die raͤtt</orgName> sy daͧran nit 
+<pb
+         n="3r" facs="StAZH_C_I__Nr__543__fol__3_r_.tif"/>
+        <lb/>sachen, die ir gewerb und hanndtwerch anntreffend, fu̍r sich zuͦ nemmen und die parthygen, die es antryfft,
+<lb/>gegenwu̍rttenklich vor inen zuͦ hoͤren und die dann vor inen allein uff ir eyd fürderlich und unver<lb
+         break="no"/>zogenlich
+ußzuͦrichten und zuͦ entscheiden, also, das ein <orgName
+         ref="org002406"
+        >burgermeister und die raͤtt</orgName> sy daͧran nit 
 <lb/>sumen noch irren noch inn hanndlung soͤlicher sachen by inen sitzen soͤllen.</seg>
-<seg n="20.3">Und wenn die 
-<lb/><orgName ref="org005086">zunfftmeister</orgName> also soͤlich sachen hanndeln und ußrichten wellen, das dann sy all gemeinlich 
-<lb/>oder der mertteil daͧby versamelt und sin soͤllen. Und was sachen die <orgName ref="org005086">zunfftmeister</orgName> also gemeinlich 
+       <seg n="20.3">Und wenn die 
+<lb/><orgName ref="org005086"
+         >zunfftmeister</orgName> also soͤlich sachen hanndeln und ußrichten wellen, das dann sy all gemeinlich 
+<lb/>oder der mertteil daͧby versamelt und sin soͤllen. Und was sachen die <orgName
+         ref="org005086"
+         >zunfftmeister</orgName> also gemeinlich 
 <lb/>oder der merteil under inen, die ir gewerb und hanndtwerch antreffennd, richttennd, erkennent oder 
-<lb/>ansechent, das soͤlichs staͤt, vest und unverbrochen gehalten werden und <orgName ref="org002406">burgermeister, raͤtt, ouch 
-<lb/>die zweyhunndert, der groß raͧtt und unnser ganntze gemeind</orgName> sy daͧby schirmmen und hanndt<lb break="no"/>haben 
-soͤllen, doch mit soͤlicher lu̍ttrung, ob einich <orgName ref="org005085">zu̍nfft</orgName>, eine oder mer, dehein<add place="above" hand="later hand">ich</add> uffsaͤtz oder
+<lb/>ansechent, das soͤlichs staͤt, vest und unverbrochen gehalten werden und <orgName
+         ref="org002406"
+         >burgermeister, raͤtt, ouch 
+<lb/>die zweyhunndert, der groß raͧtt und unnser ganntze gemeind</orgName> sy daͧby schirmmen und hanndt<lb
+         break="no"/>haben 
+soͤllen, doch mit soͤlicher lu̍ttrung, ob einich <orgName
+         ref="org005085">zu̍nfft</orgName>, eine oder mer, dehein<add place="above"
+         hand="later hand"
+         >ich</add> uffsaͤtz oder
 <lb/>sach, die unnser statt und ir burger gemeinlich beruͤren und beswaͤren moͤchten, fu̍rnemmen, 
-<lb/>hanndeln oder bruchen woͤlten, das dann die obgemelten <orgName ref="org005086">zunfftmeister</orgName> soͤlichs allein nit fu̍r sich 
-<lb/>nemmen oder ußrichten noch einnichen gewalt daͧrinn haben, sunder soͤlich sachen fu̍r <orgName ref="org002406">bu̍rgermeister,
+<lb/>hanndeln oder bruchen woͤlten, das dann die obgemelten <orgName
+         ref="org005086"
+         >zunfftmeister</orgName> soͤlichs allein nit fu̍r sich 
+<lb/>nemmen oder ußrichten noch einnichen gewalt daͧrinn haben, sunder soͤlich sachen fu̍r <orgName
+         ref="org002406"
+         >bu̍rgermeister,
 <lb/>raͤtt, zunfftmeister und die zweyhunndert, den grossen raͧtt</orgName>, gemeinlich kommen und von den selben 
 <lb/>ussgericht und entscheiden werden.</seg>
-<seg n="20.4">Fürer, so soͤllen die selben <num value="3">dryg</num> obristen zunfftmeister, so
-<lb/>jetz erweltt sind oder fu̍rer gewellt und erkoren werden, sich in sunders vlyßen, in den <orgName ref="org004016">raͧtt</orgName>
-<lb/>zuͦ kommen und zuͦverhelffen, das unnser gemeinen statt sachen und notdurfft fürgenommen,
+       <seg n="20.4">Fürer, so soͤllen die selben <num value="3"
+         >dryg</num> obristen zunfftmeister, so
+<lb/>jetz erweltt sind oder fu̍rer gewellt und erkoren werden, sich in sunders vlyßen, in den <orgName
+         ref="org004016">raͧtt</orgName>
+        <lb/>zuͦ kommen und zuͦverhelffen, das unnser gemeinen statt sachen und notdurfft fürgenommen,
 <lb/>ouch mengklich, rich und arm, verhoͤrtt werden und gemein, glich recht erlanngen moͤgen,
-<lb/>ouch unnser gemeine statt und lannd naͧch ir besten verstenntnuss zuͦverhuͤtten und ver<lb break="no"/>goumen,
+<lb/>ouch unnser gemeine statt und lannd naͧch ir besten verstenntnuss zuͦverhuͤtten und ver<lb
+         break="no"
+         />goumen,
 daͧmit niemanns kein gewalt oder umbilliche beswerung zuͦgefuͤgt werde. Und ob 
-<lb/>sy in soͤlichem eynich summniß oder irrung erfinden oder ob in einem <orgName ref="org004016">raͧtt</orgName> durch jemans 
-<lb/>zwytrecht, unfuͦg oder geverd unnderstannden oder gebrucht wurde, soͤlichs fu̍rderlich abzuͦ<lb break="no"/>stellen,
-sunders was sy also inn oder usserthalb des <orgName ref="org004016">raͧtts</orgName> anlannget, daͧvon schad oder gebrest
-<lb/>erwachsen moͤchte, sy werden des von jemanns ermannt oder das sy selbs beduͤchte, soͤlichs an<lb break="no"/>zuͦbringen
-oder einen burgermeister heissen anbringen, es sye an den <orgName ref="org004016">kleinen, taͤglichen raͧtt</orgName>
-<lb/>oder die <orgName ref="org004906">zweyhunndert, den grossen raͧtt</orgName>, gemeinlich, je naͧch gelegenheit der sach und erhoͤisch<lb break="no"/>ung 
+<lb/>sy in soͤlichem eynich summniß oder irrung erfinden oder ob in einem <orgName
+         ref="org004016"
+         >raͧtt</orgName> durch jemans 
+<lb/>zwytrecht, unfuͦg oder geverd unnderstannden oder gebrucht wurde, soͤlichs fu̍rderlich abzuͦ<lb
+         break="no"/>stellen,
+sunders was sy also inn oder usserthalb des <orgName ref="org004016"
+         >raͧtts</orgName> anlannget, daͧvon schad oder gebrest
+<lb/>erwachsen moͤchte, sy werden des von jemanns ermannt oder das sy selbs beduͤchte, soͤlichs an<lb
+         break="no"/>zuͦbringen
+oder einen burgermeister heissen anbringen, es sye an den <orgName
+         ref="org004016">kleinen, taͤglichen raͧtt</orgName>
+        <lb/>oder die <orgName ref="org004906"
+         >zweyhunndert, den grossen raͧtt</orgName>, gemeinlich, je naͧch gelegenheit der sach und erhoͤisch<lb
+         break="no"
+         />ung 
 der notdurfft, doch mit soͤlichem unnderscheid, das allweg die personen, die soͤlichs
-<lb/>beruͤren moͤchte, daͧgegen mit ir anntwurt gehoͤrtt und niemanns hinderrucks oder unver<lb break="no"/>hoͤrtt 
+<lb/>beruͤren moͤchte, daͧgegen mit ir anntwurt gehoͤrtt und niemanns hinderrucks oder unver<lb
+         break="no"/>hoͤrtt 
 vervellt oder beschwert werden soͤlle.</seg>
-<seg n="20.5">Wenn ouch unnser statt burgermeister, so je
-<lb/>zuͦ zitten sind, nit by der statt oder nit in dem <orgName ref="org004906">raͧtt</orgName> weren, das dann unnder den <num value="3">dryg</num> obristen 
+       <seg n="20.5"
+         >Wenn ouch unnser statt burgermeister, so je
+<lb/>zuͦ zitten sind, nit by der statt oder nit in dem <orgName
+         ref="org004906">raͧtt</orgName> weren, das dann unnder den <num value="3"
+        >dryg</num> obristen 
 <lb/>zunfftmeistern, je der vorderst, so der zitt am ersten erkoren ist, und ob derselb nit zugegen 
 <lb/>were, der annder oder demnaͧch der dritt statthalter des bürgermeisterthumbs sin und soͤlich
 <lb/>ampt versechen, deßglich soͤlich ordnung in dem, so inen, als obstaͧtt, ußzuͦrichten bevolhen 
 <lb/>ist, ouch also unnder inen gehalten werden soͤlle.</seg>
-<seg n="20.6">Und das daͧby <date dur="R/P1Y">jerlich</date> uff die zitt vor
-<lb/><date when="--12-25">wiennaͤchten</date>, so ein <orgName ref="org002406">bürgermeister und raͧtt</orgName> erkoren wirt, die <num value="3">dryg</num> obristen zunfft<pb n="3v" facs="StAZH_C_I__Nr__543__fol__3_v_.tif"/><lb break="no"/>meister,
-als obstaͧt, ouch von fryer wal erwellt und genommen werden und doch zum minsten <num value="1">einer</num> unnder den
-<lb/><num value="3">dryen</num>, und namlich der erst oder vordrist, <date dur="R/P1Y">jerlich</date> abgeëndert und ein anndrer zuͦ den <num value="2">zweyen</num> erkoren
-<lb/>werden soͤlle, daͧmit ir allweg <num value="3">dryg</num> syen, als vorstaͧt, doch das uß einer zunfft nit <num value="2">zwen</num> sament<lb break="no"/>lich
-genommen werden, sunder die <num value="3">dryg</num> obristen meister allweg in <num value="2">dryen</num> zu̍nfften sin.</seg>
-<seg n="20.7">Und soͤllen
-<lb/>ouch die selben schweren der statt und des lanndes nutz und ere zefu̍rdern, die <orgName ref="org005085">zu̍nfft</orgName> gemeinlich
+       <seg n="20.6">Und das daͧby <date dur="R/P1Y">jerlich</date> uff die zitt vor
+<lb/><date
+         when="--12-25">wiennaͤchten</date>, so ein <orgName ref="org002406"
+         >bürgermeister und raͧtt</orgName> erkoren wirt, die <num value="3"
+         >dryg</num> obristen zunfft<pb n="3v" facs="StAZH_C_I__Nr__543__fol__3_v_.tif"/><lb
+         break="no"
+         />meister,
+als obstaͧt, ouch von fryer wal erwellt und genommen werden und doch zum minsten <num
+         value="1">einer</num> unnder den
+<lb/><num value="3"
+         >dryen</num>, und namlich der erst oder vordrist, <date dur="R/P1Y"
+         >jerlich</date> abgeëndert und ein anndrer zuͦ den <num value="2"
+         >zweyen</num> erkoren
+<lb/>werden soͤlle, daͧmit ir allweg <num value="3"
+         >dryg</num> syen, als vorstaͧt, doch das uß einer zunfft nit <num value="2"
+         >zwen</num> sament<lb break="no"/>lich
+genommen werden, sunder die <num value="3"
+         >dryg</num> obristen meister allweg in <num value="2">dryen</num> zu̍nfften sin.</seg>
+       <seg n="20.7"
+         >Und soͤllen
+<lb/>ouch die selben schweren der statt und des lanndes nutz und ere zefu̍rdern, die <orgName
+         ref="org005085"
+        >zu̍nfft</orgName> gemeinlich
 <lb/>und jede besunnders by iren rechtungen, guͦtten gewonnheiten und altem harkommen zuͦ schirmmen 
 <lb/>und zuͦ hanndthaben, was sachen ouch ir gewerb und hanndtwerch antrifft mit den zunfftmeistern, 
 <lb/>als obstaͧt, uß zuͦrichten, gemeine statt und das lannd und mengklichen vor gewalt und beschwerd 
 <lb/>zuͦverhuͤtten und vergoumen und was sy deßhalb anlannget, sy werden des von jemanns ermant
 <lb/>oder es beduncke sy selbs anzuͦbringen oder zuͦverschaffen, das es anbraͧcht werde, und daͧrinn ir bests
 <lb/>und wegsts zetuͦn, alles getru̍wlich und ungevarlich.</seg>
-<seg n="21">Es sol ouch niemann kein miet nemmen
-<lb/>von keiner wallung wegen des <orgName ref="org002406">burgermeisters, der raͣtten, der zunfftmeistern und des großen
-<lb/>raͧttes</orgName> und waͧ des jemann mit erbern lu̍tten bewisd wu̍rde, als dann den <orgName ref="org002406">burgermeister, die raͤtt
-<lb/>und zunfftmeister</orgName> bedunckte, das es bezu̍get were, den sol man fu̍r meineyd ab dem <orgName ref="org004016">raͧtt</orgName> stossen
- <lb/>und sol darzuͦ von <placeName ref="loc000065">Zu̍rich</placeName> faren und inn die statt niemer mer kommen.<note>Dieser
-  Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
+       <seg n="21">Es sol ouch niemann kein miet nemmen
+<lb/>von keiner wallung wegen des <orgName
+         ref="org002406"
+         >burgermeisters, der raͣtten, der zunfftmeistern und des großen
+<lb/>raͧttes</orgName> und waͧ des jemann mit erbern lu̍tten bewisd wu̍rde, als dann den <orgName
+         ref="org002406"
+         >burgermeister, die raͤtt
+<lb/>und zunfftmeister</orgName> bedunckte, das es bezu̍get were, den sol man fu̍r meineyd ab dem <orgName
+         ref="org004016">raͧtt</orgName> stossen
+ <lb/>und sol darzuͦ von <placeName ref="loc000065"
+         >Zu̍rich</placeName> faren und inn die statt niemer mer kommen.<note>Dieser
+  Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>,
 Art. 19</bibl>).</note></seg>
-<seg n="22">Wir haben ouch 
-<lb/>gesetzt und geordnet, was sachen fu̍r die <orgName ref="org001217">raͤtt und zunfftmeister</orgName> kommend, daͧrumb sy nit einhellig
-<lb/>moͤchten werden, das doch ein jegklicher des nüwen <add place="above" hand="later hand">oder alten</add>
-<orgName ref="org004016">rattes</orgName> oder einer der nu̍wen <add hand="later hand" place="above">oder alten</add>
-<orgName ref="org005086">zunfftmeistern</orgName>
-<lb/>die selben sachen wol ziechen mu̍gent fu̍r den <orgName ref="org004906">grossen raͧtt</orgName>, als dick und dasselb zuͦ schulden kumpt,
-<lb/>ob es den selben <hi rend="underline" hand="later hand">des nüwen <orgName ref="org004016">raͧttes</orgName> oder den nüwen zunfftmeister</hi> by sinem eid bedu̍nckt notdürfftig 
-<lb/>sin, dieselbe sach sye vor einem <orgName ref="org004016">raͤtt</orgName> gesin und daͧselbs gehoͤrtt oder nit, doch das er zum minsten
-<lb/>unnder den <orgName ref="org004016">raͤtten</orgName> und <orgName ref="org005086">zunfftmeistern</orgName>
-<num value="2">zwen</num> hab, die imm siner urteil geholen und gefolget haben.
+       <seg n="22">Wir haben ouch 
+<lb/>gesetzt und geordnet, was sachen fu̍r die <orgName
+         ref="org001217"
+         >raͤtt und zunfftmeister</orgName> kommend, daͧrumb sy nit einhellig
+<lb/>moͤchten werden, das doch ein jegklicher des nüwen <add
+         place="above" hand="later hand">oder alten</add>
+        <orgName ref="org004016">rattes</orgName> oder einer der nu̍wen <add hand="later hand"
+         place="above">oder alten</add>
+        <orgName ref="org005086">zunfftmeistern</orgName>
+        <lb/>die selben sachen wol ziechen mu̍gent fu̍r den <orgName ref="org004906"
+         >grossen raͧtt</orgName>, als dick und dasselb zuͦ schulden kumpt,
+<lb/>ob es den selben <hi
+         rend="underline" hand="later hand">des nüwen <orgName ref="org004016"
+         >raͧttes</orgName> oder den nüwen zunfftmeister</hi> by sinem eid bedu̍nckt notdürfftig 
+<lb/>sin, dieselbe sach sye vor einem <orgName
+         ref="org004016"
+         >raͤtt</orgName> gesin und daͧselbs gehoͤrtt oder nit, doch das er zum minsten
+<lb/>unnder den <orgName
+         ref="org004016">raͤtten</orgName> und <orgName ref="org005086">zunfftmeistern</orgName>
+        <num value="2"
+         >zwen</num> hab, die imm siner urteil geholen und gefolget haben.
 <lb/>Were aber, das die sach, darumb man einen zug tuͦn welt, der statt fryheit, rechtung, ehaffty,
-<lb/>altharkommen oder der statt guͦtt, brieff oder insigel beruͤrtte, was sich dann der merteil der <orgName ref="org004016">raͤtten</orgName>
-<lb/>und <orgName ref="org005086">zunfftmeistern</orgName> daͧrumb erkennend den zug zuͦ tuͦnd oder nit, daͧby soll es dann aber bliben.
-<lb/>Daͧrinn sind ußgesetzt urteilen, die von dem <orgName ref="org005052">gericht</orgName><!-- msr: Stadtgericht --> in den <orgName ref="org004016">raͧtt</orgName> gezogen und geben werdennt,
-<lb/>die mag <subst><del hand="later hand">jetwederer</del><add place="above" hand="later hand">der</add></subst>
-<orgName ref="org004016">raͧtt</orgName>, <hi rend="underline">unnder den sy dann gehoͤrennt</hi>, scheiden, als <subst><del hand="later hand">sy</del><add hand="later hand" place="above">er</add></subst> bißhar getän <subst><del hand="later hand">hannd</del><add place="above" hand="later hand">hatt</add></subst>,
- <lb/>das daͧrumb nieman keinen zug tuͦn sol, oͧngeverd.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter unten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
+<lb/>altharkommen oder der statt guͦtt, brieff oder insigel beruͤrtte, was sich dann der merteil der <orgName
+         ref="org004016">raͤtten</orgName>
+        <lb/>und <orgName ref="org005086"
+         >zunfftmeistern</orgName> daͧrumb erkennend den zug zuͦ tuͦnd oder nit, daͧby soll es dann aber bliben.
+<lb/>Daͧrinn sind ußgesetzt urteilen, die von dem <orgName
+         ref="org005052">gericht</orgName><!-- msr: Stadtgericht --> in den <orgName ref="org004016"
+         >raͧtt</orgName> gezogen und geben werdennt,
+<lb/>die mag <subst><del hand="later hand"
+          >jetwederer</del><add place="above" hand="later hand">der</add></subst>
+        <orgName ref="org004016">raͧtt</orgName>, <hi rend="underline"
+         >unnder den sy dann gehoͤrennt</hi>, scheiden, als <subst><del hand="later hand"
+          >sy</del><add hand="later hand" place="above">er</add></subst> bißhar getän <subst><del
+          hand="later hand">hannd</del><add place="above" hand="later hand"
+           >hatt</add></subst>,
+ <lb/>das daͧrumb nieman keinen zug tuͦn sol, oͧngeverd.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter unten (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>,
 Art. 23</bibl>).</note></seg>
-<seg n="23">Und daͧruff sol alle die <orgName ref="org001187">gemeind <placeName ref="loc000065">Zu̍rich</placeName></orgName>,
-<lb/>so ein nüwer <orgName ref="org004016">raͧtt</orgName> angaͧt, schweren dem <orgName ref="org002406">burgermeister, dem raͧtt, den zunfftmeistern und 
-<lb/>dem grossen raͧtt</orgName> zuͦ wartend und gehorsam zuͦsind und inen die gericht zuͦ <placeName ref="loc000065">Zu̍rich</placeName> und die stuck,
+       <seg n="23">Und daͧruff sol alle die <orgName ref="org001187">gemeind <placeName
+          ref="loc000065">Zu̍rich</placeName></orgName>,
+<lb/>so ein nüwer <orgName ref="org004016"
+         >raͧtt</orgName> angaͧt, schweren dem <orgName ref="org002406"
+         >burgermeister, dem raͧtt, den zunfftmeistern und 
+<lb/>dem grossen raͧtt</orgName> zuͦ wartend und gehorsam zuͦsind und inen die gericht zuͦ <placeName
+         ref="loc000065"
+         >Zu̍rich</placeName> und die stuck,
 <lb/>so an disem brieff geschriben staͧnnd, helfen zeschirmend und zebehoupten und ouch einem 
-<lb/><orgName ref="org002406">burgermeister und raͧtt</orgName> umb die buͦssen, so sy richtend und erteilennd, ob iro der <orgName ref="org002406">burger<lb break="no"/>meister,
+<lb/><orgName
+         ref="org002406"
+         >burgermeister und raͧtt</orgName> umb die buͦssen, so sy richtend und erteilennd, ob iro der <orgName
+         ref="org002406">burger<lb break="no"
+         />meister,
 die raͤtt und zunfftmeister</orgName> nit gewaltig wesen moͤchtend und namlich wider alle 
-<lb/>die und gen allen, den die sich wider sy und ir gericht oder dehein<add place="above" hand="later hand">ich</add> stuck, so an disem brieff
- <lb/>geschriben staͧt, satztend oder setzen welten, mit lib und guͦtt beraͧtten und behulffen zuͦ sind.<note>Für den Eid der <orgName ref="org001187">Bürgergemeinde</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.</note>
-<lb/>Und sol man ouch kein buͦß nit ablaͧßen oͧn der merteil der <orgName ref="org004016">raͤtten</orgName> und <orgName ref="org005086">zunfftmeistern</orgName>,
-<pb n="4r" facs="StAZH_C_I__Nr__543__fol__4_r_.tif"/>
-<lb/><hi rend="underline" hand="later hand">so die buͦß erteilt hannd</hi>, wissen und willen.</seg>
-<seg>Sy soͤllent ouch schweren, disen gegenwirtigen brieff mit 
+<lb/>die und gen allen, den die sich wider sy und ir gericht oder dehein<add
+         place="above" hand="later hand"
+          >ich</add> stuck, so an disem brieff
+ <lb/>geschriben staͧt, satztend oder setzen welten, mit lib und guͦtt beraͧtten und behulffen zuͦ sind.<note>Für den Eid der <orgName
+          ref="org001187">Bürgergemeinde</orgName> vgl. <bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>.</note>
+        <lb/>Und sol man ouch kein buͦß nit ablaͧßen oͧn der merteil der <orgName ref="org004016"
+         >raͤtten</orgName> und <orgName ref="org005086">zunfftmeistern</orgName>,
+<pb n="4r"
+         facs="StAZH_C_I__Nr__543__fol__4_r_.tif"/>
+        <lb/><hi rend="underline" hand="later hand"
+        >so die buͦß erteilt hannd</hi>, wissen und willen.</seg>
+       <seg>Sy soͤllent ouch schweren, disen gegenwirtigen brieff mit 
 <lb/>allen stucken und articklen, so daͧran geschriben stoͧnnd, waͧr und staͤt zuͦ halten, mit guͦtten
-<lb/>trüwen, daͧwider nit zuͦtuͦnd, schaffen noch verhenngen getaͧn werden, in <subst><del hand="later hand">deh</del><add place="above" hand="later hand">k</add></subst>ein wise, aͧn
-	<lb/>geverd.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
+<lb/>trüwen, daͧwider nit zuͦtuͦnd, schaffen noch verhenngen getaͧn werden, in <subst><del
+          hand="later hand">deh</del><add place="above" hand="later hand"
+           >k</add></subst>ein wise, aͧn
+	<lb/>geverd.<note>Dieser Artikel findet sich im Vierten Geschworenen Brief weiter oben (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>,
   Art. 20</bibl>).</note></seg>
-<seg n="24">Wenn ouch ein knab <date dur="P16Y">sechtzechen jar</date> alt ist <hi rend="underline" hand="later hand">oder emaͧls, ob es einen <orgName ref="org002406">burger<lb break="no"/>meister,
-die raͤtt und die zunfftmeister</orgName> guͦt sind bedu̍nnckt</hi>, er sye von rittern, edellu̍tten, burg<lb break="no"/>ern,
-hanndtwerchen oder <orgName ref="org005085">zu̍nfften</orgName>, der sol schweren disen brieff und alle stuck, so daͧran ge<lb break="no"/>schriben 
+       <seg n="24">Wenn ouch ein knab <date dur="P16Y">sechtzechen jar</date> alt ist <hi
+         rend="underline" hand="later hand">oder emaͧls, ob es einen <orgName ref="org002406"
+           >burger<lb break="no"
+         />meister,
+die raͤtt und die zunfftmeister</orgName> guͦt sind bedu̍nnckt</hi>, er sye von rittern, edellu̍tten, burg<lb
+         break="no"/>ern,
+hanndtwerchen oder <orgName ref="org005085"
+         >zu̍nfften</orgName>, der sol schweren disen brieff und alle stuck, so daͧran ge<lb
+         break="no"
+           />schriben 
 stoͧnd, zuͦ haltend und ein kein ding daͧwider niemer mer zewerbent noch zetuͦnd,
 <lb/>by guͦtten tru̍wen, aͧn all geverd.<note>Mit
  dem Fünften Geschworenen Brief wurde das Mindestalter für die Eidleistung von 18 auf 16
- Jahre gesenkt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 24</bibl>). Zum halbjährlich stattfindenden Schwörsonntag im
- <placeName ref="loc007562">Grossmünster</placeName>, im Verlauf dessen die volljährigen Stadtbürger ihren
- Eid auf den Geschworenen Brief ablegten, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>.</note></seg>
-<seg n="25">Ouch habennt wir, der <orgName ref="org002406">burgermeister, die raͤtt und zunfft<lb break="no"/>meister,
+ Jahre gesenkt (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 24</bibl>). Zum halbjährlich stattfindenden Schwörsonntag im
+ <placeName
+          ref="loc007562"
+           >Grossmünster</placeName>, im Verlauf dessen die volljährigen Stadtbürger ihren
+ Eid auf den Geschworenen Brief ablegten, vgl. <bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_111"
+         >SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>.</note></seg>
+       <seg n="25">Ouch habennt wir, der <orgName ref="org002406"
+          >burgermeister, die raͤtt und zunfft<lb break="no"
+          />meister,
 ouch der groß raͧtt</orgName>, unns selber harinn lutter ußbedinget und vorbehalten, das wir 
 <lb/>disen brieff mit allen sinen articklen und unnser ordnung, als die vorgeschriben ist, wol moͤgen
 <lb/>ënndern, mindren, meren oder bessern, wenn und zuͦ wellicher zitt wir wellent, ob das unnder
-<lb/>unns das mer wirt, naͧch dem wir des <subst><del hand="later hand">gefrygt</del><add place="above" hand="later hand">befüegt</add></subst> sind <hi rend="underline" hand="later hand">von <placeName ref="loc000076">Roͤmischen</placeName> keißern und küngen</hi>,
-<lb/>also, das unns die keinen schaden noch gebresten soͤll noch moͤg bringen, in dehein wise, unge<lb break="no"/>varlich.<note>Dieses Recht wurde der Stadt <placeName ref="loc000065">Zürich</placeName> erstmals ausdrücklich im Jahr 1433 durch Kaiser <persName ref="per000712">Sigismund</persName> verliehen. Vgl. dazu die Privilegienbestätigung Kaiser <persName ref="per004674">Karls V.</persName> aus dem Jahr 1521 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_115">SSRQ ZH NF I/1/3, Nr. 115</ref></bibl>).</note></seg>
-<seg n="26">Waͣre aber, das jemann wider disen brieff oder dehein<add place="above" hand="later hand">ich</add> ding, so daͧran geschriben 
+<lb/>unns das mer wirt, naͧch dem wir des <subst><del
+          hand="later hand">gefrygt</del><add place="above" hand="later hand"
+         >befüegt</add></subst> sind <hi rend="underline" hand="later hand">von <placeName
+          ref="loc000076"
+         >Roͤmischen</placeName> keißern und küngen</hi>,
+<lb/>also, das unns die keinen schaden noch gebresten soͤll noch moͤg bringen, in dehein wise, unge<lb
+         break="no"/>varlich.<note>Dieses Recht wurde der Stadt <placeName ref="loc000065"
+          >Zürich</placeName> erstmals ausdrücklich im Jahr 1433 durch Kaiser <persName
+          ref="per000712"
+          >Sigismund</persName> verliehen. Vgl. dazu die Privilegienbestätigung Kaiser <persName
+          ref="per004674">Karls V.</persName> aus dem Jahr 1521 (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_115"
+         >SSRQ ZH NF I/1/3, Nr. 115</ref></bibl>).</note></seg>
+       <seg n="26">Waͣre aber, das jemann wider disen brieff oder dehein<add place="above"
+         hand="later hand"
+         >ich</add> ding, so daͧran geschriben 
 <lb/>staͧtt, taͤtte oder schuͤffe getoͧn werden, durch sich selber oder annder, heimlich oder offennlich,
-<lb/>und das kuntlich wurde gemacht vor den <orgName ref="org004016">raͤtten</orgName> und <orgName ref="org005086">zunfftmeistern</orgName>, so zuͦ den zitten <placeName ref="loc000065">Zu̍rich</placeName>
-<lb/>sind, der sol meineid und erloß sin, ouch sin burgrecht verloren haben und niemer mer
-<lb/>gen <placeName ref="loc000065">Zu̍rich</placeName> inn die statt kommen und daͧrzuͦ alle die pen liden, so vor an disem brieff
- <lb/>geschriben stönnd, on alle geferd.<note>Entspricht Art. 27 des Vierten Geschworenen Briefs (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>,
+<lb/>und das kuntlich wurde gemacht vor den <orgName
+         ref="org004016">raͤtten</orgName> und <orgName ref="org005086"
+         >zunfftmeistern</orgName>, so zuͦ den zitten <placeName ref="loc000065">Zu̍rich</placeName>
+        <lb/>sind, der sol meineid und erloß sin, ouch sin burgrecht verloren haben und niemer mer
+<lb/>gen <placeName
+         ref="loc000065"
+           >Zu̍rich</placeName> inn die statt kommen und daͧrzuͦ alle die pen liden, so vor an disem brieff
+ <lb/>geschriben stönnd, on alle geferd.<note>Entspricht Art. 27 des Vierten Geschworenen Briefs (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>,
   Art. 27</bibl>).</note></seg>
-<seg n="27"><hi rend="underline" hand="later hand">Und sol dis alles unnschedlich sin dem heiligen <orgName ref="org004134"><placeName ref="loc000076">Roͤmi<lb break="no"/>schen</placeName> 
+       <seg n="27"><hi rend="underline" hand="later hand"
+          >Und sol dis alles unnschedlich sin dem heiligen <orgName ref="org004134"><placeName
+           ref="loc000076">Roͤmi<lb break="no"
+           />schen</placeName> 
  rich</orgName>, als wir das</hi> hiemit offennlich bekennend, alle geverd hindan gesetzt.<note>Entspricht Art. 28 des Vierten Geschworenen Briefs
-(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 28</bibl>).</note></seg>
-<seg>Und 
+(<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+          >SSRQ ZH NF I/1/3, Nr. 27</ref>, Art. 28</bibl>).</note></seg>
+       <seg>Und 
 <lb/>zuͦ waͧrem, vestem urku̍nnd aller vorgeschribner ding, haben wir unnser gemeinen 
 <lb/>statt innsigel offennlich an disen brieff henncken laͧßen, der geben ist uff
-<lb/><origDate when="1498-01-20">sambstag, was sannct <persName ref="per001916">Sebastions</persName> tag, naͧch Cristi gepurtt gezellt vierzechen
+<lb/><origDate
+         when="1498-01-20">sambstag, was sannct <persName ref="per001916"
+         >Sebastions</persName> tag, naͧch Cristi gepurtt gezellt vierzechen
 <lb/>hundert nu̍ntzig und acht jaͧre</origDate>.</seg>
-<add place="below" hand="later hand"><lb/>Diser brieff ist anno 1653 nach und nach vor dem <orgName ref="org004016">kleinen rath</orgName> übersehen und den <date when="1653-06-18">18ten juny</date>
-<lb/>besagten jars mit der nothwendig befundnen erlüterung für myn <abbr>gn hh</abbr>
-<orgName ref="org001217">reht und burger</orgName> ab<lb break="no"/>läsend
- gebracht und bestätiget, hernach den <date when="1654-05-21">21ten meyen</date>, item <date when="1654-06-01">j.</date> und <date when="1654-06-03">3ten brachmonat im 
- <lb/>1654. jar</date> widerum vor <orgName ref="org001217">reth und burger</orgName> überlësen und endtlich erlüteret worden,
+       <add place="below" hand="later hand"
+         ><lb/>Diser brieff ist anno 1653 nach und nach vor dem <orgName ref="org004016"
+         >kleinen rath</orgName> übersehen und den <date when="1653-06-18">18ten juny</date>
+        <lb/>besagten jars mit der nothwendig befundnen erlüterung für myn <abbr>gn hh</abbr>
+        <orgName ref="org001217">reht und burger</orgName> ab<lb break="no"
+         />läsend
+ gebracht und bestätiget, hernach den <date when="1654-05-21"
+         >21ten meyen</date>, item <date when="1654-06-01">j.</date> und <date when="1654-06-03"
+         >3ten brachmonat im 
+ <lb/>1654. jar</date> widerum vor <orgName ref="org001217"
+         >reth und burger</orgName> überlësen und endtlich erlüteret worden,
  <lb/>wie obstath.</add>
-</p>
-<pb n="4v" facs="StAZH_C_I__Nr__543__fol__4_v_.tif
+      </p>
+      <pb n="4v" facs="StAZH_C_I__Nr__543__fol__4_v_.tif
 "/>
-</div>
-</body>
-<back>
-<div>
-<p>Die Arbeiten zur Ausarbeitung des vorliegenden Geschworenen Briefs begannen im Herbst 1497, als <orgName ref="org004016">Kleiner</orgName> und <orgName ref="org004906">Grosser Rat</orgName> eine Kommission einsetzten, die aus je zwei Vertretern von <orgName ref="org004959">Konstaffel und Zünften</orgName> bestand. Diese sollte nach Sichtung des geltenden Stadtrechts eine neue Regimentsordnung entwerfen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4545108">StAZH B II 28, S. 97</ref></bibl>; 
-<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4545109">StAZH B II 28, S. 109</ref></bibl>). Als Vorlage diente dabei der im Jahr 1489 erlassene Vierte Geschworene Brief (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_027">SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>), wobei Stadtschreiber <persName ref="per014210">Ludwig Ammann</persName> seine Anmerkungen zu neuen oder abgeänderten Formulierungen direkt in den älteren Text einfügte. Die wichtigsten, im Fünften Geschworenen Brief vorgenommenen Neuerungen betreffen die Senkung der Sitze der <orgName ref="org004958">Konstaffel</orgName> im <orgName ref="org004016">Kleinen Rat</orgName> von 24 auf 18 sowie die Erhöhung der Anzahl der Oberstzunftmeister auf drei. Zudem werden die Aufgaben des <orgName ref="org005086">Zunftmeisterkollegiums</orgName> präziser umrissen und im Wesentlichen auf Fragen des Gewerbes und des Handwerks eingegrenzt.</p>
-<p>Nach Fertigstellung und Bestätigung des neuen Geschworenen Briefs wurde die vorliegend edierte Niederschrift auf Pergament angefertigt, zum Zweck der halbjährlichen Verlesung durch den Unterschreiber im <placeName ref="loc007562">Grossmünster</placeName> (vgl. dazu die Beschreibung des Ablaufs des Schwörtags, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_111">SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>). Die bei den Verlesungen entstandenen Gebrauchsspuren lassen sich am Original deutlich erkennen. Daneben wurde, analog zum Vorgehen beim Vierten Geschworenen Brief, eine Abschrift erstellt, in deren Anhang die wichtigsten Eide und Ordnungen der Stadt zusammengestellt wurden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3733314">StAZH B III 2, S. 300-373</ref></bibl>). Im Lauf der nachfolgenden Jahrzehnte wurde dieser Anhang verschiedentlich ergänzt.</p>
-<p>Die im vorliegenden Text enthaltenen Anmerkungen von späterer Hand sind anlässlich der Erarbeitung des Sechsten Geschworenen Briefs von 1654 entstanden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=704196">StAZH C I, Nr. 544</ref></bibl>).</p>
-<p>Zu Entstehung und Inhalt des Fünften Geschworenen Briefs vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier/Frei 2005</ref>, Bd. 1, S. 104-105</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 2003</ref>, S. 50</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 130-133</bibl>; allgemein zum Regiment der Stadt <placeName ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Weibel 1996</ref>, S. 16-23</bibl>.
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Die Arbeiten zur Ausarbeitung des vorliegenden Geschworenen Briefs begannen im Herbst 1497, als <orgName
+        ref="org004016">Kleiner</orgName> und <orgName ref="org004906"
+        >Grosser Rat</orgName> eine Kommission einsetzten, die aus je zwei Vertretern von <orgName
+        ref="org004959"
+         >Konstaffel und Zünften</orgName> bestand. Diese sollte nach Sichtung des geltenden Stadtrechts eine neue Regimentsordnung entwerfen (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4545108"
+         >StAZH B II 28, S. 97</ref></bibl>; 
+<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4545109"
+         >StAZH B II 28, S. 109</ref></bibl>). Als Vorlage diente dabei der im Jahr 1489 erlassene Vierte Geschworene Brief (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_027"
+        >SSRQ ZH NF I/1/3, Nr. 27</ref></bibl>), wobei Stadtschreiber <persName ref="per014210"
+        >Ludwig Ammann</persName> seine Anmerkungen zu neuen oder abgeänderten Formulierungen direkt in den älteren Text einfügte. Die wichtigsten, im Fünften Geschworenen Brief vorgenommenen Neuerungen betreffen die Senkung der Sitze der <orgName
+        ref="org004958">Konstaffel</orgName> im <orgName ref="org004016"
+        >Kleinen Rat</orgName> von 24 auf 18 sowie die Erhöhung der Anzahl der Oberstzunftmeister auf drei. Zudem werden die Aufgaben des <orgName
+        ref="org005086"
+       >Zunftmeisterkollegiums</orgName> präziser umrissen und im Wesentlichen auf Fragen des Gewerbes und des Handwerks eingegrenzt.</p>
+      <p>Nach Fertigstellung und Bestätigung des neuen Geschworenen Briefs wurde die vorliegend edierte Niederschrift auf Pergament angefertigt, zum Zweck der halbjährlichen Verlesung durch den Unterschreiber im <placeName
+        ref="loc007562"
+         >Grossmünster</placeName> (vgl. dazu die Beschreibung des Ablaufs des Schwörtags, <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_111"
+         >SSRQ ZH NF I/1/3, Nr. 111</ref></bibl>). Die bei den Verlesungen entstandenen Gebrauchsspuren lassen sich am Original deutlich erkennen. Daneben wurde, analog zum Vorgehen beim Vierten Geschworenen Brief, eine Abschrift erstellt, in deren Anhang die wichtigsten Eide und Ordnungen der Stadt zusammengestellt wurden (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3733314"
+         >StAZH B III 2, S. 300-373</ref></bibl>). Im Lauf der nachfolgenden Jahrzehnte wurde dieser Anhang verschiedentlich ergänzt.</p>
+      <p>Die im vorliegenden Text enthaltenen Anmerkungen von späterer Hand sind anlässlich der Erarbeitung des Sechsten Geschworenen Briefs von 1654 entstanden (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=704196"
+         >StAZH C I, Nr. 544</ref></bibl>).</p>
+      <p>Zu Entstehung und Inhalt des Fünften Geschworenen Briefs vgl. <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Brühlmeier/Frei 2005</ref>, Bd. 1, S. 104-105</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Illi 2003</ref>, S. 50</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Weibel 1988</ref>, S. 130-133</bibl>; allgemein zum Regiment der Stadt <placeName
+        ref="loc000065">Zürich</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+         >Weibel 1996</ref>, S. 16-23</bibl>.
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>

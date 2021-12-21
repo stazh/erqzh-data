@@ -3,269 +3,573 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_104</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=908725">StAZH A 43.1.4, Nr. 18</idno></msIdentifier><head>Bericht über die Aufgaben des Ratsschreibers der Stadt Zürich</head><msContents><summary>Hans Asper, Ratsschreiber der Stadt Zürich, nennt die mit seinem Amt verbundenen Aufgaben und die jeweilige Entlohnung, wobei er sich nebst seiner eigenen Erfahrung auch auf Angaben von Meister Fridli Bluntschli und des verstorbenen Stadtschreibers Johannes Gross stützt: Einleitung von Betreibungsverfahren; Einschreiben betriebener Schuldner in das Verlustbuch; Versteigerung von Gütern und Gültbriefen; Erfüllung von Aufgaben im Dienst des Oberstzunftmeisters; Verrufung von ausserhalb verurteilten Totschlägern, sofern die Verwandten des Opfers mit einem Urteilsbrief an die Stadt Zürich gelangen; Aufforderung der Bürgerschaft zur Eidleistung gegenüber dem Bürgermeister; Eröffnung der beiden städtischen Jahrmärkte; Erfüllung von Aufgaben auf dem Rathaus gemeinsam mit dem obersten Stadtknecht; Aufforderung der Bürgerschaft zur Beschwörung der Bündnisse mit den Eidgenossen. An folgenden Orten auf der Landschaft wird ein Betreibungsverfahren beim Ratsschreiber eröffnet und vor dem Stangengericht verhandelt: Horgen; Oberrieden; Rüschlikon; Thalwil; Kilchberg; Adliswil; Wollishofen; Witikon; Rieden; Altstetten; Höngg; Langenrain; Affoltern; Regensberg; Oerlikon; Seebach; Schwamendingen; Dübendorf; Wangen; in der Landvogtei Greifensee; an allen Orten am Zürichsee bis hinauf nach Uerikon, ausgenommen Wädenswil und Richterswil; in den Obervogteien rund um die Stadt.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Hans Asper, Ratsschreiber der Stadt Zürich</author><filiation type="current">Aufzeichnung, Heft (4 Doppelblätter)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="22.0"/><width unit="cm" quantity="16.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1516-01-01" to="1516-12-31">Datierung aufgrund der Schreiberhand und des Inhalts</origDate></origin></history><additional><listBibl><head>Teiledition</head><bibl>Ott, Rechtsquellen, Teil 2, S. 18-19</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Ott, Rechtsquellen, Teil 1, S. 82, Nr. 120</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000179">Eid</term><term ref="key000057">Gericht</term><term ref="key000212">Löhne</term><term ref="key000051">Schreiber</term><term ref="key000058">Schulden</term><term ref="key000225">Totschlag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1r"/><pb n="1v"/><pb n="2r"/>
-<p>
-<lb/>Her burger meister und gnedig yr min heren,
-<lb/>ich, <persName ref="per014238">Hans Asper</persName>, bin an u̍weren, miner heren
-<lb/>dienst und ampt kommen am <origDate from="1513-09" to="1513-11">herbscht, als
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_1_3_104</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=908725"
+                            >StAZH A 43.1.4, Nr. 18</idno>
+                    </msIdentifier>
+                    <head>Bericht über die Aufgaben des Ratsschreibers der Stadt Zürich</head>
+                    <msContents>
+                        <summary>Hans Asper, Ratsschreiber der Stadt Zürich, nennt die mit seinem Amt verbundenen Aufgaben und die jeweilige Entlohnung, wobei er sich nebst seiner eigenen Erfahrung auch auf Angaben von Meister Fridli Bluntschli und des verstorbenen Stadtschreibers Johannes Gross stützt: Einleitung von Betreibungsverfahren; Einschreiben betriebener Schuldner in das Verlustbuch; Versteigerung von Gütern und Gültbriefen; Erfüllung von Aufgaben im Dienst des Oberstzunftmeisters; Verrufung von ausserhalb verurteilten Totschlägern, sofern die Verwandten des Opfers mit einem Urteilsbrief an die Stadt Zürich gelangen; Aufforderung der Bürgerschaft zur Eidleistung gegenüber dem Bürgermeister; Eröffnung der beiden städtischen Jahrmärkte; Erfüllung von Aufgaben auf dem Rathaus gemeinsam mit dem obersten Stadtknecht; Aufforderung der Bürgerschaft zur Beschwörung der Bündnisse mit den Eidgenossen. An folgenden Orten auf der Landschaft wird ein Betreibungsverfahren beim Ratsschreiber eröffnet und vor dem Stangengericht verhandelt: Horgen; Oberrieden; Rüschlikon; Thalwil; Kilchberg; Adliswil; Wollishofen; Witikon; Rieden; Altstetten; Höngg; Langrain; Affoltern; Regensberg; Oerlikon; Seebach; Schwamendingen; Dübendorf; Wangen; in der Landvogtei Greifensee; an allen Orten am Zürichsee bis hinauf nach Uerikon, ausgenommen Wädenswil und Richterswil; in den Obervogteien rund um die Stadt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <author role="scribe"
+                                >Hans Asper, Ratsschreiber der Stadt Zürich</author>
+                            <filiation type="current"
+                                >Aufzeichnung, Heft (4 Doppelblätter)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="22.0"/>
+                                        <width unit="cm" quantity="16.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate from="1516-01-01" to="1516-12-31"
+                                >Datierung aufgrund der Schreiberhand und des Inhalts</origDate></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Teiledition</head>
+                            <bibl>Ott, Rechtsquellen, Teil 2, S. 18-19</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Nachweis</head>
+                            <bibl>Ott, Rechtsquellen, Teil 1, S. 82, Nr. 120</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000065">Amtleute</term>
+                    <term ref="key000179">Eid</term>
+                    <term ref="key000057">Gericht</term>
+                    <term ref="key000212">Löhne</term>
+                    <term ref="key000051">Schreiber</term>
+                    <term ref="key000058">Schulden</term>
+                    <term ref="key000225">Totschlag</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="1r"/>
+                        <pb n="1v"/>
+                        <pb n="2r"/>
+                        <p>
+                            <lb/>Her burger meister und gnedig yr min heren,
+<lb/>ich, <persName
+                                ref="per014238"
+                                >Hans Asper</persName>, bin an u̍weren, miner heren
+<lb/>dienst und ampt kommen am <origDate
+                                from="1513-09" to="1513-11"
+                                >herbscht, als
 <lb/>man zalt 1513 jar</origDate>.
 </p>
-<p>
-<lb/>Item do ich an dienst kam, do kam der
-<lb/><persName ref="per014241">Cuͦradt Buman</persName> ans ingewünner ampt,
+                        <p>
+                            <lb/>Item do ich an dienst kam, do kam der
+<lb/><persName
+                                ref="per014241"
+                                >Cuͦradt Buman</persName> ans ingewünner ampt,
 <lb/>do würdent wür bedt mit ein andren
 <lb/>eins und kament fu̍r u̍ch, min heren,
 <lb/>und begertent an u̍ch, min heren, das
 <lb/>ir uins gebent ein geschrifft, das
 <lb/>wu̍r bedt und jecklicher an sim ampt
-<lb/>wu̍sty, was er thon oder lan soͤty. Des<lb break="no"/>glichen, 
+<lb/>wu̍sty, was er thon oder lan soͤty. Des<lb
+                                break="no"
+                                />glichen, 
 was einer nemen soͤlty zuͦ lon,
 <lb/>dar mit uinser einer nit zuͦ vil thetty
 <lb/>oder nemy. Do gabent yr als uinser
-<lb/><add place="left margin">heren</add> uins beide zuͦ antwu̍rt, wür soͤttentz
+<lb/><add
+                                place="left margin"
+                                >heren</add> uins beide zuͦ antwu̍rt, wür soͤttentz
 <lb/>bruchen und nemmen, wies die andren
 <lb/>brücht hettent und nach dem selben
-<lb/>kam meister <persName ref="per014328">Fridly Blüntschly</persName><note><persName ref="per014328">Fridli Bluntschli</persName> ist von 1516 bis 1531 als Mitglied des <orgName ref="org004016">Kleinen Rats</orgName> belegt. Zudem war er als Chronist tätig. Am 11. Oktober 1531 fiel er in der Schlacht bei <placeName ref="loc000451">Kappel</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Zürcher Ratslisten</ref>, S. 277-293</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Gagliardi 1908</ref></bibl>).</note> zuͦ mir
+<lb/>kam meister <persName
+                                ref="per014328">Fridly Blüntschly</persName><note><persName
+                                    ref="per014328"
+                                    >Fridli Bluntschli</persName> ist von 1516 bis 1531 als Mitglied des <orgName
+                                    ref="org004016"
+                                    >Kleinen Rats</orgName> belegt. Zudem war er als Chronist tätig. Am 11. Oktober 1531 fiel er in der Schlacht bei <placeName
+                                    ref="loc000451">Kappel</placeName> (<bibl><ref
+                                        target="/startseite/literaturverzeichnis"
+                                        >Zürcher Ratslisten</ref>, S. 277-293</bibl>; <bibl><ref
+                                        target="/startseite/literaturverzeichnis"
+                                        >Gagliardi 1908</ref></bibl>).</note> zuͦ mir
 <pb n="2v"/>
-<lb/>und sprach zuͦ mir: <q>Bis guͦtter dingen, ich
+                            <lb/>und sprach zuͦ mir: <q>Bis guͦtter dingen, ich
 <lb/>wil dichs wol leren.</q> Und hatt ein brieff
-<lb/>im gaden, da stond in, was er dem <persName ref="per023205">Schitterberg</persName><note>Bei <persName ref="per023205">Hans Schiterberg</persName> handelt es sich um den Vorgänger <persName ref="per014238">Hans Aspers</persName> als Ratsschreiber. Sein Name war in der Ämterliste des Jahres 1513 bereits eingetragen und ist nach seinem Tod durch denjenigen <persName ref="per014238">Aspers</persName> ersetzt worden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263943">StAZH B VI 245, fol. 19r</ref></bibl>).</note>
-<lb/>selgen zuͦ lon hatt geben, von eim ans ander.
+<lb/>im gaden, da stond in, was er dem <persName
+                                ref="per023205">Schitterberg</persName><note>Bei <persName
+                                    ref="per023205"
+                                    >Hans Schiterberg</persName> handelt es sich um den Vorgänger <persName
+                                    ref="per014238"
+                                    >Hans Aspers</persName> als Ratsschreiber. Sein Name war in der Ämterliste des Jahres 1513 bereits eingetragen und ist nach seinem Tod durch denjenigen <persName
+                                    ref="per014238">Aspers</persName> ersetzt worden (<bibl><ref
+                                        target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263943"
+                                        >StAZH B VI 245, fol. 19r</ref></bibl>).</note>
+                            <lb/>selgen zuͦ lon hatt geben, von eim ans ander.
 </p>
-<p><seg n="1">
-<lb/>Item zumm ersten, wen ich einen oder einy in
-<lb/>der statt an <orgName ref="org004016">ratt</orgName> schribe, so wery min lon
-<lb/><measure type="currency" unit="Angster" quantity="1">ein anster</measure>. Thett sich dan eins ab, so soͤtz mir
-<lb/>geben <measure type="currency" unit="h" quantity="1">ein haller</measure>, sust soͤtz ich nit ab thon.
+                        <p><seg n="1">
+                                <lb/>Item zumm ersten, wen ich einen oder einy in
+<lb/>der statt an <orgName
+                                    ref="org004016"
+                                    >ratt</orgName> schribe, so wery min lon
+<lb/><measure
+                                    type="currency" unit="Angster" quantity="1"
+                                    >ein anster</measure>. Thett sich dan eins ab, so soͤtz mir
+<lb/>geben <measure
+                                    type="currency" unit="h" quantity="1"
+                                >ein haller</measure>, sust soͤtz ich nit ab thon.
 </seg></p>
-<p><seg n="2">
-<lb/>Item zumm andren, schrib ich eins oder einen an
-<lb/><orgName ref="org004016">ratt</orgName> uff dem lant, so soͤtty ich nemen von
-<lb/><measure type="length" unit="Meile" quantity="0.5">einer <choice><sic>haben</sic><corr resp="msr">halben</corr></choice> myl</measure>
-<measure type="currency" unit="h" quantity="18">xviij ħ</measure> und von der
-<lb/><measure type="length" unit="Meile" quantity="1">myl</measure>
-<measure type="currency" unit="ß" quantity="3">iij </measure>, also fu̍r und fu̍r soͤtz ich bruchen
-<lb/>und gan <placeName ref="loc010878">Weittykon</placeName>
-<subst><del>a</del><add place="overwritten">u</add></subst>nd ans <placeName ref="loc010667">Sevelt</placeName> und
-<lb/><placeName ref="loc010476">Hottingen</placeName> und am <placeName ref="loc010892">Zu̍richberg</placeName>, das nit <measure type="length" unit="Meile" quantity="0.5">ein
-<lb/>halbe mil</measure> wery, <measure type="currency" unit="ß" quantity="1">ein schilling</measure> oder <measure type="currency" unit="h" quantity="16">xvj Gosne</measure>,
+                        <p><seg n="2">
+                                <lb/>Item zumm andren, schrib ich eins oder einen an
+<lb/><orgName
+                                    ref="org004016"
+                                    >ratt</orgName> uff dem lant, so soͤtty ich nemen von
+<lb/><measure
+                                    type="length" unit="Meile" quantity="0.5">einer <choice>
+                                        <sic>haben</sic>
+                                        <corr resp="msr">halben</corr>
+                                    </choice> myl</measure>
+                                <measure type="currency" unit="h" quantity="18"
+                                    >xviij ħ</measure> und von der
+<lb/><measure type="length"
+                                    unit="Meile" quantity="1">myl</measure>
+                                <measure type="currency" unit="ß" quantity="3"
+                                    >iij </measure>, also fu̍r und fu̍r soͤtz ich bruchen
+<lb/>und gan <placeName
+                                    ref="loc010878">Weittykon</placeName>
+                                <subst><del>a</del><add place="overwritten"
+                                    >u</add></subst>nd ans <placeName ref="loc010667"
+                                    >Sevelt</placeName> und
+<lb/><placeName ref="loc010476"
+                                    >Hottingen</placeName> und am <placeName ref="loc010892"
+                                    >Zu̍richberg</placeName>, das nit <measure type="length"
+                                    unit="Meile" quantity="0.5"
+                                    >ein
+<lb/>halbe mil</measure> wery, <measure type="currency"
+                                    unit="ß" quantity="1">ein schilling</measure> oder <measure
+                                    type="currency" unit="h" quantity="16"
+                                >xvj Gosne</measure>,
 <lb/>je nach gstalt der sach untz wit wery.
 </seg></p>
-<pb n="3r"/>
-<p><seg n="3">
-<lb/>Item zumm dritten seitt er mir, wen einer sich
-<lb/>ab dem <orgName ref="org004016">ratt</orgName> thetty, so soͤty ich im ans
-<lb/><orgName ref="org005052">gricht</orgName> in statt verkünden, also vil orts
-<lb/>an <orgName ref="org005053">gstangen</orgName> uff ein verzwichten dag
+                        <pb n="3r"/>
+                        <p><seg n="3">
+                                <lb/>Item zumm dritten seitt er mir, wen einer sich
+<lb/>ab dem <orgName
+                                    ref="org004016"
+                                    >ratt</orgName> thetty, so soͤty ich im ans
+<lb/><orgName
+                                    ref="org005052"
+                                    >gricht</orgName> in statt verkünden, also vil orts
+<lb/>an <orgName
+                                    ref="org005053"
+                                    >gstangen</orgName> uff ein verzwichten dag
 <lb/>und dan, so soͤttis dem kleger segen, wen
-<lb/>ich im verküng heig. Und sol ein ratt<lb break="no"/>schriber
-am <orgName ref="org005052">gricht</orgName> warten, ob er die schu̍lt
+<lb/>ich im verküng heig. Und sol ein ratt<lb
+                                    break="no"/>schriber
+am <orgName ref="org005052"
+                                    >gricht</orgName> warten, ob er die schu̍lt
 <lb/>mindre oder nit und behalt der ankleger
 <lb/>sin schult, so sol man den schu̍ltner uff
-<lb/>das verlurst buͤch kennen mit der urtel.<note>Zu den Verlustbüchern vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_113">SSRQ ZH NF I/1/3, Nr. 113</ref></bibl>.</note>
-<lb/>Demnach sol der rattschriber dem schultner
+<lb/>das verlurst buͤch kennen mit der urtel.<note>Zu den Verlustbüchern vgl. <bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_I_1_3_113"
+                                            >SSRQ ZH NF I/1/3, Nr. 113</ref></bibl>.</note>
+                                <lb/>Demnach sol der rattschriber dem schultner
 <lb/>ingewünnen um der statt buͤs und dem
 <lb/>kleger umb sin schult und um den kosten.
 </seg></p>
-<p><seg n="4"><lb/>Und wellen an <orgName ref="org004016">ratt</orgName> wirt geschriben, der mag
-<lb/>sich des <orgName ref="org005052">gricht</orgName> entschlan von <num value="3">drygen</num>
-<lb/>artycklen wegen:<note>Die Gründe für die Einstellung des Betreibungsverfahren sind ausführlicher erläutert im Gerichtsbuch der Stadt <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_132">SSRQ ZH NF I/1/3, Nr. 132</ref></bibl>).</note> zum ersten, ob im der
+                        <p><seg n="4"><lb/>Und wellen an <orgName ref="org004016"
+                                    >ratt</orgName> wirt geschriben, der mag
+<lb/>sich des <orgName
+                                    ref="org005052">gricht</orgName> entschlan von <num value="3"
+                                    >drygen</num>
+                                <lb/>artycklen wegen:<note>Die Gründe für die Einstellung des Betreibungsverfahren sind ausführlicher erläutert im Gerichtsbuch der Stadt <placeName
+                                        ref="loc000065">Zürich</placeName> (<bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_I_1_3_132"
+                                            >SSRQ ZH NF I/1/3, Nr. 132</ref></bibl>).</note> zum ersten, ob im der
 <lb/>kleger zuͦ froͤ verlüry und nit gnog am
-<lb/><orgName ref="org004016">ratt</orgName> wery gestander, zumm andren, ob er
-<lb/>im verlury umb me dan er an <orgName ref="org004016">ratt</orgName>
-<lb/>wery geschriben,
+<lb/><orgName
+                                    ref="org004016"
+                                    >ratt</orgName> wery gestander, zumm andren, ob er
+<lb/>im verlury umb me dan er an <orgName
+                                    ref="org004016">ratt</orgName>
+                                <lb/>wery geschriben,
 <pb n="3v"/>
-<lb/>züm dritten, wo sich der kleger pfanden
-<lb/>widerty, die des geltz wol wert werit, dar<lb break="no"/>umb
-er dan an <orgName ref="org004016">ratt</orgName> geschriben ist und
+                                <lb/>züm dritten, wo sich der kleger pfanden
+<lb/>widerty, die des geltz wol wert werit, dar<lb
+                                    break="no"/>umb
+er dan an <orgName ref="org004016"
+                                    >ratt</orgName> geschriben ist und
 <lb/>im uiber das selb verlury.
 </seg></p>
-<p><seg n="5">
-<lb/>Item witter seitt er mir: <q>Du hast ein gant und
+                        <p><seg n="5">
+                                <lb/>Item witter seitt er mir: <q>Du hast ein gant und
 <lb/>muͦst ganten, was lygetz ist umb zins
-<lb/>und umb alle lygenty <add place="left margin" type="sign">schult</add> guͤtter, hüsser, gu̍lt<lb break="no"/>brieff 
+<lb/>und umb alle lygenty <add
+                                        place="left margin" type="sign"
+                                        >schult</add> guͤtter, hüsser, gu̍lt<lb break="no"
+                                        />brieff 
 und als. Und da ist din lon umb
 <lb/>zins, wen ein burger dem andren vorgantett
-<lb/>von <measure type="undefined" unit="Stuck" quantity="1">eini <unclear>stucktt</unclear></measure>
-<measure type="currency" unit="xr" quantity="1">ein kru̍tz<add place="inline">er</add></measure>, es syg kernen, win
-<lb/>oder gelt, und in der statt <measure type="currency" unit="xr" quantity="1">ein kru̍tzer</measure> zuͦ ver<lb break="no"/>künden
-und vor der statt von der <measure type="length" quantity="1" unit="Meile">mil</measure> wies
-<lb/><orgName ref="org004016">ratt</orgName> schriben</q>. Und wen ein froͤmder eim burger
-<lb/>ganten wil, e<subst><del>r</del><add place="overwritten">s</add></subst> syg umb zins oder umb ein
+<lb/>von <measure
+                                        type="undefined" unit="Stuck" quantity="1"
+                                            >eini <unclear>stucktt</unclear></measure>
+                                    <measure type="currency" unit="xr" quantity="1">ein kru̍tz<add
+                                            place="inline"
+                                        >er</add></measure>, es syg kernen, win
+<lb/>oder gelt, und in der statt <measure
+                                        type="currency" unit="xr" quantity="1"
+                                        >ein kru̍tzer</measure> zuͦ ver<lb break="no"
+                                        />künden
+und vor der statt von der <measure type="length"
+                                        quantity="1" unit="Meile">mil</measure> wies
+<lb/><orgName
+                                        ref="org004016"
+                                        >ratt</orgName> schriben</q>. Und wen ein froͤmder eim burger
+<lb/>ganten wil, e<subst><del>r</del><add
+                                        place="overwritten"
+                                        >s</add></subst> syg umb zins oder umb ein
 <lb/>schu̍lt, so istz zwyfalten lon, also bruchenn
 <lb/>disse gantmeister och in der farenden hab.
-<lb/><subst><del>Es</del><add place="inline">Er</add></subst> seitt mir och, das disse ganter nu̍dt
-<lb/>farenn verganten soͤnt, es gehoͤrt als eim ratt<lb break="no"/>schriber
-zuͦ. Nun, so hab ich, <persName ref="per014238">Hans Asper</persName>, dem
-<lb/><persName ref="per015642">Wolmyger</persName> sin hu̍s och kurtzlichen ver<lb break="no"/>gantett,
-dem <persName ref="per014500">Andres Gosner</persName> och im uffal,
+<lb/><subst><del>Es</del><add
+                                        place="inline"
+                                    >Er</add></subst> seitt mir och, das disse ganter nu̍dt
+<lb/>farenn verganten soͤnt, es gehoͤrt als eim ratt<lb
+                                    break="no"/>schriber
+zuͦ. Nun, so hab ich, <persName
+                                    ref="per014238">Hans Asper</persName>, dem
+<lb/><persName
+                                    ref="per015642"
+                                    >Wolmyger</persName> sin hu̍s och kurtzlichen ver<lb break="no"
+                                    />gantett,
+dem <persName ref="per014500"
+                                    >Andres Gosner</persName> och im uffal,
 <lb/>aber es beschicht nit fy, semliche gant.
-<pb n="4r"/>
-<lb/>Man verkofft die hüser vil me in uff<lb break="no"/>faͤllen,
+<pb
+                                    n="4r"/>
+                                <lb/>Man verkofft die hüser vil me in uff<lb break="no"
+                                />faͤllen,
 den mans also verruͦffe und
 <lb/>verku̍nt mans in der kilchen zuͦ verkoffen.
 </seg></p>
-<p><seg n="5">
-<lb/>Item er seitt och mir, ich muͦsty eim obrister
+                        <p><seg n="6">
+                                <lb/>Item er seitt och mir, ich muͦsty eim obrister
 <lb/>meister, wer der zuͦ zitten wery, dienen
 <lb/>und nach gan und sin knecht sin und also
 <lb/>bott, so von im us gant, die muͦsty ich
-<lb/>thon und sust kein knecht und was zün<damage agent="clipping"><supplied resp="msr">s</supplied></damage>
-<lb/>und gwerb an treffe und wen er sin ratt
-<lb/>hetty, so muͤsty ichs als beitten und da hett<damage agent="clipping"><supplied resp="msr">e</supplied></damage>
-<lb/>ich och min lon von in der statt von
-<lb/>jecklichem bott <measure type="currency" unit="xr" quantity="1">ein kru̍tzer</measure> und da ussen
-<lb/>vor der statt von der <measure type="length" unit="Meile" quantity="1">myllen</measure> und wen
+<lb/>thon und sust kein knecht und was zün<damage
+                                    agent="clipping"><supplied resp="msr">s</supplied></damage>
+                                <lb/>und gwerb an treffe und wen er sin ratt
+<lb/>hetty, so muͤsty ichs als beitten und da hett<damage
+                                    agent="clipping"><supplied resp="msr">e</supplied></damage>
+                                <lb/>ich och min lon von in der statt von
+<lb/>jecklichem bott <measure
+                                    type="currency" unit="xr" quantity="1"
+                                    >ein kru̍tzer</measure> und da ussen
+<lb/>vor der statt von der <measure
+                                    type="length" unit="Meile" quantity="1"
+                                    >myllen</measure> und wen
 <lb/>die obristen meister ein straffen, so sol er
 <lb/>die buͤssen in zeichen und in by sin des
 <lb/>stattschribers in der meister bu̍chsen
 <lb/>stosen. Und wen die obristen meister ein
 <lb/>burger oder ein andren gehorsam wendt
 <lb/>machen und in went gefercklichen an lasen
-<lb/>nemen, so sol ein stattknecht dem ratt<lb break="no"/>schriber <del>ge</del>
+<lb/>nemen, so sol ein stattknecht dem ratt<lb
+                                    break="no"
+                                    />schriber <del>ge</del>
 behulffen sin und muͦs der selb
-<lb/>dan den knechten, die in fant, <measure type="currency" unit="ß" quantity="5">v </measure> geben.
-</seg></p><pb n="4v"/>
-<p><seg n="6">
-<lb/>Och seitt mir der stattschriber <persName ref="per014538">Johannes Gros</persName>
-<lb/>sellig,<note>Stadtschreiber <persName ref="per014538">Johannes Gross</persName> starb am 9. Oktober 1515 (<bibl><ref target="/startseite/literaturverzeichnis">Gutmann 2010</ref>, Bd. 1, S. 289</bibl>). Die vorliegende Aufzeichnung muss also nach diesem Datum entstanden sein.</note> wen einer in ettlichen orten, die sich dann
+<lb/>dan den knechten, die in fant, <measure
+                                    type="currency" unit="ß" quantity="5"
+                                >v </measure> geben.
+</seg></p>
+                        <pb n="4v"/>
+                        <p><seg n="7">
+                                <lb/>Och seitt mir der stattschriber <persName ref="per014538"
+                                    >Johannes Gros</persName>
+                                <lb/>sellig,<note>Stadtschreiber <persName ref="per014538"
+                                        >Johannes Gross</persName> starb am 9. Oktober 1515 (<bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Gutmann 2010</ref>, Bd. 1, S. 289</bibl>). Die vorliegende Aufzeichnung muss also nach diesem Datum entstanden sein.</note> wen einer in ettlichen orten, die sich dann
 <lb/>mit minen heren vereint hant, ein liblos
 <lb/>than hatt und dan an dem ort, da dan der
 <lb/>dottschlag geschehen ist, verurteillett ist,
 <lb/>und wen dan des dotten früntschafft min
 <lb/>heren an roͤffen und ein urtelbrieff von denen
 <lb/>bringent, da dann der dottschlag geschehen
-<lb/>ist, so muͦs ich dan den selbigen dott<lb break="no"/>schleger
+<lb/>ist, so muͦs ich dan den selbigen dott<lb
+                                    break="no"
+                                    />schleger
 verruͦffen in wis und mas, wie
 <lb/>mine heren mir ein abgeschrifft gent vom
 <lb/>selbigen urtelbrieff. Da thon ich ein ruͦf
-<lb/>bim <placeName ref="loc010822">Wegen</placeName>, den andren by der appendeg, den
-<lb/>letsten bim <placeName ref="loc010421">Elsesser</placeName><!-- Haus zum Elsässer --> und thon semliche ruͦff
-<lb/>an einemm <date period="P6WD">frydag</date>, dan so schriben ich den
+<lb/>bim <placeName
+                                    ref="loc010822"
+                                    >Wegen</placeName>, den andren by der appendeg, den
+<lb/>letsten bim <placeName
+                                    ref="loc010421"
+                                    >Elsesser</placeName><!-- Haus zum Elsässer --> und thon semliche ruͦff
+<lb/>an einemm <date
+                                    period="P6WD"
+                                    >frydag</date>, dan so schriben ich den
 <lb/>selben in ein buͤchly, den ich verruͦfft hab
 <lb/>und wie und wen an welchem dag und
 <lb/>in welchem jar und wie die urtel gangen
-<lb/><add place="left margin">ist</add> und <add place="above">wie</add> ich den ruͤff than hab, dar mit, wens
-<lb/>dar zuͦ kemy, das ein <subst><del rend="rubbing"><gap reason="illegible" unit="cm" quantity="3"/></del><add place="inline">rathschriber</add></subst> koͤnny
+<lb/><add
+                                    place="left margin">ist</add> und <add place="above"
+                                        >wie</add> ich den ruͤff than hab, dar mit, wens
+<lb/>dar zuͦ kemy, das ein <subst><del
+                                        rend="rubbing"><gap reason="illegible" unit="cm"
+                                            quantity="3"/></del><add place="inline"
+                                        >rathschriber</add></subst> koͤnny
 <lb/>anzuͤgen und antwurt darumb geben,
 <lb/>darumb hatt er och sin lon.
 </seg></p>
-<pb n="5r"/>
-<p><seg n="7">
-<lb/>Und sol ein rattschriber <date dur="R/P6M">alle halbe jar</date>,
+                        <pb n="5r"/>
+                        <p><seg n="8">
+                                <lb/>Und sol ein rattschriber <date dur="R/P6M"
+                                    >alle halbe jar</date>,
 <lb/>so man eim burgermeister schweren sol,
 <lb/>umher ritten mit den kinderen und den
-<lb/>ruͤff thon. Darvon hatt er zü lonn <measure type="currency" unit="ß" quantity="5">v </measure>
-<lb/>und sol den kinden genn nu̍s oder kreissy,
+<lb/>ruͤff thon. Darvon hatt er zü lonn <measure
+                                    type="currency" unit="ß" quantity="5">v </measure>
+                                <lb/>und sol den kinden genn nu̍s oder kreissy,
 <lb/>was man dan zuͦ der selben zitte han
 <lb/>mag.
 </seg></p>
-<p><seg n="8">
-<lb/>Item witter sol ein rattschriber die <num value="2">zwen</num> merckt
+                        <p><seg n="9">
+                                <lb/>Item witter sol ein rattschriber die <num value="2"
+                                        >zwen</num> merckt
 <lb/>in har ruͦffen, den pfinst mercktt und den
-<lb/>herbsch mercktt.<note>Vgl. dazu die entsprechende Marktordnung der Stadt <placeName ref="loc000065">Zürich</placeName> (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_069">SSRQ ZH NF I/1/3, Nr. 69</ref></bibl>).</note> Da hatt er och zuͦ lon <measure type="currency" unit="ß" quantity="5">v </measure>
-<lb/>von einemm mercktt.
+<lb/>herbsch mercktt.<note>Vgl. dazu die entsprechende Marktordnung der Stadt <placeName
+                                        ref="loc000065">Zürich</placeName> (<bibl><ref
+                                            target="/suche/detail/SSRQ_ZH_NF_I_1_3_069"
+                                            >SSRQ ZH NF I/1/3, Nr. 69</ref></bibl>).</note> Da hatt er och zuͦ lon <measure
+                                    type="currency" unit="ß" quantity="5">v </measure>
+                                <lb/>von einemm mercktt.
 </seg></p>
-<p><seg n="9">
-<lb/>Och so sol ein rattschriber dem obristen knecht
-<lb/>uff dem <placeName ref="loc008754">Ratthus</placeName>, welcher dan zuͦ zitty da ist,
-<lb/>die simlen <date dur="R/P6M">alle <subst><del>z</del><add place="overwritten">j</add></subst>ar zwu̍rent</date> us theillen.
+                        <p><seg n="10">
+                                <lb/>Och so sol ein rattschriber dem obristen knecht
+<lb/>uff dem <placeName
+                                    ref="loc008754"
+                                    >Ratthus</placeName>, welcher dan zuͦ zitty da ist,
+<lb/>die simlen <date
+                                    dur="R/P6M">alle <subst><del>z</del><add place="overwritten"
+                                            >j</add></subst>ar zwu̍rent</date> us theillen.
 </seg></p>
-<p><seg n="10">
-<lb/>Witter, so man schencky uff dem <placeName ref="loc010549">Hoff</placeName><note>Vermutlich ist der <placeName ref="loc010549">Lindenhof</placeName> gemeint.</note> hett
-<lb/>oder uff dem <placeName ref="loc008754">Ratthus</placeName>, so sol och ein rattschriber
+                        <p><seg n="11">
+                                <lb/>Witter, so man schencky uff dem <placeName ref="loc010549"
+                                    >Hoff</placeName><note>Vermutlich ist der <placeName
+                                        ref="loc010549"
+                                    >Lindenhof</placeName> gemeint.</note> hett
+<lb/>oder uff dem <placeName
+                                    ref="loc008754"
+                                >Ratthus</placeName>, so sol och ein rattschriber
 <lb/>dan dem obristen knecht helffen, das brott
 <lb/>in nemen und us geben und die urten mit
 <lb/>den seckelmeisteren in nemen und win und
 <lb/>brott bezallen, dan so theillen sy das vor
 <lb/>brott mit einandren.
 </seg></p>
-<pb n="5v"/>
-<p><seg n="11">
-<lb/>Witter so man die pünt wil schweren,
-<lb/>die uinser <orgName ref="org000531">eidtgnossen</orgName> etliche ort mitt uinseren
+                        <pb n="5v"/>
+                        <p><seg n="12">
+                                <lb/>Witter so man die pünt wil schweren,
+<lb/>die uinser <orgName
+                                    ref="org000531"
+                                    >eidtgnossen</orgName> etliche ort mitt uinseren
 <lb/>heren hant, so sol dan ein rattschriber umher
 <lb/>ritten mit den knaben und ruͦffen, wie
 <lb/>man dem burgermeister ruͤfft, dan allein
 <lb/>man ruͦfft bunt schweren, man nempt nit
 <lb/>am burgermeister zuͦ schweren, da gent dan
 <lb/>min heren den knaben, was dan zuͦ gen
-<lb/>ist und gen dem rattschriber <measure type="currency" unit="ß" quantity="5">v </measure> fu̍r sin
+<lb/>ist und gen dem rattschriber <measure
+                                    type="currency" unit="ß" quantity="5"
+                                >v </measure> fu̍r sin
 <lb/>lon fu̍r die ruͦff.
-</seg></p><pb n="6r"/>
-<seg n="12"><p>
-<lb/>Die ort und ent, so man an <orgName ref="org004016">ratt</orgName> schribt: Am
-<lb/><placeName ref="loc010848">Horgerberg</placeName> fatz an und zuͦ <placeName ref="loc010401">Horgen</placeName>, <placeName ref="loc010571">Oberreiden</placeName>,
-<lb/><placeName ref="loc008713">Ruͤschlykon</placeName>, <placeName ref="loc010373">Talwyl</placeName>, <placeName ref="loc008710">Kilchberg</placeName>, <placeName ref="loc010351">Adtlyschwil</placeName>,
-<lb/><placeName ref="loc009865">Wollishoffen</placeName>, durch abhy, <placeName ref="loc009863">Weittikon</placeName>, <placeName ref="loc010356">Reiden</placeName>,
-<lb/><placeName ref="loc009828">Altstetten</placeName>, <placeName ref="loc009768">Hoͤng</placeName>, <placeName ref="loc010526">Lantzenrein</placeName><!-- msr: Lanzenrain: Mühle in Oberengstringen -->, <placeName ref="loc010354">Affholteren</placeName> und
-<lb/>uff <placeName ref="loc000658">Regensperg</placeName> im stettly, <placeName ref="loc010598">Oͤrlikon</placeName>, <placeName ref="loc010666">Sebach</placeName>,
-<lb/><placeName ref="loc008714">Schwamandingen</placeName>, <placeName ref="loc008722">Diebendorff</placeName>, <placeName ref="loc010866">Wangen</placeName> und
-<lb/>im <placeName ref="loc000348">Griffense</placeName> ampt, allen halben den <placeName ref="loc000127">Zu̍rich<lb break="no"/>see</placeName>
-daruff untz gan <placeName ref="loc010814">Ürikon</placeName>, aber nit was
-<lb/>gan <placeName ref="loc009862">Wedischwil</placeName> und <placeName ref="loc008712">Richtenschwil</placeName> gehoͤrt,
+</seg></p>
+                        <pb n="6r"/>
+                        <seg n="13"><p>
+                                <lb/>Die ort und ent, so man an <orgName ref="org004016"
+                                    >ratt</orgName> schribt: Am
+<lb/><placeName ref="loc010848"
+                                    >Horgerberg</placeName> fatz an und zuͦ <placeName
+                                    ref="loc010401">Horgen</placeName>, <placeName ref="loc010571"
+                                    >Oberreiden</placeName>,
+<lb/><placeName ref="loc008713"
+                                    >Ruͤschlykon</placeName>, <placeName ref="loc010373"
+                                    >Talwyl</placeName>, <placeName ref="loc008710"
+                                    >Kilchberg</placeName>, <placeName ref="loc010351"
+                                    >Adtlyschwil</placeName>,
+<lb/><placeName ref="loc009865"
+                                    >Wollishoffen</placeName>, durch abhy, <placeName
+                                    ref="loc009863">Weittikon</placeName>, <placeName
+                                    ref="loc010356">Reiden</placeName>,
+<lb/><placeName
+                                    ref="loc009828">Altstetten</placeName>, <placeName
+                                    ref="loc009768">Hoͤng</placeName>, <placeName ref="loc010526"
+                                    >Lantzenrein</placeName><!-- msr: Lanzenrain: Mühle in Oberengstringen -->, <placeName
+                                    ref="loc010354">Affholteren</placeName> und
+<lb/>uff <placeName
+                                    ref="loc000658">Regensperg</placeName> im stettly, <placeName
+                                    ref="loc010598">Oͤrlikon</placeName>, <placeName ref="loc010666"
+                                    >Sebach</placeName>,
+<lb/><placeName ref="loc008714"
+                                    >Schwamandingen</placeName>, <placeName ref="loc008722"
+                                    >Diebendorff</placeName>, <placeName ref="loc010866"
+                                    >Wangen</placeName> und
+<lb/>im <placeName ref="loc000348"
+                                    >Griffense</placeName> ampt, allen halben den <placeName
+                                    ref="loc000127">Zu̍rich<lb break="no"
+                                    />see</placeName>
+daruff untz gan <placeName ref="loc010814"
+                                    >Ürikon</placeName>, aber nit was
+<lb/>gan <placeName
+                                    ref="loc009862">Wedischwil</placeName> und <placeName
+                                    ref="loc008712"
+                                    >Richtenschwil</placeName> gehoͤrt,
 <lb/>und sust ringwis umb die statt und in der
-<lb/>statt, das muͤs alles har an <orgName ref="org005053">gstangen ans
-<lb/>gricht</orgName>. Wer sich ab dem <orgName ref="org004016">ratt</orgName> thuͦtt, das
-<lb/>ist nun, so man an <orgName ref="org004016">ratt</orgName> schribt.</p>
-<p><lb/>Aber die gant umb zins und schult, so sich
-<lb/>einer latt brieff schriben, geisthlich alt weltli<lb break="no"/>ch,
+<lb/>statt, das muͤs alles har an <orgName
+                                    ref="org005053"
+                                    >gstangen ans
+<lb/>gricht</orgName>. Wer sich ab dem <orgName
+                                    ref="org004016"
+                                    >ratt</orgName> thuͦtt, das
+<lb/>ist nun, so man an <orgName
+                                    ref="org004016">ratt</orgName> schribt.</p>
+                            <p><lb/>Aber die gant umb zins und schult, so sich
+<lb/>einer latt brieff schriben, geisthlich alt weltli<lb
+                                    break="no"
+                                    />ch,
 gricht und recht, welches im aller fuͤglicher
-<lb/>ist, das mag man alles bey <placeName ref="loc000065">Zu̍rich</placeName> ganten.
-</p></seg><pb n="6v"/><pb n="7r"/><pb n="7v"/><pb n="8r"/><pb n="8v"/>
-<div><ab place="verso above right" type="dorsal" hand="hand18c"><lb/>Ordnung des rathschreibers, <origDate when="1513">1513</origDate>.</ab></div>
-<div><ab place="verso bottom right" type="dorsal"><origDate when="1513">1513</origDate></ab></div>
-</div>
-</body>
-<back>
-<div>
-<p>Die wichtigsten Kompetenzen des Ratsschreibers lagen im Bereich der Schuldbetreibung. Stand er auf diese Weise einerseits organisatorisch dem <orgName ref="org005052">Stadtgericht</orgName> nahe, führte er andererseits jedoch auch Aufgaben im Dienst des <orgName ref="org004016">Rats</orgName> aus, was insbesondere durch seine wichtige Rolle im Vorfeld der Eidleistungen gegenüber <orgName ref="org002406">Bürgermeister und Rat</orgName> unterstrichen wird (für seinen Rundgang bei dieser Gelegenheit vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_082">SSRQ ZH NF I/1/3, Nr. 82</ref></bibl>). Die Namen der Ratsschreiber sind in den jährlichen Ämterlisten der Rats- und Richtbücher überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263254">StAZH B VI 190 - B VI 279 a</ref></bibl>).</p>
-<p>Der Bericht <persName ref="per014238">Hans Aspers</persName> ist insbesondere auch ein wichtiges Zeugnis für die Organisation der Betreibung bei Geldschulden auf der <placeName ref="loc000066">Zürcher</placeName> Landschaft. Das diesbezügliche Vorgehen richtete sich nach dem Wohnort des Gläubigers: War dieser in der Stadt zu Hause, konnte er sich an das <orgName ref="org005052">Stadtgericht</orgName> wenden und die ausstehende Schuld durch den Ratsschreiber eintragen lassen, auch wenn der Schuldner von auswärts stammte. Gegen diese Regelung richtete sich 1489 während des Waldmannhandels einer der Beschwerdepunkte der Bewohner der Landschaft (<bibl><ref target="/startseite/literaturverzeichnis">Gagliardi, Waldmann</ref>, Bd. 2, Nr. 256, S. 11</bibl>). Stammte der Gläubiger aus der Landschaft, war für seine Klage in der Regel der jeweilige Untervogt zuständig (<bibl><ref target="/startseite/literaturverzeichnis">Malamud/Sutter 1999</ref>, S. 107</bibl>). Davon ausgenommen waren die in der vorliegenden Aufzeichnung genannten Orte, die betreibungsrechtlich ebenfalls dem <orgName ref="org005052">Stadtgericht</orgName> unterstanden, wobei es in diesen Fällen unter der Bezeichnung <orgName ref="org005052">Stangengericht</orgName> aktiv wurde. Im Zuge der Reformation gingen schliesslich sämtlichen niederen Gerichtsrechte der erwähnten Gemeinden <placeName ref="loc010356">Albisrieden</placeName>, <placeName ref="loc010598">Oerlikon</placeName>, <placeName ref="loc008714">Schwamendingen</placeName> und <placeName ref="loc010666">Seebach</placeName>, gemeinsam mit denjenigen weiterer Gemeinden, von <orgName ref="org004908">Fraumünster</orgName> und <orgName ref="org004352">Grossmünster</orgName> an die Stadt <placeName ref="loc000065">Zürich</placeName> über. Der Bericht <persName ref="per014238">Hans Aspers</persName> ist ein Beleg dafür, dass bereits in vorreformatorischer Zeit an diesen Orten eine Anbindung an das <orgName ref="org005052">Stadtgericht</orgName> existierte, die sich jedoch auf das Feld der Betreibung von Geldschulden beschränkte (<bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 78-79</bibl>).</p>
-<p>Zum Amt des Ratsschreibers vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bauhofer 1943a</ref>, S. 78, Anm. 276</bibl>; allgemein zum Betreibungsverfahren vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_113">SSRQ ZH NF I/1/3, Nr. 113</ref></bibl> sowie <bibl><ref target="/startseite/literaturverzeichnis">Malamud/Sutter 1999</ref></bibl>; zum Übergang der Gerichtsrechte von <orgName ref="org004908">Fraumünster</orgName> und <orgName ref="org004352">Grossmünster</orgName> an die Stadt vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_II_11_053">SSRQ ZH NF II/11, Nr. 53</ref></bibl>.
+<lb/>ist, das mag man alles bey <placeName
+                                    ref="loc000065">Zu̍rich</placeName> ganten.
+</p></seg>
+                        <pb n="6v"/>
+                        <pb n="7r"/>
+                        <pb n="7v"/>
+                        <pb n="8r"/>
+                        <pb n="8v"/>
+                        <div>
+                            <ab place="verso above right" type="dorsal" hand="hand18c"
+                                    ><lb/>Ordnung des rathschreibers, <origDate when="1513"
+                                    >1513</origDate>.</ab>
+                        </div>
+                        <div>
+                            <ab place="verso bottom right" type="dorsal"><origDate when="1513"
+                                    >1513</origDate></ab>
+                        </div>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die wichtigsten Kompetenzen des Ratsschreibers lagen im Bereich der Schuldbetreibung. Stand er auf diese Weise einerseits organisatorisch dem <orgName
+                                ref="org005052"
+                                >Stadtgericht</orgName> nahe, führte er andererseits jedoch auch Aufgaben im Dienst des <orgName
+                                ref="org004016"
+                                >Rats</orgName> aus, was insbesondere durch seine wichtige Rolle im Vorfeld der Eidleistungen gegenüber <orgName
+                                ref="org002406"
+                                    >Bürgermeister und Rat</orgName> unterstrichen wird (für seinen Rundgang bei dieser Gelegenheit vgl. <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_082"
+                                    >SSRQ ZH NF I/1/3, Nr. 82</ref></bibl>). Die Namen der Ratsschreiber sind in den jährlichen Ämterlisten der Rats- und Richtbücher überliefert (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263254"
+                                    >StAZH B VI 190 - B VI 279 a</ref></bibl>).</p>
+                        <p>Der Bericht <persName ref="per014238"
+                                >Hans Aspers</persName> ist insbesondere auch ein wichtiges Zeugnis für die Organisation der Betreibung bei Geldschulden auf der <placeName
+                                ref="loc000066"
+                                >Zürcher</placeName> Landschaft. Das diesbezügliche Vorgehen richtete sich nach dem Wohnort des Gläubigers: War dieser in der Stadt zu Hause, konnte er sich an das <orgName
+                                ref="org005052"
+                                    >Stadtgericht</orgName> wenden und die ausstehende Schuld durch den Ratsschreiber eintragen lassen, auch wenn der Schuldner von auswärts stammte. Gegen diese Regelung richtete sich 1489 während des Waldmannhandels einer der Beschwerdepunkte der Bewohner der Landschaft (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                    >Gagliardi, Waldmann</ref>, Bd. 2, Nr. 256, S. 11</bibl>). Stammte der Gläubiger aus der Landschaft, war für seine Klage in der Regel der jeweilige Untervogt zuständig (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                    >Malamud/Sutter 1999</ref>, S. 107</bibl>). Davon ausgenommen waren die in der vorliegenden Aufzeichnung genannten Orte, die betreibungsrechtlich ebenfalls dem <orgName
+                                ref="org005052"
+                                >Stadtgericht</orgName> unterstanden, wobei es in diesen Fällen unter der Bezeichnung <orgName
+                                ref="org005052"
+                                >Stangengericht</orgName> aktiv wurde. Im Zuge der Reformation gingen schliesslich sämtliche niederen Gerichtsrechte der erwähnten Gemeinden <placeName
+                                ref="loc010356">Albisrieden</placeName>, <placeName ref="loc010598"
+                                >Oerlikon</placeName>, <placeName ref="loc008714"
+                                >Schwamendingen</placeName> und <placeName ref="loc010666"
+                                >Seebach</placeName>, gemeinsam mit denjenigen weiterer Gemeinden, von <orgName
+                                ref="org004908">Fraumünster</orgName> und <orgName ref="org004352"
+                                >Grossmünster</orgName> an die Stadt <placeName ref="loc000065"
+                                >Zürich</placeName> über. Der Bericht <persName ref="per014238"
+                                >Hans Aspers</persName> ist ein Beleg dafür, dass bereits in vorreformatorischer Zeit an diesen Orten eine Anbindung an das <orgName
+                                ref="org005052"
+                                    >Stadtgericht</orgName> existierte, die sich jedoch auf das Feld der Betreibung von Geldschulden beschränkte (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Bauhofer 1943a</ref>, S. 78-79</bibl>).</p>
+                        <p>Zum Amt des Ratsschreibers vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Bauhofer 1943a</ref>, S. 78, Anm. 276</bibl>; allgemein zum Betreibungsverfahren vgl. <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_113"
+                                    >SSRQ ZH NF I/1/3, Nr. 113</ref></bibl> sowie <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                    >Malamud/Sutter 1999</ref></bibl>; zum Übergang der Gerichtsrechte von <orgName
+                                ref="org004908">Fraumünster</orgName> und <orgName ref="org004352"
+                                >Grossmünster</orgName> an die Stadt vgl. <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_II_11_053"
+                                    >SSRQ ZH NF II/11, Nr. 53</ref></bibl>.
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>

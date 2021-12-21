@@ -3,75 +3,138 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_019</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4250551">StAZH B II 7, S. 38, Eintrag 2</idno></msIdentifier><head>Ordnung der Stadt Zürich betreffend Abhaltung von Gerichtstagen durch den Bürgermeister</head><msContents><summary>Bürgermeister Heinrich Göldli und beide Räte beschliessen, dass der Bürgermeister einmal im Monat oder mindestens alle sechs Wochen das Ratsgericht abhalten, Zeugen anhören und soweit möglich Urteile aussprechen soll. Sofern Angelegenheiten von fremden Personen hängig sind, die nicht längere Zeit in der Stadt warten können, steht es in der Kompetenz des Bürgermeisters, die Gegenseite zur Klageerhebung aufzufordern, damit die Fälle erledigt werden können. </summary><msItem><textLang>Deutsch</textLang><author role="scribe">Ludwig Ammann, Stadtschreiber von Zürich</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="12.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1485-03-12"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000133">Bürgermeister</term><term ref="key000325">Fremde</term><term ref="key000057">Gericht</term><term ref="key000364">Rat</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="38"/>
-<head>Uff <origDate when="1485-03-12">sambstag vor letare</origDate>, <choice><abbr>pnt</abbr><expan>presentibus</expan></choice>
-<lb/>her burgermeister <!-- Heinrich --><persName ref="per005640">Goldli</persName> und 
-<lb/><orgName ref="org004016">beyd raͤtt</orgName></head>
-<p>
-<gap reason="irrelevant"/>
-</p>
-<p><lb/>Es ist von <orgName ref="org004016">beiden raͤten</orgName> erkennt,
-<lb/>das ein yeder burgermeister <date dur="R/P1M">all
-<lb/>manot</date> oder zum minsten in <date dur="R/P6W">sechs 
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_1_3_019</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4250551"
+                            >StAZH B II 7, S. 38</idno>
+                    </msIdentifier>
+                    <head>Ordnung der Stadt Zürich betreffend Abhaltung von Gerichtstagen durch den Bürgermeister</head>
+                    <msContents>
+                        <summary>Bürgermeister Heinrich Göldli und beide Räte beschliessen, dass der Bürgermeister einmal im Monat oder mindestens alle sechs Wochen das Ratsgericht abhalten, Zeugen anhören und soweit möglich Urteile aussprechen soll. Sofern Angelegenheiten von fremden Personen hängig sind, die nicht längere Zeit in der Stadt warten können, steht es in der Kompetenz des Bürgermeisters, die Gegenseite zur Klageerhebung aufzufordern, damit die Fälle erledigt werden können. </summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <author role="scribe">Ludwig Ammann, Stadtschreiber von Zürich</author>
+                            <filiation type="current">Eintrag</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="33.0"/>
+                                        <width unit="cm" quantity="12.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1485-03-12"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000133">Bürgermeister</term>
+                    <term ref="key000325">Fremde</term>
+                    <term ref="key000057">Gericht</term>
+                    <term ref="key000364">Rat</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="38"/>
+                        <head>Uff <origDate when="1485-03-12">sambstag vor letare</origDate>, <choice>
+                                <abbr>pnt</abbr>
+                                <expan>presentibus</expan>
+                            </choice>
+                            <lb/>her burgermeister <!-- Heinrich --><persName ref="per005640"
+                                >Goldli</persName> und 
+<lb/><orgName ref="org004016"
+                                >beyd raͤtt</orgName></head>
+                        <p>
+                            <gap reason="irrelevant"/>
+                        </p>
+                        <p><lb/>Es ist von <orgName ref="org004016"
+                                >beiden raͤten</orgName> erkennt,
+<lb/>das ein yeder burgermeister <date
+                                dur="R/P1M">all
+<lb/>manot</date> oder zum minsten in <date
+                                dur="R/P6W"
+                                >sechs 
 <lb/>wuchen</date> einest zu̍gen in sinem recht 
 <lb/>buͦch hoͤren und was er dem naͧch 
 <lb/>rechten mug, rechten soͧlle. Und 
-<lb/>ob ettlich clagen von froͤmbden per<lb break="no"/>sonen 
+<lb/>ob ettlich clagen von froͤmbden per<lb
+                                break="no"
+                            />sonen 
 beschechen, die nit warten moͧchten,
 <lb/>so sol ein burgermeister gewallt 
 <lb/>han, dem widerteil zuͦ gebieten, sin 
 <lb/>clag ze tuͦn.
 
 </p>
-</div>
-</body>
-<back>
-<div>
-<p>Das <orgName ref="org004982">Ratsgericht</orgName> der Stadt <placeName ref="loc000065">Zürich</placeName> wurde für gewöhnlich an Donnerstagen einberufen, um über Buss- und Frevelsachen zu richten, die Intervalle dazwischen waren jedoch unregelmässig. Die vorliegende Ordnung stellt in diesem Bereich Mindestanforderungen, indem sie einen Gerichtstag alle sechs Wochen für obligatorisch erklärt. Im 16. Jahrhundert wurde diese Praxis weiter ausgebaut, indem eingehende Klagen gesammelt und an im Voraus festgesetzten Donnerstagen gemeinsam behandelt wurden (vgl. dazu die Ordnung für die Geschäfte des <orgName ref="org002406">Rates</orgName> am Donnerstag, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_085">SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>).</p>
-<p>Zur vorliegenden Ordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ruoff 1941</ref>, S. 73-74</bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das <orgName ref="org004982">Ratsgericht</orgName> der Stadt <placeName
+                                ref="loc000065"
+                                >Zürich</placeName> wurde für gewöhnlich an Donnerstagen einberufen, um über Buss- und Frevelsachen zu richten, die Intervalle dazwischen waren jedoch unregelmässig. Die vorliegende Ordnung stellt in diesem Bereich Mindestanforderungen, indem sie einen Gerichtstag alle sechs Wochen für obligatorisch erklärt. Im 16. Jahrhundert wurde diese Praxis weiter ausgebaut, indem eingehende Klagen gesammelt und an im Voraus festgesetzten Donnerstagen gemeinsam behandelt wurden (vgl. dazu die Ordnung für die Geschäfte des <orgName
+                                ref="org002406">Rates</orgName> am Donnerstag, <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_085"
+                                    >SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>).</p>
+                        <p>Zur vorliegenden Ordnung vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Ruoff 1941</ref>, S. 73-74</bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>

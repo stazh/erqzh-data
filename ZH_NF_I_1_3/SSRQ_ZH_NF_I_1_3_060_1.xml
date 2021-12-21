@@ -3,74 +3,149 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_060_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3736977">StAZH B III 2, S. 346-347</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Durchführung von Nachgängen</head><msContents><summary>Wenn sich in der Stadt Delikte ereignen, die aus Sicht des Kleinen Rates untersucht werden müssen, ist er befugt, von sich aus Zeugen in der Sache unter Eid einzuvernehmen, wobei diesen zuvor mitgeteilt werden muss, in welcher Sache sie befragt werden. Sofern sich keine anderen Zeugen finden, können auch die Konfliktparteien selbst einvernommen werden. Personen, die wegen Delikten, die Leib, Leben und Ehre betreffen, angeklagt und festgenommen werden, sollen die gegen sie erhobenen Vorwürfe mitgeteilt sowie ihre Verteidigung angehört werden. Dem in der Angelegenheit richtende Rat steht es frei, Zeugenaussagen anzuhören und nach seinem Gutdünken zu handeln.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1498-01-01" to="1498-12-31"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000590">Delinquenz</term><term ref="key000057">Gericht</term><term ref="key005473">Nachgang</term><term ref="key000364">Rat</term><term ref="key000078">Zeugen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="346"/>
-<head><lb/>Wie hinfu̍r die nachgaͧn gehalten werden soͤllen</head>
-<p><seg><lb/>Ob einich fraͤvel, unzucht oder buͦßwirdig sachen <time period="byDay">tags</time> oder <time period="byNight">nachts</time> fu̍r<lb break="no"/>gienngen,
-do ein <orgName ref="org004016">raͧtt</orgName> bedunckte, das dem nachganngen werden soͤlte,
-<lb/>das mag ein <orgName ref="org004016">raͧt</orgName> also an gloubwirdigen personen, die des ein wu̍ssen 
-<lb/>haben, erkunnen und die darumb by den eyden vorhoͤren, doch das den<lb break="no"/>selben 
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_3_060_1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3736977"
+       >StAZH B III 2, S. 346-347</idno>
+     </msIdentifier>
+     <head>Ordnung der Stadt Zürich für die Durchführung von Nachgängen</head>
+     <msContents>
+      <summary>Wenn sich in der Stadt Delikte ereignen, die aus Sicht des Kleinen Rates untersucht werden müssen, ist er befugt, von sich aus Zeugen in der Sache unter Eid einzuvernehmen, wobei diesen zuvor mitgeteilt werden muss, in welcher Sache sie befragt werden. Sofern sich keine anderen Zeugen finden, können auch die Konfliktparteien selbst einvernommen werden. Personen, die wegen Delikten, die Leib, Leben und Ehre betreffen, angeklagt und festgenommen werden, sollen die gegen sie erhobenen Vorwürfe mitgeteilt sowie ihre Verteidigung angehört werden. Dem in der Angelegenheit richtenden Rat steht es frei, Zeugenaussagen anzuhören und nach seinem Gutdünken zu handeln.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Eintrag</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="33.0"/>
+          <width unit="cm" quantity="24.0"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate from="1498-01-01" to="1498-12-31"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000184">Bussen</term>
+     <term ref="key000590">Delinquenz</term>
+     <term ref="key000057">Gericht</term>
+     <term ref="key005473">Nachgang</term>
+     <term ref="key000364">Rat</term>
+     <term ref="key000078">Zeugen</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="346"/>
+      <head><lb/>Wie hinfu̍r die nachgaͧn gehalten werden soͤllen</head>
+      <p><seg><lb/>Ob einich fraͤvel, unzucht oder buͦßwirdig sachen <time period="byDay"
+         >tags</time> oder <time period="byNight">nachts</time> fu̍r<lb break="no"
+         />gienngen,
+do ein <orgName ref="org004016"
+         >raͧtt</orgName> bedunckte, das dem nachganngen werden soͤlte,
+<lb/>das mag ein <orgName
+         ref="org004016"
+         >raͧt</orgName> also an gloubwirdigen personen, die des ein wu̍ssen 
+<lb/>haben, erkunnen und die darumb by den eyden vorhoͤren, doch das den<lb
+         break="no"
+        />selben 
 zu̍gen vor und ee sy schweren, eroffnett und fu̍rgehallten, umb 
 <lb/>was sach sy also gehoͤrt werden soͤllen.</seg>
-<seg>Und ob man nit annder zu̍gen 
+       <seg>Und ob man nit annder zu̍gen 
 <lb/>findet, so mag man die secher selbs darumb by geschwornnen eyden
-<pb n="347"/>
-<lb/>fragen und verhoͤren. Wo aber einer verclagt oder angenommen wurde umb 
+<pb
+         n="347"/>
+        <lb/>fragen und verhoͤren. Wo aber einer verclagt oder angenommen wurde umb 
 <lb/>sachen, die im sin lib, leben oder ere beruͤren moͤchten, so sol im die sach
 <lb/>fu̍rgehallten und sin antwurt gehoͤrt werden. Und demnach mag der 
-<lb/><orgName ref="org004016">raͧtt</orgName>, fu̍r den soͤlich sach kumpt, fu̍rer darinn hanndeln, es sye kuͤnt<lb break="no"/>schafft
+<lb/><orgName
+         ref="org004016"
+         >raͧtt</orgName>, fu̍r den soͤlich sach kumpt, fu̍rer darinn hanndeln, es sye kuͤnt<lb
+         break="no"
+         />schafft
 zuͦ hoͤren oder annders, ye nach gestallt der sach und als den 
-<lb/><orgName ref="org004016">raͧtt</orgName> nottuͤrfftig und recht beduͤnckt.<note>Vgl. dazu auch die Ordnung für die Geschäfte des <orgName ref="org004016">Kleinen Rats</orgName> am Donnerstag
- (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_085">SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>).</note></seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Als Nachgänge wurden Verfahren vor dem <orgName ref="org004016">Ratsgericht</orgName> bezeichnet, die nicht aufgrund einer Klage eröffnet wurden, sondern durch den <orgName ref="org002406">Rat</orgName> von Amtes wegen eröffnet wurden (Offizialprinzip). Die Möglichkeit, von sich aus Untersuchungen einzuleiten, wird dem <orgName ref="org002406">Rat</orgName> grundsätzlich schon im Richtebrief zugesprochen, die vorliegende Ordnung stellt jedoch die erste ausführliche Regelung des Verfahrens dar (<bibl><ref target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_25">S. 25</ref></bibl>). Sie wurde im Anhang zum Fünften Geschworenen Brief verschriftlicht, woraus sich ihre Datierung ergibt (<bibl><ref target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 131</bibl>).</p>
-<p>Zum Nachgangsverfahren vgl. <bibl><ref target="/startseite/literaturverzeichnis">Malamud 2003</ref>, S. 85</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Burghartz 1990</ref>, S. 64-66</bibl>; zum Klageverfahren <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_037">SSRQ ZH NF I/1/3, Nr. 37</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+<lb/><orgName
+         ref="org004016"
+          >raͧtt</orgName> nottuͤrfftig und recht beduͤnckt.<note>Vgl. dazu auch die Ordnung für die Geschäfte des <orgName
+          ref="org004016">Kleinen Rats</orgName> am Donnerstag
+ (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_085"
+         >SSRQ ZH NF I/1/3, Nr. 85</ref></bibl>).</note></seg>
+      </p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Als Nachgänge wurden Verfahren vor dem <orgName ref="org004016"
+        >Ratsgericht</orgName> bezeichnet, die nicht aufgrund einer Klage eröffnet wurden, sondern durch den <orgName
+        ref="org002406"
+        >Rat</orgName> von Amtes wegen eröffnet wurden (Offizialprinzip). Die Möglichkeit, von sich aus Untersuchungen einzuleiten, wird dem <orgName
+        ref="org002406"
+         >Rat</orgName> grundsätzlich schon im Richtebrief zugesprochen, die vorliegende Ordnung stellt jedoch die erste ausführliche Regelung des Verfahrens dar (<bibl><ref
+         target="/startseite/literaturverzeichnis">SSRQ ZH NF I/1/1</ref>, <ref
+         target="https://www.ssrq-sds-fds.ch/online/ZH_NF_I_1_1/index.html#p_25"
+         >S. 25</ref></bibl>). Sie wurde im Anhang zum Fünften Geschworenen Brief verschriftlicht, woraus sich ihre Datierung ergibt (<bibl><ref
+         target="/startseite/literaturverzeichnis">Weibel 1988</ref>, S. 131</bibl>).</p>
+      <p>Zum Nachgangsverfahren vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+         >Malamud 2003</ref>, S. 85</bibl>; <bibl><ref target="/startseite/literaturverzeichnis"
+         >Burghartz 1990</ref>, S. 64-66</bibl>; zum Klageverfahren <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_037">SSRQ ZH NF I/1/3, Nr. 37</ref></bibl>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>

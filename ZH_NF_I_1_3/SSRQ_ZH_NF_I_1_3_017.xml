@@ -3,132 +3,273 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_017</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588708">StAZH A 77.2, Nr. 13</idno></msIdentifier><head>Ordnung der Stadt Zürich für die Brotschau sowie Ernennung von Beschauern</head><msContents><summary>Die Stadt Zürich erlässt eine Ordnung für die Begutachtung des Brotes. Die Ordnung ist durch die Brotbeschauer zu beschwören. Die Brotbeschauer haben einmal täglich mit der Waage herumzugehen und das Brot zu überprüfen. Den Bäckern sollen sie mitteilen, dass alles Brot bis zum Zeitpunkt der Schau gebacken sein muss, nicht geschautes Brot darf nicht verkauft werden. Zu leichtes Brot, das nicht den Gewichtsvorgaben entspricht, müssen die Brotbeschauer zerschneiden, ebenso solches, das ungenügend gebacken ist. Die fehlbaren Bäcker sind der Obrigkeit anzuzeigen, welche Bussen verhängt. Bezüglich der Feiler wird festgelegt, dass diese das von ihnen gebackene Brot täglich in der Brotlaube zur Überprüfung vorlegen müssen und erst danach verkaufen dürfen, jedoch nicht zu Hause. Auf Zuwiderhandlung steht eine Busse von 10 Schilling. Zu Brotschauern eingesetzt werden Niklaus Frauenfelder vom Kleinen Rat, Heinrich Pfister von den Zunftmeistern und Hans Rey der Jüngere vom Grossen Rat.Zusatz von anderer Hand: Den Feilern wird erlaubt, jeweils am Morgen und Abend nach der Schau Brot im Wert von 5 Schilling von der Brotlaube nach Hause zu nehmen und dort zu verkaufen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Ludwig Ammann, Stadtschreiber von Zürich (Zusatz)</author><filiation type="current">Aufzeichnung (Doppelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.5"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1484-01-01" to="1487-12-31">Datierung aufgrund der Erwähnung von Niklaus Frauenfelder und Heinrich Pfister als Brotbeschauer.</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000184">Bussen</term><term ref="key000849">Handwerk</term><term ref="key000369">Kauf</term><term ref="key000793">Markt</term><term ref="key000882">Nahrungsmittel</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1"/>
-<head><lb/>Dis nachgeschriben ordnung sollent <lb/>die protschower zuͦ hallten sweren</head>
-<p>
-<seg><lb/>Item das die brotschower <date dur="R/P1D">alle tag</date> sollent des brot geschowenn
-<lb/>und mit der wag umb gan und mit den <orgName ref="org004920">pfistern</orgName> reden, das
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_1_3_017</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588708"
+                            >StAZH A 77.2, Nr. 13</idno>
+                    </msIdentifier>
+                    <head>Ordnung der Stadt Zürich für die Brotschau sowie Ernennung von Beschauern</head>
+                    <msContents>
+                        <summary>Die Stadt Zürich erlässt eine Ordnung für die Begutachtung des Brotes. Die Ordnung ist durch die Brotbeschauer zu beschwören. Die Brotbeschauer haben einmal täglich mit der Waage herumzugehen und das Brot zu überprüfen. Den Bäckern sollen sie mitteilen, dass alles Brot bis zum Zeitpunkt der Schau gebacken sein muss, nicht geschautes Brot darf nicht verkauft werden. Zu leichtes Brot, das nicht den Gewichtsvorgaben entspricht, müssen die Brotbeschauer zerschneiden, ebenso solches, das ungenügend gebacken ist. Die fehlbaren Bäcker sind der Obrigkeit anzuzeigen, welche Bussen verhängt. Bezüglich der Feiler wird festgelegt, dass diese das von ihnen gebackene Brot täglich in der Brotlaube zur Überprüfung vorlegen müssen und erst danach verkaufen dürfen, jedoch nicht zu Hause. Auf Zuwiderhandlung steht eine Busse von 10 Schilling. Zu Brotschauern eingesetzt werden Niklaus Frauenfelder vom Kleinen Rat, Heinrich Pfister von den Zunftmeistern und Hans Rey der Jüngere vom Grossen Rat. – Zusatz von anderer Hand: Den Feilern wird erlaubt, jeweils am Morgen und Abend nach der Schau Brot im Wert von 5 Schilling von der Brotlaube nach Hause zu nehmen und dort zu verkaufen.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <author role="scribe"
+                                >Ludwig Ammann, Stadtschreiber von Zürich (Zusatz)</author>
+                            <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="31.5"/>
+                                        <width unit="cm" quantity="22.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate from="1484-01-01" to="1487-12-31"
+                                >Datierung aufgrund der Erwähnung von Niklaus Frauenfelder und Heinrich Pfister als Brotbeschauer</origDate></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000065">Amtleute</term>
+                    <term ref="key000184">Bussen</term>
+                    <term ref="key000849">Handwerk</term>
+                    <term ref="key000369">Kauf</term>
+                    <term ref="key000793">Markt</term>
+                    <term ref="key000882">Nahrungsmittel</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="1"/>
+                        <head><lb/>Dis nachgeschriben ordnung sollent <lb/>die protschower zuͦ hallten sweren</head>
+                        <p>
+                            <seg><lb/>Item das die brotschower <date dur="R/P1D"
+                                    >alle tag</date> sollent des brot geschowenn
+<lb/>und mit der wag umb gan und mit den <orgName
+                                    ref="org004920"
+                                    >pfistern</orgName> reden, das
 <lb/>sy uf die stund, als inen das verkundet ist, oder fu̍rer durich
 <lb/>die brotschower bestympt wirdt, gebachen habent. Und das
-<lb/>ouch sy mit den <orgName ref="org004920">pfistern</orgName> redent, das sy by ir eyden niemant dehein
-<lb/>brot gebent, biß das soͤlich gebachen brot <date dur="R/P1D">alle tag</date> geschowet werd.
+<lb/>ouch sy mit den <orgName
+                                    ref="org004920"
+                                    >pfistern</orgName> redent, das sy by ir eyden niemant dehein
+<lb/>brot gebent, biß das soͤlich gebachen brot <date
+                                    dur="R/P1D"
+                                    >alle tag</date> geschowet werd.
 <lb/>Und das sy ouch also in die brot tilinen<!-- Idiotikon 12, 1642: Verkaufsladen für Brot --> gon soͤllent und vor,
 <lb/>hinden und an mitten daruß nemenn und das also beschowenn.
-<lb/>Und ob ettlich <orgName ref="org004920">pfister</orgName>, so die brotschower umbgiengent, noch nit
+<lb/>Und ob ettlich <orgName
+                                    ref="org004920"
+                                >pfister</orgName>, so die brotschower umbgiengent, noch nit
 <lb/>gebachen hetten, mit den selben zuͦreden, von dem selben brot by
 <lb/>ir eyden niemand nutzit zuͦgeben, biß das die brotschower das,
 <lb/>als vor stat, ouch schowent.</seg>
-<seg>Und das ouch die <orgName ref="org004920">pfister</orgName> alle by iren
-<lb/>eyden inen das brot, so sy gebachen habent, <date dur="R/P1D">alle tag</date> zoͤigent.
-<lb/>Und weliches unnder <measure type="weight" commodity="bread" unit="Lot" quantity="28">acht und <subst><del>zwentzigk</del><add place="above" hand="later hand">drissig</add></subst> lotten</measure> wigt, dero
-<lb/>man git <measure commodity="bread" quantity="20" unit="Laib">xx brot</measure> fu̍r <measure type="volume" unit="Viertel" quantity="1">ein fiertel</measure>, das die geschnittenn werden
-<lb/>soͤllent und des glich <measure commodity="bread" quantity="10" unit="Laib">x</measure>, <measure commodity="bread" quantity="30" unit="Laib">xxx</measure> und <measure commodity="bread" quantity="40" unit="Laib">xl</measure> yeglichs nach march<lb break="no"/>zall.<note>Diese Angaben beziehen sich auf die Brote der Fochenzer, die aus dem Getreide Brot herstellten, das ihnen ihre Kunden zur Verfügung stellten. Je nach Anzahl von Broten, die aus einem Viertelmütt Getreide gebacken wurden, sprach man von Zehner-, Zwanziger-, Dreissiger- und Vierzigerbroten (wobei sich das vorgeschriebene Gewicht umgekehrt proportional zur Anzahl Brote bemass). Die Brote der Feiler hingegen waren nach ihrem Preis benannt, weshalb ihr Gewicht vom Preis des Getreides abhängig war. Zu den Berufsgruppen der Fochenzer und Feiler und deren Broten vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 148-150</bibl>.</note> 
-Und ob sy ouch brot findent, das tenck<!-- "tangg", meint in Bezug auf Brot ungenügend gebacken, zäh; vgl. Idiotikon 13, 597 --> und mit gevaͤr<lb break="no"/>likait 
+                            <seg>Und das ouch die <orgName ref="org004920"
+                                    >pfister</orgName> alle by iren
+<lb/>eyden inen das brot, so sy gebachen habent, <date
+                                    dur="R/P1D"
+                                    >alle tag</date> zoͤigent.
+<lb/>Und weliches unnder <measure
+                                    type="weight" commodity="bread" unit="Lot" quantity="28"
+                                            >acht und <subst><del>zwentzigk</del><add place="above"
+                                            hand="later hand"
+                                    >drissig</add></subst> lotten</measure> wigt, dero
+<lb/>man git <measure
+                                    commodity="bread" quantity="20" unit="Laib"
+                                    >xx brot</measure> fu̍r <measure type="volume" unit="Viertel"
+                                    quantity="1"
+                                    >ein fiertel</measure>, das die geschnittenn werden
+<lb/>soͤllent und des glich <measure
+                                    commodity="bread" quantity="10" unit="Laib"
+                                    >x</measure>, <measure commodity="bread" quantity="30"
+                                    unit="Laib">xxx</measure> und <measure commodity="bread"
+                                    quantity="40" unit="Laib">xl</measure> yeglichs nach march<lb
+                                    break="no"
+                                            />zall.<note>Diese Angaben beziehen sich auf die Brote der Fochenzer, die aus dem Getreide Brot herstellten, das ihnen ihre Kunden zur Verfügung stellten. Je nach Anzahl von Broten, die aus einem Viertelmütt Getreide gebacken wurden, sprach man von Zehner-, Zwanziger-, Dreissiger- und Vierzigerbroten (wobei sich das vorgeschriebene Gewicht umgekehrt proportional zur Anzahl Brote bemass). Die Brote der Feiler hingegen waren nach ihrem Preis benannt, weshalb ihr Gewicht vom Preis des Getreides abhängig war. Zu den Berufsgruppen der Fochenzer und Feiler und deren Broten vgl. <bibl><ref
+                                            target="/startseite/literaturverzeichnis"
+                                            >Brühlmeier 2013</ref>, S. 148-150</bibl>.</note> 
+Und ob sy ouch brot findent, das tenck<!-- "tangg", meint in Bezug auf Brot ungenügend gebacken, zäh; vgl. Idiotikon 13, 597 --> und mit gevaͤr<lb
+                                    break="no"
+                                    />likait 
 gebachen wëre, von soͤlichem brot zuͦnemenn und zuzeichenn,
 <lb/>wes das sye, und fu̍r unser herrnn zebringen. Und wie denn
-<lb/>min hernn das straffen, das es also beston und das die ge<lb break="no"/>schnittennen
+<lb/>min hernn das straffen, das es also beston und das die ge<lb
+                                    break="no"
+                                    />schnittennen
 buͦssen und wie unnser hernn von des tengken brotz
-<lb/>wegen die buͦssen machen, das die dem <persName ref="per014240">Ballinger</persName><note>Vermutlich handelt es sich um <persName ref="per014240">Rudolf Balding</persName>, der für das Jahr 1484 als Einnehmer von Bussen belegt ist (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263932">StAZH B VI 235</ref>, fol. 461v</bibl>).</note><!-- Zum Einziehen der Busse vgl. QZZG, Nr.&#160;154 --> empfolhenn
+<lb/>wegen die buͦssen machen, das die dem <persName
+                                    ref="per014240"
+                                        >Ballinger</persName><note>Vermutlich handelt es sich um <persName
+                                        ref="per014240"
+                                            >Rudolf Balding</persName>, der für das Jahr 1484 als Einnehmer von Bussen belegt ist (<bibl><ref
+                                            target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=263932"
+                                            >StAZH B VI 235</ref>, fol. 461v</bibl>).</note><!-- Zum Einziehen der Busse vgl. QZZG, Nr.&#160;154 --> empfolhenn
 <lb/>werden und der die von stund an von denen in ziechen sol.
 <lb/>Und ob im soͤlich buͦssen zuͦgeben nit gefolgen moͤchten,
 <lb/>das er es dann fu̍rderlich minen herenn fu̍rlegen, sich
 <lb/>dem nach wytter zeunderreden, wie die ingetzogenn
 <lb/>werdenn sollent.</seg>
-</p>
-<pb n="2"/>
-<p>
-<lb/>Und das die brotschower das brot, so die veiler bachent, zuͦ
+                        </p>
+                        <pb n="2"/>
+                        <p>
+                            <lb/>Und das die brotschower das brot, so die veiler bachent, zuͦ
 <lb/>glicher wiss und obstat schowen und was sy zuͦ klein bedunckt
 <lb/>schniden und die buͦssen, als obstat, ouch in getzogen werdenn
 <lb/>sollent.
 </p>
-<p>
-<seg><lb/>Und besonnders ouch des veylen brots halb habent miner
+                        <p>
+                            <seg><lb/>Und besonnders ouch des veylen brots halb habent miner
 <lb/>herren angesechenn und geordnet, das alle die, so brot
-<lb/>zuͦ veilem koff bachen, <date dur="R/P1D">taͤglichs</date> alles das brot, so sy des
-<lb/><date dur="P1D">tags</date> verkauffen wellen, uf ein naͤmliche stund, so inen ye
-<lb/>im <date dur="P1Y">jar</date> nach gelegennheit des zits durch die brotschower
+<lb/>zuͦ veilem koff bachen, <date
+                                    dur="R/P1D"
+                                    >taͤglichs</date> alles das brot, so sy des
+<lb/><date dur="P1D"
+                                    >tags</date> verkauffen wellen, uf ein naͤmliche stund, so inen ye
+<lb/>im <date
+                                    dur="P1Y"
+                                    >jar</date> nach gelegennheit des zits durch die brotschower
 <lb/>gesetzt wirt, in der brotlouben by einander samentlich
-<lb/>haben und die brotschower das <date dur="R/P1D">alltag</date> beschowen und was
+<lb/>haben und die brotschower das <date
+                                    dur="R/P1D"
+                                    >alltag</date> beschowen und was
 <lb/>zuͦ klein oder straffpar ist, zerschniden. Und sollent suss die
-<lb/>veilbacher by iren hu̍sern ganntz dehein brot verkauffenn, deß<lb break="no"/>glichen,
+<lb/>veilbacher by iren hu̍sern ganntz dehein brot verkauffenn, deß<lb
+                                    break="no"
+                                    />glichen,
 ob einer uff die stund, so soͤlich brot geschowet wurde,
-<lb/>das sin in der brotlouben nit hette, das er dann nu̍tzit ver<lb break="no"/>kouffen,
+<lb/>das sin in der brotlouben nit hette, das er dann nu̍tzit ver<lb
+                                    break="no"/>kouffen,
 biß es geschowet werde.</seg>
-<seg>Und welicher wider
+                            <seg>Und welicher wider
 <lb/>deren dheins hanndeln oder sin brot zuͦ klein funden wurde,
-<lb/>sol zuͦ buͦss <measure type="currency" unit="ß" quantity="10">zechen schilling</measure>, aͧn gnad, so offt das beschicht,
+<lb/>sol zuͦ buͦss <measure
+                                    type="currency" unit="ß" quantity="10"
+                                    >zechen schilling</measure>, aͧn gnad, so offt das beschicht,
 <lb/>geben.</seg>
+                        </p>
+                        <p>
+                            <lb/>Unnd sind gesetzt zuͦ brotschowern:
 </p>
-<p>
-<lb/>Unnd sind gesetzt zuͦ brotschowern:
+                        <p>
+                            <lb/><persName ref="per014486"
+                                >Niclaus Frowenfeld</persName> von <orgName ref="org004016"
+                                >raͤten</orgName>,
+<lb/><persName ref="per015391"
+                                >Heinrich Phister</persName> von <orgName ref="org005086"
+                                >meistern</orgName>,
+<lb/><persName ref="per018023"
+                                >Hanns Rey der junng</persName> von <orgName ref="org004906"
+                                >burgern</orgName>.
 </p>
-<p>
-<lb/><persName ref="per014486">Niclaus Frowenfeld</persName> von <orgName ref="org004016">raͤten</orgName>,
-<lb/><persName ref="per015391">Heinrich Phister</persName> von <orgName ref="org005086">meistern</orgName>,
-<lb/><persName ref="per018023">Hanns Rey der junng</persName> von <orgName ref="org004906">burgern</orgName>.
-</p>
-<pb n="3"/>
-<p><add place="next page" hand="other hand">
-<lb/>Min herrnn haben by soͤlicher ordnung den <orgName ref="org004920">pfistern</orgName> naͧgelaͧssen und
-<lb/>vergoumen, daß die veiler von dem brot, so am <time period="morning">morgen</time>, als obstaͧt,
-<lb/>geschowet wirdt, einer byß uff <measure type="currency" unit="ß" quantity="5">fu̍nnff schilling</measure> wert ungevaͧrlich
-<lb/>wider heim zuͦ hus schicken, desglich zuͦ <time period="byNight">nacht</time>, so die brotlouben
-<lb/>beslossen wirdt, aber <measure type="currency" unit="ß" quantity="5">fu̍nnff schilling</measure> wert mit im heimtragen
+                        <pb n="3"/>
+                        <p><add place="next page" hand="other hand">
+                                <lb/>Min herrnn haben by soͤlicher ordnung den <orgName
+                                    ref="org004920"
+                                    >pfistern</orgName> naͧgelaͧssen und
+<lb/>vergoumen, daß die veiler von dem brot, so am <time
+                                    period="morning"
+                                    >morgen</time>, als obstaͧt,
+<lb/>geschowet wirdt, einer byß uff <measure
+                                    type="currency" unit="ß" quantity="5"
+                                    >fu̍nnff schilling</measure> wert ungevaͧrlich
+<lb/>wider heim zuͦ hus schicken, desglich zuͦ <time
+                                    period="byNight"
+                                    >nacht</time>, so die brotlouben
+<lb/>beslossen wirdt, aber <measure
+                                    type="currency" unit="ß" quantity="5"
+                                    >fu̍nnff schilling</measure> wert mit im heimtragen
 <lb/>und das by sinem hus verkouffen mag, daͧmit biderblut
 <lb/>des minder manngel haben.</add></p>
-<pb n="4"/>
-<div><ab place="verso" type="dorsal"><lb/>Der brotschauweren ordnung und eid</ab></div>
-</div>
-</body>
-<back>
-<div>
-<p>In den periodisch erneuerten Bäckerordnungen setzte der <orgName ref="org002406">Rat</orgName> die Brotgewichte fest, wobei er auf die Schwankungen des Getreidepreises reagierte (vgl. dazu die Ordnung des Jahres 1530, <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_148">SSRQ ZH NF I/1/3, Nr. 148</ref></bibl>). Die Bäckerordnung des Jahres 1416 schrieb vor, dass in der im Erdgeschoss des <placeName ref="loc008754">Rathauses</placeName> untergebrachten Brotlaube, wo die Feilbäcker ihre Stände hatten, eine öffentliche Waage aufgestellt sein musste, damit die Kunden die Korrektheit der Gewichte überprüfen konnten (<bibl><ref>Zürcher Stadtbücher</ref>, Bd. 2/1, S. 49-51, Nr. 74</bibl>). Zusätzlich wurden Gewicht und Qualität der Brote durch die amtlichen Brotbeschauer begutachtet. Deren Tätigkeit erwähnt bereits der Zunftbrief der Bäcker des Jahres 1336 (<bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 11</bibl>). Die Bäckerordnung von 1416 sieht die Ernennung von drei Beschauern vor, welche ein- bis zweimal wöchentlich die Brote zu kontrollieren hatten.</p>
-<p>Im Jahr 1481 beschloss der <orgName ref="org002406">Rat</orgName> die Ausarbeitung einer ausführlichen Ordnung für die Brotbeschauer, welche diese jährlich zu beschwören hatten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588697">StAZH A 77.2, Nr. 9</ref></bibl>). In den nachfolgenden Jahren wurde diese jeweils anlässlich der Einsetzung der Beschauer leicht erweitert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588703">StAZH A 77.2, Nr. 10</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588705">StAZH A 77.2, Nr. 11</ref></bibl>). Die vorliegende Aufzeichnung lässt sich durch die Amtszeiten der Räte <persName ref="per014486">Niklaus Frauenfelder</persName> und <persName ref="per015391">Heinrich Pfister</persName> auf die Mitte der 1480er Jahre datieren.</p>
-<p>Für den Zunftbrief der <orgName ref="org005075">Zunft zum Weggen</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_044">SSRQ ZH NF I/1/3, Nr. 44</ref></bibl>; zur Brotlaube vgl. <bibl><ref target="/startseite/literaturverzeichnis">Brühlmeier 2013</ref>, S. 243-245</bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+                        <pb n="4"/>
+                        <div>
+                            <ab place="verso" type="dorsal"
+                                ><lb/>Der brotschauweren ordnung und eid</ab>
+                        </div>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>In den periodisch erneuerten Bäckerordnungen setzte der <orgName
+                                ref="org002406"
+                                    >Rat</orgName> die Brotgewichte fest, wobei er auf die Schwankungen des Getreidepreises reagierte (vgl. dazu die Ordnung des Jahres 1530, <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_148"
+                                    >SSRQ ZH NF I/1/3, Nr. 148</ref></bibl>). Die Bäckerordnung des Jahres 1416 schrieb vor, dass in der im Erdgeschoss des <placeName
+                                ref="loc008754"
+                                    >Rathauses</placeName> untergebrachten Brotlaube, wo die Feilbäcker ihre Stände hatten, eine öffentliche Waage aufgestellt sein musste, damit die Kunden die Korrektheit der Gewichte überprüfen konnten (<bibl><ref>Zürcher Stadtbücher</ref>, Bd. 2/1, S. 49-51, Nr. 74</bibl>). Zusätzlich wurden Gewicht und Qualität der Brote durch die amtlichen Brotbeschauer begutachtet. Deren Tätigkeit erwähnt bereits der Zunftbrief der Bäcker des Jahres 1336 (<bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >QZZG</ref>, Bd. 1, Nr. 11</bibl>). Die Bäckerordnung von 1416 sieht die Ernennung von drei Beschauern vor, welche ein- bis zweimal wöchentlich die Brote zu kontrollieren hatten.</p>
+                        <p>Im Jahr 1481 beschloss der <orgName ref="org002406"
+                                    >Rat</orgName> die Ausarbeitung einer ausführlichen Ordnung für die Brotbeschauer, welche diese jährlich zu beschwören hatten (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588697"
+                                    >StAZH A 77.2, Nr. 9</ref></bibl>). In den nachfolgenden Jahren wurde diese jeweils anlässlich der Einsetzung der Beschauer leicht erweitert (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588703"
+                                    >StAZH A 77.2, Nr. 10</ref></bibl>; <bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3588705"
+                                    >StAZH A 77.2, Nr. 11</ref></bibl>). Die vorliegende Aufzeichnung lässt sich durch die Amtszeiten der Räte <persName
+                                ref="per014486">Niklaus Frauenfelder</persName> und <persName
+                                ref="per015391"
+                            >Heinrich Pfister</persName> auf die Mitte der 1480er Jahre datieren.</p>
+                        <p>Für den Zunftbrief der <orgName ref="org005075"
+                                >Zunft zum Weggen</orgName> vgl. <bibl><ref
+                                    target="/suche/detail/SSRQ_ZH_NF_I_1_3_044"
+                                    >SSRQ ZH NF I/1/3, Nr. 44</ref></bibl>; zur Brotlaube vgl. <bibl><ref
+                                    target="/startseite/literaturverzeichnis"
+                                >Brühlmeier 2013</ref>, S. 243-245</bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>

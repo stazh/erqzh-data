@@ -3,63 +3,131 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_054</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168898">StAZH A 42.1.13, Nr. 3</idno></msIdentifier><head>Reislaufverbot der Stadt Zürich</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich verordnen, dass niemand ohne Erlaubnis in fremde Dienste ziehen soll, in Anbetracht des grossen Schadens, welcher der Stadt, der Landschaft und der Eidgenossenschaft aus dem Reislauf erwächst und angesichts des Umstandes, dass das Reislaufverbot Bestandteil des vor Gott und den Heiligen geschworenen Eides ist. Zuwiderhandelnde sollen als ehrlos betrachtet, ihr Vermögen konfisziert werden und sie von sämtlichen städtischen Ämter ausgeschlossen und auch nicht mehr als Zeugen vor Gericht zugelassen werden. Sofern Anwerber für fremde Kriegsdienste verhaftet werden, sind diese zum Tod zu verurteilen. Alle diejenigen, die vor Erlass des vorliegenden Verbotes in fremde Dienste gezogen und noch nicht zurückgekehrt oder bestraft sind, sollen für eine Nacht ins Gefängnis gelegt und nicht wieder freigelassen werden, bis sie die Busse von 10 Pfund bezahlt oder sich für deren Entrichtung innerhalb von einem Monat verbürgt haben. </summary><msItem><textLang>Deutsch</textLang><filiation type="current">Aufzeichnung (Einzelblatt)</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1494-11-10"/></origin></history><additional><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 750, Nr. 16; Romer 1995, S. 345, Tabelle 12 und S. 348, Tabelle 14 (nach Überlieferung in A 166.1)</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000946">Ehre</term><term ref="key004082">Solddienst</term><term ref="key000604">Todesstrafe</term><term ref="key005458">Werbung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div><pb n="1" facs="StAZH_A_42_1_13__Nr__3__r_.tif"/>
-<p>
-<seg><lb/>Wir, der <orgName ref="org002406">burgermeister, der raͧt und die zweyhundert, der gros raͧt, der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>, haben
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_3_054</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168898"
+       >StAZH A 42.1.13, Nr. 3</idno>
+     </msIdentifier>
+     <head>Reislaufverbot der Stadt Zürich</head>
+     <msContents>
+      <summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich verordnen, dass niemand ohne Erlaubnis in fremde Dienste ziehen soll, in Anbetracht des grossen Schadens, welcher der Stadt, der Landschaft und der Eidgenossenschaft aus dem Reislauf erwächst und angesichts des Umstandes, dass das Reislaufverbot Bestandteil des vor Gott und den Heiligen geschworenen Eides ist. Zuwiderhandelnde sollen als ehrlos betrachtet, ihr Vermögen konfisziert werden und sie von sämtlichen städtischen Ämtern ausgeschlossen und auch nicht mehr als Zeugen vor Gericht zugelassen werden. Sofern Anwerber für fremde Kriegsdienste verhaftet werden, sind diese zum Tod zu verurteilen. Alle diejenigen, die vor Erlass des vorliegenden Verbotes in fremde Dienste gezogen und noch nicht zurückgekehrt oder bestraft sind, sollen für eine Nacht ins Gefängnis gelegt und nicht wieder freigelassen werden, bis sie die Busse von 10 Pfund bezahlt oder sich für deren Entrichtung innerhalb von einem Monat verbürgt haben. </summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnung (Einzelblatt)</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="31.0"/>
+          <width unit="cm" quantity="22.0"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1494-11-10"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Nachweis</head>
+       <bibl>Schott-Volm, Repertorium, S. 750, Nr. 16; Romer 1995, S. 345, Tabelle 12 und S. 348, Tabelle 14 (nach Überlieferung in StAZH A 166.1)</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000184">Bussen</term>
+     <term ref="key000946">Ehre</term>
+     <term ref="key004082">Solddienst</term>
+     <term ref="key000604">Todesstrafe</term>
+     <term ref="key005458">Werbung</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="1" facs="StAZH_A_42_1_13__Nr__3__r_.tif"/>
+      <p>
+       <seg><lb/>Wir, der <orgName ref="org002406"
+          >burgermeister, der raͧt und die zweyhundert, der gros raͧt, der stat <placeName
+          ref="loc000065"
+         >Zu̍rich</placeName></orgName>, haben
 <lb/>angesehen und betrachtet den mercklichen schaden, mangel und gebrechen, so unser
-<lb/>gemeinen stat und landschaft, desglich gemeiner <placeName ref="loc000153">Eidgnoschaft</placeName>, durch die ungehor<lb break="no"/>sammen,
+<lb/>gemeinen stat und landschaft, desglich gemeiner <placeName
+         ref="loc000153">Eidgnoschaft</placeName>, durch die ungehor<lb break="no"
+          />sammen,
 hinloufenden reisknecht begegnot, u̍ber das unnd sölichs von allen
 <lb/>den unsern zuͦ got und den heiligen mit gelerten eyden verschworen wirt, sölichs
-<lb/>zuͦ verkommen und abzuͦstellen.<note>Vgl. dazu den Eid der <orgName ref="org001187">Bürgergemeinde</orgName>
- (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_029">SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>).</note> So haben wir vorab gott, dem allmechtigen, zuͦ lob,
+<lb/>zuͦ verkommen und abzuͦstellen.<note>Vgl. dazu den Eid der <orgName
+          ref="org001187">Bürgergemeinde</orgName>
+ (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_029"
+         >SSRQ ZH NF I/1/3, Nr. 29</ref></bibl>).</note> So haben wir vorab gott, dem allmechtigen, zuͦ lob,
 <lb/>allen eren und frommkeit zuͦ trost, ouch unser stat und landschaft, desglich gmeiner
-<lb/><placeName ref="loc000153">Eidgnoschaft</placeName> zuͦ nutz und guͦt gesetzt und geordnot, setzen und ordnen hiemmit,
+<lb/><placeName
+         ref="loc000153"
+         >Eidgnoschaft</placeName> zuͦ nutz und guͦt gesetzt und geordnot, setzen und ordnen hiemmit,
 <lb/>das keiner der unsern in keinen krieg noch reis hinziehen lasen, ryten, gaͧn, faren
-<lb/>noch keins weͣgs kommen sol, oͧn eins <orgName ref="org002406">burgermeisters und raͧtes</orgName> gunst, wissen und
+<lb/>noch keins weͣgs kommen sol, oͧn eins <orgName
+         ref="org002406"
+        >burgermeisters und raͧtes</orgName> gunst, wissen und
 <lb/>erloben, wie dann das in unser stat und landschaft geschworen ist und wirt.</seg>
-<seg><lb/>Welicher aber hinfu̍r dawider ungehorsam erschinen und sölichen sinen ge<lb break="no"/>swornen
+       <seg><lb/>Welicher aber hinfu̍r dawider ungehorsam erschinen und sölichen sinen ge<lb
+         break="no"
+         />swornen
 eyde u̍bersehen und nit halten wurde, das dann der sin ere und guͦt
 <lb/>verwu̍rckt und verloren haben und darumb gestraͧft werden, also, das sin guͦt
-<lb/>unser gemeiner stat verfallen sin und dar zuͦ er niemer nie an <orgName ref="org004016">raͧt</orgName>, gericht,
+<lb/>unser gemeiner stat verfallen sin und dar zuͦ er niemer nie an <orgName
+         ref="org004016"
+        >raͧt</orgName>, gericht,
 <lb/>eͣmpter oder dienst genommen noch gesetzt, ouch zuͦ dheiner kuntschaft oder
 <lb/>zu̍gknuss zuͦ gelaͧsen, sunder fu̍r einen erlosen, verzalten mann geachtot und
 <lb/>gehalten werden sol. Und dar zuͦ, ob er unser stat burger oder zu̍nftig weͣre,
@@ -69,26 +137,32 @@ eyde u̍bersehen und nit halten wurde, das dann der sin ere und guͦt
 <lb/>hinfu̍r understaͧn oder thuͦn wurden, betretten und erlangt werden möchten,
 <lb/>das die fengklich angenommen und vom leben zum tod, oͧn gnad, gericht
 <lb/>werden söllen.</seg>
-</p>
-<p>
-<seg><lb/>Aber alle die, so vor diser unser ordnunng und satzung in krieg und reysen
+      </p>
+      <p>
+       <seg><lb/>Aber alle die, so vor diser unser ordnunng und satzung in krieg und reysen
 <lb/>gezogen und noch nit widerkommen oder nit gestraͧft sind, das die, so bald
 <lb/>sy kommen, gestraft werden und irthalb dismaͧls bestoͧn sol, wie unser
 <lb/>ordnunng vor darumb angesehen innhalt, namlich, das ir jeder in
-<lb/>fangknuss gelegt werden und darinn <date dur="P1D">ein nacht</date> bliben und doch demnaͧch
-<lb/>nit usgelaͧsen werden sölle, er habe dann zuͦ vor <measure type="currency" unit="lb" quantity="10">x <abbr>lib</abbr></measure> unnser stat
-<pb n="2" facs="StAZH_A_42_1_13__Nr__3__v_.tif
+<lb/>fangknuss gelegt werden und darinn <date
+         dur="P1D"
+         >ein nacht</date> bliben und doch demnaͧch
+<lb/>nit usgelaͧsen werden sölle, er habe dann zuͦ vor <measure
+         type="currency" unit="lb" quantity="10">x <abbr>lib</abbr></measure> unnser stat
+<pb n="2"
+         facs="StAZH_A_42_1_13__Nr__3__v_.tif
 "/>
-<lb/>weͣrschaft bar gegeben oder die in <date dur="P1M" type="deadline">eim manot</date> dem naͤchsten darnaͧch zuͦ
+        <lb/>weͣrschaft bar gegeben oder die in <date dur="P1M" type="deadline"
+        >eim manot</date> dem naͤchsten darnaͧch zuͦ
 <lb/>bezalen naͧch notturft vertröst. Unnd ob der selben keiner dannethin
 <lb/>wider ungehorsam und in krieg oder reysen hinziehen wurde, das der
 <lb/>demnaͧch och, lut der obgeschribnen ordnunng, gestraͧft werden sol.</seg>
-<seg>Actum
- <lb/><origDate when="1494-11-10">mentag vor <persName ref="per000141">Martini</persName> anno <abbr>etc</abbr> lxxxxiiij</origDate>.</seg>
-</p>
-</div>
-</body>
-</text>
-</group>
-</text>
+       <seg>Actum
+ <lb/><origDate when="1494-11-10">mentag vor <persName ref="per000141"
+          >Martini</persName> anno <abbr>etc</abbr> lxxxxiiij</origDate>.</seg>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
 </TEI>

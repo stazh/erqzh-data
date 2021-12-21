@@ -3,194 +3,329 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_125</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3558612">StAZH A 61.1, Nr. 3, S. 1-18</idno></msIdentifier><head>Almosenordnung der Stadt Zürich</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich bestätigen die Ordnung für das Almosen. Diese umfasst die folgenden Bestimmungen: tägliche morgendliche Austeilung von Brei und Brot beim Predigerkloster; Einsetzung von Rudolf Stoll, Georg Göldli, Ulrich Trinkler und Hans Schneeberger zu Pflegern sowie von Heinrich Brennwald als Obmann und Schreiber des Almosenamts mit deren Eid; regelmässige Rechnungslegung von Obmann und Pflegern gegenüber Bürgermeister und Rat; Einsetzung zweier Aufseher in jeder Wacht zur Führung der Liste der zum Almosen berechtigten Bürger; Verweigerung des Almosens gegenüber Verschwendern und anderen selbstverschuldeten Armen; Austeilung des Almosens an Bedürftige, die ohne eigenes Verschulden arm geworden sind und innerhalb der Stadt sowie ausserhalb auf dem Gebiet der drei Kirchspiele Grossmünster, Fraumünster und Sankt Peter ansässig sind; Verpflichtung der Empfänger zum Tragen eines Abzeichens; Verbot des Bettelns; Verpflegung und Beherbergung fremder Bettler im Spital und der Aussätzigen im Siechenhaus an der Spanweid; Ermahnung seitens der Pfarrer gegenüber der Kirchgemeinde zur Leistung von Spenden für das Almosen; Verwendung von geistlichen Stiftungen und Bruderschaften sowie den Überschüssen aus den Klosterämtern und Pfründen für das Almosen; Zulassung von nicht mehr als acht Schülern pro Schule, die durch das Almosen unterstützt werden; Verwendung der Räumlichkeiten des Predigerklosters für das Spital und für eine Herberge für Fremde (Ellendenherberge); Einrichtung eines Blatternhauses im Kloster am Oettenbach mit Verpflichtung einer Magd; Weisung gegenüber den Bewohnern der Landschaft, dass fremde Bettler nicht länger als eine Nacht beherbergt werden dürfen; Aufzeichnung der Erträge der Kirchengüter auf der Landschaft zwecks Versorgung der Armen durch die dortigen Kirchspiele; Erbanspruch des Almosenamts gegenüber der Habe von Almosenempfängern, sofern die nächsten Verwandten ihre Unterstützungspflicht vernachlässigt haben; Unterstützung von Wöchnerinnen mit Wein, Brei und Brot; keine Übernahme von Kosten, die durch ärztliche Tätigkeit von dazu nicht befugten Personen entstanden sind.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1525-01-15"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="21.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1533-01-01" to="1533-12-31">Die Almosenordnung wurde am 15. Januar 1525 verabschiedet. In das vorliegende Heft wurde sie gemeinsam mit Nachträgen der Jahre 1533-1535 von Stadtschreiber Werner Beyel übertragen.</origDate></origin></history><additional><listBibl><head>Edition</head><bibl>Egli, Actensammlung, Nr. 619</bibl></listBibl><listBibl><head>Teiledition</head><bibl>Bullinger, Reformationsgeschichte, Bd. 1, S. 235-237</bibl></listBibl><listBibl><head>Übertragung in modernes Deutsch (in Auszügen)</head><bibl>Mörikofer 1867-1869, Bd. 1, S. 252-255</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key005358">Armenversorgung</term><term ref="key000581">Bettler</term><term ref="key000179">Eid</term><term ref="key000597">Erbrecht</term><term ref="key000786">Gesinde</term><term ref="key003496">Krankheiten</term><term ref="key000795">Schulwesen</term><term ref="key005333">Schwangerschaft</term><term ref="key004079">Spenden</term><term ref="key003559">Spital</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="1" facs="StAZH_A_61_1__Nr__3__S__01_.tif"/>
-<head><hi rend="rubricated"><lb/>Wacht rodel, ordnung
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_3_125</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3558612"
+       >StAZH A 61.1, Nr. 3, S. 1-18</idno>
+     </msIdentifier>
+     <head>Almosenordnung der Stadt Zürich</head>
+     <msContents>
+      <summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich bestätigen die Ordnung für das Almosen. Diese umfasst die folgenden Bestimmungen: tägliche morgendliche Austeilung von Brei und Brot beim Predigerkloster; Einsetzung von Rudolf Stoll, Georg Göldli, Ulrich Trinkler und Hans Schneeberger zu Pflegern sowie von Heinrich Brennwald als Obmann und Schreiber des Almosenamts mit deren Eid; regelmässige Rechnungslegung von Obmann und Pflegern gegenüber Bürgermeister und Rat; Einsetzung zweier Aufseher in jeder Wacht zur Führung der Liste der zum Almosen berechtigten Bürger; Verweigerung des Almosens gegenüber Verschwendern und anderen selbstverschuldeten Armen; Austeilung des Almosens an Bedürftige, die ohne eigenes Verschulden arm geworden sind und innerhalb der Stadt sowie ausserhalb auf dem Gebiet der drei Kirchspiele Grossmünster, Fraumünster und Sankt Peter ansässig sind; Verpflichtung der Empfänger zum Tragen eines Abzeichens; Verbot des Bettelns; Verpflegung und Beherbergung fremder Bettler im Spital und der Aussätzigen im Siechenhaus an der Spanweid; Ermahnung seitens der Pfarrer gegenüber der Kirchgemeinde zur Leistung von Spenden für das Almosen; Verwendung von geistlichen Stiftungen und Bruderschaften sowie den Überschüssen aus den Klosterämtern und Pfründen für das Almosen; Zulassung von nicht mehr als acht Schülern pro Schule, die durch das Almosen unterstützt werden; Verwendung der Räumlichkeiten des Predigerklosters für das Spital und für eine Herberge für Fremde (Ellendenherberge); Einrichtung eines Blatternhauses im Kloster am Oetenbach mit Verpflichtung einer Magd; Weisung gegenüber den Bewohnern der Landschaft, dass fremde Bettler nicht länger als eine Nacht beherbergt werden dürfen; Aufzeichnung der Erträge der Kirchengüter auf der Landschaft zwecks Versorgung der Armen durch die dortigen Kirchspiele; Erbanspruch des Almosenamts gegenüber der Habe von Almosenempfängern, sofern die nächsten Verwandten ihre Unterstützungspflicht vernachlässigt haben; Unterstützung von Wöchnerinnen mit Wein, Brei und Brot; keine Übernahme von Kosten, die durch ärztliche Tätigkeit von dazu nicht befugten Personen entstanden sind.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <author role="scribe">Werner Beyel, Stadtschreiber von Zürich</author>
+       <filiation type="current">Abschrift</filiation>
+       <filiation type="original"><origDate when="1525-01-15"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="32.0"/>
+          <width unit="cm" quantity="21.5"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate from="1533-01-01" to="1533-12-31"
+        >Die Almosenordnung wurde am 15. Januar 1525 verabschiedet. Ins vorliegende Heft wurde sie gemeinsam mit Nachträgen der Jahre 1533-1535 von Stadtschreiber Werner Beyel übertragen.</origDate></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Edition</head>
+       <bibl>Egli, Actensammlung, Nr. 619</bibl>
+      </listBibl>
+      <listBibl>
+       <head>Teiledition</head>
+       <bibl>Bullinger, Reformationsgeschichte, Bd. 1, S. 235-237</bibl>
+      </listBibl>
+      <listBibl>
+       <head>Übertragung in modernes Deutsch (in Auszügen)</head>
+       <bibl>Mörikofer 1867-1869, Bd. 1, S. 252-255</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000065">Amtleute</term>
+     <term ref="key005358">Armenversorgung</term>
+     <term ref="key000581">Bettler</term>
+     <term ref="key000179">Eid</term>
+     <term ref="key000597">Erbrecht</term>
+     <term ref="key000786">Gesinde</term>
+     <term ref="key003496">Krankheiten</term>
+     <term ref="key000795">Schulwesen</term>
+     <term ref="key005333">Schwangerschaft</term>
+     <term ref="key004079">Spenden</term>
+     <term ref="key003559">Spital</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="1" facs="StAZH_A_61_1__Nr__3__S__01_.tif"/>
+      <head><hi rend="rubricated"
+         ><lb/>Wacht rodel, ordnung
 <lb/>unnd satzung die armen
-<lb/>und das almuͦsenn be<lb break="no"/>traͤffennde <abbr>etc</abbr>, <date when="1525">1525</date></hi></head>
-<div>
-<ab type="dorsal" place="below" hand="hand18c"><lb/>Ordnung- und satzungen die verwalthung des allmuͦßenamths <lb/>betreffend, <date when="1525">1525</date></ab>
-</div>
-<pb n="2" facs="StAZH_A_61_1__Nr__3__S__02_.tif"/>
-<pb n="3" facs="StAZH_A_61_1__Nr__3__S__03_.tif"/>
-<head type="subtitle">
-<lb/>Ordnung unnd artickel antreffennd das 
-<lb/>almuͦsenn, wie die vor herrenn <orgName ref="org002406">burgermeister 
+<lb/>und das almuͦsenn be<lb
+         break="no"/>traͤffennde <abbr>etc</abbr>, <date when="1525">1525</date></hi></head>
+      <div>
+       <ab type="dorsal" place="below" hand="hand18c"
+         ><lb/>Ordnung- und satzungen die verwalthung des allmuͦßenamths <lb/>betreffend, <date
+         when="1525">1525</date></ab>
+      </div>
+      <pb n="2" facs="StAZH_A_61_1__Nr__3__S__02_.tif"/>
+      <pb n="3" facs="StAZH_A_61_1__Nr__3__S__03_.tif"/>
+      <head type="subtitle">
+       <lb/>Ordnung unnd artickel antreffennd das 
+<lb/>almuͦsenn, wie die vor herrenn <orgName
+        ref="org002406">burgermeister 
 <lb/>unnd rat, ouch dem grossen rat der stat
-<lb/><placeName ref="loc000065">Zu̍rich</placeName></orgName>, gehoͤrt unnd bestaͤt sind, actum amm
-<lb/><origDate when="1525-01-15">xv tag januarii anno m v<hi rend="sup">c</hi> xxv</origDate>
-</head>
-</div>
-<div>
-<ab type="marginal note" place="left margin"><hi rend="rubricated"><lb/>Muͦß und <lb/>brot zuͦ <lb/>den <orgName ref="org004150"><choice><abbr>pred</abbr><expan>predigern</expan></choice></orgName></hi></ab>
-</div>
-<div>
-<p><lb/>Des ersten, damit die armen lu̍t ab der gassenn
+<lb/><placeName
+         ref="loc000065"
+        >Zu̍rich</placeName></orgName>, gehoͤrt unnd bestaͤt sind, actum amm
+<lb/><origDate
+        when="1525-01-15">xv tag januarii anno m v<hi rend="sup">c</hi> xxv</origDate>
+      </head>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin"><hi rend="rubricated"
+         ><lb/>Muͦß und <lb/>brot zuͦ <lb/>den <orgName ref="org004150"><choice>
+          <abbr>pred</abbr>
+          <expan>predigern</expan>
+         </choice></orgName></hi></ab>
+     </div>
+     <div>
+      <p><lb/>Des ersten, damit die armen lu̍t ab der gassenn
 <lb/>gebracht, ist zuͦ einem anfang angesehenn, das man
-<lb/><date dur="R/P1D">alle tag</date> ein kessel mit habermel, gerstenn oder 
-<lb/>anderem gemuͤs zuͦ den <orgName ref="org004150">predigerenn</orgName> koche, wie 
-<lb/>hernach volget, muͦs unnd brot <time period="morning">amm morgenn</time>, so
-<lb/>man die <placeName ref="loc010607">Prediger</placeName> gloggen verlu̍tet hat, gebenn
-<lb/>soͤlle. Soͤllichs ze tuͦnd und us ze teilenn sind ver<lb break="no"/>ordnet
-<num value="2">zwen</num> priester, namblich her <persName ref="per015559">Annthoni
-<lb/>Walder</persName> unnd her <persName ref="per015471">Joͤrg Sytz</persName>, sampt <persName ref="per015377">Annderesenn</persName>,
+<lb/><date
+        dur="R/P1D"
+        >alle tag</date> ein kessel mit habermel, gerstenn oder 
+<lb/>anderem gemuͤs zuͦ den <orgName
+        ref="org004150">predigerenn</orgName> koche, wie 
+<lb/>hernach volget, muͦs unnd brot <time
+        period="morning">amm morgenn</time>, so
+<lb/>man die <placeName ref="loc010607"
+        >Prediger</placeName> gloggen verlu̍tet hat, gebenn
+<lb/>soͤlle. Soͤllichs ze tuͦnd und us ze teilenn sind ver<lb
+        break="no"/>ordnet
+<num value="2">zwen</num> priester, namblich her <persName
+        ref="per015559">Annthoni
+<lb/>Walder</persName> unnd her <persName ref="per015471"
+        >Joͤrg Sytz</persName>, sampt <persName ref="per015377"
+        >Annderesenn</persName>,
 <lb/>dem bëttel vogt, doch soͤllennd und moͤgend der
-<lb/>obman unnd die <num value="4">fier</num> nach bestimpten verordneten
+<lb/>obman unnd die <num
+        value="4"
+       >fier</num> nach bestimpten verordneten
 <lb/>oder ettlich von inen, so es sy guͦt bedunckt, ouch 
 <lb/>darby sin unnd zuͦ diser uß teilung ein uf sehenn
 <lb/>habenn.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated"><num value="4">Vier</num> pflaͤ<lb break="no"/>ger unnd <lb/>schriber</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Unnd dardurch dis allmuͦsen zuͦ gottes lob unnd
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated"><num value="4">Vier</num> pflaͤ<lb break="no"
+        />ger unnd <lb/>schriber</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Unnd dardurch dis allmuͦsen zuͦ gottes lob unnd
 <lb/>zuͦ trost der armen, heimschenn unnd froͤmbden
 <lb/>lu̍ten, fu̍r und fu̍r zuͦ nemme und bessere und dester 
 <lb/>bestenntlicher unnd langwiriger ingenommen und
 <lb/>widerumb den huß armen oder sunst ellenden lu̍ten 
-<pb n="2" facs="StAZH_A_61_1__Nr__3__S__04_.tif"/>
-<lb/>mitteilt werde, so sind hier zuͦ verordnet <num value="4">vier</num>
-<lb/>man uß den <orgName ref="org004016">kleinen</orgName> und <orgName ref="org004906">grossen raͤten</orgName>,
-<lb/>namblich <choice><abbr>m</abbr><expan>meister</expan></choice>
-<persName ref="per006154">Ruͦdolf Stoll</persName>, <choice><abbr>j</abbr><expan>juncker</expan></choice>
-<persName ref="per014493">Joͤrg Goͤldli</persName>,
-<lb/><persName ref="per015527">Uͦlrich Trinckler</persName> und <persName ref="per013590">Hanns Schneberger</persName>,
-<lb/>wattman. Doch sol her <persName ref="per014330">Heinrich Brënwald</persName>,
-<lb/>probst zuͦ <placeName ref="loc013073">Embrach</placeName>, in disem handel ir obman
+<pb
+        n="2" facs="StAZH_A_61_1__Nr__3__S__04_.tif"/>
+       <lb/>mitteilt werde, so sind hier zuͦ verordnet <num value="4">vier</num>
+       <lb/>man uß den <orgName ref="org004016">kleinen</orgName> und <orgName ref="org004906"
+        >grossen raͤten</orgName>,
+<lb/>namblich <choice>
+        <abbr>m</abbr>
+        <expan>meister</expan>
+       </choice>
+       <persName ref="per006154">Ruͦdolf Stoll</persName>, <choice>
+        <abbr>j</abbr>
+        <expan>juncker</expan>
+       </choice>
+       <persName ref="per014493">Joͤrg Goͤldli</persName>,
+<lb/><persName ref="per015527"
+        >Uͦlrich Trinckler</persName> und <persName ref="per013590"
+        >Hanns Schneberger</persName>,
+<lb/>wattman. Doch sol her <persName ref="per014330"
+        >Heinrich Brënwald</persName>,
+<lb/>probst zuͦ <placeName ref="loc013073"
+        >Embrach</placeName>, in disem handel ir obman
 <lb/>unnd schriber sin, in die stat zu̍hen und imm
 <lb/>sin pfruͦnd nu̍dt desterminder nach dienen, zuͦ
 <lb/>welchem obman mengklich, so ettwas angelegenn
 <lb/>ist, sin zuͦ louff habenn. Der sol ouch die anderen 
-<lb/><num value="4">vier</num>, so es not ist, zuͦ imm beruͤffenn, welche
+<lb/><num
+        value="4"
+        >vier</num>, so es not ist, zuͦ imm beruͤffenn, welche
 <lb/>ouch als gehorsamb erschinen, die selben soͤllent
 <lb/>dannathin mitteinandernn handlenn unnd,
 <lb/>was inen ze schwer ist, an unnser herrenn 
-<lb/><orgName ref="org002406">burgermeister unnd rat</orgName> langen lassenn.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Schlu̍ssel</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Der obman und die <num value="4">vier</num> zuͦ gebnen sol jeder 
-<lb/>ein besundren schlu̍ssel halten zuͦ irem ge<lb break="no"/>meinen
+<lb/><orgName
+        ref="org002406">burgermeister unnd rat</orgName> langen lassenn.</p>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Schlu̍ssel</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Der obman und die <num value="4"
+        >vier</num> zuͦ gebnen sol jeder 
+<lb/>ein besundren schlu̍ssel halten zuͦ irem ge<lb
+        break="no"
+       />meinen
 kastenn, darinn sy ire brief, roͤdel,
 <lb/>gëlt unnd anders behaltennd, deßglich
 <lb/>zuͦ den stoͤcken ouch besunder schlu̍ssel habenn,
 <lb/>darmit keiner an die anderenn daru̍ber 
 <lb/>gan moͤge.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Stoͤck</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Darby ist ouch beschlossenn, wenn man u̍ber
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Stoͤck</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Darby ist ouch beschlossenn, wenn man u̍ber
 <lb/>die stoͤck unnd kasten gan und mit dem
 <lb/>allmuͦßenn, es sye mit rechnungen oder sunst 
-<pb n="3" facs="StAZH_A_61_1__Nr__3__S__05_.tif"/>
-<lb/>handlen welle, das allweg zum minsten einer 
+<pb
+        n="3" facs="StAZH_A_61_1__Nr__3__S__05_.tif"/>
+       <lb/>handlen welle, das allweg zum minsten einer 
 <lb/>von den <num value="3">dryen</num> lu̍tpriesterenn darby sye, umb das sy 
 <lb/>dester berichter werdennd, wie unnd was an 
-<lb/>den cantzlenn von des almuͦsens wegen ze <choice><abbr>red</abbr><expan>reden</expan></choice> sye.</p>
-</div>
-<div>
-<head>
-<lb/><hi rend="rubricated">Des obmans unnd der
+<lb/>den cantzlenn von des almuͦsens wegen ze <choice>
+        <abbr>red</abbr>
+        <expan>reden</expan>
+       </choice> sye.</p>
+     </div>
+     <div>
+      <head>
+       <lb/><hi rend="rubricated">Des obmans unnd der
 <lb/>pflaͤgerenn eyd</hi>
-</head>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Eyd</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Der obman und die pflëger, so je zuͦ zitenn
+      </head>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Eyd</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Der obman und die pflëger, so je zuͦ zitenn
 <lb/>zuͦ disem allmuͦsen verordnet werdennd, soͤllennd 
-<lb/>schwerenn, das sy die <date dur="R/P1Y">jerlichenn</date> zins oder sunst
-<lb/><date dur="R/P1D">taͤgliche</date> stu̍r, es sye an gelt oder anderer hab,
+<lb/>schwerenn, das sy die <date
+        dur="R/P1Y">jerlichenn</date> zins oder sunst
+<lb/><date dur="R/P1D"
+        >taͤgliche</date> stu̍r, es sye an gelt oder anderer hab,
 <lb/>so an das almuͦsen gebenn ist und fu̍ro hin 
 <lb/>gebenn wirt, inzu̍hen und empfahen, soͤlichs 
-<lb/>huß armen lu̍ten, in die <num value="3">dru̍</num> kilch spël unnd
-<lb/><num value="7">sibenn</num> wachten<note>Üblicherweise wurde das Gebiet der Stadt in sechs Wachten unterteilt, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gilomen 1995</ref>, S. 341</bibl>. Die hier als eigenständige Einheit aufgeführte Wacht <placeName ref="loc010597">Kornhaus</placeName> wurde dabei
-der Wacht <placeName ref="loc010535">Münsterhof</placeName> zugerechnet. Die Einteilung in sieben Wachten wurde in der erneuerten Almosenordnung von 1544 ebenfalls verwendet (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3550472">StAZH A 61.1, Nr. 24</ref></bibl>).</note> in unnser stat gehoͤrennd, und
+<lb/>huß armen lu̍ten, in die <num
+        value="3">dru̍</num> kilch spël unnd
+<lb/><num value="7"
+          >sibenn</num> wachten<note>Üblicherweise wurde das Gebiet der Stadt in sechs Wachten unterteilt, vgl. <bibl><ref
+          target="/startseite/literaturverzeichnis"
+         >Gilomen 1995</ref>, S. 341</bibl>. Die hier als eigenständige Einheit aufgeführte Wacht <placeName
+         ref="loc010597">Kornhaus</placeName> wurde dabei
+der Wacht <placeName ref="loc010535"
+         >Münsterhof</placeName> zugerechnet. Die Einteilung in sieben Wachten wurde in der erneuerten Almosenordnung von 1544 ebenfalls verwendet (<bibl><ref
+          target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3550472"
+          >StAZH A 61.1, Nr. 24</ref></bibl>).</note> in unnser stat gehoͤrennd, und
 <lb/>den froͤmbden wandlenden baͤttleren, innhalt 
 <lb/>nach bestimpter ordnung, tru̍lichen ußteilenn
 <lb/>und hierinn kein gferd, vorteyl, an nemung der 
 <lb/>personen nach purschafft, fru̍ntschafft und dero 
 <lb/>glichen ursachen nit ansehenn und umb ir 
-<lb/>in nemmen unnd ußgebenn <date dur="R/P1Y">jerlich</date> einem <orgName ref="org002406">burger<lb break="no"/>meister
+<lb/>in nemmen unnd ußgebenn <date
+        dur="R/P1Y">jerlich</date> einem <orgName ref="org002406">burger<lb break="no"
+        />meister
 und rat</orgName>, oder so dick das an sy erforderet
 <lb/>wirt, rechnung gebenn, alles tru̍lich unnd
 <lb/>ungefarlich.</p>
-</div>
-<pb n="4" facs="StAZH_A_61_1__Nr__3__S__06_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Uf sëher
+     </div>
+     <pb n="4" facs="StAZH_A_61_1__Nr__3__S__06_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Uf sëher
 <lb/>in wachten</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Witter ist demnach beschlossen, als dann
-<lb/><num value="7">sibenn</num> wachten inn und usserthalb der stat
-<lb/>innert den <placeName ref="loc010771">Kru̍tzenn</placeName> zuͦ sammen dienend,
-<lb/>deßglich ander usserthalb den <placeName ref="loc010771">Kru̍tzen</placeName>, so in
-<lb/>die <num value="3">dry</num> pfarren gehoͤrend und nit eigenn
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Witter ist demnach beschlossen, als dann
+<lb/><num value="7"
+        >sibenn</num> wachten inn und usserthalb der stat
+<lb/>innert den <placeName ref="loc010771"
+        >Kru̍tzenn</placeName> zuͦ sammen dienend,
+<lb/>deßglich ander usserthalb den <placeName
+        ref="loc010771">Kru̍tzen</placeName>, so in
+<lb/>die <num value="3"
+        >dry</num> pfarren gehoͤrend und nit eigenn
 <lb/>kilch gang habennd, das dann der obman 
-<lb/>unnd die <num value="4">vier</num> pflaͤger uß jeder wacht einen
+<lb/>unnd die <num
+        value="4"
+        >vier</num> pflaͤger uß jeder wacht einen
 <lb/>ersammen priester unnd zuͦ dem selben einen
 <lb/>frommen leyen nemmen und gebenn, die 
 <lb/>soͤllennd sampt dem bëttler vogt jede in 
-<lb/>iren wachten umb gan, ersuͦchen unnd uf<lb break="no"/>zeichnenn,
+<lb/>iren wachten umb gan, ersuͦchen unnd uf<lb
+        break="no"
+       />zeichnenn,
 wem das almuͦsen dienen, wer
 <lb/>ouch des vaͤhig unnd notturfftig sye.</p>
-<p><lb/>Deßglichenn unverzogenlich darnach <time dur="R/P1M">all manot</time>, 
+      <p><lb/>Deßglichenn unverzogenlich darnach <time dur="R/P1M"
+       >all manot</time>, 
 <lb/>oder so dick es notturfftig ist, besichtigenn,
 <lb/>welche burger syennd, das man die (so fer
 <lb/>kein hindernis, als hernach volget, da ist)
@@ -200,170 +335,213 @@ wem das almuͦsen dienen, wer
 <lb/>das almuͦsen gebenn, bis uf dem lannd 
 <lb/>in kilchhoͤrinen das almuͦsenn ouch versehenn
 <lb/>wirt.</p>
-</div>
-<pb n="5" facs="StAZH_A_61_1__Nr__3__S__07_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">bur<lb break="no"/>ger sind</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Mer, welche nit burger sind noch uß der stat
-<lb/><placeName ref="loc000065">Zu̍rich</placeName>, sol man fu̍rderlich ab wisenn.</p>
-<p><lb/>Man sol ouch mit dem bëttler vogt durch die
+     </div>
+     <pb n="5" facs="StAZH_A_61_1__Nr__3__S__07_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Bur<lb break="no"/>ger sind</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Mer, welche nit burger sind noch uß der stat
+<lb/><placeName ref="loc000065"
+        >Zu̍rich</placeName>, sol man fu̍rderlich ab wisenn.</p>
+      <p><lb/>Man sol ouch mit dem bëttler vogt durch die
 <lb/>nach puren fragen und erkannen das waͤsenn
 <lb/>und gestalt, ouch harkommen deren, so dann
 <lb/>vermeinend das almuͦsenn ze nemmen, darmit
 <lb/>das alles, wie obstat, dem obman und den
-<lb/><num value="4">vier</num> verordneten werde an zeigt, daruf sy
+<lb/><num
+        value="4"
+       >vier</num> verordneten werde an zeigt, daruf sy
 <lb/>dester bas ratschlagenn moͤgen, wie vil unnd
 <lb/>was man jedem geben welle.</p>
-<p><lb/>Uf soͤlichenn artickel sind us den <num value="7">siben</num> wachten
+      <p><lb/>Uf soͤlichenn artickel sind us den <num value="7"
+       >siben</num> wachten
 <lb/>verordnet unnd uß genommen:</p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc008762">Uff Dorff</placeName>:</hi></head>
-<p><lb/><choice><abbr>h</abbr><expan>her</expan></choice>
-<persName ref="per015533">Heinrich Utinger</persName>, custer,
- <lb/><persName ref="per014951">Hanns Kleger</persName></p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013313">Zur Linden</placeName>:</hi></head>
-<p><lb/>her <persName ref="per015510"><sic>Uͦrich</sic> Torman</persName>,
-<lb/><persName ref="per024886">Ruͦdolf Rey</persName></p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013316">Nu̍w Merckt</placeName>:</hi></head>
-<p><lb/><choice><abbr>m</abbr><expan>meister</expan></choice>
-<persName ref="per014342">Jacob Edlibach</persName>,
-<lb/><persName ref="per015376">Caspar Nasal</persName></p>
-<pb n="6" facs="StAZH_A_61_1__Nr__3__S__08_.tif"/>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc009854">Nider Dorf</placeName>:</hi></head>
-<p><lb/><persName ref="per014950">Peter Kistler</persName>,
- <lb/><choice><abbr>h</abbr><expan>her</expan></choice>
-<persName ref="per015487">Heinrich Staͤdeli</persName> zuͦ <placeName ref="loc010768"><choice><abbr>S</abbr><expan>Sanct</expan></choice> Lienhart</placeName></p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc010535">Mu̍nster Hof</placeName>:</hi></head>
-<p><lb/>her <persName ref="per015043">Joß Meyer</persName>,
-<lb/><persName ref="per014209">Jacob Ammann</persName></p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc010597">Korn Huß</placeName>:</hi></head>
-<p><lb/>her <persName ref="per015390">Hanns Pfiffer</persName>,
-<lb/><persName ref="per014952">Cuͦnrat Kramer</persName></p>
-<head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013317">Rennweg</placeName>:</hi></head>
-<p><lb/>her <persName ref="per015509">Hanns Torman</persName>,
-<lb/><persName ref="per014723">Steffan Zëller</persName></p>
-</div>
-<div>
-<head><lb/>Disen hienach angezeigtenn huß armen 
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc008762"
+         >Uff Dorff</placeName>:</hi></head>
+      <p><lb/><choice>
+        <abbr>h</abbr>
+        <expan>her</expan>
+       </choice>
+       <persName ref="per015533">Heinrich Utinger</persName>, custer,
+ <lb/><persName
+        ref="per014951">Hanns Kleger</persName></p>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013313"
+         >Zur Linden</placeName>:</hi></head>
+      <p><lb/>her <persName ref="per015510"><sic>Uͦrich</sic> Torman</persName>,
+<lb/><persName
+        ref="per024886">Ruͦdolf Rey</persName></p>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013316"
+         >Nu̍w Merckt</placeName>:</hi></head>
+      <p><lb/><choice>
+        <abbr>m</abbr>
+        <expan>meister</expan>
+       </choice>
+       <persName ref="per014342">Jacob Edlibach</persName>,
+<lb/><persName ref="per015376"
+        >Caspar Nasal</persName></p>
+      <pb n="6" facs="StAZH_A_61_1__Nr__3__S__08_.tif"/>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc009854"
+         >Nider Dorf</placeName>:</hi></head>
+      <p><lb/><persName ref="per014950">Peter Kistler</persName>,
+ <lb/><choice>
+        <abbr>h</abbr>
+        <expan>her</expan>
+       </choice>
+       <persName ref="per015487">Heinrich Staͤdeli</persName> zuͦ <placeName ref="loc010768"><choice>
+         <abbr>S</abbr>
+         <expan>Sanct</expan>
+        </choice> Lienhart</placeName></p>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc010535"
+         >Mu̍nster Hof</placeName>:</hi></head>
+      <p><lb/>her <persName ref="per015043">Joß Meyer</persName>,
+<lb/><persName ref="per014209"
+        >Jacob Ammann</persName></p>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc010597"
+         >Korn Huß</placeName>:</hi></head>
+      <p><lb/>her <persName ref="per015390">Hanns Pfiffer</persName>,
+<lb/><persName ref="per014952"
+        >Cuͦnrat Kramer</persName></p>
+      <head type="subtitle"><lb/><hi rend="rubricated"><placeName ref="loc013317"
+         >Rennweg</placeName>:</hi></head>
+      <p><lb/>her <persName ref="per015509">Hanns Torman</persName>,
+<lb/><persName ref="per014723"
+        >Steffan Zëller</persName></p>
+     </div>
+     <div>
+      <head><lb/>Disen hienach angezeigtenn huß armen 
 <lb/>unnd heimschen lu̍tenn sol das almuͦsenn
 <lb/>nit gebenn werdenn</head>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">U̍bel huß
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">U̍bel huß
  <lb/>gehan</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Von welchem man kuntlich weißt, es syennd 
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Von welchem man kuntlich weißt, es syennd 
 <lb/>frowenn oder man, das sy all ir tag das irenn
 <lb/>uppenncklich zuͦ un nutz u̍ber flu̍ssig vertan,
 <lb/>verspilt, vergu̍det, ouch verzert unnd nie wellen
-<lb/>werckenn, sunder in den wirtzhu̍serenn, trinck<lb break="no"/>stuben
+<lb/>werckenn, sunder in den wirtzhu̍serenn, trinck<lb
+        break="no"/>stuben
 und in aller huͦry allwegenn gelegenn <abbr>etc</abbr>,
-<pb n="7" facs="StAZH_A_61_1__Nr__3__S__09_.tif"/>
-<lb/>soͤllichen unnd dero glichen personen sol man von 
+<pb n="7"
+        facs="StAZH_A_61_1__Nr__3__S__09_.tif"/>
+       <lb/>soͤllichen unnd dero glichen personen sol man von 
 <lb/>disem allmuͦsen nu̍t gebenn, bis sy uff die letstenn
-<lb/>not kommen sind, denn sol es erst an einem <orgName ref="org002406">burger<lb break="no"/>
+<lb/>not kommen sind, denn sol es erst an einem <orgName
+        ref="org002406">burger<lb break="no"
+       />
 meister unnd rat</orgName> stan, wie man die selben halten
 <lb/>welle.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Kleyder</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Item welcher gold unnd silber, syden unnd 
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Kleyder</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Item welcher gold unnd silber, syden unnd 
 <lb/>dero glich zierdenn und kleinoten tragend, den
 <lb/>selben sol man ouch nit gebenn.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Kuppler</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Item welche behusennd und uppig lu̍t in ziehend,
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Kuppler</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Item welche behusennd und uppig lu̍t in ziehend,
 <lb/>ennthaltend, zuͦ sammen kupplend, unnderschlouff
 <lb/>gebennd, denen sol ouch nu̍t werdenn.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Wider das 
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Wider das 
 <lb/>gotz wort
 <lb/>unnd zanggen</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Item welche an redlich ursachen nit zuͦ den <choice><abbr>predig</abbr><expan>predigten</expan></choice>
-<lb/>gand, das gotzwort unnd goͤttliche aͤmpter weder
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Item welche an redlich ursachen nit zuͦ den <choice>
+        <abbr>predig</abbr>
+        <expan>predigten</expan>
+       </choice>
+       <lb/>gand, das gotzwort unnd goͤttliche aͤmpter weder
 <lb/>hoͤrenn noch sëhen wellennd, got lestrend,
 <lb/>fluͦchennd, schwerennd, mit den lu̍ten zanggend,
 <lb/>kriegend, haderend, die gegen ein anderenn 
 <lb/>verliegennd, zwytracht unnd vyentschafft
 <lb/>machend, denen sol man ouch nit gebenn.</p>
-</div>
-<pb n="8" facs="StAZH_A_61_1__Nr__3__S__10_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Brasser</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Welche in offne u̍rten und trinckstubenn
+     </div>
+     <pb n="8" facs="StAZH_A_61_1__Nr__3__S__10_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Brasser</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Welche in offne u̍rten und trinckstubenn
 <lb/>gand, spilennd und kartend und ander dero
 <lb/>glich muͦtwillenn und licht vertickeitenn
 <lb/>bruchend, soͤllennd dis allmuͦsens nit faͤhig 
 <lb/>sin, unnd weliche nit burger sind noch
-<lb/>uss der statt <placeName ref="loc000065">Zu̍rich</placeName>, die sol man fu̍rderlich
+<lb/>uss der statt <placeName
+        ref="loc000065">Zu̍rich</placeName>, die sol man fu̍rderlich
 <lb/>abwisenn.</p>
-</div>
-<div>
-<head>
-<lb/><hi rend="rubricated">Denen, wie hienach angezeigt
+     </div>
+     <div>
+      <head>
+       <lb/><hi rend="rubricated"
+        >Denen, wie hienach angezeigt
 <lb/>wirt, sol man das allmuͦsenn
 <lb/>mitteilenn</hi>
-</head>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Recht arm</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Frommen, erberen, huß armen lu̍ten, in den
-<lb/><num value="3">dryen</num> kilchhoͤrinen unnd in den <num value="7">syben</num> wachten
+      </head>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Recht arm</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Frommen, erberen, huß armen lu̍ten, in den
+<lb/><num value="3"
+        >dryen</num> kilchhoͤrinen unnd in den <num value="7"
+        >syben</num> wachten
 <lb/>gesessenn, die in den obgemeltenn lasteren nit 
 <lb/>begriffennn sind, ouch all ir tag gewercket,
 <lb/>geworbenn und sich mit eren gern ernërt 
 <lb/>hettennd und die das iren nit uppencklich 
 <lb/>verbrucht habennd, sunder unnd villicht
 <lb/>uß verhengknus gottes durch krieg, brunst,
-<lb/>thu̍ri, zuͦ faͤl, vile der kindenn, groß kranck<lb break="no"/>heitenn,
+<lb/>thu̍ri, zuͦ faͤl, vile der kindenn, groß kranck<lb
+        break="no"
+        />heitenn,
 alter, un moͤgende halb sich nit
 <lb/>mer erneren unnd arbeitenn moͤgennd,
 <lb/>soͤllichen und dero glichen armen lu̍tenn
-<pb n="9" facs="StAZH_A_61_1__Nr__3__S__11_.tif"/>
-<lb/>sol man dis allmuͦsen umb gottes eer unnd uß
+<pb
+        n="9" facs="StAZH_A_61_1__Nr__3__S__11_.tif"/>
+       <lb/>sol man dis allmuͦsen umb gottes eer unnd uß
 <lb/>bruͤderlicher, christennlicher lieby willenn, wie es 
 <lb/>ist geordnet, mitteyllen.</p>
-<p>
-<lb/>Unnd welche so schwach werennd, frowen oder
+      <p>
+       <lb/>Unnd welche so schwach werennd, frowen oder
 <lb/>man, das sy selbs an die end, da man es ußgibt,
 <lb/>nit gan moͤchtend, denen sol man es zuͦ schickenn.
 </p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Zeichenn</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Unnd damit man die selben huß armen lu̍t 
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Zeichenn</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Unnd damit man die selben huß armen lu̍t 
 <lb/>erkenne, soͤllennd sy ein gestempft oder gossenn
 <lb/>zeichenn haben und offennlich tragen. Unnd so 
 <lb/>eins so gsund oder hablich wirt, das es disers 
@@ -375,203 +553,243 @@ alter, un moͤgende halb sich nit
 <lb/>und denocht des almuͦsens notturfftig werennd,
 <lb/>die mag man des zeichenns ze tragen wol erlassenn
 <lb/>unnd die pflaͤger hierinn ze handlen gwalt haben.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Ab der gassen</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Es ist daruff witer beschlossenn, das hinfu̍r 
-<lb/>aller baͤttel in der statt <placeName ref="loc000065">Zu̍rich</placeName>, es syend von 
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Ab der gassen</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Es ist daruff witer beschlossenn, das hinfu̍r 
+<lb/>aller baͤttel in der statt <placeName
+        ref="loc000065"
+       >Zu̍rich</placeName>, es syend von 
 <lb/>heimschen oder von froͤmbden personenn, abgestelt
 <lb/>sin soͤlle, also das weder huß armen lu̍tenn,
 <lb/>froͤmbden noch heimschen werde nach gelassenn,</p>
-<pb n="10" facs="StAZH_A_61_1__Nr__3__S__12_.tif"/>
-</div>
-<div>
-<ab place="left margin" type="marginal note">
-<lb/><hi rend="rubricated">Huß</hi>
-</ab>
-</div>
-<div>
-<p><lb/>an den strassenn, vor den kilchen ligennd oder sitzend,
+      <pb n="10" facs="StAZH_A_61_1__Nr__3__S__12_.tif"/>
+     </div>
+     <div>
+      <ab place="left margin" type="marginal note">
+       <lb/><hi rend="rubricated">Huß</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>an den strassenn, vor den kilchen ligennd oder sitzend,
 <lb/>ouch vor oder in den hu̍seren nit bëttlen oder
 <lb/>jemantz an hoͤu̍schen soͤllennd, unnd so dick einer
-<lb/>das u̍bertrit, sol im das allmuͦsen <date dur="P8D">viij tag</date> abgeschlagen,
+<lb/>das u̍bertrit, sol im das allmuͦsen <date
+        dur="P8D"
+       >viij tag</date> abgeschlagen,
 <lb/>er mag es ouch so offt tribenn, imm wurde gar
 <lb/>nit me gebenn werdenn.</p>
-</div>
-<div>
-<ab place="left margin" type="marginal note">
-<lb/><hi rend="rubricated">Stacionie<lb break="no"/>rer</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Deßglichen sol aller baͤttel der stacionierer<note>Es handelte sich dabei um fahrende Verkäufer von Reliquien und Heiligenbildern, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref target="https://digital.idiotikon.ch/idtkn/id11.htm#!page/111847/mode/2up">Bd. 11, Sp. 1847</ref></bibl>.</note> unnd
+     </div>
+     <div>
+      <ab place="left margin" type="marginal note">
+       <lb/><hi rend="rubricated">Stacionie<lb break="no"/>rer</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Deßglichen sol aller baͤttel der stacionierer<note>Es handelte sich dabei um fahrende Verkäufer von Reliquien und Heiligenbildern, vgl. <bibl><ref
+          target="/startseite/literaturverzeichnis">Idiotikon</ref>, <ref
+          target="https://digital.idiotikon.ch/idtkn/id11.htm#!page/111847/mode/2up"
+          >Bd. 11, Sp. 1847</ref></bibl>.</note> unnd
 <lb/>anderer, es sye an der kilchen bu̍w unnd sunst,
 <lb/>wie die nammen habend, in oder usserthalb den 
 <lb/>kilchen verku̍nt, noch uf ze nemmen, verwilliget 
 <lb/>werdenn, soͤllichs soͤllennd die predicantenn
-<lb/>an der cantzel verku̍nden, unnd <persName ref="per015377">Anderes</persName>, 
+<lb/>an der cantzel verku̍nden, unnd <persName
+        ref="per015377"
+       >Anderes</persName>, 
 <lb/>der baͤttel vogt, ein uf sëhenn haben, das soͤlichs 
 <lb/>werde gehaltenn.</p>
-</div>
-<div>
-<ab place="left margin" type="marginal note">
-<lb/><hi rend="rubricated">Ermanen</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Es soͤllennd ouch die predicanten je zuͦ zitenn
+     </div>
+     <div>
+      <ab place="left margin" type="marginal note">
+       <lb/><hi rend="rubricated">Ermanen</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Es soͤllennd ouch die predicanten je zuͦ zitenn
 <lb/>das volck in den kilchen ermanen, ir almuͦsen
 <lb/>in die stoͤck allennthalb ze tuͤnd, und wer
 <lb/>da welt, win, korn, wullin oder linin tuͦch,
 <lb/>gelt unnd dero glichen den armen mitteilen,
-<lb/>der mag soͤlichs den pflaͤgeren hie zuͦ ver<lb break="no"/>ordneten
+<lb/>der mag soͤlichs den pflaͤgeren hie zuͦ ver<lb
+        break="no"
+       />ordneten
 gebenn, oder ein jeder mag das,
 <lb/>wo hin er selbs gnad het und im sin gwu̍ssne
 <lb/>wißt, an leggenn.</p>
-</div>
-<pb n="11" facs="StAZH_A_61_1__Nr__3__S__13_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated"><num value="8">Viij</num> schuͦ<lb break="no"/>ler</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Hier by ist ouch nach gelassenn, das in jeder 
-<lb/>schuͦl nit mer dann <num value="8">acht</num> schuͦler, so uß der stat
-<lb/>gebiet <del rend="strikethrough">sind</del> sind, die das allmuͦsenn neminnd. Und 
+     </div>
+     <pb n="11" facs="StAZH_A_61_1__Nr__3__S__13_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated"><num value="8">Viij</num> schuͦ<lb break="no"/>ler</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Hier by ist ouch nach gelassenn, das in jeder 
+<lb/>schuͦl nit mer dann <num value="8"
+        >acht</num> schuͦler, so uß der stat
+<lb/>gebiet <del rend="strikethrough"
+        >sind</del> sind, die das allmuͦsenn neminnd. Und 
 <lb/>soͤllennd die schuͦlmeister keinen an nemmen, dann
 <lb/>die zuͦ der leͤr sy gschickt bedunckt, unnd welche
-<lb/>sy also angenommen, soͤllennd sy die den verord<lb break="no"/>neten
-erscheinen, unnd so die selbenn hierinn ver<lb break="no"/>willgend, soͤllennd die schuͦler ouch der baͤttler 
+<lb/>sy also angenommen, soͤllennd sy die den verord<lb
+        break="no"/>neten
+erscheinen, unnd so die selbenn hierinn ver<lb break="no"
+       />willgend, soͤllennd die schuͦler ouch der baͤttler 
 <lb/>zeichenn tragen.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Froͤmbd 
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Froͤmbd 
  <lb/>bëttler</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Der froͤmbden bëttleren halb, es syennd bilgery
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Der froͤmbden bëttleren halb, es syennd bilgery
 <lb/>oder ander, so das allmuͦsen nemmen wellennd, sol
 <lb/>man hie durch die statt lassenn, doch inenn
 <lb/>nit gestattenn, das sy an der gassenn, vor den
 <lb/>hu̍serenn und kilchenn schryennd und bëttlend,
-<lb/>sunder sollennd sy, welcher <time period="morning">vor mittag</time> kumpt,
-<lb/>jetz zuͦ mal bis uf witteren bescheid in den <placeName ref="loc010962">spital</placeName>
-<lb/>zuͦ herberg han, dem selbigen, unnd ob er kind hat,
+<lb/>sunder sollennd sy, welcher <time
+        period="morning"
+        >vor mittag</time> kumpt,
+<lb/>jetz zuͦ mal bis uf witteren bescheid in den <placeName
+        ref="loc010962">spital</placeName>
+       <lb/>zuͦ herberg han, dem selbigen, unnd ob er kind hat,
 <lb/>sol man zuͦ dem imbis muͦß und brot geben und 
-<lb/>darnach by der <time period="byDay">tag zit</time> unverzogennlich von der 
-<lb/>stat hinweg gan unnd u̍ber die <time period="byNight">nacht</time> nit bliben.</p>
-<p><lb/>Ob aber frowenn oder man ungefarlicher wiß <time period="afternoon">nach
+<lb/>darnach by der <time
+        period="byDay"
+        >tag zit</time> unverzogennlich von der 
+<lb/>stat hinweg gan unnd u̍ber die <time
+        period="byNight">nacht</time> nit bliben.</p>
+      <p><lb/>Ob aber frowenn oder man ungefarlicher wiß <time period="afternoon"
+        >nach
 <lb/>mittag</time> kemind, die selben zum nachtmal glicher gstalt,
 <lb/>wie obstat, mit muͦß unnd brot gespißt und die 
-<lb/><time period="byNight">nacht</time> herberg gebenn werdenn und demnach amm 
-<lb/><time period="morning">morgenn</time> hinweg gan und dannethin innert einem
-<lb/><date dur="P6M">halben jar</date> on mercklich ursachenn nit mer in die 
+<lb/><time
+        period="byNight">nacht</time> herberg gebenn werdenn und demnach amm 
+<lb/><time
+        period="morning">morgenn</time> hinweg gan und dannethin innert einem
+<lb/><date dur="P6M"
+        >halben jar</date> on mercklich ursachenn nit mer in die 
 <lb/>stat kommen.</p>
-</div>
-<pb n="12" facs="StAZH_A_61_1__Nr__3__S__14_.tif"/>
-<div>
-<p><lb/>Unnd ob einer schon in mittler zit darin keme, sol
+     </div>
+     <pb n="12" facs="StAZH_A_61_1__Nr__3__S__14_.tif"/>
+     <div>
+      <p><lb/>Unnd ob einer schon in mittler zit darin keme, sol
  <lb/>er doch weder offennlich noch heimlich nit baͤttlenn
- <lb/>und das allmuͦsenn in der <placeName ref="loc010417">Ellenden Herberg</placeName> nit nemmen,
+ <lb/>und das allmuͦsenn in der <placeName
+        ref="loc010417"
+       >Ellenden Herberg</placeName> nit nemmen,
  <lb/>dann welche darwider handletind, die selbenn
  <lb/>soͤllennd von den pflaͤgeren und bëttler vogt
  <lb/>mit des bëttler vogts turn oder sunst nach gstalt 
  <lb/>der sach gestrafft werdenn.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Sunder
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Sunder
 <lb/>siechenn</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Die sunder siechenn, froͤmbd oder heimsch, soͤllennd
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Die sunder siechenn, froͤmbd oder heimsch, soͤllennd
 <lb/>in der statt nit me bëttlen, sunder mogennd
-<lb/>die froͤmbden imm <orgName ref="org004913">siechen huß</orgName> vor der stat an
-<lb/>der <placeName ref="loc008759">Spanweyd</placeName>, wie bis har der bruch gwesen
-<lb/>ist, sich enthalten, doch moͤgennd sy zuͦ <date type="holiday" when="--12-25">wienechten</date>
-<lb/>mit irem singen das guͦt jar in nemmen, nut<lb break="no"/>desterminder 
+<lb/>die froͤmbden imm <orgName
+        ref="org004913">siechen huß</orgName> vor der stat an
+<lb/>der <placeName ref="loc008759"
+        >Spanweyd</placeName>, wie bis har der bruch gwesen
+<lb/>ist, sich enthalten, doch moͤgennd sy zuͦ <date
+        type="holiday" when="--12-25">wienechten</date>
+       <lb/>mit irem singen das guͦt jar in nemmen, nut<lb break="no"
+       />desterminder 
 sol und mag ir knecht mit der
 <lb/>schaͤllen in der statt wie bis har das almuͦsen
 <lb/>sammlen.</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Spendenn,
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Spendenn,
 <lb/>bruͦderschaff<lb break="no"/>tenn</hi>
-</ab>
-</div>
-<div>
-<p><lb/>In disers almuͦsen soͤllennd angends alle spenden,
+      </ab>
+     </div>
+     <div>
+      <p><lb/>In disers almuͦsen soͤllennd angends alle spenden,
 <lb/>bruͦderschafftenn, daruf niemand gewidmet 
 <lb/>ist unnd was jetz von cloͤsteͤren und pfruͦnden 
 <lb/>fu̍r schiessen mag, getan unnd dem obman 
-<lb/>sampt den <num value="4">vier</num> verordneten angentz unnd
+<lb/>sampt den <num
+        value="4">vier</num> verordneten angentz unnd
 <lb/>unverzogennlich u̍berantwurt werdenn.</p>
-</div>
-<pb n="13" facs="StAZH_A_61_1__Nr__3__S__15_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated"><placeName ref="loc010962">spital</placeName></hi>
-</ab>
-</div>
-<div>
-<p><lb/>Es ist ouch erraten unnd beschlossen, das man das <orgName ref="org004925">prediger
+     </div>
+     <pb n="13" facs="StAZH_A_61_1__Nr__3__S__15_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated"><placeName ref="loc010962">Spital</placeName></hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Es ist ouch erraten unnd beschlossen, das man das <orgName ref="org004925"
+        >prediger
 <lb/>closter</orgName> zum spital mache und darmit die stüben unnd
 <lb/>ettliche gmach zuͦ einer ellenden herberg verordnen.</p>
-</div>
-<div>
-<head>
-<lb/><hi rend="rubricated"><orgName ref="org002666">Oͤttennbach</orgName></hi>
-</head>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Blatter
+     </div>
+     <div>
+      <head>
+       <lb/><hi rend="rubricated"><orgName ref="org002666">Oͤttennbach</orgName></hi>
+      </head>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Blatter
 <lb/>lu̍t</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Unnd als vor malen den verordnetenn ouch bevolhen
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Unnd als vor malen den verordnetenn ouch bevolhen
 <lb/>ist, den armen blaterechten lu̍ten umb ein herberg
 <lb/>ze luͦgen, darinn man sy artznen moͤcht <abbr>etc</abbr>, habennd 
-<lb/>sy die <orgName ref="org002666">frowen an Oͤttennbach</orgName> darumb ersuͦcht, welche 
+<lb/>sy die <orgName
+        ref="org002666"
+        >frowen an Oͤttennbach</orgName> darumb ersuͦcht, welche 
 <lb/>sich guͦtwillig erzeigt unnd sich fru̍ntlich begebenn,
 <lb/>in soͤlichem minen herenn zuͦ wilfaren. Und ist
 <lb/>daruf in dem huß uff dem hof angesehen die selbenn
 <lb/>armen lu̍t ze artznen, soͤllicher gstalt, das die
-<lb/>frowen uß dem kloster <date dur="R/P1D">alle tag</date> einem armenn 
+<lb/>frowen uß dem kloster <date
+        dur="R/P1D"
+        >alle tag</date> einem armenn 
 <lb/>mentschen, die wil er in der artzny und krannck 
 <lb/>lit, spiß gebenn soͤllennd, wie einer convent frowenn,
 <lb/>ob er so vil bruchen mag. Ob aber der artzet je zuͦ
 <lb/>zitenn, so man fisch isset, die selbenn verbutte, sol
 <lb/>man imm andere spiß von eyer, fleisch unnd dero
 <lb/>glich nach der artzetenn geheiß zuͦ schicken. Zuͦ dem 
-<lb/>sol man jedem krancken <date dur="R/P1D">alle tag</date>
-<measure type="volume" unit="Quart" commodity="wine" quantity="1">ein quertli win</measure>
-<lb/>gebenn, unnd ob er zuͦ ziten kranckheit halb so vil 
+<lb/>sol man jedem krancken <date
+        dur="R/P1D">alle tag</date>
+       <measure type="volume" unit="Quart" commodity="wine" quantity="1">ein quertli win</measure>
+       <lb/>gebenn, unnd ob er zuͦ ziten kranckheit halb so vil 
 <lb/>nit bruchen moͤcht, sol man imm uf zeichnen unnd 
 <lb/>imm darnach, so er win trincken sol oder mag,
 <lb/>nach volgenn.</p>
-<p><lb/>Es habennd die <orgName ref="org002666">frowen in Oͤttennbach</orgName> verwilliget,
+      <p><lb/>Es habennd die <orgName ref="org002666"
+       >frowen in Oͤttennbach</orgName> verwilliget,
 <lb/>soͤlichen armen lu̍ten, deßglichen iren jungkfrowenn 
 <lb/>mit bett gwand zuͦ versehenn.</p>
-</div>
-<pb n="14" facs="StAZH_A_61_1__Nr__3__S__16_.tif"/>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Diennst<lb break="no"/>magt</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Witter sol man uß dem <placeName ref="loc010962">spittal</placeName> ein jungkfrowenn
+     </div>
+     <pb n="14" facs="StAZH_A_61_1__Nr__3__S__16_.tif"/>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Diennst<lb break="no"/>magt</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Witter sol man uß dem <placeName ref="loc010962"
+       >spittal</placeName> ein jungkfrowenn
 <lb/>oder pflegerin hier zuͦ tougenlich nemmen,
 <lb/>die soͤlicher armen lu̍ten pflëge, wu̍sche, wësche, 
 <lb/>uß dem kloster spyß unnd tranck zuͦ trage
@@ -580,35 +798,38 @@ sol und mag ir knecht mit der
 <lb/>sin, dann wie einer anderen jungkfrowenn
 <lb/>imm kloster, essenn und trincken, doch mag sy 
 <lb/>ir selbs spinnen.</p>
-</div>
-<div>
-<head><hi rend="rubricated">In der lanntschafft</hi></head>
-<p><lb/>Die armen lu̍t in der lanntschafft allenthalb 
+     </div>
+     <div>
+      <head><hi rend="rubricated">In der lanntschafft</hi></head>
+      <p><lb/>Die armen lu̍t in der lanntschafft allenthalb 
 <lb/>zuͦ versehenn, ist beraten, das angends ein gebot 
 <lb/>in alle kilch spël uß gange, das nieman kein 
-<lb/>froͤmbden bëttler lenger denn <date dur="P0.5D">ein nacht</date> uff<lb break="no"/>enthalte.</p>
-<p><lb/>Zuͦ dem soͤllennd unnser herenn durch ire voͤgt 
+<lb/>froͤmbden bëttler lenger denn <date
+        dur="P0.5D">ein nacht</date> uff<lb break="no"/>enthalte.</p>
+      <p><lb/>Zuͦ dem soͤllennd unnser herenn durch ire voͤgt 
 <lb/>oder sunst ir eigenn bottschafft in alle kilchspel 
 <lb/>schicken und da selbs in by sin jedes lu̍tpriesters 
 <lb/>unnd kilchen pflëgeren uf zeichnet werdenn,
 <lb/>was jede kilch, filial oder sunst capellen, die 
-<lb/>ire vorderen gebuwen und begabet, fu̍r ein <date dur="R/P1Y">jërlich</date>
-<lb/>fu̍rschiessend gu̍lt habe, oder ob caplanyen da
+<lb/>ire vorderen gebuwen und begabet, fu̍r ein <date
+        dur="R/P1Y">jërlich</date>
+       <lb/>fu̍rschiessend gu̍lt habe, oder ob caplanyen da
 <lb/>werend, dero man mit der zit an sin moͤchte,
-<pb n="15" facs="StAZH_A_61_1__Nr__3__S__17_.tif"/>
-<lb/>damit die selben kilchgnossenn unnderwißt werdenn,
+<pb
+        n="15" facs="StAZH_A_61_1__Nr__3__S__17_.tif"/>
+       <lb/>damit die selben kilchgnossenn unnderwißt werdenn,
 <lb/>ordnung under inen selbs ze machen, dardurch ein 
 <lb/>jedes kilch spel sine armen lu̍t versehe und nit 
 <lb/>uff ein anderen schicken oder gan lassennd. </p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Die armen
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Die armen
 <lb/>ze erbenn</hi>
-</ab>
-</div>
-<div>
-<p><lb/>Als dann unnser herren got zuͦ lob und dem nebend 
+      </ab>
+     </div>
+     <div>
+      <p><lb/>Als dann unnser herren got zuͦ lob und dem nebend 
 <lb/>mentschen ze trost das gemein allmuͦsen an gesehenn,
 <lb/>da by ist berett, wellicher das ze nemmen gezwungen
 <lb/>werde, es sye krannckheit, alters oder anderer ursachen
@@ -618,82 +839,154 @@ sol und mag ir knecht mit der
 <lb/>unnd vermoͤgend, so sy es unnder lassend und man 
 <lb/>inn uß disem allmuͦsen erziehen muͦß, das sy dann
 <lb/>nach des seͤlbigen tod unnd abgang ouch sines 
-<lb/>verlassnen guͦtes, es sy dann vil oder wenig, nu̍t erbe<damage agent="clipping"><supplied resp="msr">n</supplied></damage>,
+<lb/>verlassnen guͦtes, es sy dann vil oder wenig, nu̍t erbe<damage
+        agent="clipping"><supplied resp="msr"
+         >n</supplied></damage>,
 <lb/>sonnder des beroubt sin, unnd gedachtem allmuͦsen
 <lb/>volgen und werden lassen. Darnach wu̍sse sich ein
-<lb/>jeder zerichtenn.<note>Dass diese Bestimmung tatsächlich umgesetzt wurde, zeigt sich in den Abrechnungen des <orgName ref="org004915">Almosenamts</orgName>. Diese führen gelegentlich die Fahrhabe 
-unterstützter Personen als Einnahmen auf. Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Denzler 1920</ref>, S. 32</bibl>.</note></p>
-</div>
-<div>
-<ab type="marginal note" place="left margin">
-<lb/><hi rend="rubricated">Kindbetterin</hi>
-</ab>
-</div>
-<div>
-<p><lb/>So ein arme frow kindes genist, die burger
+<lb/>jeder zerichtenn.<note>Dass diese Bestimmung tatsächlich umgesetzt wurde, zeigt sich in den Abrechnungen des <orgName
+         ref="org004915"
+          >Almosenamts</orgName>. Diese führen gelegentlich die Fahrhabe 
+unterstützter Personen als Einnahmen auf. Vgl. <bibl><ref
+          target="/startseite/literaturverzeichnis">Denzler 1920</ref>, S. 32</bibl>.</note></p>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin">
+       <lb/><hi rend="rubricated">Kindbetterin</hi>
+      </ab>
+     </div>
+     <div>
+      <p><lb/>So ein arme frow kindes genist, die burger
 <lb/>ist unnd in den wachten sitzt, so ver sy dessin umb
-<lb/>gotz willen begert, sol man iren <measure type="volume" unit="Kopf" quantity="8" commodity="wine">viij kopf win</measure>  gebenn,
+<lb/>gotz willen begert, sol man iren <measure
+        type="volume" unit="Kopf" quantity="8" commodity="wine"
+       >viij kopf win</measure>  gebenn,
 <lb/>muͦß unnd brot uß dem allmuͦsen, darzuͦ andere hilf,
 <lb/>je nach gelegennheit der sachen, bewisenn.</p>
-</div>
-<pb n="16" facs="StAZH_A_61_1__Nr__3__S__18_.tif
+     </div>
+     <pb n="16" facs="StAZH_A_61_1__Nr__3__S__18_.tif
 "/>
-<div>
-<p><lb/>Ob ettlich personen ane der verordnetenn 
+     <div>
+      <p><lb/>Ob ettlich personen ane der verordnetenn 
 <lb/>pflëgern rat, gunst, wu̍ssenn und willenn
 <lb/>zuͦ artznen sich verdingen wurdind und sust
 <lb/>in ander weg ettlicher ley kostenns uff das 
-<lb/>allmuͦsen gan liessind, den wellend die genan<lb break="no"/>ten
+<lb/>allmuͦsen gan liessind, den wellend die genan<lb
+        break="no"
+        />ten
 pflëger nit ußrichten, besunder verschaffen, 
-<lb/>das sonderlich frëfen personen nach der sach gelë<lb break="no"/>genn 
+<lb/>das sonderlich frëfen personen nach der sach gelë<lb
+        break="no"
+         />genn 
 heit gestrafft werdind. Darnach wu̍sse sich
-<lb/>mengklich ze richtenn.<note>Direkt anschliessend beginnt die ebenfalls von der Hand Stadtschreiber <persName ref="per012630">Werner Beyels</persName> stammende Ordnung der Stadt <placeName ref="loc000065">Zürich</placeName> betreffend auswärtige Almosenempfänger (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_157">SSRQ ZH NF I/1/3, Nr. 157</ref></bibl>).</note></p>
-</div>
-</body>
-<back>
-<div><p><orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065">Zürich</placeName></orgName> hatten am 5. Januar 1525 eine Kommission damit beauftragt, 
-Artikel für eine Almosenordnung auszuarbeiten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4208561">StAZH B VI 248, fol. 224v</ref></bibl>). 
+<lb/>mengklich ze richtenn.<note>Direkt anschliessend beginnt die ebenfalls von der Hand Stadtschreiber <persName
+         ref="per012630">Werner Beyels</persName> stammende Ordnung der Stadt <placeName
+         ref="loc000065">Zürich</placeName> betreffend auswärtige Almosenempfänger (<bibl><ref
+          target="/suche/detail/SSRQ_ZH_NF_I_1_3_157"
+        >SSRQ ZH NF I/1/3, Nr. 157</ref></bibl>).</note></p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p><orgName ref="org002406">Bürgermeister und Rat von <placeName ref="loc000065"
+         >Zürich</placeName></orgName> hatten am 5. Januar 1525 eine Kommission damit beauftragt, 
+Artikel für eine Almosenordnung auszuarbeiten (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4208561"
+         >StAZH B VI 248, fol. 224v</ref></bibl>). 
 Die zehn Tage später verabschiedete Ordnung bildete in der vorliegenden 
 Form das Fundament für die Armenfürsorge in Stadt und Landschaft während der gesamten Frühen Neuzeit. 
 Vergleichbare Einrichtungen 
-waren zuvor in <placeName ref="loc008629">Nürnberg</placeName> (1522) und <placeName ref="loc000022">Strassburg</placeName> (1523) geschaffen worden. Eine erste Almosenordnung hatte die 
-<placeName ref="loc000065">Zürcher</placeName> Obrigkeit bereits im Jahr 1520 erlassen, diese war jedoch nur 
-teilweise umgesetzt worden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3548372">StAZH A 61.1, Nr. 1</ref></bibl>; 
-Edition: <bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 132</bibl>).
+waren zuvor in <placeName
+        ref="loc008629">Nürnberg</placeName> (1522) und <placeName ref="loc000022"
+        >Strassburg</placeName> (1523) geschaffen worden. Eine erste Almosenordnung hatte die 
+<placeName
+        ref="loc000065"
+         >Zürcher</placeName> Obrigkeit bereits im Jahr 1520 erlassen, diese war jedoch nur 
+teilweise umgesetzt worden (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3548372"
+         >StAZH A 61.1, Nr. 1</ref></bibl>; 
+Edition: <bibl><ref
+         target="/startseite/literaturverzeichnis"
+       >Egli, Actensammlung</ref>, Nr. 132</bibl>).
 Die Ordnung von 1520 unterschied bereits zwischen fürsorgeberechtigten Armen und solchen, denen das Almosen verwehrt werden sollte, da ihre 
 Bedürftigkeit als selbstverschuldet erachtet wurde. Diese Unterscheidung liegt auch der Almosenordnung von 1525 und darauf basierend dem gesamten frühneuzeitlichen Armenwesen zugrunde.</p>
-<p>Die wichtigsten durch die Almosenordnung von 1525 eingeführten Neuerungen bestanden in der Einsetzung eines Almosenobmanns und vier Pflegern, 
-der Einrichtung einer täglichen Essensabgabe im <orgName ref="org004925">Predigerkloster</orgName>, der Übergabe sämtlicher Gebäude des <orgName ref="org004925">Predigerklosters</orgName> an das bereits seit dem 12. Jahrhundert existierende <placeName ref="loc010962">Spital</placeName>, der Schaffung eines <orgName ref="org005022">Blatternhauses</orgName> 
-zur Pflege bedürftiger Kranker sowie der Einführung des Bettelverbots. Entscheidend für die Finanzierung des <orgName ref="org004915">Almosenamts</orgName> war, dass ein Teil des durch die 
+      <p>Die wichtigsten durch die Almosenordnung von 1525 eingeführten Neuerungen bestanden in der Einsetzung eines Almosenobmanns und vier Pflegern, 
+der Einrichtung einer täglichen Essensabgabe im <orgName
+        ref="org004925">Predigerkloster</orgName>, der Übergabe sämtlicher Gebäude des <orgName
+        ref="org004925"
+        >Predigerklosters</orgName> an das bereits seit dem 12. Jahrhundert existierende <placeName
+        ref="loc010962">Spital</placeName>, der Schaffung eines <orgName ref="org005022"
+        >Blatternhauses</orgName> 
+zur Pflege bedürftiger Kranker sowie der Einführung des Bettelverbots. Entscheidend für die Finanzierung des <orgName
+        ref="org004915"
+        >Almosenamts</orgName> war, dass ein Teil des durch die 
 Reformation an die Stadt gefallenen Kirchenguts für die Armenfürsorge zur Verfügung stand. 
-Zu diesem Zweck hatte der <orgName ref="org002406">Rat</orgName> kurz vor dem Erlass der Almosenordnung eine Kommission zum Verkauf der in den Klöstern der Stadt vorgefundenen Kirchenzierden eingesetzt 
-(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_124">SSRQ ZH NF I/1/3, Nr. 124</ref></bibl>). 
-Bereits in der Reform des <orgName ref="org004352">Grossmünsterstifts</orgName> des Jahres 1523 hatten die Chorherren zugesagt, einen Teil der Einnahmen aus Zinsen, Zehnten und Gülten 
-für die Armenpflege freizugeben (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_117">SSRQ ZH NF I/1/3, Nr. 117</ref></bibl>). 
+Zu diesem Zweck hatte der <orgName
+        ref="org002406"
+         >Rat</orgName> kurz vor dem Erlass der Almosenordnung eine Kommission zum Verkauf der in den Klöstern der Stadt vorgefundenen Kirchenzierden eingesetzt 
+(<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_124"
+        >SSRQ ZH NF I/1/3, Nr. 124</ref></bibl>). 
+Bereits in der Reform des <orgName
+        ref="org004352"
+         >Grossmünsterstifts</orgName> des Jahres 1523 hatten die Chorherren zugesagt, einen Teil der Einnahmen aus Zinsen, Zehnten und Gülten 
+für die Armenpflege freizugeben (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_117"
+        >SSRQ ZH NF I/1/3, Nr. 117</ref></bibl>). 
 Die Bestimmungen der Ordnung von 1525 konzentrieren sich auf das Almosenwesen in der Stadt. Bezüglich der Landschaft blieben sie allgemein, da die Armenfürsorge grundsätzlich den einzelnen Kirchspielen 
-überlassen werden sollte. Darüber hinaus wurden jedoch seit den 1540er Jahren auch die Klosterämter von <placeName ref="loc007710">Kappel</placeName>, <placeName ref="loc008711">Küsnacht</placeName>, <placeName ref="loc000980">Töss</placeName> und <placeName ref="loc008350">Rüti</placeName> zu Almosenverteilungen herangezogen (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_185">SSRQ ZH NF I/1/3, Nr. 185</ref></bibl>).</p>
-<p>Im Jahr 1533 wurde der vorliegenden Ordnung eine Ergänzung betreffend auswärtige Bedürftige hinzugefügt. Insbesondere die Verordnungen gegen fremde Bettler und deren Beherbung wurden immer wieder erneuert, was darauf hinweist, dass diese nur schwer umzusetzen waren 
-(exemplarisch: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168832">StAZH A 42.1.2, Nr. 4</ref></bibl>; 
-Edition: <bibl><ref target="/startseite/literaturverzeichnis">Zürcher Kirchenordnungen</ref>, Bd. 1, Nr. 48</bibl>). 
-Die Almosenordnung wurde in den Jahren 1544/45 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3550472">StAZH A 61.1, Nr. 24</ref></bibl>), 1558 
-(<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3564671">StAZH A 61.1, Nr. 73</ref></bibl>) und 1572 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_012">SSRQ ZH NF I/1/11, Nr. 12</ref></bibl>) erneuert, 
+überlassen werden sollte. Darüber hinaus wurden jedoch seit den 1540er Jahren auch die Klosterämter von <placeName
+        ref="loc007710">Kappel</placeName>, <placeName ref="loc008711"
+        >Küsnacht</placeName>, <placeName ref="loc000980">Töss</placeName> und <placeName
+        ref="loc008350">Rüti</placeName> zu Almosenverteilungen herangezogen (vgl. <bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_185">SSRQ ZH NF I/1/3, Nr. 185</ref></bibl>).</p>
+      <p>Im Jahr 1533 wurde der vorliegenden Ordnung eine Ergänzung betreffend auswärtige Bedürftige hinzugefügt. Insbesondere die Verordnungen gegen fremde Bettler und deren Beherbergung wurden immer wieder erneuert, was darauf hinweist, dass diese nur schwer umzusetzen waren 
+(exemplarisch: <bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1168832"
+         >StAZH A 42.1.2, Nr. 4</ref></bibl>; 
+Edition: <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Zürcher Kirchenordnungen</ref>, Bd. 1, Nr. 48</bibl>). 
+Die Almosenordnung wurde in den Jahren 1544/45 (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3550472"
+         >StAZH A 61.1, Nr. 24</ref></bibl>), 1558 
+(<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3564671"
+         >StAZH A 61.1, Nr. 73</ref></bibl>) und 1572 (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_11_012"
+       >SSRQ ZH NF I/1/11, Nr. 12</ref></bibl>) erneuert, 
 die Grundsätze der Bestimmungen von 1525 blieben jedoch bestehen.</p>
-<p>Mit der Einrichtung des Almosenamts reklamierte die weltliche Obrigkeit die vormals kirchlich geprägte Armenfürsorge als Teil ihres Zuständigkeitsbereiches. Vergleichbare Entwicklungen vollzogen sich 
-im selben Zeitraum im Eherecht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_001">SSRQ ZH NF I/1/11, Nr. 1</ref></bibl>) und im Schulwesen 
-(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_149">SSRQ ZH NF I/1/3, Nr. 149</ref></bibl>). Reformierte Geistliche 
-wie <persName ref="per012634">Heinrich Bullinger</persName> prägten die Praxis des Almosenwesens wesentlich mit und verfassten Vorschläge zu dessen Verbesserung 
-(exemplarisch: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550267">StAZH A 61.1, Nr. 18</ref></bibl>). Das auf diese Weise durch die 
+      <p>Mit der Einrichtung des Almosenamts reklamierte die weltliche Obrigkeit die vormals kirchlich geprägte Armenfürsorge als Teil ihres Zuständigkeitsbereiches. Vergleichbare Entwicklungen vollzogen sich 
+im selben Zeitraum im Eherecht (<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_11_001"
+         >SSRQ ZH NF I/1/11, Nr. 1</ref></bibl>) und im Schulwesen 
+(<bibl><ref
+         target="/suche/detail/SSRQ_ZH_NF_I_1_3_149"
+        >SSRQ ZH NF I/1/3, Nr. 149</ref></bibl>). Reformierte Geistliche 
+wie <persName
+        ref="per012634"
+         >Heinrich Bullinger</persName> prägten die Praxis des Almosenwesens wesentlich mit und verfassten Vorschläge zu dessen Verbesserung 
+(exemplarisch: <bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3550267"
+         >StAZH A 61.1, Nr. 18</ref></bibl>). Das auf diese Weise durch die 
 weltliche Obrigkeit und die reformierte Kirche gemeinsam getragene Almosenwesen anerkannte einerseits die Zuständigkeit des Gemeinwesens für die Unterstützung einzelner Bedürftiger. Andererseits
 knüpfte es die Fürsorge jedoch auch an sittliche und moralische Bedingungen und führte damit zur Disziplinierung und Marginalisierung von Personen, die aus Sicht der Obrigkeit dagegen verstiessen.</p>
-<p>Vgl. allgemein zur Armenfürsorge in der vormodernen <placeName ref="loc000153">Eidgenossenschaft</placeName>
-<bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref target="http://www.hls-dhs-dss.ch/textes/d/D25809.php">Fürsorge</ref></bibl>;
-zum <placeName ref="loc000065">Zürcher</placeName> Almosenwesen in der Stadt und auf der Landschaft vgl. <bibl><ref target="/startseite/literaturverzeichnis">Moser 2010</ref></bibl>; 
-<bibl><ref target="/startseite/literaturverzeichnis">Bächtold 1982</ref>, S. 233-276</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Denzler 1920</ref></bibl>. 
+      <p>Vgl. allgemein zur Armenfürsorge in der vormodernen <placeName ref="loc000153"
+        >Eidgenossenschaft</placeName>
+       <bibl><ref target="/startseite/literaturverzeichnis">HLS</ref>, <ref
+         target="http://www.hls-dhs-dss.ch/textes/d/D25809.php"
+        >Fürsorge</ref></bibl>;
+zum <placeName ref="loc000065"
+         >Zürcher</placeName> Almosenwesen in der Stadt und auf der Landschaft vgl. <bibl><ref
+         target="/startseite/literaturverzeichnis">Moser 2010</ref></bibl>; 
+<bibl><ref
+         target="/startseite/literaturverzeichnis"
+         >Bächtold 1982</ref>, S. 233-276</bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis">Denzler 1920</ref></bibl>. 
 
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>

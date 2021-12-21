@@ -3,167 +3,347 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
 Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich.
 Band 3: Stadt und Territorialstaat Zürich II (1460 bis Reformation)</title>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Michael Schaffner</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-05-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_3_018</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3743679">StAZH F II a 290, fol. 62r-63r</idno></msIdentifier><head>Begründung der Bruderschaft der Gesellen, Knechte und Lehrknaben des Zürcher Schuhmacherhandwerks</head><msContents><summary>Die Gesellen, Knechte und Lehrknaben des Schuhmacherhandwerks haben mit Erlaubnis von Bürgermeister und Rat der Stadt Zürich eine Bruderschaft zu Ehren der Jungfrau Maria begründet. Mit Guardian und Konvent des Klosters der Barfüsser (Franziskaner) haben sie sich, unter Mithilfe ihres Zunftmeisters Johannes Nordikon, auf folgende Artikel verständigt: Die Barfüsser feiern jeweils zu den vier Temperfasten (Fronfasten), an Allerseelen und an den vier Marienfesten eine gesungene Seelenmesse zugunsten der Mitglieder der Bruderschaft und aller ihrer Nachkommen (1). Der Bruderschaft wird ein Begräbnisplatz auf dem Friedhof der Barfüsser zugewiesen (2). Wenn ein Mitglied der Bruderschaft stirbt, halten ihm die Barfüsser die Totenwache, geleiten seinen Leichnam zum Friedhof und halten sein Begräbnis. Am nächsten darauffolgenden Feiertag halten sie dem Verstorbenen eine Seelenmesse und besuchen den Begräbnisplatz der Bruderschaft (3). Für jede gesungene Seelenmesse schuldet die Bruderschaft dem Priester, der die Messe hält, zwei Schilling, den beiden Lektoren je einen Schilling (4). Die Seelenmessen zugunsten der Bruderschaft werden an dem dafür bestimmten Altar rechts der Eingangstüre der Barfüsserkirche gehalten (5). Jeweils am Vorabend hat sich der Büchsenmeister der Bruderschaft beim Guardian oder seinem Stellvertreter nach dem Zeitpunkt der Messe zu erkundigen und diesen seinen Mitbrüdern anzuzeigen, die das Opfer von je einem Angster zu entrichten haben (6). Anlässlich aller zugunsten der Bruderschaft begangenen Messen und Begräbnisse sollen deren Kerzen angezündet werden (7).Meister Johannes Nordikon siegelt im Namen der Bruderschaft.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate when="1484-08-14"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1513-01-01" to="1513-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hoppeler 1923, S. 66-67</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc>
-</profileDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000644">Bruderschaft</term><term ref="key000238">Friedhof</term><term ref="key005386">Frömmigkeit</term><term ref="key003648">Geistlichkeit</term><term ref="key000961">Gesellen</term><term ref="key000149">Gottesdienst</term><term ref="key000150">Jahrzeit</term><term ref="key005402">Kirchengebäude</term><term ref="key000010">Kloster</term><term ref="key003732">Orden</term><term ref="key000192">Stiftung</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="62r" type="original"/>
-<head><lb/>Diser brief sait von der <orgName ref="org004919">schuͦknecht</orgName> jartzit</head>
-<p><lb/><seg>Wir, die gemeinen gesellenn, knecht und knaben <orgName ref="org004995">schumacher hant<lb break="no"/>wercks</orgName>,
-so der zit in der stat <placeName ref="loc000065">Zu̍rich</placeName> dienend und wonhafftig sind,
+        <respStmt>
+          <persName>Michael Schaffner</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Michael Schaffner</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date type="electronic" when="2021-05-01"/>
+        <date type="print" when="2018-12-31"/>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Sammlung Schweizerischer Rechtsquellen</title>
+        <respStmt>
+          <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>SSRQ_ZH_NF_I_1_3_018</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3743679"
+              >StAZH F II a 290, fol. 62r-63r</idno>
+          </msIdentifier>
+          <head>Begründung der Bruderschaft der Gesellen, Knechte und Lehrknaben des Zürcher Schuhmacherhandwerks</head>
+          <msContents>
+            <summary>Die Gesellen, Knechte und Lehrknaben des Schuhmacherhandwerks haben mit Erlaubnis von Bürgermeister und Rat der Stadt Zürich eine Bruderschaft zu Ehren der Jungfrau Maria begründet. Mit Guardian und Konvent des Klosters der Barfüsser (Franziskaner) haben sie sich, unter Mithilfe ihres Zunftmeisters Johannes Nordikon, auf folgende Artikel verständigt: Die Barfüsser feiern jeweils zu den vier Temperfasten (Fronfasten), an Allerseelen und an den vier Marienfesten eine gesungene Seelenmesse zugunsten der Mitglieder der Bruderschaft und aller ihrer Nachkommen (1). Der Bruderschaft wird ein Begräbnisplatz auf dem Friedhof der Barfüsser zugewiesen (2). Wenn ein Mitglied der Bruderschaft stirbt, halten ihm die Barfüsser die Totenwache, geleiten seinen Leichnam zum Friedhof und halten sein Begräbnis. Am nächsten darauffolgenden Feiertag halten sie dem Verstorbenen eine Seelenmesse und besuchen den Begräbnisplatz der Bruderschaft (3). Für jede gesungene Seelenmesse schuldet die Bruderschaft dem Priester, der die Messe hält, zwei Schilling, den beiden Lektoren je einen Schilling (4). Die Seelenmessen zugunsten der Bruderschaft werden an dem dafür bestimmten Altar rechts der Eingangstüre der Barfüsserkirche gehalten (5). Jeweils am Vorabend hat sich der Büchsenmeister der Bruderschaft beim Guardian oder seinem Stellvertreter nach dem Zeitpunkt der Messe zu erkundigen und diesen seinen Mitbrüdern anzuzeigen, die das Opfer von je einem Angster zu entrichten haben (6). Anlässlich aller zugunsten der Bruderschaft begangenen Messen und Begräbnisse sollen deren Kerzen angezündet werden (7). – Meister Johannes Nordikon siegelt im Namen der Bruderschaft.</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Abschrift</filiation>
+              <filiation type="original"><origDate when="1484-08-14"/></filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><material>Papier</material></support>
+                <extent><dimensions type="leaves">
+                    <height unit="cm" quantity="32.0"/>
+                    <width unit="cm" quantity="20.0"/>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin><origDate from="1513-01-01" to="1513-12-31"/></origin>
+          </history>
+          <additional>
+            <listBibl>
+              <head>Edition</head>
+              <bibl>Hoppeler 1923, S. 66-67</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc> </profileDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key000644">Bruderschaft</term>
+          <term ref="key000238">Friedhof</term>
+          <term ref="key005386">Frömmigkeit</term>
+          <term ref="key003648">Geistlichkeit</term>
+          <term ref="key000961">Gesellen</term>
+          <term ref="key000149">Gottesdienst</term>
+          <term ref="key000150">Jahrzeit</term>
+          <term ref="key005402">Kirchengebäude</term>
+          <term ref="key000010">Kloster</term>
+          <term ref="key003732">Orden</term>
+          <term ref="key000192">Stiftung</term>
+        </keywords>
+      </textClass>
+      <particDesc default="false"/>
+      <settingDesc default="false"/>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="62r" type="original"/>
+            <head><lb/>Diser brief sait von der <orgName ref="org004919"
+              >schuͦknecht</orgName> jartzit</head>
+            <p><lb/><seg>Wir, die gemeinen gesellenn, knecht und knaben <orgName ref="org004995"
+                    >schumacher hant<lb break="no"
+                  />wercks</orgName>,
+so der zit in der stat <placeName ref="loc000065"
+                  >Zu̍rich</placeName> dienend und wonhafftig sind,
 <lb/>thuͦn kund allermengklichem und bekennend offennlich mit dem 
 <lb/>brieff:</seg>
-<seg>Alls wir die strengen, vestenn, fromen, fuͤrsichtigen, wisenn
-<lb/><orgName ref="org002406">burgermeister und ratt der stat <placeName ref="loc000065">Zu̍rich</placeName></orgName>, unser gnaͤdig herrenn,
+              <seg>Alls wir die strengen, vestenn, fromen, fuͤrsichtigen, wisenn
+<lb/><orgName
+                  ref="org002406">burgermeister und ratt der stat <placeName ref="loc000065"
+                    >Zu̍rich</placeName></orgName>, unser gnaͤdig herrenn,
 <lb/>ernstlich und mit hohem flis angeruft unnd gebetten hand, zu
-<lb/>gefallen der allersaͤligsten junckfrouwen <persName ref="per000169">Maria</persName>, der mutter al<lb break="no"/>ler
+<lb/>gefallen der allersaͤligsten junckfrouwen <persName
+                  ref="per000169">Maria</persName>, der mutter al<lb break="no"
+                  />ler
 gnaden und barmhertzigkeit, in der ere aller gloubigen selen
-<lb/>und zu lieb unsern vordern und nachkomen, uns und allen un<lb break="no"/>sern
-nachkomen, gesellen, knechten und knaben <orgName ref="org004995">schumacher
+<lb/>und zu lieb unsern vordern und nachkomen, uns und allen un<lb
+                  break="no"/>sern
+nachkomen, gesellen, knechten und knaben <orgName ref="org004995"
+                  >schumacher
 <lb/>hantwercks</orgName>, in ir obgenanten stat je zu zitten dienende unnd
-<lb/>wonhaft, einer <orgName ref="org004919">bruderschaft</orgName> in ir gemelten stat zu habennde,
-<lb/>zeverwilligenn und zevergu̍nsten und sy uns alls dero ver<lb break="no"/>willigt
+<lb/>wonhaft, einer <orgName
+                  ref="org004919"
+                  >bruderschaft</orgName> in ir gemelten stat zu habennde,
+<lb/>zeverwilligenn und zevergu̍nsten und sy uns alls dero ver<lb
+                  break="no"
+                  />willigt
 und verfolgt, iren gunst und verhengknuß darzu geben
-<lb/>handt, nach lut und sag eins brieffs, den wir, mit ir stat se<lb break="no"/>cret 
+<lb/>handt, nach lut und sag eins brieffs, den wir, mit ir stat se<lb
+                  break="no"
+                  />cret 
 insigell besigelt, inn habent, das wir darnebent sollichem 
 <lb/>mit gemeinem, einhelligem rat und wolbedachtenklich durch
-<lb/>hilff und zuͦthun deß fromen und wisen meister <persName ref="per015383">Johansen Nor<lb break="no"/>dikon</persName>,
+<lb/>hilff und zuͦthun deß fromen und wisen meister <persName
+                  ref="per015383">Johansen Nor<lb break="no"
+                  />dikon</persName>,
 burgere und deß rats und der zit unsern meistern deß
-<lb/><orgName ref="org005082">schumacher handtwercks <placeName ref="loc000065">Zuͤrich</placeName></orgName> zunftmeister, mit den wuͤ<lb break="no"/>digen
-unnd geistlichen bru̍dern, dem <orgName ref="org004932">gardien und gmeinem 
-<lb/>convent deß barfu̍sser klosters <placeName ref="loc000065">Zuͤrich</placeName></orgName>, <orgName ref="org002768">sant <persName ref="per001858">Franciscen</persName> orden</orgName>,
-<lb/><orgName ref="org000056"><placeName ref="loc000923">Costentzer</placeName> bistumbs</orgName>, unsern lieben herren, gu̍tlich und fru̍nt<lb break="no"/>lich
+<lb/><orgName
+                  ref="org005082">schumacher handtwercks <placeName ref="loc000065"
+                    >Zuͤrich</placeName></orgName> zunftmeister, mit den wuͤ<lb break="no"
+                  />digen
+unnd geistlichen bru̍dern, dem <orgName ref="org004932"
+                    >gardien und gmeinem 
+<lb/>convent deß barfu̍sser klosters <placeName
+                    ref="loc000065">Zuͤrich</placeName></orgName>, <orgName ref="org002768"
+                    >sant <persName ref="per001858"
+                  >Franciscen</persName> orden</orgName>,
+<lb/><orgName ref="org000056"><placeName
+                    ref="loc000923"
+                  >Costentzer</placeName> bistumbs</orgName>, unsern lieben herren, gu̍tlich und fru̍nt<lb
+                  break="no"
+                />lich
 uberkomen sindt und sy mit uns diser nachfolgenden stu̍cken
 <lb/>und artickeln:</seg>
-<seg n="1">Also das sie und all ir nachkomen conventbru̍der
+              <seg n="1"
+                  >Also das sie und all ir nachkomen conventbru̍der
 <lb/>deß obgenanten closters nun hinenfu̍r und jemer ewenklich
-<lb/>der wirdigen mutter und magt <persName ref="per000169">Maria</persName> zu lob, ouch unser, aller
-<lb/>unser vordern und nachkomen diser <orgName ref="org004919">bruderschaft</orgName> selen zuͦ trost
+<lb/>der wirdigen mutter und magt <persName
+                  ref="per000169"
+                  >Maria</persName> zu lob, ouch unser, aller
+<lb/>unser vordern und nachkomen diser <orgName
+                  ref="org004919">bruderschaft</orgName> selen zuͦ trost
 <pb n="62v" type="original"/>
-<lb/>unnd hilff ze den <date dur="R/P3M">vier temperfasten</date>, die man nempt fronfasten,<note>Die Fronfasten waren verbreitete Termine für Seelenmessen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 107</bibl> sowie exemplarisch <bibl><ref target="/startseite/literaturverzeichnis">Hugener 2014</ref>, S. 105</bibl>.</note> im
- <lb/>jar zu jegklicher <date dur="R/P3M">fronfasten</date> insunder ein gesungen selmeß in
+                <lb/>unnd hilff ze den <date dur="R/P3M"
+                      >vier temperfasten</date>, die man nempt fronfasten,<note>Die Fronfasten waren verbreitete Termine für Seelenmessen, vgl. <bibl><ref
+                      target="/startseite/literaturverzeichnis"
+                      >Illi 1992</ref>, S. 107</bibl> sowie exemplarisch <bibl><ref
+                      target="/startseite/literaturverzeichnis"
+                  >Hugener 2014</ref>, S. 105</bibl>.</note> im
+ <lb/>jar zu jegklicher <date
+                  dur="R/P3M"
+                  >fronfasten</date> insunder ein gesungen selmeß in
  <lb/>irem obgenanten closter haben und begon soͤllenndt, deß glich
- <lb/><date dur="R/P1Y">alle jar jaͤrlich</date> an <date when="--11-02" type="holiday">aller selen tag</date> und uff die <num value="4">vier</num> unser frow
- <lb/>tag<note>Es handelt sich um die vier Marienfeste der Reinigung oder Lichtmess (2. Februar), Verkündigung (25. März), Himmelfahrt (15. August) und Empfängnis (8. Dezember), vgl. <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 107</bibl>.</note> im <date dur="R/P1Y">jar</date> und uff jeden insunders ein gesungen meß.</seg>
-<seg n="2">Die vor<lb break="no"/>genanten 
- gardien und der <orgName ref="org004932">convent</orgName> habent uns ouch ein 
+ <lb/><date
+                  dur="R/P1Y">alle jar jaͤrlich</date> an <date when="--11-02" type="holiday"
+                  >aller selen tag</date> und uff die <num value="4"
+                      >vier</num> unser frow
+ <lb/>tag<note>Es handelt sich um die vier Marienfeste der Reinigung oder Lichtmess (2. Februar), Verkündigung (25. März), Himmelfahrt (15. August) und Empfängnis (8. Dezember), vgl. <bibl><ref
+                      target="/startseite/literaturverzeichnis"
+                  >Illi 1992</ref>, S. 107</bibl>.</note> im <date dur="R/P1Y"
+                >jar</date> und uff jeden insunders ein gesungen meß.</seg>
+              <seg n="2">Die vor<lb break="no"/>genanten 
+ gardien und der <orgName ref="org004932"
+                  >convent</orgName> habent uns ouch ein 
  <lb/>statt uff irem kilchoff zuͦ aller nechst by dem thor, so nebenndt
  <lb/>dem beinhus ist, zwischen demselben und dem obren thor ann
  <lb/>der mur ingeben, das wir unser begrept da machen soͤllenn
  <lb/>lassenn.</seg>
-<seg n="3">Wenn sich ouch fu̍gte, das einer in der vorgenanten 
-  <lb/>unser <orgName ref="org004919">bruderschafft</orgName> hie in der stat <placeName ref="loc000065">Zuͤrich</placeName> mit tod abgangen
+              <seg n="3">Wenn sich ouch fu̍gte, das einer in der vorgenanten 
+  <lb/>unser <orgName
+                  ref="org004919">bruderschafft</orgName> hie in der stat <placeName ref="loc000065"
+                  >Zuͤrich</placeName> mit tod abgangen
   <lb/>und von diser zit gescheiden ist und das den genanten herrenn
   <lb/>zuͦ wissenn gethan wu̍rt, dann so sollent dieselbenn herren
   <lb/>oder ir nachkomen deß genanten klosters zu dem huse, darinne
-  <lb/>der abgangen lit, gon und da dannnen nit komen, bis wir den<lb break="no"/>selbenn 
+  <lb/>der abgangen lit, gon und da dannnen nit komen, bis wir den<lb
+                  break="no"
+                  />selbenn 
   zuͦ kilchen tragen lassennt. Und so wir den also dartzu 
-  <lb/>lassenn tragen, sy ouch mit der lich gon und dem selben abgang<lb break="no"/>nenn
+  <lb/>lassenn tragen, sy ouch mit der lich gon und dem selben abgang<lb
+                  break="no"
+                  />nenn
   ein gesungen seel ampt habenn und sin begreptnuß
   <lb/>begonn, uff den negstenn firtag darnach, nach ordnung der
   <lb/>heiligenn kristenlichen kilchenn. Und so dick sy also in unser
-  <lb/><orgName ref="org004919">bruderschafft</orgName> ein seel ampt singent, wenn das ist, so soll der<lb break="no"/>selb
+  <lb/><orgName
+                  ref="org004919"
+                  >bruderschafft</orgName> ein seel ampt singent, wenn das ist, so soll der<lb
+                  break="no"
+                />selb
   briester, der das ampt vollbracht hat, der evangelier und 
   <lb/>epistler mit ime uber unser begreptnuß und das grab, darinn 
   <lb/>der totten lichnam ruwenndt ist, gon.</seg>
-<seg n="4">Wir unnd unser nach<lb break="no"/>komenn 
-diser <orgName ref="org004919">bruderschafft</orgName> soͤllenn inen ouch von jeder gesungen
+              <seg n="4">Wir unnd unser nach<lb break="no"/>komenn 
+diser <orgName ref="org004919"
+                  >bruderschafft</orgName> soͤllenn inen ouch von jeder gesungen
 <lb/>meß, so dick und mengmal sy unns die hand geben, einem
-<lb/>briester, der die meß hat, <measure type="currency" unit="ß" quantity="2">zwen schilling</measure>, dem evangelier,
-<lb/>der das evangelienn singt, <measure type="currency" unit="ß" quantity="1">ein schilling</measure>, dem epistler, der das 
-<lb/>epistel singt, <measure type="currency" unit="ß" quantity="1">ein schilling</measure>.</seg>
-<seg n="5">Die vorgenanten herrenn und alle 
+<lb/>briester, der die meß hat, <measure
+                  type="currency" unit="ß" quantity="2"
+                  >zwen schilling</measure>, dem evangelier,
+<lb/>der das evangelienn singt, <measure
+                  type="currency" unit="ß" quantity="1"
+                  >ein schilling</measure>, dem epistler, der das 
+<lb/>epistel singt, <measure
+                  type="currency" unit="ß" quantity="1">ein schilling</measure>.</seg>
+              <seg n="5"
+                  >Die vorgenanten herrenn und alle 
 <lb/>ir nachkomen deß genanten klosters soͤllennt ouch solch messen 
 <lb/>alle haben in irem kloster uff dem altar, zu negst by der mur,
 <lb/>alls man in das thor gatt, by der rechten handt, den sy also 
-<lb/>unser <orgName ref="org004919">bruderschaft</orgName> ingeben hand.</seg>
-<seg n="6">Und uff welchen tag sy unns 
-<lb/>oder unser nachkomen diser <orgName ref="org004919">bruderschaft</orgName> ein ampt habenn
+<lb/>unser <orgName
+                  ref="org004919">bruderschaft</orgName> ingeben hand.</seg>
+              <seg n="6">Und uff welchen tag sy unns 
+<lb/>oder unser nachkomen diser <orgName
+                  ref="org004919">bruderschaft</orgName> ein ampt habenn
 <pb n="63r" type="original"/>
-<lb/>soͤllenn, so soll unser, der schuchknechten und knaben, buchssenn<lb break="no"/>meister
-am <time period="evening">abendt</time> davor zu einem gardien deß genanten 
+                <lb/>soͤllenn, so soll unser, der schuchknechten und knaben, buchssenn<lb break="no"
+                  />meister
+am <time period="evening"
+                  >abendt</time> davor zu einem gardien deß genanten 
 <lb/>klosters, und ob der nit da were, zu einem stathalter, gon und den 
 <lb/>fragenn, umb welche zit morndes inen das ampt zuhaben fu̍glich
 <lb/>sin wolle, und soll ouch ein gardien oder stathaltter das sagen, und 
-<lb/>so dem bu̍chssenmeister, also die zit gestimpt wirt, sol der dem<lb break="no"/>nach
-von einem zuͦ dem andern irer <orgName ref="org004919">bruͦderschafft</orgName> gan und inen
+<lb/>so dem bu̍chssenmeister, also die zit gestimpt wirt, sol der dem<lb
+                  break="no"/>nach
+von einem zuͦ dem andern irer <orgName ref="org004919"
+                  >bruͦderschafft</orgName> gan und inen
 <lb/>zuͦ dem ampt zuͦkomende gebietten uff die stund, so im bestimpt
-<lb/>ist und ouch unser igklicher under den schuchknechten und kna<lb break="no"/>benn
-<measure type="currency" unit="Angster" quantity="1">einen angster</measure> mit ime bringen zu opffer. Und welcher 
-<lb/>nit selbs komen kan, der soll den <measure type="currency" unit="Angster" quantity="1">angster</measure> by einem andern dar
+<lb/>ist und ouch unser igklicher under den schuchknechten und kna<lb
+                  break="no"/>benn
+<measure type="currency" unit="Angster" quantity="1"
+                  >einen angster</measure> mit ime bringen zu opffer. Und welcher 
+<lb/>nit selbs komen kan, der soll den <measure
+                  type="currency" unit="Angster" quantity="1"
+                  >angster</measure> by einem andern dar
 <lb/>schicken. Ob aber dero deweders beschehe, so soll er doch desselbenn 
-<lb/>tags den <measure type="currency" unit="Angster" quantity="1">angster</measure> den bu̍chssenmeistern uff die stuben bringen,
-<lb/>by der bus, wie das unser <orgName ref="org004919">bruderschaft</orgName> inn hallt.</seg>
-<seg n="7">Wir und unsere
+<lb/>tags den <measure
+                  type="currency" unit="Angster" quantity="1"
+                  >angster</measure> den bu̍chssenmeistern uff die stuben bringen,
+<lb/>by der bus, wie das unser <orgName
+                  ref="org004919">bruderschaft</orgName> inn hallt.</seg>
+              <seg n="7"
+                >Wir und unsere
 <lb/>nachkomen soͤllenn ouch zuͦ allenn emptern und begreptnussen,
 <lb/>so sy unns begond, unser kertzenn lassen anzu̍nden und die nit 
 <lb/>abloͤschen, bis das ampt uß ist.</seg>
-<seg>Und dem allem, so diser brieff wi<lb break="no"/>set,
+              <seg>Und dem allem, so diser brieff wi<lb break="no"
+                />set,
  lut und seit, soͤllenn wir nach unser nachkomen niemer
  <lb/>nichtz fuͤrziehenn noch zuͦ wort habenn, in kein wis noch weg,
  <lb/>sunder das also haltenn und volfuͤrenn by guͦtten truͤwen, on alle 
  <lb/>widerred, getru̍lich und ungevarlich.</seg>
-<seg>Und deß alles zuͦ warem,
+              <seg>Und deß alles zuͦ warem,
 <lb/>vestem und guͦtem urkund, so haben wir, obgenanten gesellen,
-<lb/>knecht und knaben <orgName role="sigillant" ref="org004995">schuchmacher hantwercks</orgName>, mit ernst gebetten
-<lb/>und erpetten den vorgemelten meister <persName ref="per015383">Johansen Nordikon</persName>, unsern 
-<lb/>lieben herren und meister, das er sin insigel an disen brieff ge<lb break="no"/>hengkt 
+<lb/>knecht und knaben <orgName
+                  role="sigillant" ref="org004995"
+                  >schuchmacher hantwercks</orgName>, mit ernst gebetten
+<lb/>und erpetten den vorgemelten meister <persName
+                  ref="per015383"
+                  >Johansen Nordikon</persName>, unsern 
+<lb/>lieben herren und meister, das er sin insigel an disen brieff ge<lb
+                  break="no"
+                  />hengkt 
 hatt, uns und unser nachkomen aller obgenanter ding
 <lb/>zebesagende und ouch im und sinen erben in allweg on schaden,
-<lb/>das geschehen ist <origDate when="1484-08-14">an unser lieben frowenn abenndt im ougsten,
+<lb/>das geschehen ist <origDate
+                  when="1484-08-14"
+                  >an unser lieben frowenn abenndt im ougsten,
 <lb/>alls man zalt von der gepurt Christi, unsers lieben herrenn,
 <lb/>tusent vierhundert achtzig unnd vier jare</origDate>.</seg></p>
-</div>
-</body>
-<back>
-<div>
-<p>Bei der vorliegenden Aufzeichnung handelt es sich um die spätere Abschrift einer nicht erhaltenen Urkunde im Urbar des <orgName ref="org004932">Barfüsserklosters</orgName>. Der Schreiber setzt Striche über dem Buchstaben <q>u</q>, bei denen keine Unterscheidung zwischen Distinktionszeichen und diakritischem Zeichen ersichtlich ist. Zur besseren Lesbarkeit des Textes wurden bei der Transkription die Laute <q>u</q> und <q>u̍</q> gemäss Standarddeutsch normalisiert. Zur Datierung der Abschrift vgl. <bibl><ref target="/startseite/literaturverzeichnis">IWQZH</ref>, Nr. 220</bibl>.</p>
-<p>In <placeName ref="loc000065">Zürich</placeName> existierten in der zweiten Hälfte des 15. Jahrhunderts dreizehn Laienbruderschaften, von denen alle bis auf zwei ihren Sitz bei einem der drei Bettelordensklöster der Stadt hatten. 
-Die Bruderschaften stellten für ihre Mitglieder das Totengedenken sicher, namentlich durch die Bereitstellung finanzieller Mittel für die Durchführung von Begräbnissen und regelmässigen Seelenmessen. Auch die <orgName ref="org005085">Zünfte</orgName> verfügten zu diesem Zweck über bruderschaftliche Einrichtungen: So sah schon der Zunftbrief der <orgName ref="org005082">Schuhmacherzunft</orgName> im Jahr 1336 vor, dass beim Tod eines bedürftigen Meisters seine Zunftbrüder je einen Pfennig für sein Begräbnis zu spenden hatten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=529205">StAZH A 73.2</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 6</bibl>).</p>
-<p>Im 15. Jahrhundert organisierten sich jedoch zunehmend auch Knechte und Gesellen in eigenen Bruderschaften. So begründeten in <placeName ref="loc000065">Zürich</placeName> neben den <orgName ref="org004995">Schuhmachern</orgName> auch die Gesellen der <orgName ref="org004920">Bäcker</orgName>, <orgName ref="org004975">Müller</orgName> und <orgName ref="org004963">Kürschner</orgName> eigene Bruderschaften. 
-Auch Angehörige nichtzünftischer Gruppen suchten auf diese Weise bereits zu Lebzeiten Vorsorge für das eigene Seelenheil zu treffen. So war die grösstenteils bedürftige Bewohnerschaft des <placeName ref="loc010524">Kratz</placeName> ebenso in einer Bruderschaft organisiert wie die Spielleute (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=907814">StAZH A 43.1.4, Nr. 3</ref></bibl>).</p>
-<p>Der von den Schuhmachergesellen mit der Durchführung des Totengedenkens beauftragte Orden der <orgName ref="org002768">Franziskaner</orgName> befand sich seit seiner Ankunft in <placeName ref="loc000065">Zürich</placeName> Mitte des 13. Jahrhunderts mit dem <placeName ref="loc007562">Grossmünsterstift</placeName> in einem Kompetenzkonflikt wegen Seelsorge und Begräbnis. Dieser konnte erst 1510 mit einem Vergleich geschlichtet werden, wonach die <orgName ref="org002768">Franziskaner</orgName> den jeweiligen Leutpriester bei jeder klösterlichen Totenfeier mit einem Viertel der entrichteten Spenden an den Erträgen zu beteiligen hatten.</p>
-<p>Im Zuge der Reformation wurden sämtliche Bruderschaften aufgelöst. Bei der Aufstellung der Vermögenswerte wurden für die <orgName ref="org004919">Bruderschaft der Schuhmachergesellen</orgName> Einkünfte von 3 Gulden verzeichnet (<bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 620</bibl>).</p>
-<p>Zu den <placeName ref="loc000065">Zürcher</placeName> Bruderschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Amacher 2002</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 104-107</bibl>; zum Friedhof der <placeName ref="loc010378">Barfüsserkirche</placeName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 51-52</bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+          </div>
+        </body>
+        <back>
+          <div>
+            <p>Bei der vorliegenden Aufzeichnung handelt es sich um die spätere Abschrift einer nicht erhaltenen Urkunde im Urbar des <orgName
+                ref="org004932"
+                >Barfüsserklosters</orgName>. Der Schreiber setzt Striche über dem Buchstaben <q>u</q>, bei denen keine Unterscheidung zwischen Distinktionszeichen und diakritischem Zeichen ersichtlich ist. Zur besseren Lesbarkeit des Textes wurden bei der Transkription die Laute <q>u</q> und <q>u̍</q> gemäss Standarddeutsch normalisiert. Zur Datierung der Abschrift vgl. <bibl><ref
+                  target="/startseite/literaturverzeichnis">IWQZH</ref>, Nr. 220</bibl>.</p>
+            <p>In <placeName ref="loc000065"
+                >Zürich</placeName> existierten in der zweiten Hälfte des 15. Jahrhunderts dreizehn Laienbruderschaften, von denen alle bis auf zwei ihren Sitz bei einem der drei Bettelordensklöster der Stadt hatten. 
+Die Bruderschaften stellten für ihre Mitglieder das Totengedenken sicher, namentlich durch die Bereitstellung finanzieller Mittel für die Durchführung von Begräbnissen und regelmässigen Seelenmessen. Auch die <orgName
+                ref="org005085"
+                >Zünfte</orgName> verfügten zu diesem Zweck über bruderschaftliche Einrichtungen: So sah schon der Zunftbrief der <orgName
+                ref="org005082"
+                  >Schuhmacherzunft</orgName> im Jahr 1336 vor, dass beim Tod eines bedürftigen Meisters seine Zunftbrüder je einen Pfennig für sein Begräbnis zu spenden hatten (<bibl><ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=529205"
+                  >StAZH A 73.2</ref></bibl>; Edition: <bibl><ref
+                  target="/startseite/literaturverzeichnis">QZZG</ref>, Bd. 1, Nr. 6</bibl>).</p>
+            <p>Im 15. Jahrhundert organisierten sich jedoch zunehmend auch Knechte und Gesellen in eigenen Bruderschaften. So begründeten in <placeName
+                ref="loc000065">Zürich</placeName> neben den <orgName ref="org004995"
+                >Schuhmachern</orgName> auch die Gesellen der <orgName ref="org004920"
+                >Bäcker</orgName>, <orgName ref="org004975">Müller</orgName> und <orgName
+                ref="org004963"
+                >Kürschner</orgName> eigene Bruderschaften. 
+Auch Angehörige nichtzünftiger Gruppen suchten auf diese Weise bereits zu Lebzeiten Vorsorge für das eigene Seelenheil zu treffen. So war die grösstenteils bedürftige Bewohnerschaft des <placeName
+                ref="loc010524"
+                  >Kratz</placeName> ebenso in einer Bruderschaft organisiert wie die Spielleute (<bibl><ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=907814"
+                  >StAZH A 43.1.4, Nr. 3</ref></bibl>).</p>
+            <p>Der von den Schuhmachergesellen mit der Durchführung des Totengedenkens beauftragte Orden der <orgName
+                ref="org002768">Franziskaner</orgName> befand sich seit seiner Ankunft in <placeName
+                ref="loc000065">Zürich</placeName> Mitte des 13. Jahrhunderts mit dem <placeName
+                ref="loc007562"
+                >Grossmünsterstift</placeName> in einem Kompetenzkonflikt wegen Seelsorge und Begräbnis. Dieser konnte erst 1510 mit einem Vergleich geschlichtet werden, wonach die <orgName
+                ref="org002768"
+              >Franziskaner</orgName> den jeweiligen Leutpriester bei jeder klösterlichen Totenfeier mit einem Viertel der entrichteten Spenden an den Erträgen zu beteiligen hatten.</p>
+            <p>Im Zuge der Reformation wurden sämtliche Bruderschaften aufgelöst. Bei der Aufstellung der Vermögenswerte wurden für die <orgName
+                ref="org004919"
+                  >Bruderschaft der Schuhmachergesellen</orgName> Einkünfte von 3 Gulden verzeichnet (<bibl><ref
+                  target="/startseite/literaturverzeichnis"
+                >Egli, Actensammlung</ref>, Nr. 620</bibl>).</p>
+            <p>Zu den <placeName ref="loc000065">Zürcher</placeName> Bruderschaften vgl. <bibl><ref
+                  target="/startseite/literaturverzeichnis">Amacher 2002</ref></bibl>; <bibl><ref
+                  target="/startseite/literaturverzeichnis"
+                >Illi 1992</ref>, S. 104-107</bibl>; zum Friedhof der <placeName ref="loc010378"
+                >Barfüsserkirche</placeName> vgl. <bibl><ref
+                  target="/startseite/literaturverzeichnis">Illi 1992</ref>, S. 51-52</bibl>.</p>
+          </div>
+        </back>
+      </text>
+    </group>
+  </text>
 </TEI>
