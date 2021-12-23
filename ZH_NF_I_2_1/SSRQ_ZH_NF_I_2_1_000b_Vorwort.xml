@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
+xml:lang="de" type="introduction" subtype="b">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die Stadtrechte von Zürich und Winterthur. Zweite Reihe:
+Die Rechtsquellen der Stadt Winterthur. Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="transcript"/>
+</respStmt>
+
+<respStmt>
+<persName>Bettina Fürderer</persName>
+<resp key="tagging"/>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<date type="electronic" when="2020-06-01"/>
+<date type="print" when="2020-06-01"/>
+</publicationStmt>
+
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ_ZH_NF_I_2_1</idno>
+</seriesStmt>
+
+<sourceDesc>
+<listWit>
+<witness/>
+</listWit>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+</p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+
+<text>
+<group>
+<text>
+<body corresp="Sigle1">
+<div>
+<head>Vorwort der Bearbeiterin</head>
+<p>Nach zehn Jahren der Beschäftigung mit den Rechtsquellen der Stadt Winterthur freut es mich, das Ergebnis dieser Arbeit in Form eines
+gedruckten Bands sowie als digitale Publikation einer interessierten Öffentlichkeit zugänglich zu machen. Mein Dank gilt zunächst den
+Institutionen, die das Projekt der elektronischen Rechtsquellen des Kantons Zürich (eRQZH) initiiert haben: der Rechtsquellenstiftung des
+Schweizerischen Juristenvereins unter dem Präsidenten Prof. Dr. Lukas Gschwend und dem Staatsarchiv des Kantons Zürich unter der Leitung von
+Dr. Beat Gnädinger. Der Gemeinnützige Fonds (ehemals Lotteriefonds) des Kantons Zürich und die Städte Zürich und Winterthur haben durch ihre grosszügige Förderung die
+Realisierung des Projekts ermöglicht.</p>
+<p>Im Kreis der Kolleginnen und Kollegen im Staatsarchiv Zürich wurde ich sehr freundlich aufgenommen. Für eine angenehme Arbeitsatmosphäre
+war auch im Stadtarchiv Winterthur gesorgt, wo man mir einen Computerarbeitsplatz zur Verfügung stellte. Wertvolle Hinweise für die
+Quellenrecherche verdanke ich Peter Niederhäuser, durch zahlreiche Publikationen ausgewiesener Experte der Winterthurer Stadtgeschichte,
+Marlis Betschart, Stadtarchivarin von Winterthur, Michael Rezzoli (Stadtarchiv Winterthur), Martin Leonhard und Thomas Neukom (Staatsarchiv
+Zürich). Kompetenten Rat und hilfreiche Unterstützung vor Ort leisteten darüber hinaus das Team des Stadtarchivs Winterthur sowie die
+Ansprechpersonen bei der Sammlung Winterthur der Winterthurer Bibliotheken, der Handschriftenabteilung der Zentralbibliothek Zürich, dem
+Staatsarchiv des Kantons Schaffhausen und dem Gemeindearchiv Elgg. Herzlicher Dank gebührt auch den staatlichen, kommunalen und kirchlichen
+Archiven im In- und Ausland, die mir das für die Klärung von Überlieferungsfragen, die Ausarbeitung von Kommentaren oder die Identifizierung
+von Siegeln benötigte Bildmaterial zur Verfügung stellten.</p>
+<p>Von dem kollegialen Austausch mit den anderen Bearbeiterinnen und Bearbeitern der Zürcher Rechtsquellenbände, Dr. Ariane Huber Hernández,
+Sandra Reisinger, Dr. Rainer Hugener, Dr. des. Michael Schaffner und Michael Nadig sowie Christian Sieber, dem Projektleiter, habe ich sehr
+profitiert. Sie haben mich bei der Klärung von Detailfragen unterstützt, Digitalisate für mich besorgt und meine Texte korrekturgelesen. Die
+Transkriptionen der Quellen in lateinischer Sprache haben Dr. Philipp Roelli, Darko Senekovic und Severin Hof von der Fachstelle Latein der
+Universität Zürich überprüft. Dr. Hans Ulrich Pfister vom Staatsarchiv Zürich hat mich bei der Normalisierung der Winterthurer Personennamen
+beraten. Tessa Krusche und Jonas Köppel, studentische Mitarbeitende des Staatsarchivs Zürich, haben die Aufbereitung der Registerdaten
+übernommen. Für ihre Hilfe sei ihnen allen herzlich gedankt. Zu grossem Dank bin ich der administrativen und wissenschaftlichen Leiterin der
+Rechtsquellenstiftung, Dr. Pascale Sutter, verpflichtet. Sie hat die laufenden Arbeiten fachkundig begleitet, für alle editorischen Probleme
+adäquate Lösungen gefunden, das Lektorat besorgt und mit ihrem Team den Druck vorbereitet.</p>
+<p>Bettina Fürderer</p>
+<p>Villingen-Schwenningen, im Frühling 2021</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>
