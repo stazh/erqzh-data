@@ -3,1013 +3,2070 @@
 <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
 <!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
      Stadtrechte von Zürich und Winterthur. Erste Reihe: Stadt und Territorialstaat Zürich. Band 11:
      Gedruckte Mandate für Stadt und/oder Landschaft Zürich</title>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Sandra Reisinger</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2021-04-01"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_1_11_009</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1915285">StAZH B III 4, fol. 216r-226v</idno></msIdentifier><head>Prädikantenordnung und Synodalordnung der Stadt Zürich</head><msContents><summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich bestätigen die nachfolgenden, von der Pfarrerschaft an ihrer vergangenen Synode im Beisein der Vertreter des Rates aufgestellten Artikel, zur Verbesserung von Missständen, die sich in Stadt und Landschaft ergeben haben, sowie zur Beseitigung der Unordnung. Die Artikel betreffen Wahl und Amtseinsetzung der Pfarrer (1) einschliesslich Handauflegen anstatt Ölung bei der Weihe (1.1); Vermeidung des Ämterkaufs (1.2); das Vorgehen zur Neubesetzung von Pfarrstellen und die Zusammensetzung des Examinatoren-Kollegiums (1.3); die Vorstellung neuer Pfarrer vor der Gemeinde im Beisein der weltlichen Obrigkeit (1.4) sowie die Vereidigung (1.5); Die Amtsführung umfasst die Beschränkung der Predigt auf Altes und Neues Testament (2.1); die Verpflichtung zur Verlesung der obrigkeitlichen Mandate von der Kanzel (2.2); Unterstützung der Armen und getreue Verwaltung des Kirchenguts (2.3); Kooperation der Pfarrer mit der weltlichen Obrigkeit zur Vermeidung von unmässigem Trinken, Kleiderluxus und Spielen (2.4); Ordnung für die Predigt und den Katechismus (2.5); Krankenseelsorge (2.6); Unterstützung der Pfarrer durch die Diakone (2.7); Einhaltung des angemessenen Ernsts beim Spenden der Sakramente (2.8) sowie Lebenswandel und Ausbildung der Pfarrer (2.9-10). Es folgen die Punkte zur halbjährlichen Abhaltung der Synode (3.1); Einteilung der Zürcher Landschaft in Kirchgemeinden und Kapitel (3.2); Eid der neu eingesetzten Pfarrer (3.3); Mitteilungen des Rats (3.4); Ablauf der Zensur (kirchliche Aufsicht über Leben und Lehre) im Rahmen der Synode (3.5); Amtspflichten der Dekane und Kapläne (3.6-7); Verhandlung kirchlicher Fragen und deren Vortrag vor dem Rat (3.8); Verhältnis zwischen Synode und weltlicher Rechtsprechung (3.9). Der Entwurf des vorliegenden Mandats wurde durch Heinrich Bullinger und Leo Jud im Namen der Synode an den Rat übergeben.</summary><msItem><textLang>Deutsch</textLang><author>Heinrich Bullinger; Leo Jud</author><filiation type="current">Druckschrift, 12 Bl.</filiation><docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Christoph Froschauer der Ältere)</publisher></docImprint></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="29.5"/><width unit="cm" quantity="20.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1532-11-06"/></origin></history><additional><listBibl><head>Edition</head><bibl>Zürcher Kirchenordnungen, Bd. 1, Nr. 59</bibl><bibl>Egli, Actensammlung, Nr. 1899 (zum 22. Oktober)</bibl></listBibl><listBibl><head>Nachweis</head><bibl>Schott-Volm, Repertorium, S. 771, Nr. 193</bibl><bibl>Vischer, Druckschriften, S. 91, Nr. C 216</bibl><bibl>VD16 Z 585</bibl><bibl> HBBibl, Nr. 605</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key005358">Armenversorgung</term><term ref="key004749">Ausbildung</term><term ref="key004799">Bestechung</term><term ref="key000179">Eid</term><term ref="key005363">Ess- und Trinksitten</term><term ref="key000149">Gottesdienst</term><term ref="key005401">Katechismus</term><term ref="key004009">Kirchengut</term><term ref="key005392">Luxus</term><term ref="key000491">Mandat</term><term ref="key000032">Patronat</term><term ref="key000301">Pfarrer</term><term ref="key000658">Reformation</term><term ref="key000767">Spiel</term><term ref="key005443">Synode</term><term ref="key000555">Wahlen</term><term ref="key000463">Weihe</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="216r" facs="StAZH_B_III_4__fol__216_r_.tif"/>
-<head type="title"><lb/>Bewilligung unnd Confirma<lb break="no"/>tion
- eines <orgName ref="org002406">Burgermeisters unnd Ersammen klei<lb break="no"/>nen
- und grossen Radts der Statt <placeName ref="loc000065">Zürich</placeName></orgName> / über die Restituti<lb break="no"/>on
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Sandra Reisinger</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-04-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_ZH_NF_I_1_11_009</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1915285"
+       >StAZH B III 4, fol. 216r-226v</idno>
+     </msIdentifier>
+     <head>Prädikantenordnung und Synodalordnung der Stadt Zürich</head>
+     <msContents>
+      <summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich bestätigen die nachfolgenden, von der Pfarrerschaft an ihrer vergangenen Synode im Beisein der Vertreter des Rates aufgestellten Artikel, zur Verbesserung von Missständen, die sich in Stadt und Landschaft ergeben haben, sowie zur Beseitigung der Unordnung. Die Artikel betreffen Wahl und Amtseinsetzung der Pfarrer (1) einschliesslich Handauflegen anstatt Ölung bei der Weihe (1.1); Vermeidung des Ämterkaufs (1.2); das Vorgehen zur Neubesetzung von Pfarrstellen und die Zusammensetzung des Examinatoren-Kollegiums (1.3); die Vorstellung neuer Pfarrer vor der Gemeinde im Beisein der weltlichen Obrigkeit (1.4) sowie die Vereidigung (1.5). Die Amtsführung umfasst die Beschränkung der Predigt auf Altes und Neues Testament (2.1); die Verpflichtung zur Verlesung der obrigkeitlichen Mandate von der Kanzel (2.2); Unterstützung der Armen und getreue Verwaltung des Kirchenguts (2.3); Kooperation der Pfarrer mit der weltlichen Obrigkeit zur Vermeidung von unmässigem Trinken, Kleiderluxus und Spielen (2.4); Ordnung für die Predigt und den Katechismus (2.5); Krankenseelsorge (2.6); Unterstützung der Pfarrer durch die Diakone (2.7); Einhaltung des angemessenen Ernsts beim Spenden der Sakramente (2.8) sowie Lebenswandel und Ausbildung der Pfarrer (2.9-10). Es folgen die Punkte zur halbjährlichen Abhaltung der Synode (3.1); Einteilung der Zürcher Landschaft in Kirchgemeinden und Kapitel (3.2); Eid der neu eingesetzten Pfarrer (3.3); Mitteilungen des Rats (3.4); Ablauf der Zensur (kirchliche Aufsicht über Leben und Lehre) im Rahmen der Synode (3.5); Amtspflichten der Dekane und Kapläne (3.6-7); Verhandlung kirchlicher Fragen und deren Vortrag vor dem Rat (3.8); Verhältnis zwischen Synode und weltlicher Rechtsprechung (3.9). Der Entwurf des vorliegenden Mandats wurde durch Heinrich Bullinger und Leo Jud im Namen der Synode an den Rat übergeben.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Druckschrift, 12 Bl.</filiation>
+       <docImprint><pubPlace>(Zürich)</pubPlace><publisher>(Christoph Froschauer der Ältere)</publisher></docImprint>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent><dimensions type="leaves">
+          <height unit="cm" quantity="29.5"/>
+          <width unit="cm" quantity="20.0"/>
+         </dimensions></extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1532-11-06"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Edition</head>
+       <bibl>Zürcher Kirchenordnungen, Bd. 1, Nr. 59</bibl>
+       <bibl>Egli, Actensammlung, Nr. 1899 (zum 22. Oktober)</bibl>
+      </listBibl>
+      <listBibl>
+       <head>Nachweis</head>
+       <bibl>Schott-Volm, Repertorium, S. 771, Nr. 193</bibl>
+       <bibl>Vischer, Druckschriften, S. 91, Nr. C 216</bibl>
+       <bibl>VD16 Z 585</bibl>
+       <bibl> HBBibl, Nr. 605</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000207">Amtsführung</term>
+     <term ref="key005358">Armenversorgung</term>
+     <term ref="key004749">Ausbildung</term>
+     <term ref="key004799">Bestechung</term>
+     <term ref="key000179">Eid</term>
+     <term ref="key005363">Ess- und Trinksitten</term>
+     <term ref="key000149">Gottesdienst</term>
+     <term ref="key005401">Katechismus</term>
+     <term ref="key004009">Kirchengut</term>
+     <term ref="key005392">Luxus</term>
+     <term ref="key000491">Mandat</term>
+     <term ref="key000032">Patronat</term>
+     <term ref="key000301">Pfarrer</term>
+     <term ref="key000658">Reformation</term>
+     <term ref="key000767">Spiel</term>
+     <term ref="key005443">Synode</term>
+     <term ref="key000555">Wahlen</term>
+     <term ref="key000463">Weihe</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="216r" facs="StAZH_B_III_4__fol__216_r_.tif"/>
+      <head type="title"><lb/>Bewilligung unnd Confirma<lb break="no"/>tion
+ eines <orgName
+        ref="org002406">Burgermeisters unnd Ersammen klei<lb break="no"
+         />nen
+ und grossen Radts der Statt <placeName ref="loc000065"
+        >Zürich</placeName></orgName> / über die Restituti<lb break="no"
+        />on
  und verbesserung ettlicher maͤnglen und mißbrüchen / so
  <lb/>sich by den Dienern des wort Gottes zuͦgetragen:
- <lb/>yetzt von dem ganntzen <orgName ref="org005056">Synodo <placeName ref="loc000065">Zürich</placeName></orgName>
-<date when="1532-10-22">22.
+ <lb/>yetzt von dem ganntzen <orgName
+        ref="org005056">Synodo <placeName ref="loc000065">Zürich</placeName></orgName>
+       <date when="1532-10-22"
+        >22.
  <lb/>Octobris imm 1532. jar</date> gehalten /
- <lb/>angesaͤhen und angenom<lb break="no"/>men</head>
-<p><figure type="copper engraving"/></p>
-<pb n="216v" facs="StAZH_B_III_4__fol__216_v_.tif"/>
-<pb n="217r" facs="StAZH_B_III_4__fol__217_r_.tif"/><p>
-<seg><lb/>Wir <orgName ref="org002406">Burgermeyster und
+ <lb/>angesaͤhen und angenom<lb
+        break="no"/>men</head>
+      <p><figure type="woodcut"/></p>
+      <pb n="216v" facs="StAZH_B_III_4__fol__216_v_.tif"/>
+      <pb n="217r" facs="StAZH_B_III_4__fol__217_r_.tif"/>
+      <p>
+       <seg><lb/>Wir <orgName ref="org002406"
+          >Burgermeyster und
  <lb/>Radt / unnd der groß Radt / so man
- <lb/>nempt die Zweyhundert der Statt <placeName ref="loc000065">Zürich</placeName></orgName>. Em<lb break="no"/>bieten
+ <lb/>nempt die Zweyhundert der Statt <placeName
+          ref="loc000065">Zürich</placeName></orgName>. Em<lb break="no"
+         />bieten
  allen und yetlichen unsern Burgeren / Voͤgten / Amptlüten /
  <lb/>Landsaͤssen / Zuͦgehoͤrigen und verwandten / und besunderlich den
- <lb/>dienern / so den Gemeinden und kilchen Gottes / zuͦ verkündung si<lb break="no"/>nes
- heyligen wordts / und rechter waarer Christenlicher leer / in un<lb break="no"/>ser
- Statt und Landschafft fürgestelt / was nammens / stands / waͤ<lb break="no"/>sens
+ <lb/>dienern / so den Gemeinden und kilchen Gottes / zuͦ verkündung si<lb
+         break="no"/>nes
+ heyligen wordts / und rechter waarer Christenlicher leer / in un<lb
+         break="no"/>ser
+ Statt und Landschafft fürgestelt / was nammens / stands / waͤ<lb
+         break="no"
+         />sens
  oder wirdigkeit die yemer sind / unsern gruͦß unnd geneygten
- <lb/>willen / mit erfordrung schuldiger und Christenlicher gehorsamig<lb break="no"/>keit.
- Und fuͤgend üch darby zuͦvernemmen. Demnach der erbfy<lb break="no"/>gend
+ <lb/>willen / mit erfordrung schuldiger und Christenlicher gehorsamig<lb
+         break="no"/>keit.
+ Und fuͤgend üch darby zuͦvernemmen. Demnach der erbfy<lb break="no"
+         />gend
  unsers heyls / dasselb zehinderen nie geruͦwet / sunder allweg
  <lb/>die warheit / und den rechten waaren Gottgeselligen Gotsdienst /
  <lb/>nit allein yetz by unseren zyten / sunder so dickest die waͤlt ye buͦß und
- <lb/>besserung / und sich Gottes willen zenaͤhern angenommen / mit et<lb break="no"/>was
- unmaassen unnd mißordnungen zeundergraben unnd zuͦver<lb break="no"/>dungklen
+ <lb/>besserung / und sich Gottes willen zenaͤhern angenommen / mit et<lb
+         break="no"/>was
+ unmaassen unnd mißordnungen zeundergraben unnd zuͦver<lb break="no"
+        />dungklen
  understanden.</seg>
-<seg>Deßhalb die gemelten diener der Chri<lb break="no"/>stenen
- gemeinden / diewyl etwas maͤngel und unordnungen ynge<lb break="no"/>rissen /
+       <seg>Deßhalb die gemelten diener der Chri<lb break="no"
+         />stenen
+ gemeinden / diewyl etwas maͤngel und unordnungen ynge<lb break="no"
+         />rissen /
  uß schuldiger trüw bevolhens ampts / inn bysin / ouch mit hilff
  <lb/>und gunst unserer darzuͦ verordneter Radtsfründen / soͤllich / ouch
- <lb/>künfftig maͤngel und gepresten damit zuͦverbesseren und zuͤfürkom<lb break="no"/>men /
- zuͦ meererem ufwachs guͦter Christenlicher sitten und tugen<lb break="no"/>den /
- ouch bekeerung unsers sündtlichen lebens und versuͤnung Goͤtt<lb break="no"/>lichs
- zornns / inn yetz gehaltnem gemeinem <orgName ref="org005056">Synodo</orgName> / diß nachvol<lb break="no"/>gend
- erbar goͤttlich Artickel / Restitution und verbesserung uff wy<lb break="no"/>ter
+ <lb/>künfftig maͤngel und gepresten damit zuͦverbesseren und zuͤfürkom<lb
+         break="no"/>men /
+ zuͦ meererem ufwachs guͦter Christenlicher sitten und tugen<lb
+         break="no"/>den /
+ ouch bekeerung unsers sündtlichen lebens und versuͤnung Goͤtt<lb
+         break="no"/>lichs
+ zornns / inn yetz gehaltnem gemeinem <orgName ref="org005056"
+         >Synodo</orgName> / diß nachvol<lb break="no"
+         />gend
+ erbar goͤttlich Artickel / Restitution und verbesserung uff wy<lb break="no"
+         />ter
  unser gfallen uß guͦtem yfer / mit bystand unnd grund heyliger
  <lb/>goͤttlicher gschrifft angesehen / geordnet / inn gschrifft verfaßt / und uns
  <lb/>die zuͦverwilligen und zuͦbestaͤten / hüt datum fürbracht. Und so dann
- <lb/>all unser gemuͤt und fürnemmen / syd bekannter warheit har (bezü<lb break="no"/>gen
+ <lb/>all unser gemuͤt und fürnemmen / syd bekannter warheit har (bezü<lb
+         break="no"
+         />gen
  wir an Gott) allweg und noch dahin gereicht / das wir vorab
- <lb/>Gottes Eer / sin ewige warheit / und damit ein fromms erbars Gott<lb break="no"/>seliges
+ <lb/>Gottes Eer / sin ewige warheit / und damit ein fromms erbars Gott<lb
+         break="no"
+         />seliges
  leben by und under den unsern / gefürdern und züchten / und
  <lb/>die Gottverletzlichen laster abstellen moͤchten. Und wir in uns
- <lb/>anders nit finden koͤnnen / dann das sollich nachvermerckt Chri<lb break="no"/>stenlich
- ordnung und verbesserung Goͤttlicher gschrifft und war<pb n="217v" facs="StAZH_B_III_4__fol__217_v_.tif"/><lb break="no"/>heyt
- gemaͤß / mit selben begründt / ouch zuͦ ufnung unnd pflan<lb break="no"/>tzung
+ <lb/>anders nit finden koͤnnen / dann das sollich nachvermerckt Chri<lb
+         break="no"/>stenlich
+ ordnung und verbesserung Goͤttlicher gschrifft und war<pb n="217v"
+         facs="StAZH_B_III_4__fol__217_v_.tif"/><lb break="no"
+         />heyt
+ gemaͤß / mit selben begründt / ouch zuͦ ufnung unnd pflan<lb break="no"
+        />tzung
  eines goͤttlichen Christenlichen laͤbens / hoch dienstlich syge.</seg>
-</p>
-<p>
-<seg><lb/>So haben wir sy uns gfallen lassen / mit guͦtter vorbetrachtung
+      </p>
+      <p>
+       <seg><lb/>So haben wir sy uns gfallen lassen / mit guͦtter vorbetrachtung
   <lb/>und wolerwegnem radt / gunst und willen daryn geben / unnd sy
-  <lb/>uß ordenlicher Obergkeits macht bekrefftigt / confirmiert / und be<lb break="no"/>staͤtigt.
-  Wellend und gebietend ouch daruf zum ernstlichsten ge<lb break="no"/>melten
+  <lb/>uß ordenlicher Obergkeits macht bekrefftigt / confirmiert / und be<lb
+         break="no"/>staͤtigt.
+  Wellend und gebietend ouch daruf zum ernstlichsten ge<lb break="no"
+        />melten
   Dienern deß wordts / unnd sunst allen denen / so inn unser
   <lb/>Statt gerichten und gebietten wonhafft / und die dise ding belangen
   <lb/>sind:</seg>
-<seg>das sy soͤllich guͦtt erbar Ansehungen / Ordnungen / und Chri<lb break="no"/>stenlich
-  Artickel haltind / daby belybind / denen strax und styff gelaͤ<lb break="no"/>bind
+       <seg>das sy soͤllich guͦtt erbar Ansehungen / Ordnungen / und Chri<lb break="no"
+         />stenlich
+  Artickel haltind / daby belybind / denen strax und styff gelaͤ<lb break="no"
+         />bind
   und nachkommind: ouch darwider nüt thuͤgind / redind / noch
   <lb/>handlind / so lieb inen Gottes und unser huld syge / unnd sy unser
-  <lb/>schwaͤre straaff vermyden wellind. Dann soͤlte sich yemands fraͤ<lb break="no"/>fler
+  <lb/>schwaͤre straaff vermyden wellind. Dann soͤlte sich yemands fraͤ<lb
+         break="no"
+         />fler
   wiß hiewider setzen / und disem frommen fürnaͤmen nit gelaͤben /
   <lb/>der wurde empfinden / das wir darab schwaͤr mißfallen / unnd zur
   <lb/>straaff billich ursach gehebt hettind. Deß wellend wir maͤngklich
-  <lb/>hiemit gewarnet. Und damit die erhaltung diser und anderer Chri<lb break="no"/>stenlichen
-  Ordnungen dem gwaltigen allerguͤtigsten Gott / und si<lb break="no"/>nem
-  fürgeliebten Sun <persName ref="per000353">Jesu Christo</persName> / dem es alles zuͦ gefallen be<lb break="no"/>schicht /
-  darzuͦ uns und üch / inn sein goͤttlichen schütz und schirm demuͤ<lb break="no"/>tigklich
-  bevolhen haben. Erkennt und in Truck verfertgget / des <origDate when="1532-11-06">vi.
+  <lb/>hiemit gewarnet. Und damit die erhaltung diser und anderer Chri<lb
+         break="no"/>stenlichen
+  Ordnungen dem gwaltigen allerguͤtigsten Gott / und si<lb
+         break="no"/>nem
+  fürgeliebten Sun <persName ref="per000353"
+         >Jesu Christo</persName> / dem es alles zuͦ gefallen be<lb break="no"
+         />schicht /
+  darzuͦ uns und üch / inn sein goͤttlichen schütz und schirm demuͤ<lb
+         break="no"/>tigklich
+  bevolhen haben. Erkennt und in Truck verfertgget / des <origDate
+         when="1532-11-06"
+         >vi.
   <lb/>tags im Wyntermonet. Anno / <abbr>etc</abbr> M. D. XXXII</origDate>.</seg>
-</p>
-<p>
-<lb/>Und lutet die gemelt Restitution und verbesserung von
+      </p>
+      <p>
+       <lb/>Und lutet die gemelt Restitution und verbesserung von
  <lb/>wort zuͦ wort als haͤrnach volgt.
-</p><pb n="218r" facs="StAZH_B_III_4__fol__218_r_.tif"/>
-<p>
-<seg><lb/>Ghein fryheyt waͤder
+</p>
+      <pb n="218r" facs="StAZH_B_III_4__fol__218_r_.tif"/>
+      <p>
+       <seg><lb/>Ghein fryheyt waͤder
  <lb/>geistliche noch waͤltliche mag noch
- <lb/>kan nit durch goͤttlich rechtmaͤssig ordinan<lb break="no"/>tzen
+ <lb/>kan nit durch goͤttlich rechtmaͤssig ordinan<lb
+         break="no"
+         />tzen
  gefangen / verhindert oder undergetruckt
- <lb/>werden. Dann die fryheit eins frommen Chri<lb break="no"/>sten
- menschen nit der aart ist / das sy begaͤ<lb break="no"/>re
- von dem guͦten waaren und erberen ge<lb break="no"/>fryet
- sin. Diewyl sy von dem boͤsen unordenlichen fry / und des guͦ<lb break="no"/>ten
- eygen sin / die raͤcht fryheit achtet. So dann ein goͤttlich erber an<lb break="no"/>
+ <lb/>werden. Dann die fryheit eins frommen Chri<lb
+         break="no"/>sten
+ menschen nit der aart ist / das sy begaͤ<lb break="no"
+         />re
+ von dem guͦten waaren und erberen ge<lb break="no"
+         />fryet
+ sin. Diewyl sy von dem boͤsen unordenlichen fry / und des guͦ<lb break="no"
+         />ten
+ eygen sin / die raͤcht fryheit achtet. So dann ein goͤttlich erber an<lb break="no"
+         />
  saͤhen / nützid dann zucht und alles guͦts pflantzt / moͤgend kein recht
  <lb/>maͤssig ordinantzen mit dem tittel der fryheit abgeschupfft werden.
  <lb/>Sunder es soll bevor bybracht werden / das das ansaͤhen an imm
- <lb/>selbs ungoͤttlich und unbillich sye. Da wir uns yetz dan bevor be<lb break="no"/>haltend /
- wo es mit Gottes wort erfunden / das einer oder vil arti<lb break="no"/>ckel
+ <lb/>selbs ungoͤttlich und unbillich sye. Da wir uns yetz dan bevor be<lb
+         break="no"/>haltend /
+ wo es mit Gottes wort erfunden / das einer oder vil arti<lb
+         break="no"
+         />ckel
  unsers volgenden ansaͤhens / unbillich / und dem wort Gottes
- <lb/>zewider waͤre / der oder die nützid gaͤlten / und nach der warheit soͤl<lb break="no"/>lind
+ <lb/>zewider waͤre / der oder die nützid gaͤlten / und nach der warheit soͤl<lb
+         break="no"
+        />lind
  gebessert werden. Damit die waar fryheit / gar mit geheinem
  <lb/>menschlichen ansaͤhen getraͤngt werde.</seg>
-</p>
-<head type="subtitle" n="1"><lb/>Vonn der waal / senndung / unnd <lb/>haͤnduflegen der Predicanten</head>
-<div><ab type="marginal note" place="right margin"><lb/><persName ref="per012856">Jeremie</persName> 2</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/>2. <orgName ref="org005325"><choice><abbr>Cor</abbr><expan>Corinthos</expan></choice></orgName> 10</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 13</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheus</expan></choice></persName> 4</ab></div>
-<p>
-<seg n="1.1"><lb/>Diewyl das pfarr oder predigampt das hoͤchst unnd notwen<lb break="no"/>digist
+      </p>
+      <head type="subtitle" n="1"
+       ><lb/>Vonn der waal / senndung / unnd <lb/>haͤnduflegen der Predicanten</head>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/><persName ref="per012856"
+         >Jeremie</persName> 2</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>2. <orgName ref="org005325"><choice>
+          <abbr>Cor</abbr>
+          <expan>Corinthos</expan>
+         </choice></orgName> 10</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/><choice>
+         <abbr>Acto</abbr>
+         <expan>Acta Apostolorum</expan>
+        </choice> 13</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>1. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheus</expan>
+         </choice></persName> 4</ab>
+      </div>
+      <p>
+       <seg n="1.1"><lb/>Diewyl das pfarr oder predigampt das hoͤchst unnd notwen<lb break="no"
+         />digist
  inn der kilchen Gottes ist / und aber bißhar groß mangel und
  <lb/>praͤsten inn der beruͤffung / waal / und sendung gewaͤsen: habend wir
  <lb/>für das erst von einer verbesserung red gehalten / angesaͤhen / das
- <lb/>uns Gott nit allein bevelch abzebraͤchen / sunder ouch ufbuwens ge<lb break="no"/>gaͤben
+ <lb/>uns Gott nit allein bevelch abzebraͤchen / sunder ouch ufbuwens ge<lb
+         break="no"
+         />gaͤben
  hat. Darumb so mit Gottes wort die Bischofflich wyhe /
  <lb/>oͤlung und Character abgethon / ist das naͤchst / das wir das hend
  <lb/>uflegen / nach dem bevelch des Herren und Apostolischen bruch / an
- <lb/>des ußgerüteten Bischoflichen mißbruchs stat / ynpflantzind: wel<lb break="no"/>ches
+ <lb/>des ußgerüteten Bischoflichen mißbruchs stat / ynpflantzind: wel<lb
+         break="no"/>ches
  mit volgenden mittlen angesaͤhen.</seg>
-</p>
-<div><ab type="marginal note" place="left margin"><lb/><choice><abbr>Ebre</abbr><expan><orgName ref="org003818">Hebreos</orgName></expan></choice> 5</ab></div>
-<seg n="1.2"><p>
-<lb/>Und so nun <persName ref="per000351">Paulus</persName> spricht / Niemands mißt im selbs die eer oder
- <pb n="218v" facs="StAZH_B_III_4__fol__218_v_.tif"/>
-<lb/>verwaltung zuͦ / sunder der von Gott beruͤfft wirt / wie <persName ref="per012853">Aaron</persName>: ouch
- <lb/>inn den Epistlen an <persName ref="per012859">Timotheum</persName> und <persName ref="per012860">Titum</persName> / vil hoher gaaben inn
+      </p>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/><choice>
+         <abbr>Ebre</abbr>
+         <expan><orgName ref="org003818">Hebreos</orgName></expan>
+        </choice> 5</ab>
+      </div>
+      <seg n="1.2"><p>
+        <lb/>Und so nun <persName ref="per000351"
+         >Paulus</persName> spricht / Niemands mißt im selbs die eer oder
+ <pb n="218v"
+         facs="StAZH_B_III_4__fol__218_v_.tif"/>
+        <lb/>verwaltung zuͦ / sunder der von Gott beruͤfft wirt / wie <persName ref="per012853"
+         >Aaron</persName>: ouch
+ <lb/>inn den Epistlen an <persName ref="per012859"
+         >Timotheum</persName> und <persName ref="per012860"
+         >Titum</persName> / vil hoher gaaben inn
  <lb/>dem Pfarrer fordert: ist gar nit goͤttlich noch billich / das / so ein
- <lb/>Pfarr ledig worden / ein yeder louffe / baͤttle / gyle / gaaben ver<lb break="no"/>heysse
- unnd gaͤbe / die underthonen anfaͤchte / parthen an sich haͤn<lb break="no"/>cke /
- gantz schaaren fürbitter mit im fuͤre: und da im die pfarr uß an<lb break="no"/>saͤhen
+ <lb/>Pfarr ledig worden / ein yeder louffe / baͤttle / gyle / gaaben ver<lb
+         break="no"/>heysse
+ unnd gaͤbe / die underthonen anfaͤchte / parthen an sich haͤn<lb
+         break="no"/>cke /
+ gantz schaaren fürbitter mit im fuͤre: und da im die pfarr uß an<lb
+         break="no"
+         />saͤhen
  gunsts / früntschafft / lyplicher diensten / oder gaaben / verlihen
  <lb/>werde. Dann damit aͤben als übel gesündet wirt wider Gott und die
- <lb/>waarheit / als do der <orgName ref="org005019"><placeName ref="loc000076">Roͤmisch</placeName> hof</orgName><!-- msr: Kurie, Rom --> sin Curt uͦbt / und uff die pfar<lb break="no"/>ren
+ <lb/>waarheit / als do der <orgName
+         ref="org005019"><placeName ref="loc000076"
+         >Roͤmisch</placeName> hof</orgName><!-- msr: Kurie, Rom --> sin Curt uͦbt / und uff die pfar<lb
+         break="no"
+        />ren
  die satzt / die im gefielend / und die er vereeren wolt / die doch nit
  <lb/>zun Pfarreren geschickt: dardurch aber das gantz volck verderbt
  <lb/>und gar verfuͤrt ist.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/><persName ref="per012856">Jeremie</persName> 23</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 2</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><persName ref="per012855"><choice><abbr>Ezech</abbr><expan>Ezechiel</expan></choice></persName> 13</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><persName ref="per004014"><choice><abbr>Joan</abbr><expan>Johannes</expan></choice></persName> 10</ab></div>
-<p>
-<lb/>Soͤmliches fürohin abzestellen und ze verkummen / sind wir desse
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><persName ref="per012856"
+          >Jeremie</persName> 23</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><choice>
+          <abbr>Acto</abbr>
+          <expan>Acta Apostolorum</expan>
+         </choice> 2</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><persName ref="per012855"><choice>
+           <abbr>Ezech</abbr>
+           <expan>Ezechiel</expan>
+          </choice></persName> 13</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><persName ref="per004014"><choice>
+           <abbr>Joan</abbr>
+           <expan>Johannes</expan>
+          </choice></persName> 10</ab>
+       </div>
+       <p>
+        <lb/>Soͤmliches fürohin abzestellen und ze verkummen / sind wir desse
  <lb/>uß Gottes wort einß worden: das wo soͤmlicher unbill und vorteil /
  <lb/>wider Gottes ordnung gebrucht / und yemands erfunden / der selbs
- <lb/>gelüffen / soͤlle der selb billich mit <persName ref="per012852">Simone</persName><!-- msr: Simon Magus, der Zauberer --> dem zouberer zuͦ soͤmli<lb break="no"/>cher
+ <lb/>gelüffen / soͤlle der selb billich mit <persName
+         ref="per012852"
+         >Simone</persName><!-- msr: Simon Magus, der Zauberer --> dem zouberer zuͦ soͤmli<lb
+         break="no"
+        />cher
  goͤttlicher verwaltung nit zuͦgelassen werden. Deßhalb das er
  <lb/>das hoch geistlich ampt nid anders geschetzt / dann das es im umb
  <lb/>gaͤllt / gunst unnd fürschub werden soͤlte / das er sinen buch damit
  <lb/>spyßte / und nit achtet ob er zuͦ diser verwaltung beruͤfft / begabet unn
  <lb/>geschickt sye / oder wie er die schaͤfly Gottes wyden woͤlle und moͤge.
 </p></seg>
-<seg n="1.3"><p>
-<lb/>Wenn aber ein pfarr ledig wirt / soll dannethin der Decanus / inn
- <lb/>deß Capittel die pfarr gelaͤgen / einer ersammen obergheit des pfar<lb break="no"/>rers
- tod antragen: ouch erfaaren und bericht gaͤben / wer der Laͤhen<lb break="no"/>herr
+      <seg n="1.3"><p>
+        <lb/>Wenn aber ein pfarr ledig wirt / soll dannethin der Decanus / inn
+ <lb/>deß Capittel die pfarr gelaͤgen / einer ersammen obergheit des pfar<lb
+         break="no"/>rers
+ tod antragen: ouch erfaaren und bericht gaͤben / wer der Laͤhen<lb
+         break="no"
+         />herr
  sye: damit man fürderlich einen anderen pfarrer der kylchen
- <lb/>fürstelle: ouch niemands mitthinzuͦ nützid an siner fryheit und ge<lb break="no"/>raͤchtigkeit
+ <lb/>fürstelle: ouch niemands mitthinzuͦ nützid an siner fryheit und ge<lb
+         break="no"/>raͤchtigkeit
  abbrochen werde.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/>Examen.</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheum</expan></choice></persName> 3</ab></div>
-<p>
-<lb/>Und so dann yemands von dem Laͤhenherren fürgestelt / oder un<lb break="no"/>seren
- gnedigen herren / da sy nit Laͤhenherren / fürzestellen vergünsti<lb break="no"/>get /
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>Examen.</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="next page"><lb/>1. <persName ref="per012859"><choice>
+           <abbr>Timoth</abbr>
+           <expan>Timotheum</expan>
+          </choice></persName> 3</ab>
+       </div>
+       <p>
+        <lb/>Und so dann yemands von dem Laͤhenherren fürgestelt / oder un<lb break="no"
+         />seren
+ gnedigen herren / da sy nit Laͤhenherren / fürzestellen vergünsti<lb break="no"
+         />get /
  soll der oder die so fürgestelt / iro leer und laͤbens halben flyssig
  <lb/>ersuͦcht: und das soͤmlichs fuͦgklich beschaͤhen moͤge / ein bestimpter
- <lb/>tag examinis / hie inn der Statt <placeName ref="loc000065">Zürych</placeName> / angestelt weden: dahin die
- <lb/>vilgenampten fürgestaͤlten ire manraͤcht oder kuntschafft ires har<lb break="no"/>kummens
+ <lb/>tag examinis / hie inn der Statt <placeName
+         ref="loc000065"
+         >Zürych</placeName> / angestelt weden: dahin die
+ <lb/>vilgenampten fürgestaͤlten ire manraͤcht oder kuntschafft ires har<lb
+         break="no"/>kummens
  und laͤbens bringind: Damit nit etwan harverlouffen /
- <pb n="219r" facs="StAZH_B_III_4__fol__219_r_.tif"/>
-<lb/>ufruͤrig / meyneyds und verlümbdet lüt / die anderstwo iro übelthat
- <lb/>halben vertriben / hie unbedacht und unerfaren / an soͤmliche goͤtt<lb break="no"/>liche
+ <pb n="219r"
+         facs="StAZH_B_III_4__fol__219_r_.tif"/>
+        <lb/>ufruͤrig / meyneyds und verlümbdet lüt / die anderstwo iro übelthat
+ <lb/>halben vertriben / hie unbedacht und unerfaren / an soͤmliche goͤtt<lb
+         break="no"
+        />liche
  aͤmpter gesetzt werdint: dero schand hernach zuͦ schmaach deß
  <lb/>heyligen Evangelij reyche.
 </p>
-<p>
-<lb/>Und nach dem dann die kuntschafften von Examinatoribus erlaͤ<lb break="no"/>sen /
+       <p>
+        <lb/>Und nach dem dann die kuntschafften von Examinatoribus erlaͤ<lb break="no"
+         />sen /
  soll dannethin einer nach dem andern examiniert werden: es sye
  <lb/>dann sach das einer vor bekant / probiert / und examiniert sye / denocht
  <lb/>soll er sich uff den tag Examinis erzeigen. Und wie man denn einen
  <lb/>yeden findt: also soll es in einen brieff gestelt / verschlossen / und einem
- <lb/>ersammen <orgName ref="org002406">Radt</orgName> überschickt werden / das er da nach gstalt der fromm<lb break="no"/>gheit
+ <lb/>ersammen <orgName
+         ref="org002406">Radt</orgName> überschickt werden / das er da nach gstalt der fromm<lb
+         break="no"/>gheit
  und gschiktligheit eines yeden handle und waal naͤme.
 </p>
-<p>
-<lb/>Wenn aber die waal imm <orgName ref="org002406">Radt</orgName> soll fürtragen werden / soͤllend die
- <lb/>Examinati / so inn brieff gestellt / für den ersammen <orgName ref="org002406">Radt</orgName> keeren / dem
+       <p>
+        <lb/>Wenn aber die waal imm <orgName ref="org002406"
+         >Radt</orgName> soll fürtragen werden / soͤllend die
+ <lb/>Examinati / so inn brieff gestellt / für den ersammen <orgName
+         ref="org002406"
+        >Radt</orgName> keeren / dem
  <lb/>ouch ire manntraͤcht oder kundtschafft fürlegen / sich allein anzeigen /
  <lb/>und nit bitten / noch fürbitt mit inen fuͤren: damit die waal fry / und
  <lb/>nit nach gunst beschaͤhe: also die kilch mit frommen / geleerten / und
  <lb/>gotsfoͤrchtigen dienern versaͤhen werde.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Examinato<lb break="no"/>res.</ab></div>
-<p>
-<lb/>Hie ist aber ouch das billich / das unser <choice><abbr>G H</abbr><expan>Gnaͤdigen Herren</expan></choice> den Examinatori<lb break="no"/>bus
- by iro eyden befelhind zum trülichsten on alle gfaar allein Got<lb break="no"/>tes
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Examinato<lb break="no"/>res.</ab>
+       </div>
+       <p>
+        <lb/>Hie ist aber ouch das billich / das unser <choice>
+         <abbr>G H</abbr>
+         <expan>Gnaͤdigen Herren</expan>
+        </choice> den Examinatori<lb break="no"
+         />bus
+ by iro eyden befelhind zum trülichsten on alle gfaar allein Got<lb break="no"
+         />tes
  eer und der kilchen nutz angesaͤhen ze examinieren. Item das dz
- <lb/>examen fürnaͤmlich also gehalten werde / das man für das erst <foreign xml:lang="la">Lo<lb break="no"/>cos
+ <lb/>examen fürnaͤmlich also gehalten werde / das man für das erst <foreign
+         xml:lang="la">Lo<lb break="no"
+         />cos
  communes religionis</foreign> anzühe. Demnach erfare wie belaͤsen und
  <lb/>geuͤbt die fürgestalten inn beyden Testamenten syend: was sy für ein
- <lb/><foreign xml:lang="la">iudicium in Scripturis</foreign> habind / wie sy die bruchind / laͤsind unnd
- <lb/>dem volck erklaͤrind. Und das darzuͦ verordnet werdind <num value="2">zwen</num> von
- <lb/>den Predicanten / <num value="2">zwen</num> von den <orgName ref="org001217">Raͤdten</orgName> / und <num value="2">zwen</num> von den Laͤse<lb break="no"/>ren
+ <lb/><foreign
+         xml:lang="la"
+         >iudicium in Scripturis</foreign> habind / wie sy die bruchind / laͤsind unnd
+ <lb/>dem volck erklaͤrind. Und das darzuͦ verordnet werdind <num
+         value="2">zwen</num> von
+ <lb/>den Predicanten / <num value="2">zwen</num> von den <orgName
+         ref="org001217">Raͤdten</orgName> / und <num value="2">zwen</num> von den Laͤse<lb
+         break="no"/>ren
  der heyligen geschrifft.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Fürstellen der <lb/>Predicanten.</ab></div>
-<p>
-<lb/>Nach dem aber das Examen beschaͤhen / die zügknuß für <orgName ref="org004016">Radt</orgName>
-<lb/>gefertiget / die waal geoffnet / und yetz dann einer zum Pfarrer verord<lb break="no"/>net /
- wil inn vil waͤg nit gebüren / das er grad hinlouffe und anstan<lb break="no"/>de:
- sunder im soll einer von einem ersammen <orgName ref="org004016">Radt</orgName> / oder der Vogt
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Fürstellen der <lb/>Predicanten.</ab>
+       </div>
+       <p>
+        <lb/>Nach dem aber das Examen beschaͤhen / die zügknuß für <orgName ref="org004016"
+         >Radt</orgName>
+        <lb/>gefertiget / die waal geoffnet / und yetz dann einer zum Pfarrer verord<lb break="no"
+         />net /
+ wil inn vil waͤg nit gebüren / das er grad hinlouffe und anstan<lb break="no"
+         />de:
+ sunder im soll einer von einem ersammen <orgName ref="org004016"
+         >Radt</orgName> / oder der Vogt
  <lb/>deß selben orts zuͦggaͤben werden / unnd uf den naͤchstvolgenden
- <lb/><date period="P1WD">Sontag</date> inn die Pfarr keeren: dahin soͤllend ouch der Decanus deß
- <pb n="219v" facs="StAZH_B_III_4__fol__219_v_.tif"/>
-<lb/>selben Capittels / und der naͤchst Pfarrer / kummen. Unnd so dann das
- <lb/>volck versammlet / soll der so von einem ersammen <orgName ref="org004016">Radt</orgName> verordnet die
- <lb/>waal der kilchen offnen / und ermanen / ob yemands da sye / der et<lb break="no"/>was
+ <lb/><date
+         period="P1WD">Sontag</date> inn die Pfarr keeren: dahin soͤllend ouch der Decanus deß
+ <pb
+         n="219v" facs="StAZH_B_III_4__fol__219_v_.tif"/>
+        <lb/>selben Capittels / und der naͤchst Pfarrer / kummen. Unnd so dann das
+ <lb/>volck versammlet / soll der so von einem ersammen <orgName
+         ref="org004016"
+         >Radt</orgName> verordnet die
+ <lb/>waal der kilchen offnen / und ermanen / ob yemands da sye / der et<lb
+         break="no"
+        />was
  lündens unnd unredlichs uff den erwoͤlten wüsse / soͤlle das
  <lb/>offnen.
 </p></seg>
-<div><ab type="marginal note" place="left margin"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 13</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 20</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheum</expan></choice></persName> 4</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/>2. <choice><abbr>Chron</abbr><expan><!-- Das zweite Buch der Chronik --></expan></choice> 17</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheum</expan></choice></persName> 5</ab></div>
-<seg n="1.4"><p>
-<lb/>Und so sich dann nützid erfindt / ouch kein klag ist / soll der Deca<lb break="no"/>nus
+      <div>
+       <ab type="marginal note" place="left margin"><lb/><choice>
+         <abbr>Acto</abbr>
+         <expan>Acta Apostolorum</expan>
+        </choice> 13</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/><choice>
+         <abbr>Acto</abbr>
+         <expan>Acta Apostolorum</expan>
+        </choice> 20</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>1. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheum</expan>
+         </choice></persName> 4</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>2. <choice>
+         <abbr>Chron</abbr>
+         <expan><!-- Das zweite Buch der Chronik --></expan>
+        </choice> 17</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>1. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheum</expan>
+         </choice></persName> 5</ab>
+      </div>
+      <seg n="1.4"><p>
+        <lb/>Und so sich dann nützid erfindt / ouch kein klag ist / soll der Deca<lb break="no"
+         />nus
  predgen / fürnemlich was des Pfarrers ampt / und wie sich die
  <lb/>kilch mit und gaͤgen im halten soͤlle / <abbr>etc</abbr> Unnd nach der predge stelle
  <lb/>er den Pfarrer der kilchen für / und spraͤche zuͦ im / Sich lieber bruͦder /
- <lb/>dise biderbe gemeind befaͤlhend wir dir mit den worten <persName ref="per000351">Pauli</persName> / Hab
- <lb/>guͦt acht uff die gantze haͤrd / über die dich der heilig geist zum waͤch<lb break="no"/>ter
- und hirten gesetzt hat / zeweyden sin volck / das er mit sinem eig<lb break="no"/>nen
+ <lb/>dise biderbe gemeind befaͤlhend wir dir mit den worten <persName
+         ref="per000351"
+         >Pauli</persName> / Hab
+ <lb/>guͦt acht uff die gantze haͤrd / über die dich der heilig geist zum waͤch<lb
+         break="no"/>ter
+ und hirten gesetzt hat / zeweyden sin volck / das er mit sinem eig<lb
+         break="no"
+         />nen
  bluͦt an sich erkoufft hat. So biß inen ein vorbild imm wort / imm
  <lb/>wandel / inn der liebe / imm geist / imm glouben und luterkeit: unnd Gott
- <lb/>verlyhe dir sinen heyligen geist / das du wie ein getrüwer diener si<lb break="no"/>nes
+ <lb/>verlyhe dir sinen heyligen geist / das du wie ein getrüwer diener si<lb
+         break="no"
+         />nes
  herren / handlist / inn dem namen Gottes. Und damit lege er
  <lb/>im die hend uff. Demnach ermane das volck umm gnad anzeruͤffen.
  <lb/>Aber nach vollendetem gebaͤtt / bevelhe der Vogt oder Radtsbott
  <lb/>den Pfarrer der Gemeind inn namen der Christenlichen obergheyt.
- <lb/>Das sy in bevolhen habind / im beholffen und beradten syend zuͦ al<lb break="no"/>lem
- dem das sin ampt betrifft / nit beleydigind. Ob er dann nit hand<lb break="no"/>lete
- das geschickt / nit von einem yeden gepalget / sunder der orden<lb break="no"/>lichen
+ <lb/>Das sy in bevolhen habind / im beholffen und beradten syend zuͦ al<lb
+         break="no"/>lem
+ dem das sin ampt betrifft / nit beleydigind. Ob er dann nit hand<lb
+         break="no"/>lete
+ das geschickt / nit von einem yeden gepalget / sunder der orden<lb
+         break="no"
+          />lichen
  Obergheit angezeigt / die in nach gebür straaffen: glich wie sy
  <lb/>ouch gheinen unbeschulter sach / sines ampts entsetzen woͤlle: ouch
- <lb/>nach luth und sag der letsten verkumnuß zwüschen Statt und land.<note>Dies bezieht sich auf einen Passus des sogenannten <placeName ref="loc000451">Kappeler</placeName> Briefs, 
-  der im Anschluss an die Niederlage im Zweiten <placeName ref="loc000451">Kappeler</placeName> Krieg verabschiedet wurde (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_151">SSRQ ZH NF I/1/3, Nr. 151</ref></bibl>, Art. 3). Diesem zufolge stand es
- den Gemeinden auf der Landschaft frei, gegen ihre Pfarrer Beschwerde beim <orgName ref="org002406">Rat</orgName> zu führen, es lag jedoch im Ermessen von Letzterem, ob und inwiefern er auf solche Beschwerden reagieren wollte.</note>
-</p></seg>
-<div><ab type="marginal note" place="left margin"><lb/><orgName ref="org005326"><choice><abbr>Galath</abbr><expan>Galathas<!-- Der Brief des Paulus an die Galater --></expan></choice></orgName> 2</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/>2. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheum</expan></choice></persName> 4</ab></div>
-<seg n="1.5"><p>
-<lb/>Uff soͤmlichs wo er noch den Eyd im <orgName ref="org005056">Synodo</orgName> nit gethon / soll
+ <lb/>nach luth und sag der letsten verkumnuß zwüschen Statt und land.<note>Dies bezieht sich auf einen Passus des sogenannten <placeName
+          ref="loc000451"
+          >Kappeler</placeName>briefs, 
+  der im Anschluss an die Niederlage im Zweiten <placeName
+          ref="loc000451">Kappeler</placeName> Krieg verabschiedet wurde (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_151"
+          >SSRQ ZH NF I/1/3, Nr. 151</ref></bibl>, Art. 3). Diesem zufolge stand es
+ den Gemeinden auf der Landschaft frei, gegen ihre Pfarrer Beschwerde beim <orgName
+          ref="org002406"
+         >Rat</orgName> zu führen, es lag jedoch im Ermessen von Letzterem, ob und inwiefern er auf solche Beschwerden reagieren wollte.</note>
+       </p></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/><orgName ref="org005326"><choice>
+          <abbr>Galath</abbr>
+          <expan>Galathas<!-- Der Brief des Paulus an die Galater --></expan>
+         </choice></orgName> 2</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>2. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheum</expan>
+         </choice></persName> 4</ab>
+      </div>
+      <seg n="1.5"><p>
+        <lb/>Uff soͤmlichs wo er noch den Eyd im <orgName ref="org005056"
+         >Synodo</orgName> nit gethon / soll
  <lb/>im denocht uff trüw unnd glouben zepredgen vertruwt werden:
- <lb/>doch das er in dem nechstkünfftigen <orgName ref="org005056">Synodo</orgName> schweere.
+ <lb/>doch das er in dem nechstkünfftigen <orgName
+         ref="org005056">Synodo</orgName> schweere.
 </p></seg>
-<head type="subtitle" n="2"><lb/>Vonn der Leer unnd laͤbenn <lb/>der Predicanten</head>
-<div><ab type="marginal note" place="left margin"><lb/>Die Leer.</ab></div>
-<seg n="2.1"><p>
-<lb/>So dann ouch unmaß / und allerley unordnung in dem predgen
+      <head type="subtitle" n="2"><lb/>Vonn der Leer unnd laͤbenn <lb/>der Predicanten</head>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Die Leer.</ab>
+      </div>
+      <seg n="2.1"><p>
+        <lb/>So dann ouch unmaß / und allerley unordnung in dem predgen
  <lb/>und leeren von etlichen gebrucht: daruß aber vil ergernuß / unwillens
  <lb/>und unradts volgt: ouch die an den anstoͤssen mee von dem predgen
- <pb n="220r" facs="StAZH_B_III_4__fol__220_r_.tif"/>
-<lb/>verwildet / dann herzuͦ gebracht werdint / habend wir uns eigentlich
+ <pb
+         n="220r" facs="StAZH_B_III_4__fol__220_r_.tif"/>
+        <lb/>verwildet / dann herzuͦ gebracht werdint / habend wir uns eigentlich
  <lb/>erinneret deß bevelch Gottes und eyds den wir thuͦnd / allein nüw
  <lb/>und alt Testament zepredgen / und was darinn grund hat. Deßhalb
  <lb/>wir ouch abgeredt / das niemands im selbs ettwas erst erdachts /
- <lb/>mit stuckwerch unordenlicher und unnoͤtiger matery fürnaͤme: sun<lb break="no"/>der
+ <lb/>mit stuckwerch unordenlicher und unnoͤtiger matery fürnaͤme: sun<lb
+         break="no"
+         />der
  das im ein yeder uß Biblischer geschrifft das siner kilchen gmaͤß
  <lb/>und notwendig ist erwoͤlle / das fürtrage / interpretiere / daruß leere /
  <lb/>ermane / troͤste und straaffe: und das alles mit geist / ernst und trüw /
  <lb/>ye das hierinn unnser fleischliche anfaͤchtung nit gespürt: oder das
- <lb/>wir soͤliches / mit so ungebürlichen / lychten / unzüchtigen / schalckhaff<lb break="no"/>ten
- schmütz oder spitzworten thuͤgind / das einfallte biderbe lüt ab<lb break="no"/>geschreckt /
- unwillig / und die warheit selbs verdacht / lycht / oder ver<lb break="no"/>haßt gemacht.
+ <lb/>wir soͤliches / mit so ungebürlichen / lychten / unzüchtigen / schalckhaff<lb
+         break="no"/>ten
+ schmütz oder spitzworten thuͤgind / das einfallte biderbe lüt ab<lb
+         break="no"/>geschreckt /
+ unwillig / und die warheit selbs verdacht / lycht / oder ver<lb
+         break="no"/>haßt gemacht.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Straaffen.</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/>Ir sind das <lb/>saltz der er<lb break="no"/>den.</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/>2. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheum</expan></choice></persName> 2.4</ab></div>
-<p>
-<lb/>Nit das darumb die mißbrüch / aberglouben / sünd und laster nit
- <lb/>soͤllind dapfferlich ye nach gestalt der sach und gelaͤgenheit der la<lb break="no"/>stern
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Straaffen.</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Ir sind das <lb/>saltz der er<lb
+          break="no"/>den.</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>2. <persName ref="per012859"><choice>
+           <abbr>Timoth</abbr>
+           <expan>Timotheum</expan>
+          </choice></persName> 2.4</ab>
+       </div>
+       <p>
+        <lb/>Nit das darumb die mißbrüch / aberglouben / sünd und laster nit
+ <lb/>soͤllind dapfferlich ye nach gestalt der sach und gelaͤgenheit der la<lb
+         break="no"
+         />stern
  oder lasterhafften / mit ruhen / doch gschrifftmaͤssigen worten /
  <lb/>angetaast und bescholten werden. Dann woͤlcher woͤlte den für ein
- <lb/>predger der waarheit halten / der aller valscher religion / allen laste<lb break="no"/>ren
+ <lb/>predger der waarheit halten / der aller valscher religion / allen laste<lb
+         break="no"
+         />ren
  und lasterhafften verschonte / klüßlete unnd zentzlete: Sunder
  <lb/>wir wellend hiemit ein maaß bestimpt haben / und das alle ding mit
  <lb/>dapfferem ernst / nit mit laͤcherlichem gspey / schmützen / schimpffen
  <lb/>und spaͤtzlen beschaͤhind: ja das die warheyt selbs / die lütere unnd
- <lb/>klaͤre der haͤndlen / mee tringe / zühe und überwinde / dann das unbe<lb break="no"/>grünt /
+ <lb/>klaͤre der haͤndlen / mee tringe / zühe und überwinde / dann das unbe<lb
+         break="no"
+         />grünt /
  geschrifftloß haͤderig balgen: Dann nützid sterckers / dann die
- <lb/>warheit ist. So ist ghein ander ding das mee berede und überwin<lb break="no"/>de /
+ <lb/>warheit ist. So ist ghein ander ding das mee berede und überwin<lb
+         break="no"
+         />de /
  dann haͤlle guͦtte ordnung / unnd so man ein ding mit trüw / liebe
  <lb/>und ernst darthuͦt. In summa: es soll sich ein yeder also inn handel
- <lb/>schicken / das all unser leer und straaff zuͦ ufbuwnuß und eeren Got<lb break="no"/>tes
- beschaͤhe: damit wir vil menschen Gott und der gerechtigkeit ge<lb break="no"/>wünnind.
+ <lb/>schicken / das all unser leer und straaff zuͦ ufbuwnuß und eeren Got<lb
+         break="no"/>tes
+ beschaͤhe: damit wir vil menschen Gott und der gerechtigkeit ge<lb
+         break="no"/>wünnind.
 </p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>Die Man<lb break="no"/>data.</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>Exodi 20</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>
-<persName ref="per012856"><choice><abbr>Jere</abbr><expan>Jeremie</expan></choice></persName> 17</ab></div>
-<div><ab type="marginal note" place="next page"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 13</ab></div>
-<div><ab type="marginal note" place="next page"><lb/><orgName ref="org005340"><choice><abbr>Collos</abbr><expan>Collossos<!-- Brief des Paulus an die Kolosser / lat. eigentlich Colossae --></expan></choice></orgName> 3</ab></div>
-<div><ab type="marginal note" place="next page"><lb/><orgName ref="org005327"><choice><abbr>Rom</abbr><expan>Romanos</expan></choice></orgName> 12</ab></div>
-<p>
-<seg n="2.2"><lb/>Deßglych ist abgeredt / das die Mandaten so von unsern her<lb break="no"/>ren
- wider unmaß und laster ußgangen / vil an den Cantzlen ange<lb break="no"/>zogen
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Die Man<lb break="no"/>data.</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>Exodi 20</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>
+        <persName ref="per012856"><choice>
+          <abbr>Jere</abbr>
+          <expan>Jeremie</expan>
+         </choice></persName> 17</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/><choice>
+         <abbr>Acto</abbr>
+         <expan>Acta Apostolorum</expan>
+        </choice> 13</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/><orgName ref="org005340"><choice>
+          <abbr>Collos</abbr>
+          <expan>Collossos<!-- Brief des Paulus an die Kolosser / lat. eigentlich Colossae --></expan>
+         </choice></orgName> 3</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/><orgName ref="org005327"><choice>
+          <abbr>Rom</abbr>
+          <expan>Romanos</expan>
+         </choice></orgName> 12</ab>
+      </div>
+      <p>
+       <seg n="2.2"><lb/>Deßglych ist abgeredt / das die Mandaten so von unsern her<lb break="no"
+         />ren
+ wider unmaß und laster ußgangen / vil an den Cantzlen ange<lb break="no"
+         />zogen
  werdind / wie es sich dann ye mit dem Text zuͦtreyt / damit das
  <lb/>volck zuͦ zucht / friden / und gehorsamme ermanet / der lastern nit nun
  <lb/>der vorcht halben / sonder ouch von liebe Gottes waͤgen abstande.
- <pb n="220v" facs="StAZH_B_III_4__fol__220_v_.tif"/>
-<lb/>Deßhalb soll ouch nit vergaͤssen werden / das ein yeder <date dur="R/P1Y">jaͤrlich</date> /
- <lb/>nach unser herren bevelch / die ordnung wider kupplen / huͦren / eebre<lb break="no"/>chen /
- und derley laster fürlaͤse.<note>Vgl. dazu die Ordnung betreffend Ehebruch und Unzucht (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162154">StAZH III AAb 1.1, Nr. 2</ref></bibl>).</note> Item kriegen / spilen / Gotslestern /
+ <pb
+         n="220v" facs="StAZH_B_III_4__fol__220_v_.tif"/>
+        <lb/>Deßhalb soll ouch nit vergaͤssen werden / das ein yeder <date dur="R/P1Y"
+         >jaͤrlich</date> /
+ <lb/>nach unser herren bevelch / die ordnung wider kupplen / huͦren / eebre<lb
+         break="no"
+           />chen /
+ und derley laster fürlaͤse.<note>Vgl. dazu die Ordnung betreffend Ehebruch und Unzucht (<bibl><ref
+           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162154"
+           >StAZH III AAb 1.1, Nr. 2</ref></bibl>).</note> Item kriegen / spilen / Gotslestern /
  <lb/>und zuͦtrincken / ouch unmaaß in kleyden / und andern stucken / mit
- <lb/>dem wort Gottes / und ußgangnen Mandaten<note>Vgl. dazu das 1530 erstmals erlassene Grosse Mandat (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_11_008">SSRQ ZH NF I/1/11, Nr. 8</ref></bibl>).</note> weere. Deßglych
+ <lb/>dem wort Gottes / und ußgangnen Mandaten<note>Vgl. dazu das 1530 erstmals erlassene Grosse Mandat (<bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_11_008"
+         >SSRQ ZH NF I/1/11, Nr. 8</ref></bibl>).</note> weere. Deßglych
  <lb/>das ein yeder die sinen ernstlich zuͦ dem kilchengang ermane / das
- <lb/>doch der Sabbath gehalten / und Gottes wort nit so gar verach<lb break="no"/>tet
- werde. Item das man sich vor allem valsch / liegen und vertra<lb break="no"/>gen
+ <lb/>doch der Sabbath gehalten / und Gottes wort nit so gar verach<lb
+         break="no"/>tet
+ werde. Item das man sich vor allem valsch / liegen und vertra<lb
+         break="no"
+         />gen
  goume / inn richten / lyhen / und kouffen nit verruͦcht sye: was man
  <lb/>schuldig ist / bezaale / niemands nützid veruntrüwe / recht gwicht und
- <lb/>maaß habe und gaͤbe. Dann gemelte stuck nit minder / dann das Bap<lb break="no"/>sthuͦmb
+ <lb/>maaß habe und gaͤbe. Dann gemelte stuck nit minder / dann das Bap<lb
+         break="no"
+        />sthuͦmb
  zuͦbeschaͤlten und zuverwerffen sind: und so vil ernstlicher /
  <lb/>sovil schaͤdlicher sy ynbraͤchind.</seg>
-</p>
-<div><ab type="marginal note" place="left margin"><lb/>Die Armen</ab></div>
-<seg n="2.3"><p>
-<lb/>Und so uns die Armen von Gott in sonders bevolhen / habend
+      </p>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Die Armen</ab>
+      </div>
+      <seg n="2.3"><p>
+        <lb/>Und so uns die Armen von Gott in sonders bevolhen / habend
  <lb/>wir wyter einandren ermanet / das ein yeder uß mitlyden / die / siner
  <lb/>kilchen ernstlich mit Gottes wort fürstelle: in sonders deß kilchen
- <lb/>guͦts vil gedencke / wie man es bruchen soͤlle. Daby von einet erma<lb break="no"/>nen /
+ <lb/>guͦts vil gedencke / wie man es bruchen soͤlle. Daby von einet erma<lb
+         break="no"
+         />nen /
  das man getrülich damit umbgange: wie ouch inn unser herren
- <lb/>mandat <date dur="R/P1Y">jaͤrliche</date> raͤchnung bestimpt ist: damit wir uns nit übel ann
+ <lb/>mandat <date
+         dur="R/P1Y"
+        >jaͤrliche</date> raͤchnung bestimpt ist: damit wir uns nit übel ann
  <lb/>den Armen wider Gott versündint / und die kilchenguͤter groͤßlicher
  <lb/>dann der Bapst / München und Pfaffen mißbruchind.</p></seg>
-<p>
-<lb/>In summa / das sich ein yeder fürohin mit der leer flysse / nit nun
+      <p>
+       <lb/>In summa / das sich ein yeder fürohin mit der leer flysse / nit nun
  <lb/>die abgethonen mißbrüch zebeschaͤlten oder da uß zebehalten / das
  <lb/>sy nit widrumb kummind: sunder ouch Goͤttlichers und das besser
  <lb/>ist / an des hingethonen mißbruchs stat / zestellen. Also das wie wir
  <lb/>vorhin die Goͤtzen / stein und holtz bekleydt / geziert / und mit opffern
  <lb/>und anderen kostlichen gaaben vereeret: das wir uns yetzund über
- <lb/>die laͤbenden bilder Gottes / über die Armen erbarmind / die bekley<lb break="no"/>dind /
+ <lb/>die laͤbenden bilder Gottes / über die Armen erbarmind / die bekley<lb
+        break="no"/>dind /
  spysind und haltind / wie <persName ref="per000353">Christus</persName>
-<persName ref="per000340">Matthaͤus</persName> am xxv. bevolhen.
+       <persName ref="per000340"
+        >Matthaͤus</persName> am xxv. bevolhen.
  <lb/>Wie wir vor der Maͤß nachgelouffen / das wir yetzund das wort
  <lb/>Gottes liebhabind / dem nach haltind / und uß dem selben die frucht
- <lb/>des lydens <persName ref="per000353">Christi</persName> raͤcht leerind verston: damit man ouch das
- <lb/>Nachtmal <persName ref="per000353">Christi</persName> mit waarem glouben / raͤchter dancksagung be<lb break="no"/>gange.
- Item wie wir vor unser heil und fromgheit uff die Ceremo<lb break="no"/>nien
+ <lb/>des lydens <persName
+        ref="per000353"
+        >Christi</persName> raͤcht leerind verston: damit man ouch das
+ <lb/>Nachtmal <persName
+        ref="per000353">Christi</persName> mit waarem glouben / raͤchter dancksagung be<lb
+        break="no"/>gange.
+ Item wie wir vor unser heil und fromgheit uff die Ceremo<lb break="no"
+        />nien
  und usseren schyn gegrünt: das wir yetzund uff Gott allein
- <pb n="221r" facs="StAZH_B_III_4__fol__221_r_.tif"/>
-<lb/>gründint / unnd den mit glouben / liebe unnd unschuld vereerind.
+ <pb n="221r"
+        facs="StAZH_B_III_4__fol__221_r_.tif"/>
+       <lb/>gründint / unnd den mit glouben / liebe unnd unschuld vereerind.
  <lb/>Item wie wir vor inn der unordnung gehorsam gsin: also yetzund
  <lb/>der warheit und erberen guͦtten gsatzten nit widerstraͤbind / <abbr>etc</abbr>.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Straaff der <lb/>Laastern.</ab></div>
-<seg n="2.4"><p>
-<lb/>Und das hie das volck gebaͤtten / und mit Gottes wort genoͤti<lb break="no"/>get
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Straaff der <lb/>Laastern.</ab>
+      </div>
+      <seg n="2.4"><p>
+        <lb/>Und das hie das volck gebaͤtten / und mit Gottes wort genoͤti<lb break="no"
+         />get
  werde ir unraͤcht unnd ungehorsamme zeerkennen: fürnemmlich
- <lb/>aber in Stetten die Raͤdt / und uff dem Land die Ober und Under<lb break="no"/>voͤgt /
- ouch die Elteren in den Kilchhoͤrinen gar trüwlich und ernst<lb break="no"/>lich
+ <lb/>aber in Stetten die Raͤdt / und uff dem Land die Ober und Under<lb
+         break="no"/>voͤgt /
+ ouch die Elteren in den Kilchhoͤrinen gar trüwlich und ernst<lb
+         break="no"
+         />lich
  ermanet ufzesaͤhen: damit doch die laster nit so gar überhand
- <lb/>naͤmmind / sunder nach der leer <persName ref="per000353">Christi</persName>
-<persName ref="per000340"><choice><abbr>Matt</abbr><expan>Matthaͤus</expan></choice></persName> am xviij. mit warnen /
+ <lb/>naͤmmind / sunder nach der leer <persName
+         ref="per000353">Christi</persName>
+        <persName ref="per000340"><choice>
+          <abbr>Matt</abbr>
+          <expan>Matthaͤus</expan>
+         </choice></persName> am xviij. mit warnen /
  <lb/>oder so das nit hulffe / mit straaffen abgethon / und damit zucht und
  <lb/>gehorsamme gepflantzt werde.
 </p>
-<p>
-<lb/>Hierumb bitten wir ouch unsere gnedige herren zum hoͤchsten und
- <lb/>umb Gottes willen / das sy hie in iro <choice><sic>Satt</sic><corr>Statt</corr></choice> mit den verordneten /
+       <p>
+        <lb/>Hierumb bitten wir ouch unsere gnedige herren zum hoͤchsten und
+ <lb/>umb Gottes willen / das sy hie in iro <choice>
+         <sic>Satt</sic>
+         <corr>Statt</corr>
+        </choice> mit den verordneten /
  <lb/>und uff dem Land mit iro Ober und Undervoͤgten / mit ermanen
  <lb/>oder bevelch verschaffind / das die gemelten Mandaten zuͦ der eer
- <lb/>Gottes trüwlich und redlich gehandthabt. Und welche dann dapf<lb break="no"/>fer
+ <lb/>Gottes trüwlich und redlich gehandthabt. Und welche dann dapf<lb
+         break="no"
+         />fer
  und rechtmaͤssig nach warheit und ußgangnen Mandaten
  <lb/>handletind / das sy die schützind / schirmind / ouch inen fuͤß haltind.
- <lb/>Dann sol das trincken / zeeren / spilen / suffen / unmaaß in essen und klei<lb break="no"/>dern
+ <lb/>Dann sol das trincken / zeeren / spilen / suffen / unmaaß in essen und klei<lb
+         break="no"
+         />dern
  fürgon / zuͦnaͤmen / unnd nit abgestelt werden / ist zesorgen / das
- <lb/>uß uns nützid werde / dann ein verhergt volck / das all sin hab lieder<lb break="no"/>lich
- verthon / yetzt umb gaͤlt feyl / ouch wir einandern vor armuͦt nü<lb break="no"/>tzid
+ <lb/>uß uns nützid werde / dann ein verhergt volck / das all sin hab lieder<lb
+         break="no"/>lich
+ verthon / yetzt umb gaͤlt feyl / ouch wir einandern vor armuͦt nü<lb
+         break="no"
+        />tzid
  werdint halten / ja gar nit bezaalen / betriegen / und mit taͤglichem
  <lb/>zanggen / raͤchten / und ufruͦren zenüty machen.
 </p>
-<p>
-<lb/>Das nun alles one zwyfel wol damit mag vermitten werden /
- <lb/>wenn man zuͦ <date dur="R/P1Y">allen jaren</date> / oder so man sust uff dem Land zeschwee<lb break="no"/>ren
+       <p>
+        <lb/>Das nun alles one zwyfel wol damit mag vermitten werden /
+ <lb/>wenn man zuͦ <date
+         dur="R/P1Y">allen jaren</date> / oder so man sust uff dem Land zeschwee<lb break="no"
+           />ren
  pflaͤgt / die Mandaten (wie ouch vornaher gebrucht) maͤldete
- <lb/>und ernüwerte;<note>Zu den Schwörtagen auf der Landschaft und den bei dieser Gelegenheit verlesenen Mandaten und Verboten vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_1_3_169">SSRQ ZH NF I/1/3, Nr. 169</ref></bibl>.</note> ouch den fürgesetzten und verordneten eltern in den
+ <lb/>und ernüwerte;<note>Zu den Schwörtagen auf der Landschaft und den bei dieser Gelegenheit verlesenen Mandaten und Verboten vgl. <bibl><ref
+           target="/suche/detail/SSRQ_ZH_NF_I_1_3_169"
+         >SSRQ ZH NF I/1/3, Nr. 169</ref></bibl>.</note> ouch den fürgesetzten und verordneten eltern in den
  <lb/>Gemeinden by iro eyden ynbunde / sorg zetragen / die übertretter mit
- <lb/>trüwen zewarnen / und so ghein früntliches nützid beschusse / anze<lb break="no"/>zeygen /
+ <lb/>trüwen zewarnen / und so ghein früntliches nützid beschusse / anze<lb
+         break="no"
+        />zeygen /
  damit das überfaren unnd ungehorsamme nach verdienst
  <lb/>gestraafft.
 </p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>Ordnung des <lb/>predgens und <lb/>baͤttens.</ab></div>
-<seg n="2.5"><p>
-<lb/>Inn der ordnung aber des predgens / habend wir ouch das ein<pb n="221v" facs="StAZH_B_III_4__fol__221_v_.tif"/><lb break="no"/>muͤtigklich
- angesaͤhen / das alle und yede Pfarrer alle <date period="P1WD">Sonntag</date> inn
- <lb/>iro pfarren einist am <time period="morning">morgen</time> vor <time when="12:00:00">mittag</time> predgind: und uff die pred<lb break="no"/>ge
- die allgemein form deß gebaͤtts / so uns <persName ref="per000353">Christus Jesus</persName>
-<persName ref="per000340"><choice><abbr>Mat</abbr><expan>Matthaͤus</expan></choice></persName> am
- <lb/>vi. geleert / vormeldint: daruff ouch den Decalogum / die gebott Got<lb break="no"/>tes
- uß dem ii. buͤch <persName ref="per006379">Mosis</persName> xx. <choice><abbr>cap</abbr><expan>capitel</expan></choice> unnd zeletst die Artickel unsers
- <lb/>waaren Christlichen gloubens vorspraͤchind. Damit diese <num value="3">drü</num> stuck /
+      <div>
+       <ab type="marginal note" place="right margin"
+        ><lb/>Ordnung des <lb/>predgens und <lb/>baͤttens.</ab>
+      </div>
+      <seg n="2.5"><p>
+        <lb/>Inn der ordnung aber des predgens / habend wir ouch das ein<pb n="221v"
+         facs="StAZH_B_III_4__fol__221_v_.tif"/><lb break="no"
+         />muͤtigklich
+ angesaͤhen / das alle und yede Pfarrer alle <date period="P1WD"
+         >Sonntag</date> inn
+ <lb/>iro pfarren einist am <time period="morning"
+         >morgen</time> vor <time when="12:00:00">mittag</time> predgind: und uff die pred<lb
+         break="no"/>ge
+ die allgemein form deß gebaͤtts / so uns <persName ref="per000353"
+         >Christus Jesus</persName>
+        <persName ref="per000340"><choice>
+          <abbr>Mat</abbr>
+          <expan>Matthaͤus</expan>
+         </choice></persName> am
+ <lb/>vi. geleert / vormeldint: daruff ouch den Decalogum / die gebott Got<lb
+         break="no"/>tes
+ uß dem ii. buͤch <persName ref="per006379">Mosis</persName> xx. <choice>
+         <abbr>cap</abbr>
+         <expan>capitel</expan>
+        </choice> unnd zeletst die Artickel unsers
+ <lb/>waaren Christlichen gloubens vorspraͤchind. Damit diese <num
+         value="3"
+        >drü</num> stuck /
  <lb/>das Gebaͤtt / die Gebott / und der Gloub / dem gemeinen menschen
  <lb/>wol ynbildint.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/>Kinder <lb/>zucht.</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><persName ref="per012858">Luce</persName> 18</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/><choice><abbr>Deut</abbr><expan>Deuteronomium<!-- Das fünfte Buch Mose --></expan></choice> 6</ab></div>
-<p>
-<lb/>Item das die uff dem Land ouch all <date period="P1WD">Sonntag</date> umb die <time when="15:00:00">drü</time> /
- <lb/>wie man vornaher die vesper gehebt / yetz dan gemein gbaͤtt und pred<lb break="no"/>ge
- haltind / und die für die dienst unnd das volck das <time period="morning">morgens</time> vor
- <lb/>gschaͤfften zur predig nit kummen mag: in sunders aber für die ju<lb break="no"/>gend /
- die in sonders Gott geeignet und zuͦ zucht und frommkeit sol ufer<lb break="no"/>zogen
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>Kinder <lb/>zucht.</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><persName ref="per012858"
+         >Luce</persName> 18</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/><choice>
+          <abbr>Deut</abbr>
+          <expan>Deuteronomium<!-- Das fünfte Buch Mose --></expan>
+         </choice> 6</ab>
+       </div>
+       <p>
+        <lb/>Item das die uff dem Land ouch all <date period="P1WD">Sonntag</date> umb die <time
+         when="15:00:00"
+         >drü</time> /
+ <lb/>wie man vornaher die vesper gehebt / yetz dan gemein gbaͤtt und pred<lb
+         break="no"/>ge
+ haltind / und die für die dienst unnd das volck das <time period="morning"
+         >morgens</time> vor
+ <lb/>gschaͤfften zur predig nit kummen mag: in sunders aber für die ju<lb
+         break="no"/>gend /
+ die in sonders Gott geeignet und zuͦ zucht und frommkeit sol ufer<lb
+         break="no"
+         />zogen
  werden. Dorumb ist abgeredt / das diser stund meerteils soͤll
  <lb/>Catechismus gehandlet / unnd einfaalt was der gloub / welchs die
  <lb/>Artickel des gloubens / was gebaͤttet / unnd wie man baͤtten soͤlle:
  <lb/>Item welchs die gebott Gottes / und was ir innhalt und verstand
  <lb/>sye / erkleert werden. Das nit ettwann verruͦchte mennschen funden /
- <lb/>die waͤder des gloubens noch gebaͤtts / unnd wie sy joch laͤben soͤl<lb break="no"/>tend /
+ <lb/>die waͤder des gloubens noch gebaͤtts / unnd wie sy joch laͤben soͤl<lb
+         break="no"
+        />tend /
  bericht syend: also ouch unwüssend zuͦ dem Tisch des Herren
  <lb/>gangind: sunder das ein yeder vorhin denocht bericht / wüsse was
  <lb/>er handle / und fürohin thuͦn soͤlle.
 </p>
-<p>
-<lb/>Doch in disem allem ist yeder kilchen heimgesetzt / welche stun<lb break="no"/>den
+       <p>
+        <lb/>Doch in disem allem ist yeder kilchen heimgesetzt / welche stun<lb break="no"
+         />den
  hierzuͦ am allerfuͤglichsten erwoͤlt: so ferr das der Catechismus
- <lb/>uff die <date period="P1WD">Sonntag</date> geuͤbt werde. So ist allen denen vergünstiget
- <lb/>die Filialen und deßhalb ferr unwaͤg habend / das sy den Catechi<lb break="no"/>smum
- <date dur="R/P1M">zu Monaten einist</date> mit flyß haltind / und das nit übersaͤhind.
+ <lb/>uff die <date
+         period="P1WD"
+         >Sonntag</date> geuͤbt werde. So ist allen denen vergünstiget
+ <lb/>die Filialen und deßhalb ferr unwaͤg habend / das sy den Catechi<lb
+         break="no"/>smum
+ <date dur="R/P1M"
+        >zu Monaten einist</date> mit flyß haltind / und das nit übersaͤhind.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/>Fürbitt.</ab></div>
-<p>
-<lb/>Das ouch nütdisterweniger <date dur="R/P1W">in der wochen zemol einist</date> ein pre<lb break="no"/>dig
- und gemein gebaͤtt für alles anligen der kilchen Gottes: wie es ye<lb break="no"/>tzund
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>Fürbitt.</ab>
+       </div>
+       <p>
+        <lb/>Das ouch nütdisterweniger <date dur="R/P1W"
+         >in der wochen zemol einist</date> ein pre<lb break="no"
+         />dig
+ und gemein gebaͤtt für alles anligen der kilchen Gottes: wie es ye<lb break="no"
+         />tzund
  ouch hie in der Statt am <date when="1532-10-07">sibenden Octobris</date>
-<date dur="R/P1D">taͤglich</date> zevolfuͤ<lb break="no"/>ren
- angesaͤhen<note>Zu dieser Ratsverordnung vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bächtold 1982</ref>, S. 32, Anm. 41</bibl>.</note> / gehalten werde. Deßglych die tag der heyligen Apo<lb break="no"/>stlen
+        <date dur="R/P1D">taͤglich</date> zevolfuͤ<lb break="no"
+           />ren
+ angesaͤhen<note>Zu dieser Ratsverordnung vgl. <bibl><ref
+           target="/startseite/literaturverzeichnis"
+         >Bächtold 1982</ref>, S. 32, Anm. 41</bibl>.</note> / gehalten werde. Deßglych die tag der heyligen Apo<lb
+         break="no"
+        />stlen
  unnd andere wie sy von unsern herren bestimpt / mit predgen
  <lb/>wie von alter har versaͤhen.
 </p></seg>
-<pb n="222r" facs="StAZH_B_III_4__fol__222_r_.tif"/>
-<div><ab type="marginal note" place="right margin"><lb/>Heimsuͦchen <lb/>der krancken.</ab></div>
-<seg n="2.6"><p>
-<lb/>Und sydmal der vynd unsers heils den menschen nimmer gru<lb break="no"/>sammer
- ansicht / dann inn der kranckheit und stund des todts: deß<lb break="no"/>halb
+      <pb n="222r" facs="StAZH_B_III_4__fol__222_r_.tif"/>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Heimsuͦchen <lb/>der krancken.</ab>
+      </div>
+      <seg n="2.6"><p>
+        <lb/>Und sydmal der vynd unsers heils den menschen nimmer gru<lb break="no"
+         />sammer
+ ansicht / dann inn der kranckheit und stund des todts: deß<lb break="no"
+         />halb
  der mensch nimmermee trosts underricht und sterckung / dann
- <lb/>imm todtbett bedarff: habend wir unns erinnert der leer <persName ref="per000208">Jacobi</persName> am
- <lb/>v. das fürohin ein yeder Pfarrer die sinen (wo man anders sin be<lb break="no"/>gaͤrte)
+ <lb/>imm todtbett bedarff: habend wir unns erinnert der leer <persName
+         ref="per000208"
+         >Jacobi</persName> am
+ <lb/>v. das fürohin ein yeder Pfarrer die sinen (wo man anders sin be<lb
+         break="no"
+         />gaͤrte)
  besuͦchen / die krancken troͤsten und berichten soͤlle / baͤtten / und
- <lb/>von verzyhung / von dem erloͤsen <persName ref="per000208">Christi</persName> / von der urstendy und ee<lb break="no"/>wigem
- laͤben reden / das sich die krancken dultigklich inn willen Got<lb break="no"/>tes
+ <lb/>von verzyhung / von dem erloͤsen <persName
+         ref="per000208">Christi</persName> / von der urstendy und ee<lb break="no"
+         />wigem
+ laͤben reden / das sich die krancken dultigklich inn willen Got<lb break="no"
+         />tes
  ergaͤbind / und fürohin der zytlichen dingen vergessind / <abbr>etc</abbr>.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Die todten.</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/><choice><abbr>Acto</abbr><expan>Acta Apostolorum</expan></choice> 8</ab></div>
-<p>
-<lb/>Deßglych das ein yeder sin kilchen ermaane / das man die kran<lb break="no"/>cken
- besuͦche / die werck der barmhertzigkeit erzeige / sy troͤste / inen be<lb break="no"/>holffen
- und beraten sye. Und so sy abgestorben / mit zucht und Chri<lb break="no"/>stenlicher
- demuͦt / als mitgnossen der urstendy <persName ref="per000208">Christi</persName> / eerlich bestat<lb break="no"/>te:
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Die todten.</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="right margin"><lb/><choice>
+          <abbr>Acto</abbr>
+          <expan>Acta Apostolorum</expan>
+         </choice> 8</ab>
+       </div>
+       <p>
+        <lb/>Deßglych das ein yeder sin kilchen ermaane / das man die kran<lb break="no"
+         />cken
+ besuͦche / die werck der barmhertzigkeit erzeige / sy troͤste / inen be<lb
+         break="no"/>holffen
+ und beraten sye. Und so sy abgestorben / mit zucht und Chri<lb
+         break="no"/>stenlicher
+ demuͦt / als mitgnossen der urstendy <persName ref="per000208"
+         >Christi</persName> / eerlich bestat<lb break="no"
+         />te:
  und die demnach (wie bruch ist) der kilchen verkünde / <abbr>etc</abbr>
-</p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>Diaconi.</ab></div>
-<div><ab type="marginal note" place="right margin"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheus</expan></choice></persName> 3</ab></div>
-<p>
-<seg n="2.7"><lb/>Hierzuͦ soͤllend fürohin alle Diaconi / so sy vonn den Pfarreren
- <lb/>gefordert / beholffen sin / es sye dann mit predgen / zuͦdienen der Sa<lb break="no"/>cramenten /
+       </p></seg>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Diaconi.</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>1. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheus</expan>
+         </choice></persName> 3</ab>
+      </div>
+      <p>
+       <seg n="2.7"
+         ><lb/>Hierzuͦ soͤllend fürohin alle Diaconi / so sy vonn den Pfarreren
+ <lb/>gefordert / beholffen sin / es sye dann mit predgen / zuͦdienen der Sa<lb
+         break="no"
+        />cramenten /
  mit heimsuͦchen der krancken. Es ist ouch luter abgeret /
  <lb/>das niemands fürohin yemands ungeordneten und unbekannten /
  <lb/>dem volck an die Kantzlen fürstellen soͤlle: damit das ouch hie dem
  <lb/>Evangelio ghein nachteyl entstande.</seg>
-</p>
-<div><ab type="marginal note" place="right margin"><lb/>Kilchendienst / <lb/>und zuͦdienen <lb/>der Sacramen<lb break="no"/>ten.</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>1. <orgName ref="org005325"><choice><abbr>Corinth</abbr><expan>Corinthos</expan></choice></orgName> 12</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>Die Ee be<lb break="no"/>staͤtten.</ab></div>
-<p>
-<seg n="2.8"><lb/>Wyter habend wir ermaͤssen / das traͤffenlich nottwendig sin
+      </p>
+      <div>
+       <ab type="marginal note" place="right margin"
+         ><lb/>Kilchendienst / <lb/>und zuͦdienen <lb/>der Sacramen<lb break="no"/>ten.</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>1. <orgName ref="org005325"><choice>
+          <abbr>Corinth</abbr>
+          <expan>Corinthos</expan>
+         </choice></orgName> 12</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>Die Ee be<lb break="no"/>staͤtten.</ab>
+      </div>
+      <p>
+       <seg n="2.8"
+         ><lb/>Wyter habend wir ermaͤssen / das traͤffenlich nottwendig sin
  <lb/>wil / das alle diener des worts unnd der kilchen / grossen ernst inn
  <lb/>den diensten der kilchen gebruchind. Dann so die Diener one ernst
  <lb/>iro ampt verwaltend / ist ghein wunnder ob schon ouch das volck
- <lb/>nit nun die Diener / sunnder ouch die heiligen ding selbs verach<lb break="no"/>tet.
+ <lb/>nit nun die Diener / sunnder ouch die heiligen ding selbs verach<lb
+         break="no"
+         />tet.
  Dorumb wenn die kilch zesamen kumpt / die predig zehoͤren /
  <lb/>unnd zebaͤtten: so flysse sich mengklich des ernsts: das / wie das
  <lb/>wort der warheyt ein ernst ist / also ouch des Dieners wanndel
- <lb/>ernsthafft sye. Ouch das das volck vom schwaͤtzen zum gebaͤtt ge<lb break="no"/>halten
+ <lb/>ernsthafft sye. Ouch das das volck vom schwaͤtzen zum gebaͤtt ge<lb
+         break="no"
+         />halten
  werde. Ouch imm zuͦ dienen der heyligen Sacramenten / die
  <lb/>leer und das zuͦdienen gemaͤß sye hoher heiliger geheimnuß. Nit das
  <lb/>man von den Sacramenten rede / wie von gemeinem zeichnen: und
- <lb/>demnach den Touff gaͤbe / samm man one geheimnuß die kind mit ge<lb break="no"/>meinem
- wasser begiesse. Oder also das Nachtmal <persName ref="per000353">Christi</persName> zuͦdiene /
+ <lb/>demnach den Touff gaͤbe / samm man one geheimnuß die kind mit ge<lb
+         break="no"/>meinem
+ wasser begiesse. Oder also das Nachtmal <persName ref="per000353"
+         >Christi</persName> zuͦdiene /
  <pb n="222v" facs="StAZH_B_III_4__fol__222_v_.tif"/>
-<lb/>samm man sunst gmein brot und wyn aͤsse und trincke: sunder es ist billich
+        <lb/>samm man sunst gmein brot und wyn aͤsse und trincke: sunder es ist billich
  <lb/>das man mit der leer / in sonders / wenn man dz Nachtmol begon wil /
  <lb/>ouch sust wenn es sich von Sacramenten zereden begibt / eigentlich
  <lb/>erklaͤre / das mengklich die hohen geheimnuß unnd heiligen pflicht
  <lb/>der Sacramenten verstande / unnd dannethin mit glouben / ernst /
  <lb/>und raͤchter andacht sy gebruche / in sunders Gott umb gnad bitte /
- <lb/>und umb syne guͦtthaͤten dancksage. Dann die <orgName ref="org005325">Corinther</orgName> mit tod
- <lb/>und kranckheyten gestraafft wurdint / das sy das Nachtmol <persName ref="per000353">Chri<lb break="no"/>sti</persName>
+ <lb/>und umb syne guͦtthaͤten dancksage. Dann die <orgName
+         ref="org005325"
+         >Corinther</orgName> mit tod
+ <lb/>und kranckheyten gestraafft wurdint / das sy das Nachtmol <persName
+         ref="per000353">Chri<lb break="no"
+         />sti</persName>
  nit inn der wirde hieltind / inn dero sy es billich gehalten haͤttind.
  <lb/>Und so der Bapst zevil daran gethon / und gestraafft worden / wirt
- <lb/>ouch Gott uns nit verschonen / wenn wir die Sacrament zevil ver<lb break="no"/>kleinern /
+ <lb/>ouch Gott uns nit verschonen / wenn wir die Sacrament zevil ver<lb
+         break="no"/>kleinern /
  und nit recht bruchen wurdint.</seg>
-<seg>Darumb gedenck ein ye<lb break="no"/>der
+       <seg>Darumb gedenck ein ye<lb break="no"
+         />der
  das er nach abgethonem mißbruch / ghein annderen mißbruch /
  <lb/>sunder den raͤchten bruch / nach vermoͤg der gschrifft / raͤcht und wol
  <lb/>ynpflantze. Deß glych ouch mit dem ynfuͤren und bestaͤten der
- <lb/>Ee ernst bruche / damit die heilig ordnung Gottes unsers lychtferti<lb break="no"/>gen
+ <lb/>Ee ernst bruche / damit die heilig ordnung Gottes unsers lychtferti<lb
+         break="no"
+         />gen
  diensts / by den einfallten / nit in argkwohn kumme: sunder wie die
  <lb/>formen zebaͤtten / die Ee zebestaͤten: ouch die Sacrament den Touf
- <lb/>und Nachtmol <persName ref="per000353">Christi</persName> zuͦ zedienen / uß der gschrifft gestelt / den ernst
+ <lb/>und Nachtmol <persName
+         ref="per000353"
+         >Christi</persName> zuͦ zedienen / uß der gschrifft gestelt / den ernst
  <lb/>und geist der gschrifft herfür tragend: also wir ouch gedenckend /
- <lb/>das wir der gschrifft und geist Gottes diener sind. Hie ist ouch ei<lb break="no"/>gentlich
- beschlossen / das / irrung unnd spaͤn / ouch valsch zevermy<lb break="no"/>den /
+ <lb/>das wir der gschrifft und geist Gottes diener sind. Hie ist ouch ei<lb
+         break="no"/>gentlich
+ beschlossen / das / irrung unnd spaͤn / ouch valsch zevermy<lb
+         break="no"/>den /
  gheiner unerloubt dem anderen die sinen ynfuͤren soͤlle.</seg>
-</p>
-<div><ab type="marginal note" place="left margin"><lb/>Laͤben und <lb/>wandel <lb/>der Predi<lb break="no"/>canten.</ab></div>
-<div><ab type="marginal note" place="next page"><lb/><persName ref="per000353"><choice><abbr>Matt</abbr><expan>Matthaͤus</expan></choice></persName> 8</ab></div>
-<div><ab type="marginal note" place="next page"><lb/>1. <persName ref="per012859"><choice><abbr>Timoth</abbr><expan>Timotheus</expan></choice></persName> 3</ab></div>
-<p>
-<seg n="2.9"><lb/>Also koͤnnend wir ouch wol erkennen / das nützid groͤssere ver<lb break="no"/>achtung
- der Predicanten gebirt: dann so sy sich selbs mit unorden<lb break="no"/>lichem
- wandel befleckend und ze nüty machend. So aber die ver<lb break="no"/>achtung
+      </p>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Laͤben und <lb/>wandel <lb/>der Predi<lb
+         break="no"/>canten.</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/><persName ref="per000353"><choice>
+          <abbr>Matt</abbr>
+          <expan>Matthaͤus</expan>
+         </choice></persName> 8</ab>
+      </div>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>1. <persName ref="per012859"><choice>
+          <abbr>Timoth</abbr>
+          <expan>Timotheus</expan>
+         </choice></persName> 3</ab>
+      </div>
+      <p>
+       <seg n="2.9"><lb/>Also koͤnnend wir ouch wol erkennen / das nützid groͤssere ver<lb
+         break="no"/>achtung
+ der Predicanten gebirt: dann so sy sich selbs mit unorden<lb
+         break="no"/>lichem
+ wandel befleckend und ze nüty machend. So aber die ver<lb break="no"
+         />achtung
  der Predicanten zuͦ verkleinerung der predigy reichen wil /
  <lb/>ouch gantzer kilchen Gottes ergerlich unnd schaͤdlich ist / wenn die
- <lb/>Pfarrer inn unmaaß / trunckenheit / üppigheit / unzucht in worten / wy<lb break="no"/>sen
- und geberden verschreyt / oder dero mittgsellen / die inn obernem<lb break="no"/>pten
+ <lb/>Pfarrer inn unmaaß / trunckenheit / üppigheit / unzucht in worten / wy<lb
+         break="no"/>sen
+ und geberden verschreyt / oder dero mittgsellen / die inn obernem<lb
+         break="no"
+         />pten
  unraͤdten verargwhont sind: ouch mit kleidung / weery / unnd
  <lb/>anderem usserlichem wandel sich der maassen gstaltind / das man
  <lb/>ein lycht üppig gmuͤt ann usseren zeichen spüren mag: habend wir
  <lb/>uns hie uß hochanligender not entschlossen / woͤllend ouch die / so
  <lb/>hierinn villycht verhafft und verargwohnt / zum thüristen ermant
- <lb/>haben / das sy sich fürohin der stucken maͤßgind / der offnen ober<pb n="223r" facs="StAZH_B_III_4__fol__223_r_.tif"/><lb break="no"/>nempten
- verergerenden lastern abthuͤgind / die Wirtzhüser und ge<lb break="no"/>sellschafften
+ <lb/>haben / das sy sich fürohin der stucken maͤßgind / der offnen ober<pb
+         n="223r" facs="StAZH_B_III_4__fol__223_r_.tif"/><lb break="no"
+         />nempten
+ verergerenden lastern abthuͤgind / die Wirtzhüser und ge<lb break="no"
+         />sellschafften
  (welche nit in sonders ze eeren dienend) gantz und gar
  <lb/>vermydint: in summa / das sy sich also mit reden / wandel / kleydung /
  <lb/>und weery gestaltind / das es unserm beruͦff und ampt gemaͤß / und
  <lb/>yedem unverwyßlich sye / ouch schynbarliche verbesserung in naͤchst
- <lb/>künfftigem <orgName ref="org005056">Synodo</orgName> spüre. Dann treffenlich groß ist das wort des
+ <lb/>künfftigem <orgName
+         ref="org005056"
+         >Synodo</orgName> spüre. Dann treffenlich groß ist das wort des
  <lb/>Herren / Ir sind das saltz und liecht der menschen. Also soll üwer
  <lb/>liecht lüchten / das die menschen üwer guͦte werck saͤhind / und Gott
- <lb/>prysind. Und das der heilig <persName ref="per000351">Paulus</persName> geredt / der Pfarrer soͤlle hei<lb break="no"/>lig
+ <lb/>prysind. Und das der heilig <persName
+         ref="per000351">Paulus</persName> geredt / der Pfarrer soͤlle hei<lb break="no"
+        />lig
  sin / ein züchtig fromm hußgesind haben / unnd eins unstraͤfflichen
  <lb/>wandels sin.</seg>
-</p>
-<div><ab type="marginal note" place="right margin"><lb/>Studium und <lb/>uͤbung der Pre<lb break="no"/>dicanten.</ab></div>
-<p>
-<seg n="2.10"><lb/>Das ouch kein mangel und gebraͤst ann Christenlicher leer uß un<lb break="no"/>berichte
- ungeleerte oder unwissenheit gefunden / sunder das ein ye<lb break="no"/>der
+      </p>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Studium und <lb/>uͤbung der Pre<lb
+         break="no"/>dicanten.</ab>
+      </div>
+      <p>
+       <seg n="2.10"><lb/>Das ouch kein mangel und gebraͤst ann Christenlicher leer uß un<lb
+         break="no"/>berichte
+ ungeleerte oder unwissenheit gefunden / sunder das ein ye<lb
+         break="no"
+         />der
  geschicklich / gewüß / klar / ordenlich und mit vernunfft das wort
  <lb/>Gottes der kilchen fürtrage / habend wir eigentlich abgeredt / das
  <lb/>sich mengklich / so ferr und im lybs nodt müglich / der usseren hand
  <lb/>arbeit entschlahe / aller usseren gewaͤrben sich entzühe / und sich einig
  <lb/>uff das anruͤffen zuͦ Gott / für sin volck / und demnach uff das laͤsen
  <lb/>und empsig studieren begaͤbe: angesaͤhen das wir soͤmlichs in dem
- <lb/>byspil der heiligen Propheten un Apostlen erleernt: und das <persName ref="per000351">Pau<lb break="no"/>lus</persName>
+ <lb/>byspil der heiligen Propheten un Apostlen erleernt: und das <persName
+         ref="per000351">Pau<lb break="no"
+         />lus</persName>
  von dem Pfarrer forderet / das er also bericht unnd beredt sye /
- <lb/>das er mit gsunder leer / leeren und ermanen / deßglych die widerfaͤch<lb break="no"/>ter
- überwinden / und iro valsch ans liecht herfür zühen moͤge. Wel<lb break="no"/>ches
+ <lb/>das er mit gsunder leer / leeren und ermanen / deßglych die widerfaͤch<lb
+         break="no"/>ter
+ überwinden / und iro valsch ans liecht herfür zühen moͤge. Wel<lb
+         break="no"
+         />ches
  alles nit one besonderbare gnad Gottes / traͤffenlichen ernst / und
  <lb/>grosse uͤbung erlangt wirt. Dorumb dann grosser flyß notwendig
- <lb/>ist: in sunders / so wir fürnemlich mit der lybs narung dorumb er<lb break="no"/>halten
+ <lb/>ist: in sunders / so wir fürnemlich mit der lybs narung dorumb er<lb
+         break="no"
+        />halten
  werdind / das wir der leer unnd aller kilchen haͤndlen dister
  <lb/>baaß gewarten moͤgind.</seg>
-</p>
-<head type="subtitle" n="3"><lb/>Vonn demm <orgName ref="org005056">Synnodo</orgName> und <lb/>wie der gehalten</head>
-<div><ab type="marginal note" place="next page"><lb/>Wenn die ver<lb break="no"/>sammlung ge<lb break="no"/>halten.</ab></div>
-<seg n="3.1"><p>
-<lb/>Damit aber diß oberzelt ansaͤhen dister baaß erhalten / ouch
- <lb/>zucht / einigkeit / raͤchtmaͤssige ermanung und straaff under den Die<lb break="no"/>nern
+      </p>
+      <head type="subtitle" n="3"><lb/>Vonn demm <orgName ref="org005056"
+       >Synnodo</orgName> und <lb/>wie der gehalten</head>
+      <div>
+       <ab type="marginal note" place="next page"><lb/>Wenn die ver<lb break="no"/>sammlung ge<lb
+         break="no"/>halten.</ab>
+      </div>
+      <seg n="3.1"><p>
+        <lb/>Damit aber diß oberzelt ansaͤhen dister baaß erhalten / ouch
+ <lb/>zucht / einigkeit / raͤchtmaͤssige ermanung und straaff under den Die<lb
+         break="no"/>nern
  des worts blybe: alle simulation und ambition vermitten und
- <pb n="223v" facs="StAZH_B_III_4__fol__223_v_.tif"/>
-<lb/>ußgeschlossen werde / soll <date dur="R/P1Y">jaͤrlich</date> ein allgemeiner Synodus <num value="2">zwey</num>
-<lb/>malen hie inn unser herren Statt <placeName ref="loc000065">Zürich</placeName> besammlet werden. Des er<lb break="no"/>sten
- uff naͤchsten <date period="P2WD">Montag</date> nach dem <date when="--05-01">Meytag</date>: unnd zum anderen
- <lb/>uff den naͤchsten <date period="P2WD">Montag</date> nach <date when="--10-16"><persName ref="per000455">Galli</persName></date>: und ob dann die <date dur="P2D">zwen tag</date> uff
- <lb/>den <date period="P2WD">Montag</date> selbs vielend / so ist der volgend <date period="P2WD">Montag</date> bestimpt /
- <lb/>das mengklich hie zuͦ <time period="evening">abind</time> sye: damit man <time period="morning">morndes</time> zuͦ guͦter zyt
+ <pb n="223v"
+         facs="StAZH_B_III_4__fol__223_v_.tif"/>
+        <lb/>ußgeschlossen werde / soll <date dur="R/P1Y"
+         >jaͤrlich</date> ein allgemeiner Synodus <num value="2">zwey</num>
+        <lb/>malen hie inn unser herren Statt <placeName ref="loc000065"
+         >Zürich</placeName> besammlet werden. Des er<lb break="no"/>sten
+ uff naͤchsten <date
+         period="P2WD">Montag</date> nach dem <date when="--05-01"
+         >Meytag</date>: unnd zum anderen
+ <lb/>uff den naͤchsten <date period="P2WD"
+         >Montag</date> nach <date when="--10-16"><persName ref="per000455"
+         >Galli</persName></date>: und ob dann die <date dur="P2D"
+         >zwen tag</date> uff
+ <lb/>den <date period="P2WD"
+         >Montag</date> selbs vielend / so ist der volgend <date period="P2WD"
+         >Montag</date> bestimpt /
+ <lb/>das mengklich hie zuͦ <time period="evening"
+         >abind</time> sye: damit man <time period="morning"
+         >morndes</time> zuͦ guͦter zyt
  <lb/>anhebe. Hie soll ouch niemands ußblyben / one merckliche ursachen /
- <lb/>die er sinen naͤchsten mitpfarreren anzeigen. Unnd by disen bestim<lb break="no"/>pten
- tagen soll es fürohin one wyters beschryben und beruͤffen bly<lb break="no"/>ben.
+ <lb/>die er sinen naͤchsten mitpfarreren anzeigen. Unnd by disen bestim<lb
+         break="no"/>pten
+ tagen soll es fürohin one wyters beschryben und beruͤffen bly<lb
+         break="no"
+         />ben.
  So moͤchtend ouch die zyten so ruͤwig werden / man wurde sich
- <lb/>ze <date dur="P1Y">jar</date> mit einem <orgName ref="org005056">Synodo</orgName> vernuͤgen lassen.
+ <lb/>ze <date
+         dur="P1Y">jar</date> mit einem <orgName ref="org005056"
+        >Synodo</orgName> vernuͤgen lassen.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/>Presidenten.</ab></div>
-<p>
-<lb/>In disem <orgName ref="org005056">Synodo</orgName> soͤllend <num value="2">zwen</num> Presidenten verordnet wer<lb break="no"/>den:
- einer von den Predicanten / und einer von den <orgName ref="org004016">Raͤdten</orgName>: welche
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>Presidenten.</ab>
+       </div>
+       <p>
+        <lb/>In disem <orgName ref="org005056">Synodo</orgName> soͤllend <num value="2"
+         >zwen</num> Presidenten verordnet wer<lb break="no"
+         />den:
+ einer von den Predicanten / und einer von den <orgName ref="org004016"
+         >Raͤdten</orgName>: welche
  <lb/>die anfrag habind / beruͤffind / ußstellind / anbringind und handlind.
- <lb/>Wir bittend ouch unsere herren / das sy uns noch <num value="7">siben</num> man uß iro
- <lb/><orgName ref="org001217">Raͤdten</orgName> verordnind / die by allen haͤndlen sitzind / uns beradten und
+ <lb/>Wir bittend ouch unsere herren / das sy uns noch <num
+         value="7">siben</num> man uß iro
+ <lb/><orgName ref="org001217"
+        >Raͤdten</orgName> verordnind / die by allen haͤndlen sitzind / uns beradten und
  <lb/>beholffen syend.
 </p>
-<div><ab type="marginal note" place="left margin"><lb/>1</ab></div>
-<div><ab type="marginal note" place="left margin"><lb/>Ordnung des <lb/><orgName ref="org005056">Synodi</orgName>.</ab></div>
-<p>
-<lb/>Der <orgName ref="org005056">Synodus</orgName> aber ist fürohin also angesaͤhen. Erstlich soll
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>1</ab>
+       </div>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>Ordnung des <lb/><orgName ref="org005056"
+          >Synodi</orgName>.</ab>
+       </div>
+       <p>
+        <lb/>Der <orgName ref="org005056"
+         >Synodus</orgName> aber ist fürohin also angesaͤhen. Erstlich soll
  <lb/>man Gott umb gnad anruͤffen / damit man da von siner eer / unnd
- <lb/>der kilchen heil mit ernst handlen / niemands beschwaͤren noch ver<lb break="no"/>forteylen /
- die warheit finden / und die yrrigen widerumb an den raͤch<lb break="no"/>ten
+ <lb/>der kilchen heil mit ernst handlen / niemands beschwaͤren noch ver<lb
+         break="no"/>forteylen /
+ die warheit finden / und die yrrigen widerumb an den raͤch<lb
+         break="no"
+         />ten
  waͤg bringen moͤge. Das die warheit erhalten / zucht unnd alle
  <lb/>gottseligkeit raͤcht gepflantzt werde / <abbr>etc</abbr>
-</p>
-<div><ab type="marginal note" place="left margin"><lb/>2</ab></div>
-<p>
-<lb/>Demnach laͤse man aller Pfarren naamen / damit man vinde
+       </p>
+       <div>
+        <ab type="marginal note" place="left margin"><lb/>2</ab>
+       </div>
+       <p>
+        <lb/>Demnach laͤse man aller Pfarren naamen / damit man vinde
  <lb/>welche gehorsamm / und welche ungehorsamm erschynen.
 </p></seg>
-<p>
-<seg n="3.2"><lb/>Und sind die Pfarren also ußgeteylt unnd zuͦ Capitlen verord<lb break="no"/>net
+      <p>
+       <seg n="3.2"><lb/>Und sind die Pfarren also ußgeteylt unnd zuͦ Capitlen verord<lb break="no"
+        />net
  volgender gstalt.</seg>
-</p>
-<div>
-<table>
-<head type="title"><placeName ref="loc000065">Zürich</placeName></head>
-<row><cell>Das <placeName ref="loc007562">groß Münster</placeName></cell></row>
-<row><cell>Die Lectores</cell></row>
-<row><cell><placeName ref="loc010769">S. Peter</placeName> / sin Diacon</cell></row>
-<row><cell><placeName ref="loc010769">Frowenmünster</placeName> / sin Diacon</cell></row>
-<row><cell><placeName ref="loc000090">Spital</placeName>. Die siechen <add place="inline" hand="hand17c?"><orgName ref="org005000"><choice><abbr>S</abbr><expan>Sanct</expan></choice> Jacob</orgName>
-<lb/><placeName ref="loc008759">Spanweyd</placeName></add></cell></row>
-<row><cell><placeName ref="loc010889">Zollicken</placeName></cell></row>
-<row><cell><placeName ref="loc010889">Schwamedingen</placeName></cell></row>
-<row><cell><placeName ref="loc010356">Ryeden</placeName></cell></row>
-<!--<cb/>-->
-<row><cell><pb n="224r" facs="StAZH_B_III_4__fol__224_r_.tif"/><placeName ref="loc010878">Wytticken</placeName></cell></row>
-<row><cell><placeName ref="loc009828">Alltstetten</placeName></cell></row></table></div>
-<div>
-<table>
-<head type="subtitle">Der <placeName ref="loc000127">See</placeName></head>
-<row><cell><placeName ref="loc010923">Staͤfen</placeName></cell></row>
-<row><cell><placeName ref="loc008708">Humbraͤchtingen</placeName></cell></row>
-<row><cell><placeName ref="loc000044">Maͤnendorff</placeName></cell></row>
-<row><cell><placeName ref="loc000509">Meylen</placeName></cell></row>
-<row><cell><placeName ref="loc008711">Küßnach</placeName>, <placeName ref="loc008726">Herliberg</placeName>, <placeName ref="loc009834">Erlibach</placeName></cell></row>
-<row><cell><placeName ref="loc008712">Richtischwyl</placeName></cell></row>
-<row><cell><placeName ref="loc008716">Waͤdischwyl</placeName></cell></row>
-<row><cell><placeName ref="loc010401">Horgen</placeName>. <placeName ref="loc011151">Hirtzel</placeName></cell></row>
-<row><cell><placeName ref="loc010510">Dallwyl</placeName>
-<add place="inline" hand="hand16c?"><placeName ref="loc011152">Schlieren</placeName></add></cell></row>
-<row><cell><placeName ref="loc008710">Kilchberg</placeName>
-<add place="below" hand="hand17c?"><placeName ref="loc011153">Dietikon</placeName></add>
-<add place="inline" hand="hand17c?"><placeName ref="loc000959">Zurzach</placeName></add>
-<add place="below" hand="hand17c?"><placeName ref="loc011154">Tegerfelden</placeName></add></cell></row>
-</table></div>
-<div>
-<table><head type="subtitle">Das <placeName ref="loc010516">Fryampt</placeName></head>
-<row><cell><placeName ref="loc000451">Cappel</placeName></cell></row>
-<row><cell><placeName ref="loc010463">Husen</placeName></cell></row>
-<row><cell><placeName ref="loc000468">Knonow</placeName></cell></row>
-<row><cell><placeName ref="loc010531">Maschwanden</placeName></cell></row>
-<row><cell><placeName ref="loc011158">Rifferschwyl</placeName></cell></row>
-<row><cell><placeName ref="loc011159">Maͤttmenstetten</placeName></cell></row>
-<row><cell><placeName ref="loc011160">Ottenbach</placeName></cell></row>
-<row><cell><placeName ref="loc011161">Affhollteren</placeName></cell></row>
-<row><cell><placeName ref="loc011162">Hedingen</placeName></cell></row>
-<row><cell><placeName ref="loc000177">Bonstetten</placeName></cell></row>
-<row><cell><placeName ref="loc011163">Stallickon</placeName></cell></row>
-<row><cell><placeName ref="loc010384">Birmensdorff</placeName></cell></row>
-</table></div>
-<div>
-<table><head type="subtitle"><placeName ref="loc007335">Steiner</placeName>
-<choice><abbr>cap</abbr><expan>capitel</expan></choice></head>
-<row><cell><placeName ref="loc007335">Stein</placeName>
-<add place="inline" hand="hand16c?"><choice><abbr>Diac</abbr><expan>Diacon</expan></choice></add></cell></row>
-<row><cell><placeName ref="loc011165">Stammheym</placeName></cell></row>
-<row><cell><placeName ref="loc010405">Ossingen</placeName></cell></row>
-<row><cell><placeName ref="loc011166">Trüllickon</placeName></cell></row>
-<row><cell><placeName ref="loc010552">Martelen</placeName></cell></row>
-<row><cell><placeName ref="loc008827">Louffen</placeName>
-<add place="below" hand="hand16c?"><placeName ref="loc010640">Ramsen</placeName></add></cell></row>
-</table></div>
-<!--<cb/>-->
-<div>
-<table><head type="subtitle"><placeName ref="loc000849">Winterthurer</placeName>
-<choice><abbr>cap</abbr><expan>capitel</expan></choice></head>
-<row><cell><placeName ref="loc000849">Winterthur</placeName>. <choice><abbr>Pred</abbr><expan>Predicant</expan></choice><add place="inline" hand="hand17c?">2</add></cell></row>
-<row><cell><placeName ref="loc008882">Oberwinterthur</placeName></cell></row>
-<row><cell><placeName ref="loc010810">Doͤß</placeName></cell></row>
-<row><cell><placeName ref="loc011167">Rickenbach</placeName></cell></row>
-<row><cell><placeName ref="loc011252">Dynhart</placeName>
-<add place="inline" hand="hand16c?">kind am feld <placeName ref="loc011253">Sant <persName ref="per000270">Joͤrgen</persName></placeName></add></cell></row>
-<row><cell><placeName ref="loc011168">Alltickon</placeName></cell></row>
-<row><cell><placeName ref="loc011170">Dorlickon</placeName></cell></row>
-<row><cell><placeName ref="loc011171">Soͤützach</placeName></cell></row>
-<row><cell><placeName ref="loc011172">Naͤfftenbach</placeName></cell></row>
-<row><cell><placeName ref="loc010469">Hettlingen</placeName></cell></row>
-<row><cell><placeName ref="loc010359">Andelfingen</placeName></cell></row>
-<row><cell><placeName ref="loc011181">Taͤgerlan</placeName></cell></row>
-<row><cell><placeName ref="loc011177">Hengkhart</placeName></cell></row>
-<row><cell><placeName ref="loc011175">Berg</placeName></cell></row>
-<row><cell><placeName ref="loc011173">Flaach</placeName></cell></row>
-<row><cell><placeName ref="loc010422">Embrach</placeName></cell></row>
-<row><cell><placeName ref="loc011174">Lufingen</placeName></cell></row>
-<row><cell><placeName ref="loc011182">Rorbiß</placeName></cell></row>
-<row><cell><placeName ref="loc011184">Daͤttlickon</placeName></cell></row>
-<row><cell><placeName ref="loc010603">Pfungen</placeName></cell></row>
-<row><cell><placeName ref="loc010395">Brütten</placeName></cell></row>
-<row><cell><placeName ref="loc011186">Velthen</placeName></cell></row>
-<row><cell><placeName ref="loc010888">Wülfflingen</placeName></cell></row>
-<row><cell><placeName ref="loc011187">Buͦch</placeName></cell></row>
-</table></div>
-<div><table><head type="subtitle"><placeName ref="loc001005">Elgoͤwer</placeName>
-<choice><abbr>cap</abbr><expan>capitel</expan></choice></head>
-<row><cell><placeName ref="loc001005">Ellgoͤw</placeName></cell></row>
-<row><cell><placeName ref="loc011189">Aelsow</placeName></cell></row>
-<row><cell><placeName ref="loc011190">Wysedangen</placeName></cell></row>
-<row><cell><placeName ref="loc011191">Schlatt</placeName></cell></row>
-<row><cell><placeName ref="loc008717">Tzell</placeName></cell></row>
-<row><cell><placeName ref="loc008732">Durbentaal</placeName>
-<add place="inline" hand="hand16c?"><choice><abbr>Diac</abbr><expan>Diacon</expan></choice></add></cell></row>
-<row><cell><placeName ref="loc008733">Wyla</placeName></cell></row>
-</table></div>
-<div>
-<table>
-<head type="subtitle"><placeName ref="loc007474">Wetzikommer</placeName>
-<choice><abbr>cap</abbr><expan>capitel</expan></choice></head>
-<!--<cb/>-->
-<row><cell><pb n="224v" facs="StAZH_B_III_4__fol__224_v_.tif"/><placeName ref="loc008760">Gruͤningen</placeName></cell></row>
-<row><cell><placeName ref="loc008569">Gryfensee</placeName></cell></row>
-<row><cell><placeName ref="loc008729">Pfaͤfficon</placeName>. <choice><abbr>Diac</abbr><expan>Diacon</expan></choice></cell></row>
-<row><cell><placeName ref="loc010488">Kyburg</placeName></cell></row>
-<row><cell><placeName ref="loc010426">Alltorff</placeName></cell></row>
-<row><cell><placeName ref="loc008709">Yllnow</placeName>. <choice><abbr>Diac</abbr><expan>Diacon</expan></choice></cell></row>
-<row><cell><placeName ref="loc008741">Rußickon</placeName>. <choice><abbr>Diac</abbr><expan>Diacon</expan></choice></cell></row>
-<row><cell><placeName ref="loc011240">Wyßling</placeName></cell></row>
-<row><cell><add place="left margin" hand="hand17c?"><placeName ref="loc008734">Vilperg</placeName></add>
-<placeName ref="loc010529">Lindow</placeName></cell></row>
-<row><cell><placeName ref="loc010866">Wangen</placeName></cell></row>
-<row><cell><placeName ref="loc008652">Schwertzenbach</placeName></cell></row>
-<row><cell><placeName ref="loc008722">Duͤbendorff</placeName></cell></row>
-<row><cell><placeName ref="loc008651">Vaͤllanden</placeName></cell></row>
-<row><cell><placeName ref="loc008648">Muur</placeName></cell></row>
-<row><cell><placeName ref="loc006198">Uster</placeName>. <choice><abbr>Diac</abbr><expan>Diacon</expan></choice></cell></row>
-<row><cell><placeName ref="loc008715">Folckenschwyl</placeName></cell></row>
-<row><cell><placeName ref="loc008731">Seegraͤben</placeName></cell></row>
-<row><cell><placeName ref="loc007474">Wetzickon</placeName></cell></row>
-<row><cell><placeName ref="loc000587">Oetwyl</placeName></cell></row>
-<row><cell><placeName ref="loc011241">Hinnwyl</placeName></cell></row>
-<row><cell><placeName ref="loc010819">Wald</placeName></cell></row>
-<row><cell><placeName ref="loc007637">Baͤrotschwyl</placeName></cell></row>
-<row><cell><placeName ref="loc011242">Dürten</placeName></cell></row>
-<row><cell><placeName ref="loc010428">Vischental</placeName></cell></row>
-<row><cell><placeName ref="loc000073">Rüty</placeName></cell></row>
-<!--<cb/>-->
-<row><cell><placeName ref="loc008724">Goßow</placeName></cell></row>
-<row><cell><placeName ref="loc008723">Egg</placeName></cell></row>
-<row><cell><placeName ref="loc008654">Buͦbickon</placeName>.</cell></row>
-</table></div>
-<div><table>
-<head type="subtitle"><placeName ref="loc000658">Reginsperger</placeName>
-<choice><abbr>cap</abbr><expan>capitel</expan></choice></head>
-<row><cell><placeName ref="loc009768">Hoͤngg</placeName></cell></row>
-<row><cell><placeName ref="loc000836">Wyningen</placeName></cell></row>
-<row><cell><placeName ref="loc010512">Raͤgenstorff</placeName></cell></row>
-<row><cell><placeName ref="loc011243">Dellickon</placeName></cell></row>
-<row><cell><placeName ref="loc000071">Otelfingen</placeName></cell></row>
-<row><cell><placeName ref="loc011244">Buchs</placeName></cell></row>
-<row><cell><placeName ref="loc011245">Dielstorff</placeName></cell></row>
-<row><cell><placeName ref="loc000836">Waͤningen</placeName>. <choice><abbr>Diac</abbr><expan>Diacon</expan></choice></cell></row>
-<row><cell><placeName ref="loc010234">Steinmur</placeName></cell></row>
-<row><cell><placeName ref="loc011246">Stadel</placeName></cell></row>
-<row><cell><placeName ref="loc010397">Bülach</placeName></cell></row>
-<row><cell><placeName ref="loc011247">Niderhaßlach</placeName></cell></row>
-<row><cell><placeName ref="loc011248">Oberglatt</placeName></cell></row>
-<row><cell><placeName ref="loc008730">Rümmlang</placeName></cell></row>
-<row><cell><placeName ref="loc008727">Kloten</placeName></cell></row>
-<row><cell><placeName ref="loc010379">Basserstorff</placeName></cell></row>
-<row><cell><placeName ref="loc010414">Eglisow</placeName></cell></row>
-<row><cell><placeName ref="loc011249">Glattfelden</placeName></cell></row>
-<row><cell><placeName ref="loc011250">Wyl</placeName></cell></row>
-<row><cell><placeName ref="loc010637">Rafftz</placeName>.</cell></row>
-</table></div>
-<div><ab type="marginal note" place="left margin"><lb/>3</ab></div>
-<seg n="3.3">
-<p><lb/>Dannethin beruͤffe man die noch nit geschworen habend / das sy
- <lb/>unsern herren den gemeinen Eyd <orgName ref="org005056">Synodi</orgName> schweerind. Aber die
+      </p>
+      <div>
+       <table>
+        <head type="title"><placeName ref="loc000065">Zürich</placeName></head>
+        <row>
+         <cell>Das <placeName ref="loc007562">groß Münster</placeName></cell>
+        </row>
+        <row>
+         <cell>Die Lectores</cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010769">S. Peter</placeName> / sin Diacon</cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010769">Frowenmünster</placeName> / sin Diacon</cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000090">Spital</placeName>. Die siechen <add place="inline"
+           hand="hand17c?"><orgName ref="org005000"><choice>
+             <abbr>S</abbr>
+             <expan>Sanct</expan>
+            </choice> Jacob</orgName>
+           <lb/><placeName ref="loc008759">Spanweyd</placeName></add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010889">Zollicken</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010889">Schwamedingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010356">Ryeden</placeName></cell>
+        </row>
+        <!--<cb/>-->
+        <row>
+         <cell><pb n="224r" facs="StAZH_B_III_4__fol__224_r_.tif"/><placeName ref="loc010878"
+           >Wytticken</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc009828">Alltstetten</placeName></cell>
+        </row></table>
+      </div>
+      <div>
+       <table>
+        <head type="subtitle">Der <placeName ref="loc000127">See</placeName></head>
+        <row>
+         <cell><placeName ref="loc010923">Staͤfen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008708">Humbraͤchtingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000044">Maͤnendorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000509">Meylen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008711">Küßnach</placeName>, <placeName ref="loc008726"
+           >Herliberg</placeName>, <placeName ref="loc009834">Erlibach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008712">Richtischwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008716">Waͤdischwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010401">Horgen</placeName>. <placeName ref="loc011151"
+           >Hirtzel</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010510">Dallwyl</placeName>
+          <add place="inline" hand="hand16c?"><placeName ref="loc011152"
+          >Schlieren</placeName></add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008710">Kilchberg</placeName>
+          <add place="below" hand="hand17c?"><placeName ref="loc011153">Dietikon</placeName></add>
+          <add place="inline" hand="hand17c?"><placeName ref="loc000959">Zurzach</placeName></add>
+          <add place="below" hand="hand17c?"><placeName ref="loc011154"
+           >Tegerfelden</placeName></add></cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <table><head type="subtitle">Das <placeName ref="loc010516">Fryampt</placeName></head>
+        <row>
+         <cell><placeName ref="loc000451">Cappel</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010463">Husen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000468">Knonow</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010531">Maschwanden</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011158">Rifferschwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011159">Maͤttmenstetten</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011160">Ottenbach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011161">Affhollteren</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011162">Hedingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000177">Bonstetten</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011163">Stallickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010384">Birmensdorff</placeName></cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <table><head type="subtitle"><placeName ref="loc007335">Steiner</placeName>
+         <choice>
+          <abbr>cap</abbr>
+          <expan>capitel</expan>
+         </choice></head>
+        <row>
+         <cell><placeName ref="loc007335">Stein</placeName>
+          <add place="inline" hand="hand16c?"><choice>
+            <abbr>Diac</abbr>
+            <expan>Diacon</expan>
+           </choice></add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011165">Stammheym</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010405">Ossingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011166">Trüllickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010552">Martelen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008827">Louffen</placeName>
+          <add place="below" hand="hand16c?"><placeName ref="loc010640"
+          >Ramsen</placeName></add></cell>
+        </row>
+       </table>
+      </div>
+      <!--<cb/>-->
+      <div>
+       <table><head type="subtitle"><placeName ref="loc000849">Winterthurer</placeName>
+         <choice>
+          <abbr>cap</abbr>
+          <expan>capitel</expan>
+         </choice></head>
+        <row>
+         <cell><placeName ref="loc000849">Winterthur</placeName>. <choice>
+           <abbr>Pred</abbr>
+           <expan>Predicant</expan>
+          </choice><add place="inline" hand="hand17c?">2</add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008882">Oberwinterthur</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010810">Doͤß</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011167">Rickenbach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011252">Dynhart</placeName>
+          <add place="inline" hand="hand16c?">kind am feld <placeName ref="loc011253">Sant <persName
+             ref="per000270">Joͤrgen</persName></placeName></add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011168">Alltickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011170">Dorlickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011171">Soͤützach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011172">Naͤfftenbach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010469">Hettlingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010359">Andelfingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011181">Taͤgerlan</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011177">Hengkhart</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011175">Berg</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011173">Flaach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010422">Embrach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011174">Lufingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011182">Rorbiß</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011184">Daͤttlickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010603">Pfungen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010395">Brütten</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011186">Velthen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010888">Wülfflingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011187">Buͦch</placeName></cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <table><head type="subtitle"><placeName ref="loc001005">Elgoͤwer</placeName>
+         <choice>
+          <abbr>cap</abbr>
+          <expan>capitel</expan>
+         </choice></head>
+        <row>
+         <cell><placeName ref="loc001005">Ellgoͤw</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011189">Aelsow</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011190">Wysedangen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011191">Schlatt</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008717">Tzell</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008732">Durbentaal</placeName>
+          <add place="inline" hand="hand16c?"><choice>
+            <abbr>Diac</abbr>
+            <expan>Diacon</expan>
+           </choice></add></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008733">Wyla</placeName></cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <table>
+        <head type="subtitle"><placeName ref="loc007474">Wetzikommer</placeName>
+         <choice>
+          <abbr>cap</abbr>
+          <expan>capitel</expan>
+         </choice></head>
+        <!--<cb/>-->
+        <row>
+         <cell><pb n="224v" facs="StAZH_B_III_4__fol__224_v_.tif"/><placeName ref="loc008760"
+           >Gruͤningen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008569">Gryfensee</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008729">Pfaͤfficon</placeName>. <choice>
+           <abbr>Diac</abbr>
+           <expan>Diacon</expan>
+          </choice></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010488">Kyburg</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010426">Alltorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008709">Yllnow</placeName>. <choice>
+           <abbr>Diac</abbr>
+           <expan>Diacon</expan>
+          </choice></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008741">Rußickon</placeName>. <choice>
+           <abbr>Diac</abbr>
+           <expan>Diacon</expan>
+          </choice></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011240">Wyßling</placeName></cell>
+        </row>
+        <row>
+         <cell><add place="left margin" hand="hand17c?"><placeName ref="loc008734"
+            >Vilperg</placeName></add>
+          <placeName ref="loc010529">Lindow</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010866">Wangen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008652">Schwertzenbach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008722">Duͤbendorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008651">Vaͤllanden</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008648">Muur</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc006198">Uster</placeName>. <choice>
+           <abbr>Diac</abbr>
+           <expan>Diacon</expan>
+          </choice></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008715">Folckenschwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008731">Seegraͤben</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc007474">Wetzickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000587">Oetwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011241">Hinnwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010819">Wald</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc007637">Baͤrotschwyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011242">Dürten</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010428">Vischental</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000073">Rüty</placeName></cell>
+        </row>
+        <!--<cb/>-->
+        <row>
+         <cell><placeName ref="loc008724">Goßow</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008723">Egg</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008654">Buͦbickon</placeName>.</cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <table>
+        <head type="subtitle"><placeName ref="loc000658">Reginsperger</placeName>
+         <choice>
+          <abbr>cap</abbr>
+          <expan>capitel</expan>
+         </choice></head>
+        <row>
+         <cell><placeName ref="loc009768">Hoͤngg</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000836">Wyningen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010512">Raͤgenstorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011243">Dellickon</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000071">Otelfingen</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011244">Buchs</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011245">Dielstorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc000836">Waͤningen</placeName>. <choice>
+           <abbr>Diac</abbr>
+           <expan>Diacon</expan>
+          </choice></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010234">Steinmur</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011246">Stadel</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010397">Bülach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011247">Niderhaßlach</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011248">Oberglatt</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008730">Rümmlang</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc008727">Kloten</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010379">Basserstorff</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010414">Eglisow</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011249">Glattfelden</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc011250">Wyl</placeName></cell>
+        </row>
+        <row>
+         <cell><placeName ref="loc010637">Rafftz</placeName>.</cell>
+        </row>
+       </table>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>3</ab>
+      </div>
+      <seg n="3.3">
+       <p><lb/>Dannethin beruͤffe man die noch nit geschworen habend / das sy
+ <lb/>unsern herren den gemeinen Eyd <orgName
+         ref="org005056">Synodi</orgName> schweerind. Aber die
  <lb/>form des Eyds ist dise.</p>
-<p>
-<lb/>Das ich das heilig Evangelium und wort Gotts / darzuͦ ich be<lb break="no"/>ruͤfft
+       <p>
+        <lb/>Das ich das heilig Evangelium und wort Gotts / darzuͦ ich be<lb break="no"
+         />ruͤfft
  bin / trüwlich und nach raͤchtem Christenlichen verstand / ouch
- <lb/>nach vermoͤg Allts und Nüws Evangelischen Testaments / lut mi<lb break="no"/>ner
- herren von <placeName ref="loc000065">Zürich</placeName> vorußgangnen Mandats / leeren und pred<lb break="no"/>gen /
+ <lb/>nach vermoͤg Allts und Nüws Evangelischen Testaments / lut mi<lb
+         break="no"/>ner
+ herren von <placeName ref="loc000065"
+         >Zürich</placeName> vorußgangnen Mandats / leeren und pred<lb break="no"
+         />gen /
  und darunder kein dogma und keer / die zwyflig und noch nit
- <lb/>uff der ban und erhalten sye / nit ynmischen / sy sye dann zevor gmei<lb break="no"/>ner
- ordenlicher versamlung / so <date dur="R/P6M">jaͤrlich zwey mol</date> gehalten / anzeigt /
- <pb n="225r" facs="StAZH_B_III_4__fol__225_r_.tif"/>
-<lb/>und vor der selbigen erhalten. Darzuͦ soll und wil ich einem <orgName ref="org002406">Bur<lb break="no"/>germeister
+ <lb/>uff der ban und erhalten sye / nit ynmischen / sy sye dann zevor gmei<lb
+         break="no"/>ner
+ ordenlicher versamlung / so <date dur="R/P6M"
+         >jaͤrlich zwey mol</date> gehalten / anzeigt /
+ <pb n="225r"
+         facs="StAZH_B_III_4__fol__225_r_.tif"/>
+        <lb/>und vor der selbigen erhalten. Darzuͦ soll und wil ich einem <orgName ref="org002406"
+          >Bur<lb break="no"
+         />germeister
  unnd Radt / ouch den Burgeren</orgName> / als miner ordenlichen
- <lb/>Obergheit trüw unnd hold sin: gemeiner Statt unnd Lands <placeName ref="loc000065">Zü<lb break="no"/>rich</placeName>
+ <lb/>Obergheit trüw unnd hold sin: gemeiner Statt unnd Lands <placeName
+         ref="loc000065">Zü<lb break="no"
+         />rich</placeName>
  nutz und frommen fürdern / iro schaden warnen und wenden /
  <lb/>so ferr ich vermag: ouch iren unnd iren nachgesetzten Voͤgten und
- <lb/>amptlüten gebotten und verbotten / inn zimlichen billichen sachen ge<lb break="no"/>horsamm
- unnd gewaͤrtig sin: Item die heimligheiten des <orgName ref="org005056">Synodi</orgName>
-<lb/>verschwygen und nit offenbaren / daruß schad und verwysen moͤch<lb break="no"/>te
+ <lb/>amptlüten gebotten und verbotten / inn zimlichen billichen sachen ge<lb
+         break="no"/>horsamm
+ unnd gewaͤrtig sin: Item die heimligheiten des <orgName
+         ref="org005056">Synodi</orgName>
+        <lb/>verschwygen und nit offenbaren / daruß schad und verwysen moͤch<lb break="no"
+         />te
  erwachsen / alles getrüwlich und on alle gfaͤrd / <abbr>etc</abbr></p></seg>
-<seg><p>
-<lb/>Danaͤben melde man / das / die nit in <orgName ref="org005056">Synodum</orgName> gehoͤrend oder
+      <seg><p>
+        <lb/>Danaͤben melde man / das / die nit in <orgName ref="org005056"
+         >Synodum</orgName> gehoͤrend oder
  <lb/>beruͤfft sind /  ußstandint: oder so ettliche / doch ersamme vertruwte
- <lb/>personen / begaͤrtind zuͦzehoͤren / und es inen vom <orgName ref="org005056">Synodo</orgName> nachge<lb break="no"/>lassen /
+ <lb/>personen / begaͤrtind zuͦzehoͤren / und es inen vom <orgName
+         ref="org005056">Synodo</orgName> nachge<lb break="no"
+        />lassen /
  uff glübt der trüw und gloubens getuldet werdint.
 </p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>4</ab></div>
-<seg n="3.4"><p>
-<lb/>Nach disem frage man die verordneten von einem ersammen
- <lb/><orgName ref="org004016">Radt</orgName> / ob sy neiswas von waͤgen unser <choice><abbr>G H</abbr><expan>Gnaͤdigen Herren</expan></choice>  an den gantzen <orgName ref="org005056">Sy<lb break="no"/>nodum</orgName>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>4</ab>
+      </div>
+      <seg n="3.4"><p>
+        <lb/>Nach disem frage man die verordneten von einem ersammen
+ <lb/><orgName ref="org004016"
+         >Radt</orgName> / ob sy neiswas von waͤgen unser <choice>
+         <abbr>G H</abbr>
+         <expan>Gnaͤdigen Herren</expan>
+        </choice>  an den gantzen <orgName ref="org005056">Sy<lb break="no"
+        />nodum</orgName>
  anzebringen habind.
 </p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>5</ab></div>
-<seg n="3.5"><p>
-<lb/>Ze lest soll einer uß den Predicanten ein kurtze ermanung thuͦn /
- <lb/>das sich inn der Censura yederman der warheit flysse / one anfaͤch<lb break="no"/>tung
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>5</ab>
+      </div>
+      <seg n="3.5"><p>
+        <lb/>Ze lest soll einer uß den Predicanten ein kurtze ermanung thuͦn /
+ <lb/>das sich inn der Censura yederman der warheit flysse / one anfaͤch<lb
+         break="no"
+         />tung
  nyds und hasses handle / rede und radte / <abbr>etc</abbr> Item kurtz erzellen /
  <lb/>wie nutzlich die straaf sye / so sy guͤtlich ufgenommen wirt / <abbr>etc</abbr>
-</p>
-<div><ab type="marginal note" place="right margin"><lb/>Censura.</ab></div>
-<p>
-<lb/>Hieruf stelle man zum ersten uß die Predicanten / unnd Lectores
+       </p>
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Censura.</ab>
+       </div>
+       <p>
+        <lb/>Hieruf stelle man zum ersten uß die Predicanten / unnd Lectores
  <lb/>Theologie / von der Statt / einen nach dem andern. Und Censiere
- <lb/>man die mit ernst / glych wie die andern. Fürnemlich das hiemit al<lb break="no"/>lerley
+ <lb/>man die mit ernst / glych wie die andern. Fürnemlich das hiemit al<lb
+         break="no"
+         />lerley
  ambition ouch argwhon der beherrschung abgethon / und sy
- <lb/>sich als bruͤder und mitarbeiter im Evangelio <persName ref="per000353">Christi</persName> erkennind.
+ <lb/>sich als bruͤder und mitarbeiter im Evangelio <persName
+         ref="per000353">Christi</persName> erkennind.
 </p><p>
-<lb/>Die nachfrag aber in der censura soll erstlich von der Leer / dem<lb break="no"/>nach
+        <lb/>Die nachfrag aber in der censura soll erstlich von der Leer / dem<lb break="no"
+        />nach
  von dem Studio liebe und flyß der gschrifft: item von dem
  <lb/>wandel / laͤben und sitten / unnd ze letst von waͤgen des hußhabens
  <lb/>und hußvolcks gehalten werden. Und wer der stucken angezogen /
  <lb/>soll mit warheit was im zewüssen bezügen / es sye guͦts oder boͤß.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Decani.</ab></div>
-<p>
-<lb/>Der gstalt sol ouch eines yeden Capittels Decanus ußgestelt
-  <pb n="225v" facs="StAZH_B_III_4__fol__225_v_.tif"/>
-<lb/>werden / damit im keiner eignen gwalt schoͤpffe / und den wider sine
- <lb/>bruͤder gebruche: sunder / wie mencklich / dem <orgName ref="org005056">Synodo</orgName> underworf<lb break="no"/>fen
- sye. Wenn aber der Decanus widerumb heryn beruͤfft / unnd si<lb break="no"/>nen
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Decani.</ab>
+       </div>
+       <p>
+        <lb/>Der gstalt sol ouch eines yeden Capittels Decanus ußgestelt
+  <pb n="225v"
+         facs="StAZH_B_III_4__fol__225_v_.tif"/>
+        <lb/>werden / damit im keiner eignen gwalt schoͤpffe / und den wider sine
+ <lb/>bruͤder gebruche: sunder / wie mencklich / dem <orgName
+         ref="org005056">Synodo</orgName> underworf<lb break="no"
+         />fen
+ sye. Wenn aber der Decanus widerumb heryn beruͤfft / unnd si<lb break="no"
+         />nen
  bescheid empfangen / soll er die naamen der Pfarreren / so ettlich
- <lb/>straͤfflich gehandlet / gschrifftlich ynlegen. Die soͤllend dannethin ein<lb break="no"/>ner
- nach dem anderen ußgestelt / iro mißhandlung erkonnet / und cen<lb break="no"/>siert
- werden. Hat aber der Decanus ghein klag und mangel an si<lb break="no"/>nen
+ <lb/>straͤfflich gehandlet / gschrifftlich ynlegen. Die soͤllend dannethin ein<lb
+         break="no"/>ner
+ nach dem anderen ußgestelt / iro mißhandlung erkonnet / und cen<lb
+         break="no"/>siert
+ werden. Hat aber der Decanus ghein klag und mangel an si<lb break="no"
+         />nen
  bruͤdern / soll er das selb ouch mit kurtzen worten dar thuͦn.
- <lb/>Nütdisterweniger / das mit der zeit ghein fürhaltens erwachse / soͤl<lb break="no"/>lend
- <num value="2">zwo</num> fragen von den Presidenten gehalten werden. Die ein.
+ <lb/>Nütdisterweniger / das mit der zeit ghein fürhaltens erwachse / soͤl<lb
+         break="no"/>lend
+ <num value="2"
+         >zwo</num> fragen von den Presidenten gehalten werden. Die ein.
  <lb/>Ob yemands inn disem Capitel sye / der unordnung / mangel / oder
  <lb/>unzucht von dem andern wüsse: Die ander. Ob sust yemands da
- <lb/>imm gantzen <orgName ref="org005056">Synodo</orgName> zegaͤgen mangel und unraͤcht über yemands
+ <lb/>imm gantzen <orgName
+         ref="org005056"
+        >Synodo</orgName> zegaͤgen mangel und unraͤcht über yemands
  <lb/>dises Capitels wüsse. Und so dann ouch also nützid erfunden / mag
  <lb/>man ein ander Capitel and hand nemmen.</p></seg>
-<div><ab type="marginal note" place="left margin">
-<lb/>Des Daͤchens <lb/>ampt.</ab></div>
-<seg n="3.6">
-<p><lb/>Soͤlichs aber ist dem Decano sines ampts halben bestimpt / das
+      <div>
+       <ab type="marginal note" place="left margin">
+        <lb/>Des Daͤchens <lb/>ampt.</ab>
+      </div>
+      <seg n="3.6">
+       <p><lb/>Soͤlichs aber ist dem Decano sines ampts halben bestimpt / das
  <lb/>er ein flyssig ufsaͤhen uff die pfarren habe / so im befolhen / das er die
  <lb/>zun zyten heimsuͦche / erfaare was yedes studium sye / was er predgy /
- <lb/>und wie es in der kilchen stande. Und so er dann etwas mangels fun<lb break="no"/>de /
- dannethin <num value="1">einen</num> oder <num value="2">zwen</num> der naͤchsten Pfarreren zuͦ im naͤme /
- <lb/>und den mißhandleden warne / und straaffe / Christenlich und bruͤ<lb break="no"/>derlich /
+ <lb/>und wie es in der kilchen stande. Und so er dann etwas mangels fun<lb
+         break="no"/>de /
+ dannethin <num value="1">einen</num> oder <num value="2"
+         >zwen</num> der naͤchsten Pfarreren zuͦ im naͤme /
+ <lb/>und den mißhandleden warne / und straaffe / Christenlich und bruͤ<lb
+         break="no"
+         />derlich /
  das man da trüw und liebe / nit stoͤltze und ufsatz spüre. Wo
  <lb/>aber soͤmliches nützid hulffe / soll demnach die selb mißhandlung und
- <lb/>verachtung / dem gantzen <orgName ref="org005056">Synodo</orgName> antragen werden.
+ <lb/>verachtung / dem gantzen <orgName
+         ref="org005056">Synodo</orgName> antragen werden.
 </p></seg>
-<div><ab type="marginal note" place="left margin">
-<lb/>Caplony<lb break="no"/>en.</ab></div>
-<seg n="3.7"><p>
-<lb/>Das ouch ghein unordnung / uß mangel der straaff / under den
+      <div>
+       <ab type="marginal note" place="left margin">
+        <lb/>Caplony<lb break="no"/>en.</ab>
+      </div>
+      <seg n="3.7"><p>
+        <lb/>Das ouch ghein unordnung / uß mangel der straaff / under den
  <lb/>Caplonen und anderen / so der kilchenguͤtern gelaͤbend / erwachse /
  <lb/>soll ein yetlicher Decanus die Caplonen / so under im unordenlich
- <lb/>laͤbtend / uff den naͤchstvolgenden <orgName ref="org005056">Synodum</orgName> betagen / und da dem
- <lb/><orgName ref="org005056">Synodo</orgName> die unordnung anzeigen / damit er sines unraͤchten abge<lb break="no"/>wisen
+ <lb/>laͤbtend / uff den naͤchstvolgenden <orgName
+         ref="org005056">Synodum</orgName> betagen / und da dem
+ <lb/><orgName ref="org005056"
+         >Synodo</orgName> die unordnung anzeigen / damit er sines unraͤchten abge<lb break="no"
+        />wisen
  und widerumb zeraͤcht gebracht werde.</p></seg>
-<div><ab type="marginal note" place="left margin"><lb/>Consilia.</ab></div>
-<seg n="3.8"><p><lb/>Nach dem aber die censura / wie gebürlich / volbracht / soll der
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Consilia.</ab>
+      </div>
+      <seg n="3.8"
+         ><p><lb/>Nach dem aber die censura / wie gebürlich / volbracht / soll der
  <lb/>Presidenten einer anfragen / Ob yemands uß den pfarreren ettwas
- <lb/>der leer / irrungen / mißverstands / oder sust kilchenhaͤndlen halb / nu<lb break="no"/>tzes
- oder schades / habe anzebringen: denen sol ouch nach vermü<pb n="226r" facs="StAZH_B_III_4__fol__226_r_.tif"/><lb break="no"/>gen /
- von dem <orgName ref="org005056">Synodo</orgName> geholffen und geradten werden. Und was
- <lb/>dann einem ersammen <orgName ref="org004016">Radt</orgName> zuͦstat / ufzeichnen / unnd innet <date dur="P1M">Monats</date>
-<lb/>frist / guͤtlich fürgetragen / radts und hilff zebegaͤren. Hierumb bit<lb break="no"/>ten
- wir ouch unser <choice><abbr>G H</abbr><expan>Gnaͤdigen Herren</expan></choice> sy woͤllind soͤmlich anbringen <orgName ref="org005056">Synodi</orgName>
-<lb/>guͤtlich verhoͤren: nit unserthalb allein / sunder vil mee der gemeinen
- <lb/>kilchen halben: ouch angesaͤhen das soͤmlichs nit mee dann <date dur="R/P6M">zwey mol
+ <lb/>der leer / irrungen / mißverstands / oder sust kilchenhaͤndlen halb / nu<lb
+         break="no"/>tzes
+ oder schades / habe anzebringen: denen sol ouch nach vermü<pb n="226r"
+         facs="StAZH_B_III_4__fol__226_r_.tif"/><lb break="no"/>gen /
+ von dem <orgName
+         ref="org005056"
+         >Synodo</orgName> geholffen und geradten werden. Und was
+ <lb/>dann einem ersammen <orgName
+         ref="org004016">Radt</orgName> zuͦstat / ufzeichnen / unnd innet <date dur="P1M"
+         >Monats</date>
+        <lb/>frist / guͤtlich fürgetragen / radts und hilff zebegaͤren. Hierumb bit<lb break="no"/>ten
+ wir ouch unser <choice>
+         <abbr>G H</abbr>
+         <expan>Gnaͤdigen Herren</expan>
+        </choice> sy woͤllind soͤmlich anbringen <orgName ref="org005056">Synodi</orgName>
+        <lb/>guͤtlich verhoͤren: nit unserthalb allein / sunder vil mee der gemeinen
+ <lb/>kilchen halben: ouch angesaͤhen das soͤmlichs nit mee dann <date
+         dur="R/P6M"
+        >zwey mol
  <lb/>imm jar</date> zeverfertigen kumpt / und aber vil nutzes und guͦts gebaͤren mag.
 </p></seg>
-<div><ab type="marginal note" place="right margin"><lb/>Welche haͤndel <lb/>imm <orgName ref="org005056">Synodo</orgName> ze <lb/>handlen.</ab></div>
-<seg n="3.9"><p>
-<lb/>Das ouch ir ersamm wyßheit / unser censur und haͤndlen imm <orgName ref="org005056">Sy<lb break="no"/>nodo</orgName>
+      <div>
+       <ab type="marginal note" place="right margin"><lb/>Welche haͤndel <lb/>imm <orgName
+         ref="org005056">Synodo</orgName> ze <lb/>handlen.</ab>
+      </div>
+      <seg n="3.9"><p>
+        <lb/>Das ouch ir ersamm wyßheit / unser censur und haͤndlen imm <orgName ref="org005056"
+          >Sy<lb break="no"
+         />nodo</orgName>
  fürtragen / sovil minder bemuͤygt und beunruͤwiget: und aber
- <lb/>nütdistweniger alle sachen so der kilchen notwendig nit verhinde<lb break="no"/>ret:
- bittend wir hie abermols unser <choice><abbr>G H</abbr><expan>Gnaͤdigen Herren</expan></choice> das sy uns doch nit woͤl<lb break="no"/>lind
- versperren <foreign xml:lang="la">Ecclesiasticam authoritatem</foreign> / die verwaltung inn
- <lb/>haͤndlen der kilchen / die uns unnser herr <persName ref="per000353">Jesu Christus</persName> bevolhen /
+ <lb/>nütdistweniger alle sachen so der kilchen notwendig nit verhinde<lb
+         break="no"/>ret:
+ bittend wir hie abermols unser <choice>
+         <abbr>G H</abbr>
+         <expan>Gnaͤdigen Herren</expan>
+        </choice> das sy uns doch nit woͤl<lb break="no"/>lind
+ versperren <foreign xml:lang="la"
+         >Ecclesiasticam authoritatem</foreign> / die verwaltung inn
+ <lb/>haͤndlen der kilchen / die uns unnser herr <persName
+         ref="per000353"
+         >Jesu Christus</persName> bevolhen /
  <lb/>nit zebeherrschen oder zuͦverderben / sunder zuͦdienen und ufbuwen.
- <lb/>Namlich das der allgemein <orgName ref="org005056">Synodus</orgName> fürohin / mit sampt den <num value="8">acht</num>
-<lb/>Radtsfründen dem <orgName ref="org005056">Synodo</orgName> von einem ersammen <orgName ref="org004016">Radt</orgName> (wie obge<lb break="no"/>meldt)
+ <lb/>Namlich das der allgemein <orgName
+         ref="org005056">Synodus</orgName> fürohin / mit sampt den <num value="8">acht</num>
+        <lb/>Radtsfründen dem <orgName ref="org005056">Synodo</orgName> von einem ersammen <orgName
+         ref="org004016">Radt</orgName> (wie obge<lb break="no"
+         />meldt)
  zuͦgesetzt / in allen denen Articklen / so die leer unnd das laͤben
- <lb/>der Predicanten betraͤffend / nach form unnd gstalt / wie hierinn ver<lb break="no"/>griffen /
+ <lb/>der Predicanten betraͤffend / nach form unnd gstalt / wie hierinn ver<lb
+         break="no"
+         />griffen /
  unnd wie es die warheyt Gottes vermag / handlen moͤge /
  <lb/>und was da ußgesprochen und verhandlet wirt / vest sye und krafft
- <lb/>habe. Was aber nit betrifft die leer unnd das laͤben der Predican<lb break="no"/>ten /
- oder daruß erwachsen / sunder usserlich und hierinn nit vergrif<lb break="no"/>fen
- ist / wil sich <orgName ref="org005056">Synodus</orgName> gnodt entschlahen unnd nützid beladen.
- <lb/>Deßglych wo die gemelten <num value="8">acht</num> Radtsfründ ein handel wie der
- <lb/>waͤre / für unnsere herren zühen / woͤllend wir guͤtlich lassen beschaͤ<lb break="no"/>hen.
+ <lb/>habe. Was aber nit betrifft die leer unnd das laͤben der Predican<lb
+         break="no"/>ten /
+ oder daruß erwachsen / sunder usserlich und hierinn nit vergrif<lb
+         break="no"/>fen
+ ist / wil sich <orgName ref="org005056"
+         >Synodus</orgName> gnodt entschlahen unnd nützid beladen.
+ <lb/>Deßglych wo die gemelten <num
+         value="8"
+         >acht</num> Radtsfründ ein handel wie der
+ <lb/>waͤre / für unnsere herren zühen / woͤllend wir guͤtlich lassen beschaͤ<lb
+         break="no"
+         />hen.
  Dann wir soͤmlichs nit der meinung begaͤrend / das wir eignen
- <lb/>gwalt uffrichten / und uns (wie imm Bapsthumb beschaͤhen) der or<lb break="no"/>denlichen
+ <lb/>gwalt uffrichten / und uns (wie imm Bapsthumb beschaͤhen) der or<lb
+         break="no"/>denlichen
  Obergheit woͤllend entzühen: sunder das ein ersammer
- <lb/><orgName ref="org004016">Radt</orgName> mit disen kilchen haͤndlen / nit überlaͤstiget / ouch so er sust mit
+ <lb/><orgName
+         ref="org004016"
+        >Radt</orgName> mit disen kilchen haͤndlen / nit überlaͤstiget / ouch so er sust mit
  <lb/>anderen haͤndlen überladen / deßhalb er dise unsere anligende nodt /
  <lb/>nit allwaͤg nach nodturfft verhoͤren mag / doch der leer und kilchen
  <lb/>haͤndlen darzwüschend nützid verwarloset oder versumpt werde.
 </p>
-<div><ab type="marginal note" place="right margin"><lb/>Abred.</ab></div><p>
-<lb/>Aber ze end des <orgName ref="org005056">Synodi</orgName> / soll einer uß den Predicanten ein ernst<lb break="no"/>lich
+       <div>
+        <ab type="marginal note" place="right margin"><lb/>Abred.</ab>
+       </div><p>
+        <lb/>Aber ze end des <orgName ref="org005056"
+         >Synodi</orgName> / soll einer uß den Predicanten ein ernst<lb break="no"
+         />lich
  ermanung thuͦn / ye wie sich die zyten zuͦtragend: fürnemlich aber
- <lb/>das ein yeder siner kilchen mit der leer der warheit unnd guͦtem by<lb break="no"/>spil
+ <lb/>das ein yeder siner kilchen mit der leer der warheit unnd guͦtem by<lb
+         break="no"/>spil
  sines laͤbens vorstande / <abbr>etc</abbr>
-</p></seg>
-<pb n="226v" facs="StAZH_B_III_4__fol__226_v_.tif"/>
-<seg><p>
-<lb/>Und in allen disen Articklen / wo sich ein fuͤgklichers / waarers
- <lb/>und bessers erfunde / woͤllend wir alle zyt der waarheit underworf<lb break="no"/>fen
+       </p></seg>
+      <pb n="226v" facs="StAZH_B_III_4__fol__226_v_.tif"/>
+      <seg><p>
+        <lb/>Und in allen disen Articklen / wo sich ein fuͤgklichers / waarers
+ <lb/>und bessers erfunde / woͤllend wir alle zyt der waarheit underworf<lb
+         break="no"/>fen
  sin / und das besser mit danckbarkeit and hand nemmen.
 </p>
-<p>
-<lb/><choice><abbr>U W</abbr><expan>Üwer Wisheit</expan></choice> underthaͤnige
+       <p>
+        <lb/><choice>
+         <abbr>U W</abbr>
+         <expan>Üwer Wisheit</expan>
+        </choice> underthaͤnige
 </p>
-<p>
-<lb/>Verordnete Pfarrer / diener des worts /
- <lb/>Laͤser der heiligen gschrifft / und Diaco<lb break="no"/>ni /
+       <p>
+        <lb/>Verordnete Pfarrer / diener des worts /
+ <lb/>Laͤser der heiligen gschrifft / und Diaco<lb
+         break="no"
+         />ni /
  aller gemeinlich unnd sunderlich uß der
- <lb/>Statt und ab der Landtschafft <placeName ref="loc000066">Zürich</placeName>.
+ <lb/>Statt und ab der Landtschafft <placeName
+         ref="loc000066">Zürich</placeName>.
 </p></seg>
-<p>
-<seg><lb/>Yetzdan aber so tragend wir üch <choice><abbr>U G H</abbr><expan>Unseren Gnaͤdigen Herren</expan></choice> dise Artickel inn aller
- <lb/>gstalt wie sy verlaͤsen / inn naamen des gantzen <orgName ref="org005056">Synodi</orgName> für: und be<lb break="no"/>gaͤrend
- umb Gottes und der warheyt willen / üwer als einer Chri<lb break="no"/>stlichen
+      <p>
+       <seg><lb/>Yetzdan aber so tragend wir üch <choice>
+         <abbr>U G H</abbr>
+         <expan>Unseren Gnaͤdigen Herren</expan>
+        </choice> dise Artickel inn aller
+ <lb/>gstalt wie sy verlaͤsen / inn naamen des gantzen <orgName
+         ref="org005056">Synodi</orgName> für: und be<lb break="no"
+         />gaͤrend
+ umb Gottes und der warheyt willen / üwer als einer Chri<lb break="no"
+         />stlichen
  Obergheit / verwilligung hierzuͦ: und damit sy allen zeglych
  <lb/>werden moͤgind / dz ir uns vergünstigen woͤllind / dise inn den Truck
- <lb/>zeverfertigen / und das sy sovil mee krafft und ansahens habind / soͤ<lb break="no"/>liches
- mit zuͦgethoner verschribner bewilligung bewaren / das woͤl<lb break="no"/>lend
+ <lb/>zeverfertigen / und das sy sovil mee krafft und ansahens habind / soͤ<lb
+         break="no"/>liches
+ mit zuͦgethoner verschribner bewilligung bewaren / das woͤl<lb
+         break="no"/>lend
  wir zuͦ grossem danck ufnemmen / und uns so getrüwlich inn
- <lb/>diensten Gottes worts und der kilchen halten / das <choice><abbr>V W</abbr><expan>Üwer Wisheit</expan></choice> erkant<lb break="no"/>nuß
+ <lb/>diensten Gottes worts und der kilchen halten / das <choice>
+         <abbr>V W</abbr>
+         <expan>Üwer Wisheit</expan>
+        </choice> erkant<lb break="no"/>nuß
  und danckbargheit erkennen soll.</seg>
-</p>
-<p><lb/><choice><abbr>V W</abbr><expan>Üwer Wisheit</expan></choice> willige</p>
-<p><lb/><persName ref="per012634">Heinrych Bullinger</persName> und
- <lb/><persName ref="per012654">Leo Jud</persName>.</p>
-</div>
-</body>
-<back>
-<div>
-<p>
- Die vorliegenden Artikel wurden im Rahmen der Herbstsynode 1532 verabschiedet und durch <persName ref="per012634">Heinrich Bullinger</persName> und <persName ref="per012654">Leo Jud</persName> am 6. November dem <orgName ref="org002406">Rat der Stadt <placeName ref="loc000065">Zürich</placeName></orgName>
+      </p>
+      <p><lb/><choice>
+        <abbr>V W</abbr>
+        <expan>Üwer Wisheit</expan>
+       </choice> willige</p>
+      <p><lb/><persName ref="per012634">Heinrych Bullinger</persName> und
+ <lb/><persName
+        ref="per012654">Leo Jud</persName>.</p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>
+ Die vorliegenden Artikel wurden im Rahmen der Herbstsynode 1532 verabschiedet und durch <persName
+        ref="per012634">Heinrich Bullinger</persName> und <persName ref="per012654"
+        >Leo Jud</persName> am 6. November dem <orgName ref="org002406">Rat der Stadt <placeName
+         ref="loc000065">Zürich</placeName></orgName>
  vorgetragen. 
- Der <orgName ref="org002406">Rat</orgName> bestätigte diese noch am selben Tag und setzte sie in Kraft. 
- Die Säckelmeisterrechnung vermerkt einen Betrag von 20 Pfund, der am 28. November dem Drucker <persName ref="per014474">Christoph Froschauer</persName> für die Herstellung von 150 Exemplaren des Mandats ausbezahlt wurde
- (<bibl><ref target="/startseite/literaturverzeichnis">Egli, Actensammlung</ref>, Nr. 1973, S. 870</bibl>). 
- In der Mandatssammlung des Staatsarchivs ist ein weiteres Exemplar überliefert, das einem handschriftlichem Vermerk zufolge aus dem Pfarrhaus in <placeName ref="loc011189">Elsau</placeName> stammt und zusätzliche Notizen, 
- jedoch kein Titelblatt aufweist (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162176">StAZH III AAb 1.1, Nr. 22</ref></bibl>).</p>
-<p>Das Mandat fasst zahlreiche seit den früheren 1520er Jahren eingetretene Veränderungen, namentlich hinsichtlich Auswahl und Amtstätigkeit der Pfarrer, zusammen. Es bildet damit eine 
-  wichtige Etappe im Institutionalisierungsprozess der obrigkeitlich-kirchlichen Verwaltung nach der Reformation (<bibl><ref target="/startseite/literaturverzeichnis">Bächtold 1982</ref>, S. 35</bibl>). Mehrfach neu aufgelegt,
-  blieben seine Bestimmungen bis zum Ende des Ancien Régime im Wesentlichen unverändert in Kraft (<bibl><ref target="/startseite/literaturverzeichnis">Wälchli 2008</ref>, S. 101, Anm. 7</bibl>).</p>
-<p>Zum vorliegenden Mandat vgl. <bibl><ref target="/startseite/literaturverzeichnis">Büsser 2004-2005</ref>, Bd. 1, S. 127-142</bibl>; 
- <bibl><ref target="/startseite/literaturverzeichnis">Diethelm 2004</ref></bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Bächtold 1982</ref>, S. 29-35</bibl>; für die <placeName ref="loc000065">Zürcher</placeName> Synodalakten 
- vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3729636">StAZH E I 2</ref></bibl>; 
- <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=308782">StAZH E II 1-E II 7b</ref></bibl>.
+ Der <orgName ref="org002406"
+        >Rat</orgName> bestätigte diese noch am selben Tag und setzte sie in Kraft. 
+ Die Säckelmeisterrechnung vermerkt einen Betrag von 20 Pfund, der am 28. November dem Drucker <persName
+        ref="per014474"
+         >Christoph Froschauer</persName> für die Herstellung von 150 Exemplaren des Mandats ausbezahlt wurde
+ (<bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Egli, Actensammlung</ref>, Nr. 1973, S. 870</bibl>). 
+ In der Mandatssammlung des Staatsarchivs ist ein weiteres Exemplar überliefert, das einem handschriftlichem Vermerk zufolge aus dem Pfarrhaus in <placeName
+        ref="loc011189"
+         >Elsau</placeName> stammt und zusätzliche Notizen, 
+ jedoch kein Titelblatt aufweist (<bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162176"
+         >StAZH III AAb 1.1, Nr. 22</ref></bibl>).</p>
+      <p>Das Mandat fasst zahlreiche seit den frühen 1520er Jahren eingetretene Veränderungen, namentlich hinsichtlich Auswahl und Amtstätigkeit der Pfarrer, zusammen. Es bildet damit eine 
+  wichtige Etappe im Institutionalisierungsprozess der obrigkeitlich-kirchlichen Verwaltung nach der Reformation (<bibl><ref
+         target="/startseite/literaturverzeichnis"
+         >Bächtold 1982</ref>, S. 35</bibl>). Mehrfach neu aufgelegt,
+  blieben seine Bestimmungen bis zum Ende des Ancien Régime im Wesentlichen unverändert in Kraft (<bibl><ref
+         target="/startseite/literaturverzeichnis">Wälchli 2008</ref>, S. 101, Anm. 7</bibl>).</p>
+      <p>Zum vorliegenden Mandat vgl. <bibl><ref target="/startseite/literaturverzeichnis"
+         >Büsser 2004-2005</ref>, Bd. 1, S. 127-142</bibl>; 
+ <bibl><ref
+         target="/startseite/literaturverzeichnis">Diethelm 2004</ref></bibl>; <bibl><ref
+         target="/startseite/literaturverzeichnis"
+        >Bächtold 1982</ref>, S. 29-35</bibl>; für die <placeName ref="loc000065"
+        >Zürcher</placeName> Synodalakten 
+ vgl. <bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=3729636"
+        >StAZH E I 2</ref></bibl>; 
+ <bibl><ref
+         target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=308782"
+         >StAZH E II 1-E II 7b</ref></bibl>.
  
 </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
 </TEI>
