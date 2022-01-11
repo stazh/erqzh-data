@@ -7,7 +7,7 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234"
-xml:lang="de" type="introduction" subtype="d">
+    xml:lang="de" type="archives">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -57,19 +57,18 @@ xml:lang="de" type="introduction" subtype="d">
 <text>
 <body>
 <div>
-<head type="title">Quellenverzeichnis</head>
+<head type="title" n="3.1">Quellenverzeichnis</head>
+
+
+<div>
+    <head type="subtitle">Aesch, Archiv der Zivilgemeinde (ZGA Aesch, heute im Gemeindearchiv Maur)</head>
 </div>
 
 <div>
-<head type="subtitle">Aesch, Archiv der Zivilgemeinde (ZGA Aesch, heute im Gemeindearchiv Maur)</head>
+    <head type="subtitle">Ebmatingen, Archiv der Zivilgemeinde (ZGA Ebmatingen, heute im Gemeindearchiv Maur)</head>
 </div>
 
-<div>
-<head type="subtitle">Ebmatingen, Archiv der Zivilgemeinde (ZGA Ebmatingen, heute im Gemeindearchiv Maur)</head>
-</div>
-
-<div><head type="subtitle">Einsiedeln, Klosterarchiv (KAE)</head></div>
-<div>
+<div><head type="subtitle">Einsiedeln, Klosterarchiv (KAE)</head>
 <listBibl>
 <bibl><idno>A.GI.1</idno>
 <idno>K.X.2</idno>
@@ -79,6 +78,7 @@ xml:lang="de" type="introduction" subtype="d">
 </bibl>
 </listBibl>
 </div>
+
 
 <div>
 <head type="subtitle">Fällanden, Archiv der Evangelisch-Reformierten Kirchgemeinde (ERKGA Fällanden)</head>
@@ -113,8 +113,7 @@ xml:lang="de" type="introduction" subtype="d">
 </div>
 
 <div>
-<head type="subtitle">Karlsruhe, Generallandesarchiv (GLA Karlsruhe)</head></div>
-<div>
+<head type="subtitle">Karlsruhe, Generallandesarchiv (GLA Karlsruhe)</head>
 <listBibl>
 <bibl><idno>9 Nr. 1269</idno>
 </bibl>
@@ -196,9 +195,7 @@ Freudwil, Kirchuster, Nänikon, Niederuster, Oberuster, Riedikon, Wermatswil und
 
 <div>
 <head type="subtitle">Zürich, Staatsarchiv (StAZH)</head>
-</div>
 
-<div>
 <listBibl>
 <bibl>
 <idno>A 1.6, Nr. 37</idno>
@@ -247,9 +244,7 @@ Freudwil, Kirchuster, Nänikon, Niederuster, Oberuster, Riedikon, Wermatswil und
 
 <div>
 <head type="subtitle">Zürich, Stadtarchiv (StArZH)</head>
-</div>
 
-<div>
 <listBibl>
 <bibl><idno>I.A.127.</idno>
 <idno>I.A.166.</idno>-<idno>I.A.167.</idno>
@@ -287,7 +282,7 @@ Freudwil, Kirchuster, Nänikon, Niederuster, Oberuster, Riedikon, Wermatswil und
 </bibl>
 </listBibl>
 </div>
-
+</div>
 </body>
 </text>
 </group>
