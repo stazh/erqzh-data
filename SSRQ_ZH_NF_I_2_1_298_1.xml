@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_298_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250827">StAZH C I, Nr. 3161</idno></msIdentifier><head>Übergabe des 1544 von Kaiser Karl V. erworbenen Privilegs durch Winterthur an Zürich</head><msContents><summary>Schultheiss, Räte und Bürger der Stadt Winterthur erklären: Einst haben Bürgermeister, Rat und Gemeinde der Stadt Zürich die Rechte der Herrschaft von Österreich an Winterthur erworben. Seither haben die Zürcher sie väterlich behandelt und geschützt. Dessen ungeachtet und in unbedachter Weise haben sie im Jahr 1544 ohne Wissen der Zürcher Kaiser Karl V. als einen Fürsten von Österreich um neue und erweiterte Freiheiten und um die Bestätigung der bisherigen gebeten. Weil die Zürcher Nachsicht übten, händigen die Winterthurer ihnen freiwillig das beanstandete Privileg aus. Weitere in ihrem Besitz befindliche oder künftig aufgefundene Verbriefungen von Freiheiten, welche über die zur Zeit des Übergangs an Zürich geltenden Rechte hinausgehen, sowie deren Beglaubigungen oder Abschriften sollen ungültig sein und der Obrigkeit und den Rechten der Stadt Zürich oder der Grafschaft Kyburg keinen Nachteil, den Winterthurern keinen Vorteil bringen. Sie versprechen, nicht mehr ohne Willen des Bürgermeisters und Rats von Zürich bei Kaisern, Königen, Fürsten, Herren oder andernorts um Freiheiten und deren Bestätigungen nachzusuchen, sondern sich mit den hergebrachten Rechten sowie mit den Privilegien und Freiheiten, welche die Zürcher für sich und die Ihren erlangt haben, zu begnügen. Die Aussteller siegeln mit dem Sekretsiegel der Stadt Winterthur.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="56.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="8.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><orgName role="sigillant">Stadt Winterthur</orgName></seal></sealDesc></physDesc><history><origin><origDate when="1549-12-23"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003233">Obrigkeit</term><term ref="key005295">Privilegien</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="StAZH_C_I__Nr__3161__r_.tif"/>
+                        <p>
+                            <seg>
+                                <lb/>Wir, <orgName ref="org007943" role="issuer">schultheis, reth</orgName> und die <orgName role="issuer" ref="org004474">burger gemeinlich zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, bekhennend offentlich und thuͦnd kundt mengklichem mit disem brieff:</seg>
+                            <seg>Als wir vor langen zytten
+                                <lb/>und jaren an die fromen, vesten, fürsichtigen, ersamen und wysen herren <orgName ref="org002406">burgermeister, rath und gmeind der stat <placeName ref="loc000065">Zürich</placeName></orgName>, unser gnedig lieb herren, inhallt brieff und siglen ko<lb break="no"/>men und also die selben all und jede des <orgName ref="org000088">hus Österrychs</orgName> recht und gerechtigkeit über gemeine statt <placeName ref="loc000849">Winterthur</placeName> und die unnsern zuͦ iren handen gepracht,<note>Vgl. die Verpfändung <placeName ref="loc000849">Winterthurs</placeName> an <placeName ref="loc000065">Zürich</placeName> durch <persName ref="per003136">Herzog Sigmund von Österreich</persName> und die Bestätigung der Rechte und Freiheiten der Stadt durch <placeName ref="loc000065">Zürich</placeName> im Jahr 1467 (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_090">SSRQ ZH NF I/2/1, Nr. 90</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_092">SSRQ ZH NF I/2/1, Nr. 92</ref></bibl>).</note> wellich un<lb break="no"/>sere gnedigen herren von <placeName ref="loc000065">Zürich</placeName> uns je und allwëg by dem unnsern gnedigclich und vetterlich gehallten und geschirmbt, und aber wir unangesëchen desselben sidhar uß einfall<lb break="no"/>tiger unnd unbedachter meinung by <persName ref="per004674">Carolo</persName>, dem jetzigen regierenden keyser, im <date when="1544">vier und vierzigisten jar</date> der geringern zal als fürst zuͦ <placeName ref="loc000589">Österrych</placeName> für uns selbs hinderruckts
+                                <lb/>und on wüßen bemellter unserer gnedigen herren umb nüwer und witter frygheiten und bestettnußen der alten geworben und erlangt, dero sich die selben unser herren uß vil<lb break="no"/>falltigen ursachen bilich zubeschweren und zuerclagen gehept, je doch sy sich deßhalb gnedig gegen uns erzoigt und gehallten, das wir daruff mit rëchtem wüßen und rath,
+                                <lb/>frygs, gutz willens, ungezwungen den genanten unsern gnedigen herren von <placeName ref="loc000065">Zürich</placeName> die obengezoigt nüw erlangt keyserlich frygheit zu iren handen und gwallt hinuß gegë<lb break="no"/>ben und überantwort haben. Und ob wytter derglich nüw frygheiten, darin mer, dan wie wir an ein stat <placeName ref="loc000065">Zürich</placeName> komen, begryffen, vidimus ald abgeschryfften darvon vor<lb break="no"/>handen wëren oder künfftigclich funden wurdint, die söllendt unnütz gemacht werden. Und also die obvermellt unsere nüw erlangten vermeint frygheiten, vi<lb break="no"/>dimus oder abgeschryfften davon entkrefftiget und abgethan heißen und sin, bemellten unnsern gnedigen herren von <placeName ref="loc000065">Zürich</placeName> und irer grafschafft <placeName ref="loc000012">Kyburg</placeName> an irer oberkeith
+                                <lb/>und gerechtigkeiten weder jetz noch harnach keinen schaden und nachtheil, ouch uns und unsern nachkomen dheinen fürstand und nutz gepëren noch bringen söllendt, inn kein
+                                <lb/>wyß noch wëg.</seg>
+                            <seg>Darzuͦ wöllent wir noch unnser nachkomen zu <placeName ref="loc000849">Winterthur</placeName> hinfüro weder by keyßern, künigen, fürsten, herren noch anderschwo hinderruckts vil<lb break="no"/>gedachten unnsern gnedigen herren <orgName ref="org002406">burgermeister und rath der statt <placeName ref="loc000065">Zürich</placeName></orgName> und on der selben gunst und willen umb dhein frygheiten <choice><sic>nach</sic><corr resp="bf">noch</corr></choice> bestettnus der
+                                <lb/>selben, weder heimlich <choice><sic>nach</sic><corr resp="bf">noch</corr></choice> offenlich, werben noch anhallten, sonders uns alein unnserer alten und hargeprachten gnaden und rechtungen, wie wir an ein statt <placeName ref="loc000065">Zürich</placeName> komen
+                                <lb/>sind und von dero erlangt hand, ouch bißhar in bruch und übung gewësen, und der privilegien und frygheiten, so die selb statt <placeName ref="loc000065">Zürich</placeName> für sich selbs und all die iren, so
+                                <lb/>inn kouff, pfand oder ander wyß sy angefallen sind, getrösten und behëllffen, alles getrüwlich, erbarlich und on alle geferd.</seg>
+                            <seg>In crafft dis brieffs, daran wir des
+                                <lb/>zuͦ warem urkhundt der statt <placeName ref="loc000849">Winterthur</placeName> secret insigel offentlich habent laßen hencken, der geben ist an <origDate when="1549-12-23">montag nach sant <persName ref="per000354">Thomas</persName>, des heligen
+                                    <lb/>appostels, tag, nach Christi gepurt gezallt fünffzechenhundert vierzig und nün jar</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="StAZH_C_I__Nr__3161__v_.tif
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand16c"><lb/>Bekantnus dero <add place="above">von</add>
+                            <placeName ref="loc000849">Winterthur</placeName> irer
+                            <lb/>nüwen vermeinten frygheiten halb,
+                            <lb/><date when="1549">1549</date></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Ingrossiert</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Am 15. Mai 1544 hatten die <orgName ref="org007943">Winterthurer</orgName> ein Privileg Kaiser <persName ref="per004674">Karls V.</persName> erworben, das ihnen das Recht bestätigte, sich aus der Pfandherrschaft <placeName ref="loc000065">Zürichs</placeName> auszulösen, ihnen einräumte, Konflikte mit den <orgName ref="org002406">Zürchern</orgName> gütlich oder gerichtlich vor dem Rat von <placeName ref="loc000008">Konstanz</placeName>, <placeName ref="loc007416">Überlingen</placeName> oder <placeName ref="loc000701">Schaffhausen</placeName> zu regeln, ihnen das Jagdrecht im <placeName ref="loc013008">Eschenberger</placeName> Wald zusprach und den <orgName ref="org009293">Grossen Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> als letzte Appellationsinstanz für in der Stadt gefällte Urteile bestimmte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>). Infolge ihrer Auseinandersetzungen mit <persName ref="per027390">Hans von Goldenberg</persName>, der sich auf sein <placeName ref="loc000849">Winterthurer</placeName> Bürgerrecht und die damit verbundenen Freiheiten berief, erhielten die <orgName ref="org002406">Zürcher</orgName> fünf Jahre später davon Kenntnis. Zu den Hintergründen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2019</ref>, S. 45-49</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 184</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996a</ref>, S. 170</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1917</ref>, S. 148-152</bibl>.</p>
+                        <p>Am 20. Februar 1549 wurden <placeName ref="loc000065">Zürcher</placeName> Ratsverordnete und der Stadtschreiber erstmals mit der Prüfung des Sachverhalts beauftragt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1236780">StAZH B II 72, S. 8</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250808">StAZH C I, Nr. 165, Beilage 12</ref></bibl>). Damals liess man sich das Privileg von 1544 vorlegen, gab die Urkunde aber den <placeName ref="loc000849">Winterthurer</placeName> Gesandten zunächst zurück (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250824">StAZH C I, Nr. 3165, Beilage 7</ref></bibl>). Am 4. Dezember 1549 luden <orgName ref="org002406">Bürgermeister und Rat</orgName> den Landvogt von <placeName ref="loc000012">Kyburg</placeName> zu einer auf den 12. Dezember anberaumten Unterredung mit Vertretern <placeName ref="loc000849">Winterthurs</placeName> ein (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1103820">StAZH B IV 17, fol. 110r</ref></bibl>).
+                            Von den seitens der <orgName ref="org007943">Winterthurer</orgName> vorgelegten Privilegien liessen die <orgName ref="org002406">Zürcher</orgName> ein Verzeichnis anfertigen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250822">StAZH C I, Nr. 3165, Beilage 14</ref></bibl>). Am 18. Dezember versicherten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName>, keine weiteren Urkunden <persName ref="per004674">Karls V.</persName> zu besitzen. Sie erklärten, dass der Kaiser ihnen bereits zuvor eine Bestätigung ihrer alten Freiheiten erteilt, etliches darin aber ausgelassen habe. Daher sei dem Kaiser die Urkunde zurückgegeben worden, worauf er ihnen das nun beanstandete Privileg zugesandt habe (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250823">StAZH C I, Nr. 3165, Beilage 15</ref></bibl>).</p>
+                        <p>Am 23. Dezember wurden <orgName ref="org007944">beide Räte</orgName> in <placeName ref="loc000849">Winterthur</placeName> einberufen, um eine Delegation aus <placeName ref="loc000065">Zürich</placeName> zu empfangen, wie der <placeName ref="loc000849">Winterthurer</placeName> Ratsherr <persName ref="per027306">Ulrich Meyer</persName> schildert (<bibl>winbib Ms. Quart 102, fol. 37v-38v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">Geilfus 1870</ref>, S. 7-8</bibl>). Den <orgName ref="org007943">Winterthurern</orgName> wurde vorgeworfen, sich hinter dem Rücken ihrer Herrschaft kaiserliche Privilegien beschafft zu haben, welche die Rechte der Stadt <placeName ref="loc000065">Zürich</placeName> und der Grafschaft <placeName ref="loc000012">Kyburg</placeName> verletzten. Nach dem Schuldeingeständnis des <orgName ref="org007943">Schultheissen und Rats von <placeName ref="loc000849">Winterthur</placeName></orgName>, ihrer Bitte um Gnade und Verzeihung und ihrem Verzicht auf das Privileg vom 15. Mai 1544 erhielten sie die übrigen Privilegien zurück, während die einbehaltene Urkunde durch Einschnitte ungültig gemacht wurde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250824">StAZH C I, Nr. 3165, Beilage 7</ref></bibl>). Erst 1856 wurde sie durch den <placeName ref="loc000066">Zürcher</placeName> Staatsarchivar <persName ref="per027486">Gerold Meyer von Knonau</persName> der Stadt <placeName ref="loc000849">Winterthur</placeName> zurückgegeben (<bibl><ref target="/startseite/literaturverzeichnis">Häberle 1982</ref>, S. 79)</bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>
+
