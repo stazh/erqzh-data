@@ -4,160 +4,162 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_041</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/1, fol. 24v-25r</idno></msIdentifier><head>Einsetzung der Rechner der Stadt Winterthur und Durchführung der Abrechnung</head><msContents><summary>Der Schultheiss von Winterthur, zwei Mitglieder des Rats und je ein Vertreter der Schmiede, der Metzger, der Schneider, der Schuhmacher, der Rebleute, der Weber, der Bäcker und der Kürschner führen vierteljährlich Abrechnungen durch. Der Säckler rechnet die Steuereinnahmen ab, die Kirchenpfleger sowie die Einnehmer der Ausbürgersteuer und der Geldbussen legen Rechnung über die erhaltenen Summen ab.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1408-07-03" to="1408-09-25">Die Einsetzung der Rechner erfolgte am 3. Juli 1408, Abrechnungen wurden durchgeführt am 22. August 1408 und am 25. September 1408.</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004536">Finanzen</term><term ref="key000574">Rechnungswesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="24v" facs="STAW_B_2_1_24_v.jpg"/>
-<div><ab type="marginal note" place="left margin" hand="hand19c"><lb/>Handwerker</ab></div>
-</div>
-<div>
-<p><lb/><hi rend="underline">Anno <origDate when="1408">m cccc octavo</origDate></hi>
-<add place="inline" hand="hand19c"><date when="1408">1408</date></add></p>
-<p>
-<lb/>An <origDate when="1408-07-03">sant <persName ref="per000356">Uͦlrichs</persName> aubent</origDate> do sint von allen amtwerken dis nach
-<lb/>geschriben geben und hânt oͧch die ze den heilgen gesworn, daz si
-<lb/>mit dem schultheissen und <num value="2">zwein</num> von dem <orgName ref="org005587">rât</orgName> alle <date type="deadline_floating holiday">fronvasten</date>
-<lb/>von menglichem von der statt wegen rechnung in nemen sont:  
- </p>
-<p>
-<lb/>Von den <orgName ref="org007868">schmiden</orgName>: <persName ref="per027677">Uͤli Kupferschmid</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007847">metzgern</orgName>: <persName ref="per027678">Jaͤkli Orringer</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007869">schnidern</orgName>: <persName ref="per027673">Peter Buͦchberg</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007872">schuͦchmachern</orgName>: <persName ref="per027674">Hans Fuͦg</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007859">reblu̍ten</orgName>: <persName ref="per027679">Heini Wetzel</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007940">webern</orgName>: <persName ref="per027675">Ruͤdi Herter</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org007801">pfistern</orgName>: <persName ref="per027436">Koͧffman Pfister</persName>
-</p>
-<p>
-<lb/>Von den <orgName ref="org009268">ku̍rsenern</orgName>: <persName ref="per027681">Egli Wiss</persName>
-</p>
-<head><hi rend="underline">Rechnung</hi></head>
-<p>
-<lb/>Uff <subst><del>den</del><add place="above">die</add></subst> naͤchsten <del>fri</del>
-<origDate when="1408-08-22">mitwochen vor <persName ref="per000861">Bartholomei</persName></origDate> hânt dis
- <lb/><choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> rechner und <persName ref="per027298">Hans Albreht</persName> und <persName ref="per027420">Claus Hug</persName> von eins
- <lb/><orgName ref="org005587">rates</orgName> wegen und oͧch <persName ref="per027586">Heinrich Ruͤdger</persName>, der elter, schultheis, von der
- <lb/>statt wegen rechnung in genomen von den nachgeschribnen
- <lb/>lu̍ten:
-</p>
-<p>
-<lb/>Item <persName ref="per027587">Heini Ruͤdger</persName>, der jung, hett gerechnot von der stu̍r wegen, alz
-<lb/>er sekkler waz. Und nach allen abschlegen, so belibt er den
-<lb/>burgern uff disen hu̍tigen tag schuldig <measureGrp><measure type="currency" unit="lb" quantity="4">iiij </measure>
-<measure type="currency" unit="ß" quantity="5"> v  ħ</measure></measureGrp>. Und
-<lb/>waz noch von derselben stu̍r usstât, daz gehoͤrt im zuͦ und sint
-<lb/>im oͧch <measure type="currency" unit="lb" quantity="3">iij </measure> ze lon abgeschlagen. Und dar an hett er gewert
-<lb/>dem <persName ref="per027447">von Klinggenberg</persName><note>Die Verbindlichkeiten <placeName ref="loc000849">Winterthurs</placeName> gegenüber dieser Familie reichen zurück ins Jahr 1315, als Herzog <persName ref="per000342">Leopold von Österreich</persName>
-<persName ref="per027445">Albrecht von Klingenberg</persName>, dem er für seine Dienste 350 Mark Silber schuldete, und seinen Erben 35 Mark Silber von der städtischen Steuer verpfändete (<bibl>STAW URK 41</bibl>; <bibl>STAW URK 42</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3364, Nr. 3372</bibl>).</note>
-<measure type="currency" unit="fl" quantity="5">v guldin</measure>. Und ist also gantzlich uber dieselben stu̍r ledig.
-</p>
-<p>
-<lb/>Item uff denselben tag hett <persName ref="per027134">Ruͤdi Lochli</persName><note><persName ref="per027134">Ruedi Lochli</persName> amtierte im Amtsjahr 1407/1408 als Kirchenpfleger (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> von der kilchen wegen gerechnot
-<lb/>und belibt nach allen abschlegen uff denselben tag der kilchen schuldig
-<lb/><measure type="currency" unit="lb" quantity="8.5">viiiɉ  ħ</measure>.
- </p>
-<p><del rend="crossout" hand="later hand">
-<lb/>Item uff denselben tag hett <persName ref="per027420">Claus Hug</persName><note><persName ref="per027420">Klaus Hug</persName> amtierte im Amtsjahr 1407/1408 als Kirchenpfleger (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> von der kilchen wegen gerechnot
-<lb/>und belibt der kilchen schuldig <measure type="currency" unit="ß" quantity="31">xxxj  ħ</measure>. <add place="inline" rend="other ink"><foreign xml:lang="la">Solvit</foreign></add>.</del>
-</p>
-<p><del rend="crossout" hand="later hand">
-<lb/>Item uff denselben tag belibt <persName ref="per027433">Cuͤni Karrer</persName> bi siner stu̍r, so er von den
-<lb/>ussburgern innemen solt, schuldig den burgern <measureGrp><measure type="currency" unit="lb" quantity="17">xvij  ħ</measure>
-<measure type="currency" unit="ß" quantity="1">j  ħ</measure></measureGrp>. <add place="below"><lb/>Daran hett er geben <measure type="currency" unit="fl" quantity="1">j guldin</measure>, <foreign xml:lang="la">conputacione <origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate>. Item dedit</foreign>
-<measure type="currency" unit="fl" quantity="3">iij guldin</measure> dem schultheissen.</add></del>
-</p>
-<p>
-<lb/>Item uff denselben tag hett <persName ref="per027465">Hans Lendi</persName><note><persName ref="per027465">Hans Lendi</persName> amtierte im Amtsjahr 1407/1408 als Bussgeldeinzieher (<orig>fraͤffner</orig>) (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> gerechnot von aller fraͤfflinen
-<lb/>wegen, so er ingenomen hât, und belibt <del>j</del> er nieman nichtz
-<lb/>dar bi schuldig. Und uff den selben tag stânt noch an vervallnen
-<lb/>fraͤflinen uzz, die nit ingenomen sint, <measure type="currency" unit="lb" quantity="22">xxij  ħ</measure> ân <measure type="currency" unit="ß" quantity="5">v  ħ</measure>,
-<lb/>die sol der nu̍w fraͤffler innemen. <add place="inline" rend="other ink">Daran hett <persName ref="per027465">Lendi</persName> ingenomen
- <lb/><measure type="currency" unit="lb" quantity="3">iij  ħ</measure>. Und hett oͧch dieselben <measure type="currency" unit="lb" quantity="3">iij </measure> under ussgeben und
-<lb/>verrechnot, <origDate when="1409-01-08">feria tercia post epifaniam anno m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> nono</origDate>. Und uff
- <lb/>denselben tag hett <persName ref="per027465">Lendi</persName> in geschrift <persName ref="per027668">Heini Zinggen</persName><note><persName ref="per027668">Heini Zingg</persName> amtierte im Amtsjahr 1408/1409 als Bussgeldeinzieher (<orig>fraͤffner</orig>) (<bibl>STAW B 2/1, fol. 24r</bibl>).</note> ingeant<lb break="no"/>wurt usstender fraͤflinen <measure type="currency" unit="lb" quantity="18.5">xviiiɉ  ħ</measure>, die er sol innemen.</add>
-</p>
-<pb n="25r" facs="STAW_B_2_1_25_r.jpg
-"/>
-<head><lb/><hi rend="underline">Anno <origDate when="1408">m cccc viij<hi rend="sup">o</hi></origDate></hi></head>
-<p><del rend="crossout" hand="later hand">
-<lb/>Item uff denselben tag hett <persName ref="per027676">Heini Hinderman</persName> gerechnot von der stu̍r
-<lb/>wegen, so er von den ussburgern solt innemen, und belibt den burgern
-<lb/>schuldig bi derselben stu̍r <measureGrp><measure type="currency" unit="lb" quantity="82">lxxxij </measure> und <measure type="currency" unit="ß" quantity="5">v  ħ</measure></measureGrp>, <del><unclear>u</unclear></del> nach dem
-<lb/>alz im dieselb stu̍r verschriben geben ist. Und waz noch usstât, daz
-<lb/>gehoͤrt im zuͦ. Und waz im nit inwerden mag oder in dem buͦch
-<lb/>mer geschriben stât, denn die lu̍t geben sont, daz sol im an der <choice><abbr>obgen</abbr><expan>obgenant</expan></choice>
-<lb/>summ ab gân. <add place="inline">Dar an hett er gewert <measure type="currency" unit="lb" quantity="4">iiij </measure> ân <measure type="currency" unit="ß" quantity="2">ij  ħ</measure>, <foreign xml:lang="la">conputacione facta
-<lb/><origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate>.</foreign></add></del>
-</p>
-<p><del rend="crossout" hand="later hand">
-<lb/>Item <persName ref="per027063">Maͤrkli Keller</persName> hett uff denselben tag gerechnot von den zwein halben stu̍ren,
-<lb/>so er ingenomen hât. Und belibt uff denselben tag <del>bi</del> dar bi schuldig
-<lb/>nach rechnung <measureGrp><measure type="currency" unit="lb" quantity="156">c lvj </measure> und <measure type="currency" unit="ß" quantity="3.5">iiiɉ  ħ</measure></measureGrp>. Und waz er verrechnot hât,
-<lb/>daz er ussgeben hett, dieselben geschrift hett er dem stattschriber <subst><del>uss</del><add place="above">in</add></subst>geben.
-<lb/>Und waz er fu̍rbaz ussgeben hât, daz er dem schriber nit ingeben hât oder
-<lb/>daz im nit werden mag oder jeman abgelassen ist, daz mag er hie nach
-<lb/>wol fu̍ro rechnen und sol man im daz an der vorgeschribnen summ abziehen.
-<lb/>Und waz oͧch noch usstât <del>daz gehoͤrt</del> von denselben zwein halben stu̍ren, daz
-<lb/>gehoͤrt dem <persName ref="per027063">Maͤrkli</persName> zuͦ.
-<add place="below"><lb/>Hier an hett <persName ref="per027063">Maͤrkli</persName> gewerot <measureGrp><measure type="currency" unit="lb" quantity="78">lxxviij </measure> und <measure type="currency" unit="ß" quantity="4">iiij </measure></measureGrp>, <foreign xml:lang="la">conputacione
-<lb/>facta <origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate></foreign>.</add></del>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Die Rechner oder Rechenherren der Stadt <placeName ref="loc000849">Winterthur</placeName> kontrollierten die Abrechnungen der Amtleute, die Einnahmen an die Stadtkasse ablieferten, und hatten Unregelmässigkeiten dem <orgName ref="org005587">Rat</orgName> zu melden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_175">SSRQ ZH NF I/2/1, Nr. 175</ref></bibl>; <bibl>STAW B 2/8, S. 264</bibl>). Die Zahl und Zusammensetzung der Rechner variierte anfangs. Bereits 1409 erweiterte man das Gremium und bot neben den acht Vertretern der Handwerke zwei Mitglieder der <orgName ref="org009293">Vierzig</orgName> und vier Mitglieder des <orgName ref="org005587">Rats</orgName> zur Rechnungslegung auf (<bibl>STAW B 2/1, fol. 29r</bibl>). 1419 wurde beschlossen, dass drei Mitglieder des <orgName ref="org005587">Rats</orgName> und zwei der <orgName ref="org009293">Vierzig</orgName> zusammen mit dem Schultheissen vierteljährlich die Abrechnungen durchführen sollten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_053">SSRQ ZH NF I/2/1, Nr. 53</ref></bibl>). Gemäss der Ämterliste von 1483 fungierten jeweils zwei Mitglieder des <orgName ref="org005587">Kleinen</orgName> und <orgName ref="org009293">Grossen Rats</orgName> als Rechner (<bibl>STAW B 2/5, S. 61</bibl>). Diese Konstellation wurde fast vier Jahrzehnte beibehalten, danach begegnen eine Zeitlang nur zwei Grossräte in dieser Funktion (<bibl>STAW B 2/7, S. 248</bibl>, zu 1518; <bibl>STAW B 2/7, S. 377</bibl>, zu 1523), seit Mitte der 1520er Jahre bildeten sechs und von 1546 an fünf Mitglieder <orgName ref="org007944">beider Räte</orgName> dieses Gremium, darunter die beiden Schultheissen (<bibl>STAW B 2/7, S. 393, 565</bibl>; <bibl>winbib Ms. Fol. 27, S. 496</bibl>).</p>
-<p>Die städtischen Einnahmen verwaltete der Stadtsäckler oder Säckelmeister, wie die im ältesten Eidbuch der Stadt <placeName ref="loc000849">Winterthur</placeName> aus den 1620er Jahren überlieferte Eidformel ausweist (<bibl>winbib Ms. Fol. 241, fol. 1v</bibl>; ebenso: <bibl>STAW B 3a/10, S. 2</bibl>). Zeitweise amtierten die Amtsinhaber mehrere Jahre, 1407 wurde die jährliche Wahl eingeführt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_039">SSRQ ZH NF I/2/1, Nr. 39</ref></bibl>) und 1507 bestätigt (<bibl>STAW B 2/6, S. 265</bibl>). Den Aufzeichungen des <persName ref="per026892">Hans Ernst</persName> aus dem Jahr 1692 zufolge wählten später der <orgName ref="org007944">Kleine und der Grosse Rat</orgName> ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName> für sechs Jahre zum Säckelmeister (<bibl>winbib Ms. Fol. 264, S. 136</bibl>). 
- </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_041</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/1, fol. 24v-25r</idno></msIdentifier><head>Einsetzung der Rechner der Stadt Winterthur und Durchführung der Abrechnung</head><msContents><summary>Der Schultheiss von Winterthur, zwei Mitglieder des Rats und je ein Vertreter der Schmiede, der Metzger, der Schneider, der Schuhmacher, der Rebleute, der Weber, der Bäcker und der Kürschner führen vierteljährlich Abrechnungen durch. Der Säckler rechnet die Steuereinnahmen ab, die Kirchenpfleger sowie die Einnehmer der Ausbürgersteuer und der Geldbussen legen Rechnung über die erhaltenen Summen ab.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1408-07-03" to="1408-09-25">Die Einsetzung der Rechner erfolgte am 3. Juli 1408, Abrechnungen wurden durchgeführt am 22. August 1408 und am 25. September 1408.</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004536">Finanzen</term><term ref="key000574">Rechnungswesen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="24v" facs="STAW_B_2_1_24_v.jpg"/>
+                        <div><ab type="marginal note" place="left margin" hand="hand19c"><lb/>Handwerker</ab></div>
+                    </div>
+                    <div>
+                        <p><lb/><hi rend="underline">Anno <origDate when="1408">m cccc octavo</origDate></hi>
+                            <add place="inline" hand="hand19c"><date when="1408">1408</date></add></p>
+                        <p>
+                            <lb/>An <origDate when="1408-07-03">sant <persName ref="per000356">Uͦlrichs</persName> aubent</origDate> do sint von allen antwerken dis nach
+                            <lb/>geschriben geben und hânt oͧch die ze den heilgen gesworn, daz si
+                            <lb/>mit dem schultheissen und <num value="2">zwein</num> von dem <orgName ref="org005587">rât</orgName> alle <date type="deadline_floating holiday">fronvasten</date>
+                            <lb/>von menglichem von der statt wegen rechnung in nemen sont:  
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007868">schmiden</orgName>: <persName ref="per027677">Uͤli Kupferschmid</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007847">metzgern</orgName>: <persName ref="per027678">Jaͤkli Orringer</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007869">schnidern</orgName>: <persName ref="per027673">Peter Buͦchberg</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007872">schuͦchmachern</orgName>: <persName ref="per027674">Hans Fuͦg</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007859">reblu̍ten</orgName>: <persName ref="per027679">Heini Wetzel</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007940">webern</orgName>: <persName ref="per027675">Ruͤdi Herter</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org007801">pfistern</orgName>: <persName ref="per027436">Koͧffman Pfister</persName>
+                        </p>
+                        <p>
+                            <lb/>Von den <orgName ref="org009268">ku̍rsenern</orgName>: <persName ref="per027681">Egli Wiss</persName>
+                        </p>
+                        <head><hi rend="underline">Rechnung</hi></head>
+                        <p>
+                            <lb/>Uff <subst><del>den</del><add place="above">die</add></subst> naͤchsten <del>fri</del>
+                            <origDate when="1408-08-22">mitwochen vor <persName ref="per000861">Bartholomei</persName></origDate> hânt dis
+                            <lb/><choice><abbr>obgen</abbr><expan>obgenanten</expan></choice> rechner und <persName ref="per027298">Hans Albreht</persName> und <persName ref="per027420">Claus Hug</persName> von eins
+                            <lb/><orgName ref="org005587">rates</orgName> wegen und oͧch <persName ref="per027586">Heinrich Ruͤdger</persName>, der elter, schultheis, von der
+                            <lb/>statt wegen rechnung in genomen von den nachgeschribnen
+                            <lb/>lu̍ten:
+                        </p>
+                        <p>
+                            <lb/>Item <persName ref="per027588">Heini Ruͤdger</persName>, der jung, hett gerechnot von der stu̍r wegen, alz
+                            <lb/>er sekkler waz. Und nach allen abschlegen, so belibt er den
+                            <lb/>burgern uff disen hu̍tigen tag schuldig <measureGrp><measure type="currency" unit="lb" quantity="4">iiij </measure>
+                                <measure type="currency" unit="ß" quantity="5"> v  ħ</measure></measureGrp>. Und
+                            <lb/>waz noch von derselben stu̍r usstât, daz gehoͤrt im zuͦ und sint
+                            <lb/>im oͧch <measure type="currency" unit="lb" quantity="3">iij </measure> ze lon abgeschlagen. Und dar an hett er gewert
+                            <lb/>dem <persName ref="per027447">von Klinggenberg</persName><note>Die Verbindlichkeiten <placeName ref="loc000849">Winterthurs</placeName> gegenüber dieser Familie reichen zurück ins Jahr 1315, als Herzog <persName ref="per000342">Leopold von Österreich</persName>
+                                <persName ref="per027445">Albrecht von Klingenberg</persName>, dem er für seine Dienste 350 Mark Silber schuldete, und seinen Erben 35 Mark Silber von der städtischen Steuer verpfändete (<bibl>STAW URK 41</bibl>; <bibl>STAW URK 42</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 9, Nr. 3364, Nr. 3372</bibl>).</note>
+                            <measure type="currency" unit="fl" quantity="5">v guldin</measure>. Und ist also gantzlich uber dieselben stu̍r ledig.
+                        </p>
+                        <p>
+                            <lb/>Item uff denselben tag hett <persName ref="per027134">Ruͤdi Lochli</persName><note><persName ref="per027134">Ruedi Lochli</persName> amtierte im Amtsjahr 1407/1408 als Kirchenpfleger (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> von der kilchen wegen gerechnot
+                            <lb/>und belibt nach allen abschlegen uff denselben tag der kilchen schuldig
+                            <lb/><measure type="currency" unit="lb" quantity="8.5">viiiɉ  ħ</measure>.
+                        </p>
+                        <p><del rend="crossout" hand="later hand">
+                            <lb/>Item uff denselben tag hett <persName ref="per027420">Claus Hug</persName><note><persName ref="per027420">Klaus Hug</persName> amtierte im Amtsjahr 1407/1408 als Kirchenpfleger (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> von der kilchen wegen gerechnot
+                            <lb/>und belibt der kilchen schuldig <measure type="currency" unit="ß" quantity="31">xxxj  ħ</measure>. <add place="inline" rend="other ink"><foreign xml:lang="la">Solvit</foreign></add>.</del>
+                        </p>
+                        <p><del rend="crossout" hand="later hand">
+                            <lb/>Item uff denselben tag belibt <persName ref="per027433">Cuͤni Karrer</persName> bi siner stu̍r, so er von den
+                            <lb/>ussburgern innemen solt, schuldig den burgern <measureGrp><measure type="currency" unit="lb" quantity="17">xvij  ħ</measure>
+                                <measure type="currency" unit="ß" quantity="1">j  ħ</measure></measureGrp>. <add place="below"><lb/>Daran hett er geben <measure type="currency" unit="fl" quantity="1">j guldin</measure>, <foreign xml:lang="la">conputacione <origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate>. Item dedit</foreign>
+                                    <measure type="currency" unit="fl" quantity="3">iij guldin</measure> dem schultheissen.</add></del>
+                        </p>
+                        <p>
+                            <lb/>Item uff denselben tag hett <persName ref="per027465">Hans Lendi</persName><note><persName ref="per027465">Hans Lendi</persName> amtierte im Amtsjahr 1407/1408 als Bussgeldeinzieher (<orig>fraͤffner</orig>) (<bibl>STAW B 2/1, fol. 17r</bibl>).</note> gerechnot von aller fraͤfflinen
+                            <lb/>wegen, so er ingenomen hât, und belibt <del>j</del> er nieman nichtz
+                            <lb/>dar bi schuldig. Und uff den selben tag stânt noch an vervallnen
+                            <lb/>fraͤflinen uzz, die nit ingenomen sint, <measure type="currency" unit="lb" quantity="22">xxij  ħ</measure> ân <measure type="currency" unit="ß" quantity="5">v  ħ</measure>,
+                            <lb/>die sol der nu̍w fraͤffler innemen. <add place="inline" rend="other ink">Daran hett <persName ref="per027465">Lendi</persName> ingenomen
+                                <lb/><measure type="currency" unit="lb" quantity="3">iij  ħ</measure>. Und hett oͧch dieselben <measure type="currency" unit="lb" quantity="3">iij </measure> wider ussgeben und
+                                <lb/>verrechnot, <origDate when="1409-01-08">feria tercia post epifaniam anno m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> nono</origDate>. Und uff
+                                <lb/>denselben tag hett <persName ref="per027465">Lendi</persName> in geschrift <persName ref="per027668">Heini Zinggen</persName><note><persName ref="per027668">Heini Zingg</persName> amtierte im Amtsjahr 1408/1409 als Bussgeldeinzieher (<orig>fraͤffner</orig>) (<bibl>STAW B 2/1, fol. 24r</bibl>).</note> ingeant<lb break="no"/>wurt usstender fraͤflinen <measure type="currency" unit="lb" quantity="18.5">xviiiɉ  ħ</measure>, die er sol innemen.</add>
+                        </p>
+                        <pb n="25r" facs="STAW_B_2_1_25_r.jpg
+                            "/>
+                        <head><lb/><hi rend="underline">Anno <origDate when="1408">m cccc viij<hi rend="sup">o</hi></origDate></hi></head>
+                        <p><del rend="crossout" hand="later hand">
+                            <lb/>Item uff denselben tag hett <persName ref="per027676">Heini Hinderman</persName> gerechnot von der stu̍r
+                            <lb/>wegen, so er von den ussburgern solt innemen, und belibt den burgern
+                            <lb/>schuldig bi derselben stu̍r <measureGrp><measure type="currency" unit="lb" quantity="82">lxxxij </measure> und <measure type="currency" unit="ß" quantity="5">v  ħ</measure></measureGrp>, <del><unclear>u</unclear></del> nach dem
+                            <lb/>alz im dieselb stu̍r verschriben geben ist. Und waz noch usstât, daz
+                            <lb/>gehoͤrt im zuͦ. Und waz im nit inwerden mag oder in dem buͦch
+                            <lb/>mer geschriben stât, denn die lu̍t geben sont, daz sol im an der <choice><abbr>obgen</abbr><expan>obgenant</expan></choice>
+                            <lb/>summ ab gân. <add place="inline">Dar an hett er gewert <measure type="currency" unit="lb" quantity="4">iiij </measure> ân <measure type="currency" unit="ß" quantity="2">ij  ħ</measure>, <foreign xml:lang="la">conputacione facta
+                                <lb/><origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate>.</foreign></add></del>
+                        </p>
+                        <p><del rend="crossout" hand="later hand">
+                            <lb/>Item <persName ref="per027063">Maͤrkli Keller</persName> hett uff denselben tag gerechnot von den zwein halben stu̍ren,
+                            <lb/>so er ingenomen hât. Und belibt uff denselben tag <del>bi</del> dar bi schuldig
+                            <lb/>nach rechnung <measureGrp><measure type="currency" unit="lb" quantity="156">c lvj </measure> und <measure type="currency" unit="ß" quantity="3.5">iiiɉ  ħ</measure></measureGrp>. Und waz er verrechnot hât,
+                            <lb/>daz er ussgeben hett, dieselben geschrift hett er dem stattschriber <subst><del>uss</del><add place="above">in</add></subst>geben.
+                            <lb/>Und waz er fu̍rbaz ussgeben hât, daz er dem schriber nit ingeben hât oder
+                            <lb/>daz im nit werden mag oder jeman abgelassen ist, daz mag er hie nach
+                            <lb/>wol fu̍ro rechnen und sol man im daz an der vorgeschribnen summ abziehen.
+                            <lb/>Und waz oͧch noch usstât <del>daz gehoͤrt</del> von denselben zwein halben stu̍ren, daz
+                            <lb/>gehoͤrt dem <persName ref="per027063">Maͤrkli</persName> zuͦ.
+                            <add place="below"><lb/>Hier an hett <persName ref="per027063">Maͤrkli</persName> gewerot <measureGrp><measure type="currency" unit="lb" quantity="78">lxxviij </measure> und <measure type="currency" unit="ß" quantity="4">iiij </measure></measureGrp>, <foreign xml:lang="la">conputacione
+                                <lb/>facta <origDate when="1408-09-25">feria tercia ante <persName ref="per000390">Michahelis</persName></origDate></foreign>.</add></del>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Rechner oder Rechenherren der Stadt <placeName ref="loc000849">Winterthur</placeName> kontrollierten die Abrechnungen der Amtleute, die Einnahmen an die Stadtkasse ablieferten, und hatten Unregelmässigkeiten dem <orgName ref="org005587">Rat</orgName> zu melden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_175">SSRQ ZH NF I/2/1, Nr. 175</ref></bibl>; <bibl>STAW B 2/8, S. 264</bibl>). Die Zahl und Zusammensetzung der Rechner variierte anfangs. Bereits 1409 erweiterte man das Gremium und bot neben den acht Vertretern der Handwerke zwei Mitglieder der <orgName ref="org009293">Vierzig</orgName> und vier Mitglieder des <orgName ref="org005587">Rats</orgName> zur Rechnungslegung auf (<bibl>STAW B 2/1, fol. 29r</bibl>). 1419 wurde beschlossen, dass drei Mitglieder des <orgName ref="org005587">Rats</orgName> und zwei der <orgName ref="org009293">Vierzig</orgName> zusammen mit dem Schultheissen vierteljährlich die Abrechnungen durchführen sollten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_053">SSRQ ZH NF I/2/1, Nr. 53</ref></bibl>). Gemäss der Ämterliste von 1483 fungierten jeweils zwei Mitglieder des <orgName ref="org005587">Kleinen</orgName> und <orgName ref="org009293">Grossen Rats</orgName> als Rechner (<bibl>STAW B 2/5, S. 61</bibl>). Diese Konstellation wurde fast vier Jahrzehnte beibehalten, danach begegnen eine Zeitlang nur zwei Grossräte in dieser Funktion (<bibl>STAW B 2/7, S. 248</bibl>, zu 1518; <bibl>STAW B 2/7, S. 377</bibl>, zu 1523), seit Mitte der 1520er Jahre bildeten sechs und von 1546 an fünf Mitglieder <orgName ref="org007944">beider Räte</orgName> dieses Gremium, darunter die beiden Schultheissen (<bibl>STAW B 2/7, S. 393, 565</bibl>; <bibl>winbib Ms. Fol. 27, S. 496</bibl>).</p>
+                        <p>Die städtischen Einnahmen verwaltete der Stadtsäckler oder Säckelmeister, wie die im ältesten Eidbuch der Stadt <placeName ref="loc000849">Winterthur</placeName> aus den 1620er Jahren überlieferte Eidformel ausweist (<bibl>winbib Ms. Fol. 241, fol. 1v</bibl>; ebenso: <bibl>STAW B 3a/10, S. 2</bibl>). Zeitweise amtierten die Amtsinhaber mehrere Jahre, 1407 wurde die jährliche Wahl eingeführt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_039">SSRQ ZH NF I/2/1, Nr. 39</ref></bibl>) und 1507 bestätigt (<bibl>STAW B 2/6, S. 265</bibl>). Den Aufzeichungen des <persName ref="per026892">Hans Ernst</persName> aus dem Jahr 1692 zufolge wählten später der <orgName ref="org005587">Kleine</orgName> und der <orgName ref="org009293">Grosse Rat</orgName> ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName> für sechs Jahre zum Säckelmeister (<bibl>winbib Ms. Fol. 264, S. 136</bibl>). 
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

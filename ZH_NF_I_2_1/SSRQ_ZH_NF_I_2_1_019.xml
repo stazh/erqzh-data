@@ -4,73 +4,75 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_019</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 108</idno></msIdentifier><head>Verleihung des Monopols für den Betrieb einer Badstube in Winterthur durch Herzog Albrecht von Österreich</head><msContents><summary>Herzog Albrecht von Österreich verleiht Rudolf Schultheiss unterm Schopf von Winterthur und seinen Erben das Monopol für den Betrieb der Badstube am Rettenbach in Winterthur. Wer gegen diese Bestimmung handelt, muss dem Herzog 60 Mark Silber und dem Kläger 20 Mark Silber bezahlen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="5.0"/><width unit="cm" quantity="33.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="1.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Herzog Albrecht von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1349-10-30"/><origPlace>Wien</origPlace></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004465">Badstube</term><term ref="key004706">Konzession</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="STAW_URK_108_r.jpg"/>
-<p>
-<seg><lb/>Wir, <persName role="issuer" ref="per000347">Albrecht, von gotz genaden herzog ze <placeName ref="loc000589">Oͤsterrich</placeName>, ze <placeName ref="loc000759">Stir</placeName> und ze <placeName ref="loc000454">Kernden</placeName></persName>, tuͦn <supplied reason="omitted" resp="bf">kund</supplied> mit disem brief, das wir u̍nserm getru̍wen <persName ref="per027015">Ruͦdolf dem <choice><abbr>Schulth</abbr><expan>Schultheissen</expan></choice> von <placeName ref="loc000849">Wintertur</placeName> under dem
- <lb/>Schoppf</persName> und allen sinen erben, oder wer die badstuben ze <placeName ref="loc000849">Wintertur</placeName>, gelegen in der <placeName ref="loc013170">Nu̍wen Stat</placeName> bi dem <placeName ref="loc013469">Rettenbach</placeName>, dann hat, die genad und friheit getan
- <lb/>und gegeben habin, das da selbs ze <placeName ref="loc000849">Wintertur</placeName> noch in irem fridkreis nieman kein ander badstuben machen noch buwen sol. Und wer es aber dar u̍ber tet,
-<lb/>der sol u̍ns oder u̍nsren erben <measure type="currency" unit="M" commodity="silver" quantity="60">sechzig mark guͦtes silbers</measure> vervallen sin, <subst><del>u</del><add place="overwritten">a</add></subst>n genad, und dem kleger <measure type="currency" unit="M" commodity="silver" quantity="20">zweinzig</measure>.</seg>
-<seg>Mit urku̍nd diss briefes, geben ze <origPlace ref="loc000984">Wien</origPlace>,
- <lb/>am nechsten <origDate when="1349-10-30">fritag vor aller heilgen tag, nach Cristus gebu̍rt dritzehen hundert jar, dar nach in dem nu̍n und fierzigosten jar</origDate>.</seg>
-</p>
-</div>
-<pb n="v" facs="STAW_URK_108_v.jpg
-"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c">Unser badstub</ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c">Badstub, <lb/>rathus</ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand18c"><lb/>Herzog <persName ref="per000347">Albrechts</persName> brief wegen der badstuben in <lb/>der kleinen statt, daß sonst keine, weder in der <lb/>stadt noch in dem friedkreiß, gebauwen <lb/>werden solle, anno <date when="1349">1349</date>
-<add place="inline" hand="hand19c"><date when="1349-10-30">30 October</date></add>.</ab>
-</div>
-</body>
-<back>
-<div>
-<p>Die obere Badstube in <placeName ref="loc000849">Winterthur</placeName>, später als <placeName ref="loc013725">Lörlibad</placeName> bezeichnet, blieb bis in die 1420er Jahre im Besitz der Familie <orgName ref="org002723">Schultheiss</orgName>. 1387, 1392 und 1407 liess sie sich das vorliegende Privileg von der Stadtherrschaft bestätigen (<bibl>STAW URK 284</bibl>; <bibl>STAW URK 284</bibl>; <bibl>STAW URK 409</bibl>). 1425 verkaufte <persName ref="per027015">Rudolf Schultheiss</persName> die Badstube samt Zubehör sowie Haus und Hof um 500 Gulden an die Stadt, verbunden mit dem Verkauf war die Übergabe der vier sie betreffenden Urkunden (<bibl>STAW URK 625</bibl>). Obwohl <persName ref="per027015">Rudolf</persName> auf alle Besitzrechte verzichtete, scheinen seine Erben später Forderungen gestellt zu haben, denn Herzog <persName ref="per000811">Albrecht</persName> befahl seinem Landvogt und dem <orgName ref="org007943">Schultheissen, dem Rat und den Bürgern von <placeName ref="loc000849">Winterthur</placeName></orgName>, besagte Erben <orig>bey den gnaden und frihaiten, die si von unserm lieben herren und vatter und uns umb die badstuben daselbs habent nach irr brief sag</orig>, zu schützen (<bibl>STAW URK 752</bibl>). Zu den Hintergründen dieses Verkaufs vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 27</bibl>. Zu Beginn der 1470er Jahre wurde eine zweite, untere Badstube oder <placeName ref="loc013726">Goldbad</placeName> genannt, eingerichtet (<bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 32-34</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 46</bibl>). Die <orgName ref="org005980">Winterthurer</orgName> waren darauf bedacht, nach aussen die Monopolstellung ihrer Bäder zu sichern, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671419">StAZH A 155.1, Nr. 39</ref></bibl>.</p>
-<p>Die Badstuben wurden von Badern gegen Pacht betrieben, zu den Konditionen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 28-29</bibl>. Die Preise der Dienstleistungen, Öffnungszeiten, Hygienevorschriften und Verhaltensregeln für die Gäste legten Schultheiss und Rat fest (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_277">SSRQ ZH NF I/2/1, Nr. 277</ref></bibl>). Zu den öffentlichen Bädern im Mittelalter allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Tuchen 2003</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_019</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 108</idno></msIdentifier><head>Verleihung des Monopols für den Betrieb einer Badstube in Winterthur durch Herzog Albrecht von Österreich</head><msContents><summary>Herzog Albrecht von Österreich verleiht Rudolf Schultheiss unterm Schopf von Winterthur und seinen Erben das Monopol für den Betrieb der Badstube am Rettenbach in Winterthur. Wer gegen diese Bestimmung handelt, muss dem Herzog 60 Mark Silber und dem Kläger 20 Mark Silber bezahlen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="5.0"/><width unit="cm" quantity="33.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="1.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax with margin" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Herzog Albrecht von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1349-10-30"/><origPlace>Wien</origPlace></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key004465">Badstube</term><term ref="key004706">Konzession</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="STAW_URK_108_r.jpg"/>
+                        <p>
+                            <seg><lb/>Wir, <persName role="issuer" ref="per000347">Albrecht, von gotz genaden herzog ze <placeName ref="loc000589">Oͤsterrich</placeName>, ze <placeName ref="loc000759">Stir</placeName> und ze <placeName ref="loc000454">Kernden</placeName></persName>, tuͦn <supplied reason="omitted" resp="bf">kund</supplied> mit disem brief, das wir u̍nserm getru̍wen <persName ref="per027015">Ruͦdolf dem <choice><abbr>Schulth</abbr><expan>Schultheissen</expan></choice> von <placeName ref="loc000849">Wintertur</placeName> under dem
+                                <lb/>Schoppf</persName> und allen sinen erben, oder wer die badstuben ze <placeName ref="loc000849">Wintertur</placeName>, gelegen in der <placeName ref="loc013170">Nu̍wen Stat</placeName> bi dem <placeName ref="loc013469">Rettenbach</placeName>, dann hat, die genad und friheit getan
+                                <lb/>und gegeben habin, das da selbs ze <placeName ref="loc000849">Wintertur</placeName> noch in irem fridkreis nieman kein ander badstuben machen noch buwen sol. Und wer es aber dar u̍ber tet,
+                                <lb/>der sol u̍ns oder u̍nsren erben <measure type="currency" unit="M" commodity="silver" quantity="60">sechzig mark guͦtes silbers</measure> vervallen sin, <subst><del>u</del><add place="overwritten">a</add></subst>n genad, und dem kleger <measure type="currency" unit="M" commodity="silver" quantity="20">zweinzig</measure>.</seg>
+                            <seg>Mit urku̍nd diss briefes, geben ze <origPlace ref="loc000984">Wien</origPlace>,
+                                <lb/>am nechsten <origDate when="1349-10-30">fritag vor aller heilgen tag, nach Cristus gebu̍rt dritzehen hundert jar, dar nach in dem nu̍n und fierzigosten jar</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="STAW_URK_108_v.jpg
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c">Unser badstub</ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c">Badstub, <lb/><placeName ref="loc013181">rathus</placeName></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Herzog <persName ref="per000347">Albrechts</persName> brief wegen der badstuben in <lb/>der kleinen statt, daß sonst keine, weder in der <lb/>stadt noch in dem friedkreiß, gebauwen <lb/>werden solle, anno <date when="1349">1349</date>
+                            <add place="inline" hand="hand19c"><date when="1349-10-30">30 October</date></add>.</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die obere Badstube in <placeName ref="loc000849">Winterthur</placeName>, später als <placeName ref="loc013725">Lörlibad</placeName> bezeichnet, blieb bis in die 1420er Jahre im Besitz der Familie <orgName ref="org002723">Schultheiss</orgName>. 1387, 1392 und 1407 liess sie sich das vorliegende Privileg von der Stadtherrschaft bestätigen (<bibl>STAW URK 284</bibl>; <bibl>STAW URK 284</bibl>; <bibl>STAW URK 409</bibl>). 1425 verkaufte <persName ref="per027015">Rudolf Schultheiss</persName> die Badstube samt Zubehör sowie Haus und Hof um 500 Gulden an die Stadt, verbunden mit dem Verkauf war die Übergabe der vier sie betreffenden Urkunden (<bibl>STAW URK 625</bibl>). Obwohl <persName ref="per027015">Rudolf</persName> auf alle Besitzrechte verzichtete, scheinen seine Erben später Forderungen gestellt zu haben, denn Herzog <persName ref="per000811">Albrecht</persName> befahl seinem Landvogt und dem <orgName ref="org007943">Schultheissen, dem Rat</orgName> und den <orgName ref="org004474">Bürgern von <placeName ref="loc000849">Winterthur</placeName></orgName>, besagte Erben <orig>bey den gnaden und frihaiten, die si von unserm lieben herren und vatter und uns umb die badstuben daselbs habent nach irr brief sag</orig>, zu schützen (<bibl>STAW URK 752</bibl>). Zu den Hintergründen dieses Verkaufs vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 27</bibl>. Zu Beginn der 1470er Jahre wurde eine zweite, untere Badstube oder <placeName ref="loc013726">Goldbad</placeName> genannt, eingerichtet (<bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 32-34</bibl>; vgl. <bibl><ref target="/startseite/literaturverzeichnis">Bosshart, Chronik</ref>, S. 46</bibl>). Die <orgName ref="org007943">Winterthurer</orgName> waren darauf bedacht, nach aussen die Monopolstellung ihrer Bäder zu sichern, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=671419">StAZH A 155.1, Nr. 39</ref></bibl>.</p>
+                        <p>Die Badstuben wurden von Badern gegen Pacht betrieben, zu den Konditionen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Gantenbein 1996</ref>, S. 28-29</bibl>. Die Preise der Dienstleistungen, Öffnungszeiten, Hygienevorschriften und Verhaltensregeln für die Gäste legten Schultheiss und Rat fest (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_277">SSRQ ZH NF I/2/1, Nr. 277</ref></bibl>). Zu den öffentlichen Bädern im Mittelalter allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">Tuchen 2003</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

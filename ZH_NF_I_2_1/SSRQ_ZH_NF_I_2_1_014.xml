@@ -4,103 +4,105 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_014</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2473185">StAZH C II 12, Nr. 122</idno></msIdentifier><head>Verkauf von Gütern in Pfäffikon und Bussenhausen durch Elisabeth von Eppenstein an das Kloster Rüti vor dem Schultheissen von Winterthur</head><msContents><summary>Der Winterthurer Schultheiss Rudolf Nägeli beurkundet, dass Elisabeth von Eppenstein, Bürgerin von Winterthur, mit ihrem Vogt Eppo von Eppenstein und mit Fürsprechern näher beschriebene Eigengüter, darunter den Hof in Pfäffikon, den Kürenberg bewirtschaftet, samt den Hofstätten, auf welchen Alwig und Miga Kaufmann wohnen, und dem Gut, das Russinger inne hatte, sowie das Gut in Bussenhausen, das die Arberre bewirtschafteten, um 438 Pfund 15 Schilling dem Abt und Konvent des Klosters Rüti verkauft hat. Es siegeln der Aussteller und, auf Bitte der Verkäuferin, Eppo von Eppenstein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.0"/><width unit="cm" quantity="29.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Schultheiss Rudolf Nägelli</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Eppe von Eppenstein</persName></seal></sealDesc></physDesc><history><origin><origDate when="1335-02-16"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH Bd. 11, Nr. 4619</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
-</editorialDecl>
-</encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003931">Fertigung</term><term ref="key000057">Gericht</term><term ref="key000369">Kauf</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="StAZH_C_II_12__Nr__122__r_.tif"/>
-<p>
-<lb/><seg>Allen, die disen brief an sehent oder hoͤrent lesen, ku̍nde ich, <persName role="issuer" ref="per027043">Ruͦdolf Nêgelli</persName>, sculthais ze <placeName ref="loc000849">Wintertur</placeName>, und vergih an disem briefe, das fu̍r mich
- <lb/>fu̍r gerihte kam du̍ erwirdig frôwa, fro <persName ref="per027026">Elisabeth von Eppenstain</persName><note>Biographische Details bei <bibl><ref target="/startseite/literaturverzeichnis">Leonhard/Niederhäuser 2003</ref>, S. 105-106</bibl>.</note>, burgerin ze <placeName ref="loc000849">Wintertur</placeName>, an dem nehsten <origDate when="1335-02-16">dunrstage nah sant <persName ref="per000323">Valentis</persName> tage</origDate>
-<lb/>und offente da vor gerihte mit ir vogtes hant und mit fu̍rsprechen und verjah, das si du̍ guͤter, du̍ hie nah gescriben stant, du̍ aigen sint, den hof
- <lb/>ze <placeName ref="loc008729">Pheffikon</placeName>, da der <persName ref="per027057">Ku̍renberg</persName> ûffe sizzet, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" quantity="6" commodity="spelt">sehs mut kernen</measure>, <measure type="volume" unit="Malter" quantity="3" commodity="oat">dru̍ malter habern</measure>, <measure type="volume" unit="Mütt" quantity="1" commodity="barley">ain mut gersten</measure>, <measure type="volume" unit="Mütt" quantity="0.5" commodity="bean">ain halben mut bônan</measure>,
- <lb/><num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="10">zehen schilling phennige Zu̍richer mu̍nz</measure> gelten sol, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="2">zwêne cloben werches, der grossen</measure>, <num value="100">hundert</num> aiger, <num value="2">zwai</num> herbest huͤnr, die hofstat, da <persName ref="per028183">Alwig</persName>
-<lb/>ûffe sizzet, du̍ ze dem selben guͦte hoͤret, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="currency" unit="d" origin="ZH" quantity="32">zwene und driseg phennige Zu̍richer mu̍nz</measure> und <num value="2">zwai</num> huͤnr, die hofstat, da <persName ref="per027056"><unclear>Miga</unclear> du̍
- <lb/>Koͧfmannin</persName> ûffe sizzet, du̍ oͧch ze dem selben hofe hoͤret, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="currency" unit="d" origin="ZH" quantity="16">sehzechen phennige Zu̍richer mu̍nz</measure> und <num value="1">ain</num> huͦn, das guͦt, da der <persName ref="per027058">Ru̍ssinger</persName> uffe
- <lb/>saz, giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" commodity="spelt" quantity="4">vier mut kernen</measure>, <measure type="volume" unit="Malter" quantity="2" commodity="oat">zwai malter habern</measure>, <measure type="volume" unit="Mütt" commodity="barley" quantity="1">ain mut gerstun</measure>, <measure type="volume" unit="Mütt" commodity="bean" quantity="0.5">ain halben mut bonan</measure>, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="2">zwene cloben werches, der grossen</measure>, <num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="10">zehen
- <lb/>schilling phennige Zu̍richer mu̍nz</measure> gelten sol, und <num value="50">fu̍nfzeg</num> aiger, das guͦt ze <placeName ref="loc010399">Buzenhusen</placeName>, das die <orgName ref="org008984">Arberre</orgName> bu̍tan, giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" commodity="spelt" quantity="3">drie mut kernen</measure>, <measure type="volume" unit="Malter" commodity="oat" quantity="2" origin="Winterthur">zwai
-  <lb/>malter habern Wintertur messes</measure>, <num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="12">zwelf schilling phennige Zu̍richer mu̍nz</measure> gelten sol, <measure type="currency" unit="ß" origin="ZH" quantity="12">zwelf schillinge phennige Zu̍richer mu̍nz</measure>, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="1">ain cloben werches, der
-  <lb/>grossen</measure>, <num value="50">fu̍nfzeg</num> aiger, <num value="2">zwai</num> herbest huͤnr und <num value="2">zwai</num> vasnaht huͤnr, mit akker, mit wisan, mit holze, mit velde und mit allem rehte, so dar zuͦ hoͤret,
- <lb/>.. den lieben in gotte .. dem <orgName ref="org004897">abte und allem dem convent des gotteshuses ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> reht und redelich fu̍r ledig aigen ze koͧffenne gegeben hat
- <lb/>umb <measureGrp><measure type="currency" unit="lb" quantity="438" origin="ZH">vierhundert phunt phennige, aht und driseg phunt</measure> und <measure type="currency" unit="ß" quantity="15" origin="ZH">fu̍nfzehen schillinge Zu̍richer mu̍nz</measure></measureGrp>, der si von inen gar und ganzelich gewert ist
- <lb/>und in ir elichen nuz bekeret hat, des si vorgerihte mit ir vogte offenlich verjehen hat.</seg>
-<seg>Und bat iro du̍ selb fro <persName ref="per027026">Elisabeth</persName> mit ir vogte und
- <lb/>mit fu̍rsprechen ze ervarenne, wie si du̍ selben guͤter und hofstete vertegon su̍le also, das es kraft habe und da mitte das vorgenande
- <lb/><orgName ref="org004897">gotteshus ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> sicher und bewart si. Do geviel vor gerihte mit gesamnoter urtailde, das si du̍ selben guͤter mit ir vogtes hant und mit
- <lb/>miner hant ûf geben und vertegon sol. Und also hat du̍ selb fro <persName ref="per027026">Elisabeth</persName> mit dem vorgenanden <persName ref="per027028">Eppen</persName>, ir vogte, du̍ vorgenanden guͤter und
- <lb/>hofstete mit allem rehte, so dar zuͦ hoͤret, dem lieben in gotte .. dem keller von <placeName ref="loc008350">Ru̍ti</placeName> an des <orgName ref="org004897">gotteshuses stat ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> ûf gegeben
- <lb/>und gevertegot mit miner hant und mit gelerten worten, als vorgerihte mit gesamnoter urtailde ertailet wart. Du̍ vorgenande fro
- <lb/><persName ref="per027026">Elisabeth</persName> hat oͧch gelobt mit des vorgenanden <persName ref="per027028">Êppen</persName>, ir vogtes, hant, der vorgenanden guͤter und hofsteten fu̍r ledig aigen wêr ze
- <lb/>sinne, nah rehte und als reht ist nah des landes rehte und bewerter gewonhait.</seg>
-<seg>Und ze ainem waren urkunde aller der vorgescribenon dinge,
-  <lb/>so hab ich min insigel gelait an disen brief, als mir vor gerihte mit urtailde ertailet wart. Dar zuͦ hat der vorgenande <persName ref="per027028">Êppo</persName>
-<lb/>sin insigel gelait an disen brief. Ich, der vorgenande <persName role="sigillant" ref="per027028">Êppe von Eppenstain</persName>, vergih an disem brief, das ich dur bette der vorgenanden fro <persName ref="per027026">Elisabethen</persName>,
-  <lb/>miner muͦmen, min insigel gelait han in vogtes wis an disen brief ze ainem waren urkunde aller der vorgescribenon dinge.</seg>
-<seg>Dis
-  <lb/>beschah ze <origPlace ref="loc000849">Wintertur</origPlace>, do von gottes geburte waren <origDate when="1335-02-16">dru̍zehenhundert jar, dar nah in dem fu̍nf und drisegosten jare, an dem vor<lb break="no"/>genanden dunrstage</origDate>.</seg>
-</p>
-</div>
-<pb n="v" facs="StAZH_C_II_12__Nr__122__v_.tif
-"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand17c"><lb/>Fertigung <lb/><num value="3">dreyer</num> höfen zuͦ <placeName ref="loc008729">Pfeffiken</placeName> und einse zuͦ <placeName ref="loc010399">Buzenhusen</placeName>,
-<lb/>weliche <choice><abbr>fr</abbr><expan>frau</expan></choice>
-<persName ref="per027026">Elsbet von Eppenstein</persName>, burgerin zuͦ
- <lb/><placeName ref="loc000849">Wintertur</placeName>, dem <orgName ref="org004897"><choice>
-<abbr>cl</abbr><expan>closter</expan></choice>
-<placeName ref="loc008350">Rüti</placeName></orgName> umb <measureGrp><measure type="currency" unit="lb" quantity="438" origin="ZH">438 </measure>
-<measure type="currency" unit="ß" quantity="15" origin="ZH">15  Zürich
- <lb/>müntz</measure></measureGrp> zuͦ kauffen gegeben, <lb/>da derselben <date dur="R/P1Y">jerliche</date> ertragenheit bey jederem ab<lb break="no"/>sönderlich ausgesetzt ist.
-<lb/>Datum <placeName ref="loc000849">Wintertur</placeName>, am nechsten <date when="1335-02-16">donnerstag nach <abbr>st</abbr>
-<lb/><persName ref="per000323">Valentis</persName> tag, anno 1335</date>.</ab>
-</div>
-</body>
-<back>
-<div>
-<p>Die Gerichtsstrukturen in <placeName ref="loc000849">Winterthur</placeName> sind im Detail weitgehend unerforscht, vgl. den Überblick bei <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1958</ref>, S. 269-272</bibl>, der ausführt, dass vor dem Schultheissengericht zunächst sowohl zivilrechtliche als auch strafrechtliche Verfahren stattgefunden haben und seit dem 15. Jahrhundert eine Ausdifferenzerung der Gerichtsorgane zu beobachten ist. Nicht immer leitete der Schultheiss selbst die Gerichtssitzung, mitunter liess er sich von seinem <orig>statthalter</orig>, einem Ratsmitglied, vertreten, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_021">SSRQ ZH NF I/2/1, Nr. 21</ref></bibl>. Später übernahm der oberste Stadtknecht bei Rechtsgeschäften den Vorsitz im Gericht, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_176">SSRQ ZH NF I/2/1, Nr. 176</ref></bibl>.</p>
-<p>Das Verfahren bei Handänderungen vor städtischen Gerichten, sogenannten Fertigungen, ist geprägt von symbolischen Handlungen wie der Übergabe des Objekts mit der Hand oder, wie später in <placeName ref="loc000849">Winterthurer</placeName> Gerichtsurkunden beschrieben, der Berührung des Gerichtsstabs, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_026">SSRQ ZH NF I/2/1, Nr. 26</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_258">SSRQ ZH NF I/2/1, Nr. 258</ref></bibl>. 1520 wurde angeordnet, dass künftig nur vor dem <orig>stab</orig> oder dem <orgName ref="org007943">Schultheissen und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> Geld aufgenommen und Güter veräussert werden durften (<bibl><ref target="suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref>, Artikel 9</bibl>). Die Rechtsaufzeichnung von 1497 und nachfolgend die Betreibungsordnung von 1530 schrieben ebenfalls vor, dass Verpfändungen und Verkäufe vor dem <orgName ref="org005587">Rat</orgName> oder dem Gericht getätigt und beurkundet werden mussten, um gültig zu sein
-(<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_170">SSRQ ZH NF I/2/1, Nr. 170</ref>, Teil III, Artikel 2.10</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_257">SSRQ ZH NF I/2/1, Nr. 257</ref>, Artikel 10</bibl>). Vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 12-25, 33-46, 74-75 (Gerichtsstab und symbolische Handlungen), 49-50 (Begriff der Fertigung)</bibl>.</p>
-<p>Frauen, die Rechtsgeschäfte tätigten, benötigten im Mittelalter und in der Frühen Neuzeit, ebenso wie Minderjährige und Geistliche, einen Beistand vor Gericht, den <orig>vogt</orig>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Signori 1999</ref></bibl> (zu <placeName ref="loc000161">Basel</placeName>); <bibl><ref target="/startseite/literaturverzeichnis">Holthöfer 1997</ref>, S. 391-392, 411-423</bibl>. In der Regel übernahmen Väter oder Ehemänner diese Funktion, waren sie selbst an der Transaktion beteiligt, wurde ein Unbeteiligter zum Vogt bestellt. Dieser verliess mit der bevogteten Person das Gericht, um ihre Einwilligung zu dem Geschäft einzuholen. Beispiele für diese Praxis in <placeName ref="loc000849">Winterthur</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4571</bibl> (1334); <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_021">SSRQ ZH NF I/2/1, Nr. 21</ref></bibl> (1360); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=366343">StAZH C II 7, Nr. 103</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4, Nr. 6053</bibl> (1415); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=393697">StAZH C V 7.1, Nr. 39</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 5, Nr. 6985</bibl> (1428); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=481132">StAZH C II 16, Nr. 350</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10479</bibl> (1460). Vgl. allgemein <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 54</bibl>. Zum Handlungsspielraum niederadliger Witwen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Leonhard/Niederhäuser 2003</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_014</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=2473185">StAZH C II 12, Nr. 122</idno></msIdentifier><head>Verkauf von Gütern in Pfäffikon und Bussenhausen durch Elisabeth von Eppenstein an das Kloster Rüti vor dem Schultheissen von Winterthur</head><msContents><summary>Der Winterthurer Schultheiss Rudolf Nägeli beurkundet, dass Elisabeth von Eppenstein, Bürgerin von Winterthur, mit ihrem Vogt Eppo von Eppenstein und mit Fürsprechern näher beschriebene Eigengüter, darunter den Hof in Pfäffikon, den Kürenberg bewirtschaftet, samt den Hofstätten, auf welchen Alwig und Miga Kaufmann wohnen, und dem Gut, das Russinger innehatte, sowie das Gut in Bussenhausen, das die Arber bewirtschafteten, um 438 Pfund 15 Schilling dem Abt und Konvent des Klosters Rüti verkauft hat. Es siegeln der Aussteller und, auf Bitte der Verkäuferin, Eppo von Eppenstein.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="20.0"/><width unit="cm" quantity="29.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="2.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Schultheiss Rudolf Nägelli</persName></seal><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round" nontei:attachment="sealed on a parchment tag" nontei:condition="well-preserved"><persName role="sigillant">Eppo von Eppenstein</persName></seal></sealDesc></physDesc><history><origin><origDate when="1335-02-16"/><origPlace>Winterthur</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH Bd. 11, Nr. 4619</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003931">Fertigung</term><term ref="key000057">Gericht</term><term ref="key000369">Kauf</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="StAZH_C_II_12__Nr__122__r_.tif"/>
+                        <p>
+                            <lb/><seg>Allen, die disen brief an sehent oder hoͤrent lesen, ku̍nde ich, <persName role="issuer" ref="per027043">Ruͦdolf Nêgelli</persName>, sculthais ze <placeName ref="loc000849">Wintertur</placeName>, und vergih an disem briefe, das fu̍r mich
+                                <lb/>fu̍r gerihte kam du̍ erwirdig frôwa, fro <persName ref="per027026">Elisabeth von Eppenstain</persName><note>Biographische Details bei <bibl><ref target="/startseite/literaturverzeichnis">Leonhard/Niederhäuser 2003</ref>, S. 105-106</bibl>.</note>, burgerin ze <placeName ref="loc000849">Wintertur</placeName>, an dem nehsten <origDate when="1335-02-16">dunrstage nah sant <persName ref="per000323">Valentis</persName> tage</origDate>
+                                <lb/>und offente da vor gerihte mit ir vogtes hant und mit fu̍rsprechen und verjah, das si du̍ guͤter, du̍ hie nah gescriben stant, du̍ aigen sint, den hof
+                                <lb/>ze <placeName ref="loc008729">Pheffikon</placeName>, da der <persName ref="per027057">Ku̍renberg</persName> ûffe sizzet, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" quantity="6" commodity="spelt">sehs mut kernen</measure>, <measure type="volume" unit="Malter" quantity="3" commodity="oat">dru̍ malter habern</measure>, <measure type="volume" unit="Mütt" quantity="1" commodity="barley">ain mut gersten</measure>, <measure type="volume" unit="Mütt" quantity="0.5" commodity="bean">ain halben mut bônan</measure>,
+                                <lb/><num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="10">zehen schilling phennige Zu̍richer mu̍nz</measure> gelten sol, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="2">zwêne cloben werches, der grossen</measure>, <num value="100">hundert</num> aiger, <num value="2">zwai</num> herbest huͤnr, die hofstat, da <persName ref="per028183">Alwig</persName>
+                                <lb/>ûffe sizzet, du̍ ze dem selben guͦte hoͤret, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="currency" unit="d" origin="ZH" quantity="32">zwene und driseg phennige Zu̍richer mu̍nz</measure> und <num value="2">zwai</num> huͤnr, die hofstat, da <persName ref="per027056"><unclear>Miga</unclear> du̍
+                                    <lb/>Koͧfmannin</persName> ûffe sizzet, du̍ oͧch ze dem selben hofe hoͤret, und giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="currency" unit="d" origin="ZH" quantity="16">sehzechen phennige Zu̍richer mu̍nz</measure> und <num value="1">ain</num> huͦn, das guͦt, da der <persName ref="per027058">Ru̍ssinger</persName> uffe
+                                <lb/>saz, giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" commodity="spelt" quantity="4">vier mut kernen</measure>, <measure type="volume" unit="Malter" quantity="2" commodity="oat">zwai malter habern</measure>, <measure type="volume" unit="Mütt" commodity="barley" quantity="1">ain mut gerstun</measure>, <measure type="volume" unit="Mütt" commodity="bean" quantity="0.5">ain halben mut bonan</measure>, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="2">zwene cloben werches, der grossen</measure>, <num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="10">zehen
+                                    <lb/>schilling phennige Zu̍richer mu̍nz</measure> gelten sol, und <num value="50">fu̍nfzeg</num> aiger, das guͦt ze <placeName ref="loc010399">Buzenhusen</placeName>, das die <orgName ref="org008984">Arberre</orgName> bu̍tan, giltet <date dur="R/P1Y">jerlich</date> ze zinse <measure type="volume" unit="Mütt" commodity="spelt" quantity="3">drie mut kernen</measure>, <measure type="volume" unit="Malter" commodity="oat" quantity="2" origin="Winterthur">zwai
+                                        <lb/>malter habern Wintertur messes</measure>, <num value="1">ain</num> swin, das <measure type="currency" unit="ß" origin="ZH" quantity="12">zwelf schilling phennige Zu̍richer mu̍nz</measure> gelten sol, <measure type="currency" unit="ß" origin="ZH" quantity="12">zwelf schillinge phennige Zu̍richer mu̍nz</measure>, <measure type="undefined" unit="Kloben" commodity="hemp" quantity="1">ain cloben werches, der
+                                            <lb/>grossen</measure>, <num value="50">fu̍nfzeg</num> aiger, <num value="2">zwai</num> herbest huͤnr und <num value="2">zwai</num> vasnaht huͤnr, mit akker, mit wisan, mit holze, mit velde und mit allem rehte, so dar zuͦ hoͤret,
+                                <lb/>.. den lieben in gotte .. dem <orgName ref="org004897">abte und allem dem convent des gotteshuses ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> reht und redelich fu̍r ledig aigen ze koͧffenne gegeben hat
+                                <lb/>umb <measureGrp><measure type="currency" unit="lb" quantity="438" origin="ZH">vierhundert phunt phennige, aht und driseg phunt</measure> und <measure type="currency" unit="ß" quantity="15" origin="ZH">fu̍nfzehen schillinge Zu̍richer mu̍nz</measure></measureGrp>, der si von inen gar und ganzelich gewert ist
+                                <lb/>und in ir elichen nuz bekeret hat, des si vorgerihte mit ir vogte offenlich verjehen hat.</seg>
+                            <seg>Und bat iro du̍ selb fro <persName ref="per027026">Elisabeth</persName> mit ir vogte und
+                                <lb/>mit fu̍rsprechen ze ervarenne, wie si du̍ selben guͤter und hofstete vertegon su̍le also, das es kraft habe und da mitte das vorgenande
+                                <lb/><orgName ref="org004897">gotteshus ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> sicher und bewart si. Do geviel vor gerihte mit gesamnoter urtailde, das si du̍ selben guͤter mit ir vogtes hant und mit
+                                <lb/>miner hant ûf geben und vertegon sol. Und also hat du̍ selb fro <persName ref="per027026">Elisabeth</persName> mit dem vorgenanden <persName ref="per027028">Eppen</persName>, ir vogte, du̍ vorgenanden guͤter und
+                                <lb/>hofstete mit allem rehte, so dar zuͦ hoͤret, dem lieben in gotte .. dem keller von <placeName ref="loc008350">Ru̍ti</placeName> an des <orgName ref="org004897">gotteshuses stat ze <placeName ref="loc008350">Ru̍ti</placeName></orgName> ûf gegeben
+                                <lb/>und gevertegot mit miner hant und mit gelerten worten, als vorgerihte mit gesamnoter urtailde ertailet wart. Du̍ vorgenande fro
+                                <lb/><persName ref="per027026">Elisabeth</persName> hat oͧch gelobt mit des vorgenanden <persName ref="per027028">Êppen</persName>, ir vogtes, hant, der vorgenanden guͤter und hofsteten fu̍r ledig aigen wêr ze
+                                <lb/>sinne, nah rehte und als reht ist nah des landes rehte und bewerter gewonhait.</seg>
+                            <seg>Und ze ainem waren urkunde aller der vorgescribenon dinge,
+                                <lb/>so hab ich min insigel gelait an disen brief, als mir vor gerihte mit urtailde ertailet wart. Dar zuͦ hat der vorgenande <persName ref="per027028">Êppo</persName>
+                                <lb/>sin insigel gelait an disen brief. Ich, der vorgenande <persName role="sigillant" ref="per027028">Êppe von Eppenstain</persName>, vergih an disem brief, das ich dur bette der vorgenanden fro <persName ref="per027026">Elisabethen</persName>,
+                                <lb/>miner muͦmen, min insigel gelait han in vogtes wis an disen brief ze ainem waren urkunde aller der vorgescribenon dinge.</seg>
+                            <seg>Dis
+                                <lb/>beschah ze <origPlace ref="loc000849">Wintertur</origPlace>, do von gottes geburte waren <origDate when="1335-02-16">dru̍zehenhundert jar, dar nah in dem fu̍nf und drisegosten jare, an dem vor<lb break="no"/>genanden dunrstage</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="StAZH_C_II_12__Nr__122__v_.tif
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand17c"><lb/>Fertigung <lb/><num value="3">dreyer</num> höfen zuͦ <placeName ref="loc008729">Pfeffiken</placeName> und einse zuͦ <placeName ref="loc010399">Buzenhusen</placeName>,
+                            <lb/>weliche <choice><abbr>fr</abbr><expan>frau</expan></choice>
+                            <persName ref="per027026">Elsbet von Eppenstein</persName>, burgerin zuͦ
+                            <lb/><placeName ref="loc000849">Wintertur</placeName>, dem <orgName ref="org004897"><choice>
+                                <abbr>cl</abbr><expan>closter</expan></choice>
+                                <placeName ref="loc008350">Rüti</placeName></orgName> umb <measureGrp><measure type="currency" unit="lb" quantity="438" origin="ZH">438 </measure>
+                                    <measure type="currency" unit="ß" quantity="15" origin="ZH">15  Zürich
+                                        <lb/>müntz</measure></measureGrp> zuͦ kauffen gegeben, <lb/>da derselben <date dur="R/P1Y">jerliche</date> ertragenheit bey jederem ab<lb break="no"/>sönderlich ausgesetzt ist.
+                            <lb/>Datum <placeName ref="loc000849">Wintertur</placeName>, am nechsten <date when="1335-02-16">donnerstag nach <abbr>st</abbr>
+                                <lb/><persName ref="per000323">Valentis</persName> tag, anno 1335</date>.</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Gerichtsstrukturen in <placeName ref="loc000849">Winterthur</placeName> sind im Detail weitgehend unerforscht, vgl. den Überblick bei <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1958</ref>, S. 269-272</bibl>, der ausführt, dass vor dem Schultheissengericht zunächst sowohl zivilrechtliche als auch strafrechtliche Verfahren stattgefunden haben und seit dem 15. Jahrhundert eine Ausdifferenzierung der Gerichtsorgane zu beobachten ist. Nicht immer leitete der Schultheiss selbst die Gerichtssitzung, mitunter liess er sich von seinem <orig>statthalter</orig>, einem Ratsmitglied, vertreten, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_021">SSRQ ZH NF I/2/1, Nr. 21</ref></bibl>. Später übernahm der oberste Stadtknecht bei Rechtsgeschäften den Vorsitz im Gericht, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_176">SSRQ ZH NF I/2/1, Nr. 176</ref></bibl>.</p>
+                        <p>Das Verfahren bei Handänderungen vor städtischen Gerichten, sogenannten Fertigungen, ist geprägt von symbolischen Handlungen wie der Übergabe des Objekts mit der Hand oder, wie später in <placeName ref="loc000849">Winterthurer</placeName> Gerichtsurkunden beschrieben, der Berührung des Gerichtsstabs, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_026">SSRQ ZH NF I/2/1, Nr. 26</ref></bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_258">SSRQ ZH NF I/2/1, Nr. 258</ref></bibl>. 1520 wurde angeordnet, dass künftig nur vor dem <orig>stab</orig> oder dem <orgName ref="org007943">Schultheissen und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> Geld aufgenommen und Güter veräussert werden durften (<bibl><ref target="suche/detail/SSRQ_ZH_NF_I_2_1_219">SSRQ ZH NF I/2/1, Nr. 219</ref>, Artikel 9</bibl>). Die Rechtsaufzeichnung von 1497 und nachfolgend die Betreibungsordnung von 1530 schrieben ebenfalls vor, dass Verpfändungen und Verkäufe vor dem <orgName ref="org005587">Rat</orgName> oder dem Gericht getätigt und beurkundet werden mussten, um gültig zu sein
+                            (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_170">SSRQ ZH NF I/2/1, Nr. 170</ref>, Teil III, Artikel 2.10</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_257">SSRQ ZH NF I/2/1, Nr. 257</ref>, Artikel 10</bibl>). Vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 12-25, 33-46, 74-75 (Gerichtsstab und symbolische Handlungen), 49-50 (Begriff der Fertigung)</bibl>.</p>
+                        <p>Frauen, die Rechtsgeschäfte tätigten, benötigten im Mittelalter und in der Frühen Neuzeit, ebenso wie Minderjährige und Geistliche, einen Beistand vor Gericht, den <orig>vogt</orig>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Signori 1999</ref></bibl> (zu <placeName ref="loc000161">Basel</placeName>); <bibl><ref target="/startseite/literaturverzeichnis">Holthöfer 1997</ref>, S. 391-392, 411-423</bibl>. In der Regel übernahmen Väter oder Ehemänner diese Funktion, waren sie selbst an der Transaktion beteiligt, wurde ein Unbeteiligter zum Vogt bestellt. Dieser verliess mit der bevogteten Person das Gericht, um ihre Einwilligung zu dem Geschäft einzuholen. Beispiele für diese Praxis in <placeName ref="loc000849">Winterthur</placeName>: <bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 11, Nr. 4571</bibl> (1334); <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_021">SSRQ ZH NF I/2/1, Nr. 21</ref></bibl> (1360); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=366343">StAZH C II 7, Nr. 103</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 4, Nr. 6053</bibl> (1415); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=393697">StAZH C V 7.1, Nr. 39</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 5, Nr. 6985</bibl> (1428); <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=481132">StAZH C II 16, Nr. 350</ref></bibl>; Regest: <bibl><ref target="/startseite/literaturverzeichnis">URStAZH</ref>, Bd. 7, Nr. 10479</bibl> (1460). Vgl. allgemein <bibl><ref target="/startseite/literaturverzeichnis">Müller 1976</ref>, S. 54</bibl>. Zum Handlungsspielraum niederadliger Witwen vgl. <bibl><ref target="/startseite/literaturverzeichnis">Leonhard/Niederhäuser 2003</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

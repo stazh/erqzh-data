@@ -4,81 +4,83 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_004_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>BBB Mss.h.h.VI.75, S. 239</idno></msIdentifier><head>Einkünfte der Grafen von Kyburg in der Stadt Winterthur und in Hettlingen</head><msContents><summary>Das Amt des Schultheissen der Stadt Winterthur führt jährlich Einkünfte von 16 Pfund, 13 Schilling und 4 Pfennig ab, darin inbegriffen sind die Abgaben der Bäcker und Metzger sowie die Abgaben für das Abmessen des Getreides. Die Erträge des Zolls betragen 18 Pfund, der Wirtshäuser 12 Pfund und 2 Saum Wein, die Abgabe für Häuser beläuft sich auf 10 Pfund, 4 Schilling und sechs Hühner und die Abgabe von den Verkaufsbänken auf 4 Pfund. Die Geldsteuer ergibt 4 Pfund. Die Gesamtsumme beläuft sich auf 74 Pfund, 17 Schilling und 4 Pfennig. Hettlingen liefert 10 Mütt Weizen, 2 Malter Hafer, 2 Mütt Hülsenfrüchte, drei Schweine im Wert von jeweils 8 Schilling sowie 10 Kloben Flachs.</summary><msItem><textLang>Latein</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate from="1261-01-01" to="1262-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1415-01-01" to="1430-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Habsburgisches Urbar, Bd. 2/I, S. 26-29</bibl><bibl>FRB, Bd. 2, S. 540-542</bibl><bibl>Wyss, Urbarbuch, S. 168-171</bibl></listBibl><listBibl><head>Teiledition</head><bibl>QZWG, Bd. 1, Nr. 47</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key003737">Herrschaftsrechte</term><term ref="key004706">Konzession</term><term ref="key000157">Steuern</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="239" facs="BBB_Mss_h_h_VI_75_p239.tif"/>
-<p>
-<gap reason="irrelevant"/>
-</p>
-<head><lb/>Isti sunt reditus <orgName ref="org000010">comitum de Kiburch</orgName>
-<placeName ref="loc000849">Winterture</placeName> et in confinio</head>
-<p>
-<lb/><seg><placeName ref="loc000849">Winterture<note>Hinter dem Anfangsbuchstaben ist Platz gelassen für eine Initiale.</note></placeName> infra muros reddit <date dur="R/P1Y">annuatim</date> de officio sculteti <measureGrp><measure type="currency" unit="lb" quantity="16"> xxvj</measure>
-<measure type="currency" unit="ß" quantity="13"> xiij</measure>
-<lb/>cum <measure type="currency" unit="d" quantity="4">₰ iiij<hi rend="sup">or</hi></measure></measureGrp>, ad hoc pertinent census pistrinarum, mensuracio<!-- Messung --> frumenti in foro et carni<lb break="no"/>ficium officia.</seg>
-<seg>De theloneo <measure type="currency" unit="lb" quantity="18"> xviij</measure>, taberne <measure type="currency" unit="lb" quantity="12"> xij</measure>, <measure type="volume" unit="Saum" quantity="2" commodity="wine">vini pseumas ij</measure>, census
- <lb/>de domibus <measureGrp><measure type="currency" unit="lb" quantity="10"> x</measure>
-<measure type="currency" unit="ß" quantity="4"> iiij<hi rend="sup">or</hi></measure></measureGrp> et <choice><abbr>gall</abbr><expan>gallinas</expan></choice>
-<num value="6">vj</num>, de mensis vendencium in foro <measure type="currency" unit="lb" quantity="4"> iiij<hi rend="sup">or</hi></measure>, de moneta
- <lb/><measure type="currency" unit="lb" quantity="4"> iiij<hi rend="sup">or</hi></measure>.</seg>
-<seg>Summa istorum <measureGrp><measure type="currency" unit="lb" quantity="74"> lxx<hi rend="sup">a</hi> iiij<hi rend="sup">or</hi></measure>
-<measure type="currency" unit="ß" quantity="17"> xvij</measure> cum <measure type="currency" unit="d" quantity="4">₰ iiij<hi rend="sup">or</hi></measure></measureGrp>.<note>Vgl. die rund vierzig Jahre später von der Herrschaft beanspruchten Rechte und Besitzungen in der Stadt <placeName ref="loc000849">Winterthur</placeName>, die im sogenannten <orgName ref="org000088">Habsburgischen</orgName> Urbar zusammengestellt sind (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>).</note></seg>
-<seg>Item <placeName ref="loc000849">Winterture</placeName> sunt mansus <num value="15">xv</num><!-- = Schupposen ausserhalb des Stadtrechtsbezirks, daher nicht relevant --><note>Eine Teilabschrift des <orgName ref="org000088">Habsburgischen</orgName> Urbars im Staatsarchiv Zürich enthält ebenfalls diesen Abschnitt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=532669">StAZH C I, Nr. 3289.4</ref>, S. 33</bibl>).</note>
-<gap reason="irrelevant"/>.<note>Es folgen die Einkünfte ausserhalb der Mauern und in der Umgebung der Stadt, unter anderem von den 15 Huben und den Mühlen, sowie die Erträge aus den zum Amt <placeName ref="loc000849">Winterthur</placeName> gehörenden Dörfern, Weilern und Höfen, darunter <placeName ref="loc010469">Hettlingen</placeName>.</note></seg>
-<lb/><seg><placeName ref="loc010469">Hettilingen</placeName>
-<measure type="volume" unit="Mütt" quantity="10" commodity="wheat"><choice><abbr>t<hi rend="sup">i</hi></abbr><expan>tritici</expan></choice>
-<choice><abbr>m<hi rend="sup">o</hi></abbr><expan>modios</expan></choice> x</measure>, <measure type="volume" unit="Malter" quantity="2" commodity="oat"><choice><abbr>ave</abbr><expan>avene</expan></choice>
-<choice><abbr>ml</abbr><expan>maltera</expan></choice> ij</measure>, <measure type="volume" unit="Mütt" quantity="2" commodity="pulses"><choice><abbr>leg</abbr><expan>leguminis</expan></choice>
-<choice><abbr>m<hi rend="sup">o</hi></abbr><expan>modios</expan></choice> ij</measure>,
- <lb/><choice><abbr>por</abbr><expan>porcos</expan></choice>
-<num value="3">iij</num>, quilibet <measure type="currency" unit="ß" quantity="8"> viij</measure>, de <measure type="undefined" unit="Kloben" quantity="10" commodity="flax">lino clobi x</measure>. <gap reason="irrelevant"/>
-</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Urbarielle Aufzeichnungen formulieren in erster Linie Ansprüche, sie bilden weder die realen Einkünfte von Herrschaftsträgern noch die wirtschaftliche Leistungsfähigkeit ihres territorialen Besitzes ab. Manche Abgaben wie beispielsweise Fasnachtshühner hatten vor allem symbolischen Charakter. Wer sie leistete, erkannte Herrschaftsrechte an. Somit kam Urbaren einerseits legitimatorische Funktion gegenüber territorialen Konkurrenten und Untertanen, andererseits Kontrollfunktion gegenüber Amtleuten zu. Sie boten Absicherung gegen einseitige Veränderungen und fixierten Verfahrensabläufe, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sablonier 2002</ref>, S. 99-111</bibl>.</p>
-<p>Der vorliegende Auszug aus dem sogenannten <orgName ref="org000010">Kyburger</orgName> Urbar stammt aus einer <placeName ref="loc000157">Berner</placeName> Handschrift, die im ersten Drittel des 15. Jahrhunderts entstanden ist. Der Band beinhaltet neben diesem Urbar eine Abschrift des <orgName ref="org000088">Habsburgischen</orgName> Urbars und ein Pfandregister der <orgName ref="org000088">Herrschaft von Österreich</orgName> aus dem Jahr 1380, vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Bärtschi 2008</ref>, S. 110-111</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 412-417</bibl>. Die Vorlage der Abschrift ist nicht überliefert. Das früheste Textfragment des <orgName ref="org000010">Kyburger</orgName> Urbars, ein Verzeichnis der Einkünfte aus dem Amt <placeName ref="loc000446">Baden</placeName>, ist in einen um 1273 verfassten <orgName ref="org000088">Habsburger</orgName> Rodel integriert und weist einige Abweichungen von dem Text der <placeName ref="loc000157">Berner</placeName> Handschrift auf, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 442-444</bibl>. Da an einer Stelle das Jahr 1261 erwähnt wird (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 2 mit Anm. 6</bibl>) und 1262 veräusserte Besitzungen noch berücksichtigt werden (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 13, Anm. 1</bibl>), lässt sich der Entstehungszeitraum der Aufzeichnungen eingrenzen.</p>
-<p>Die administrativen Strukturen veränderten sich nach dem Übergang der Herrschaft an die <orgName ref="org000088">Habsburger</orgName>. So wurde das Amt <placeName ref="loc000012">Kyburg</placeName> eingerichtet. Es umfasste Besitzungen, die im <orgName ref="org000010">Kyburgischen</orgName> Urbar noch unter dem Amt <placeName ref="loc000849">Winterthur</placeName> aufgeführt waren, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 1, S. 287, Anm. 3</bibl>. In den Güterverzeichnissen der <orgName ref="org000088">Habsburger</orgName> werden verschiedene Besitzungen der <orgName ref="org000010">Kyburger</orgName> nicht mehr erwähnt, darunter Güter im Dorf <placeName ref="loc010469">Hettlingen</placeName>, wobei bereits im vorliegenden Auszug nur geringe Einkünfte aus dem Dorf veranschlagt werden, wie <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 51-52, 60-61</bibl>, konstatiert. Er vermutet, dass bereits damals viele Güter als Lehen ausgegeben oder in geistlichen Besitz übergegangen waren.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_004_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>BBB Mss.h.h.VI.75, S. 239</idno></msIdentifier><head>Einkünfte der Grafen von Kyburg in der Stadt Winterthur und in Hettlingen</head><msContents><summary>Das Amt des Schultheissen der Stadt Winterthur führt jährlich Einkünfte von 16 Pfund, 13 Schilling und 4 Pfennig ab, darin inbegriffen sind die Abgaben der Bäcker und Metzger sowie die Abgaben für das Abmessen des Getreides. Die Erträge des Zolls betragen 18 Pfund, der Wirtshäuser 12 Pfund und 2 Saum Wein, die Abgabe für Häuser beläuft sich auf 10 Pfund, 4 Schilling und sechs Hühner und die Abgabe von den Verkaufsbänken auf 4 Pfund. Die Geldsteuer ergibt 4 Pfund. Die Gesamtsumme beläuft sich auf 74 Pfund, 17 Schilling und 4 Pfennig. Hettlingen liefert 10 Mütt Weizen, 2 Malter Hafer, 2 Mütt Hülsenfrüchte, drei Schweine im Wert von jeweils 8 Schilling sowie 10 Kloben Flachs.</summary><msItem><textLang>Latein</textLang><filiation type="current">Abschrift</filiation><filiation type="original"><origDate from="1261-01-01" to="1262-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.5"/><width unit="cm" quantity="21.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1415-01-01" to="1430-12-31"/></origin></history><additional><listBibl><head>Edition</head><bibl>Habsburgisches Urbar, Bd. 2/I, S. 26-29</bibl><bibl>FRB, Bd. 2, S. 540-542</bibl><bibl>Wyss, Urbarbuch, S. 168-171</bibl></listBibl><listBibl><head>Teiledition</head><bibl>QZWG, Bd. 1, Nr. 47</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000273">Abgaben</term><term ref="key000065">Amtleute</term><term ref="key003737">Herrschaftsrechte</term><term ref="key004706">Konzession</term><term ref="key000157">Steuern</term><term ref="key000199">Zoll</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="239" facs="BBB_Mss_h_h_VI_75_p239.tif"/>
+                        <p>
+                            <gap reason="irrelevant"/>
+                        </p>
+                        <head><lb/>Isti sunt reditus <orgName ref="org000010">comitum de Kiburch</orgName>
+                            <placeName ref="loc000849">Winterture</placeName> et in confinio</head>
+                        <p>
+                            <lb/><seg><placeName ref="loc000849">Winterture<note>Hinter dem Anfangsbuchstaben ist Platz gelassen für eine Initiale.</note></placeName> infra muros reddit <date dur="R/P1Y">annuatim</date> de officio sculteti <measureGrp><measure type="currency" unit="lb" quantity="16"> xxvj</measure>
+                                <measure type="currency" unit="ß" quantity="13"> xiij</measure>
+                                <lb/>cum <measure type="currency" unit="d" quantity="4">₰ iiij<hi rend="sup">or</hi></measure></measureGrp>, ad hoc pertinent census pistrinarum, mensuracio<!-- Messung --> frumenti in foro et carni<lb break="no"/>ficium officia.</seg>
+                            <seg>De theloneo <measure type="currency" unit="lb" quantity="18"> xviij</measure>, taberne <measure type="currency" unit="lb" quantity="12"> xij</measure>, <measure type="volume" unit="Saum" quantity="2" commodity="wine">vini pseumas ij</measure>, census
+                                <lb/>de domibus <measureGrp><measure type="currency" unit="lb" quantity="10"> x</measure>
+                                    <measure type="currency" unit="ß" quantity="4"> iiij<hi rend="sup">or</hi></measure></measureGrp> et <choice><abbr>gall</abbr><expan>gallinas</expan></choice>
+                                <num value="6">vj</num>, de mensis vendencium in foro <measure type="currency" unit="lb" quantity="4"> iiij<hi rend="sup">or</hi></measure>, de moneta
+                                <lb/><measure type="currency" unit="lb" quantity="4"> iiij<hi rend="sup">or</hi></measure>.</seg>
+                            <seg>Summa istorum <measureGrp><measure type="currency" unit="lb" quantity="74"> lxx<hi rend="sup">a</hi> iiij<hi rend="sup">or</hi></measure>
+                                <measure type="currency" unit="ß" quantity="17"> xvij</measure> cum <measure type="currency" unit="d" quantity="4">₰ iiij<hi rend="sup">or</hi></measure></measureGrp>.<note>Vgl. die rund vierzig Jahre später von der Herrschaft beanspruchten Rechte und Besitzungen in der Stadt <placeName ref="loc000849">Winterthur</placeName>, die im sogenannten <orgName ref="org000088">Habsburgischen</orgName> Urbar zusammengestellt sind (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>).</note></seg>
+                            <seg>Item <placeName ref="loc000849">Winterture</placeName> sunt mansus <num value="15">xv</num><!-- = Schupposen ausserhalb des Stadtrechtsbezirks, daher nicht relevant --><note>Eine Teilabschrift des <orgName ref="org000088">Habsburgischen</orgName> Urbars im Staatsarchiv Zürich enthält ebenfalls diesen Abschnitt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=532669">StAZH C I, Nr. 3289.4</ref>, S. 33</bibl>).</note>
+                                <gap reason="irrelevant"/>.<note>Es folgen die Einkünfte ausserhalb der Mauern und in der Umgebung der Stadt, unter anderem von den 15 Huben und den Mühlen, sowie die Erträge aus den zum Amt <placeName ref="loc000849">Winterthur</placeName> gehörenden Dörfern, Weilern und Höfen, darunter <placeName ref="loc010469">Hettlingen</placeName>.</note></seg>
+                            <lb/><seg><placeName ref="loc010469">Hettilingen</placeName>
+                                <measure type="volume" unit="Mütt" quantity="10" commodity="wheat"><choice><abbr>t<hi rend="sup">i</hi></abbr><expan>tritici</expan></choice>
+                                    <choice><abbr>m<hi rend="sup">o</hi></abbr><expan>modios</expan></choice> x</measure>, <measure type="volume" unit="Malter" quantity="2" commodity="oat"><choice><abbr>ave</abbr><expan>avene</expan></choice>
+                                        <choice><abbr>ml</abbr><expan>maltera</expan></choice> ij</measure>, <measure type="volume" unit="Mütt" quantity="2" commodity="pulses"><choice><abbr>leg</abbr><expan>leguminis</expan></choice>
+                                            <choice><abbr>m<hi rend="sup">o</hi></abbr><expan>modios</expan></choice> ij</measure>,
+                                <lb/><choice><abbr>por</abbr><expan>porcos</expan></choice>
+                                <num value="3">iij</num>, quilibet <measure type="currency" unit="ß" quantity="8"> viij</measure>, de <measure type="undefined" unit="Kloben" quantity="10" commodity="flax">lino clobi x</measure>. <gap reason="irrelevant"/>
+                            </seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Urbarielle Aufzeichnungen formulieren in erster Linie Ansprüche, sie bilden weder die realen Einkünfte von Herrschaftsträgern noch die wirtschaftliche Leistungsfähigkeit ihres territorialen Besitzes ab. Manche Abgaben wie beispielsweise Fasnachtshühner hatten vor allem symbolischen Charakter. Wer sie leistete, erkannte Herrschaftsrechte an. Somit kam Urbaren einerseits legitimatorische Funktion gegenüber territorialen Konkurrenten und Untertanen, andererseits Kontrollfunktion gegenüber Amtleuten zu. Sie boten Absicherung gegen einseitige Veränderungen und fixierten Verfahrensabläufe, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sablonier 2002</ref>, S. 99-111</bibl>.</p>
+                        <p>Der vorliegende Auszug aus dem sogenannten <orgName ref="org000010">Kyburger</orgName> Urbar stammt aus einer <placeName ref="loc000157">Berner</placeName> Handschrift, die im ersten Drittel des 15. Jahrhunderts entstanden ist. Der Band beinhaltet neben diesem Urbar eine Abschrift des <orgName ref="org000088">Habsburgischen</orgName> Urbars und ein Pfandregister der <orgName ref="org000088">Herrschaft von Österreich</orgName> aus dem Jahr 1380, vgl. hierzu <bibl><ref target="/startseite/literaturverzeichnis">Bärtschi 2008</ref>, S. 110-111</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 412-417</bibl>. Die Vorlage der Abschrift ist nicht überliefert. Das früheste Textfragment des <orgName ref="org000010">Kyburger</orgName> Urbars, ein Verzeichnis der Einkünfte aus dem Amt <placeName ref="loc000446">Baden</placeName>, ist in einen um 1273 verfassten <orgName ref="org000088">Habsburger</orgName> Rodel integriert und weist einige Abweichungen von dem Text der <placeName ref="loc000157">Berner</placeName> Handschrift auf, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 442-444</bibl>. Da an einer Stelle das Jahr 1261 erwähnt wird (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 2 mit Anm. 6</bibl>) und 1262 veräusserte Besitzungen noch berücksichtigt werden (<bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/II, S. 13, Anm. 1</bibl>), lässt sich der Entstehungszeitraum der Aufzeichnungen eingrenzen.</p>
+                        <p>Die administrativen Strukturen veränderten sich nach dem Übergang der Herrschaft an die <orgName ref="org000088">Habsburger</orgName>. So wurde das Amt <placeName ref="loc000012">Kyburg</placeName> eingerichtet. Es umfasste Besitzungen, die im <orgName ref="org000010">Kyburgischen</orgName> Urbar noch unter dem Amt <placeName ref="loc000849">Winterthur</placeName> aufgeführt waren, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 1, S. 287, Anm. 3</bibl>. In den Güterverzeichnissen der <orgName ref="org000088">Habsburger</orgName> werden verschiedene Besitzungen der <orgName ref="org000010">Kyburger</orgName> nicht mehr erwähnt, darunter Güter im Dorf <placeName ref="loc010469">Hettlingen</placeName>, wobei bereits im vorliegenden Auszug nur geringe Einkünfte aus dem Dorf veranschlagt werden, wie <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 51-52, 60-61</bibl>, konstatiert. Er vermutet, dass bereits damals viele Güter als Lehen ausgegeben oder in geistlichen Besitz übergegangen waren.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

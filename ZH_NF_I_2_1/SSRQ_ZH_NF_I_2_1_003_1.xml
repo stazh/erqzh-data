@@ -4,84 +4,86 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_003_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 3</idno></msIdentifier><head>Genehmigung des Bischofs von Konstanz für den Frauenkonvent in Winterthur, nach der Augustinerregel zu leben und die Priorin zu wählen</head><msContents><summary>Bischof Eberhard von Konstanz gewährt dem Konvent der Schwestern in Winterthur, die Regel des heiligen Augustinus zu befolgen. Er erteilt ihnen die Vollmacht, eine Priorin aus ihrem Kreis zu wählen und diese nach Mehrheitsentscheid auch wieder zu entlassen. Der Aussteller siegelt.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.0"/><width unit="cm" quantity="21.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="oval" nontei:attachment="sealed on laces" nontei:condition="damaged"><persName role="sigillant">Bischof Eberhard von Konstanz</persName></seal></sealDesc></physDesc><history><origin><origDate when="1260-10-01"/></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH, Bd. 3, Nr. 1130 (nach B) mit Nachtrag in UBZH, Bd. 12, S. 336</bibl><bibl>Gfr. 13, S. 240, Nr. 2 (nach B)</bibl></listBibl><listBibl><head>Regest</head><bibl>REC, Bd. 1, Nr. 2029 (nach B)</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000010">Kloster</term><term ref="key003732">Orden</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="STAW_URK_3_r.jpg"/>
-<p>
-<seg><lb/><persName role="issuer" ref="per000012"><choice><abbr>E</abbr><expan>Eberhardus</expan></choice></persName>, dei gracia <placeName ref="loc000923">Constantiensis</placeName> episcopus, dilectis in Christo filiabus <orgName ref="org007864">conventui sororum in
-<lb/><placeName ref="loc000849">Wintertur</placeName></orgName> commorantium paternam salutem in domino Iesu Christo. Cum ex iniuncti nobis pastoralis
-<lb/>officii sollicitudine teneamur omnibus nobis commissis in hiis, que ad animarum salutem pertinent, secundum nostrarum
-<lb/>exigentiam virium providere, magis tamen hiis, quos vite decorat sanctitas et honestas, volumus
-<lb/>obligari.</seg>
-<seg>Noveritis igitur, dilecte in domino filie, quod nos rationabili petitioni vestre paterne in domino congau<lb break="no"/>dentes, regulam beati <persName ref="per012629">Augustini</persName>, sub cuius observantia conditori omnium eterne mercedis intuitu famu<lb break="no"/>lari perpetuo concorditer elegistis, auctoritate nostra vobis observandam tradimus, concedimus et, quan<lb break="no"/>tum possumus, confirmamus; rogantes, mandantes et in domino exhortantes, <choice><abbr>quat</abbr><expan>quatenus</expan></choice> sub ea<lb break="no"/>dem regula secundum religiosas et honestas consuetudines vestras a vobis hactenus observatas,
-<lb/>tamquam Christi tyrones domino militantes et via regia incedentes, non velut oves erronee
-<lb/>per devia evagantes, sed spiritu sancto ducente pervenire possitis ad gaudia sempiter<lb break="no"/>na.</seg>
-<seg>Verum quia omnis congregatio sine prelato acephala iudicatur, auctoritate nostra
-<lb/>damus vobis licentiam priorissam de vestro <orgName ref="org007864">collegio</orgName> canonice eligendi et eandem, cum maiori
-<lb/>et saniori parti sororum rationabiliter visum fuerit, absolvendi.</seg>
-<seg>Et ut nostre auctoritatis conces<lb break="no"/>sio perpetuo gaudeat robore firmitatis, presentem litteram vobis damus nostri sigilli muni<lb break="no"/>mine patenter insignitam.</seg>
-<seg>Datum anno domini <origDate when="1260-10">m<hi rend="sup">o</hi> cc<hi rend="sup">o</hi> lx<hi rend="sup">o</hi>, mense octobri</origDate>.</seg>
-</p>
-</div>
-<pb n="v" facs="STAW_URK_3_v.jpg"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c">Diser <sic>breiff</sic> wist us, das wir gwalt
-<lb/>hand in der <orgName ref="org007864">samlung</orgName> von einem bischoff
-<lb/>zuͦ <placeName ref="loc000923">Costentz</placeName>, das wir soͤllen laͤben nah
-<lb/>der raͤgel und in dem heiligen <orgName ref="org004807">orden
-<lb/>sant <persName ref="per012629">Agustins</persName></orgName> und moͤgend under
-<lb/>unß ein prijlin setzen und entsetzen,
-<lb/>wenn wir waͤnd, mit merer stim
-<lb/>des gantzen conventz. <date when="1260">Anno domini
-<lb/>mcclx<hi rend="sup">o</hi></date>.
- </ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand19c">Anno 1260</ab>
-</div>
-</body>
-<back>
-<div>
-<p>In der ersten Hälfte des 13. Jahrhunderts hatten sich <orgName ref="org007864">Beginen</orgName> in <placeName ref="loc000849">Winterthur</placeName> niedergelassen. Ihre Vorsteherin <persName ref="per026859">Willebirg von Hünikon</persName> übersiedelte chronikalischen Aufzeichnungen zufolge mit einigen Frauen nach <placeName ref="loc010222">Diessenhofen</placeName> und wurde später Priorin des neugegründeten <orgName ref="org005030">Klosters St. Katharinental</orgName>. Dieses Kloster verkaufte im Jahr 1260 Grundstücke in <placeName ref="loc010469">Hettlingen</placeName> und <placeName ref="loc013227">Adlikon</placeName> an die Schwestern in <placeName ref="loc000849">Winterthur</placeName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IX</ref>, Bd. 2, S. 759-760, 763-764</bibl>. Bald darauf erlangten diese die vorliegende Genehmigung des Bischofs von <placeName ref="loc000923">Konstanz</placeName>, nach der Augustinerregel zu leben und eine Priorin zu wählen. Zur Verpflichtung religiöser Frauengemeinschaften auf die Augustinerregel vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 48-49</bibl>. Der <orgName ref="org007864"><placeName ref="loc000849">Winterthurer</placeName> Frauenkonvent</orgName> wurde nicht in den <orgName ref="org004150">Dominikanerorden</orgName> inkorporiert, zum kirchenrechtlichen Status derartiger Gemeinschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wehrli-Johns 2008</ref>, S. 82-83</bibl>. Erst zu Beginn des 16. Jahrhunderts durften die <placeName ref="loc000849">Winterthurer</placeName> Schwestern gemäss päpstlichem Privileg in der Öffentlichkeit die Ordenstracht der Dominikanerinnen tragen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1008</bibl>.</p>
-<p>Die führenden Kreise der Stadt unterstützten und förderten den Konvent, beanspruchten aber auch gewisse Aufsichtsfunktionen und kontrollierten die Vermögensverwaltung, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_010">SSRQ ZH NF I/2/1, Nr. 10</ref></bibl>. Zur Rolle des städtischen <orgName ref="org005587">Rats</orgName> bei der Gründung klösterlicher Gemeinschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wehrli-Johns 1980</ref>, S. 156-157</bibl>. Schwestern, die gegen die Regeln des <orgName ref="org007864">Konvents</orgName> verstiessen und das klösterliche Leben aufgaben, sollte die städtische Obrigkeit im Auftrag des Bischofs verhaften und zurückbringen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 172, 174</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1010-1011</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1906</ref>, S. 17-18</bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_003_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 3</idno></msIdentifier><head>Genehmigung des Bischofs von Konstanz für den Frauenkonvent in Winterthur, nach der Augustinerregel zu leben und die Priorin zu wählen</head><msContents><summary>Bischof Eberhard von Konstanz gewährt dem Konvent der Schwestern in Winterthur, die Regel des heiligen Augustinus zu befolgen. Er erteilt ihnen die Vollmacht, eine Priorin aus ihrem Kreis zu wählen und diese nach Mehrheitsentscheid auch wieder zu entlassen. Der Aussteller siegelt.</summary><msItem><textLang>Latein</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="21.0"/><width unit="cm" quantity="21.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="oval" nontei:attachment="sealed on laces" nontei:condition="damaged"><persName role="sigillant">Bischof Eberhard von Konstanz</persName></seal></sealDesc></physDesc><history><origin><origDate when="1260-10"/></origin></history><additional><listBibl><head>Edition</head><bibl>UBZH, Bd. 3, Nr. 1130 (nach B) mit Nachtrag in UBZH, Bd. 12, S. 336</bibl><bibl>Gfr. 13, S. 240, Nr. 2 (nach B)</bibl></listBibl><listBibl><head>Regest</head><bibl>REC, Bd. 1, Nr. 2029 (nach B)</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000010">Kloster</term><term ref="key003732">Orden</term><term ref="key000555">Wahlen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="STAW_URK_3_r.jpg"/>
+                        <p>
+                            <seg><lb/><persName role="issuer" ref="per000012"><choice><abbr>E</abbr><expan>Eberhardus</expan></choice></persName>, dei gracia <placeName ref="loc000923">Constantiensis</placeName> episcopus, dilectis in Christo filiabus <orgName ref="org007864">conventui sororum in
+                                <lb/><placeName ref="loc000849">Wintertur</placeName></orgName> commorantium paternam salutem in domino Iesu Christo. Cum ex iniuncti nobis pastoralis
+                                <lb/>officii sollicitudine teneamur omnibus nobis commissis in hiis, que ad animarum salutem pertinent, secundum nostrarum
+                                <lb/>exigentiam virium providere, magis tamen hiis, quos vite decorat sanctitas et honestas, volumus
+                                <lb/>obligari.</seg>
+                            <seg>Noveritis igitur, dilecte in domino filie, quod nos rationabili petitioni vestre paterne in domino congau<lb break="no"/>dentes, regulam beati <persName ref="per012629">Augustini</persName>, sub cuius observantia conditori omnium eterne mercedis intuitu famu<lb break="no"/>lari perpetuo concorditer elegistis, auctoritate nostra vobis observandam tradimus, concedimus et, quan<lb break="no"/>tum possumus, confirmamus; rogantes, mandantes et in domino exhortantes, <choice><abbr>quat</abbr><expan>quatenus</expan></choice> sub ea<lb break="no"/>dem regula secundum religiosas et honestas consuetudines vestras a vobis hactenus observatas,
+                                <lb/>tamquam Christi tyrones domino militantes et via regia incedentes, non velut oves erronee
+                                <lb/>per devia evagantes, sed spiritu sancto ducente pervenire possitis ad gaudia sempiter<lb break="no"/>na.</seg>
+                            <seg>Verum quia omnis congregatio sine prelato acephala iudicatur, auctoritate nostra
+                                <lb/>damus vobis licentiam priorissam de vestro <orgName ref="org007864">collegio</orgName> canonice eligendi et eandem, cum maiori
+                                <lb/>et saniori parti sororum rationabiliter visum fuerit, absolvendi.</seg>
+                            <seg>Et ut nostre auctoritatis conces<lb break="no"/>sio perpetuo gaudeat robore firmitatis, presentem litteram vobis damus nostri sigilli muni<lb break="no"/>mine patenter insignitam.</seg>
+                            <seg>Datum anno domini <origDate when="1260-10">m<hi rend="sup">o</hi> cc<hi rend="sup">o</hi> lx<hi rend="sup">o</hi>, mense octobri</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="STAW_URK_3_v.jpg"/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c">Diser <sic>breiff</sic> wist us, das wir gwalt
+                            <lb/>hand in der <orgName ref="org007864">samlung</orgName> von einem bischoff
+                            <lb/>zuͦ <placeName ref="loc000923">Costentz</placeName>, das wir soͤllen laͤben nah
+                            <lb/>der raͤgel und in dem heiligen <orgName ref="org004807">orden
+                                <lb/>sant <persName ref="per012629">Agustins</persName></orgName> und moͤgend under
+                            <lb/>unß ein prijlin setzen und entsetzen,
+                            <lb/>wenn wir waͤnd, mit merer stim
+                            <lb/>des gantzen conventz. <date when="1260">Anno domini
+                                <lb/>mcclx<hi rend="sup">o</hi></date>.
+                        </ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand19c">Anno 1260</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>In der ersten Hälfte des 13. Jahrhunderts hatten sich Beginen in <placeName ref="loc000849">Winterthur</placeName> niedergelassen. Ihre Vorsteherin <persName ref="per026859">Willebirg von Hünikon</persName> übersiedelte chronikalischen Aufzeichnungen zufolge mit einigen Frauen nach <placeName ref="loc010222">Diessenhofen</placeName> und wurde später Priorin des neugegründeten <orgName ref="org005030">Klosters St. Katharinental</orgName>. Dieses Kloster verkaufte im Jahr 1260 Grundstücke in <placeName ref="loc010469">Hettlingen</placeName> und <placeName ref="loc013227">Adlikon</placeName> an die Schwestern in <placeName ref="loc000849">Winterthur</placeName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IX</ref>, Bd. 2, S. 759-760, 763-764</bibl>. Bald darauf erlangten diese die vorliegende Genehmigung des Bischofs von <placeName ref="loc000923">Konstanz</placeName>, nach der Augustinerregel zu leben und eine Priorin zu wählen. Zur Verpflichtung religiöser Frauengemeinschaften auf die Augustinerregel vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 48-49</bibl>. Der <orgName ref="org007864"><placeName ref="loc000849">Winterthurer</placeName> Frauenkonvent</orgName> wurde nicht in den <orgName ref="org004150">Dominikanerorden</orgName> inkorporiert, zum kirchenrechtlichen Status derartiger Gemeinschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wehrli-Johns 2008</ref>, S. 82-83</bibl>. Erst zu Beginn des 16. Jahrhunderts durften die <placeName ref="loc000849">Winterthurer</placeName> Schwestern gemäss päpstlichem Privileg in der Öffentlichkeit die Ordenstracht der Dominikanerinnen tragen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1008</bibl>.</p>
+                        <p>Die führenden Kreise der Stadt unterstützten und förderten den Konvent, beanspruchten aber auch gewisse Aufsichtsfunktionen und kontrollierten die Vermögensverwaltung, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_010">SSRQ ZH NF I/2/1, Nr. 10</ref></bibl>. Zur Rolle des städtischen <orgName ref="org005587">Rats</orgName> bei der Gründung klösterlicher Gemeinschaften vgl. <bibl><ref target="/startseite/literaturverzeichnis">Wehrli-Johns 1980</ref>, S. 156-157</bibl>. Schwestern, die gegen die Regeln des <orgName ref="org007864">Konvents</orgName> verstiessen und das klösterliche Leben aufgaben, sollte die städtische Obrigkeit im Auftrag des Bischofs verhaften und zurückbringen, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 172, 174</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">HS IV</ref>, Bd. 5, S. 1010-1011</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Hauser 1906</ref>, S. 17-18</bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

@@ -4,76 +4,78 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_036</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/1, fol. 10v (Eintrag 2)</idno></msIdentifier><head>Festlegung der Jahrmarktstermine in Winterthur</head><msContents><summary>Der Schultheiss, der neue und der alte Rat sowie die Vierzig der Stadt Winterthur ordnen an, dass die Jahrmärkte nicht an bestimmten Feiertagen mit Vigil abgehalten werden sollen, sondern jeweils am Folgetag. Ausgenommen von dieser Regelung ist der Jahrmarkt am Thomastag, dieser soll künftig am Vortag stattfinden. Zuwiderhandelnde werden mit einem Bussgeld von 1 Pfund Pfennigen belegt. In einem Nachtrag wird vermerkt, dass die Verordnung wieder aufgehoben wurde.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1406-06-11" to="1407-08-17">Der Eintrag datiert vom 11. Juni 1406, der Nachtrag vom 17. August 1407.</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000841">Feiertage</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term><term ref="key003021">Termin</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="10v" facs="STAW_B_2_1_10_v.jpg
-"/>
-<p><del hand="later hand" rend="crossout"><seg><lb/>An dem naͤhsten <origDate when="1406-06-11">fritag nach u̍nsers herren fronlichams tag</origDate> het
-<lb/>ein <orgName ref="org007943"><choice><abbr>schulths</abbr><expan>schultheis</expan></choice>, nu̍w und alt raͤtt</orgName> und oͧch die <orgName ref="org009293">viertzig</orgName> gesetzt,
-<lb/>daz man nu hinnan hin deheinen jarmarkt ze <placeName ref="loc000849">Winterthur</placeName> niemer
-<lb/>mer gehaben sol an u̍nsers herren <date type="floating holiday">uffarttag</date>, an u̍nsers herren <date type="floating holiday">fronlichamtag</date>,
-<lb/>an deheinem zwelffbotten tag noch an deheinem andren heilgen tag,
-<lb/>der eigen vigly haͤt. Wan daz man die jarmaͤrkt allweg nah den
-<lb/>selben tagen an dem naͤhsten tag haben sol, ussgenomen den
-<lb/>jarmarkt, der untz har allweg uff <date type="holiday" when="--12-21">sant <persName ref="per000354">Thomas</persName> tag</date> viel, den sol
-<lb/>man nu hinnan hin allweg uff <date type="holiday" when="--12-20">sant <persName ref="per000354">Thomas</persName> aubent</date> hân. Und
-<lb/>wer aber das u̍berfuͤr und an derselben tagen deheinem marktoti, derselb
-<lb/>sol jekliches mals an der statt buw ân gnad ze buͦzz vervallen sin <measure type="currency" unit="lb" quantity="1">j  ₰</measure>.
- </seg></del>
-<seg><add place="below"><lb/>Dis vorgeschriben gesatzt hânt si wider abgelân <foreign xml:lang="la">anno <origDate when="1407-08-17">m cccc septimo, feria quarta post assumpcionem
-<lb/><persName ref="per000169">Marie</persName></origDate></foreign>.</add></seg>
-</p>
-</div>
-<div>
-<ab type="marginal note" place="left margin" hand="hand19c?"><lb/>Jahrmärkte
-<lb/>sollen an
-<lb/>keinen heiligen
-<lb/>Tagen gehalten
-<lb/>werden.</ab>
-</div>
-</body>
-<back>
-<div>
-<p>Am 12. August 1413 legten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> die Termine für die Jahrmärkte bereits wieder neu fest: Freitag nach Auffahrt, Freitag nach Fronleichnam, 15. Juli (<persName ref="per000365">Margarethe</persName>), 28. August (<persName ref="per027305">Pelagius</persName>), 16. Oktober (<persName ref="per000455">Gallus</persName>) und 20. Dezember, der Vorabend des Thomastags. Bei dieser Regelung wollte man <orig>ewig beliben</orig>, ausser in den Jahren, in welchen diese Termine auf einen Sonntag fielen (<bibl>STAW B 2/1, fol. 45r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 1, Nr. 642</bibl>). Doch wurden die Jahrmarkttermine einige Jahre später wieder geändert, denn am 21. Juni 1431 ordneten <orgName ref="org007943">Schultheiss, Rat und Vierzig</orgName> im Einvernehmen mit der Gemeinde an, dass die Markttage an Auffahrt und an Fronleichnam auf die folgenden Freitage und der Jahrmarkt am Laurentiustag, dem 10. August, auf den folgenden Donnerstag verlegt werden sollten. Auch diese Bestimmung sollte nun dauerhaft in Kraft bleiben und wurde daher <orig>in der statt gross buͦch, so in der kilchen lyt</orig>, eingetragen (<bibl>STAW B 2/1, fol. 79v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 1, Nr. 922</bibl>). Nach der Reformation hielten die <orgName ref="org005980">Winterthurer</orgName> weiter an der Praxis fest, die Jahrmärkte nicht an Feiertagen wie dem Gallustag (16. Oktober), dem Martinstag (11. November), dem Thomastag (21. Dezember), an Lichtmess (2. Februar) und an Auffahrt abzuhalten, sondern an den vorhergehenden Donnerstagen, vgl. den Ratsbeschluss vom 30. September 1569 (<bibl>STAW B 2/8, S. 313</bibl>). Auch für den übrigen Handel galten Sonn- und Feiertagsregelungen (<bibl>STAW B 2/5, S. 552</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1570</bibl>, zu 1495).</p>
-<p><placeName ref="loc000849">Winterthurer</placeName> Händler waren gegenüber der Konkurrenz von ausserhalb im Vorteil. So durften auswärtige Krämer in der Stadt nur an einem Tag in der Woche ihrem Gewerbe nachgehen, wobei ihnen an Jahrmarktsterminen erlaubt wurde, auch am Folgetag Waren zum Verkauf anzubieten. Hausieren war ihnen lediglich mit Produkten gestattet, die einheimische Krämer nicht im Sortiment führten (<bibl>STAW B 2/5, S. 51</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1394</bibl>). Den chronikalischen Aufzeichnungen des Ratsherrn <persName ref="per027306">Ulrich Meyer</persName> zufolge wurde am 22. Mai 1556 auf Wunsch der ansässigen Krämer und Tuchverkäufer die auswärtige Konkurrenz sogar von den Wochenmärkten ausgeschlossen (<bibl>winbib Ms. Quart 102, fol. 85v</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_036</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/1, fol. 10v (Eintrag 2)</idno></msIdentifier><head>Festlegung der Jahrmarktstermine in Winterthur</head><msContents><summary>Der Schultheiss, der neue und der alte Rat sowie die Vierzig der Stadt Winterthur ordnen an, dass die Jahrmärkte nicht an bestimmten Feiertagen mit Vigil abgehalten werden sollen, sondern jeweils am Folgetag. Ausgenommen von dieser Regelung ist der Jahrmarkt am Thomastag, dieser soll künftig am Vortag stattfinden. Zuwiderhandelnde werden mit einem Bussgeld von 1 Pfund Pfennigen belegt. In einem Nachtrag wird vermerkt, dass die Verordnung wieder aufgehoben wurde.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1406-06-11" to="1407-08-17">Der Eintrag datiert vom 11. Juni 1406, der Nachtrag vom 17. August 1407.</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000841">Feiertage</term><term ref="key000983">Handel</term><term ref="key000793">Markt</term><term ref="key003021">Termin</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="10v" facs="STAW_B_2_1_10_v.jpg
+                            "/>
+                        <p><del hand="later hand" rend="crossout"><seg><lb/>An dem naͤhsten <origDate when="1406-06-11">fritag nach u̍nsers herren fronlichams tag</origDate> het
+                            <lb/>ein <orgName ref="org007943"><choice><abbr>schulths</abbr><expan>schultheis</expan></choice>, nu̍w und alt raͤtt</orgName> und oͧch die <orgName ref="org009293">viertzig</orgName> gesetzt,
+                            <lb/>daz man nu hinnan hin deheinen jarmarkt ze <placeName ref="loc000849">Winterthur</placeName> niemer
+                            <lb/>mer gehaben sol an u̍nsers herren <date type="floating holiday">uffarttag</date>, an u̍nsers herren <date type="floating holiday">fronlichamtag</date>,
+                            <lb/>an deheinem zwelffbotten tag noch an deheinem andren heilgen tag,
+                            <lb/>der eigen vigly haͤt. Wan daz man die jarmaͤrkt allweg nah den
+                            <lb/>selben tagen an dem naͤhsten tag haben sol, ussgenomen den
+                            <lb/>jarmarkt, der untz har allweg uff <date type="holiday" when="--12-21">sant <persName ref="per000354">Thomas</persName> tag</date> viel, den sol
+                            <lb/>man nu hinnan hin allweg uff <date type="holiday" when="--12-20">sant <persName ref="per000354">Thomas</persName> aubent</date> hân. Und
+                            <lb/>wer aber das u̍berfuͤr und an derselben tagen deheinem marktoti, derselb
+                            <lb/>sol jekliches mals an der statt buw ân gnad ze buͦzz vervallen sin <measure type="currency" unit="lb" quantity="1">j  ₰</measure>.
+                        </seg></del>
+                            <seg><add place="below"><lb/>Dis vorgeschriben gesatzt hânt si wider abgelân <foreign xml:lang="la">anno <origDate when="1407-08-17">m cccc septimo, feria quarta post assumpcionem
+                                <lb/><persName ref="per000169">Marie</persName></origDate></foreign>.</add></seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="marginal note" place="left margin" hand="hand19c?"><lb/>Jahrmärkte
+                            <lb/>sollen an
+                            <lb/>keinen heiligen
+                            <lb/>Tagen gehalten
+                            <lb/>werden.</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Am 12. August 1413 legten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> die Termine für die Jahrmärkte bereits wieder neu fest: Freitag nach Auffahrt, Freitag nach Fronleichnam, 15. Juli (<persName ref="per000365">Margarethe</persName>), 28. August (<persName ref="per027305">Pelagius</persName>), 16. Oktober (<persName ref="per000455">Gallus</persName>) und 20. Dezember, der Vorabend des Thomastags. Bei dieser Regelung wollte man <orig>ewig beliben</orig>, ausser in den Jahren, in welchen diese Termine auf einen Sonntag fielen (<bibl>STAW B 2/1, fol. 45r</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 1, Nr. 642</bibl>). Doch wurden die Jahrmarkttermine einige Jahre später wieder geändert, denn am 21. Juni 1431 ordneten <orgName ref="org007943">Schultheiss, Rat</orgName> und <orgName ref="org009293">Vierzig</orgName> im Einvernehmen mit der Gemeinde an, dass die Markttage an Auffahrt und an Fronleichnam auf die folgenden Freitage und der Jahrmarkt am Laurentiustag, dem 10. August, auf den folgenden Donnerstag verlegt werden sollten. Auch diese Bestimmung sollte nun dauerhaft in Kraft bleiben und wurde daher <orig>in der statt gross buͦch, so in der kilchen lyt</orig>, eingetragen (<bibl>STAW B 2/1, fol. 79v</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 1, Nr. 922</bibl>). Nach der Reformation hielten die <orgName ref="org007943">Winterthurer</orgName> weiter an der Praxis fest, die Jahrmärkte nicht an Feiertagen wie dem Gallustag (16. Oktober), dem Martinstag (11. November), dem Thomastag (21. Dezember), an Lichtmess (2. Februar) und an Auffahrt abzuhalten, sondern an den vorhergehenden Donnerstagen, vgl. den Ratsbeschluss vom 30. September 1569 (<bibl>STAW B 2/8, S. 313</bibl>). Auch für den übrigen Handel galten Sonn- und Feiertagsregelungen (<bibl>STAW B 2/5, S. 552</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1570</bibl>, zu 1495).</p>
+                        <p><placeName ref="loc000849">Winterthurer</placeName> Händler waren gegenüber der Konkurrenz von ausserhalb im Vorteil. So durften auswärtige Krämer in der Stadt nur an einem Tag in der Woche ihrem Gewerbe nachgehen, wobei ihnen an Jahrmarktsterminen erlaubt wurde, auch am Folgetag Waren zum Verkauf anzubieten. Hausieren war ihnen lediglich mit Produkten gestattet, die einheimische Krämer nicht im Sortiment führten (<bibl>STAW B 2/5, S. 51</bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">QZWG</ref>, Bd. 2, Nr. 1394</bibl>). Den chronikalischen Aufzeichnungen des Ratsherrn <persName ref="per027306">Ulrich Meyer</persName> zufolge wurde am 22. Mai 1556 auf Wunsch der ansässigen Krämer und Tuchverkäufer die auswärtige Konkurrenz sogar von den Wochenmärkten ausgeschlossen (<bibl>winbib Ms. Quart 102, fol. 85v</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

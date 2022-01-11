@@ -4,91 +4,93 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_017</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 94</idno></msIdentifier><head>Verordnung über die Bestrafung des ungenehmigten Holzschlags im Wald Eschenberg</head><msContents><summary>Schultheiss Johannes von Sal, Johannes Zoller, Rudolf Schultheiss unterm Schopf, Johannes Balber, Andreas Hoppler, Rudolf von Sal, Heinrich Hirt und Rudolf Zinser, der Rat von Winterthur, ordnen an, dass Bauholz, das ohne Erlaubnis des Rats oder der beiden dafür zuständigen Ratsverordneten im städtischen Wald Eschenberg geschlagen wird, konfisziert werden und anderen Bürgern, die Bedarf haben, gegeben werden soll, wobei pro Stamm ein Bussgeld von 3 Schilling zulasten des Auftraggebers erhoben wird. Der Zimmermann, der das Holz geschlagen hat, darf ein Jahr lang keine Fällarbeiten im Wald verrichten. Sobald er dieses Verbot missachtet, muss er 1 Pfund Pfennige Busse zahlen. Schultheiss und Rat verpflichten sich zur Einhaltung dieser Bestimmungen bei dem Eid, den sie der Herrschaft und der Stadt geschworen haben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1346-01-12"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz 1868, Sp. 87-88 (mit unrichtig aufgelöstem Datum)</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000524">Holz</term><term ref="key000335">Nutzungsrecht</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r"/>
-<p>
-<seg><lb/>Anno domini <origDate when="1346-01-12">m<hi rend="sup">o</hi> ccc<hi rend="sup">o</hi> xlvj<hi rend="sup">o</hi>, feria quinta ante <persName ref="per001805">Hilarii</persName></origDate>, do satzte <persName ref="per026935"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice>
-<lb/>von Sala</persName>, <choice><abbr>schulth</abbr><expan>schulthais</expan></choice> ze <placeName ref="loc000849">Wintterthur</placeName>, <persName ref="per027078"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice> der Zoller</persName>, <persName ref="per027015"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice>
-<choice><abbr>Schulth</abbr><expan>Schulthais</expan></choice> underm
- <lb/>Schophe</persName>, <persName ref="per027073"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice> Balber</persName>, <persName ref="per026903">Andres Hoppler</persName>, <persName ref="per026944"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> von Sala</persName>, <persName ref="per027076">Hainrich der Hirte</persName>
-<lb/>und <persName ref="per027077"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> Zinser</persName>, der <orgName ref="org007943">rat ze <placeName ref="loc000849">Wintterthur</placeName></orgName>, durch grossen nutz und
-<lb/>notdurft der vorgenanten statt:</seg>
-<seg>Swer der ist, der kain holtz hoͧwet
-<lb/>in unserm wald <placeName ref="loc013008">Eschaberg</placeName>, des im der <orgName ref="org005587">rat</orgName> nit geben hat ald aber
- <lb/><num value="2">zwen</num>, die ain <orgName ref="org005587">rat</orgName> dar u̍ber gesetzet hat,<note>Später als Holzgeber bezeichnet, Eidformel: <bibl>winbib Ms. Fol. 241, fol. 5r</bibl>; <bibl>STAW B 3a/10, S. 12</bibl>.</note> daz zuͦ gezimber hoͤret,
-<lb/>das sol man, mit namen d<subst><del rend="rubbing">az</del><add place="overwritten">er</add></subst>
-<orgName ref="org005587">rat</orgName>, alles naͤmen und sol es andren
-<lb/>burgern geben, die sin ze buwenne bedurfent, da man doch ander holtz
-<lb/>hin geben muͤsse nach der statt gwonhait. Und sol der selbe, dem das
-<lb/>holtz gehoͧwen ist, von jetlichem stumpen der statt <measure type="currency" unit="ß" quantity="3">drije schilling</measure>
-<lb/>gevallen sin, ane alle widerredu̍.</seg>
-<seg>Und sol man oͤch dem zimberman, der
-<lb/>danne daz holtz gehoͧwen hat, mit namen den selben wald <date dur="P1Y">ain
-<lb/>gantzes jar</date> verbieten, daz er in dem jare niemanne ain kain holtz
-<lb/>in dem selben wald hoͧwen sol. Were aber, daz es kain zimberman dar
-<lb/>u̍ber taͤtte, als dicke daz beschiht, so sol er der statt ze bessrung
-<lb/><measure type="currency" unit="lb" quantity="1">ain phunt phenning</measure> gevallen sin, ane gnade.</seg>
-<seg>Und haben daz
-<lb/>bi dem aid, so wir <del>d</del> unserm herren und der statt gesworn hant, gesetzet,
-<lb/>staͤtt ze habenne jemer me und oͤch in ze naͤmenne, als vorgeschriben
-<lb/>ist.</seg>
-</p>
-</div>
-<pb n="v"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1346">1346</date>. Erkantnuß <lb/>den wald betreffend, <add place="inline" rend="other ink">holtzhauen</add></ab>
-</div>
-<div>
-<ab type="dorsal" place="verso" hand="hand19c"><lb/><date when="1346-01-12">1346, 12 <choice><abbr>Jän</abbr><expan>Jänner</expan></choice></date>
-<add place="inline" hand="other hand"><date when="--01-08"> = <choice><abbr>Jan</abbr><expan>Januar</expan></choice> 8</date></add></ab>
-</div>
-</body>
-<back>
-<div>
-<p>Der Wald <placeName ref="loc013008">Eschenberg</placeName> war den Bürgern der Stadt <placeName ref="loc000849">Winterthur</placeName> 1264 von <persName ref="per000089">Graf Rudolf von Habsburg</persName> als Allmende überlassen worden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 6</bibl>). König <persName ref="per000712">Sigmund</persName> bestätigte 1433 diese Nutzungsrechte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_062">SSRQ ZH NF I/2/1, Nr. 62</ref></bibl>) und König <persName ref="per000794">Friedrich III.</persName> integrierte den Wald 1442 in den städtischen Friedkreis (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_074">SSRQ ZH NF I/2/1, Nr. 74</ref></bibl>).</p>
-<p>Den Bedarf an Bau- und Brennholz mussten die Bürger bei den städtischen Holzgebern anmelden (vgl. auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_094">SSRQ ZH NF I/2/1, Nr. 94</ref></bibl>). Die Zimmerleute mussten sich verpflichten, nur von den Holzgebern zugeteiltes Holz und nicht mehr als für den Bau nötig zu schlagen und kein Material zu verschwenden (<bibl>STAW B 2/3, S. 354</bibl>, zu 1478; <bibl>STAW B 2/5, S. 165</bibl>, zu 1486; <bibl>STAW B 2/6, S. 24</bibl>, zu 1497). Gebrauchtes Holz sollte nach Möglichkeit wiederverwendet werden (vgl. Eidformel der städtischen Zimmerwerkmeister: <bibl>STAW AA 4/3, fol. 454r-v</bibl>; <bibl>winbib Ms. Fol. 241, fol. 15v, 17r</bibl>). Der Holzverkauf war den Bürgern in beschränktem Umfang bis auf Widerruf gestattet (vgl. <bibl>STAW B 2/5, S. 54</bibl>, zu 1483; <bibl>STAW B 2/5, S. 64-65</bibl>, zu 1484; <bibl>STAW B 2/5, S. 106</bibl>, zu 1484). Die Aufsicht über die Nutzung des Walds führte der Waldförster (Eidformel: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_164">SSRQ ZH NF I/2/1, Nr. 164</ref></bibl>).</p>
-<p>Die Nutzungsrechte der <orgName ref="org005980">Winterthurer</orgName> im Wald <placeName ref="loc013008">Eschenberg</placeName> beschränkten sich auf Holzbann und Weiderechte, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250824">StAZH C I, Nr. 3165 (Beilage 7)</ref></bibl>. Ihre Bemühungen, in den Besitz des Jagdrechts (Wildbann) zu gelangen, das sie sich 1544 von Kaiser <persName ref="per004674">Karl V.</persName> konzedieren liessen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>), waren erfolglos (vgl. <bibl>STAW AJ 127/4</bibl>, zu 1550; Entwurf: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1103927">StAZH B IV 17, fol. 117r</ref></bibl>). Ansprüche auf Waldnutzung machten indessen auch andere Parteien geltend, etwa die Landvogtei <placeName ref="loc000012">Kyburg</placeName> betreffend Holz für den Bau von Scheunen, Brücken und Wehren (vgl. <bibl>StAZH F II a 271, S. 145</bibl>) oder Pfähle für den Weinbau (vgl. <bibl>StAZH F II a 252, fol. 38r</bibl>), die Besitzer der Schupposen, vom Stadtrecht eximierter Höfe in und um <placeName ref="loc000849">Winterthur</placeName>, (vgl. <bibl>STAW URK 2614</bibl>) sowie des Hofs <placeName ref="loc013008">Eschenberg</placeName> (vgl. <bibl>STAW URK 2714</bibl>), das <orgName ref="org007820">Chorherrenstift <placeName ref="loc013078">Heiligberg</placeName></orgName> (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 4, Nr. 1526</bibl>; vgl. <bibl>STAW B 4/2, fol. 25r</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=745220">StAZH A 156.1, Nr. 17</ref></bibl>), das <orgName ref="org002665">Kloster <placeName ref="loc000980">Töss</placeName></orgName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_193">SSRQ ZH NF I/2/1, Nr. 193</ref>, Nr. 4 und 10</bibl>) oder die Inhaber des <placeName ref="loc000065">Zürcher</placeName> Amts <placeName ref="loc000849">Winterthur</placeName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_249">SSRQ ZH NF I/2/1, Nr. 249</ref></bibl>).</p>
-<p>Zu den Besitzverhältnissen im <placeName ref="loc013074">Eschenberger</placeName> Wald vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1960</ref>, S. 346-350</bibl>.
-</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_017</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 94</idno></msIdentifier><head>Verordnung über die Bestrafung des ungenehmigten Holzschlags im Wald Eschenberg</head><msContents><summary>Schultheiss Johannes von Sal, Johannes Zoller, Rudolf Schultheiss unterm Schopf, Johannes Balber, Andreas Hoppler, Rudolf von Sal, Heinrich Hirt und Rudolf Zinser, der Rat von Winterthur, ordnen an, dass Bauholz, das ohne Erlaubnis des Rats oder der beiden dafür zuständigen Ratsverordneten im städtischen Wald Eschenberg geschlagen wird, konfisziert werden und anderen Bürgern, die Bedarf haben, gegeben werden soll, wobei pro Stamm ein Bussgeld von 3 Schilling zulasten des Auftraggebers erhoben wird. Der Zimmermann, der das Holz geschlagen hat, darf ein Jahr lang keine Fällarbeiten im Wald verrichten. Sobald er dieses Verbot missachtet, muss er 1 Pfund Pfennige Busse zahlen. Schultheiss und Rat verpflichten sich zur Einhaltung dieser Bestimmungen bei dem Eid, den sie der Herrschaft und der Stadt geschworen haben.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="15.0"/><width unit="cm" quantity="20.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1346-01-12"/></origin></history><additional><listBibl><head>Edition</head><bibl>Hotz 1868, Sp. 87-88 (mit unrichtig aufgelöstem Datum)</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000184">Bussen</term><term ref="key000524">Holz</term><term ref="key000335">Nutzungsrecht</term><term ref="key000249">Wald</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r"/>
+                        <p>
+                            <seg><lb/>Anno domini <origDate when="1346-01-12">m<hi rend="sup">o</hi> ccc<hi rend="sup">o</hi> xlvj<hi rend="sup">o</hi>, feria quinta ante <persName ref="per001805">Hilarii</persName></origDate>, do satzte <orgName ref="org007943"><persName ref="per026935"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice>
+                                <lb/>von Sala</persName>, <choice><abbr>schulth</abbr><expan>schulthais</expan></choice> ze <placeName ref="loc000849">Wintterthur</placeName>, <persName ref="per027078"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice> der Zoller</persName>, <persName ref="per027015"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice>
+                                    <choice><abbr>Schulth</abbr><expan>Schulthais</expan></choice> underm
+                                    <lb/>Schophe</persName>, <persName ref="per027073"><choice><abbr>Johs</abbr><expan>Johannes</expan></choice> Balber</persName>, <persName ref="per026903">Andres Hoppler</persName>, <persName ref="per026944"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> von Sala</persName>, <persName ref="per027076">Hainrich der Hirte</persName>
+                                <lb/>und <persName ref="per027077"><choice><abbr>Ruͦd</abbr><expan>Ruͦdolf</expan></choice> Zinser</persName>, der rat ze <placeName ref="loc000849">Wintterthur</placeName></orgName>, durch grossen nutz und
+                                <lb/>notdurft der vorgenanten statt:</seg>
+                            <seg>Swer der ist, der kain holtz hoͧwet
+                                <lb/>in unserm wald <placeName ref="loc013008">Eschaberg</placeName>, des im der <orgName ref="org005587">rat</orgName> nit geben hat ald aber
+                                <lb/><num value="2">zwen</num>, die ain <orgName ref="org005587">rat</orgName> dar u̍ber gesetzet hat,<note>Später als Holzgeber bezeichnet, Eidformel: <bibl>winbib Ms. Fol. 241, fol. 5r</bibl>; <bibl>STAW B 3a/10, S. 12</bibl>.</note> daz zuͦ gezimber hoͤret,
+                                <lb/>das sol man, mit namen d<subst><del rend="rubbing">az</del><add place="overwritten">er</add></subst>
+                                <orgName ref="org005587">rat</orgName>, alles naͤmen und sol es andren
+                                <lb/>burgern geben, die sin ze buwenne bedurfent, da man doch ander holtz
+                                <lb/>hin geben muͤsse nach der statt gwonhait. Und sol der selbe, dem das
+                                <lb/>holtz gehoͧwen ist, von jetlichem stumpen der statt <measure type="currency" unit="ß" quantity="3">drije schilling</measure>
+                                <lb/>gevallen sin, ane alle widerredu̍.</seg>
+                            <seg>Und sol man oͤch dem zimberman, der
+                                <lb/>danne daz holtz gehoͧwen hat, mit namen den selben wald <date dur="P1Y">ain
+                                    <lb/>gantzes jar</date> verbieten, daz er in dem jare niemanne ain kain holtz
+                                <lb/>in dem selben wald hoͧwen sol. Were aber, daz es kain zimberman dar
+                                <lb/>u̍ber taͤtte, als dicke daz beschiht, so sol er der statt ze bessrung
+                                <lb/><measure type="currency" unit="lb" quantity="1">ain phunt phenning</measure> gevallen sin, ane gnade.</seg>
+                            <seg>Und haben daz
+                                <lb/>bi dem aid, so wir <del>d</del> unserm herren und der statt gesworn hant, gesetzet,
+                                <lb/>staͤtt ze habenne jemer me und oͤch in ze naͤmenne, als vorgeschriben
+                                <lb/>ist.</seg>
+                        </p>
+                    </div>
+                    <pb n="v"/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand18c"><lb/>Anno <date when="1346">1346</date>. Erkantnuß <lb/>den wald betreffend, <add place="inline" rend="other ink">holtzhauen</add></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand19c"><lb/><date when="1346-01-12">1346, 12 <choice><abbr>Jän</abbr><expan>Jänner</expan></choice></date>
+                            <add place="inline" hand="other hand"><date when="--01-08"> = <choice><abbr>Jan</abbr><expan>Januar</expan></choice> 8</date></add></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Der Wald <placeName ref="loc013008">Eschenberg</placeName> war den Bürgern der Stadt <placeName ref="loc000849">Winterthur</placeName> 1264 von <persName ref="per000089">Graf Rudolf von Habsburg</persName> als Allmende überlassen worden (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_005">SSRQ ZH NF I/2/1, Nr. 5</ref>, Artikel 6</bibl>). König <persName ref="per000712">Sigmund</persName> bestätigte 1433 diese Nutzungsrechte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_062">SSRQ ZH NF I/2/1, Nr. 62</ref></bibl>) und König <persName ref="per000794">Friedrich III.</persName> integrierte den Wald 1442 in den städtischen Friedkreis (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_074">SSRQ ZH NF I/2/1, Nr. 74</ref></bibl>).</p>
+                        <p>Den Bedarf an Bau- und Brennholz mussten die Bürger bei den städtischen Holzgebern anmelden (vgl. auch <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_094">SSRQ ZH NF I/2/1, Nr. 94</ref></bibl>). Die Zimmerleute mussten sich verpflichten, nur von den Holzgebern zugeteiltes Holz und nicht mehr als für den Bau nötig zu schlagen und kein Material zu verschwenden (<bibl>STAW B 2/3, S. 354</bibl>, zu 1478; <bibl>STAW B 2/5, S. 165</bibl>, zu 1486; <bibl>STAW B 2/6, S. 24</bibl>, zu 1497). Gebrauchtes Holz sollte nach Möglichkeit wiederverwendet werden (vgl. Eidformel der städtischen Zimmerwerkmeister: <bibl>STAW AA 4/3, fol. 454r-v</bibl>; <bibl>winbib Ms. Fol. 241, fol. 15v, 17r</bibl>). Der Holzverkauf war den Bürgern in beschränktem Umfang bis auf Widerruf gestattet (vgl. <bibl>STAW B 2/5, S. 54</bibl>, zu 1483; <bibl>STAW B 2/5, S. 64-65</bibl>, zu 1484; <bibl>STAW B 2/5, S. 106</bibl>, zu 1484). Die Aufsicht über die Nutzung des Walds führte der Waldförster (Eidformel: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_164">SSRQ ZH NF I/2/1, Nr. 164</ref></bibl>).</p>
+                        <p>Die Nutzungsrechte der <orgName ref="org004474">Winterthurer</orgName> im Wald <placeName ref="loc013008">Eschenberg</placeName> beschränkten sich auf Holzbann und Weiderechte, vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250824">StAZH C I, Nr. 3165 (Beilage 7)</ref></bibl>. Ihre Bemühungen, in den Besitz des Jagdrechts (Wildbann) zu gelangen, das sie sich 1544 von Kaiser <persName ref="per004674">Karl V.</persName> konzedieren liessen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_290">SSRQ ZH NF I/2/1, Nr. 290</ref></bibl>), waren erfolglos (vgl. <bibl>STAW AJ 127/4</bibl>, zu 1550; Entwurf: <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=1103927">StAZH B IV 17, fol. 117r</ref></bibl>). Ansprüche auf Waldnutzung machten indessen auch andere Parteien geltend, etwa die Landvogtei <placeName ref="loc000012">Kyburg</placeName> betreffend Holz für den Bau von Scheunen, Brücken und Wehren (vgl. <bibl>StAZH F II a 271, S. 145</bibl>) oder Pfähle für den Weinbau (vgl. <bibl>StAZH F II a 252, fol. 38r</bibl>), die Besitzer der Schupposen, vom Stadtrecht eximierter Höfe, in und um <placeName ref="loc000849">Winterthur</placeName> (vgl. <bibl>STAW URK 2614</bibl>) sowie des Hofs <placeName ref="loc013008">Eschenberg</placeName> (vgl. <bibl>STAW URK 2714</bibl>), das <orgName ref="org007820">Chorherrenstift <placeName ref="loc013078">Heiligberg</placeName></orgName> (<bibl><ref target="/startseite/literaturverzeichnis">UBZH</ref>, Bd. 4, Nr. 1526</bibl>; vgl. <bibl>STAW B 4/2, fol. 25r</bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=745220">StAZH A 156.1, Nr. 17</ref></bibl>), das <orgName ref="org002665">Kloster <placeName ref="loc000980">Töss</placeName></orgName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_193">SSRQ ZH NF I/2/1, Nr. 193</ref>, Artikel 4 und 10</bibl>) oder die Inhaber des <placeName ref="loc000065">Zürcher</placeName> Amts <placeName ref="loc013736">Winterthur</placeName> (vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_249">SSRQ ZH NF I/2/1, Nr. 249</ref></bibl>).</p>
+                        <p>Zu den Besitzverhältnissen im <placeName ref="loc013008">Eschenberger</placeName> Wald vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ganz 1960</ref>, S. 346-350</bibl>.
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

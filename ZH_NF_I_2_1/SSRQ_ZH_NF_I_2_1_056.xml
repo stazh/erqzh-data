@@ -4,72 +4,74 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_056</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/1, fol. 34v (Eintrag 2)</idno></msIdentifier><head>Aufnahme eines Armbrustmachers in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Meister Wernli der Armbrustmacher hat dem Schultheissen und Rat von Winterthur geschworen, zehn Jahre lang als Bürger in der Stadt zu wohnen, den Nutzen der Herrschaft und der Stadt zu fördern und Schaden abzuwenden. Er hat jährlich zwei Armbrüste zu liefern. In dieser Zeit ist er von Steuern und Diensten befreit, ausgenommen bei Feldzügen unter dem Banner und Wachdiensten, die auch die Mitglieder des Rats leisten müssen. Er erhält jährlich 17 Pfund Haller und Holz aus dem Wald sowie für die nächsten drei Jahre freie Unterkunft. Er soll bis Pfingsten nach Winterthur ziehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1424-03-27"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000479">Dienstpflicht</term><term ref="key000179">Eid</term><term ref="key000157">Steuern</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="34v" facs="STAW_B_2_1_34_v.jpg
-"/>
-<p>
-<lb/><seg>Item meister <persName ref="per027711">Wernli</persName>, der arnbroster, ist u̍berkomen mitt
- <lb/>einem <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> und raͤt</orgName> also, daz er gesworn haͤt, <date dur="P10Y">x jaͧr</date>,
-<lb/>die nechsten, burgerrecht und hushablich in u̍nser statt
-<lb/>ze sitzen, u̍nser herschaft und u̍nser statt nutz und er ze
-<lb/>fu̍rdren und schaden ze wenden, getru̍wlich, aͤn gevaͤrd. Und
-<lb/>sol der statt <date dur="R/P1Y">alle jaͤr</date> geben <num value="2">ij</num>
-<add place="above">nu̍we</add> arnbrost bi den besten, so er
-<lb/>denn machet, und sol u̍ns laͤssen wellen under <num value="6">vj</num> arbrosten.</seg>
-<lb/><seg>Und haben in <del>laͤssen</del> her umb gefrigt <date dur="P10Y">x jaͤr</date> fu̍r alle stu̍r
-<lb/>und dienst, ussgenomen fu̍r reisen, wenn man mit der
-<lb/>baner zu̍cht, und fu̍r wachten, daz er tuͦn sol, wenn soͤlich
-<lb/>loͤf waͤrint, daz die raͤt selber wachtin. Und sol man
- <lb/>im <date dur="R/P1Y">jaͤrlich</date> geben <measure type="currency" unit="lb" quantity="16">xvj <abbr>lib</abbr> ħ</measure> und <num value="3">iij</num> hoͤltzer uss
-<lb/>dem wald und die nechsten <date dur="P3Y">dru̍ jaͤr</date> behusung, nit lenger.</seg>
-<lb/><seg>Und sol sich <del>j</del> hinnan zuͦ <date type="deadline_floating holiday">pfingsten</date> in u̍nser statt ziechen.</seg>
-<lb/><seg>Actum uff <origDate when="1424-03-27">mentag vor mitter vasten, anno <abbr>etc</abbr> xxiiij<hi rend="sup">o</hi></origDate>.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Wer in das Bürgerrecht von <placeName ref="loc000849">Winterthur</placeName> aufgenommen wurde, war dem Stadtherrn und der Gemeinde gegenüber zu Loyalität verpflichtet. Nach der Aberkennung der Besitzungen <persName ref="per000346">Herzog Friedrichs von Österreich</persName> in den Vorlanden durch König <persName ref="per000712">Sigmund</persName> im Jahr 1415 gelangte die Stadt <placeName ref="loc000849">Winterthur</placeName> vorübergehend an das <orgName ref="org004134">Reich</orgName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 116-119</bibl>. In der Folgezeit wird der Name der Herrschaft in den Eidformeln nicht mehr genannt, bis sich die <orgName ref="org007943">Winterthurer</orgName> wieder den <orgName ref="org000088">Habsburgern</orgName> unterstellten, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_079">SSRQ ZH NF I/2/1, Nr. 79</ref></bibl>.</p>
-<p>Personen, die nachgefragte Berufe ausübten oder gesuchte Dienstleistungen anboten, wurden bei der Bürgerrechtsverleihung oftmals Sonderkonditionen wie Steuervergünstigungen und Befreiung von Dienstpflichten eingeräumt. Als im 16. Jahrhundert die Aufnahmepraxis restriktiver gehandhabt wurde und zeitweise keine Neubürger mehr zugelassen wurden, galten für Fachkräfte weiterhin Ausnahmen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_282">SSRQ ZH NF I/2/1, Nr. 282</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_056</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/1, fol. 34v (Eintrag 2)</idno></msIdentifier><head>Aufnahme eines Armbrustmachers in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Meister Wernli der Armbrustmacher hat dem Schultheissen und Rat von Winterthur geschworen, zehn Jahre lang als Bürger in der Stadt zu wohnen, den Nutzen der Herrschaft und der Stadt zu fördern und Schaden abzuwenden. Er hat jährlich zwei Armbrüste zu liefern. In dieser Zeit ist er von Steuern und Diensten befreit, ausgenommen bei Feldzügen unter dem Banner und Wachdiensten, die auch die Mitglieder des Rats leisten müssen. Er erhält jährlich 17 Pfund Haller und Holz aus dem Wald sowie für die nächsten drei Jahre freie Unterkunft. Er soll bis Pfingsten nach Winterthur ziehen.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1424-03-27"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000479">Dienstpflicht</term><term ref="key000179">Eid</term><term ref="key000157">Steuern</term><term ref="key000902">Waffen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="34v" facs="STAW_B_2_1_34_v.jpg
+                            "/>
+                        <p>
+                            <lb/><seg>Item meister <persName ref="per027711">Wernli</persName>, der arnbroster, ist u̍berkomen mitt
+                                <lb/>einem <orgName ref="org007943"><choice><abbr>schulth</abbr><expan>schultheissen</expan></choice> und raͤt</orgName> also, daz er gesworn haͤt, <date dur="P10Y">x jaͧr</date>,
+                                <lb/>die nechsten, burgerrecht und hushablich in u̍nser statt
+                                <lb/>ze sitzen, u̍nser herschaft und u̍nser statt nutz und er ze
+                                <lb/>fu̍rdren und schaden ze wenden, getru̍wlich, aͤn gevaͤrd. Und
+                                <lb/>sol der statt <date dur="R/P1Y">alle jaͤr</date> geben <num value="2">ij</num>
+                                <add place="above">nu̍we</add> arnbrost bi den besten, so er
+                                <lb/>denn machet, und sol u̍ns laͤssen wellen under <num value="6">vj</num> arbrosten.</seg>
+                            <lb/><seg>Und haben in <del>laͤssen</del> her umb gefrigt <date dur="P10Y">x jaͤr</date> fu̍r alle stu̍r
+                                <lb/>und dienst, ussgenomen fu̍r reisen, wenn man mit der
+                                <lb/>baner zu̍cht, und fu̍r wachten, daz er tuͦn sol, wenn soͤlich
+                                <lb/>loͤf waͤrint, daz die raͤt selber wachtin. Und sol man
+                                <lb/>im <date dur="R/P1Y">jaͤrlich</date> geben <measure type="currency" unit="lb" quantity="16">xvj <abbr>lib</abbr> ħ</measure> und <num value="3">iij</num> hoͤltzer uss
+                                <lb/>dem wald und die nechsten <date dur="P3Y">dru̍ jaͤr</date> behusung, nit lenger.</seg>
+                            <lb/><seg>Und sol sich <del>j</del> hinnan zuͦ <date type="deadline_floating holiday">pfingsten</date> in u̍nser statt ziechen.</seg>
+                            <lb/><seg>Actum uff <origDate when="1424-03-27">mentag vor mitter vasten, anno <abbr>etc</abbr> xxiiij<hi rend="sup">o</hi></origDate>.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Wer in das Bürgerrecht von <placeName ref="loc000849">Winterthur</placeName> aufgenommen wurde, war dem Stadtherrn und der Gemeinde gegenüber zu Loyalität verpflichtet. Nach der Aberkennung der Besitzungen <persName ref="per000346">Herzog Friedrichs von Österreich</persName> in den Vorlanden durch König <persName ref="per000712">Sigmund</persName> im Jahr 1415 gelangte die Stadt <placeName ref="loc000849">Winterthur</placeName> vorübergehend an das <orgName ref="org004134">Reich</orgName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 2014</ref>, S. 116-119</bibl>. In der Folgezeit wird der Name der Herrschaft in den Eidformeln nicht mehr genannt, bis sich die <orgName ref="org007943">Winterthurer</orgName> wieder den <orgName ref="org000088">Habsburgern</orgName> unterstellten, vgl. beispielsweise <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_079">SSRQ ZH NF I/2/1, Nr. 79</ref></bibl>.</p>
+                        <p>Personen, die nachgefragte Berufe ausübten oder gesuchte Dienstleistungen anboten, wurden bei der Bürgerrechtsverleihung oftmals Sonderkonditionen wie Steuervergünstigungen und Befreiung von Dienstpflichten eingeräumt. Als im 16. Jahrhundert die Aufnahmepraxis restriktiver gehandhabt wurde und zeitweise keine Neubürger mehr zugelassen wurden, galten für Fachkräfte weiterhin Ausnahmen, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_282">SSRQ ZH NF I/2/1, Nr. 282</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

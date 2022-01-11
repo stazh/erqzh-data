@@ -4,105 +4,107 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_030</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW URK 271</idno></msIdentifier><head>Verpflichtung des Rektors der Pfarrkirche in Winterthur</head><msContents><summary>Vor dem Notar und Zeugen verpflichten sich Walter von Hof, Sohn des verstorbenen Liebhard, Bürger von Konstanz, und sein Sohn Johannes, Rektor der Pfarrkirche in Winterthur, zur Einhaltung folgender Bestimmungen: Walter von Hof soll dafür sorgen, dass sein Sohn Johannes seine Pfründe nicht eintauscht, solange er lebt oder im Besitz der Pfarrkirche ist (1). Johannes soll seinen Wohnsitz in der Stadt haben, sobald er mündig sein wird (2). Er soll vakante Pfründen, deren Kollatur ihm zusteht, den Kandidaten übertragen, die Schultheiss und Rat mehrheitlich gewählt haben (3). Walter soll seinen Sohn anhalten, die Leutpriesterstelle einer geeigneten Person, die dem Schultheissen und Rat mehrheitlich genehm ist, für den Zeitraum eines Jahres zu übertragen und nicht länger, es sei denn mit ihrer Zustimmung (4). Er soll Johannes veranlassen, dass die Kapläne, Altaristen, Pfründner und anderen geistlichen Personen beiderlei Geschlechts in Winterthur ihre gewohnten Einkünfte erhalten (5). Er soll dafür sorgen, dass Johannes die Rechte des Kirchenbaufonds wahrt (6). Der Rektor soll jedes Jahr auf eigene Kosten eine geschmückte Osterkerze am gewohnten Ort im Chor der Pfarrkirche aufstellen (7). Der Notar Heinrich Jakobi von Reichenau beglaubigt das Instrument, das er auf Bitten des Schultheissen Konrad von Sal und des Rats von Winterthur ausgestellt hat, mit seinem Notarzeichen unter Nennung der Zeugen Johannes Dürr, Konrad Nägeli, Johannes Christen, Johannes Christen, Johannes Bader und Konrad Sittkust, Einwohner von Winterthur.</summary><msItem><textLang>Latein</textLang><author role="scribe">Heinrich Jakobi von Reichenau, Notar</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="30.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1383-07-10"/><origPlace>Winterthur</origPlace></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000301">Pfarrer</term><term ref="key000113">Pfarrkirche</term><term ref="key000193">Pfründe</term><term ref="key000195">Präsentationsrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="STAW_URK_271_r.jpg"/>
-<p>
-<seg><!-- Korrektur gelesen durch Fachstelle Latein -->
-<lb/>In nomine domini amen. Per hoc presens publicum instrumentum cunctis ipsum intuentibus pateat evidenter, quod <origDate when="1383-07-10">sub anno a nativitate eiusdem millesimo
- <lb/>tricentesimo octuagesimo tercio, indictione iuxta stilum <placeName ref="loc000076">Romane</placeName> curie sexta, pontificatus sanctissimi in Christo patris et domini, domini <persName ref="per012263">Urbani</persName>
-<lb/>dingna dei providencia pape sexti, anno ipsius sexto, mensis iulii die decima, hora primarum vel quasi</origDate>, in stupa domus sociorum
-<lb/>in <origPlace ref="loc000849">Winterthur</origPlace>, <placeName ref="loc000923">Constanciensis</placeName> dyocesis, in mei notarii publici et testium subscriptorum presencia personaliter <add place="above">constituti</add> discreti <persName ref="per027152">Waltherus de Hof</persName>, natus quondam
-<lb/><persName ref="per027151">Liephardi de Hof</persName>, civis <placeName ref="loc000008">Constanciensis</placeName>, et <persName ref="per027150">Johannes</persName> filius suus carnalis, rector ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, incolomes et sani mentis et corporis,
- <lb/>non vi nec metu compulsi nec dolo aliquo, ut asseruerunt, circumventi, sed sponte et libere ex certa scientia fatebantur hec infrascripta.</seg>
-<seg n="1">Et primo
-<lb/><persName ref="per027152">Waltherus de Hof</persName> prefatus fatebatur, quod ipse ordinare debeat apud <persName ref="per027150">Johannem</persName>, filium suum carnalem, rectorem in <placeName ref="loc000849">Winterthur</placeName> predictum, ut idem
- <lb/><persName ref="per027150">Johannes</persName> pro tempore vite sue et quamdiu ecclesiam parrochialem in <placeName ref="loc000849">Winterthur</placeName> teneat, quod etiam eam pro nullo altero beneficio commutare seu permutare debeat.</seg>
-<lb/><seg n="2">Item quod idem <persName ref="per027150">Johannes</persName> rector, filius suus, personalem residentiam in oppido prefato teneat, dummodo etatem debitam seu annos maturos
-<lb/>attingat.<note>Die Präsenzpflicht des Rektors ist eines der Rechte, die König <persName ref="per000089">Rudolf</persName> den <orgName ref="org007943">Winterthurern</orgName> als Stadtherr 1275 bewilligt haben soll und die in einer städtischen Rechtsaufzeichnung von 1297 überliefert sind (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr. 7</ref>, Teil II, Artikel 2</bibl>). Die Praxis der Pfründenkumulation hatte offenbar dazu geführt, dass die Rektoren ihre seelsorgerischen Aufgaben in <placeName ref="loc000849">Winterthur</placeName> vernachlässigt hatten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1933</ref>, S. 6-8</bibl>.</note></seg>
-<seg n="3">Item quod ipse rector beneficia seu prebendas vacantes, quorum seu quarum collatio ad ipsum pertinet, personis talibus conferat, quas <orgName ref="org007943">schultetus ibidem
- <lb/>et consules</orgName> protunc existentes seu maior pars eorum ad hoc duxerint eligendas.</seg>
-<seg n="4">Item <persName ref="per027152">Waltherus</persName> prefatus fatebatur, etiam quod ipse ordinare de<lb break="no"/>beat, quod ipse <persName ref="per027150">Johannes</persName>, filius suus, rector ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, plebanatum uni persone ydonee et legali, que prefatis <orgName ref="org007943">schultetis et consulibus</orgName> ibidem
- <lb/>protunc existentibus vel maiori parti ipsorum placuerit, conferat ad <date dur="P1Y">anni</date> spacium et non ultra, nisi fiat de consensu prefatorum <orgName ref="org007943">sculteti et consulum oppidi
-  <lb/>prefati in <placeName ref="loc000849">Winterthur</placeName></orgName>.</seg>
-<seg n="5">Item <add place="above">quod</add> ordinare debeat aput <persName ref="per027150">Johannem</persName> rectorem prefatum, quod ipse cappellanos, altaristas, prebendarios seu quascumque religiosas perso<lb break="no"/>nas utriusque sexus, cuiuscumque gradus seu status fuerint, in <placeName ref="loc000849">Winterthur</placeName> morantes gaudere permittat conswetudinibus ad ipsos vel ad ipsas deductis.</seg>
-<lb/><seg n="6">Item et quod ordinare debeat, quod idem <persName ref="per027150">Johannes</persName> filius suus fabrice prefate ecclesie parrochiali in <placeName ref="loc000849">Winterthur</placeName> et iuribus et conswetudinibus sibi pertinentibus
-<lb/>et ab antiquo ad ipsam deductis in nulla parte detrahere vel diminuere presumat.</seg>
-<seg n="7">Et quod idem <persName ref="per027150">Johannes</persName> rector prefatus sub expensis suis
- <lb/><date dur="R/P1Y">annue</date>
-<num value="1">unum</num> cereum pascalem bene ornatum <date type="floating holiday">tempore pascali</date> procuret poni ad chorum ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName> et ad locum suum debitum.</seg>
-<seg>Item
-<lb/><persName ref="per027152">Watherus de Hof</persName> prefatus fatebatur, etiam quod ipse se ad omnia et singula de ipso et <persName ref="per027150">Johanne</persName> filio suo prescripta astrinxisset per iuramentum sollempniter interpositum, quod
- <lb/>etiam <orgName ref="org007943">schulteto et consulibus oppidi in <placeName ref="loc000849">Winterthur</placeName></orgName> prestasset. Et deinde promisit michi fide data nomine iuramenti, quod ipse <persName ref="per027150">Johannem</persName> rectorem
-<lb/>prefate ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, filium suum, ad servandum omnia et singula, que de ipso conscribuntur, inducere debeat et velit. Postea
-<lb/>vero prefatus <persName ref="per027150">Johannes</persName> rector ecclesie in <placeName ref="loc000849">Winterthur</placeName> promisit michi notario infrascripto fide data nomine iuramenti, ut omnia ista, que de ipso et
-<lb/><persName ref="per027152">Walthero</persName> patri suo premittuntur, fideliter et sine dolo servare velit et quod contra ipsa numquam facere vel venire debeat in iudicio
- <lb/>vel extra, quovis etiam ad hoc ingenio vel colore quesito.</seg>
-<seg>Et, ut hec in publicam formam redigerem, discretus <persName ref="per026937">Cuͦnradus de Sal</persName>, <orgName ref="org007943">schultetus,
-  <lb/>necnon consules oppidi in <placeName ref="loc000849">Winterthur</placeName></orgName> instanter me notarium publicum cum diligentia requisiverunt.</seg>
-<seg>Acta sunt hec anno, die, mense, hora,
-<lb/>loco, indictione, pontificatu quibus supra, presentibus discretis:<!-- Doppelpunkt, weil der folgende Einschub im Nominativ steht statt im Ablativ -->
-<persName role="testis" ref="per027147">Johannes dictus Tu̍rro</persName>, <persName role="testis" ref="per027045">Cuͦnradus Naͤgilli</persName>, <persName role="testis" ref="per027145">Johannes Cristan</persName>, <persName role="testis" ref="per027145">Johannes Cristan</persName>, <persName role="testis" ref="per027144">Johannes
- <lb/>Bader</persName> et <persName role="testis" ref="per027157">Cuͦnradus Sittkost</persName>, oppidani in <placeName ref="loc000849">Winterthur</placeName>, testibus ad premissa vocatis specialiter et rogatis.
- </seg></p>
-</div>
-<div>
-<signed><figure type="notarial sign"/>
-<lb/>Et ego <persName role="issuer" ref="per027153">Hainricus Jacobi</persName> de <placeName ref="loc000087">Augia maiori</placeName>, clericus <placeName ref="loc000923">Constanciensis</placeName> dyocesis, publicus imperiali auctoritate notarius iuratus, quia
-<lb/><sic>reconicioni</sic>, fassioni, <sic>astrincioni</sic> et promissioni aliisque et singulis premissis, dum, ut premittitur, agerentur et fierent, presens una
-<lb/>cum prenominatis testibus, temporibus et locis prescriptis interfui eaque sic fieri vidi et audivi, idcirco hoc presens publicum instrumentum
-<lb/>manu mea propria conscripsi et in hanc publicam formam redegi signoque meo solito et consueto signavi in testimonium
- <lb/>omnium premissorum.</signed>
-</div>
-<pb n="v" facs="STAW_URK_271_v.jpg
-"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c"><lb/>Instrumentum <persName ref="per027150">Johannis de Hof</persName>, rectoris ecclesie in <placeName ref="loc000849">Winterthur</placeName>,
- <lb/>super articulis per eum servandis</ab>
-</div>
-</body>
-<back>
-<div>
-<p>Das Patronatsrecht der <placeName ref="loc000849">Winterthurer</placeName> Pfarrkirche wurde von der Stadtherrschaft ausgeübt. In der Aufzeichnung der Rechte und Einkünfte der <orgName ref="org000088">Herzöge von Österreich</orgName> wird die Kollatur erwähnt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>). Die Präsentation eines Kandidaten delegierten die Fürsten bisweilen an den <orgName ref="org007943">Schultheissen und Rat</orgName>, wie eine Vollmacht von 1463 dokumentiert: <orig>wenn der kirchherr <persName ref="per027156">Conrad von Reischach</persName> mit tod abgeet, das dann die egenanten <orgName ref="org007943">schulthaiß und rat zu <placeName ref="loc000849">Wintertaur</placeName></orgName> den erbern priester <persName ref="per027154">Petern Keyser</persName> von <placeName ref="loc013155">Kempten</placeName> zu derselben pfarrkirchen zu sant <persName ref="per000268">Laurentzen</persName> dem bischof ze <placeName ref="loc000008">Costentz</placeName> presentirn mugen und sullen</orig> (<bibl>TLA Libri fragmentorum, Bd. 5, fol. 119r</bibl>). Zum Verfahren der Übertragung von Pfarrpfründen, Vorschlag eines Kandidaten gegenüber dem Bischof durch den Patronatsherrn, Bekanntgabe dieser Präsentation durch den zuständigen Landdekan im Auftrag des Generalvikars (Proklamation), Investitur des Kandidaten durch den Bischof, sofern auf die Proklamation keine Einsprache erfolgt war, und dessen Einführung durch den Landdekan, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Arend 2003</ref>, S. 197-203</bibl>.</p>
-<p>Die weltliche Kirchenaufsicht war von lehenrechtlichen Vorstellungen beeinflusst und beruhte auf vertraglicher Basis. Sie lag in der obrigkeitlichen Verantwortung für das Gemeinwohl begründet, welche auch die Sorge um das Seelenheil der Gemeindemitglieder umfasste, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Volkmar 2013</ref>, S. 114-119, 123-125</bibl>. Der Pflichtenkatalog der Rektoren der Pfarrkirche von <placeName ref="loc000849">Winterthur</placeName> wurde bis zur Reformation nur geringfügig modifiziert, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_200">SSRQ ZH NF I/2/1, Nr. 200</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_030</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW URK 271</idno></msIdentifier><head>Verpflichtung des Rektors der Pfarrkirche in Winterthur</head><msContents><summary>Vor dem Notar und Zeugen verpflichten sich Walter von Hof, Sohn des verstorbenen Liebhard, Bürger von Konstanz, und sein Sohn Johannes, Rektor der Pfarrkirche in Winterthur, zur Einhaltung folgender Bestimmungen: Walter von Hof soll dafür sorgen, dass sein Sohn Johannes seine Pfründe nicht eintauscht, solange er lebt oder im Besitz der Pfarrkirche ist (1). Johannes soll seinen Wohnsitz in der Stadt haben, sobald er mündig sein wird (2). Er soll vakante Pfründen, deren Kollatur ihm zusteht, den Kandidaten übertragen, die Schultheiss und Rat mehrheitlich gewählt haben (3). Walter soll seinen Sohn anhalten, die Leutpriesterstelle einer geeigneten Person, die dem Schultheissen und Rat mehrheitlich genehm ist, für den Zeitraum eines Jahres zu übertragen und nicht länger, es sei denn mit ihrer Zustimmung (4). Er soll Johannes veranlassen, dass die Kapläne, Altaristen, Pfründner und anderen geistlichen Personen beiderlei Geschlechts in Winterthur ihre gewohnten Einkünfte erhalten (5). Er soll dafür sorgen, dass Johannes die Rechte des Kirchenbaufonds wahrt (6). Der Rektor soll jedes Jahr auf eigene Kosten eine geschmückte Osterkerze am gewohnten Ort im Chor der Pfarrkirche aufstellen (7). Der Notar Heinrich Jakobi von Reichenau beglaubigt das Instrument, das er auf Bitten des Schultheissen Konrad von Sal und des Rats von Winterthur ausgestellt hat, mit seinem Notarzeichen unter Nennung der Zeugen Johannes Dürr, Konrad Nägeli, Johannes Christen, Johannes Christen, Johannes Bader und Konrad Sittkust, Einwohner von Winterthur.</summary><msItem><textLang>Latein</textLang><author role="scribe">Heinrich Jakobi von Reichenau, Notar</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="30.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1383-07-10"/><origPlace>Winterthur</origPlace></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000301">Pfarrer</term><term ref="key000113">Pfarrkirche</term><term ref="key000193">Pfründe</term><term ref="key000195">Präsentationsrecht</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="STAW_URK_271_r.jpg"/>
+                        <p>
+                            <seg><!-- Korrektur gelesen durch Fachstelle Latein -->
+                                <lb/>In nomine domini amen. Per hoc presens publicum instrumentum cunctis ipsum intuentibus pateat evidenter, quod <origDate when="1383-07-10">sub anno a nativitate eiusdem millesimo
+                                    <lb/>tricentesimo octuagesimo tercio, indictione iuxta stilum <placeName ref="loc000076">Romane</placeName> curie sexta, pontificatus sanctissimi in Christo patris et domini, domini <persName ref="per012263">Urbani</persName>
+                                    <lb/>dingna dei providencia pape sexti, anno ipsius sexto, mensis iulii die decima, hora primarum vel quasi</origDate>, in stupa domus sociorum
+                                <lb/>in <origPlace ref="loc000849">Winterthur</origPlace>, <placeName ref="loc000923">Constanciensis</placeName> dyocesis, in mei notarii publici et testium subscriptorum presencia personaliter <add place="above">constituti</add> discreti <persName ref="per027152">Waltherus de Hof</persName>, natus quondam
+                                <lb/><persName ref="per027151">Liephardi de Hof</persName>, civis <placeName ref="loc000008">Constanciensis</placeName>, et <persName ref="per027150">Johannes</persName> filius suus carnalis, rector ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, incolomes et sani mentis et corporis,
+                                <lb/>non vi nec metu compulsi nec dolo aliquo, ut asseruerunt, circumventi, sed sponte et libere ex certa scientia fatebantur hec infrascripta.</seg>
+                            <seg n="1">Et primo
+                                <lb/><persName ref="per027152">Waltherus de Hof</persName> prefatus fatebatur, quod ipse ordinare debeat apud <persName ref="per027150">Johannem</persName>, filium suum carnalem, rectorem in <placeName ref="loc000849">Winterthur</placeName> predictum, ut idem
+                                <lb/><persName ref="per027150">Johannes</persName> pro tempore vite sue et quamdiu ecclesiam parrochialem in <placeName ref="loc000849">Winterthur</placeName> teneat, quod etiam eam pro nullo altero beneficio commutare seu permutare debeat.</seg>
+                            <lb/><seg n="2">Item quod idem <persName ref="per027150">Johannes</persName> rector, filius suus, personalem residentiam in oppido prefato teneat, dummodo etatem debitam seu annos maturos
+                                <lb/>attingat.<note>Die Präsenzpflicht des Rektors ist eines der Rechte, die König <persName ref="per000089">Rudolf</persName> den <orgName ref="org007943">Winterthurern</orgName> als Stadtherr 1275 bewilligt haben soll und die in einer städtischen Rechtsaufzeichnung von 1297 überliefert sind (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_007">SSRQ ZH NF I/2/1, Nr. 7</ref>, Teil II, Artikel 2</bibl>). Die Praxis der Pfründenkumulation hatte offenbar dazu geführt, dass die Rektoren ihre seelsorgerischen Aufgaben in <placeName ref="loc000849">Winterthur</placeName> vernachlässigt hatten, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1933</ref>, S. 6-8</bibl>.</note></seg>
+                            <seg n="3">Item quod ipse rector beneficia seu prebendas vacantes, quorum seu quarum collatio ad ipsum pertinet, personis talibus conferat, quas <orgName ref="org007943">schultetus ibidem
+                                <lb/>et consules</orgName> protunc existentes seu maior pars eorum ad hoc duxerint eligendas.</seg>
+                            <seg n="4">Item <persName ref="per027152">Waltherus</persName> prefatus fatebatur, etiam quod ipse ordinare de<lb break="no"/>beat, quod ipse <persName ref="per027150">Johannes</persName>, filius suus, rector ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, plebanatum uni persone ydonee et legali, que prefatis <orgName ref="org007943">schultetis et consulibus</orgName> ibidem
+                                <lb/>protunc existentibus vel maiori parti ipsorum placuerit, conferat ad <date dur="P1Y">anni</date> spacium et non ultra, nisi fiat de consensu prefatorum <orgName ref="org007943">sculteti et consulum oppidi
+                                    <lb/>prefati in <placeName ref="loc000849">Winterthur</placeName></orgName>.</seg>
+                            <seg n="5">Item <add place="above">quod</add> ordinare debeat aput <persName ref="per027150">Johannem</persName> rectorem prefatum, quod ipse cappellanos, altaristas, prebendarios seu quascumque religiosas perso<lb break="no"/>nas utriusque sexus, cuiuscumque gradus seu status fuerint, in <placeName ref="loc000849">Winterthur</placeName> morantes gaudere permittat conswetudinibus ad ipsos vel ad ipsas deductis.</seg>
+                            <lb/><seg n="6">Item et quod ordinare debeat, quod idem <persName ref="per027150">Johannes</persName> filius suus fabrice prefate ecclesie parrochiali in <placeName ref="loc000849">Winterthur</placeName> et iuribus et conswetudinibus sibi pertinentibus
+                                <lb/>et ab antiquo ad ipsam deductis in nulla parte detrahere vel diminuere presumat.</seg>
+                            <seg n="7">Et quod idem <persName ref="per027150">Johannes</persName> rector prefatus sub expensis suis
+                                <lb/><date dur="R/P1Y">annue</date>
+                                <num value="1">unum</num> cereum pascalem bene ornatum <date type="floating holiday">tempore pascali</date> procuret poni ad chorum ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName> et ad locum suum debitum.</seg>
+                            <seg>Item
+                                <lb/><persName ref="per027152">Watherus de Hof</persName> prefatus fatebatur, etiam quod ipse se ad omnia et singula de ipso et <persName ref="per027150">Johanne</persName> filio suo prescripta astrinxisset per iuramentum sollempniter interpositum, quod
+                                <lb/>etiam <orgName ref="org007943">schulteto et consulibus oppidi in <placeName ref="loc000849">Winterthur</placeName></orgName> prestasset. Et deinde promisit michi fide data nomine iuramenti, quod ipse <persName ref="per027150">Johannem</persName> rectorem
+                                <lb/>prefate ecclesie parrochialis in <placeName ref="loc000849">Winterthur</placeName>, filium suum, ad servandum omnia et singula, que de ipso conscribuntur, inducere debeat et velit. Postea
+                                <lb/>vero prefatus <persName ref="per027150">Johannes</persName> rector ecclesie in <placeName ref="loc000849">Winterthur</placeName> promisit michi notario infrascripto fide data nomine iuramenti, ut omnia ista, que de ipso et
+                                <lb/><persName ref="per027152">Walthero</persName> patri suo premittuntur, fideliter et sine dolo servare velit et quod contra ipsa numquam facere vel venire debeat in iudicio
+                                <lb/>vel extra, quovis etiam ad hoc ingenio vel colore quesito.</seg>
+                            <seg>Et, ut hec in publicam formam redigerem, discretus <persName ref="per026937">Cuͦnradus de Sal</persName>, <orgName ref="org007943">schultetus,
+                                <lb/>necnon consules oppidi in <placeName ref="loc000849">Winterthur</placeName></orgName> instanter me notarium publicum cum diligentia requisiverunt.</seg>
+                            <seg>Acta sunt hec anno, die, mense, hora,
+                                <lb/>loco, indictione, pontificatu quibus supra, presentibus discretis:<!-- Doppelpunkt, weil der folgende Einschub im Nominativ steht statt im Ablativ -->
+                                <persName role="testis" ref="per027147">Johannes dictus Tu̍rro</persName>, <persName role="testis" ref="per027045">Cuͦnradus Naͤgilli</persName>, <persName role="testis" ref="per027145">Johannes Cristan</persName>, <persName role="testis" ref="per027145">Johannes Cristan</persName>, <persName role="testis" ref="per027144">Johannes
+                                    <lb/>Bader</persName> et <persName role="testis" ref="per027157">Cuͦnradus Sittkost</persName>, oppidani in <placeName ref="loc000849">Winterthur</placeName>, testibus ad premissa vocatis specialiter et rogatis.
+                            </seg></p>
+                    </div>
+                    <div>
+                        <signed><figure type="notarial sign"/>
+                            <lb/>Et ego <persName role="issuer" ref="per027153">Hainricus Jacobi</persName> de <placeName ref="loc000087">Augia maiori</placeName>, clericus <placeName ref="loc000923">Constanciensis</placeName> dyocesis, publicus imperiali auctoritate notarius iuratus, quia
+                            <lb/><sic>reconicioni</sic>, fassioni, <sic>astrincioni</sic> et promissioni aliisque et singulis premissis, dum, ut premittitur, agerentur et fierent, presens una
+                            <lb/>cum prenominatis testibus, temporibus et locis prescriptis interfui eaque sic fieri vidi et audivi, idcirco hoc presens publicum instrumentum
+                            <lb/>manu mea propria conscripsi et in hanc publicam formam redegi signoque meo solito et consueto signavi in testimonium
+                            <lb/>omnium premissorum.</signed>
+                    </div>
+                    <pb n="v" facs="STAW_URK_271_v.jpg
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c"><lb/>Instrumentum <persName ref="per027150">Johannis de Hof</persName>, rectoris ecclesie in <placeName ref="loc000849">Winterthur</placeName>,
+                            <lb/>super articulis per eum servandis</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das Patronatsrecht der <placeName ref="loc000849">Winterthurer</placeName> Pfarrkirche wurde von der Stadtherrschaft ausgeübt. In der Aufzeichnung der Rechte und Einkünfte der <orgName ref="org000088">Herzöge von Österreich</orgName> wird die Kollatur erwähnt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_013">SSRQ ZH NF I/2/1, Nr. 13</ref></bibl>). Die Präsentation eines Kandidaten delegierten die Fürsten bisweilen an den <orgName ref="org007943">Schultheissen und Rat</orgName>, wie eine Vollmacht von 1463 dokumentiert: <orig>wenn der kirchherr <persName ref="per027156">Conrad von Reischach</persName> mit tod abgeet, das dann die egenanten <orgName ref="org007943">schulthaiß und rat zu <placeName ref="loc000849">Wintertaur</placeName></orgName> den erbern priester <persName ref="per027154">Petern Keyser</persName> von <placeName ref="loc013155">Kempten</placeName> zu derselben pfarrkirchen zu sant <persName ref="per000268">Laurentzen</persName> dem bischof ze <placeName ref="loc000008">Costentz</placeName> presentirn mugen und sullen</orig> (<bibl>TLA Libri fragmentorum, Bd. 5, fol. 119r</bibl>). Zum Verfahren der Übertragung von Pfarrpfründen, Vorschlag eines Kandidaten gegenüber dem Bischof durch den Patronatsherrn, Bekanntgabe dieser Präsentation durch den zuständigen Landdekan im Auftrag des Generalvikars (Proklamation), Investitur des Kandidaten durch den Bischof, sofern auf die Proklamation keine Einsprache erfolgt war, und dessen Einführung durch den Landdekan, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Arend 2003</ref>, S. 197-203</bibl>.</p>
+                        <p>Die weltliche Kirchenaufsicht war von lehensrechtlichen Vorstellungen beeinflusst und beruhte auf vertraglicher Basis. Sie lag in der obrigkeitlichen Verantwortung für das Gemeinwohl begründet, welche auch die Sorge um das Seelenheil der Gemeindemitglieder umfasste, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Volkmar 2013</ref>, S. 114-119, 123-125</bibl>. Der Pflichtenkatalog der Rektoren der Pfarrkirche von <placeName ref="loc000849">Winterthur</placeName> wurde bis zur Reformation nur geringfügig modifiziert, vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_200">SSRQ ZH NF I/2/1, Nr. 200</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

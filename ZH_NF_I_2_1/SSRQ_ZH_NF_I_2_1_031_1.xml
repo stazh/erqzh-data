@@ -4,78 +4,79 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_031_1</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=617475">StAZH C I, Nr. 3147</idno></msIdentifier><head>Erläuterung betreffend die Verpfändung der Herrschaft Kyburg samt Gerichtsrechten in Winterthur durch Herzog Leopold von Österreich</head><msContents><summary>Herzog Leopold von Österreich erklärt, dass die Pfandschaft Kyburg, die er den Grafen Donat und Diethelm von Toggenburg verpfändet hat, wie im Fall des vorigen Pfandnehmers, des von Bonstetten, auch die Hochgerichtsbarkeit in der Stadt Winterthur umfasst.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="13.5"/><width unit="cm" quantity="29.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="slit" nontei:condition="absent"><persName role="sigillant">Herzog Leopold von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1384-11-19"/><origPlace>Brugg</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>ChSG, Bd. 10, Nr. 6046</bibl></listBibl><listBibl><head>Regest</head><bibl>URStAZH, Bd. 2, Nr. 3003</bibl></listBibl></additional></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key003737">Herrschaftsrechte</term><term ref="key000441">Pfand</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="StAZH_C_I__Nr__3147__r_.tif"/>
-<p>
-<lb/><seg>Wir, <persName ref="per000337">Leupolt, von gots gnaden herczog ze <placeName ref="loc000589"><choice><abbr>Oͤster</abbr><expan>Oͤsterreich</expan></choice></placeName>, ze <placeName ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454">Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>,
- <lb/>graf ze <placeName ref="loc000780">Tyrol</placeName>, marggraf ze <placeName ref="loc013197">Tervis</placeName></persName>
-<abbr>etc</abbr>, tuͦn kunt:</seg>
-<seg>Als wir den edeln, unsern lieben oheimen,
- <lb/><persName ref="per000328">graf Donaten</persName> und <persName ref="per013547">graf Dyethelmen von Toggenburg</persName>, gebruͤdern, versaczt haben den sacz
- <lb/>ze <placeName ref="loc000012">Kyburg</placeName> mit aller zugehoͤrung nach irs phands brief sag, den sy von uns daruͤber habent,<note>Die Pfandurkunde über den <orig>satz ze <placeName ref="loc000012">Kyburg</placeName></orig>, den die <orgName ref="org000144">Grafen von Toggenburg</orgName> von den Erben des <persName ref="per013324">Hans von Bonstetten</persName> ausgelöst hatten, samt der Burg und allem Zubehör, namentlich der Gerichtsbarkeit, datiert ebenfalls vom 19. November 1384 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=347302">StAZH C I, Nr. 1846</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, Bd. 10, Nr. 6045</bibl>).</note>
-<lb/>also mainen wir ernstlich, daz unser stat ze <placeName ref="loc000849">Winterthur</placeName> den <choice><abbr>egen</abbr><expan>egenanten</expan></choice>
-<orgName ref="org000144">von Toggenburg</orgName> mit dem
-<lb/>grozzen gericht über den tod und auch mit andern dingen gehorsam sein, als sy weilent
- <lb/>dem <persName ref="per013324">Bonstetter</persName>, der auch denselben satz von uns innhatt,<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/I, Nr. 214, S. 693</bibl>.</note> getan habent, ane alle geverde.</seg>
-<seg>Mit
-  <lb/>urchuͤnd ditz briefs, geben zu <origPlace ref="loc000195">Prukk</origPlace> in <placeName ref="loc000122">Ergoͤw</placeName>, <origDate when="1384-11-19">an sand <persName ref="per001476">Elspeten</persName> tag, nach Christs ge<lb break="no"/>buͤrt dreutzehenhundert jar, darnach in dem vyer und achtzigistem jare</origDate>.</seg>
-</p>
-</div>
-<div>
-<ab type="chancery notation" place="sub plica"><lb/>Dominus dux per <lb/><choice><abbr>d</abbr><expan>dictum</expan></choice><!-- Weil Hans von Ellerbach niederadlig und kein Geistlicher war, würde ich das "d" nicht als dominum auflösen wie ChSG -->
-<persName ref="per027158">Elrbach</persName>, <choice><abbr>mca</abbr><expan>magistrum camere</expan></choice>,<note>Zum Kammermeister <persName ref="per027158">Hans von Ellerbach</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Lackner 2002</ref>, S. 98-99</bibl>.</note>
-<lb/>et <persName ref="per003270">Wernherum Pincernam <lb/>de Bremgarten</persName><note>Zu <persName ref="per003270">Werner Schenk von Bremgarten</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HBLS</ref>, Bd. 6, S. 159</bibl>.</note></ab>
-</div>
-<pb n="v" facs="StAZH_C_I__Nr__3147__v_.tif
-"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c"><lb/>B<supplied resp="bf">rief</supplied>, daz die statt ze <placeName ref="loc000849">Wintertur</placeName> mitt den <lb/>hohen gerichten gen <placeName ref="loc000012">Kiburg</placeName> gewertig <lb/>sin sol <add place="below" hand="later hand"><date when="1384">1384</date></add></ab>
-</div>
-</body>
-<back>
-<div>
-<p>Die Ausübung der Blutsgerichtsbarkeit in der Herrschaft <placeName ref="loc000012">Kyburg</placeName>, und somit auch in <placeName ref="loc000849">Winterthur</placeName>, stand ursprünglich den Inhabern der Landgrafschaft <placeName ref="loc000777">Thurgau</placeName> zu, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Blumer 1908</ref>, S. 40-43</bibl>. Derartige Rechte waren mit Einkünften verbunden und dienten daher oft als Pfandobjekt. Zur habsburgischen Pfandpolitik vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sablonier 2000</ref>, S. 162-163</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Speck 1994</ref>, Bd. 1, S. 45-49</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Marchal 1986</ref>, S. 59-64, 75-78</bibl>.</p>
-<p>Mit der Aberkennung der Herrschaftsrechte <persName ref="per000346">Herzog Friedrichs von Österreich</persName> durch König <persName ref="per000712">Sigmund</persName> im Jahr 1415 wurde <placeName ref="loc000849">Winterthur</placeName> reichsunmittelbar. Der König verlieh daraufhin dem <orgName ref="org007943">Schultheissen und Rat</orgName> die Gerichtsrechte und den Blutbann in der Stadt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_051">SSRQ ZH NF I/2/1, Nr. 51</ref></bibl>).
- </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_031_1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=617475">StAZH C I, Nr. 3147</idno></msIdentifier><head>Erläuterung betreffend die Verpfändung der Herrschaft Kyburg samt Gerichtsrechten in Winterthur durch Herzog Leopold von Österreich</head><msContents><summary>Herzog Leopold von Österreich erklärt, dass die Pfandschaft Kyburg, die er den Grafen Donat und Diethelm von Toggenburg verpfändet hat, wie im Fall des vorigen Pfandnehmers, des von Bonstetten, auch die Hochgerichtsbarkeit in der Stadt Winterthur umfasst.</summary><msItem><textLang>Deutsch</textLang><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="13.5"/><width unit="cm" quantity="29.0"/></dimensions><dimensions type="plica"><width unit="cm" quantity="4.0"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="slit" nontei:condition="absent"><persName role="sigillant">Herzog Leopold von Österreich</persName></seal></sealDesc></physDesc><history><origin><origDate when="1384-11-19"/><origPlace>Brugg</origPlace></origin></history><additional><listBibl><head>Edition</head><bibl>ChSG, Bd. 10, Nr. 6046</bibl></listBibl><listBibl><head>Regest</head><bibl>URStAZH, Bd. 2, Nr. 3003</bibl></listBibl></additional></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key003994">Hochgerichtsbarkeit</term><term ref="key003737">Herrschaftsrechte</term><term ref="key000441">Pfand</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="StAZH_C_I__Nr__3147__r_.tif"/>
+                        <p>
+                            <lb/><seg>Wir, <persName ref="per000337">Leupolt, von gots gnaden herczog ze <placeName ref="loc000589"><choice><abbr>Oͤster</abbr><expan>Oͤsterreich</expan></choice></placeName>, ze <placeName ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454">Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>,
+                                <lb/>graf ze <placeName ref="loc000780">Tyrol</placeName>, marggraf ze <placeName ref="loc013197">Tervis</placeName></persName>
+                                <abbr>etc</abbr>, tuͦn kunt:</seg>
+                            <seg>Als wir den edeln, unsern lieben oheimen,
+                                <lb/><persName ref="per000328">graf Donaten</persName> und <persName ref="per013547">graf Dyethelmen von Toggenburg</persName>, gebruͤdern, versaczt haben den sacz
+                                <lb/>ze <placeName ref="loc000012">Kyburg</placeName> mit aller zugehoͤrung nach irs phands brief sag, den sy von uns daruͤber habent,<note>Die Pfandurkunde über den <orig>satz ze <placeName ref="loc000012">Kyburg</placeName></orig>, den die <orgName ref="org000144">Grafen von Toggenburg</orgName> von den Erben des <persName ref="per013324">Hans von Bonstetten</persName> ausgelöst hatten, samt der Burg und allem Zubehör, namentlich der Gerichtsbarkeit, datiert ebenfalls vom 19. November 1384 (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=347302">StAZH C I, Nr. 1846</ref></bibl>; Edition: <bibl><ref target="/startseite/literaturverzeichnis">ChSG</ref>, Bd. 10, Nr. 6045</bibl>).</note>
+                                <lb/>also mainen wir ernstlich, daz unser stat ze <placeName ref="loc000849">Winterthur</placeName> den <choice><abbr>egen</abbr><expan>egenanten</expan></choice>
+                                <orgName ref="org000144">von Toggenburg</orgName> mit dem
+                                <lb/>grozzen gericht über den tod und auch mit andern dingen gehorsam sein, als sy weilent
+                                <lb/>dem <persName ref="per013324">Bonstetter</persName>, der auch denselben satz von uns innhatt,<note>Vgl. <bibl><ref target="/startseite/literaturverzeichnis">Habsburgisches Urbar</ref>, Bd. 2/I, Nr. 214, S. 693</bibl>.</note> getan habent, ane alle geverde.</seg>
+                            <seg>Mit
+                                <lb/>urchuͤnd ditz briefs, geben zu <origPlace ref="loc000195">Prukk</origPlace> in <placeName ref="loc010971">Ergoͤw</placeName>, <origDate when="1384-11-19">an sand <persName ref="per001476">Elspeten</persName> tag, nach Christs ge<lb break="no"/>buͤrt dreutzehenhundert jar, darnach in dem vyer und achtzigistem jare</origDate>.</seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="chancery notation" place="sub plica"><lb/>Dominus dux per <lb/><choice><abbr>d</abbr><expan>dictum</expan></choice><!-- Weil Hans von Ellerbach niederadlig und kein Geistlicher war, würde ich das "d" nicht als dominum auflösen wie ChSG -->
+                            <persName ref="per027158">Elrbach</persName>, <choice><abbr>mca</abbr><expan>magistrum camere</expan></choice>,<note>Zum Kammermeister <persName ref="per027158">Hans von Ellerbach</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">Lackner 2002</ref>, S. 98-99</bibl>.</note>
+                            <lb/>et <persName ref="per003270">Wernherum Pincernam <lb/>de Bremgarten</persName><note>Zu <persName ref="per003270">Werner Schenk von Bremgarten</persName> vgl. <bibl><ref target="/startseite/literaturverzeichnis">HBLS</ref>, Bd. 6, S. 159</bibl>.</note></ab>
+                    </div>
+                    <pb n="v" facs="StAZH_C_I__Nr__3147__v_.tif
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c"><lb/>B<supplied resp="bf">rief</supplied>, daz die statt ze <placeName ref="loc000849">Wintertur</placeName> mitt den <lb/>hohen gerichten gen <placeName ref="loc000012">Kiburg</placeName> gewertig <lb/>sin sol <add place="below" hand="later hand"><date when="1384">1384</date></add></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Ausübung der Blutsgerichtsbarkeit in der Herrschaft <placeName ref="loc000012">Kyburg</placeName>, und somit auch in <placeName ref="loc000849">Winterthur</placeName>, stand ursprünglich den Inhabern der Landgrafschaft <placeName ref="loc000777">Thurgau</placeName> zu, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Blumer 1908</ref>, S. 40-43</bibl>. Derartige Rechte waren mit Einkünften verbunden und dienten daher oft als Pfandobjekt. Zur habsburgischen Pfandpolitik vgl. <bibl><ref target="/startseite/literaturverzeichnis">Sablonier 2000</ref>, S. 162-163</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Speck 1994</ref>, Bd. 1, S. 45-49</bibl>; <bibl><ref target="/startseite/literaturverzeichnis">Marchal 1986</ref>, S. 59-64, 75-78</bibl>.</p>
+                        <p>Mit der Aberkennung der Herrschaftsrechte <persName ref="per000346">Herzog Friedrichs von Österreich</persName> durch König <persName ref="per000712">Sigmund</persName> im Jahr 1415 wurde <placeName ref="loc000849">Winterthur</placeName> reichsunmittelbar. Der König verlieh daraufhin dem <orgName ref="org007943">Schultheissen und Rat</orgName> die Gerichtsrechte und den Blutbann in der Stadt (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_051">SSRQ ZH NF I/2/1, Nr. 51</ref></bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
