@@ -4,75 +4,77 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_243</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 3a/1, fol. 61r (Eintrag 1)</idno></msIdentifier><head>Arbeitszeugnis für Christoph Volman von Elgg durch den Winterthurer Metzger Rudolf Sulzer</head><msContents><summary>Der Metzger Rudolf Sulzer, Bürger von Winterthur, bescheinigt, dass Christoph Volman von Elgg das Metzgerhandwerk bei Rudolf Eschenberg, Bürger und Mitglied des Rats von Winterthur, gelernt und bis zu Eschenbergs Tod dort gearbeitet habe. Seither sei Volman bei ihm beschäftigt gewesen. Sulzer erklärt an Eides statt, dass Volman sich bei ihm einwandfrei verhalten habe und mit gutem Lob aus seinen Diensten geschieden sei. Auf Bitte des Ausstellers siegelt Hans Winmann, Schultheiss von Winterthur.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1527-01-01" to="1531-12-31">Undatiert, Datierung nach vorhergehender datierter Aufzeichnung und Amtszeit des Schultheissen</origDate></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000924">Arbeit</term><term ref="key004749">Ausbildung</term><term ref="key001004">Bescheinigung</term><term ref="key000849">Handwerk</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="61r" facs="STAW_B_3a_1_61r.jpg"/><!-- es gibt eine originale Foliierung, aber ich gebe die moderne an -->
-<head><lb/>Ein zugsame, so ein meister sinem <lb/>knaͤcht gibt, das er im fromklich, erlich <lb/>und woll gediennett hab</head>
-<p>
-<lb/><seg>Ich, <persName role="issuer" ref="per027639">Ruͦdolff Sultzer</persName>, der metzger, <choice><sic>burger burger</sic><corr>burger</corr></choice> zuͦ <placeName ref="loc000849">Winterthur</placeName>,
- <lb/>beken und thuͦn kund allermaͤnglichem ofenlich mit disem brie<damage agent="clipping"><supplied resp="bf">ff</supplied></damage>:</seg>
-<lb/><seg>Als dan der erber <persName ref="per028039">Stofell Volman</persName> von <placeName ref="loc001005">Elgoͤw</placeName> by willant dem ersamen
- <lb/><persName ref="per028038">Ruͦdolff Eschenberg</persName>, burger und des <orgName ref="org005587">rātz zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, saͤllig, bitz an sinen
- <lb/>tod gsin und by im das metzger hantwerch gelernet, ouch demnach
- <lb/>von im zuͦ mir komen und by mir bitz uff yetz naͤchst verschinenn
- <lb/><date type="deadline_floating holiday">heren fasnacht</date> in dienst wiß gewaͤsen <abbr>etc</abbr>, hierumb so sag und bezüg
- <lb/>ich by bidermans tru̍w an geschworen eids statt, wie mir dan das
- <lb/>zethuͦn gepürt, hirmit in crafft ditz brieffs, das gedachter <persName ref="per028039">Stofell
- <lb/>Volman</persName> mir bitz uff vorgemaͤlt zill, und die will er by mir gewaͤssen,
- <lb/>fromklich, erlich und woll (wie dan einem fromen zimpt) gedientt
- <lb/>und mit guͦtem lob, unverlupt<!-- Gegenteil: verlübden (?) = s. durch Gelübde verpflichten --> alles argen, anders mir nit wusentt,
- <lb/>von mir gescheiden und gu̍etigem urlob komen ist.</seg>
-<seg>Und des zuͦ
- <lb/>offem, warem urkund hab ich im disen brieff uff sin begaͤr mitt
- <lb/>des fromen, ersamen, wisen <persName role="sigillant" ref="per027652">Hans Winman</persName>, der zitt schultheis
- <lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName>,<note><persName ref="per027652">Hans Winmann</persName> amtierte regelmässig zwischen 1507 und 1531 als Schultheiss der Stadt <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 91</bibl>).</note> mins lieben heren, eigen ingedrucktem insigell
- <lb/>von miner ernstlichen pitt waͤgen, doch im, ouch mir und unser
- <lb/>beder erben one schaden, besiglatt, gaͤben an <origDate>sambstags vor
-  <lb/>sant <abbr>N</abbr><!-- könnte Nikolaus gemeint sein, aber vielleicht auch im Sinne von "NN"? -->, nach Cristy gepurt <abbr>etc</abbr></origDate>.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Das vorliegende Zeugnis ist im Formularbuch des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> überliefert (<bibl>STAW B 3a/1</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_243</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 3a/1, fol. 61r (Eintrag 1)</idno></msIdentifier><head>Arbeitszeugnis für Christoph Volman von Elgg durch den Winterthurer Metzger Rudolf Sulzer</head><msContents><summary>Der Metzger Rudolf Sulzer, Bürger von Winterthur, bescheinigt, dass Christoph Volman von Elgg das Metzgerhandwerk bei Rudolf Eschenberg, Bürger und Mitglied des Rats von Winterthur, gelernt und bis zu Eschenbergs Tod dort gearbeitet habe. Seither sei Volman bei ihm beschäftigt gewesen. Sulzer erklärt an Eides statt, dass Volman sich bei ihm einwandfrei verhalten habe und mit gutem Lob aus seinen Diensten geschieden sei. Auf Bitte des Ausstellers siegelt Hans Winmann, Schultheiss von Winterthur.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Gebhard Hegner</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1527-01-01" to="1531-12-31">Undatiert, Datierung nach vorhergehender datierter Aufzeichnung und Amtszeit des Schultheissen</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000924">Arbeit</term><term ref="key004749">Ausbildung</term><term ref="key001004">Bescheinigung</term><term ref="key000849">Handwerk</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="61r" facs="STAW_B_3a_1_61r.jpg"/><!-- es gibt eine originale Foliierung, aber ich gebe die moderne an -->
+                        <head><lb/>Ein zugsame, so ein meister sinem <lb/>knaͤcht gibt, das er im fromklich, erlich <lb/>und woll gediennett hab</head>
+                        <p>
+                            <lb/><seg>Ich, <persName role="issuer" ref="per027639">Ruͦdolff Sultzer</persName>, der metzger, <choice><sic>burger burger</sic><corr>burger</corr></choice> zuͦ <placeName ref="loc000849">Winterthur</placeName>,
+                                <lb/>beken und thuͦn kund allermaͤnglichem ofenlich mit disem brie<damage agent="clipping"><supplied resp="bf">ff</supplied></damage>:</seg>
+                            <lb/><seg>Als dan der erber <persName ref="per028039">Stofell Volman</persName> von <placeName ref="loc001005">Elgoͤw</placeName> by willant dem ersamen
+                                <lb/><persName ref="per028038">Ruͦdolff Eschenberg</persName>, burger und des <orgName ref="org005587">rātz zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, saͤllig, bitz an sinen
+                                <lb/>tod gsin und by im das metzger hantwerch gelernet, ouch demnach
+                                <lb/>von im zuͦ mir komen und by mir bitz uff yetz naͤchst verschinenn
+                                <lb/><date type="deadline_floating holiday">heren fasnacht</date> in dienst wiß gewaͤsen <abbr>etc</abbr>, hierumb so sag und bezüg
+                                <lb/>ich by bidermans tru̍w an geschworen eids statt, wie mir dan das
+                                <lb/>zethuͦn gepürt, hirmit in crafft ditz brieffs, das gedachter <persName ref="per028039">Stofell
+                                    <lb/>Volman</persName> mir bitz uff vorgemaͤlt zill, und die will er by mir gewaͤssen,
+                                <lb/>fromklich, erlich und woll (wie dan einem fromen zimpt) gedientt
+                                <lb/>und mit guͦtem lob, unverlupt<!-- Gegenteil: verlübden (?) = s. durch Gelübde verpflichten --> alles argen, anders mir nit wusentt,
+                                <lb/>von mir gescheiden und gu̍etigem urlob komen ist.</seg>
+                            <seg>Und des zuͦ
+                                <lb/>offem, warem urkund hab ich im disen brieff uff sin begaͤr mitt
+                                <lb/>des fromen, ersamen, wisen <persName role="sigillant" ref="per027652">Hans Winman</persName>, der zitt schultheis
+                                <lb/>zuͦ <placeName ref="loc000849">Winterthur</placeName>,<note><persName ref="per027652">Hans Winmann</persName> amtierte regelmässig zwischen 1507 und 1531 als Schultheiss der Stadt <placeName ref="loc000849">Winterthur</placeName> (<bibl><ref target="/startseite/literaturverzeichnis">Ziegler 1919</ref>, S. 91</bibl>).</note> mins lieben heren, eigen ingedrucktem insigell
+                                <lb/>von miner ernstlichen pitt waͤgen, doch im, ouch mir und unser
+                                <lb/>beder erben one schaden, besiglatt, gaͤben an <origDate>sambstags vor
+                                    <lb/>sant <abbr>N</abbr>, nach Cristy gepurt <abbr>etc</abbr></origDate>.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das vorliegende Zeugnis ist im Formularbuch des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> überliefert (<bibl>STAW B 3a/1</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

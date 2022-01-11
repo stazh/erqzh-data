@@ -4,75 +4,77 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_225</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/7, S. 356 (Eintrag 2)</idno></msIdentifier><head>Verordnung über den Weinpreis in den Wirtschaften in Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur ordnen an, dass ein Wirt Wein höchstens 1 Pfennig pro Mass teurer ausschenken darf als die Bürger. Wenn ein Wirt ausländischen Wein von guter Qualität zu einem höheren Preis eingekauft hat, kann er sich an den Weinschätzer wenden, der zusammen mit zwei Mitgliedern des Kleinen Rats und einem Mitglied des Grossen Rats, die der Schultheiss auswählt, den Wert bestimmen soll. An diese Vorgabe hat der Wirt sich bei seinem Eid zu halten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1521-10-30"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000764">Preise</term><term ref="key000129">Wein</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="356"/>
-<p><lb/>Actum <origDate when="1521-10-30">mitwochen post <lb/><orgName ref="org001531"><persName ref="per001498">Simonis</persName> und <persName ref="per001499">Jude</persName></orgName>, anno xxj<hi rend="sup">o</hi></origDate></p>
-<p>
-<gap reason="irrelevant"/><note>Es folgt ein Eintrag betreffend die Weinrechnung.</note>
-</p>
-<p>
-<seg><lb/>Item mine heren, <orgName ref="org007944">beid raͤt</orgName>, habent sich ein<lb break="no"/>helliklichen entschlossen von wegen ir offen wirten
-<lb/>also, das nu̍n hinfu̍r kein wirt in ir statt
-<lb/>den win in sinem hus vom zapffen nit tu̍rer schencken<!-- Grimm: Wein vom Zapfen schenken - in kleinen Portionen, nicht fassweise verkaufen -->
-<lb/>sol dann <measure type="volume" unit="Mass" quantity="1">j mas</measure>
-<measure type="currency" unit="d" quantity="1">j ₰</measure> tu̍rer, dann er sunst vom zapffen
-<lb/>von burgern geschenckt wirt.</seg>
-<seg>Es sige dann sach,
-<lb/>das ein wirt so guͦt win hette kouft von frembden
-<lb/>landen umb sovil geltz, das er in nit also moͤchte
-<lb/>gen, sol er den selben win dem geschwornen schaͤtzer
-<lb/>an zoͤigen, der sol zum schultheißen gan, der sol im <num value="2">zwen</num>
-<lb/>vom <orgName ref="org005587">cleinen rat</orgName> und <num value="1">einen</num> vom <orgName ref="org009293">großen rat</orgName> zuͦ gen,
-<lb/>die unparthysch sind, die selbigen soͤllen im den selben
- <lb/>win schaͤtzen.<note>In einer jüngeren Satzung, die 1534 der Gemeinde <placeName ref="loc001005">Elgg</placeName> übermittelt worden ist, wird den Wirten eingeräumt, hochwertige Weine bis zu 3 Pfennig pro Mass teurer zu verkaufen (<bibl>ZGA Elgg IV A 3a, fol. 98r</bibl>).</note> Und wie sy im den schaͤtzent, also
-<lb/>sol er den selben vom zapffen gen und anders nit,
-<lb/>by geschwornem eid.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Die <placeName ref="loc000849">Winterthurer</placeName> Wirte mussten die Fässer vor dem Anstechen durch die vereidigten Weinschätzer taxieren lassen (Amtseid: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_141">SSRQ ZH NF I/2/1, Nr. 141</ref></bibl>). Waren diese nicht erreichbar, sollten sich die Wirte an den Schultheissen oder ein Mitglied des <orgName ref="org005587">Rats</orgName> wenden, wie ein Ratsbeschluss aus dem Jahr 1478 vorschrieb (<bibl>STAW B 2/2, fol. 31r</bibl>; <bibl>STAW B 2/3, S. 365</bibl>). 1490 wurde die Bestimmung dahingehend präzisiert, dass in die begutachteten und markierten Fässer nur Wein nachgefüllt werden durfte, der geschätzt worden war. Neben den Wirten wurden auch ihre Frauen, Kinder und Dienstleute zur Einhaltung dieser Bestimmung verpflichtet (<bibl>STAW B 2/5, S. 405</bibl>). Wer mehr Wein ausschenkte, als geschätzt worden war, wurde bestraft (<bibl>STAW B 2/3, S. 248</bibl>).</p>
-<p>Ein weiteres Beispiel für die obrigkeitliche Preisegulierung bei Waren und Dienstleistungen sind die im Rahmen einer Tagsatzung der <orgName ref="org000531">eidgenössischen Orte</orgName> im Juni 1532 vereinbarten Vorgaben, zu welchem Preis ein Wirt seine Speisen und die Versorgung der Pferde der Gäste anbieten durfte (<bibl><ref target="/startseite/literaturverzeichnis">EA</ref>, <ref target="https://digital.ub.uni-duesseldorf.de/ihd/content/pageview/350335">Bd. 4/1b, Nr. 717h</ref>, <ref target="https://digital.ub.uni-duesseldorf.de/ihd/content/pageview/350353">Nr. 727p</ref></bibl>). Die <orgName ref="org002406">Zürcher</orgName> informierten die <orgName ref="org007943">Winterthurer</orgName> am 31. Juli 1532 über den Beschluss, verbunden mit der Aufforderung, diesen zu verkünden, durchzusetzen und Übertretungen zu ahnden (<bibl>STAW AH 105/2</bibl>). Am 11. November 1590 erliessen der Schultheiss, der <orgName ref="org005587">Kleine Rat</orgName> und mehrere beigezogene Mitglieder des <orgName ref="org009293">Grossen Rats</orgName> eine Ordnung für die Tavernenwirte und die Zapfenwirte, die ihren Gästen zum Wein nur Käse und Brot anbieten durften (<bibl>STAW B 2/8, S. 445-449</bibl>; Entwurf: <bibl>STAW AH 105/3</bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_225</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/7, S. 356 (Eintrag 2)</idno></msIdentifier><head>Verordnung über den Weinpreis in den Wirtschaften in Winterthur</head><msContents><summary>Beide Räte der Stadt Winterthur ordnen an, dass ein Wirt Wein höchstens 1 Pfennig pro Mass teurer ausschenken darf als die Bürger. Wenn ein Wirt ausländischen Wein von guter Qualität zu einem höheren Preis eingekauft hat, kann er sich an den Weinschätzer wenden, der zusammen mit zwei Mitgliedern des Kleinen Rats und einem Mitglied des Grossen Rats, die der Schultheiss auswählt, den Wert bestimmen soll. An diese Vorgabe hat der Wirt sich bei seinem Eid zu halten.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Josua Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1521-10-30"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000764">Preise</term><term ref="key000129">Wein</term><term ref="key000758">Wirtshaus</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="356"/>
+                        <p><lb/>Actum <origDate when="1521-10-30">mitwochen post <lb/><orgName ref="org001531"><persName ref="per001498">Simonis</persName> und <persName ref="per001499">Jude</persName></orgName>, anno xxj<hi rend="sup">o</hi></origDate></p>
+                        <p>
+                            <gap reason="irrelevant"/><note>Es folgt ein Eintrag betreffend die Weinrechnung.</note>
+                        </p>
+                        <p>
+                            <seg><lb/>Item mine heren, <orgName ref="org007944">beid raͤt</orgName>, habent sich ein<lb break="no"/>helliklichen entschlossen von wegen ir offen wirten
+                                <lb/>also, das nu̍n hinfu̍r kein wirt in ir statt
+                                <lb/>den win in sinem hus vom zapffen nit tu̍rer schencken<!-- Grimm: Wein vom Zapfen schenken - in kleinen Portionen, nicht fassweise verkaufen -->
+                                <lb/>sol dann <measure type="volume" unit="Mass" quantity="1">j mas</measure>
+                                <measure type="currency" unit="d" quantity="1">j ₰</measure> tu̍rer, dann er sunst vom zapffen
+                                <lb/>von burgern geschenckt wirt.</seg>
+                            <seg>Es sige dann sach,
+                                <lb/>das ein wirt so guͦt win hette kouft von frembden
+                                <lb/>landen umb sovil geltz, das er in nit also moͤchte
+                                <lb/>gen, sol er den selben win dem geschwornen schaͤtzer
+                                <lb/>an zoͤigen, der sol zum schultheißen gan, der sol im <num value="2">zwen</num>
+                                <lb/>vom <orgName ref="org005587">cleinen rat</orgName> und <num value="1">einen</num> vom <orgName ref="org009293">großen rat</orgName> zuͦ gen,
+                                <lb/>die unparthysch sind, die selbigen soͤllen im den selben
+                                <lb/>win schaͤtzen.<note>In einer jüngeren Satzung, die 1534 der Gemeinde <placeName ref="loc001005">Elgg</placeName> übermittelt worden ist, wird den Wirten eingeräumt, hochwertige Weine bis zu 3 Pfennig pro Mass teurer zu verkaufen (<bibl>ZGA Elgg IV A 3a, fol. 98r</bibl>).</note> Und wie sy im den schaͤtzent, also
+                                <lb/>sol er den selben vom zapffen gen und anders nit,
+                                <lb/>by geschwornem eid.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die <placeName ref="loc000849">Winterthurer</placeName> Wirte mussten die Fässer vor dem Anstechen durch die vereidigten Weinschätzer taxieren lassen (Amtseid: <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_141">SSRQ ZH NF I/2/1, Nr. 141</ref></bibl>). Waren diese nicht erreichbar, sollten sich die Wirte an den Schultheissen oder ein Mitglied des <orgName ref="org005587">Rats</orgName> wenden, wie ein Ratsbeschluss aus dem Jahr 1478 vorschrieb (<bibl>STAW B 2/2, fol. 31r</bibl>; <bibl>STAW B 2/3, S. 365</bibl>). 1490 wurde die Bestimmung dahingehend präzisiert, dass in die begutachteten und markierten Fässer nur Wein nachgefüllt werden durfte, der geschätzt worden war. Neben den Wirten wurden auch ihre Frauen, Kinder und Dienstleute zur Einhaltung dieser Bestimmung verpflichtet (<bibl>STAW B 2/5, S. 405</bibl>). Wer mehr Wein ausschenkte, als geschätzt worden war, wurde bestraft (<bibl>STAW B 2/3, S. 248</bibl>).</p>
+                        <p>Ein weiteres Beispiel für die obrigkeitliche Preisegulierung bei Waren und Dienstleistungen sind die im Rahmen einer Tagsatzung der <orgName ref="org000531">eidgenössischen Orte</orgName> im Juni 1532 vereinbarten Vorgaben, zu welchem Preis ein Wirt seine Speisen und die Versorgung der Pferde der Gäste anbieten durfte (<bibl><ref target="/startseite/literaturverzeichnis">EA</ref>, <ref target="https://digital.ub.uni-duesseldorf.de/ihd/content/pageview/350335">Bd. 4/1b, Nr. 717h</ref>, <ref target="https://digital.ub.uni-duesseldorf.de/ihd/content/pageview/350353">Nr. 727p</ref></bibl>). Die <orgName ref="org002406">Zürcher</orgName> informierten die <orgName ref="org007943">Winterthurer</orgName> am 31. Juli 1532 über den Beschluss, verbunden mit der Aufforderung, diesen zu verkünden, durchzusetzen und Übertretungen zu ahnden (<bibl>STAW AH 105/2</bibl>). Am 11. November 1590 erliessen der Schultheiss, der <orgName ref="org005587">Kleine Rat</orgName> und mehrere beigezogene Mitglieder des <orgName ref="org009293">Grossen Rats</orgName> eine Ordnung für die Tavernenwirte und die Zapfenwirte, die ihren Gästen zum Wein nur Käse und Brot anbieten durften (<bibl>STAW B 2/8, S. 445-449</bibl>; Entwurf: <bibl>STAW AH 105/3</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

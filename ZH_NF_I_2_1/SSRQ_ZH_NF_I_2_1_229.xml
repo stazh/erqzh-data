@@ -4,99 +4,101 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_229</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 3e/54, fol. 62r</idno></msIdentifier><head>Pfrundvertrag zwischen dem Spital in Winterthur und Laurenz Frei</head><msContents><summary>Die beiden Pfleger des Spitals der Stadt Winterthur, Hans Meyer und Gebhard Hegner, sowie der Spitalmeister Hans Göschel haben Laurenz Frei von Zollikon mit Einverständnis des Schultheissen und Rats von Winterthur eine Pfrund in der Knechtstube am Tisch der gemeinen Pfründner für 240 Pfund verkauft. Somit erhält Frei auf Lebenszeit Unterkunft und Verpflegung im Spital zu genannten Konditionen sowie jährlich einen Zins von 6 Pfund von 60 Pfund als Leibrente. Nach seinem Tod soll sein Erbe wie bei anderen Pfründnern an das Spital fallen. Frei soll stets den Nutzen des Spitals fördern und Schaden von ihm abwenden. Die Aussteller verbürgen sich für die Einhaltung dieser Zusagen. Die Aussteller siegeln mit dem Sekretsiegel des Spitals.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Nussbaumer</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1522-09-14"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000116">Altersversorgung</term><term ref="key000920">Nachlass</term><term ref="key003559">Spital</term><term ref="key000817">Vertrag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb type="original" n="62r"/>
-<p><seg>
-<lb/>Wir, <persName role="issuer" ref="per027477">Hans Meyer</persName> und <persName role="issuer" ref="per014937">Gebhart Hegner</persName>, zuͦ der zyt pflaͤger, mit sampt <persName role="issuer" ref="per027393">Klein Hansen
- <lb/>Goͤuschel</persName>, oͧch zuͦ der zyt spyttalmeister des <orgName ref="org007934">spyttals</orgName> zuͦ <placeName ref="loc000849">Winterthur</placeName>, hand
-<lb/>ze kouffen geben, und das us gunst und willen einß <orgName ref="org007943">schulthassen und rautz</orgName>,
-<lb/>dem <persName ref="per027360">Laurentzen Fryen</persName> von <placeName ref="loc010889">Zollickon</placeName> ein pfruͦnd alhie in unserem <orgName ref="org007934">spyttal</orgName> in der
-<lb/>knaͤchten stuben an der gmeinen pfruͤnder tisch, wie dan der gehalten
-<lb/>wirt mit anderen sines glichen pfruͤndern, also in der form und gestalt, wie
-<lb/>dan vor nacher mit luteren worten erscheint wirt.</seg>
-<seg>Nammlich und zumm<!-- an PS: wie den Nasalstrich auflösen? etwa "zumb" in Analogie zu "umb"? Gibt es da irgendeine Regel, wann man es als "m" und wann man es als "b" auflösen soll? Der Schreiber gibt keinen Anhaltspunkt. PS: es gibt keine Regel, aber ich würde auf einen lesbaren Text hinarbeiten und dementsprechend normalisieren, d.h. doppelte mm oder sogar einfache m. Konsequente Handhabung im selben Stück. Wenn Du Dich dafür entscheidest, mm zu m zu normalisieren, was ich machen würde, dann würde ich einen entsprechenden Kommentar zu den Gewohnheiten des Schreibers anfügen und normalisieren. --> ersten
- <lb/>umb <measure type="currency" origin="ZH" unit="lb" quantity="240">ij<hi rend="sup">c</hi> und xxxx  Zu̍rich</measure> verschafft, die er dan usgericht und wol
- <lb/>bezalt haut, dargegen sol man<!-- an PS: der Nasalstrich steht eher über dem m als dem n. PS: normalisieren und Kommentar zu Schreibergewohnheit --> im yetz hienach den tisch by den egedachten
- <lb/>sines glichen pfruͤnder geben. Und sol oͧch der <orgName ref="org007934">spyttal</orgName> dem erst bestimp<lb break="no"/>ten <persName ref="per027360">Laurentzen Fryen</persName>
-<date dur="R/P1D">alletag</date>
-<measure type="volume" unit="Mass" quantity="1" commodity="wine">ein maß win</measure>, ein guotti bereiti bettstatt mit
- <lb/>aller zuͦ gehoͤrt mit sampt des <orgName ref="org007934">spyttals</orgName> gerechtikeit schuldig sin ze gebenn und
-<lb/>oͧch sin bestatt sin leben lang in eren haben.</seg>
-<seg>Item der pfruͤnder tisch in der
- <lb/>knaͤchten stuben sol also gehalten und geben werden: Item <time period="morning">morgens</time> ein muͦß,
-<lb/>ein suppen und zyger. Item zuͦ <time period="noon">mittag</time>
-<num value="2">zwo</num> warm trachten und abermals zyger
-<lb/>oder milch. Item zuͦ dem nachtmal <num value="2">zwey</num> gemuͤoß und aber zyger oder milch.
- <lb/>Item und <date dur="R/P1W">alwuch</date>
-<num value="3">try</num> tag fleisch zuͦ dem ymiß. Item dem nach gab <persName ref="per027360">Laurentz
- <lb/>Fry</persName>
-<measure type="currency" unit="lb" quantity="60">lx </measure> in lyptings wyß, <add place="left margin">da von <measure type="currency" unit="lb" quantity="6">vj </measure></add> zuͦ <num value="3">tryen</num> zylen, nammlich <date type="deadline" when="--12-25">zuͦ wychen naͤchten</date>
-<lb/><measure type="currency" unit="lb" quantity="2">ij </measure> und uff <date type="deadline_floating holiday">osteren</date>
-<measure type="currency" unit="lb" quantity="2">ij </measure> und uff <date type="deadline_floating holiday">pfinsten</date>
-<measure type="currency" unit="lb" quantity="2">ij </measure>, anfachen <date type="deadline" when="1527-12-25">uff den
- <lb/>heiligen tag zuͦ wichen naͤchten xv<hi rend="sup">c</hi> xxvij</date>.<note>Vermutlich unterlief dem Schreiber bei dem ersten Zahlungstermin (<orig>lv<hi rend="sup">c</hi> xxvij</orig>) oder bei der Datierung (<orig>lv<hi rend="sup">c</hi> xxij</orig>) ein Fehler.</note></seg>
-<seg>Item der <orgName ref="org007934">spyttal</orgName> sol des vorgeschrib<lb break="no"/>nen <persName ref="per027360">Laurentzen Fryen</persName> erb sin in glicher gestalt wie aller anderen pfruͤnderen,
-<lb/>sunderlich siner hab und guͦtz, so er nach sinem tode hinder im verlausd
- <lb/>und hynder im erfunden wirt in dem <orgName ref="org007934">spyttal</orgName>. Und sol och da by dem
- <lb/><orgName ref="org007934">spyttal</orgName> mit argenlist nichtzit entfloͤchnen. Oͧch sol <persName ref="per027360">Laurentz</persName> alle zyt des
-  <lb/><orgName ref="org007934">spyttals</orgName> nutz fu̍rderen und sinen schaden wenden, so fer und in sinem ver<lb break="no"/>mugen ist, ongevarlich. Hierinnen lobend wir oͧch werd ze sin umb sin 
-<lb/>erkouffte pfruͦnd und das alles nach allem rechten, die war und stett
-  <lb/>ze halten, on alle boͤse geverd.</seg>
-<seg>Und oͧch des zuͦ warer urkund so habend
-  <lb/>wir obgemelten pflaͤger und oͧch meister des <orgName role="sigillant" ref="org007934">spyttals</orgName> secret und insigel
-<lb/>getruckt uff disen brieff, dem zuͦsagen ze glouben und tru̍lich nachzegon,
-<lb/>wie dan obstaͧt, fu̍r u̍ns und all unser nachkomen und erben.</seg>
-<seg>Datum <origDate when="1522-09-14">uff
- <lb/>crucis zuͦ herbst lv<hi rend="sup">c</hi> xxij</origDate>.
-  </seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Vgl. hierzu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_221">SSRQ ZH NF I/2/1, Nr. 221</ref></bibl>.
- </p>
-<p>Verdopplungsstriche, die der Spitalschreiber <persName ref="per027885">Johannes Nussbaumer</persName> über Nasale am Wortanfang gesetzt hat, wurden zur besseren Lesbarkeit des Textes ignoriert.
- </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_229</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 3e/54, fol. 62r</idno></msIdentifier><head>Pfrundvertrag zwischen dem Spital in Winterthur und Laurenz Frei</head><msContents><summary>Die beiden Pfleger des Spitals der Stadt Winterthur, Hans Meyer und Gebhard Hegner, sowie der Spitalmeister Hans Göschel haben Laurenz Frei von Zollikon mit Einverständnis des Schultheissen und Rats von Winterthur eine Pfrund in der Knechtstube am Tisch der gemeinen Pfründner für 240 Pfund verkauft. Somit erhält Frei auf Lebenszeit Unterkunft und Verpflegung im Spital zu genannten Konditionen sowie jährlich einen Zins von 6 Pfund von 60 Pfund als Leibrente. Nach seinem Tod soll sein Erbe wie bei anderen Pfründnern an das Spital fallen. Frei soll stets den Nutzen des Spitals fördern und Schaden von ihm abwenden. Die Aussteller verbürgen sich für die Einhaltung dieser Zusagen. Die Aussteller siegeln mit dem Sekretsiegel des Spitals.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Johannes Nussbaumer</author><filiation type="current">Abschrift</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="30.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1522-09-14"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000116">Altersversorgung</term><term ref="key000920">Nachlass</term><term ref="key003559">Spital</term><term ref="key000817">Vertrag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb type="original" n="62r"/>
+                        <p><seg>
+                            <lb/>Wir, <persName role="issuer" ref="per027482">Hans Meyer</persName> und <persName role="issuer" ref="per014937">Gebhart Hegner</persName>, zuͦ der zyt pflaͤger, mit sampt <persName role="issuer" ref="per027393">Klein Hansen
+                                <lb/>Goͤuschel</persName>, oͧch zuͦ der zyt spyttalmeister des <orgName ref="org007934">spyttals</orgName> zuͦ <placeName ref="loc000849">Winterthur</placeName>, hand
+                            <lb/>ze kouffen geben, und das us gunst und willen einß <orgName ref="org007943">schulthassen und rautz</orgName>,
+                            <lb/>dem <persName ref="per027360">Laurentzen Fryen</persName> von <placeName ref="loc010889">Zollickon</placeName> ein pfruͦnd alhie in unserem <orgName ref="org007934">spyttal</orgName> in der
+                            <lb/>knaͤchten stuben an der gmeinen pfruͤnder tisch, wie dan der gehalten
+                            <lb/>wirt mit anderen sines glichen pfruͤndern, also in der form und gestalt, wie
+                            <lb/>dan vor nacher mit luteren worten erscheint wirt.</seg>
+                            <seg>Nammlich und zumm ersten
+                                <lb/>umb <measure type="currency" origin="ZH" unit="lb" quantity="240">ij<hi rend="sup">c</hi> und xxxx  Zu̍rich</measure> verschafft, die er dan usgericht und wol
+                                <lb/>bezalt haut, dargegen sol man im yetz hienach den tisch by den egedachten
+                                <lb/>sines glichen pfruͤnder geben. Und sol oͧch der <orgName ref="org007934">spyttal</orgName> dem erst bestimp<lb break="no"/>ten <persName ref="per027360">Laurentzen Fryen</persName>
+                                <date dur="R/P1D">alletag</date>
+                                <measure type="volume" unit="Mass" quantity="1" commodity="wine">ein maß win</measure>, ein guotti bereiti bettstatt mit
+                                <lb/>aller zuͦ gehoͤrt mit sampt des <orgName ref="org007934">spyttals</orgName> gerechtikeit schuldig sin ze gebenn und
+                                <lb/>oͧch sin bestatt sin leben lang in eren haben.</seg>
+                            <seg>Item der pfruͤnder tisch in der
+                                <lb/>knaͤchten stuben sol also gehalten und geben werden: Item <time period="morning">morgens</time> ein muͦß,
+                                <lb/>ein suppen und zyger. Item zuͦ <time period="noon">mittag</time>
+                                <num value="2">zwo</num> warm trachten und abermals zyger
+                                <lb/>oder milch. Item zuͦ dem nachtmal <num value="2">zwey</num> gemuͤoß und aber zyger oder milch.
+                                <lb/>Item und <date dur="R/P1W">alwuch</date>
+                                <num value="3">try</num> tag fleisch zuͦ dem ymiß. Item dem nach gab <persName ref="per027360">Laurentz
+                                    <lb/>Fry</persName>
+                                <measure type="currency" unit="lb" quantity="60">lx </measure> in lyptings wyß, <add place="left margin">da von <measure type="currency" unit="lb" quantity="6">vj </measure></add> zuͦ <num value="3">tryen</num> zylen, nammlich <date type="deadline" when="--12-25">zuͦ wychen naͤchten</date>
+                                <lb/><measure type="currency" unit="lb" quantity="2">ij </measure> und uff <date type="deadline_floating holiday">osteren</date>
+                                <measure type="currency" unit="lb" quantity="2">ij </measure> und uff <date type="deadline_floating holiday">pfinsten</date>
+                                <measure type="currency" unit="lb" quantity="2">ij </measure>, anfachen <date type="deadline" when="1527-12-25">uff den
+                                    <lb/>heiligen tag zuͦ wichen naͤchten xv<hi rend="sup">c</hi> xxvij</date>.<note>Vermutlich unterlief dem Schreiber bei dem ersten Zahlungstermin (<orig>lv<hi rend="sup">c</hi> xxvij</orig>) oder bei der Datierung (<orig>lv<hi rend="sup">c</hi> xxij</orig>) ein Fehler.</note></seg>
+                            <seg>Item der <orgName ref="org007934">spyttal</orgName> sol des vorgeschrib<lb break="no"/>nen <persName ref="per027360">Laurentzen Fryen</persName> erb sin in glicher gestalt wie aller anderen pfruͤnderen,
+                                <lb/>sunderlich siner hab und guͦtz, so er nach sinem tode hinder im verlausd
+                                <lb/>und hynder im erfunden wirt in dem <orgName ref="org007934">spyttal</orgName>. Und sol och da by dem
+                                <lb/><orgName ref="org007934">spyttal</orgName> mit argenlist nichtzit entfloͤchnen. Oͧch sol <persName ref="per027360">Laurentz</persName> alle zyt des
+                                <lb/><orgName ref="org007934">spyttals</orgName> nutz fu̍rderen und sinen schaden wenden, so fer und in sinem ver<lb break="no"/>mugen ist, ongevarlich. Hierinnen lobend wir oͧch werd ze sin umb sin 
+                                <lb/>erkouffte pfruͦnd und das alles nach allem rechten, die war und stett
+                                <lb/>ze halten, on alle boͤse geverd.</seg>
+                            <seg>Und oͧch des zuͦ warer urkund so habend
+                                <lb/>wir obgemelten pflaͤger und oͧch meister des <orgName role="sigillant" ref="org007934">spyttals</orgName> secret und insigel
+                                <lb/>getruckt uff disen brieff, dem zuͦsagen ze glouben und tru̍lich nachzegon,
+                                <lb/>wie dan obstaͧt, fu̍r u̍ns und all unser nachkomen und erben.</seg>
+                            <seg>Datum <origDate when="1522-09-14">uff
+                                <lb/>crucis zuͦ herbst lv<hi rend="sup">c</hi> xxij</origDate>.
+                            </seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Vgl. hierzu den Kommentar zu <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_221">SSRQ ZH NF I/2/1, Nr. 221</ref></bibl>.
+                        </p>
+                        <p>Verdopplungsstriche, die der Spitalschreiber <persName ref="per027885">Johannes Nussbaumer</persName> über Nasale am Wortanfang gesetzt hat, wurden zur besseren Lesbarkeit des Textes ignoriert.
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
