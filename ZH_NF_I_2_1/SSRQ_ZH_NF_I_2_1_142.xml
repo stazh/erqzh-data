@@ -4,72 +4,71 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_142</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/5, S. 104 (Eintrag 2)</idno></msIdentifier><head>Verbot des nächtlichen Spielens und blasphemischer Äusserungen in Hettlingen</head><msContents><summary>Schultheiss und Rat von Winterthur verbieten in der Gemeinde Hettlingen bei Strafe von 1 Pfund das Spielen nach dem Nachtessen sowie blasphemische Äusserungen. Jeder ist durch seinen Eid verpflichtet, Zuwiderhandelnde dem Schultheissen von Winterthur anzuzeigen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1484-11-08"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000591">Anzeigepflicht</term><term ref="key000482">Blasphemie</term><term ref="key004380">Fluchen/Schwören</term><term ref="key003233">Obrigkeit</term><term ref="key000767">Spiel</term><term ref="key004393">Verbot</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="103"/>
-<p><lb/>Coram <choice><abbr>schulth</abbr><expan>schultheis</expan></choice>
-<persName ref="per027413">Josue</persName> uff <origDate when="1484-11-08">mentag
-<lb/>vor <persName ref="per000141">Martini</persName></origDate></p>
-<p><gap reason="irrelevant"/><note>Es folgen Einträge über eine Fertigung, die Einsetzung der Frauenwirtin, eine Urfehdeerklärung und ein Boykottaufruf betreffend die Fischer von <placeName ref="loc008729">Pfäffikon</placeName>.</note></p>
-<pb n="104"/>
-<p>
-<seg><lb/>Mine <supplied reason="omitted" resp="bf">herren</supplied> haben der <orgName ref="org007823">gebursami zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName> verbotten, das keiner
-<lb/>des <time period="byNight">nachtz</time> nach dem nachtmāl einichtley spil nit tuͦn sol.
-<lb/>Woͤlche<del>r</del> das u̍bersaͤhend, gibt <measure type="currency" unit="lb" quantity="1">j </measure> ôn gnad.</seg>
-<seg>Und ouch <del>sol</del>
-<lb/>keiner by <choice><abbr>gott</abbr><expan>gottes</expan></choice> liden, <choice><abbr>sin</abbr><expan>siner</expan></choice>
-<choice><abbr>lieb</abbr><expan>lieben</expan></choice>
-<choice><abbr>hailg</abbr><expan>hailgen</expan></choice><!-- Ist der Kasus bei den abgekürzten Wörtern jeweils richtig aufgelöst?? --> noch ainicherley
-<lb/>ungwonlich schwoͤren nit tuͦn sol. Und woͤlcher das
-<lb/>von dem andern horte, der sol das by sinem gesworen eide
-<lb/>einem schulthaiß alhii ruͤgen.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Im Januar 1484 hatten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> eine Verordnung für das Stadtgebiet erlassen, die unter anderem den nächtlichen Ausgang und das Glückspiel reglementierte, gesellige Zusammenkünfte (sogenannte Lichtstuben) einschränkte und das Fluchen untersagte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_137">SSRQ ZH NF I/2/1, Nr. 137</ref></bibl>). Manche Statuten galten explizit für die Stadt <placeName ref="loc000849">Winterthur</placeName> und das Dorf <placeName ref="loc010469">Hettlingen</placeName> gleichermassen, beispielsweise das Verbot von Solddiensten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">SSRQ ZH NF I/2/1, Nr. 171</ref></bibl>).</p>
-<p>Weitere Verbote betreffend den Besuch von Lichtstuben und das Glücksspiel in <placeName ref="loc010469">Hettlingen</placeName> sprach die Obrigkeit im 17. und 18. Jahrhundert aus, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 242-243</bibl>.
- <!-- evtl. noch ergänzen betr. Obrigkeitsverhältnis, vgl. Archivalien auf to-do-Liste STAW -->
-</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_142</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/5, S. 104 (Eintrag 2)</idno></msIdentifier><head>Verbot des nächtlichen Spielens und blasphemischer Äusserungen in Hettlingen</head><msContents><summary>Schultheiss und Rat von Winterthur verbieten in der Gemeinde Hettlingen bei Strafe von 1 Pfund das Spielen nach dem Nachtessen sowie blasphemische Äusserungen. Jeder ist durch seinen Eid verpflichtet, Zuwiderhandelnde dem Schultheissen von Winterthur anzuzeigen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1484-11-08"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000591">Anzeigepflicht</term><term ref="key000482">Blasphemie</term><term ref="key004380">Fluchen/Schwören</term><term ref="key003233">Obrigkeit</term><term ref="key000767">Spiel</term><term ref="key004393">Verbot</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="103"/>
+                        <p><lb/>Coram <choice><abbr>schulth</abbr><expan>schultheis</expan></choice>
+                            <persName ref="per027413">Josue</persName> uff <origDate when="1484-11-08">mentag
+                                <lb/>vor <persName ref="per000141">Martini</persName></origDate></p>
+                        <p><gap reason="irrelevant"/><note>Es folgen Einträge über eine Fertigung, die Einsetzung der Frauenwirtin, eine Urfehdeerklärung und ein Boykottaufruf betreffend die Fischer von <placeName ref="loc008729">Pfäffikon</placeName>.</note></p>
+                        <pb n="104"/>
+                        <p>
+                            <seg><lb/>Mine <supplied reason="omitted" resp="bf">herren</supplied> haben der <orgName ref="org007823">gebursami zuͦ <placeName ref="loc010469">Hettlingen</placeName></orgName> verbotten, das keiner
+                                <lb/>des <time period="byNight">nachtz</time> nach dem nachtmāl einichtley spil nit tuͦn sol.
+                                <lb/>Woͤlche<del>r</del> das u̍bersaͤhend, gibt <measure type="currency" unit="lb" quantity="1">j </measure> ôn gnad.</seg>
+                            <seg>Und ouch <del>sol</del>
+                                <lb/>keiner by <choice><abbr>gott</abbr><expan>gottes</expan></choice> liden, <choice><abbr>sin</abbr><expan>siner</expan></choice>
+                                <choice><abbr>lieb</abbr><expan>lieben</expan></choice>
+                                <choice><abbr>hailg</abbr><expan>hailgen</expan></choice> noch ainicherley
+                                <lb/>ungwonlich schwoͤren nit tuͦn sol. Und woͤlcher das
+                                <lb/>von dem andern horte, der sol das by sinem gesworen eide
+                                <lb/>einem schulthaiß alhii ruͤgen.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Im Januar 1484 hatten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> eine Verordnung für das Stadtgebiet erlassen, die unter anderem den nächtlichen Ausgang und das Glücksspiel reglementierte, gesellige Zusammenkünfte (sogenannte Lichtstuben) einschränkte und das Fluchen untersagte (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_137">SSRQ ZH NF I/2/1, Nr. 137</ref></bibl>). Manche Statuten galten explizit für die Stadt <placeName ref="loc000849">Winterthur</placeName> und das Dorf <placeName ref="loc010469">Hettlingen</placeName> gleichermassen, beispielsweise das Verbot von Solddiensten (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_171">SSRQ ZH NF I/2/1, Nr. 171</ref></bibl>).</p>
+                        <p>Weitere Verbote betreffend den Besuch von Lichtstuben und das Glücksspiel in <placeName ref="loc010469">Hettlingen</placeName> sprach die Obrigkeit im 17. und 18. Jahrhundert aus, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Häberle 1985</ref>, S. 242-243</bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+

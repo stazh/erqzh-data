@@ -4,63 +4,64 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_129</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/5, S. 26 (Eintrag 1)</idno></msIdentifier><head>Bindung des Schultheissen von Winterthur an Mehrheitsbeschlüsse des Rats</head><msContents><summary>Schultheiss und Rat von Winterthur legen fest, dass Mehrheitsbeschlüsse des Rats für den Schultheissen bindend sind. Wenn er Einwände dagegen hat, soll er sie dem Rat darlegen und nicht eigenmächtig vorgehen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1483-07-02"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004600">Mehrheitsentscheid</term><term ref="key000364">Rat</term><term ref="key000028">Schultheiss</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="26"/>
-<p><lb/>Actum uff <origDate when="1483-07-02">mitwochen vor <lb/><persName ref="per000356">Uͦdalrici</persName>, anno <abbr>etc</abbr> lxxxiij<hi rend="sup">o</hi></origDate></p>
-<p>
-<lb/>habend sich mine herren underredt, was das mer durch ein <orgName ref="org005587">raut</orgName>
-<lb/>wirt, daby sol es bliben. Unnd ob dem schulthaiß soͤlch mēr ze vollenden
-<lb/>bevolhen wurde, gegen wem das wēre, dasselbig sol er unabgeschlagen tuͦn.
-<lb/>Ob in aber soͤlchs ze tuͦnd nit guͦt sin bedunckte, das sol er widerumb an
-<lb/>einen gesessen <orgName ref="org005587">raut</orgName> wachsen laussen unnd keinen abschlag<!-- Idiotikon IX, Sp. 198 ff.: Ablehnung, Verminderung --> fu̍r sich
-<lb/>selbs nichtzit tuͦn gegen niemand <abbr>etc</abbr>.
- </p>
-</div>
-</body>
-<back>
-<div>
-<p>Im Vorfeld dieses Beschlusses waren Kompetenzstreitigkeiten zwischen dem Schultheissen und dem <orgName ref="org005587">Kleinen Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> aufgetreten. Der Schultheiss sollte sich künftig nicht mehr über Entscheide der Ratsmehrheit hinwegsetzen können, ihm wurde aber ein Vetorecht zugestanden (<bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996</ref>, S. 134-135</bibl>).</p>
-<p>Zum Amt des Schultheissen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_034">SSRQ ZH NF I/2/1, Nr. 34</ref></bibl>; zum <orgName ref="org005587">Kleinen Rat</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_053">SSRQ ZH NF I/2/1, Nr. 53</ref></bibl>.
- </p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_129</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/5, S. 26 (Eintrag 1)</idno></msIdentifier><head>Bindung des Schultheissen von Winterthur an Mehrheitsbeschlüsse des Rats</head><msContents><summary>Schultheiss und Rat von Winterthur legen fest, dass Mehrheitsbeschlüsse des Rats für den Schultheissen bindend sind. Wenn er Einwände dagegen hat, soll er sie dem Rat darlegen und nicht eigenmächtig vorgehen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1483-07-02"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key004600">Mehrheitsentscheid</term><term ref="key000364">Rat</term><term ref="key000028">Schultheiss</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="26"/>
+                        <p><lb/>Actum uff <origDate when="1483-07-02">mitwochen vor <lb/><persName ref="per000356">Uͦdalrici</persName>, anno <abbr>etc</abbr> lxxxiij<hi rend="sup">o</hi></origDate></p>
+                        <p>
+                            <lb/>habend sich mine herren underredt, was das mer durch ein <orgName ref="org005587">raut</orgName>
+                            <lb/>wirt, daby sol es bliben. Unnd ob dem schulthaiß soͤlch mēr ze vollenden
+                            <lb/>bevolhen wurde, gegen wem das wēre, dasselbig sol er unabgeschlagen tuͦn.
+                            <lb/>Ob in aber soͤlchs ze tuͦnd nit guͦt sin bedunckte, das sol er widerumb an
+                            <lb/>einen gesessen <orgName ref="org005587">raut</orgName> wachsen laussen unnd keinen abschlag<!-- Idiotikon IX, Sp. 198 ff.: Ablehnung, Verminderung --> fu̍r sich
+                            <lb/>selbs nichtzit tuͦn gegen niemand <abbr>etc</abbr>.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Im Vorfeld dieses Beschlusses waren Kompetenzstreitigkeiten zwischen dem Schultheissen und dem <orgName ref="org005587">Kleinen Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> aufgetreten. Der Schultheiss sollte sich künftig nicht mehr über Entscheide der Ratsmehrheit hinwegsetzen können, ihm wurde aber ein Vetorecht zugestanden (<bibl><ref target="/startseite/literaturverzeichnis">Niederhäuser 1996</ref>, S. 134-135</bibl>).</p>
+                        <p>Zum Amt des Schultheissen vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_034">SSRQ ZH NF I/2/1, Nr. 34</ref></bibl>; zum <orgName ref="org005587">Kleinen Rat</orgName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_053">SSRQ ZH NF I/2/1, Nr. 53</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

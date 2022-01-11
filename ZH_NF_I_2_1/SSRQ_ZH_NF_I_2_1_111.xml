@@ -4,71 +4,73 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_111</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/3, S. 403 (Eintrag 6)</idno></msIdentifier><head>Eid der Metzger in Winterthur</head><msContents><summary>Die Metzger von Winterthur schwören, kein Vieh, das mit einer Tierseuche infiziert sein könnte, und keine Kälber, die nicht mindestens drei Wochen alt sind, zu kaufen, keine Euter oder Hoden vor der Taxierung des Fleisches abzutrennen, kein unsauberes Schwein zu schlachten, für Wurst nur Schweinefleisch zu verwenden, im Schlachthaus kein Tier mit gebrochenen Beinen oder einer Hirnkrankheit zu schlachten, kein Vieh auf Karren dorthin zu bringen, bevor nicht festgestellt wurde, was für eine Krankheit es hat, und im Schindhaus nur Tiere, die mit Wurmeiern befallen sind, zu schlachten. Vom 2. Februar bis zum 24. August dürfen keine Stiere geschlachtet werden. Nur Fleisch, das die Fleischbeschauer kontrolliert haben, darf zerteilt werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Georg Bappus</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1479-11-06"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000346">Fleisch</term><term ref="key000849">Handwerk</term><term ref="key005405">Konsumentenschutz</term><term ref="key005445">Tierseuchen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="403"/>
-<div><ab type="marginal note" place="left margin"><lb/>Metzger</ab></div>
-<p><lb/>Die metzger swerent, actum an <origDate when="1479-11-06">sambstag
- <lb/>post omnium animarum, anno <abbr>etc</abbr> lxxviiij</origDate>:</p>
-<p>
-<lb/><seg>Kein vech ze kouffen, da der brest sig und da die weiden zesamen stossent.</seg>
-<lb/><seg>Kein kalb, es sig dan <measure type="age" unit="week" quantity="3">dry wu̍chig</measure> und nit darunder, dem sollen sy nach<unclear>fragen</unclear>.</seg>
-<lb/><seg>Keiner kuͦ uter abzehauen und dem pfaren die hoden, biß das geschaͤttz ist.</seg>
-<lb/><seg>Kein schwin zemetzgen, das unsuber sig, und daz fleisch in wurst und
-<lb/>kein ander fleisch darin zebruchen.</seg>
-<lb/><seg>Kein bein bru̍chel, hirnwuͤttig ze metzgen in der metzi und kein
-<lb/>vich uff karren ze fuͤren in die metzgi, es sig dan besehen, was
-<lb/>gebrestens es hab.</seg>
-<seg>Und soͤllen keinerley usswendig der metz im schindhus
-<lb/>stēchen, anders dan <unclear>fieni</unclear><!-- finnig ??? -->.</seg>
-<lb/><seg>Item sy sollen von <date from="--02-02" to="--08-24">liechtmeß biß <persName ref="per000861">Barthlomei</persName></date> kein pfarren metzgen,
-<lb/>aber von <date from="--08-24" to="--02-02"><persName ref="per000861">Barthlomei</persName> biß liechtmeß</date> moͤgen sy die metzgen.</seg>
-<seg>Und
-<lb/>soͤllen kein fleisch hauen, die fleisch schaͤtzer habint es dan vor geschaͤtzt.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Ähnliche Bestimmungen zum Schutz der Konsumenten hatten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> bereits um die Mitte des 15. Jahrhunderts erlassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_076">SSRQ ZH NF I/2/1, Nr. 76</ref></bibl>). Verkauften Metzger Ware, die nicht durch die Fleischschätzer kontrolliert worden war, oder lagerten neue ein, bevor sie die alte verkauft hatten, wurde ihnen eine Busse auferlegt. Wenn sie den geforderten Eid verweigerten oder mit Wurmeiern befallenes Fleisch in Umlauf brachten, drohte ihnen ein lebenslanges Berufsverbot in der Stadt (<bibl>STAW B 2/5, S. 341-342, 375</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_157">SSRQ ZH NF I/2/1, Nr. 157</ref></bibl>).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_111</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/3, S. 403 (Eintrag 6)</idno></msIdentifier><head>Eid der Metzger in Winterthur</head><msContents><summary>Die Metzger von Winterthur schwören, kein Vieh, das mit einer Tierseuche infiziert sein könnte, und keine Kälber, die nicht mindestens drei Wochen alt sind, zu kaufen, keine Euter oder Hoden vor der Taxierung des Fleisches abzutrennen, kein unsauberes Schwein zu schlachten, für Wurst nur Schweinefleisch zu verwenden, im Schlachthaus kein Tier mit gebrochenen Beinen oder einer Hirnkrankheit zu schlachten, kein Vieh auf Karren dorthin zu bringen, bevor nicht festgestellt wurde, was für eine Krankheit es hat, und im Schindhaus nur Tiere, die mit Wurmeiern befallen sind, zu schlachten. Vom 2. Februar bis zum 24. August dürfen keine Stiere geschlachtet werden. Nur Fleisch, das die Fleischbeschauer kontrolliert haben, darf zerteilt werden.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Georg Bappus</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1479-11-06"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key000346">Fleisch</term><term ref="key000849">Handwerk</term><term ref="key005405">Konsumentenschutz</term><term ref="key005445">Tierseuchen</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="403"/>
+                        <div><ab type="marginal note" place="left margin"><lb/><orgName ref="org007847">Metzger</orgName></ab></div>
+                        <p><lb/>Die <orgName ref="org007847">metzger</orgName> swerent, actum an <origDate when="1479-11-06">sambstag
+                            <lb/>post omnium animarum, anno <abbr>etc</abbr> lxxviiij</origDate>:</p>
+                        <p>
+                            <lb/><seg>Kein vech ze kouffen, da der brest sig und da die weiden zesamen stossent.</seg>
+                            <lb/><seg>Kein kalb, es sig dan <measure type="age" unit="week" quantity="3">dry wu̍chig</measure> und nit darunder, dem sollen sy nach<unclear>fragen</unclear>.</seg>
+                            <lb/><seg>Keiner kuͦ uter abzehauen und dem pfaren die hoden, biß das geschaͤttz ist.</seg>
+                            <lb/><seg>Kein schwin zemetzgen, das unsuber sig, und daz fleisch in wurst und
+                                <lb/>kein ander fleisch darin zebruchen.</seg>
+                            <lb/><seg>Kein bein bru̍chel, hirnwuͤttig ze metzgen in der metzi und kein
+                                <lb/>vich uff karren ze fuͤren in die metzgi, es sig dan besehen, was
+                                <lb/>gebrestens es hab.</seg>
+                            <seg>Und soͤllen keinerley usswendig der metz im schindhus
+                                <lb/>stēchen, anders dan <unclear>fieni</unclear>.</seg>
+                            <lb/><seg>Item sy sollen von <date from="--02-02" to="--08-24">liechtmeß biß <persName ref="per000861">Barthlomei</persName></date> kein pfarren metzgen,
+                                <lb/>aber von <date from="--08-24" to="--02-02"><persName ref="per000861">Barthlomei</persName> biß liechtmeß</date> moͤgen sy die metzgen.</seg>
+                            <seg>Und
+                                <lb/>soͤllen kein fleisch hauen, die fleisch schaͤtzer habint es dan vor geschaͤtzt.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Ähnliche Bestimmungen zum Schutz der Konsumenten hatten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> bereits um die Mitte des 15. Jahrhunderts erlassen (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_076">SSRQ ZH NF I/2/1, Nr. 76</ref></bibl>). Verkauften Metzger Ware, die nicht durch die Fleischschätzer kontrolliert worden war, oder lagerten neue ein, bevor sie die alte verkauft hatten, wurde ihnen eine Busse auferlegt. Wenn sie den geforderten Eid verweigerten oder mit Wurmeiern befallenes Fleisch in Umlauf brachten, drohte ihnen ein lebenslanges Berufsverbot in der Stadt (<bibl>STAW B 2/5, S. 341-342, 375</bibl>; <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_157">SSRQ ZH NF I/2/1, Nr. 157</ref></bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

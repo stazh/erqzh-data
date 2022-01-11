@@ -4,81 +4,83 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_174</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno>STAW B 2/6, S. 187 (Eintrag 3)</idno></msIdentifier><head>Vergabe der Ziegelhütte in Winterthur an Ulrich Ziegler</head><msContents><summary>Schultheiss und Rat von Winterthur haben Ulrich Ziegler die städtische Ziegelhütte verliehen. Er soll den Bürgern, den Chorherren auf dem Heiligberg und dem Siechenhaus Ziegel und Kalk zu festgelegten Preisen verkaufen. Ihm steht pro Jahr Holz für vier Brenngänge aus dem städtischen Wald zu, darüber hinaus erhält er jährlich am 11. November 6 Mütt Dinkel. Er ist befreit von Steuern, Wachdiensten und anderen Diensten. Beide Seiten können diese Vereinbarung jährlich zum 11. November kündigen, danach darf Ulrich Ziegler unter Vorbehalt etwaiger Forderungen von Gläubigern abzugsfrei die Stadt verlassen. Von der Befreiung von Steuer und Abzug ist das steuerbare unbewegliche Vermögen ausgenommen. Für den baulichen Unterhalt der Ziegelhütte kommt die Stadt auf.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1499-09-28"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000490">Bauwesen</term><term ref="key004706">Konzession</term><term ref="key000764">Preise</term><term ref="key000817">Vertrag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="187"/>
-<div>
-<ab type="marginal note" place="left margin"><lb/>Ziegler</ab>
-</div>
-<p>
-<seg><lb/>Item mine herren sind mit <persName ref="per027848">Uͦlrich Ziegler</persName> u̍berkomen also, das er inen
-<lb/>ir ziegelhu̍tten in aller arbait zum besten versaͤhen <choice><sic>unnd unnd
- <lb/>und</sic><corr>und</corr></choice> u̍nsern burgern, desglichen den <orgName ref="org007820">herren uff dem <placeName ref="loc013078">Hailgenberg</placeName></orgName>
-<lb/>und <orgName ref="org007453">kinden am veld</orgName>
-<num value="1000">ein tusent</num> ziegel, es sig ob oder undertach<!-- wohl eine Art Ziegel, vgl. Idiotikon XII, Sp. 181. PS: runde Dachziegel, die ineinander gesteckt werden, Mönch und Nonne genannt -->, umb
- <lb/><measure type="currency" unit="lb" quantity="3">iij  haller</measure> und ziegelstein, ouch ziegelblatten, <num value="1000">ein tusent</num> umb <measure type="currency" unit="lb" quantity="5">v </measure>
-<lb/>und <measure type="volume" unit="Malter" quantity="1" commodity="lime">j malter kalch</measure> umb <measure type="currency" unit="ß" quantity="18">xviij  ħ</measure> geben sol.</seg>
-<seg>Und soͤllen im <date dur="R/P1Y">alle jar</date>
-<lb/>zuͦ <num value="4">vier</num> brenden<!-- Brennen von Ziegeln --> holtz uß unnserm wald ze hoͤwen vergu̍nsten,
-<lb/>dartzuͦ <date dur="R/P1Y">jerlichs</date> uff <date type="deadline_holiday" when="--11-11">sant <persName ref="per000141">Martis</persName> tag</date>
-<measure type="volume" unit="Mütt" quantity="6" commodity="spelt">vj <abbr>mt</abbr>
-<choice><abbr>k</abbr><expan>kernen</expan></choice></measure> geben unnd aller
-<lb/>tagwan, <add place="left margin" type="sign">wachen</add> unnd stu̍ren stu̍r frig beliben laussen, es wēre dann, das er
-<lb/>ligende guͤtere, so vor in unnser stu̍r gelegen, erkouffte, die sol er verstu̍ren
-<lb/>unnd verdienen <damage agent="ink blot"><supplied resp="bf">nach</supplied></damage> unnser stat recht.</seg>
-<seg>Unnd mag jegklicher teil soͤlch
-<lb/>ziegelhu̍tten dem andern allwēgen uff <date type="deadline_holiday" when="--11-11">sant <persName ref="per000141">Martis</persName> tag</date> ab<lb break="no"/>ku̍nden. Und wann soͤlch abku̍ndung beschicht, so mag gemelter <persName ref="per027848">Uͦlrich</persName>
-<lb/>widerumb von unns ōn allen abzug, us genommen der erkoufften
-<lb/>guͤtere halb, wie obstaut, abzu̍hen, und ouch den geltschuldner ōn schaden.</seg>
-<seg><lb/>Wir soͤllen ouch im allwegen die ziegelhu̍tten in wesenlichem buw
-<lb/>in unnserm costen halten.</seg>
-<seg>Actum uff <origDate when="1498-09-28">sant <persName ref="per000390">Michels</persName> abend, anno <abbr>etc</abbr>
-<lb/>lxxxx viiij<hi rend="sup">o</hi></origDate>.</seg>
-</p>
-</div>
-</body>
-<back>
-<div>
-<p>Die <placeName ref="loc000849">Winterthurer</placeName> Ziegelhütte lag an der <placeName ref="loc013077">Eulach</placeName> und ist in der heutigen <placeName ref="loc013465">Archstrasse</placeName> zu lokalisieren (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH VI</ref>, S. 220</bibl>). Der Standort an einem Flusslauf ausserhalb der Stadtmauern war typisch, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hennrich 2003</ref>, S. 41</bibl>. Zur Ziegelhütte gehörte ursprünglich ein Turm, Haus und Hof sowie ein Baum- und Krautgarten (<bibl>STAW URK 268</bibl>, zu 1382; <bibl>STAW URK 445</bibl>, zu 1409). Ihr Betrieb scheint vorübergehend eingestellt worden zu sein, denn 1417 verpachteten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> das Grundstück, auf dem die alte Ziegelhütte gestanden hatte (<bibl>STAW B 2/1, fol. 58r</bibl>). Zu städtischen Ziegeleien allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">LexMA</ref>, Bd. 9, Ziegelei, Ziegler, Sp. 602-603</bibl>. Zum Ablauf des Brennvorgangs, zur Brenndauer und zum Materialverbrauch vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hennrich 2003</ref>, S. 43-47</bibl>.</p>
-<p>Die Konditionen für die Anstellung des städtischen Zieglers sind erstmals 1464 überliefert. Schon damals wurden die Preise für Backsteine und Ziegel festgelegt, wobei zwischen dem Bedarf der Bürger für Gebäude in der Stadt (30 Schilling pro 1000 Ziegel) und für Landgüter (2 Pfund Haller pro 1000 Ziegel) unterschieden wurde. Für Ziegelsteine durfte der Ziegler nicht mehr als 2.5 Pfund und für Ziegelplatten höchstens 3 Pfund pro 1000 Stück verlangen (<bibl>STAW B 2/2, fol. 14r</bibl>). Die Stadt reservierte sich im Jahr 1490 zwei Brände, wobei der Ziegler für 3 Pfund Haller und 1 Mütt Getreide jeweils 12’000 Ziegel für sie produzieren sollte. Wenn der Ziegler in der Kirche die Ziegelproduktion ankündigte, hatten die Bürger eine Woche Vorkaufsrecht, danach durfte er seine Ware im Umland verkaufen (<bibl>STAW B 2/2, fol. 40r</bibl>, zu 1488).</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_174</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno>STAW B 2/6, S. 187 (Eintrag 3)</idno></msIdentifier><head>Vergabe der Ziegelhütte in Winterthur an Ulrich Ziegler</head><msContents><summary>Schultheiss und Rat von Winterthur haben Ulrich Ziegler die städtische Ziegelhütte verliehen. Er soll den Bürgern, den Chorherren auf dem Heiligberg und dem Siechenhaus Ziegel und Kalk zu festgelegten Preisen verkaufen. Ihm steht pro Jahr Holz für vier Brenngänge aus dem städtischen Wald zu, darüber hinaus erhält er jährlich am 11. November 6 Mütt Dinkel. Er ist befreit von Steuern, Wachdiensten und anderen Diensten. Beide Seiten können diese Vereinbarung jährlich zum 11. November kündigen, danach darf Ulrich Ziegler unter Vorbehalt etwaiger Forderungen von Gläubigern abzugsfrei die Stadt verlassen. Von der Befreiung von Steuer und Abzug ist das steuerbare unbewegliche Vermögen ausgenommen. Für den baulichen Unterhalt der Ziegelhütte kommt die Stadt auf.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="33.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1499-09-28"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000490">Bauwesen</term><term ref="key004706">Konzession</term><term ref="key000764">Preise</term><term ref="key000817">Vertrag</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="187"/>
+                        <div>
+                            <ab type="marginal note" place="left margin"><lb/>Ziegler</ab>
+                        </div>
+                        <p>
+                            <seg><lb/>Item mine herren sind mit <persName ref="per027848">Uͦlrich Ziegler</persName> u̍berkomen also, das er inen
+                                <lb/>ir ziegelhu̍tten in aller arbait zum besten versaͤhen <choice><sic>unnd unnd
+                                    <lb/>und</sic><corr>und</corr></choice> u̍nsern burgern, desglichen den <orgName ref="org007820">herren uff dem <placeName ref="loc013078">Hailgenberg</placeName></orgName>
+                                <lb/>und <orgName ref="org007453">kinden am veld</orgName>
+                                <num value="1000">ein tusent</num> ziegel, es sig ob oder undertach<!-- PS: runde Dachziegel, die ineinander gesteckt werden, Mönch und Nonne genannt -->, umb
+                                <lb/><measure type="currency" unit="lb" quantity="3">iij  haller</measure> und ziegelstein, ouch ziegelblatten, <num value="1000">ein tusent</num> umb <measure type="currency" unit="lb" quantity="5">v </measure>
+                                <lb/>und <measure type="volume" unit="Malter" quantity="1" commodity="lime">j malter kalch</measure> umb <measure type="currency" unit="ß" quantity="18">xviij  ħ</measure> geben sol.</seg>
+                            <seg>Und soͤllen im <date dur="R/P1Y">alle jar</date>
+                                <lb/>zuͦ <num value="4">vier</num> brenden<!-- Brennen von Ziegeln --> holtz uß unnserm wald ze hoͤwen vergu̍nsten,
+                                <lb/>dartzuͦ <date dur="R/P1Y">jerlichs</date> uff <date type="deadline_holiday" when="--11-11">sant <persName ref="per000141">Martis</persName> tag</date>
+                                <measure type="volume" unit="Mütt" quantity="6" commodity="spelt">vj <abbr>mt</abbr>
+                                    <choice><abbr>k</abbr><expan>kernen</expan></choice></measure> geben unnd aller
+                                <lb/>tagwan, <add place="left margin" type="sign">wachen</add> unnd stu̍ren stu̍r frig beliben laussen, es wēre dann, das er
+                                <lb/>ligende guͤtere, so vor in unnser stu̍r gelegen, erkouffte, die sol er verstu̍ren
+                                <lb/>unnd verdienen <damage agent="ink blot"><supplied resp="bf">nach</supplied></damage> unnser stat recht.</seg>
+                            <seg>Unnd mag jegklicher teil soͤlch
+                                <lb/>ziegelhu̍tten dem andern allwēgen uff <date type="deadline_holiday" when="--11-11">sant <persName ref="per000141">Martis</persName> tag</date> ab<lb break="no"/>ku̍nden. Und wann soͤlch abku̍ndung beschicht, so mag gemelter <persName ref="per027848">Uͦlrich</persName>
+                                <lb/>widerumb von unns ōn allen abzug, us genommen der erkoufften
+                                <lb/>guͤtere halb, wie obstaut, abzu̍hen, und ouch den geltschuldner ōn schaden.</seg>
+                            <seg><lb/>Wir soͤllen ouch im allwegen die ziegelhu̍tten in wesenlichem buw
+                                <lb/>in unnserm costen halten.</seg>
+                            <seg>Actum uff <origDate when="1498-09-28">sant <persName ref="per000390">Michels</persName> abend, anno <abbr>etc</abbr>
+                                <lb/>lxxxx viiij<hi rend="sup">o</hi></origDate>.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die <placeName ref="loc000849">Winterthurer</placeName> Ziegelhütte lag an der <placeName ref="loc013077">Eulach</placeName> und ist in der heutigen <placeName ref="loc013465">Archstrasse</placeName> zu lokalisieren (<bibl><ref target="/startseite/literaturverzeichnis">KdS ZH VI</ref>, S. 220</bibl>). Der Standort an einem Flusslauf ausserhalb der Stadtmauern war typisch, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hennrich 2003</ref>, S. 41</bibl>. Zur Ziegelhütte gehörte ursprünglich ein Turm, Haus und Hof sowie ein Baum- und Krautgarten (<bibl>STAW URK 268</bibl>, zu 1382; <bibl>STAW URK 445</bibl>, zu 1409). Ihr Betrieb scheint vorübergehend eingestellt worden zu sein, denn 1417 verpachteten <orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> das Grundstück, auf dem die alte Ziegelhütte gestanden hatte (<bibl>STAW B 2/1, fol. 58r</bibl>). Zu städtischen Ziegeleien allgemein vgl. <bibl><ref target="/startseite/literaturverzeichnis">LexMA</ref>, Bd. 9, Ziegelei, Ziegler, Sp. 602-603</bibl>. Zum Ablauf des Brennvorgangs, zur Brenndauer und zum Materialverbrauch vgl. <bibl><ref target="/startseite/literaturverzeichnis">Hennrich 2003</ref>, S. 43-47</bibl>.</p>
+                        <p>Die Konditionen für die Anstellung des städtischen Zieglers sind erstmals 1464 überliefert. Schon damals wurden die Preise für Backsteine und Ziegel festgelegt, wobei zwischen dem Bedarf der Bürger für Gebäude in der Stadt (30 Schilling pro 1000 Ziegel) und für Landgüter (2 Pfund Haller pro 1000 Ziegel) unterschieden wurde. Für Ziegelsteine durfte der Ziegler nicht mehr als 2.5 Pfund und für Ziegelplatten höchstens 3 Pfund pro 1000 Stück verlangen (<bibl>STAW B 2/2, fol. 14r</bibl>). Die Stadt reservierte sich im Jahr 1490 zwei Brände, wobei der Ziegler für 3 Pfund Haller und 1 Mütt Getreide jeweils 12’000 Ziegel für sie produzieren sollte. Wenn der Ziegler in der Kirche die Ziegelproduktion ankündigte, hatten die Bürger eine Woche Vorkaufsrecht, danach durfte er seine Ware im Umland verkaufen (<bibl>STAW B 2/2, fol. 40r</bibl>, zu 1488).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+

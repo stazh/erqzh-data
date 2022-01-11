@@ -4,96 +4,98 @@
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
 <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
-Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
-Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="transcript"/>
-</respStmt>
-<respStmt>
-<persName>Bettina Fürderer</persName>
-<resp key="tagging"/>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<date type="electronic" when="2011-06-16"/>
-<date type="print" when="2018-12-31"/>
-</publicationStmt>
-<seriesStmt xml:id="ssrq-sds-fds">
-<title>Sammlung Schweizerischer Rechtsquellen</title>
-<respStmt>
-<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
-<resp>Herausgeberschaft</resp>
-</respStmt>
-<idno>SSRQ_ZH_NF_I_2_1_151</idno>
-</seriesStmt>
-<sourceDesc>
-<msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=650492">PGA Hettlingen I A 3</idno></msIdentifier><head>Verkauf eines Zinses an die Kirche in Hettlingen durch Bertschi Rapold</head><msContents><summary>Hans Strub, der im Namen des Schultheissen und Rats von Winterthur in Hettlingen zu Gericht sitzt, beurkundet den Verkauf eines jährlichen Zinses von einem Mütt Kernen, fällig am 11. November, um 25 Pfund Pfennige an die Kirchenpfleger der Kirche St. Nikolaus in Hettlingen, Heinz Huber und Hans Schmid. Als Unterpfand stellt der Verkäufer Bertschi Rapold die Wiese genannt Balsatriet unterhalb der Strasse nach Andelfingen, die an die Wiese des Hans Rapold und das Gut der Sulzer grenzt und bisher nur mit dem üblichen Zehnten belastet ist. Bei Zahlungsverzug dürfen die Käufer pfänden. Der Verkäufer behält sich den Rückkauf vor. Es siegelt Hans Ramensperger, alt Schultheiss von Winterthur und Vogt von Hettlingen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="slit" nontei:condition="absent"><persName role="sigillant">Vogt Hans Ramensperger</persName></seal></sealDesc></physDesc><history><origin><origDate when="1488-01-14"/></origin></history></msDesc></sourceDesc>
-</fileDesc>
-<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
-<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key004009">Kirchengut</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
-<text>
-<group>
-<text>
-<body corresp="Sigle1">
-<div>
-<pb n="r" facs="PGA_Hettlingen_I_A_3__r_.tif"/>
-<p><seg>
-<lb/>Ich, <persName ref="per027835" role="issuer">Hanns Strub</persName> von <placeName ref="loc010469">Hetlingen</placeName>, tuͦn kund mengklichem mit disem briefe, das ich an statt und
-<lb/>in nammen der ersamen, wisen <orgName ref="org007943">schulthais unnd rautz zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, miner lieben herren, daselbs
-<lb/>zuͦ <placeName ref="loc010469">Hetlingen</placeName> offenlich zuͦ gericht gesessen bin und fu̍r mich kommen ist <persName ref="per027571">Bertschi Rapolt</persName> und offnet,
-<lb/>wie er von den erbern <persName ref="per027416">Heintzen Huͦber</persName> und <persName ref="per027601">Hansen Schmid</persName>, beiden kilchenpflēgern des himelfu̍rsten
-<lb/>und lieben hailgen sant <persName ref="per001536">Niclausen</persName> kilchen zuͦ <placeName ref="loc010469">Hetlingen</placeName>, zuͦ sinem guͦten nutz an bārem gelt
-<lb/><measure type="currency" unit="lb" origin="ZH" quantity="25">zwentzig und fu̍nff pfund haller guͦter Zu̍richer wērung</measure> ingenommen und darumb inen und
-<lb/>iren nachkommen kilchenpflēgern an der gemelten kilchen statt eins staͤtten koufs ze kouffen geben
-<lb/>habe <measure type="volume" unit="Mütt" quantity="1" origin="Winterthur" commodity="spelt">ein mu̍t kernen zins Winterthurer mess</measure> usser und ab siner wisen genant <placeName ref="loc013114">Balsatriet</placeName>, gelegen
-<lb/>under der strāß, die gen <placeName ref="loc010359">Andelfingen</placeName> gaut, einsit an <persName ref="per027569">Hansen Rapoltz</persName> wisen und nebenthalb an der
-<lb/><persName ref="per027637">Sultzerin</persName> guͦt, darab vormals nu̍tzet gange dann der gewonlich zehend. Also das der genannt <persName ref="per027571">Bertschi
- <lb/>Rapolt</persName> und sine erben den genannten kilchenpflēgern und iren nachkommen an der pflēge den
-<lb/>gemelten <measure type="volume" unit="Mütt" commodity="spelt" quantity="1">ein mu̍t kernen</measure> zins usser der genannten wisan mit allen rechten, nu̍tzen unnd
-<lb/>zuͦgehoͤrden, so er inen hierumb an des gerichtz stab mit urtail, als recht ist, zuͦ rechtem
-<lb/>underpfand ingesetzt haut, fu̍rohin <date dur="R/P1Y">jerlichs</date>
-<date type="holiday" when="--11-11">uff sant <persName ref="per000141">Martis</persName> tag</date> zuͦ der gemelten kilchen
-<lb/>nutz und gewalt fu̍r allen abgang und intrag soͤllen guͤtlich geben und bezalen, gantz ōn
-<lb/>allen iren costen und schaden.</seg>
-<seg>Dann woͤlches jars er unnd sin erben und inhaber der gemelten
- <lb/>wisan dāran su̍mig wurden, so moͤchten sy und ire nachkommen pflegere an der genannten
-<lb/>kilchen statt sy darumb fu̍rnaͤmen, beclagnen und dartzuͦ das gemelt underpfand in verrecht<lb break="no"/>vertigiter vārender underpfandswise angriffen, verganten und verkouffen, solang und vil,
-<lb/>bitz sy desselben irs gefallnen zins <date dur="R/P1Y">jerlichs</date> uff zil, wie obstaut, mit sampt allem daruff ergangen
-<lb/>costen und schaden bezalt worden sind, ōn ir entgeltnuß. Der obgenannt verkouffer gelopt ouch
-<lb/>hieruff by guͦten tru̍wen fu̍r sich, sine erben und nachkommen, der genannten kouffern unnd
-<lb/>iren nachkomen ditz koufs und zins fu̍r allen abgang und intrag recht were ze sind gegen aller
-<lb/>mengklichem nach dem rechten.</seg>
-<seg>Hierinne vorbehalten den widerkouff also, das er und sine
-<lb/>erben soͤlchen zins wol wider kouffen mu̍gen, wann sy wollen, mit <measure type="currency" unit="lb" quantity="25">zwenntzig und fu̍nff pfund
-<lb/>haller</measure> hoptguͦtz obgemelter wērung, allwēgen vor <date type="deadline_holiday" when="--06-24">sant <persName ref="per000049">Johans</persName> tag, baptiste</date>, ōn zins unnd
-<lb/>darnach mit dem zins, alles ungevarlich.</seg>
-<seg>Und des zuͦ offem urkund, so haut der ersam, wise
-<lb/><persName ref="per027564" role="sigillant">Hanns Ramensperg</persName>, alt schulthais zuͦ <placeName ref="loc000849">Winterthur</placeName> und vogt zuͦ <placeName ref="loc010469">Hetlingen</placeName>, sin eigen insigel
-<lb/>von gerichtz wēgen, den obgenannten minen herren von <placeName ref="loc000849">Winterthur</placeName> an ir oberkait unvergriffen,
-<lb/>ouch im und sinen erben ōne schaden, mit urtail getan hencken an disen brief.</seg>
-<seg>Geben mit
-<lb/>urtail an <origDate when="1488-01-14">mentag nach sant <persName ref="per001805">Hilarien</persName> tag, nach Cristi gepu̍rt viertzehenhundert
- <lb/>achtzig und acht jāre</origDate>.</seg>
-</p>
-</div>
-<pb n="v" facs="PGA_Hettlingen_I_A_3__v_.tif
-"/>
-<div>
-<ab type="dorsal" place="verso" hand="hand15c">Kilchen zuͦ <placeName ref="loc010469">Hetlingen</placeName></ab>
-</div>
-</body>
-<back>
-<div>
-<p><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> liessen das Dorf <placeName ref="loc010469">Hettlingen</placeName> durch einen Obervogt verwalten, der dem <orgName ref="org005587">Kleinen Rat</orgName> angehörte, wie aus der Offnung von <placeName ref="loc010469">Hettlingen</placeName> hervorgeht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_280">SSRQ ZH NF I/2/1, Nr. 280</ref>, Artikel 2</bibl>). Das Formularbuch des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> enthält die Abschrift einer Quittung über eine Zinszahlung, die der amtierende Obervogt als Vorsitzender des Dorfgerichts ausfertigte (<bibl>STAW B 3a/1, fol. 41r-v</bibl>). Nicht immer sass er selbst zu Gericht. Im vorliegenden Fall vertrat ihn ein Angehöriger der Gemeinde, der 1474 als Knecht von <placeName ref="loc010469">Hettlingen</placeName> vereidigt wurde. Zu seinen Aufgaben gehörte die Ausführung von Vorladungen und Pfändungen (<bibl>STAW B 2/3, S. 250</bibl>). Darüber hinaus begegnet der Stadtknecht von <placeName ref="loc000849">Winterthur</placeName> als stellvertretender Richter in <placeName ref="loc010469">Hettlingen</placeName> (<bibl>StAZH C II 16, Nr. 922</bibl>). Quellen zur Organisation des Dorfgerichts liegen erst aus späterer Zeit vor, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 164-166</bibl>.</p>
-<p>Zur Kirche in <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_057">SSRQ ZH NF I/2/1, Nr. 57</ref></bibl>.</p>
-</div>
-</back>
-</text>
-</group>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich. Neue Folge. Erster Teil: Die
+                    Stadtrechte von Zürich und Winterthur. Zweite Reihe: Die Rechtsquellen der Stadt Winterthur.
+                    Band 1: Die Rechtsquellen der Stadt Winterthur I.</title>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2011-06-16"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ_ZH_NF_I_2_1_151</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=650492">PGA Hettlingen I A 3</idno></msIdentifier><head>Verkauf eines Zinses an die Kirche in Hettlingen durch Bertschi Rapold</head><msContents><summary>Hans Strub, der im Namen des Schultheissen und Rats von Winterthur in Hettlingen zu Gericht sitzt, beurkundet den Verkauf eines jährlichen Zinses von einem Mütt Kernen, fällig am 11. November, um 25 Pfund Pfennige an die Kirchenpfleger der Kirche St. Nikolaus in Hettlingen, Heinz Huber und Hans Schmid. Als Unterpfand stellt der Verkäufer Bertschi Rapold die Wiese genannt Balsatriet unterhalb der Strasse nach Andelfingen, die an die Wiese des Hans Rapold und das Gut der Sulzer grenzt und bisher nur mit dem üblichen Zehnten belastet ist. Bei Zahlungsverzug dürfen die Käufer pfänden. Der Verkäufer behält sich den Rückkauf vor. Es siegelt Hans Ramensperger, alt Schultheiss von Winterthur und Vogt von Hettlingen.</summary><msItem><textLang>Deutsch</textLang><author role="scribe">Konrad Landenberg</author><filiation type="current">Original</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="23.5"/><width unit="cm" quantity="30.5"/></dimensions></extent></supportDesc></objectDesc><sealDesc><seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:attachment="slit" nontei:condition="absent"><persName role="sigillant">Vogt Hans Ramensperger</persName></seal></sealDesc></physDesc><history><origin><origDate when="1488-01-14"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000369">Kauf</term><term ref="key004009">Kirchengut</term></keywords></textClass><particDesc default="false"/><settingDesc default="false"/></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="PGA_Hettlingen_I_A_3__r_.tif"/>
+                        <p><seg>
+                            <lb/>Ich, <persName ref="per027835" role="issuer">Hanns Strub</persName> von <placeName ref="loc010469">Hetlingen</placeName>, tuͦn kund mengklichem mit disem briefe, das ich an statt und
+                            <lb/>in nammen der ersamen, wisen <orgName ref="org007943">schulthais unnd rautz zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, miner lieben herren, daselbs
+                            <lb/>zuͦ <placeName ref="loc010469">Hetlingen</placeName> offenlich zuͦ gericht gesessen bin und fu̍r mich kommen ist <persName ref="per027571">Bertschi Rapolt</persName> und offnet,
+                            <lb/>wie er von den erbern <persName ref="per027416">Heintzen Huͦber</persName> und <persName ref="per027601">Hansen Schmid</persName>, beiden kilchenpflēgern des himelfu̍rsten
+                            <lb/>und lieben hailgen sant <persName ref="per001536">Niclausen</persName> kilchen zuͦ <placeName ref="loc010469">Hetlingen</placeName>, zuͦ sinem guͦten nutz an bārem gelt
+                            <lb/><measure type="currency" unit="lb" origin="ZH" quantity="25">zwentzig und fu̍nff pfund haller guͦter Zu̍richer wērung</measure> ingenommen und darumb inen und
+                            <lb/>iren nachkommen kilchenpflēgern an der gemelten kilchen statt eins staͤtten koufs ze kouffen geben
+                            <lb/>habe <measure type="volume" unit="Mütt" quantity="1" origin="Winterthur" commodity="spelt">ein mu̍t kernen zins Winterthurer mess</measure> usser und ab siner wisen genant <placeName ref="loc013114">Balsatriet</placeName>, gelegen
+                            <lb/>under der strāß, die gen <placeName ref="loc010359">Andelfingen</placeName> gaut, einsit an <persName ref="per027569">Hansen Rapoltz</persName> wisen und nebenthalb an der
+                            <lb/><persName ref="per027637">Sultzerin</persName> guͦt, darab vormals nu̍tzet gange dann der gewonlich zehend. Also das der genannt <persName ref="per027571">Bertschi
+                                <lb/>Rapolt</persName> und sine erben den genannten kilchenpflēgern und iren nachkommen an der pflēge den
+                            <lb/>gemelten <measure type="volume" unit="Mütt" commodity="spelt" quantity="1">ein mu̍t kernen</measure> zins usser der genannten wisan mit allen rechten, nu̍tzen unnd
+                            <lb/>zuͦgehoͤrden, so er inen hierumb an des gerichtz stab mit urtail, als recht ist, zuͦ rechtem
+                            <lb/>underpfand ingesetzt haut, fu̍rohin <date dur="R/P1Y">jerlichs</date>
+                            <date type="holiday" when="--11-11">uff sant <persName ref="per000141">Martis</persName> tag</date> zuͦ der gemelten kilchen
+                            <lb/>nutz und gewalt fu̍r allen abgang und intrag soͤllen guͤtlich geben und bezalen, gantz ōn
+                            <lb/>allen iren costen und schaden.</seg>
+                            <seg>Dann woͤlches jars er unnd sin erben und inhaber der gemelten
+                                <lb/>wisan dāran su̍mig wurden, so moͤchten sy und ire nachkommen pflegere an der genannten
+                                <lb/>kilchen statt sy darumb fu̍rnaͤmen, beclagnen und dartzuͦ das gemelt underpfand in verrecht<lb break="no"/>vertigiter vārender underpfandswise angriffen, verganten und verkouffen, solang und vil,
+                                <lb/>bitz sy desselben irs gefallnen zins <date dur="R/P1Y">jerlichs</date> uff zil, wie obstaut, mit sampt allem daruff ergangen
+                                <lb/>costen und schaden bezalt worden sind, ōn ir entgeltnuß. Der obgenannt verkouffer gelopt ouch
+                                <lb/>hieruff by guͦten tru̍wen fu̍r sich, sine erben und nachkommen, der genannten kouffern unnd
+                                <lb/>iren nachkomen ditz koufs und zins fu̍r allen abgang und intrag recht were ze sind gegen aller
+                                <lb/>mengklichem nach dem rechten.</seg>
+                            <seg>Hierinne vorbehalten den widerkouff also, das er und sine
+                                <lb/>erben soͤlchen zins wol wider kouffen mu̍gen, wann sy wollen, mit <measure type="currency" unit="lb" quantity="25">zwenntzig und fu̍nff pfund
+                                    <lb/>haller</measure> hoptguͦtz obgemelter wērung, allwēgen vor <date type="deadline_holiday" when="--06-24">sant <persName ref="per000049">Johans</persName> tag, baptiste</date>, ōn zins unnd
+                                <lb/>darnach mit dem zins, alles ungevarlich.</seg>
+                            <seg>Und des zuͦ offem urkund, so haut der ersam, wise
+                                <lb/><persName ref="per027564" role="sigillant">Hanns Ramensperg</persName>, alt schulthais zuͦ <placeName ref="loc000849">Winterthur</placeName> und vogt zuͦ <placeName ref="loc010469">Hetlingen</placeName>, sin eigen insigel
+                                <lb/>von gerichtz wēgen, den obgenannten minen herren von <placeName ref="loc000849">Winterthur</placeName> an ir oberkait unvergriffen,
+                                <lb/>ouch im und sinen erben ōne schaden, mit urtail getan hencken an disen brief.</seg>
+                            <seg>Geben mit
+                                <lb/>urtail an <origDate when="1488-01-14">mentag nach sant <persName ref="per001805">Hilarien</persName> tag, nach Cristi gepu̍rt viertzehenhundert
+                                    <lb/>achtzig und acht jāre</origDate>.</seg>
+                        </p>
+                    </div>
+                    <pb n="v" facs="PGA_Hettlingen_I_A_3__v_.tif
+                        "/>
+                    <div>
+                        <ab type="dorsal" place="verso" hand="hand15c">Kilchen zuͦ <placeName ref="loc010469">Hetlingen</placeName></ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p><orgName ref="org007943">Schultheiss und Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> liessen das Dorf <placeName ref="loc010469">Hettlingen</placeName> durch einen Obervogt verwalten, der dem <orgName ref="org005587">Kleinen Rat</orgName> angehörte, wie aus der Offnung von <placeName ref="loc010469">Hettlingen</placeName> hervorgeht (<bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_280">SSRQ ZH NF I/2/1, Nr. 280</ref>, Artikel 2</bibl>). Das Formularbuch des <placeName ref="loc000849">Winterthurer</placeName> Stadtschreibers <persName ref="per014937">Gebhard Hegner</persName> enthält die Abschrift einer Quittung über eine Zinszahlung, die der amtierende Obervogt als Vorsitzender des Dorfgerichts ausfertigte (<bibl>STAW B 3a/1, fol. 41r-v</bibl>). Nicht immer sass er selbst zu Gericht. Im vorliegenden Fall vertrat ihn ein Angehöriger der Gemeinde, der 1474 als Knecht von <placeName ref="loc010469">Hettlingen</placeName> vereidigt wurde. Zu seinen Aufgaben gehörte die Ausführung von Vorladungen und Pfändungen (<bibl>STAW B 2/3, S. 250</bibl>). Darüber hinaus begegnet der Stadtknecht von <placeName ref="loc000849">Winterthur</placeName> als stellvertretender Richter in <placeName ref="loc010469">Hettlingen</placeName> (<bibl>StAZH C II 16, Nr. 922</bibl>). Quellen zur Organisation des Dorfgerichts liegen erst aus späterer Zeit vor, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Kläui 1985</ref>, S. 164-166</bibl>.</p>
+                        <p>Zur Kirche in <placeName ref="loc010469">Hettlingen</placeName> vgl. <bibl><ref target="/suche/detail/SSRQ_ZH_NF_I_2_1_057">SSRQ ZH NF I/2/1, Nr. 57</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
 </TEI>
+
+
