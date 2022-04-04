@@ -40,7 +40,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "notAfter" return
                 idx:get-notAfter($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate)
             case "notBefore" return
-                idx:get-notBefore($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate)
+                idx:get-notBefore(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "language" return
                     $root/@xml:lang
             
@@ -69,11 +69,24 @@ declare function idx:get-notAfter($date as element()?) {
 
 (: If date not available, set to 1200 :)
 declare function idx:get-notBefore($date as element()?) {
-    if ($date/@when != ('', '0000-00-00')) then 
-        $date/@when 
-    else if ($date/@from) then 
-        $date/@from
-    else '1200-01-01'
+    try {
+        if ($date/@when != ('', '0000-00-00')) then 
+            idx:normalize-date($date/@when)
+        else if ($date/@from) then 
+            idx:normalize-date($date/@from)
+        else xs:date('1000-01-01')
+    } catch * {
+        xs:date('1000-01-01')
+    }
+};
+
+declare function idx:normalize-date($date as xs:string) {
+    if (matches($date, "^\d{4}-\d{2}$")) then
+        xs:date($date || "-01")
+    else if (matches($date, "^\d{4}$")) then
+        xs:date($date || "-01-01")
+    else
+        xs:date($date)
 };
 
 declare function idx:get-genre($header as element()?) {
