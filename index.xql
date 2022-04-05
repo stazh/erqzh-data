@@ -38,7 +38,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "keyword" return
                 $header//tei:profileDesc//tei:keywords//tei:term
             case "notAfter" return
-                idx:get-notAfter($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate)
+                idx:get-notAfter(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "notBefore" return
                 idx:get-notBefore(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "language" return
@@ -60,11 +60,15 @@ declare function idx:get-person($persName as element()*) {
 
 (: If date not available, set to 1700 :)
 declare function idx:get-notAfter($date as element()?) {
-    if ($date/@when != ('', '0000-00-00')) then 
-        $date/@when 
-    else if ($date/@to) then 
-        $date/@to
-    else '1700-01-01'
+    try {
+        if ($date/@when != ('', '0000-00-00')) then 
+            idx:normalize-date($date/@when)
+        else if ($date/@to) then 
+            idx:normalize-date($date/@to)
+        else xs:date('1700-01-01')
+    } catch * {
+        xs:date('1000-01-01')
+    }
 };
 
 (: If date not available, set to 1200 :)

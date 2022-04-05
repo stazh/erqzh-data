@@ -8,7 +8,8 @@
                 <field name="idno" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
                 <field name="title" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
                 <field name="notBefore" expression="nav:get-metadata(., 'notBefore')" type="xs:date"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(., 'notBefore'), '-')" hierarchical="yes"/>
+                <facet dimension="date-min" expression="tokenize(nav:get-metadata(., 'notBefore'), '-')" hierarchical="yes"/>
+                <facet dimension="date-max" expression="tokenize(nav:get-metadata(., 'notAfter'), '-')" hierarchical="yes"/>
             </text>
             <text match="/tei:TEI/tei:text">
                 <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
