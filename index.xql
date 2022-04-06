@@ -41,13 +41,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 idx:get-notAfter(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "notBefore" return
                 idx:get-notBefore(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
-            case "language" return
-                    $root/@xml:lang
-            
-            case "genre" return (
-                idx:get-genre($header),
-                'charter'
-            )
+            case "type" return
+                if (exists($root//tei:body/*)) then 'document' else 'variant'
             default return
                 ()
 };
@@ -65,7 +60,7 @@ declare function idx:get-notAfter($date as element()?) {
             idx:normalize-date($date/@when)
         else if ($date/@to) then 
             idx:normalize-date($date/@to)
-        else xs:date('1700-01-01')
+        else xs:date('1000-01-01')
     } catch * {
         xs:date('1000-01-01')
     }
