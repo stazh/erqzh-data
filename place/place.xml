@@ -132,17 +132,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013066" n="Aesch">
-                <placeName type="main">Aesch</placeName>
-                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeindeteil/partie de commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc008704" n="Aesch">
                 <placeName type="main">Aesch</placeName>
                 <placeName type="add">(CH-ZH) Dorf/village, Gemeindeteil/partie de commune</placeName>
@@ -150,6 +139,17 @@
                 <trait type="type">
                     <label>Dorf/village</label>
                 </trait>
+                <trait type="type">
+                    <label>Gemeindeteil/partie de commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013066" n="Aesch">
+                <placeName type="main">Aesch</placeName>
+                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
+                <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gemeindeteil/partie de commune</label>
                 </trait>
@@ -398,17 +398,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010359" n="Andelfingen">
-                <placeName type="main">Andelfingen</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc008749" n="Andelfingen">
                 <placeName type="main">Andelfingen</placeName>
                 <placeName type="add">(CH-ZH) Landvogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -418,6 +407,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010359" n="Andelfingen">
+                <placeName type="main">Andelfingen</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -471,20 +471,6 @@
                 </trait>
                 <trait type="type">
                     <label>Land/pays</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc000151" n="Appenzell Ausserrhoden">
-                <placeName type="main">Appenzell Ausserrhoden</placeName>
-                <placeName type="add">(CH-AR) eidgenössischer Ort/canton, Kanton/canton</placeName>
-                <region>CH-AR</region>
-                <trait type="type">
-                    <label>eidgenössischer Ort/canton</label>
-                </trait>
-                <trait type="type">
-                    <label>Kanton/canton</label>
                 </trait>
                 <location>
                     <geo/>
@@ -658,7 +644,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013179" n="Au">
+            <place xml:id="loc012563" n="Au">
                 <placeName type="main">Au</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
@@ -669,7 +655,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012563" n="Au">
+            <place xml:id="loc013179" n="Au">
                 <placeName type="main">Au</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
@@ -845,6 +831,17 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000939" n="Bad Säckingen">
+                <placeName type="main">Bad Säckingen</placeName>
+                <placeName type="add">(DE-BW) Stadt/ville</placeName>
+                <region>DE-BW</region>
+                <trait type="type">
+                    <label>Stadt/ville</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc000959" n="Bad Zurzach">
                 <placeName type="main">Bad Zurzach</placeName>
                 <placeName type="add">(CH-AG) Gemeinde/commune</placeName>
@@ -1001,20 +998,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000161" n="Basel">
-                <placeName type="main">Basel</placeName>
-                <placeName type="add">(CH-BS) Stadt/ville, Gemeinde/commune</placeName>
-                <region>CH-BS</region>
-                <trait type="type">
-                    <label>Stadt/ville</label>
-                </trait>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc005866" n="Basel">
                 <placeName type="main">Basel</placeName>
                 <placeName type="add">(CH-BS, CH-BL) eidgenössischer Ort/canton, Kanton/canton</placeName>
@@ -1025,6 +1008,20 @@
                 </trait>
                 <trait type="type">
                     <label>Kanton/canton</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc000161" n="Basel">
+                <placeName type="main">Basel</placeName>
+                <placeName type="add">(CH-BS) Stadt/ville, Gemeinde/commune</placeName>
+                <region>CH-BS</region>
+                <trait type="type">
+                    <label>Stadt/ville</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -1108,17 +1105,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010342" n="Bayern">
-                <placeName type="main">Bayern</placeName>
-                <placeName type="add">(DE-BY) Herzogtum/duché</placeName>
-                <region>DE-BY</region>
-                <trait type="type">
-                    <label>Herzogtum/duché</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc001010" n="Bayern">
                 <placeName type="main">Bayern</placeName>
                 <placeName type="add">(DE-BY) Region/région, Bundesland/état fédéral</placeName>
@@ -1128,6 +1114,17 @@
                 </trait>
                 <trait type="type">
                     <label>Bundesland/état fédéral</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010342" n="Bayern">
+                <placeName type="main">Bayern</placeName>
+                <placeName type="add">(DE-BY) Herzogtum/duché</placeName>
+                <region>DE-BY</region>
+                <trait type="type">
+                    <label>Herzogtum/duché</label>
                 </trait>
                 <location>
                     <geo/>
@@ -1636,17 +1633,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000177" n="Bonstetten">
-                <placeName type="main">Bonstetten</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc009830" n="Bonstetten">
                 <placeName type="main">Bonstetten</placeName>
                 <placeName type="add">(CH-ZH) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -1656,6 +1642,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc000177" n="Bonstetten">
+                <placeName type="main">Bonstetten</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -1790,7 +1787,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013926" n="Breite">
+            <place xml:id="loc012041" n="Breite">
                 <placeName type="main">Breite</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
@@ -1801,7 +1798,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012041" n="Breite">
+            <place xml:id="loc013926" n="Breite">
                 <placeName type="main">Breite</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
@@ -2478,7 +2475,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010726" n="Chalberweid">
+            <place xml:id="loc012090" n="Chalberweid">
                 <placeName type="main">Chalberweid</placeName>
                 <placeName type="add">(CH-ZH) Wies-, Weideland/prairie, pâturage</placeName>
                 <region>CH-ZH</region>
@@ -2489,7 +2486,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012090" n="Chalberweid">
+            <place xml:id="loc010726" n="Chalberweid">
                 <placeName type="main">Chalberweid</placeName>
                 <placeName type="add">(CH-ZH) Wies-, Weideland/prairie, pâturage</placeName>
                 <region>CH-ZH</region>
@@ -2869,23 +2866,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010513" n="Dietlikon">
-                <placeName type="main">Dietlikon</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010407" n="Dietlikon">
                 <placeName type="main">Dietlikon</placeName>
                 <placeName type="add">(CH-ZH) Dorf/village</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Dorf/village</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010513" n="Dietlikon">
+                <placeName type="main">Dietlikon</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3133,23 +3130,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010413" n="Egg">
-                <placeName type="main">Egg</placeName>
-                <placeName type="add">(CH-ZH) Wald/forêt</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Wald/forêt</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010412" n="Egg">
                 <placeName type="main">Egg</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Flurname/lieu-dit</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010413" n="Egg">
+                <placeName type="main">Egg</placeName>
+                <placeName type="add">(CH-ZH) Wald/forêt</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Wald/forêt</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3370,23 +3367,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010984" n="Elsass">
-                <placeName type="main">Elsass</placeName>
-                <placeName type="add">(FR-GES) Herrschaft/seigneurie</placeName>
-                <region>FR-GES</region>
-                <trait type="type">
-                    <label>Herrschaft/seigneurie</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000140" n="Elsass">
                 <placeName type="main">Elsass</placeName>
                 <placeName type="add">(FR-GES) Region/région</placeName>
                 <region>FR-GES</region>
                 <trait type="type">
                     <label>Region/région</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010984" n="Elsass">
+                <placeName type="main">Elsass</placeName>
+                <placeName type="add">(FR-GES) Herrschaft/seigneurie</placeName>
+                <region>FR-GES</region>
+                <trait type="type">
+                    <label>Herrschaft/seigneurie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3414,12 +3411,15 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013735" n="Embrach">
+            <place xml:id="loc010422" n="Embrach">
                 <placeName type="main">Embrach</placeName>
-                <placeName type="add">(CH-ZH) Klosteramt/avouerie</placeName>
+                <placeName type="add">(CH-ZH) Stadt/ville, Gemeinde/commune</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Klosteramt/avouerie</label>
+                    <label>Stadt/ville</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3436,15 +3436,12 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010422" n="Embrach">
+            <place xml:id="loc013735" n="Embrach">
                 <placeName type="main">Embrach</placeName>
-                <placeName type="add">(CH-ZH) Stadt/ville, Gemeinde/commune</placeName>
+                <placeName type="add">(CH-ZH) Klosteramt/avouerie</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Stadt/ville</label>
-                </trait>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
+                    <label>Klosteramt/avouerie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3623,17 +3620,6 @@
                 </trait>
                 <trait type="type">
                     <label>Hof/cour</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc013074" n="Eschenberger Wald">
-                <placeName type="main">Eschenberger Wald</placeName>
-                <placeName type="add">(CH-ZH) Wald/forêt</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Wald/forêt</label>
                 </trait>
                 <location>
                     <geo/>
@@ -3905,23 +3891,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc011708" n="Fraumünster">
-                <placeName type="main">Fraumünster</placeName>
-                <placeName type="add">(CH-ZH) Kirchspiel/paroisse</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Kirchspiel/paroisse</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000090" n="Fraumünster">
                 <placeName type="main">Fraumünster</placeName>
                 <placeName type="add">(CH-ZH) Benediktinerinnenkloster/couvent des bénédictines</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Benediktinerinnenkloster/couvent des bénédictines</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc011708" n="Fraumünster">
+                <placeName type="main">Fraumünster</placeName>
+                <placeName type="add">(CH-ZH) Kirchspiel/paroisse</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Kirchspiel/paroisse</label>
                 </trait>
                 <location>
                     <geo/>
@@ -4383,6 +4369,20 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000084" n="Glarus">
+                <placeName type="main">Glarus</placeName>
+                <placeName type="add">(CH-GL) Siedlung/colonie, Gemeinde/commune</placeName>
+                <region>CH-GL</region>
+                <trait type="type">
+                    <label>Siedlung/colonie</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc000326" n="Glarus">
                 <placeName type="main">Glarus</placeName>
                 <placeName type="add">(CH-GL) eidgenössischer Ort/canton, Kanton/canton, Land/pays</placeName>
@@ -4395,20 +4395,6 @@
                 </trait>
                 <trait type="type">
                     <label>Land/pays</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc000084" n="Glarus">
-                <placeName type="main">Glarus</placeName>
-                <placeName type="add">(CH-GL) Siedlung/colonie, Gemeinde/commune</placeName>
-                <region>CH-GL</region>
-                <trait type="type">
-                    <label>Siedlung/colonie</label>
-                </trait>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -4647,12 +4633,15 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008718" n="Greifensee">
+            <place xml:id="loc000348" n="Greifensee">
                 <placeName type="main">Greifensee</placeName>
-                <placeName type="add">(CH-ZH) See/lac</placeName>
+                <placeName type="add">(CH-ZH) Herrschaft/seigneurie, Landvogtei/bailliage</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>See/lac</label>
+                    <label>Herrschaft/seigneurie</label>
+                </trait>
+                <trait type="type">
+                    <label>Landvogtei/bailliage</label>
                 </trait>
                 <location>
                     <geo/>
@@ -4683,15 +4672,12 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000348" n="Greifensee">
+            <place xml:id="loc008718" n="Greifensee">
                 <placeName type="main">Greifensee</placeName>
-                <placeName type="add">(CH-ZH) Herrschaft/seigneurie, Landvogtei/bailliage</placeName>
+                <placeName type="add">(CH-ZH) See/lac</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Herrschaft/seigneurie</label>
-                </trait>
-                <trait type="type">
-                    <label>Landvogtei/bailliage</label>
+                    <label>See/lac</label>
                 </trait>
                 <location>
                     <geo/>
@@ -4823,23 +4809,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc011711" n="Grossmünster">
-                <placeName type="main">Grossmünster</placeName>
-                <placeName type="add">(CH-ZH) Kirchspiel/paroisse</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Kirchspiel/paroisse</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc007562" n="Grossmünster">
                 <placeName type="main">Grossmünster</placeName>
                 <placeName type="add">(CH-ZH) Chorherrenstift/chapitre collégial</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Chorherrenstift/chapitre collégial</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc011711" n="Grossmünster">
+                <placeName type="main">Grossmünster</placeName>
+                <placeName type="add">(CH-ZH) Kirchspiel/paroisse</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Kirchspiel/paroisse</label>
                 </trait>
                 <location>
                     <geo/>
@@ -4867,6 +4853,20 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000362" n="Grüningen">
+                <placeName type="main">Grüningen</placeName>
+                <placeName type="add">(CH-ZH) Landvogtei/bailliage, Herrschaft/seigneurie</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Landvogtei/bailliage</label>
+                </trait>
+                <trait type="type">
+                    <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc008760" n="Grüningen">
                 <placeName type="main">Grüningen</placeName>
                 <placeName type="add">(CH-ZH) Gemeinde/commune, Stadt/ville</placeName>
@@ -4887,20 +4887,6 @@
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Burg/château</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc000362" n="Grüningen">
-                <placeName type="main">Grüningen</placeName>
-                <placeName type="add">(CH-ZH) Landvogtei/bailliage, Herrschaft/seigneurie</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Landvogtei/bailliage</label>
-                </trait>
-                <trait type="type">
-                    <label>Herrschaft/seigneurie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -5904,23 +5890,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010475" n="Honrain">
-                <placeName type="main">Honrain</placeName>
-                <placeName type="add">(CH-ZH) Wies-, Weideland/prairie, pâturage</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Wies-, Weideland/prairie, pâturage</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012648" n="Honrain">
                 <placeName type="main">Honrain</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Flurname/lieu-dit</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010475" n="Honrain">
+                <placeName type="main">Honrain</placeName>
+                <placeName type="add">(CH-ZH) Wies-, Weideland/prairie, pâturage</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Wies-, Weideland/prairie, pâturage</label>
                 </trait>
                 <location>
                     <geo/>
@@ -5937,17 +5923,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010401" n="Horgen">
-                <placeName type="main">Horgen</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc009838" n="Horgen">
                 <placeName type="main">Horgen</placeName>
                 <placeName type="add">(CH-ZH) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -5957,6 +5932,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010401" n="Horgen">
+                <placeName type="main">Horgen</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -6546,7 +6532,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012830" n="Kelnhof">
+            <place xml:id="loc013381" n="Kelnhof">
                 <placeName type="main">Kelnhof</placeName>
                 <placeName type="add">(CH-ZH) Hof/cour</placeName>
                 <region>CH-ZH</region>
@@ -6557,7 +6543,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013381" n="Kelnhof">
+            <place xml:id="loc012830" n="Kelnhof">
                 <placeName type="main">Kelnhof</placeName>
                 <placeName type="add">(CH-ZH) Hof/cour</placeName>
                 <region>CH-ZH</region>
@@ -6798,17 +6784,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000978" n="Knonau">
-                <placeName type="main">Knonau</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000468" n="Knonau">
                 <placeName type="main">Knonau</placeName>
                 <placeName type="add">(CH-ZH) Herrschaft/seigneurie, Landvogtei/bailliage</placeName>
@@ -6818,6 +6793,17 @@
                 </trait>
                 <trait type="type">
                     <label>Landvogtei/bailliage</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc000978" n="Knonau">
+                <placeName type="main">Knonau</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -7095,15 +7081,18 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010488" n="Kyburg">
+            <place xml:id="loc000012" n="Kyburg">
                 <placeName type="main">Kyburg</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune, Gemeindeteil/partie de commune</placeName>
+                <placeName type="add">(CH-ZH) Landvogtei/bailliage, Herrschaft/seigneurie, Grafschaft/comté</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Gemeinde/commune</label>
+                    <label>Landvogtei/bailliage</label>
                 </trait>
                 <trait type="type">
-                    <label>Gemeindeteil/partie de commune</label>
+                    <label>Herrschaft/seigneurie</label>
+                </trait>
+                <trait type="type">
+                    <label>Grafschaft/comté</label>
                 </trait>
                 <location>
                     <geo/>
@@ -7120,18 +7109,15 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000012" n="Kyburg">
+            <place xml:id="loc010488" n="Kyburg">
                 <placeName type="main">Kyburg</placeName>
-                <placeName type="add">(CH-ZH) Landvogtei/bailliage, Herrschaft/seigneurie, Grafschaft/comté</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune, Gemeindeteil/partie de commune</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Landvogtei/bailliage</label>
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <trait type="type">
-                    <label>Herrschaft/seigneurie</label>
-                </trait>
-                <trait type="type">
-                    <label>Grafschaft/comté</label>
+                    <label>Gemeindeteil/partie de commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -7414,17 +7400,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008775" n="Laufen">
-                <placeName type="main">Laufen</placeName>
-                <placeName type="add">(CH-ZH) Burg/château</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Burg/château</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc009839" n="Laufen">
                 <placeName type="main">Laufen</placeName>
                 <placeName type="add">(CH-ZH) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -7434,6 +7409,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc008775" n="Laufen">
+                <placeName type="main">Laufen</placeName>
+                <placeName type="add">(CH-ZH) Burg/château</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Burg/château</label>
                 </trait>
                 <location>
                     <geo/>
@@ -7740,23 +7726,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010529" n="Lindau">
-                <placeName type="main">Lindau</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000486" n="Lindau">
                 <placeName type="main">Lindau</placeName>
                 <placeName type="add">(DE-BY) Stadt/ville</placeName>
                 <region>DE-BY</region>
                 <trait type="type">
                     <label>Stadt/ville</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010529" n="Lindau">
+                <placeName type="main">Lindau</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -7887,17 +7873,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008861" n="Loch">
-                <placeName type="main">Loch</placeName>
-                <placeName type="add">(CH-ZH) Hof/cour</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Hof/cour</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012685" n="Loch">
                 <placeName type="main">Loch</placeName>
                 <placeName type="add">(CH-ZH) Hof/cour</placeName>
@@ -7909,7 +7884,18 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008862" n="Lochacher">
+            <place xml:id="loc008861" n="Loch">
+                <placeName type="main">Loch</placeName>
+                <placeName type="add">(CH-ZH) Hof/cour</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Hof/cour</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc012686" n="Lochacher">
                 <placeName type="main">Lochacher</placeName>
                 <placeName type="add">(CH-ZH) Acker/champ</placeName>
                 <region>CH-ZH</region>
@@ -7920,7 +7906,7 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012686" n="Lochacher">
+            <place xml:id="loc008862" n="Lochacher">
                 <placeName type="main">Lochacher</placeName>
                 <placeName type="add">(CH-ZH) Acker/champ</placeName>
                 <region>CH-ZH</region>
@@ -8257,6 +8243,17 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000509" n="Meilen">
+                <placeName type="main">Meilen</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc009841" n="Meilen">
                 <placeName type="main">Meilen</placeName>
                 <placeName type="add">(CH-ZH) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -8266,17 +8263,6 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc000509" n="Meilen">
-                <placeName type="main">Meilen</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -8639,23 +8625,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010535" n="Münsterhof">
-                <placeName type="main">Münsterhof</placeName>
-                <placeName type="add">(CH-ZH) Stadtteil/quartier (ville)</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Stadtteil/quartier (ville)</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010559" n="Münsterhof">
                 <placeName type="main">Münsterhof</placeName>
                 <placeName type="add">(CH-ZH) Platz/place</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Platz/place</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010535" n="Münsterhof">
+                <placeName type="main">Münsterhof</placeName>
+                <placeName type="add">(CH-ZH) Stadtteil/quartier (ville)</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Stadtteil/quartier (ville)</label>
                 </trait>
                 <location>
                     <geo/>
@@ -8893,23 +8879,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010561" n="Neumarkt">
-                <placeName type="main">Neumarkt</placeName>
-                <placeName type="add">(CH-ZH) Platz/place</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Platz/place</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc013316" n="Neumarkt">
                 <placeName type="main">Neumarkt</placeName>
                 <placeName type="add">(CH-ZH) Stadtteil/quartier (ville)</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Stadtteil/quartier (ville)</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010561" n="Neumarkt">
+                <placeName type="main">Neumarkt</placeName>
+                <placeName type="add">(CH-ZH) Platz/place</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Platz/place</label>
                 </trait>
                 <location>
                     <geo/>
@@ -9002,23 +8988,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012141" n="Niederglatt">
-                <placeName type="main">Niederglatt</placeName>
-                <placeName type="add">(CH-ZH) Dorf/village</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Dorf/village</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012174" n="Niederglatt">
                 <placeName type="main">Niederglatt</placeName>
                 <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc012141" n="Niederglatt">
+                <placeName type="main">Niederglatt</placeName>
+                <placeName type="add">(CH-ZH) Dorf/village</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Dorf/village</label>
                 </trait>
                 <location>
                     <geo/>
@@ -9401,23 +9387,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008866" n="Oberhof">
-                <placeName type="main">Oberhof</placeName>
-                <placeName type="add">(CH-ZH) Hof/cour</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Hof/cour</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc008865" n="Oberhof">
                 <placeName type="main">Oberhof</placeName>
                 <placeName type="add">(CH-ZH) Gut/propriété</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gut/propriété</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc008866" n="Oberhof">
+                <placeName type="main">Oberhof</placeName>
+                <placeName type="add">(CH-ZH) Hof/cour</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Hof/cour</label>
                 </trait>
                 <location>
                     <geo/>
@@ -9605,23 +9591,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013451" n="Obertor">
-                <placeName type="main">Obertor</placeName>
-                <placeName type="add">(CH-ZH) Tor/porte</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Tor/porte</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc013080" n="Obertor">
                 <placeName type="main">Obertor</placeName>
                 <placeName type="add">(CH-ZH) Stadtteil/quartier (ville)</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Stadtteil/quartier (ville)</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013451" n="Obertor">
+                <placeName type="main">Obertor</placeName>
+                <placeName type="add">(CH-ZH) Tor/porte</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Tor/porte</label>
                 </trait>
                 <location>
                     <geo/>
@@ -9649,17 +9635,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013081" n="Oberwil">
-                <placeName type="main">Oberwil</placeName>
-                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeindeteil/partie de commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010575" n="Oberwil">
                 <placeName type="main">Oberwil</placeName>
                 <placeName type="add">(CH-ZH) Dorf/village, Dorfteil/quartier (village), Weiler/hameau</placeName>
@@ -9672,6 +9647,17 @@
                 </trait>
                 <trait type="type">
                     <label>Weiler/hameau</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013081" n="Oberwil">
+                <placeName type="main">Oberwil</placeName>
+                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeindeteil/partie de commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -10244,23 +10230,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc012144" n="Pünt">
-                <placeName type="main">Pünt</placeName>
-                <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Flurname/lieu-dit</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012740" n="Pünt">
                 <placeName type="main">Pünt</placeName>
                 <placeName type="add">(CH-ZH) Acker/champ</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Acker/champ</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc012144" n="Pünt">
+                <placeName type="main">Pünt</placeName>
+                <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Flurname/lieu-dit</label>
                 </trait>
                 <location>
                     <geo/>
@@ -10346,6 +10332,19 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc008822" n="Rapperswil">
+                <placeName type="main">Rapperswil</placeName>
+                <placeName type="add">(CH-SG, CH-ZH, CH-SZ) Herrschaft/seigneurie</placeName>
+                <region>CH-SG</region>
+                <region>CH-ZH</region>
+                <region>CH-SZ</region>
+                <trait type="type">
+                    <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc000108" n="Rapperswil">
                 <placeName type="main">Rapperswil</placeName>
                 <placeName type="add">(CH-SG) Stadt/ville, Gemeinde/commune, Gemeindeteil/partie de commune</placeName>
@@ -10358,19 +10357,6 @@
                 </trait>
                 <trait type="type">
                     <label>Gemeindeteil/partie de commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc008822" n="Rapperswil">
-                <placeName type="main">Rapperswil</placeName>
-                <placeName type="add">(CH-SG, CH-ZH, CH-SZ) Herrschaft/seigneurie</placeName>
-                <region>CH-SG</region>
-                <region>CH-ZH</region>
-                <region>CH-SZ</region>
-                <trait type="type">
-                    <label>Herrschaft/seigneurie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -10394,28 +10380,6 @@
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Wies-, Weideland/prairie, pâturage</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc008754" n="Rathaus">
-                <placeName type="main">Rathaus</placeName>
-                <placeName type="add">(CH-ZH) Rathaus/hôtel de ville</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Rathaus/hôtel de ville</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc013181" n="Rathaus Winterthur">
-                <placeName type="main">Rathaus Winterthur</placeName>
-                <placeName type="add">(CH-ZH) Rathaus/hôtel de ville</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Rathaus/hôtel de ville</label>
                 </trait>
                 <location>
                     <geo/>
@@ -10689,6 +10653,20 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000648" n="Rheintal">
+                <placeName type="main">Rheintal</placeName>
+                <placeName type="add">(CH-SG) Region/région, Tal/vallée</placeName>
+                <region>CH-SG</region>
+                <trait type="type">
+                    <label>Region/région</label>
+                </trait>
+                <trait type="type">
+                    <label>Tal/vallée</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc001075" n="Rheintal">
                 <placeName type="main">Rheintal</placeName>
                 <placeName type="add">(CH-SG) Vogtei/bailliage, gemeine Herrschaft/bailliage commune, Grafschaft/comté</placeName>
@@ -10701,20 +10679,6 @@
                 </trait>
                 <trait type="type">
                     <label>Grafschaft/comté</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc000648" n="Rheintal">
-                <placeName type="main">Rheintal</placeName>
-                <placeName type="add">(CH-SG) Region/région, Tal/vallée</placeName>
-                <region>CH-SG</region>
-                <trait type="type">
-                    <label>Region/région</label>
-                </trait>
-                <trait type="type">
-                    <label>Tal/vallée</label>
                 </trait>
                 <location>
                     <geo/>
@@ -10872,23 +10836,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013184" n="Riet">
-                <placeName type="main">Riet</placeName>
-                <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Flurname/lieu-dit</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc013183" n="Riet">
                 <placeName type="main">Riet</placeName>
                 <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gemeindeteil/partie de commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013184" n="Riet">
+                <placeName type="main">Riet</placeName>
+                <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Flurname/lieu-dit</label>
                 </trait>
                 <location>
                     <geo/>
@@ -12051,17 +12015,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000731" n="Schwyz">
-                <placeName type="main">Schwyz</placeName>
-                <placeName type="add">(CH-SZ) Gemeinde/commune</placeName>
-                <region>CH-SZ</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc013086" n="Schwäbisch Gmünd">
                 <placeName type="main">Schwäbisch Gmünd</placeName>
                 <placeName type="add">(DE-BW) Stadt/ville</placeName>
@@ -12426,20 +12379,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000737" n="Solothurn">
-                <placeName type="main">Solothurn</placeName>
-                <placeName type="add">(CH-SO) eidgenössischer Ort/canton, Kanton/canton</placeName>
-                <region>CH-SO</region>
-                <trait type="type">
-                    <label>eidgenössischer Ort/canton</label>
-                </trait>
-                <trait type="type">
-                    <label>Kanton/canton</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000738" n="Solothurn">
                 <placeName type="main">Solothurn</placeName>
                 <placeName type="add">(CH-SO) Stadt/ville, Gemeinde/commune</placeName>
@@ -12449,6 +12388,20 @@
                 </trait>
                 <trait type="type">
                     <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc000737" n="Solothurn">
+                <placeName type="main">Solothurn</placeName>
+                <placeName type="add">(CH-SO) eidgenössischer Ort/canton, Kanton/canton</placeName>
+                <region>CH-SO</region>
+                <trait type="type">
+                    <label>eidgenössischer Ort/canton</label>
+                </trait>
+                <trait type="type">
+                    <label>Kanton/canton</label>
                 </trait>
                 <location>
                     <geo/>
@@ -12615,23 +12568,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc008988" n="St. Blasien">
-                <placeName type="main">St. Blasien</placeName>
-                <placeName type="add">(DE-BW) Gemeinde/commune</placeName>
-                <region>DE-BW</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012251" n="St. Blasien">
                 <placeName type="main">St. Blasien</placeName>
                 <placeName type="add">(DE-BW) Benediktinerkloster/couvent des bénédictins</placeName>
                 <region>DE-BW</region>
                 <trait type="type">
                     <label>Benediktinerkloster/couvent des bénédictins</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc008988" n="St. Blasien">
+                <placeName type="main">St. Blasien</placeName>
+                <placeName type="add">(DE-BW) Gemeinde/commune</placeName>
+                <region>DE-BW</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -12937,6 +12890,17 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc011165" n="Stammheim">
+                <placeName type="main">Stammheim</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc007328" n="Stammheim">
                 <placeName type="main">Stammheim</placeName>
                 <placeName type="add">(CH-ZH) historische Region/région historique, Vogtei/bailliage</placeName>
@@ -12946,17 +12910,6 @@
                 </trait>
                 <trait type="type">
                     <label>Vogtei/bailliage</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc011165" n="Stammheim">
-                <placeName type="main">Stammheim</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -13189,17 +13142,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013088" n="Steyr">
-                <placeName type="main">Steyr</placeName>
-                <placeName type="add">(AT-4) Stadt/ville</placeName>
-                <region>AT-4</region>
-                <trait type="type">
-                    <label>Stadt/ville</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc007029" n="Stockach">
                 <placeName type="main">Stockach</placeName>
                 <placeName type="add">(DE-BW) Stadt/ville</placeName>
@@ -13301,6 +13243,16 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc014814" n="Strassburg">
+                <placeName type="main">Strassburg</placeName>
+                <placeName type="add">(FR, DE) Fürstentum/principauté</placeName>
+                <trait type="type">
+                    <label>Fürstentum/principauté</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc010786" n="Straubing">
                 <placeName type="main">Straubing</placeName>
                 <placeName type="add">(DE-BY) Stadt/ville</placeName>
@@ -13345,17 +13297,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010923" n="Stäfa">
-                <placeName type="main">Stäfa</placeName>
-                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc009861" n="Stäfa">
                 <placeName type="main">Stäfa</placeName>
                 <placeName type="add">(CH-ZH) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -13365,6 +13306,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010923" n="Stäfa">
+                <placeName type="main">Stäfa</placeName>
+                <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -13572,6 +13524,17 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc014815" n="Teufelsmühle">
+                <placeName type="main">Teufelsmühle</placeName>
+                <placeName type="add">(CH-ZH) Mühle/moulin</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Mühle/moulin</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc012765" n="Teufen">
                 <placeName type="main">Teufen</placeName>
                 <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune</placeName>
@@ -13594,23 +13557,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc010373" n="Thalwil">
-                <placeName type="main">Thalwil</placeName>
-                <placeName type="add">(CH-ZH) Dorf/village</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Dorf/village</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010510" n="Thalwil">
                 <placeName type="main">Thalwil</placeName>
                 <placeName type="add">(CH-ZH) Gemeinde/commune</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc010373" n="Thalwil">
+                <placeName type="main">Thalwil</placeName>
+                <placeName type="add">(CH-ZH) Dorf/village</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Dorf/village</label>
                 </trait>
                 <location>
                     <geo/>
@@ -13886,17 +13849,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013506" n="Töss">
-                <placeName type="main">Töss</placeName>
-                <placeName type="add">(CH-ZH) Klosteramt/avouerie</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Klosteramt/avouerie</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc010810" n="Töss">
                 <placeName type="main">Töss</placeName>
                 <placeName type="add">(CH-ZH) Stadtteil/quartier (ville), Dorf/village</placeName>
@@ -13917,6 +13869,17 @@
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Fluss/rivière</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013506" n="Töss">
+                <placeName type="main">Töss</placeName>
+                <placeName type="add">(CH-ZH) Klosteramt/avouerie</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Klosteramt/avouerie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -14358,17 +14321,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013102" n="Uster">
-                <placeName type="main">Uster</placeName>
-                <placeName type="add">(CH-ZH) Bezirk/district</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Bezirk/district</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc006198" n="Uster">
                 <placeName type="main">Uster</placeName>
                 <placeName type="add">(CH-ZH) Gemeinde/commune, Gerichtsherrschaft/seigneurie justicière</placeName>
@@ -14389,6 +14341,17 @@
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Burg/château</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013102" n="Uster">
+                <placeName type="main">Uster</placeName>
+                <placeName type="add">(CH-ZH) Bezirk/district</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Bezirk/district</label>
                 </trait>
                 <location>
                     <geo/>
@@ -14416,20 +14379,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000801" n="Uznach">
-                <placeName type="main">Uznach</placeName>
-                <placeName type="add">(CH-SG) Stadt/ville, Gemeinde/commune</placeName>
-                <region>CH-SG</region>
-                <trait type="type">
-                    <label>Stadt/ville</label>
-                </trait>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc001076" n="Uznach">
                 <placeName type="main">Uznach</placeName>
                 <placeName type="add">(CH-SG) Grafschaft/comté, gemeine Herrschaft/bailliage commune</placeName>
@@ -14439,6 +14388,20 @@
                 </trait>
                 <trait type="type">
                     <label>gemeine Herrschaft/bailliage commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc000801" n="Uznach">
+                <placeName type="main">Uznach</placeName>
+                <placeName type="add">(CH-SG) Stadt/ville, Gemeinde/commune</placeName>
+                <region>CH-SG</region>
+                <trait type="type">
+                    <label>Stadt/ville</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -14475,17 +14438,6 @@
                 </trait>
                 <trait type="type">
                     <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc011678" n="Veltheim">
-                <placeName type="main">Veltheim</placeName>
-                <placeName type="add">(CH-ZH) Kaplanei/chapellenie</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Kaplanei/chapellenie</label>
                 </trait>
                 <location>
                     <geo/>
@@ -15019,17 +14971,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc007467" n="Weinfelden">
-                <placeName type="main">Weinfelden</placeName>
-                <placeName type="add">(CH-TG) Gemeinde/commune</placeName>
-                <region>CH-TG</region>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc009864" n="Weinfelden">
                 <placeName type="main">Weinfelden</placeName>
                 <placeName type="add">(CH-TG) Vogtei/bailliage, Herrschaft/seigneurie</placeName>
@@ -15039,6 +14980,17 @@
                 </trait>
                 <trait type="type">
                     <label>Herrschaft/seigneurie</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc007467" n="Weinfelden">
+                <placeName type="main">Weinfelden</placeName>
+                <placeName type="add">(CH-TG) Gemeinde/commune</placeName>
+                <region>CH-TG</region>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -15327,23 +15279,23 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc013466" n="Widen">
-                <placeName type="main">Widen</placeName>
-                <placeName type="add">(CH-ZH) Burg/château</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Burg/château</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc012779" n="Widen">
                 <placeName type="main">Widen</placeName>
                 <placeName type="add">(CH-ZH) Flurname/lieu-dit</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Flurname/lieu-dit</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc013466" n="Widen">
+                <placeName type="main">Widen</placeName>
+                <placeName type="add">(CH-ZH) Burg/château</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Burg/château</label>
                 </trait>
                 <location>
                     <geo/>
@@ -15424,6 +15376,20 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc008840" n="Wil">
+                <placeName type="main">Wil</placeName>
+                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune, Weiler/hameau</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Gemeindeteil/partie de commune</label>
+                </trait>
+                <trait type="type">
+                    <label>Weiler/hameau</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc000840" n="Wil">
                 <placeName type="main">Wil</placeName>
                 <placeName type="add">(CH-SG) Stadt/ville, Gemeinde/commune</placeName>
@@ -15444,20 +15410,6 @@
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Gemeinde/commune</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
-            <place xml:id="loc008840" n="Wil">
-                <placeName type="main">Wil</placeName>
-                <placeName type="add">(CH-ZH) Gemeindeteil/partie de commune, Weiler/hameau</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>Gemeindeteil/partie de commune</label>
-                </trait>
-                <trait type="type">
-                    <label>Weiler/hameau</label>
                 </trait>
                 <location>
                     <geo/>
@@ -15554,12 +15506,18 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc001549" n="Willisau">
+            <place xml:id="loc000847" n="Willisau">
                 <placeName type="main">Willisau</placeName>
-                <placeName type="add">(CH-LU) Gemeinde/commune</placeName>
+                <placeName type="add">(CH-LU) Stadt/ville, Gemeinde/commune, Gemeindeteil/partie de commune</placeName>
                 <region>CH-LU</region>
                 <trait type="type">
+                    <label>Stadt/ville</label>
+                </trait>
+                <trait type="type">
                     <label>Gemeinde/commune</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeindeteil/partie de commune</label>
                 </trait>
                 <location>
                     <geo/>
@@ -15622,6 +15580,20 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000849" n="Winterthur">
+                <placeName type="main">Winterthur</placeName>
+                <placeName type="add">(CH-ZH) Stadt/ville, Gemeinde/commune</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Stadt/ville</label>
+                </trait>
+                <trait type="type">
+                    <label>Gemeinde/commune</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc013736" n="Winterthur">
                 <placeName type="main">Winterthur</placeName>
                 <placeName type="add">(CH-ZH) Klosteramt/avouerie</placeName>
@@ -15633,15 +15605,12 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000849" n="Winterthur">
-                <placeName type="main">Winterthur</placeName>
-                <placeName type="add">(CH-ZH) Stadt/ville, Gemeinde/commune</placeName>
+            <place xml:id="loc013181" n="Winterthur Rathaus">
+                <placeName type="main">Winterthur Rathaus</placeName>
+                <placeName type="add">(CH-ZH) Rathaus/hôtel de ville</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
-                    <label>Stadt/ville</label>
-                </trait>
-                <trait type="type">
-                    <label>Gemeinde/commune</label>
+                    <label>Rathaus/hôtel de ville</label>
                 </trait>
                 <location>
                     <geo/>
@@ -16091,20 +16060,6 @@
                     <geo/>
                 </location>
             </place>
-            <place xml:id="loc000066" n="Zürich">
-                <placeName type="main">Zürich</placeName>
-                <placeName type="add">(CH-ZH) eidgenössischer Ort/canton, Kanton/canton</placeName>
-                <region>CH-ZH</region>
-                <trait type="type">
-                    <label>eidgenössischer Ort/canton</label>
-                </trait>
-                <trait type="type">
-                    <label>Kanton/canton</label>
-                </trait>
-                <location>
-                    <geo/>
-                </location>
-            </place>
             <place xml:id="loc000065" n="Zürich">
                 <placeName type="main">Zürich</placeName>
                 <placeName type="add">(CH-ZH) Stadt/ville, Gemeinde/commune</placeName>
@@ -16119,12 +16074,37 @@
                     <geo/>
                 </location>
             </place>
+            <place xml:id="loc000066" n="Zürich">
+                <placeName type="main">Zürich</placeName>
+                <placeName type="add">(CH-ZH) eidgenössischer Ort/canton, Kanton/canton</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>eidgenössischer Ort/canton</label>
+                </trait>
+                <trait type="type">
+                    <label>Kanton/canton</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
             <place xml:id="loc010962" n="Zürich Heiliggeistspital">
                 <placeName type="main">Zürich Heiliggeistspital</placeName>
                 <placeName type="add">(CH-ZH) Spital/hôpital</placeName>
                 <region>CH-ZH</region>
                 <trait type="type">
                     <label>Spital/hôpital</label>
+                </trait>
+                <location>
+                    <geo/>
+                </location>
+            </place>
+            <place xml:id="loc008754" n="Zürich Rathaus">
+                <placeName type="main">Zürich Rathaus</placeName>
+                <placeName type="add">(CH-ZH) Rathaus/hôtel de ville</placeName>
+                <region>CH-ZH</region>
+                <trait type="type">
+                    <label>Rathaus/hôtel de ville</label>
                 </trait>
                 <location>
                     <geo/>
