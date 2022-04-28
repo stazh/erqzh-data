@@ -40,9 +40,17 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "notAfter" return
                 idx:get-notAfter(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "notBefore" return
-                idx:get-notBefore(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
+                idx:get-notBefore(
+                    head((
+                        $header//tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem//tei:origDate,
+                        $header//tei:sourceDesc//tei:history/tei:origin/tei:origDate
+                    ))
+                )
             case "type" return
-                if (not($root/@type=('volinfo','introduction','biblio') and exists($root//tei:body/*))) then 'document' else 'variant'
+                if ($root/@type=('volinfo','introduction','biblio') or empty($root//tei:body)) then 
+                    'variant' 
+                else 
+                    'document'
             default return
                 ()
 };
