@@ -47,7 +47,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     ))
                 )
             case "type" return
-                if ($root/@type=('volinfo', 'biblio') or empty($root//tei:body)) then 
+                if ($root/@type=('volinfo', 'biblio') or empty($root//tei:body/*)) then 
                     'variant'
                 else if ($root/@type='introduction') then
                     'introduction'
