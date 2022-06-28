@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <fulltext default="none" attributes="false"/>
@@ -100,6 +101,21 @@
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
             </text>
             <text match="//tei:teiHeader//tei:supportDesc/tei:condition"/>
+            
+            <text qname="tei:place" index="no">
+                <field name="place-n" expression="@n"/>
+                <field name="lname" expression="tei:placeName[@type='main']"/>
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+            </text> 
+            
+            <text qname="tei:person" index="no">
+                <field name="name" expression="tei:persName[@type='full']"/>
+                <field name="person-note" expression="tei:note"/>
+                <field name="type" expression="'Person'"/>
+                <facet dimension="type" expression="'Person'"/>
+            </text>            
+            
         </lucene>
         <range>
             <create qname="@ref" type="xs:string"/>
