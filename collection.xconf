@@ -125,6 +125,7 @@
                 <field name="date-type" match="@type" type="xs:string"/>
             </create>
             <create qname="tei:idno" type="xs:string"/>
+            <create qname="@target" type="xs:string"/>
         </range>
     </index>
 </collection>
