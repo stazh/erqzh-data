@@ -115,8 +115,13 @@
                 <field name="type" expression="'Person'"/>
                 <facet dimension="type" expression="'Person'"/>
             </text>            
-            
+            <text qname="tei:org" index="no">
+                <field name="org-name" expression="tei:orgName"/>
+                <field name="type" expression="'Organization'"/>
+                <facet dimension="type" expression="'Organization'"/>
+            </text>            
         </lucene>
+        
         <range>
             <create qname="@ref" type="xs:string"/>
             <create qname="@scribe" type="xs:string"/>
@@ -125,6 +130,8 @@
                 <field name="date-type" match="@type" type="xs:string"/>
             </create>
             <create qname="tei:idno" type="xs:string"/>
+            <create qname="tei:persName" type="xs:string"/>
+            <create qname="tei:orgName" type="xs:string"/>
         </range>
     </index>
 </collection>
