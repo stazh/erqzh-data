@@ -4,6 +4,8 @@
   <property name="project.version" value="${package(version)}"/>
   <property name="project.app" value="rqzh-data"/>
   <property name="build.dir" value="build"/>
+  <property name="git.repo.path" value="${basedir}/.git"/>
+  <available file="${git.repo.path}" type="dir" property="git.present"/>
   <target name="xar" depends="clean,git.revision">
     <mkdir dir="${build.dir}"/>
     <copy todir="${basedir}" overwrite="true" verbose="true">
