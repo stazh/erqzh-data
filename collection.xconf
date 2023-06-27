@@ -17,6 +17,7 @@
                 <!-- <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/> -->
                 <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <field name="corpus" expression="'rqzh'"/>
 
                 <facet dimension="corpus" expression="'rqzh'"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
