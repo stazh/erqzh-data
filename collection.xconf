@@ -2,18 +2,16 @@
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <lucene>
             <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
-            <text qname="tei:TEI" index="no">
-                <field name="kanton" expression="if (not(@type=('volinfo','introduction','biblio')) and .//tei:text/tei:body/*) then replace(tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
-                <field name="idno" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
-                <field name="title" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
-                <field name="date-min" expression="nav:get-metadata(., 'notBefore')" type="xs:date"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(., 'notBefore'), '-')" hierarchical="yes"/>
-                
-            </text>
             <text match="/tei:TEI/tei:text">
                 <!-- no place or author field available for Sources Online Portal Search -->
                 <!-- <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/> -->
+                <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
+                <field name="idno" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
                 <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
+
+                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
+                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
+
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
                 <field name="corpus" expression="'rqzh'"/>
                 <field name="text" expression="tei:body"/>
@@ -21,7 +19,7 @@
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
-                <field name="type" expression="nav:get-metadata(., 'type')"/>
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <!-- no author or receiver facets available for Sources Online Portal Search; place is always s.l. -->
 
                 <!--field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
