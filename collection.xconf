@@ -5,21 +5,25 @@
             <text match="/tei:TEI/tei:text">
                 <!-- no place or author field available for Sources Online Portal Search -->
                 <!-- <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/> -->
+                <field name="corpus" expression="'rqzh'"/>
+                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
                 <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
                 <field name="idno" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
                 <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
-
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-
-                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
-                <field name="corpus" expression="'rqzh'"/>
                 <field name="text" expression="tei:body"/>
-                <facet dimension="corpus" expression="'rqzh'"/>
-                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
-                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
-                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <field name="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>
+                
+                <facet dimension="corpus" expression="'rqzh'"/>
+                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <facet dimension="person" expression="nav:get-metadata(ancestor::tei:TEI, 'person')"/>
+                
+<!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->
+                
                 <!-- no author or receiver facets available for Sources Online Portal Search; place is always s.l. -->
 
                 <!--field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>

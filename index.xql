@@ -27,6 +27,12 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
     let $header := $root/tei:teiHeader
     return
         switch ($field)
+            case "language" return
+                $root//tei:textLang
+            case "regest" return
+                $header//tei:msContents/tei:summary
+            case "person" return
+                $root//tei:persName/@ref/string()
             case "title" return
                 string-join((
                     $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title
