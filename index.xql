@@ -33,6 +33,13 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:msContents/tei:summary
             case "person" return
                 $root//tei:persName/@ref/string()
+            case "organization" return
+                $root//tei:orgName/@ref/string()
+            case "place" return
+                $root//tei:placeName/@ref/string()
+            case "lemma" 
+            case "keyword" return
+                $root//tei:term/@ref/string()
             case "title" return
                 string-join((
                     $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title

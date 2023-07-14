@@ -21,6 +21,10 @@
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
                 <facet dimension="person" expression="nav:get-metadata(ancestor::tei:TEI, 'person')"/>
+                <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="lemma" expression="nav:get-metadata(ancestor::tei:TEI, 'lemma')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
                 
 <!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->
                 
