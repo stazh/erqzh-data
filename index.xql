@@ -39,7 +39,34 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $root//tei:placeName/@ref/string()
             case "lemma" 
             case "keyword" return
-                $root//tei:term/@ref/string()
+                $header//tei:profileDesc/tei:keywords/tei:term/@ref/string()              
+(:                $root//tei:term/@ref/string():)
+            case "archive" return
+                let $idno := $header//tei:msDesc/tei:msIdentifier/tei:idno
+                return
+                    replace($idno, "^\s*(\w+).*$", "$1")
+            case "seal" return
+                exists($header//tei:msDesc/tei:physDesc/tei:sealDesc/tei:seal)
+            case "filiation" return                
+                let $filiation := $header//tei:filiation[@type="current"]/text()
+                let $title-remove-bracket := if(contains($filiation, "("))
+                        then (substring-before($filiation, "("))                
+                        else ($filiation)
+                
+                let $title-remove-comma := if(contains($title-remove-bracket, ","))
+                        then (substring-before($title-remove-bracket, ","))
+                        else ($title-remove-bracket)
+                        
+                let $title-remove-semicolon := if(contains($title-remove-comma, ";"))
+                        then (substring-before($title-remove-comma, ";"))
+                        else ($title-remove-comma)
+                let $title-check-abschrift := if(contains($title-remove-semicolon, "Abschrift"))
+                        then ("Abschrift")
+                        else ($title-remove-semicolon)
+                return
+                    normalize-space($title-check-abschrift)
+            case "material" return
+                    $root//tei:support/tei:material
             case "title" return
                 string-join((
                     $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title
@@ -48,8 +75,6 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 idx:get-person($header//tei:msDesc//tei:msItem/tei:author)
             case "place" return 
                 's.l.'
-            case "keyword" return
-                $header//tei:profileDesc//tei:keywords//tei:term
             case "notAfter" return
                 idx:get-notAfter(head($header//tei:sourceDesc//tei:history/tei:origin/tei:origDate))
             case "notBefore" return
