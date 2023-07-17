@@ -67,6 +67,14 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     normalize-space($title-check-abschrift)
             case "material" return
                     $root//tei:support/tei:material
+            case "volume" return                
+                let $col := util:collection-name($root)
+                let $volume := substring-after($col,"/db/apps/rqzh-data/")
+                let $data-collections := ("ZH_NF_I_1_3", "ZH_NF_I_1_11", "ZH_NF_I_2_1", "ZH_NF_II_3", "ZH_NF_II_11")
+                return
+                    if( $volume = $data-collections )
+                    then ($volume)
+                    else ()
             case "title" return
                 string-join((
                     $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title

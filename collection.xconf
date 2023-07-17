@@ -29,6 +29,7 @@
                 <facet dimension="seal" expression="nav:get-metadata(ancestor::tei:TEI, 'seal')"/>
                 <facet dimension="filiation" expression="nav:get-metadata(ancestor::tei:TEI, 'filiation')"/>
                 <facet dimension="material" expression="nav:get-metadata(ancestor::tei:TEI, 'material')"/>
+                <facet dimension="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
                 
                 
 <!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->
