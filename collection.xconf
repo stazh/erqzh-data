@@ -50,6 +50,36 @@
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
                 <field name="file" expression="util:document-name(.)"/-->
             </text>
+            
+            <text qname="tei:person" index="no">
+                <field name="name" expression="tei:persName[@type='full']"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-person')"/>
+                <field name="person-note" expression="tei:note"/>
+                <field name="type" expression="'Person'"/>
+                <facet dimension="type" expression="'Person'"/>
+            </text>    
+            <text qname="tei:org" index="no">
+                <field name="name" expression="tei:orgName"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-org')"/>
+                <field name="type" expression="'Organization'"/>
+                <facet dimension="type" expression="'Organization'"/>
+            </text>   
+            <text qname="tei:place" index="no">
+                <field name="name" expression="tei:placeName[@type='main']"/>
+                <field name="place-n" expression="@n"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-place')"/>
+                <field name="type" expression="'Place'"/>
+                <facet dimension="type" expression="'Place'"/>
+            </text> 
+            <text qname="tei:category" index="no">
+                <field name="name" expression="tei:desc[@xml:lang='deu']"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-category')"/>
+                <field name="type" expression="'Keyword'"/>
+                <facet dimension="type" expression="'Keyword'"/>
+            </text> 
+            
+            
+            
             <!-- text qname="tei:body">
                 <ignore qname="tei:note"/>
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
@@ -120,24 +150,7 @@
             </text>
             <text match="//tei:teiHeader//tei:supportDesc/tei:condition"/>
             
-            <text qname="tei:place" index="no">
-                <field name="place-n" expression="@n"/>
-                <field name="lname" expression="tei:placeName[@type='main']"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-            </text> 
-            
-            <text qname="tei:person" index="no">
-                <field name="name" expression="tei:persName[@type='full']"/>
-                <field name="person-note" expression="tei:note"/>
-                <field name="type" expression="'Person'"/>
-                <facet dimension="type" expression="'Person'"/>
-            </text>            
-            <text qname="tei:org" index="no">
-                <field name="org-name" expression="tei:orgName"/>
-                <field name="type" expression="'Organization'"/>
-                <facet dimension="type" expression="'Organization'"/>
-            </text-->            
+            -->            
         </lucene>
         
         <range>

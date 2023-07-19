@@ -5,6 +5,8 @@ module namespace idx="http://teipublisher.com/index";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace dbk="http://docbook.org/ns/docbook";
 
+declare variable $idx:volumes := ("ZH_NF_I_1_3", "ZH_NF_I_1_11", "ZH_NF_I_2_1", "ZH_NF_II_3", "ZH_NF_II_11");
+
 declare variable $idx:app-root :=
     let $rawPath := system:get-module-load-path()
     return
@@ -70,11 +72,46 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "volume" return                
                 let $col := util:collection-name($root)
                 let $volume := substring-after($col,"/db/apps/rqzh-data/")
-                let $data-collections := ("ZH_NF_I_1_3", "ZH_NF_I_1_11", "ZH_NF_I_2_1", "ZH_NF_II_3", "ZH_NF_II_11")
                 return
-                    if( $volume = $data-collections )
+                    if( $volume = $idx:volumes )
                     then ($volume)
                     else ()
+            case "register-person" return
+                let $matches :=  
+                    for $volume in $idx:volumes
+                        return
+                            if(collection("/db/apps/rqzh-data/" || $volume)//tei:persName[@ref=$root/@xml:id]) 
+                            then $volume
+                            else () 
+                return
+                    $matches
+            case "register-org" return
+                let $matches :=  
+                    for $volume in $idx:volumes
+                        return
+                            if(collection("/db/apps/rqzh-data/" || $volume)//tei:orgName[@ref=$root/@xml:id]) 
+                            then $volume
+                            else () 
+                return
+                    $matches
+            case "register-place" return
+                let $matches :=  
+                    for $volume in $idx:volumes
+                        return
+                            if(collection("/db/apps/rqzh-data/" || $volume)//tei:placeName[@ref=$root/@xml:id]) 
+                            then $volume
+                            else () 
+                return
+                    $matches
+            case "register-category" return
+                let $matches :=  
+                    for $volume in $idx:volumes
+                        return
+                            if(collection("/db/apps/rqzh-data/" || $volume)//tei:term[@ref=$root/@xml:id]) 
+                            then $volume
+                            else () 
+                return
+                    $matches
             case "title" return
                 string-join((
                     $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title
