@@ -11,6 +11,7 @@
                 <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
                 <field name="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>
                 <field name="text" expression="tei:body"/>
+                <field name="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
                 <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>                
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>                
