@@ -7,46 +7,39 @@
                 <!-- <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/> -->
                 <field name="corpus" expression="'rqzh'"/>
                 <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-                <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
                 <field name="idno" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
-                <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
-                <field name="text" expression="tei:body"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
                 <field name="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>
+                <field name="text" expression="tei:body"/>
+                <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>                
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>                
                 
+                <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="corpus" expression="'rqzh'"/>
                 <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
-                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
-                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
-                <facet dimension="person" expression="nav:get-metadata(ancestor::tei:TEI, 'person')"/>
-                <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
-                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
-                <facet dimension="lemma" expression="nav:get-metadata(ancestor::tei:TEI, 'lemma')"/>
-                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
-                <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
-                <facet dimension="seal" expression="nav:get-metadata(ancestor::tei:TEI, 'seal')"/>
                 <facet dimension="filiation" expression="nav:get-metadata(ancestor::tei:TEI, 'filiation')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="lemma" expression="nav:get-metadata(ancestor::tei:TEI, 'lemma')"/>
                 <facet dimension="material" expression="nav:get-metadata(ancestor::tei:TEI, 'material')"/>
+                <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
+                <facet dimension="person" expression="nav:get-metadata(ancestor::tei:TEI, 'person')"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="seal" expression="nav:get-metadata(ancestor::tei:TEI, 'seal')"/>
                 <facet dimension="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
-                
-                
-<!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->
-                
-                <!-- no author or receiver facets available for Sources Online Portal Search; place is always s.l. -->
+                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
 
+
+<!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->                
+                <!-- no author or receiver facets available for Sources Online Portal Search; place is always s.l. -->
                 <!--field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
                 <field name="date-max" expression="nav:get-metadata(ancestor::tei:TEI, 'notAfter')" type="xs:date"/>
-
                 <field name="notAfter" expression="nav:get-metadata(ancestor::tei:TEI, 'notAfter')"/>
                 <field name="notBefore" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-
                 <field name="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
-
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
-
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
                 <field name="file" expression="util:document-name(.)"/-->
             </text>
