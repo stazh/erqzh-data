@@ -113,9 +113,9 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 return
                     $matches
             case "title" return
-                string-join((
-                    $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title
-                ), " - ")
+                $header//tei:msDesc/tei:head
+            case "comment" return
+                $root//tei:back
             case "author" return 
                 idx:get-person($header//tei:msDesc//tei:msItem/tei:author)
             case "place" return 
