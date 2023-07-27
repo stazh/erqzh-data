@@ -84,7 +84,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                             then $volume
                             else () 
                 return
-                    $matches
+                    string-join($matches,",")
             case "register-org" return
                 let $matches :=  
                     for $volume in $idx:volumes
@@ -93,7 +93,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                             then $volume
                             else () 
                 return
-                    $matches
+                    string-join($matches,",")
             case "register-place" return
                 let $matches :=  
                     for $volume in $idx:volumes
@@ -102,7 +102,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                             then $volume
                             else () 
                 return
-                    $matches
+                    string-join($matches,",")
             case "register-category" return
                 let $matches :=  
                     for $volume in $idx:volumes
@@ -111,7 +111,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                             then $volume
                             else () 
                 return
-                    $matches
+                    string-join($matches,",")
             case "title" return
                 $header//tei:msDesc/tei:head
             case "comment" return
