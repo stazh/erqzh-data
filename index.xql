@@ -39,10 +39,9 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $root//tei:orgName/@ref/string()
             case "place" return
                 $root//tei:placeName/@ref/string()
-            case "lemma" 
             case "keyword" return
-                $header//tei:profileDesc/tei:keywords/tei:term/@ref/string()              
-(:                $root//tei:term/@ref/string():)
+(:                $header//tei:profileDesc/tei:keywords/tei:term/@ref/string():)
+                $root//tei:term/@ref/string()
             case "archive" return
                 let $idno := $header//tei:msDesc/tei:msIdentifier/tei:idno
                 return
