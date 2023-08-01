@@ -34,6 +34,7 @@
                 <facet dimension="seal" expression="nav:get-metadata(ancestor::tei:TEI, 'seal')"/>
                 <facet dimension="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
                 <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
 
 
 <!--                <facet dimension="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>-->                
