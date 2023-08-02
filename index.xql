@@ -133,6 +133,10 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     'variant'
                 else if ($root/@type='introduction') then
                     'introduction'
+                else if ($root/@type='about') then
+                    'about'
+                else if ($root/@type='help') then
+                    'help'
                 else 
                     'document'
             default return
