@@ -19,7 +19,7 @@
                 <field name="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>                
-                
+                <field name="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="corpus" expression="'rqzh'"/>
                 <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
