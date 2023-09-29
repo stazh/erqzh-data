@@ -23,7 +23,7 @@
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="corpus" expression="'rqzh'"/>
                 <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                
+                <facet dimension="filiation" expression="nav:get-metadata(ancestor::tei:TEI, 'filiation')"/>                                
                 <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <facet dimension="lemma" expression="nav:get-metadata(ancestor::tei:TEI, 'lemma')"/>
