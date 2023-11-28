@@ -1,132 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <fulltext default="none" attributes="false"/>
         <lucene>
             <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
-            <text qname="tei:TEI" index="no">
-                <field name="kanton" expression="if (not(@type=('volinfo','introduction','biblio')) and .//tei:text/tei:body/*) then replace(tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
-                <field name="idno" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
-                <field name="title" expression="if (not(@type=('volinfo','introduction','biblio'))) then tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
-                <field name="date-min" expression="nav:get-metadata(., 'notBefore')" type="xs:date"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(., 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="type" expression="nav:get-metadata(., 'type')"/>
-            </text>
-            <text match="/tei:TEI/tei:text">
+            <text qname="tei:TEI"/>
+            <text match="/tei:TEI/tei:text" index="no">
                 <!-- no place or author field available for Sources Online Portal Search -->
-                <!-- <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/> -->
-                <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>
-                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <field name="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <field name="corpus" expression="'rqzh'"/>
-
+                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
+                <field name="idno" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno else '000XXX'||@subtype"/>
+                <field name="filiation" expression="nav:get-metadata(ancestor::tei:TEI, 'filiation')"/>                
+                <field name="kanton" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio')) and ./tei:body/*) then replace(ancestor::tei:TEI/tei:teiHeader//tei:seriesStmt/tei:idno, '^[^_]+_([^_]+).*$', '$1') else 'XXX'"/>
+                <field name="material" expression="nav:get-metadata(ancestor::tei:TEI, 'material')"/>                
+                <field name="regest" expression="nav:get-metadata(ancestor::tei:TEI, 'regest')"/>
+                <field name="comment" expression="nav:get-metadata(ancestor::tei:TEI, 'comment')"/>
+                <field name="text" expression=".//tei:body"/>
+                <field name="title" expression="if (not(ancestor::tei:TEI/@type=('volinfo','introduction','biblio'))) then ancestor::tei:TEI/tei:teiHeader//tei:msDesc/tei:head else '000XXX'||@subtype"/>                
+                <field name="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>                
+                
+                <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="corpus" expression="'rqzh'"/>
+                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
+                <facet dimension="filiation" expression="nav:get-metadata(ancestor::tei:TEI, 'filiation')"/>                                
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
-                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+                <facet dimension="lemma" expression="nav:get-metadata(ancestor::tei:TEI, 'lemma')"/>
+                <facet dimension="material" expression="nav:get-metadata(ancestor::tei:TEI, 'material')"/>
+                <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
+                <facet dimension="person" expression="nav:get-metadata(ancestor::tei:TEI, 'person')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
-                <!-- no author or receiver facets available for Sources Online Portal Search; place is always s.l. -->
-
-                <!--field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-                <field name="date-max" expression="nav:get-metadata(ancestor::tei:TEI, 'notAfter')" type="xs:date"/>
-
-                <field name="notAfter" expression="nav:get-metadata(ancestor::tei:TEI, 'notAfter')"/>
-                <field name="notBefore" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-
-                <field name="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
-
-                <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
-
-                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
-                <field name="file" expression="util:document-name(.)"/-->
+                <facet dimension="seal" expression="nav:get-metadata(ancestor::tei:TEI, 'seal')"/>
+                <facet dimension="volume" expression="nav:get-metadata(ancestor::tei:TEI, 'volume')"/>
+                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
             </text>
-            <text qname="tei:body">
-                <ignore qname="tei:note"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text qname="tei:back">
-                <ignore qname="tei:note"/>
-                <ignore qname="tei:orig"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title">
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:fileDesc/tei:titleStmt/tei:title">
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:msDesc/tei:head">
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:msDesc/tei:msIdentifier/tei:idno">
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:msDesc/tei:msContents/tei:summary">
-                <ignore qname="tei:orig"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:body/tei:note">
-                <ignore qname="tei:orig"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:back/tei:note">
-                <ignore qname="tei:orig"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:body//tei:note//tei:orig">
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:back//tei:orig">
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:msDesc/tei:msContents/tei:summary//tei:orig">
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="date-min" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')" type="xs:date"/>
-            </text>
-            <text match="//tei:teiHeader//tei:seal">
-                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-            </text>
-            <text match="//tei:teiHeader//tei:supportDesc/tei:condition"/>
-            
-            <text qname="tei:place" index="no">
-                <field name="place-n" expression="@n"/>
-                <field name="lname" expression="tei:placeName[@type='main']"/>
-                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-                <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
-            </text> 
             
             <text qname="tei:person" index="no">
                 <field name="name" expression="tei:persName[@type='full']"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-person')"/>
                 <field name="person-note" expression="tei:note"/>
                 <field name="type" expression="'Person'"/>
                 <facet dimension="type" expression="'Person'"/>
-            </text>            
+            </text>    
             <text qname="tei:org" index="no">
-                <field name="org-name" expression="tei:orgName"/>
+                <field name="name" expression="tei:orgName"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-org')"/>
                 <field name="type" expression="'Organization'"/>
                 <facet dimension="type" expression="'Organization'"/>
-            </text>            
+            </text>   
+            <text qname="tei:place" index="no">
+                <field name="name" expression="tei:placeName[@type='main']"/>
+                <field name="place-n" expression="@n"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-place')"/>
+                <field name="type" expression="'Place'"/>
+                <facet dimension="type" expression="'Place'"/>
+            </text> 
+            <text qname="tei:category" index="no">
+                <field name="name" expression="tei:desc[@xml:lang='deu']"/>
+                <field name="volume" expression="nav:get-metadata(.,'register-category')"/>
+                <field name="type" expression="'Keyword'"/>
+                <facet dimension="type" expression="'Keyword'"/>
+            </text> 
         </lucene>
         
         <range>

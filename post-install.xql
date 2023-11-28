@@ -13,4 +13,5 @@ declare variable $target external;
 
 xmldb:create-collection($target, "temp"),
 sm:chown(xs:anyURI($target || "/temp"), "rqzh"),
-sm:chgrp(xs:anyURI($target || "/temp"), "tei")
+sm:chgrp(xs:anyURI($target || "/temp"), "tei"),
+xmldb:reindex("/db/apps/rqzh-data/")
