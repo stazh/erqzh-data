@@ -38,6 +38,7 @@
             
             <text qname="tei:person" index="no">
                 <field name="name" expression="tei:persName[@type='full']"/>
+                <field name="name-s" expression="tei:persName[@type='full_sorted']"/>
                 <field name="volume" expression="nav:get-metadata(.,'register-person')"/>
                 <field name="person-note" expression="tei:note"/>
                 <field name="type" expression="'Person'"/>
